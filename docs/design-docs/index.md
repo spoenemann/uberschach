@@ -5,3 +5,4 @@ design as built. The label says whether a session may rely on a doc or must
 re-check it: `verified <date>`, `unverified`, or `historical`.
 
 - [design-system.md](design-system.md) — verified 2026-10-23
+- [visual-verification.md](visual-verification.md) — verified 2026-10-23

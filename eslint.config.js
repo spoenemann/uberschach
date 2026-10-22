@@ -48,6 +48,11 @@ export default tseslint.config(
     },
   },
   { files: ["**/*.{js,mjs,cjs}"], ...tseslint.configs.disableTypeChecked },
+  {
+    // scripts/ run under Node; these are the globals they use.
+    files: ["scripts/**/*.mjs"],
+    languageOptions: { globals: { console: "readonly", process: "readonly" } },
+  },
   eslintComments.recommended,
   reactHooks.configs.flat.recommended,
   reactRefresh.configs.vite,

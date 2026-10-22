@@ -1,4 +1,4 @@
-# uberschach
+# Uberschach
 
 Chess training app for the browser, built first for the maintainer's own
 training and published on GitHub Pages for anyone who finds it useful. Static
@@ -12,12 +12,14 @@ Timings are warm runs on the empty scaffold.
 
 ```sh
 npm install                          # bootstrap
-npm run check                        # typecheck, lint, test --coverage, build; ~4 s
+npm run check                        # typecheck, lint, test --coverage, build, visual check; ~5 s
 npm run typecheck                    # tsc -b
 npm run lint                         # eslint, with why/fix/exception guidance under each failure
 npm test                             # vitest run; `npm test -- --coverage` adds the domain threshold
 npx vitest run src/app/App.test.tsx  # one test file
 npm run build                        # vite build to dist/
+npm run check:visual                 # renders dist/ in headless system Chrome, writes screenshots; needs the build
+npm run check:visual -- / /tmp/x.mjs # the given routes, plus a disposable ad-hoc check module
 npm run dev                          # http://localhost:5173/uberschach/ (the base path is part of the URL)
 ```
 
@@ -30,6 +32,7 @@ npm run dev                          # http://localhost:5173/uberschach/ (the ba
 - `src/app/` — entry point, wiring, browser storage.
 - Layers import downward only, app → ui → content → domain. `eslint.config.js` enforces it and mirrors the table in `docs/ARCHITECTURE.md`.
 - `scripts/eslint-guidance.mjs` — the why/fix/exception text printed under lint failures; every new lint rule gets an entry.
+- `scripts/visual-check.mjs` — the universal rendering invariants and screenshots (`docs/design-docs/visual-verification.md`); route- or feature-specific checks are disposable ad-hoc modules, never committed. `npm run check` needs Google Chrome installed, or `CHROME_PATH`.
 
 ## Boundaries and definition of done
 
@@ -38,6 +41,7 @@ npm run dev                          # http://localhost:5173/uberschach/ (the ba
 - `.github/workflows/ci.yml` is the deploy. A change there is a change to production.
 - Never commit secrets. The app needs none: it has no backend.
 - Done means `npm run check` passes, run in this session with its output shown.
+- A change to anything rendered (`src/ui/`, `src/app/`, `index.html`) is looked at: open the screenshots `npm run check` writes, and check the specifics with a disposable ad-hoc module when looking is not enough (`docs/design-docs/visual-verification.md`). Green checks do not see a blank or misaligned frame.
 - A change to `src/domain/` includes a test; the per-file coverage threshold in `vite.config.ts` enforces it.
 - A change to intended behaviour updates its spec under `docs/product-specs/` in the same commit; a new capability gets its spec before its code.
 - A change to the look (a token, a base style, a visual rule) updates `docs/design-docs/design-system.md` in the same commit, as a dated amendment.

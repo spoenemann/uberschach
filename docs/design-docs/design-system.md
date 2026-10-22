@@ -159,4 +159,6 @@ of modern looks and classic chess vibes (wood, tangible), kept simple.
 
 ## Amendments
 
-- (none yet)
+- 2026-10-23: the no-third-party-request rule under Cross-cutting concerns
+  gained a sensor: `scripts/visual-check.mjs` fails `npm run check` on any
+  request off the origin (`visual-verification.md`).
