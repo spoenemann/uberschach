@@ -1,6 +1,6 @@
 # Exec plan: day-one agent-ready (AX) setup
 
-- **Status**: active (in `docs/exec-plans/active/`; move the file to `completed/` when done)
+- **Status**: completed on 2026-10-23
 - **Goal**: the empty repo becomes a scaffold an agent can bootstrap, change,
   and verify with one command each, with the project's foundations recorded
   in durable docs. Done when every check fires on a deliberate failure and
@@ -14,8 +14,8 @@
 - [x] One command bootstraps a fresh checkout; one command runs every check.
 - [x] Typecheck, lint (with module-boundary rules) and unit tests each fail
       on a deliberate violation, with a self-correction message.
-- [ ] The check suite runs on `main` in CI (unproven until the first push;
-      the maintainer closes this item).
+- [x] The check suite runs on `main` in CI (first run green, 39 s, run
+      39863700074).
 - [x] AGENTS.md (with a pure-import CLAUDE.md) cites every verified command
       and every check.
 - [x] No chess logic, screens, or seeded content beyond a smoke-tested
@@ -34,7 +34,7 @@
 - [x] Proof: every sensor fires on a deliberate failure; claim check; roadmap.
 - [x] Maintainer review before the first commit: decision records folded
       into this log, audience corrected, setup simplified.
-- [ ] First push: CI green and the Pages deploy live (maintainer).
+- [x] First push: CI green and the Pages deploy live.
 
 ## Progress log
 
@@ -53,8 +53,10 @@
 - 2026-10-23: Maintainer review before the first commit. Four decision
   records removed and folded into the decision log below; the maintainer's
   name removed from the repo; audience corrected in the product brief and
-  AGENTS.md; Prettier, secretlint and the git hooks removed. Remaining:
-  first push.
+  AGENTS.md; Prettier, secretlint and the git hooks removed.
+- 2026-10-23: First commit pushed by the maintainer. CI run 39863700074
+  green in 39 s; https://spoenemann.github.io/uberschach/ serves the page
+  and its script (both HTTP 200, checked with curl). Plan completed.
 
 ## Decision log
 
@@ -113,12 +115,13 @@
 
 - Opening explainer specification (owner: the maintainer; blocks feature
   work, not this setup).
-- The CI workflow has only been syntax-checked; its first run proves it.
 
 ## Roadmap (deferred, foundational first)
 
-1. Push, watch the CI run and the Pages deploy, then move this plan to
-   `completed/`.
+Item 1 is done. Each remaining item becomes its own plan when picked up.
+
+1. ~~Push, watch the CI run and the Pages deploy, then move this plan to
+   `completed/`.~~ Done 2026-10-23.
 2. When the opening explainer is specified: its product spec first, then an
    exec plan; the chess rules and board library choice is logged there.
 3. A browser-level smoke test (Playwright against `vite preview`) once a
