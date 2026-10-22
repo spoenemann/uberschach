@@ -1,0 +1,49 @@
+import react from "@vitejs/plugin-react";
+import { defineConfig } from "vitest/config";
+
+export default defineConfig({
+  // Must match the GitHub Pages project URL, https://spoenemann.github.io/uberschach/
+  // (docs/ARCHITECTURE.md, Shape). A wrong base still builds; the deployed page would then
+  // request its script from the wrong path.
+  base: "/uberschach/",
+  plugins: [react()],
+  test: {
+    // Two test environments, split by layer (docs/ARCHITECTURE.md, Invariants):
+    // domain and content run in plain Node, so any DOM access fails there.
+    // A test file outside these globs never runs; the lint rule
+    // boundaries/no-unknown-files is what catches that.
+    projects: [
+      {
+        extends: true,
+        test: {
+          name: "node",
+          environment: "node",
+          include: ["src/domain/**/*.test.ts", "src/content/**/*.test.ts"],
+        },
+      },
+      {
+        extends: true,
+        test: {
+          name: "dom",
+          environment: "jsdom",
+          include: ["src/ui/**/*.test.{ts,tsx}", "src/app/**/*.test.{ts,tsx}"],
+        },
+      },
+    ],
+    coverage: {
+      // "A test with every domain change" (AGENTS.md, definition of done),
+      // measured per file over src/domain only. Raise, never lower.
+      provider: "v8",
+      include: ["src/domain/**/*.ts"],
+      exclude: ["src/domain/**/*.test.ts"],
+      thresholds: {
+        perFile: true,
+        lines: 90,
+        functions: 90,
+        branches: 80,
+        statements: 90,
+      },
+      reporter: ["text", "html"],
+    },
+  },
+});
