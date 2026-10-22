@@ -1,0 +1,11 @@
+/* The page frame: one centred column with the side gutter the design system
+   requires (docs/design-docs/design-system.md, Layout). */
+.page {
+  display: grid;
+  gap: var(--space-4);
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding-block: var(--space-12);
+  padding-left: max(var(--space-4), env(safe-area-inset-left, 0px));
+  padding-right: max(var(--space-4), env(safe-area-inset-right, 0px));
+}

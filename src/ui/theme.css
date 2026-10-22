@@ -1,0 +1,147 @@
+/* Design tokens and base element styles: docs/design-docs/design-system.md.
+   Every colour, type, space, radius, shadow and motion value used under
+   src/ui and src/app is declared here and used as var(--name); a component's
+   CSS Module never contains a literal colour. Imported once, in
+   src/app/main.tsx. Light theme only. */
+
+:root {
+  color-scheme: light;
+
+  /* Colour: warm neutrals leaning toward the maple of the board. */
+  --color-bg: #fcfaf6; /* the page: a warm white */
+  --color-surface: #ffffff; /* cards and controls */
+  --color-ink: #241c14;
+  --color-ink-muted: #6e5f4f;
+  --color-hairline: #e5ddd0; /* borders and rules */
+  --color-accent: #2f6846; /* forest green: links, primary action, selection */
+  --color-accent-strong: #25533a; /* hover and pressed */
+  --color-accent-tint: rgb(47 104 70 / 0.14); /* selected rows, current move */
+  --color-good: #2f6846; /* a correct answer; shares the accent hue, so it always comes with a word */
+  --color-bad: #a63a2b; /* a mistake */
+  --color-note: #8f6214; /* a hint or caveat */
+
+  /* Board: maple and walnut, flat; depth from the edge and shadow only. */
+  --board-light: #ebd8b6;
+  --board-dark: #9c6b43;
+  --board-edge: rgb(36 28 20 / 0.35);
+  --board-shadow:
+    0 1px 2px rgb(36 28 20 / 0.18),
+    0 10px 28px -10px rgb(36 28 20 / 0.35);
+  --board-highlight: rgb(47 104 70 / 0.5); /* last move, selected square */
+  --board-target: rgb(47 104 70 / 0.5); /* legal-move dot */
+
+  /* Type: system faces only. Headings serif, everything else sans. */
+  --font-heading:
+    ui-serif, "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-body:
+    system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --leading-body: 1.55;
+  --leading-heading: 1.2;
+  --measure: 42rem; /* longest line of running text */
+
+  /* Space: a 4px grid, applied with gap and padding, not margins. */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+
+  /* Shape */
+  --radius-control: 10px;
+  --radius-board: 8px;
+
+  /* Motion: pieces slide; nothing else moves. */
+  --duration-hover: 120ms;
+  --duration-move: 150ms;
+  --ease-out: cubic-bezier(0.2, 0, 0, 1);
+
+  /* Layout. Below 40rem the layout stacks to one column; custom properties
+     cannot be used in media queries, so that one value is repeated as a
+     literal in each CSS Module that needs it. */
+  --content-max: 64rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 100%;
+  line-height: var(--leading-body);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-weight: 500;
+  line-height: var(--leading-heading);
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: var(--text-2xl);
+}
+
+h2 {
+  font-size: var(--text-xl);
+}
+
+h3 {
+  font-size: var(--text-lg);
+}
+
+p {
+  margin: 0;
+  max-width: var(--measure);
+}
+
+a {
+  color: var(--color-accent);
+  text-underline-offset: 0.15em;
+}
+
+a:hover {
+  color: var(--color-accent-strong);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

@@ -29,7 +29,7 @@ Nothing imports upward.
 | -------------- | --------------------------------------------------------------------- | ------------------------- |
 | `src/domain/`  | Pure TypeScript: chess and training logic. No React, no browser APIs. | nothing in `src/`         |
 | `src/content/` | Opening content as typed data files.                                  | `domain`                  |
-| `src/ui/`      | React components.                                                     | `domain`, `content`       |
+| `src/ui/`      | React components, their CSS Modules, and the design tokens.           | `domain`, `content`       |
 | `src/app/`     | Composition root: entry point, routing, browser storage, wiring.      | `domain`, `content`, `ui` |
 
 Enforced by: `boundaries/dependencies` and `boundaries/no-unknown-files` in
@@ -49,6 +49,7 @@ Enforced by: `boundaries/dependencies` and `boundaries/no-unknown-files` in
 
 ## Where everything else lives
 
-- `docs/` — the system of record: this file, `exec-plans/`, `product-specs/`.
+- `docs/` — the system of record: this file, `design-docs/`, `exec-plans/`,
+  `product-specs/`.
 - `.github/workflows/` — CI and the Pages deploy. A push to `main` that
   passes CI deploys, so changes here are sensitive.

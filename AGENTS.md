@@ -26,6 +26,7 @@ npm run dev                          # http://localhost:5173/uberschach/ (the ba
 - `src/domain/` — chess and training logic in pure TypeScript; tests run in plain Node.
 - `src/content/` — opening content as typed data files.
 - `src/ui/` — React components.
+- `src/ui/theme.css` — every colour, type, space, radius, shadow and motion value, as CSS custom properties; a component's CSS Module uses them, never a literal (`docs/design-docs/design-system.md`).
 - `src/app/` — entry point, wiring, browser storage.
 - Layers import downward only, app → ui → content → domain. `eslint.config.js` enforces it and mirrors the table in `docs/ARCHITECTURE.md`.
 - `scripts/eslint-guidance.mjs` — the why/fix/exception text printed under lint failures; every new lint rule gets an entry.
@@ -39,6 +40,7 @@ npm run dev                          # http://localhost:5173/uberschach/ (the ba
 - Done means `npm run check` passes, run in this session with its output shown.
 - A change to `src/domain/` includes a test; the per-file coverage threshold in `vite.config.ts` enforces it.
 - A change to intended behaviour updates its spec under `docs/product-specs/` in the same commit; a new capability gets its spec before its code.
+- A change to the look (a token, a base style, a visual rule) updates `docs/design-docs/design-system.md` in the same commit, as a dated amendment.
 - A structural change (a layer added or moved, a new allowed dependency) updates `docs/ARCHITECTURE.md`, `eslint.config.js` and `vite.config.ts` in the same commit.
 - Work that spans sessions runs from a plan in `docs/exec-plans/active/`; its progress, decisions and verification output go there and nowhere else.
 - A recurring agent mistake is engineered away in the same change as its fix: a line here, then a doc, then a lint rule or test. Never by repeating the instruction.
@@ -48,4 +50,5 @@ npm run dev                          # http://localhost:5173/uberschach/ (the ba
 
 - `docs/ARCHITECTURE.md` — where things live, what may depend on what, the stack and deploy shape, the invariants and the check that enforces each; names and points, never explains a reason.
 - `docs/product-specs/index.md` — one spec per capability: intent, promises, non-promises; never restated code or task state.
+- `docs/design-docs/index.md` — one doc per system: how it is built, its invariants, the alternatives it rejected; each with a trust label. The design system (tokens, board, type, layout) is the first.
 - `docs/exec-plans/` — plans in `active/` with progress and decision logs, moved to `completed/` when done; single-session work gets none. Decision rationale goes in a plan's decision log, not in a separate records folder.
