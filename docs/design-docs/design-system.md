@@ -26,10 +26,11 @@ looks with classic chess vibes: wood, tangible, kept simple.
 - Non-goal: a dark theme. Light only; `prefers-color-scheme` is ignored. A
   dark theme later is a new decision, recorded here as an amendment, not a
   quiet addition.
-- Non-goal: a board library and a rules engine. The board is a plain
-  component of this project (`src/ui/board/`), display only; interaction,
-  moving pieces and the rules library come with the opening explorer and
-  are a new decision in its plan.
+- Non-goal: a board library. The board is a plain component of this
+  project (`src/ui/board/`): it draws a position, highlights, target marks
+  and candidate arrows, and reports pointer input by square and by arrow;
+  what a click means is the screen's. The rules are the project's own
+  engine (`chess-rules-engine.md`).
 - Non-goal: a component library. Shared Button or Card components appear
   when a second screen needs them, not before.
 - Non-goal: branding. No logo, illustration or marketing page; the app name
@@ -198,9 +199,12 @@ looks with classic chess vibes: wood, tangible, kept simple.
   `prefers-reduced-motion` respected. The board is an image named by the
   position in words (`describeBoard` in `src/ui/board/describe.ts`), and
   each piece names itself ("white knight"), both in the visitor's language
-  (`docs/localization.md`). Open: board highlights are low
-  in luminance contrast by design; a selected-square cue beyond colour is
-  decided when the board becomes interactive.
+  (`docs/localization.md`). Board highlights are low in luminance contrast
+  by design; the selected square's cue beyond colour is the target marks on
+  the squares its piece can reach (Amendments, 2026-10-23, the explorer).
+  Moving a piece on the board is pointer input; the keyboard and screen
+  readers reach the candidates through the panel's list, as the explorer
+  spec promises, and every other control is a button.
 - Performance and privacy: no web fonts, no images in the chrome, no
   third-party request.
 - Print: not considered.
@@ -226,3 +230,37 @@ looks with classic chess vibes: wood, tangible, kept simple.
   current language in ink and not underlined, each language named in
   itself. Came with the localization work (`docs/localization.md`); no
   token added.
+- 2026-10-23: the opening explorer and the entry page (Layout, Board,
+  Colour, Icons). Decided from the screenshots of the built screen at both
+  widths, over four other shapes recorded in the explorer plan's decision
+  log. *Layout*: the explorer puts what the visitor does on the left (the
+  board; under it the line as one wrapping row of moves, the current one
+  on `--color-accent-tint` in `--color-accent-strong` at weight 500, move
+  numbers muted; under that one quiet row of controls: back and forward as
+  chevrons with an accessible name, Reset and Flip board as text, in muted
+  ink, disabled at 0.35 opacity) and what they read on the right (one
+  move's information, then the candidates as the one list); below 40rem it
+  stacks, board first. The page frame gained a header row: the wordmark as
+  a link home in `--text-xl` ink, the screen's name beside it in muted ink.
+  The entry page is a grid of cards, each an object (hairline border,
+  surface, `--radius-control`): the name in the heading face, one sentence
+  in muted ink, the accent on the border on hover. A candidate in the list
+  is a button of the same make: the move, where it leads in muted ink, the
+  rating. *Board*: candidate arrows (`src/ui/board/arrows.ts`), one filled
+  polygon each from 0.36 squares off the centre of the piece's square to
+  the centre of the target, so the piece stays visible and clickable; two
+  tokens, `--board-arrow-strong` for a rating of 5 and `--board-arrow-light`
+  for 4, the `--color-accent-strong` hue at 0.85 and 0.5 opacity and the
+  lighter one narrower, so a candidate is told from the last-move highlight
+  by form (a line, not a fill) and the two ratings by weight; an arrow
+  turns opaque on hover. A second hue for the arrows was rejected: the
+  accent is the colour of the next action, and `--color-note` reads 1.3:1
+  on walnut. Legal targets: `--board-target` as a dot filling 28% of an
+  empty square and a ring around a piece that can be captured, above the
+  piece; the selected square takes `--board-highlight`. *Ratings*: five
+  tokens `--rating-1` to `--rating-5`, red through to green: 1 is
+  `--color-bad`, 3 `--color-note`, 5 `--color-good`; 2 is `#ad4e1c` (5.2:1
+  on the page) and 4 `#557a27` (4.8:1), measured as the invariant asks.
+  Shown as a dot and the word in that colour at `--text-sm`, never a fill,
+  so the word is always there. *Icons*: the chevrons are the first use of
+  the two icons the rule allows.

@@ -13,11 +13,13 @@ pixels it ships, not at the code that produces it.
 1. `npm run build` — the check renders the production build in `dist/`,
    which is what Pages deploys, never the dev server. It fails with
    instructions if `dist/` is missing.
-2. `npm run check:visual` — the root route; or
-   `npm run check:visual -- / '#/openings'` for given routes, relative to
-   the project path. Arguments ending in `.mjs` plug in ad-hoc check modules
-   (below). It serves `dist/` itself on an ephemeral port; nothing else
-   needs to run. About 2 s for one route.
+2. `npm run check:visual` — every screen (the `ROUTES` list at the top of
+   the script: the entry page and the explorer at the initial position; a
+   new screen is a line there); or
+   `npm run check:visual -- / '#/openings?line=1.e4'` for given routes,
+   relative to the project path. Arguments ending in `.mjs` plug in ad-hoc
+   check modules (below). It serves `dist/` itself on an ephemeral port;
+   nothing else needs to run. About 2 s for one route.
 
 Every route is visited at a desktop and a phone viewport (the layout stacks
 below 40rem: `design-docs/design-system.md`, Layout), and each visit writes

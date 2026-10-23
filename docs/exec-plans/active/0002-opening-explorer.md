@@ -15,9 +15,11 @@
 - [x] The first move: all twenty legal moves rated and explained, the twenty
       positions named, each background verified and sourced, in English and
       German (`src/content/firstMoves*.ts`, `src/content/openings.test.ts`).
-- [ ] The explorer screen at `#/openings`: board with moves, panel,
-      candidates, the line, the address, the flip control, game end.
-- [ ] The entry page with the explorer card (`product-brief.md`).
+- [x] The explorer screen at `#/openings`: board with moves, panel,
+      candidates, the line, the address, the flip control, game end
+      (`src/ui/explorer/`, `src/app/route.ts`; tests named in the spec).
+- [x] The entry page with the explorer card (`product-brief.md`;
+      `src/ui/home/`).
 - [ ] Content for Black's replies to the six first moves rated 4 and 5, then
       onward along moves rated 4 and 5, each line's depth decided and
       recorded here.
@@ -71,9 +73,9 @@ of content is, before it is committed:
 - [x] Docs: spec promises and pointers, localization (Opening content),
       architecture (content layer, invariant), rules doc amendment, indexes,
       AGENTS.md.
-- [ ] Explorer screen, spec section by spec section, with the design-system
+- [x] Explorer screen, spec section by spec section, with the design-system
       amendment for rating colours and arrows.
-- [ ] Entry page.
+- [x] Entry page.
 - [ ] Content depth: Black's replies to 1.e4, 1.d4, 1.Nf3, 1.c4, 1.g3, 1.b3,
       then onward.
 
@@ -105,6 +107,23 @@ of content is, before it is committed:
   green: typecheck, lint, 23 test files and 237 tests with the domain and
   i18n coverage thresholds held, build, visual check unchanged (nothing
   rendered changed).
+- 2026-10-23: The explorer screen and the entry page built, every spec
+  section covered and each promise now naming its test. Shape decided
+  from the built screen's screenshots (decision log: act left, read
+  right). Found on the way, each fixed in this change: Vitest's module
+  cache (on by default) kept `src/i18n/catalogue.test.ts`'s glob at the
+  file list of the last transform, so the explorer's new messages counted
+  as stale and a new file's missing translation would not have been
+  caught; the cache is off in `vite.config.ts` with the reason. A
+  selection keyed by position reappeared when the line stepped back to
+  that position; the selection is now reset on any change of line or
+  move shown. jsdom turns an assignment to `location.hash` into a
+  navigation whose hashchange fires later, so `src/app/App.test.tsx` sets
+  the address through `replaceState`. `npm run check` green: 28 test
+  files and 283 tests, coverage thresholds held, build, visual check on
+  both screens green; a disposable module clicked through the board in
+  Chrome at both widths (select, move, arrow, keys, candidate), its
+  screenshots looked at.
 
 ## Decision log
 
@@ -150,3 +169,57 @@ of content is, before it is committed:
 - 2026-10-23: **The initial position's introduction is its `background`**,
   shown without a name; no separate field. Why: one code path for the
   panel, one field fewer to explain.
+- 2026-10-23: **The screen's shape: act on the left, read on the right.**
+  The board column holds what the visitor does and where they are (the
+  board; the line as one wrapping row of moves under it, the current one
+  marked; a quiet row of controls: back, forward, Reset, Flip board); the
+  panel holds what they read (one move's information, then the candidates
+  as the one list). The candidates appear twice by design, as arrows where
+  the visitor acts and as the list at the end of the reading, where the
+  eye goes next; the list is the keyboard's and the screen reader's route.
+  Considered and rejected: (a) everything in one panel beside a bare
+  board, move list on top (the analysis-board shape): navigation and
+  reading share one column, the move list pushes the reading down, and
+  two lists of moves look alike; (b) board only, information on demand
+  (popovers on arrows, a drawer for the line): hides what the spec
+  promises after every move, and previews are not promised; (c) tabs in
+  the panel: hides, and costs a click per move; (d) a scoresheet column
+  beside the board with the panel below: the reading drops below the
+  board on desktop, and a scoresheet records games rather than a line one
+  walks into. Cost of the choice: at widths just above 40rem the panel
+  column is narrow (16rem minimum); the breakpoint stays the design
+  system's one.
+- 2026-10-23: **Arrows in the accent hue, told apart by form and weight,
+  not a second hue.** Rating 5 at 0.85 opacity and wider, rating 4 at 0.5
+  and narrower; the last-move highlight is a fill, an arrow a line. Why:
+  the accent is the colour of the next action, and the only other
+  saturated colours are the feedback ones, which read poorly on walnut.
+  Tokens `--board-arrow-strong`, `--board-arrow-light`.
+- 2026-10-23: **Rating colours as five tokens**, 1 `--color-bad`, 3
+  `--color-note`, 5 `--color-good`, with two new steps between (2 an
+  orange-red, 4 a lighter green), each measured above 4.5:1 on the page;
+  shown as a dot and the word, never a fill. Why: the spec asks for red
+  through to green with the word always there; two literals are the
+  smallest extension of the palette.
+- 2026-10-23: **The address is `#/openings?line=1.e4+e5+2.Nf3&ply=2&side=black`**:
+  the line in English notation as `formatLine` writes it (a `+` per space,
+  as `URLSearchParams` writes it), `ply` the number of moves shown and
+  absent for the end of the line, `side=black` for the turned board;
+  parameters at their default are left out. Why: it reads as a chess
+  player writes, pastes into any chess tool once the `+` are spaces, and
+  a link to a line opens at its end. The explorer replaces the address on
+  every change (`history.replaceState`), so the back button leaves the
+  screen; the entry page and the explorer are hash routes because Pages
+  serves no SPA fallback.
+- 2026-10-23: **The board is pointer input; the keyboard gets the
+  candidates.** Squares are not buttons: 64 tab stops would be noise, and
+  the spec names the list as the keyboard's route. The board stays an
+  image named by the position. A promotion is always to a queen, as the
+  spec says, so no dialogue interrupts a move.
+- 2026-10-23: **The state is the address.** The explorer is a controlled
+  component of the route; its only own state is the selected square,
+  reset whenever the line or the move shown changes. The whole line is
+  replayed from the address with `playLine` on each change (about 50 ms
+  at forty plies, measured in the notation doc), memoised by the line.
+  Why: a reload, a shared link and the back button all follow from one
+  mechanism, and no store exists to drift from the address.

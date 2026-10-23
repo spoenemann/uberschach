@@ -1,38 +1,49 @@
 /* The page frame: one centred column with the side gutter the design system
-   requires (docs/design-docs/design-system.md, Layout), the footer pinned to
-   the bottom of the viewport on tall screens (design system, Amendments,
-   2026-10-23). */
+   requires (docs/design-docs/design-system.md, Layout), a header row with
+   the app name leading home, the footer pinned to the bottom of the
+   viewport on tall screens (design system, Amendments, 2026-10-23). */
 .page {
   display: grid;
-  grid-template-rows: 1fr auto;
-  gap: var(--space-12);
+  grid-template-rows: auto 1fr auto;
+  gap: var(--space-8);
   min-height: 100dvh;
   max-width: var(--content-max);
   margin: 0 auto;
-  padding-block: var(--space-12);
+  padding-block: var(--space-6) var(--space-8);
   padding-left: max(var(--space-4), env(safe-area-inset-left, 0px));
   padding-right: max(var(--space-4), env(safe-area-inset-right, 0px));
+}
+
+/* The header: the wordmark, and beside it the name of the screen. */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-3);
+}
+
+.wordmark {
+  font-size: var(--text-xl);
+}
+
+.wordmark a {
+  color: var(--color-ink);
+  text-decoration: none;
+}
+
+.wordmark a:hover {
+  color: var(--color-ink);
+  text-decoration: underline;
+}
+
+.screen {
+  color: var(--color-ink-muted);
 }
 
 .main {
   display: grid;
   gap: var(--space-6);
-}
-
-/* Board beside text on wide screens, stacked below 40rem (design system,
-   Layout; the breakpoint is a literal because custom properties cannot be
-   used in media queries). */
-.sample {
-  display: grid;
-  grid-template-columns: minmax(0, 32rem) minmax(0, 1fr);
-  gap: var(--space-8);
-  align-items: start;
-}
-
-@media (width < 40rem) {
-  .sample {
-    grid-template-columns: minmax(0, 1fr);
-  }
+  align-content: start;
 }
 
 /* The footer: a hairline above, small muted type. */

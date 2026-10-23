@@ -1,0 +1,23 @@
+/* The explorer: what the visitor does on the left (board, line, controls),
+   what they read on the right (the panel); stacked below 40rem (design
+   system, Layout; the breakpoint is a literal because custom properties
+   cannot be used in media queries). The panel keeps a readable minimum and
+   the board takes the rest, up to a size that keeps the text beside it. */
+.explorer {
+  display: grid;
+  grid-template-columns: minmax(0, 30rem) minmax(16rem, 1fr);
+  gap: var(--space-8);
+  align-items: start;
+}
+
+@media (width < 40rem) {
+  .explorer {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-6);
+  }
+}
+
+.boardColumn {
+  display: grid;
+  gap: var(--space-3);
+}

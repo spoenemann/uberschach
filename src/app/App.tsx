@@ -1,8 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { parsePlacement } from "../domain/position.ts";
 import type { Language } from "../i18n/language.ts";
-import { localizeSan } from "../i18n/notation.ts";
-import { Board } from "../ui/board/Board.tsx";
+import { Explorer, type ExplorerState } from "../ui/explorer/Explorer.tsx";
+import { Home } from "../ui/home/Home.tsx";
 import {
   LanguageContext,
   useLanguage,
@@ -11,14 +10,7 @@ import {
 import { LanguageSwitch } from "../ui/language/LanguageSwitch.tsx";
 import styles from "./App.module.css";
 import { loadLanguage, saveLanguage } from "./language.ts";
-
-// A sample position to look at the board and the pieces in dev mode: the Ruy
-// Lopez after 3.Bb5, the bishop's move highlighted. The first capability (the
-// opening explorer) is specified in docs/product-specs/opening-explorer.md and
-// not yet built.
-const SAMPLE_PLACEMENT = parsePlacement(
-  "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
-);
+import { formatRoute, parseRoute, type Route } from "./route.ts";
 
 export function App() {
   const [language, setLanguage] = useState<Language>(loadLanguage);
@@ -37,31 +29,63 @@ export function App() {
   );
   return (
     <LanguageContext value={state}>
-      <div className={styles.page}>
-        <main className={styles.main}>
-          <h1>uberschach</h1>
-          <Welcome />
-        </main>
-        <footer className={styles.footer}>
-          <LanguageSwitch />
-        </footer>
-      </div>
+      <Screen />
     </LanguageContext>
   );
 }
 
-function Welcome() {
+/** The page frame around the route's screen: header, screen, footer. */
+function Screen() {
   const t = useT();
   const { language } = useLanguage();
+  const { route, replaceRoute } = useRoute();
+  const title = route.screen === "openings" ? t("Opening explorer") : null;
+  useEffect(() => {
+    document.title = title === null ? "Uberschach" : `${title} · Uberschach`;
+  }, [title, language]);
   return (
-    <div className={styles.sample}>
-      <Board placement={SAMPLE_PLACEMENT} highlights={["f1", "b5"]} />
-      <p>
-        {t(
-          "Nothing to train yet. This is the Ruy Lopez after {move}, shown to look at the board.",
-          { move: localizeSan("3.Bb5", language) },
+    <div className={styles.page}>
+      <header className={styles.header}>
+        <h1 className={styles.wordmark}>
+          <a href="#/">uberschach</a>
+        </h1>
+        {title !== null && <span className={styles.screen}>{title}</span>}
+      </header>
+      <main className={styles.main}>
+        {route.screen === "openings" ? (
+          <Explorer
+            line={route.line}
+            ply={route.ply}
+            side={route.side}
+            onChange={(next: ExplorerState) => replaceRoute({ screen: "openings", ...next })}
+          />
+        ) : (
+          <Home />
         )}
-      </p>
+      </main>
+      <footer className={styles.footer}>
+        <LanguageSwitch />
+      </footer>
     </div>
   );
+}
+
+/**
+ * The route, read from the hash and kept in step with it. A link changes
+ * the hash and so the route; the explorer replaces the address as its line
+ * changes, so the browser's back button returns to the entry page rather
+ * than undoing a move (docs/product-specs/opening-explorer.md, Reaching it).
+ */
+function useRoute() {
+  const [route, setRoute] = useState<Route>(() => parseRoute(location.hash));
+  useEffect(() => {
+    const onHashChange = () => setRoute(parseRoute(location.hash));
+    window.addEventListener("hashchange", onHashChange);
+    return () => window.removeEventListener("hashchange", onHashChange);
+  }, []);
+  const replaceRoute = useCallback((next: Route) => {
+    history.replaceState(null, "", formatRoute(next));
+    setRoute(next);
+  }, []);
+  return { route, replaceRoute };
 }

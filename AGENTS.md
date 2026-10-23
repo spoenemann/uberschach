@@ -5,8 +5,9 @@ training and published on GitHub Pages for anyone who finds it useful. Static
 single-page app: TypeScript 6 strict, Vite 8, React 19, Vitest 5, ESLint 10,
 npm, Node 24. The first capability, an opening explorer, is specified in
 `docs/product-specs/opening-explorer.md` and being built from
-`docs/exec-plans/active/0002-opening-explorer.md`: the opening book and the
-first move's content exist, the screen does not yet.
+`docs/exec-plans/active/0002-opening-explorer.md`: the screen, the entry
+page and the first move's content exist; the replies and the lines beyond
+are content still to write.
 
 ## Commands
 
@@ -20,8 +21,8 @@ npm run lint                         # eslint, with why/fix/exception guidance u
 npm test                             # vitest run; `npm test -- --coverage` adds the domain threshold
 npx vitest run src/app/App.test.tsx  # one test file
 npm run build                        # vite build to dist/
-npm run check:visual                 # renders dist/ in headless system Chrome, writes screenshots; needs the build
-npm run check:visual -- / /tmp/x.mjs # the given routes, plus a disposable ad-hoc check module
+npm run check:visual                 # renders every screen of dist/ in headless system Chrome, writes screenshots; needs the build
+npm run check:visual -- '#/openings?line=1.e4' /tmp/x.mjs # the given routes, plus a disposable ad-hoc check module
 npm run dev                          # http://localhost:5173/uberschach/ (the base path is part of the URL)
 ```
 
@@ -31,11 +32,21 @@ npm run dev                          # http://localhost:5173/uberschach/ (the ba
 - `src/i18n/` — the languages, the German catalogue (`de.ts`) and which notation each language reads (`notation.ts`), pure TypeScript. Text a visitor sees or hears is `t("English text")` in the code, never a literal in JSX; its German line goes in `de.ts` in the same commit, and a test fails `npm run check` otherwise (`docs/localization.md`).
 - `src/content/` — opening content as typed data files; prose once per language (`docs/localization.md`, Opening content). `book.ts` joins data and prose into the book keyed by position and refuses a disagreement at import; `openings.ts` is the shipped book; a content principle (all legal moves covered, only ratings 4 and 5 followed, sourced backgrounds) is held by `openings.test.ts`.
 - `src/ui/` — React components.
-- `src/ui/board/` — the board and the pieces; the piece drawings are path
+- `src/ui/board/` — the board and the pieces: a position, highlights, target
+  marks and candidate arrows (`arrows.ts`), reporting clicks by square and by
+  arrow, what a click means being the screen's; the piece drawings are path
   data in `pieceShapes.ts`, judged by eye at 44px (`docs/design-docs/design-system.md`,
   Pieces).
+- `src/ui/explorer/` — the opening explorer screen: `Explorer.tsx` holds the
+  board with moves and the state as the address carries it (line, move
+  shown, side), `Line.tsx` the move list and controls, `Panel.tsx` the
+  reading and the candidates, `view.ts` the pure view at a point of the
+  line. The design decisions are in the explorer plan's decision log.
+- `src/ui/home/` — the entry page: one card per capability.
 - `src/ui/theme.css` — every colour, type, space, radius, shadow and motion value, as CSS custom properties; a component's CSS Module uses them, never a literal (`docs/design-docs/design-system.md`).
-- `src/app/` — entry point, wiring, browser storage.
+- `src/app/` — entry point, wiring, browser storage, and the address:
+  `route.ts` reads and writes the hash (`#/`, `#/openings?line=…`), `App.tsx`
+  keeps the route in step with it.
 - Layers import downward only, app → ui → content → i18n → domain. `eslint.config.js` enforces it and mirrors the table in `docs/ARCHITECTURE.md`.
 - `scripts/eslint-guidance.mjs` — the why/fix/exception text printed under lint failures; every new lint rule gets an entry.
 - `scripts/visual-check.mjs` — the universal rendering invariants and screenshots (`docs/visual-verification.md`); route- or feature-specific checks are disposable ad-hoc modules, never committed. `npm run check` needs Google Chrome installed, or `CHROME_PATH`.

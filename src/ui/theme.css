@@ -29,6 +29,16 @@
     0 10px 28px -10px rgb(36 28 20 / 0.35);
   --board-highlight: rgb(47 104 70 / 0.5); /* last move, selected square */
   --board-target: rgb(47 104 70 / 0.5); /* legal-move dot */
+  --board-arrow-strong: rgb(37 83 58 / 0.85); /* a candidate rated 5 */
+  --board-arrow-light: rgb(37 83 58 / 0.5); /* a candidate rated 4 */
+
+  /* Ratings: red for 1 through to green for 5, always beside the word
+     (design-system.md, Amendments, 2026-10-23, the explorer). */
+  --rating-5: var(--color-good);
+  --rating-4: #557a27;
+  --rating-3: var(--color-note);
+  --rating-2: #ad4e1c;
+  --rating-1: var(--color-bad);
 
   /* Pieces: made of the page's ink and paper (design-system.md, Pieces). */
   --piece-light: #ffffff;

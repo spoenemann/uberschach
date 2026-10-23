@@ -1,0 +1,33 @@
+/* The feature cards: an object each (border, fill, radius), text only, the
+   accent on hover (design system, Shape; Amendments, 2026-10-23, the entry
+   page). */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  gap: var(--space-4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  display: grid;
+  gap: var(--space-2);
+  height: 100%;
+  padding: var(--space-6);
+  border: 1px solid var(--color-hairline);
+  border-radius: var(--radius-control);
+  background: var(--color-surface);
+  color: var(--color-ink);
+  text-decoration: none;
+  transition: border-color var(--duration-hover) var(--ease-out);
+}
+
+.card:hover {
+  color: var(--color-ink);
+  border-color: var(--color-accent);
+}
+
+.card p {
+  color: var(--color-ink-muted);
+}

@@ -4,7 +4,7 @@
 // screenshots at a desktop and a phone width. Rules, rationale and the
 // ad-hoc check pattern: docs/visual-verification.md.
 // Usage:
-//   npm run check:visual                     # the root route
+//   npm run check:visual                     # every screen (ROUTES below)
 //   npm run check:visual -- / '#/openings'   # the given routes, relative to the base
 //   npm run check:visual -- /tmp/check.mjs   # plus a disposable ad-hoc check module
 // An argument ending in .mjs is loaded as an ad-hoc module; its default export
@@ -28,6 +28,9 @@ const ROOT = path.resolve(import.meta.dirname, "..");
 // deployed page then requests its script from a path that does not exist.
 // Here that shows up as broken-resources.
 const PAGES_BASE = "/uberschach/";
+// The app's screens, visited when no route is given: the entry page and the
+// opening explorer at the initial position. A new screen is a line here.
+const ROUTES = ["/", "#/openings"];
 const SHOT_DIR = path.join(tmpdir(), "uberschach-visual-check");
 const VIEWPORTS = [
   { name: "desktop", width: 1280, height: 900 },
@@ -274,7 +277,7 @@ async function runAdHocChecks(checks, context) {
 const args = process.argv.slice(2);
 const checks = await loadAdHocChecks(args.filter((a) => a.endsWith(".mjs")));
 const routes = args.filter((a) => !a.endsWith(".mjs"));
-if (routes.length === 0) routes.push("/");
+if (routes.length === 0) routes.push(...ROUTES);
 
 await mkdir(SHOT_DIR, { recursive: true });
 const { server, origin } = await serveDist();

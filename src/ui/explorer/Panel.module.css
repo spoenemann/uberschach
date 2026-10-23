@@ -1,0 +1,113 @@
+/* The panel: one move's information, then the candidates as one list. Text
+   first; the only colour is the rating word, which always comes with its
+   word (design system, Colour; Amendments, 2026-10-23, the explorer). */
+.panel {
+  display: grid;
+  gap: var(--space-6);
+}
+
+.reading {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.move {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-3);
+  font-size: var(--text-lg);
+}
+
+.san {
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+}
+
+.rating {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-size: var(--text-sm);
+  color: var(--rating);
+  white-space: nowrap;
+}
+
+/* The colour patch beside the word, a step stronger than thin text. */
+.rating::before {
+  content: "";
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 50%;
+  background: var(--rating);
+}
+
+.rating[data-rating="5"] {
+  --rating: var(--rating-5);
+}
+
+.rating[data-rating="4"] {
+  --rating: var(--rating-4);
+}
+
+.rating[data-rating="3"] {
+  --rating: var(--rating-3);
+}
+
+.rating[data-rating="2"] {
+  --rating: var(--rating-2);
+}
+
+.rating[data-rating="1"] {
+  --rating: var(--rating-1);
+}
+
+.note {
+  color: var(--color-ink-muted);
+}
+
+.next {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.label {
+  font-size: var(--text-sm);
+  color: var(--color-ink-muted);
+}
+
+.candidates {
+  display: grid;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* A candidate: the move, where it leads, its rating; one row, one button. */
+.candidate {
+  display: grid;
+  grid-template-columns: 3.5rem minmax(0, 1fr) auto;
+  gap: var(--space-3);
+  align-items: baseline;
+  width: 100%;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-hairline);
+  border-radius: var(--radius-control);
+  background: var(--color-surface);
+  color: var(--color-ink);
+  text-align: left;
+  cursor: pointer;
+  transition:
+    border-color var(--duration-hover) var(--ease-out),
+    background-color var(--duration-hover) var(--ease-out);
+}
+
+.candidate:hover {
+  border-color: var(--color-accent);
+  background: var(--color-accent-tint);
+}
+
+.leadsTo {
+  color: var(--color-ink-muted);
+}

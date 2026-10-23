@@ -27,6 +27,7 @@
 }
 
 .squares {
+  position: relative;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   aspect-ratio: 1;
@@ -34,6 +35,10 @@
   border-radius: var(--radius-board);
   box-shadow: var(--board-shadow);
   overflow: hidden;
+}
+
+.board[data-interactive] .squares {
+  cursor: pointer;
 }
 
 .square {
@@ -59,4 +64,51 @@
 
 .square > * {
   position: relative;
+}
+
+/* A legal target of the selected piece: a dot on an empty square, a ring
+   around a piece that can be captured. Above the piece, so the ring stays
+   visible. */
+.square[data-target]::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.square[data-target="empty"]::after {
+  inset: 36%;
+  border-radius: 50%;
+  background: var(--board-target);
+}
+
+.square[data-target="capture"]::after {
+  inset: 6%;
+  border-radius: 50%;
+  border: 0.3em solid var(--board-target);
+}
+
+/* Candidate arrows, above the pieces. The overlay lets clicks through; an
+   arrow itself is clickable. */
+.arrows {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.arrow {
+  fill: var(--board-arrow-strong);
+  pointer-events: auto;
+  cursor: pointer;
+  transition: fill var(--duration-hover) var(--ease-out);
+}
+
+.arrow[data-strength="light"] {
+  fill: var(--board-arrow-light);
+}
+
+.arrow:hover {
+  fill: var(--color-accent-strong);
 }

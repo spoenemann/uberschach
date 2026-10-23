@@ -92,7 +92,10 @@ reads every `src/**/*.ts` and `.tsx` except tests, collects the literals in
 Its failure message lists each offending message and what to do. At
 runtime a missing entry falls back to the English text, so the symptom is
 an English sentence on a German page; the check is what catches it before
-the commit. English has no catalogue: `CATALOGUES.en` is empty by design.
+the commit. The scan is an `import.meta.glob`, expanded when the test file
+is transformed, so Vitest's module cache is off in `vite.config.ts`: with
+it on, a source file added after the last transform was not scanned until
+the test file itself changed (found 2026-10-23). English has no catalogue: `CATALOGUES.en` is empty by design.
 The scan is textual, so a comment that quotes a call, `t("like this")`, is
 collected too; write `t()` in comments.
 

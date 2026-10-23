@@ -34,6 +34,13 @@ export default defineConfig({
         },
       },
     ],
+    // Vitest's module cache (node_modules/.vitest-cache, on by default) keeps
+    // a transformed module by its content. src/i18n/catalogue.test.ts scans
+    // the sources with import.meta.glob, which is expanded at transform time,
+    // so with the cache on a source file added later is not scanned until the
+    // test file itself changes: found on 2026-10-23, when the explorer's new
+    // messages counted as stale. The suite is small; the cache buys little.
+    fsModuleCache: false,
     coverage: {
       // "A test with every domain or i18n change" (AGENTS.md, definition of
       // done), measured per file over src/domain and src/i18n only. Raise,

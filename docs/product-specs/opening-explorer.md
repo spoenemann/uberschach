@@ -22,34 +22,43 @@ for and risks, and which replies matter.
 ### Reaching it
 
 - The explorer is a card on the entry page (`product-brief.md`, Entry
-  page) and lives at the address `#/openings`.
+  page) and lives at the address `#/openings`. (`src/app/App.test.tsx`,
+  `src/ui/home/Home.test.tsx`)
 - The line played, and the board's orientation, are part of the address.
   A reload shows the same position, its information and the whole line,
   and the address sent as a link opens the same for the reader. The
   address is replaced as the line changes, so the browser's back button
-  returns to the entry page rather than undoing a move.
+  returns to the entry page rather than undoing a move. (`src/app/route.test.ts`:
+  the line, the move shown and the side as parameters; `src/app/App.test.tsx`:
+  a visit starts where its address says, a move replaces the address)
 - An address whose moves are not all legal from the initial position opens
   at the last position its legal prefix reaches.
+  (`src/ui/explorer/Explorer.test.tsx`)
 
 ### Making moves
 
 - The explorer opens at the initial position, White at the bottom, with
   the first moves offered as Candidates below describes. A flip control
-  turns the board around.
+  turns the board around. (`src/ui/explorer/Explorer.test.tsx`)
 - The visitor makes every move, for White and for Black in turn, in one of
   three ways: selecting a piece and then its target square; activating a
   candidate's arrow on the board; activating a candidate in the list.
+  (`src/ui/explorer/Explorer.test.tsx`)
 - While a piece is selected, its legal target squares are marked.
   Selecting another own piece moves the selection; selecting the same
-  piece or an unmarked square clears it.
+  piece or an unmarked square clears it. (`src/ui/explorer/Explorer.test.tsx`;
+  the marks: `src/ui/board/Board.test.tsx`)
 - What is legal is decided by the rules engine
   (`docs/design-docs/chess-rules-engine.md`). A target the piece cannot
   legally reach does nothing. Any legal move can be made, whether the
   database rates it well, badly or not at all.
+  (`src/ui/explorer/Explorer.test.tsx`)
 - The board highlights the from and to squares of the last move.
+  (`src/ui/explorer/Explorer.test.tsx`)
 - When the rules end the game (checkmate, stalemate, a dead position, the
   fifth repetition, seventy-five moves), the panel says so in words and no
   further move is accepted. Stepping back still works.
+  (`src/ui/explorer/Explorer.test.tsx`, `src/ui/explorer/view.test.ts`)
 
 ### The database
 
@@ -113,41 +122,48 @@ for and risks, and which replies matter.
   through to green for 5; the name of the opening or variation the
   position now belongs to; the background; the strategic text. The word is
   always there: colour is never the only signal.
+  (`src/ui/explorer/Explorer.test.tsx`; the colours are the `--rating-*`
+  tokens, `docs/design-docs/design-system.md`, Amendments, 2026-10-23)
 - The name is the position's own when it has one, otherwise the last name
   on the way there, so a quiet move inside a named variation still shows
-  where it is.
+  where it is. (`src/ui/explorer/view.test.ts`)
 - Before the first move the panel shows the initial position's
-  introduction.
+  introduction. (`src/ui/explorer/view.test.ts`,
+  `src/ui/explorer/Explorer.test.tsx`)
 - When the current position is not in the database, the panel says that
   the line has left the openings the app knows; when it is, but no moves
   are written from it, that the book ends here. A move not in the
   database is shown by its notation alone, unrated. In both cases no
   candidates are offered, the known information is one step back, and a
   move that brings the line into a known position, by transposition,
-  brings the information back.
+  brings the information back. (`src/ui/explorer/view.test.ts`,
+  `src/ui/explorer/Explorer.test.tsx`)
 
 ### Candidates
 
 - From a database position, the moves rated 4 and 5 are the candidates.
   They are drawn as arrows on the board from the piece to its square,
   rating 5 strong and rating 4 lighter, both distinct from the last-move
-  highlight. Activating an arrow plays the move.
+  highlight. Activating an arrow plays the move. (`src/ui/board/Board.test.tsx`,
+  `src/ui/board/arrows.test.ts`, `src/ui/explorer/Explorer.test.tsx`)
 - The same candidates are listed in the panel, each a button showing the
   move in notation, the name of the position it leads to when there is
   one, and its rating word. Activating one plays it. The list is how the
   candidates reach the keyboard, touch and screen readers: whatever the
-  arrows show, the list shows.
+  arrows show, the list shows. (`src/ui/explorer/Explorer.test.tsx`)
 - The list shows no more than that, and the panel holds one move's
   information and one list. A candidate's texts are read after it is
   played; nothing is previewed, nothing stacks.
 - Moves rated 1 to 3 are not offered as candidates. Played, they are rated
-  and explained like any other.
+  and explained like any other. (`src/ui/explorer/view.test.ts`,
+  `src/ui/explorer/Explorer.test.tsx`)
 
 ### The line
 
 - The moves played form one line, shown as a move list in notation with
   move numbers, the current move highlighted. Activating a move in the
-  list jumps to it.
+  list jumps to it. (`src/ui/explorer/Explorer.test.tsx`, as are the four
+  promises below)
 - Back and forward step one move; reset goes to the initial position.
   None of the three discards the line: forward walks it again.
 - The left and right arrow keys step back and forward.
@@ -157,6 +173,8 @@ for and risks, and which replies matter.
   the current one. The explorer keeps one line, not a tree.
 - The explorer stores nothing in the browser. The line lives in the
   address, and a visit starts wherever its address says.
+  (`src/app/App.test.tsx`; browser storage outside `src/app/` is a lint
+  error, `eslint.config.js`)
 
 ### Languages
 
@@ -164,6 +182,8 @@ for and risks, and which replies matter.
   (`docs/localization.md`); content prose follows the rule under The
   database above. Notation is localized on
   the screen; in the address it reads the same in every language.
+  (`src/i18n/catalogue.test.ts`; `src/ui/explorer/Explorer.test.tsx`:
+  German letters on the screen, English in the address)
 
 ## Deliberately not promised
 
@@ -203,5 +223,10 @@ for and risks, and which replies matter.
 - `docs/localization.md` — the languages promised, translated text and
   the layout of per-language content.
 - `docs/design-docs/design-system.md` — board highlights, legal-move
-  marks, feedback colours. The rating colours and the arrows are a
-  dated amendment there when they are built.
+  marks, feedback colours; the rating colours, the arrows and the screen's
+  layout are the amendment of 2026-10-23.
+- `src/ui/explorer/` — the screen: `Explorer.tsx` (the board with moves,
+  the state as the address holds it), `Line.tsx` (the move list and the
+  controls), `Panel.tsx` (the reading and the candidates), `view.ts` (what
+  is shown at a point of the line, pure). `src/app/route.ts` reads and
+  writes the address.
