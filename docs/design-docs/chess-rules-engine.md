@@ -101,4 +101,4 @@ The data types are in `position.ts` (`Square`, `Piece`, `Placement`,
   the maintainer on 2026-10-23: the engine follows the Laws and reports
   the claims; whoever shows the game decides what to do with them.
 - **Algebraic notation now.** Deferred with the maintainer on 2026-10-23
-  until the opening explainer's content format is specified.
+  until the opening explorer's content format is specified.

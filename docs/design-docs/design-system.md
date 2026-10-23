@@ -28,7 +28,7 @@ looks with classic chess vibes: wood, tangible, kept simple.
   quiet addition.
 - Non-goal: a board library and a rules engine. The board is a plain
   component of this project (`src/ui/board/`), display only; interaction,
-  moving pieces and the rules library come with the opening explainer and
+  moving pieces and the rules library come with the opening explorer and
   are a new decision in its plan.
 - Non-goal: a component library. Shared Button or Card components appear
   when a second screen needs them, not before.
@@ -216,7 +216,7 @@ looks with classic chess vibes: wood, tangible, kept simple.
   white light pieces, not ivory; outline at 4% of the square, not 3.5 or
   4.5. The board's position model is a small domain module
   (`src/domain/position.ts`) rather than a chess library adopted now; the
-  library choice stays with the opening explainer. Tokens added:
+  library choice stays with the opening explorer. Tokens added:
   `--piece-light`, `--piece-dark`. The non-goal on the piece set and the
   board library is replaced by the one on a board library and rules engine.
 - 2026-10-23: a footer (Layout). The page column ends in a footer row

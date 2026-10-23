@@ -1,17 +1,28 @@
-# Product brief: uberschach
+# Product brief: Uberschach
 
 Intent, users, success criteria and v1 scope, from the project interview with
-the maintainer on 2026-10-22, audience corrected on 2026-10-23. Every
-statement here is the maintainer's answer; nothing is inferred from code.
-Per-capability specs appear in this folder spec-first, as features are built.
+the maintainer on 2026-10-22, audience corrected on 2026-10-23, entry page
+and title settled on 2026-10-23. Every statement here is the maintainer's
+answer; nothing is inferred from code. Per-capability specs appear in this
+folder spec-first, as features are built.
 
 ## What is being built
 
-A chess training app that runs in the browser.
+Uberschach, a chess training app that runs in the browser.
 
-It may eventually train several things. v1 starts with just one capability: an
-**opening explainer**. The maintainer will provide the details that specify
-this feature later; until then it has no spec and no code.
+It may eventually train several things. v1 starts with just one capability:
+an **opening explorer**, specified in `opening-explorer.md` and not yet
+built.
+
+## Entry page
+
+The app opens on a feature selector: every capability is a card with its
+name and a one-sentence description, and choosing a card opens the
+capability. The app name in the header leads back to the selector from
+anywhere. Only capabilities that exist get a card; nothing planned is
+announced or greyed out. Initially there is one card, the opening explorer,
+and the page shows it rather than skipping ahead, so the shape of the app is
+visible from the first visit.
 
 ## Users
 
@@ -31,7 +42,4 @@ The maintainer uses it for their own training.
 
 ## Open questions
 
-- What the opening explainer does (behaviour, content source, interaction).
-  The maintainer specifies it before it is built; it then gets its own spec
-  here.
-- Which capabilities follow the opening explainer.
+- Which capabilities follow the opening explorer.

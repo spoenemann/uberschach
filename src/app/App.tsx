@@ -14,8 +14,8 @@ import { loadLanguage, saveLanguage } from "./language.ts";
 
 // A sample position to look at the board and the pieces in dev mode: the Ruy
 // Lopez after 3.Bb5, the bishop's move highlighted. The first capability (the
-// opening explainer) is not yet specified; see
-// docs/product-specs/product-brief.md, Open questions.
+// opening explorer) is specified in docs/product-specs/opening-explorer.md and
+// not yet built.
 const SAMPLE_PLACEMENT = parsePlacement(
   "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
 );

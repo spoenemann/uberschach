@@ -3,8 +3,8 @@
 Chess training app for the browser, built first for the maintainer's own
 training and published on GitHub Pages for anyone who finds it useful. Static
 single-page app: TypeScript 6 strict, Vite 8, React 19, Vitest 5, ESLint 10,
-npm, Node 24. The first capability, an opening explainer, is not yet
-specified: see `docs/product-specs/product-brief.md`.
+npm, Node 24. The first capability, an opening explorer, is specified in
+`docs/product-specs/opening-explorer.md` and not yet built.
 
 ## Commands
 

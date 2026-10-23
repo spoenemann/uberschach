@@ -79,7 +79,7 @@ Content holds the chess data once and the prose once per language:
 from `src/i18n/language.ts`). English is complete; German may be missing
 for a lesson, and the English then shows, which the languages spec lists
 as accepted. No content exists yet: the first content lands in this layout,
-and if the opening explainer's spec needs another, this section changes
+and if the opening explorer's spec needs another, this section changes
 with it.
 
 ## Choosing the language
