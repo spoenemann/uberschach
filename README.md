@@ -1,4 +1,4 @@
-# uberschach
+# Uberschach
 
 A chess training app for the browser, set up agent-ready from the first
 commit. Published at https://spoenemann.github.io/uberschach/ for anyone who
