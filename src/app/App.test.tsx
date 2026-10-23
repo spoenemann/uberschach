@@ -27,8 +27,8 @@ async function navigate(hash: string) {
 
 test("opens on the entry page with the explorer's card and the app name", () => {
   render(<App />);
-  expect(screen.getByRole("heading", { level: 1 }).textContent).toBe("uberschach");
-  expect(screen.getByRole("link", { name: "uberschach" }).getAttribute("href")).toBe("#/");
+  expect(screen.getByRole("heading", { level: 1 }).textContent).toBe("Uberschach");
+  expect(screen.getByRole("link", { name: "Uberschach" }).getAttribute("href")).toBe("#/");
   expect(screen.getByRole("link", { name: /Opening explorer/ }).getAttribute("href")).toBe("#/openings");
   expect(screen.queryByRole("img", { name: /^Chessboard/ })).toBeNull();
   expect(document.title).toBe("Uberschach");
@@ -67,8 +67,8 @@ test("switches to German from the footer, remembers it and marks the document", 
   expect(document.documentElement.lang).toBe("en");
   fireEvent.click(screen.getByRole("button", { name: "Deutsch" }));
   expect(screen.getByRole("img", { name: /^Schachbrett\./ })).not.toBeNull();
-  expect(screen.getByText("Eröffnungs-Explorer")).not.toBeNull();
-  expect(document.title).toBe("Eröffnungs-Explorer · Uberschach");
+  expect(screen.getByText("Eröffnungsforscher")).not.toBeNull();
+  expect(document.title).toBe("Eröffnungsforscher · Uberschach");
   expect(document.documentElement.lang).toBe("de");
   expect(localStorage.getItem("uberschach.language")).toBe("de");
   expect(

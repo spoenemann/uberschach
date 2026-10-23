@@ -20,5 +20,5 @@ test("speaks German", () => {
       <Home />
     </LanguageContext>,
   );
-  expect(screen.getByRole("link", { name: /Eröffnungs-Explorer/ })).not.toBeNull();
+  expect(screen.getByRole("link", { name: /Eröffnungsforscher/ })).not.toBeNull();
 });

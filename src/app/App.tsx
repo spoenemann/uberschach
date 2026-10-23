@@ -47,7 +47,7 @@ function Screen() {
     <div className={styles.page}>
       <header className={styles.header}>
         <h1 className={styles.wordmark}>
-          <a href="#/">uberschach</a>
+          <a href="#/">Uberschach</a>
         </h1>
         {title !== null && <span className={styles.screen}>{title}</span>}
       </header>

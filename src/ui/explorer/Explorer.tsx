@@ -61,11 +61,15 @@ export function Explorer({ line, ply, side, onChange }: ExplorerProps) {
     const own = position.placement.get(square)?.color === position.turn;
     select(own && square !== selected ? square : undefined);
   };
-  const arrows: BoardArrow[] = view.candidates.map(({ move }) => ({
-    from: move.move.from,
-    to: move.move.to,
-    strength: move.rating === 5 ? "strong" : "light",
-  }));
+  // While a piece is selected the arrows give way, so its targets stand alone.
+  const arrows: BoardArrow[] =
+    selected === undefined
+      ? view.candidates.map(({ move }) => ({
+          from: move.move.from,
+          to: move.move.to,
+          strength: move.rating === 5 ? "strong" : "light",
+        }))
+      : [];
   return (
     <div className={styles.explorer}>
       <div className={styles.boardColumn}>

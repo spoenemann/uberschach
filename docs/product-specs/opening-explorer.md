@@ -144,8 +144,10 @@ for and risks, and which replies matter.
 - From a database position, the moves rated 4 and 5 are the candidates.
   They are drawn as arrows on the board from the piece to its square,
   rating 5 strong and rating 4 lighter, both distinct from the last-move
-  highlight. Activating an arrow plays the move. (`src/ui/board/Board.test.tsx`,
-  `src/ui/board/arrows.test.ts`, `src/ui/explorer/Explorer.test.tsx`)
+  highlight. Activating an arrow plays the move. While a piece is selected
+  the arrows give way, so its target squares stand alone (the maintainer,
+  2026-10-23). (`src/ui/board/Board.test.tsx`, `src/ui/board/arrows.test.ts`,
+  `src/ui/explorer/Explorer.test.tsx`)
 - The same candidates are listed in the panel, each a button showing the
   move in notation, the name of the position it leads to when there is
   one, and its rating word. Activating one plays it. The list is how the

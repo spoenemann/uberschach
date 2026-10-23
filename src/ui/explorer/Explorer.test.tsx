@@ -67,6 +67,11 @@ describe("the opening explorer", () => {
     expect(square(container, "e3").getAttribute("data-target")).toBe("empty");
     expect(square(container, "e4").getAttribute("data-target")).toBe("empty");
     expect(container.querySelectorAll("[data-target]")).toHaveLength(2);
+    // The arrows give way while a piece is selected, and return when it is not.
+    expect(container.querySelectorAll("[data-arrow]")).toHaveLength(0);
+    fireEvent.click(square(container, "e2"));
+    expect(container.querySelectorAll("[data-arrow]")).toHaveLength(6);
+    fireEvent.click(square(container, "e2"));
     fireEvent.click(square(container, "e4"));
     expect(last()).toEqual({ line: "1.e4", ply: null, side: "white" });
     expect(screen.getByText("1.e4")).not.toBeNull();

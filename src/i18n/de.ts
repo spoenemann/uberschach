@@ -5,7 +5,7 @@ import type { Catalogue } from "./translate.ts";
 // missing or stale entry (docs/localization.md, The German catalogue).
 export const de: Catalogue = {
   // The entry page and the header
-  "Opening explorer": "Eröffnungs-Explorer",
+  "Opening explorer": "Eröffnungsforscher",
   "Play through an opening for both sides and read after every move why it is played, what it aims for and which replies matter.":
     "Spiele eine Eröffnung für beide Seiten durch und lies nach jedem Zug, warum er gespielt wird, was er anstrebt und welche Antworten zählen.",
 

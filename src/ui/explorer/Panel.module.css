@@ -11,10 +11,11 @@
   gap: var(--space-3);
 }
 
+/* The rating, in smaller type, sits centred on the move, not on its baseline. */
 .move {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
   gap: var(--space-3);
   font-size: var(--text-lg);
 }
