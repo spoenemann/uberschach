@@ -6,6 +6,7 @@ import {
   isDeadPosition,
   newGame,
   play,
+  positionKey,
   repetitions,
   status,
   type Game,
@@ -188,6 +189,39 @@ describe("FIDE 9.2 and 9.6.1: repetition", () => {
       { from: "d1", to: "e1" },
     ]);
     expect(repetitions(game)).toBe(2);
+  });
+});
+
+describe("9.2.3 as a key: positionKey", () => {
+  test("is the same for a position however it was reached, and ignores the clocks", () => {
+    const viaKnight = playAll(newGame(), [
+      { from: "g1", to: "f3" },
+      { from: "d7", to: "d5" },
+      { from: "d2", to: "d4" },
+    ]);
+    const viaPawn = playAll(newGame(), [
+      { from: "d2", to: "d4" },
+      { from: "d7", to: "d5" },
+      { from: "g1", to: "f3" },
+    ]);
+    expect(viaKnight.position.halfmoveClock).not.toBe(viaPawn.position.halfmoveClock);
+    expect(positionKey(viaKnight.position)).toBe(positionKey(viaPawn.position));
+  });
+
+  test("differs by side to move, castling rights and a usable en passant square", () => {
+    const base = "r3k2r/8/8/8/8/8/8/R3K2R w KQkq - 0 1";
+    expect(positionKey(newGame(base).position)).not.toBe(
+      positionKey(newGame("r3k2r/8/8/8/8/8/8/R3K2R b KQkq - 0 1").position),
+    );
+    expect(positionKey(newGame(base).position)).not.toBe(
+      positionKey(newGame("r3k2r/8/8/8/8/8/8/R3K2R w - - 0 1").position),
+    );
+    const capturable = newGame("4k3/8/8/8/3pP3/8/8/4K3 b - e3 0 1").position;
+    const idle = newGame("4k3/8/8/8/3pP3/8/8/4K3 b - - 0 1").position;
+    expect(positionKey(capturable)).not.toBe(positionKey(idle));
+    const unusable = newGame("4k3/8/8/8/4P3/8/8/4K3 b - e3 0 1").position;
+    const same = newGame("4k3/8/8/8/4P3/8/8/4K3 b - - 0 1").position;
+    expect(positionKey(unusable)).toBe(positionKey(same));
   });
 });
 

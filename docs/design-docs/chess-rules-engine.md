@@ -82,6 +82,7 @@ The layer and its import rules are in `docs/ARCHITECTURE.md`.
 | How the game stands                   | `status(game)`: ongoing, checkmate with winner, draw with reason | `game.ts` |
 | Draws the side to move may claim      | `claimableDraws(game)`                                      | `game.ts`    |
 | Repetitions and dead material         | `repetitions(game)`, `isDeadPosition(placement)`            | `game.ts`    |
+| When two positions are the same (9.2.3) | `positionKey(position)`                                   | `game.ts`    |
 
 - **Mechanisms**:
   - *Legality by making the move.* No pin or discovered-check analysis:
@@ -175,3 +176,7 @@ The layer and its import rules are in `docs/ARCHITECTURE.md`.
 - 2026-10-23: algebraic notation and move lines are built on the engine
   as `src/domain/san.ts` and `src/domain/line.ts`, designed in
   `chess-notation.md`; the non-goal and the alternative above point there.
+- 2026-10-23: `positionKey`, the 9.2.3 identity the repetition count used
+  internally, is exported for the opening book (`src/content/book.ts`),
+  which is keyed by it so that a transposition finds the same entry.
+  Tested in `src/domain/game.test.ts`.

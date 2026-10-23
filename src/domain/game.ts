@@ -96,11 +96,19 @@ export function claimableDraws(game: Game): DrawClaim[] {
  * pawn can actually capture there (9.2.3.1).
  */
 export function repetitions(game: Game): number {
-  const key = repetitionKey(game.position);
-  return game.positions.filter((position) => repetitionKey(position) === key).length;
+  const key = positionKey(game.position);
+  return game.positions.filter((position) => positionKey(position) === key).length;
 }
 
-function repetitionKey(position: Position): string {
+/**
+ * The identity of a position in the sense of 9.2.3, as text: the placement,
+ * the side to move, the castling rights, and the en passant square only
+ * while a pawn can actually capture there. Two positions with the same key
+ * are the same position, however they were reached; the clocks do not
+ * count. The opening book is keyed by it, so a transposition finds the same
+ * entry (docs/product-specs/opening-explorer.md, The database).
+ */
+export function positionKey(position: Position): string {
   const enPassant =
     position.enPassant !== null && hasEnPassantCapture(position) ? position.enPassant : null;
   const [placement, turn, castling] = toFen(position).split(" ");

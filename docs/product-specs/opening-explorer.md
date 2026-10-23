@@ -60,25 +60,40 @@ for and risks, and which replies matter.
   reached by transposition shows the same information. Two positions are
   the same by the rule the chess rules spec states under 9.2.3: the same
   side to move, the same pieces on the same squares, the same castling
-  rights, the same en passant possibility.
+  rights, the same en passant possibility. (`src/content/book.test.ts`)
 - Information belongs either to a move or to the position it reaches.
   Every move in the database carries a rating from 1 to 5 and a text on
   its strategic meaning: the approach it takes, what it aims for, what it
   risks or concedes. A position may carry the name of the opening or
   variation it belongs to and a short historical background; the initial
   position carries an introduction instead, which is what the visitor
-  reads before the first move.
+  reads before the first move. (`src/content/book.test.ts`)
+- From a position in the database, every legal move is covered: each is
+  rated and has its text, so no move the visitor can make from a known
+  position goes unexplained. (`src/content/openings.test.ts`)
+- Only moves rated 4 and 5 are followed. The position after a move rated
+  1 to 3 carries its name and background and no moves, so the book ends
+  there; a position that a move rated 4 or 5 also reaches, by
+  transposition, keeps its moves. (`src/content/openings.test.ts`)
+- The book goes as deep as a move still belongs to the opening by public
+  usage: as far as theory and the literature name the line as an opening
+  or variation. Where that is for a line is decided from public knowledge,
+  its history and its terminology, and recorded in the content's exec plan
+  (`docs/exec-plans/active/0002-opening-explorer.md`).
 - The ratings are 5 Best, 4 Good, 3 Playable, 2 Inaccuracy, 1 Mistake.
   A rating is the author's judgement of the move for the side that plays
   it: 5 and 4 are moves worth learning, 3 is sound but not recommended, 2
   gives something away, 1 gives a lot away or falls for a trap. It is not
   an engine evaluation.
 - Every rating and text is read and approved by the maintainer before it
-  ships, whoever drafted it. A historical statement names its source in
-  the data file; the source is not shown on screen.
+  ships, whoever drafted it. A historical statement is verified against
+  public information before it ships and names its source in the data
+  file; the source is not shown on screen. (`src/content/openings.test.ts`:
+  every background names a source)
 - Every entry has its prose in English; German follows
-  `docs/localization.md` (Opening content): it may lag, and the English
-  then shows.
+  `docs/localization.md` (Opening content): it may lag, text by text, and
+  the English then shows. (`src/content/book.test.ts`: a German text
+  without its English is refused)
 
 ### After every move: the panel
 
@@ -171,6 +186,10 @@ for and risks, and which replies matter.
   when positions are the same.
 - `docs/design-docs/chess-notation.md` — how a move is written in the
   visitor's language and how the moves in the address are read.
+- `src/content/book.ts` — the database's format and how it is checked;
+  `src/content/firstMoves.ts` and its language files are the first content.
+- `docs/exec-plans/active/0002-opening-explorer.md` — the build, its
+  progress and its decisions, including how deep each line goes.
 - `docs/localization.md` — the languages promised, translated text and
   the layout of per-language content.
 - `docs/design-docs/design-system.md` — board highlights, legal-move

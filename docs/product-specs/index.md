@@ -6,9 +6,11 @@ built and changes in the same commit as the behaviour.
 
 - [product-brief.md](product-brief.md) — what Uberschach is, for whom, what
   success means, the entry page, what v1 leaves out.
-- [opening-explorer.md](opening-explorer.md) — the first capability, not yet
-  built: the visitor plays both sides, the app rates and explains each move
-  from a database keyed by position, and shows the moves worth knowing next.
+- [opening-explorer.md](opening-explorer.md) — the first capability, being
+  built from `docs/exec-plans/active/0002-opening-explorer.md`: the visitor
+  plays both sides, the app rates and explains each move from a database
+  keyed by position, and shows the moves worth knowing next. The database
+  and the first move's content exist; the screen does not yet.
 
 The rules engine has no spec of its own: its promise is the FIDE Laws of
 Chess, an external text, and what it decides and leaves out is in

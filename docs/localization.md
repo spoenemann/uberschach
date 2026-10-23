@@ -117,13 +117,18 @@ prose around it. `pieceLetter(type, language)` gives one letter.
 
 Content holds the chess data once and the prose once per language: a
 neutral file with the positions, moves, ratings and sources, and beside it
-one file per language with the texts, names and backgrounds
+one file per language with the names, backgrounds and strategy texts
 (`docs/product-specs/opening-explorer.md`, The database), joined as a
 `Record<Language, …>` with `Language` from `src/i18n/language.ts`:
-`<name>.ts`, `<name>.en.ts`, `<name>.de.ts`. English is complete; German
-may lag for a lesson, and the English then shows, which is accepted above.
-No content exists yet: the first content lands in this layout, and if
-building the explorer needs another, this section changes with it.
+`<name>.ts`, `<name>.en.ts`, `<name>.de.ts`; `src/content/firstMoves.ts`
+is the first. Both the data and the prose name a position by the canonical
+line that reaches it, in English notation, and each language's prose is
+written in its own notation: the key says `1.Nf3`, the German text beside
+it says `Sf3`, and nothing is translated at runtime. English is complete;
+German may lag text by text, and the English then shows, which is accepted
+above. `src/content/book.ts` joins data and prose at import and refuses a
+German text without its English, a key no position or move of the module
+has, and a move without its English text (`src/content/book.test.ts`).
 
 ## Adding a language
 

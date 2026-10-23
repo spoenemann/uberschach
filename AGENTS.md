@@ -4,7 +4,9 @@ Chess training app for the browser, built first for the maintainer's own
 training and published on GitHub Pages for anyone who finds it useful. Static
 single-page app: TypeScript 6 strict, Vite 8, React 19, Vitest 5, ESLint 10,
 npm, Node 24. The first capability, an opening explorer, is specified in
-`docs/product-specs/opening-explorer.md` and not yet built.
+`docs/product-specs/opening-explorer.md` and being built from
+`docs/exec-plans/active/0002-opening-explorer.md`: the opening book and the
+first move's content exist, the screen does not yet.
 
 ## Commands
 
@@ -27,7 +29,7 @@ npm run dev                          # http://localhost:5173/uberschach/ (the ba
 
 - `src/domain/` — chess and training logic in pure TypeScript; tests run in plain Node. The rules engine (FEN, legal moves, game end): `docs/design-docs/chess-rules-engine.md` holds its scope, its build and the test file per FIDE article; a rule change updates that doc and that test. Notation (`san.ts`, `line.ts`: moves and lines as text in English or German letters, the language an argument): `docs/design-docs/chess-notation.md`.
 - `src/i18n/` — the languages, the German catalogue (`de.ts`) and which notation each language reads (`notation.ts`), pure TypeScript. Text a visitor sees or hears is `t("English text")` in the code, never a literal in JSX; its German line goes in `de.ts` in the same commit, and a test fails `npm run check` otherwise (`docs/localization.md`).
-- `src/content/` — opening content as typed data files; prose once per language (`docs/localization.md`, Opening content).
+- `src/content/` — opening content as typed data files; prose once per language (`docs/localization.md`, Opening content). `book.ts` joins data and prose into the book keyed by position and refuses a disagreement at import; `openings.ts` is the shipped book; a content principle (all legal moves covered, only ratings 4 and 5 followed, sourced backgrounds) is held by `openings.test.ts`.
 - `src/ui/` — React components.
 - `src/ui/board/` — the board and the pieces; the piece drawings are path
   data in `pieceShapes.ts`, judged by eye at 44px (`docs/design-docs/design-system.md`,

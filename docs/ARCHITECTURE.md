@@ -30,7 +30,7 @@ column. Nothing imports upward.
 | -------------- | ------------------------------------------------------------------------------ | --------------------------------- |
 | `src/domain/`  | Pure TypeScript: chess rules, notation, training. No React, no browser APIs.   | nothing in `src/`                 |
 | `src/i18n/`    | Pure TypeScript: the languages, the catalogues, each language's notation.      | `domain`                          |
-| `src/content/` | Opening content as typed data files.                                           | `domain`, `i18n`                  |
+| `src/content/` | Opening content as typed data files, and the book keyed by position.           | `domain`, `i18n`                  |
 | `src/ui/`      | React components, their CSS Modules, and the design tokens.                    | `domain`, `i18n`, `content`       |
 | `src/app/`     | Composition root: entry point, routing, browser storage, wiring.               | `domain`, `i18n`, `content`, `ui` |
 
@@ -53,6 +53,13 @@ Enforced by: `boundaries/dependencies` and `boundaries/no-unknown-files` in
   code does not use, and message and translation carry the same
   placeholders. Enforced by: `src/i18n/catalogue.test.ts`
   (`docs/localization.md`).
+- Every content line and move plays legally from the initial position and
+  is written canonically, every move has an English text, and no prose is
+  keyed to a line its module neither declares nor reaches. Enforced by:
+  `buildBook` in `src/content/book.ts`, which throws at import, and
+  `src/content/openings.test.ts`, which imports the shipped book and holds
+  the content principles of `docs/product-specs/opening-explorer.md` (The
+  database).
 - The built app, served under the Pages base path, mounts into `#root` with
   no console error, no uncaught exception, no failed same-origin request and
   no third-party request, at a desktop and a phone width. Enforced by:
