@@ -180,7 +180,7 @@ export const de: OpeningTexts = {
       "später selbst einer der bedeutendsten Vertreter des Igels wurde.",
     strategy:
       "Öffnet die Diagonale des Läufers f8 und hält jeden Aufbau offen: Schwarz kann sich " +
-      "weiterhin für ein solides Bauernzentrum, einen flexiblen Wartenaufbau oder einen frühen " +
+      "weiterhin für ein solides Bauernzentrum, einen flexiblen Warteaufbau oder einen frühen " +
       "Vorstoß im Zentrum entscheiden. Weiß kann seinerseits sofort Raum nehmen. Der Preis ist " +
       "der Läufer c8, den der Bauer e6 einsperrt, bis ...b6 ihm die lange Diagonale öffnet.",
   },
@@ -380,8 +380,8 @@ export const de: OpeningTexts = {
   "1.c4 Nf6 2.g3 d5": {
     strategy:
       "Greift sofort das Zentrum an, doch nach 3.cxd5 Sxd5 4.Lg2 greift der Läufer den Springer " +
-      "auf d5 an. Schwarz muss einen Zug aufwenden, um den Springer zu retten, sodass Weiß mit " +
-      "Tempogewinn entwickelt; die vorherige Vorbereitung von ...d5 vermeidet das.",
+      "auf d5 an. Schwarz muss einen Zug aufwenden, um den Springer zu retten, sodass sich Weiß " +
+      "mit Tempogewinn entwickelt; die vorherige Vorbereitung von ...d5 vermeidet das.",
   },
 
   "1.c4 Nf6 2.g3 Nc6": {

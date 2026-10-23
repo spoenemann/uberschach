@@ -71,7 +71,11 @@ export const de: OpeningTexts = {
       "veröffentlichte Morra eine Broschüre und mehrere Artikel darüber, und Smith schrieb " +
       "insgesamt neun Bücher und neunundvierzig Artikel über das Gambit.",
     strategy:
-      "Schwarz kann den Bauern auch ablehnen und gelangt so in ruhigere Varianten.",
+      "Öffnet sofort das Zentrum: Nach 2...cxd4 3.c3 dxc3 4.Sxc3 gibt Weiß einen Bauern für " +
+      "schnelle Entwicklung, offene c- und d-Linien und Druck auf f7 durch einen Läufer auf c4. " +
+      "Die Theorie hält das für zu wenig, doch die vielen Fallen machen es für einen " +
+      "unvorbereiteten Gegner zu einer harten Prüfung. Schwarz kann den Bauern auch ablehnen und " +
+      "gelangt so in ruhigere Varianten.",
   },
 
   "1.e4 c5 2.f4": {
@@ -783,8 +787,8 @@ export const de: OpeningTexts = {
   "1.e4 c5 2.Nf3 b5": {
     name: "Sizilianische Verteidigung: Polnisches Gambit",
     strategy:
-      "Gibt einen Bauern: 3.Lxb5 schlägt ihn über die offene Diagonale f1-a6, und Schwarz' Druck " +
-      "auf e4 oder auf den Läufer bietet keine ausreichende Kompensation.",
+      "Gibt einen Bauern: 3.Lxb5 schlägt ihn über die offene Diagonale f1-a6, und der schwarze " +
+      "Druck auf e4 oder auf den Läufer bietet keine ausreichende Kompensation.",
   },
 
   "1.e4 c5 2.Nf3 g5": {

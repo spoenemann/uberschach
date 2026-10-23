@@ -23,8 +23,8 @@ export const de: OpeningTexts = {
     strategy:
       "Entwickelt eine Figur, nimmt e4 und d5 ins Visier und lässt offen, welcher Zentrumsbauer " +
       "folgt, sodass viele Zentrumsstrukturen möglich bleiben. Ein Fianchetto mit ...g6 ist " +
-      "möglich, doch dann ist der Springer an die lange Diagonale gebunden: Zieht er weg, steht " +
-      "der Turm auf h8 dem weißen Läufer im Weg.",
+      "möglich, doch dann ist der Springer an die lange Diagonale gebunden: Zieht er weg, ist " +
+      "der Turm auf h8 dem weißen Läufer ausgesetzt.",
   },
 
   "1.b3 c5": {
@@ -102,7 +102,7 @@ export const de: OpeningTexts = {
   "1.b3 a6": {
     strategy:
       "Verbraucht ein Tempo für einen Damenflügelbauern, bevor eine Figur oder ein Zentrumsbauer " +
-      "gezogen hat. Weiß entwickelt einfach und besetzt in aller Ruhe das Zentrum.",
+      "gezogen hat. Weiß entwickelt sich einfach und besetzt in aller Ruhe das Zentrum.",
   },
 
   "1.b3 a5": {
@@ -115,15 +115,15 @@ export const de: OpeningTexts = {
   "1.b3 Na6": {
     strategy:
       "Stellt den Springer an den Rand, wo er b4 und c5 ins Auge fasst, aber den a-Bauern " +
-      "blockiert und wenig für das Zentrum tut. Weiß entwickelt einfach und nimmt im Zentrum " +
-      "Raum.",
+      "blockiert und wenig für das Zentrum tut. Weiß entwickelt sich einfach und nimmt im " +
+      "Zentrum Raum.",
   },
 
   "1.b3 Nh6": {
     strategy:
       "Stellt den Springer an den Rand statt nach f6, wo er f5 und g4 ins Auge fasst, aber kein " +
-      "Zentrumsfeld kontrolliert. Weiß entwickelt und besetzt das Zentrum, während die schwarze " +
-      "Entwicklung zurückbleibt.",
+      "Zentrumsfeld kontrolliert. Weiß entwickelt sich und besetzt das Zentrum, während die " +
+      "schwarze Entwicklung zurückbleibt.",
   },
 
   "1.b3 f6": {

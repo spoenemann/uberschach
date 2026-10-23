@@ -68,8 +68,8 @@ export const en: OpeningTexts = {
   "1.Nf3 b6": {
     name: "Zukertort Opening: Queenside Fianchetto Variation",
     strategy:
-      "Prepares the fianchetto ...Bb7, which presses on e4 along the long diagonal. The setup is " +
-      "sound but slow: White can take the centre at once, and Black has to attack the pawns " +
+      "Prepares the fianchetto ...Bb7, which presses on e4 along the long diagonal. The set-up " +
+      "is sound but slow: White can take the centre at once, and Black has to attack the pawns " +
       "afterwards.",
   },
 

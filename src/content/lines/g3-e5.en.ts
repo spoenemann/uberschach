@@ -152,22 +152,21 @@ export const en: OpeningTexts = {
   "1.g3 e5 2.Bg2 d5": {
     strategy:
       "Takes the centre at once with pawns on d5 and e5, and the queen guards d5 against the " +
-      "bishop on g2. Black claims as much space as White can fight for, and the price is a " +
-      "target: White can challenge d5 or build up quietly. Both sides fight over the same " +
-      "central squares.",
+      "bishop on g2. Black claims space at once, and the price is a target: White can challenge " +
+      "d5 or build up quietly. Both sides fight over the same central squares.",
   },
 
   "1.g3 e5 2.Bg2 Nc6": {
     strategy:
-      "Develops the queen’s knight to guard e5 and watch d4, and keeps Black flexible between an " +
-      "open game with ...d5 and a closed one with the king’s bishop on the long diagonal. The " +
+      "Develops the queen's knight to guard e5 and watch d4, and keeps Black flexible between an " +
+      "open game with ...d5 and a closed one with the king's bishop on the long diagonal. The " +
       "cost is that the knight takes the square the c-pawn would use, so the plan with ...c6 and " +
       "...d5 is gone. It leads to a calm game in which neither side has committed its centre.",
   },
 
   "1.g3 e5 2.Bg2 Nf6": {
     strategy:
-      "Develops the king’s knight toward e4 and d5 and keeps the centre pawns, castling and the " +
+      "Develops the king's knight toward e4 and d5 and keeps the centre pawns, castling and the " +
       "choice of bishop square in reserve. The e5 pawn is still unguarded, so Black must be " +
       "ready to defend or advance it once White attacks it. The game stays flexible and quiet, " +
       "with Black aiming at ...d5 rather than a closed set-up.",
@@ -175,7 +174,7 @@ export const en: OpeningTexts = {
 
   "1.g3 e5 2.Bg2 Be7": {
     strategy:
-      "Develops the bishop modestly and prepares castling and the development of the king’s " +
+      "Develops the bishop modestly and prepares castling and the development of the king's " +
       "knight. The move is sound but passive: e5 still needs a defender once Nf3 attacks it, and " +
       "White builds a comfortable grip on d5.",
   },
@@ -197,7 +196,7 @@ export const en: OpeningTexts = {
   "1.g3 e5 2.Bg2 d6": {
     strategy:
       "Supports e5 with a pawn and frees the c8 bishop for a solid set-up with the knight and " +
-      "the king’s bishop developed modestly. It claims less of the centre than ...d5 and leaves " +
+      "the king's bishop developed modestly. It claims less of the centre than ...d5 and leaves " +
       "White a free hand in the centre.",
   },
 

@@ -5,9 +5,9 @@ import type { OpeningTexts } from "../book.ts";
 export const en: OpeningTexts = {
   "1.b3 c5 2.Bb2": {
     strategy:
-      "Puts the bishop on the long diagonal, where it presses on the centre and on g7, the move " +
-      "b3 was played for. White keeps every plan open, but no pawn claims the centre yet, so the " +
-      "game is about manoeuvring and Black is free to take space.",
+      "Puts the bishop on the long diagonal, where it presses on the centre and on g7, which is " +
+      "what b3 was played for. White keeps every plan open, but no pawn claims the centre yet, " +
+      "so the game is about manoeuvring and Black is free to take space.",
   },
 
   "1.b3 c5 2.e3": {

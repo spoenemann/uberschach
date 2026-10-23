@@ -203,9 +203,9 @@ export const en: OpeningTexts = {
   "1.e4 Nf6 2.Nc3 e5": {
     strategy:
       "Fights for the centre at once and, with the knight on f6 aimed at e4, steers the game " +
-      "into a Vienna Game, a sound and well-trodden territory. Black avoids the independent " +
-      "lines where White has had the better theory. The cost is that White chooses between a " +
-      "sharp gambit and quiet development, and Black must be at home in both.",
+      "into a Vienna Game, sound, well-trodden territory. Black avoids the independent lines " +
+      "where White has had the better theory. The cost is that White chooses between a sharp " +
+      "gambit and quiet development, and Black must be at home in both.",
   },
 
   "1.e4 Nf6 2.Nc3 d6": {

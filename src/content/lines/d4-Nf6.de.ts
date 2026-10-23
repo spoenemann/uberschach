@@ -6,21 +6,20 @@ export const de: OpeningTexts = {
   "1.d4 Nf6 2.c4": {
     name: "Indische Verteidigung: Normalvariante",
     strategy:
-      "Erobert einen größeren Anteil am Zentrum und kontrolliert d5; es folgen Sc3 und e4 mit " +
-      "breitem Bauernzentrum oder ein ruhigeres Sf3. Schwarz wählt dann die Struktur: " +
-      "Nimzo-Indisch, Damenindisch oder Bogoljubow-Indisch nach ...e6, Königsindisch oder " +
-      "Grünfeld-Indisch nach ...g6 oder Benoni- und altindische Aufbauten. Der Preis ist die " +
-      "Menge an Theorie, die Weiß gegen all diese Verteidigungen kennen muss.",
+      "Erobert einen größeren Anteil am Zentrum und kämpft um d5, sodass Sc3 und e4 folgen " +
+      "können, um ein breites Bauernzentrum aufzubauen. Schwarz kann solide oder scharf " +
+      "antworten, und die indischen Verteidigungen laden Weiß ein, ein großes Zentrum zu " +
+      "errichten, um es dann zu untergraben. Der Preis ist die Menge an Theorie, die Weiß gegen " +
+      "all diese Verteidigungen kennen muss.",
   },
 
   "1.d4 Nf6 2.Nf3": {
     name: "Indische Verteidigung: Springervariante",
     strategy:
-      "Entwickelt den Springer, deckt d4 und e5 und hält c4 in Reserve, bis Schwarz seinen " +
-      "Aufbau zeigt. Nach ...d5 oder ...e6 kann Weiß ins Damengambit übergehen oder ein " +
-      "ruhigeres System wählen, etwa das London-System mit Lf4, das Colle-System mit e3 und " +
-      "Ld3 oder den Torre-Angriff mit Lg5. Der Zug legt sich weniger fest als 2.c4, doch Weiß " +
-      "muss die indischen Varianten trotzdem kennen, wenn Schwarz ...g6 spielt und c4 folgt.",
+      "Entwickelt den Springer, deckt d4 und e5 und hält den c-Bauern in Reserve, bis Schwarz " +
+      "seinen Aufbau zeigt. Weiß kann noch ins Damengambit übergehen oder ein ruhigeres System " +
+      "wählen, das ganz ohne c4 auskommt. Der Zug legt sich weniger fest als 2.c4, doch Schwarz " +
+      "hat die freie Wahl, und indische Aufbauten bleiben möglich.",
   },
 
   "1.d4 Nf6 2.Bg5": {
@@ -48,16 +47,15 @@ export const de: OpeningTexts = {
       "Entwickelt den Läufer außerhalb der Bauernkette, bevor e3 ihn einsperrt, und baut danach " +
       "unabhängig vom schwarzen Aufbau eine solide Stellung auf. Der Preis ist b2: Ohne den " +
       "Läufer auf c1 deckt nichts diesen Bauern, sodass eine Dame auf b6 ihn angreifen kann. Der " +
-      "Aufbau ist leicht zu erlernen, stellt Schwarz aber vor wenig Aufgaben, der sich frei " +
-      "entwickeln kann.",
+      "Aufbau ist leicht zu erlernen, stellt Schwarz, der sich frei entwickeln kann, aber vor " +
+      "wenig Aufgaben.",
   },
 
   "1.d4 Nf6 2.Nc3": {
     strategy:
-      "Kontrolliert e4 und d5 und bereitet e4 vor, verstellt aber den c-Bauern, sodass der " +
-      "Damengambit-Aufbau mit c4 nicht mehr möglich ist. Nach ...d5 spielt Weiß meist Lg5 " +
-      "(Richter-Weressow-Angriff) oder Lf4 (Rapport-Jobava-System). Gesund, aber eine " +
-      "Nebenwahl: Der Richter-Weressow-Angriff war auf höchstem Niveau nie sehr populär.",
+      "Kontrolliert e4 und d5 und bereitet e4 vor, verstellt aber den c-Bauern, sodass c4 nicht " +
+      "möglich ist. Weiß setzt stattdessen auf eine aktive Läuferentwicklung. Gesund, aber eine " +
+      "Nebenwahl.",
   },
 
   "1.d4 Nf6 2.g3": {
@@ -342,8 +340,8 @@ export const de: OpeningTexts = {
     strategy:
       "Opfert einen Bauern für schnelle Entwicklung und aktives Figurenspiel und gewinnt ihn " +
       "meist zurück. Weiß kann versuchen, den Mehrbauern zu behalten, oder ihn für einen " +
-      "Entwicklungsvorsprung zurückgeben, sodass die Partie davon abhängt, ob Schwarz' Aktivität " +
-      "das Material aufwiegt. Auf Großmeisterebene selten gespielt.",
+      "Entwicklungsvorsprung zurückgeben, sodass die Partie davon abhängt, ob die schwarze " +
+      "Aktivität das Material aufwiegt. Auf Großmeisterebene selten gespielt.",
   },
 
   "1.d4 Nf6 2.c4 d5": {

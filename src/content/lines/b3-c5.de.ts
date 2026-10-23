@@ -5,8 +5,8 @@ import type { OpeningTexts } from "../book.ts";
 export const de: OpeningTexts = {
   "1.b3 c5 2.Bb2": {
     strategy:
-      "Stellt den Läufer auf die lange Diagonale, wo er Druck auf das Zentrum und auf g7 ausübt, " +
-      "wofür b3 gespielt wurde. Weiß hält jeden Plan offen, doch noch beansprucht kein Bauer das " +
+      "Stellt den Läufer auf die lange Diagonale, wo er Druck auf das Zentrum und auf g7 ausübt; " +
+      "dafür wurde b3 gespielt. Weiß hält jeden Plan offen, doch noch beansprucht kein Bauer das " +
       "Zentrum, die Partie wird also zum Manövrieren, und Schwarz kann frei Raum gewinnen.",
   },
 

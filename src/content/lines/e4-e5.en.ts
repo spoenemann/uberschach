@@ -324,8 +324,8 @@ export const en: OpeningTexts = {
       "the Brazilian Championship. Brazilian players took it up, so that it came to be called " +
       "the Brazilian Defence.",
     strategy:
-      "Defends e5 with the queen, which blocks the f8-bishop and makes Black’s development " +
-      "awkward. White develops freely with natural moves, while Black’s plans of queenside " +
+      "Defends e5 with the queen, which blocks the f8-bishop and makes Black's development " +
+      "awkward. White develops freely with natural moves, while Black's plans of queenside " +
       "castling or a later ...f5 cost time.",
   },
 
@@ -522,15 +522,15 @@ export const en: OpeningTexts = {
       "Bishop's Opening.",
     strategy:
       "Develops a piece with an attack on e4, so White must decide at once how to defend the " +
-      "pawn and Black seizes the initiative early. The usual quiet defence lets Black develop " +
-      "comfortably, but White can still play f2-f4 later, a delayed King’s Gambit, so Black has " +
+      "pawn, and Black gets active play early. The usual quiet defence lets Black develop " +
+      "comfortably, but White can still play f2-f4 later, a delayed King's Gambit, so Black has " +
       "to stay alert.",
   },
 
   "1.e4 e5 2.Bc4 Nc6": {
     strategy:
       "Defends e5 with a developing move but puts no pressure on e4, so White is free to choose " +
-      "the kind of game: a calm, familiar development, or a pawn sacrifice with f2-f4 in King’s " +
+      "the kind of game: a calm, familiar development, or a pawn sacrifice with f2-f4 in King's " +
       "Gambit style, which Black must be ready for.",
   },
 
@@ -540,7 +540,7 @@ export const en: OpeningTexts = {
       "Black's symmetrical reply, also called the Boi Variation, and after 2...Nf6 and " +
       "2...Nc6 the next most common answer to 2.Bc4.",
     strategy:
-      "Mirrors White’s bishop and develops it with an eye on f2, a symmetrical and solid set-up. " +
+      "Mirrors White's bishop and develops it with an eye on f2, a symmetrical and solid set-up. " +
       "White can steer the game into other openings or prepare d4 with c3, and Black must be " +
       "ready for a pawn offered for quick play.",
   },
@@ -680,7 +680,7 @@ export const en: OpeningTexts = {
       "by Carl Jaenisch, 3.d3 Nf6 4.f4 d6 5.Nf3, gives White the advantage.",
     strategy:
       "Hits e4 with the f-pawn and goes for a counterattack, but it weakens the e8-h5 diagonal " +
-      "and the king’s cover, so White keeps an edge.",
+      "and the king's cover, so White keeps an edge.",
   },
 
   "1.e4 e5 2.Bc4 g6": {

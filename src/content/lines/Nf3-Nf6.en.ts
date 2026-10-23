@@ -577,7 +577,7 @@ export const en: OpeningTexts = {
   "1.Nf3 Nf6 2.b3 h5": {
     strategy:
       "Pushes the rook pawn without a purpose and loses a tempo while the centre stays " +
-      "uncontested. White simply develops on.",
+      "uncontested. White simply goes on developing.",
   },
 
   "1.Nf3 Nf6 2.b3 Na6": {
@@ -632,7 +632,7 @@ export const en: OpeningTexts = {
   "1.Nf3 Nf6 2.b3 Rg8": {
     strategy:
       "Forfeits kingside castling and sends the rook to a closed file, achieving nothing in the " +
-      "centre or in development. White simply develops on while Black's king has lost its " +
+      "centre or in development. White simply goes on developing while Black's king has lost its " +
       "natural home.",
   },
 };

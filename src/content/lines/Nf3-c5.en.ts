@@ -27,9 +27,9 @@ export const en: OpeningTexts = {
   "1.Nf3 c5 2.g3": {
     strategy:
       "Prepares Bg2 and early castling, with the bishop eyeing d5 and b7 along the long diagonal " +
-      "once the f3-knight moves. White leaves the pawn set-up open, for a queenside squeeze or a " +
-      "slower build-up. The game is quiet and flexible, and Black can take space in the centre " +
-      "at once.",
+      "once the f3-knight moves. White leaves the pawn set-up open, for pressure on the " +
+      "queenside with the c-pawn or a slower build-up in the centre. The game is quiet and " +
+      "flexible, and Black can take space in the centre at once.",
   },
 
   "1.Nf3 c5 2.d4": {
@@ -165,8 +165,8 @@ export const en: OpeningTexts = {
   "1.Nf3 c5 2.c4 Nf6": {
     strategy:
       "Develops with pressure on e4 and d5 and leaves every pawn structure open, so Black can " +
-      "see what White commits to first. The same positions also arise when White starts with the " +
-      "queen's pawn, which is why this reply is worth knowing in both forms.",
+      "see what White commits to first and decide on the structure a move later. The cost is " +
+      "that White may open the centre with the d-pawn before Black has settled.",
   },
 
   "1.Nf3 c5 2.c4 e6": {

@@ -5,11 +5,10 @@ import type { OpeningTexts } from "../book.ts";
 export const de: OpeningTexts = {
   "1.c4 c5 2.Nf3": {
     strategy:
-      "Entwickelt den Königsspringer, kontrolliert d4 und e5 und kündigt einen sofortigen " +
-      "Durchbruch mit dem d-Bauern an, der die Partie in Richtung eines Offenen Sizilianers " +
-      "lenken kann, mit dem weißen Bauern auf c4 statt auf e4. Schwarz muss sich gleich " +
-      "entscheiden, wie er diesem Durchbruch begegnet, und die Partie bleibt für beide Seiten " +
-      "flexibel.",
+      "Entwickelt den Königsspringer, kontrolliert d4 und e5 und bereitet einen Durchbruch mit " +
+      "dem d-Bauern vor, der die Partie in Richtung eines Offenen Sizilianers lenken kann, mit " +
+      "dem weißen Bauern auf c4 statt auf e4. Schwarz muss sich früh entscheiden, wie er diesem " +
+      "Durchbruch begegnet, und die Partie bleibt für beide Seiten flexibel.",
   },
 
   "1.c4 c5 2.Nc3": {
@@ -20,7 +19,7 @@ export const de: OpeningTexts = {
       "ergibt dann die Fianchetto-Variante (A36).",
     strategy:
       "Entwickelt den Damenspringer und überwacht d5 und e4, was es Schwarz erschwert, im " +
-      "Zentrum mit ...d5 durchzubrechen. Weiß will erst entwickeln und die Symmetrie später " +
+      "Zentrum mit ...d5 durchzubrechen. Weiß will sich erst entwickeln und die Symmetrie später " +
       "brechen, mit langsamem Aufbau und einem Bauerndurchbruch im Zentrum oder am Flügel. Die " +
       "Partie verläuft meist geduldig, und die Symmetrie kann viele Züge lang anhalten.",
   },
@@ -131,9 +130,9 @@ export const de: OpeningTexts = {
 
   "1.c4 c5 2.Nh3": {
     strategy:
-      "Stellt den Springer an den Rand, wo er f4 und g5 im Blick hat. Sobald ein Bauernzug den " +
-      "Läufer c8 öffnet, verdoppelt ...Lxh3 gxh3 die weißen Bauern am Königsflügel, und der " +
-      "Springer tut nichts für das Zentrum.",
+      "Stellt den Springer an den Rand, wo er f4 und g5 im Blick hat. Sobald der d-Bauer zieht " +
+      "und den Läufer c8 öffnet, verdoppelt ...Lxh3 gxh3 die weißen Bauern am Königsflügel, und " +
+      "der Springer tut nichts für das Zentrum.",
   },
 
   "1.c4 c5 2.Qc2": {
@@ -186,9 +185,8 @@ export const de: OpeningTexts = {
   "1.c4 c5 2.Nc3 e6": {
     strategy:
       "Öffnet die Diagonale des Läufers f8 und bereitet ...d5 vor, hält aber die kompakte " +
-      "Igelstellung bereit. Der Preis ist der Läufer c8, der eingesperrt bleibt, bis der b7- " +
-      "oder d7-Bauer zieht, und dass noch keine Figur entwickelt ist. Es führt zu solidem, " +
-      "geduldigem Spiel.",
+      "Igelstellung bereit. Der Preis ist der Läufer c8, der eingesperrt bleibt, bis der b-Bauer " +
+      "zieht, und dass noch keine Figur entwickelt ist. Es führt zu solidem, geduldigem Spiel.",
   },
 
   "1.c4 c5 2.Nc3 g6": {
@@ -411,7 +409,7 @@ export const de: OpeningTexts = {
   "1.c4 c5 2.g3 Qa5": {
     strategy:
       "Verlässt d8, bevor eine einzige Figur entwickelt ist, und hat kein echtes Ziel: Der Turm " +
-      "deckt a2, und der Bauer d2 sperrt die Diagonale nach e1. Weiß entwickelt einfach.",
+      "deckt a2, und der Bauer d2 sperrt die Diagonale nach e1. Weiß entwickelt sich einfach.",
   },
 
   "1.c4 c5 2.g3 Nh6": {
@@ -436,8 +434,8 @@ export const de: OpeningTexts = {
 
   "1.c4 c5 2.g3 b5": {
     strategy:
-      "Bietet einen Bauern an: Nach 3.cxb5 a6 hofft Schwarz auf offene a- und b-Linien gegen " +
-      "Weiß' Damenflügel, doch ohne Zentrumsbauern oder entwickelte Figur hinter dem Gambit " +
+      "Bietet einen Bauern an: Nach 3.cxb5 a6 hofft Schwarz auf offene a- und b-Linien gegen den " +
+      "weißen Damenflügel, doch ohne Zentrumsbauern oder entwickelte Figur hinter dem Gambit " +
       "begegnet Weiß ihm mit ruhiger Entwicklung.",
   },
 

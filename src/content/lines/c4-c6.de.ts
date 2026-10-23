@@ -478,10 +478,9 @@ export const de: OpeningTexts = {
   "1.c4 c6 2.d4 d6": {
     name: "Damenbauernspiel: Anglo-Slawische Eröffnung",
     strategy:
-      "Vermeidet die Slawische Verteidigung, indem ...d5 aufgeschoben wird, öffnet die Diagonale " +
-      "des Läufers c8 und bereitet ...e5 für einen altindischen Aufbau vor. Der Zug ist solide, " +
-      "aber passiv: Weiß erhält mehr Raum, und Schwarz muss den richtigen Moment für den " +
-      "Befreiungshebel finden.",
+      "Schiebt ...d5 auf, öffnet die Diagonale des Läufers c8 und bereitet ...e5 vor. Der Zug " +
+      "ist solide, aber passiv: Weiß erhält mehr Raum, und Schwarz muss den richtigen Moment für " +
+      "den Befreiungshebel finden.",
   },
 
   "1.c4 c6 2.d4 g6": {

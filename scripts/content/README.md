@@ -17,7 +17,7 @@ outside the repository, named `<work>` below.
 | `board.mjs` | The board after a line, what attacks a square, what a piece attacks: for checking a note's claims. |
 | `node-file.mjs` | Writes `<work>/nodes/<id>.json` per followed position: moves, ratings, treatment, current notes, names and sources. |
 | `validate.mjs` | Checks a writer's or reviewer's file against its node file; both agents run it until it prints OK. |
-| `apply.mjs` | Writes reviewed notes into the prose modules, leaving unchanged notes as they are. |
+| `apply.mjs` | Writes reviewed notes into the prose modules, leaving unchanged notes as they are. Writes nothing while a German note is still the old text under a changed English (set `"deUnchanged": true` on a note whose German already fits) or is under 0.6 or over 2 times the length of its English. |
 | `compare.mjs` | Old and new notes of a position side by side, with the reviewer's findings. |
 | `lib.mjs` | Shared: the rules engine, the content modules as data, keys and ids. |
 

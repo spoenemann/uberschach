@@ -14,10 +14,10 @@ export const de: OpeningTexts = {
 
   "1.e4": {
     strategy:
-      "Besetzt sofort ein Zentrumsfeld und öffnet Linien für Dame und Königsläufer, sodass Weiß " +
-      "schnell entwickeln und früh rochieren kann. Der Preis ist ein Bauer, den kein anderer " +
-      "Bauer deckt, sodass Schwarz ihn gleich angreifen kann; die Partie öffnet sich früh und " +
-      "kann scharf werden.",
+      "Besetzt sofort ein Zentrumsfeld und öffnet Linien für Dame und Königsläufer, sodass sich " +
+      "Weiß schnell entwickeln und früh rochieren kann. Der Preis ist ein Bauer, den kein " +
+      "anderer Bauer deckt, sodass Schwarz ihn gleich angreifen kann; die Partie öffnet sich " +
+      "früh und kann scharf werden.",
   },
 
   "1.d4": {

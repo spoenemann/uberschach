@@ -163,10 +163,10 @@ export const en: OpeningTexts = {
 
   "1.b3 e5 2.Bb2 d6": {
     strategy:
-      "A modest defence: the pawn holds e5 and keeps the structure compact, but it blocks the " +
-      "c8-bishop and takes d6 from the f8-bishop. Black gives up the chance of a broad pawn " +
-      "centre in return for solidity. The game stays quiet, with Black a little cramped but " +
-      "solid and White free to build up slowly.",
+      "A modest defence: the pawn holds e5, keeps the structure compact and frees the c8-bishop, " +
+      "but it takes d6 from the f8-bishop, which is left with e7. Black gives up the chance of a " +
+      "broad pawn centre in return for solidity. The game stays quiet, with Black a little " +
+      "cramped but solid and White free to build up slowly.",
   },
 
   "1.b3 e5 2.Bb2 Qe7": {
@@ -360,8 +360,8 @@ export const en: OpeningTexts = {
   "1.b3 e5 2.e3 Nf6": {
     strategy:
       "Develops toward the centre and watches e4 and d5, keeping Black's pawn moves flexible. " +
-      "The knight does not defend e5, so Black needs another move to meet Bb2, while White's " +
-      "bishop gets its diagonal for free.",
+      "The knight does not defend e5, so Black needs another move to meet Bb2, which comes with " +
+      "gain of time.",
   },
 
   "1.b3 e5 2.e3 d6": {
@@ -520,8 +520,8 @@ export const en: OpeningTexts = {
   "1.b3 e5 2.e3 Ke7": {
     strategy:
       "Forfeits castling and blocks the queen and the f8-bishop for no return. 3.Ba3+ checks at " +
-      "once along the a3–f8 diagonal, so Black must block with a pawn that is then pinned or " +
-      "lose more time moving the king again.",
+      "once along the a3–f8 diagonal, so Black must block with a pawn, which is then pinned or " +
+      "lost, or lose more time moving the king again.",
   },
 
   "1.b3 e5 2.e3 Ba3": {

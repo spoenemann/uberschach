@@ -59,9 +59,9 @@ export const de: OpeningTexts = {
       "Verteidigungstechniken entwickelt wurden, die es entschärfen.",
     strategy:
       "Opfert einen Bauern für schnelle Entwicklung und Spiel gegen den schwarzen Königsflügel, " +
-      "der entlang der Diagonale e8-h5 geschwächt ist. Bei genauem Spiel behält Schwarz den " +
-      "Bauern und Weiß hat bestenfalls Ausgleich, daher ist das eher eine praktische Waffe als " +
-      "eine gesunde Hauptwahl.",
+      "der entlang der Diagonale e8-h5 geschwächt ist. Bei genauem Spiel bringt das Gambit Weiß " +
+      "bestenfalls Ausgleich, daher ist es eher eine praktische Waffe als eine gesunde " +
+      "Hauptwahl.",
   },
 
   "1.d4 f5 2.h3": {
@@ -433,13 +433,13 @@ export const de: OpeningTexts = {
   "1.d4 f5 2.g3 a6": {
     strategy:
       "Ein langsamer Randbauernzug, der weder eine Figur entwickelt noch um das Zentrum kämpft. " +
-      "Schwarz hat ein Tempo verbraucht, und Weiß kann einfach weiterentwickeln.",
+      "Schwarz hat ein Tempo verbraucht, und Weiß kann sich einfach weiterentwickeln.",
   },
 
   "1.d4 f5 2.g3 a5": {
     strategy:
       "Ein langsamer Randbauernzug, der b4 kontrolliert, aber weder eine Figur entwickelt noch " +
-      "um das Zentrum kämpft, und er schwächt b5. Weiß kann einfach weiterentwickeln.",
+      "um das Zentrum kämpft, und er schwächt b5. Weiß kann sich einfach weiterentwickeln.",
   },
 
   "1.d4 f5 2.g3 b6": {
@@ -464,7 +464,7 @@ export const de: OpeningTexts = {
   "1.d4 f5 2.g3 h5": {
     strategy:
       "Zielt auf ...h4 gegen g3, entwickelt aber nichts und kämpft um kein Zentrumsfeld. Der " +
-      "Königsflügel ist gelockert, und Weiß kann ungestört weiterentwickeln.",
+      "Königsflügel ist gelockert, und Weiß kann sich ungestört weiterentwickeln.",
   },
 
   "1.d4 f5 2.g3 Nh6": {
@@ -600,7 +600,7 @@ export const de: OpeningTexts = {
   "1.d4 f5 2.Nc3 a6": {
     strategy:
       "Nimmt dem Springer auf c3 das Feld b5 und bereitet ...b5 vor, verbraucht aber ein Tempo " +
-      "am Flügel, während Schwarz' Entwicklung und das Zentrum noch ausstehen, und Weiß kann " +
+      "am Flügel, während die schwarze Entwicklung und das Zentrum noch ausstehen, und Weiß kann " +
       "ungehindert das Zentrum besetzen.",
   },
 

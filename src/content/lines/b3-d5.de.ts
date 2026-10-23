@@ -108,7 +108,7 @@ export const de: OpeningTexts = {
       "Zieht denselben Bauern ein zweites Mal und erreicht die Stellung nach 1.b4 d5 mit Schwarz " +
       "am Zug, also ein volles Tempo weniger. Auf b4 ist der Bauer leicht anzugreifen, durch den " +
       "a-Bauern, die Dame oder, sobald der e-Bauer gezogen hat, den Läufer f8, und er braucht " +
-      "einen Bauern daneben als Stütze.",
+      "die Stütze eines Bauern auf a3 oder c3.",
   },
 
   "1.b3 d5 2.f3": {
@@ -538,7 +538,7 @@ export const de: OpeningTexts = {
 
   "1.b3 d5 2.e3 d4": {
     strategy:
-      "Gewinnt Raum, doch nach 3.exd4 Dxd4 greift 4.Lb2 sofort die Dame an, sodass Weiß mit " +
+      "Gewinnt Raum, doch nach 3.exd4 Dxd4 greift 4.Lb2 sofort die Dame an, sodass sich Weiß mit " +
       "Tempo entwickelt und Schwarz das Zentrum umsonst geöffnet hat.",
   },
 

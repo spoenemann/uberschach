@@ -8,8 +8,7 @@ export const de: OpeningTexts = {
       "Stellt den Läufer auf die lange Diagonale, wo er auf das Zentrum, c6 und b7 drückt, und " +
       "räumt f1, damit Weiß rochieren kann, sobald der Springer entwickelt ist. Weiß legt sich " +
       "sonst noch nicht fest und hält die Wahl zwischen einem zurückhaltenden Aufbau und einem " +
-      "direkteren Zentrumsaufbau offen. Die Partie bleibt ruhig und manövrierend, und im Zentrum " +
-      "entscheidet, wer es zu besseren Bedingungen bekommt.",
+      "direkteren Zentrumsaufbau offen. Die Partie bleibt ruhig und manövrierend.",
   },
 
   "1.g3 c5 2.Nf3": {

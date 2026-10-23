@@ -36,9 +36,8 @@ export const en: OpeningTexts = {
       "Companion to Chess calls the gambit “enterprising and probably sound”.",
     strategy:
       "Offers the e-pawn to open lines against Black's loosened kingside. After 2...fxe4 3.Ng5 " +
-      "the knight attacks the pawn on e4 again and is hard to chase away, so White plays for " +
-      "quick development and the initiative. The price is a pawn and two moves with the same " +
-      "piece.",
+      "the knight attacks the pawn on e4 and is hard to chase away, so White plays for quick " +
+      "development and the initiative. The price is a pawn and two moves with the same piece.",
   },
 
   "1.Nf3 f5 2.b3": {
@@ -185,8 +184,9 @@ export const en: OpeningTexts = {
   "1.Nf3 f5 2.g3 g6": {
     strategy:
       "Guards f5 and h5 and prepares ...Bg7 on the long diagonal, a fianchetto that fits the " +
-      "Dutch and brings quick castling. The cost is the dark squares: with the f- and g-pawns " +
-      "advanced, e6 loses its pawn cover once ...d6 is played.",
+      "Dutch and brings quick castling. The cost is the e6 square: with the f- and g-pawns " +
+      "advanced, it loses its last pawn cover once ...d6 is played, and White's knights can aim " +
+      "at it.",
   },
 
   "1.Nf3 f5 2.g3 d5": {

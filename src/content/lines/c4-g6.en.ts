@@ -171,10 +171,10 @@ export const en: OpeningTexts = {
 
   "1.c4 g6 2.d4 d6": {
     strategy:
-      "Controls e5, frees the c8-bishop and keeps the kingside development flexible, so a " +
-      "fianchetto set-up and a more classical one both stay open. The d-pawn is committed early, " +
-      "which rules out striking at the centre with ...d5, and White decides how much space to " +
-      "take.",
+      "Controls e5, frees the c8-bishop and keeps the knight's development flexible, so Black " +
+      "can still choose between a set-up with ...Nf6 and one that holds the knight back. The " +
+      "d-pawn is committed early, which rules out striking at the centre with ...d5, and White " +
+      "decides how much space to take.",
   },
 
   "1.c4 g6 2.d4 f5": {

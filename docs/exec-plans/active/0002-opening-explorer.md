@@ -374,9 +374,10 @@ new entries in the module writer).
   transposed position with the same entry), kept the old German of 5 notes
   whose English had not changed (one new version was ungrammatical, one
   lost "hängen"), and corrected 1.Nf3, where the reviewer had softened
-  "rules out 1...e5" although the pawn is simply lost. Result: 2,104
-  English notes changed (398 of the 404 rated 4 and 5, 588 of 609 rated 3,
-  1,118 of 1,905 rated 1 and 2) and 2,098 German, 34 words on average
+  "rules out 1...e5" although the pawn is simply lost. Result: 2,118
+  English notes changed (all 404 rated 4 and 5, 590 of 609 rated 3,
+  1,124 of 1,905 rated 1 and 2; first reported as 2,104, a count that
+  missed six first moves) and 2,112 German, 34 words on average
   where they had 38.5. No rating changed, and no agent doubted one. All of
   it about 21 million tokens and 400 agents, the stopped run counted from
   its transcripts. The sweep's candidate filter and brief stayed scratch
@@ -384,6 +385,27 @@ new entries in the module writer).
   filter only chose what an agent re-read. `npm run check` green; the
   explorer looked at after 1.e4 e5 2.Nf3 Nc6 and 1.d4 Nf6 2.c4 c6, at
   desktop and phone width.
+- 2026-10-23: **Final check of the rework, at the maintainer's request:**
+  the orchestrating session read every note old against new, English and
+  German, in one sitting. The chess held: refutations, threats and square
+  claims kept or rightly simplified, a few old errors gone. Found and
+  fixed: four German notes never updated (1.d4 Nf6 2.c4, 2.Nf3, 2.Nc3;
+  1.c4 g6 2.d4 c5) and one cut to its last sentence (1.e4 c5 2.d4), both
+  from the sweep's merge, which took the sweep's English without checking
+  the German; one German note keeping labels its English dropped; four
+  English claims wrong (1.b3 e5 2.Bb2 d6 "blocks the c8-bishop"; 1.Nf3 f5
+  2.g3 g6 "the dark squares" for e6; 1.e4 g6 2.Nf3 c5 c4 "clamps d4";
+  1.d4 f5 2.e4 contradicting itself); four German mistranslations ("bind"
+  as "Fesselung", a reversed attack, a rook "in the way" for exposed,
+  "Damengambit-Abstand"); two typos; 32 phrasings made vague by the
+  rework ("a pawn move by Black" where only the e-pawn opens the
+  diagonal) or overstated. Clean-up: 21 "Weiß'"/"Schwarz'" possessives,
+  26 "entwickelt" without "sich", 19 curly apostrophes, 6 "setup". In
+  all 60 English and 102 German notes changed. Engineered away:
+  `scripts/content/apply.mjs` now writes nothing while a German note is
+  the old text under a changed English or lies outside 0.6 to 2 times the
+  English length (all notes now lie between 0.92 and 1.47). `npm run
+  check` green.
 
 ## Decision log
 

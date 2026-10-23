@@ -16,8 +16,8 @@ export const de: OpeningTexts = {
     strategy:
       "Bereitet Lg2 und die Rochade vor, während die Zentrumsbauern beweglich bleiben: Weiß legt " +
       "sich noch nicht auf d4 oder c4 fest. Der Läufer blickt auf e4 und d5, sobald der Springer " +
-      "zieht. Die Partie bleibt ruhig und solide, um den Preis, dass Schwarz' Anspruch auf e4 " +
-      "durch f5 vorerst unangefochten bleibt.",
+      "zieht. Die Partie bleibt ruhig und solide, um den Preis, dass der schwarze Anspruch auf " +
+      "e4 durch f5 vorerst unangefochten bleibt.",
   },
 
   "1.Nf3 f5 2.c4": {
@@ -40,9 +40,9 @@ export const de: OpeningTexts = {
       "unternehmungslustig und wahrscheinlich korrekt.",
     strategy:
       "Bietet den e-Bauern an, um Linien gegen den geschwächten schwarzen Königsflügel zu " +
-      "öffnen. Nach 2...fxe4 3.Sg5 greift der Springer den Bauern auf e4 erneut an und ist " +
-      "schwer zu vertreiben, sodass Weiß auf schnelle Entwicklung und die Initiative spielt. Der " +
-      "Preis ist ein Bauer und zwei Züge mit derselben Figur.",
+      "öffnen. Nach 2...fxe4 3.Sg5 greift der Springer den Bauern auf e4 an und ist schwer zu " +
+      "vertreiben, sodass Weiß auf schnelle Entwicklung und die Initiative spielt. Der Preis ist " +
+      "ein Bauer und zwei Züge mit derselben Figur.",
   },
 
   "1.Nf3 f5 2.b3": {
@@ -198,8 +198,9 @@ export const de: OpeningTexts = {
   "1.Nf3 f5 2.g3 g6": {
     strategy:
       "Deckt f5 und h5 und bereitet …Lg7 auf der langen Diagonale vor, ein Fianchetto, das zum " +
-      "Holländer passt und die schnelle Rochade bringt. Der Preis sind die dunklen Felder: Mit " +
-      "den vorgerückten f- und g-Bauern verliert e6 nach …d6 seine Bauerndeckung.",
+      "Holländer passt und die schnelle Rochade bringt. Der Preis ist das Feld e6: Mit den " +
+      "vorgerückten f- und g-Bauern verliert es nach …d6 seine letzte Bauerndeckung, und die " +
+      "weißen Springer können es ansteuern.",
   },
 
   "1.Nf3 f5 2.g3 d5": {
@@ -334,10 +335,10 @@ export const de: OpeningTexts = {
 
   "1.Nf3 f5 2.c4 g6": {
     strategy:
-      "Bereitet das Fianchetto des Königsläufers auf der langen Diagonale vor, wo er auf Weiß' " +
-      "Zentrum und Damenflügel zielt. Der Preis ist ein gelockerter Königsflügel, da f- und " +
-      "g-Bauer beide ihre Ausgangsfelder verlassen haben, und der König muss sorgfältig in " +
-      "Sicherheit gebracht werden.",
+      "Bereitet das Fianchetto des Königsläufers auf der langen Diagonale vor, wo er auf das " +
+      "weiße Zentrum und den Damenflügel zielt. Der Preis ist ein gelockerter Königsflügel, da " +
+      "f- und g-Bauer beide ihre Ausgangsfelder verlassen haben, und der König muss sorgfältig " +
+      "in Sicherheit gebracht werden.",
   },
 
   "1.Nf3 f5 2.c4 Nc6": {

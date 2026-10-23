@@ -7,14 +7,14 @@ export const de: OpeningTexts = {
     strategy:
       "Errichtet mit d4 und e4 ein breites Bauernzentrum und öffnet die Diagonale des Läufers " +
       "c1. Schwarz lässt das Zentrum stehen und will es aus der Distanz untergraben, sodass das " +
-      "Spiel zu einem Kampf zwischen Weiß' Raumvorteil und Schwarz' Gegenspiel wird. Weiß muss " +
-      "e4 gedeckt halten und entscheiden, wie scharf er auf Angriff spielt.",
+      "Spiel zu einem Kampf zwischen dem weißen Raumvorteil und dem schwarzen Gegenspiel wird. " +
+      "Weiß muss e4 gedeckt halten und entscheiden, wie scharf er auf Angriff spielt.",
   },
 
   "1.e4 d6 2.Nf3": {
     strategy:
       "Entwickelt den Springer, kontrolliert d4 und e5 und hält den Vorstoß d4 in Reserve. Der " +
-      "Springer versperrt den f-Bauern, sodass Weiß' schärfste Angriffsaufbauten vorerst " +
+      "Springer versperrt den f-Bauern, sodass die schärfsten weißen Angriffsaufbauten vorerst " +
       "ausfallen, und er kann mit ...Lg4 gefesselt werden. Es entsteht ein flexibles, ruhigeres " +
       "Spiel, in dem Weiß noch entscheiden muss, wie groß das Zentrum werden soll.",
   },
@@ -349,7 +349,7 @@ export const de: OpeningTexts = {
   "1.e4 d6 2.d4 f6": {
     strategy:
       "Schwächt die Diagonale e8–h5 und das Feld e6 und nimmt dem Springer g8 das Feld f6. " +
-      "Schwarz hat einen Zug ohne Figurenentwicklung verbraucht, während Weiß einfach " +
+      "Schwarz hat einen Zug ohne Figurenentwicklung verbraucht, während sich Weiß einfach " +
       "weiterentwickelt.",
   },
 
@@ -574,8 +574,8 @@ export const de: OpeningTexts = {
   "1.e4 d6 2.Nf3 a5": {
     strategy:
       "Gewinnt Raum am Damenflügel und nimmt Weiß das Feld b4, entwickelt aber nichts und " +
-      "berührt das Zentrum nicht. Weiß baut einfach ein Zentrum auf, und b5 ist dauerhaft " +
-      "geschwächt, da der a-Bauer es nicht mehr decken kann.",
+      "berührt das Zentrum nicht. Weiß baut einfach ein Zentrum auf, und b5 ist geschwächt, da " +
+      "nur noch ...c6 es decken kann.",
   },
 
   "1.e4 d6 2.Nf3 h6": {
@@ -675,8 +675,8 @@ export const de: OpeningTexts = {
   "1.e4 d6 2.Nc3 e6": {
     strategy:
       "Bereitet einen soliden, aber langsamen Aufbau mit schneller Entwicklung am Königsflügel " +
-      "vor. Der Bauer sperrt den Läufer c8 ein, und sobald Weiß einen Bauern auf d4 hat, ergibt " +
-      "...d5 ein geschlossenes Zentrum, in dem Schwarz ein volles Tempo zurückliegt, weil der " +
+      "vor. Der Bauer sperrt den Läufer c8 ein, und sobald Weiß einen Bauern auf d4 hat, führt " +
+      "...d5 zu bekannten Strukturen, in denen Schwarz ein volles Tempo zurückliegt, weil der " +
       "d-Bauer zweimal gezogen hat.",
   },
 

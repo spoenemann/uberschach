@@ -283,9 +283,9 @@ export const en: OpeningTexts = {
       "Keres and Alexei Shirov have used it, but it has not found widespread acceptance among " +
       "chess masters.",
     strategy:
-      "Develops the bishop before ...e6 can shut it in, but leaves b7 undefended and exposes the " +
-      "bishop to a later e4 once White has gained time against the queen on d5. It is an offbeat " +
-      "but playable way to solve the problem of the c8-bishop.",
+      "Develops the bishop before ...e6 can shut it in, but leaves b7 undefended, so 3.Qb3 hits " +
+      "it at once, and after an exchange on d5 White gains time against Black's queen and " +
+      "bishop. It is an offbeat but playable way to solve the problem of the c8-bishop.",
   },
 
   "1.d4 d5 2.c4 e5": {

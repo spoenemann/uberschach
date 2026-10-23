@@ -7,7 +7,7 @@ export const en: OpeningTexts = {
     strategy:
       "Develops the king's knight, guards d4 and e5 and commits no pawn. White keeps every " +
       "set-up open, from a Queen's Gambit structure to a kingside fianchetto, and Black still " +
-      "has to decide how to meet the c4-pawn. Flexible and safe, with the usual risk of the " +
+      "has to decide how to meet the c4-pawn. Flexible and safe, with the usual character of the " +
       "English: a slow, manoeuvring game.",
   },
 
@@ -167,7 +167,7 @@ export const en: OpeningTexts = {
   "1.c4 e6 2.Nc3 d5": {
     strategy:
       "Claims the centre at once, with the e6-pawn as solid support, and heads for a closed, " +
-      "strategic fight over d4 and c4. The cost is the c8-bishop, shut in behind the pawn chain " +
+      "strategic fight over the centre. The cost is the c8-bishop, shut in behind the pawn chain " +
       "until Black frees it.",
   },
 

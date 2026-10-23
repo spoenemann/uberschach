@@ -30,8 +30,8 @@ export const de: OpeningTexts = {
     strategy:
       "Bereitet Lg2 und die frühe Rochade vor; der Läufer zielt auf der langen Diagonale auf d5 " +
       "und b7, sobald der Springer f3 zieht. Weiß lässt die Bauernaufstellung offen: für Druck " +
-      "am Damenflügel oder einen langsameren Aufbau. Das Spiel ist ruhig und flexibel, und " +
-      "Schwarz kann sofort im Zentrum Raum nehmen.",
+      "am Damenflügel mit dem c-Bauern oder einen langsameren Aufbau im Zentrum. Das Spiel ist " +
+      "ruhig und flexibel, und Schwarz kann sofort im Zentrum Raum nehmen.",
   },
 
   "1.Nf3 c5 2.d4": {
@@ -176,8 +176,9 @@ export const de: OpeningTexts = {
   "1.Nf3 c5 2.c4 Nf6": {
     strategy:
       "Entwickelt mit Druck auf e4 und d5 und lässt jede Bauernstruktur offen, sodass Schwarz " +
-      "abwarten kann, wozu sich Weiß zuerst festlegt. Dieselben Stellungen entstehen auch, wenn " +
-      "Weiß mit dem Damenbauern beginnt, weshalb dieser Zug in beiden Formen lernenswert ist.",
+      "abwarten kann, wozu sich Weiß zuerst festlegt, und die Struktur einen Zug später wählt. " +
+      "Der Preis ist, dass Weiß das Zentrum mit dem d-Bauern öffnen kann, bevor sich Schwarz " +
+      "festgelegt hat.",
   },
 
   "1.Nf3 c5 2.c4 e6": {

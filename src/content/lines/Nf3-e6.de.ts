@@ -21,17 +21,17 @@ export const de: OpeningTexts = {
   "1.Nf3 e6 2.d4": {
     strategy:
       "Beansprucht das Zentrum mit einem Bauern und öffnet den Läufer c1, sodass Weiß sofort " +
-      "Raum und einen klaren Plan hat. Der Preis ist die Festlegung: Der Bauer braucht Rückhalt " +
-      "durch einen Nachbarbauern, und Schwarz kann ihn sofort angreifen oder solide im Zentrum " +
-      "dagegenhalten. Ein klassisches Damenbauernspiel mit direktem Kampf um das Zentrum.",
+      "Raum und einen klaren Plan hat. Der Preis ist die Festlegung: Schwarz kann den Bauern " +
+      "sofort angreifen oder solide im Zentrum dagegenhalten. Ein klassisches Damenbauernspiel " +
+      "mit direktem Kampf um das Zentrum.",
   },
 
   "1.Nf3 e6 2.g3": {
     strategy:
-      "Bereitet Lg2 und die kurze Rochade vor, wobei der Läufer auf die lange Diagonale kommt, " +
-      "sobald der Springer gezogen ist. Weiß hält das Zentrum flexibel, überlässt es aber " +
-      "Schwarz, der im Zentrum Raum gewinnen kann. Ein langsameres Manövrierspiel, in dem Weiß " +
-      "allmählich Druck aufbaut.",
+      "Bereitet Lg2 und die kurze Rochade vor; der Läufer wirkt auf der langen Diagonale, sobald " +
+      "der Springer gezogen hat. Weiß hält das Zentrum flexibel, überlässt es aber Schwarz, der " +
+      "im Zentrum Raum gewinnen kann. Ein langsameres Manövrierspiel, in dem Weiß allmählich " +
+      "Druck aufbaut.",
   },
 
   "1.Nf3 e6 2.b3": {
@@ -52,8 +52,8 @@ export const de: OpeningTexts = {
     strategy:
       "Besetzt sofort das Zentrum und steuert auf eine Französische Verteidigung zu, da der " +
       "schwarze Bauer schon auf e6 steht. Der Zug ist solide, doch Schwarz bestimmt den " +
-      "Charakter der Partie, von einer soliden Bauernkette bis zu einem frühen Kampf am " +
-      "Damenflügel.",
+      "Charakter der Partie, von einer soliden Bauernkette bis zu einem frühen Angriff auf das " +
+      "weiße Zentrum mit dem c-Bauern.",
   },
 
   "1.Nf3 e6 2.e3": {
@@ -287,7 +287,7 @@ export const de: OpeningTexts = {
 
   "1.Nf3 e6 2.c4 Bc5": {
     strategy:
-      "Stellt den Läufer auf ein Feld, das d4 angreift, sodass Weiß mit Tempo Raum im Zentrum " +
+      "Stellt den Läufer dorthin, wo ihn d4 angreift, sodass Weiß mit Tempo Raum im Zentrum " +
       "gewinnt, während der Läufer erneut ziehen muss.",
   },
 
@@ -309,7 +309,7 @@ export const de: OpeningTexts = {
     strategy:
       "Verwendet ein Tempo auf einen Randbauern, der weder um das Zentrum kämpft noch eine Figur " +
       "entwickelt; bestenfalls bereitet er ...b5 vor, das c4 bereits erschwert. Weiß entwickelt " +
-      "ungestört weiter.",
+      "sich ungestört weiter.",
   },
 
   "1.Nf3 e6 2.c4 a5": {
@@ -386,8 +386,8 @@ export const de: OpeningTexts = {
     strategy:
       "Besetzt sofort das Zentrum und baut mit dem bereits gespielten ...e6 das solide " +
       "französische Bauernpaar d5 und e6 auf. Schwarz hält das Zentrum fest in der Hand und " +
-      "erhält eine geschlossene, manövrierende Partie gegen Weiß' flexiblen Aufbau. Der Preis " +
-      "ist der Läufer c8, der hinter dem Bauern e6 eingesperrt bleibt.",
+      "erhält eine geschlossene, manövrierende Partie gegen den flexiblen weißen Aufbau. Der " +
+      "Preis ist der Läufer c8, der hinter dem Bauern e6 eingesperrt bleibt.",
   },
 
   "1.Nf3 e6 2.g3 Nf6": {
@@ -399,7 +399,7 @@ export const de: OpeningTexts = {
 
   "1.Nf3 e6 2.g3 c5": {
     strategy:
-      "Kämpft um d4 und hält die übrigen Figuren flexibel. Öffnet Weiß das Zentrum, steht der " +
+      "Kämpft um d4 und hält Springer und d-Bauer flexibel. Öffnet Weiß das Zentrum, steht der " +
       "c-Bauer gegen den weißen d-Bauern, wobei ...e6 bereits gespielt ist; sonst wird die " +
       "Partie langsamer, mit Spiel am Damenflügel und auf der langen Diagonale. Schwarz hat noch " +
       "keine Figur entwickelt.",
@@ -635,8 +635,8 @@ export const de: OpeningTexts = {
 
   "1.Nf3 e6 2.b3 Be7": {
     strategy:
-      "Entwickelt den Läufer und macht sobald der Königsspringer entwickelt ist, den Weg für die " +
-      "Rochade frei, während …d5 und …c5 für später bleiben. Nach 3.Lb2 ist der Bauer g7 " +
+      "Entwickelt den Läufer und macht, sobald der Königsspringer entwickelt ist, den Weg für " +
+      "die Rochade frei, während …d5 und …c5 für später bleiben. Nach 3.Lb2 ist der Bauer g7 " +
       "angegriffen und nicht mehr vom Läufer gedeckt, sodass Schwarz die Diagonale sofort " +
       "blockieren muss. Solide, aber weniger direkt als die Springerentwicklung oder ein Schlag " +
       "gegen das Zentrum.",

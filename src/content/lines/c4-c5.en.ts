@@ -5,10 +5,9 @@ import type { OpeningTexts } from "../book.ts";
 export const en: OpeningTexts = {
   "1.c4 c5 2.Nf3": {
     strategy:
-      "Develops the king's knight, controls d4 and e5 and signals an immediate d-pawn break, " +
-      "which can steer the game towards an Open Sicilian with White's pawn on c4 instead of e4. " +
-      "Black has to decide at once how to meet that break, and the game stays flexible for both " +
-      "sides.",
+      "Develops the king's knight, controls d4 and e5 and prepares a d-pawn break, which can " +
+      "steer the game towards an Open Sicilian with White's pawn on c4 instead of e4. Black has " +
+      "to decide early how to meet that break, and the game stays flexible for both sides.",
   },
 
   "1.c4 c5 2.Nc3": {
@@ -126,7 +125,7 @@ export const en: OpeningTexts = {
 
   "1.c4 c5 2.Nh3": {
     strategy:
-      "Puts the knight on the rim, where it eyes f4 and g5. Once a pawn move opens the " +
+      "Puts the knight on the rim, where it eyes f4 and g5. Once the d-pawn moves and opens the " +
       "c8-bishop, ...Bxh3 and gxh3 doubles White's kingside pawns, and the knight does nothing " +
       "for the centre.",
   },
@@ -180,8 +179,8 @@ export const en: OpeningTexts = {
   "1.c4 c5 2.Nc3 e6": {
     strategy:
       "Opens the f8-bishop's diagonal and prepares ...d5, while keeping the compact Hedgehog " +
-      "set-up available. The cost is the c8-bishop, which stays shut in until the b7- or d7-pawn " +
-      "moves, and no piece has been developed yet. It leads to solid, patient play.",
+      "set-up available. The cost is the c8-bishop, which stays shut in until the b-pawn moves, " +
+      "and no piece has been developed yet. It leads to solid, patient play.",
   },
 
   "1.c4 c5 2.Nc3 g6": {

@@ -20,7 +20,7 @@ export const en: OpeningTexts = {
 
   "1.b3 d5 2.e3": {
     strategy:
-      "Opens the diagonal of the king’s bishop and keeps the pawn structure flexible, with " +
+      "Opens the diagonal of the king's bishop and keeps the pawn structure flexible, with " +
       "development and a later challenge to d5 in mind. The move is sound but modest: it lets " +
       "Black choose the pawn structure first.",
   },
@@ -98,7 +98,7 @@ export const en: OpeningTexts = {
     strategy:
       "Pushes the same pawn a second time, reaching the position after 1.b4 d5 with Black to " +
       "move, a full tempo down. On b4 the pawn is easy to attack, by the a-pawn, the queen or, " +
-      "once the e-pawn has moved, the f8 bishop, and it needs a pawn beside it to hold it.",
+      "once the e-pawn has moved, the f8 bishop, and it needs support from a3 or c3.",
   },
 
   "1.b3 d5 2.f3": {

@@ -56,7 +56,7 @@ export const en: OpeningTexts = {
   "1.d4 Nf6 2.g3": {
     name: "Indian Defence: Tartakower Attack",
     strategy:
-      "Prepares to fianchet the king's bishop to pressure d5 and the long diagonal, in a quiet " +
+      "Prepares to fianchetto the king's bishop to pressure d5 and the long diagonal, in a quiet " +
       "set-up that White completes later. White develops quietly, but without a pawn on c4 yet " +
       "Black can take space in the centre. Sound but uncommon, and slower than 2.c4 or 2.Nf3.",
   },

@@ -79,10 +79,10 @@ export const en: OpeningTexts = {
 
   "1.Nf3 d5 2.e4": {
     strategy:
-      "Offers the e-pawn for quick piece play: after 2...dxe4 the knight can hit e4 and f7, and " +
-      "White hopes to win the pawn back or to attack f7. Black can return the pawn or keep it " +
-      "and stands better either way, although an unprepared defender can fall into tactical " +
-      "traps.",
+      "Offers the e-pawn for quick piece play: after 2...dxe4 the knight jumps to g5, where it " +
+      "hits e4 and f7, and White hopes to win the pawn back or to break through on f7. Black can " +
+      "return the pawn or keep it and stands better either way, although an unprepared defender " +
+      "can fall into tactical traps.",
   },
 
   "1.Nf3 d5 2.a3": {
@@ -142,8 +142,9 @@ export const en: OpeningTexts = {
 
   "1.Nf3 d5 2.Nh4": {
     strategy:
-      "Puts the knight on the rim with no defender, where a pawn move by Black opens the queen's " +
-      "diagonal to h4. White must spend another tempo retreating it or covering it with g3.",
+      "Puts the knight on the rim with no defender, where a move of Black's e-pawn opens the " +
+      "queen's diagonal to h4. White must spend another tempo retreating it or covering it with " +
+      "g3.",
   },
 
   "1.Nf3 d5 2.Ne5": {
@@ -154,8 +155,8 @@ export const en: OpeningTexts = {
 
   "1.Nf3 d5 2.Nd4": {
     strategy:
-      "Centralises the knight with a second move, but a Black pawn move hits it at once and it " +
-      "must move again. Black builds a broad centre with gain of time.",
+      "Centralises the knight with a second move, but ...e5 or ...c5 hits it at once and it must " +
+      "move again. Black builds a broad centre with gain of time.",
   },
 
   "1.Nf3 d5 2.Ng1": {
@@ -424,7 +425,8 @@ export const en: OpeningTexts = {
     strategy:
       "Develops the bishop outside the pawn chain before …e6, so it is not shut in behind its " +
       "own pawns. Played this early it allows 3.Nh4, which hits the bishop; after …Bg6 Nxg6 hxg6 " +
-      "Black has doubled g-pawns and has given up the bishop pair. Playable, but not free.",
+      "Black has doubled g-pawns and has given up the bishop pair. Playable, but it gives White " +
+      "something to aim at.",
   },
 
   "1.Nf3 d5 2.g3 e6": {
@@ -582,8 +584,8 @@ export const en: OpeningTexts = {
       "1927 (3.Bb2 Nc6 4.e3 Nf6 5.Bb5) and won in 55 moves.",
     strategy:
       "Fights for d4 from the flank before White can build a pawn centre, and prepares to bring " +
-      "out both knights. The game often becomes a reversed Nimzo-Indian, with Black’s pawns on " +
-      "c5 and d5 facing White’s fianchettoed bishop. The cost is that d5 has no pawn support " +
+      "out both knights. The game often becomes a reversed Nimzo-Indian, with Black's pawns on " +
+      "c5 and d5 facing White's fianchettoed bishop. The cost is that d5 has no pawn support " +
       "until …e6, so Black has to watch that pawn while developing.",
   },
 
@@ -593,16 +595,16 @@ export const en: OpeningTexts = {
       "White against Vlatko Kovačević at Amsterdam 1973 after 2…Bg4 3.Bb2 Nd7.",
     strategy:
       "Develops the bishop outside the pawn chain and puts pressure on the f3-knight, which " +
-      "guards e5 and d4. Taking on f3 removes that guard and may double White’s pawns, but it " +
-      "gives up the bishop pair, and the bishop can be driven back by h3. Black gets quick " +
-      "development in exchange for some time spent on the bishop.",
+      "guards e5 and d4. Taking on f3 removes that guard and may double White's pawns, but it " +
+      "gives up the bishop pair, and the bishop can be driven back by h3. Black develops quickly " +
+      "but may have to spend time on the bishop.",
   },
 
   "1.Nf3 d5 2.b3 Bf5": {
     strategy:
       "Develops the light-squared bishop outside the pawn chain before …e6 shuts it in, and eyes " +
       "e4. Black aims for a solid reversed London set-up with …Nf6, …e6 and …c6 behind it. " +
-      "Development is easy, but White’s plan is to force through e4 anyway, and the bishop can " +
+      "Development is easy, but White's plan is to force through e4 anyway, and the bishop can " +
       "become a target.",
   },
 

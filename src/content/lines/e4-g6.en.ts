@@ -528,7 +528,7 @@ export const en: OpeningTexts = {
       "Challenges the centre at once and steers for a Sicilian in which Black fianchettoes the " +
       "king's bishop and plays on the queenside and the long diagonal. Holding back the queen's " +
       "knight avoids Bb5 pressure on c6. The risk is that White recaptures on d4 with the queen, " +
-      "hitting the rook on h8, or clamps down on d4 with c4.",
+      "hitting the rook on h8, or sets up pawns on c4 and e4 that clamp down on d5.",
   },
 
   "1.e4 g6 2.Nf3 Nf6": {

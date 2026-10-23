@@ -198,9 +198,9 @@ export const de: OpeningTexts = {
 
   "1.e4 c6 2.h3": {
     strategy:
-      "Ein Wartezug, der nur ein späteres ...Lg4 verhindert. Er kostet ein Tempo und tut " +
-      "nichts gegen 2...d5, sodass Schwarz das Zentrum besetzt, während Weiß noch nicht " +
-      "entwickelt hat.",
+      "Ein Wartezug, der nur ein späteres ...Lg4 verhindert. Er kostet ein Tempo und tut nichts " +
+      "gegen 2...d5, sodass Schwarz das Zentrum besetzt, während sich Weiß noch nicht entwickelt " +
+      "hat.",
   },
 
   "1.e4 c6 2.h4": {
@@ -255,9 +255,9 @@ export const de: OpeningTexts = {
     name: "Caro-Kann-Verteidigung: Masi-Variante",
     strategy:
       "Greift e4 an und lädt Weiß ein, mit e5 den Springer zu vertreiben; ein folgendes c4 jagt " +
-      "ihn erneut weiter und gibt Weiß ein breites Zentrum, wobei das bereits gespielte ...c6 " +
-      "ein verlorenes Tempo ist. Deckt Weiß e4 stattdessen einfach, wird ...d5 mit e5 " +
-      "beantwortet, und Weiß gewinnt erneut Zeit gegen den Springer.",
+      "ihn erneut und gibt Weiß ein breites Zentrum, während ...c6 wenig beiträgt. Deckt Weiß e4 " +
+      "stattdessen einfach, wird ...d5 mit e5 beantwortet, und Weiß gewinnt erneut Zeit gegen " +
+      "den Springer.",
   },
 
   "1.e4 c6 2.d4 d6": {
@@ -298,7 +298,7 @@ export const de: OpeningTexts = {
   "1.e4 c6 2.d4 Qa5+": {
     strategy:
       "Das Schach bringt nichts: Weiß unterbricht es mit einem Entwicklungs- oder " +
-      "Zentrumsstärkenden Zug, und die Dame steht ungedeckt auf a5, während ...d5 noch aussteht.",
+      "zentrumsstärkenden Zug, und die Dame steht ungedeckt auf a5, während ...d5 noch aussteht.",
   },
 
   "1.e4 c6 2.d4 Nh6": {
@@ -532,9 +532,9 @@ export const de: OpeningTexts = {
   "1.e4 c6 2.c4 d5": {
     strategy:
       "Greift den Bauern e4 sofort an, der thematische Caro-Kann-Hebel, bevor Weiß das Zentrum " +
-      "stützen kann. Der Preis: Weiß darf die Struktur wählen, entweder einen isolierten " +
-      "Damenbauern mit schneller Entwicklung und Angriffschancen oder einen Bauerntausch auf d5, " +
-      "der Weiß den isolierten d-Bauern lässt.",
+      "stützen kann. Weiß wählt dann, wie die Bauern getauscht werden, und behält in den " +
+      "Hauptvarianten einen isolierten d-Bauern, den er für schnelle Entwicklung und " +
+      "Angriffschancen in Kauf nimmt.",
   },
 
   "1.e4 c6 2.c4 d6": {

@@ -27,10 +27,10 @@ export const de: OpeningTexts = {
       "einem Zusatztempo übernimmt.",
     strategy:
       "Bereitet das Fianchetto des Königsläufers auf g2 vor, von wo er über die lange Diagonale " +
-      "auf e4 und d5 wirkt, und hält Weiß' zentrale Pläne offen. Weiß rochiert früh und baut aus " +
-      "sicherer Königsstellung auf, was meist ein geschlossenes, strategisches Spiel bedeutet. " +
-      "Der Preis ist, dass das Zentrum Schwarz überlassen bleibt, der es sofort mit ...d5 " +
-      "besetzen kann.",
+      "auf e4 und d5 wirkt, und hält die zentralen Pläne von Weiß offen. Weiß rochiert früh und " +
+      "baut aus sicherer Königsstellung auf, was meist ein geschlossenes, strategisches Spiel " +
+      "bedeutet. Der Preis ist, dass das Zentrum Schwarz überlassen bleibt, der es sofort mit " +
+      "...d5 besetzen kann.",
   },
 
   "1.Nf3 Nf6 2.d4": {
@@ -124,7 +124,7 @@ export const de: OpeningTexts = {
   "1.Nf3 Nf6 2.Na3": {
     strategy:
       "Entwickelt den Springer an den Rand, wo er b5 und c4 ins Auge fasst, aber nichts im " +
-      "Zentrum deckt und den a-Bauern blockiert. Auch Schwarz' ...d5 überwacht c4, und der " +
+      "Zentrum deckt und den a-Bauern blockiert. Ein schwarzes ...d5 deckt zudem c4, und der " +
       "Springer bleibt außer Spiel.",
   },
 
@@ -332,7 +332,7 @@ export const de: OpeningTexts = {
   "1.Nf3 Nf6 2.c4 e5": {
     strategy:
       "Lässt den Bauern ungedeckt stehen: 3.Sxe5 gewinnt ihn, und Schwarz hat keine echte " +
-      "Kompensation, da Weiß den Bauern behält und einfach entwickelt.",
+      "Kompensation, da Weiß den Bauern behält und sich einfach entwickelt.",
   },
 
   "1.Nf3 Nf6 2.c4 g5": {

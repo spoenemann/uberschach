@@ -58,8 +58,8 @@ export const en: OpeningTexts = {
       "have been developed to neutralise it.",
     strategy:
       "Sacrifices a pawn for quick development and play against Black's kingside, weakened along " +
-      "the e8-h5 diagonal. With accurate play Black keeps the pawn and White has equality at " +
-      "best, so this is a practical weapon rather than a sound main choice.",
+      "the e8-h5 diagonal. With accurate play the gambit gives White equality at best, so it is " +
+      "a practical weapon rather than a sound main choice.",
   },
 
   "1.d4 f5 2.h3": {

@@ -8,7 +8,7 @@ export const de: OpeningTexts = {
       "Entwickelt den Königsspringer, deckt d4 und e5 und legt keinen Bauern fest. Weiß hält " +
       "jeden Aufbau offen, von einer Damengambit-Struktur bis zum Fianchetto am Königsflügel, " +
       "und Schwarz muss noch entscheiden, wie er dem Bauern c4 begegnet. Flexibel und sicher, " +
-      "mit dem üblichen Risiko der Englischen Eröffnung: einem langsamen Manövrierspiel.",
+      "mit dem üblichen Charakter der Englischen Eröffnung: einem langsamen Manövrierspiel.",
   },
 
   "1.c4 e6 2.Nc3": {
@@ -174,13 +174,13 @@ export const de: OpeningTexts = {
   "1.c4 e6 2.Nc3 d5": {
     strategy:
       "Beansprucht sofort das Zentrum, mit dem Bauern e6 als solider Stütze, und steuert einen " +
-      "geschlossenen, strategischen Kampf um d4 und c4 an. Der Preis ist der Läufer c8, der " +
+      "geschlossenen, strategischen Kampf um das Zentrum an. Der Preis ist der Läufer c8, der " +
       "hinter der Bauernkette eingesperrt bleibt, bis Schwarz ihn befreit.",
   },
 
   "1.c4 e6 2.Nc3 c5": {
     strategy:
-      "Kämpft von der Seite um d4 und steuert eine symmetrische Struktur an, in der Schwarz " +
+      "Kämpft von der Seite um d4 und steuert eine symmetrische Struktur an, in der es Schwarz " +
       "nicht an Raum fehlt. Der Bauer e6 hält …d5 bereit, versperrt aber vorerst den Läufer c8, " +
       "und nach …d5 können ein Tausch auf d5 und ein späteres d4 Schwarz einen isolierten " +
       "d-Bauern bescheren.",
@@ -190,8 +190,8 @@ export const de: OpeningTexts = {
     strategy:
       "Entwickelt eine Figur und zielt auf d4 und e5, doch der Springer verstellt den c-Bauern " +
       "und legt sich fest, bevor die schwarze Bauernstruktur geklärt ist. Weiß kann das Zentrum " +
-      "besetzen, während Schwarz weiterhin vertraute Aufstellungen bleiben. Solide, aber weniger " +
-      "flexibel als …Sf6 oder …d5.",
+      "besetzen, während Schwarz weiterhin vertraute Aufstellungen offenstehen. Solide, aber " +
+      "weniger flexibel als …Sf6 oder …d5.",
   },
 
   "1.c4 e6 2.Nc3 Be7": {

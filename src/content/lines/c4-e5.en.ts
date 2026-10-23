@@ -59,8 +59,8 @@ export const en: OpeningTexts = {
   "1.c4 e5 2.d4": {
     strategy:
       "Strikes at e5 at once and opens the centre. After 2...exd4 White has to recapture with " +
-      "the queen or lose time with Nf3, and Black develops freely. White's opening edge is gone, " +
-      "though the game stays balanced.",
+      "the queen, which can be chased, or first play Nf3 and take back later, and Black develops " +
+      "freely. White's opening edge is gone, though the game stays balanced.",
   },
 
   "1.c4 e5 2.e4": {

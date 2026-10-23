@@ -6,9 +6,9 @@ export const de: OpeningTexts = {
   "1.Nf3 Nf6": {
     strategy:
       "Entwickelt eine Figur und kontrolliert e4 und d5, ohne einen Bauern festzulegen, sodass " +
-      "Schwarz alle Aufbauten offenhält und zuerst Weiß' Plan sieht. Außerdem macht der Zug 2.e4 " +
-      "sinnlos, denn der Bauer ginge nach ...Sxe4 einfach verloren. Der Preis ist, dass Schwarz " +
-      "in mehreren verschiedenen Strukturen zu Hause sein muss.",
+      "Schwarz alle Aufbauten offenhält und zuerst den Plan von Weiß sieht. Außerdem macht der " +
+      "Zug 2.e4 sinnlos, denn der Bauer ginge nach ...Sxe4 einfach verloren. Der Preis ist, dass " +
+      "Schwarz in mehreren verschiedenen Strukturen zu Hause sein muss.",
   },
 
   "1.Nf3 d5": {

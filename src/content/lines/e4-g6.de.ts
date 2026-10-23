@@ -367,7 +367,7 @@ export const de: OpeningTexts = {
   "1.e4 g6 2.d4 f5": {
     name: "Moderne Verteidigung: Fianchetto-Gambit",
     strategy:
-      "Verliert einen Bauern: 3.exf5 gxf5? läuft in 4.Dh5#, daher muss Schwarz stattdessen " +
+      "Verliert einen Bauern: 3.exf5 gxf5? läuft in 4.Dh5#, daher muss sich Schwarz stattdessen " +
       "entwickeln, und nach 4.fxg6 hxg6 steht Schwarz mit einem Bauern weniger da.",
   },
 
@@ -561,7 +561,7 @@ export const de: OpeningTexts = {
       "Schwarz den Königsläufer fianchettiert und am Damenflügel und auf der langen Diagonale " +
       "spielt. Weil der Damenspringer zurückgehalten wird, entfällt der Lb5-Druck auf c6. Das " +
       "Risiko ist, dass Weiß auf d4 mit der Dame zurückschlägt und den Turm h8 angreift oder mit " +
-      "c4 auf d4 Druck ausübt.",
+      "Bauern auf c4 und e4 das Feld d5 in den Griff nimmt.",
   },
 
   "1.e4 g6 2.Nf3 Nf6": {

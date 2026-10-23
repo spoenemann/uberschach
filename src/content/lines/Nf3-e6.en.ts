@@ -20,16 +20,17 @@ export const en: OpeningTexts = {
   "1.Nf3 e6 2.d4": {
     strategy:
       "Claims the centre with a pawn and opens the c1-bishop, giving White space and a clear " +
-      "plan at once. The cost is commitment: the pawn needs support from a neighbouring pawn, " +
-      "and Black can challenge it at once or take a solid stand in the centre. A classical " +
-      "queen's pawn game with a direct fight for the centre.",
+      "plan at once. The cost is commitment: Black can challenge the pawn at once or take a " +
+      "solid stand in the centre. A classical queen's pawn game with a direct fight for the " +
+      "centre.",
   },
 
   "1.Nf3 e6 2.g3": {
     strategy:
-      "Prepares Bg2 and short castling, with the bishop on the long diagonal once the knight has " +
-      "moved. White keeps the centre flexible but leaves it to Black, who can take space in the " +
-      "centre. A slower, manoeuvring game in which White's pressure builds up gradually.",
+      "Prepares Bg2 and short castling; the bishop will bear on the long diagonal once the " +
+      "knight has moved. White keeps the centre flexible but leaves it to Black, who can take " +
+      "space in the centre. A slower, manoeuvring game in which White's pressure builds up " +
+      "gradually.",
   },
 
   "1.Nf3 e6 2.b3": {
@@ -49,7 +50,7 @@ export const en: OpeningTexts = {
     strategy:
       "Takes the centre at once and steers towards a French Defence, since Black's pawn is " +
       "already on e6. The move is sound, but Black decides the game's character, from a solid " +
-      "pawn chain to an early fight on the queenside.",
+      "pawn chain to an early strike at White's centre with the c-pawn.",
   },
 
   "1.Nf3 e6 2.e3": {
@@ -375,9 +376,9 @@ export const en: OpeningTexts = {
 
   "1.Nf3 e6 2.g3 c5": {
     strategy:
-      "Fights for d4 and keeps the other pieces flexible. If White opens the centre, Black has " +
-      "the c-pawn against White's d-pawn with ...e6 already played; if not, it is a slower game " +
-      "on the queenside and the long diagonal. Black has not developed a piece yet.",
+      "Fights for d4 and keeps the knights and the d-pawn flexible. If White opens the centre, " +
+      "Black has the c-pawn against White's d-pawn with ...e6 already played; if not, it is a " +
+      "slower game on the queenside and the long diagonal. Black has not developed a piece yet.",
   },
 
   "1.Nf3 e6 2.g3 Nc6": {
@@ -590,12 +591,12 @@ export const en: OpeningTexts = {
       "Develops a piece and eyes d4 and e5, but the knight blocks the c-pawn, so …c5 is ruled " +
       "out for now. Once Bb2 is played, …e5 would leave the pawn attacked twice and defended " +
       "only once, so Black must prepare it first. Sound, though less flexible than developing " +
-      "the king’s knight or striking at the centre at once.",
+      "the king's knight or striking at the centre at once.",
   },
 
   "1.Nf3 e6 2.b3 Be7": {
     strategy:
-      "Develops the bishop and, once the king’s knight is out, clears the way for castling, " +
+      "Develops the bishop and, once the king's knight is out, clears the way for castling, " +
       "keeping …d5 and …c5 for later. After 3.Bb2 the g7-pawn is attacked and no longer guarded " +
       "by the bishop, so Black has to block the diagonal at once. Sound, but less direct than " +
       "developing the knight or striking at the centre.",

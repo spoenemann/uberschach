@@ -39,8 +39,8 @@ export const de: OpeningTexts = {
       "New York 1889.",
     strategy:
       "Entwickelt den Läufer c1 vor die Bauernkette, bevor e3 ihn einsperren kann, und plant " +
-      "einen kompakten Aufbau, der wenig Theorie verlangt. Der Aufbau stellt Schwarz vor wenig " +
-      "Aufgaben, der sich frei entwickeln kann; Weiß erhält ein risikoarmes, solides Spiel mit " +
+      "einen kompakten Aufbau, der wenig Theorie verlangt. Der Aufbau stellt Schwarz, der sich " +
+      "frei entwickeln kann, vor wenig Aufgaben; Weiß erhält ein risikoarmes, solides Spiel mit " +
       "wenig frühem Druck.",
   },
 
@@ -296,9 +296,10 @@ export const de: OpeningTexts = {
       "Großmeister wie Paul Keres und Alexei Schirow haben sie gespielt, doch unter " +
       "Schachmeistern hat sie keine weite Verbreitung gefunden.",
     strategy:
-      "Entwickelt den Läufer, bevor ...e6 ihn einsperren kann, lässt aber b7 ungedeckt und setzt " +
-      "den Läufer einem späteren e4 aus, sobald Weiß gegen die Dame auf d5 Zeit gewonnen hat. Es " +
-      "ist ein ungewöhnlicher, aber spielbarer Weg, das Problem des Läufers c8 zu lösen.",
+      "Entwickelt den Läufer, bevor ...e6 ihn einsperren kann, lässt aber b7 ungedeckt, sodass " +
+      "3.Db3 den Bauern sofort angreift, und nach einem Tausch auf d5 gewinnt Weiß Zeit gegen " +
+      "die schwarze Dame und den Läufer. Es ist ein ungewöhnlicher, aber spielbarer Weg, das " +
+      "Problem des Läufers c8 zu lösen.",
   },
 
   "1.d4 d5 2.c4 e5": {
@@ -509,9 +510,9 @@ export const de: OpeningTexts = {
   "1.d4 d5 2.Nf3 Bf5": {
     strategy:
       "Entwickelt den Läufer außerhalb der Bauernkette, bevor …e6 ihn einsperrt, ein Spiegelbild " +
-      "von Weiß' eigenem Aufbau mit frühem Läufer. Der Preis ist, dass der Bauer b7 seinen " +
-      "einzigen Verteidiger verliert und 3.Sh4 den Läufer sofort angreift, um den Springer gegen " +
-      "ihn zu tauschen.",
+      "des weißen Aufbaus mit frühem Läufer. Der Preis ist, dass der Bauer b7 seinen einzigen " +
+      "Verteidiger verliert und 3.Sh4 den Läufer sofort angreift, um den Springer gegen ihn zu " +
+      "tauschen.",
   },
 
   "1.d4 d5 2.Nf3 Bg4": {
@@ -686,8 +687,8 @@ export const de: OpeningTexts = {
 
   "1.d4 d5 2.Bf4 e6": {
     strategy:
-      "Stützt d5 nach Art des Damengambit-Abstands und öffnet dem Läufer f8 den Weg nach d6, wo " +
-      "er den weißen Läufer herausfordern kann. Der Preis ist der Läufer c8, den der Bauer e6 " +
+      "Stützt d5 nach Art des Abgelehnten Damengambits und öffnet dem Läufer f8 den Weg nach d6, " +
+      "wo er den weißen Läufer herausfordern kann. Der Preis ist der Läufer c8, den der Bauer e6 " +
       "einsperrt und der oft nur schwer ein gutes Feld findet. Die Partie ist solide und " +
       "strategisch.",
   },
@@ -710,8 +711,8 @@ export const de: OpeningTexts = {
     strategy:
       "Spiegelt die Entwicklung von Weiß und bringt den Läufer vor der Bauernkette heraus, bevor " +
       "ihn ...e6 einsperren kann. Die symmetrische Struktur ist solide, bietet Schwarz aber kaum " +
-      "Gewinnchancen, und ohne Umstellung tendiert die Partie zu einem ruhigen Remis. Weiß' " +
-      "gefährlichster Plan ist, mit c4 ins Damengambit einzulenken.",
+      "Gewinnchancen, und ohne Umstellung tendiert die Partie zu einem ruhigen Remis. Der " +
+      "gefährlichste Plan von Weiß ist, mit c4 ins Damengambit einzulenken.",
   },
 
   "1.d4 d5 2.Bf4 Nc6": {
@@ -767,15 +768,15 @@ export const de: OpeningTexts = {
   "1.d4 d5 2.Bf4 Bd7": {
     strategy:
       "Stellt den Läufer auf ein passives Feld, wo er dem Springer b8 das Feld d7 nimmt und die " +
-      "d-Linie der Dame versperrt. Er leistet weniger als ...Lf5, und Weiß entwickelt einfach " +
-      "weiter.",
+      "d-Linie der Dame versperrt. Er leistet weniger als ...Lf5, und Weiß entwickelt sich " +
+      "einfach weiter.",
   },
 
   "1.d4 d5 2.Bf4 Be6": {
     strategy:
       "Stellt den Läufer nach e6, wo er den e-Bauern und damit den Läufer f8 versperrt, sodass " +
-      "der übliche Plan, diesen Läufer zu befreien, entfällt. Weiß entwickelt in Ruhe weiter, " +
-      "während der Läufer wenig bewirkt.",
+      "der übliche Plan, diesen Läufer zu befreien, entfällt. Weiß entwickelt sich in Ruhe " +
+      "weiter, während der Läufer wenig bewirkt.",
   },
 
   "1.d4 d5 2.Bf4 Qd7": {
@@ -794,13 +795,13 @@ export const de: OpeningTexts = {
   "1.d4 d5 2.Bf4 a6": {
     strategy:
       "Kostet ein Tempo für einen Flügelzug, der nur ...b5 vorbereitet. Er entwickelt keine " +
-      "Figur und überlässt das Zentrum Weiß, das ungestört weiterentwickelt.",
+      "Figur und überlässt das Zentrum Weiß, das sich ungestört weiterentwickelt.",
   },
 
   "1.d4 d5 2.Bf4 a5": {
     strategy:
       "Kostet ein Tempo für einen Randbauernvorstoß, der b4 nimmt, aber nichts entwickelt und " +
-      "das Zentrum nicht bestreitet. Weiß entwickelt und gewinnt in Ruhe Raum.",
+      "das Zentrum nicht bestreitet. Weiß entwickelt sich und gewinnt in Ruhe Raum.",
   },
 
   "1.d4 d5 2.Bf4 b5": {
@@ -814,7 +815,7 @@ export const de: OpeningTexts = {
     strategy:
       "Strebt ...e5 an, nimmt aber dem Springer g8 das Feld f6 und öffnet die Diagonale e8–h5, " +
       "sodass die Dame nach e3 auf h5 Schach bieten kann. Schwarz verliert ein Tempo, ohne eine " +
-      "Figur zu entwickeln, während Weiß einfach weiterentwickelt.",
+      "Figur zu entwickeln, während sich Weiß einfach weiterentwickelt.",
   },
 
   "1.d4 d5 2.Bf4 f5": {
@@ -828,7 +829,7 @@ export const de: OpeningTexts = {
   "1.d4 d5 2.Bf4 h6": {
     strategy:
       "Kostet ein Tempo für einen Randbauernzug, der nichts entwickelt; sein Zweck, ein späteres " +
-      "...g5 gegen den Läufer f4, würde die eigene Königsstellung lockern. Weiß entwickelt " +
+      "...g5 gegen den Läufer f4, würde die eigene Königsstellung lockern. Weiß entwickelt sich " +
       "einfach weiter, und h3 gibt dem Läufer einen Rückzug nach h2.",
   },
 

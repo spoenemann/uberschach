@@ -21,8 +21,8 @@ export const en: OpeningTexts = {
     strategy:
       "Contests d4 just as White's pawn contests d5, so the structure stays balanced and White's " +
       "extra tempo is the main asset. Either side can strike with the d-pawn at the right " +
-      "moment, and that break decides the game: it opens the centre, while without it the play " +
-      "is slow manoeuvring.",
+      "moment, and that break shapes the game: it opens the centre, while without it the play is " +
+      "slow manoeuvring.",
   },
 
   "1.c4 e6": {

@@ -22,8 +22,8 @@ export const de: OpeningTexts = {
     strategy:
       "Kämpft um d4, so wie der weiße Bauer um d5 kämpft, sodass die Struktur ausgeglichen " +
       "bleibt und das Mehrtempo der wichtigste Trumpf von Weiß ist. Beide Seiten können im " +
-      "richtigen Moment mit dem d-Bauern vorstoßen, und dieser Hebel entscheidet die Partie: Er " +
-      "öffnet das Zentrum, ohne ihn bleibt es bei langsamem Manövrieren.",
+      "richtigen Moment mit dem d-Bauern vorstoßen, und dieser Hebel prägt die Partie: Er öffnet " +
+      "das Zentrum, ohne ihn bleibt es bei langsamem Manövrieren.",
   },
 
   "1.c4 e6": {
@@ -74,10 +74,10 @@ export const de: OpeningTexts = {
       "gegen einen schwarzen Zentrumsbauern tauscht. Sie wird selten gespielt, kann aber ins " +
       "Damengambit oder in die Réti-Eröffnung übergehen.",
     strategy:
-      "Greift sofort das Zentrum an, doch nach 2.cxd5 hat Weiß einen Flügelbauern gegen Schwarz' " +
-      "Zentrumsbauern getauscht. Das Zurückschlagen kostet Zeit: 2...Dxd5 3.Sc3 vertreibt die " +
-      "Dame, und nach 2...Sf6 kann der Springer, der auf d5 zurückschlägt, mit Sc3 und e4 gejagt " +
-      "werden.",
+      "Greift sofort das Zentrum an, doch nach 2.cxd5 hat Weiß einen Flügelbauern gegen den " +
+      "schwarzen Zentrumsbauern getauscht. Das Zurückschlagen kostet Zeit: 2...Dxd5 3.Sc3 " +
+      "vertreibt die Dame, und nach 2...Sf6 kann der Springer, der auf d5 zurückschlägt, mit Sc3 " +
+      "und e4 gejagt werden.",
   },
 
   "1.c4 b6": {

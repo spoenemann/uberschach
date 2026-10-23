@@ -26,9 +26,9 @@ export const en: OpeningTexts = {
 
   "1.d4 e6 2.e4": {
     strategy:
-      "Builds the full pawn centre and invites the French Defence, a game of locked pawn chains " +
-      "and slow manoeuvring. White gets space and an early grip on the centre, but the d4-pawn " +
-      "gives Black a clear target to attack.",
+      "Builds the full pawn centre and invites the French Defence, often a game of locked pawn " +
+      "chains and slow manoeuvring. White gets space and an early grip on the centre, but the " +
+      "d4-pawn gives Black a clear target to attack.",
   },
 
   "1.d4 e6 2.Bf4": {
@@ -649,7 +649,7 @@ export const en: OpeningTexts = {
     strategy:
       "Strikes at d4 at once and exploits the bishop's absence from c1: the b2-pawn is " +
       "undefended, so a queen on b6 hits it. This is a popular way to disturb White's " +
-      "comfortable setup. Black gets quick queenside play and active development, while the " +
+      "comfortable set-up. Black gets quick queenside play and active development, while the " +
       "c8-bishop is still shut in behind e6.",
   },
 
@@ -658,10 +658,10 @@ export const en: OpeningTexts = {
       "The English grandmaster Simon Williams often uses 1.d4 e6 as a way of playing for the " +
       "Dutch Defence while avoiding the Staunton Gambit, 1.d4 f5 2.e4.",
     strategy:
-      "Controls e4 and heads for a Dutch setup, flexible with the king's bishop on e7 or as a " +
-      "Stonewall wall of pawns. Black plays for the initiative on the kingside. The advance " +
-      "weakens e6 and the e8-h5 diagonal, and the e5-square, which the f4-bishop already covers, " +
-      "can become an outpost for a white knight.",
+      "Controls e4 and heads for a Dutch set-up, flexible between the king's bishop on e7 and a " +
+      "Stonewall pawn wall. Black plays for the initiative on the kingside. The advance weakens " +
+      "e6 and the e8-h5 diagonal, and the e5-square, which the f4-bishop already covers, can " +
+      "become an outpost for a white knight.",
   },
 
   "1.d4 e6 2.Bf4 Bd6": {
@@ -681,7 +681,7 @@ export const en: OpeningTexts = {
   "1.d4 e6 2.Bf4 Nc6": {
     strategy:
       "Develops a piece and attacks d4, but blocks the c-pawn, so the usual ...c5 break against " +
-      "the London is no longer available. White keeps a solid centre and a comfortable setup. " +
+      "the London is no longer available. White keeps a solid centre and a comfortable set-up. " +
       "Sound, but it offers less than a developing move that keeps the c-pawn free.",
   },
 
@@ -709,7 +709,7 @@ export const en: OpeningTexts = {
     strategy:
       "Supports a later ...d5 behind a solid pawn chain and opens the d8-a5 diagonal for the " +
       "queen. It is sound but slow: it develops no piece, and White can claim the centre or " +
-      "build a calm setup.",
+      "build a calm set-up.",
   },
 
   "1.d4 e6 2.Bf4 d6": {
@@ -755,7 +755,7 @@ export const en: OpeningTexts = {
   "1.d4 e6 2.Bf4 h6": {
     strategy:
       "Takes g5 from the bishop and prepares ...g5, but develops nothing and loosens the " +
-      "kingside. White builds a full setup while Black has done nothing for the centre.",
+      "kingside. White builds a full set-up while Black has done nothing for the centre.",
   },
 
   "1.d4 e6 2.Bf4 h5": {

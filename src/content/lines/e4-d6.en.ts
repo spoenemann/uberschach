@@ -543,8 +543,8 @@ export const en: OpeningTexts = {
   "1.e4 d6 2.Nf3 a5": {
     strategy:
       "Gains queenside space and takes b4 from White, but develops nothing and does not touch " +
-      "the centre. White simply builds a centre, and b5 is weakened for good, since the a-pawn " +
-      "can no longer cover it.",
+      "the centre. White simply builds a centre, and b5 is weakened, since only ...c6 can still " +
+      "cover it.",
   },
 
   "1.e4 d6 2.Nf3 h6": {
@@ -641,8 +641,8 @@ export const en: OpeningTexts = {
   "1.e4 d6 2.Nc3 e6": {
     strategy:
       "Prepares a solid but slow set-up with quick kingside development. The pawn shuts in the " +
-      "c8-bishop, and once White has a pawn on d4, ...d5 gives a closed centre with Black a full " +
-      "tempo down, since the d-pawn has moved twice.",
+      "c8-bishop, and once White has a pawn on d4, ...d5 reaches familiar structures with Black " +
+      "a full tempo down, since the d-pawn has moved twice.",
   },
 
   "1.e4 d6 2.Nc3 b6": {

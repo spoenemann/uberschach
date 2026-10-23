@@ -86,10 +86,11 @@ export const de: OpeningTexts = {
 
   "1.Nf3 d5 2.e4": {
     strategy:
-      "Bietet den e-Bauern für schnelles Figurenspiel an: Nach 2...dxe4 kann der Springer e4 und " +
-      "f7 angreifen, und Weiß hofft, den Bauern zurückzugewinnen oder f7 anzugreifen. Schwarz " +
-      "kann den Bauern zurückgeben oder behalten und steht in beiden Fällen besser, auch wenn " +
-      "ein unvorbereiteter Verteidiger in taktische Fallen geraten kann.",
+      "Bietet den e-Bauern für schnelles Figurenspiel an: Nach 2...dxe4 springt der Springer " +
+      "nach g5, wo er e4 und f7 angreift, und Weiß hofft, den Bauern zurückzugewinnen oder auf " +
+      "f7 durchzubrechen. Schwarz kann den Bauern zurückgeben oder behalten und steht in beiden " +
+      "Fällen besser, auch wenn ein unvorbereiteter Verteidiger in taktische Fallen geraten " +
+      "kann.",
   },
 
   "1.Nf3 d5 2.a3": {
@@ -151,9 +152,9 @@ export const de: OpeningTexts = {
 
   "1.Nf3 d5 2.Nh4": {
     strategy:
-      "Stellt den Springer ungedeckt an den Rand, wo ein Bauernzug von Schwarz die Diagonale der " +
-      "Dame nach h4 öffnet. Weiß muss ein weiteres Tempo aufwenden, um ihn zurückzuziehen oder " +
-      "mit g3 zu decken.",
+      "Stellt den Springer ungedeckt an den Rand, wo ein Zug des schwarzen e-Bauern die " +
+      "Diagonale der Dame nach h4 öffnet. Weiß muss ein weiteres Tempo aufwenden, um ihn " +
+      "zurückzuziehen oder mit g3 zu decken.",
   },
 
   "1.Nf3 d5 2.Ne5": {
@@ -165,9 +166,8 @@ export const de: OpeningTexts = {
 
   "1.Nf3 d5 2.Nd4": {
     strategy:
-      "Zentralisiert den Springer mit einem zweiten Zug, doch ein schwarzer Bauernzug greift ihn " +
-      "sofort an, und er muss erneut ziehen. Schwarz baut mit Zeitgewinn ein breites Zentrum " +
-      "auf.",
+      "Zentralisiert den Springer mit einem zweiten Zug, doch ...e5 oder ...c5 greift ihn sofort " +
+      "an, und er muss erneut ziehen. Schwarz baut mit Zeitgewinn ein breites Zentrum auf.",
   },
 
   "1.Nf3 d5 2.Ng1": {
@@ -451,7 +451,7 @@ export const de: OpeningTexts = {
       "Entwickelt den Läufer außerhalb der Bauernkette, bevor …e6 folgt, sodass er nicht hinter " +
       "den eigenen Bauern eingesperrt ist. So früh gespielt erlaubt es 3.Sh4, das den Läufer " +
       "angreift; nach …Lg6 Sxg6 hxg6 hat Schwarz Doppelbauern auf der g-Linie und das Läuferpaar " +
-      "abgegeben. Spielbar, aber nicht umsonst.",
+      "abgegeben. Spielbar, doch Weiß bekommt ein Angriffsziel.",
   },
 
   "1.Nf3 d5 2.g3 e6": {
@@ -629,7 +629,7 @@ export const de: OpeningTexts = {
       "Entwickelt den Läufer außerhalb der Bauernkette und setzt den Springer f3 unter Druck, " +
       "der e5 und d4 deckt. Das Schlagen auf f3 beseitigt diesen Verteidiger und kann die weißen " +
       "Bauern verdoppeln, kostet aber das Läuferpaar, und h3 kann den Läufer zurücktreiben. " +
-      "Schwarz erhält rasche Entwicklung, verliert dafür aber Zeit mit dem Läufer.",
+      "Schwarz entwickelt sich rasch, muss aber womöglich Zeit mit dem Läufer aufwenden.",
   },
 
   "1.Nf3 d5 2.b3 Bf5": {

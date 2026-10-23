@@ -172,16 +172,16 @@ export const de: OpeningTexts = {
     strategy:
       "Entwickelt den Springer auf sein natürliches Feld und kontrolliert e4 und d5. Zusammen " +
       "mit ...g6 führt das zu den Aufbauten der Königsindischen und der Grünfeld-Indischen " +
-      "Verteidigung, scharf und theoriereich. Weiß bekommt zuerst das große Zentrum, und " +
-      "Schwarz' Gegenspiel hängt davon ab, es rechtzeitig anzugreifen.",
+      "Verteidigung, scharf und theoriereich. Weiß bekommt zuerst das große Zentrum, und das " +
+      "schwarze Gegenspiel hängt davon ab, es rechtzeitig anzugreifen.",
   },
 
   "1.c4 g6 2.d4 d6": {
     strategy:
-      "Kontrolliert e5, öffnet dem Läufer c8 den Weg und hält die Entwicklung am Königsflügel " +
-      "flexibel, sodass sowohl ein Fianchetto-Aufbau als auch ein klassischerer Aufbau " +
-      "offenbleiben. Der d-Bauer ist früh festgelegt, was den Zentrumsangriff mit ...d5 " +
-      "ausschließt, und Weiß bestimmt, wie viel Raum er nimmt.",
+      "Kontrolliert e5, öffnet dem Läufer c8 den Weg und hält die Entwicklung des Springers " +
+      "flexibel, sodass Schwarz noch zwischen einem Aufbau mit ...Sf6 und einem mit " +
+      "zurückgehaltenem Springer wählen kann. Der d-Bauer ist früh festgelegt, was den " +
+      "Zentrumsangriff mit ...d5 ausschließt, und Weiß bestimmt, wie viel Raum er nimmt.",
   },
 
   "1.c4 g6 2.d4 f5": {
@@ -225,9 +225,9 @@ export const de: OpeningTexts = {
   "1.c4 g6 2.d4 c5": {
     strategy:
       "Greift d4 sofort an, für eine Partie vom Benoni- oder sizilianischen Typ, ...Lg7 folgt " +
-      "noch. Nach 3.dxc5 gewinnt Schwarz den Bauern mit ...Da5+ und ...Dxc5 zurück, verliert " +
-      "aber Zeit mit der Dame, und 3.d5 gibt Weiß einen Raumvorteil in einer Benoni-Struktur. " +
-      "Spielbar, doch Weiß wählt die Struktur.",
+      "noch. Schlägt Weiß auf c5, gewinnt Schwarz den Bauern zurück, verliert aber Zeit mit der " +
+      "Dame; schiebt Weiß d5, erhält er Raum in einer Benoni-Struktur. Spielbar, doch Weiß wählt " +
+      "die Struktur.",
   },
 
   "1.c4 g6 2.d4 e6": {
@@ -330,7 +330,7 @@ export const de: OpeningTexts = {
 
   "1.c4 g6 2.g3 c5": {
     strategy:
-      "Nimmt d4 unter Kontrolle und spiegelt Weiß' Spiel am Damenflügel, mit Kurs auf eine " +
+      "Nimmt d4 unter Kontrolle und spiegelt das weiße Spiel am Damenflügel, mit Kurs auf eine " +
       "symmetrische Partie, in der beide Seiten fianchettieren und um d4 kämpfen. Bis ...Lg7 " +
       "geschieht, ist die Diagonale zum Turm h8 offen, sodass nach 3.d4 cxd4 4.Dxd4 die Dame den " +
       "Turm angreift, eine Taktik, die Schwarz im Blick behalten muss.",

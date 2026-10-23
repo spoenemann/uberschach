@@ -62,8 +62,9 @@ export const de: OpeningTexts = {
   "1.c4 e5 2.d4": {
     strategy:
       "Greift sofort e5 an und öffnet das Zentrum. Nach 2...exd4 muss Weiß mit der Dame " +
-      "zurücknehmen oder mit Sf3 Zeit verlieren, und Schwarz entwickelt sich ungehindert. Der " +
-      "Anzugsvorteil ist dahin, doch die Stellung bleibt ausgeglichen.",
+      "zurücknehmen, die dann gejagt werden kann, oder zuerst Sf3 spielen und später " +
+      "zurückschlagen, und Schwarz entwickelt sich ungehindert. Der Anzugsvorteil ist dahin, " +
+      "doch die Stellung bleibt ausgeglichen.",
   },
 
   "1.c4 e5 2.e4": {
@@ -475,14 +476,14 @@ export const de: OpeningTexts = {
 
   "1.c4 e5 2.g3 Qe7": {
     strategy:
-      "Deckt e5, blockiert aber den Läufer f8 und das Feld e7 und lädt zu Sc3-d5 mit " +
-      "Tempogewinn gegen die Dame ein. Weiß entwickelt, während die Dame wenig zu tun hat.",
+      "Deckt e5, blockiert aber den Läufer f8 und das Feld e7 und lädt zu Sc3-d5 mit Tempogewinn " +
+      "gegen die Dame ein. Weiß entwickelt sich, während die Dame wenig zu tun hat.",
   },
 
   "1.c4 e5 2.g3 Qf6": {
     strategy:
       "Deckt e5, nimmt aber dem Königsspringer sein bestes Feld, und Sc3-d5 greift die Dame " +
-      "später mit Tempogewinn an. Weiß entwickelt, während die Dame erneut ziehen muss.",
+      "später mit Tempogewinn an. Weiß entwickelt sich, während die Dame erneut ziehen muss.",
   },
 
   "1.c4 e5 2.g3 Qg5": {

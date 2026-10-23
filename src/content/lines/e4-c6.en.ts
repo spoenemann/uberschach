@@ -247,8 +247,8 @@ export const en: OpeningTexts = {
     name: "Caro–Kann Defence: Masi Variation",
     strategy:
       "Attacks e4 and invites White to push e5, driving the knight back; a following c4 chases " +
-      "it again and gives White a broad centre, with ...c6 already played as a wasted tempo. If " +
-      "White simply defends e4 instead, ...d5 is met by e5, again gaining time on the knight.",
+      "it again and gives White a broad centre, while ...c6 adds little. If White simply defends " +
+      "e4 instead, ...d5 is met by e5, again gaining time on the knight.",
   },
 
   "1.e4 c6 2.d4 d6": {
@@ -511,9 +511,8 @@ export const en: OpeningTexts = {
   "1.e4 c6 2.c4 d5": {
     strategy:
       "Strikes at the e4-pawn at once, the thematic Caro–Kann break, before White can support " +
-      "the centre. The cost is that White gets to choose the structure: either an isolated " +
-      "queen's pawn with fast development and attacking chances, or a trade of pawns on d5 that " +
-      "leaves White with the isolated d-pawn.",
+      "the centre. White then chooses how the pawns are exchanged, and in the main lines ends up " +
+      "with an isolated d-pawn, accepted for fast development and attacking chances.",
   },
 
   "1.e4 c6 2.c4 d6": {

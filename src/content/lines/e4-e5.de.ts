@@ -270,7 +270,7 @@ export const de: OpeningTexts = {
       "antwortete 2...Ke7, und die Partie endete durch dreifache Stellungswiederholung remis.",
     strategy:
       "Gibt die Rochade auf und versperrt Dame und Königsläufer, sodass der König erneut ziehen " +
-      "muss, bevor Weiß normal entwickeln kann. Schwarz braucht nichts Besonderes: Schnelle " +
+      "muss, bevor sich Weiß normal entwickeln kann. Schwarz braucht nichts Besonderes: Schnelle " +
       "Entwicklung und ein offenes Zentrum genügen gegen den gestrandeten König.",
   },
 
@@ -539,9 +539,9 @@ export const de: OpeningTexts = {
       "auf das Läuferspiel.",
     strategy:
       "Entwickelt eine Figur mit Angriff auf e4, sodass Weiß sofort entscheiden muss, wie er den " +
-      "Bauern verteidigt, und Schwarz früh die Initiative ergreift. Die übliche ruhige " +
-      "Verteidigung lässt Schwarz bequem entwickeln, doch Weiß kann später noch f2-f4 spielen, " +
-      "ein verzögertes Königsgambit, sodass Schwarz wachsam bleiben muss.",
+      "Bauern verteidigt, und Schwarz früh aktiv wird. Die übliche ruhige Verteidigung lässt " +
+      "Schwarz bequem entwickeln, doch Weiß kann später noch f2-f4 spielen, ein verzögertes " +
+      "Königsgambit, sodass Schwarz wachsam bleiben muss.",
   },
 
   "1.e4 e5 2.Bc4 Nc6": {

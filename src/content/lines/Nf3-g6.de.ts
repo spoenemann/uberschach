@@ -192,7 +192,7 @@ export const de: OpeningTexts = {
     strategy:
       "Zielt auf d4 und lenkt in eine symmetrische Bauernstruktur. Öffnet Weiß das Zentrum und " +
       "spielt dann e4, schränken Bauern auf c4 und e4 ...d5 und ...b5 ein, und Schwarz muss auf " +
-      "Figurenspiel setzen. Der Preis ist ein eingeengtes Spiel, wenn Schwarz diese Fesselung " +
+      "Figurenspiel setzen. Der Preis ist ein eingeengtes Spiel, wenn Schwarz diese Klammer " +
       "zulässt.",
   },
 

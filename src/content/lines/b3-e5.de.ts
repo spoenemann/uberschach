@@ -21,9 +21,9 @@ export const de: OpeningTexts = {
 
   "1.b3 e5 2.Nf3": {
     strategy:
-      "Greift e5 an und entwickelt, doch 2...e4 vertreibt den Springer, und nach 3.Sd4 c5 muss " +
-      "er das Zentrum wieder verlassen, während Schwarz Raum gewinnt. Solide, doch Schwarz hat " +
-      "die leichtere Wahl.",
+      "Greift e5 an und entwickelt eine Figur, doch 2...e4 vertreibt den Springer, und nach " +
+      "3.Sd4 c5 muss er das Zentrum wieder verlassen, während Schwarz Raum gewinnt. Solide, doch " +
+      "Schwarz hat die leichtere Wahl.",
   },
 
   "1.b3 e5 2.c4": {
@@ -171,10 +171,10 @@ export const de: OpeningTexts = {
 
   "1.b3 e5 2.Bb2 d6": {
     strategy:
-      "Eine bescheidene Verteidigung: Der Bauer hält e5 und die Stellung kompakt, versperrt aber " +
-      "den Läufer c8 und nimmt dem Läufer f8 das Feld d6. Schwarz verzichtet auf ein breites " +
-      "Bauernzentrum zugunsten der Solidität. Die Partie bleibt ruhig, Schwarz steht etwas " +
-      "beengt, aber solide, und Weiß kann in Ruhe aufbauen.",
+      "Eine bescheidene Verteidigung: Der Bauer hält e5 und die Stellung kompakt und gibt den " +
+      "Läufer c8 frei, nimmt aber dem Läufer f8 das Feld d6, sodass ihm nur e7 bleibt. Schwarz " +
+      "verzichtet auf ein breites Bauernzentrum zugunsten der Solidität. Die Partie bleibt " +
+      "ruhig, Schwarz steht etwas beengt, aber solide, und Weiß kann in Ruhe aufbauen.",
   },
 
   "1.b3 e5 2.Bb2 Qe7": {
@@ -375,7 +375,7 @@ export const de: OpeningTexts = {
     strategy:
       "Entwickelt Richtung Zentrum und überwacht e4 und d5, sodass Schwarz bei den Bauernzügen " +
       "flexibel bleibt. Der Springer deckt e5 nicht, Schwarz braucht also einen weiteren Zug " +
-      "gegen Lb2, und der weiße Läufer bekommt seine Diagonale geschenkt.",
+      "gegen Lb2, das mit Tempogewinn kommt.",
   },
 
   "1.b3 e5 2.e3 d6": {
@@ -544,7 +544,8 @@ export const de: OpeningTexts = {
     strategy:
       "Gibt die Rochade auf und verstellt Dame und Läufer f8 ohne jede Gegenleistung. 3.La3+ " +
       "gibt sofort Schach auf der Diagonale a3–f8, sodass Schwarz mit einem Bauern blocken muss, " +
-      "der dann gefesselt ist, oder durch einen weiteren Königszug Zeit verliert.",
+      "der dann gefesselt ist oder verloren geht, oder durch einen weiteren Königszug Zeit " +
+      "verliert.",
   },
 
   "1.b3 e5 2.e3 Ba3": {

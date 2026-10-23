@@ -159,9 +159,8 @@ export const de: OpeningTexts = {
   "1.g3 e5 2.Bg2 d5": {
     strategy:
       "Besetzt sofort das Zentrum mit Bauern auf d5 und e5, und die Dame deckt d5 gegen den " +
-      "Läufer g2. Schwarz beansprucht so viel Raum, wie Weiß bekämpfen kann, und zahlt dafür mit " +
-      "einem Angriffsziel: Weiß kann d5 angreifen oder ruhig aufbauen. Beide Seiten streiten um " +
-      "dieselben Zentrumsfelder.",
+      "Läufer g2. Schwarz beansprucht sofort Raum und zahlt dafür mit einem Angriffsziel: Weiß " +
+      "kann d5 angreifen oder ruhig aufbauen. Beide Seiten streiten um dieselben Zentrumsfelder.",
   },
 
   "1.g3 e5 2.Bg2 Nc6": {

@@ -26,7 +26,7 @@ export const de: OpeningTexts = {
 
   "1.d4 e6 2.e4": {
     strategy:
-      "Errichtet das volle Bauernzentrum und lädt zur Französischen Verteidigung ein, einer " +
+      "Errichtet das volle Bauernzentrum und lädt zur Französischen Verteidigung ein, oft einer " +
       "Partie mit verriegelten Bauernketten und langsamem Manövrieren. Weiß erhält Raum und früh " +
       "Zugriff auf das Zentrum, doch der Bauer d4 bietet Schwarz ein klares Angriffsziel.",
   },
@@ -498,8 +498,8 @@ export const de: OpeningTexts = {
   "1.d4 e6 2.Nf3 b6": {
     strategy:
       "Bereitet ...Lb7 gegen e4 und die lange Diagonale vor. Weiß kann einfach das Zentrum " +
-      "besetzen, und die Theorie hält Schwarz' Aufbau dagegen für zweifelhaft. Spielbar, aber " +
-      "nicht empfohlen.",
+      "besetzen, und die Theorie hält den schwarzen Aufbau dagegen für zweifelhaft. Spielbar, " +
+      "aber nicht empfohlen.",
   },
 
   "1.d4 e6 2.Nf3 c6": {
@@ -677,8 +677,8 @@ export const de: OpeningTexts = {
       "kritischste Variante.",
     strategy:
       "Greift d4 sofort an und nutzt, dass der Läufer c1 verlassen hat: Der Bauer b2 ist " +
-      "ungedeckt, sodass eine Dame auf b6 ihn angreift. Das ist ein beliebter Weg, Weiß' " +
-      "bequemen Aufbau zu stören. Schwarz erhält schnelles Spiel am Damenflügel und aktive " +
+      "ungedeckt, sodass eine Dame auf b6 ihn angreift. Das ist ein beliebter Weg, den bequemen " +
+      "weißen Aufbau zu stören. Schwarz erhält schnelles Spiel am Damenflügel und aktive " +
       "Entwicklung, während der Läufer c8 weiterhin hinter e6 eingesperrt ist.",
   },
 
@@ -687,10 +687,10 @@ export const de: OpeningTexts = {
       "Der englische Großmeister Simon Williams nutzt 1.d4 e6 oft, um die Holländische " +
       "Verteidigung zu spielen und dabei das Staunton-Gambit 1.d4 f5 2.e4 zu umgehen.",
     strategy:
-      "Kontrolliert e4 und steuert einen holländischen Aufbau an, flexibel mit dem Königsläufer " +
-      "auf e7 oder als Stonewall-Wall aus Bauern. Schwarz spielt auf Initiative am Königsflügel. " +
-      "Der Vorstoß schwächt e6 und die Diagonale e8–h5, und das Feld e5, das der Läufer f4 " +
-      "bereits kontrolliert, kann zum Vorposten für einen weißen Springer werden.",
+      "Kontrolliert e4 und steuert einen holländischen Aufbau an, flexibel zwischen dem " +
+      "Königsläufer auf e7 und einer Stonewall-Bauernmauer. Schwarz spielt auf Initiative am " +
+      "Königsflügel. Der Vorstoß schwächt e6 und die Diagonale e8–h5, und das Feld e5, das der " +
+      "Läufer f4 bereits kontrolliert, kann zum Vorposten für einen weißen Springer werden.",
   },
 
   "1.d4 e6 2.Bf4 Bd6": {

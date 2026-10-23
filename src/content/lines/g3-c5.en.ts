@@ -8,8 +8,7 @@ export const en: OpeningTexts = {
       "Puts the bishop on the long diagonal, where it presses on the centre, c6 and b7, and " +
       "clears f1 so White can castle once the knight is out. White commits to nothing else yet " +
       "and keeps the choice between a restrained set-up and a more direct build-up in the " +
-      "centre. The game stays quiet and manoeuvring, and the centre is decided by who gets it on " +
-      "better terms.",
+      "centre. The game stays quiet and manoeuvring.",
   },
 
   "1.g3 c5 2.Nf3": {

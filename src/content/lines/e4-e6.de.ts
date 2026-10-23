@@ -31,7 +31,7 @@ export const de: OpeningTexts = {
     name: "Französische Verteidigung: Damenspringer-Variante",
     strategy:
       "Entwickelt den Damenspringer und deckt e4, sodass die üblichen französischen Aufbauten " +
-      "möglich bleiben. Schwarz kann die französische Struktur aber auch verlassen und Weiß' " +
+      "möglich bleiben. Schwarz kann die französische Struktur aber auch verlassen und das weiße " +
       "Zentrum mit dem c-Bauern von der Seite angreifen, was zu einem langsameren, geschlossenen " +
       "Spiel führt. Gesund, bietet aber nichts, was 2.d4 nicht auch bietet.",
   },
@@ -463,7 +463,7 @@ export const de: OpeningTexts = {
       "hält den Bauern e4 mit Figuren gedeckt und strebt ein langsames, geschlossenes Spiel an, " +
       "meist mit Fianchetto am Königsflügel und Rochade, später mit einem Vorstoß e4-e5, der " +
       "Schwarz einengt und einen Königsangriff vorbereitet. Schwarz erhält ein solides Zentrum " +
-      "und Spiel am Damenflügel, muss sich aber gegen diese Bindung verteidigen.",
+      "und Spiel am Damenflügel, muss sich aber gegen diese Klammer verteidigen.",
   },
 
   "1.e4 e6 2.d3 c5": {
