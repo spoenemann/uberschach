@@ -72,6 +72,120 @@ of content is, before it is committed:
    legal move covered, ratings 4 and 5 only followed, every background
    sourced, English complete) is `src/content/openings.test.ts`.
 
+## Gathering the information: sources and subagents
+
+What the three levels (240 agents, 2,918 moves) taught, for whoever writes
+the next batch. The numbers are measured on 2026-10-23 on a ten-core
+machine; the briefs and the scripts named here were scratch files of that
+session and are not in the repository (Open, below).
+
+**Sources, in the order they proved useful**
+
+- *English Wikipedia*, the opening's article: history, names, standing in
+  theory. The article for the family covers its variations; a variation
+  with no article is a section of the parent's. Where the rendered page was
+  ambiguous the reviewers read its wikitext. Titles are case- and
+  apostrophe-sensitive (`King%27s_Pawn_Game`); a page that fails to load is
+  tried under its other names before the claim is dropped.
+- *Wikibooks, Chess Opening Theory*: move-by-move assessments with the
+  symbols (?, ?!, ±), the best ground for rating a sideline 2 or 3. Its
+  pages failed to load in some reviews; the reviewer then says that a rating
+  rests on a table it could not open.
+- *German Wikipedia*: the authority for the German names (Sizilianische
+  Verteidigung, Spanische Partie, Mittelgambit im Nachzug) and for some
+  history English lacks (the origin of the Grand Prix Attack).
+- *The Lichess chess-openings dataset* (`lichess-org/chess-openings` on
+  GitHub, five TSV files, 3,869 named lines): the ECO code and name of
+  every position it names, matched to a position by its key. It tells which
+  positions carry a name in public usage. American spelling and informal
+  names ("Hippopotamus Defense"): a hint for the researcher, a weak source
+  for a name, none for a historical claim. Names are written "Defence".
+- *Popularity*: the game counts in the chessgames.com explorer settled one
+  rating (1.e4 d6 2.f4 against its siblings); Chessiverse once. Lichess's
+  own explorer API answers 401 without a token, so unattended agents
+  cannot use it.
+- Authorities that Wikipedia quotes (Modern Chess Openings, Kasparov and
+  Keene) are quoted as such, "in the words of", never as a fact of the text.
+- No engine: the spec says so and the ratings are judgements from the
+  sources. Most of the 2,000 corrections the reviewers' notes describe
+  were board claims, which the board shows without an engine (below).
+
+**Subagents**
+
+- *Pilot a ply before scaling.* Six positions, 17 minutes, found the two
+  changes that every later brief carries (British spelling of names; do not
+  repeat a background already told on the way, which is why a node file
+  lists the names and backgrounds of its path).
+- *Briefs in files, prompts short.* The prompt names two files, the brief
+  and the position's node file (position, legal moves, hints), and the
+  output path. Content goes to files and is validated there; the reply is a
+  small structured status. Three levels put only the short reports into the
+  orchestrating session; the texts were read by sampling.
+- *One researcher and one reviewer per followed position*, Sonnet then
+  Opus (decision log). The researcher gets a budget (6 to 12 page fetches
+  for the whole position, no search per move: the family's pages carry the
+  main ratings, the many weak moves need the board, not a source); the
+  reviewer gets the output file and never the researcher's reasoning, opens
+  every cited source, re-checks every concrete claim on the board, compares
+  the siblings' ratings, and then translates.
+- *A validation script both agents run*, because it turns the rules into an
+  error message they can act on: every legal move once, ratings 1 to 5, a
+  source for every background, no English piece letters in German text.
+  Test it on a known-bad file before the first run. Two defects cost
+  content: it rejected English words in German text, so a book title was
+  left out (it now ignores a „quoted title“), and it missed moves written
+  with their number ("2.Nf3") until the level-1 files were checked again.
+- *A board tool* (`show "1.e4 e5 2.Nf3"`): the most frequent correction at
+  every level was a strategy text that was false on the board (a pawn that
+  "hangs" and does not, a bishop that "guards" what it does not, a move
+  that is illegal). Ask for the board check in the researcher's brief, not
+  only in the reviewer's.
+- *What a reviewer drops*: 340 claims in all, of three kinds: an
+  attribution the page does not make ("named after", "hence"), a superlative
+  with no source ("the most popular reply"), and a detail that is not on the
+  page at all. Dropping is the intended outcome; a background left `null`
+  is correct, and most positions have none.
+- *Ratings*: the reviewers changed 126 of 2,898 (4.3 %), within one
+  position. After each level the orchestrator tabulates every recurring move's
+  rating over all positions and reads the outliers' texts, which no single
+  agent sees; that pass changed nothing at levels 2 and 3, and it is
+  cheap (one script).
+- *Level by level, the next level's positions from the verified ratings*,
+  never earlier: a reviewer changes ratings, and a rating decides what is
+  followed. A position reached by several lines is researched once under the
+  first line in breadth-first order (Decision log).
+- *Throughput and cost*, for planning: about one agent finished per minute
+  at level 3 (the cap on agents at once is the cores less two: eight here);
+  about 108,000 tokens per agent, 216,000 per
+  position, 9,000 per move written. Level 1: 12 agents, 17 minutes; level 2:
+  66, 68 minutes; level 3: 162, 163 minutes. A workflow may start at most a
+  thousand agents, so a level of more than 500 positions is run in batches
+  (`resumeFromRunId` replays finished agents from its journal). The
+  orchestrator waits for the completion notice instead of polling; a level
+  needs no attention in between.
+- *Estimates ran high*: the depth decision estimated 140 followed positions
+  and 4,000 moves for what became 121 and 2,918. Expect the same bias.
+
+**Open: the next two plies (White's third move and Black's reply)**
+
+Level 4 is known exactly from the ratings, level 5 extrapolated at the
+rate of 3.2 moves rated 4 or 5 per position and 0.76 distinct positions per
+move. Level 4: 197 positions, 5,403 moves, 5,092 new positions. Level 5:
+about 480 positions and 14,000 moves. Together about 20,000 moves, 150
+million tokens (nearly six times everything so far) and about 22 hours of
+agent time, level 5 starting when level 4 ends. Following only moves rated 5
+below the present depth: 102 and about 125 positions, 6,600 moves, about 50
+million tokens, 8 hours. The book would grow about 570 bytes per move
+minified, 157 gzipped (the measure of the present 2.05 MB): to about 11 to
+13 MB and 3 to 3.7 MB gzipped, or about 6 MB and 1.6 MB for the 5-only
+variant. Start-up grows with the positions, 0.35 s now for 2,721, about
+three seconds on this machine for 21,000: the extension needs the book split by family and
+loaded on demand, and an index of keys that does not replay lines, before
+it ships; a family's files would also outgrow the 3,000 lines of the raised
+`max-lines`. The briefs and the scripts (the frontier from the ratings, the
+validator, the board tool, the writer of the modules) are to be committed
+before that work, or rebuilt from this section.
+
 ## Decomposition
 
 - [x] Verify the maintainer's German proposal for the first move against
@@ -191,7 +305,7 @@ of content is, before it is committed:
   each read. Final book: 2,721 positions, 2,918 moves (196 rated 5, 208 rated
   4, 609 rated 3, 1,436 rated 2, 469 rated 1), 346 names, 216 backgrounds on
   284 source URLs; 676,000 characters of English and 768,000 of German. All of
-  the pipeline cost, three levels: about 26 million agent tokens, 300 agents.
+  the pipeline cost, three levels: about 26 million agent tokens, 240 agents.
   Found while integrating: building the book at import took 5.7 seconds in
   Node (the loader replayed every line from the start and checked every move
   with the game machinery, which runs legal-move generation several times
