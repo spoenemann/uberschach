@@ -169,6 +169,8 @@ for and risks, and which replies matter.
 - `product-brief.md` — the entry page the explorer is reached from.
 - `docs/design-docs/chess-rules-engine.md` — legality, how a game ends,
   when positions are the same.
+- `docs/design-docs/chess-notation.md` — how a move is written in the
+  visitor's language and how the moves in the address are read.
 - `docs/localization.md` — the languages promised, translated text and
   the layout of per-language content.
 - `docs/design-docs/design-system.md` — board highlights, legal-move

@@ -28,8 +28,8 @@ column. Nothing imports upward.
 
 | Layer          | Holds                                                                          | May import from                   |
 | -------------- | ------------------------------------------------------------------------------ | --------------------------------- |
-| `src/domain/`  | Pure TypeScript: chess and training logic. No React, no browser APIs.          | nothing in `src/`                 |
-| `src/i18n/`    | Pure TypeScript: the languages, the translation catalogues, localized notation. | `domain`                          |
+| `src/domain/`  | Pure TypeScript: chess rules, notation, training. No React, no browser APIs.   | nothing in `src/`                 |
+| `src/i18n/`    | Pure TypeScript: the languages, the catalogues, each language's notation.      | `domain`                          |
 | `src/content/` | Opening content as typed data files.                                           | `domain`, `i18n`                  |
 | `src/ui/`      | React components, their CSS Modules, and the design tokens.                    | `domain`, `i18n`, `content`       |
 | `src/app/`     | Composition root: entry point, routing, browser storage, wiring.               | `domain`, `i18n`, `content`, `ui` |

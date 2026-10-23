@@ -42,8 +42,9 @@ The layer and its import rules are in `docs/ARCHITECTURE.md`.
   castling rights without the pieces in place); the engine plays by the
   rules from there, needs king and rook in place to castle whatever the
   rights say, and never captures a king (1.4.1).
-- Non-goal: notation other than FEN. Algebraic notation (SAN) and game
-  records (PGN) come with the first capability that needs them.
+- Non-goal: notation other than FEN. Algebraic notation is its own system
+  on top of the engine (`chess-notation.md`); game records (PGN) are not
+  built.
 
 ## Design
 
@@ -153,7 +154,8 @@ The layer and its import rules are in `docs/ARCHITECTURE.md`.
   the maintainer on 2026-10-23: the engine follows the Laws and reports
   the claims; whoever shows the game decides what to do with them.
 - **Algebraic notation now.** Deferred with the maintainer on 2026-10-23
-  until the opening explorer's content format is specified.
+  until the opening explorer's content format is specified; built later
+  the same day as its own system (`chess-notation.md`).
 
 ## Cross-cutting concerns
 
@@ -170,3 +172,6 @@ The layer and its import rules are in `docs/ARCHITECTURE.md`.
   non-goals, and removed. It paraphrased the Laws, which are the single
   source, and split the engine's scope from its design; one doc per
   concern, as `docs/localization.md` (maintainer's call).
+- 2026-10-23: algebraic notation and move lines are built on the engine
+  as `src/domain/san.ts` and `src/domain/line.ts`, designed in
+  `chess-notation.md`; the non-goal and the alternative above point there.

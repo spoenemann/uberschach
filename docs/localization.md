@@ -36,7 +36,8 @@ Each promise names the test that holds it.
   English, and `npm run check` fails before that ships (The German
   catalogue, below). (`src/i18n/catalogue.test.ts`)
 - **Notation in the language's piece letters**: `K Q R B N` in English,
-  `K D T L S` in German (Notation, below). (`src/i18n/notation.test.ts`)
+  `K D T L S` in German (Notation, below). (`src/domain/san.test.ts`,
+  `src/i18n/notation.test.ts`)
 
 Not promised: regional variants (`de-CH` is German, `en-GB` is English);
 the language in the URL, so a shared link opens in the reader's own
@@ -97,14 +98,20 @@ collected too; write `t()` in comments.
 
 ## Notation
 
-Inside the app notation is English: the domain, the content files, the
-explorer's address, FEN and later PGN all use `K Q R B N`. It is adapted at
-display time only, by `localizeSan(san, language)` from
-`src/i18n/notation.ts` on every move or move sequence shown;
-`pieceLetter(type, language)` gives one letter. German uses `K D T L S`;
-the pawn has no letter in either; files, ranks, `x`, `+`, `#`, `=` and
-`O-O` are the same everywhere. `localizeSan` replaces every capital
-`K Q R B N`, so it takes notation only, never the prose around it.
+The domain writes and reads moves in whichever notation language it is
+given (`docs/design-docs/chess-notation.md`): `toSan(position, move,
+notation)`, `parseSan`, `formatLine` and `playLine` in `src/domain/san.ts`
+and `src/domain/line.ts`. Which notation a visitor's language reads is
+`notationLanguage(language)` in `src/i18n/notation.ts`: English reads
+`K Q R B N`, German `K D T L S`; the pawn has no letter in either, and
+files, ranks, `x`, `+`, `#`, `=` and `O-O` are the same everywhere. A
+component that has the move writes it in the visitor's notation directly,
+`toSan(position, move, notationLanguage(language))`. Stored notation is
+English: the content files, the explorer's address and later PGN all use
+`K Q R B N`, and stored text shown as it is, such as a line quoted in
+prose, is adapted at display time by `localizeSan(san, language)`, which
+replaces every capital `K Q R B N` and so takes notation only, never the
+prose around it. `pieceLetter(type, language)` gives one letter.
 
 ## Opening content
 
@@ -122,9 +129,11 @@ building the explorer needs another, this section changes with it.
 
 Its tag in `SUPPORTED_LANGUAGES` and its name in `LANGUAGE_NAMES`
 (`src/i18n/language.ts`), a catalogue file and its `CATALOGUES` entry
-(`translate.ts`), its piece letters (`notation.ts`), its content files. The
-`Record<Language, …>` types point at every other place, and the catalogue
-check covers every catalogue but English.
+(`translate.ts`), the notation it reads in `NOTATION_OF` (`notation.ts`),
+with a new row of piece letters in `src/domain/san.ts` when no existing
+notation fits, its content files. The `Record<Language, …>` types point at
+every other place, and the catalogue check covers every catalogue but
+English.
 
 ## Decisions
 

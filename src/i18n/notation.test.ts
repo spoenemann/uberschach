@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { localizeSan, pieceLetter } from "./notation.ts";
+import { localizeSan, notationLanguage, pieceLetter } from "./notation.ts";
 
 describe("localizeSan", () => {
   test("German uses K D T L S and no letter for the pawn", () => {
@@ -24,6 +24,11 @@ describe("localizeSan", () => {
       "1.e4 e5 2.Nf3 Nc6 3.Bb5",
     );
   });
+});
+
+test("each language names the notation it reads", () => {
+  expect(notationLanguage("en")).toBe("en");
+  expect(notationLanguage("de")).toBe("de");
 });
 
 test("pieceLetter gives one letter per language", () => {
