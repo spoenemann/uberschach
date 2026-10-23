@@ -85,11 +85,21 @@ for and risks, and which replies matter.
   it: 5 and 4 are moves worth learning, 3 is sound but not recommended, 2
   gives something away, 1 gives a lot away or falls for a trap. It is not
   an engine evaluation.
-- Every rating and text is read and approved by the maintainer before it
-  ships, whoever drafted it. A historical statement is verified against
-  public information before it ships and names its source in the data
-  file; the source is not shown on screen. (`src/content/openings.test.ts`:
-  every background names a source)
+- Every rating and text is reviewed before it ships by an agent that did
+  not write it; the maintainer reads what they choose to, and nothing
+  waits for them (the maintainer, 2026-10-23, after the first move:
+  reading every text by hand does not scale). The reviewer gets the
+  claims and the sources, never the author's reasoning, and checks each
+  historical statement against a public source, claim by claim. A
+  statement the source contradicts or does not support is corrected or
+  dropped. Each rating is checked against the sources' assessment of the
+  move and against the ratings of its sibling moves, each text against
+  what it must say (above). The findings and corrections are logged in
+  the content's exec plan, which also holds the procedure
+  (`docs/exec-plans/active/0002-opening-explorer.md`, Content review).
+- A historical statement names its source in the data file; the source is
+  not shown on screen. (`src/content/openings.test.ts`: every background
+  names a source)
 - Every entry has its prose in English; German follows
   `docs/localization.md` (Opening content): it may lag, text by text, and
   the English then shows. (`src/content/book.test.ts`: a German text

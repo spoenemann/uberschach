@@ -50,6 +50,7 @@ npm run dev                          # http://localhost:5173/uberschach/ (the ba
 - A change to anything rendered (`src/ui/`, `src/app/`, `index.html`) is looked at: open the screenshots `npm run check` writes, and check the specifics with a disposable ad-hoc module when looking is not enough (`docs/visual-verification.md`). Green checks do not see a blank or misaligned frame.
 - A change to `src/domain/` or `src/i18n/` includes a test; the per-file coverage threshold in `vite.config.ts` enforces it.
 - A change to intended behaviour updates its spec under `docs/product-specs/` in the same commit; a new capability gets its spec before its code.
+- Opening content ships after the review in `docs/product-specs/opening-explorer.md` (The database): an agent that did not write it checks every historical claim against its source and every rating against the sources and its sibling moves; the procedure and the findings are in `docs/exec-plans/active/0002-opening-explorer.md`. The maintainer does not read every text.
 - A change to the look (a token, a base style, a visual rule) updates `docs/design-docs/design-system.md` in the same commit, as a dated amendment.
 - A structural change (a layer added or moved, a new allowed dependency) updates `docs/ARCHITECTURE.md`, `eslint.config.js` and `vite.config.ts` in the same commit.
 - Work that spans sessions runs from a plan in `docs/exec-plans/active/`; its progress, decisions and verification output go there and nowhere else.

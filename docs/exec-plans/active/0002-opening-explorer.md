@@ -33,6 +33,34 @@ followed only as deep as public usage still treats it as opening theory,
 decided per line from its history and terminology. The depth decided for
 each line is logged below when the line is written.
 
+## Content review
+
+How the first move was reviewed on 2026-10-23, and how every later batch
+of content is, before it is committed:
+
+1. The author, the maintainer or an agent session, drafts the ratings and
+   texts and names a public source per position (the opening's Wikipedia
+   article is the default; a specific claim may need a second page).
+2. A separate agent reads each source page and gets, per position, the
+   URL and the list of claims as flat statements, never the author's
+   reasoning or confidence. It reports for each claim SUPPORTED,
+   CONTRADICTED with what the page says instead, or NOT ON PAGE, and adds
+   the page's own facts (names, nationalities, dates, games, tournaments,
+   books) and its assessment of the move's merit. About ten positions per
+   agent, several agents in parallel; a page that fails to load is tried
+   under its other names before the claim is dropped.
+3. The author's session corrects or drops every contradicted and
+   unsupported claim, replaces vague statements with the page's dated
+   ones, and changes a rating that disagrees with the sources' assessment
+   or with its sibling moves, saying why in the decision log. A rating
+   change the sources do not settle is a question to the maintainer, with
+   a recommendation; everything else is decided in the review.
+4. The second language follows the corrected first; both say the same
+   facts in their own notation.
+5. The findings go in the progress log below; the mechanical part (every
+   legal move covered, ratings 4 and 5 only followed, every background
+   sourced, English complete) is `src/content/openings.test.ts`.
+
 ## Decomposition
 
 - [x] Verify the maintainer's German proposal for the first move against
@@ -65,6 +93,10 @@ each line is logged below when the line is written.
   founder, and the Réti Opening proper is 1.Nf3 d5 2.c4; English Wikipedia
   names 1.h4 after Marcel Desprez, Kádas is the name chess sites use.
   Dates and games added where the sources gave them.
+- 2026-10-23: The maintainer, reading `firstMoves.de.ts`, decided that
+  reviewing every text by hand will not scale. The review promise in the
+  spec is now the agentic review (Content review, above; decision log);
+  AGENTS.md names it under the definition of done.
 - 2026-10-23: Format and ratings decided (decision log). `positionKey`
   exported, `src/content/book.ts` and the `firstMoves` module written with
   the English and the corrected German, `src/content/book.test.ts` (loader
@@ -75,6 +107,15 @@ each line is logged below when the line is written.
   rendered changed).
 
 ## Decision log
+
+- 2026-10-23: **Review by an agent that did not write the text, not by
+  the maintainer.** The spec had promised that the maintainer reads and
+  approves every rating and text; after the first move he judged that
+  reading every text by hand will not scale to the book that follows.
+  The first move's review (Content review, above) is the model. Why the
+  reviewer gets claims and sources only: an agent handed the author's
+  reasoning tends to confirm it. Cost: a wrong text the source does not
+  contradict can ship; the maintainer reads what he chooses to.
 
 - 2026-10-23: **Flat list of positions, each named by its canonical line**
   in English notation, prose keyed by the same lines, over a nested tree
