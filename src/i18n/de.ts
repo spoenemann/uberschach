@@ -19,7 +19,7 @@ export const de: Catalogue = {
   // The explorer: the panel
   "Next moves": "Nächste Züge",
   Best: "Bester Zug",
-  Good: "Gut",
+  Good: "Guter Zug",
   Playable: "Spielbar",
   Inaccuracy: "Ungenauigkeit",
   Mistake: "Fehler",

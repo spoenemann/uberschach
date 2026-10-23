@@ -104,7 +104,9 @@
     background-color var(--duration-hover) var(--ease-out);
 }
 
-.candidate:hover {
+/* Under the pointer, and when the pointer is on its arrow. */
+.candidate:hover,
+.candidate[data-highlighted] {
   border-color: var(--color-accent);
   background: var(--color-accent-tint);
 }

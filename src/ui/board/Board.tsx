@@ -31,6 +31,8 @@ export interface BoardProps {
   readonly onSquareClick?: (square: Square) => void;
   /** A pointer on an arrow. */
   readonly onArrowClick?: (arrow: BoardArrow) => void;
+  /** The pointer entering an arrow, and leaving it (undefined). */
+  readonly onArrowHover?: (arrow: BoardArrow | undefined) => void;
 }
 
 /**
@@ -47,6 +49,7 @@ export function Board({
   arrows = [],
   onSquareClick,
   onArrowClick,
+  onArrowHover,
 }: BoardProps) {
   const t = useT();
   const files = orientation === "white" ? FILES : [...FILES].reverse();
@@ -96,8 +99,11 @@ export function Board({
                 className={styles.arrow}
                 data-arrow={`${arrow.from}${arrow.to}`}
                 data-strength={arrow.strength}
+                data-highlighted={arrow.highlighted ? "" : undefined}
                 d={arrowPath(arrow, orientation)}
                 onClick={() => onArrowClick?.(arrow)}
+                onPointerEnter={() => onArrowHover?.(arrow)}
+                onPointerLeave={() => onArrowHover?.(undefined)}
               />
             ))}
           </svg>

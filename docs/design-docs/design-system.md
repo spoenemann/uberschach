@@ -264,3 +264,17 @@ looks with classic chess vibes: wood, tangible, kept simple.
   Shown as a dot and the word in that colour at `--text-sm`, never a fill,
   so the word is always there. *Icons*: the chevrons are the first use of
   the two icons the rule allows.
+- 2026-10-23: the candidate under the pointer, on the board and in the
+  list (Board, Layout). An arrow and its row in the candidate list take
+  their hover look together: the pointer on either lights both. The row
+  keeps the look it had, the accent border on `--color-accent-tint`. The
+  arrow turns opaque in `--color-accent-strong` and gains a light rim,
+  `--board-arrow-rim` (white at 0.9), at 4% of the square as the piece
+  outlines are, painted under the fill so the arrow keeps its width:
+  opacity alone, 0.85 to 1, did not tell the lit arrow from its siblings
+  on the walnut (the maintainer, on the screen). Rejected on screenshots:
+  dimming the other arrows while one is lit (the whole board changes
+  under a pointer that only crossed the list) and a brighter green (a
+  luminous colour the palette has nowhere else). The highlight is a
+  `data-highlighted` attribute beside `:hover`, set from the one candidate
+  the explorer holds as under the pointer. Token added: `--board-arrow-rim`.

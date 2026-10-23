@@ -6,7 +6,7 @@ import type { Color, Square } from "../../domain/position.ts";
 import { OPENINGS } from "../../content/openings.ts";
 import { Board, type BoardArrow } from "../board/Board.tsx";
 import styles from "./Explorer.module.css";
-import { viewAt, type ExplorerView } from "./view.ts";
+import { sameMove, viewAt, type ExplorerView } from "./view.ts";
 import { Line } from "./Line.tsx";
 import { Panel } from "./Panel.tsx";
 
@@ -31,7 +31,7 @@ export interface ExplorerProps extends ExplorerState {
  * The opening explorer: the board with the line under it on the left, the
  * panel on the right, stacked at phone width. The visitor makes every
  * move; the state lives in the address, so the component holds only the
- * selected piece.
+ * selected piece and the candidate under the pointer.
  */
 export function Explorer({ line, ply, side, onChange }: ExplorerProps) {
   // An address whose moves are not all legal opens at the end of its legal prefix.
@@ -39,7 +39,10 @@ export function Explorer({ line, ply, side, onChange }: ExplorerProps) {
   const total = full.moves.length;
   const at = ply === null ? total : Math.min(Math.max(ply, 0), total);
   const view = useMemo(() => viewAt(full, at, OPENINGS), [full, at]);
-  const { selected, select } = useSelection(`${line}@${at}`);
+  const [selected, select] = useDropped<Square | undefined>(`${line}@${at}`, undefined);
+  // A candidate is under the pointer as an arrow or in the list; both show it.
+  // Dropped with the selection too, since the arrows give way to it.
+  const [hovered, setHovered] = useDropped<Move | undefined>(`${line}@${at}@${selected ?? ""}`, undefined);
   const goTo = (next: number) => {
     onChange({ line: formatLine(full, "en"), ply: next === total ? null : next, side });
   };
@@ -68,8 +71,10 @@ export function Explorer({ line, ply, side, onChange }: ExplorerProps) {
           from: move.move.from,
           to: move.move.to,
           strength: move.rating === 5 ? "strong" : "light",
+          highlighted: hovered !== undefined && sameMove(hovered, move.move),
         }))
       : [];
+  const moveOf = (arrow: BoardArrow): Move => ({ from: arrow.from, to: arrow.to, ...promotionFor(position, arrow) });
   return (
     <div className={styles.explorer}>
       <div className={styles.boardColumn}>
@@ -80,7 +85,8 @@ export function Explorer({ line, ply, side, onChange }: ExplorerProps) {
           targets={targets}
           arrows={arrows}
           onSquareClick={onSquareClick}
-          onArrowClick={(arrow) => playNow({ from: arrow.from, to: arrow.to, ...promotionFor(position, arrow) })}
+          onArrowClick={(arrow) => playNow(moveOf(arrow))}
+          onArrowHover={(arrow) => setHovered(arrow === undefined ? undefined : moveOf(arrow))}
         />
         <Line
           game={full}
@@ -89,24 +95,24 @@ export function Explorer({ line, ply, side, onChange }: ExplorerProps) {
           onFlip={() => onChange({ line, ply: at === total ? null : at, side: side === "white" ? "black" : "white" })}
         />
       </div>
-      <Panel view={view} onPlay={playNow} />
+      <Panel view={view} onPlay={playNow} highlighted={hovered} onHover={setHovered} />
     </div>
   );
 }
 
 /**
- * The selected square, dropped whenever the line or the move shown changes:
- * state reset on a changed key, as React documents it, rather than an
- * effect, so no render shows a stale selection.
+ * State dropped to its initial value whenever the key changes: state reset
+ * on a changed key, as React documents it, rather than an effect, so no
+ * render shows a stale value.
  */
-function useSelection(key: string) {
-  const [selected, select] = useState<Square | undefined>(undefined);
-  const [selectedKey, setSelectedKey] = useState(key);
-  if (selectedKey !== key) {
-    setSelectedKey(key);
-    select(undefined);
+function useDropped<T>(key: string, initial: T): [T, (value: T) => void] {
+  const [value, setValue] = useState(initial);
+  const [valueKey, setValueKey] = useState(key);
+  if (valueKey !== key) {
+    setValueKey(key);
+    setValue(initial);
   }
-  return { selected, select };
+  return [value, setValue];
 }
 
 /** The left and right arrow keys step back and forward. */

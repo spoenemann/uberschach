@@ -6,12 +6,16 @@ import { textIn, type Rating } from "../../content/book.ts";
 import { localizeSan, notationLanguage } from "../../i18n/notation.ts";
 import { msg } from "../../i18n/translate.ts";
 import { useLanguage, useT } from "../language/LanguageContext.ts";
-import type { ExplorerView } from "./view.ts";
+import { sameMove, type ExplorerView } from "./view.ts";
 import styles from "./Panel.module.css";
 
 export interface PanelProps {
   readonly view: ExplorerView;
   readonly onPlay: (move: Move) => void;
+  /** The candidate drawn as under the pointer: the pointer is on its arrow. */
+  readonly highlighted?: Move;
+  /** The pointer entering a candidate, and leaving it (undefined). */
+  readonly onHover?: (move: Move | undefined) => void;
 }
 
 /**
@@ -20,7 +24,7 @@ export interface PanelProps {
  * then the candidates as the one list (docs/product-specs/opening-explorer.md,
  * After every move; Candidates).
  */
-export function Panel({ view, onPlay }: PanelProps) {
+export function Panel({ view, onPlay, highlighted, onHover }: PanelProps) {
   const t = useT();
   const { language } = useLanguage();
   const notation = notationLanguage(language);
@@ -48,7 +52,14 @@ export function Panel({ view, onPlay }: PanelProps) {
           <ul className={styles.candidates} aria-labelledby={labelId}>
             {candidates.map(({ move, leadsTo }) => (
               <li key={move.san}>
-                <button type="button" className={styles.candidate} onClick={() => onPlay(move.move)}>
+                <button
+                  type="button"
+                  className={styles.candidate}
+                  data-highlighted={highlighted !== undefined && sameMove(highlighted, move.move) ? "" : undefined}
+                  onClick={() => onPlay(move.move)}
+                  onPointerEnter={() => onHover?.(move.move)}
+                  onPointerLeave={() => onHover?.(undefined)}
+                >
                   <span className={styles.san}>{localizeSan(move.san, language)}</span>
                   <span className={styles.leadsTo}>{leadsTo === undefined ? "" : textIn(leadsTo, language)}</span>
                   <RatingWord rating={move.rating} />

@@ -114,6 +114,35 @@ describe("the opening explorer", () => {
     expect(container).toBeDefined();
   });
 
+  test("a candidate under the pointer is highlighted as an arrow and in the list alike", () => {
+    const { container } = renderExplorer();
+    const arrow = (name: string) => container.querySelector(`[data-arrow="${name}"]`) as Element;
+    const highlighted = () => [...container.querySelectorAll("[data-highlighted]")];
+    // The pointer on an arrow lights its candidate in the list.
+    fireEvent.pointerEnter(arrow("e2e4"));
+    expect(highlighted().map((e) => e.getAttribute("data-arrow") ?? e.textContent)).toEqual([
+      "e2e4",
+      "e4King's Pawn GameBest",
+    ]);
+    fireEvent.pointerLeave(arrow("e2e4"));
+    expect(highlighted()).toHaveLength(0);
+    // The pointer on a candidate in the list lights its arrow.
+    fireEvent.pointerEnter(screen.getByRole("button", { name: /^Nf3/ }));
+    expect(arrow("g1f3").hasAttribute("data-highlighted")).toBe(true);
+    expect(arrow("e2e4").hasAttribute("data-highlighted")).toBe(false);
+    expect(highlighted()).toHaveLength(2);
+    // Selecting a piece takes the arrows away, and the highlight with them.
+    fireEvent.click(square(container, "e2"));
+    expect(highlighted()).toHaveLength(0);
+    fireEvent.click(square(container, "e2"));
+    expect(highlighted()).toHaveLength(0);
+    // Playing the candidate replaces the position, and nothing stays lit.
+    fireEvent.pointerEnter(screen.getByRole("button", { name: /^d4/ }));
+    fireEvent.click(screen.getByRole("button", { name: /^d4/ }));
+    expect(screen.getByText("1.d4")).not.toBeNull();
+    expect(highlighted()).toHaveLength(0);
+  });
+
   test("any legal move is accepted, rated when the book rates it, unrated and off the book otherwise", () => {
     const { container } = renderExplorer();
     fireEvent.click(square(container, "g2"));

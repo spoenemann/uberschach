@@ -406,6 +406,22 @@ new entries in the module writer).
   the old text under a changed English or lies outside 0.6 to 2 times the
   English length (all notes now lie between 0.92 and 1.47). `npm run
   check` green.
+- 2026-10-23: **The candidate under the pointer is lit in both places**, at
+  the maintainer's request: the pointer on an arrow lights its row in the
+  list, the pointer on a row lights its arrow. The explorer holds the
+  hovered move beside the selected square, dropped with the line, the move
+  shown and the selection; the board reports the pointer entering and
+  leaving an arrow as it reports a click, the panel the same for a row,
+  and each draws the one move highlighted with the look it has under the
+  pointer. The arrow's hover look, opacity alone, was too subtle on the
+  walnut (the maintainer, on the screen); it gained a light rim, chosen
+  over dimmed siblings and a brighter green from screenshots of all three
+  (design system, Amendments). Also at his request, the German for "Good"
+  became "Guter Zug", beside "Bester Zug". Spec (Candidates) and design
+  system (Amendments) say so. `npm run check` green; a disposable module
+  hovered the e2–e4 arrow and the Nf3 row in Chrome at both widths and
+  read the row's background and the arrow's fill on the other side; the
+  screenshots of both states looked at.
 
 ## Decision log
 
@@ -493,6 +509,15 @@ new entries in the module writer).
   every change (`history.replaceState`), so the back button leaves the
   screen; the entry page and the explorer are hash routes because Pages
   serves no SPA fallback.
+- 2026-10-23: **The candidate under the pointer is one state of the
+  explorer, not a CSS link.** The board and the panel cannot see each
+  other's `:hover`, so the explorer holds the hovered move and passes it
+  down; each component draws it with the look it already has for the
+  pointer, through an attribute beside `:hover`. Dropped with the
+  selection as well as with the position, since the arrows give way to a
+  selected piece and a stale row would stay lit. Pointer events, not mouse
+  events: a touch that scrolls away cancels and leaves nothing lit, where
+  the mouse compatibility events would never report the leave.
 - 2026-10-23: **The board is pointer input; the keyboard gets the
   candidates.** Squares are not buttons: 64 tab stops would be noise, and
   the spec names the list as the keyboard's route. The board stays an
@@ -500,7 +525,8 @@ new entries in the module writer).
   spec says, so no dialogue interrupts a move.
 - 2026-10-23: **The state is the address.** The explorer is a controlled
   component of the route; its only own state is the selected square,
-  reset whenever the line or the move shown changes. The whole line is
+  reset whenever the line or the move shown changes (and, since the
+  hover work below, the candidate under the pointer). The whole line is
   replayed from the address with `playLine` on each change (about 50 ms
   at forty plies, measured in the notation doc), memoised by the line.
   Why: a reload, a shared link and the back button all follow from one

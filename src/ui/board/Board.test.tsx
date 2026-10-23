@@ -99,6 +99,20 @@ describe("Board", () => {
     expect(onSquareClick).not.toHaveBeenCalled();
   });
 
+  test("draws a highlighted arrow as such and reports the pointer entering and leaving an arrow", () => {
+    const onArrowHover = vi.fn();
+    const arrows = [
+      { from: "e2", to: "e4", strength: "strong", highlighted: true },
+      { from: "g2", to: "g3", strength: "light" },
+    ] as const;
+    const { container } = render(<Board placement={start} arrows={arrows} onArrowHover={onArrowHover} />);
+    expect(container.querySelector('[data-arrow="e2e4"]')?.hasAttribute("data-highlighted")).toBe(true);
+    expect(container.querySelector('[data-arrow="g2g3"]')?.hasAttribute("data-highlighted")).toBe(false);
+    fireEvent.pointerEnter(container.querySelector('[data-arrow="g2g3"]') as Element);
+    fireEvent.pointerLeave(container.querySelector('[data-arrow="g2g3"]') as Element);
+    expect(onArrowHover.mock.calls).toEqual([[arrows[1]], [undefined]]);
+  });
+
   test("draws no overlay without arrows and is not interactive without a handler", () => {
     const { container } = render(<Board placement={start} />);
     expect(container.querySelector("svg[aria-hidden]")).toBeNull();

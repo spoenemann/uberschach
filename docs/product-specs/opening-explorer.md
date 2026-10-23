@@ -163,6 +163,10 @@ for and risks, and which replies matter.
   one, and its rating word. Activating one plays it. The list is how the
   candidates reach the keyboard, touch and screen readers: whatever the
   arrows show, the list shows. (`src/ui/explorer/Explorer.test.tsx`)
+- A candidate under the pointer is highlighted in both places: the pointer
+  on an arrow lights its row in the list, the pointer on a row lights its
+  arrow (the maintainer, 2026-10-23). (`src/ui/board/Board.test.tsx`,
+  `src/ui/explorer/Explorer.test.tsx`)
 - The list shows no more than that, and the panel holds one move's
   information and one list. A candidate's texts are read after it is
   played; nothing is previewed, nothing stacks.

@@ -14,6 +14,8 @@ export interface BoardArrow {
   readonly from: Square;
   readonly to: Square;
   readonly strength: ArrowStrength;
+  /** Drawn as under the pointer: the pointer is on the same candidate elsewhere. */
+  readonly highlighted?: boolean;
 }
 
 interface ArrowGeometry {

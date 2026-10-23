@@ -83,7 +83,8 @@ function lastMoveOf(game: Game, book: OpeningBook): LastMove | null {
   return { before, move, book: written };
 }
 
-function sameMove(a: Move, b: Move): boolean {
+/** The same move: the same squares and the same promotion. */
+export function sameMove(a: Move, b: Move): boolean {
   return a.from === b.from && a.to === b.to && a.promotion === b.promotion;
 }
 
