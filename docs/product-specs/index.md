@@ -6,6 +6,8 @@ built and changes in the same commit as the behaviour.
 
 - [product-brief.md](product-brief.md) — what uberschach is, for whom, what
   success means, what v1 leaves out.
+- [chess-rules.md](chess-rules.md) — legal moves and how a game ends, by
+  FIDE article; what the rules engine does not decide.
 
-No capability has a spec yet. The first, the opening explainer, is written
-when the maintainer specifies it (product brief, Open questions).
+The opening explainer, the first visible capability, gets its spec when the
+maintainer specifies it (product brief, Open questions).

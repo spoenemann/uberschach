@@ -1,17 +1,18 @@
 import {
-  describePosition,
+  describePlacement,
   FILES,
   RANKS,
   squareColor,
   type Color,
-  type Position,
+  type Placement,
   type Square,
 } from "../../domain/position.ts";
 import styles from "./Board.module.css";
 import { Piece } from "./Piece.tsx";
 
 export interface BoardProps {
-  readonly position: Position;
+  /** The pieces to show. */
+  readonly placement: Placement;
   /** The colour whose side is at the bottom. */
   readonly orientation?: Color;
   /** Squares drawn with the highlight: the last move, the selected square. */
@@ -24,7 +25,7 @@ export interface BoardProps {
  * width of its container.
  */
 export function Board({
-  position,
+  placement,
   orientation = "white",
   highlights = [],
 }: BoardProps) {
@@ -34,7 +35,7 @@ export function Board({
     <div
       className={styles.board}
       role="img"
-      aria-label={`Chessboard. ${describePosition(position)}`}
+      aria-label={`Chessboard. ${describePlacement(placement)}`}
       data-orientation={orientation}
     >
       <div className={styles.ranks}>
@@ -46,7 +47,7 @@ export function Board({
         {ranks.map((rank) =>
           files.map((file) => {
             const square: Square = `${file}${rank}`;
-            const piece = position.get(square);
+            const piece = placement.get(square);
             return (
               <div
                 key={square}

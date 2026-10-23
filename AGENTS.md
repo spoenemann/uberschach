@@ -25,7 +25,7 @@ npm run dev                          # http://localhost:5173/uberschach/ (the ba
 
 ## Why and where
 
-- `src/domain/` — chess and training logic in pure TypeScript; tests run in plain Node.
+- `src/domain/` — chess and training logic in pure TypeScript; tests run in plain Node. The rules engine (FEN, legal moves, game end) is built as `docs/design-docs/chess-rules-engine.md` describes and promises what `docs/product-specs/chess-rules.md` lists; a rule change updates both and the test named after the article.
 - `src/content/` — opening content as typed data files.
 - `src/ui/` — React components.
 - `src/ui/board/` — the board and the pieces; the piece drawings are path

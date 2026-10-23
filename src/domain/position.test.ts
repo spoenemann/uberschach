@@ -1,14 +1,19 @@
 import { describe, expect, test } from "vitest";
+import { STARTING_FEN } from "./fen.ts";
 import {
-  describePosition,
-  parseFen,
+  describePlacement,
+  fileIndex,
+  opponent,
+  parsePlacement,
+  rankIndex,
+  shift,
+  squareAt,
   squareColor,
-  STARTING_FEN,
 } from "./position.ts";
 
-describe("parseFen", () => {
+describe("parsePlacement", () => {
   test("reads the starting position", () => {
-    const position = parseFen(STARTING_FEN);
+    const position = parsePlacement(STARTING_FEN);
     expect(position.size).toBe(32);
     expect(position.get("e1")).toEqual({ color: "white", type: "king" });
     expect(position.get("d8")).toEqual({ color: "black", type: "queen" });
@@ -19,7 +24,7 @@ describe("parseFen", () => {
   });
 
   test("reads a placement without the other FEN fields", () => {
-    const position = parseFen("8/8/8/4k3/8/8/8/4K3");
+    const position = parsePlacement("8/8/8/4k3/8/8/8/4K3");
     expect([...position]).toEqual([
       ["e5", { color: "black", type: "king" }],
       ["e1", { color: "white", type: "king" }],
@@ -27,7 +32,7 @@ describe("parseFen", () => {
   });
 
   test("skips empty squares inside a rank", () => {
-    const position = parseFen("r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3");
+    const position = parsePlacement("r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3");
     expect(position.get("b5")).toEqual({ color: "white", type: "bishop" });
     expect(position.get("c6")).toEqual({ color: "black", type: "knight" });
     expect(position.get("f1")).toBeUndefined();
@@ -35,17 +40,17 @@ describe("parseFen", () => {
   });
 
   test("rejects a placement with the wrong number of ranks", () => {
-    expect(() => parseFen("8/8/8")).toThrow(/8 ranks, found 3/);
+    expect(() => parsePlacement("8/8/8")).toThrow(/8 ranks, found 3/);
   });
 
   test("rejects an unknown piece letter", () => {
-    expect(() => parseFen("8/8/8/8/8/8/8/4X3")).toThrow(/at "X"/);
+    expect(() => parsePlacement("8/8/8/8/8/8/8/4X3")).toThrow(/at "X"/);
   });
 
   test("rejects a rank that is too long or too short", () => {
-    expect(() => parseFen("9/8/8/8/8/8/8/8")).toThrow(/at "9"/);
-    expect(() => parseFen("8/8/8/8/8/8/8/44K")).toThrow(/at "K"/);
-    expect(() => parseFen("8/8/8/8/8/8/8/7")).toThrow(/covers 7 squares/);
+    expect(() => parsePlacement("9/8/8/8/8/8/8/8")).toThrow(/at "9"/);
+    expect(() => parsePlacement("8/8/8/8/8/8/8/44K")).toThrow(/at "K"/);
+    expect(() => parsePlacement("8/8/8/8/8/8/8/7")).toThrow(/covers 7 squares/);
   });
 });
 
@@ -61,17 +66,45 @@ describe("squareColor", () => {
   });
 });
 
-describe("describePosition", () => {
+describe("describePlacement", () => {
   test("lists each side by type from king to pawn, then by square", () => {
-    const position = parseFen("4k3/8/8/8/8/8/P7/R3K1N1");
-    expect(describePosition(position)).toBe(
+    const position = parsePlacement("4k3/8/8/8/8/8/P7/R3K1N1");
+    expect(describePlacement(position)).toBe(
       "White: king e1, rook a1, knight g1, pawn a2. Black: king e8.",
     );
   });
 
   test("says when a side has no pieces", () => {
-    expect(describePosition(parseFen("8/8/8/8/8/8/8/8"))).toBe(
+    expect(describePlacement(parsePlacement("8/8/8/8/8/8/8/8"))).toBe(
       "White: none. Black: none.",
     );
+  });
+});
+
+describe("square geometry", () => {
+  test("indexes files and ranks from zero", () => {
+    expect(fileIndex("a1")).toBe(0);
+    expect(fileIndex("h8")).toBe(7);
+    expect(rankIndex("a1")).toBe(0);
+    expect(rankIndex("e4")).toBe(3);
+  });
+
+  test("names a square by indices and rejects squares off the board", () => {
+    expect(squareAt(4, 3)).toBe("e4");
+    expect(squareAt(-1, 3)).toBeUndefined();
+    expect(squareAt(8, 0)).toBeUndefined();
+    expect(squareAt(0, 8)).toBeUndefined();
+  });
+
+  test("shifts a square and stops at the edge", () => {
+    expect(shift("e4", 1, 1)).toBe("f5");
+    expect(shift("e4", -4, 0)).toBe("a4");
+    expect(shift("a1", -1, 0)).toBeUndefined();
+    expect(shift("h8", 0, 1)).toBeUndefined();
+  });
+
+  test("opponent swaps the colours", () => {
+    expect(opponent("white")).toBe("black");
+    expect(opponent("black")).toBe("white");
   });
 });
