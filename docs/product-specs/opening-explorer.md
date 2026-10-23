@@ -42,9 +42,10 @@ for and risks, and which replies matter.
 - While a piece is selected, its legal target squares are marked.
   Selecting another own piece moves the selection; selecting the same
   piece or an unmarked square clears it.
-- What is legal is decided by the rules engine (`chess-rules.md`). A
-  target the piece cannot legally reach does nothing. Any legal move can
-  be made, whether the database rates it well, badly or not at all.
+- What is legal is decided by the rules engine
+  (`docs/design-docs/chess-rules-engine.md`). A target the piece cannot
+  legally reach does nothing. Any legal move can be made, whether the
+  database rates it well, badly or not at all.
 - The board highlights the from and to squares of the last move.
 - When the rules end the game (checkmate, stalemate, a dead position, the
   fifth repetition, seventy-five moves), the panel says so in words and no
@@ -153,8 +154,8 @@ for and risks, and which replies matter.
   after.
 - No drag and drop: select the piece, then the square.
 - No under-promotion: a pawn reaching the last rank becomes a queen.
-- Not a game: no result is recorded and no draw claim (9.2, 9.3 in
-  `chess-rules.md`) is offered. The explorer stops only where the rules
+- Not a game: no result is recorded and no draw claim (FIDE 9.2, 9.3;
+  `docs/design-docs/chess-rules-engine.md`) is offered. The explorer stops only where the rules
   allow no move.
 - No training: no question asked, no score, no progress. Nothing is
   stored in the browser.
@@ -166,8 +167,8 @@ for and risks, and which replies matter.
 ## Pointers
 
 - `product-brief.md` — the entry page the explorer is reached from.
-- `chess-rules.md` — legality, how a game ends, when positions are the
-  same.
+- `docs/design-docs/chess-rules-engine.md` — legality, how a game ends,
+  when positions are the same.
 - `docs/localization.md` — the languages promised, translated text and
   the layout of per-language content.
 - `docs/design-docs/design-system.md` — board highlights, legal-move

@@ -25,7 +25,7 @@ npm run dev                          # http://localhost:5173/uberschach/ (the ba
 
 ## Why and where
 
-- `src/domain/` — chess and training logic in pure TypeScript; tests run in plain Node. The rules engine (FEN, legal moves, game end) is built as `docs/design-docs/chess-rules-engine.md` describes and promises what `docs/product-specs/chess-rules.md` lists; a rule change updates both and the test named after the article.
+- `src/domain/` — chess and training logic in pure TypeScript; tests run in plain Node. The rules engine (FEN, legal moves, game end): `docs/design-docs/chess-rules-engine.md` holds its scope, its build and the test file per FIDE article; a rule change updates that doc and that test.
 - `src/i18n/` — the languages, the German catalogue (`de.ts`) and localized notation, pure TypeScript. Text a visitor sees or hears is `t("English text")` in the code, never a literal in JSX; its German line goes in `de.ts` in the same commit, and a test fails `npm run check` otherwise (`docs/localization.md`).
 - `src/content/` — opening content as typed data files; prose once per language (`docs/localization.md`, Opening content).
 - `src/ui/` — React components.
