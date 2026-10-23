@@ -36,30 +36,6 @@ export const b3: OpeningModule = {
         { san: "g5", rating: 1 },
       ],
     },
-    {
-      line: "1.b3 e5",
-      sources: [
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._b3",
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._b3/1...e5",
-        "https://chessiverse.com/resources/openings/nimzowitsch-larsen-attack",
-      ],
-    },
-    {
-      line: "1.b3 d5",
-      sources: [
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._b3",
-        `${WIKIPEDIA}Nimzowitsch%E2%80%93Larsen_Attack`,
-        "https://chessiverse.com/resources/openings/nimzowitsch-larsen-attack",
-      ],
-    },
-    {
-      line: "1.b3 Nf6",
-      sources: [
-        "https://chessiverse.com/resources/openings/nimzowitsch-larsen-attack",
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._b3",
-      ],
-    },
-    { line: "1.b3 c5" },
     { line: "1.b3 b6" },
     { line: "1.b3 e6" },
     { line: "1.b3 c6" },

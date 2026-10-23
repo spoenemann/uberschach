@@ -22,7 +22,7 @@ import { OPENINGS } from "./openings.ts";
  * rated 4 or 5 into a position at or before it is followed; positions beyond it
  * end the book.
  */
-const LAST_FOLLOWED_PLY = 1;
+const LAST_FOLLOWED_PLY = 2;
 
 /** A move in English piece letters (Nf3, Qxd5, the 2.Nf3 of a line), which a German text must not contain. */
 const ENGLISH_PIECE_MOVE = /(^|[\s(.])[NBRQ][a-h1-8]?x?[a-h][1-8](?![a-z0-9])/;

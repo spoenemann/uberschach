@@ -4,13 +4,6 @@ import type { OpeningTexts } from "../book.ts";
 // and the strategic meaning of its last move.
 export const en: OpeningTexts = {
   "1.c4 e5": {
-    name: "English Opening: King's English Variation",
-    background:
-      "Also called the Reversed Sicilian, because it is a Sicilian Defence with the colours " +
-      "reversed; Kasparov and Keene's Batsford Chess Openings (1982) calls it the King's " +
-      "English. In Modern Chess Openings (14th edition, 1999), Bruce Leverett wrote that it " +
-      "is natural to treat the English as a Sicilian reversed, but that the results are often " +
-      "surprising.",
     strategy:
       "Occupies the centre at once and controls d4 and f4, so White's d4 needs preparation. " +
       "Black usually develops with ...Nf6 and ...Nc6, adds ...Bb4 or ...g6 and ...Bg7, and " +
@@ -19,10 +12,6 @@ export const en: OpeningTexts = {
   },
 
   "1.c4 Nf6": {
-    name: "English Opening: Anglo-Indian Defence",
-    background:
-      "The most common reply to 1.c4; the Encyclopaedia of Chess Openings classifies its " +
-      "independent lines as A15 to A19.",
     strategy:
       "Develops a piece and controls d5 and e4 without committing a pawn, so Black can wait " +
       "for White's set-up. After d4 the game usually becomes an Indian Defence or a Queen's " +
@@ -32,11 +21,6 @@ export const en: OpeningTexts = {
   },
 
   "1.c4 c5": {
-    name: "English Opening: Symmetrical Variation",
-    background:
-      "So named because both players have advanced the c-pawn two squares. Alongside the " +
-      "Reversed Sicilian (1...e5) it is one of the broad categories of defence to the English " +
-      "Opening; ECO classes it as A30 to A39.",
     strategy:
       "Contests d4 just as White's pawn contests d5, so the structure stays balanced and " +
       "White's extra tempo is the main asset. Black chooses later between the Hedgehog with " +
@@ -46,7 +30,6 @@ export const en: OpeningTexts = {
   },
 
   "1.c4 e6": {
-    name: "English Opening: Agincourt Defence",
     strategy:
       "Prepares ...d5 with pawn support, so that cxd5 can be met by ...exd5 with a firm " +
       "centre, and keeps ...Nf6 and ...Bb4 in reserve. White usually replies 2.Nc3 or 2.Nf3, " +
@@ -56,7 +39,6 @@ export const en: OpeningTexts = {
   },
 
   "1.c4 c6": {
-    name: "English Opening: Caro-Kann Defensive System",
     strategy:
       "Prepares ...d5 with a solid pawn chain while keeping the c8-bishop free to develop " +
       "before ...e6. White decides the character of the game: 2.d4 d5 leads to a Slav " +
@@ -66,7 +48,6 @@ export const en: OpeningTexts = {
   },
 
   "1.c4 g6": {
-    name: "English Opening: Great Snake Variation",
     strategy:
       "Prepares ...Bg7 on the long diagonal and postpones every central decision. With ...Nf6 " +
       "it can lead to a King's Indian (...d6) or a Grünfeld (...d5), without it to a Modern " +

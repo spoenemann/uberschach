@@ -4,14 +4,6 @@ import type { OpeningTexts } from "../book.ts";
 // and the strategic meaning of its last move, written in German notation (Sf3, Lg2).
 export const de: OpeningTexts = {
   "1.d4 Nf6": {
-    name: "Indische Verteidigung",
-    background:
-      "Der Begriff „Indische Verteidigung“ ist erstmals 1884 belegt, bezogen auf die " +
-      "Eröffnungen, die der indische Spieler Moheschunder Bannerjee gegen John Cochrane " +
-      "spielte, und Savielly Tartakower machte ihn Anfang der 1920er-Jahre populär. Die " +
-      "hypermoderne Schule setzte sich in den 1920er-Jahren für diese Verteidigungen ein, " +
-      "voll anerkannt wurden sie aber erst, als russische Spieler Ende der 1940er-Jahre " +
-      "zeigten, dass sie für Schwarz korrekt sind.",
     strategy:
       "Entwickelt eine Figur, ohne einen Zentralbauern festzulegen, und kontrolliert e4, " +
       "sodass 2.e4 einen Bauern kosten würde. Je nach den nächsten weißen Zügen kann Schwarz " +
@@ -23,11 +15,6 @@ export const de: OpeningTexts = {
   },
 
   "1.d4 d5": {
-    name: "Geschlossenes Spiel",
-    background:
-      "1.d4 d5 war Anfang des 20. Jahrhunderts weit verbreitet, als Weißspieler häufiger " +
-      "andere erste Züge als 1.e4 versuchten. 1...d5 ist bis heute die zweithäufigste Antwort " +
-      "auf 1.d4, nach 1...Sf6.",
     strategy:
       "Besetzt das Zentrum und verhindert e4, das Weiß nun nur noch als Gambit spielen kann. " +
       "Meist greift Weiß d5 mit 2.c4 an oder wählt einen ruhigeren Aufbau mit Sf3, Lf4 oder " +
@@ -38,12 +25,6 @@ export const de: OpeningTexts = {
   },
 
   "1.d4 e6": {
-    name: "Franco-Indische Verteidigung",
-    background:
-      "Der Name spiegelt wider, dass 1...e6 in die Französische Verteidigung oder in eine der " +
-      "Indischen Verteidigungen übergehen kann. Eric Schiller schlug den Namen " +
-      "Horwitz-Verteidigung vor, nach Bernhard Horwitz, der sie zwischen 1849 und 1852 gegen " +
-      "Daniel Harrwitz spielte.",
     strategy:
       "Öffnet die Diagonale des schwarzfeldrigen Läufers und hält mehrere Systeme offen: Nach " +
       "2.c4 kann Schwarz mit ...d5 ein Abgelehntes Damengambit, mit ...Sf6 eine " +
@@ -55,12 +36,6 @@ export const de: OpeningTexts = {
   },
 
   "1.d4 f5": {
-    name: "Holländische Verteidigung",
-    background:
-      "Elias Stein, ein Elsässer, der sich in Den Haag niedergelassen hatte, empfahl sie in " +
-      "seinem 1789 erschienenen Buch „Nouvel essai sur le Jeu des échecs“ als beste Antwort " +
-      "auf 1.d4. Im Weltmeisterschaftskampf 1951 spielten sie sowohl Michail Botwinnik als " +
-      "auch sein Herausforderer David Bronstein.",
     strategy:
       "Erhebt Anspruch auf e4 und strebt unausgeglichenes Spiel mit Chancen am Königsflügel " +
       "an. Schwarz wählt zwischen dem Stonewall mit ...e6 und ...d5, dem Leningrader System " +

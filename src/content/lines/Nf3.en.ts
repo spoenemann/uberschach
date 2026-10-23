@@ -13,9 +13,6 @@ export const en: OpeningTexts = {
   },
 
   "1.Nf3 d5": {
-    background:
-      "The usual reply in the 1920s, when Richard Réti began many of his games with 1.Nf3; " +
-      "against it he played 2.c4, the move order now named after him.",
     strategy:
       "Claims the centre at once and turns 2.e4 into a gambit, since ...dxe4 takes the pawn. " +
       "White usually answers with 2.d4, 2.g3 or 2.c4, and Black builds with ...Nf6, ...e6 and " +
@@ -25,7 +22,6 @@ export const en: OpeningTexts = {
   },
 
   "1.Nf3 c5": {
-    name: "Zukertort Opening: Sicilian Invitation",
     strategy:
       "Fights for d4 at once: after 2.d4 cxd4 3.Nxd4 Black has traded a flank pawn for a " +
       "centre pawn. The move keeps two main roads open, 2.c4 into a symmetrical English and " +
@@ -34,7 +30,6 @@ export const en: OpeningTexts = {
   },
 
   "1.Nf3 e6": {
-    name: "Zukertort Opening: Queen's Gambit Invitation",
     strategy:
       "Opens the f8-bishop and prepares ...d5 while keeping the king's knight and the c-pawn " +
       "uncommitted. Black can follow with ...d5 and ...Nf6 for Queen's Gambit Declined " +
@@ -44,7 +39,6 @@ export const en: OpeningTexts = {
   },
 
   "1.Nf3 g6": {
-    name: "Zukertort Opening: Kingside Fianchetto",
     strategy:
       "Prepares ...Bg7 and leaves the centre for later, aiming at King's Indian or Modern " +
       "Defence structures after 2.d4 Bg7 or 2.e4 Bg7 3.d4. The fianchettoed bishop presses on " +
@@ -53,11 +47,6 @@ export const en: OpeningTexts = {
   },
 
   "1.Nf3 f5": {
-    name: "Zukertort Opening: Dutch Variation",
-    background:
-      "1...f5 is the move of the Dutch Defence (1.d4 f5), which Elias Stein, an Alsatian who " +
-      "settled in The Hague, recommended as the best reply to 1.d4 in his 1789 book Nouvel " +
-      "essai sur le Jeu des échecs.",
     strategy:
       "Takes control of e4 and aims for the setups Black uses against 1.d4 f5, with ...Nf6 " +
       "followed by ...e6 or ...g6. White can steer into them with 2.d4 or 2.g3, or reply with " +

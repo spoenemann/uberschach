@@ -4,9 +4,6 @@ import type { OpeningTexts } from "../book.ts";
 // and the strategic meaning of its last move.
 export const en: OpeningTexts = {
   "1.b3 e5": {
-    name: "Nimzowitsch–Larsen Attack: Modern Variation",
-    background:
-      "Black's most popular and ambitious reply to 1.b3, chosen in about 45 percent of games.",
     strategy:
       "Occupies the centre at once and blocks the long diagonal. After 2.Bb2 attacks the " +
       "pawn, Black's usual answer is ...Nc6, often followed by ...d5 for a broad pawn centre; " +
@@ -16,11 +13,6 @@ export const en: OpeningTexts = {
   },
 
   "1.b3 d5": {
-    name: "Nimzowitsch–Larsen Attack: Classical Variation",
-    background:
-      "Aron Nimzowitsch more often reached this kind of position through 1.Nf3 d5 2.b3, a " +
-      "move order that rules out ...e5. After 1.b3 itself, 1...d5 is Black's second most " +
-      "common reply, in about 27 percent of games.",
     strategy:
       "Takes space in the centre and keeps White from playing e4 cheaply. After 2.Bb2 Black " +
       "can build a broad centre with ...c5 and ...Nc6, when e3, Nf3 and Bb5 lead to a " +
@@ -29,10 +21,6 @@ export const en: OpeningTexts = {
   },
 
   "1.b3 Nf6": {
-    name: "Nimzowitsch–Larsen Attack: Indian Variation",
-    background:
-      "The third most common reply to 1.b3, chosen in about 15 percent of games overall and " +
-      "in about 20 percent at the 2500 rating level.",
     strategy:
       "Develops a piece, eyes e4 and d5 and leaves the choice of central pawn open, so the " +
       "game often transposes into the structures of 1...d5 or 1...e5. After 2.Bb2 a common " +
@@ -41,7 +29,6 @@ export const en: OpeningTexts = {
   },
 
   "1.b3 c5": {
-    name: "Nimzowitsch–Larsen Attack: English Variation",
     strategy:
       "Fights for d4 from the wing and keeps the central pawns flexible. After 2.Bb2 Black " +
       "develops with ...Nc6 and ...Nf6 and can add ...d5, transposing into the 1...d5 lines " +

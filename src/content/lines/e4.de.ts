@@ -4,12 +4,6 @@ import type { OpeningTexts } from "../book.ts";
 // and the strategic meaning of its last move, written in German notation (Sf3, Lg2).
 export const de: OpeningTexts = {
   "1.e4 e5": {
-    name: "Offenes Spiel",
-    background:
-      "Zu den Offenen Spielen, die mit 1.e4 e5 beginnen, gehören viele der ältesten und am " +
-      "gründlichsten analysierten Eröffnungen. 1...e5 war jahrhundertelang die übliche " +
-      "Antwort auf 1.e4, bis Mitte des 20. Jahrhunderts die Sizilianische Verteidigung bei " +
-      "Turnierspielern etwas beliebter wurde.",
     strategy:
       "Besetzt das Zentrum mit einem Bauern und öffnet Dame und Königsläufer die Linien, " +
       "spiegelbildlich zum Zug von Weiß. Schwarz strebt schnelle Entwicklung mit ...Sc6 und " +
@@ -19,14 +13,6 @@ export const de: OpeningTexts = {
   },
 
   "1.e4 c5": {
-    name: "Sizilianische Verteidigung",
-    background:
-      "Giulio Cesare Polerio analysierte sie 1594 in einem Manuskript. 1813 legte Jacob Henry " +
-      "Sarratt den englischen Namen fest, nach einer alten italienischen Handschrift, die von " +
-      "„il gioco siciliano“ sprach, dem sizilianischen Spiel. In den 1940er- und " +
-      "1950er-Jahren von Botwinnik, Boleslawski, Bronstein und Najdorf wiederbelebt, wurde " +
-      "sie nach den Worten von Modern Chess Openings (1990) zur meistgespielten und am " +
-      "gründlichsten analysierten Eröffnung, im Vereinsschach wie auf Meisterebene.",
     strategy:
       "Kämpft von der Flanke aus um d4, statt den Zug von Weiß zu spiegeln. Nach Sf3 und d4 " +
       "tauscht Schwarz den c-Bauern gegen den weißen d-Bauern und erhält so eine " +
@@ -36,12 +22,6 @@ export const de: OpeningTexts = {
   },
 
   "1.e4 e6": {
-    name: "Französische Verteidigung",
-    background:
-      "Benannt nach einem Fernwettkampf zwischen London und Paris im Jahr 1834, in dem die " +
-      "Pariser Seite sie auf Betreiben von Jacques Chamouillet wählte. Wilhelm Steinitz " +
-      "nannte sie „die langweiligste aller Eröffnungen“, doch seit mehreren Jahrzehnten ist " +
-      "sie nach 1...c5 und 1...e5 die dritthäufigste Antwort auf 1.e4.",
     strategy:
       "Bereitet ...d5 mit Unterstützung des e-Bauern vor und nimmt eine etwas beengte " +
       "Stellung für eine widerstandsfähige Struktur in Kauf. Nach 2.d4 d5 greift Schwarz das " +
@@ -52,11 +32,6 @@ export const de: OpeningTexts = {
   },
 
   "1.e4 c6": {
-    name: "Caro-Kann-Verteidigung",
-    background:
-      "Benannt nach dem Engländer Horatio Caro und dem Österreicher Marcus Kann, die sie 1886 " +
-      "analysierten. Kann hatte damit im Mai 1885 beim Deutschen Schachkongress in Hamburg " +
-      "Jacques Mieses in 24 Zügen besiegt.",
     strategy:
       "Bereitet ...d5 vor und lässt dem Läufer c8 den Weg nach f5 oder g4 frei, bevor ...e6 " +
       "folgt, sodass Schwarz eine gesunde Bauernstruktur ohne passiven weißfeldrigen Läufer " +
@@ -67,13 +42,6 @@ export const de: OpeningTexts = {
   },
 
   "1.e4 d5": {
-    name: "Skandinavische Verteidigung",
-    background:
-      "Wohl die älteste überlieferte Eröffnung: Sie erscheint im katalanischen Gedicht Scachs " +
-      "d'amor (um 1475) und in Lucenas Buch von 1497. Bent Larsens Sieg gegen Karpow in " +
-      "Montreal 1979 verschaffte ihr neue Beliebtheit; 1995 spielte Anand sie in New York im " +
-      "PCA-Weltmeisterschaftskampf gegen Kasparow, ihr erster Auftritt in einem WM-Kampf, und " +
-      "2014 besiegte Carlsen damit Caruana bei der Olympiade in Tromsø.",
     strategy:
       "Greift e4 sofort an und tauscht nach 2.exd5 den schwarzen d-Bauern gegen den weißen " +
       "e-Bauern. Das Zurückschlagen mit der Dame kostet nach 3.Sc3 Zeit, während 2...Sf6 den " +
@@ -83,13 +51,6 @@ export const de: OpeningTexts = {
   },
 
   "1.e4 d6": {
-    name: "Pirc-Ufimzew-Verteidigung",
-    background:
-      "Benannt nach dem slowenischen Großmeister Vasja Pirc, der sie ab den späten " +
-      "1940er-Jahren oft spielte; in Russland heißt sie oft Ufimzew-Verteidigung, nach " +
-      "Anatoli Ufimzew. Ihr Debüt in einem WM-Kampf gab sie in der 17. Partie des Wettkampfs " +
-      "von 1972 in Reykjavík, als Bobby Fischer sie gegen Boris Spasski spielte und " +
-      "remisierte.",
     strategy:
       "Bereitet ...Sf6 und ...g6 vor und lädt Weiß ein, mit d4 und Sc3 ein breites Zentrum " +
       "aufzubauen, das Schwarz dann mit ...c5 oder ...e5 und dem fianchettierten Königsläufer " +
@@ -98,12 +59,6 @@ export const de: OpeningTexts = {
   },
 
   "1.e4 Nf6": {
-    name: "Aljechin-Verteidigung",
-    background:
-      "Von Alexander Aljechin beim Turnier in Budapest 1921 in Partien gegen Endre Steiner " +
-      "und Fritz Sämisch eingeführt. Die Herausgeber von Modern Chess Openings nannten sie " +
-      "1925 eine „bizarre Verteidigung“, und Bobby Fischer setzte sie im WM-Kampf 1972 " +
-      "zweimal gegen Boris Spasski ein.",
     strategy:
       "Greift e4 sofort an und lädt zu 2.e5 ein, in der Hoffnung, dass die vorgerückten " +
       "Bauern zu Angriffszielen werden. Nach 2...Sd5 kann Weiß den Springer mit c4 vertreiben " +
@@ -113,11 +68,6 @@ export const de: OpeningTexts = {
   },
 
   "1.e4 g6": {
-    name: "Moderne Verteidigung",
-    background:
-      "Auch Robatsch-Verteidigung genannt, nach Karl Robatsch. Sie ist eng mit der " +
-      "Pirc-Verteidigung verwandt, und die 10. Auflage von Modern Chess Openings (1965) " +
-      "fasste beide als „Pirc–Robatsch Defense“ zusammen.",
     strategy:
       "Bereitet ...Lg7 vor, um das weiße Zentrum aus der Ferne anzugreifen, und hält ...d6, " +
       "...Sf6 und ...c6 in Reserve, bis Weiß sich festlegt. Nach 2.d4 Lg7 nimmt Schwarz " +

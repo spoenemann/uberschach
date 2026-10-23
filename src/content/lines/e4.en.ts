@@ -4,12 +4,6 @@ import type { OpeningTexts } from "../book.ts";
 // and the strategic meaning of its last move.
 export const en: OpeningTexts = {
   "1.e4 e5": {
-    name: "Open Game",
-    background:
-      "The Open Games, which begin 1.e4 e5, include many of the oldest and most deeply " +
-      "analysed openings in chess. 1...e5 was the usual answer to 1.e4 for centuries, until " +
-      "the Sicilian Defence became slightly more popular among tournament players in the " +
-      "mid-twentieth century.",
     strategy:
       "Claims the centre with a pawn and opens lines for the queen and the king's bishop, " +
       "mirroring White's move. Black aims for quick development with ...Nc6 and ...Nf6 and " +
@@ -18,13 +12,6 @@ export const en: OpeningTexts = {
   },
 
   "1.e4 c5": {
-    name: "Sicilian Defence",
-    background:
-      "Giulio Cesare Polerio analysed it in a manuscript of 1594. In 1813 Jacob Henry Sarratt " +
-      "standardised the English name, after an old Italian manuscript that spoke of “il gioco " +
-      "siciliano”, the Sicilian game. Revived by Botvinnik, Boleslavsky, Bronstein and " +
-      "Najdorf in the 1940s and 1950s, it became, in the words of Modern Chess Openings " +
-      "(1990), the most played and most analysed opening at both club and master level.",
     strategy:
       "Fights for d4 from the flank instead of mirroring White. After Nf3 and d4, Black " +
       "trades the c-pawn for White's d-pawn, which gives a central pawn majority and a " +
@@ -34,12 +21,6 @@ export const en: OpeningTexts = {
   },
 
   "1.e4 e6": {
-    name: "French Defence",
-    background:
-      "Named after a correspondence match between London and Paris in 1834, in which the " +
-      "Paris side, persuaded by Jacques Chamouillet, adopted it. Wilhelm Steinitz called it " +
-      "“the dullest of all openings”, yet for several decades it has been the third most " +
-      "popular reply to 1.e4, after 1...c5 and 1...e5.",
     strategy:
       "Prepares ...d5 with the e-pawn's support and accepts a slightly cramped position in " +
       "return for a resilient structure. After 2.d4 d5 Black strikes at White's centre with " +
@@ -49,11 +30,6 @@ export const en: OpeningTexts = {
   },
 
   "1.e4 c6": {
-    name: "Caro–Kann Defence",
-    background:
-      "Named after the English player Horatio Caro and the Austrian Marcus Kann, who analysed " +
-      "it in 1886. Kann had beaten Jacques Mieses with it in 24 moves at the German Chess " +
-      "Congress in Hamburg in May 1885.",
     strategy:
       "Prepares ...d5 while keeping the c8-bishop free to come out to f5 or g4 before ...e6, " +
       "so Black gets a sound pawn structure without a passive light-squared bishop. The price " +
@@ -63,14 +39,6 @@ export const en: OpeningTexts = {
   },
 
   "1.e4 d5": {
-    name: "Scandinavian Defence",
-    background:
-      "Arguably the oldest recorded opening: it appears in the Catalan poem Scachs d'amor " +
-      "(around 1475) and in Lucena's book of 1497. Bent Larsen's win over Karpov at Montreal " +
-      "1979 spurred a rise in its popularity; in 1995 Anand played it against Kasparov in " +
-      "their PCA World Championship match in New York, its first appearance in a world " +
-      "championship match, and in 2014 Carlsen beat Caruana with it at the Olympiad in " +
-      "Tromsø.",
     strategy:
       "Challenges e4 at once and, after 2.exd5, trades Black's d-pawn for White's e-pawn. " +
       "Recapturing with the queen loses time to 3.Nc3, while 2...Nf6 regains the pawn a move " +
@@ -79,12 +47,6 @@ export const en: OpeningTexts = {
   },
 
   "1.e4 d6": {
-    name: "Pirc Defence",
-    background:
-      "Named after the Slovenian grandmaster Vasja Pirc, who played it often from the late " +
-      "1940s; in Russia it is often called the Ufimtsev Defence, after Anatoly Ufimtsev. It " +
-      "made its World Championship debut in Game 17 of the 1972 match in Reykjavík, when " +
-      "Bobby Fischer played it against Boris Spassky and drew.",
     strategy:
       "Prepares ...Nf6 and ...g6 and invites White to build a broad centre with d4 and Nc3, " +
       "which Black then undermines with ...c5 or ...e5 and a fianchettoed king's bishop. The " +
@@ -93,12 +55,6 @@ export const en: OpeningTexts = {
   },
 
   "1.e4 Nf6": {
-    name: "Alekhine's Defence",
-    background:
-      "Introduced by Alexander Alekhine at the Budapest tournament of 1921, in games against " +
-      "Endre Steiner and Fritz Sämisch. The editors of the 1925 Modern Chess Openings called " +
-      "it a “bizarre defence”, and Bobby Fischer used it twice against Boris Spassky in the " +
-      "1972 World Championship match.",
     strategy:
       "Attacks e4 at once and invites 2.e5, hoping the advanced pawns become targets. After " +
       "2...Nd5 White can chase the knight with c4 and build a broad pawn centre with d4 and " +
@@ -108,11 +64,6 @@ export const en: OpeningTexts = {
   },
 
   "1.e4 g6": {
-    name: "Modern Defence",
-    background:
-      "Also called the Robatsch Defence, after Karl Robatsch. It is closely related to the " +
-      "Pirc, and the 10th edition of Modern Chess Openings (1965) grouped the two as the " +
-      "“Pirc–Robatsch Defense”.",
     strategy:
       "Prepares ...Bg7 to hit White's centre from a distance and keeps ...d6, ...Nf6 and " +
       "...c6 available until White commits. After 2.d4 Bg7 Black accepts less space for a " +

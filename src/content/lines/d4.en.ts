@@ -4,13 +4,6 @@ import type { OpeningTexts } from "../book.ts";
 // and the strategic meaning of its last move.
 export const en: OpeningTexts = {
   "1.d4 Nf6": {
-    name: "Indian Defence",
-    background:
-      "The earliest known use of the term “Indian Defence” dates from 1884, attributed to the " +
-      "openings played by the Indian player Moheschunder Bannerjee against John Cochrane, and " +
-      "Savielly Tartakower popularised it in the early 1920s. Championed by the hypermodern " +
-      "school in the 1920s, these defences were fully accepted only after Russian players " +
-      "showed in the late 1940s that they are sound for Black.",
     strategy:
       "Develops a piece without committing a central pawn and controls e4, so 2.e4 would give " +
       "up a pawn. Depending on White's next moves, Black can choose ...e6 with ...Bb4 or " +
@@ -21,11 +14,6 @@ export const en: OpeningTexts = {
   },
 
   "1.d4 d5": {
-    name: "Closed Game",
-    background:
-      "1.d4 d5 became widely popular by the early 20th century, as players with White began " +
-      "to try first moves other than 1.e4 more often. 1...d5 remains the second most popular " +
-      "reply to 1.d4, after 1...Nf6.",
     strategy:
       "Occupies the centre and stops e4, which White can now play only as a gambit. White " +
       "most often challenges d5 with 2.c4 or chooses a quieter setup with Nf3, Bf4 or e3. " +
@@ -35,11 +23,6 @@ export const en: OpeningTexts = {
   },
 
   "1.d4 e6": {
-    name: "Franco-Indian Defence",
-    background:
-      "The name reflects that 1...e6 may lead to the French Defence or to one of the Indian " +
-      "Defences. Eric Schiller proposed calling it the Horwitz Defence, after Bernhard " +
-      "Horwitz, who played it against Daniel Harrwitz between 1849 and 1852.",
     strategy:
       "Opens the diagonal of the dark-squared bishop and keeps several systems in reserve: " +
       "after 2.c4, Black can head for a Queen's Gambit Declined with ...d5, a Nimzo-Indian or " +
@@ -49,12 +32,6 @@ export const en: OpeningTexts = {
   },
 
   "1.d4 f5": {
-    name: "Dutch Defence",
-    background:
-      "Elias Stein, an Alsatian who settled in The Hague, recommended it as the best reply to " +
-      "1.d4 in his 1789 book Nouvel essai sur le Jeu des échecs. In the 1951 World " +
-      "Championship match both Mikhail Botvinnik and his challenger David Bronstein played " +
-      "it.",
     strategy:
       "Stakes a claim to e4 and aims for unbalanced play with kingside chances. Black chooses " +
       "between the Stonewall with ...e6 and ...d5, the Leningrad with ...g6 and ...Bg7, and " +

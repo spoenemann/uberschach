@@ -4,10 +4,6 @@ import type { OpeningTexts } from "../book.ts";
 // and the strategic meaning of its last move, written in German notation (Sf3, Lg2).
 export const de: OpeningTexts = {
   "1.b3 e5": {
-    name: "Larsen-Eröffnung: Moderne Variante",
-    background:
-      "Die meistgespielte und ehrgeizigste Antwort von Schwarz auf 1.b3; sie kommt in etwa 45 " +
-      "Prozent der Partien vor.",
     strategy:
       "Besetzt sofort das Zentrum und versperrt die lange Diagonale. Greift 2.Lb2 den Bauern " +
       "an, antwortet Schwarz meist mit ...Sc6, oft gefolgt von ...d5 für ein breites " +
@@ -17,11 +13,6 @@ export const de: OpeningTexts = {
   },
 
   "1.b3 d5": {
-    name: "Larsen-Eröffnung: Klassische Variante",
-    background:
-      "Aron Nimzowitsch erreichte diese Art von Stellung häufiger über 1.Sf3 d5 2.b3, eine " +
-      "Zugfolge, die ...e5 ausschließt. Nach 1.b3 selbst ist 1...d5 mit etwa 27 Prozent der " +
-      "Partien die zweithäufigste Antwort von Schwarz.",
     strategy:
       "Nimmt Raum im Zentrum und verhindert, dass Weiß ohne Weiteres e4 spielt. Nach 2.Lb2 " +
       "kann Schwarz mit ...c5 und ...Sc6 ein breites Zentrum errichten, worauf e3, Sf3 und " +
@@ -32,10 +23,6 @@ export const de: OpeningTexts = {
   },
 
   "1.b3 Nf6": {
-    name: "Larsen-Eröffnung: Indische Variante",
-    background:
-      "Die dritthäufigste Antwort auf 1.b3: Sie kommt in etwa 15 Prozent aller Partien vor, " +
-      "bei einer Spielstärke von 2500 in etwa 20 Prozent.",
     strategy:
       "Entwickelt eine Figur, nimmt e4 und d5 ins Visier und lässt offen, welcher " +
       "Zentrumsbauer folgt, sodass die Partie oft in die Strukturen nach 1...d5 oder 1...e5 " +
@@ -45,7 +32,6 @@ export const de: OpeningTexts = {
   },
 
   "1.b3 c5": {
-    name: "Larsen-Eröffnung: Englische Variante",
     strategy:
       "Kämpft vom Flügel aus um d4 und hält die Zentrumsbauern beweglich. Nach 2.Lb2 " +
       "entwickelt Schwarz mit ...Sc6 und ...Sf6 und kann ...d5 folgen lassen, womit die " +

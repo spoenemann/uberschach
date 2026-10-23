@@ -4,13 +4,6 @@ import type { OpeningTexts } from "../book.ts";
 // and the strategic meaning of its last move, written in German notation (Sf3, Lg2).
 export const de: OpeningTexts = {
   "1.c4 e5": {
-    name: "Sizilianisch im Anzuge",
-    background:
-      "Auch umgekehrtes Sizilianisch genannt, weil es eine Sizilianische Verteidigung mit " +
-      "vertauschten Farben ist; Kasparow und Keene nennen es in Batsford Chess Openings " +
-      "(1982) „King's English“. Bruce Leverett schrieb in Modern Chess Openings (14. Auflage, " +
-      "1999), es liege nahe, die Englische Eröffnung als umgekehrtes Sizilianisch zu " +
-      "behandeln, die Ergebnisse seien aber oft überraschend.",
     strategy:
       "Besetzt sofort das Zentrum und kontrolliert d4 und f4, sodass Weiß d4 erst vorbereiten " +
       "muss. Schwarz entwickelt meist mit ...Sf6 und ...Sc6, ergänzt ...Lb4 oder ...g6 nebst " +
@@ -19,10 +12,6 @@ export const de: OpeningTexts = {
   },
 
   "1.c4 Nf6": {
-    name: "Englische Eröffnung: Anglo-Indische Verteidigung",
-    background:
-      "Die häufigste Antwort auf 1.c4; die Encyclopaedia of Chess Openings ordnet ihre " +
-      "eigenständigen Abspiele unter A15–A19 ein.",
     strategy:
       "Entwickelt eine Figur und kontrolliert d5 und e4, ohne einen Bauern festzulegen, " +
       "sodass Schwarz den weißen Aufbau abwarten kann. Nach d4 entsteht meist eine Indische " +
@@ -32,11 +21,6 @@ export const de: OpeningTexts = {
   },
 
   "1.c4 c5": {
-    name: "Englische Symmetrievariante",
-    background:
-      "So benannt, weil beide Seiten ihren c-Bauern zwei Felder vorgezogen haben. Neben " +
-      "Sizilianisch im Anzuge (1...e5) ist sie eine der großen Gruppen von Verteidigungen " +
-      "gegen die Englische Eröffnung; im ECO trägt sie die Schlüssel A30–A39.",
     strategy:
       "Kämpft um d4, so wie der weiße Bauer um d5 kämpft, sodass die Struktur ausgeglichen " +
       "bleibt und das Mehrtempo der wichtigste Trumpf von Weiß ist. Schwarz wählt später " +
@@ -46,7 +30,6 @@ export const de: OpeningTexts = {
   },
 
   "1.c4 e6": {
-    name: "Englische Eröffnung: Agincourt-Verteidigung",
     strategy:
       "Bereitet ...d5 mit Bauernunterstützung vor, sodass Schwarz auf cxd5 mit ...exd5 ein " +
       "festes Zentrum behält, und hält ...Sf6 und ...Lb4 in Reserve. Weiß antwortet meist " +
@@ -56,7 +39,6 @@ export const de: OpeningTexts = {
   },
 
   "1.c4 c6": {
-    name: "Englische Eröffnung: Caro-Kann-Verteidigungssystem",
     strategy:
       "Bereitet ...d5 mit einer soliden Bauernkette vor und lässt dem Läufer c8 die " +
       "Möglichkeit, sich vor ...e6 zu entwickeln. Weiß bestimmt den Charakter der Partie: " +
@@ -66,7 +48,6 @@ export const de: OpeningTexts = {
   },
 
   "1.c4 g6": {
-    name: "Englische Eröffnung: Great-Snake-Variante",
     strategy:
       "Bereitet ...Lg7 auf der langen Diagonale vor und schiebt jede Entscheidung im Zentrum " +
       "auf. Mit ...Sf6 kann eine Königsindische (...d6) oder eine Grünfeld-Verteidigung " +

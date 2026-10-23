@@ -40,18 +40,6 @@ export const nf3: OpeningModule = {
         { san: "g5", rating: 1 },
       ],
     },
-    { line: "1.Nf3 Nf6" },
-    {
-      line: "1.Nf3 d5",
-      sources: [
-        "https://de.wikipedia.org/wiki/R%C3%A9ti-Er%C3%B6ffnung",
-        `${WIKIPEDIA}R%C3%A9ti_Opening`,
-      ],
-    },
-    { line: "1.Nf3 c5" },
-    { line: "1.Nf3 e6" },
-    { line: "1.Nf3 g6" },
-    { line: "1.Nf3 f5", sources: [`${WIKIPEDIA}Dutch_Defence`] },
     { line: "1.Nf3 c6" },
     { line: "1.Nf3 d6" },
     { line: "1.Nf3 b6" },

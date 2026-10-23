@@ -4,10 +4,6 @@ import type { OpeningTexts } from "../book.ts";
 // and the strategic meaning of its last move, written in German notation (Sf3, Lg2).
 export const de: OpeningTexts = {
   "1.g3 d5": {
-    background:
-      "Die häufigste Antwort auf 1.g3: In jeder der fünf Partiedatenbanken, die die " +
-      "Eröffnungstheorie bei Wikibooks vergleicht, wird 1...d5 in rund 28 bis 37 Prozent der " +
-      "Partien gespielt.",
     strategy:
       "Besetzt sofort das Zentrum und stellt dem Läufer, den Weiß gleich nach g2 bringt, " +
       "einen Bauern in den Weg. Weiß setzt meist mit Lg2, Sf3 und O-O fort und bereitet dann " +
@@ -27,7 +23,6 @@ export const de: OpeningTexts = {
   },
 
   "1.g3 Nf6": {
-    name: "Königsfianchetto: Indische Verteidigung",
     strategy:
       "Kontrolliert e4 und d5 und lässt alle Bauern stehen, sodass Schwarz noch zwischen " +
       "...d5 mit klassischem Zentrum und ...g6 mit indischem Aufbau wählen kann. Nach 2.Lg2 " +
@@ -38,7 +33,6 @@ export const de: OpeningTexts = {
   },
 
   "1.g3 g6": {
-    name: "Königsfianchetto: Symmetrische Variante",
     strategy:
       "Spiegelt den weißen Aufbau: ...Lg7 wirkt über die lange Diagonale auf das Zentrum und " +
       "auf b2, es folgen ...Sf6, ...O-O und ...d6 oder ...d5, mit ...e5 oder ...c5 als Hebel " +
@@ -48,7 +42,6 @@ export const de: OpeningTexts = {
   },
 
   "1.g3 c5": {
-    name: "Königsfianchetto: Sizilianische Einladung",
     strategy:
       "Kontrolliert d4 vom Flügel aus und hält den d- und den e-Bauern beweglich. Weiß kann " +
       "2.Lg2 Sc6 3.c4 spielen, die Symmetrische Variante der Englischen Eröffnung, 2.Sf3 Sc6 " +

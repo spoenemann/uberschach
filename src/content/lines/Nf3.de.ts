@@ -14,9 +14,6 @@ export const de: OpeningTexts = {
   },
 
   "1.Nf3 d5": {
-    background:
-      "In den 1920er-Jahren die übliche Antwort, als Richard Réti viele seiner Partien mit " +
-      "1.Sf3 begann; er spielte dagegen 2.c4, die Zugfolge, die heute seinen Namen trägt.",
     strategy:
       "Beansprucht sofort das Zentrum und macht 2.e4 zu einem Gambit, da ...dxe4 den Bauern " +
       "nimmt. Weiß antwortet meist mit 2.d4, 2.g3 oder 2.c4, und Schwarz baut mit ...Sf6, " +
@@ -27,7 +24,6 @@ export const de: OpeningTexts = {
   },
 
   "1.Nf3 c5": {
-    name: "Zukertort-Eröffnung: Sizilianische Einladung",
     strategy:
       "Kämpft sofort um d4: Nach 2.d4 cxd4 3.Sxd4 hat Schwarz einen Flügelbauern gegen einen " +
       "Zentrumsbauern getauscht. Der Zug hält zwei Hauptwege offen, 2.c4 in die " +
@@ -37,7 +33,6 @@ export const de: OpeningTexts = {
   },
 
   "1.Nf3 e6": {
-    name: "Zukertort-Eröffnung: Damengambit-Einladung",
     strategy:
       "Öffnet den Läufer auf f8 und bereitet ...d5 vor, während Königsspringer und c-Bauer " +
       "noch nicht festgelegt sind. Schwarz kann mit ...d5 und ...Sf6 Strukturen des " +
@@ -48,7 +43,6 @@ export const de: OpeningTexts = {
   },
 
   "1.Nf3 g6": {
-    name: "Zukertort-Eröffnung: Königsfianchetto",
     strategy:
       "Bereitet ...Lg7 vor und stellt das Zentrum zurück; nach 2.d4 Lg7 oder 2.e4 Lg7 3.d4 " +
       "entstehen Strukturen der Königsindischen oder der Modernen Verteidigung. Der " +
@@ -58,11 +52,6 @@ export const de: OpeningTexts = {
   },
 
   "1.Nf3 f5": {
-    name: "Zukertort-Eröffnung: Holländische Variante",
-    background:
-      "1...f5 ist der Zug der Holländischen Verteidigung (1.d4 f5), die Elias Stein, ein " +
-      "Elsässer, der sich in Den Haag niedergelassen hatte, in seinem Buch „Nouvel essai sur " +
-      "le Jeu des échecs“ von 1789 als beste Antwort auf 1.d4 empfahl.",
     strategy:
       "Kontrolliert e4 und strebt die Aufbauten an, die Schwarz gegen 1.d4 f5 wählt, mit " +
       "...Sf6 und danach ...e6 oder ...g6. Weiß kann mit 2.d4 oder 2.g3 dorthin übergehen " +

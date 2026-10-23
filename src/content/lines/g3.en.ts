@@ -4,9 +4,6 @@ import type { OpeningTexts } from "../book.ts";
 // and the strategic meaning of its last move.
 export const en: OpeningTexts = {
   "1.g3 d5": {
-    background:
-      "The most frequent reply to 1.g3: in each of the five game databases compared in " +
-      "Wikibooks' opening theory, 1...d5 is played in roughly 28 to 37 percent of the games.",
     strategy:
       "Occupies the centre at once and puts a pawn in the path of the bishop White is about " +
       "to place on g2. White usually continues Bg2, Nf3 and O-O, then either prepares e4 with " +
@@ -25,7 +22,6 @@ export const en: OpeningTexts = {
   },
 
   "1.g3 Nf6": {
-    name: "Hungarian Opening: Indian Defence",
     strategy:
       "Controls e4 and d5 and keeps every pawn at home, so Black can still choose between " +
       "...d5 with a classical centre and ...g6 with an Indian set-up. After 2.Bg2, ...d5 " +
@@ -35,7 +31,6 @@ export const en: OpeningTexts = {
   },
 
   "1.g3 g6": {
-    name: "Hungarian Opening: Symmetrical Variation",
     strategy:
       "Mirrors White's set-up: ...Bg7 bears down the long diagonal on the centre and on b2, " +
       "followed by ...Nf6, ...O-O and ...d6 or ...d5, with ...e5 or ...c5 as the central " +
@@ -45,7 +40,6 @@ export const en: OpeningTexts = {
   },
 
   "1.g3 c5": {
-    name: "Hungarian Opening: Sicilian Invitation",
     strategy:
       "Controls d4 from the flank and keeps the d- and e-pawns flexible. White can play 2.Bg2 " +
       "Nc6 3.c4, a Symmetrical English, 2.Nf3 Nc6 3.Bg2 g6, or 2.e4, a Sicilian Defence with " +

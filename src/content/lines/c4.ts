@@ -36,30 +36,6 @@ export const c4: OpeningModule = {
         { san: "h5", rating: 2 },
       ],
     },
-    {
-      line: "1.c4 e5",
-      sources: [
-        `${WIKIPEDIA}English_Opening`,
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._c4",
-      ],
-    },
-    {
-      line: "1.c4 Nf6",
-      sources: [
-        `${WIKIPEDIA}English_Opening`,
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._c4",
-      ],
-    },
-    {
-      line: "1.c4 c5",
-      sources: [
-        `${WIKIPEDIA}English_Opening`,
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._c4",
-      ],
-    },
-    { line: "1.c4 e6" },
-    { line: "1.c4 c6" },
-    { line: "1.c4 g6" },
     { line: "1.c4 Nc6" },
     { line: "1.c4 f5" },
     {

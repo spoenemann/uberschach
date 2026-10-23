@@ -24,7 +24,8 @@
 - [x] Black's replies to the six first moves (ply 2): all legal moves rated
       and explained, in English and German, reviewed
       (`src/content/lines/`).
-- [ ] White's second move after each reply rated 4 or 5 (ply 3).
+- [x] White's second move after each reply rated 4 or 5 (ply 3): 33 positions,
+      803 moves.
 - [ ] Black's replies to those (ply 4), where the book ends.
 - [ ] Every promise in the spec names the test that keeps it.
 
@@ -80,7 +81,7 @@ of content is, before it is committed:
       amendment for rating colours and arrows.
 - [x] Entry page.
 - [x] Content, ply 2: Black's replies to 1.e4, 1.d4, 1.Nf3, 1.c4, 1.g3, 1.b3.
-- [ ] Content, ply 3: White's second move after each of the 33 replies rated 4 or 5.
+- [x] Content, ply 3: White's second move after each of the 33 replies rated 4 or 5.
 - [ ] Content, ply 4: Black's replies to those, each position rated 4 or 5 that
       White's second move reaches.
 
@@ -145,6 +146,27 @@ of content is, before it is committed:
   1.Nf3 6, 1.c4 6, 1.g3 5, 1.b3 4. `npm run check` green with the four UI
   tests that assumed the book ended after the first move reworded to stay
   true as it deepens.
+- 2026-10-23: **Ply 3 written: White's second move after the 33 replies.**
+  Level 2 of the pipeline: 33 researchers and 33 reviewers, 66 agents, 7.1
+  million tokens, 68 minutes. The reviewers made 580 corrections, dropped 81
+  claims and changed 29 ratings. The rating changes are consistency, not
+  taste: a rook-pawn move that costs a tempo and nothing else is 2 in every
+  position (four 1s became 2s), a sound slow move that gives nothing concrete
+  away is 3 (2.f4 against 1.e4 d6, 1.e4 c5 and others rose from 2 to 3), and
+  one was settled by Wikipedia's wording (1.e4 d5 2.Nf3 is "dubious", so 3
+  became 2). After the review the ratings were compared across positions, which
+  no single agent sees: the same pointless moves (a3, a4, h3, Na3, Nh3, f3)
+  are 2 in 24 to 31 of 33 positions, the exceptions each have their reason
+  in the text (a rook-pawn move that leaves e4 hanging is 1). 105 moves are
+  rated 4 or 5; transpositions (1.d4 Nf6 2.c4 and 1.c4 Nf6 2.d4, and the like)
+  leave 81 positions to follow. One defect of the tooling cost content: the
+  validator rejected English words in German text, so a reviewer left an
+  English book title out of a German background; it now ignores a „quoted
+  title“. `npm run check` green; the explorer looked at after 1.e4 e5 at
+  desktop and phone width. Found: the bundle is 892 kB (256 kB gzipped) with
+  889 positions and Vite warns about the chunk size; the book will be about
+  three times that at the planned depth, and only the explorer needs it
+  (open item: load it with the explorer, not with the entry page).
 
 ## Decision log
 
