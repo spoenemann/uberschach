@@ -121,6 +121,33 @@ describe("lazyBook", () => {
     expect(lookup(lazy.book, gameOf("1.Nf3 Nf6").position)).toBeUndefined();
   });
 
+  test("a call made while a chunk is on its way waits for it, instead of reporting the book ready", async () => {
+    // Found 2026-10-24: in development StrictMode runs the explorer's effect twice, the second
+    // call saw the root chunk as already requested and resolved at once, and the screen stayed empty.
+    let arrive: () => void = () => undefined;
+    const memory = memorySource(SERVED);
+    const lazy = lazyBook({
+      index: () => memory.index(),
+      chunk: (id) => new Promise((resolve) => {
+        arrive = () => resolve(memory.chunk(id));
+      }),
+    });
+    const first = lazy.ensure(gameOf(""));
+    const second = lazy.ensure(gameOf(""));
+    let secondDone = false;
+    void second.then(() => {
+      secondDone = true;
+    });
+    await new Promise((resolve) => setTimeout(resolve, 0));
+    expect(secondDone).toBe(false);
+    expect(lazy.book.size).toBe(0);
+    arrive();
+    await Promise.all([first, second]);
+    expect(secondDone).toBe(true);
+    expect(lazy.book.size).toBe(2);
+    expect(lazy.version).toBe(1);
+  });
+
   test("a source that fails rejects, and the next call tries again", async () => {
     let failing = true;
     const memory = memorySource(SERVED);

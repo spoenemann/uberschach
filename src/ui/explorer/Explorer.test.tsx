@@ -5,7 +5,7 @@
 // from a source, here one that answers from memory, so what the book says
 // appears a moment after the board and is awaited.
 import { cleanup, fireEvent, render, screen, waitFor, within } from "@testing-library/react";
-import { useState } from "react";
+import { StrictMode, useState } from "react";
 import { afterEach, describe, expect, test, vi } from "vitest";
 import { lazyBook, memorySource, type LazyBook } from "../../content/loader.ts";
 import { MODULES, OPENINGS } from "../../content/openings.ts";
@@ -271,6 +271,26 @@ describe("the opening explorer", () => {
     const list = screen.getByRole("list", { name: "Nächste Züge" });
     fireEvent.click(within(list).getByRole("button", { name: /^Sf3/ }));
     expect(last()).toEqual({ line: "1.Nf3", ply: null, side: "white" });
+  });
+
+  test("shows the book on the first visit under StrictMode, whose doubled effect asks for it twice", async () => {
+    // Found by the maintainer on 2026-10-24 in development: the first visit showed the bare
+    // board, the second the book. A source that answers a tick later, as a server does.
+    const memory = memorySource(SERVED);
+    const later = <T,>(value: Promise<T>) =>
+      new Promise<T>((resolve, reject) => {
+        setTimeout(() => {
+          value.then(resolve, reject).catch(reject);
+        }, 0);
+      });
+    const slow = lazyBook({ index: () => later(memory.index()), chunk: (id) => later(memory.chunk(id)) });
+    render(
+      <StrictMode>
+        <Harness initial={{ line: "", ply: null, side: "white" }} book={slow} record={() => undefined} />
+      </StrictMode>,
+    );
+    expect(await screen.findByText(/^Twenty moves are legal/)).not.toBeNull();
+    expect(within(screen.getByRole("list", { name: "Next moves" })).getAllByRole("button")).toHaveLength(6);
   });
 
   test("says when the book cannot be loaded, and the board still plays", async () => {

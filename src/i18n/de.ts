@@ -21,7 +21,7 @@ export const de: Catalogue = {
   Best: "Bester Zug",
   Good: "Guter Zug",
   Playable: "Spielbar",
-  Inaccuracy: "Ungenauigkeit",
+  Inaccuracy: "Zweifelhaft",
   Mistake: "Fehler",
   "The line has left the openings the app knows.":
     "Die Zugfolge hat die Eröffnungen verlassen, die die App kennt.",

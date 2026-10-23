@@ -458,6 +458,27 @@ write JSON).
   a transposition from outside the book and an off-book line, and the
   screenshots were looked at (its output is in the commit message).
 
+- 2026-10-24: **The first visit to the explorer showed the bare board in
+  development** (the maintainer, on the dev server: reload, open the
+  explorer, nothing but the board; home and back, the book). StrictMode runs
+  the explorer's effect twice, so two `ensure` calls overlapped; the second
+  saw the root chunk as already requested, skipped it and reported the book
+  ready while the chunk was still on its way, and nothing re-rendered when
+  it arrived. The same would have happened in production on a move made
+  while a chunk was loading. `loader.ts` now waits for every chunk the game
+  needs, pending ones included; a loader test with a chunk held back and an
+  explorer test under StrictMode with a source that answers a tick later
+  both failed before the fix and pass after it, and the maintainer's steps
+  were replayed on the dev server in headless Chrome, without the fix (first
+  visit: no introduction) and with it (shown). `npm run check` green.
+
+- 2026-10-24: **Rating 2 in German: "Zweifelhaft"**, not "Ungenauigkeit",
+  which read oddly to the maintainer. The German annotation vocabulary
+  calls a "?!" move "zweifelhaft" (a move of doubtful value), which is what
+  the rating means (gives something away, not yet a mistake), and it reads
+  as a verdict beside "Spielbar" and "Fehler" rather than as a measurement.
+  Offered beside it: "Fragwürdig" (harsher) and "Ungenau".
+
 ## Decision log
 
 - 2026-10-23: **Review by an agent that did not write the text, not by

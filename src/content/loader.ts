@@ -68,8 +68,12 @@ export function lazyBook(source: BookSource): LazyBook {
       const wanted = new Set<string>();
       for (const position of game.positions) {
         const id = keys[positionKey(position)];
-        if (id !== undefined && !chunks.has(id)) wanted.add(id);
+        if (id !== undefined) wanted.add(id);
       }
+      // Every chunk the game needs, the ones still on their way included: a
+      // call that skipped a pending chunk resolved before it had arrived, and
+      // the screen then showed nothing (found 2026-10-24 in development, where
+      // StrictMode's doubled effect makes two calls overlap).
       await Promise.all([...wanted].map(chunkOnce));
     },
   };
