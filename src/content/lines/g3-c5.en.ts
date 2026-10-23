@@ -158,4 +158,158 @@ export const en: OpeningTexts = {
   "1.g3 c5": {
     name: "Hungarian Opening: Sicilian Invitation",
   },
+
+  "1.g3 c5 2.Bg2 Nc6": {
+    strategy:
+      "Develops the knight toward the centre, adds pressure on d4 and blocks the long " +
+      "diagonal of White's bishop, so that ...b6 and ...b5 stop hanging the a8-rook. Black " +
+      "normally follows with ...g6 and ...Bg7, which after c4 and Nc3 gives a symmetrical " +
+      "English structure, or with ...e5 and ...Nf6 for a flexible central set-up. Nothing is " +
+      "conceded and every option stays open.",
+  },
+
+  "1.g3 c5 2.Bg2 Nf6": {
+    strategy:
+      "Develops the knight toward the centre, eyeing e4 and d5, and keeps ...g6, ...Nc6, " +
+      "...d5 and ...e6 all available. After 3.c4 the game is a Symmetrical English with " +
+      "White's fianchetto, and after 3.Nf3 Black chooses between ...g6 and ...d5 with " +
+      "ordinary development.",
+  },
+
+  "1.g3 c5 2.Bg2 d5": {
+    strategy:
+      "Takes the centre at once and shuts the long diagonal of White's bishop. The queen " +
+      "guards d5 and ...Nf6 or ...e6 adds support, while ...Nc6 with ...e5 builds a broad " +
+      "centre. The pawn is a target for c4 and Bg2, so Black must develop without loosening " +
+      "the centre; ...d4 is available as a space-gaining advance.",
+  },
+
+  "1.g3 c5 2.Bg2 g6": {
+    strategy:
+      "Mirrors White's set-up: ...Bg7 takes the long diagonal toward b2 and c3, and ...Nc6, " +
+      "...d6 and ...e5 or ...Nf6 follow. After c4 and Nc3 the structure is that of the " +
+      "Symmetrical English. It concedes nothing but offers little to unbalance the game, so " +
+      "Black plays for a slow strategic fight.",
+  },
+
+  "1.g3 c5 2.Bg2 d6": {
+    strategy:
+      "Opens the c8-bishop and prepares ...e5 or ...Nf6 with ...g6, a solid Sicilian-style " +
+      "set-up. It claims less of the centre than ...d5, which would now cost a second tempo, " +
+      "and leaves White free to develop with c4, Nc3 and Nf3.",
+  },
+
+  "1.g3 c5 2.Bg2 e6": {
+    strategy:
+      "Opens the f8-bishop and prepares ...d5 backed by a pawn, followed by ...Nc6 and ...Nf6 " +
+      "or ...Nge7. Once ...d5 is in, the e6-pawn shuts in the c8-bishop, and White meanwhile " +
+      "develops with c4, Nc3 and Nf3 at leisure.",
+  },
+
+  "1.g3 c5 2.Bg2 e5": {
+    strategy:
+      "Takes the centre with pawns on c5 and e5, controlling d4 and f4, and prepares ...Nc6, " +
+      "...Nf6 or ...d6. Neither pawn can cover d5 any more, so the square is a lasting hole; " +
+      "White answers with c4 and Nc3, aiming a knight at d5, or with Nf3 against the e5-pawn " +
+      "and d3 for a slower game.",
+  },
+
+  "1.g3 c5 2.Bg2 f5": {
+    strategy:
+      "Claims e4 and prepares a Dutch-style set-up with ...Nf6, ...g6 and ...Bg7. It loosens " +
+      "e6 and the a2-g8 diagonal and delays development, while White continues with Nf3, O-O " +
+      "and d3, preparing e4.",
+  },
+
+  "1.g3 c5 2.Bg2 Na6": {
+    strategy:
+      "Heads for b4 or c7 from the rim, which costs time and leaves the g2-a8 diagonal " +
+      "unblocked, so ...b6 and ...b5 still lose the rook. The natural ...Nc6 develops with " +
+      "more effect.",
+  },
+
+  "1.g3 c5 2.Bg2 Qc7": {
+    strategy:
+      "Brings the queen out before any minor piece and defends nothing that is attacked. " +
+      "White develops with Nc3 and gains time with Nb5 or Nd5, both of which hit the queen on " +
+      "c7.",
+  },
+
+  "1.g3 c5 2.Bg2 Qb6": {
+    strategy:
+      "Eyes b2, which Bc1 guards, so there is no real threat. The queen is out early and Nc3 " +
+      "followed by Nd5 or Na4 drives it back with gain of time.",
+  },
+
+  "1.g3 c5 2.Bg2 Qa5": {
+    strategy:
+      "Brings the queen out before any minor piece and only pins the d2-pawn, a pin that Nc3 " +
+      "or c3 ends at once. The queen on a5 later becomes a target for a white knight arriving " +
+      "on b3 or c4, so the move costs time.",
+  },
+
+  "1.g3 c5 2.Bg2 Nh6": {
+    strategy:
+      "Puts the knight on the rim, where it controls neither e4 nor d5. Once d3 opens the " +
+      "c1-bishop, Bxh6 gxh6 can wreck Black's kingside pawns.",
+  },
+
+  "1.g3 c5 2.Bg2 a6": {
+    strategy:
+      "Prepares ...b5, but that hangs the a8-rook to Bxa8 as long as the long diagonal is " +
+      "open, so Black first needs ...Nc6 or ...d5. The move spends a tempo on the flank while " +
+      "White develops with c4, Nc3 and d3.",
+  },
+
+  "1.g3 c5 2.Bg2 a5": {
+    strategy:
+      "Takes queenside space but develops nothing and weakens b5 for a white knight arriving " +
+      "via Nc3. White continues with Nf3, O-O and d3 unhindered.",
+  },
+
+  "1.g3 c5 2.Bg2 f6": {
+    strategy:
+      "Prepares ...e5 but takes the f6-square from the king's knight, weakens e6 and the " +
+      "e8-h5 diagonal, and develops nothing.",
+  },
+
+  "1.g3 c5 2.Bg2 g5": {
+    strategy:
+      "Weakens the kingside and opens the a1-h8 diagonal. After 3.d4 the c1-bishop eyes the " +
+      "loose g5-pawn, and 3...cxd4 4.Qxd4 also hits the h8-rook, so Black has to block with " +
+      "...Nf6 or ...f6 and the g5-pawn stays a target.",
+  },
+
+  "1.g3 c5 2.Bg2 h6": {
+    strategy:
+      "A waiting move that develops nothing and does not touch the centre. White gains a " +
+      "tempo for Nf3, O-O, d3 or c4; the pawn on h6 only takes g5 from a white bishop or " +
+      "knight.",
+  },
+
+  "1.g3 c5 2.Bg2 h5": {
+    strategy:
+      "Aims for ...h4 against the g3-pawn but develops nothing and weakens g5 and g6. White " +
+      "can close the flank with h4 and carry on with Nf3, O-O and d3.",
+  },
+
+  "1.g3 c5 2.Bg2 c4": {
+    strategy:
+      "Gains space, but the pawn is undermined at once by b3 or d3 and cannot be backed up by " +
+      "...b5, which hangs the a8-rook. After the exchange Black has spent two moves on the " +
+      "c-pawn and White's pieces get open lines.",
+  },
+
+  "1.g3 c5 2.Bg2 b6": {
+    strategy:
+      "Hangs the rook: with the b7-pawn gone the long diagonal is open, and 3.Bxa8 wins the " +
+      "a8-rook because the queen cannot recapture past the c8-bishop and the b8-knight.",
+  },
+
+  "1.g3 c5 2.Bg2 b5": {
+    strategy:
+      "Hangs the rook: the b-pawn no longer blocks the long diagonal, and 3.Bxa8 wins the " +
+      "a8-rook because the queen cannot recapture past the c8-bishop and the b8-knight. The " +
+      "pawn on b5 wins nothing back.",
+  },
 };

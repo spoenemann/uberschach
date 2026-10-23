@@ -56,10 +56,11 @@ Enforced by: `boundaries/dependencies` and `boundaries/no-unknown-files` in
 - Every content line and move plays legally from the initial position and
   is written canonically, every move has an English text, and no prose is
   keyed to a line its module neither declares nor reaches. Enforced by:
-  `buildBook` in `src/content/book.ts`, which throws at import, and
-  `src/content/openings.test.ts`, which imports the shipped book and holds
-  the content principles of `docs/product-specs/opening-explorer.md` (The
-  database).
+  `buildBook` in `src/content/book.ts`, which throws when it verifies (the
+  default; the app builds the shipped book without, so that thousands of
+  positions start in half a second), and `src/content/openings.test.ts`,
+  which builds the shipped book with every check and holds the content
+  principles of `docs/product-specs/opening-explorer.md` (The database).
 - The built app, served under the Pages base path, mounts into `#root` with
   no console error, no uncaught exception, no failed same-origin request and
   no third-party request, at a desktop and a phone width. Enforced by:

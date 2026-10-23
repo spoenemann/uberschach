@@ -168,4 +168,165 @@ export const de: OpeningTexts = {
   "1.g3 c5": {
     name: "Königsfianchetto: Sizilianische Einladung",
   },
+
+  "1.g3 c5 2.Bg2 Nc6": {
+    strategy:
+      "Entwickelt den Springer zum Zentrum, verstärkt den Druck auf d4 und verstellt die " +
+      "lange Diagonale des weißen Läufers, sodass ...b6 und ...b5 den Turm a8 nicht mehr " +
+      "einstellen. Schwarz setzt meist mit ...g6 und ...Lg7 fort, was nach c4 und Sc3 eine " +
+      "symmetrische Struktur der Englischen Eröffnung ergibt, oder mit ...e5 und ...Sf6 für " +
+      "einen flexiblen Zentrumsaufbau. Schwarz gibt nichts preis und hält sich alle " +
+      "Möglichkeiten offen.",
+  },
+
+  "1.g3 c5 2.Bg2 Nf6": {
+    strategy:
+      "Entwickelt den Springer zum Zentrum mit Blick auf e4 und d5 und hält ...g6, ...Sc6, " +
+      "...d5 und ...e6 offen. Nach 3.c4 entsteht die Symmetrische Variante der Englischen " +
+      "Eröffnung mit weißem Fianchetto, und nach 3.Sf3 wählt Schwarz bei normaler Entwicklung " +
+      "zwischen ...g6 und ...d5.",
+  },
+
+  "1.g3 c5 2.Bg2 d5": {
+    strategy:
+      "Besetzt sofort das Zentrum und schließt die lange Diagonale des weißen Läufers. Die " +
+      "Dame deckt d5, ...Sf6 oder ...e6 stützt den Bauern zusätzlich, und ...Sc6 mit ...e5 " +
+      "baut ein breites Zentrum auf. Der Bauer ist ein Ziel für c4 und Lg2, sodass Schwarz " +
+      "sich entwickeln muss, ohne das Zentrum zu lockern; ...d4 steht als raumgewinnender " +
+      "Vorstoß zur Verfügung.",
+  },
+
+  "1.g3 c5 2.Bg2 g6": {
+    strategy:
+      "Spiegelt den weißen Aufbau: ...Lg7 besetzt die lange Diagonale in Richtung b2 und c3, " +
+      "und es folgen ...Sc6, ...d6 und ...e5 oder ...Sf6. Nach c4 und Sc3 entsteht die " +
+      "Struktur der Symmetrischen Variante der Englischen Eröffnung. Der Zug gibt nichts " +
+      "preis, bietet aber wenig, um das Gleichgewicht zu stören, sodass Schwarz auf einen " +
+      "langsamen strategischen Kampf setzt.",
+  },
+
+  "1.g3 c5 2.Bg2 d6": {
+    strategy:
+      "Öffnet den Läufer c8 und bereitet ...e5 oder ...Sf6 mit ...g6 vor, ein solider Aufbau " +
+      "wie in der Sizilianischen Verteidigung. Der Zug beansprucht weniger Zentrum als ...d5, " +
+      "das jetzt ein zweites Tempo kosten würde, und lässt Weiß freie Hand für c4, Sc3 und " +
+      "Sf3.",
+  },
+
+  "1.g3 c5 2.Bg2 e6": {
+    strategy:
+      "Öffnet den Läufer f8 und bereitet ein durch einen Bauern gestütztes ...d5 vor, gefolgt " +
+      "von ...Sc6 und ...Sf6 oder ...Sge7. Sobald ...d5 gespielt ist, sperrt der Bauer e6 den " +
+      "Läufer c8 ein, und Weiß entwickelt sich unterdessen in Ruhe mit c4, Sc3 und Sf3.",
+  },
+
+  "1.g3 c5 2.Bg2 e5": {
+    strategy:
+      "Besetzt das Zentrum mit Bauern auf c5 und e5, kontrolliert d4 und f4 und bereitet " +
+      "...Sc6, ...Sf6 oder ...d6 vor. Keiner der beiden Bauern kann d5 noch decken, sodass " +
+      "das Feld ein dauerhaftes Loch bleibt; Weiß antwortet mit c4 und Sc3 und zielt mit " +
+      "einem Springer auf d5, oder mit Sf3 gegen den Bauern e5 und d3 für ein ruhigeres " +
+      "Spiel.",
+  },
+
+  "1.g3 c5 2.Bg2 f5": {
+    strategy:
+      "Kontrolliert e4 und bereitet einen Aufbau wie in der Holländischen Verteidigung mit " +
+      "...Sf6, ...g6 und ...Lg7 vor. Der Zug lockert e6 und die Diagonale a2-g8 und verzögert " +
+      "die Entwicklung, während Weiß mit Sf3, O-O und d3 fortsetzt und e4 vorbereitet.",
+  },
+
+  "1.g3 c5 2.Bg2 Na6": {
+    strategy:
+      "Zieht den Springer an den Rand mit Ziel b4 oder c7, was Zeit kostet und die Diagonale " +
+      "g2-a8 offen lässt, sodass ...b6 und ...b5 weiterhin den Turm verlieren. Das natürliche " +
+      "...Sc6 entwickelt wirkungsvoller.",
+  },
+
+  "1.g3 c5 2.Bg2 Qc7": {
+    strategy:
+      "Bringt die Dame vor jeder Leichtfigur ins Spiel und deckt nichts, was angegriffen " +
+      "wäre. Weiß entwickelt sich mit Sc3 und gewinnt Zeit mit Sb5 oder Sd5, die beide die " +
+      "Dame auf c7 angreifen.",
+  },
+
+  "1.g3 c5 2.Bg2 Qb6": {
+    strategy:
+      "Zielt auf b2, das der Lc1 deckt, sodass keine echte Drohung besteht. Die Dame steht " +
+      "früh draußen, und Sc3 mit anschließendem Sd5 oder Sa4 vertreibt sie mit Tempogewinn.",
+  },
+
+  "1.g3 c5 2.Bg2 Qa5": {
+    strategy:
+      "Bringt die Dame vor jeder Leichtfigur ins Spiel und fesselt nur den Bauern d2, eine " +
+      "Fesselung, die Sc3 oder c3 sofort aufhebt. Später wird die Dame auf a5 zum Ziel für " +
+      "einen weißen Springer auf b3 oder c4, sodass der Zug Zeit kostet.",
+  },
+
+  "1.g3 c5 2.Bg2 Nh6": {
+    strategy:
+      "Stellt den Springer an den Rand, wo er weder e4 noch d5 kontrolliert. Sobald d3 den " +
+      "Läufer c1 öffnet, kann Lxh6 gxh6 die schwarzen Bauern am Königsflügel zerrütten.",
+  },
+
+  "1.g3 c5 2.Bg2 a6": {
+    strategy:
+      "Bereitet ...b5 vor, doch das stellt den Turm a8 gegen Lxa8 ein, solange die lange " +
+      "Diagonale offen ist, sodass Schwarz zuerst ...Sc6 oder ...d5 braucht. Der Zug " +
+      "verbraucht ein Tempo am Flügel, während Weiß sich mit c4, Sc3 und d3 entwickelt.",
+  },
+
+  "1.g3 c5 2.Bg2 a5": {
+    strategy:
+      "Gewinnt Raum am Damenflügel, entwickelt aber nichts und schwächt b5 für einen weißen " +
+      "Springer, der über c3 dorthin kommt. Weiß setzt ungestört mit Sf3, O-O und d3 fort.",
+  },
+
+  "1.g3 c5 2.Bg2 f6": {
+    strategy:
+      "Bereitet ...e5 vor, nimmt aber dem Königsspringer das Feld f6, schwächt e6 und die " +
+      "Diagonale e8-h5 und entwickelt nichts.",
+  },
+
+  "1.g3 c5 2.Bg2 g5": {
+    strategy:
+      "Schwächt den Königsflügel und öffnet die Diagonale a1-h8. Nach 3.d4 zielt der Läufer " +
+      "c1 auf den ungedeckten Bauern g5, und 3...cxd4 4.Dxd4 greift zudem den Turm h8 an, " +
+      "sodass Schwarz mit ...Sf6 oder ...f6 dazwischenziehen muss und der Bauer g5 ein Ziel " +
+      "bleibt.",
+  },
+
+  "1.g3 c5 2.Bg2 h6": {
+    strategy:
+      "Ein Wartezug, der nichts entwickelt und das Zentrum nicht berührt. Weiß gewinnt ein " +
+      "Tempo für Sf3, O-O, d3 oder c4; der Bauer auf h6 nimmt einem weißen Läufer oder " +
+      "Springer lediglich das Feld g5.",
+  },
+
+  "1.g3 c5 2.Bg2 h5": {
+    strategy:
+      "Zielt mit ...h4 auf den Bauern g3, entwickelt aber nichts und schwächt g5 und g6. Weiß " +
+      "kann den Flügel mit h4 schließen und mit Sf3, O-O und d3 fortfahren.",
+  },
+
+  "1.g3 c5 2.Bg2 c4": {
+    strategy:
+      "Gewinnt Raum, doch der Bauer wird sofort mit b3 oder d3 unterminiert und kann nicht " +
+      "mit ...b5 gestützt werden, das den Turm a8 einstellt. Nach dem Tausch hat Schwarz zwei " +
+      "Züge mit dem c-Bauern verbraucht, und die weißen Figuren erhalten offene Linien.",
+  },
+
+  "1.g3 c5 2.Bg2 b6": {
+    strategy:
+      "Stellt den Turm ein: Ohne den Bauern b7 ist die lange Diagonale offen, und 3.Lxa8 " +
+      "gewinnt den Turm a8, weil die Dame nicht über den Läufer c8 und den Springer b8 hinweg " +
+      "zurückschlagen kann.",
+  },
+
+  "1.g3 c5 2.Bg2 b5": {
+    strategy:
+      "Stellt den Turm ein: Der b-Bauer verstellt die lange Diagonale nicht mehr, und 3.Lxa8 " +
+      "gewinnt den Turm a8, weil die Dame nicht über den Läufer c8 und den Springer b8 hinweg " +
+      "zurückschlagen kann. Der Bauer auf b5 gewinnt dafür nichts zurück.",
+  },
 };

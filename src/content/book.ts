@@ -6,10 +6,15 @@
 // name a position by the canonical line that reaches it, in English notation
 // ("1.e4 e5 2.Nf3"; "" is the initial position): buildBook plays every line
 // through the rules engine, checks that data and prose agree, and keys the
-// book by positionKey. Content is static, so a disagreement throws at import
-// and src/content/openings.test.ts fails npm run check before it ships.
+// book by positionKey. Content is static, so a disagreement throws and
+// src/content/openings.test.ts fails npm run check before it ships. The
+// shipped book is large (thousands of positions), so the app builds it
+// without verifying (BuildOptions): lines are played one move from their
+// parent's game, and a position's moves are read when first asked for; the
+// test builds it again with every check on.
 
-import { newGame, play, positionKey, type Game } from "../domain/game.ts";
+import { applyMove } from "../domain/apply.ts";
+import { newGame, positionKey, type Game } from "../domain/game.ts";
 import { formatLine, playLine } from "../domain/line.ts";
 import type { Move } from "../domain/moves.ts";
 import type { Position } from "../domain/position.ts";
@@ -93,13 +98,36 @@ interface Declared {
   readonly moves: Set<string>;
 }
 
+export interface BuildOptions {
+  /**
+   * Check every line and move as written (canonical spelling, legality, an
+   * English strategy for each move) while building, so that a content error
+   * throws here. On by default. The app turns it off for the shipped book,
+   * which is verified by its test instead: each move is then read when its
+   * position's moves are first asked for, and a mistake throws then.
+   */
+  readonly verify?: boolean;
+}
+
+/** What reading one module's moves needs besides the position: its prose, its declared lines, whether to verify. */
+interface ModuleContext {
+  readonly texts: Texts;
+  readonly declared: Declared;
+  readonly verify: boolean;
+}
+
+/** The games already played, by the line that reaches them: a line costs one move beyond its parent's. */
+type Games = Map<string, Game>;
+
 /** Builds the book from the modules. Throws, naming the entry, when data and prose disagree. */
-export function buildBook(modules: readonly OpeningModule[]): OpeningBook {
+export function buildBook(modules: readonly OpeningModule[], options: BuildOptions = {}): OpeningBook {
+  const verify = options.verify ?? true;
   const book = new Map<string, BookPosition>();
+  const games: Games = new Map([["", newGame()]]);
   for (const module of modules) {
     const declared: Declared = { positions: new Set(), moves: new Set() };
     for (const data of module.positions) {
-      const game = gameAt(data.line);
+      const game = gameAt(data.line, data.line, games, verify);
       const key = positionKey(game.position);
       const twin = book.get(key);
       if (twin !== undefined) {
@@ -109,12 +137,15 @@ export function buildBook(modules: readonly OpeningModule[]): OpeningBook {
         );
       }
       declared.positions.add(data.line);
+      const moves = readMoves(game, data, { texts: module.texts, declared, verify });
       book.set(key, {
         line: data.line,
         name: optionalText(module.texts, data.line, "name"),
         background: optionalText(module.texts, data.line, "background"),
         sources: data.sources ?? [],
-        moves: (data.moves ?? []).map((move) => bookMove(game, data.line, move, module.texts, declared)),
+        get moves() {
+          return moves();
+        },
       });
     }
     checkProse(module.texts, declared);
@@ -122,23 +153,74 @@ export function buildBook(modules: readonly OpeningModule[]): OpeningBook {
   return book;
 }
 
-/** The game after the line, which must be legal and written canonically. */
-function gameAt(line: string): Game {
-  const result = playLine(newGame(), line, "en");
-  if (result.failure !== null) {
-    throw new Error(
-      `Line "${line}" cannot be played: "${result.failure.text}" is ${result.failure.reason}`,
-    );
+/** A bare move number, "1." or "2...", which a line may write apart from its move. */
+const MOVE_NUMBER = /^\d+(?:\.+|…)/;
+
+/**
+ * The game after the line, which must be legal and, when verifying, written
+ * canonically. `whole` is the declared line, named in an error. A line is
+ * played from the game of its parent, the line without its last token.
+ */
+function gameAt(line: string, whole: string, games: Games, verify: boolean): Game {
+  const known = games.get(line);
+  if (known !== undefined) return known;
+  const cut = line.lastIndexOf(" ");
+  const before = gameAt(line.slice(0, Math.max(cut, 0)), whole, games, verify);
+  const token = line.slice(cut + 1);
+  const san = token.replace(MOVE_NUMBER, "");
+  if (san === "") {
+    games.set(line, before);
+    return before;
   }
-  const canonical = formatLine(result.game, "en");
-  if (canonical !== line) {
-    throw new Error(`Line "${line}" must be written as "${canonical}"`);
+  const parsed = parseSan(before.position, san, "en");
+  if (!parsed.ok) {
+    throw new Error(`Line "${whole}" cannot be played: "${token}" is ${parsed.reason}`);
   }
-  return result.game;
+  if (verify && token !== numbered(before.position, toSan(before.position, parsed.move, "en"))) {
+    const canonical = formatLine(playLine(newGame(), whole, "en").game, "en");
+    throw new Error(`Line "${whole}" must be written as "${canonical}"`);
+  }
+  const position = applyMove(before.position, parsed.move);
+  const game: Game = {
+    position,
+    positions: [...before.positions, position],
+    moves: [...before.moves, parsed.move],
+  };
+  games.set(line, game);
+  return game;
 }
 
-// eslint-disable-next-line max-params -- the module's texts and its declared lines travel with every move
-function bookMove(game: Game, from: string, data: MoveData, texts: Texts, declared: Declared): BookMove {
+/** The move as a line writes it from this position: "3.Bb5" by White, "3...a6" by Black is written "a6" within a line. */
+function numbered(position: Position, san: string): string {
+  return position.turn === "white" ? `${position.fullmoveNumber}.${san}` : san;
+}
+
+/** The line after the move, as `formatLine` writes it for a line from the initial position. */
+function childLine(game: Game, line: string, san: string): string {
+  return line === "" ? numbered(game.position, san) : `${line} ${numbered(game.position, san)}`;
+}
+
+/**
+ * The moves written about from a position. Their lines are declared at once
+ * (the prose is checked against them); the moves themselves are read when
+ * first asked for, or now when verifying.
+ */
+function readMoves(game: Game, data: PositionData, context: ModuleContext): () => readonly BookMove[] {
+  const written = data.moves ?? [];
+  for (const move of written) {
+    const line = childLine(game, data.line, move.san);
+    if (context.declared.moves.has(line)) {
+      throw new Error(`Move "${move.san}" from "${data.line}" is listed twice`);
+    }
+    context.declared.moves.add(line);
+  }
+  let read: readonly BookMove[] | undefined;
+  const moves = () => (read ??= written.map((move) => bookMove(game, data.line, move, context.texts)));
+  if (context.verify) moves();
+  return moves;
+}
+
+function bookMove(game: Game, from: string, data: MoveData, texts: Texts): BookMove {
   const parsed = parseSan(game.position, data.san, "en");
   if (!parsed.ok) {
     throw new Error(`Move "${data.san}" from "${from}" is ${parsed.reason}`);
@@ -147,11 +229,7 @@ function bookMove(game: Game, from: string, data: MoveData, texts: Texts, declar
   if (canonical !== data.san) {
     throw new Error(`Move "${data.san}" from "${from}" must be written as "${canonical}"`);
   }
-  const line = formatLine(play(game, parsed.move), "en");
-  if (declared.moves.has(line)) {
-    throw new Error(`Move "${data.san}" from "${from}" is listed twice`);
-  }
-  declared.moves.add(line);
+  const line = childLine(game, from, data.san);
   const strategy = optionalText(texts, line, "strategy");
   if (strategy === undefined) {
     throw new Error(`Move "${line}" has no English strategy text; add one under that key`);

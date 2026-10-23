@@ -6,8 +6,8 @@ single-page app: TypeScript 6 strict, Vite 8, React 19, Vitest 5, ESLint 10,
 npm, Node 24. The first capability, an opening explorer, is specified in
 `docs/product-specs/opening-explorer.md` and being built from
 `docs/exec-plans/active/0002-opening-explorer.md`: the screen, the entry
-page and the first move's content exist; the replies and the lines beyond
-are content still to write.
+page and the book exist, written through White's second move and Black's
+reply to it; deeper lines are content still to write.
 
 ## Commands
 
@@ -30,7 +30,7 @@ npm run dev                          # http://localhost:5173/uberschach/ (the ba
 
 - `src/domain/` — chess and training logic in pure TypeScript; tests run in plain Node. The rules engine (FEN, legal moves, game end): `docs/design-docs/chess-rules-engine.md` holds its scope, its build and the test file per FIDE article; a rule change updates that doc and that test. Notation (`san.ts`, `line.ts`: moves and lines as text in English or German letters, the language an argument): `docs/design-docs/chess-notation.md`.
 - `src/i18n/` — the languages, the German catalogue (`de.ts`) and which notation each language reads (`notation.ts`), pure TypeScript. Text a visitor sees or hears is `t("English text")` in the code, never a literal in JSX; its German line goes in `de.ts` in the same commit, and a test fails `npm run check` otherwise (`docs/localization.md`).
-- `src/content/` — opening content as typed data files; prose once per language (`docs/localization.md`, Opening content). `book.ts` joins data and prose into the book keyed by position and refuses a disagreement at import; `openings.ts` is the shipped book; a content principle (all legal moves covered, only ratings 4 and 5 followed, sourced backgrounds) is held by `openings.test.ts`.
+- `src/content/` — opening content as typed data files; prose once per language (`docs/localization.md`, Opening content). `book.ts` joins data and prose into the book keyed by position and refuses a disagreement (the app builds the shipped book without verifying, to start fast; `openings.test.ts` builds it with every check); `firstMoves.*` and `lines/` (one module per followed first move and per followed reply) are the content, `openings.ts` the shipped book; the content principles (all legal moves covered, only ratings 4 and 5 followed, to the depth the plan sets, both languages, sourced backgrounds) are held by `openings.test.ts`.
 - `src/ui/` — React components.
 - `src/ui/board/` — the board and the pieces: a position, highlights, target
   marks and candidate arrows (`arrows.ts`), reporting clicks by square and by

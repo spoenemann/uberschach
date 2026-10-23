@@ -10,8 +10,8 @@ built and changes in the same commit as the behaviour.
   built from `docs/exec-plans/active/0002-opening-explorer.md`: the visitor
   plays both sides, the app rates and explains each move from a database
   keyed by position, and shows the moves worth knowing next. The screen,
-  the entry page and the first move's content exist; the lines beyond are
-  content still to write.
+  the entry page and the book exist, written through White's second move
+  and Black's reply to it; deeper lines are content still to write.
 
 The rules engine has no spec of its own: its promise is the FIDE Laws of
 Chess, an external text, and what it decides and leaves out is in

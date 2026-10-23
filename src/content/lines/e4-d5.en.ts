@@ -239,4 +239,188 @@ export const en: OpeningTexts = {
       "championship match, and in 2014 Carlsen beat Caruana with it at the Olympiad in " +
       "Tromsø.",
   },
+
+  "1.e4 d5 2.exd5 Qxd5": {
+    name: "Scandinavian Defence: Mieses–Kotroc Variation",
+    background:
+      "The more “positional” of the two main branches of the Scandinavian Defence, the other " +
+      "being 2...Nf6. Joseph Henry Blackburne and Jacques Mieses often played the " +
+      "Scandinavian and greatly developed its theory in the late 19th and early 20th " +
+      "centuries.",
+    strategy:
+      "Recaptures at once with the queen and accepts that White gains a tempo with 3.Nc3. " +
+      "After that the queen usually goes to a5, the most popular square, or to d6 or d8, and " +
+      "Black develops with ...Nf6, ...c6 and a bishop to f5 or g4. Black gets a free game " +
+      "with easy development and a sound structure, at the cost of that tempo.",
+  },
+
+  "1.e4 d5 2.exd5 Nf6": {
+    name: "Scandinavian Defence: Modern Variation",
+    background:
+      "The more “tactical” of the two main branches of the Scandinavian Defence, known as the " +
+      "Modern Scandinavian. John Emms calls 3.d4 White's main line against it.",
+    strategy:
+      "Delays the recapture so that the queen does not lose a tempo to Nc3. After 3.d4 Black " +
+      "regains the pawn with 3...Nxd5, though 4.c4 then drives the knight away, or plays the " +
+      "sharper 3...Bg4. If White keeps the pawn with 3.c4, Black usually offers a pawn with " +
+      "3...c6, and 4.d4 cxd5 reaches the Panov–Botvinnik Attack of the Caro–Kann.",
+  },
+
+  "1.e4 d5 2.exd5 Nd7": {
+    strategy:
+      "Aims at ...Ngf6 and ...Nb6 to win back d5, but blocks both the c8-bishop and the " +
+      "queen's pressure on the pawn. White can hold it with c4 or Nc3 and stays a pawn up.",
+  },
+
+  "1.e4 d5 2.exd5 Na6": {
+    strategy:
+      "Heads for b4 to pressure d5 and c2, but the knight starts on the rim, and White holds " +
+      "the pawn with c4 or Nc3 and stays a pawn up.",
+  },
+
+  "1.e4 d5 2.exd5 Bd7": {
+    strategy:
+      "Blocks the queen's own pressure on d5 and does nothing to win the pawn back. White " +
+      "keeps it with c4 or Nc3, and the bishop on d7 is passive.",
+  },
+
+  "1.e4 d5 2.exd5 Bf5": {
+    strategy:
+      "Develops the bishop but does nothing against d5, and White holds the pawn with c4 or " +
+      "Nc3 and stays a pawn up.",
+  },
+
+  "1.e4 d5 2.exd5 Qd7": {
+    strategy:
+      "Attacks d5 along the file but blocks the c8-bishop. White defends with c4 or Nc3 and " +
+      "keeps the extra pawn while the queen has done nothing useful.",
+  },
+
+  "1.e4 d5 2.exd5 Qd6": {
+    strategy:
+      "Attacks d5, but after 3.Nc3 or 3.c4 White keeps the pawn, and the exposed queen can be " +
+      "hit with tempo by Nb5 or Bb5+.",
+  },
+
+  "1.e4 d5 2.exd5 Nh6": {
+    strategy:
+      "Aims for ...Nf5, but the knight on the rim does nothing for d5. White holds the pawn " +
+      "with c4 or Nc3, and Black is a pawn down with a misplaced piece.",
+  },
+
+  "1.e4 d5 2.exd5 a6": {
+    strategy:
+      "Wastes a move on a flank pawn and leaves d5 where it stands. White keeps the pawn with " +
+      "c4 or Nc3 and has lost nothing in development.",
+  },
+
+  "1.e4 d5 2.exd5 a5": {
+    strategy:
+      "Advances the a-pawn for no purpose: nothing is developed, d5 is not recaptured, and " +
+      "the move only weakens b5.",
+  },
+
+  "1.e4 d5 2.exd5 b6": {
+    strategy:
+      "Prepares ...Bb7, which would hit d5 along the long diagonal, but White holds the pawn " +
+      "with c4 or Nc3 and stays a pawn up with the better development.",
+  },
+
+  "1.e4 d5 2.exd5 c6": {
+    name: "Scandinavian Defence: Blackburne–Kloosterboer Gambit",
+    background:
+      "Joseph Blackburne played it successfully on at least one occasion, but after 3.dxc6 it " +
+      "is thought to be unsound and is almost never seen in master-level play.",
+    strategy:
+      "Offers a pawn for development: after 3.dxc6 Nxc6 Black's pieces come out quickly on " +
+      "open lines, but White stays a clean pawn up and can finish development in peace.",
+  },
+
+  "1.e4 d5 2.exd5 c5": {
+    strategy:
+      "Offers the c-pawn: after 3.dxc6 en passant Nxc6 the position is the same as in the " +
+      "2...c6 gambit, a pawn down for some development. White can also keep the d5 pawn with " +
+      "c4 or Nc3.",
+  },
+
+  "1.e4 d5 2.exd5 e6": {
+    strategy:
+      "Offers the e-pawn: after 3.dxe6 Bxe6 Black has only the bishop out for it, and White " +
+      "stays a pawn up and develops with d4 and Nf3.",
+  },
+
+  "1.e4 d5 2.exd5 e5": {
+    strategy:
+      "Grabs central space and opens the f8-bishop, but does not recapture on d5. After 3.Nc3 " +
+      "White holds the pawn with a developing move, and Nf3 then pressures the unsupported e5 " +
+      "pawn.",
+  },
+
+  "1.e4 d5 2.exd5 g6": {
+    strategy:
+      "Prepares a fianchetto with ...Bg7 and ...Nf6, but the d5 pawn stays with White, who " +
+      "holds it with c4 or Nc3 and is simply a pawn up.",
+  },
+
+  "1.e4 d5 2.exd5 h6": {
+    strategy:
+      "A waiting move on the rim: nothing is developed, d5 is not recaptured, and White holds " +
+      "the pawn with c4 or Nc3.",
+  },
+
+  "1.e4 d5 2.exd5 h5": {
+    strategy:
+      "A wing advance that neither develops a piece nor recaptures. It weakens g5 and leaves " +
+      "White a clean extra pawn after c4 or Nc3.",
+  },
+
+  "1.e4 d5 2.exd5 Nc6": {
+    strategy:
+      "Loses a piece: the d5 pawn attacks c6, so 3.dxc6 takes the knight, and ...bxc6 " +
+      "recovers only a pawn.",
+  },
+
+  "1.e4 d5 2.exd5 Be6": {
+    strategy: "Loses a piece: 3.dxe6 takes the bishop, and ...fxe6 recovers only a pawn.",
+  },
+
+  "1.e4 d5 2.exd5 Bg4": {
+    strategy:
+      "Loses the bishop: nothing defends g4, and with the e-pawn gone from the diagonal the " +
+      "queen takes it at once with Qxg4.",
+  },
+
+  "1.e4 d5 2.exd5 Bh3": {
+    strategy:
+      "Loses the bishop for nothing: gxh3 or Nxh3 takes it, and no piece of Black's defends " +
+      "h3.",
+  },
+
+  "1.e4 d5 2.exd5 Kd7": {
+    strategy:
+      "Gives up castling and blocks the queen's own pressure on d5, and 3.Bb5+ already checks " +
+      "the king on the open diagonal. The pawn stays with White.",
+  },
+
+  "1.e4 d5 2.exd5 b5": {
+    strategy: "Hangs a second pawn: 3.Bxb5+ wins it with check, and the d5 pawn is still White's.",
+  },
+
+  "1.e4 d5 2.exd5 f6": {
+    strategy:
+      "Leaves the d5 pawn and takes the f6 square from the g8-knight. It weakens e6 and opens " +
+      "the e8-h5 diagonal for 3.Qh5+, damaging the king's cover for nothing.",
+  },
+
+  "1.e4 d5 2.exd5 f5": {
+    strategy:
+      "Opens the e8-h5 diagonal: 3.Qh5+ is check at once and forces Black to weaken g6 or " +
+      "move the king, while the d5 pawn stays with White.",
+  },
+
+  "1.e4 d5 2.exd5 g5": {
+    strategy:
+      "Loosens f6 and h6 and makes the g5 pawn a target for the c1-bishop once d4 opens its " +
+      "diagonal, while the d5 pawn stays with White.",
+  },
 };

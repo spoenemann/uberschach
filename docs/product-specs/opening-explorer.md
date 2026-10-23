@@ -222,7 +222,9 @@ for and risks, and which replies matter.
 - `docs/design-docs/chess-notation.md` — how a move is written in the
   visitor's language and how the moves in the address are read.
 - `src/content/book.ts` — the database's format and how it is checked;
-  `src/content/firstMoves.ts` and its language files are the first content.
+  `src/content/firstMoves.ts` and its language files are the first content,
+  `src/content/lines/` the rest, one module per followed first move and per
+  followed reply.
 - `docs/exec-plans/active/0002-opening-explorer.md` — the build, its
   progress and its decisions, including how deep each line goes.
 - `docs/localization.md` — the languages promised, translated text and

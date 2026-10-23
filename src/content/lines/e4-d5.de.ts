@@ -244,4 +244,199 @@ export const de: OpeningTexts = {
       "PCA-Weltmeisterschaftskampf gegen Kasparow, ihr erster Auftritt in einem WM-Kampf, und " +
       "2014 besiegte Carlsen damit Caruana bei der Olympiade in Tromsø.",
   },
+
+  "1.e4 d5 2.exd5 Qxd5": {
+    name: "Skandinavische Verteidigung: Mieses-Kotroc-Variante",
+    background:
+      "Der eher „positionelle“ der beiden Hauptzweige der Skandinavischen Verteidigung, der " +
+      "andere ist 2...Sf6. Joseph Henry Blackburne und Jacques Mieses spielten die " +
+      "Skandinavische Verteidigung häufig und entwickelten ihre Theorie im späten 19. und " +
+      "frühen 20. Jahrhundert maßgeblich weiter.",
+    strategy:
+      "Schlägt sofort mit der Dame zurück und nimmt in Kauf, dass Weiß mit 3.Sc3 ein Tempo " +
+      "gewinnt. Danach zieht die Dame meist nach a5, dem beliebtesten Feld, oder nach d6 oder " +
+      "d8, und Schwarz entwickelt sich mit ...Sf6, ...c6 und einem Läufer nach f5 oder g4. " +
+      "Schwarz erhält ein freies Spiel mit leichter Entwicklung und gesunder Bauernstruktur, " +
+      "um den Preis dieses Tempos.",
+  },
+
+  "1.e4 d5 2.exd5 Nf6": {
+    name: "Skandinavische Verteidigung: Moderne Variante",
+    background:
+      "Der eher „taktische“ der beiden Hauptzweige der Skandinavischen Verteidigung, bekannt " +
+      "als Modernes Skandinavisch. John Emms bezeichnet 3.d4 als die weiße Hauptvariante " +
+      "dagegen.",
+    strategy:
+      "Verzögert das Zurückschlagen, damit die Dame kein Tempo durch Sc3 verliert. Nach 3.d4 " +
+      "gewinnt Schwarz den Bauern mit 3...Sxd5 zurück, wobei 4.c4 den Springer dann " +
+      "vertreibt, oder spielt das schärfere 3...Lg4. Behält Weiß den Bauern mit 3.c4, bietet " +
+      "Schwarz meist mit 3...c6 einen Bauern an, und 4.d4 cxd5 führt zum Panow-Angriff der " +
+      "Caro-Kann-Verteidigung.",
+  },
+
+  "1.e4 d5 2.exd5 Nd7": {
+    strategy:
+      "Zielt auf ...Sgf6 und ...Sb6, um d5 zurückzugewinnen, verstellt aber sowohl den Läufer " +
+      "c8 als auch den Druck der Dame auf den Bauern. Weiß kann ihn mit c4 oder Sc3 halten " +
+      "und bleibt einen Bauern vorn.",
+  },
+
+  "1.e4 d5 2.exd5 Na6": {
+    strategy:
+      "Strebt nach b4, um Druck auf d5 und c2 auszuüben, doch der Springer steht am Rand, und " +
+      "Weiß hält den Bauern mit c4 oder Sc3 und bleibt einen Bauern vorn.",
+  },
+
+  "1.e4 d5 2.exd5 Bd7": {
+    strategy:
+      "Verstellt den Druck der eigenen Dame auf d5 und tut nichts, um den Bauern " +
+      "zurückzugewinnen. Weiß behält ihn mit c4 oder Sc3, und der Läufer auf d7 steht passiv.",
+  },
+
+  "1.e4 d5 2.exd5 Bf5": {
+    strategy:
+      "Entwickelt den Läufer, tut aber nichts gegen d5, und Weiß hält den Bauern mit c4 oder " +
+      "Sc3 und bleibt einen Bauern vorn.",
+  },
+
+  "1.e4 d5 2.exd5 Qd7": {
+    strategy:
+      "Greift d5 über die Linie an, verstellt aber den Läufer c8. Weiß deckt mit c4 oder Sc3 " +
+      "und behält den Mehrbauern, während die Dame nichts Nützliches geleistet hat.",
+  },
+
+  "1.e4 d5 2.exd5 Qd6": {
+    strategy:
+      "Greift d5 an, doch nach 3.Sc3 oder 3.c4 behält Weiß den Bauern, und die exponierte " +
+      "Dame kann mit Tempo durch Sb5 oder Lb5+ angegriffen werden.",
+  },
+
+  "1.e4 d5 2.exd5 Nh6": {
+    strategy:
+      "Zielt auf ...Sf5, doch der Springer am Rand tut nichts für d5. Weiß hält den Bauern " +
+      "mit c4 oder Sc3, und Schwarz steht mit einem Bauern weniger und einer schlecht " +
+      "platzierten Figur da.",
+  },
+
+  "1.e4 d5 2.exd5 a6": {
+    strategy:
+      "Verschwendet einen Zug mit einem Randbauern und lässt d5 stehen. Weiß behält den " +
+      "Bauern mit c4 oder Sc3 und hat in der Entwicklung nichts eingebüßt.",
+  },
+
+  "1.e4 d5 2.exd5 a5": {
+    strategy:
+      "Zieht den a-Bauern ohne Zweck vor: Nichts wird entwickelt, d5 wird nicht " +
+      "zurückgeschlagen, und der Zug schwächt nur b5.",
+  },
+
+  "1.e4 d5 2.exd5 b6": {
+    strategy:
+      "Bereitet ...Lb7 vor, das d5 über die lange Diagonale angreifen würde, doch Weiß hält " +
+      "den Bauern mit c4 oder Sc3 und bleibt mit der besseren Entwicklung einen Bauern vorn.",
+  },
+
+  "1.e4 d5 2.exd5 c6": {
+    name: "Skandinavische Verteidigung: Blackburne-Kloosterboer-Gambit",
+    background:
+      "Joseph Blackburne spielte es mindestens einmal erfolgreich, doch nach 3.dxc6 gilt es " +
+      "als inkorrekt und ist auf Meisterniveau fast nie zu sehen.",
+    strategy:
+      "Bietet einen Bauern für Entwicklung an: Nach 3.dxc6 Sxc6 kommen die schwarzen Figuren " +
+      "auf offenen Linien schnell ins Spiel, doch Weiß bleibt einen gesunden Bauern vorn und " +
+      "kann die Entwicklung in Ruhe abschließen.",
+  },
+
+  "1.e4 d5 2.exd5 c5": {
+    strategy:
+      "Bietet den c-Bauern an: Nach 3.dxc6 en passant Sxc6 entsteht dieselbe Stellung wie im " +
+      "Gambit 2...c6, ein Bauer weniger für etwas Entwicklung. Weiß kann den Bauern d5 auch " +
+      "mit c4 oder Sc3 behalten.",
+  },
+
+  "1.e4 d5 2.exd5 e6": {
+    strategy:
+      "Bietet den e-Bauern an: Nach 3.dxe6 Lxe6 hat Schwarz dafür nur den Läufer entwickelt, " +
+      "und Weiß bleibt einen Bauern vorn und entwickelt sich mit d4 und Sf3.",
+  },
+
+  "1.e4 d5 2.exd5 e5": {
+    strategy:
+      "Gewinnt Raum im Zentrum und öffnet den Läufer f8, schlägt aber nicht auf d5 zurück. " +
+      "Nach 3.Sc3 hält Weiß den Bauern mit einem Entwicklungszug, und Sf3 setzt dann den " +
+      "ungedeckten Bauern e5 unter Druck.",
+  },
+
+  "1.e4 d5 2.exd5 g6": {
+    strategy:
+      "Bereitet ein Fianchetto mit ...Lg7 und ...Sf6 vor, doch der Bauer d5 bleibt bei Weiß, " +
+      "der ihn mit c4 oder Sc3 hält und schlicht einen Bauern mehr hat.",
+  },
+
+  "1.e4 d5 2.exd5 h6": {
+    strategy:
+      "Ein Wartezug am Rand: Nichts wird entwickelt, d5 wird nicht zurückgeschlagen, und Weiß " +
+      "hält den Bauern mit c4 oder Sc3.",
+  },
+
+  "1.e4 d5 2.exd5 h5": {
+    strategy:
+      "Ein Flügelvorstoß, der weder eine Figur entwickelt noch zurückschlägt. Er schwächt g5 " +
+      "und lässt Weiß nach c4 oder Sc3 einen sauberen Mehrbauern.",
+  },
+
+  "1.e4 d5 2.exd5 Nc6": {
+    strategy:
+      "Verliert eine Figur: Der Bauer d5 greift c6 an, also schlägt 3.dxc6 den Springer, und " +
+      "...bxc6 holt nur einen Bauern zurück.",
+  },
+
+  "1.e4 d5 2.exd5 Be6": {
+    strategy:
+      "Verliert eine Figur: 3.dxe6 schlägt den Läufer, und ...fxe6 holt nur einen Bauern " +
+      "zurück.",
+  },
+
+  "1.e4 d5 2.exd5 Bg4": {
+    strategy:
+      "Verliert den Läufer: Nichts deckt g4, und da der e-Bauer nicht mehr auf der Diagonale " +
+      "steht, schlägt die Dame ihn sofort mit Dxg4.",
+  },
+
+  "1.e4 d5 2.exd5 Bh3": {
+    strategy:
+      "Verliert den Läufer ohne Gegenwert: gxh3 oder Sxh3 schlägt ihn, und keine schwarze " +
+      "Figur deckt h3.",
+  },
+
+  "1.e4 d5 2.exd5 Kd7": {
+    strategy:
+      "Gibt die Rochade auf und verstellt den Druck der eigenen Dame auf d5, und 3.Lb5+ " +
+      "bietet dem König auf der offenen Diagonale sofort Schach. Der Bauer bleibt bei Weiß.",
+  },
+
+  "1.e4 d5 2.exd5 b5": {
+    strategy:
+      "Stellt einen zweiten Bauern ein: 3.Lxb5+ gewinnt ihn mit Schach, und der Bauer d5 " +
+      "gehört weiterhin Weiß.",
+  },
+
+  "1.e4 d5 2.exd5 f6": {
+    strategy:
+      "Lässt den Bauern d5 stehen und nimmt dem Springer g8 das Feld f6. Der Zug schwächt e6 " +
+      "und öffnet die Diagonale e8-h5 für 3.Dh5+, sodass die Deckung des Königs ohne " +
+      "Gegenwert leidet.",
+  },
+
+  "1.e4 d5 2.exd5 f5": {
+    strategy:
+      "Öffnet die Diagonale e8-h5: 3.Dh5+ gibt sofort Schach und zwingt Schwarz, g6 zu " +
+      "schwächen oder den König zu ziehen, während der Bauer d5 bei Weiß bleibt.",
+  },
+
+  "1.e4 d5 2.exd5 g5": {
+    strategy:
+      "Lockert f6 und h6 und macht den Bauern g5 zum Ziel für den Läufer c1, sobald d4 dessen " +
+      "Diagonale öffnet, während der Bauer d5 bei Weiß bleibt.",
+  },
 };

@@ -26,7 +26,12 @@
       (`src/content/lines/`).
 - [x] White's second move after each reply rated 4 or 5 (ply 3): 33 positions,
       803 moves.
-- [ ] Black's replies to those (ply 4), where the book ends.
+- [x] Black's replies to those (ply 4), where the book ends: 81 positions,
+      1,975 moves. The breadth-first search has nothing left to follow: 121
+      positions have moves (the root, 6, 33 and 81), every move rated 4 or 5
+      from them reaches a position that has moves or is at the depth, and the
+      1,832 positions after Black's reply have none
+      (`src/content/openings.test.ts`).
 - [ ] Every promise in the spec names the test that keeps it.
 
 ## Content principles
@@ -35,9 +40,9 @@ Settled with the maintainer on 2026-10-23 and promised in the spec (The
 database): from a book position every legal move is rated and explained;
 only moves rated 4 and 5 are followed; backgrounds are verified against
 public information and name their sources in the data file; a line is
-followed only as deep as public usage still treats it as opening theory,
-decided per line from its history and terminology. The depth decided for
-each line is logged below when the line is written.
+followed only as deep as the depth the maintainer set for the whole book
+(Decision log, Depth), and no deeper than public usage still treats it as
+opening theory.
 
 ## Content review
 
@@ -82,8 +87,12 @@ of content is, before it is committed:
 - [x] Entry page.
 - [x] Content, ply 2: Black's replies to 1.e4, 1.d4, 1.Nf3, 1.c4, 1.g3, 1.b3.
 - [x] Content, ply 3: White's second move after each of the 33 replies rated 4 or 5.
-- [ ] Content, ply 4: Black's replies to those, each position rated 4 or 5 that
+- [x] Content, ply 4: Black's replies to the 81 positions rated 4 or 5 that
       White's second move reaches.
+- [x] Loader: the shipped book starts in half a second, not six (Decision log,
+      Loader).
+- [ ] Open, for the maintainer: the entry page pays for the book (Progress log,
+      ply 4).
 
 ## Progress log
 
@@ -167,6 +176,36 @@ of content is, before it is committed:
   889 positions and Vite warns about the chunk size; the book will be about
   three times that at the planned depth, and only the explorer needs it
   (open item: load it with the explorer, not with the entry page).
+- 2026-10-23: **Ply 4 written: Black's reply to White's second move; the
+  book is complete at its depth.** Level 3 of the pipeline: 81 researchers
+  and 81 reviewers, 162 agents, 17.5 million tokens, 2 hours 43 minutes. The
+  reviewers made 1,322 corrections, dropped 236 claims and changed 96
+  ratings (21 from 2 to 1, 17 from 1 to 2, 17 from 3 to 4, 13 from 3 to 2,
+  13 from 4 to 3, 8 from 2 to 3, 5 from 4 to 5, one each from 5 to 4 and 3 to
+  5), mostly to the sources' wording (2...Qe7 and 2...f5 in the Open Game are
+  "dubious" in Wikipedia, so 3 became 2). Compared across positions the
+  ratings are coherent: the pointless moves (a6, a5, h6, h5, Na6, Nh6, f6) are
+  2 in 74 to 78 of 81 positions, king walks and Ba3 and Bh3 are 1 every time,
+  and the 1s among natural developing moves (every one of them a hung pawn,
+  a lost knight or a rook on h8 in the bishop's line, as its text says) were
+  each read. Final book: 2,721 positions, 2,918 moves (196 rated 5, 208 rated
+  4, 609 rated 3, 1,436 rated 2, 469 rated 1), 346 names, 216 backgrounds on
+  284 source URLs; 676,000 characters of English and 768,000 of German. All of
+  the pipeline cost, three levels: about 26 million agent tokens, 300 agents.
+  Found while integrating: building the book at import took 5.7 seconds in
+  Node (the loader replayed every line from the start and checked every move
+  with the game machinery, which runs legal-move generation several times
+  per move); see the Loader decision for the fix. Measured in Chrome on the
+  built app: the page mounts in about 0.5 seconds on this machine and 1.5
+  seconds with the CPU slowed fourfold, on the entry page as much as on the
+  explorer, because both import the book; the bundle is 2.05 MB (576 kB
+  gzipped). Open, and the maintainer's to decide because it changes the app's
+  structure: load the explorer, and the book with it, on demand
+  (`React.lazy` in `src/app/App.tsx`, a loading state, async tests), which
+  returns the entry page to its former 0.4 MB, before any content, and
+  takes the book's share (about 0.35 seconds here) off its start. `npm run
+  check` green; the explorer looked at after 1.e4, 1.e4 e5 and 1.d4 Nf6 2.c4
+  e6, at desktop and phone width.
 
 ## Decision log
 
@@ -316,3 +355,24 @@ of content is, before it is committed:
   Wikipedia title or the ECO hint says, as the book already writes "Dutch
   Defence"; German names follow German Wikipedia, and a name German does not
   translate keeps its English form with German grammar ("Alapin-Variante").
+- 2026-10-23: **Loader: verify on request, play from the parent's game, read
+  a position's moves when first asked for.** `buildBook` keeps every check it
+  had and stays strict by default (`book.test.ts` is unchanged); the app
+  builds the shipped book with `{ verify: false }`, and `openings.test.ts`
+  builds it again strictly, which is where all 2,721 lines and 2,918 moves
+  are checked for legality, canonical spelling, an English strategy and
+  declaration once. Without verifying, a line is played one move from its
+  parent's cached game with the position-level `applyMove`, not replayed
+  from the start with the game-level `play` and `status`; a position's moves
+  are parsed when its `moves` is first read (the explorer reads one
+  position's thirty or so), not for all 2,900 at import. 5.7 seconds became
+  0.5, about 0.35 of it the book. Why not more: the key of every declared
+  position must exist for a transposition to find it, and a key costs one
+  legal-move generation. Considered: keys stored beside each line (a second
+  copy of the chess data that a content author cannot write by hand, though
+  the loader could name the right one in its error); an index generated at
+  build time (a generation step and a generated file to keep fresh); index
+  by ply on first use (more code for a gain only a shallow visitor sees).
+  Cost of the choice: a content error in a position's moves throws when that
+  position is first shown, not at import; the test makes that a failure of
+  `npm run check`, which every commit runs.

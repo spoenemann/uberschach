@@ -161,4 +161,158 @@ export const en: OpeningTexts = {
   "1.g3 g6": {
     name: "Hungarian Opening: Symmetrical Variation",
   },
+
+  "1.g3 g6 2.Bg2 Bg7": {
+    strategy:
+      "Completes the fianchetto: the bishop looks down the long diagonal towards c3 and b2, " +
+      "and …Nf6 and …O-O can follow at once. Black mirrors White's set-up and keeps the " +
+      "centre flexible, choosing between …c5, …d5 and …e5 once White's plan is clear. Neither " +
+      "side has a pawn in the centre yet, so White commits first: to c4 with Nc3, to Nf3 and " +
+      "d3 followed by e4, or to d4.",
+  },
+
+  "1.g3 g6 2.Bg2 Nf6": {
+    strategy:
+      "Develops the knight to its natural square, where it covers d5 and e4, and transposes " +
+      "to 1.g3 Nf6 2.Bg2 g6. Black follows with …Bg7 and …O-O and picks …d6, …d5 or …c5 once " +
+      "White has shown a plan. The centre stays unoccupied for both sides, so White can still " +
+      "choose between c4 with Nc3, the quieter d3 with e4, or d4.",
+  },
+
+  "1.g3 g6 2.Bg2 d5": {
+    strategy:
+      "Takes the centre at once and reaches the position of 1.g3 d5 2.Bg2 g6, with …Bg7 and " +
+      "…Nf6 to follow. The bishop on g2 already bears on d5, and c4 adds a second attacker, " +
+      "so Black supports the pawn with …c6 or …Nf6. White can instead play Nf3, O-O, d3 and " +
+      "e4, a King's Indian Attack set-up that challenges d5 later.",
+  },
+
+  "1.g3 g6 2.Bg2 c5": {
+    strategy:
+      "Fights for d4 and gains queenside space, with …Bg7 and …Nc6 to follow. After c4 the " +
+      "game is a Symmetrical English with both king's bishops fianchettoed. White can instead " +
+      "open the centre with d4; after …cxd4 Qxd4 the queen attacks the h8-rook along the open " +
+      "long diagonal, and Black blocks with …Nf6. Black has no pawn in the centre until …d6 " +
+      "or …d5.",
+  },
+
+  "1.g3 g6 2.Bg2 e5": {
+    strategy:
+      "Takes a share of the centre at once, with …Bg7, …d6 and …Nc6 or …Ne7 to follow in a " +
+      "King's Indian pawn structure. White answers with c4 and Nc3, or with d3, Nf3 and O-O. " +
+      "The pawn is committed before any piece is out: Nf3 attacks it at once, and after d4 " +
+      "exd4 Qxd4 the queen hits the h8-rook along the open diagonal.",
+  },
+
+  "1.g3 g6 2.Bg2 Nc6": {
+    strategy:
+      "Develops the knight, eyes d4 and e5 and blocks the long diagonal of Bg2 at c6, keeping " +
+      "…Bg7 and …e5 available. The knight blocks the c-pawn, though, so …c5 and …c6 are off " +
+      "the table, and White can take space with e4 and d4 before Black has chosen a " +
+      "structure.",
+  },
+
+  "1.g3 g6 2.Bg2 d6": {
+    strategy:
+      "Frees the c8-bishop and heads for a Modern or King's Indian set-up, with …Bg7 and …Nf6 " +
+      "or …e5 to follow. The centre is left to White for now, so c4, d4 or e4 can come with " +
+      "Bg2 already developed.",
+  },
+
+  "1.g3 g6 2.Bg2 c6": {
+    strategy:
+      "Prepares …d5 with a pawn behind it and blocks the long diagonal of Bg2 at c6, so a " +
+      "later …b6 or …b5 no longer drops the a8-rook. The centre is left to White for now, so " +
+      "e4 or d4 can follow at once, and the c-pawn is committed before the centre has taken " +
+      "shape.",
+  },
+
+  "1.g3 g6 2.Bg2 e6": {
+    strategy:
+      "Prepares …d5 and …Ne7 next to …Bg7 in a compact set-up. The e6-pawn shuts in the " +
+      "c8-bishop, which can come out only via d7 or, after …b6, via b7, and …b6 must wait " +
+      "until …d5 or …c6 has closed the long diagonal. White develops freely with Nf3, O-O and " +
+      "c4 or d4.",
+  },
+
+  "1.g3 g6 2.Bg2 f5": {
+    strategy:
+      "Takes e4 and prepares …Nf6, …Bg7 and …O-O, the pawn structure of the Leningrad Dutch. " +
+      "The set-up is double-edged: it loosens e6 and the king's cover, and White meets it " +
+      "with Nf3, O-O and d3 with e4, or with c4 and d4.",
+  },
+
+  "1.g3 g6 2.Bg2 Na6": {
+    strategy:
+      "Puts the knight on the rim, where it eyes b4 and c5 but covers no central square. " +
+      "White uses the time for Nf3, O-O and d4 or c4, and d4 also takes c5 from the knight.",
+  },
+
+  "1.g3 g6 2.Bg2 Nh6": {
+    strategy:
+      "Sends the knight via the rim towards f5, where a pawn on e4 would chase it away; from " +
+      "h6 it covers no central square. White continues with Nf3, O-O and d4 or c4.",
+  },
+
+  "1.g3 g6 2.Bg2 Bh6": {
+    strategy:
+      "Puts the bishop on h6 instead of g7, where the d2-pawn blocks its diagonal and it " +
+      "takes no part in the fight for the long diagonal. Once d3 or d4 opens the c1–h6 " +
+      "diagonal, Black must either allow the trade of dark-squared bishops, leaving the " +
+      "squares weakened by …g6 without their defender, or spend another move on …Bg7.",
+  },
+
+  "1.g3 g6 2.Bg2 a6": {
+    strategy:
+      "Spends a tempo on a rim pawn that prepares …b5, but that advance would drop the " +
+      "a8-rook to Bxa8 as long as the long diagonal stays open. White develops with Nf3 and " +
+      "O-O, then takes the centre with c4 or d4.",
+  },
+
+  "1.g3 g6 2.Bg2 a5": {
+    strategy:
+      "Gains queenside space and covers b4, but develops nothing, and the a-pawn can no " +
+      "longer guard b5 or b6. White continues with Nf3, O-O and d4 or c4 with a free hand.",
+  },
+
+  "1.g3 g6 2.Bg2 f6": {
+    strategy:
+      "Prepares …e5, but blocks the long diagonal in front of the future g7-bishop, takes f6 " +
+      "from the king's knight and opens the a2–g8 diagonal towards the king's castling " +
+      "square. White develops with Nf3, O-O and c4 or d4 while Black has nothing out.",
+  },
+
+  "1.g3 g6 2.Bg2 h6": {
+    strategy:
+      "Spends a tempo on a rim pawn that only takes g5 from White's pieces and brings Black " +
+      "no closer to developing. White develops with Nf3 and O-O, then takes the centre with " +
+      "c4 or d4.",
+  },
+
+  "1.g3 g6 2.Bg2 h5": {
+    strategy:
+      "Gains kingside space and prepares …h4 to attack g3, but develops nothing. 3.h4 stops " +
+      "the advance at once, and the h4-pawn then supports a white knight on g5.",
+  },
+
+  "1.g3 g6 2.Bg2 g5": {
+    strategy:
+      "Moves the g-pawn a second time and leaves it unguarded on g5: once d3 or d4 opens the " +
+      "c1-bishop, Bxg5 is threatened, and Black must spend another move on …h6, …f6 or …Bh6. " +
+      "The kingside stays loosened for good.",
+  },
+
+  "1.g3 g6 2.Bg2 b6": {
+    strategy:
+      "Hangs the rook: with the b-pawn gone from b7, the long diagonal is open to a8, and " +
+      "3.Bxa8 takes the rook, since neither the c8-bishop nor the queen can recapture. Even " +
+      "if the bishop is later trapped in the corner, White stays at least an exchange up.",
+  },
+
+  "1.g3 g6 2.Bg2 b5": {
+    strategy:
+      "Opens the long diagonal to a8: 3.Bxa8 takes the rook, and no black piece can recapture " +
+      "there. White stays at least an exchange up even if the bishop is later trapped, and " +
+      "the queenside space is no compensation.",
+  },
 };

@@ -11,18 +11,17 @@ import { playLine } from "../domain/line.ts";
 import { legalMoves, playMove } from "../domain/moves.ts";
 import type { Position } from "../domain/position.ts";
 import { toSan } from "../domain/san.ts";
-import { lookup, type BookPosition, type Rating } from "./book.ts";
-import { OPENINGS } from "./openings.ts";
+import { buildBook, lookup, type BookPosition, type Rating } from "./book.ts";
+import { MODULES, OPENINGS } from "./openings.ts";
 
 /**
  * The deepest position, counted in moves played, from which the book writes
- * moves. The plan sets it at 3, White's second move
- * (docs/exec-plans/active/0002-opening-explorer.md, Decision log), and the
- * content reaches it one ply at a time; this is the ply reached so far. A move
- * rated 4 or 5 into a position at or before it is followed; positions beyond it
- * end the book.
+ * moves: White's second move (docs/exec-plans/active/0002-opening-explorer.md,
+ * Decision log, Depth). A move rated 4 or 5 into a position at or before it is
+ * followed; the positions after Black's reply end the book. Deeper content
+ * raises this and the plan's depth together.
  */
-const LAST_FOLLOWED_PLY = 2;
+const LAST_FOLLOWED_PLY = 3;
 
 /** A move in English piece letters (Nf3, Qxd5, the 2.Nf3 of a line), which a German text must not contain. */
 const ENGLISH_PIECE_MOVE = /(^|[\s(.])[NBRQ][a-h1-8]?x?[a-h][1-8](?![a-z0-9])/;
@@ -30,9 +29,9 @@ const ENGLISH_PIECE_MOVE = /(^|[\s(.])[NBRQ][a-h1-8]?x?[a-h][1-8](?![a-z0-9])/;
 const START = newGame().position;
 const positions = [...OPENINGS.values()];
 
-/** How many moves a book entry's line plays. */
+/** How many moves a book entry's line plays: one token each, as formatLine writes it. */
 function plyOf(entry: BookPosition): number {
-  return playLine(newGame(), entry.line, "en").game.moves.length;
+  return entry.line.split(/\s+/).filter((token) => token !== "").length;
 }
 
 /** The position a book entry describes, replayed from its line. */
@@ -41,6 +40,20 @@ function positionOf(entry: BookPosition): Position {
 }
 
 describe("the shipped book", () => {
+  // The app builds the book without verifying (openings.ts); this is where every line and every move
+  // is checked: legal, written canonically, with an English strategy, and no position declared twice.
+  test("passes every check of the loader when built strictly, and the same positions come out", () => {
+    const strict = buildBook(MODULES);
+    expect(strict.size).toBe(OPENINGS.size);
+    for (const [key, entry] of strict) {
+      const shipped = OPENINGS.get(key);
+      expect(shipped?.line, `line at ${key}`).toBe(entry.line);
+      expect(shipped?.moves.map((move) => move.san), `moves from "${entry.line}"`).toEqual(
+        entry.moves.map((move) => move.san),
+      );
+    }
+  });
+
   test("holds the initial position with an introduction in both languages and no name", () => {
     const root = lookup(OPENINGS, START);
     expect(root?.line).toBe("");
@@ -75,6 +88,7 @@ describe("the shipped book", () => {
   test("follows only moves rated 4 and 5: a position reached by lower ratings alone has no moves", () => {
     const best = new Map<string, Rating>();
     for (const entry of positions) {
+      if (entry.moves.length === 0) continue;
       const position = positionOf(entry);
       for (const move of entry.moves) {
         const key = positionKey(playMove(position, move.move));

@@ -166,4 +166,168 @@ export const de: OpeningTexts = {
   "1.g3 Nf6": {
     name: "Königsfianchetto: Indische Verteidigung",
   },
+
+  "1.g3 Nf6 2.Bg2 d5": {
+    strategy:
+      "Besetzt das Zentrum und geht in 1.g3 d5 2.Lg2 Sf6 über. Weiß setzt mit Sf3 und O-O " +
+      "fort und bereitet dann entweder mit d3 den Vorstoß e4 vor oder greift d5 mit c4 an, " +
+      "oft ergänzt durch d4 zu einem katalanischen Aufbau. Schwarz behält mit …c6 und …Lg4 " +
+      "oder mit …e6 und …Le7 ein gesundes Spiel, und der Bauer d5 ist das Ziel beider weißer " +
+      "Pläne.",
+  },
+
+  "1.g3 Nf6 2.Bg2 g6": {
+    strategy:
+      "Spiegelt den weißen Aufbau: Es folgen …Lg7 und …O-O, dann …d6 oder …d5, mit …c5 oder " +
+      "…e5 als Zentrumshebel. Jeder fianchettierte Läufer beherrscht seine eigene lange " +
+      "Diagonale, der weiße h1–a8, der schwarze a1–h8. Weiß wählt zwischen c4 mit Sc3, einer " +
+      "Englischen Eröffnung mit beiderseits fianchettierten Königsläufern, Sf3 mit O-O und d3 " +
+      "sowie d4 mit c4, was zu einer Königsindischen oder Grünfeld-Verteidigung mit " +
+      "Fianchetto führt.",
+  },
+
+  "1.g3 Nf6 2.Bg2 e5": {
+    strategy:
+      "Besetzt das Zentrum, öffnet den Läufer f8 und geht in 1.g3 e5 2.Lg2 Sf6 über. Weiß " +
+      "wählt zwischen d3, Sf3 und O-O, einem königsindischen Aufbau mit vertauschten Farben, " +
+      "und c4 mit Sc3 für eine Englische Eröffnung. Schwarz baut mit …d5 oder mit …Sc6 und " +
+      "…d6 auf, und der Bauer e5 braucht einen Verteidiger, sobald Sf3 ihn angreift.",
+  },
+
+  "1.g3 Nf6 2.Bg2 c5": {
+    strategy:
+      "Kontrolliert d4 von der Flanke aus und hält …d5, …e6 und …g6 offen. Weiß kann mit c4 " +
+      "und Sc3 in die Symmetrievariante der Englischen Eröffnung einlenken oder Sf3 und O-O " +
+      "spielen und das Zentrum flexibel halten. Schwarz setzt mit …Sc6 und …g6 zu einem " +
+      "symmetrischen Aufbau fort oder beansprucht mit …d5 das Zentrum.",
+  },
+
+  "1.g3 Nf6 2.Bg2 e6": {
+    strategy:
+      "Öffnet den Läufer f8 und bereitet …d5 mit …Le7 vor, einen soliden Aufbau. Weiß " +
+      "begegnet ihm mit Sf3, d3 und e4 nach Art des Königsindischen Angriffs oder mit c4 und " +
+      "d4 zu einer Katalanischen Eröffnung. Der Preis ist der Läufer c8, der nach …d5 hinter " +
+      "e6 eingesperrt bleibt, sofern Schwarz ihn nicht mit …b6 und …Lb7 entwickelt, was erst " +
+      "sicher ist, wenn …d5 die lange Diagonale geschlossen hat.",
+  },
+
+  "1.g3 Nf6 2.Bg2 Nc6": {
+    strategy:
+      "Entwickelt einen Springer in Richtung d4 und e5 und verstellt die lange Diagonale, " +
+      "sodass Lxc6 nur den besten weißen Läufer hergeben würde. Der Zug stellt jedoch keinen " +
+      "Bauern ins Zentrum, sodass Weiß mit d4 oder c4 Raum gewinnen kann und Schwarz " +
+      "reagieren muss. Solide, aber weniger flexibel als …d5 oder …e5.",
+  },
+
+  "1.g3 Nf6 2.Bg2 c6": {
+    strategy:
+      "Bereitet …d5 hinter einer soliden Bauernkette vor und schließt die lange Diagonale " +
+      "vorsorglich, mit …Lg4 oder …Lf5 als Fortsetzung, sobald das Zentrum geklärt ist. Der " +
+      "c-Bauer ist festgelegt, bevor Weiß seinen Aufbau zeigt, und der Springer b8 verliert " +
+      "das Feld c6 und entwickelt sich meist über d7. Solide, aber langsamer als sofort …d5.",
+  },
+
+  "1.g3 Nf6 2.Bg2 d6": {
+    strategy:
+      "Bereitet …e5 und einen kompakten Aufbau mit …Sbd7, …Le7 oder …g6 vor und öffnet die " +
+      "Diagonale des Läufers c8. Der Zug überlässt Weiß Raum im Zentrum, sodass Weiß mit c4, " +
+      "Sc3 und e4 oder nach Sf3 mit d4 aufbaut. Solide, aber passiv.",
+  },
+
+  "1.g3 Nf6 2.Bg2 Na6": {
+    strategy:
+      "Stellt einen Springer an den Rand, von wo er b4 und c5 ins Auge fasst, aber nichts für " +
+      "das Zentrum tut. Weiß gewinnt Zeit für Sf3, O-O und d4 oder c4, und d4 nimmt ihm zudem " +
+      "das Feld c5.",
+  },
+
+  "1.g3 Nf6 2.Bg2 Rg8": {
+    strategy:
+      "Verschenkt ein Tempo und gibt die kurze Rochade endgültig auf, ohne der Entwicklung " +
+      "oder dem Zentrum zu helfen. Der Turm hat auf g8 keine Aufgabe, während Weiß einfach " +
+      "mit Sf3, O-O und d4 fortsetzt.",
+  },
+
+  "1.g3 Nf6 2.Bg2 a6": {
+    strategy:
+      "Ein Wartezug, der …b5 vorbereitet, doch dieser Vorstoß würde den Turm a8 weiterhin an " +
+      "Lxa8 verlieren, solange die lange Diagonale offen ist. Er tut nichts für das Zentrum " +
+      "oder die Entwicklung, und Weiß setzt mit Sf3, O-O und d4 oder c4 fort.",
+  },
+
+  "1.g3 Nf6 2.Bg2 a5": {
+    strategy:
+      "Gewinnt etwas Raum am Damenflügel und kontrolliert b4, tut aber nichts für das Zentrum " +
+      "oder die Entwicklung. Weiß setzt ungestört mit Sf3, O-O und d4 oder c4 fort.",
+  },
+
+  "1.g3 Nf6 2.Bg2 g5": {
+    strategy:
+      "Gewinnt Raum am Königsflügel, schwächt aber f5 und h5 und die Deckung eines später " +
+      "rochierten Königs. Der Bauer ist zudem angreifbar: 3.d4 droht Lxg5, und 3.h4 greift " +
+      "ihn direkt an, sodass Schwarz weitere Züge für ihn aufwenden muss.",
+  },
+
+  "1.g3 Nf6 2.Bg2 h6": {
+    strategy:
+      "Ein vorbeugender Bauernzug, der einem noch hinter den eigenen Bauern eingesperrten " +
+      "Läufer das Feld g5 nimmt. Er hilft weder der Entwicklung noch dem Zentrum, und Weiß " +
+      "spielt in aller Ruhe Sf3, O-O und d4 oder c4.",
+  },
+
+  "1.g3 Nf6 2.Bg2 h5": {
+    strategy:
+      "Bereitet …h4 vor, um Linien gegen g3 zu öffnen, schwächt aber g5 und entwickelt " +
+      "nichts. Weiß kann den Bauern mit h4 aufhalten oder sich einfach mit Sf3 und d4 " +
+      "entwickeln.",
+  },
+
+  "1.g3 Nf6 2.Bg2 Ng8": {
+    strategy:
+      "Nimmt den ersten Zug zurück. Schwarz hat zwei Tempi verbraucht, um zur " +
+      "Ausgangsstellung zurückzukehren, während Weiß den Läufer entwickelt hat und im Zentrum " +
+      "freie Hand behält.",
+  },
+
+  "1.g3 Nf6 2.Bg2 Ng4": {
+    strategy:
+      "Fasst f2 und h2 ins Auge, doch beide sind gedeckt, und 3.h3 vertreibt den Springer " +
+      "sofort; 3…Se5 4.d4 bringt Weiß nur weiteren Zeitgewinn. Nach dem Rückzug nach f6 hat " +
+      "Schwarz zwei Züge mit dem Springer verbraucht, während Weiß h3 gespielt hat.",
+  },
+
+  "1.g3 Nf6 2.Bg2 Nh5": {
+    strategy:
+      "Stellt den Springer an den Rand, wo er g3 ins Auge fasst, ihn aber nicht schlagen " +
+      "kann, da der Bauer von h2 und f2 gedeckt ist. Der Zug tut nichts für das Zentrum oder " +
+      "die Entwicklung, und Weiß bekommt Sf3, O-O und d4 oder c4 geschenkt.",
+  },
+
+  "1.g3 Nf6 2.Bg2 b6": {
+    strategy:
+      "Öffnet die lange Diagonale, und 3.Lxa8 schlägt den Turm, da keine schwarze Figur auf " +
+      "a8 zurückschlagen kann; selbst wenn der Läufer dort später eingesperrt wird, bleibt " +
+      "Weiß mindestens die Qualität voraus. Ein Damenfianchetto funktioniert erst, wenn die " +
+      "Diagonale zuvor geschlossen ist, etwa durch …d5 oder …c6.",
+  },
+
+  "1.g3 Nf6 2.Bg2 b5": {
+    strategy:
+      "Öffnet ebenfalls die lange Diagonale: 3.Lxa8 schlägt den Turm, da keine schwarze Figur " +
+      "auf a8 zurückschlagen kann, und Weiß bleibt mindestens die Qualität voraus, selbst " +
+      "wenn der Läufer dort später eingesperrt wird. Der Raumgewinn am Damenflügel wiegt das " +
+      "Material nicht auf.",
+  },
+
+  "1.g3 Nf6 2.Bg2 Ne4": {
+    strategy:
+      "Läuft in die Diagonale des Läufers: 3.Lxe4 gewinnt den Springer, da nichts e4 deckt " +
+      "und Schwarz keinen Bauern auf d5 hat, um zurückzuschlagen.",
+  },
+
+  "1.g3 Nf6 2.Bg2 Nd5": {
+    strategy:
+      "Stellt den Springer ein: 3.Lxd5 gewinnt ihn, da der Bauer d7 der Dame das " +
+      "Zurückschlagen auf d5 versperrt und nichts sonst das Feld deckt.",
+  },
 };

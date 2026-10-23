@@ -169,4 +169,170 @@ export const de: OpeningTexts = {
   "1.g3 g6": {
     name: "Königsfianchetto: Symmetrische Variante",
   },
+
+  "1.g3 g6 2.Bg2 Bg7": {
+    strategy:
+      "Vollendet das Fianchetto: Der Läufer blickt über die lange Diagonale nach c3 und b2, " +
+      "und …Sf6 sowie …O-O können sofort folgen. Schwarz spiegelt den weißen Aufbau und hält " +
+      "das Zentrum flexibel; zwischen …c5, …d5 und …e5 entscheidet er, sobald der weiße Plan " +
+      "feststeht. Noch hat keine Seite einen Bauern im Zentrum, also legt sich Weiß zuerst " +
+      "fest: auf c4 mit Sc3, auf Sf3 und d3 nebst e4 oder auf d4.",
+  },
+
+  "1.g3 g6 2.Bg2 Nf6": {
+    strategy:
+      "Entwickelt den Springer auf sein natürliches Feld, wo er d5 und e4 kontrolliert, und " +
+      "führt zur Stellung nach 1.g3 Sf6 2.Lg2 g6. Schwarz lässt …Lg7 und …O-O folgen und " +
+      "wählt …d6, …d5 oder …c5, sobald Weiß seinen Plan gezeigt hat. Das Zentrum bleibt auf " +
+      "beiden Seiten unbesetzt, sodass Weiß weiter zwischen c4 mit Sc3, dem ruhigeren d3 " +
+      "nebst e4 oder d4 wählen kann.",
+  },
+
+  "1.g3 g6 2.Bg2 d5": {
+    strategy:
+      "Besetzt sofort das Zentrum und führt zur Stellung nach 1.g3 d5 2.Lg2 g6, mit …Lg7 und " +
+      "…Sf6 als Fortsetzung. Der Läufer g2 wirkt bereits auf d5, und c4 bringt einen zweiten " +
+      "Angreifer, also deckt Schwarz den Bauern mit …c6 oder …Sf6. Weiß kann stattdessen Sf3, " +
+      "O-O, d3 und e4 spielen, einen Aufbau des Königsindischen Angriffs, der d5 erst später " +
+      "angreift.",
+  },
+
+  "1.g3 g6 2.Bg2 c5": {
+    strategy:
+      "Kämpft um d4 und gewinnt Raum am Damenflügel, mit …Lg7 und …Sc6 als Fortsetzung. Nach " +
+      "c4 entsteht die Symmetrievariante der Englischen Eröffnung, in der beide Königsläufer " +
+      "fianchettiert sind. Weiß kann stattdessen mit d4 das Zentrum öffnen; nach …cxd4 Dxd4 " +
+      "greift die Dame über die offene lange Diagonale den Turm h8 an, und Schwarz verstellt " +
+      "sie mit …Sf6. Bis …d6 oder …d5 hat Schwarz keinen Bauern im Zentrum.",
+  },
+
+  "1.g3 g6 2.Bg2 e5": {
+    strategy:
+      "Sichert sich sofort einen Anteil am Zentrum, mit …Lg7, …d6 und …Sc6 oder …Se7 als " +
+      "Fortsetzung in einer königsindischen Bauernstruktur. Weiß antwortet mit c4 und Sc3 " +
+      "oder mit d3, Sf3 und O-O. Der Bauer legt sich fest, bevor eine Figur entwickelt ist: " +
+      "Sf3 greift ihn sofort an, und nach d4 exd4 Dxd4 trifft die Dame über die offene " +
+      "Diagonale den Turm h8.",
+  },
+
+  "1.g3 g6 2.Bg2 Nc6": {
+    strategy:
+      "Entwickelt den Springer, nimmt d4 und e5 ins Visier und verstellt die lange Diagonale " +
+      "des Lg2 auf c6, wobei …Lg7 und …e5 möglich bleiben. Der Springer blockiert allerdings " +
+      "den c-Bauern, sodass …c5 und …c6 entfallen, und Weiß kann mit e4 und d4 Raum gewinnen, " +
+      "bevor Schwarz sich für eine Struktur entschieden hat.",
+  },
+
+  "1.g3 g6 2.Bg2 d6": {
+    strategy:
+      "Öffnet den Läufer c8 und steuert einen Aufbau wie in der Modernen oder der " +
+      "Königsindischen Verteidigung an, mit …Lg7 und …Sf6 oder …e5 als Fortsetzung. Das " +
+      "Zentrum bleibt vorerst Weiß überlassen, sodass c4, d4 oder e4 folgen können, während " +
+      "der Lg2 schon entwickelt ist.",
+  },
+
+  "1.g3 g6 2.Bg2 c6": {
+    strategy:
+      "Bereitet …d5 mit Bauernstütze vor und verstellt die lange Diagonale des Lg2 auf c6, " +
+      "sodass ein späteres …b6 oder …b5 den Turm a8 nicht mehr einstellt. Das Zentrum bleibt " +
+      "vorerst Weiß überlassen, sodass e4 oder d4 sofort folgen kann, und der c-Bauer ist " +
+      "festgelegt, bevor das Zentrum Gestalt angenommen hat.",
+  },
+
+  "1.g3 g6 2.Bg2 e6": {
+    strategy:
+      "Bereitet …d5 und …Se7 neben …Lg7 in einem kompakten Aufbau vor. Der Bauer e6 sperrt " +
+      "den Läufer c8 ein, der nur über d7 oder nach …b6 über b7 herauskommt, und …b6 muss " +
+      "warten, bis …d5 oder …c6 die lange Diagonale geschlossen hat. Weiß entwickelt sich " +
+      "ungestört mit Sf3, O-O und c4 oder d4.",
+  },
+
+  "1.g3 g6 2.Bg2 f5": {
+    strategy:
+      "Kontrolliert e4 und bereitet …Sf6, …Lg7 und …O-O vor, die Bauernstruktur des " +
+      "Leningrader Systems der Holländischen Verteidigung. Der Aufbau ist zweischneidig: Er " +
+      "schwächt e6 und die Deckung des Königs, und Weiß antwortet mit Sf3, O-O und d3 nebst " +
+      "e4 oder mit c4 und d4.",
+  },
+
+  "1.g3 g6 2.Bg2 Na6": {
+    strategy:
+      "Stellt den Springer an den Rand, wo er b4 und c5 im Blick hat, aber kein Zentrumsfeld " +
+      "kontrolliert. Weiß nutzt die Zeit für Sf3, O-O und d4 oder c4, und d4 nimmt dem " +
+      "Springer zudem das Feld c5.",
+  },
+
+  "1.g3 g6 2.Bg2 Nh6": {
+    strategy:
+      "Schickt den Springer über den Rand nach f5, wo ihn ein Bauer auf e4 vertreiben würde; " +
+      "von h6 aus kontrolliert er kein Zentrumsfeld. Weiß setzt mit Sf3, O-O und d4 oder c4 " +
+      "fort.",
+  },
+
+  "1.g3 g6 2.Bg2 Bh6": {
+    strategy:
+      "Stellt den Läufer nach h6 statt nach g7, wo der Bauer d2 seine Diagonale versperrt und " +
+      "er keinen Anteil am Kampf um die lange Diagonale hat. Sobald d3 oder d4 die Diagonale " +
+      "c1–h6 öffnet, muss Schwarz entweder den Tausch der schwarzfeldrigen Läufer zulassen, " +
+      "wodurch die durch …g6 geschwächten Felder ihren Verteidiger verlieren, oder einen " +
+      "weiteren Zug für …Lg7 aufwenden.",
+  },
+
+  "1.g3 g6 2.Bg2 a6": {
+    strategy:
+      "Investiert ein Tempo in einen Randbauern, der …b5 vorbereitet, doch dieser Vorstoß " +
+      "würde den Turm a8 an Lxa8 verlieren, solange die lange Diagonale offen ist. Weiß " +
+      "entwickelt sich mit Sf3 und O-O und besetzt dann mit c4 oder d4 das Zentrum.",
+  },
+
+  "1.g3 g6 2.Bg2 a5": {
+    strategy:
+      "Gewinnt Raum am Damenflügel und deckt b4, entwickelt aber nichts, und der a-Bauer kann " +
+      "b5 und b6 nicht mehr decken. Weiß setzt mit Sf3, O-O und d4 oder c4 ungestört fort.",
+  },
+
+  "1.g3 g6 2.Bg2 f6": {
+    strategy:
+      "Bereitet …e5 vor, verstellt aber die lange Diagonale vor dem künftigen Läufer g7, " +
+      "nimmt dem Königsspringer das Feld f6 und öffnet die Diagonale a2–g8 zum Rochadefeld " +
+      "des Königs. Weiß entwickelt sich mit Sf3, O-O und c4 oder d4, während Schwarz noch " +
+      "keine Figur entwickelt hat.",
+  },
+
+  "1.g3 g6 2.Bg2 h6": {
+    strategy:
+      "Investiert ein Tempo in einen Randbauern, der den weißen Figuren nur das Feld g5 nimmt " +
+      "und die schwarze Entwicklung nicht voranbringt. Weiß entwickelt sich mit Sf3 und O-O " +
+      "und besetzt dann mit c4 oder d4 das Zentrum.",
+  },
+
+  "1.g3 g6 2.Bg2 h5": {
+    strategy:
+      "Gewinnt Raum am Königsflügel und bereitet …h4 gegen g3 vor, entwickelt aber nichts. " +
+      "3.h4 hält den Vorstoß sofort auf, und der Bauer h4 stützt dann einen weißen Springer " +
+      "auf g5.",
+  },
+
+  "1.g3 g6 2.Bg2 g5": {
+    strategy:
+      "Zieht den g-Bauern ein zweites Mal und lässt ihn auf g5 ungedeckt: Sobald d3 oder d4 " +
+      "den Läufer c1 öffnet, droht Lxg5, und Schwarz muss einen weiteren Zug für …h6, …f6 " +
+      "oder …Lh6 aufwenden. Der Königsflügel bleibt dauerhaft geschwächt.",
+  },
+
+  "1.g3 g6 2.Bg2 b6": {
+    strategy:
+      "Stellt den Turm ein: Ohne den Bauern b7 ist die lange Diagonale bis a8 offen, und " +
+      "3.Lxa8 schlägt den Turm, da weder der Läufer c8 noch die Dame zurückschlagen kann. " +
+      "Selbst wenn der Läufer später in der Ecke gefangen wird, bleibt Weiß mindestens eine " +
+      "Qualität vorn.",
+  },
+
+  "1.g3 g6 2.Bg2 b5": {
+    strategy:
+      "Öffnet die lange Diagonale bis a8: 3.Lxa8 schlägt den Turm, und keine schwarze Figur " +
+      "kann dort zurückschlagen. Weiß bleibt mindestens eine Qualität vorn, selbst wenn der " +
+      "Läufer später gefangen wird, und der Raumgewinn am Damenflügel ist kein Ausgleich " +
+      "dafür.",
+  },
 };

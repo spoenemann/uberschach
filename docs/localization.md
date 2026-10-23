@@ -124,7 +124,8 @@ one file per language with the names, backgrounds and strategy texts
 (`docs/product-specs/opening-explorer.md`, The database), joined as a
 `Record<Language, …>` with `Language` from `src/i18n/language.ts`:
 `<name>.ts`, `<name>.en.ts`, `<name>.de.ts`; `src/content/firstMoves.ts`
-is the first. Both the data and the prose name a position by the canonical
+is the first, and `src/content/lines/` holds a module per followed opening
+line. Both the data and the prose name a position by the canonical
 line that reaches it, in English notation, and each language's prose is
 written in its own notation: the key says `1.Nf3`, the German text beside
 it says `Sf3`, and nothing is translated at runtime. English is complete;
