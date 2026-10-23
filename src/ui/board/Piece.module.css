@@ -1,0 +1,33 @@
+/* A piece is an outlined silhouette in one of two colours; its detail lines
+   are in the other (docs/design-docs/design-system.md, Pieces). The stroke
+   widths are drawing units and live with the drawings in pieceShapes.ts. */
+.piece {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.piece[data-color="white"] {
+  --piece-fill: var(--piece-light);
+  --piece-outline: var(--piece-dark);
+  --piece-line: var(--piece-dark);
+}
+
+.piece[data-color="black"] {
+  --piece-fill: var(--piece-dark);
+  --piece-outline: var(--piece-dark);
+  --piece-line: var(--piece-light);
+}
+
+.parts {
+  fill: var(--piece-fill);
+  stroke: var(--piece-outline);
+  stroke-linejoin: round;
+}
+
+.lines {
+  fill: none;
+  stroke: var(--piece-line);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

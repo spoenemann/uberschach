@@ -1,0 +1,62 @@
+/* The board: a wooden object lying on the page, with the coordinates outside
+   it, small and muted (docs/design-docs/design-system.md, Board). */
+.board {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr auto;
+  gap: var(--space-2);
+  width: 100%;
+  font-size: var(--text-sm);
+  line-height: 1;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+  user-select: none;
+}
+
+.ranks {
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  align-items: center;
+}
+
+.files {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  justify-items: center;
+}
+
+.squares {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  aspect-ratio: 1;
+  border: 1px solid var(--board-edge);
+  border-radius: var(--radius-board);
+  box-shadow: var(--board-shadow);
+  overflow: hidden;
+}
+
+.square {
+  position: relative;
+  aspect-ratio: 1;
+}
+
+.square[data-color="light"] {
+  background: var(--board-light);
+}
+
+.square[data-color="dark"] {
+  background: var(--board-dark);
+}
+
+/* The highlight lies between the square and its piece. */
+.square[data-highlight]::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--board-highlight);
+}
+
+.square > * {
+  position: relative;
+}

@@ -30,6 +30,10 @@
   --board-highlight: rgb(47 104 70 / 0.5); /* last move, selected square */
   --board-target: rgb(47 104 70 / 0.5); /* legal-move dot */
 
+  /* Pieces: made of the page's ink and paper (design-system.md, Pieces). */
+  --piece-light: #ffffff;
+  --piece-dark: #241c14;
+
   /* Type: system faces only. Headings serif, everything else sans. */
   --font-heading:
     ui-serif, "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;

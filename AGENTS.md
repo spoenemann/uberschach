@@ -28,6 +28,9 @@ npm run dev                          # http://localhost:5173/uberschach/ (the ba
 - `src/domain/` — chess and training logic in pure TypeScript; tests run in plain Node.
 - `src/content/` — opening content as typed data files.
 - `src/ui/` — React components.
+- `src/ui/board/` — the board and the pieces; the piece drawings are path
+  data in `pieceShapes.ts`, judged by eye at 44px (`docs/design-docs/design-system.md`,
+  Pieces).
 - `src/ui/theme.css` — every colour, type, space, radius, shadow and motion value, as CSS custom properties; a component's CSS Module uses them, never a literal (`docs/design-docs/design-system.md`).
 - `src/app/` — entry point, wiring, browser storage.
 - Layers import downward only, app → ui → content → domain. `eslint.config.js` enforces it and mirrors the table in `docs/ARCHITECTURE.md`.

@@ -2,10 +2,26 @@
    requires (docs/design-docs/design-system.md, Layout). */
 .page {
   display: grid;
-  gap: var(--space-4);
+  gap: var(--space-6);
   max-width: var(--content-max);
   margin: 0 auto;
   padding-block: var(--space-12);
   padding-left: max(var(--space-4), env(safe-area-inset-left, 0px));
   padding-right: max(var(--space-4), env(safe-area-inset-right, 0px));
+}
+
+/* Board beside text on wide screens, stacked below 40rem (design system,
+   Layout; the breakpoint is a literal because custom properties cannot be
+   used in media queries). */
+.sample {
+  display: grid;
+  grid-template-columns: minmax(0, 32rem) minmax(0, 1fr);
+  gap: var(--space-8);
+  align-items: start;
+}
+
+@media (width < 40rem) {
+  .sample {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }

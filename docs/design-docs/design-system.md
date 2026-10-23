@@ -26,11 +26,10 @@ looks with classic chess vibes: wood, tangible, kept simple.
 - Non-goal: a dark theme. Light only; `prefers-color-scheme` is ignored. A
   dark theme later is a new decision, recorded here as an amendment, not a
   quiet addition.
-- Non-goal: the piece set and the board library. Both are chosen with the
-  opening explainer (`docs/exec-plans/completed/0001-agent-ready-setup.md`,
-  decision log). This design constrains the choice: flat vector pieces in
-  classic Staunton silhouettes, one light and one dark fill, no 3D, no
-  textures.
+- Non-goal: a board library and a rules engine. The board is a plain
+  component of this project (`src/ui/board/`), display only; interaction,
+  moving pieces and the rules library come with the opening explainer and
+  are a new decision in its plan.
 - Non-goal: a component library. Shared Button or Card components appear
   when a second screen needs them, not before.
 - Non-goal: branding. No logo, illustration or marketing page; the app name
@@ -68,6 +67,34 @@ looks with classic chess vibes: wood, tangible, kept simple.
   opacity, so they read by hue shift rather than brightness (2.0:1 against
   the light square, 1.2:1 against the dark one), and the move list is what
   names the move. Coordinates sit outside the board, small and muted.
+  Built as `src/ui/board/Board.tsx`: an 8 × 8 grid filling its container's
+  width, the edge a 1px border and the radius on the grid, the ranks in a
+  column on the left and the files in a row below, in `--text-sm` muted ink.
+  A highlight is an overlay between the square and its piece. The
+  legal-move dot has its token and no renderer yet; it comes with
+  interaction.
+- **Pieces** — drawn for this design, as inline SVG from path data in
+  `src/ui/board/pieceShapes.ts`, rendered by `Piece.tsx`: classic Staunton
+  silhouettes simplified to what a 44px square can show, no 3D, no texture,
+  no ornament. A piece is a few closed parts (plinth, stem, collar, head)
+  painted in order, each filled with the piece colour and outlined; a later
+  part's outline draws the joint, which is how a collar sits on a stem.
+  Detail lines (the bishop's slit, the knight's eye, nostril and mouth, the
+  crown and base lines) are stroked in the other colour. Two tokens:
+  `--piece-light`, white, and `--piece-dark`, the ink. A white piece is
+  light, outlined in dark; a black piece is dark, outlined in itself, with
+  light lines, and those lines are what give it structure on walnut (fill
+  against the dark square 3.7:1, lines against the fill 17:1; the white
+  fill against walnut 4.6:1). Readability first: a dark piece never gets a
+  lighter fill or a rim, and a notch cut into a silhouette (the rook's) is
+  12 drawing units wide, since the outline takes 2 from each side. Drawing
+  units: a 100 × 100
+  square, the outline 4 units centred on the edge (4% of the square: about
+  1.8px on a phone), lines 3.5, round joins and caps; the stroke widths are
+  part of the drawing and live with it, not in `theme.css`. The king is the
+  tallest at 86% of the square, the pawn the shortest at 73%; queen and
+  knight are the widest at about 70%; the knight faces left. A piece fills
+  its square; the square's size is the only scaling.
 - **Type** — system faces only; no web fonts. `--font-heading`, a serif
   stack, for `h1` to `h3`; `--font-body`, a sans stack, for everything else
   including move notation, which is set with
@@ -93,7 +120,9 @@ looks with classic chess vibes: wood, tangible, kept simple.
   always with a visible label or an `aria-label`.
 - **Key interfaces** — `src/ui/theme.css` (every token, by the names above);
   `*.module.css` (one per component); `src/app/App.module.css` (the page
-  frame, the first user of the tokens).
+  frame, the first user of the tokens); `src/ui/board/Board.tsx` (the
+  board: position, orientation, highlighted squares); `src/ui/board/Piece.tsx`
+  and `pieceShapes.ts` (one piece, and the drawings it renders).
 
 ### Invariants
 
@@ -106,6 +135,11 @@ looks with classic chess vibes: wood, tangible, kept simple.
 - Nothing under `src/` queries `prefers-color-scheme`. (promotion candidate)
 - Styles live in CSS Modules; an inline `style` prop carries only a value
   computed at runtime, such as a square's position. (promotion candidate)
+- The piece drawings carry no colour; a piece's colours are the two
+  `--piece-*` tokens, applied in `Piece.module.css`, and the pieces are
+  inline SVG, never an image file or a font glyph. (promotion candidate:
+  the visual check's images rule would see an `<img>`; a colour in
+  `pieceShapes.ts` has no sensor)
 - Text colours meet WCAG AA on their background. Against `--color-bg`: ink
   16.1:1, muted ink 5.9:1, accent 6.3:1, bad 6.2:1, note 5.1:1; white on the
   accent 6.6:1. A new text colour is measured the same way before it lands.
@@ -139,14 +173,33 @@ looks with classic chess vibes: wood, tangible, kept simple.
 - **Desktop only, or mobile first** — desktop only is unusable on a phone;
   mobile first designs for the phone first, which nothing in the product
   brief asks for.
+- **An existing open piece set (cburnett, Merida, Alpha, as on lichess)** —
+  proven drawings, each under its own licence, with its own line weight and
+  colouring tuned to another board; none takes the tokens, and the
+  readability of a black piece on this walnut was not theirs to solve.
+- **Unicode chess glyphs or a piece web font** — the glyphs differ by OS and
+  font; a web font is the request or bundle the design excludes.
+- **Raster sprites** — soft at arbitrary sizes, one more asset to maintain,
+  no token colouring.
+- **A light rim around dark pieces** — the strongest separation on walnut,
+  but it reads as a sticker and the dark pieces look thinner on maple; the
+  light detail lines give the structure instead. A half-transparent rim was
+  offered too and not chosen.
+- **Ivory light pieces** — warmer against maple, but 3.8:1 against walnut
+  where white gives 4.6:1.
+- **A lighter (3.5%) or heavier (4.5%) outline** — the lighter weakens
+  white pieces on maple at phone size; the heavier fills the rook's notches
+  and the queen's crown.
 
 ## Cross-cutting concerns
 
 - Accessibility: text contrast as measured above; a visible focus ring on
   every focusable element; colour never the only signal for feedback;
-  `prefers-reduced-motion` respected. Open: board highlights are low in
-  luminance contrast by design; a selected-square cue beyond colour is
-  decided with the board component.
+  `prefers-reduced-motion` respected. The board is an image named by the
+  position in words (`describePosition` in `src/domain/position.ts`), and
+  each piece names itself ("white knight"). Open: board highlights are low
+  in luminance contrast by design; a selected-square cue beyond colour is
+  decided when the board becomes interactive.
 - Performance and privacy: no web fonts, no images in the chrome, no
   third-party request.
 - Print: not considered.
@@ -156,3 +209,12 @@ looks with classic chess vibes: wood, tangible, kept simple.
 - 2026-10-23: the no-third-party-request rule under Cross-cutting concerns
   gained a sensor: `scripts/visual-check.mjs` fails `npm run check` on any
   request off the origin (`docs/visual-verification.md`).
+- 2026-10-23: the piece set and the board component (Board, Pieces).
+  Decided with the maintainer from a preview of the set on both square
+  colours at 44, 64 and 100px: ink outline on dark pieces, not a light rim;
+  white light pieces, not ivory; outline at 4% of the square, not 3.5 or
+  4.5. The board's position model is a small domain module
+  (`src/domain/position.ts`) rather than a chess library adopted now; the
+  library choice stays with the opening explainer. Tokens added:
+  `--piece-light`, `--piece-dark`. The non-goal on the piece set and the
+  board library is replaced by the one on a board library and rules engine.
