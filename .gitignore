@@ -1,5 +1,7 @@
 node_modules
 dist
+# The served book, written by `npm run build:openings` (scripts/content/serve.mjs)
+/public/openings/
 coverage
 *.local
 *.log

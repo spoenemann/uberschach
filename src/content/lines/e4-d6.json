@@ -1,0 +1,781 @@
+{
+  "about": "After 1.e4 d6 (Pirc Defence): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written.",
+  "positions": [
+    {
+      "line": "1.e4 d6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pirc_Defence"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "b3",
+          "rating": 3
+        },
+        {
+          "san": "c3",
+          "rating": 3
+        },
+        {
+          "san": "c4",
+          "rating": 3
+        },
+        {
+          "san": "d3",
+          "rating": 3
+        },
+        {
+          "san": "g3",
+          "rating": 3
+        },
+        {
+          "san": "Be2",
+          "rating": 3
+        },
+        {
+          "san": "Bc4",
+          "rating": 3
+        },
+        {
+          "san": "f4",
+          "rating": 3
+        },
+        {
+          "san": "a3",
+          "rating": 2
+        },
+        {
+          "san": "a4",
+          "rating": 2
+        },
+        {
+          "san": "b4",
+          "rating": 2
+        },
+        {
+          "san": "f3",
+          "rating": 2
+        },
+        {
+          "san": "h3",
+          "rating": 2
+        },
+        {
+          "san": "Na3",
+          "rating": 2
+        },
+        {
+          "san": "Qe2",
+          "rating": 2
+        },
+        {
+          "san": "Qf3",
+          "rating": 2
+        },
+        {
+          "san": "Qh5",
+          "rating": 2
+        },
+        {
+          "san": "Bd3",
+          "rating": 2
+        },
+        {
+          "san": "Bb5+",
+          "rating": 2
+        },
+        {
+          "san": "Nh3",
+          "rating": 2
+        },
+        {
+          "san": "Ne2",
+          "rating": 2
+        },
+        {
+          "san": "g4",
+          "rating": 1
+        },
+        {
+          "san": "h4",
+          "rating": 1
+        },
+        {
+          "san": "Qg4",
+          "rating": 1
+        },
+        {
+          "san": "Ke2",
+          "rating": 1
+        },
+        {
+          "san": "Ba6",
+          "rating": 1
+        },
+        {
+          "san": "e5",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "g6",
+          "rating": 4
+        },
+        {
+          "san": "Nd7",
+          "rating": 3
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
+        },
+        {
+          "san": "e5",
+          "rating": 3
+        },
+        {
+          "san": "c5",
+          "rating": 3
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        },
+        {
+          "san": "e6",
+          "rating": 3
+        },
+        {
+          "san": "f5",
+          "rating": 2
+        },
+        {
+          "san": "d5",
+          "rating": 2
+        },
+        {
+          "san": "b6",
+          "rating": 2
+        },
+        {
+          "san": "a6",
+          "rating": 2
+        },
+        {
+          "san": "a5",
+          "rating": 2
+        },
+        {
+          "san": "h6",
+          "rating": 2
+        },
+        {
+          "san": "h5",
+          "rating": 2
+        },
+        {
+          "san": "f6",
+          "rating": 2
+        },
+        {
+          "san": "Bd7",
+          "rating": 2
+        },
+        {
+          "san": "Be6",
+          "rating": 2
+        },
+        {
+          "san": "Qd7",
+          "rating": 2
+        },
+        {
+          "san": "Na6",
+          "rating": 2
+        },
+        {
+          "san": "Nh6",
+          "rating": 2
+        },
+        {
+          "san": "Kd7",
+          "rating": 1
+        },
+        {
+          "san": "b5",
+          "rating": 1
+        },
+        {
+          "san": "g5",
+          "rating": 1
+        },
+        {
+          "san": "Bf5",
+          "rating": 1
+        },
+        {
+          "san": "Bg4",
+          "rating": 1
+        },
+        {
+          "san": "Bh3",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.Nf3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "c5",
+          "rating": 5
+        },
+        {
+          "san": "e5",
+          "rating": 4
+        },
+        {
+          "san": "g6",
+          "rating": 4
+        },
+        {
+          "san": "Nd7",
+          "rating": 3
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
+        },
+        {
+          "san": "Bg4",
+          "rating": 3
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        },
+        {
+          "san": "e6",
+          "rating": 3
+        },
+        {
+          "san": "b6",
+          "rating": 3
+        },
+        {
+          "san": "d5",
+          "rating": 2
+        },
+        {
+          "san": "f5",
+          "rating": 2
+        },
+        {
+          "san": "f6",
+          "rating": 2
+        },
+        {
+          "san": "Bd7",
+          "rating": 2
+        },
+        {
+          "san": "Be6",
+          "rating": 2
+        },
+        {
+          "san": "Qd7",
+          "rating": 2
+        },
+        {
+          "san": "Nh6",
+          "rating": 2
+        },
+        {
+          "san": "Na6",
+          "rating": 2
+        },
+        {
+          "san": "a6",
+          "rating": 2
+        },
+        {
+          "san": "a5",
+          "rating": 2
+        },
+        {
+          "san": "h6",
+          "rating": 2
+        },
+        {
+          "san": "h5",
+          "rating": 2
+        },
+        {
+          "san": "b5",
+          "rating": 1
+        },
+        {
+          "san": "g5",
+          "rating": 1
+        },
+        {
+          "san": "Kd7",
+          "rating": 1
+        },
+        {
+          "san": "Bf5",
+          "rating": 1
+        },
+        {
+          "san": "Bh3",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.Nc3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "g6",
+          "rating": 4
+        },
+        {
+          "san": "c5",
+          "rating": 4
+        },
+        {
+          "san": "e5",
+          "rating": 3
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        },
+        {
+          "san": "Nd7",
+          "rating": 3
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
+        },
+        {
+          "san": "e6",
+          "rating": 3
+        },
+        {
+          "san": "b6",
+          "rating": 3
+        },
+        {
+          "san": "Na6",
+          "rating": 2
+        },
+        {
+          "san": "Bd7",
+          "rating": 2
+        },
+        {
+          "san": "Be6",
+          "rating": 2
+        },
+        {
+          "san": "Qd7",
+          "rating": 2
+        },
+        {
+          "san": "Nh6",
+          "rating": 2
+        },
+        {
+          "san": "a6",
+          "rating": 2
+        },
+        {
+          "san": "a5",
+          "rating": 2
+        },
+        {
+          "san": "f6",
+          "rating": 2
+        },
+        {
+          "san": "f5",
+          "rating": 2
+        },
+        {
+          "san": "h6",
+          "rating": 2
+        },
+        {
+          "san": "h5",
+          "rating": 2
+        },
+        {
+          "san": "Bf5",
+          "rating": 1
+        },
+        {
+          "san": "Bg4",
+          "rating": 1
+        },
+        {
+          "san": "Bh3",
+          "rating": 1
+        },
+        {
+          "san": "Kd7",
+          "rating": 1
+        },
+        {
+          "san": "b5",
+          "rating": 1
+        },
+        {
+          "san": "g5",
+          "rating": 1
+        },
+        {
+          "san": "d5",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.b3"
+    },
+    {
+      "line": "1.e4 d6 2.c3"
+    },
+    {
+      "line": "1.e4 d6 2.c4"
+    },
+    {
+      "line": "1.e4 d6 2.d3"
+    },
+    {
+      "line": "1.e4 d6 2.g3"
+    },
+    {
+      "line": "1.e4 d6 2.Be2"
+    },
+    {
+      "line": "1.e4 d6 2.Bc4"
+    },
+    {
+      "line": "1.e4 d6 2.a3"
+    },
+    {
+      "line": "1.e4 d6 2.a4"
+    },
+    {
+      "line": "1.e4 d6 2.b4"
+    },
+    {
+      "line": "1.e4 d6 2.f3"
+    },
+    {
+      "line": "1.e4 d6 2.f4"
+    },
+    {
+      "line": "1.e4 d6 2.h3"
+    },
+    {
+      "line": "1.e4 d6 2.Na3"
+    },
+    {
+      "line": "1.e4 d6 2.Qe2"
+    },
+    {
+      "line": "1.e4 d6 2.Qf3"
+    },
+    {
+      "line": "1.e4 d6 2.Qh5"
+    },
+    {
+      "line": "1.e4 d6 2.Bd3"
+    },
+    {
+      "line": "1.e4 d6 2.Bb5+"
+    },
+    {
+      "line": "1.e4 d6 2.Nh3"
+    },
+    {
+      "line": "1.e4 d6 2.Ne2"
+    },
+    {
+      "line": "1.e4 d6 2.g4"
+    },
+    {
+      "line": "1.e4 d6 2.h4"
+    },
+    {
+      "line": "1.e4 d6 2.Qg4"
+    },
+    {
+      "line": "1.e4 d6 2.Ke2"
+    },
+    {
+      "line": "1.e4 d6 2.Ba6"
+    },
+    {
+      "line": "1.e4 d6 2.e5"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6"
+    },
+    {
+      "line": "1.e4 d6 2.d4 g6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Modern_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nd7"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nc6"
+    },
+    {
+      "line": "1.e4 d6 2.d4 e5"
+    },
+    {
+      "line": "1.e4 d6 2.d4 c5"
+    },
+    {
+      "line": "1.e4 d6 2.d4 f5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Balogh_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 d5"
+    },
+    {
+      "line": "1.e4 d6 2.d4 b6"
+    },
+    {
+      "line": "1.e4 d6 2.d4 a6"
+    },
+    {
+      "line": "1.e4 d6 2.d4 a5"
+    },
+    {
+      "line": "1.e4 d6 2.d4 h6"
+    },
+    {
+      "line": "1.e4 d6 2.d4 h5"
+    },
+    {
+      "line": "1.e4 d6 2.d4 f6"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Bd7"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Be6"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Qd7"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Na6"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nh6"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Kd7"
+    },
+    {
+      "line": "1.e4 d6 2.d4 b5"
+    },
+    {
+      "line": "1.e4 d6 2.d4 g5"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Bf5"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Bg4"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Bh3"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 Nf6"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 g6"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 Nd7"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 Nc6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nimzowitsch_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 Bg4"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 e6"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 b6"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 d5"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 f5"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 f6"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 Bd7"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 Be6"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 Qd7"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 Nh6"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 Na6"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 a6"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 a5"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 h6"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 h5"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 b5"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 g5"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 Kd7"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 Bf5"
+    },
+    {
+      "line": "1.e4 d6 2.Nf3 Bh3"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 Nf6"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 g6"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 Nd7"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 Nc6"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 e6"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 b6"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 Na6"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 Bd7"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 Be6"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 Bf5"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 Bg4"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 Bh3"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 Qd7"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 Kd7"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 Nh6"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 a6"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 a5"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 b5"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 f6"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 f5"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 g5"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 h6"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 h5"
+    },
+    {
+      "line": "1.e4 d6 2.Nc3 d5"
+    }
+  ]
+}

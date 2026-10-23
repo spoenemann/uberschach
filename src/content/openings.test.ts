@@ -4,15 +4,18 @@
 // followed, to the depth the plan sets and no further, every historical
 // background names its source, and both languages are complete. Importing
 // OPENINGS already fails when data and prose disagree (book.ts); these tests
-// hold what the loader cannot know.
+// hold what the loader cannot know, and the shape of the modules and of the
+// served form that the app's loading relies on
+// (docs/adr/0001-opening-book-as-fetched-json.md).
 import { describe, expect, test } from "vitest";
 import { newGame, positionKey } from "../domain/game.ts";
-import { playLine } from "../domain/line.ts";
 import { legalMoves, playMove } from "../domain/moves.ts";
 import type { Position } from "../domain/position.ts";
 import { toSan } from "../domain/san.ts";
-import { buildBook, lookup, type BookPosition, type Rating } from "./book.ts";
+import { lookup, type BookPosition, type Rating } from "./book.ts";
+import { moduleId } from "./files.ts";
 import { MODULES, OPENINGS } from "./openings.ts";
+import { parseMove, serveBook } from "./serve.ts";
 
 /**
  * The deepest position, counted in moves played, from which the book writes
@@ -28,30 +31,67 @@ const ENGLISH_PIECE_MOVE = /(^|[\s(.])[NBRQ][a-h1-8]?x?[a-h][1-8](?![a-z0-9])/;
 
 const START = newGame().position;
 const positions = [...OPENINGS.values()];
+const keyOf = new Map([...OPENINGS].map(([key, entry]) => [entry, key]));
 
-/** How many moves a book entry's line plays: one token each, as formatLine writes it. */
-function plyOf(entry: BookPosition): number {
-  return entry.line.split(/\s+/).filter((token) => token !== "").length;
+/** How many moves a line plays: one token each, as formatLine writes it. */
+function plyOfLine(line: string): number {
+  return line.split(/\s+/).filter((token) => token !== "").length;
 }
 
-/** The position a book entry describes, replayed from its line. */
+function plyOf(entry: BookPosition): number {
+  return plyOfLine(entry.line);
+}
+
+/** The position a book entry describes, from its key, which is a FEN without the clocks. */
 function positionOf(entry: BookPosition): Position {
-  return playLine(newGame(), entry.line, "en").game.position;
+  return newGame(`${keyOf.get(entry) ?? ""} 0 1`).position;
 }
 
 describe("the shipped book", () => {
-  // The app builds the book without verifying (openings.ts); this is where every line and every move
-  // is checked: legal, written canonically, with an English strategy, and no position declared twice.
-  test("passes every check of the loader when built strictly, and the same positions come out", () => {
-    const strict = buildBook(MODULES);
-    expect(strict.size).toBe(OPENINGS.size);
-    for (const [key, entry] of strict) {
-      const shipped = OPENINGS.get(key);
-      expect(shipped?.line, `line at ${key}`).toBe(entry.line);
-      expect(shipped?.moves.map((move) => move.san), `moves from "${entry.line}"`).toEqual(
-        entry.moves.map((move) => move.san),
-      );
+  // The app fetches the book one module at a time, so a module's size is a chunk's size: a module
+  // holds one followed position, its root, and the positions up to two plies below it, and deeper
+  // content goes into modules of its own. The served chunk then grows with the branching, never
+  // with the depth (docs/adr/0001-opening-book-as-fetched-json.md).
+  test("every module is rooted at one position, named after it, and reaches at most two plies below it", () => {
+    for (const module of MODULES) {
+      const plies = module.positions.map((position) => plyOfLine(position.line));
+      const rootPly = Math.min(...plies);
+      const roots = module.positions.filter((position) => plyOfLine(position.line) === rootPly);
+      expect(roots.map((root) => root.line), `the shallowest position of lines/${module.id}.json`).toHaveLength(1);
+      expect(module.id, `the id of the module rooted at "${roots[0]?.line}"`).toBe(moduleId(roots[0]?.line ?? ""));
+      for (const position of module.positions) {
+        expect(
+          plyOfLine(position.line),
+          `"${position.line}" lies more than two plies below the root of lines/${module.id}.json; ` +
+            `declare it in a module of its own, lines/${moduleId(position.line)}.json, with the positions below it`,
+        ).toBeLessThanOrEqual(rootPly + 2);
+      }
     }
+  });
+
+  test("the served form holds every position once in its module's chunk, keyed and indexed, with its moves as squares", () => {
+    const served = serveBook(OPENINGS);
+    let count = 0;
+    for (const [id, chunk] of served.chunks) {
+      for (const position of chunk.positions) {
+        count += 1;
+        const entry = OPENINGS.get(position.key);
+        expect(entry?.line, `the key of "${position.line}"`).toBe(position.line);
+        expect(entry?.module, `the chunk of "${position.line}"`).toBe(id);
+        expect(served.index[position.key], `the index for "${position.line}"`).toBe(id);
+        expect(position).not.toHaveProperty("sources");
+        const before = entry === undefined ? START : positionOf(entry);
+        position.moves.forEach((move, index) => {
+          const written = entry?.moves[index];
+          expect(parseMove(move.move), `move ${move.san} from "${position.line}"`).toEqual(written?.move);
+          expect(move.leadsTo, `where ${move.san} from "${position.line}" leads`).toEqual(
+            written === undefined ? undefined : lookup(OPENINGS, playMove(before, written.move))?.name,
+          );
+        });
+      }
+    }
+    expect(count).toBe(OPENINGS.size);
+    expect(Object.keys(served.index)).toHaveLength(OPENINGS.size);
   });
 
   test("holds the initial position with an introduction in both languages and no name", () => {

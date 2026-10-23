@@ -25,8 +25,9 @@ function module(
   positions: readonly PositionData[],
   en: OpeningTexts,
   de: OpeningTexts = {},
+  id = "test",
 ): OpeningModule {
-  return { positions, texts: { en, de } };
+  return { id, positions, texts: { en, de } };
 }
 
 /** Two roads to the position after 1.d4 d5 2.Nf3, declared once. */
@@ -61,6 +62,7 @@ describe("buildBook", () => {
     expect(viaKnight?.background?.en).toBe("History");
     expect(viaKnight?.sources).toEqual(["https://example.org/qp"]);
     expect(viaKnight?.moves).toEqual([]);
+    expect(viaKnight?.module).toBe("test");
     expect(lookup(book, after("1.e4"))).toBeUndefined();
   });
 
@@ -75,23 +77,34 @@ describe("buildBook", () => {
     expect(lookup(book, after("1.d4"))?.name).toEqual({ en: "Queen's Pawn Game", de: "Damenbauernspiel" });
   });
 
+  test("a move leads to the name of the position it reaches, by transposition too, or to nothing", () => {
+    const moveOf = (line: string) => lookup(book, after(line))?.moves[0];
+    expect(moveOf("")?.leadsTo).toEqual({ en: "Queen's Pawn Game", de: "Damenbauernspiel" });
+    expect(moveOf("1.d4 d5")?.leadsTo).toEqual({ en: "Queen's Pawn: Zukertort" });
+    expect(moveOf("1.Nf3 d5")?.leadsTo).toEqual({ en: "Queen's Pawn: Zukertort" });
+    expect(moveOf("1.d4")?.leadsTo).toBeUndefined();
+  });
+
   test("a module may give a transposing move its own strategy without redeclaring the position", () => {
     const d4 = lookup(book, after("1.Nf3 d5"))?.moves[0];
     expect(d4?.strategy.en).toBe("d4 transposing");
   });
 
   test("merges modules, later modules declaring positions earlier ones only reach", () => {
-    const later = module([{ line: "1.e4", moves: [{ san: "e5", rating: 5 }] }], {
-      "1.e4": { name: "King's Pawn Game" },
-      "1.e4 e5": { strategy: "e5" },
-    });
-    const first = module([{ line: "", moves: [{ san: "e4", rating: 5 }] }], {
-      "1.e4": { strategy: "e4" },
-    });
+    const later = module(
+      [{ line: "1.e4", moves: [{ san: "e5", rating: 5 }] }],
+      { "1.e4": { name: "King's Pawn Game" }, "1.e4 e5": { strategy: "e5" } },
+      {},
+      "e4",
+    );
+    const first = module([{ line: "", moves: [{ san: "e4", rating: 5 }] }], { "1.e4": { strategy: "e4" } }, {}, "root");
     const merged = buildBook([first, later]);
     expect(merged.size).toBe(2);
     expect(lookup(merged, after("1.e4"))?.name?.en).toBe("King's Pawn Game");
+    expect(lookup(merged, after("1.e4"))?.module).toBe("e4");
     expect(lookup(merged, after(""))?.moves[0]?.strategy.en).toBe("e4");
+    // The name a move leads to is found across modules.
+    expect(lookup(merged, after(""))?.moves[0]?.leadsTo?.en).toBe("King's Pawn Game");
   });
 });
 

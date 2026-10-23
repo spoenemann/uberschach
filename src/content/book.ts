@@ -1,17 +1,16 @@
-// The opening book: what the content files say about positions and the
-// moves from them, indexed by position so that a transposition finds the
-// same entry (docs/product-specs/opening-explorer.md, The database). A
-// content module holds the chess data once, in a neutral file, and the prose
-// once per language beside it (docs/localization.md, Opening content). Both
-// name a position by the canonical line that reaches it, in English notation
-// ("1.e4 e5 2.Nf3"; "" is the initial position): buildBook plays every line
-// through the rules engine, checks that data and prose agree, and keys the
-// book by positionKey. Content is static, so a disagreement throws and
-// src/content/openings.test.ts fails npm run check before it ships. The
-// shipped book is large (thousands of positions), so the app builds it
-// without verifying (BuildOptions): lines are played one move from their
-// parent's game, and a position's moves are read when first asked for; the
-// test builds it again with every check on.
+// The opening book: what the content modules say about positions and the
+// moves from them, keyed by position so that a transposition finds the same
+// entry (docs/product-specs/opening-explorer.md, The database). A module is
+// JSON under lines/, the chess data once in a neutral file and the prose once
+// per language beside it (docs/localization.md, Opening content), read and
+// parsed by files.ts. Both name a position by the canonical line that reaches
+// it, in English notation ("1.e4 e5 2.Nf3"; "" is the initial position).
+// buildBook plays every line through the rules engine, checks that data and
+// prose agree, and keys the book by positionKey; a disagreement throws,
+// naming the entry. The app never builds the book: scripts/content/serve.mjs
+// builds it when the app is built and writes the served form (serve.ts),
+// which the app fetches chunk by chunk (loader.ts), and openings.test.ts
+// builds it with every check (docs/adr/0001-opening-book-as-fetched-json.md).
 
 import { applyMove } from "../domain/apply.ts";
 import { newGame, positionKey, type Game } from "../domain/game.ts";
@@ -55,6 +54,8 @@ export interface LineTexts {
 export type OpeningTexts = Readonly<Record<string, LineTexts>>;
 
 export interface OpeningModule {
+  /** The module's file stem, lines/<id>.json, and the id of its served chunk: "root", "e4", "e4-e5". */
+  readonly id: string;
   readonly positions: readonly PositionData[];
   /** English is complete; another language may lack any text, and the English then shows. */
   readonly texts: Readonly<Record<Language, OpeningTexts>>;
@@ -73,10 +74,14 @@ export interface BookMove {
   readonly move: Move;
   readonly rating: Rating;
   readonly strategy: Text;
+  /** The name of the position the move reaches, when the book names it; what the candidate list shows. */
+  readonly leadsTo: Text | undefined;
 }
 
 export interface BookPosition {
   readonly line: string;
+  /** The id of the module that declares the position. */
+  readonly module: string;
   readonly name: Text | undefined;
   readonly background: Text | undefined;
   readonly sources: readonly string[];
@@ -98,57 +103,58 @@ interface Declared {
   readonly moves: Set<string>;
 }
 
-export interface BuildOptions {
-  /**
-   * Check every line and move as written (canonical spelling, legality, an
-   * English strategy for each move) while building, so that a content error
-   * throws here. On by default. The app turns it off for the shipped book,
-   * which is verified by its test instead: each move is then read when its
-   * position's moves are first asked for, and a mistake throws then.
-   */
-  readonly verify?: boolean;
-}
-
-/** What reading one module's moves needs besides the position: its prose, its declared lines, whether to verify. */
-interface ModuleContext {
-  readonly texts: Texts;
-  readonly declared: Declared;
-  readonly verify: boolean;
+/** A declared position before its moves are read: the moves wait until every position is known, for leadsTo. */
+interface Draft {
+  readonly key: string;
+  readonly game: Game;
+  readonly data: PositionData;
+  readonly module: OpeningModule;
+  readonly name: Text | undefined;
+  readonly background: Text | undefined;
 }
 
 /** The games already played, by the line that reaches them: a line costs one move beyond its parent's. */
 type Games = Map<string, Game>;
 
 /** Builds the book from the modules. Throws, naming the entry, when data and prose disagree. */
-export function buildBook(modules: readonly OpeningModule[], options: BuildOptions = {}): OpeningBook {
-  const verify = options.verify ?? true;
-  const book = new Map<string, BookPosition>();
+export function buildBook(modules: readonly OpeningModule[]): OpeningBook {
   const games: Games = new Map([["", newGame()]]);
+  const drafts = new Map<string, Draft>();
   for (const module of modules) {
     const declared: Declared = { positions: new Set(), moves: new Set() };
     for (const data of module.positions) {
-      const game = gameAt(data.line, data.line, games, verify);
+      const game = gameAt(data.line, data.line, games);
       const key = positionKey(game.position);
-      const twin = book.get(key);
+      const twin = drafts.get(key);
       if (twin !== undefined) {
         throw new Error(
-          `Position "${data.line}" is already in the book as "${twin.line}": declare it once and ` +
+          `Position "${data.line}" is already in the book as "${twin.data.line}": declare it once and ` +
             `let the other line reach it by transposition`,
         );
       }
       declared.positions.add(data.line);
-      const moves = readMoves(game, data, { texts: module.texts, declared, verify });
-      book.set(key, {
-        line: data.line,
+      declareMoves(game, data, declared);
+      drafts.set(key, {
+        key,
+        game,
+        data,
+        module,
         name: optionalText(module.texts, data.line, "name"),
         background: optionalText(module.texts, data.line, "background"),
-        sources: data.sources ?? [],
-        get moves() {
-          return moves();
-        },
       });
     }
     checkProse(module.texts, declared);
+  }
+  const book = new Map<string, BookPosition>();
+  for (const draft of drafts.values()) {
+    book.set(draft.key, {
+      line: draft.data.line,
+      module: draft.module.id,
+      name: draft.name,
+      background: draft.background,
+      sources: draft.data.sources ?? [],
+      moves: (draft.data.moves ?? []).map((move) => bookMove(draft, move, drafts)),
+    });
   }
   return book;
 }
@@ -157,15 +163,15 @@ export function buildBook(modules: readonly OpeningModule[], options: BuildOptio
 const MOVE_NUMBER = /^\d+(?:\.+|…)/;
 
 /**
- * The game after the line, which must be legal and, when verifying, written
- * canonically. `whole` is the declared line, named in an error. A line is
- * played from the game of its parent, the line without its last token.
+ * The game after the line, which must be legal and written canonically.
+ * `whole` is the declared line, named in an error. A line is played from the
+ * game of its parent, the line without its last token.
  */
-function gameAt(line: string, whole: string, games: Games, verify: boolean): Game {
+function gameAt(line: string, whole: string, games: Games): Game {
   const known = games.get(line);
   if (known !== undefined) return known;
   const cut = line.lastIndexOf(" ");
-  const before = gameAt(line.slice(0, Math.max(cut, 0)), whole, games, verify);
+  const before = gameAt(line.slice(0, Math.max(cut, 0)), whole, games);
   const token = line.slice(cut + 1);
   const san = token.replace(MOVE_NUMBER, "");
   if (san === "") {
@@ -176,7 +182,7 @@ function gameAt(line: string, whole: string, games: Games, verify: boolean): Gam
   if (!parsed.ok) {
     throw new Error(`Line "${whole}" cannot be played: "${token}" is ${parsed.reason}`);
   }
-  if (verify && token !== numbered(before.position, toSan(before.position, parsed.move, "en"))) {
+  if (token !== numbered(before.position, toSan(before.position, parsed.move, "en"))) {
     const canonical = formatLine(playLine(newGame(), whole, "en").game, "en");
     throw new Error(`Line "${whole}" must be written as "${canonical}"`);
   }
@@ -200,27 +206,20 @@ function childLine(game: Game, line: string, san: string): string {
   return line === "" ? numbered(game.position, san) : `${line} ${numbered(game.position, san)}`;
 }
 
-/**
- * The moves written about from a position. Their lines are declared at once
- * (the prose is checked against them); the moves themselves are read when
- * first asked for, or now when verifying.
- */
-function readMoves(game: Game, data: PositionData, context: ModuleContext): () => readonly BookMove[] {
-  const written = data.moves ?? [];
-  for (const move of written) {
+/** Declares the lines of a position's moves, so the prose can be checked against them. */
+function declareMoves(game: Game, data: PositionData, declared: Declared): void {
+  for (const move of data.moves ?? []) {
     const line = childLine(game, data.line, move.san);
-    if (context.declared.moves.has(line)) {
+    if (declared.moves.has(line)) {
       throw new Error(`Move "${move.san}" from "${data.line}" is listed twice`);
     }
-    context.declared.moves.add(line);
+    declared.moves.add(line);
   }
-  let read: readonly BookMove[] | undefined;
-  const moves = () => (read ??= written.map((move) => bookMove(game, data.line, move, context.texts)));
-  if (context.verify) moves();
-  return moves;
 }
 
-function bookMove(game: Game, from: string, data: MoveData, texts: Texts): BookMove {
+function bookMove(draft: Draft, data: MoveData, drafts: ReadonlyMap<string, Draft>): BookMove {
+  const { game, module } = draft;
+  const from = draft.data.line;
   const parsed = parseSan(game.position, data.san, "en");
   if (!parsed.ok) {
     throw new Error(`Move "${data.san}" from "${from}" is ${parsed.reason}`);
@@ -230,11 +229,12 @@ function bookMove(game: Game, from: string, data: MoveData, texts: Texts): BookM
     throw new Error(`Move "${data.san}" from "${from}" must be written as "${canonical}"`);
   }
   const line = childLine(game, from, data.san);
-  const strategy = optionalText(texts, line, "strategy");
+  const strategy = optionalText(module.texts, line, "strategy");
   if (strategy === undefined) {
     throw new Error(`Move "${line}" has no English strategy text; add one under that key`);
   }
-  return { san: data.san, move: parsed.move, rating: data.rating, strategy };
+  const reached = drafts.get(positionKey(applyMove(game.position, parsed.move)));
+  return { san: data.san, move: parsed.move, rating: data.rating, strategy, leadsTo: reached?.name };
 }
 
 /** The field in every language that has it, or undefined when English lacks it. */

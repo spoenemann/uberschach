@@ -27,6 +27,7 @@ export const de: Catalogue = {
     "Die Zugfolge hat die Eröffnungen verlassen, die die App kennt.",
   "No further moves are rated or explained from here.":
     "Ab hier sind keine weiteren Züge bewertet oder erklärt.",
+  "The openings could not be loaded.": "Die Eröffnungen konnten nicht geladen werden.",
   "Checkmate. White wins.": "Schachmatt. Weiß gewinnt.",
   "Checkmate. Black wins.": "Schachmatt. Schwarz gewinnt.",
   "Stalemate. The game is drawn.": "Patt. Die Partie ist remis.",

@@ -4,15 +4,14 @@
 // ids of the positions written, for the workflow's args (README.md).
 // Usage: node scripts/content/node-file.mjs <work> [<line> ...]   (no line: every followed position)
 import { mkdirSync, writeFileSync } from "node:fs";
-import path from "node:path";
-import { REPO, followedPositions, idOf, keyOf } from "./lib.mjs";
+import { followedPositions, idOf, keyOf } from "./lib.mjs";
 
 const [work, ...wanted] = process.argv.slice(2);
 if (!work) {
   console.error("usage: node scripts/content/node-file.mjs <work> [<line> ...]");
   process.exit(1);
 }
-const { modules, positions } = await followedPositions();
+const { modules, positions } = followedPositions();
 const texts = {};
 const sources = {};
 for (const m of modules) {
@@ -59,7 +58,7 @@ for (const p of chosen) {
   const node = {
     id: idOf(p.line),
     line: p.line,
-    module: path.relative(REPO, p.module.file),
+    module: p.module.id,
     path: trail,
     sources: sources[p.line] ?? [],
     moves,

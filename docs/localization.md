@@ -119,20 +119,25 @@ prose around it. `pieceLetter(type, language)` gives one letter.
 ## Opening content
 
 Content holds the chess data once and the prose once per language: a
-neutral file with the positions, moves, ratings and sources, and beside it
-one file per language with the names, backgrounds and strategy texts
-(`docs/product-specs/opening-explorer.md`, The database), joined as a
-`Record<Language, …>` with `Language` from `src/i18n/language.ts`:
-`<name>.ts`, `<name>.en.ts`, `<name>.de.ts`; `src/content/firstMoves.ts`
-is the first, and `src/content/lines/` holds a module per followed opening
-line. Both the data and the prose name a position by the canonical
-line that reaches it, in English notation, and each language's prose is
-written in its own notation: the key says `1.Nf3`, the German text beside
-it says `Sf3`, and nothing is translated at runtime. English is complete;
-German may lag text by text, and the English then shows, which is accepted
-above. `src/content/book.ts` joins data and prose at import and refuses a
-German text without its English, a key no position or move of the module
-has, and a move without its English text (`src/content/book.test.ts`).
+neutral JSON file with the positions, moves, ratings and sources, and
+beside it one JSON file per language with the names, backgrounds and
+strategy texts (`docs/product-specs/opening-explorer.md`, The database),
+under `src/content/lines/` as `<id>.json`, `<id>.en.json`, `<id>.de.json`,
+one module per followed position, `root` for the initial position
+(`docs/adr/0001-opening-book-as-fetched-json.md`). `src/content/files.ts`
+reads them into a `Record<Language, …>` with `Language` from
+`src/i18n/language.ts`, so a new language is a new file beside the others.
+Both the data and the prose name a position by the canonical line that
+reaches it, in English notation, and each language's prose is written in
+its own notation: the key says `1.Nf3`, the German text beside it says
+`Sf3`, and nothing is translated at runtime. English is complete; German
+may lag text by text, and the English then shows, which is accepted above;
+a module whose German file is missing has no German. `src/content/book.ts`
+joins data and prose when the served book is built and in the tests, and
+refuses a German text without its English, a key no position or move of
+the module has, and a move without its English text
+(`src/content/book.test.ts`). The served chunk a visitor fetches carries
+both languages.
 
 ## Adding a language
 

@@ -1,12 +1,13 @@
-// The opening book the app ships: every content module, built into one book
-// keyed by position (book.ts). A new module is one line in lines/index.ts.
-// Built without verifying, which is what keeps startup cheap for thousands of
-// positions; openings.test.ts builds MODULES again with every check on.
+// Every content module read from disk, and the whole book built from them
+// with every check: for the tests (openings.test.ts) and for whatever needs the
+// book in one piece under Node. The app never imports this (eslint.config.js,
+// no-restricted-imports): it fetches the served form, which
+// scripts/content/serve.mjs writes from the same modules when the app is built
+// (docs/adr/0001-opening-book-as-fetched-json.md).
 
 import { buildBook, type OpeningBook, type OpeningModule } from "./book.ts";
-import { firstMoves } from "./firstMoves.ts";
-import { LINES } from "./lines/index.ts";
+import { readModules } from "./files.ts";
 
-export const MODULES: readonly OpeningModule[] = [firstMoves, ...LINES];
+export const MODULES: readonly OpeningModule[] = readModules();
 
-export const OPENINGS: OpeningBook = buildBook(MODULES, { verify: false });
+export const OPENINGS: OpeningBook = buildBook(MODULES);

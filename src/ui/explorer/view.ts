@@ -7,7 +7,6 @@
 
 import { status, type Game, type GameStatus } from "../../domain/game.ts";
 import type { Move } from "../../domain/moves.ts";
-import { playMove } from "../../domain/moves.ts";
 import type { Position } from "../../domain/position.ts";
 import { lookup, type BookMove, type BookPosition, type OpeningBook, type Text } from "../../content/book.ts";
 
@@ -21,7 +20,7 @@ export interface LastMove {
 
 export interface Candidate {
   readonly move: BookMove;
-  /** The name of the position the move leads to, when it has one. */
+  /** The name of the position the move leads to, when it has one; the book carries it with the move. */
   readonly leadsTo: Text | undefined;
 }
 
@@ -62,9 +61,7 @@ export function viewAt(full: Game, ply: number, book: OpeningBook): ExplorerView
   const candidates =
     entry === undefined || gameStatus.kind !== "ongoing"
       ? []
-      : entry.moves
-          .filter((move) => move.rating >= 4)
-          .map((move) => ({ move, leadsTo: lookup(book, playMove(game.position, move.move))?.name }));
+      : entry.moves.filter((move) => move.rating >= 4).map((move) => ({ move, leadsTo: move.leadsTo }));
   return {
     game,
     status: gameStatus,

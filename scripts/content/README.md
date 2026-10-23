@@ -1,25 +1,29 @@
 # Content tools
 
-Tools and briefs for agents that rewrite the opening book's strategy
-notes: one writer and one reviewer per followed position, as the
-explorer plan's decision log describes
-(`docs/exec-plans/active/0002-opening-explorer.md`, Strategy notes). They
-run under plain Node from the repository root; Node runs the TypeScript
-sources of `src/domain/` and `src/content/` directly, so nothing is built
-first. The working files (node files, agent output) go in a working folder
-outside the repository, named `<work>` below.
+The serve step that `npm run build` and `npm run dev` run, and the tools and
+briefs for agents that rewrite the opening book's strategy notes: one writer
+and one reviewer per followed position, as the explorer plan's decision log
+describes (`docs/exec-plans/active/0002-opening-explorer.md`, Strategy
+notes). They run under plain Node from the repository root; Node runs the
+TypeScript sources of `src/domain/` and `src/content/` directly, so nothing
+is built first. The content itself is JSON under `src/content/lines/`, one
+module per followed position: `<id>.json` the data, `<id>.en.json` and
+`<id>.de.json` the prose (`docs/localization.md`, Opening content). The
+working files (node files, agent output) go in a working folder outside the
+repository, named `<work>` below.
 
 | File | What it is |
 |---|---|
+| `serve.mjs` | `npm run build:openings`: builds the book with every check and writes the served form into `public/openings/` (`docs/adr/0001-opening-book-as-fetched-json.md`). |
 | `standard.md` | What a strategy note says and avoids, with examples; both briefs point to it. |
 | `brief-writer.md` | The writer's brief: lift, trim or keep each note of a position, in English. |
 | `brief-reviewer.md` | The reviewer's brief: approve or correct each note, then write the German. |
 | `board.mjs` | The board after a line, what attacks a square, what a piece attacks: for checking a note's claims. |
 | `node-file.mjs` | Writes `<work>/nodes/<id>.json` per followed position: moves, ratings, treatment, current notes, names and sources. |
 | `validate.mjs` | Checks a writer's or reviewer's file against its node file; both agents run it until it prints OK. |
-| `apply.mjs` | Writes reviewed notes into the prose modules, leaving unchanged notes as they are. Writes nothing while a German note is still the old text under a changed English (set `"deUnchanged": true` on a note whose German already fits) or is under 0.6 or over 2 times the length of its English. |
+| `apply.mjs` | Writes reviewed notes into the prose files (`<id>.<lang>.json`, two-space JSON), leaving unchanged notes as they are. Writes nothing while a German note is still the old text under a changed English (set `"deUnchanged": true` on a note whose German already fits) or is under 0.6 or over 2 times the length of its English. |
 | `compare.mjs` | Old and new notes of a position side by side, with the reviewer's findings. |
-| `lib.mjs` | Shared: the rules engine, the content modules as data, keys and ids. |
+| `lib.mjs` | Shared: the rules engine, the content modules as data (through `src/content/files.ts`), keys, ids and file paths. |
 
 ## A run
 

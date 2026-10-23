@@ -20,17 +20,18 @@ npm run typecheck                    # tsc -b
 npm run lint                         # eslint, with why/fix/exception guidance under each failure
 npm test                             # vitest run; `npm test -- --coverage` adds the domain threshold
 npx vitest run src/app/App.test.tsx  # one test file
-npm run build                        # vite build to dist/
+npm run build                        # writes the served book (build:openings), then vite build to dist/
+npm run build:openings               # builds and verifies the book, writes public/openings/ (~1.5 s)
 npm run check:visual                 # renders every screen of dist/ in headless system Chrome, writes screenshots; needs the build
 npm run check:visual -- '#/openings?line=1.e4' /tmp/x.mjs # the given routes, plus a disposable ad-hoc check module
-npm run dev                          # http://localhost:5173/uberschach/ (the base path is part of the URL)
+npm run dev                          # build:openings, then http://localhost:5173/uberschach/ (the base path is part of the URL)
 ```
 
 ## Why and where
 
 - `src/domain/` — chess and training logic in pure TypeScript; tests run in plain Node. The rules engine (FEN, legal moves, game end): `docs/design-docs/chess-rules-engine.md` holds its scope, its build and the test file per FIDE article; a rule change updates that doc and that test. Notation (`san.ts`, `line.ts`: moves and lines as text in English or German letters, the language an argument): `docs/design-docs/chess-notation.md`.
 - `src/i18n/` — the languages, the German catalogue (`de.ts`) and which notation each language reads (`notation.ts`), pure TypeScript. Text a visitor sees or hears is `t("English text")` in the code, never a literal in JSX; its German line goes in `de.ts` in the same commit, and a test fails `npm run check` otherwise (`docs/localization.md`).
-- `src/content/` — opening content as typed data files; prose once per language (`docs/localization.md`, Opening content). `book.ts` joins data and prose into the book keyed by position and refuses a disagreement (the app builds the shipped book without verifying, to start fast; `openings.test.ts` builds it with every check); `firstMoves.*` and `lines/` (one module per followed first move and per followed reply) are the content, `openings.ts` the shipped book; the content principles (all legal moves covered, only ratings 4 and 5 followed, to the depth the plan sets, both languages, sourced backgrounds) are held by `openings.test.ts`.
+- `src/content/` — opening content as JSON under `lines/`, one module per followed position: `<id>.json` the chess data, `<id>.en.json` and `<id>.de.json` the prose (`docs/localization.md`, Opening content). `files.ts` reads and parses the modules, `book.ts` builds the book keyed by position and refuses a disagreement between data and prose, `serve.ts` is the served form (one chunk per module, an index from key to chunk), `loader.ts` the book as the app fetches it chunk by chunk, `openings.ts` the whole book for the tests. The app never imports the content (lint): `npm run build:openings` writes the served form into `public/openings/`, and `src/app/openings.ts` fetches it (`docs/adr/0001-opening-book-as-fetched-json.md`). The content principles (all legal moves covered, only ratings 4 and 5 followed, to the depth the plan sets, both languages, sourced backgrounds, a module two plies deep) are held by `openings.test.ts`.
 - `src/ui/` — React components.
 - `src/ui/board/` — the board and the pieces: a position, highlights, target
   marks and candidate arrows (`arrows.ts`), reporting clicks by square and by
@@ -44,13 +45,14 @@ npm run dev                          # http://localhost:5173/uberschach/ (the ba
   line. The design decisions are in the explorer plan's decision log.
 - `src/ui/home/` — the entry page: one card per capability.
 - `src/ui/theme.css` — every colour, type, space, radius, shadow and motion value, as CSS custom properties; a component's CSS Module uses them, never a literal (`docs/design-docs/design-system.md`).
-- `src/app/` — entry point, wiring, browser storage, and the address:
-  `route.ts` reads and writes the hash (`#/`, `#/openings?line=…`), `App.tsx`
-  keeps the route in step with it.
+- `src/app/` — entry point, wiring, browser storage, the address and the
+  book's source: `route.ts` reads and writes the hash (`#/`,
+  `#/openings?line=…`), `App.tsx` keeps the route in step with it,
+  `openings.ts` fetches the served book.
 - Layers import downward only, app → ui → content → i18n → domain. `eslint.config.js` enforces it and mirrors the table in `docs/ARCHITECTURE.md`.
 - `scripts/eslint-guidance.mjs` — the why/fix/exception text printed under lint failures; every new lint rule gets an entry.
 - `scripts/visual-check.mjs` — the universal rendering invariants and screenshots (`docs/visual-verification.md`); route- or feature-specific checks are disposable ad-hoc modules, never committed. `npm run check` needs Google Chrome installed, or `CHROME_PATH`.
-- `scripts/content/` — the content agents' tools and briefs: the board tool for checking a claim about a position, the strategy-note standard, the writer's and reviewer's briefs, the validator and the module writer (`scripts/content/README.md`).
+- `scripts/content/` — the serve step (`serve.mjs`) and the content agents' tools and briefs: the board tool for checking a claim about a position, the strategy-note standard, the writer's and reviewer's briefs, the validator and the module writer (`scripts/content/README.md`).
 
 ## Boundaries and definition of done
 
@@ -74,6 +76,7 @@ npm run dev                          # http://localhost:5173/uberschach/ (the ba
 - `docs/ARCHITECTURE.md` — where things live, what may depend on what, the stack and deploy shape, the invariants and the check that enforces each; names and points, never explains a reason.
 - `docs/product-specs/index.md` — one spec per capability: intent, promises, non-promises; never restated code or task state.
 - `docs/design-docs/index.md` — one doc per system: how it is built, its invariants, the alternatives it rejected; each with a trust label. The design system (tokens, board, type, layout) is the first.
-- `docs/exec-plans/` — plans in `active/` with progress and decision logs, moved to `completed/` when done; single-session work gets none. Decision rationale goes in a plan's decision log, not in a separate records folder.
+- `docs/exec-plans/` — plans in `active/` with progress and decision logs, moved to `completed/` when done; single-session work gets none. A plan's decisions go in its decision log.
+- `docs/adr/` — one record per decision that shapes the structure (a layer, a format, a build step), accepted records immutable and superseded by a new one; do not contradict an accepted record. ADR-0001: the book is fetched JSON, generated at build.
 - `docs/visual-verification.md` — how rendered output is verified: running the visual check, what it checks, the disposable ad-hoc module pattern, when the check may grow.
 - `docs/localization.md` — what the languages promise and how to write for them: `t()`, the German catalogue and its check, notation per language, per-language content, the switch. The guideline is the spec for this concern.

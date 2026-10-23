@@ -1,0 +1,179 @@
+{
+  "about": "The first move: the initial position with all twenty legal moves, rated, and the fourteen positions the book does not follow, each with its name and background (root.en.json, root.de.json). The six moves rated 4 and 5 are followed, and the positions they reach are declared in their own modules under lines/, which also hold the replies; the strategy text of each first move stays here, with the move. The ratings are the maintainer's, settled on 2026-10-23; the backgrounds were checked against the sources listed, read the same day (docs/product-specs/opening-explorer.md, The database).",
+  "positions": [
+    {
+      "line": "",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zukertort_Opening",
+        "https://en.wikipedia.org/wiki/King%27s_Fianchetto_Opening"
+      ],
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 5
+        },
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "c4",
+          "rating": 5
+        },
+        {
+          "san": "g3",
+          "rating": 4
+        },
+        {
+          "san": "b3",
+          "rating": 4
+        },
+        {
+          "san": "f4",
+          "rating": 3
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        },
+        {
+          "san": "b4",
+          "rating": 2
+        },
+        {
+          "san": "e3",
+          "rating": 2
+        },
+        {
+          "san": "d3",
+          "rating": 2
+        },
+        {
+          "san": "c3",
+          "rating": 2
+        },
+        {
+          "san": "a3",
+          "rating": 2
+        },
+        {
+          "san": "h3",
+          "rating": 2
+        },
+        {
+          "san": "g4",
+          "rating": 1
+        },
+        {
+          "san": "f3",
+          "rating": 1
+        },
+        {
+          "san": "h4",
+          "rating": 1
+        },
+        {
+          "san": "a4",
+          "rating": 1
+        },
+        {
+          "san": "Na3",
+          "rating": 1
+        },
+        {
+          "san": "Nh3",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.f4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bird%27s_Opening"
+      ]
+    },
+    {
+      "line": "1.Nc3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dunst_Opening"
+      ]
+    },
+    {
+      "line": "1.b4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sokolsky_Opening"
+      ]
+    },
+    {
+      "line": "1.e3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Van_%27t_Kruijs_Opening"
+      ]
+    },
+    {
+      "line": "1.d3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mieses_Opening"
+      ]
+    },
+    {
+      "line": "1.c3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Saragossa_Opening"
+      ]
+    },
+    {
+      "line": "1.a3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Anderssen%27s_Opening"
+      ]
+    },
+    {
+      "line": "1.h3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Clemenz_Opening"
+      ]
+    },
+    {
+      "line": "1.g4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Grob%27s_Attack"
+      ]
+    },
+    {
+      "line": "1.f3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Barnes_Opening"
+      ]
+    },
+    {
+      "line": "1.h4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Desprez_Opening"
+      ]
+    },
+    {
+      "line": "1.a4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ware_Opening",
+        "https://en.wikipedia.org/wiki/King%27s_Pawn_Game"
+      ]
+    },
+    {
+      "line": "1.Na3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Durkin_Opening"
+      ]
+    },
+    {
+      "line": "1.Nh3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Amar_Opening"
+      ]
+    }
+  ]
+}

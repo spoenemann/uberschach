@@ -7,8 +7,9 @@
     "node": ">=24"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "npm run build:openings && vite",
+    "build": "npm run build:openings && vite build",
+    "build:openings": "node scripts/content/serve.mjs",
     "preview": "vite preview",
     "typecheck": "tsc -b",
     "lint": "eslint . --format ./scripts/eslint-guidance.mjs",

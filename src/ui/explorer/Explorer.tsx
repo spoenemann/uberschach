@@ -3,7 +3,8 @@ import { newGame, play, type Game } from "../../domain/game.ts";
 import { formatLine, playLine } from "../../domain/line.ts";
 import { legalMoves, type Move } from "../../domain/moves.ts";
 import type { Color, Square } from "../../domain/position.ts";
-import { OPENINGS } from "../../content/openings.ts";
+import type { OpeningBook } from "../../content/book.ts";
+import type { LazyBook } from "../../content/loader.ts";
 import { Board, type BoardArrow } from "../board/Board.tsx";
 import styles from "./Explorer.module.css";
 import { sameMove, viewAt, type ExplorerView } from "./view.ts";
@@ -23,6 +24,8 @@ export interface ExplorerState {
 }
 
 export interface ExplorerProps extends ExplorerState {
+  /** The book, fetched chunk by chunk as the line walks into it (src/app/openings.ts makes it). */
+  readonly book: LazyBook;
   /** The state after the visitor's action; the caller writes it to the address. */
   readonly onChange: (state: ExplorerState) => void;
 }
@@ -31,14 +34,16 @@ export interface ExplorerProps extends ExplorerState {
  * The opening explorer: the board with the line under it on the left, the
  * panel on the right, stacked at phone width. The visitor makes every
  * move; the state lives in the address, so the component holds only the
- * selected piece and the candidate under the pointer.
+ * selected piece, the candidate under the pointer and what the book has
+ * loaded for the line.
  */
-export function Explorer({ line, ply, side, onChange }: ExplorerProps) {
+export function Explorer({ line, ply, side, book, onChange }: ExplorerProps) {
   // An address whose moves are not all legal opens at the end of its legal prefix.
   const full = useMemo(() => playLine(newGame(), line, "en").game, [line]);
   const total = full.moves.length;
   const at = ply === null ? total : Math.min(Math.max(ply, 0), total);
-  const view = useMemo(() => viewAt(full, at, OPENINGS), [full, at]);
+  const loaded = useLoaded(book, full, line);
+  const view = useMemo(() => viewAt(full, at, loaded.book), [full, at, loaded]);
   const [selected, select] = useDropped<Square | undefined>(`${line}@${at}`, undefined);
   // A candidate is under the pointer as an arrow or in the list; both show it.
   // Dropped with the selection too, since the arrows give way to it.
@@ -95,9 +100,49 @@ export function Explorer({ line, ply, side, onChange }: ExplorerProps) {
           onFlip={() => onChange({ line, ply: at === total ? null : at, side: side === "white" ? "black" : "white" })}
         />
       </div>
-      <Panel view={view} onPlay={playNow} highlighted={hovered} onHover={setHovered} />
+      <Panel
+        view={view}
+        loading={loaded.line !== line}
+        failed={loaded.failed}
+        onPlay={playNow}
+        highlighted={hovered}
+        onHover={setHovered}
+      />
     </div>
   );
+}
+
+/** What the book has loaded: the entries for `line` once it is the line loaded for, else for an earlier one. */
+interface Loaded {
+  readonly book: OpeningBook;
+  /** The line whose positions are all loaded or off the book; null before the first load. */
+  readonly line: string | null;
+  readonly failed: boolean;
+}
+
+/**
+ * Has the book load the line's positions, and a new snapshot once it has: the
+ * book's Map is the same object throughout, so the snapshot is what tells the
+ * view to recompute. A line that changes before its load has finished is
+ * simply not reported; the newer load is.
+ */
+function useLoaded(book: LazyBook, full: Game, line: string): Loaded {
+  const [loaded, setLoaded] = useState<Loaded>({ book: book.book, line: null, failed: false });
+  useEffect(() => {
+    let current = true;
+    book.ensure(full).then(
+      () => {
+        if (current) setLoaded({ book: book.book, line, failed: false });
+      },
+      () => {
+        if (current) setLoaded({ book: book.book, line, failed: true });
+      },
+    );
+    return () => {
+      current = false;
+    };
+  }, [book, full, line]);
+  return loaded;
 }
 
 /**

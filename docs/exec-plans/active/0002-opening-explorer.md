@@ -180,16 +180,19 @@ below the present depth: 102 and about 125 positions, 6,600 moves, about 50
 million tokens, 8 hours. The book would grow about 570 bytes per move
 minified, 157 gzipped (the measure of the present 2.05 MB): to about 11 to
 13 MB and 3 to 3.7 MB gzipped, or about 6 MB and 1.6 MB for the 5-only
-variant. Start-up grows with the positions, 0.35 s now for 2,721, about
-three seconds on this machine for 21,000: the extension needs the book split by family and
-loaded on demand, and an index of keys that does not replay lines, before
-it ships; a family's files would also outgrow the 3,000 lines of the raised
-`max-lines`. The briefs and the scripts are to be committed before that
-work, or rebuilt from this section: the board tool and the shared module
-reader are in `scripts/content/`, and its node-file writer, validator and
-module writer are the strategy rework's, to be extended for new positions
-(the frontier from the ratings, ratings and backgrounds in the validator,
-new entries in the module writer).
+variant. Start-up grew with the positions, 0.35 s for 2,721 and about
+three seconds projected for 21,000, which is why the book is now fetched
+chunk by chunk from a served form generated at build
+(`docs/adr/0001-opening-book-as-fetched-json.md`, 2026-10-24): the bundle
+no longer grows with it, and a chunk is bounded by the module layout the
+test holds (one root, two plies below it), so the next two plies go into
+modules rooted at the followed ply-4 positions. The briefs and the scripts
+are to be committed before that work, or rebuilt from this section: the
+board tool and the shared module reader are in `scripts/content/`, and its
+node-file writer, validator and module writer are the strategy rework's, to
+be extended for new positions (the frontier from the ratings, ratings and
+backgrounds in the validator, new entries in the module writer, which now
+write JSON).
 
 ## Decomposition
 
@@ -210,8 +213,10 @@ new entries in the module writer).
       White's second move reaches.
 - [x] Loader: the shipped book starts in half a second, not six (Decision log,
       Loader).
-- [ ] Open, for the maintainer: the entry page pays for the book (Progress log,
-      ply 4).
+- [x] The entry page pays for the book (Progress log, ply 4): the book is
+      JSON fetched chunk by chunk, generated at build
+      (`docs/adr/0001-opening-book-as-fetched-json.md`; Progress log,
+      2026-10-24).
 - [x] Strategy notes reworked to the spec's definition of 2026-10-23
       (Decision log, Strategy notes): all 2,918, in English and German
       (Progress log).
@@ -423,6 +428,36 @@ new entries in the module writer).
   read the row's background and the arrow's fill on the other side; the
   screenshots of both states looked at.
 
+- 2026-10-24: **The book is JSON, served in chunks and fetched on demand**
+  (`docs/adr/0001-opening-book-as-fetched-json.md`; the maintainer asked for
+  the format and the lazy loading, asked that the approach be challenged, and
+  took both recommendations: the served form generated at build, the index
+  fetched with the explorer). A one-time script imported the 40 TypeScript
+  modules and wrote `src/content/lines/<id>.json` with `<id>.en.json` and
+  `<id>.de.json`, `firstMoves` becoming `root`; the data read back from the
+  JSON was compared with a dump of the TypeScript modules, all 40 identical.
+  New in `src/content/`: `files.ts` (reads and parses the modules, naming
+  file and field on a wrong shape), `serve.ts` (the served form) and
+  `loader.ts` (the book as the app fetches it); `book.ts` builds eagerly and
+  always verifies, and a move carries the name of the position it leads to,
+  so the candidate list needs no other chunk. `scripts/content/serve.mjs`
+  writes `public/openings/` before every build. The explorer takes the book
+  as a prop, waits for a chunk without calling the line off the book, and
+  says when the book cannot be fetched; `src/app/openings.ts` holds the one
+  fetch. The content tools read and write JSON (`apply.mjs` lost its
+  TypeScript formatting). Measured: the bundle 1,911 kB (535 kB gzipped) to
+  252 kB (80 kB); the served book 1,978 kB in 41 files, the index 184 kB
+  (14.5 kB gzipped), the root chunk 8 kB gzipped, the largest chunk (1.d4 d5,
+  133 positions) 23.7 kB gzipped; the verified build 0.94 s, `npm run build`
+  1.5 s in all; the test suite faster than before (the content no longer
+  passes through the TypeScript transform). Lint: the `max-lines` override
+  for `src/content/lines/` is gone with the TypeScript, `src/ui` and
+  `src/app` may not import the authored content, and Node's own modules are
+  allowed in `src/content` only. `npm run check` green; a disposable module
+  on the built app read the fetches and their timings, checked a deep link,
+  a transposition from outside the book and an off-book line, and the
+  screenshots were looked at (its output is in the commit message).
+
 ## Decision log
 
 - 2026-10-23: **Review by an agent that did not write the text, not by
@@ -631,3 +666,15 @@ new entries in the module writer).
   or reviewer's doubt is reported, not acted on. After the first full run
   (Progress log), the maintainer: the reviewer approves a note that needs
   no change and only translates it.
+- 2026-10-24: **The book is JSON, served in chunks generated at build and
+  fetched as the line walks into them**: `docs/adr/0001-opening-book-as-fetched-json.md`
+  holds the decision, the options and the costs. It replaces the Loader
+  decision of 2026-10-23 above (verify on request, play from the parent's
+  game, read moves when first asked): the app builds no book any more, so
+  `buildBook` verifies always and reads every move, and the start-up cost
+  that decision bought down is gone with the import. Of the alternatives
+  that decision listed, "an index generated at build time" is now the
+  choice, because the index is what lazy loading cannot do without. The
+  `max-lines` override of the Modules decision is gone with the TypeScript
+  modules; the layout rule (one root per module, two plies below it) is now
+  a test, since a chunk's size is a module's size.

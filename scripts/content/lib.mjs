@@ -1,6 +1,5 @@
 // Shared by the content tools: the rules engine, and the content modules read as data.
 // Node runs the TypeScript sources directly (type stripping), so nothing is built first.
-import { readdirSync } from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 
@@ -11,6 +10,7 @@ export const { newGame } = await domain("game");
 export const { playLine } = await domain("line");
 export const { legalMoves } = await domain("moves");
 export const { toSan } = await domain("san");
+const files = await import(pathToFileURL(`${REPO}/src/content/files.ts`).href);
 
 export function gameAt(line) {
   const { game, failure } = playLine(newGame(), line, "en");
@@ -25,36 +25,25 @@ export function keyOf(line, san) {
   return (line === "" ? "" : `${line} `) + prefix + san;
 }
 
-/** A short file-safe id for a position's line: "" is "root". */
-export function idOf(line) {
-  return line === "" ? "root" : line.replace(/\d+\./g, "").trim().replace(/\s+/g, "-");
-}
+/** A short file-safe id for a position's line, and of the module rooted there: "" is "root". */
+export const idOf = files.moduleId;
+
+/** The path of a module's data file (no language) or prose file: src/content/lines/<id>[.<lang>].json. */
+export const fileOf = files.moduleFile;
 
 /** The working folder of an output file: <work>/out/<id>.<kind>.json. */
 export function workOf(file) {
   return path.dirname(path.dirname(path.resolve(file)));
 }
 
-/** Every module: its data file, its prose files, its positions and its prose. */
-export async function loadModules() {
-  const dir = `${REPO}/src/content/lines`;
-  const files = [
-    `${REPO}/src/content/firstMoves.ts`,
-    ...readdirSync(dir)
-      .filter((f) => /^[^.]+\.ts$/.test(f) && f !== "index.ts")
-      .map((f) => `${dir}/${f}`),
-  ];
-  const modules = [];
-  for (const file of files) {
-    const data = Object.values(await import(pathToFileURL(file).href))[0];
-    modules.push({ file, positions: data.positions, texts: data.texts });
-  }
-  return modules;
+/** Every module, parsed from src/content/lines/: its id, its positions and its prose per language. */
+export function loadModules() {
+  return files.readModules();
 }
 
 /** The followed positions (those with moves), module by module, each with its module. */
-export async function followedPositions() {
-  const modules = await loadModules();
+export function followedPositions() {
+  const modules = loadModules();
   const positions = [];
   for (const m of modules) {
     for (const p of m.positions) if (p.moves?.length) positions.push({ ...p, module: m });

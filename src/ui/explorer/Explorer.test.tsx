@@ -1,22 +1,31 @@
 // The explorer screen against docs/product-specs/opening-explorer.md: Making
 // moves, After every move, Candidates, The line. The state lives in the
 // address, so the component is rendered controlled, re-rendered with
-// whatever it reports.
-import { cleanup, fireEvent, render, screen, within } from "@testing-library/react";
+// whatever it reports. The book is loaded as the app loads it, chunk by chunk
+// from a source, here one that answers from memory, so what the book says
+// appears a moment after the board and is awaited.
+import { cleanup, fireEvent, render, screen, waitFor, within } from "@testing-library/react";
 import { useState } from "react";
 import { afterEach, describe, expect, test, vi } from "vitest";
-import { en as firstMovesEn } from "../../content/firstMoves.en.ts";
+import { lazyBook, memorySource, type LazyBook } from "../../content/loader.ts";
+import { MODULES, OPENINGS } from "../../content/openings.ts";
+import { serveBook } from "../../content/serve.ts";
 import { LanguageContext } from "../language/LanguageContext.ts";
 import { Explorer, type ExplorerState } from "./Explorer.tsx";
 
 afterEach(cleanup);
 
+const SERVED = serveBook(OPENINGS);
+/** The English prose of the root module, lines/root.en.json: the shipped text of the first moves. */
+const rootEn = MODULES.find((module) => module.id === "root")?.texts.en ?? {};
+
 /** The explorer with its state held as the app holds it, each change recorded. */
-function Harness({ initial, record }: { initial: ExplorerState; record: (state: ExplorerState) => void }) {
+function Harness({ initial, book, record }: { initial: ExplorerState; book: LazyBook; record: (state: ExplorerState) => void }) {
   const [state, setState] = useState(initial);
   return (
     <Explorer
       {...state}
+      book={book}
       onChange={(next) => {
         record(next);
         setState(next);
@@ -25,12 +34,12 @@ function Harness({ initial, record }: { initial: ExplorerState; record: (state: 
   );
 }
 
-function renderExplorer(initial: Partial<ExplorerState> = {}, language: "en" | "de" = "en") {
+function renderExplorer(initial: Partial<ExplorerState> = {}, language: "en" | "de" = "en", book = lazyBook(memorySource(SERVED))) {
   const record = vi.fn<(state: ExplorerState) => void>();
   const state: ExplorerState = { line: "", ply: null, side: "white", ...initial };
   const result = render(
     <LanguageContext value={{ language, setLanguage: () => undefined }}>
-      <Harness initial={state} record={record} />
+      <Harness initial={state} book={book} record={record} />
     </LanguageContext>,
   );
   return { ...result, record, last: () => record.mock.lastCall?.[0] };
@@ -42,10 +51,19 @@ function square(container: HTMLElement, name: string): Element {
   return element;
 }
 
+/** The arrow of the move, once the book has arrived and drawn it. */
+async function arrow(container: HTMLElement, name: string): Promise<Element> {
+  return waitFor(() => {
+    const element = container.querySelector(`[data-arrow="${name}"]`);
+    if (element === null) throw new Error(`no arrow ${name} yet`);
+    return element;
+  });
+}
+
 describe("the opening explorer", () => {
-  test("opens at the initial position with the introduction and the first moves as candidates and arrows", () => {
+  test("opens at the initial position with the introduction and the first moves as candidates and arrows", async () => {
     const { container } = renderExplorer();
-    expect(screen.getByText(/^Twenty moves are legal/)).not.toBeNull();
+    expect(await screen.findByText(/^Twenty moves are legal/)).not.toBeNull();
     const list = screen.getByRole("list", { name: "Next moves" });
     const names = within(list).getAllByRole("button").map((b) => b.textContent);
     expect(names).toEqual([
@@ -61,8 +79,9 @@ describe("the opening explorer", () => {
     expect(screen.getByRole("img", { name: /^Chessboard/ }).getAttribute("data-orientation")).toBe("white");
   });
 
-  test("plays a move by selecting the piece and then the square, marking the targets in between", () => {
+  test("plays a move by selecting the piece and then the square, marking the targets in between", async () => {
     const { container, last } = renderExplorer();
+    await arrow(container, "e2e4");
     fireEvent.click(square(container, "e2"));
     expect(square(container, "e2").hasAttribute("data-highlight")).toBe(true);
     expect(square(container, "e3").getAttribute("data-target")).toBe("empty");
@@ -77,10 +96,10 @@ describe("the opening explorer", () => {
     expect(last()).toEqual({ line: "1.e4", ply: null, side: "white" });
     expect(screen.getByText("1.e4")).not.toBeNull();
     // The reading comes first, the candidates (Black's replies, also rated Best) after it.
+    expect((await screen.findByRole("heading", { level: 2 })).textContent).toBe("King's Pawn Game");
     expect(screen.getAllByText("Best")[0]?.getAttribute("data-rating")).toBe("5");
-    expect(screen.getByRole("heading", { level: 2 }).textContent).toBe("King's Pawn Game");
     expect(screen.getByText(/best by test/)).not.toBeNull();
-    expect(screen.getByText(firstMovesEn["1.e4"]?.strategy ?? "")).not.toBeNull();
+    expect(screen.getByText(rootEn["1.e4"]?.strategy ?? "")).not.toBeNull();
     expect(square(container, "e2").hasAttribute("data-highlight")).toBe(true);
     expect(square(container, "e4").hasAttribute("data-highlight")).toBe(true);
     expect(container.querySelectorAll("[data-target]")).toHaveLength(0);
@@ -103,33 +122,32 @@ describe("the opening explorer", () => {
     expect(record).not.toHaveBeenCalled();
   });
 
-  test("plays a candidate from the list and from its arrow", () => {
-    const { container, last } = renderExplorer();
-    fireEvent.click(screen.getByRole("button", { name: /^d4/ }));
+  test("plays a candidate from the list and from its arrow", async () => {
+    const { last } = renderExplorer();
+    fireEvent.click(await screen.findByRole("button", { name: /^d4/ }));
     expect(last()?.line).toBe("1.d4");
     cleanup();
     const second = renderExplorer();
-    fireEvent.click(second.container.querySelector('[data-arrow="g1f3"]') as Element);
+    fireEvent.click(await arrow(second.container, "g1f3"));
     expect(second.last()?.line).toBe("1.Nf3");
-    expect(container).toBeDefined();
   });
 
-  test("a candidate under the pointer is highlighted as an arrow and in the list alike", () => {
+  test("a candidate under the pointer is highlighted as an arrow and in the list alike", async () => {
     const { container } = renderExplorer();
-    const arrow = (name: string) => container.querySelector(`[data-arrow="${name}"]`) as Element;
+    const e2e4 = await arrow(container, "e2e4");
     const highlighted = () => [...container.querySelectorAll("[data-highlighted]")];
     // The pointer on an arrow lights its candidate in the list.
-    fireEvent.pointerEnter(arrow("e2e4"));
+    fireEvent.pointerEnter(e2e4);
     expect(highlighted().map((e) => e.getAttribute("data-arrow") ?? e.textContent)).toEqual([
       "e2e4",
       "e4King's Pawn GameBest",
     ]);
-    fireEvent.pointerLeave(arrow("e2e4"));
+    fireEvent.pointerLeave(e2e4);
     expect(highlighted()).toHaveLength(0);
     // The pointer on a candidate in the list lights its arrow.
     fireEvent.pointerEnter(screen.getByRole("button", { name: /^Nf3/ }));
-    expect(arrow("g1f3").hasAttribute("data-highlighted")).toBe(true);
-    expect(arrow("e2e4").hasAttribute("data-highlighted")).toBe(false);
+    expect((await arrow(container, "g1f3")).hasAttribute("data-highlighted")).toBe(true);
+    expect(e2e4.hasAttribute("data-highlighted")).toBe(false);
     expect(highlighted()).toHaveLength(2);
     // Selecting a piece takes the arrows away, and the highlight with them.
     fireEvent.click(square(container, "e2"));
@@ -143,29 +161,31 @@ describe("the opening explorer", () => {
     expect(highlighted()).toHaveLength(0);
   });
 
-  test("any legal move is accepted, rated when the book rates it, unrated and off the book otherwise", () => {
+  test("any legal move is accepted, rated when the book rates it, unrated and off the book otherwise", async () => {
     const { container } = renderExplorer();
     fireEvent.click(square(container, "g2"));
     fireEvent.click(square(container, "g4"));
     expect(screen.getByText("1.g4")).not.toBeNull();
-    expect(screen.getByText("Mistake")).not.toBeNull();
+    expect(await screen.findByText("Mistake")).not.toBeNull();
     expect(screen.getByRole("heading", { level: 2 }).textContent).toBe("Grob's Attack");
-    expect(screen.getByText("No further moves are rated or explained from here.")).not.toBeNull();
+    expect(await screen.findByText("No further moves are rated or explained from here.")).not.toBeNull();
     expect(screen.queryByRole("list", { name: "Next moves" })).toBeNull();
     fireEvent.click(square(container, "e7"));
     fireEvent.click(square(container, "e5"));
     expect(screen.getByText("1...e5")).not.toBeNull();
+    expect(await screen.findByText("The line has left the openings the app knows.")).not.toBeNull();
     expect(screen.queryByRole("heading", { level: 2 })).toBeNull();
-    expect(screen.getByText("The line has left the openings the app knows.")).not.toBeNull();
     expect(container.querySelectorAll("[data-arrow]")).toHaveLength(0);
   });
 
-  test("shows the line with the current move marked, steps back and forward without discarding it, and resets", () => {
+  test("shows the line with the current move marked, steps back and forward without discarding it, and resets", async () => {
     const { container, last } = renderExplorer({ line: "1.e4 e5 2.Nf3" });
     const moves = within(screen.getByRole("list", { name: "Moves played" })).getAllByRole("button");
     expect(moves.map((m) => m.textContent)).toEqual(["e4", "e5", "Nf3"]);
     expect(moves[2]?.getAttribute("aria-current")).toBe("true");
     expect(screen.getByText("2.Nf3")).not.toBeNull();
+    // A deep link loads the chunks on the way: the root, 1.e4 and 1.e4 e5.
+    expect((await screen.findByRole("heading", { level: 2 })).textContent).toBe("King's Knight Opening");
     fireEvent.click(screen.getByRole("button", { name: "Back" }));
     expect(last()).toEqual({ line: "1.e4 e5 2.Nf3", ply: 2, side: "white" });
     expect(screen.getByText("1...e5")).not.toBeNull();
@@ -239,10 +259,10 @@ describe("the opening explorer", () => {
     expect(last()?.line).toBe("1.d4 e5 2.dxe5 f6 3.exf6 Nc6 4.fxg7 Nf6 5.gxh8=Q");
   });
 
-  test("writes notation in the visitor's language, and the address in English", () => {
+  test("writes notation in the visitor's language, and the address in English", async () => {
     const { last } = renderExplorer({ line: "1.Nf3" }, "de");
     expect(screen.getByText("1.Sf3")).not.toBeNull();
-    expect(screen.getAllByText("Bester Zug")[0]?.getAttribute("data-rating")).toBe("5");
+    expect((await screen.findAllByText("Bester Zug"))[0]?.getAttribute("data-rating")).toBe("5");
     // Black's replies are the candidates, written in German letters.
     const replies = within(screen.getByRole("list", { name: "Nächste Züge" }));
     expect(replies.getByRole("button", { name: /^Sf6/ })).not.toBeNull();
@@ -251,5 +271,21 @@ describe("the opening explorer", () => {
     const list = screen.getByRole("list", { name: "Nächste Züge" });
     fireEvent.click(within(list).getByRole("button", { name: /^Sf3/ }));
     expect(last()).toEqual({ line: "1.Nf3", ply: null, side: "white" });
+  });
+
+  test("says when the book cannot be loaded, and the board still plays", async () => {
+    const offline = lazyBook({
+      index: () => Promise.reject(new Error("offline")),
+      chunk: () => Promise.reject(new Error("offline")),
+    });
+    const { container, last } = renderExplorer({}, "en", offline);
+    expect(await screen.findByText("The openings could not be loaded.")).not.toBeNull();
+    expect(screen.queryByText(/^Twenty moves are legal/)).toBeNull();
+    expect(container.querySelectorAll("[data-arrow]")).toHaveLength(0);
+    fireEvent.click(square(container, "e2"));
+    fireEvent.click(square(container, "e4"));
+    expect(last()).toEqual({ line: "1.e4", ply: null, side: "white" });
+    expect(screen.getByText("1.e4")).not.toBeNull();
+    expect(await screen.findByText("The openings could not be loaded.")).not.toBeNull();
   });
 });

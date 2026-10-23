@@ -63,8 +63,15 @@ for and risks, and which replies matter.
 ### The database
 
 - The app ships a database of openings as files in the repository
-  (`src/content/`): positions, and for each position the moves written
-  about from it. Nothing is fetched or computed at runtime.
+  (`src/content/lines/`): positions, and for each position the moves
+  written about from it. It is published beside the app and fetched from
+  the app's own origin as the visitor's line walks into it, family by
+  family; nothing is computed at runtime and no other server is involved
+  (`docs/adr/0001-opening-book-as-fetched-json.md`). While an entry is on
+  its way the panel waits for it rather than saying the line has left the
+  book; when the database cannot be fetched the panel says so, and the
+  board and the line still work. (`src/ui/explorer/Explorer.test.tsx`,
+  `src/app/App.test.tsx`)
 - The database is keyed by position, not by move order, so a position
   reached by transposition shows the same information. Two positions are
   the same by the rule the chess rules spec states under 9.2.3: the same
@@ -233,9 +240,9 @@ for and risks, and which replies matter.
 - `docs/design-docs/chess-notation.md` — how a move is written in the
   visitor's language and how the moves in the address are read.
 - `src/content/book.ts` — the database's format and how it is checked;
-  `src/content/firstMoves.ts` and its language files are the first content,
-  `src/content/lines/` the rest, one module per followed first move and per
-  followed reply.
+  `src/content/lines/` the content, one JSON module per followed position
+  (`root.json` the initial position) with its language files beside it;
+  `src/content/loader.ts` how the app fetches it.
 - `docs/exec-plans/active/0002-opening-explorer.md` — the build, its
   progress and its decisions, including how deep each line goes.
 - `docs/localization.md` — the languages promised, translated text and

@@ -87,16 +87,6 @@ export default tseslint.config(
     },
   },
   {
-    // Content modules under src/content/lines/ are prose and data, one
-    // module per opening family: the length of a file is the amount of
-    // content it holds, not tangled code (the opening explorer plan,
-    // Decision log, 2026-10-23). The limit is raised, not removed.
-    files: ["src/content/lines/**"],
-    rules: {
-      "max-lines": ["error", { max: 3000, skipBlankLines: true, skipComments: true }],
-    },
-  },
-  {
     // Test files are lists of cases; function length does not apply.
     files: ["**/*.test.{ts,tsx}"],
     rules: { "max-lines-per-function": "off" },
@@ -134,6 +124,14 @@ export default tseslint.config(
             // External packages are allowed everywhere except React in the
             // framework-free layers.
             { allow: { to: { module: { origin: "external" } } } },
+            // Node's own modules only in src/content, which reads the authored
+            // book from disk for the serve step and the tests
+            // (src/content/files.ts); in the other layers they would either
+            // break the browser bundle or make the domain depend on a runtime.
+            {
+              from: { element: { type: "content" } },
+              allow: { to: { module: { origin: "core" } } },
+            },
             {
               from: { element: { types: { anyOf: PURE_LAYERS } } },
               disallow: {
@@ -160,5 +158,28 @@ export default tseslint.config(
     // Only src/app touches browser storage (docs/ARCHITECTURE.md, Invariants).
     files: ["src/ui/**"],
     rules: { "no-restricted-globals": ["error", ...storageGlobals] },
+  },
+  {
+    // The app fetches the book and never bundles it
+    // (docs/adr/0001-opening-book-as-fetched-json.md): with the content
+    // imported, the bundle was 1.9 MB on 2026-10-23 and grew with every
+    // position. The authored modules and the files that read them stay out
+    // of src/ui and src/app; tests may build the book in memory.
+    files: ["src/ui/**", "src/app/**"],
+    ignores: ["**/*.test.{ts,tsx}"],
+    rules: {
+      "no-restricted-imports": [
+        "error",
+        {
+          patterns: [
+            {
+              group: ["**/content/openings.ts", "**/content/files.ts", "**/content/lines/*"],
+              message:
+                "The app fetches the book chunk by chunk (src/content/loader.ts, src/app/openings.ts); importing the content would bundle it (docs/adr/0001-opening-book-as-fetched-json.md).",
+            },
+          ],
+        },
+      ],
+    },
   },
 );

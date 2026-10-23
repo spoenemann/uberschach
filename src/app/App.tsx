@@ -10,6 +10,7 @@ import {
 import { LanguageSwitch } from "../ui/language/LanguageSwitch.tsx";
 import styles from "./App.module.css";
 import { loadLanguage, saveLanguage } from "./language.ts";
+import { fetchedBook } from "./openings.ts";
 import { formatRoute, parseRoute, type Route } from "./route.ts";
 
 export function App() {
@@ -39,6 +40,8 @@ function Screen() {
   const t = useT();
   const { language } = useLanguage();
   const { route, replaceRoute } = useRoute();
+  // One book for the visit: what it has loaded stays loaded across screens.
+  const [book] = useState(fetchedBook);
   const title = route.screen === "openings" ? t("Opening explorer") : null;
   useEffect(() => {
     document.title = title === null ? "Uberschach" : `${title} · Uberschach`;
@@ -57,6 +60,7 @@ function Screen() {
             line={route.line}
             ply={route.ply}
             side={route.side}
+            book={book}
             onChange={(next: ExplorerState) => replaceRoute({ screen: "openings", ...next })}
           />
         ) : (

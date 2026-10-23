@@ -11,6 +11,9 @@ import styles from "./Panel.module.css";
 
 export interface PanelProps {
   readonly view: ExplorerView;
+  /** Whether the book's entries for the line are still being fetched, and whether that failed. */
+  readonly loading: boolean;
+  readonly failed: boolean;
   readonly onPlay: (move: Move) => void;
   /** The candidate drawn as under the pointer: the pointer is on its arrow. */
   readonly highlighted?: Move;
@@ -24,7 +27,7 @@ export interface PanelProps {
  * then the candidates as the one list (docs/product-specs/opening-explorer.md,
  * After every move; Candidates).
  */
-export function Panel({ view, onPlay, highlighted, onHover }: PanelProps) {
+export function Panel({ view, loading, failed, onPlay, highlighted, onHover }: PanelProps) {
   const t = useT();
   const { language } = useLanguage();
   const notation = notationLanguage(language);
@@ -42,7 +45,7 @@ export function Panel({ view, onPlay, highlighted, onHover }: PanelProps) {
         {name !== undefined && <h2>{textIn(name, language)}</h2>}
         {entry?.background !== undefined && <p>{textIn(entry.background, language)}</p>}
         {lastMove?.book !== undefined && <p>{textIn(lastMove.book.strategy, language)}</p>}
-        <Notes view={view} />
+        <Notes view={view} loading={loading} failed={failed} />
       </div>
       {candidates.length > 0 && (
         <div className={styles.next}>
@@ -98,8 +101,19 @@ const END_WORDS: Readonly<Record<DrawReason, string>> = {
   "seventy-five-moves": msg("Seventy-five moves without a capture or a pawn move. The game is drawn."),
 };
 
-/** Where the information stops: the game has ended, the book has, or the line has left it. */
-function Notes({ view }: { readonly view: ExplorerView }) {
+interface NotesProps {
+  readonly view: ExplorerView;
+  readonly loading: boolean;
+  readonly failed: boolean;
+}
+
+/**
+ * Where the information stops: the game has ended, the book could not be
+ * fetched, the book has ended, or the line has left it. While the book is
+ * still being fetched nothing is said about it: an entry that has not
+ * arrived yet is not an entry that is missing.
+ */
+function Notes({ view, loading, failed }: NotesProps) {
   const t = useT();
   const { status, entry, lastMove } = view;
   if (status.kind === "checkmate") {
@@ -110,6 +124,8 @@ function Notes({ view }: { readonly view: ExplorerView }) {
     );
   }
   if (status.kind === "draw") return <p className={styles.note}>{t(END_WORDS[status.reason])}</p>;
+  if (failed) return <p className={styles.note}>{t("The openings could not be loaded.")}</p>;
+  if (loading) return null;
   if (entry === undefined && lastMove !== null) {
     return <p className={styles.note}>{t("The line has left the openings the app knows.")}</p>;
   }

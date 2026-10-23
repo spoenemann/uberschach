@@ -4,9 +4,11 @@ import { describe, expect, test } from "vitest";
 import { newGame } from "../../domain/game.ts";
 import { playLine } from "../../domain/line.ts";
 import { buildBook, type OpeningModule } from "../../content/book.ts";
-import { en as firstMovesEn } from "../../content/firstMoves.en.ts";
-import { OPENINGS } from "../../content/openings.ts";
+import { MODULES, OPENINGS } from "../../content/openings.ts";
 import { gameAt, viewAt } from "./view.ts";
+
+/** The English prose of the root module, lines/root.en.json: the shipped text of the first moves. */
+const rootEn = MODULES.find((module) => module.id === "root")?.texts.en ?? {};
 
 function lineOf(text: string) {
   const result = playLine(newGame(), text, "en");
@@ -46,7 +48,7 @@ describe("viewAt with the shipped book", () => {
     expect(view.lastMove?.move).toEqual({ from: "e2", to: "e4" });
     expect(view.lastMove?.book?.rating).toBe(5);
     // The note is content and its wording changes with it: the shipped one is shown.
-    expect(view.lastMove?.book?.strategy.en).toBe(firstMovesEn["1.e4"]?.strategy);
+    expect(view.lastMove?.book?.strategy.en).toBe(rootEn["1.e4"]?.strategy);
     expect(view.name?.en).toBe("King's Pawn Game");
     expect(view.entry?.background?.en).toMatch(/best by test/);
     // Black's replies rated 4 and 5 are the candidates, the others are written but not offered.
@@ -83,6 +85,7 @@ describe("viewAt with the shipped book", () => {
 
 /** A small book with a quiet move inside a named variation and a transposition. */
 const SMALL: OpeningModule = {
+  id: "small",
   positions: [
     { line: "", moves: [{ san: "e4", rating: 5 }, { san: "d4", rating: 4 }, { san: "Nf3", rating: 3 }] },
     { line: "1.e4", moves: [{ san: "e5", rating: 5 }] },
