@@ -22,7 +22,7 @@ const TYPE_OF_ENGLISH_LETTER: Readonly<Record<EnglishLetter, LetteredPiece>> = {
   N: "knight",
 };
 
-/** The piece letters per language (docs/product-specs/languages.md, Promises). */
+/** The piece letters per language (docs/localization.md, Notation). */
 export const PIECE_LETTERS: Readonly<
   Record<Language, Readonly<Record<LetteredPiece, string>>>
 > = {

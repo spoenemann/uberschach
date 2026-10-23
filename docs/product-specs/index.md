@@ -8,8 +8,6 @@ built and changes in the same commit as the behaviour.
   success means, the entry page, what v1 leaves out.
 - [chess-rules.md](chess-rules.md) — legal moves and how a game ends, by
   FIDE article; what the rules engine does not decide.
-- [languages.md](languages.md) — English and German: detection, the footer
-  switch, what is translated and what is not.
 - [opening-explorer.md](opening-explorer.md) — the first capability, not yet
   built: the visitor plays both sides, the app rates and explains each move
   from a database keyed by position, and shows the moves worth knowing next.

@@ -1,14 +1,48 @@
 # Localization
 
-The app speaks English and German (`docs/product-specs/languages.md`).
-English is written in the code, where it reads like the screen it produces;
-German is extracted into one catalogue, `src/i18n/de.ts`, keyed by the
-English text; and `npm run check` fails when code and catalogue disagree.
-Notation follows the language too: a German reader sees `Lb5` where an
-English one sees `Bb5`. The code lives in `src/i18n/` (pure TypeScript),
+The app is published for anyone and speaks English, the language of the
+code and the default, and German; more languages may follow (the
+maintainer's rules, 2026-10-23). This guideline holds both what is promised
+and how to write for it; there is no separate product spec. English is
+written in the code, where it reads like the screen it produces; German is
+extracted into one catalogue, `src/i18n/de.ts`, keyed by the English text;
+and `npm run check` fails when code and catalogue disagree. Notation
+follows the language too: a German reader sees `Lb5` where an English one
+sees `Bb5`. The code lives in `src/i18n/` (pure TypeScript),
 `src/ui/language/` (the React context, the hooks and the footer switch) and
 `src/app/language.ts` (detecting and storing the choice);
 `docs/ARCHITECTURE.md` has the layer.
+
+## What a visitor gets
+
+Each promise names the test that holds it.
+
+- **English and German**; any other language gets English.
+  (`src/i18n/language.test.ts`)
+- **The browser's language on the first visit**: the first entry of
+  `navigator.languages` whose primary subtag the app offers (`de-AT` is
+  German), else English. (`src/app/language.test.ts`)
+- **A switch in the footer**, each language named in itself and the current
+  one marked. A choice takes effect at once, without a reload, and is kept
+  under the localStorage key `uberschach.language`, where it wins over the
+  browser's languages on later visits. `src/app/language.ts` reads both;
+  `App` holds the language as state and provides it through
+  `LanguageContext`; `src/ui/language/LanguageSwitch.tsx` changes and
+  stores it. (`src/ui/language/LanguageSwitch.test.tsx`,
+  `src/app/App.test.tsx`)
+- **`<html lang>` follows the language**, so screen readers pronounce it
+  right. (`src/app/App.test.tsx`)
+- **Every text exists in both languages.** A missing German text would show
+  English, and `npm run check` fails before that ships (The German
+  catalogue, below). (`src/i18n/catalogue.test.ts`)
+- **Notation in the language's piece letters**: `K Q R B N` in English,
+  `K D T L S` in German (Notation, below). (`src/i18n/notation.test.ts`)
+
+Not promised: regional variants (`de-CH` is German, `en-GB` is English);
+the language in the URL, so a shared link opens in the reader's own
+language; translated square names, FEN or app name; figurine notation;
+German content for every lesson (the English then shows, by design); a
+right-to-left layout.
 
 ## Writing text a visitor sees
 
@@ -63,37 +97,32 @@ collected too; write `t()` in comments.
 
 ## Notation
 
-Inside the app notation is English: the domain, the content files, FEN and
-later PGN all use `K Q R B N`. It is adapted at display time only, by
-`localizeSan(san, language)` from `src/i18n/notation.ts` on every move or
-move sequence shown; `pieceLetter(type, language)` gives one letter. German
-uses `K D T L S`; the pawn has no letter in either; files, ranks, `x`, `+`,
-`#`, `=` and `O-O` are the same everywhere. `localizeSan` replaces every
-capital `K Q R B N`, so it takes notation only, never the prose around it.
+Inside the app notation is English: the domain, the content files, the
+explorer's address, FEN and later PGN all use `K Q R B N`. It is adapted at
+display time only, by `localizeSan(san, language)` from
+`src/i18n/notation.ts` on every move or move sequence shown;
+`pieceLetter(type, language)` gives one letter. German uses `K D T L S`;
+the pawn has no letter in either; files, ranks, `x`, `+`, `#`, `=` and
+`O-O` are the same everywhere. `localizeSan` replaces every capital
+`K Q R B N`, so it takes notation only, never the prose around it.
 
 ## Opening content
 
-Content holds the chess data once and the prose once per language:
-`ruy-lopez.ts` has the moves and positions, `ruy-lopez.en.ts` and
-`ruy-lopez.de.ts` the text, joined as a `Record<Language, …>` (`Language`
-from `src/i18n/language.ts`). English is complete; German may be missing
-for a lesson, and the English then shows, which the languages spec lists
-as accepted. No content exists yet: the first content lands in this layout,
-and if the opening explorer's spec needs another, this section changes
-with it.
+Content holds the chess data once and the prose once per language: a
+neutral file with the positions, moves, ratings and sources, and beside it
+one file per language with the texts, names and backgrounds
+(`docs/product-specs/opening-explorer.md`, The database), joined as a
+`Record<Language, …>` with `Language` from `src/i18n/language.ts`:
+`<name>.ts`, `<name>.en.ts`, `<name>.de.ts`. English is complete; German
+may lag for a lesson, and the English then shows, which is accepted above.
+No content exists yet: the first content lands in this layout, and if
+building the explorer needs another, this section changes with it.
 
-## Choosing the language
+## Adding a language
 
-`src/app/language.ts`: a choice stored under the localStorage key
-`uberschach.language` wins; otherwise the first entry of
-`navigator.languages` whose primary subtag is supported (`de-AT` is
-German); otherwise English. `App` holds the language as state, provides it
-through `LanguageContext`, sets `<html lang>` to it, and the footer's
-`LanguageSwitch` changes and stores it.
-
-Adding a language: its tag in `SUPPORTED_LANGUAGES` and its name in
-`LANGUAGE_NAMES` (`src/i18n/language.ts`), a catalogue file and its
-`CATALOGUES` entry (`translate.ts`), its piece letters (`notation.ts`). The
+Its tag in `SUPPORTED_LANGUAGES` and its name in `LANGUAGE_NAMES`
+(`src/i18n/language.ts`), a catalogue file and its `CATALOGUES` entry
+(`translate.ts`), its piece letters (`notation.ts`), its content files. The
 `Record<Language, …>` types point at every other place, and the catalogue
 check covers every catalogue but English.
 
@@ -104,10 +133,9 @@ Taken with the maintainer on 2026-10-23; the recommended option each time.
 - **Hand-rolled over Lingui, i18next and react-intl.** About two hundred
   lines over five small files, comments included; no dependency, no build
   plugin, no extraction CLI; the catalogue check does in Vitest what
-  `lingui extract` would. Lingui matched the
-  rules best out of the box but adds a macro plugin and `.po` tooling;
-  i18next keys by id, so the English would leave the code; react-intl is
-  the heaviest.
+  `lingui extract` would. Lingui matched the rules best out of the box but
+  adds a macro plugin and `.po` tooling; i18next keys by id, so the English
+  would leave the code; react-intl is the heaviest.
 - **`src/i18n/` as a layer** between `domain` and `content`, so content
   files can type their languages and the domain stays chess only.
 - **Stored in localStorage, not in the URL.** There is no routing yet, and
@@ -115,3 +143,6 @@ Taken with the maintainer on 2026-10-23; the recommended option each time.
   with an English browser back on every visit.
 - **Neutral data once, prose per language beside it**, over one folder per
   language, which would duplicate the chess data.
+- **One guideline, no product spec beside it** (the maintainer, later the
+  same day): the promises above and the rules below them change together,
+  so one file holds both.

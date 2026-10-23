@@ -1,8 +1,8 @@
 import { isLanguage, pickLanguage, type Language } from "../i18n/language.ts";
 
 // Which language the visitor gets, and remembering their choice
-// (docs/product-specs/languages.md). Only src/app reads the browser and its
-// storage (docs/ARCHITECTURE.md, Invariants).
+// (docs/localization.md, What a visitor gets). Only src/app reads the
+// browser and its storage (docs/ARCHITECTURE.md, Invariants).
 
 const STORAGE_KEY = "uberschach.language";
 

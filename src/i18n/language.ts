@@ -1,4 +1,4 @@
-// The languages the app speaks (docs/product-specs/languages.md). English is
+// The languages the app speaks (docs/localization.md). English is
 // the source language: text is written in English in the code, and the other
 // languages are catalogues keyed by it (docs/localization.md).
 

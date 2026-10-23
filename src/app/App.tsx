@@ -27,7 +27,7 @@ export function App() {
     saveLanguage(chosen);
   }, []);
   // The document's language follows the visitor's, for screen readers and
-  // hyphenation (docs/product-specs/languages.md).
+  // hyphenation (docs/localization.md).
   useEffect(() => {
     document.documentElement.lang = language;
   }, [language]);

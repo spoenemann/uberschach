@@ -61,4 +61,4 @@ npm run dev                          # http://localhost:5173/uberschach/ (the ba
 - `docs/design-docs/index.md` — one doc per system: how it is built, its invariants, the alternatives it rejected; each with a trust label. The design system (tokens, board, type, layout) is the first.
 - `docs/exec-plans/` — plans in `active/` with progress and decision logs, moved to `completed/` when done; single-session work gets none. Decision rationale goes in a plan's decision log, not in a separate records folder.
 - `docs/visual-verification.md` — how rendered output is verified: running the visual check, what it checks, the disposable ad-hoc module pattern, when the check may grow.
-- `docs/localization.md` — writing translatable text, the German catalogue and its check, notation per language, per-language content, choosing the language.
+- `docs/localization.md` — what the languages promise and how to write for them: `t()`, the German catalogue and its check, notation per language, per-language content, the switch. The guideline is the spec for this concern.

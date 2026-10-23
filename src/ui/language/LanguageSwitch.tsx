@@ -5,7 +5,7 @@ import styles from "./LanguageSwitch.module.css";
 /**
  * The language switch in the site footer: one button per language, named in
  * that language and marked with it, the current one pressed
- * (docs/product-specs/languages.md).
+ * (docs/localization.md, What a visitor gets).
  */
 export function LanguageSwitch() {
   const { language, setLanguage } = useLanguage();

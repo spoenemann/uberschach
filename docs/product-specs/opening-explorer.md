@@ -75,8 +75,9 @@ for and risks, and which replies matter.
 - Every rating and text is read and approved by the maintainer before it
   ships, whoever drafted it. A historical statement names its source in
   the data file; the source is not shown on screen.
-- Every entry has its prose in English; German follows the languages spec
-  (`languages.md`): it may lag, and the English then shows.
+- Every entry has its prose in English; German follows
+  `docs/localization.md` (Opening content): it may lag, and the English
+  then shows.
 
 ### After every move: the panel
 
@@ -133,8 +134,9 @@ for and risks, and which replies matter.
 
 ### Languages
 
-- Everything the explorer says exists in both languages (`languages.md`);
-  content prose follows that spec's rule above. Notation is localized on
+- Everything the explorer says exists in both languages
+  (`docs/localization.md`); content prose follows the rule under The
+  database above. Notation is localized on
   the screen; in the address it reads the same in every language.
 
 ## Deliberately not promised
@@ -159,15 +161,15 @@ for and risks, and which replies matter.
 - No PGN or FEN in or out. The address is the only way in and out.
 - No sound.
 - The address carries the line and the orientation, not the language
-  (`languages.md`).
+  (`docs/localization.md`, What a visitor gets).
 
 ## Pointers
 
 - `product-brief.md` — the entry page the explorer is reached from.
 - `chess-rules.md` — legality, how a game ends, when positions are the
   same.
-- `languages.md`, `docs/localization.md` — translated text and the layout
-  of per-language content.
+- `docs/localization.md` — the languages promised, translated text and
+  the layout of per-language content.
 - `docs/design-docs/design-system.md` — board highlights, legal-move
   marks, feedback colours. The rating colours and the arrows are a
   dated amendment there when they are built.
