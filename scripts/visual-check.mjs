@@ -2,7 +2,7 @@
 // Visual check: renders the built app (dist/) in headless system Chrome at
 // the GitHub Pages project path, applies the universal invariants, and writes
 // screenshots at a desktop and a phone width. Rules, rationale and the
-// ad-hoc check pattern: docs/design-docs/visual-verification.md.
+// ad-hoc check pattern: docs/visual-verification.md.
 // Usage:
 //   npm run check:visual                     # the root route
 //   npm run check:visual -- / '#/openings'   # the given routes, relative to the base
@@ -92,7 +92,7 @@ async function launchChrome() {
     console.error(
       `✖ visual-check: could not launch Chrome.\n      ${error.message.split("\n")[0]}\n` +
         "  This check renders the built app in a locally installed Google Chrome and\n" +
-        "  deliberately downloads no browser (docs/design-docs/visual-verification.md).\n" +
+        "  deliberately downloads no browser (docs/visual-verification.md).\n" +
         "  → Install Google Chrome, or point CHROME_PATH at a Chrome or Chromium binary:\n" +
         "      CHROME_PATH=/path/to/chrome npm run check:visual",
     );
@@ -302,7 +302,7 @@ try {
 if (failures.length > 0) {
   console.error(failures.join("\n\n"));
   console.error(
-    `\n${failures.length} visual check(s) failed. Rules: docs/design-docs/visual-verification.md`,
+    `\n${failures.length} visual check(s) failed. Rules: docs/visual-verification.md`,
   );
   process.exit(1);
 }
@@ -315,5 +315,5 @@ console.log(`  Screenshots: ${SHOT_DIR}`);
 console.log("  These are universal invariants only. For a change to anything rendered,");
 console.log("  now LOOK at the screenshots (open the PNG files) and verify the specifics");
 console.log("  of your change with a disposable ad-hoc module if looking is not enough");
-console.log("  (docs/design-docs/visual-verification.md). A blank or broken frame is a");
+console.log("  (docs/visual-verification.md). A blank or broken frame is a");
 console.log("  failure even when every check above is green.");

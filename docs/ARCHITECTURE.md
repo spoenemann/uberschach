@@ -50,7 +50,7 @@ Enforced by: `boundaries/dependencies` and `boundaries/no-unknown-files` in
   no console error, no uncaught exception, no failed same-origin request and
   no third-party request, at a desktop and a phone width. Enforced by:
   `scripts/visual-check.mjs`, run last by `npm run check`
-  (`docs/design-docs/visual-verification.md`).
+  (`docs/visual-verification.md`).
 
 ## Where everything else lives
 
@@ -59,4 +59,4 @@ Enforced by: `boundaries/dependencies` and `boundaries/no-unknown-files` in
 - `.github/workflows/` — CI and the Pages deploy. A push to `main` that
   passes CI deploys, so changes here are sensitive.
 - `scripts/` — plain Node scripts the checks use: the lint guidance
-  formatter and the visual check harness.
+  formatter and the visual check.
