@@ -103,7 +103,7 @@ function Notes({ view }: { readonly view: ExplorerView }) {
     return <p className={styles.note}>{t("The line has left the openings the app knows.")}</p>;
   }
   if (entry !== undefined && entry.moves.length === 0) {
-    return <p className={styles.note}>{t("The book ends here.")}</p>;
+    return <p className={styles.note}>{t("No further moves are rated or explained from here.")}</p>;
   }
   return null;
 }

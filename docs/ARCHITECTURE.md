@@ -75,4 +75,7 @@ Enforced by: `boundaries/dependencies` and `boundaries/no-unknown-files` in
 - `.github/workflows/` — CI and the Pages deploy. A push to `main` that
   passes CI deploys, so changes here are sensitive.
 - `scripts/` — plain Node scripts the checks use: the lint guidance
-  formatter and the visual check.
+  formatter and the visual check; under `scripts/content/`, the tools and
+  briefs for agents that write the opening book's prose, which read
+  `src/domain/` and `src/content/` as data and are run by hand, not by a
+  check (`scripts/content/README.md`).

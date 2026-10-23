@@ -5,39 +5,33 @@ import type { OpeningTexts } from "../book.ts";
 export const en: OpeningTexts = {
   "1.d4 Nf6": {
     strategy:
-      "Develops a piece without committing a central pawn and controls e4, so 2.e4 would give " +
-      "up a pawn. Depending on White's next moves, Black can choose ...e6 with ...Bb4 or " +
-      "...b6, ...g6 with ...Bg7, ...c5, or ...d5. Many of these setups let White build a " +
-      "centre first and attack it later with pieces and the breaks ...c5, ...d5 or ...e5. " +
-      "White in turn can sidestep the main lines with systems such as the Trompowsky, 2.Bg5, " +
-      "or the London with Bf4.",
+      "Develops a piece and controls e4 without committing a central pawn, so White cannot " +
+      "easily build a full pawn centre. Black lets White occupy the centre and plans to " +
+      "undermine it from a distance with pieces and pawn breaks. The cost is that Black claims " +
+      "nothing in the centre yet.",
   },
 
   "1.d4 d5": {
     strategy:
-      "Occupies the centre and stops e4, which White can now play only as a gambit. White " +
-      "most often challenges d5 with 2.c4 or chooses a quieter setup with Nf3, Bf4 or e3. " +
-      "Black supports d5 with ...e6 or ...c6; after ...c6 the light-squared bishop can often " +
-      "develop before ...e6 shuts it in. The cost is flexibility: with the d-pawn committed, " +
-      "Black must be ready to meet the Queen's Gambit.",
+      "Occupies the centre and stops e4, which White can now play only as a gambit. It mirrors " +
+      "White's set-up and tends to lead to positional, often closed play in which the pawn " +
+      "structure matters more than tactics. The cost is flexibility: with the d-pawn committed, " +
+      "Black must be ready to defend it against pressure from c4.",
   },
 
   "1.d4 e6": {
     strategy:
-      "Opens the diagonal of the dark-squared bishop and keeps several systems in reserve: " +
-      "after 2.c4, Black can head for a Queen's Gambit Declined with ...d5, a Nimzo-Indian or " +
-      "Queen's Indian with ...Nf6, or a Dutch with ...f5. The price is that White can answer " +
-      "2.e4, and Black must then be ready to play a French Defence. The light-squared bishop " +
-      "often stays behind the e6 pawn and needs ...b6 or a later pawn break to become active.",
+      "Opens the diagonal of the dark-squared bishop and leaves Black's plans open, since the " +
+      "game can still become French-like, Queen's Gambit-like or Indian in character. The price " +
+      "is the light-squared bishop, which stays behind the e6 pawn, and that White may claim the " +
+      "centre with e4 at once.",
   },
 
   "1.d4 f5": {
     strategy:
-      "Stakes a claim to e4 and aims for unbalanced play with kingside chances. Black chooses " +
-      "between the Stonewall with ...e6 and ...d5, the Leningrad with ...g6 and ...Bg7, and " +
-      "the Classical setup with ...e6 and ...Be7. The price is a weakened kingside, with the " +
-      "e8-h5 diagonal opened, which White can test at once with the gambits 2.e4 or 2.h3 and " +
-      "3.g4.",
+      "Stakes a claim to e4 and aims for an attack on White's kingside, with unbalanced, " +
+      "fighting play. The price is a weakened kingside, above all the e8-h5 diagonal, which " +
+      "White can test early with pawn sacrifices or a quick kingside pawn storm.",
   },
 
   "1.d4 Nc6": {
@@ -46,10 +40,9 @@ export const en: OpeningTexts = {
       "Named after Efim Bogoljubov and Vladas Mikėnas. Hypermodern players such as Aron " +
       "Nimzowitsch and Bogoljubov tried 1...Nc6, but it has never become very popular.",
     strategy:
-      "Develops a knight towards the centre and prepares ...e5, but blocks the c-pawn, so the " +
-      "usual ...c5 and ...c6 plans are unavailable. White can reply 2.d5, driving the knight " +
-      "away, usually to e5, 2.e4 with a broad centre, or 2.Nf3, which stops ...e5. Sound " +
-      "enough, but it commits the knight before White's setup is clear.",
+      "Develops a knight towards the centre and prepares ...e5, but blocks the c-pawn, which " +
+      "Black would normally keep free until White's set-up is clear. 2.d5 gains space and chases " +
+      "the knight away, usually to e5. Sound enough, but rare and committal.",
   },
 
   "1.d4 b6": {
@@ -61,17 +54,15 @@ export const en: OpeningTexts = {
       "Miles and Raymond Keene, and Viktor Korchnoi used it successfully in game 6 of his " +
       "Candidates semi-final against Lev Polugaevsky at Évian 1977.",
     strategy:
-      "Prepares ...Bb7 to pressure e4 along the long diagonal, usually with ...e6 to follow. " +
-      "If White builds a broad centre with c4 and e4, Black attacks it with pieces, ...Bb4 " +
-      "and sometimes ...f5, instead of occupying it. Sound but rare, and Black has to play " +
-      "accurately against the space White gains.",
+      "Prepares ...Bb7 to pressure e4 along the long diagonal. Black lets White build a broad " +
+      "centre and means to undermine it with pieces instead of occupying it. Sound but rare, and " +
+      "Black has to play accurately against the space White gains.",
   },
 
   "1.d4 c6": {
     strategy:
-      "Prepares ...d5, heading for a Slav after 2.c4 or a Caro-Kann after 2.e4. Sound, but " +
-      "Black commits the c-pawn early and must be ready for both openings, while White " +
-      "decides which one the game becomes.",
+      "Prepares ...d5 with a solid pawn chain behind it and keeps the light-squared bishop free. " +
+      "Sound, but Black commits the c-pawn early, and White decides what kind of game follows.",
   },
 
   "1.d4 c5": {
@@ -84,34 +75,31 @@ export const en: OpeningTexts = {
       "high-level play, though Alexander Alekhine beat Efim Bogoljubov with it in one game of " +
       "their second match, in 1934.",
     strategy:
-      "Attacks d4 at once. White usually answers 2.d5 and gains space, and Black then blocks " +
-      "the centre with ...e5 or attacks the advanced pawn with ...e6, while 2.dxc5 e6 " +
-      "promises White nothing. Playable, but the space White gains after 2.d5 is lasting.",
+      "Attacks d4 at once and challenges the centre from the side. White usually gains space " +
+      "with 2.d5, and that advantage lasts while Black looks for counterplay against the " +
+      "advanced pawn. Playable, but Black starts a step behind in space.",
   },
 
   "1.d4 d6": {
     name: "Pillsbury Defence",
     strategy:
-      "Prepares ...Nf6 and ...g6 or ...e5, often transposing into a Pirc, Philidor, Old " +
-      "Indian or King's Indian structure. Sound but modest: it develops nothing, and White " +
-      "gains space with e4 or c4 and picks the line it prefers.",
+      "Prepares ...Nf6 and a flexible set-up. Sound but modest: it develops nothing, and White " +
+      "gains space and chooses the line it prefers.",
   },
 
   "1.d4 g6": {
     name: "Modern Defence",
     strategy:
-      "Prepares ...Bg7, so the game usually transposes into a King's Indian or Pirc " +
-      "structure. Black lets White build a centre and attacks it later with the g7 bishop and " +
-      "pawn breaks such as ...c5 or ...e5. Sound, but after 2.e4 White gets a broad pawn " +
-      "centre before ...Nf6 can challenge it, and White picks the line that suits it best.",
+      "Prepares ...Bg7 and lets White build a centre, to be attacked later by the g7 bishop and " +
+      "pawn breaks such as ...c5 or ...e5. Sound, but White gets a broad pawn centre before " +
+      "Black's pieces can challenge it.",
   },
 
   "1.d4 Na6": {
     name: "Australian Defence",
     strategy:
-      "Develops the knight to the rim, where it eyes b4 and c5 but does little for the " +
-      "centre. White simply takes space with e4 or c4 while the knight still needs several " +
-      "moves to become useful.",
+      "Develops the knight to the rim, where it eyes b4 and c5 but does little for the centre. " +
+      "White simply takes space while the knight still needs several moves to become useful.",
   },
 
   "1.d4 Nh6": {
@@ -123,14 +111,14 @@ export const en: OpeningTexts = {
 
   "1.d4 a6": {
     strategy:
-      "Spends a tempo on a rook-pawn move that prepares ...b5 but neither develops a piece " +
-      "nor contests the centre. White builds with e4, c4 and Nc3 at leisure.",
+      "Spends a tempo on a rook-pawn move that prepares ...b5 but neither develops a piece nor " +
+      "contests the centre. White builds a full centre at leisure.",
   },
 
   "1.d4 a5": {
     strategy:
       "Spends a tempo on a rook-pawn move that controls b4 but does nothing for the centre or " +
-      "development. White is free to build a broad centre with e4 and c4.",
+      "development. White is free to build a broad centre.",
   },
 
   "1.d4 b5": {
@@ -154,9 +142,9 @@ export const en: OpeningTexts = {
       "Charlick, the second Australian champion, introduced the 2...d6 line in the early " +
       "1890s.",
     strategy:
-      "Offers the e-pawn for quick development and trap chances: after 2.dxe5 Nc6 3.Nf3 Qe7, " +
-      "ideas such as ...Qb4+ and ...Qxb2 are in the air. Accurate play lets White keep the " +
-      "pawn or a clear lead, so the compensation is questionable.",
+      "Offers the e-pawn for quick development and trap chances, such as a queen raid on the " +
+      "b2-pawn. Accurate play lets White keep the pawn or a clear lead, so the compensation is " +
+      "questionable.",
   },
 
   "1.d4 f6": {
@@ -168,20 +156,21 @@ export const en: OpeningTexts = {
   "1.d4 h6": {
     strategy:
       "Stops Bg5 but spends a tempo on a rook-pawn move that neither develops a piece nor " +
-      "contests the centre. White is free to take space with e4 and c4.",
+      "contests the centre. White is free to take space.",
   },
 
   "1.d4 h5": {
     strategy:
       "Spends a tempo on a rook-pawn advance that develops nothing, ignores the centre and " +
-      "weakens g6. White is free to take the centre with e4 and c4.",
+      "weakens g6. White is free to take the centre.",
   },
 
   "1.d4 g5": {
     name: "Borg Defence: Borg Gambit",
     strategy:
-      "Hangs the g-pawn to 2.Bxg5 and weakens the whole kingside. After 2...Bg7 the bishop " +
-      "only eyes d4, which White defends with c3 or e3, and White stays a clean pawn up.",
+      "Hangs the g-pawn to 2.Bxg5 and weakens the whole kingside. Even with the bishop on the " +
+      "long diagonal it only eyes d4, which White easily defends, and White stays a clean pawn " +
+      "up.",
   },
 
   "1.d4": {

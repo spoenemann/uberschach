@@ -5,12 +5,11 @@ import type { OpeningTexts } from "../book.ts";
 export const en: OpeningTexts = {
   "1.e4 d5 2.exd5": {
     strategy:
-      "Captures the pawn and makes Black choose how to regain it: the positional …Qxd5, when " +
-      "Nc3 gains a tempo on the queen, or the tactical …Nf6, when d4 lets the knight " +
-      "recapture and c4 then drives it from d5. Either way White leads in development and has " +
-      "more central space. It is played in the overwhelming majority of games at all levels " +
-      "and is generally considered the only second move that offers White serious prospects " +
-      "of an advantage.",
+      "Takes the pawn and makes Black decide how to win it back. Recapturing at once with the " +
+      "queen costs time, because White can develop with gain of tempo against it; delaying with " +
+      "a knight keeps Black's pieces active but lets White build in the centre. It is the move " +
+      "that gives White real chances of an advantage, which is why it is played almost every " +
+      "time.",
   },
 
   "1.e4 d5 2.Nc3": {
@@ -21,10 +20,9 @@ export const en: OpeningTexts = {
       "arises from 1.Nc3 d5 2.e4; Blackburne played 1.Nc3 against Josef Noa in the London " +
       "1883 tournament.",
     strategy:
-      "Defends e4 and develops, a sound but rarely seen choice that sidesteps the main lines. " +
-      "Black can gain space with tempo by …d4, or take on e4 and play …Bf5 for a kind of " +
-      "Caro-Kann in which the tempo for …c6 has been saved. Either way Black gets an easy " +
-      "game, and White forgoes the chances that exd5 offers.",
+      "Defends e4 with a developing move and avoids the main lines, but gives up the initiative " +
+      "that taking on d5 offers. Black can gain space by pushing the d-pawn and cramping the " +
+      "knight, or trade on e4 and develop easily, so Black gets a comfortable game.",
   },
 
   "1.e4 d5 2.d4": {
@@ -36,10 +34,9 @@ export const en: OpeningTexts = {
       "Diemer (1908–1990) popularised the modern 3.Nc3 Nf6 4.f3. It can also be reached from " +
       "the Scandinavian Defence with 2.d4.",
     strategy:
-      "Offers the e4-pawn for quick development: after 2.d4 dxe4 3.Nc3 Nf6 4.f3 White plays a " +
-      "pawn down for open lines and an attack. Theory gives Black several ways to equalise, " +
-      "so the gambit is almost never seen at top level. Black can also decline it with …e6, " +
-      "…c6 or …Nc6 and transpose into a French, a Caro-Kann or a Nimzowitsch Defence.",
+      "Offers the e4-pawn for a strong centre, quick development and open lines, a gambit that " +
+      "is rarely seen at top level because Black has several sound ways to meet it. Black can " +
+      "also decline the pawn and transpose into familiar set-ups.",
   },
 
   "1.e4 d5 2.Nf3": {
@@ -50,38 +47,36 @@ export const en: OpeningTexts = {
       "research the opening significantly. It is also known as the Lemberg, Lviv or Polish " +
       "Gambit, and 1.Nf3 d5 2.e4 reaches the same position.",
     strategy:
-      "Sacrifices the e4-pawn for quick piece play: after 2.Nf3 dxe4 3.Ng5 White hopes to win " +
-      "it back or to hit f7. Black keeps the pawn with …Bf5 or returns it with …e5, and " +
-      "stands better either way.",
+      "Sacrifices the e4-pawn for quick piece play: after 2.Nf3 dxe4 3.Ng5 White hopes to win it " +
+      "back or to hit f7. Black keeps the pawn or returns it at the right moment, and stands " +
+      "better either way.",
   },
 
   "1.e4 d5 2.e5": {
     strategy:
-      "Gains space but releases the central tension and poses Black no problems. Black " +
-      "develops the c8-bishop outside the pawn chain with …Bf5 or …Bg4, then plays …e6 and " +
-      "…c5 for a favourable French-like structure in which the e5-pawn needs constant " +
-      "support.",
+      "Gains space but releases the central tension and poses Black no problems. Black develops " +
+      "the c8-bishop outside the pawn chain and then builds a favourable French-like structure " +
+      "in which the e5-pawn needs constant support.",
   },
 
   "1.e4 d5 2.c3": {
     strategy:
-      "Prepares d4 and opens the d1–a4 diagonal, but leaves e4 attacked. After 2.c3 dxe4 " +
-      "3.Qa4+ c6 4.Qxe4 Nf6 the pawn is back, but the queen is chased again and Black " +
-      "develops freely.",
+      "Prepares d4 and opens the d1–a4 diagonal, but leaves e4 attacked. After 2.c3 dxe4 3.Qa4+ " +
+      "c6 4.Qxe4 the pawn is back, but Black develops with tempo against the queen.",
   },
 
   "1.e4 d5 2.c4": {
     strategy:
-      "Hits d5 a second time, but gives up the e4-pawn: after 2.c4 dxe4 the c4-pawn blocks " +
-      "the fourth rank, so Qa4+ does not win e4 back, and White plays a pawn down. Black can " +
-      "also gain space with …d4.",
+      "Hits d5 a second time, but gives up the e4-pawn: after 2.c4 dxe4 the c4-pawn blocks the " +
+      "fourth rank, so Qa4+ does not win e4 back, and White plays a pawn down. Black can also " +
+      "gain space by pushing the d-pawn.",
   },
 
   "1.e4 d5 2.d3": {
     strategy:
       "Defends e4 solidly but shuts in the diagonal of the f1-bishop. After 2.d3 dxe4 3.dxe4 " +
-      "Qxd1+ 4.Kxd1 White loses the right to castle for a harmless queenless position, and " +
-      "Black develops with …Nf6 and …e5 without difficulty.",
+      "Qxd1+ 4.Kxd1 White loses the right to castle for a harmless queenless position, and Black " +
+      "develops without difficulty.",
   },
 
   "1.e4 d5 2.f3": {
@@ -146,14 +141,14 @@ export const en: OpeningTexts = {
   "1.e4 d5 2.f4": {
     name: "Bird's Opening: Williams Gambit",
     strategy:
-      "A pawn sacrifice that also opens the e1–h4 diagonal to the king. After 2.f4 dxe4 3.Nc3 " +
-      "Nf6 Black keeps the extra pawn, and White has little to show for it.",
+      "A pawn sacrifice that also opens the e1–h4 diagonal to the king. After 2.f4 dxe4 Black " +
+      "keeps the extra pawn, and White has little to show for it.",
   },
 
   "1.e4 d5 2.g3": {
     strategy:
-      "Prepares Bg2 to support e4, but too slowly: …dxe4 wins the pawn first, and …Nf6 or " +
-      "…Bf5 keeps it when the bishop arrives on g2.",
+      "Prepares Bg2 to support e4, but too slowly: …dxe4 wins the pawn first, and Black keeps it " +
+      "when the bishop arrives on g2.",
   },
 
   "1.e4 d5 2.g4": {
@@ -164,8 +159,8 @@ export const en: OpeningTexts = {
 
   "1.e4 d5 2.h3": {
     strategy:
-      "Prepares g4 or stops …Bg4, but does nothing for e4. After …dxe4 White is a pawn down " +
-      "and Black develops freely with …Nf6.",
+      "Prepares g4 or stops …Bg4, but does nothing for e4. After …dxe4 White is a pawn down and " +
+      "Black develops freely.",
   },
 
   "1.e4 d5 2.h4": {
@@ -225,8 +220,8 @@ export const en: OpeningTexts = {
 
   "1.e4 d5 2.Ne2": {
     strategy:
-      "Prepares Nbc3 or Ng3 against e4, but the knight blocks the queen and the f1-bishop. " +
-      "After 2.Ne2 dxe4 3.Nbc3 f5 or …Nf6 Black holds the extra pawn.",
+      "Prepares Nbc3 or Ng3 against e4, but the knight blocks the queen and the f1-bishop. After " +
+      "2.Ne2 dxe4 3.Nbc3 Black holds the extra pawn.",
   },
 
   "1.e4 d5": {
@@ -248,10 +243,9 @@ export const en: OpeningTexts = {
       "Scandinavian and greatly developed its theory in the late 19th and early 20th " +
       "centuries.",
     strategy:
-      "Recaptures at once with the queen and accepts that White gains a tempo with 3.Nc3. " +
-      "After that the queen usually goes to a5, the most popular square, or to d6 or d8, and " +
-      "Black develops with ...Nf6, ...c6 and a bishop to f5 or g4. Black gets a free game " +
-      "with easy development and a sound structure, at the cost of that tempo.",
+      "Takes the pawn back at once with the queen, and accepts that White gains a tempo by " +
+      "attacking the queen with Nc3. In return Black gets a free game: easy development and a " +
+      "sound pawn structure, with no weakness to defend.",
   },
 
   "1.e4 d5 2.exd5 Nf6": {
@@ -260,16 +254,15 @@ export const en: OpeningTexts = {
       "The more “tactical” of the two main branches of the Scandinavian Defence, known as the " +
       "Modern Scandinavian. John Emms calls 3.d4 White's main line against it.",
     strategy:
-      "Delays the recapture so that the queen does not lose a tempo to Nc3. After 3.d4 Black " +
-      "regains the pawn with 3...Nxd5, though 4.c4 then drives the knight away, or plays the " +
-      "sharper 3...Bg4. If White keeps the pawn with 3.c4, Black usually offers a pawn with " +
-      "3...c6, and 4.d4 cxd5 reaches the Panov–Botvinnik Attack of the Caro–Kann.",
+      "Delays the recapture so that the queen does not lose a tempo, and wins the pawn back with " +
+      "the knight later. White may try to keep the pawn, but usually just develops; the game " +
+      "turns more tactical, with Black aiming for quick development.",
   },
 
   "1.e4 d5 2.exd5 Nd7": {
     strategy:
-      "Aims at ...Ngf6 and ...Nb6 to win back d5, but blocks both the c8-bishop and the " +
-      "queen's pressure on the pawn. White can hold it with c4 or Nc3 and stays a pawn up.",
+      "Aims at ...Ngf6 and ...Nb6 to win back d5, but blocks both the c8-bishop and the queen's " +
+      "pressure on the pawn. White can hold it easily and stays a pawn up.",
   },
 
   "1.e4 d5 2.exd5 Na6": {
@@ -298,14 +291,14 @@ export const en: OpeningTexts = {
 
   "1.e4 d5 2.exd5 Qd6": {
     strategy:
-      "Attacks d5, but after 3.Nc3 or 3.c4 White keeps the pawn, and the exposed queen can be " +
-      "hit with tempo by Nb5 or Bb5+.",
+      "Attacks d5, but after 3.Nc3 White keeps the pawn, and the exposed queen can be hit with " +
+      "tempo, for instance by Nb5.",
   },
 
   "1.e4 d5 2.exd5 Nh6": {
     strategy:
       "Aims for ...Nf5, but the knight on the rim does nothing for d5. White holds the pawn " +
-      "with c4 or Nc3, and Black is a pawn down with a misplaced piece.",
+      "easily, and Black is a pawn down with a misplaced piece.",
   },
 
   "1.e4 d5 2.exd5 a6": {
@@ -323,7 +316,7 @@ export const en: OpeningTexts = {
   "1.e4 d5 2.exd5 b6": {
     strategy:
       "Prepares ...Bb7, which would hit d5 along the long diagonal, but White holds the pawn " +
-      "with c4 or Nc3 and stays a pawn up with the better development.",
+      "easily and stays a pawn up with the better development.",
   },
 
   "1.e4 d5 2.exd5 c6": {
@@ -338,15 +331,14 @@ export const en: OpeningTexts = {
 
   "1.e4 d5 2.exd5 c5": {
     strategy:
-      "Offers the c-pawn: after 3.dxc6 en passant Nxc6 the position is the same as in the " +
-      "2...c6 gambit, a pawn down for some development. White can also keep the d5 pawn with " +
-      "c4 or Nc3.",
+      "Offers the c-pawn: after 3.dxc6 en passant Nxc6 the position is the same as in the 2...c6 " +
+      "gambit, a pawn down for some development. White can also simply keep the d5 pawn.",
   },
 
   "1.e4 d5 2.exd5 e6": {
     strategy:
       "Offers the e-pawn: after 3.dxe6 Bxe6 Black has only the bishop out for it, and White " +
-      "stays a pawn up and develops with d4 and Nf3.",
+      "stays a pawn up and develops freely.",
   },
 
   "1.e4 d5 2.exd5 e5": {
@@ -358,8 +350,8 @@ export const en: OpeningTexts = {
 
   "1.e4 d5 2.exd5 g6": {
     strategy:
-      "Prepares a fianchetto with ...Bg7 and ...Nf6, but the d5 pawn stays with White, who " +
-      "holds it with c4 or Nc3 and is simply a pawn up.",
+      "Prepares a kingside fianchetto, but the d5 pawn stays with White, who holds it easily and " +
+      "is simply a pawn up.",
   },
 
   "1.e4 d5 2.exd5 h6": {

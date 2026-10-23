@@ -5,103 +5,95 @@ import type { OpeningTexts } from "../book.ts";
 export const en: OpeningTexts = {
   "1.b3 e5": {
     strategy:
-      "Occupies the centre at once and blocks the long diagonal. After 2.Bb2 attacks the " +
-      "pawn, Black's usual answer is ...Nc6, often followed by ...d5 for a broad pawn centre; " +
-      "...d6 is a more timid way to hold e5. White then attacks the centre with e3, Bb5 and " +
-      "f4, the bishop pinning the knight that guards e5, or plays c4 for a Sicilian with " +
-      "colours reversed.",
+      "Occupies the centre at once and blocks the long diagonal, so White's bishop meets a pawn " +
+      "instead of open board. Black can follow with ...d5 for a broad pawn centre, which White " +
+      "then has to undermine from the wings. The price is that e5 needs constant support.",
   },
 
   "1.b3 d5": {
     strategy:
-      "Takes space in the centre and keeps White from playing e4 cheaply. After 2.Bb2 Black " +
-      "can build a broad centre with ...c5 and ...Nc6, when e3, Nf3 and Bb5 lead to a " +
-      "reversed Nimzo-Indian, or develop London-style with ...Bf5 and ...e6. Black only has " +
-      "to watch the long diagonal: ...g6 must come after ...Nf6, or Bb2 takes the h8 rook.",
+      "Takes space in the centre and keeps White from playing e4 cheaply. Black can build a " +
+      "broad centre or develop solidly, but must respect the long diagonal: ...g6 is only safe " +
+      "once the knight stands on f6, otherwise the bishop takes the h8 rook.",
   },
 
   "1.b3 Nf6": {
     strategy:
-      "Develops a piece, eyes e4 and d5 and leaves the choice of central pawn open, so the " +
-      "game often transposes into the structures of 1...d5 or 1...e5. After 2.Bb2 a common " +
-      "setup is 2...g6 with ...Bg7, but then 3.e4 takes the centre, because the knight is " +
-      "pinned against the h8 rook and ...Nxe4 loses the rook to Bxh8.",
+      "Develops a piece, eyes e4 and d5 and leaves the choice of central pawn open, so many " +
+      "central structures remain possible. A ...g6 fianchetto is possible, but the knight is " +
+      "then tied to the long diagonal: if it moves, the h8 rook is exposed to White's bishop.",
   },
 
   "1.b3 c5": {
     strategy:
-      "Fights for d4 from the wing and keeps the central pawns flexible. After 2.Bb2 Black " +
-      "develops with ...Nc6 and ...Nf6 and can add ...d5, transposing into the 1...d5 lines " +
-      "with ...c5. White can also choose 2.e4, entering a Sicilian, or 2.c4, a Symmetrical " +
-      "English, so Black needs to know those structures too.",
+      "Fights for d4 from the wing and keeps Black's central pawns flexible, since every central " +
+      "set-up remains possible. It often leads to games in which Black's c-pawn contests the " +
+      "centre, so Black can steer toward familiar ground, but White decides which of them " +
+      "arises.",
   },
 
   "1.b3 b6": {
     name: "Nimzowitsch–Larsen Attack: Symmetrical Variation",
     strategy:
       "Copies White's queen's fianchetto and prepares ...Bb7 to contest the long diagonal, " +
-      "keeping a solid symmetrical structure. It is sound, but it neither claims the centre " +
-      "nor creates imbalance, so White keeps the easier game with Bb2, e3 and Nf3.",
+      "keeping a solid symmetrical structure. It is sound, but it neither claims the centre nor " +
+      "creates imbalance, so White can still choose how to build.",
   },
 
   "1.b3 e6": {
     strategy:
-      "Prepares ...d5 and opens the f8 bishop's diagonal while keeping every option open; " +
-      "after 2.Bb2 the game often transposes into the 1...d5 or 1...Nf6 lines. White can also " +
-      "choose 2.e4, when 2...d5 gives a French Defence. Sound but modest, as the pawn on e6 " +
-      "hems in the c8 bishop unless Black adds ...b6 and ...Bb7.",
+      "Prepares ...d5 and opens the f8 bishop's diagonal while keeping every option open; if " +
+      "White plays e4, it can become a French Defence. Sound but modest, as the pawn on e6 hems " +
+      "in the c8 bishop until Black frees it.",
   },
 
   "1.b3 c6": {
     strategy:
-      "Prepares ...d5 with a Caro-Kann-style pawn on c6 and a solid structure; after 2.e4 d5 " +
-      "the game is indeed a Caro-Kann. Sound, but the pawn takes c6 from the knight and does " +
-      "nothing for development, so Black reacts to White's setup instead of shaping the game.",
+      "Prepares ...d5 with a Caro-Kann-style pawn on c6 and a solid structure. Sound, but the " +
+      "pawn takes c6 from the knight and does nothing for development, so Black reacts to " +
+      "White's set-up instead of shaping the game.",
   },
 
   "1.b3 d6": {
     strategy:
-      "Prepares ...e5 and ...Nf6 in a flexible, Philidor-like setup; after 2.Bb2 e5 the game " +
-      "transposes into 1...e5 2.Bb2 d6. Sound but passive: Black waits and leaves White free " +
-      "to take space with e4, or with e3 and d4.",
+      "Prepares a flexible, compact set-up that defends the centre from behind. Sound but " +
+      "passive: Black waits and leaves White free to take space in the centre.",
   },
 
   "1.b3 Nc6": {
     strategy:
-      "Develops a piece and supports ...e5; after 2.Bb2 e5 the game transposes into the main " +
-      "line of 1...e5. The knight blocks the c-pawn, though, and White need not cooperate: " +
-      "2.e4 or 2.d4 takes the centre first. Playable, but less direct than 1...e5 or 1...d5.",
+      "Develops a piece and supports ...e5. The knight blocks the c-pawn, though, and White need " +
+      "not cooperate: an early d4 takes the centre first. Playable, but less direct than " +
+      "occupying the centre with a pawn.",
   },
 
   "1.b3 f5": {
     name: "Nimzowitsch–Larsen Attack: Dutch Variation",
     strategy:
-      "Stakes out e4 in the manner of the Dutch Defence and prepares ...Nf6 and ...e6. The " +
-      "cost is a loosened kingside: the e8–h5 diagonal and the e6 square are weakened, and " +
-      "White can build calmly with Bb2 and Nf3 or take space by d4. Rare and not refuted, but " +
-      "risky.",
+      "Stakes out e4 with a flank pawn and prepares to develop around it. The cost is a loosened " +
+      "kingside: the e8–h5 diagonal and the e6 square are weakened, and White can build calmly " +
+      "or take space in the centre. Rare and not refuted, but risky.",
   },
 
   "1.b3 g6": {
     strategy:
-      "Prepares a kingside fianchetto, but after 2.Bb2 the h8 rook is attacked and 2...Bg7? " +
-      "loses the bishop to Bxg7. Black blocks with 2...Nf6 and reaches the Indian setup, " +
-      "where 3.e4 takes the centre because ...Nxe4 would drop the rook to Bxh8. Playable, but " +
-      "it hands White an extra favourable option.",
+      "Prepares a kingside fianchetto, but the g-pawn has left the long diagonal open: once " +
+      "White's bishop reaches b2 it attacks the h8 rook, and ...Bg7 would simply lose the " +
+      "bishop. Black must spend the next move on ...Nf6, which then stays tied to the diagonal.",
   },
 
   "1.b3 b5": {
     name: "Nimzowitsch–Larsen Attack: Polish Variation",
     strategy:
-      "Gains queenside space and prepares ...Bb7 to contest the long diagonal. The advanced " +
-      "pawn becomes a target once e3 or e4 opens the f1 bishop's diagonal, and a4 can " +
-      "undermine it, so Black must keep the queenside under control. Rare, but not refuted.",
+      "Gains queenside space and prepares ...Bb7 to contest the long diagonal. The advanced pawn " +
+      "becomes a target once the f1 bishop is free, and a4 can undermine it, so Black must keep " +
+      "the queenside under control. Rare, but not refuted.",
   },
 
   "1.b3 a6": {
     strategy:
       "Spends a tempo on a queenside pawn before any piece or central pawn has moved. White " +
-      "develops with Bb2 and takes the centre with e4 or d4 at leisure.",
+      "simply develops and takes the centre at leisure.",
   },
 
   "1.b3 a5": {
@@ -113,43 +105,40 @@ export const en: OpeningTexts = {
 
   "1.b3 Na6": {
     strategy:
-      "Puts the knight on the rim, where it eyes b4 and c5 but blocks the a-pawn and does " +
-      "little for the centre. White simply develops with Bb2 and takes space by e3 and d4 or " +
-      "e4.",
+      "Puts the knight on the rim, where it eyes b4 and c5 but blocks the a-pawn and does little " +
+      "for the centre. White simply develops and takes space in the centre.",
   },
 
   "1.b3 Nh6": {
     strategy:
-      "Puts the knight on the rim instead of f6, where it eyes f5 and g4 but controls no " +
-      "central square. White develops with Bb2 and takes the centre with e3 and d4 or with e4 " +
-      "while Black's development lags.",
+      "Puts the knight on the rim instead of f6, where it eyes f5 and g4 but controls no central " +
+      "square. White develops and takes the centre while Black's development lags.",
   },
 
   "1.b3 f6": {
     strategy:
-      "Covers e5 and blunts the long diagonal, but takes f6 from the knight and opens the " +
-      "e8–h5 diagonal, where Qh5+ becomes possible once White's e-pawn has moved. White " +
-      "replies 2.e4 or 2.Bb2 and develops freely.",
+      "Covers e5 and blunts the long diagonal, but takes f6 from the knight and opens the e8–h5 " +
+      "diagonal, where Qh5+ becomes possible once White's e-pawn has moved. White develops " +
+      "freely.",
   },
 
   "1.b3 h6": {
     strategy:
       "Loses a tempo on a rook-pawn move that prepares ...g5 but neither develops a piece nor " +
-      "fights for the centre. White continues with Bb2 and a central pawn advance.",
+      "fights for the centre. White develops and takes the centre unhindered.",
   },
 
   "1.b3 h5": {
     strategy:
-      "Gains kingside space, but the h-pawn can no longer guard g5 or g6, and the move does " +
-      "nothing for development or the centre. White develops with Bb2 and e3 or e4 and keeps " +
-      "the easier game.",
+      "Gains kingside space, but the h-pawn can no longer guard g5 or g6, and the move leaves " +
+      "development and the centre alone. White develops and keeps the easier game.",
   },
 
   "1.b3 g5": {
     strategy:
-      "Opens the long diagonal to the h8 rook: after 2.Bb2 the rook is attacked, and 2...Bg7? " +
-      "loses a piece to Bxg7. Black has to block with ...f6, loosening the king, or with " +
-      "...Nf6, which Bxf6 can answer with doubled pawns, so White gains time against a " +
+      "Opens the long diagonal to the h8 rook: once White's bishop reaches b2 the rook is " +
+      "attacked, and ...Bg7 loses a piece. Black has to block the diagonal, which loosens the " +
+      "king or allows a trade on f6 that doubles Black's pawns, so White gains time against a " +
       "weakened kingside.",
   },
 

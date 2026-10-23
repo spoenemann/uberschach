@@ -5,12 +5,10 @@ import type { OpeningTexts } from "../book.ts";
 export const de: OpeningTexts = {
   "1.e4 d5 2.exd5": {
     strategy:
-      "Schlägt den Bauern und stellt Schwarz vor die Wahl, wie er ihn zurückgewinnt: " +
-      "positionell mit …Dxd5, worauf Sc3 ein Tempo an der Dame gewinnt, oder taktisch mit " +
-      "…Sf6, worauf d4 den Springer zurückschlagen lässt und c4 ihn dann von d5 vertreibt. In " +
-      "beiden Fällen hat Weiß den Entwicklungsvorsprung und mehr Raum im Zentrum. Der Zug " +
-      "kommt auf jedem Niveau in der überwiegenden Mehrheit der Partien vor und gilt " +
-      "allgemein als einziger zweiter Zug, der Weiß ernsthafte Aussichten auf Vorteil bietet.",
+      "Schlägt den Bauern und lässt Schwarz entscheiden, wie er ihn zurückgewinnt. Sofort mit " +
+      "der Dame zu schlagen kostet Zeit, weil Weiß sich mit Tempogewinn entwickeln kann; mit " +
+      "einem Springer zu warten hält Schwarz aktiv, lässt Weiß aber im Zentrum aufbauen. Der Zug " +
+      "gibt Weiß echte Vorteilschancen, deshalb wird er fast immer gespielt.",
   },
 
   "1.e4 d5 2.Nc3": {
@@ -21,11 +19,10 @@ export const de: OpeningTexts = {
       "Dieselbe Stellung entsteht nach 1.Sc3 d5 2.e4; Blackburne spielte 1.Sc3 gegen Josef " +
       "Noa im Turnier London 1883.",
     strategy:
-      "Deckt e4 und entwickelt, eine gesunde, aber selten gespielte Wahl, die den " +
-      "Hauptvarianten ausweicht. Schwarz kann mit …d4 Raum mit Tempo gewinnen oder auf e4 " +
-      "schlagen und …Lf5 spielen, eine Art Caro-Kann, in der das Tempo für …c6 gespart ist. " +
-      "In beiden Fällen erhält Schwarz ein bequemes Spiel, und Weiß verzichtet auf die " +
-      "Chancen, die exd5 bietet.",
+      "Deckt e4 mit einem Entwicklungszug und weicht den Hauptvarianten aus, gibt aber die " +
+      "Initiative auf, die das Schlagen auf d5 bietet. Schwarz kann mit dem d-Bauern Raum " +
+      "gewinnen und den Springer bedrängen oder auf e4 tauschen und sich bequem entwickeln, " +
+      "sodass er ein angenehmes Spiel erhält.",
   },
 
   "1.e4 d5 2.d4": {
@@ -38,11 +35,10 @@ export const de: OpeningTexts = {
       "Sf6 4.f3 populär. Es kann auch aus der Skandinavischen Verteidigung mit 2.d4 " +
       "entstehen.",
     strategy:
-      "Bietet den Bauern e4 für schnelle Entwicklung an: Nach 2.d4 dxe4 3.Sc3 Sf6 4.f3 spielt " +
-      "Weiß mit einem Bauern weniger auf offene Linien und Angriff. Die Theorie kennt für " +
-      "Schwarz mehrere Wege zum Ausgleich, daher ist das Gambit auf höchstem Niveau fast nie " +
-      "zu sehen. Schwarz kann es auch mit …e6, …c6 oder …Sc6 ablehnen und in die " +
-      "Französische, die Caro-Kann- oder die Nimzowitsch-Verteidigung übergehen.",
+      "Bietet den Bauern e4 für ein starkes Zentrum, schnelle Entwicklung und offene Linien an, " +
+      "ein Gambit, das auf höchstem Niveau selten zu sehen ist, weil Schwarz mehrere solide " +
+      "Antworten hat. Schwarz kann den Bauern auch ablehnen und in vertraute Aufbauten " +
+      "übergehen.",
   },
 
   "1.e4 d5 2.Nf3": {
@@ -54,37 +50,36 @@ export const de: OpeningTexts = {
       "Polnisches Gambit, und 1.Sf3 d5 2.e4 führt zur selben Stellung.",
     strategy:
       "Opfert den Bauern e4 für schnelles Figurenspiel: Nach 2.Sf3 dxe4 3.Sg5 will Weiß ihn " +
-      "zurückgewinnen oder f7 angreifen. Schwarz behält den Bauern mit …Lf5 oder gibt ihn mit " +
-      "…e5 zurück und steht in beiden Fällen besser.",
+      "zurückgewinnen oder f7 angreifen. Schwarz behält den Bauern oder gibt ihn im richtigen " +
+      "Moment zurück und steht in beiden Fällen besser.",
   },
 
   "1.e4 d5 2.e5": {
     strategy:
       "Gewinnt Raum, gibt aber die Spannung im Zentrum auf und stellt Schwarz vor keine " +
-      "Probleme. Schwarz entwickelt den Läufer c8 mit …Lf5 oder …Lg4 vor die Bauernkette und " +
-      "spielt dann …e6 und …c5, eine günstige französische Struktur, in der der Bauer e5 " +
-      "ständig Deckung braucht.",
+      "Probleme. Schwarz entwickelt den Läufer c8 vor die Bauernkette und baut dann eine " +
+      "günstige französische Struktur auf, in der der Bauer e5 ständig Deckung braucht.",
   },
 
   "1.e4 d5 2.c3": {
     strategy:
-      "Bereitet d4 vor und öffnet die Diagonale d1–a4, lässt aber e4 angegriffen. Nach 2.c3 " +
-      "dxe4 3.Da4+ c6 4.Dxe4 Sf6 ist der Bauer zurück, doch die Dame wird erneut vertrieben, " +
-      "und Schwarz entwickelt sich frei.",
+      "Bereitet d4 vor und öffnet die Diagonale d1–a4, lässt aber e4 angegriffen. Nach 2.c3 dxe4 " +
+      "3.Da4+ c6 4.Dxe4 ist der Bauer zurück, doch Schwarz entwickelt sich mit Tempo gegen die " +
+      "Dame.",
   },
 
   "1.e4 d5 2.c4": {
     strategy:
-      "Greift d5 ein zweites Mal an, gibt aber den Bauern e4 auf: Nach 2.c4 dxe4 versperrt " +
-      "der Bauer c4 die vierte Reihe, sodass Da4+ e4 nicht zurückgewinnt, und Weiß spielt mit " +
-      "einem Bauern weniger. Schwarz kann auch mit …d4 Raum gewinnen.",
+      "Greift d5 ein zweites Mal an, gibt aber den Bauern e4 auf: Nach 2.c4 dxe4 versperrt der " +
+      "Bauer c4 die vierte Reihe, sodass Da4+ e4 nicht zurückgewinnt, und Weiß spielt mit einem " +
+      "Bauern weniger. Schwarz kann auch mit dem d-Bauern Raum gewinnen.",
   },
 
   "1.e4 d5 2.d3": {
     strategy:
-      "Deckt e4 solide, versperrt aber die Diagonale des Läufers f1. Nach 2.d3 dxe4 3.dxe4 " +
-      "Dxd1+ 4.Kxd1 verliert Weiß das Rochaderecht für eine harmlose Stellung ohne Damen, und " +
-      "Schwarz entwickelt sich mühelos mit …Sf6 und …e5.",
+      "Deckt e4 solide, versperrt aber die Diagonale des Läufers f1. Nach 2.d3 dxe4 3.dxe4 Dxd1+ " +
+      "4.Kxd1 verliert Weiß das Rochaderecht für eine harmlose Stellung ohne Damen, und Schwarz " +
+      "entwickelt sich mühelos.",
   },
 
   "1.e4 d5 2.f3": {
@@ -151,14 +146,14 @@ export const de: OpeningTexts = {
   "1.e4 d5 2.f4": {
     name: "Bird-Eröffnung: Williams-Gambit",
     strategy:
-      "Ein Bauernopfer, das zudem die Diagonale e1–h4 zum König öffnet. Nach 2.f4 dxe4 3.Sc3 " +
-      "Sf6 behält Schwarz den Mehrbauern, und Weiß hat wenig dafür vorzuweisen.",
+      "Ein Bauernopfer, das zudem die Diagonale e1–h4 zum König öffnet. Nach 2.f4 dxe4 behält " +
+      "Schwarz den Mehrbauern, und Weiß hat wenig dafür vorzuweisen.",
   },
 
   "1.e4 d5 2.g3": {
     strategy:
       "Bereitet Lg2 zur Unterstützung von e4 vor, aber zu langsam: …dxe4 gewinnt den Bauern " +
-      "zuerst, und …Sf6 oder …Lf5 behält ihn, wenn der Läufer auf g2 ankommt.",
+      "zuerst, und Schwarz behält ihn, wenn der Läufer auf g2 ankommt.",
   },
 
   "1.e4 d5 2.g4": {
@@ -169,8 +164,8 @@ export const de: OpeningTexts = {
 
   "1.e4 d5 2.h3": {
     strategy:
-      "Bereitet g4 vor oder verhindert …Lg4, tut aber nichts für e4. Nach …dxe4 hat Weiß " +
-      "einen Bauern weniger, und Schwarz entwickelt sich frei mit …Sf6.",
+      "Bereitet g4 vor oder verhindert …Lg4, tut aber nichts für e4. Nach …dxe4 hat Weiß einen " +
+      "Bauern weniger, und Schwarz entwickelt sich frei.",
   },
 
   "1.e4 d5 2.h4": {
@@ -231,8 +226,8 @@ export const de: OpeningTexts = {
 
   "1.e4 d5 2.Ne2": {
     strategy:
-      "Bereitet Sbc3 oder Sg3 gegen e4 vor, doch der Springer verstellt die Dame und den " +
-      "Läufer f1. Nach 2.Se2 dxe4 3.Sbc3 f5 oder …Sf6 behält Schwarz den Mehrbauern.",
+      "Bereitet Sbc3 oder Sg3 gegen e4 vor, doch der Springer verstellt die Dame und den Läufer " +
+      "f1. Nach 2.Se2 dxe4 3.Sbc3 behält Schwarz den Mehrbauern.",
   },
 
   "1.e4 d5": {
@@ -253,11 +248,9 @@ export const de: OpeningTexts = {
       "Skandinavische Verteidigung häufig und entwickelten ihre Theorie im späten 19. und " +
       "frühen 20. Jahrhundert maßgeblich weiter.",
     strategy:
-      "Schlägt sofort mit der Dame zurück und nimmt in Kauf, dass Weiß mit 3.Sc3 ein Tempo " +
-      "gewinnt. Danach zieht die Dame meist nach a5, dem beliebtesten Feld, oder nach d6 oder " +
-      "d8, und Schwarz entwickelt sich mit ...Sf6, ...c6 und einem Läufer nach f5 oder g4. " +
-      "Schwarz erhält ein freies Spiel mit leichter Entwicklung und gesunder Bauernstruktur, " +
-      "um den Preis dieses Tempos.",
+      "Schlägt den Bauern sofort mit der Dame zurück und nimmt in Kauf, dass Weiß mit Sc3 gegen " +
+      "die Dame ein Tempo gewinnt. Dafür erhält Schwarz ein freies Spiel: leichte Entwicklung " +
+      "und eine gesunde Bauernstruktur, ohne Schwäche, die zu verteidigen wäre.",
   },
 
   "1.e4 d5 2.exd5 Nf6": {
@@ -267,18 +260,17 @@ export const de: OpeningTexts = {
       "als Modernes Skandinavisch. John Emms bezeichnet 3.d4 als die weiße Hauptvariante " +
       "dagegen.",
     strategy:
-      "Verzögert das Zurückschlagen, damit die Dame kein Tempo durch Sc3 verliert. Nach 3.d4 " +
-      "gewinnt Schwarz den Bauern mit 3...Sxd5 zurück, wobei 4.c4 den Springer dann " +
-      "vertreibt, oder spielt das schärfere 3...Lg4. Behält Weiß den Bauern mit 3.c4, bietet " +
-      "Schwarz meist mit 3...c6 einen Bauern an, und 4.d4 cxd5 führt zum Panow-Angriff der " +
-      "Caro-Kann-Verteidigung.",
+      "Verzögert das Zurückschlagen, damit die Dame kein Tempo verliert, und gewinnt den Bauern " +
+      "später mit dem Springer zurück. Weiß kann versuchen, den Bauern zu halten, entwickelt " +
+      "sich aber meist einfach; das Spiel wird taktischer, und Schwarz strebt rasche Entwicklung " +
+      "an.",
   },
 
   "1.e4 d5 2.exd5 Nd7": {
     strategy:
-      "Zielt auf ...Sgf6 und ...Sb6, um d5 zurückzugewinnen, verstellt aber sowohl den Läufer " +
-      "c8 als auch den Druck der Dame auf den Bauern. Weiß kann ihn mit c4 oder Sc3 halten " +
-      "und bleibt einen Bauern vorn.",
+      "Zielt auf ...Sgf6 und ...Sb6, um d5 zurückzugewinnen, verstellt aber sowohl den Läufer c8 " +
+      "als auch den Druck der Dame auf den Bauern. Weiß kann ihn leicht halten und bleibt einen " +
+      "Bauern vorn.",
   },
 
   "1.e4 d5 2.exd5 Na6": {
@@ -307,15 +299,15 @@ export const de: OpeningTexts = {
 
   "1.e4 d5 2.exd5 Qd6": {
     strategy:
-      "Greift d5 an, doch nach 3.Sc3 oder 3.c4 behält Weiß den Bauern, und die exponierte " +
-      "Dame kann mit Tempo durch Sb5 oder Lb5+ angegriffen werden.",
+      "Greift d5 an, doch nach 3.Sc3 behält Weiß den Bauern, und die exponierte Dame kann mit " +
+      "Tempo angegriffen werden, etwa durch Sb5.",
   },
 
   "1.e4 d5 2.exd5 Nh6": {
     strategy:
       "Zielt auf ...Sf5, doch der Springer am Rand tut nichts für d5. Weiß hält den Bauern " +
-      "mit c4 oder Sc3, und Schwarz steht mit einem Bauern weniger und einer schlecht " +
-      "platzierten Figur da.",
+      "leicht, und Schwarz steht mit einem Bauern weniger und einer schlecht platzierten Figur " +
+      "da.",
   },
 
   "1.e4 d5 2.exd5 a6": {
@@ -332,8 +324,8 @@ export const de: OpeningTexts = {
 
   "1.e4 d5 2.exd5 b6": {
     strategy:
-      "Bereitet ...Lb7 vor, das d5 über die lange Diagonale angreifen würde, doch Weiß hält " +
-      "den Bauern mit c4 oder Sc3 und bleibt mit der besseren Entwicklung einen Bauern vorn.",
+      "Bereitet ...Lb7 vor, das d5 über die lange Diagonale angreifen würde, doch Weiß hält den " +
+      "Bauern leicht und bleibt mit der besseren Entwicklung einen Bauern vorn.",
   },
 
   "1.e4 d5 2.exd5 c6": {
@@ -351,13 +343,13 @@ export const de: OpeningTexts = {
     strategy:
       "Bietet den c-Bauern an: Nach 3.dxc6 en passant Sxc6 entsteht dieselbe Stellung wie im " +
       "Gambit 2...c6, ein Bauer weniger für etwas Entwicklung. Weiß kann den Bauern d5 auch " +
-      "mit c4 oder Sc3 behalten.",
+      "einfach behalten.",
   },
 
   "1.e4 d5 2.exd5 e6": {
     strategy:
-      "Bietet den e-Bauern an: Nach 3.dxe6 Lxe6 hat Schwarz dafür nur den Läufer entwickelt, " +
-      "und Weiß bleibt einen Bauern vorn und entwickelt sich mit d4 und Sf3.",
+      "Bietet den e-Bauern an: Nach 3.dxe6 Lxe6 hat Schwarz dafür nur den Läufer entwickelt, und " +
+      "Weiß bleibt einen Bauern vorn und entwickelt sich frei.",
   },
 
   "1.e4 d5 2.exd5 e5": {
@@ -369,8 +361,8 @@ export const de: OpeningTexts = {
 
   "1.e4 d5 2.exd5 g6": {
     strategy:
-      "Bereitet ein Fianchetto mit ...Lg7 und ...Sf6 vor, doch der Bauer d5 bleibt bei Weiß, " +
-      "der ihn mit c4 oder Sc3 hält und schlicht einen Bauern mehr hat.",
+      "Bereitet ein Königsfianchetto vor, doch der Bauer d5 bleibt bei Weiß, der ihn leicht hält " +
+      "und schlicht einen Bauern mehr hat.",
   },
 
   "1.e4 d5 2.exd5 h6": {

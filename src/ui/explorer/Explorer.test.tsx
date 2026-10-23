@@ -5,6 +5,7 @@
 import { cleanup, fireEvent, render, screen, within } from "@testing-library/react";
 import { useState } from "react";
 import { afterEach, describe, expect, test, vi } from "vitest";
+import { en as firstMovesEn } from "../../content/firstMoves.en.ts";
 import { LanguageContext } from "../language/LanguageContext.ts";
 import { Explorer, type ExplorerState } from "./Explorer.tsx";
 
@@ -79,7 +80,7 @@ describe("the opening explorer", () => {
     expect(screen.getAllByText("Best")[0]?.getAttribute("data-rating")).toBe("5");
     expect(screen.getByRole("heading", { level: 2 }).textContent).toBe("King's Pawn Game");
     expect(screen.getByText(/best by test/)).not.toBeNull();
-    expect(screen.getByText(/^Occupies a central square/)).not.toBeNull();
+    expect(screen.getByText(firstMovesEn["1.e4"]?.strategy ?? "")).not.toBeNull();
     expect(square(container, "e2").hasAttribute("data-highlight")).toBe(true);
     expect(square(container, "e4").hasAttribute("data-highlight")).toBe(true);
     expect(container.querySelectorAll("[data-target]")).toHaveLength(0);
@@ -120,7 +121,7 @@ describe("the opening explorer", () => {
     expect(screen.getByText("1.g4")).not.toBeNull();
     expect(screen.getByText("Mistake")).not.toBeNull();
     expect(screen.getByRole("heading", { level: 2 }).textContent).toBe("Grob's Attack");
-    expect(screen.getByText("The book ends here.")).not.toBeNull();
+    expect(screen.getByText("No further moves are rated or explained from here.")).not.toBeNull();
     expect(screen.queryByRole("list", { name: "Next moves" })).toBeNull();
     fireEvent.click(square(container, "e7"));
     fireEvent.click(square(container, "e5"));

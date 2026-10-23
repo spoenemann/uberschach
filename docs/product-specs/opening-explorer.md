@@ -72,8 +72,14 @@ for and risks, and which replies matter.
   rights, the same en passant possibility. (`src/content/book.test.ts`)
 - Information belongs either to a move or to the position it reaches.
   Every move in the database carries a rating from 1 to 5 and a text on
-  its strategic meaning: the approach it takes, what it aims for, what it
-  risks or concedes. A position may carry the name of the opening or
+  its strategic meaning, written for a club player: what the move wants,
+  what it gives up or risks, and what kind of game it leads to. The text
+  does not tour the moves that can follow, which the explorer shows as
+  entries of their own; it names a reply where that reply is the move's
+  point, as the refutation of a weak move. Notation is not banned, and no
+  test looks for it: whether a move belongs in the text depends on what
+  the sentence says, which the content review judges (the maintainer,
+  2026-10-23). A position may carry the name of the opening or
   variation it belongs to and a short historical background; the initial
   position carries an introduction instead, which is what the visitor
   reads before the first move. (`src/content/book.test.ts`)
@@ -135,8 +141,9 @@ for and risks, and which replies matter.
   `src/ui/explorer/Explorer.test.tsx`)
 - When the current position is not in the database, the panel says that
   the line has left the openings the app knows; when it is, but no moves
-  are written from it, that the book ends here. A move not in the
-  database is shown by its notation alone, unrated. In both cases no
+  are written from it, that no further moves are rated or explained
+  from here. A move not in the database is shown by its notation alone,
+  unrated. In both cases no
   candidates are offered, the known information is one step back, and a
   move that brings the line into a known position, by transposition,
   brings the information back. (`src/ui/explorer/view.test.ts`,

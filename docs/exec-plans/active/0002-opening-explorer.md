@@ -77,7 +77,9 @@ of content is, before it is committed:
 What the three levels (240 agents, 2,918 moves) taught, for whoever writes
 the next batch. The numbers are measured on 2026-10-23 on a ten-core
 machine; the briefs and the scripts named here were scratch files of that
-session and are not in the repository (Open, below).
+session and are not in the repository (Open, below). The strategy notes'
+rework added the board tool, a node-file writer, a validator and a writer
+of the modules to the repository, with its briefs (`scripts/content/`).
 
 **Sources, in the order they proved useful**
 
@@ -182,9 +184,12 @@ variant. Start-up grows with the positions, 0.35 s now for 2,721, about
 three seconds on this machine for 21,000: the extension needs the book split by family and
 loaded on demand, and an index of keys that does not replay lines, before
 it ships; a family's files would also outgrow the 3,000 lines of the raised
-`max-lines`. The briefs and the scripts (the frontier from the ratings, the
-validator, the board tool, the writer of the modules) are to be committed
-before that work, or rebuilt from this section.
+`max-lines`. The briefs and the scripts are to be committed before that
+work, or rebuilt from this section: the board tool and the shared module
+reader are in `scripts/content/`, and its node-file writer, validator and
+module writer are the strategy rework's, to be extended for new positions
+(the frontier from the ratings, ratings and backgrounds in the validator,
+new entries in the module writer).
 
 ## Decomposition
 
@@ -207,6 +212,9 @@ before that work, or rebuilt from this section.
       Loader).
 - [ ] Open, for the maintainer: the entry page pays for the book (Progress log,
       ply 4).
+- [x] Strategy notes reworked to the spec's definition of 2026-10-23
+      (Decision log, Strategy notes): all 2,918, in English and German
+      (Progress log).
 
 ## Progress log
 
@@ -320,6 +328,62 @@ before that work, or rebuilt from this section.
   takes the book's share (about 0.35 seconds here) off its start. `npm run
   check` green; the explorer looked at after 1.e4, 1.e4 e5 and 1.d4 Nf6 2.c4
   e6, at desktop and phone width.
+- 2026-10-23: **Strategy notes, test run on the first move** (20 notes,
+  one writer and one reviewer as in the decision log). The writer lifted 8
+  from 8 Wikipedia articles, trimmed 4 and kept 8: the first-move notes,
+  begun from the maintainer's own text, were the nearest to the standard.
+  Review round 1 opened no page, so no lifted note was checked against its
+  source, and five of its six changes reworded a clear sentence only to set
+  it apart from a sibling, three for the worse (1.d4 clumsy, 1.h4
+  exaggerated, 1.Nf3 vaguer). The reviewer's brief now requires the source
+  check and the validator refuses a review of lifted notes that fetched no
+  page; a change for the siblings' sake is for interchangeable notes or a
+  near-verbatim repeat only; the standard says clarity comes before variety
+  and a note says no more than the board and the sources bear. Round 2 read
+  all 8 pages, softened three claims to what they say (1.e4 "tactical", 1.b3
+  "balanced", 1.f4 "sharp"), fixed a board error (1.Na3: the f8-bishop
+  cannot take on a3 before the e-pawn moves) and changed seven notes. Cost:
+  about 235,000 tokens and 9 minutes for the writer and both review rounds.
+  Two explorer tests pinned the wording of the 1.e4 note; they now compare
+  with the shipped text, so a rewrite does not break them. `npm run check`
+  green.
+- 2026-10-23: **Strategy notes reworked: all 2,918, in English and
+  German.** Three runs after the test. The first, one writer and one
+  reviewer per position, was stopped after 105 writers and 11 reviews: the
+  writers had kept about 530 notes on weak moves that still listed the
+  opponent's next moves ("White builds the centre with Nc3, d4 and e4 at
+  leisure"), and the reviewers approved them; and 15 of the 120 ids had
+  been typed from memory in the orchestrating session, so 15 positions
+  were never written. Since then the standard says the same of moves
+  rated 1 to 3, the reviewer's brief names it as the change it expects
+  often, `node-file.mjs` writes the ids the workflow is passed, and the
+  reviewer approves by default: the validator refuses an English change
+  without a finding, and a `changed` flag that does not match the text.
+  The second run wrote the 15 positions and reviewed all 120 (135 agents,
+  8.4 million tokens, 25 minutes): 624 notes changed, 510 of them for the
+  standard, 42 for the board, 38 against the source. A sweep then read the
+  1,424 notes that name two or more other moves, one agent per position
+  deciding for each whether the moves are the note's point (a refutation,
+  a threat, what the move prepares) or a tour (121 agents, 5.6 million
+  tokens, 12 minutes): 801 changed, 599 tours put in words and 143 opening
+  labels described ("transposes into a Slav", "Benko style"). Notes rated
+  3 had escaped the weak-move rule, which now covers them, and labels used
+  as shorthand are in the standard. The orchestrating session took out 23
+  move-order clauses the sweep had made awkward ("the same position arises
+  if the moves are played in the other order"; the explorer shows a
+  transposed position with the same entry), kept the old German of 5 notes
+  whose English had not changed (one new version was ungrammatical, one
+  lost "hängen"), and corrected 1.Nf3, where the reviewer had softened
+  "rules out 1...e5" although the pawn is simply lost. Result: 2,104
+  English notes changed (398 of the 404 rated 4 and 5, 588 of 609 rated 3,
+  1,118 of 1,905 rated 1 and 2) and 2,098 German, 34 words on average
+  where they had 38.5. No rating changed, and no agent doubted one. All of
+  it about 21 million tokens and 400 agents, the stopped run counted from
+  its transcripts. The sweep's candidate filter and brief stayed scratch
+  files: the maintainer wants no mechanical check for notation, and the
+  filter only chose what an agent re-read. `npm run check` green; the
+  explorer looked at after 1.e4 e5 2.Nf3 Nc6 and 1.d4 Nf6 2.c4 c6, at
+  desktop and phone width.
 
 ## Decision log
 
@@ -490,3 +554,32 @@ before that work, or rebuilt from this section.
   Cost of the choice: a content error in a position's moves throws when that
   position is first shown, not at import; the test makes that a failure of
   `npm run check`, which every commit runs.
+- 2026-10-23: **Strategy notes: reworked before the book goes deeper.** The
+  maintainer, reading the book: many notes tour the follow-up moves in
+  notation ("White then picks the battleground: 3.Bb5 (the Ruy Lopez),
+  3.Bc4 ..."), where the explorer shows each of those moves as its own
+  entry; a note should say what the move wants, what it gives up and what
+  kind of game it leads to, in words a club player understands. Measured:
+  2,830 of the 2,918 notes name other moves in notation, every note on a
+  move rated 4 or 5 among them. Notation is not banned and no test looks for
+  it, because whether a move belongs in a note depends on what the sentence
+  says (the maintainer); the spec's definition of the text says so. First,
+  because the next level's 5,400 notes are then written to the new
+  definition from the start.
+- 2026-10-23: **Strategy notes: one Sonnet writer and one Sonnet reviewer
+  per followed position, both at medium effort** (the maintainer's choice;
+  the content levels had Opus reviewers). The node file sets each move's
+  treatment: *lift* (moves rated 4 and 5, and moves rated 3 that reach a
+  named, sourced opening, about 460 notes) is written anew from the
+  opening's Wikipedia and Wikibooks pages, at most twelve fetches per
+  position; *trim* (the rest) is reworded without research, its reasoning
+  kept, and the writer may mark a note *keep* and copy it unchanged. The
+  reviewer gets the node file and the writer's notes with the page each
+  outlook rests on, checks every note against the standard, the board and
+  that page, restores a correct point the rewrite dropped, and writes the
+  German from the corrected English. Why no separate triage pass: the
+  writer reads every note of the position anyway, and a pattern match
+  selects nothing when 97 % of the notes match it. Ratings stay; a writer's
+  or reviewer's doubt is reported, not acted on. After the first full run
+  (Progress log), the maintainer: the reviewer approves a note that needs
+  no change and only translates it.

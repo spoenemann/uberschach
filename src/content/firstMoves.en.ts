@@ -14,46 +14,49 @@ export const en: OpeningTexts = {
 
   "1.e4": {
     strategy:
-      "Occupies a central square, attacks d5 and opens the diagonals of the queen and the " +
-      "king's bishop, so White can develop quickly and castle early. The pawn on e4 is not " +
-      "defended by another pawn, and the open lines tend to give sharp, tactical play.",
+      "Claims a central square at once and opens lines for the queen and the king's bishop, so " +
+      "White can develop quickly and castle early. The price is a pawn that no other pawn " +
+      "defends, so Black can challenge it right away; the game tends to open early and can turn " +
+      "sharp.",
   },
 
   "1.d4": {
     strategy:
-      "Occupies the centre and attacks c5 and e5. Unlike the e-pawn, the d-pawn is defended by " +
-      "the queen from the start, so Black cannot attack it as easily; the position tends to stay " +
-      "closed longer, and the struggle is more strategic than tactical.",
+      "Claims the centre with a pawn that the queen already defends, so Black has no quick " +
+      "target, and opens the diagonal of the queen's bishop. It also fights for c5 and e5. The " +
+      "game tends to stay closed longer, and the struggle is about space and pawn structure more " +
+      "than early tactics.",
   },
 
   "1.Nf3": {
     strategy:
-      "Develops a piece towards the centre and controls e5 and d4 without committing a pawn. " +
-      "The most flexible first move: White can still steer into 1.d4, 1.c4 or 1.e4 openings, " +
-      "or keep the hypermodern setup with a kingside fianchetto. It also rules out 1...e5.",
+      "Develops a piece and controls e5 and d4 without committing a pawn, so White can still " +
+      "choose later between a pawn centre, a fianchetto set-up or a quiet build-up. It also " +
+      "rules out ...e5, which would simply lose the pawn. The cost is that White shows little " +
+      "and lets Black make the first big decision.",
   },
 
   "1.c4": {
     strategy:
-      "Claims d5 from the wing and keeps the central pawns back, so White decides later whether " +
-      "to play d4, e4 or a fianchetto. Flexible and solid, with asymmetrical positions when Black " +
-      "answers 1...e5. It develops no piece and opens no diagonal for the king's bishop, so " +
-      "development comes a move later.",
+      "Fights for d5 from the side and leaves the central pawns at home, so White decides later " +
+      "between building a pawn centre and a fianchetto set-up. Flexible and solid, often with " +
+      "asymmetrical positions when Black takes the centre with a pawn. It develops no piece and " +
+      "does not yet free the king's bishop, so development starts a move later.",
   },
 
   "1.g3": {
     strategy:
-      "Prepares the fianchetto Bg2, which controls the long diagonal and supports a later e4 " +
-      "and d5. It commits nothing in the centre and usually transposes into another opening " +
-      "with a fianchettoed king's bishop; Black can take central space at once.",
+      "Prepares to fianchetto the king's bishop, which then watches the long diagonal and " +
+      "supports a later push in the centre. The move commits nothing there, and the game usually " +
+      "becomes a closed, manoeuvring one with that bishop. The risk is that Black takes central " +
+      "space unchallenged.",
   },
 
   "1.b3": {
     strategy:
-      "Prepares the fianchetto Bb2, aiming at e5 and along the long diagonal at Black's " +
-      "kingside. White lets Black build a classical pawn centre and plans to undermine it " +
-      "later. Theory rates the resulting positions as equal, so the opening's value is " +
-      "practical rather than objective.",
+      "Prepares to fianchetto the queen's bishop, which then eyes e5 and presses along the long " +
+      "diagonal on Black's kingside. White lets Black build a pawn centre on purpose and plans " +
+      "to undermine it later; the price is the central space Black gets meanwhile.",
   },
 
   "1.f4": {
@@ -63,9 +66,9 @@ export const en: OpeningTexts = {
       "it for forty years; the Hereford Times coined the name in 1885. It is a Dutch Defence " +
       "with colours reversed.",
     strategy:
-      "Takes control of e5 and prepares a kingside attack, like a reversed Dutch. The cost is an " +
-      "early weakening of the king's position: the e1–h4 diagonal is open, and From's Gambit " +
-      "1...e5 exploits it at once. It does nothing for development.",
+      "Controls e5 and prepares an attack on the kingside, at the price of weakening it: the " +
+      "e1–h4 diagonal is open, and the move does nothing for development. The game is " +
+      "unbalanced, a bet that the attack outweighs that risk.",
   },
 
   "1.Nc3": {
@@ -75,9 +78,10 @@ export const en: OpeningTexts = {
       "Van Geet Opening after Dick van Geet (1932–2012), who played it frequently. Its recorded " +
       "origin is Blackburne against Noa, London 1883.",
     strategy:
-      "Develops a piece towards the centre and attacks d5 and e4. The knight blocks the c-pawn, " +
-      "which White needs in most queen's pawn structures, and it can be chased with ...d5 and " +
-      "...d4. Playable, but an inferior way to use the first move.",
+      "Develops a piece towards the centre and watches d5 and e4 without weakening anything. But " +
+      "it blocks the c-pawn, which White often wants to push, and does not stop Black from " +
+      "taking the centre; ...d5 followed by ...d4 can even chase the knight. Playable, yet a " +
+      "less effective use of the first move than the main ones.",
   },
 
   "1.b4": {
@@ -88,9 +92,9 @@ export const en: OpeningTexts = {
       "an orangutan at the Bronx Zoo had advised the move before his game against Maróczy at " +
       "New York 1924.",
     strategy:
-      "Gains space on the queenside and prepares Bb2 against e5 and g7. It reveals White's plan " +
-      "before Black has shown anything, the pawn on b4 needs attention, and Black takes the " +
-      "centre with ...e5 or ...d5. Rare at the top level.",
+      "Gains space on the queenside and prepares Bb2 against e5 and g7. It shows White's plan " +
+      "before Black has shown anything, the pawn on b4 can become a target, and Black simply " +
+      "takes the centre. Rare at the top level.",
   },
 
   "1.e3": {
@@ -111,9 +115,9 @@ export const en: OpeningTexts = {
       "Named after Jacques Mieses, who used it in his 1910 match against Teichmann. Deep Blue " +
       "played it against Kasparov in the third game of their 1997 match, which was drawn.",
     strategy:
-      "Covers e4 and opens the queen's bishop, often heading for a King's Indian Attack setup " +
-      "with Nf3, g3 and Bg2. A modest claim to the centre: Black can answer with any central " +
-      "move and take the initiative.",
+      "Covers e4 and opens the queen's bishop, a modest claim to the centre. White aims for a " +
+      "flexible set-up with a fianchettoed king's bishop, but it is slow: Black can occupy the " +
+      "centre and take the initiative.",
   },
 
   "1.c3": {
@@ -123,9 +127,8 @@ export const en: OpeningTexts = {
       "Juncosa analysed it, and in 1922 a thematic tournament in Mannheim, won by Tarrasch, " +
       "required the players to open with it.",
     strategy:
-      "Prepares d4 with pawn support and keeps the game solid, often transposing into a Slav or " +
-      "Caro-Kann with colours reversed. The move takes c3 from the knight and makes only a timid " +
-      "claim to the centre. Not bad, but 1.e4 and 1.d4 do more.",
+      "Prepares d4 backed by a pawn and keeps the structure solid, but it takes c3 from the " +
+      "knight and claims the centre only timidly. Not bad, but the main first moves do more.",
   },
 
   "1.a3": {
@@ -159,9 +162,9 @@ export const en: OpeningTexts = {
       "first to play it, in the 19th century. Michael Basman beat John Nunn with it in 1978. " +
       "Engines give Black a clear advantage after 1.g4.",
     strategy:
-      "Grabs space on the kingside and prepares Bg2 on the long diagonal, hoping for an opponent " +
-      "who does not know the refutation. The pawn on g4 is undefended, the kingside is weakened " +
-      "for good, and Black takes the centre. Widely considered one of the worst first moves.",
+      "Grabs space on the kingside and prepares Bg2 on the long diagonal, hoping for an " +
+      "unprepared opponent. The pawn on g4 is undefended, the kingside is weakened for good, and " +
+      "Black takes the centre. Widely considered one of the worst first moves.",
   },
 
   "1.f3": {
@@ -184,8 +187,8 @@ export const en: OpeningTexts = {
       "of a Russian player who always opened with 1.h4 and always won.",
     strategy:
       "Gains space on the kingside and threatens h5 against a fianchetto, but does nothing for " +
-      "the centre or development, and the rook rarely comes out via h3. The kingside is " +
-      "weakened for good.",
+      "the centre or development, and the rook rarely comes out via h3. The side where White " +
+      "usually castles is weakened, and the pawn cannot go back.",
   },
 
   "1.a4": {
@@ -205,9 +208,9 @@ export const en: OpeningTexts = {
       "Named after Robert T. Durkin (1923–2014) of New Jersey, who published his analysis of it " +
       "in 1959. Also called the Sodium Attack, since Na is the chemical symbol for sodium.",
     strategy:
-      "A knight on the rim controls no central square, and this one can be taken by the bishop " +
-      "from f8, doubling White's pawns. White gives up most of the first-move advantage; a later " +
-      "c4 or e4 may still reach a reasonable position.",
+      "A knight on the rim controls no central square, and once Black has moved the e-pawn the " +
+      "bishop from f8 can take it and double White's pawns. White gives up most of the " +
+      "first-move advantage; a later c4 or e4 may still reach a reasonable position.",
   },
 
   "1.Nh3": {
@@ -217,8 +220,8 @@ export const en: OpeningTexts = {
       "Tartakower, who also called it the Paris Opening. Carlsen beat Dreev with it in a 2018 " +
       "online rapid game.",
     strategy:
-      "A knight on the rim controls no central square, and 1...d5 already threatens ...Bxh3, " +
-      "which would double White's pawns in front of the king. Black takes the centre " +
-      "undisturbed.",
+      "The knight on h3 has little future: it reaches only f4 and g5, and 1...d5 already " +
+      "threatens ...Bxh3, which would double White's pawns on the kingside. Black takes the " +
+      "centre undisturbed.",
   },
 };

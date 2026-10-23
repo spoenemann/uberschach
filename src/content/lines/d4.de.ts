@@ -5,43 +5,35 @@ import type { OpeningTexts } from "../book.ts";
 export const de: OpeningTexts = {
   "1.d4 Nf6": {
     strategy:
-      "Entwickelt eine Figur, ohne einen Zentralbauern festzulegen, und kontrolliert e4, " +
-      "sodass 2.e4 einen Bauern kosten würde. Je nach den nächsten weißen Zügen kann Schwarz " +
-      "...e6 mit ...Lb4 oder ...b6 wählen, ...g6 mit ...Lg7, ...c5 oder ...d5. Viele dieser " +
-      "Aufbauten lassen Weiß zuerst ein Zentrum errichten und greifen es später mit Figuren " +
-      "und den Hebeln ...c5, ...d5 oder ...e5 an. Weiß kann seinerseits die Hauptvarianten " +
-      "mit Systemen wie dem Trompowsky-Angriff, 2.Lg5, oder dem London-System mit Lf4 " +
-      "umgehen.",
+      "Entwickelt eine Figur und kontrolliert e4, ohne einen Zentralbauern festzulegen, sodass " +
+      "Weiß nicht ohne Weiteres ein volles Bauernzentrum aufbauen kann. Schwarz überlässt Weiß " +
+      "das Zentrum und will es aus der Distanz mit Figuren und Bauernhebeln untergraben. Der " +
+      "Preis: Schwarz beansprucht im Zentrum noch nichts.",
   },
 
   "1.d4 d5": {
     strategy:
-      "Besetzt das Zentrum und verhindert e4, das Weiß nun nur noch als Gambit spielen kann. " +
-      "Meist greift Weiß d5 mit 2.c4 an oder wählt einen ruhigeren Aufbau mit Sf3, Lf4 oder " +
-      "e3. Schwarz stützt d5 mit ...e6 oder ...c6; nach ...c6 kann der weißfeldrige Läufer " +
-      "oft entwickelt werden, bevor ...e6 ihn einsperrt. Der Preis ist geringere " +
-      "Flexibilität: Mit dem festgelegten d-Bauern muss Schwarz auf das Damengambit " +
-      "vorbereitet sein.",
+      "Besetzt das Zentrum und verhindert e4, das Weiß nun nur noch als Gambit spielen kann. Der " +
+      "Zug spiegelt den weißen Aufbau und führt tendenziell zu positionellem, oft geschlossenem " +
+      "Spiel, in dem die Bauernstruktur mehr zählt als Taktik. Der Preis ist geringere " +
+      "Flexibilität: Mit dem festgelegten d-Bauern muss Schwarz bereit sein, ihn gegen Druck von " +
+      "c4 zu verteidigen.",
   },
 
   "1.d4 e6": {
     strategy:
-      "Öffnet die Diagonale des schwarzfeldrigen Läufers und hält mehrere Systeme offen: Nach " +
-      "2.c4 kann Schwarz mit ...d5 ein Abgelehntes Damengambit, mit ...Sf6 eine " +
-      "Nimzo-Indische oder Damenindische Verteidigung oder mit ...f5 eine Holländische " +
-      "Verteidigung anstreben. Der Preis ist, dass Weiß mit 2.e4 antworten kann, und Schwarz " +
-      "muss dann bereit sein, Französisch zu spielen. Der weißfeldrige Läufer bleibt oft " +
-      "hinter dem Bauern e6 eingesperrt und braucht ...b6 oder einen späteren Bauernhebel, um " +
-      "aktiv zu werden.",
+      "Öffnet die Diagonale des schwarzfeldrigen Läufers und lässt Schwarz alle Pläne offen, " +
+      "denn die Partie kann noch französischen, damengambitartigen oder indischen Charakter " +
+      "annehmen. Der Preis ist der weißfeldrige Läufer, der hinter dem Bauern e6 eingesperrt " +
+      "bleibt, und dass Weiß sofort mit e4 das Zentrum beanspruchen kann.",
   },
 
   "1.d4 f5": {
     strategy:
-      "Erhebt Anspruch auf e4 und strebt unausgeglichenes Spiel mit Chancen am Königsflügel " +
-      "an. Schwarz wählt zwischen dem Stonewall mit ...e6 und ...d5, dem Leningrader System " +
-      "mit ...g6 und ...Lg7 und dem klassischen Aufbau mit ...e6 und ...Le7. Der Preis ist " +
-      "ein geschwächter Königsflügel mit geöffneter Diagonale e8–h5, den Weiß sofort mit den " +
-      "Gambits 2.e4 oder 2.h3 und 3.g4 prüfen kann.",
+      "Erhebt Anspruch auf e4 und strebt einen Angriff gegen den weißen Königsflügel an, mit " +
+      "unausgeglichenem, kämpferischem Spiel. Der Preis ist ein geschwächter eigener " +
+      "Königsflügel, vor allem die Diagonale e8–h5, die Weiß früh mit Bauernopfern oder einem " +
+      "schnellen Bauernsturm am Königsflügel prüfen kann.",
   },
 
   "1.d4 Nc6": {
@@ -51,11 +43,10 @@ export const de: OpeningTexts = {
       "Nimzowitsch und Bogoljubow versuchten 1...Sc6, doch die Eröffnung wurde nie sehr " +
       "populär.",
     strategy:
-      "Entwickelt einen Springer in Richtung Zentrum und bereitet ...e5 vor, verstellt aber " +
-      "den c-Bauern, sodass die üblichen Pläne mit ...c5 und ...c6 entfallen. Weiß kann mit " +
-      "2.d5 den Springer vertreiben, meist nach e5, mit 2.e4 ein breites Zentrum errichten " +
-      "oder mit 2.Sf3 ...e5 verhindern. Solide genug, aber Schwarz legt den Springer fest, " +
-      "bevor der weiße Aufbau klar ist.",
+      "Entwickelt einen Springer in Richtung Zentrum und bereitet ...e5 vor, verstellt aber den " +
+      "c-Bauern, den Schwarz normalerweise frei hielte, bis der weiße Aufbau klar ist. 2.d5 " +
+      "gewinnt Raum und vertreibt den Springer, meist nach e5. Solide genug, aber selten und " +
+      "festlegend.",
   },
 
   "1.d4 b6": {
@@ -68,18 +59,17 @@ export const de: OpeningTexts = {
       "Évian 1977 in der 6. Partie seines Kandidaten-Halbfinales gegen Lew Polugajewski " +
       "erfolgreich ein.",
     strategy:
-      "Bereitet ...Lb7 vor, um e4 über die lange Diagonale unter Druck zu setzen, meist " +
-      "gefolgt von ...e6. Errichtet Weiß mit c4 und e4 ein breites Zentrum, greift Schwarz es " +
-      "mit Figuren, ...Lb4 und manchmal ...f5 an, statt es selbst zu besetzen. Solide, aber " +
-      "selten, und Schwarz muss gegen den weißen Raumvorteil genau spielen.",
+      "Bereitet ...Lb7 vor, um e4 über die lange Diagonale unter Druck zu setzen. Schwarz lässt " +
+      "Weiß ein breites Zentrum aufbauen und will es mit Figuren untergraben, statt es selbst zu " +
+      "besetzen. Solide, aber selten, und Schwarz muss gegen den weißen Raumvorteil genau " +
+      "spielen.",
   },
 
   "1.d4 c6": {
     strategy:
-      "Bereitet ...d5 vor und steuert nach 2.c4 auf eine Slawische Verteidigung, nach 2.e4 " +
-      "auf eine Caro-Kann-Verteidigung zu. Solide, aber Schwarz legt den c-Bauern früh fest " +
-      "und muss auf beide Eröffnungen vorbereitet sein, während Weiß entscheidet, welche auf " +
-      "dem Brett entsteht.",
+      "Bereitet ...d5 mit einer soliden Bauernkette dahinter vor und lässt den weißfeldrigen " +
+      "Läufer frei. Solide, aber Schwarz legt den c-Bauern früh fest, und Weiß bestimmt, welche " +
+      "Art von Spiel folgt.",
   },
 
   "1.d4 c5": {
@@ -93,37 +83,32 @@ export const de: OpeningTexts = {
       "ernsthaftes Interesse, doch Alexander Aljechin besiegte damit Efim Bogoljubow in einer " +
       "Partie ihres zweiten Wettkampfs 1934.",
     strategy:
-      "Greift d4 sofort an. Weiß antwortet meist mit 2.d5 und gewinnt Raum, worauf Schwarz " +
-      "das Zentrum mit ...e5 schließt oder den vorgerückten Bauern mit ...e6 angreift, " +
-      "während 2.dxc5 e6 Weiß nichts verspricht. Spielbar, aber der Raumvorteil, den Weiß " +
-      "nach 2.d5 erhält, ist dauerhaft.",
+      "Greift d4 sofort an und fordert das Zentrum von der Seite heraus. Weiß gewinnt meist mit " +
+      "2.d5 Raum, und dieser Vorteil bleibt bestehen, während Schwarz Gegenspiel gegen den " +
+      "vorgerückten Bauern sucht. Spielbar, aber Schwarz beginnt beim Raum einen Schritt zurück.",
   },
 
   "1.d4 d6": {
     name: "Pillsbury-Verteidigung",
     strategy:
-      "Bereitet ...Sf6 und ...g6 oder ...e5 vor und geht oft in Strukturen der Pirc-Ufimzew-, " +
-      "der Philidor-, der Altindischen oder der Königsindischen Verteidigung über. Solide, " +
-      "aber bescheiden: Der Zug entwickelt keine Figur, und Weiß gewinnt mit e4 oder c4 Raum " +
-      "und wählt die Variante, die ihm liegt.",
+      "Bereitet ...Sf6 und einen flexiblen Aufbau vor. Solide, aber bescheiden: Der Zug " +
+      "entwickelt keine Figur, und Weiß gewinnt Raum und wählt die Variante, die ihm liegt.",
   },
 
   "1.d4 g6": {
     name: "Moderne Verteidigung",
     strategy:
-      "Bereitet ...Lg7 vor, sodass die Partie meist in eine Struktur der Königsindischen oder " +
-      "der Pirc-Ufimzew-Verteidigung übergeht. Schwarz lässt Weiß ein Zentrum errichten und " +
-      "greift es später mit dem Läufer auf g7 und Bauernhebeln wie ...c5 oder ...e5 an. " +
-      "Solide, aber nach 2.e4 erhält Weiß ein breites Bauernzentrum, bevor ...Sf6 es " +
-      "angreifen kann, und wählt die Variante, die ihm am besten liegt.",
+      "Bereitet ...Lg7 vor und lässt Weiß ein Zentrum errichten, das später der Läufer auf g7 " +
+      "und Bauernhebel wie ...c5 oder ...e5 angreifen. Solide, aber Weiß erhält ein breites " +
+      "Bauernzentrum, bevor Schwarz es mit seinen Figuren herausfordern kann.",
   },
 
   "1.d4 Na6": {
     name: "Australische Verteidigung",
     strategy:
       "Entwickelt den Springer an den Rand, wo er b4 und c5 im Blick hat, aber wenig für das " +
-      "Zentrum tut. Weiß gewinnt mit e4 oder c4 einfach Raum, während der Springer noch " +
-      "mehrere Züge braucht, um nützlich zu werden.",
+      "Zentrum tut. Weiß gewinnt einfach Raum, während der Springer noch mehrere Züge braucht, " +
+      "um nützlich zu werden.",
   },
 
   "1.d4 Nh6": {
@@ -135,16 +120,14 @@ export const de: OpeningTexts = {
 
   "1.d4 a6": {
     strategy:
-      "Verwendet ein Tempo auf einen Randbauernzug, der ...b5 vorbereitet, aber weder eine " +
-      "Figur entwickelt noch um das Zentrum kämpft. Weiß baut in aller Ruhe mit e4, c4 und " +
-      "Sc3 auf.",
+      "Verwendet ein Tempo auf einen Randbauernzug, der ...b5 vorbereitet, aber weder eine Figur " +
+      "entwickelt noch um das Zentrum kämpft. Weiß baut in aller Ruhe ein volles Zentrum auf.",
   },
 
   "1.d4 a5": {
     strategy:
       "Verwendet ein Tempo auf einen Randbauernzug, der b4 kontrolliert, aber nichts für das " +
-      "Zentrum oder die Entwicklung tut. Weiß kann ungehindert mit e4 und c4 ein breites " +
-      "Zentrum errichten.",
+      "Zentrum oder die Entwicklung tut. Weiß kann ungehindert ein breites Zentrum errichten.",
   },
 
   "1.d4 b5": {
@@ -170,9 +153,9 @@ export const de: OpeningTexts = {
       "Charlick, der zweite australische Meister, Anfang der 1890er-Jahre die Variante " +
       "2...d6.",
     strategy:
-      "Bietet den e-Bauern für schnelle Entwicklung und Fallenchancen an: Nach 2.dxe5 Sc6 " +
-      "3.Sf3 De7 liegen Ideen wie ...Db4+ und ...Dxb2 in der Luft. Bei genauem Spiel behält " +
-      "Weiß den Bauern oder einen klaren Vorsprung, sodass die Kompensation fraglich ist.",
+      "Bietet den e-Bauern für schnelle Entwicklung und Fallenchancen an, etwa einen " +
+      "Damenvorstoß gegen den Bauern b2. Bei genauem Spiel behält Weiß den Bauern oder einen " +
+      "klaren Vorsprung, sodass die Kompensation fraglich ist.",
   },
 
   "1.d4 f6": {
@@ -184,23 +167,21 @@ export const de: OpeningTexts = {
   "1.d4 h6": {
     strategy:
       "Verhindert Lg5, verwendet aber ein Tempo auf einen Randbauernzug, der weder eine Figur " +
-      "entwickelt noch um das Zentrum kämpft. Weiß kann ungehindert mit e4 und c4 Raum " +
-      "gewinnen.",
+      "entwickelt noch um das Zentrum kämpft. Weiß kann ungehindert Raum gewinnen.",
   },
 
   "1.d4 h5": {
     strategy:
-      "Verwendet ein Tempo auf einen Vorstoß des Randbauern, der nichts entwickelt, das " +
-      "Zentrum ignoriert und g6 schwächt. Weiß kann ungehindert mit e4 und c4 das Zentrum " +
-      "besetzen.",
+      "Verwendet ein Tempo auf einen Vorstoß des Randbauern, der nichts entwickelt, das Zentrum " +
+      "ignoriert und g6 schwächt. Weiß kann ungehindert das Zentrum besetzen.",
   },
 
   "1.d4 g5": {
     name: "Borg-Verteidigung: Borg-Gambit",
     strategy:
-      "Lässt den g-Bauern nach 2.Lxg5 hängen und schwächt den ganzen Königsflügel. Nach " +
-      "2...Lg7 zielt der Läufer nur auf d4, das Weiß mit c3 oder e3 deckt, und Weiß behält " +
-      "einen glatten Mehrbauern.",
+      "Lässt den g-Bauern nach 2.Lxg5 hängen und schwächt den ganzen Königsflügel. Auch mit dem " +
+      "Läufer auf der langen Diagonale zielt er nur auf d4, das Weiß leicht deckt, und Weiß " +
+      "behält einen glatten Mehrbauern.",
   },
 
   "1.d4": {

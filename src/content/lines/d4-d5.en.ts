@@ -11,11 +11,10 @@ export const en: OpeningTexts = {
       "until the 1873 Vienna tournament, and it was played in all but two of the 34 games of " +
       "the 1927 World Championship match between Capablanca and Alekhine.",
     strategy:
-      "Attacks d5 from the wing and prepares e4, offering a pawn that Black cannot keep " +
-      "without conceding something. Black accepts with ...dxc4 and returns the pawn for quick " +
-      "development, or supports d5 with ...e6 for a solid structure or with ...c6, keeping " +
-      "the light-squared bishop free. White gets the bigger centre and lasting pressure on " +
-      "d5, but must be ready for the breaks ...c5 and ...e5.",
+      "Attacks d5 from the wing and offers a pawn that Black cannot keep without conceding " +
+      "something, since White can win it back or gain time. White aims for the bigger centre and " +
+      "lasting pressure on d5; Black usually holds d5 and accepts a cramped game, which it frees " +
+      "with the pawn breaks ...c5 and ...e5.",
   },
 
   "1.d4 d5 2.Nf3": {
@@ -24,11 +23,10 @@ export const en: OpeningTexts = {
       "2.Nf3 is the second most common move after 1.d4 d5, behind the Queen's Gambit 2.c4, " +
       "and the position is also frequently reached via 1.Nf3.",
     strategy:
-      "Develops the kingside knight to a square from which it covers e5 and d4, without " +
-      "deciding the pawn structure. White keeps every main set-up open: c4 gives a Queen's " +
-      "Gambit, Bf4 a London System, Bg5 a Torre Attack, e3 with Bd3 a Colle System, and g3 a " +
-      "fianchetto set-up. Black most often answers 2...Nf6, and White must then choose the " +
-      "system.",
+      "Develops the kingside knight to a square from which it covers e5 and d4, without deciding " +
+      "the pawn structure. White keeps every main set-up open and chooses the system once Black " +
+      "has shown a plan, trading the immediate pressure of c4 for flexibility. A quiet, flexible " +
+      "start that often leads into other structures.",
   },
 
   "1.d4 d5 2.Bf4": {
@@ -39,21 +37,17 @@ export const en: OpeningTexts = {
       "master-level player to use it regularly, at Vienna 1882, London 1883 and New York " +
       "1889.",
     strategy:
-      "Develops the c1 bishop outside the pawn chain before e3 can lock it in, and plans e3, " +
-      "Nf3, c3, Nbd2 and Bd3 in a compact set-up that needs little theory. Black can attack " +
-      "d4 with ...c5, often followed by ...Qb6 against the loose b2-pawn, or build a solid " +
-      "structure with ...Nf6 and ...e6. The set-up is low-risk, but Black is regarded as able " +
-      "to equalise fairly easily.",
+      "Develops the c1 bishop outside the pawn chain before e3 can lock it in, and plans a " +
+      "compact set-up that needs little theory. The set-up makes few demands on Black, who can " +
+      "develop freely, so White gets a low-risk, solid game with little early pressure.",
   },
 
   "1.d4 d5 2.Nc3": {
     name: "Queen's Pawn Game: Chigorin Variation",
     strategy:
-      "Develops the knight, puts pressure on d5 and prepares e4, but blocks the c-pawn, so " +
-      "the usual c4 break is not available. White follows up with 3.Bg5 against a knight on " +
-      "f6, with 3.Bf4 for a London-style set-up, or with the pawn offer 3.e4. Black usually " +
-      "answers 2...Nf6, and 2...c5 is also viable, striking at d4, which the c-pawn cannot " +
-      "support from c3.",
+      "Develops the knight, puts pressure on d5 and prepares e4, but takes c3 from the c-pawn, " +
+      "so the usual c4 break is not available and d4 loses its natural support. White trades the " +
+      "lasting pressure of the Queen's Gambit for freer piece play.",
   },
 
   "1.d4 d5 2.Bg5": {
@@ -65,67 +59,64 @@ export const en: OpeningTexts = {
       "tried it. It is also called the Levitsky Attack, after Stepan Levitsky, and the " +
       "Pseudo-Trompowsky.",
     strategy:
-      "Develops the bishop to g5, where it eyes e7 and stands ready to answer ...Nf6 with " +
-      "Bxf6, doubling Black's f-pawns. Black has solid replies: 2...h6 3.Bh4 c6 followed by " +
-      "...Qb6 hits b2, which the bishop no longer guards, and after 2...Nf6 3.Bxf6 Black gets " +
-      "the bishop pair for the damaged structure.",
+      "Develops the bishop outside the pawn chain, where it attacks e7 and stands ready to " +
+      "answer ...Nf6 with Bxf6, doubling Black's f-pawns. The cost is that b2 is left undefended " +
+      "and the bishop can be harassed by ...h6, so Black gets a solid game with easy " +
+      "development.",
   },
 
   "1.d4 d5 2.e3": {
     strategy:
-      "Supports d4 and opens the f1 bishop, heading for a Colle set-up with Nf3 and Bd3 or a " +
-      "Stonewall set-up with f4. The c1 bishop is shut in behind the pawn, while Black can " +
-      "develop ...Bf5 outside the chain at once. Sound and low-risk, but passive, because " +
-      "nothing is done against d5.",
+      "Supports d4 and opens the f1 bishop, heading for a compact set-up with a solid pawn " +
+      "centre. The c1 bishop is shut in behind the pawn, while Black can develop ...Bf5 outside " +
+      "the chain at once. Sound and low-risk, but passive, because nothing is done against d5.",
   },
 
   "1.d4 d5 2.e4": {
     strategy:
-      "Offers the e-pawn for quick development: after 2...dxe4 3.Nc3 Nf6 4.f3 White gets a " +
-      "tempo and a half-open f-file for the pawn. Theory gives Black several ways to " +
-      "equalise, so the gambit is almost never seen at top level, and Black can also decline " +
-      "it with 2...e6, 2...c6 or 2...Nc6.",
+      "Offers the e-pawn for quick development, hoping to follow up with Nc3 and f3. Theory " +
+      "gives Black several ways to equalise, so the gambit is almost never seen at top level; " +
+      "Black can also simply decline it.",
   },
 
   "1.d4 d5 2.g3": {
     strategy:
-      "Prepares Bg2, which pressures d5 along the long diagonal, and can lead to a " +
-      "Catalan-style set-up after Nf3 and c4. Sound but slow: d5 is not challenged yet, so " +
-      "Black can develop with ...Bf5, ...Nf6 and ...e6 or ...c5 without difficulty.",
+      "Prepares Bg2, which pressures d5 along the long diagonal, in a fianchetto set-up that can " +
+      "add queenside pressure later. Sound but slow: d5 is not challenged yet, so Black can " +
+      "develop without difficulty.",
   },
 
   "1.d4 d5 2.b3": {
     strategy:
-      "Prepares Bb2, which backs up d4 from behind, though the d4-pawn blocks the bishop's " +
-      "view along the long diagonal. Sound but slow: nothing is done against d5, so Black " +
-      "completes development with ...Nf6, ...Bf5 and ...e6 or ...c5 at ease.",
+      "Prepares Bb2, which backs up d4 from behind, though the d4-pawn blocks the bishop's view " +
+      "along the long diagonal. Sound but slow: nothing is done against d5, so Black completes " +
+      "development at ease.",
   },
 
   "1.d4 d5 2.f4": {
     strategy:
-      "Takes e5 and aims for a Stonewall set-up with e3, Nf3 and Bd3. It is playable, but it " +
-      "leaves e4 as a hole for a black knight, opens the e1–h4 diagonal, and makes the c1 " +
-      "bishop a bad bishop behind its own pawns. Black develops easily with ...Bf5 or with " +
-      "...Nf6 and ...e6.",
+      "Takes e5 and aims for a compact set-up with a firm pawn wall in the centre. It is " +
+      "playable, but it leaves e4 as a hole for a black knight, opens the e1–h4 diagonal, and " +
+      "makes the c1 bishop a bad bishop behind its own pawns. Black develops easily.",
   },
 
   "1.d4 d5 2.c3": {
     strategy:
       "Supports d4 and opens the d1–a4 diagonal, so an early ...Bf5 can be met by Qb3 against " +
-      "the b7-pawn. The cost is that the b1 knight loses c3 and a later c4 takes a second " +
-      "tempo; Black develops freely with ...Nf6 and ...e6.",
+      "the b7-pawn. The cost is that the b1 knight loses c3 and a later c4 takes a second tempo; " +
+      "Black develops freely.",
   },
 
   "1.d4 d5 2.a3": {
     strategy:
       "A rook-pawn move that neither develops a piece nor challenges d5. White's only gain is " +
-      "control of b4, while Black develops freely with ...Nf6, ...Bf5 and ...e6.",
+      "control of b4, while Black develops freely.",
   },
 
   "1.d4 d5 2.a4": {
     strategy:
       "Gains a little queenside space but weakens b4, and it neither develops a piece nor " +
-      "challenges d5. Black develops at ease with ...Nf6, ...Bf5 and ...e6.",
+      "challenges d5. Black develops at ease.",
   },
 
   "1.d4 d5 2.b4": {
@@ -138,20 +129,20 @@ export const en: OpeningTexts = {
   "1.d4 d5 2.f3": {
     strategy:
       "Prepares e4, but takes f3 from the g1 knight and opens the e1–h4 diagonal to the king. " +
-      "After 2...Nf6 3.e4 dxe4 4.Nc3 White is a pawn down in a Blackmar–Diemer Gambit, and " +
-      "Black can also strike at d4 at once with 2...c5.",
+      "Black can strike at d4 at once with 2...c5, and if White pushes e4 Black can simply take " +
+      "the pawn.",
   },
 
   "1.d4 d5 2.h3": {
     strategy:
-      "Stops ...Bg4, but spends a tempo on a rook-pawn move that develops nothing and leaves " +
-      "d5 unchallenged. Black develops freely with ...Nf6, ...Bf5 and ...e6.",
+      "Stops ...Bg4, but spends a tempo on a rook-pawn move that develops nothing and leaves d5 " +
+      "unchallenged. Black develops freely.",
   },
 
   "1.d4 d5 2.h4": {
     strategy:
       "Advances a rook pawn that neither develops a piece nor challenges d5, and loosens the " +
-      "kingside. Black develops freely with ...Nf6, ...Bf5 and ...e6.",
+      "kingside. Black develops freely.",
   },
 
   "1.d4 d5 2.Na3": {
@@ -163,9 +154,8 @@ export const en: OpeningTexts = {
 
   "1.d4 d5 2.Nd2": {
     strategy:
-      "Develops the knight and supports a later e4 or c4, but shuts in the c1 bishop until " +
-      "the knight moves on or b3 is played. Nothing is done against d5, so Black develops " +
-      "easily with ...Nf6, ...Bf5 and ...e6.",
+      "Develops the knight and supports a later e4 or c4, but shuts in the c1 bishop until the " +
+      "knight moves on or b3 is played. Nothing is done against d5, so Black develops easily.",
   },
 
   "1.d4 d5 2.Nh3": {
@@ -177,30 +167,27 @@ export const en: OpeningTexts = {
 
   "1.d4 d5 2.Bd2": {
     strategy:
-      "Develops the bishop to a passive square where it blocks the b1 knight's natural square " +
-      "and the queen, and does nothing about d5. Black takes the lead in development with " +
-      "...Nf6, ...Bf5 and ...e6.",
+      "Develops the bishop to a passive square where it takes d2 from the b1 knight, blocks the " +
+      "queen, and does nothing about d5. Black takes the lead in development.",
   },
 
   "1.d4 d5 2.Be3": {
     strategy:
       "Puts the bishop on the e-pawn's natural square, so e3 is no longer available, and the " +
-      "bishop does nothing about d5. Black develops freely with ...Nf6, ...Bf5 and ...e6.",
+      "bishop does nothing about d5. Black develops freely.",
   },
 
   "1.d4 d5 2.Qd2": {
     strategy:
       "Brings the queen out early to a square where it blocks the c1 bishop and takes d2 from " +
-      "the b1 knight, and does nothing about d5. Black develops freely with ...Nf6, ...Bf5 " +
-      "and ...e6.",
+      "the b1 knight, and does nothing about d5. Black develops freely.",
   },
 
   "1.d4 d5 2.Qd3": {
     name: "Amazon Attack",
     strategy:
       "Brings the queen out before the minor pieces, but ...Bf5 attacks it at once, so White " +
-      "must spend a tempo to move it again. Black gains time for ...Nf6 and ...e6 and is " +
-      "ahead in development.",
+      "must spend a tempo to move it again. Black gains time and is ahead in development.",
   },
 
   "1.d4 d5 2.g4": {
@@ -219,7 +206,7 @@ export const en: OpeningTexts = {
   "1.d4 d5 2.Kd2": {
     strategy:
       "Gives up castling and puts the king on a square where it blocks the c1 bishop and the " +
-      "queen. Black can chase it at once, for example with ...Nf6 and ...Ne4+.",
+      "queen. Black can chase it at once with developing moves.",
   },
 
   "1.d4 d5": {
@@ -238,10 +225,10 @@ export const en: OpeningTexts = {
       "Lasker Variation in the final game of the 2010 World Championship, defeating Topalov " +
       "and retaining the title.",
     strategy:
-      "Supports d5 with the e-pawn and builds a solid centre, usually followed by ...Nf6, " +
-      "...Be7 and ...O-O. White keeps up the pressure on d5 with Nc3, Bg5 and the option of " +
-      "cxd5, and usually holds a little more space. The cost is the c8-bishop, shut in behind " +
-      "e6 until ...b6 and ...Bb7, or a freeing break with ...c5 or ...e5, gives it play.",
+      "Supports d5 with the e-pawn and builds a solid centre that Black can hold for a long " +
+      "time. White keeps the tension on d5 and usually has a little more space. The cost is the " +
+      "c8-bishop, shut in behind e6, which needs a freeing pawn break or a fianchetto before it " +
+      "plays a part.",
   },
 
   "1.d4 d5 2.c4 c6": {
@@ -252,11 +239,11 @@ export const en: OpeningTexts = {
       "and 1937 gave it an exhaustive test, and Vladimir Kramnik played it in six of his " +
       "eight games as Black in the 2006 World Championship.",
     strategy:
-      "Defends d5 with the c-pawn and keeps the c8-bishop's diagonal open, so the bishop can " +
-      "still reach f5 or g4, often after ...Nf6 and ...dxc4. After ...dxc4 the pawn on c6 " +
-      "also supports ...b5, to hold the pawn or gain time against the piece that takes it, " +
-      "while an early ...e6 leads to the Semi-Slav. The drawbacks are that ...c6 develops no " +
-      "piece and takes c6 from the b8-knight, and that the later break ...c5 costs a tempo.",
+      "Defends d5 with the c-pawn and keeps the c8-bishop's diagonal open, so the bishop is not " +
+      "buried behind the pawn chain. If Black later takes on c4, the c6-pawn supports ...b5 to " +
+      "hold the pawn or to gain time against the capturing piece. The drawbacks are that c6 " +
+      "develops no piece and takes that square from the b8-knight, and that the freeing break " +
+      "...c5 costs a tempo.",
   },
 
   "1.d4 d5 2.c4 dxc4": {
@@ -269,10 +256,10 @@ export const en: OpeningTexts = {
       "Defences gained ground, but several elite players returned to it in the late 1990s, " +
       "and it is currently considered sound.",
     strategy:
-      "Takes the pawn and gives up the centre in return for free piece play. Black usually " +
-      "develops with ...Nf6 and ...e6, then strikes at White's centre with ...c5 and ...cxd4. " +
-      "White usually regains the pawn with e3 and Bxc4; holding it with ...b5 tends to " +
-      "backfire after a4, so Black spends the time on play against the centre instead.",
+      "Takes the pawn and gives up the centre in return for free piece play. Black usually lets " +
+      "White regain the pawn and spends the time striking at White's centre, because holding the " +
+      "pawn tends to be unprofitable. White's aim is to use the extra space in the centre to " +
+      "build an attack.",
   },
 
   "1.d4 d5 2.c4 Nc6": {
@@ -283,10 +270,9 @@ export const en: OpeningTexts = {
       "the only modern grandmaster to play it regularly, published a book on it with Vladimir " +
       "Barskij in 2007.",
     strategy:
-      "Develops with pressure on d4 and prepares ...e5, but the knight blocks the c-pawn and " +
-      "leaves d5 to the queen. Black plays for quick piece activity and accepts giving a " +
-      "bishop for a knight, as in 3.Nf3 Bg4 4.cxd5 Bxf3, or recaptures with the queen, as in " +
-      "3.cxd5 Qxd5 4.e3 e5. It is playable and a useful surprise, but its theory is less " +
+      "Develops with quick pressure on d4, but the knight blocks the c-pawn and Black no longer " +
+      "holds d5 with a pawn. Black gets active pieces in return and must be willing to trade a " +
+      "bishop for a knight. It is playable and a useful surprise, but its theory is less " +
       "developed than that of the main defences.",
   },
 
@@ -297,10 +283,9 @@ export const en: OpeningTexts = {
       "Keres and Alexei Shirov have used it, but it has not found widespread acceptance among " +
       "chess masters.",
     strategy:
-      "Develops the bishop before ...e6 can shut it in, but leaves b7 undefended and the " +
-      "bishop exposed. 3.Qb3 hits b7 at once, and 3.cxd5 Qxd5 4.Nc3 gains time with e4 to " +
-      "follow, so Black meets 3.cxd5 with 3...Bxb1 and gives White the bishop pair. It is an " +
-      "offbeat but playable line.",
+      "Develops the bishop before ...e6 can shut it in, but leaves b7 undefended and exposes the " +
+      "bishop to a later e4 once White has gained time against the queen on d5. It is an offbeat " +
+      "but playable way to solve the problem of the c8-bishop.",
   },
 
   "1.d4 d5 2.c4 e5": {
@@ -310,10 +295,10 @@ export const en: OpeningTexts = {
       "1893, although Cavallotti had played it against Salvioli at the Milan tournament of " +
       "1881. Alexander Morozevich made some successful use of it in the 2000s.",
     strategy:
-      "Sacrifices a pawn for a central wedge on d4 after 3.dxe5 d4, with quick development by " +
-      "...Nc6 and ...Be6, often queenside castling, and some attacking chances. White usually " +
-      "returns the pawn at a good moment for a positional edge, often after g3, Bg2 and Nbd2. " +
-      "The careless 4.e3 runs into the Lasker Trap.",
+      "Sacrifices a pawn for a wedge on d4 and some attacking chances, developing quickly and " +
+      "often castling queenside. White usually returns the pawn at a good moment to gain a " +
+      "positional edge. The pawn on d4 is stronger than it looks, so careless play by White is " +
+      "punished.",
   },
 
   "1.d4 d5 2.c4 c5": {
@@ -324,17 +309,16 @@ export const en: OpeningTexts = {
       "Hikaru Nakamura used it in 2023 and 2024, drawing Magnus Carlsen in the Champions " +
       "Chess Tour 2023 finals and beating Ding Liren at Norway Chess 2024.",
     strategy:
-      "Mirrors White's move and hits d4 at once. After 3.cxd5 Black should not recapture with " +
-      "the queen, since 3...Qxd5 4.Nf3 cxd4 5.Nc3 gains time against it, so 3...Nf6 prepares " +
-      "to retake with the knight. Theory holds that 4.Nf3 or 4.e4 keeps an edge for White, " +
-      "and that Black plays at best for a draw.",
+      "Mirrors White's move and challenges d4 at once. After cxd5 Black should not retake with " +
+      "the queen, since White then develops with a gain of time. Theory holds that White keeps " +
+      "an edge and that Black plays at best for a draw.",
   },
 
   "1.d4 d5 2.c4 Nf6": {
     strategy:
-      "Develops the knight but leaves d5 to the queen: 3.cxd5 Nxd5 4.e4 drives the knight " +
-      "away with a gain of time and gives White a broad pawn centre. Supporting d5 first with " +
-      "...e6 or ...c6 avoids this.",
+      "Develops the knight but leaves d5 to the queen: 3.cxd5 Nxd5 4.e4 drives the knight away " +
+      "with a gain of time and gives White a broad pawn centre. Supporting d5 first with a pawn " +
+      "avoids this.",
   },
 
   "1.d4 d5 2.c4 Na6": {
@@ -353,9 +337,9 @@ export const en: OpeningTexts = {
 
   "1.d4 d5 2.c4 Bg4": {
     strategy:
-      "Develops the bishop before ...e6 can shut it in, but on g4 it hits only the " +
-      "well-defended e2-pawn and leaves b7 undefended. 3.cxd5 Qxd5 4.Nc3 gains time against " +
-      "the queen, and f3 or h3 later chases the bishop.",
+      "Gets the bishop out early, but on g4 it hits only the well-defended e2-pawn and leaves b7 " +
+      "undefended. 3.cxd5 Qxd5 4.Nc3 gains time against the queen, and a pawn move later chases " +
+      "the bishop.",
   },
 
   "1.d4 d5 2.c4 Qd7": {
@@ -406,7 +390,7 @@ export const en: OpeningTexts = {
 
   "1.d4 d5 2.c4 f5": {
     strategy:
-      "Stakes out e4 as in a Dutch set-up, but leaves d5 to the queen and weakens e6 and the " +
+      "Stakes out e4 with a kingside pawn, but leaves d5 to the queen and weakens e6 and the " +
       "e8-h5 diagonal. 3.cxd5 Qxd5 4.Nc3 gains time against the queen.",
   },
 
@@ -469,26 +453,24 @@ export const en: OpeningTexts = {
 
   "1.d4 d5 2.Nf3 Nf6": {
     strategy:
-      "Develops the knight to its natural square, controls e4 and keeps every plan open: …e6 " +
-      "or …c6 against 3.c4, …c5 or …Bf5 against quieter set-ups. The position is the same as " +
-      "after 1.d4 Nf6 2.Nf3 d5. The cost is that White still chooses the structure: 3.c4 " +
-      "gives a Queen's Gambit, while 3.Bf4, 3.Bg5 or 3.e3 lead to the London, Torre or Colle " +
-      "systems.",
+      "Develops the knight to its natural square and controls e4, while committing the c- and " +
+      "e-pawns to nothing yet. That flexibility is the strength and the cost: White still " +
+      "decides what kind of game it becomes, from a Queen's Gambit to quiet set-ups with an " +
+      "early bishop move.",
   },
 
   "1.d4 d5 2.Nf3 c6": {
     strategy:
-      "Supports d5 and keeps the c8-bishop's route to f5 or g4 open, since …e6 has not been " +
-      "played. After 3.c4 the game is a Slav Defence, and against quieter moves …Bf5, …e6 and " +
-      "…Nf6 make a solid set-up. The cost is that the b8-knight loses its natural c6-square.",
+      "Supports d5 with a pawn and keeps the c8-bishop's route to f5 or g4 open, since ...e6 has " +
+      "not been played. It is solid and differs little from 2...Nf6 in most lines. The cost is " +
+      "that the b8-knight loses its natural c6-square.",
   },
 
   "1.d4 d5 2.Nf3 e6": {
     strategy:
-      "Supports d5 and opens the f8-bishop's diagonal. After 3.c4 the game is a Queen's " +
-      "Gambit Declined, and against 3.Bf4, 3.e3 or 3.g3 Black develops with …Nf6, …Be7 or " +
-      "…Bd6 and …c5. The cost is the c8-bishop, now shut in behind the e6-pawn, which usually " +
-      "needs …b6 or a later …e5 to find a diagonal.",
+      "Supports d5 and opens the f8-bishop's diagonal, a solid set-up that differs little from " +
+      "2...Nf6 in most lines. The cost is the c8-bishop, now shut in behind the e6-pawn, which " +
+      "usually has to wait for a fianchetto or a later central pawn break to find a diagonal.",
   },
 
   "1.d4 d5 2.Nf3 Nc6": {
@@ -498,25 +480,24 @@ export const en: OpeningTexts = {
       "19th-century Russian master Mikhail Chigorin and considered playable but rare. After " +
       "3.c4 this position transposes into that defence's 3.Nf3 line.",
     strategy:
-      "Develops a piece at once and pressures d4, but the knight blocks the c-pawn, so d5 can " +
-      "no longer be supported by …c6. White can answer with 3.c4, hitting d5 at once, or " +
-      "choose a quieter set-up with 3.Bf4 or 3.e3.",
+      "Develops a piece at once and pressures d4, but the knight blocks the c-pawn, so d5 can no " +
+      "longer be supported by ...c6. With only the queen guarding d5, White can hit it " +
+      "immediately with c4.",
   },
 
   "1.d4 d5 2.Nf3 Bf5": {
     strategy:
-      "Develops the bishop outside the pawn chain before …e6, a London System with colours " +
-      "reversed. With the bishop gone from c8 the b7-pawn has no defender, so 3.c4 strikes at " +
-      "d5 and Qb3 can follow against b7, while 3.Nh4 attacks the bishop and aims to take it " +
-      "for the knight.",
+      "Develops the bishop outside the pawn chain before ...e6 closes it in, a mirror image of " +
+      "White's own bishop-first set-up. The cost is that the b7-pawn loses its only defender, " +
+      "and 3.Nh4 attacks the bishop at once, aiming to trade the knight for it.",
   },
 
   "1.d4 d5 2.Nf3 Bg4": {
     name: "Queen's Pawn Game: Anti-Torre",
     strategy:
-      "Develops the bishop actively and prepares …Bxf3, which would double White's f-pawns. " +
-      "3.Ne5 attacks the bishop and gains a tempo, and with the bishop gone from c8 the " +
-      "b7-pawn has no defender, so c4 and Qb3 can press against it.",
+      "Develops the bishop actively and prepares ...Bxf3, which would double White's f-pawns. " +
+      "But 3.Ne5 attacks the bishop and gains a tempo, and with the bishop gone from c8 the " +
+      "b7-pawn has no defender.",
   },
 
   "1.d4 d5 2.Nf3 c5": {
@@ -526,10 +507,10 @@ export const en: OpeningTexts = {
       "found many new ideas in the Slav Defence in the 1920s. He played first board for " +
       "Denmark at the 1927 London Olympiad, where the team won silver.",
     strategy:
-      "Strikes at d4 at once and brings tension into the centre. 3.c4 reaches a position of " +
-      "the Austrian Defence, in which most theoreticians believe Black cannot equalise, and " +
-      "3.dxc5 gives a reversed Queen's Gambit Accepted in which Black spends time regaining " +
-      "the pawn.",
+      "Strikes at d4 at once and brings tension into the centre instead of defending d5 " +
+      "passively. The cost is time and structure: if White takes on c5, Black must spend moves " +
+      "regaining the pawn, and d5 has little support meanwhile. It aims for an active game " +
+      "rather than a solid one.",
   },
 
   "1.d4 d5 2.Nf3 g6": {
@@ -541,20 +522,20 @@ export const en: OpeningTexts = {
 
   "1.d4 d5 2.Nf3 Nd7": {
     strategy:
-      "Blocks the c8-bishop, and the knight does little on d7 before …c6 or …e6 has been " +
-      "played. White takes space with c4 or develops with Bf4 undisturbed.",
+      "Blocks the c8-bishop, and the knight does little on d7 before a pawn move supports d5. " +
+      "White can develop or take space undisturbed.",
   },
 
   "1.d4 d5 2.Nf3 Na6": {
     strategy:
-      "Puts the knight on the rim, where it eyes b4 and c5 but is far from the centre. It " +
-      "costs a tempo for little, and White continues with c4 or Bf4 straight away.",
+      "Puts the knight on the rim, where it eyes b4 and c5 but is far from the centre. It costs " +
+      "a tempo for little, and White can simply carry on building.",
   },
 
   "1.d4 d5 2.Nf3 Bd7": {
     strategy:
       "Puts the bishop on a passive square, where it blocks the queen and takes d7 from the " +
-      "b8-knight. White continues with c4 or Bf4 with a free hand.",
+      "b8-knight. White can continue with a free hand.",
   },
 
   "1.d4 d5 2.Nf3 Be6": {
@@ -571,8 +552,8 @@ export const en: OpeningTexts = {
 
   "1.d4 d5 2.Nf3 Qd6": {
     strategy:
-      "Brings the queen out early to an exposed square. 3.Nc3 threatens Nb5, which would " +
-      "attack both the queen and c7, and prepares e4 to gain more time against the queen.",
+      "Brings the queen out early to an exposed square. 3.Nc3 threatens Nb5, which would attack " +
+      "both the queen and c7.",
   },
 
   "1.d4 d5 2.Nf3 Nh6": {
@@ -583,33 +564,32 @@ export const en: OpeningTexts = {
 
   "1.d4 d5 2.Nf3 a6": {
     strategy:
-      "Spends a tempo on a flank move that has no role yet. At best it prepares …b5, while " +
-      "White strikes at d5 with c4 or develops with Bf4.",
+      "Spends a tempo on a flank move that has no role yet. At best it prepares ...b5, while " +
+      "White is free to continue developing.",
   },
 
   "1.d4 d5 2.Nf3 a5": {
     strategy:
       "A rim pawn move that only controls b4 and leaves b5 without pawn cover. It develops " +
-      "nothing, and White builds up freely with c4, Bf4 or e3.",
+      "nothing, and White builds up freely.",
   },
 
   "1.d4 d5 2.Nf3 b6": {
     strategy:
-      "Prepares …Bb7, but that bishop would only look at Black's own d5-pawn, and c6 is " +
-      "weakened. White develops with Bf4 and e3 or strikes at d5 with c4.",
+      "Prepares ...Bb7, but that bishop would only look at Black's own d5-pawn, and c6 is " +
+      "weakened. White can develop freely.",
   },
 
   "1.d4 d5 2.Nf3 b5": {
     strategy:
-      "Stops c4 for now but leaves the pawn loose: 3.e3 already threatens Bxb5+, and a4 or " +
-      "Qd3 can attack it as well. It develops nothing and leaves c6 without pawn cover.",
+      "Stops c4 for now but leaves the pawn loose: 3.e3 already threatens Bxb5+. It develops " +
+      "nothing and leaves c6 without pawn cover.",
   },
 
   "1.d4 d5 2.Nf3 f6": {
     strategy:
-      "Prepares …e5 but takes f6 from the g8-knight and weakens e6 and the e8–h5 diagonal. " +
-      "White develops freely, with 3.Bf4 adding control of e5, while Black's development lags " +
-      "behind.",
+      "Prepares ...e5 but takes f6 from the g8-knight and weakens e6 and the e8–h5 diagonal. " +
+      "White develops freely while Black's development lags behind.",
   },
 
   "1.d4 d5 2.Nf3 f5": {
@@ -621,8 +601,8 @@ export const en: OpeningTexts = {
 
   "1.d4 d5 2.Nf3 h6": {
     strategy:
-      "A slow move that takes g5 from White's pieces but develops nothing. White uses the " +
-      "tempo for c4, Bf4 or e3.",
+      "A slow move that takes g5 from White's pieces but develops nothing. White uses the tempo " +
+      "to develop.",
   },
 
   "1.d4 d5 2.Nf3 h5": {
@@ -645,9 +625,8 @@ export const en: OpeningTexts = {
 
   "1.d4 d5 2.Nf3 e5": {
     strategy:
-      "Offers a pawn for no clear return: after 3.dxe5 the pawn is gone, and …d4 would lose a " +
-      "second one to Nxd4. …Nc6 or …Bg4 give only brief activity against a White position " +
-      "without weaknesses.",
+      "Offers a pawn for no clear return: after 3.dxe5 the pawn is gone, and ...d4 would lose a " +
+      "second one to Nxd4. Black has little to show against a White position without weaknesses.",
   },
 
   "1.d4 d5 2.Nf3 g5": {
@@ -658,10 +637,9 @@ export const en: OpeningTexts = {
 
   "1.d4 d5 2.Bf4 Nf6": {
     strategy:
-      "Develops the knight, guards d5 and e4 and keeps Black's options open: ...e6 with " +
-      "...Bd6 to challenge the bishop, or ...c5 with ...Nc6 and ...Qb6 against the unguarded " +
-      "b2-pawn. It is the most common reply and reaches the same position as 1.d4 Nf6 2.Bf4 " +
-      "d5.",
+      "Develops a piece and guards d5 and e4, so Black commits to no pawn structure yet. The " +
+      "knight keeps both a solid set-up and a sharp counter against the undefended b2-pawn " +
+      "available.",
   },
 
   "1.d4 d5 2.Bf4 c5": {
@@ -671,26 +649,25 @@ export const en: OpeningTexts = {
       "Mason took the pawn, and after 3.dxc5 Nc6 4.Nf3 f6 5.e3 e5 6.Bg3 Bxc5 Black had won it " +
       "back and taken over the centre; Steinitz won the game.",
     strategy:
-      "Strikes at d4 at once and exploits the bishop's absence from c1: ...Nc6, ...Bf5 and " +
-      "...Qb6 follow quickly, with the queen pressing on the unguarded b2-pawn before Black " +
-      "castles. White usually declines the pawn with e3 and c3, so that an exchange on d4 " +
-      "still leaves two white pawns in the centre, and c3 lets Qb3 meet ...Qb6.",
+      "Strikes at d4 at once and aims to profit from the bishop having left c1: ...Qb6 will " +
+      "press on the undefended b2-pawn before Black has castled. Black offers the c-pawn for " +
+      "quick development and activity, so White usually declines it and keeps two pawns in the " +
+      "centre. The game is sharp, with counterplay for Black.",
   },
 
   "1.d4 d5 2.Bf4 e6": {
     strategy:
-      "Supports d5 in Queen's Gambit Declined style and opens the f8-bishop's path to d6, " +
-      "where it challenges the f4-bishop; ...Nf6, ...c5 and ...Nc6 usually follow. The price " +
-      "is the c8-bishop, which the e6-pawn shuts in and which often struggles to find a good " +
-      "square. White answers with e3, Nf3 or Nd2, Bd3 and c3, and meets ...Bd6 with Bg3 or " +
-      "Bxd6.",
+      "Supports d5 in the manner of the Queen's Gambit Declined and opens the f8-bishop's path " +
+      "to d6, where it can challenge White's bishop. The cost is the c8-bishop, which the " +
+      "e6-pawn shuts in and which often struggles to find a good square. The game is solid and " +
+      "strategic.",
   },
 
   "1.d4 d5 2.Bf4 c6": {
     strategy:
-      "Supports d5 in Slav style and keeps the c8-bishop free for ...Bf5, while the queen " +
-      "gains the b6-square against the unguarded b2-pawn. The set-up is solid, and White " +
-      "usually continues with e3, Nf3 and c3 and meets ...Qb6 with Qb3 or Qc1.",
+      "Supports d5 in Slav style and keeps the c8-bishop free to come out to f5, while the queen " +
+      "gains b6 against the undefended b2-pawn. The c6-pawn takes that square from the " +
+      "b8-knight, but the set-up is solid and leads to a calm, strategic game.",
   },
 
   "1.d4 d5 2.Bf4 Bf5": {
@@ -700,82 +677,77 @@ export const en: OpeningTexts = {
       "for it are 1500–1505 and 1471. Jacob Sarratt's “A Treatise on the Game of Chess” " +
       "(1808) gives the line as well, continuing 3.Nc3 Nc6 4.f3.",
     strategy:
-      "Mirrors White's development and gets the bishop outside the pawn chain before ...e6, " +
-      "with ...Nf6 and ...c6 or ...Nc6 to follow. The symmetrical structure is sound, and " +
-      "without a transposition the game tends toward a quiet draw. White's most testing plan " +
-      "is to steer into a Queen's Gambit with c4.",
+      "Mirrors White's development and brings the bishop outside the pawn chain before ...e6 can " +
+      "shut it in. The symmetrical structure is sound but offers Black few winning chances, and " +
+      "without a transposition the game tends toward a quiet draw. White's most testing plan is " +
+      "to steer into a Queen's Gambit with c4.",
   },
 
   "1.d4 d5 2.Bf4 Nc6": {
     strategy:
-      "Develops the knight with pressure on d4 and prepares ...Bf5 or ...Bg4 and a later " +
-      "...e5, in the manner of the Chigorin Defence. It blocks the c-pawn, so the usual ...c5 " +
-      "and ...c6 set-ups are gone, and e3 with Nf3 keeps d4 firmly guarded.",
+      "Develops the knight with pressure on d4 and prepares to bring out the c8-bishop actively " +
+      "and to strike later with ...e5. It blocks the c-pawn, so it can no longer support the " +
+      "centre, and d4 is easy for White to keep guarded.",
   },
 
   "1.d4 d5 2.Bf4 Nd7": {
     strategy:
       "Develops the knight to a square from which it supports ...e5 and ...c5 and leaves the " +
-      "c-pawn free for ...c6, with ...Ngf6 to follow. It blocks the c8-bishop and the queen's " +
-      "file, so Black is slightly cramped, and White settles into the London with e3, Nf3 and " +
-      "c3 or switches to c4.",
+      "c-pawn free to support the centre. It blocks the c8-bishop and the queen's file, so Black " +
+      "is slightly cramped, and White can build the usual London set-up undisturbed.",
   },
 
   "1.d4 d5 2.Bf4 Bg4": {
     strategy:
-      "Pins the e2-pawn against the queen, so 3.e3 is ruled out for now: 3...Bxd1 would " +
-      "follow. White answers 3.Nf3, when ...Nf6 and ...e6 give a reversed Torre Attack, or " +
-      "questions the bishop at once with 3.h3 or 3.f3.",
+      "Pins the e2-pawn against the queen, so 3.e3 is ruled out for now: 3...Bxd1 would follow. " +
+      "White can simply develop, or question the bishop at once.",
   },
 
   "1.d4 d5 2.Bf4 b6": {
     strategy:
-      "Prepares ...Bb7 with ...e6 and ...c5, but with the pawn already on d5 the bishop bites " +
-      "on its own pawn for the time being. The move develops nothing yet and loosens c6, and " +
-      "White builds the usual London with e3, Nf3 and c3 or switches to c4.",
+      "Prepares ...Bb7, but with the pawn already on d5 the bishop bites on its own pawn for the " +
+      "time being. The move develops nothing yet and loosens c6, so White can build the usual " +
+      "London set-up at leisure.",
   },
 
   "1.d4 d5 2.Bf4 g6": {
     strategy:
-      "Prepares ...Bg7, ...Nf6 and ...O-O, a King's Indian-style set-up in which the " +
-      "g7-bishop presses on d4 along the long diagonal. It is sound but slow, and White " +
-      "usually answers with e3, Nf3, Be2 and h3, which gives the f4-bishop a retreat on h2.",
+      "Prepares to fianchetto the kingside bishop, which then presses on d4 along the long " +
+      "diagonal. It is sound but slow, and White meets it with the usual London set-up.",
   },
 
   "1.d4 d5 2.Bf4 h5": {
     strategy:
       "An uncommon sideline with a trap: the routine 3.e3? closes the bishop's retreat to d2, " +
       "and 3...e5! lets Black trap it with ...f6, ...g5 and ...h4 and win it for pawns. White " +
-      "avoids this with 3.Nf3, which keeps the retreat open, or with 3.c4, after which the " +
-      "h-pawn does little for Black.",
+      "avoids this by keeping the retreat open, for example with a developing knight move, after " +
+      "which the h-pawn does little for Black.",
   },
 
   "1.d4 d5 2.Bf4 Na6": {
     strategy:
-      "Puts the knight on the rim, where it aims at b4 and c5 but takes little part in the " +
-      "fight for the centre. It does guard c7, yet costs time that White uses for e3, Nf3 and " +
-      "c3.",
+      "Puts the knight on the rim, where it aims at b4 and c5 but takes little part in the fight " +
+      "for the centre. It does guard c7, yet costs time that White uses to build the usual " +
+      "London set-up.",
   },
 
   "1.d4 d5 2.Bf4 Bd7": {
     strategy:
-      "Puts the bishop on a passive square, where it takes d7 from the b8-knight and blocks " +
-      "the queen's d-file. It does less than ...Bf5 would, and White simply continues with e3 " +
-      "and Nf3.",
+      "Puts the bishop on a passive square, where it takes d7 from the b8-knight and blocks the " +
+      "queen's d-file. It does less than ...Bf5 would, and White simply goes on developing.",
   },
 
   "1.d4 d5 2.Bf4 Be6": {
     strategy:
-      "Puts the bishop on e6, where it blocks the e-pawn and with it the f8-bishop, so the " +
-      "usual ...e6 and ...Bd6 plan is gone. White develops with Nf3, e3 and c4 or c3 at " +
-      "leisure while the bishop does little.",
+      "Puts the bishop on e6, where it blocks the e-pawn and with it the f8-bishop, so the usual " +
+      "plan of freeing that bishop is gone. White develops at leisure while the bishop does " +
+      "little.",
   },
 
   "1.d4 d5 2.Bf4 Qd7": {
     strategy:
-      "Brings the queen out early, where it blocks the c8-bishop and the knight and can be " +
-      "hit with tempo, for example by Nf3 followed by Ne5. Black spends time on the queen " +
-      "instead of developing.",
+      "Brings the queen out early, where it blocks the c8-bishop and the knight and can be hit " +
+      "with tempo by a White knight. Black spends time on the queen instead of developing.",
   },
 
   "1.d4 d5 2.Bf4 Nh6": {
@@ -786,43 +758,42 @@ export const en: OpeningTexts = {
 
   "1.d4 d5 2.Bf4 a6": {
     strategy:
-      "Spends a tempo on a flank move that only prepares ...b5. It develops no piece and " +
-      "leaves the centre alone, so White continues with e3, Nf3 and c4 unhindered.",
+      "Spends a tempo on a flank move that only prepares ...b5. It develops no piece and leaves " +
+      "the centre alone, so White develops unhindered.",
   },
 
   "1.d4 d5 2.Bf4 a5": {
     strategy:
       "Spends a tempo on a rook-pawn advance that takes b4 but develops nothing and does not " +
-      "contest the centre. White develops with e3 and Nf3 and gains space with c4.",
+      "contest the centre. White develops and gains space at leisure.",
   },
 
   "1.d4 d5 2.Bf4 b5": {
     strategy:
       "Pushes the b-pawn without developing a piece, weakens c5 and c6 and makes the pawn a " +
       "target: after 3.e3 the f1-bishop threatens Bxb5+, and a4 can attack it too. Black then " +
-      "spends further moves such as ...a6 or ...c6 to hold it.",
+      "spends further moves to hold it.",
   },
 
   "1.d4 d5 2.Bf4 f6": {
     strategy:
       "Aims for ...e5 but takes f6 from the g8-knight and opens the e8–h5 diagonal, so once " +
-      "White has played e3 the queen can check on h5. Black spends a tempo without developing " +
-      "a piece, while White continues with e3 and Nf3.",
+      "White has played e3 the queen can check on h5. Black spends a tempo without developing a " +
+      "piece, while White simply develops.",
   },
 
   "1.d4 d5 2.Bf4 f5": {
     strategy:
-      "Aims for a Stonewall set-up with ...Nf6 and ...e6, but weakens e6 and the e8–h5 " +
-      "diagonal and leaves e5 as a permanent hole, which the f4-bishop already controls and a " +
-      "knight can occupy from f3. After ...e6 the c8-bishop is hemmed in behind its own " +
-      "pawns.",
+      "Aims for a solid wall of pawns on f5, e6 and d5, but weakens e6 and the e8–h5 diagonal " +
+      "and leaves e5 as a permanent hole, which the f4-bishop already controls and a knight can " +
+      "occupy from f3. Once the wall stands, the c8-bishop is hemmed in behind its own pawns.",
   },
 
   "1.d4 d5 2.Bf4 h6": {
     strategy:
       "Spends a tempo on a rook-pawn move that develops nothing; its point, a later ...g5 " +
-      "against the f4-bishop, would loosen Black's own kingside. White continues with e3 and " +
-      "Nf3, and h3 gives the bishop a retreat on h2.",
+      "against the f4-bishop, would loosen Black's own kingside. White simply develops, and h3 " +
+      "gives the bishop a retreat on h2.",
   },
 
   "1.d4 d5 2.Bf4 Bh3": {
@@ -833,8 +804,8 @@ export const en: OpeningTexts = {
 
   "1.d4 d5 2.Bf4 Qd6": {
     strategy:
-      "Puts the queen where the f4-bishop takes it: 3.Bxd6 wins the queen, and after ...cxd6 " +
-      "or ...exd6 Black has only a bishop in return.",
+      "Puts the queen where the f4-bishop takes it: 3.Bxd6 wins the queen, and after the " +
+      "recapture Black has only a bishop in return.",
   },
 
   "1.d4 d5 2.Bf4 Kd7": {
@@ -846,9 +817,9 @@ export const en: OpeningTexts = {
 
   "1.d4 d5 2.Bf4 e5": {
     strategy:
-      "Offers a pawn that 3.Bxe5 simply wins: after 3...Nc6 White retreats with 4.Bg3, and d4 " +
-      "stays guarded by the queen. Black has opened the position but has no compensation for " +
-      "the pawn.",
+      "Offers a pawn that 3.Bxe5 simply wins: the bishop can retreat when attacked, d4 stays " +
+      "guarded by the queen, and Black has opened the position but has no compensation for the " +
+      "pawn.",
   },
 
   "1.d4 d5 2.Bf4 g5": {
@@ -860,62 +831,56 @@ export const en: OpeningTexts = {
 
   "1.d4 d5 2.Nc3 Nf6": {
     strategy:
-      "Develops the kingside knight, adds a second guard to d5 and watches e4; it is the most " +
-      "common reply. White chooses between 3.Bg5, the Richter–Veresov Attack, 3.Bf4, the " +
-      "Jobava London System, and the gambit 3.e4, where 3...dxe4 transposes to the " +
-      "Blackmar–Diemer Gambit. Black follows with ...e6, ...c6 or ...Bf5 and gets a sound, " +
-      "flexible position.",
+      "Develops the kingside knight, adds a second guard to d5 and watches e4, so White cannot " +
+      "easily build a pawn centre. Black keeps the pawn structure open for now and gets a sound, " +
+      "flexible game; White decides how sharp it gets, from quiet development to a gambit for " +
+      "the initiative.",
   },
 
   "1.d4 d5 2.Nc3 c6": {
     strategy:
-      "Supports d5 and takes b5 from the knight while leaving the c8-bishop's diagonal open. " +
-      "3.e4 transposes to the Caro-Kann Defence, 1.e4 c6 2.d4 d5 3.Nc3, and against 3.Nf3 or " +
-      "3.Bf4 Black develops the bishop to f5 or g4 before ...e6 and gets a solid structure. " +
-      "In return the b8-knight loses c6 and usually goes to d7.",
+      "Supports d5 with a pawn, takes b5 from the knight and leaves the c8-bishop's diagonal " +
+      "open, so the bishop can come out before ...e6. It aims at a solid pawn structure. The " +
+      "cost is that the b8-knight loses c6 and usually goes to d7.",
   },
 
   "1.d4 d5 2.Nc3 e6": {
     strategy:
-      "Supports d5 and opens the f8-bishop. 3.e4 transposes to the French Defence, 1.e4 e6 " +
-      "2.d4 d5 3.Nc3, while after 3.Bf4 or 3.Nf3 Black follows with ...Nf6 and ...c5 or " +
-      "...Bd6. The price is the usual one in the French: the c8-bishop is shut in behind the " +
-      "e6-pawn.",
+      "Supports d5 and opens the f8-bishop, heading for French Defence structures, which 3.e4 " +
+      "transposes to. The price is the usual one in the French: the c8-bishop is shut in behind " +
+      "the e6-pawn. Black gets a solid, fairly closed game.",
   },
 
   "1.d4 d5 2.Nc3 Nc6": {
     strategy:
       "Develops with pressure on d4, but the knight blocks the c-pawn, so ...c6 can no longer " +
-      "support d5. 3.e4 transposes to the Nimzowitsch Defence, 1.e4 Nc6 2.d4 d5 3.Nc3, where " +
-      "3...dxe4 4.d5 drives the knight to e5 with tempo and White usually continues 5.Qd4 or " +
-      "5.Bf4. Sound but offbeat.",
+      "support d5. Sound but offbeat.",
   },
 
   "1.d4 d5 2.Nc3 Bf5": {
     name: "Queen's Pawn Game: Chigorin Variation, Alburt Defence",
     strategy:
-      "Develops the light-squared bishop before ...e6 can shut it in and prepares ...e6, " +
-      "...Nf6 and ...Nc6. The bishop becomes a target: 3.Bf4 Nc6 4.e3 e6 5.g4 Bg6 gains " +
-      "kingside space for White, and f3 with e4 gains time against it. Sound but rarely " +
+      "Develops the light-squared bishop before ...e6 can shut it in. It becomes a target, " +
+      "though: White gains kingside space and time by harassing it with pawns. Sound but rarely " +
       "played.",
   },
 
   "1.d4 d5 2.Nc3 Bg4": {
     name: "Queen's Pawn Game: Chigorin Variation, Anti-Veresov",
     strategy:
-      "Develops the bishop before ...e6 shuts it in and prepares ...Nc6 and ...e6, with " +
-      "...Bxf3 available once the knight comes to f3. The bishop is easy to harass: 3.f3 Bf5 " +
-      "4.e4 dxe4 5.fxe4 builds a broad centre with tempo, and 3.h3 Bh5 4.g4 Bg6 gains " +
-      "kingside space. Playable, but Black spends time on the bishop.",
+      "Develops the bishop outside the pawn chain before ...e6 shuts it in, with ...Bxf3 " +
+      "available once the knight comes to f3. The bishop is easy to harass, so White gains time " +
+      "and kingside space with pawn moves against it. Playable, but Black spends time on the " +
+      "bishop.",
   },
 
   "1.d4 d5 2.Nc3 c5": {
     name: "Queen's Pawn Game: Chigorin Variation, Irish Gambit",
     strategy:
-      "Strikes at d4 at once and offers the c-pawn. Taking with 3.dxc5 gives up the centre, " +
-      "and Black aims to win the pawn back, ideally with ...Bxc5; 3.Bf4 cxd4 4.Qxd4 declines " +
-      "with a slight edge for White, and 3.e4 answers with a counter-gambit. Viable, but a " +
-      "rare and little-explored sideline.",
+      "Strikes at d4 at once and offers the c-pawn. Taking it with the d-pawn gives up the " +
+      "centre, and Black aims to win the pawn back with a quick bishop; developing the c1-bishop " +
+      "and recapturing on d4 instead declines with a slight edge for White. Viable, but a rare " +
+      "and little-explored sideline.",
   },
 
   "1.d4 d5 2.Nc3 e5": {
@@ -936,22 +901,20 @@ export const en: OpeningTexts = {
 
   "1.d4 d5 2.Nc3 Na6": {
     strategy:
-      "Puts the knight on the rim, where it eyes b4 and c5 but does nothing for d5 or e4. " +
-      "White takes the centre with 3.e4 dxe4 4.Nxe4 and leads in development.",
+      "Puts the knight on the rim, where it eyes b4 and c5 but does nothing for d5 or e4. White " +
+      "takes the centre and leads in development.",
   },
 
   "1.d4 d5 2.Nc3 Be6": {
     strategy:
-      "Stands in front of the e-pawn, so neither ...e6 nor ...e5 can follow, and the " +
-      "f8-bishop can only come out by way of ...g6. After 3.e4 dxe4 4.Nxe4 White has the " +
-      "freer centre and more space.",
+      "Stands in front of the e-pawn, so neither ...e6 nor ...e5 can follow, and the f8-bishop " +
+      "can only come out by way of ...g6. White has the freer centre and more space.",
   },
 
   "1.d4 d5 2.Nc3 Qd7": {
     strategy:
-      "Blocks the c8-bishop and takes d7 from the b8-knight, a queen move that develops " +
-      "nothing and does nothing for the centre. After 3.e4 dxe4 4.Nxe4 White develops with " +
-      "the better centre.",
+      "Blocks the c8-bishop and takes d7 from the b8-knight, a queen move that develops nothing " +
+      "and does nothing for the centre. White develops with the better centre.",
   },
 
   "1.d4 d5 2.Nc3 Qd6": {
@@ -969,7 +932,7 @@ export const en: OpeningTexts = {
   "1.d4 d5 2.Nc3 a6": {
     strategy:
       "Takes b5 from the knight but spends a tempo on a rim pawn without developing anything. " +
-      "White takes the centre with 3.e4 dxe4 4.Nxe4 and leads in development.",
+      "White takes the centre and leads in development.",
   },
 
   "1.d4 d5 2.Nc3 a5": {
@@ -980,21 +943,20 @@ export const en: OpeningTexts = {
 
   "1.d4 d5 2.Nc3 b6": {
     strategy:
-      "Prepares ...Bb7 but does nothing for d5, so White takes the centre with 3.e4. After " +
-      "3...dxe4 4.Nxe4 Bb7 5.Bd3 the knight is well guarded, and White has more space and " +
-      "easier development.",
+      "Prepares to fianchetto the c8-bishop but does nothing for d5, so White takes the centre " +
+      "with 3.e4 and gets more space and easier development.",
   },
 
   "1.d4 d5 2.Nc3 f6": {
     strategy:
-      "Prepares ...e5, but takes f6 from the g8-knight and opens the e8-h5 diagonal to the " +
-      "black king. White answers 3.e4 and takes the centre with quicker development.",
+      "Prepares ...e5, but takes f6 from the g8-knight and opens the e8-h5 diagonal to the black " +
+      "king. White takes the centre with quicker development.",
   },
 
   "1.d4 d5 2.Nc3 g6": {
     strategy:
-      "Prepares ...Bg7 but does nothing for d5, so White takes the centre with 3.e4. After " +
-      "3...dxe4 4.Nxe4 White has the freer centre and quicker development.",
+      "Prepares to fianchetto the f8-bishop but does nothing for d5, so White takes the centre " +
+      "with 3.e4 and develops faster.",
   },
 
   "1.d4 d5 2.Nc3 h6": {
@@ -1006,9 +968,8 @@ export const en: OpeningTexts = {
   "1.d4 d5 2.Nc3 h5": {
     name: "Queen's Pawn Game: Chigorin Variation, Shropshire Defence",
     strategy:
-      "Spends a tempo on a rim pawn that develops nothing and does nothing for the centre, " +
-      "and it gives up control of g6. White simply develops, for example with 3.e4 dxe4 " +
-      "4.Nxe4.",
+      "Spends a tempo on a rim pawn that develops nothing and does nothing for the centre, and " +
+      "it gives up control of g6. White simply develops.",
   },
 
   "1.d4 d5 2.Nc3 Nd7": {

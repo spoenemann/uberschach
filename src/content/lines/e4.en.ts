@@ -6,69 +6,63 @@ export const en: OpeningTexts = {
   "1.e4 e5": {
     strategy:
       "Claims the centre with a pawn and opens lines for the queen and the king's bishop, " +
-      "mirroring White's move. Black aims for quick development with ...Nc6 and ...Nf6 and " +
-      "for early castling, while the e5-pawn becomes a target that White usually attacks with " +
-      "2.Nf3. Play is often open and tactical, and White keeps the first-move initiative.",
+      "mirroring White's move. Black aims for quick development and early castling, while the " +
+      "e5-pawn is a target that White can attack at once. Play is often open, and White keeps " +
+      "the first-move initiative.",
   },
 
   "1.e4 c5": {
     strategy:
-      "Fights for d4 from the flank instead of mirroring White. After Nf3 and d4, Black " +
-      "trades the c-pawn for White's d-pawn, which gives a central pawn majority and a " +
-      "half-open c-file. White usually leads in development and attacks on the kingside, " +
-      "Black counterattacks on the queenside, and the unbalanced structure gives both sides " +
-      "winning chances.",
+      "Fights for d4 from the flank instead of mirroring White. If White opens the centre, Black " +
+      "trades a wing pawn for a central one, which gives a central majority and a half-open " +
+      "c-file. White usually leads in development and attacks the kingside, Black counterattacks " +
+      "on the queenside, and the unbalanced structure gives both sides winning chances.",
   },
 
   "1.e4 e6": {
     strategy:
-      "Prepares ...d5 with the e-pawn's support and accepts a slightly cramped position in " +
-      "return for a resilient structure. After 2.d4 d5 Black strikes at White's centre with " +
-      "...c5 and, against a pawn on e5, with ...f6, while the c8-bishop is hemmed in by the " +
-      "e6-pawn and often has to be traded via ...b6 and ...Ba6 or rerouted via d7. The result " +
-      "is a sound game with clear plans, at the price of some passivity.",
+      "Prepares ...d5 with the e-pawn behind it and accepts a slightly cramped position in " +
+      "return for a resilient structure. The c8-bishop is hemmed in by the e6-pawn and often has " +
+      "to be traded or rerouted, but Black has clear plans against White's centre with ...c5. " +
+      "The result is a sound game, at the price of some passivity.",
   },
 
   "1.e4 c6": {
     strategy:
-      "Prepares ...d5 while keeping the c8-bishop free to come out to f5 or g4 before ...e6, " +
-      "so Black gets a sound pawn structure without a passive light-squared bishop. The price " +
-      "is time: the knight loses its natural c6-square, and the ...c5 break costs the c-pawn " +
-      "a second move. White usually gets more space and freer development, while Black relies " +
-      "on a solid structure with few weaknesses.",
+      "Prepares ...d5 while keeping the c8-bishop free to come out before ...e6, so Black gets a " +
+      "sound pawn structure without a passive light-squared bishop. The price is time: the " +
+      "knight loses its natural c6-square. White usually gets more space and freer development, " +
+      "while Black relies on a solid structure with few weaknesses.",
   },
 
   "1.e4 d5": {
     strategy:
-      "Challenges e4 at once and, after 2.exd5, trades Black's d-pawn for White's e-pawn. " +
-      "Recapturing with the queen loses time to 3.Nc3, while 2...Nf6 regains the pawn a move " +
-      "later unless White tries to hold it with 3.c4. Black gets an open game and easy " +
-      "development, typically with ...c6 and ...Bf5, at the cost of tempi and some space.",
+      "Challenges e4 at once and trades Black's d-pawn for White's e-pawn. Black gets an open " +
+      "game and easy development, but recapturing costs time, so Black gives up some tempi and " +
+      "space for it.",
   },
 
   "1.e4 d6": {
     strategy:
-      "Prepares ...Nf6 and ...g6 and invites White to build a broad centre with d4 and Nc3, " +
-      "which Black then undermines with ...c5 or ...e5 and a fianchettoed king's bishop. The " +
-      "setup is flexible and keeps many pawn structures possible, but White gets space and " +
-      "attacking chances if Black reacts passively.",
+      "Prepares to develop the knight and fianchetto the king's bishop, and invites White to " +
+      "build a broad centre, which Black then undermines with pawn breaks. The set-up is " +
+      "flexible and keeps many pawn structures possible, but White gets space and attacking " +
+      "chances if Black reacts passively.",
   },
 
   "1.e4 Nf6": {
     strategy:
-      "Attacks e4 at once and invites 2.e5, hoping the advanced pawns become targets. After " +
-      "2...Nd5 White can chase the knight with c4 and build a broad pawn centre with d4 and " +
-      "even f4, while Black strikes at it with ...d6 and often ...c5 or ...Bg4. The game is " +
-      "double-edged: White gains space and tempi, and Black gets counterplay against " +
-      "overextended pawns.",
+      "Attacks e4 at once and invites White to advance the pawn, hoping the advanced pawns " +
+      "become targets. White gains space and tempi by chasing the knight, and Black gets " +
+      "counterplay against the overextended centre. The game is double-edged.",
   },
 
   "1.e4 g6": {
     strategy:
-      "Prepares ...Bg7 to hit White's centre from a distance and keeps ...d6, ...Nf6 and " +
-      "...c6 available until White commits. After 2.d4 Bg7 Black accepts less space for a " +
-      "flexible, hypermodern setup, aiming for counterplay with ...c5 or ...e5. The risk is a " +
-      "passive position if White builds a big centre and Black does not strike back in time.",
+      "Prepares ...Bg7 to hit White's centre from a distance and keeps the choice of set-up open " +
+      "until White commits. Black accepts less space for a flexible set-up with counterplay " +
+      "later. The risk is a passive position if White builds a big centre and Black does not " +
+      "strike back in time.",
   },
 
   "1.e4 Nc6": {
@@ -78,10 +72,9 @@ export const en: OpeningTexts = {
       "with 2...d5. Kasparov and Keene wrote that it “has never been fully accepted as a " +
       "dependable opening”, though they considered it sound.",
     strategy:
-      "Develops a knight at once and invites a pawn centre: after 2.d4 Black answers ...d5 or " +
-      "...e5, and 2.Nf3 e5 transposes into an open game. The knight blocks the c-pawn, so the " +
-      "usual ...c6 and ...c5 breaks are unavailable, and White keeps more space after 2.d4 d5 " +
-      "3.e5. Sound, but it gives White the easier game.",
+      "Develops a knight at once and invites White to build a pawn centre that Black then " +
+      "challenges. The knight blocks the c-pawn, so the usual ...c6 and ...c5 breaks are " +
+      "unavailable, and White keeps more space. Sound, but it gives White the easier game.",
   },
 
   "1.e4 b6": {
@@ -91,10 +84,9 @@ export const en: OpeningTexts = {
       "played it in two games against Paul Morphy in 1858, winning one and losing one. It was " +
       "rare at master level until Bent Larsen and Michael Basman adopted it in the 1970s.",
     strategy:
-      "Prepares ...Bb7 to press on e4 and the long diagonal, but leaves the centre to White: " +
-      "after 2.d4 Bb7 3.Bd3 the e4-pawn is covered, and Black continues with ...e6, ...c5 and " +
-      "...Nf6 against a broad White centre. Theory regards the move as unreliable rather than " +
-      "refuted, since the bishop's pressure seldom makes up for the space conceded.",
+      "Prepares ...Bb7 to press on e4 and the long diagonal, but leaves the centre to White, who " +
+      "can build a broad pawn centre against it. Theory regards the move as unreliable rather " +
+      "than refuted, since the bishop's pressure seldom makes up for the space conceded.",
   },
 
   "1.e4 a6": {
@@ -105,10 +97,9 @@ export const en: OpeningTexts = {
       "Karpov with it at the 1980 European Team Championship in Skara, after which it was " +
       "also called the Birmingham Defence, after Miles's hometown.",
     strategy:
-      "Prepares ...b5 and ...Bb7 to attack the centre from the flank, and keeps the choice " +
-      "between ...e6, ...d5 and ...Nf6 open. White simply takes space with 2.d4, and the slow " +
-      "a-pawn move needs ...b5 to justify its tempo. Sound enough, but the lost time leaves " +
-      "Black slightly worse.",
+      "Prepares ...b5 and ...Bb7 to attack the centre from the flank, and keeps the choice of " +
+      "set-up open. White simply takes space, and the slow a-pawn move needs ...b5 to justify " +
+      "its tempo. Sound enough, but Black has spent a tempo and conceded the centre.",
   },
 
   "1.e4 h6": {
@@ -118,16 +109,16 @@ export const en: OpeningTexts = {
       "Carlsen have both played it.",
     strategy:
       "Spends a tempo on a rook's pawn to prevent Bg5 and prepare ...g5, but does nothing for " +
-      "the centre or development. After 2.d4 White has a free hand in the centre, and a " +
-      "follow-up ...g5 only adds a weakened kingside.",
+      "the centre or development. White has a free hand in the centre, and a follow-up ...g5 " +
+      "only adds a weakened kingside.",
   },
 
   "1.e4 Na6": {
     name: "Lemming Defence",
     strategy:
-      "Puts the knight on the rim, where it does nothing for the centre and can be exchanged " +
-      "by Bxa6 bxa6, which doubles the a-pawns. White takes the centre with d4 and Nf3 while " +
-      "the knight still looks for a useful square.",
+      "Sends the knight to the edge, where it does nothing for the centre and can be exchanged " +
+      "by Bxa6 bxa6, which doubles the a-pawns. White takes the centre at leisure while the " +
+      "knight still looks for a useful square.",
   },
 
   "1.e4 Nh6": {
@@ -145,17 +136,17 @@ export const en: OpeningTexts = {
       "played uncommon openings, used it in eleven recorded tournament games from 1880 to " +
       "1882, winning four and losing seven.",
     strategy:
-      "Spends a tempo on a rook's pawn that neither challenges the centre nor develops a " +
-      "piece, and weakens b5. White takes the centre with 2.d4 and 3.Nf3 and Black has no " +
-      "compensation for the lost time.",
+      "A rook's pawn move that neither challenges the centre nor develops a piece, and it " +
+      "weakens b5. White takes the centre at leisure and Black has no compensation for the lost " +
+      "time.",
   },
 
   "1.e4 b5": {
     name: "O'Neill Gambit",
     strategy:
       "Offers the b-pawn: 2.Bxb5 wins it at once, and the compensation, ...Bb7 against e4 and " +
-      "the half-open b-file, is too little, since White defends e4 with Nc3 or Qe2 and stays " +
-      "a clean pawn up.",
+      "the half-open b-file, is too little, since White defends e4 easily and stays a clean pawn " +
+      "up.",
   },
 
   "1.e4 f6": {
@@ -164,9 +155,8 @@ export const en: OpeningTexts = {
       "Named after Thomas Wilson Barnes, who beat Paul Morphy with it in 1858, although it is " +
       "regarded as clearly inferior.",
     strategy:
-      "Blocks the natural f6 square of the king's knight and weakens the e8–h5 diagonal and " +
-      "the king. White takes the centre with 2.d4 and develops freely, while Black has no " +
-      "useful follow-up.",
+      "Blocks the natural f6 square of the king's knight and weakens the e8–h5 diagonal and the " +
+      "king. White takes the centre and develops freely, while Black has no useful follow-up.",
   },
 
   "1.e4 f5": {
@@ -198,8 +188,8 @@ export const en: OpeningTexts = {
       "reversed. Modern Chess Openings dismisses it: “Other defenses, such as 1...h5, are not " +
       "considered as they are simply too bad and need no discussion.”",
     strategy:
-      "Wastes a tempo and weakens g5 and the whole kingside for no gain: the pawn does " +
-      "nothing for the centre or development, and White simply takes the centre with 2.d4.",
+      "Wastes a tempo and weakens g5 and the whole kingside for no gain: the pawn does nothing " +
+      "for the centre or development, and White simply takes the centre.",
   },
 
   "1.e4": {

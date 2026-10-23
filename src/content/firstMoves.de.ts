@@ -14,52 +14,51 @@ export const de: OpeningTexts = {
 
   "1.e4": {
     strategy:
-      "Besetzt ein Zentrumsfeld, greift d5 an und öffnet die Diagonalen für Dame und " +
-      "Königsläufer, sodass Weiß schnell entwickeln und früh rochieren kann. Der Bauer auf e4 " +
-      "ist nicht von einem anderen Bauern gedeckt, und die offenen Linien führen oft zu " +
-      "scharfem, taktischem Spiel.",
+      "Besetzt sofort ein Zentrumsfeld und öffnet Linien für Dame und Königsläufer, sodass Weiß " +
+      "schnell entwickeln und früh rochieren kann. Der Preis ist ein Bauer, den kein anderer " +
+      "Bauer deckt, sodass Schwarz ihn gleich angreifen kann; die Partie öffnet sich früh und " +
+      "kann scharf werden.",
   },
 
   "1.d4": {
     strategy:
-      "Besetzt das Zentrum und greift c5 und e5 an. Anders als der e-Bauer ist der d-Bauer von " +
-      "Anfang an durch die Dame gedeckt, sodass Schwarz ihn nicht so leicht angreifen kann; die " +
-      "Stellung bleibt meist länger geschlossen, und der Kampf ist eher strategisch als " +
-      "taktisch.",
+      "Besetzt mit einem Bauern, den die Dame schon deckt, das Zentrum, sodass Schwarz kein " +
+      "schnelles Ziel hat, und öffnet die Diagonale des Damenläufers. Der Zug kämpft außerdem um " +
+      "c5 und e5. Die Partie bleibt meist länger geschlossen, und der Kampf dreht sich mehr um " +
+      "Raum und Bauernstruktur als um frühe Taktik.",
   },
 
   "1.Nf3": {
     strategy:
-      "Entwickelt eine Figur zum Zentrum hin und kontrolliert e5 und d4, ohne einen Bauern " +
-      "festzulegen. Der flexibelste erste Zug: Weiß kann noch in 1.d4-, 1.c4- oder " +
-      "1.e4-Eröffnungen einlenken oder mit einem Königsfianchetto beim hypermodernen Aufbau " +
-      "bleiben. Außerdem verhindert er 1...e5.",
+      "Entwickelt eine Figur und kontrolliert e5 und d4, ohne einen Bauern festzulegen, sodass " +
+      "Weiß später zwischen Bauernzentrum, Fianchetto-Aufbau und ruhigem Aufbauspiel wählen " +
+      "kann. Außerdem verhindert er ...e5, das schlicht einen Bauern kosten würde. Der Preis: " +
+      "Weiß zeigt wenig und überlässt Schwarz die erste große Entscheidung.",
   },
 
   "1.c4": {
     strategy:
-      "Beansprucht d5 von der Flanke aus und hält die Zentrumsbauern zurück, sodass Weiß " +
-      "später entscheidet, ob d4, e4 oder ein Fianchetto folgt. Flexibel und solide, mit " +
-      "asymmetrischen Stellungen, wenn Schwarz 1...e5 antwortet. Der Zug entwickelt keine Figur " +
-      "und öffnet dem Königsläufer keine Diagonale, die Entwicklung kommt also einen Zug " +
-      "später.",
+      "Kämpft von der Seite um d5 und lässt die Zentrumsbauern zu Hause, sodass Weiß später " +
+      "zwischen Bauernzentrum und Fianchetto-Aufbau entscheidet. Flexibel und solide, oft mit " +
+      "asymmetrischen Stellungen, wenn Schwarz das Zentrum mit einem Bauern besetzt. Der Zug " +
+      "entwickelt keine Figur und befreit den Königsläufer noch nicht, die Entwicklung beginnt " +
+      "also einen Zug später.",
   },
 
   "1.g3": {
     strategy:
-      "Bereitet das Fianchetto Lg2 vor, das die lange Diagonale kontrolliert und ein späteres " +
-      "e4 und d5 unterstützt. Der Zug legt im Zentrum nichts fest und geht meist in eine andere " +
-      "Eröffnung mit fianchettiertem Königsläufer über; Schwarz kann sofort Raum im Zentrum " +
-      "nehmen.",
+      "Bereitet das Fianchetto des Königsläufers vor, der dann die lange Diagonale beherrscht " +
+      "und einen späteren Vorstoß im Zentrum unterstützt. Der Zug legt dort nichts fest, und die " +
+      "Partie wird meist geschlossen und manövrierend. Das Risiko: Schwarz nimmt ungestört Raum " +
+      "im Zentrum.",
   },
 
   "1.b3": {
     strategy:
-      "Bereitet das Fianchetto Lb2 vor, das auf e5 und über die lange Diagonale auf den " +
-      "schwarzen Königsflügel zielt. Weiß lässt Schwarz ein klassisches Bauernzentrum " +
-      "aufbauen und will es später untergraben. Die Theorie bewertet die entstehenden " +
-      "Stellungen als ausgeglichen, der Wert der Eröffnung ist also eher praktisch als " +
-      "objektiv.",
+      "Bereitet das Fianchetto des Damenläufers vor, der dann e5 im Blick hat und auf der langen " +
+      "Diagonale Druck auf den schwarzen Königsflügel ausübt. Weiß lässt Schwarz absichtlich ein " +
+      "Bauernzentrum aufbauen und will es später untergraben; der Preis ist der Raum im Zentrum, " +
+      "den Schwarz zunächst erhält.",
   },
 
   "1.f4": {
@@ -69,10 +68,9 @@ export const de: OpeningTexts = {
       "vierzig Jahre lang dabei blieb; den Namen prägte die Hereford Times 1885. Es ist eine " +
       "Holländische Verteidigung mit vertauschten Farben.",
     strategy:
-      "Übernimmt die Kontrolle über e5 und bereitet einen Angriff am Königsflügel vor, wie " +
-      "ein umgekehrter Holländer. Der Preis ist eine frühe Schwächung der Königsstellung: " +
-      "Die Diagonale e1–h4 ist offen, und das From-Gambit 1...e5 nutzt das sofort aus. Für " +
-      "die Entwicklung tut der Zug nichts.",
+      "Kontrolliert e5 und bereitet einen Angriff am Königsflügel vor, um den Preis, ihn zu " +
+      "schwächen: Die Diagonale e1–h4 ist offen, und für die Entwicklung tut der Zug nichts. Die " +
+      "Partie wird unausgewogen, eine Wette darauf, dass der Angriff dieses Risiko aufwiegt.",
   },
 
   "1.Nc3": {
@@ -83,10 +81,11 @@ export const de: OpeningTexts = {
       "auch „der Linksspringer“. Als Ursprung gilt die Partie Blackburne gegen Noa, London " +
       "1883.",
     strategy:
-      "Entwickelt eine Figur zum Zentrum hin und greift d5 und e4 an. Der Springer blockiert " +
-      "den c-Bauern, den Weiß in den meisten Damenbauernstrukturen braucht, und kann mit ...d5 " +
-      "und ...d4 vertrieben werden. Spielbar, aber ein unterlegener Weg, den Anzugsvorteil zu " +
-      "nutzen.",
+      "Entwickelt eine Figur zum Zentrum hin und überwacht d5 und e4, ohne etwas zu schwächen. " +
+      "Aber der Springer blockiert den c-Bauern, den Weiß oft vorstoßen möchte, und hindert " +
+      "Schwarz nicht daran, das Zentrum zu nehmen; ...d5 und danach ...d4 können ihn sogar " +
+      "vertreiben. Spielbar, aber eine weniger wirksame Nutzung des ersten Zuges als die " +
+      "Hauptzüge.",
   },
 
   "1.b4": {
@@ -97,9 +96,9 @@ export const de: OpeningTexts = {
       "nach Tartakower, der behauptete, ein Orang-Utan im Bronx Zoo habe ihm den Zug vor seiner " +
       "Partie gegen Maróczy in New York 1924 empfohlen.",
     strategy:
-      "Gewinnt Raum am Damenflügel und bereitet Lb2 gegen e5 und g7 vor. Der Zug verrät den " +
-      "weißen Plan, bevor Schwarz etwas gezeigt hat, der Bauer auf b4 braucht Aufmerksamkeit, " +
-      "und Schwarz nimmt mit ...e5 oder ...d5 das Zentrum. Auf höchstem Niveau selten.",
+      "Gewinnt Raum am Damenflügel und bereitet Lb2 gegen e5 und g7 vor. Der Zug zeigt den " +
+      "weißen Plan, bevor Schwarz etwas gezeigt hat, der Bauer auf b4 kann zum Ziel werden, und " +
+      "Schwarz nimmt einfach das Zentrum. Auf höchstem Niveau selten.",
   },
 
   "1.e3": {
@@ -122,9 +121,9 @@ export const de: OpeningTexts = {
       "einsetzte. Deep Blue spielte ihn 1997 in der dritten Partie gegen Kasparow, die remis " +
       "endete.",
     strategy:
-      "Deckt e4 und öffnet den Damenläufer, oft mit dem Ziel eines Königsindischen Angriffs " +
-      "mit Sf3, g3 und Lg2. Ein bescheidener Anspruch auf das Zentrum: Schwarz kann mit jedem " +
-      "Zentrumszug antworten und die Initiative übernehmen.",
+      "Deckt e4 und öffnet den Damenläufer, ein bescheidener Anspruch auf das Zentrum. Weiß " +
+      "strebt einen flexiblen Aufbau mit fianchettiertem Königsläufer an, aber das ist langsam: " +
+      "Schwarz kann das Zentrum besetzen und die Initiative übernehmen.",
   },
 
   "1.c3": {
@@ -134,10 +133,9 @@ export const de: OpeningTexts = {
       "Klubmitglied José Juncosa den Zug, und 1922 verlangte ein Thementurnier in Mannheim, das " +
       "Tarrasch gewann, von allen Teilnehmern diese Eröffnung.",
     strategy:
-      "Bereitet d4 mit Bauernunterstützung vor und hält die Partie solide, oft mit Übergang in " +
-      "einen Slawen oder Caro-Kann mit vertauschten Farben. Der Zug nimmt dem Springer das Feld " +
-      "c3 und erhebt nur einen zaghaften Anspruch auf das Zentrum. Nicht schlecht, aber 1.e4 und " +
-      "1.d4 leisten mehr.",
+      "Bereitet d4 mit Bauernstützung vor und hält die Struktur solide, nimmt aber dem Springer " +
+      "das Feld c3 und erhebt nur einen zaghaften Anspruch auf das Zentrum. Nicht schlecht, doch " +
+      "die Hauptzüge leisten mehr.",
   },
 
   "1.a3": {
@@ -171,10 +169,10 @@ export const de: OpeningTexts = {
       "Jahrhundert einer der Ersten, die ihn spielten. Michael Basman besiegte damit 1978 John " +
       "Nunn. Engines geben Schwarz nach 1.g4 klaren Vorteil.",
     strategy:
-      "Nimmt Raum am Königsflügel und bereitet Lg2 auf der langen Diagonale vor, in der " +
-      "Hoffnung auf einen Gegner, der die Widerlegung nicht kennt. Der Bauer auf g4 ist " +
-      "ungedeckt, der Königsflügel ist dauerhaft geschwächt, und Schwarz nimmt das Zentrum. " +
-      "Gilt weithin als einer der schlechtesten ersten Züge.",
+      "Nimmt Raum am Königsflügel und bereitet Lg2 auf der langen Diagonale vor, in der Hoffnung " +
+      "auf einen unvorbereiteten Gegner. Der Bauer auf g4 ist ungedeckt, der Königsflügel ist " +
+      "dauerhaft geschwächt, und Schwarz nimmt das Zentrum. Gilt weithin als einer der " +
+      "schlechtesten ersten Züge.",
   },
 
   "1.f3": {
@@ -198,8 +196,8 @@ export const de: OpeningTexts = {
       "immer gewann.",
     strategy:
       "Gewinnt Raum am Königsflügel und droht h5 gegen ein Fianchetto, tut aber nichts für " +
-      "Zentrum und Entwicklung, und der Turm kommt selten über h3 ins Spiel. Der Königsflügel " +
-      "ist dauerhaft geschwächt.",
+      "Zentrum und Entwicklung, und der Turm kommt selten über h3 ins Spiel. Die Seite, auf der " +
+      "Weiß meist rochiert, wird geschwächt, und der Bauer kann nicht zurück.",
   },
 
   "1.a4": {
@@ -221,10 +219,10 @@ export const de: OpeningTexts = {
       "veröffentlichte. Auch Natrium-Angriff, weil Na das chemische Symbol für Natrium " +
       "ist.",
     strategy:
-      "Ein Springer am Rand kontrolliert kein Zentrumsfeld, und dieser kann vom Läufer auf f8 " +
-      "geschlagen werden, was die weißen Bauern verdoppelt. Weiß gibt den größten Teil des " +
-      "Anzugsvorteils ab; mit einem späteren c4 oder e4 ist noch eine vernünftige Stellung " +
-      "erreichbar.",
+      "Ein Springer am Rand kontrolliert kein Zentrumsfeld, und sobald Schwarz den e-Bauern " +
+      "gezogen hat, kann der Läufer von f8 ihn schlagen und die weißen Bauern verdoppeln. Weiß " +
+      "gibt den größten Teil des Anzugsvorteils ab; mit einem späteren c4 oder e4 ist noch eine " +
+      "vernünftige Stellung erreichbar.",
   },
 
   "1.Nh3": {
@@ -234,8 +232,8 @@ export const de: OpeningTexts = {
       "spielte, wahrscheinlich von Tartakower, der ihn auch Pariser Eröffnung nannte. Carlsen " +
       "besiegte damit 2018 Drejew in einer Online-Schnellpartie.",
     strategy:
-      "Ein Springer am Rand kontrolliert kein Zentrumsfeld, und 1...d5 droht bereits ...Lxh3, " +
-      "was die weißen Bauern vor dem König verdoppeln würde. Schwarz nimmt ungestört das " +
-      "Zentrum.",
+      "Der Springer auf h3 hat wenig Zukunft: Er erreicht nur f4 und g5, und 1...d5 droht " +
+      "bereits ...Lxh3, was die weißen Bauern am Königsflügel verdoppeln würde. Schwarz nimmt " +
+      "ungestört das Zentrum.",
   },
 };

@@ -4,6 +4,7 @@ import { describe, expect, test } from "vitest";
 import { newGame } from "../../domain/game.ts";
 import { playLine } from "../../domain/line.ts";
 import { buildBook, type OpeningModule } from "../../content/book.ts";
+import { en as firstMovesEn } from "../../content/firstMoves.en.ts";
 import { OPENINGS } from "../../content/openings.ts";
 import { gameAt, viewAt } from "./view.ts";
 
@@ -44,7 +45,8 @@ describe("viewAt with the shipped book", () => {
     const view = viewAt(lineOf("1.e4"), 1, OPENINGS);
     expect(view.lastMove?.move).toEqual({ from: "e2", to: "e4" });
     expect(view.lastMove?.book?.rating).toBe(5);
-    expect(view.lastMove?.book?.strategy.en).toMatch(/^Occupies a central square/);
+    // The note is content and its wording changes with it: the shipped one is shown.
+    expect(view.lastMove?.book?.strategy.en).toBe(firstMovesEn["1.e4"]?.strategy);
     expect(view.name?.en).toBe("King's Pawn Game");
     expect(view.entry?.background?.en).toMatch(/best by test/);
     // Black's replies rated 4 and 5 are the candidates, the others are written but not offered.

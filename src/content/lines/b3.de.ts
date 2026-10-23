@@ -5,39 +5,34 @@ import type { OpeningTexts } from "../book.ts";
 export const de: OpeningTexts = {
   "1.b3 e5": {
     strategy:
-      "Besetzt sofort das Zentrum und versperrt die lange Diagonale. Greift 2.Lb2 den Bauern " +
-      "an, antwortet Schwarz meist mit ...Sc6, oft gefolgt von ...d5 für ein breites " +
-      "Bauernzentrum; ...d6 ist ein zaghafterer Weg, e5 zu halten. Weiß greift das Zentrum " +
-      "dann mit e3, Lb5 und f4 an, wobei der Läufer den Springer fesselt, der e5 deckt, oder " +
-      "spielt c4 und erreicht Sizilianisch im Anzuge.",
+      "Besetzt sofort das Zentrum und versperrt die lange Diagonale, sodass der weiße Läufer auf " +
+      "einen Bauern statt auf offenes Brett trifft. Schwarz kann mit ...d5 ein breites " +
+      "Bauernzentrum folgen lassen, das Weiß dann von den Flügeln aus untergraben muss. Der " +
+      "Preis: e5 braucht ständige Unterstützung.",
   },
 
   "1.b3 d5": {
     strategy:
-      "Nimmt Raum im Zentrum und verhindert, dass Weiß ohne Weiteres e4 spielt. Nach 2.Lb2 " +
-      "kann Schwarz mit ...c5 und ...Sc6 ein breites Zentrum errichten, worauf e3, Sf3 und " +
-      "Lb5 zu einer Nimzo-Indischen Verteidigung mit vertauschten Farben führen, oder nach " +
-      "Art des Londoner Systems mit ...Lf5 und ...e6 entwickeln. Schwarz muss nur die lange " +
-      "Diagonale im Auge behalten: ...g6 darf erst nach ...Sf6 kommen, sonst schlägt Lb2 den " +
-      "Turm auf h8.",
+      "Nimmt Raum im Zentrum und verhindert, dass Weiß ohne Weiteres e4 spielt. Schwarz kann ein " +
+      "breites Zentrum errichten oder solide entwickeln, muss aber die lange Diagonale beachten: " +
+      "...g6 ist erst sicher, wenn der Springer auf f6 steht, sonst schlägt der Läufer den Turm " +
+      "auf h8.",
   },
 
   "1.b3 Nf6": {
     strategy:
-      "Entwickelt eine Figur, nimmt e4 und d5 ins Visier und lässt offen, welcher " +
-      "Zentrumsbauer folgt, sodass die Partie oft in die Strukturen nach 1...d5 oder 1...e5 " +
-      "übergeht. Nach 2.Lb2 ist 2...g6 mit ...Lg7 ein üblicher Aufbau, doch dann besetzt 3.e4 " +
-      "das Zentrum, weil der Springer gegen den Turm auf h8 gefesselt ist und ...Sxe4 den " +
-      "Turm durch Lxh8 kostet.",
+      "Entwickelt eine Figur, nimmt e4 und d5 ins Visier und lässt offen, welcher Zentrumsbauer " +
+      "folgt, sodass viele Zentrumsstrukturen möglich bleiben. Ein Fianchetto mit ...g6 ist " +
+      "möglich, doch dann ist der Springer an die lange Diagonale gebunden: Zieht er weg, steht " +
+      "der Turm auf h8 dem weißen Läufer im Weg.",
   },
 
   "1.b3 c5": {
     strategy:
-      "Kämpft vom Flügel aus um d4 und hält die Zentrumsbauern beweglich. Nach 2.Lb2 " +
-      "entwickelt Schwarz mit ...Sc6 und ...Sf6 und kann ...d5 folgen lassen, womit die " +
-      "Partie in die Linien von 1...d5 mit ...c5 übergeht. Weiß kann auch 2.e4 wählen, was in " +
-      "die Sizilianische Verteidigung führt, oder 2.c4, die Symmetrische Variante der " +
-      "Englischen Eröffnung; Schwarz muss also auch diese Strukturen kennen.",
+      "Kämpft vom Flügel aus um d4 und hält die schwarzen Zentrumsbauern beweglich, denn jeder " +
+      "zentrale Aufbau bleibt möglich. Oft führt die Partie zu Stellungen, in denen der schwarze " +
+      "c-Bauer das Zentrum bekämpft, sodass Schwarz vertrautes Terrain ansteuern kann, doch Weiß " +
+      "entscheidet, welche entsteht.",
   },
 
   "1.b3 b6": {
@@ -46,74 +41,68 @@ export const de: OpeningTexts = {
       "Ahmt das weiße Damenfianchetto nach und bereitet ...Lb7 vor, um die lange Diagonale " +
       "streitig zu machen; die Struktur bleibt solide und symmetrisch. Der Zug ist gesund, " +
       "beansprucht aber weder das Zentrum, noch schafft er ein Ungleichgewicht, sodass Weiß " +
-      "mit Lb2, e3 und Sf3 das bequemere Spiel behält.",
+      "weiter frei wählen kann, wie es aufbaut.",
   },
 
   "1.b3 e6": {
     strategy:
       "Bereitet ...d5 vor und öffnet dem Läufer auf f8 die Diagonale, ohne sich festzulegen; " +
-      "nach 2.Lb2 geht die Partie oft in die Linien von 1...d5 oder 1...Sf6 über. Weiß kann " +
-      "auch 2.e4 wählen, worauf 2...d5 zur Französischen Verteidigung führt. Solide, aber " +
-      "bescheiden, denn der Bauer auf e6 sperrt den Läufer auf c8 ein, solange Schwarz nicht " +
-      "...b6 und ...Lb7 folgen lässt.",
+      "spielt Weiß e4, kann daraus eine Französische Verteidigung werden. Solide, aber " +
+      "bescheiden, denn der Bauer auf e6 sperrt den Läufer auf c8 ein, bis Schwarz ihn befreit.",
   },
 
   "1.b3 c6": {
     strategy:
-      "Bereitet ...d5 mit einem Bauern auf c6 nach Art der Caro-Kann-Verteidigung und einer " +
-      "soliden Struktur vor; nach 2.e4 d5 entsteht tatsächlich eine Caro-Kann-Verteidigung. " +
-      "Solide, aber der Bauer nimmt dem Springer das Feld c6 und tut nichts für die " +
-      "Entwicklung, sodass Schwarz auf den weißen Aufbau reagiert, statt die Partie zu " +
+      "Bereitet ...d5 vor, mit einem Bauern auf c6 nach Art der Caro-Kann-Verteidigung und einer " +
+      "soliden Struktur. Solide, aber der Bauer nimmt dem Springer das Feld c6 und tut nichts " +
+      "für die Entwicklung, sodass Schwarz auf den weißen Aufbau reagiert, statt die Partie zu " +
       "gestalten.",
   },
 
   "1.b3 d6": {
     strategy:
-      "Bereitet ...e5 und ...Sf6 in einem flexiblen Aufbau nach Art der Philidor-Verteidigung " +
-      "vor; nach 2.Lb2 e5 geht die Partie in 1...e5 2.Lb2 d6 über. Solide, aber passiv: " +
-      "Schwarz wartet ab und lässt Weiß freie Hand, mit e4 oder mit e3 und d4 Raum zu nehmen.",
+      "Bereitet einen flexiblen, kompakten Aufbau vor, der das Zentrum von hinten stützt. " +
+      "Solide, aber passiv: Schwarz wartet ab und lässt Weiß freie Hand, im Zentrum Raum zu " +
+      "nehmen.",
   },
 
   "1.b3 Nc6": {
     strategy:
-      "Entwickelt eine Figur und unterstützt ...e5; nach 2.Lb2 e5 geht die Partie in die " +
-      "Hauptvariante von 1...e5 über. Der Springer verstellt allerdings den c-Bauern, und " +
-      "Weiß muss nicht mitspielen: 2.e4 oder 2.d4 besetzt zuerst das Zentrum. Spielbar, aber " +
-      "weniger direkt als 1...e5 oder 1...d5.",
+      "Entwickelt eine Figur und unterstützt ...e5. Der Springer verstellt allerdings den " +
+      "c-Bauern, und Weiß muss nicht mitspielen: Ein frühes d4 besetzt zuerst das Zentrum. " +
+      "Spielbar, aber weniger direkt, als das Zentrum mit einem Bauern zu besetzen.",
   },
 
   "1.b3 f5": {
     name: "Larsen-Eröffnung: Holländische Variante",
     strategy:
-      "Beansprucht e4 nach Art der Holländischen Verteidigung und bereitet ...Sf6 und ...e6 " +
-      "vor. Der Preis ist ein gelockerter Königsflügel: Die Diagonale e8–h5 und das Feld e6 " +
-      "sind geschwächt, und Weiß kann in Ruhe mit Lb2 und Sf3 aufbauen oder mit d4 Raum " +
-      "nehmen. Selten und nicht widerlegt, aber riskant.",
+      "Beansprucht e4 mit einem Flügelbauern und bereitet die Entwicklung darum herum vor. Der " +
+      "Preis ist ein gelockerter Königsflügel: Die Diagonale e8–h5 und das Feld e6 sind " +
+      "geschwächt, und Weiß kann in Ruhe aufbauen oder im Zentrum Raum nehmen. Selten und nicht " +
+      "widerlegt, aber riskant.",
   },
 
   "1.b3 g6": {
     strategy:
-      "Bereitet ein Königsfianchetto vor, doch nach 2.Lb2 ist der Turm auf h8 angegriffen, " +
-      "und 2...Lg7? verliert den Läufer durch Lxg7. Schwarz verstellt die Diagonale mit " +
-      "2...Sf6 und erreicht den indischen Aufbau, in dem 3.e4 das Zentrum besetzt, weil " +
-      "...Sxe4 den Turm durch Lxh8 kosten würde. Spielbar, aber Weiß erhält eine zusätzliche " +
-      "günstige Möglichkeit.",
+      "Bereitet ein Königsfianchetto vor, doch der g-Bauer hat die lange Diagonale freigegeben: " +
+      "Sobald der weiße Läufer b2 erreicht, greift er den Turm auf h8 an, und ...Lg7 verlöre " +
+      "schlicht den Läufer. Schwarz muss den nächsten Zug auf ...Sf6 verwenden, und der Springer " +
+      "bleibt dann an die Diagonale gebunden.",
   },
 
   "1.b3 b5": {
     name: "Larsen-Eröffnung: Polnische Variante",
     strategy:
-      "Gewinnt Raum am Damenflügel und bereitet ...Lb7 vor, um die lange Diagonale streitig " +
-      "zu machen. Der vorgerückte Bauer wird zur Zielscheibe, sobald e3 oder e4 die Diagonale " +
-      "des Läufers auf f1 öffnet, und a4 kann ihn unterminieren, sodass Schwarz den " +
-      "Damenflügel unter Kontrolle halten muss. Selten, aber nicht widerlegt.",
+      "Gewinnt Raum am Damenflügel und bereitet ...Lb7 vor, um die lange Diagonale streitig zu " +
+      "machen. Der vorgerückte Bauer wird zur Zielscheibe, sobald der Läufer auf f1 frei ist, " +
+      "und a4 kann ihn unterminieren, sodass Schwarz den Damenflügel unter Kontrolle halten " +
+      "muss. Selten, aber nicht widerlegt.",
   },
 
   "1.b3 a6": {
     strategy:
-      "Verbraucht ein Tempo für einen Damenflügelbauern, bevor eine Figur oder ein " +
-      "Zentrumsbauer gezogen hat. Weiß entwickelt mit Lb2 und besetzt in aller Ruhe mit e4 " +
-      "oder d4 das Zentrum.",
+      "Verbraucht ein Tempo für einen Damenflügelbauern, bevor eine Figur oder ein Zentrumsbauer " +
+      "gezogen hat. Weiß entwickelt einfach und besetzt in aller Ruhe das Zentrum.",
   },
 
   "1.b3 a5": {
@@ -126,43 +115,43 @@ export const de: OpeningTexts = {
   "1.b3 Na6": {
     strategy:
       "Stellt den Springer an den Rand, wo er b4 und c5 ins Auge fasst, aber den a-Bauern " +
-      "blockiert und wenig für das Zentrum tut. Weiß entwickelt einfach mit Lb2 und nimmt mit " +
-      "e3 und d4 oder mit e4 Raum.",
+      "blockiert und wenig für das Zentrum tut. Weiß entwickelt einfach und nimmt im Zentrum " +
+      "Raum.",
   },
 
   "1.b3 Nh6": {
     strategy:
-      "Stellt den Springer an den Rand statt nach f6, wo er f5 und g4 ins Auge fasst, aber " +
-      "kein Zentrumsfeld kontrolliert. Weiß entwickelt mit Lb2 und besetzt mit e3 und d4 oder " +
-      "mit e4 das Zentrum, während die schwarze Entwicklung zurückbleibt.",
+      "Stellt den Springer an den Rand statt nach f6, wo er f5 und g4 ins Auge fasst, aber kein " +
+      "Zentrumsfeld kontrolliert. Weiß entwickelt und besetzt das Zentrum, während die schwarze " +
+      "Entwicklung zurückbleibt.",
   },
 
   "1.b3 f6": {
     strategy:
       "Deckt e5 und verstellt die lange Diagonale, nimmt aber dem Springer das Feld f6 und " +
-      "öffnet die Diagonale e8–h5, auf der Dh5+ möglich wird, sobald der weiße e-Bauer " +
-      "gezogen hat. Weiß antwortet mit 2.e4 oder 2.Lb2 und entwickelt sich frei.",
+      "öffnet die Diagonale e8–h5, auf der Dh5+ möglich wird, sobald der weiße e-Bauer gezogen " +
+      "hat. Weiß entwickelt sich frei.",
   },
 
   "1.b3 h6": {
     strategy:
-      "Verliert ein Tempo mit einem Randbauernzug, der ...g5 vorbereitet, aber weder eine " +
-      "Figur entwickelt noch um das Zentrum kämpft. Weiß setzt mit Lb2 und einem " +
-      "Bauernvorstoß im Zentrum fort.",
+      "Verliert ein Tempo mit einem Randbauernzug, der ...g5 vorbereitet, aber weder eine Figur " +
+      "entwickelt noch um das Zentrum kämpft. Weiß entwickelt sich und besetzt das Zentrum " +
+      "ungestört.",
   },
 
   "1.b3 h5": {
     strategy:
       "Gewinnt Raum am Königsflügel, doch der h-Bauer kann g5 und g6 nicht mehr decken, und " +
-      "für Entwicklung und Zentrum tut der Zug nichts. Weiß entwickelt mit Lb2 und e3 oder e4 " +
-      "und behält das bequemere Spiel.",
+      "Entwicklung und Zentrum lässt der Zug unberührt. Weiß entwickelt sich und behält das " +
+      "bequemere Spiel.",
   },
 
   "1.b3 g5": {
     strategy:
-      "Öffnet die lange Diagonale zum Turm auf h8: Nach 2.Lb2 ist der Turm angegriffen, und " +
-      "2...Lg7? verliert durch Lxg7 eine Figur. Schwarz muss die Diagonale mit ...f6 " +
-      "verstellen, was den König entblößt, oder mit ...Sf6, worauf Lxf6 einen Doppelbauern " +
+      "Öffnet die lange Diagonale zum Turm auf h8: Sobald der weiße Läufer b2 erreicht, ist der " +
+      "Turm angegriffen, und ...Lg7 verliert eine Figur. Schwarz muss die Diagonale verstellen, " +
+      "was den König entblößt oder einen Abtausch auf f6 erlaubt, der einen Doppelbauern " +
       "schafft, sodass Weiß Zeit gegen einen geschwächten Königsflügel gewinnt.",
   },
 
