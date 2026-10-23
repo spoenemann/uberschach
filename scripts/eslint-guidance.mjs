@@ -10,8 +10,8 @@ const EXCEPTION =
 
 const GUIDANCE = {
   "boundaries/dependencies": [
-    "Layers import downward only: app → ui → content → domain, and domain and",
-    "content never import React (docs/ARCHITECTURE.md, Layers).",
+    "Layers import downward only: app → ui → content → i18n → domain, and",
+    "domain, i18n and content never import React (docs/ARCHITECTURE.md, Layers).",
     "Why: chess and training logic stays framework-free and unit-testable in",
     "plain Node, and React stays replaceable.",
     "Fix: move the code so the dependency points down, or pass the value in",
@@ -21,7 +21,8 @@ const GUIDANCE = {
     "the same commit.",
   ],
   "boundaries/no-unknown-files": [
-    "Every file under src/ belongs to src/domain, src/content, src/ui or src/app.",
+    "Every file under src/ belongs to src/domain, src/i18n, src/content, src/ui",
+    "or src/app.",
     "Why: the Vitest projects in vite.config.ts only run tests inside those",
     "folders; a test anywhere else silently never runs.",
     "Fix: move the file into the layer it belongs to.",
@@ -29,13 +30,13 @@ const GUIDANCE = {
     "docs/ARCHITECTURE.md, eslint.config.js and vite.config.ts in one commit.",
   ],
   "boundaries/no-unknown": [
-    "The import points at a file outside the four layers under src/.",
-    "Fix: move that file into src/domain, src/content, src/ui or src/app.",
+    "The import points at a file outside the five layers under src/.",
+    "Fix: move that file into src/domain, src/i18n, src/content, src/ui or src/app.",
     "See boundaries/no-unknown-files for why and for the exception.",
   ],
   "no-restricted-globals": [
-    "src/domain and src/content run without a browser (docs/ARCHITECTURE.md,",
-    "Invariants), so their tests run in plain Node.",
+    "src/domain, src/i18n and src/content run without a browser",
+    "(docs/ARCHITECTURE.md, Invariants), so their tests run in plain Node.",
     "Fix: take the value as a parameter and let src/app read the browser.",
     "Exception: none; a browser-dependent helper belongs in src/app.",
   ],

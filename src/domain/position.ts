@@ -128,33 +128,3 @@ export function parsePlacement(fen: string): Placement {
 export function squareColor(square: Square): "light" | "dark" {
   return (fileIndex(square) + rankIndex(square)) % 2 === 0 ? "dark" : "light";
 }
-
-const TYPE_ORDER: readonly PieceType[] = [
-  "king",
-  "queen",
-  "rook",
-  "bishop",
-  "knight",
-  "pawn",
-];
-
-/**
- * The placement in words, for an accessible name:
- * "White: king e1, queen d1. Black: king e8." Pieces are listed by colour,
- * then by type from king to pawn, then by square.
- */
-export function describePlacement(placement: Placement): string {
-  const sides = (["white", "black"] as const).map((color) => {
-    const pieces = [...placement]
-      .filter(([, piece]) => piece.color === color)
-      .sort(
-        ([a, pa], [b, pb]) =>
-          TYPE_ORDER.indexOf(pa.type) - TYPE_ORDER.indexOf(pb.type) ||
-          a.localeCompare(b),
-      )
-      .map(([square, piece]) => `${piece.type} ${square}`);
-    const name = color === "white" ? "White" : "Black";
-    return pieces.length === 0 ? `${name}: none.` : `${name}: ${pieces.join(", ")}.`;
-  });
-  return sides.join(" ");
-}

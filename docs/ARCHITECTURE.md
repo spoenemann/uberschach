@@ -21,16 +21,18 @@ under `docs/exec-plans/`; what the product promises lives in
 
 ## Layers under `src/`
 
-Four layers, settled in the project interview on 2026-10-22. Each layer may
-import only from itself and from the layers listed in its "may import" column.
-Nothing imports upward.
+Five layers: four settled in the project interview on 2026-10-22, `i18n`
+added on 2026-10-23 (`docs/localization.md`, Decisions). Each layer may
+import only from itself and from the layers listed in its "may import"
+column. Nothing imports upward.
 
-| Layer          | Holds                                                                 | May import from           |
-| -------------- | --------------------------------------------------------------------- | ------------------------- |
-| `src/domain/`  | Pure TypeScript: chess and training logic. No React, no browser APIs. | nothing in `src/`         |
-| `src/content/` | Opening content as typed data files.                                  | `domain`                  |
-| `src/ui/`      | React components, their CSS Modules, and the design tokens.           | `domain`, `content`       |
-| `src/app/`     | Composition root: entry point, routing, browser storage, wiring.      | `domain`, `content`, `ui` |
+| Layer          | Holds                                                                          | May import from                   |
+| -------------- | ------------------------------------------------------------------------------ | --------------------------------- |
+| `src/domain/`  | Pure TypeScript: chess and training logic. No React, no browser APIs.          | nothing in `src/`                 |
+| `src/i18n/`    | Pure TypeScript: the languages, the translation catalogues, localized notation. | `domain`                          |
+| `src/content/` | Opening content as typed data files.                                           | `domain`, `i18n`                  |
+| `src/ui/`      | React components, their CSS Modules, and the design tokens.                    | `domain`, `i18n`, `content`       |
+| `src/app/`     | Composition root: entry point, routing, browser storage, wiring.               | `domain`, `i18n`, `content`, `ui` |
 
 Enforced by: `boundaries/dependencies` and `boundaries/no-unknown-files` in
 `eslint.config.js`. The lint output explains each violation
@@ -38,14 +40,19 @@ Enforced by: `boundaries/dependencies` and `boundaries/no-unknown-files` in
 
 ## Invariants
 
-- `src/domain/` and `src/content/` run without a DOM: no `window`,
-  `document`, `localStorage`, `fetch`, and no React. Their tests run in
-  Vitest's `node` environment. Enforced by: `no-restricted-globals` and the
-  React policy in `eslint.config.js`; the `node` test project in
+- `src/domain/`, `src/i18n/` and `src/content/` run without a DOM: no
+  `window`, `document`, `localStorage`, `fetch`, and no React. Their tests
+  run in Vitest's `node` environment. Enforced by: `no-restricted-globals`
+  and the React policy in `eslint.config.js`; the `node` test project in
   `vite.config.ts`.
 - Only `src/app/` touches browser storage (`localStorage`, `sessionStorage`,
   `indexedDB`). Enforced by: `no-restricted-globals` in `eslint.config.js`
-  for the other three layers.
+  for the other four layers.
+- Every message the code passes to `t()` or `msg()` has an entry in each
+  translation catalogue (`src/i18n/de.ts`), no catalogue has an entry the
+  code does not use, and message and translation carry the same
+  placeholders. Enforced by: `src/i18n/catalogue.test.ts`
+  (`docs/localization.md`).
 - The built app, served under the Pages base path, mounts into `#root` with
   no console error, no uncaught exception, no failed same-origin request and
   no third-party request, at a desktop and a phone width. Enforced by:
@@ -55,7 +62,8 @@ Enforced by: `boundaries/dependencies` and `boundaries/no-unknown-files` in
 ## Where everything else lives
 
 - `docs/` — the system of record: this file, `design-docs/`, `exec-plans/`,
-  `product-specs/`.
+  `product-specs/`, and per-concern guidelines (`visual-verification.md`,
+  `localization.md`).
 - `.github/workflows/` — CI and the Pages deploy. A push to `main` that
   passes CI deploys, so changes here are sensitive.
 - `scripts/` — plain Node scripts the checks use: the lint guidance

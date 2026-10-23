@@ -1,0 +1,29 @@
+/* The language switch: text first, no control chrome; the current language
+   in ink and not a link (docs/design-docs/design-system.md, Amendments,
+   2026-10-23). */
+.switch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
+.switch button {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  cursor: pointer;
+  transition: color var(--duration-hover) var(--ease-out);
+}
+
+.switch button:hover {
+  color: var(--color-accent-strong);
+}
+
+.switch button[aria-pressed="true"] {
+  color: var(--color-ink);
+  text-decoration: none;
+  cursor: default;
+}

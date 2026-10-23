@@ -1,7 +1,6 @@
 import { describe, expect, test } from "vitest";
 import { STARTING_FEN } from "./fen.ts";
 import {
-  describePlacement,
   fileIndex,
   opponent,
   parsePlacement,
@@ -63,21 +62,6 @@ describe("squareColor", () => {
     expect(squareColor("h8")).toBe("dark");
     expect(squareColor("e4")).toBe("light");
     expect(squareColor("d4")).toBe("dark");
-  });
-});
-
-describe("describePlacement", () => {
-  test("lists each side by type from king to pawn, then by square", () => {
-    const position = parsePlacement("4k3/8/8/8/8/8/P7/R3K1N1");
-    expect(describePlacement(position)).toBe(
-      "White: king e1, rook a1, knight g1, pawn a2. Black: king e8.",
-    );
-  });
-
-  test("says when a side has no pieces", () => {
-    expect(describePlacement(parsePlacement("8/8/8/8/8/8/8/8"))).toBe(
-      "White: none. Black: none.",
-    );
   });
 });
 

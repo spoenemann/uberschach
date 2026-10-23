@@ -26,14 +26,15 @@ npm run dev                          # http://localhost:5173/uberschach/ (the ba
 ## Why and where
 
 - `src/domain/` — chess and training logic in pure TypeScript; tests run in plain Node. The rules engine (FEN, legal moves, game end) is built as `docs/design-docs/chess-rules-engine.md` describes and promises what `docs/product-specs/chess-rules.md` lists; a rule change updates both and the test named after the article.
-- `src/content/` — opening content as typed data files.
+- `src/i18n/` — the languages, the German catalogue (`de.ts`) and localized notation, pure TypeScript. Text a visitor sees or hears is `t("English text")` in the code, never a literal in JSX; its German line goes in `de.ts` in the same commit, and a test fails `npm run check` otherwise (`docs/localization.md`).
+- `src/content/` — opening content as typed data files; prose once per language (`docs/localization.md`, Opening content).
 - `src/ui/` — React components.
 - `src/ui/board/` — the board and the pieces; the piece drawings are path
   data in `pieceShapes.ts`, judged by eye at 44px (`docs/design-docs/design-system.md`,
   Pieces).
 - `src/ui/theme.css` — every colour, type, space, radius, shadow and motion value, as CSS custom properties; a component's CSS Module uses them, never a literal (`docs/design-docs/design-system.md`).
 - `src/app/` — entry point, wiring, browser storage.
-- Layers import downward only, app → ui → content → domain. `eslint.config.js` enforces it and mirrors the table in `docs/ARCHITECTURE.md`.
+- Layers import downward only, app → ui → content → i18n → domain. `eslint.config.js` enforces it and mirrors the table in `docs/ARCHITECTURE.md`.
 - `scripts/eslint-guidance.mjs` — the why/fix/exception text printed under lint failures; every new lint rule gets an entry.
 - `scripts/visual-check.mjs` — the universal rendering invariants and screenshots (`docs/visual-verification.md`); route- or feature-specific checks are disposable ad-hoc modules, never committed. `npm run check` needs Google Chrome installed, or `CHROME_PATH`.
 
@@ -45,7 +46,7 @@ npm run dev                          # http://localhost:5173/uberschach/ (the ba
 - Never commit secrets. The app needs none: it has no backend.
 - Done means `npm run check` passes, run in this session with its output shown.
 - A change to anything rendered (`src/ui/`, `src/app/`, `index.html`) is looked at: open the screenshots `npm run check` writes, and check the specifics with a disposable ad-hoc module when looking is not enough (`docs/visual-verification.md`). Green checks do not see a blank or misaligned frame.
-- A change to `src/domain/` includes a test; the per-file coverage threshold in `vite.config.ts` enforces it.
+- A change to `src/domain/` or `src/i18n/` includes a test; the per-file coverage threshold in `vite.config.ts` enforces it.
 - A change to intended behaviour updates its spec under `docs/product-specs/` in the same commit; a new capability gets its spec before its code.
 - A change to the look (a token, a base style, a visual rule) updates `docs/design-docs/design-system.md` in the same commit, as a dated amendment.
 - A structural change (a layer added or moved, a new allowed dependency) updates `docs/ARCHITECTURE.md`, `eslint.config.js` and `vite.config.ts` in the same commit.
@@ -60,3 +61,4 @@ npm run dev                          # http://localhost:5173/uberschach/ (the ba
 - `docs/design-docs/index.md` — one doc per system: how it is built, its invariants, the alternatives it rejected; each with a trust label. The design system (tokens, board, type, layout) is the first.
 - `docs/exec-plans/` — plans in `active/` with progress and decision logs, moved to `completed/` when done; single-session work gets none. Decision rationale goes in a plan's decision log, not in a separate records folder.
 - `docs/visual-verification.md` — how rendered output is verified: running the visual check, what it checks, the disposable ad-hoc module pattern, when the check may grow.
+- `docs/localization.md` — writing translatable text, the German catalogue and its check, notation per language, per-language content, choosing the language.

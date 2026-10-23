@@ -10,9 +10,13 @@ import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 import tseslint from "typescript-eslint";
 
-const LAYERS = ["domain", "content", "ui", "app"];
+// Bottom to top: each layer may import from itself and the layers before it.
+const LAYERS = ["domain", "i18n", "content", "ui", "app"];
 
-// Browser-only globals that src/domain and src/content must not touch.
+// Framework-free layers: pure TypeScript, tests in plain Node.
+const PURE_LAYERS = ["domain", "i18n", "content"];
+
+// Browser-only globals that the pure layers must not touch.
 const browserGlobals = [
   "window",
   "document",
@@ -24,7 +28,7 @@ const browserGlobals = [
   "fetch",
 ].map((name) => ({
   name,
-  message: `${name} is browser-only; domain and content run in plain Node. Take the value as a parameter and let src/app read the browser.`,
+  message: `${name} is browser-only; domain, i18n and content run in plain Node. Take the value as a parameter and let src/app read the browser.`,
 }));
 
 const storageGlobals = ["localStorage", "sessionStorage", "indexedDB"].map(
@@ -109,35 +113,19 @@ export default tseslint.config(
           // React policy below never fires.
           checkAllOrigins: true,
           message:
-            "{{from.type}} may not import from {{to.type}}. Layers import downward only: app → ui → content → domain (docs/ARCHITECTURE.md).",
+            "{{from.type}} may not import from {{to.type}}. Layers import downward only: app → ui → content → i18n → domain (docs/ARCHITECTURE.md).",
           policies: [
-            {
-              from: { element: { type: "domain" } },
-              allow: { to: { element: { type: "domain" } } },
-            },
-            {
-              from: { element: { type: "content" } },
+            ...LAYERS.map((layer, index) => ({
+              from: { element: { type: layer } },
               allow: {
-                to: { element: { types: { anyOf: ["domain", "content"] } } },
+                to: { element: { types: { anyOf: LAYERS.slice(0, index + 1) } } },
               },
-            },
-            {
-              from: { element: { type: "ui" } },
-              allow: {
-                to: {
-                  element: { types: { anyOf: ["domain", "content", "ui"] } },
-                },
-              },
-            },
-            {
-              from: { element: { type: "app" } },
-              allow: { to: { element: { types: { anyOf: LAYERS } } } },
-            },
+            })),
             // External packages are allowed everywhere except React in the
             // framework-free layers.
             { allow: { to: { module: { origin: "external" } } } },
             {
-              from: { element: { types: { anyOf: ["domain", "content"] } } },
+              from: { element: { types: { anyOf: PURE_LAYERS } } },
               disallow: {
                 to: {
                   module: {
@@ -155,7 +143,7 @@ export default tseslint.config(
     },
   },
   {
-    files: ["src/domain/**", "src/content/**"],
+    files: PURE_LAYERS.map((layer) => `src/${layer}/**`),
     rules: { "no-restricted-globals": ["error", ...browserGlobals] },
   },
   {

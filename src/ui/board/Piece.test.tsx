@@ -1,10 +1,14 @@
-import { render } from "@testing-library/react";
-import { expect, test } from "vitest";
+import { cleanup, render } from "@testing-library/react";
+import { afterEach, expect, test } from "vitest";
 import type { PieceType } from "../../domain/position.ts";
+import { LanguageContext } from "../language/LanguageContext.ts";
 import { Piece } from "./Piece.tsx";
 import { PIECE_DRAWINGS } from "./pieceShapes.ts";
 
 const TYPES = Object.keys(PIECE_DRAWINGS) as PieceType[];
+
+// Without Vitest globals, Testing Library does not unmount between tests.
+afterEach(cleanup);
 
 test("every piece draws its parts and lines and names itself", () => {
   expect(TYPES).toHaveLength(6);
@@ -23,6 +27,19 @@ test("every piece draws its parts and lines and names itself", () => {
       unmount();
     }
   }
+});
+
+test("names a piece in the visitor's language, declined as one phrase", () => {
+  const { container } = render(
+    <LanguageContext value={{ language: "de", setLanguage: () => undefined }}>
+      <Piece piece={{ color: "white", type: "queen" }} />
+      <Piece piece={{ color: "black", type: "knight" }} />
+    </LanguageContext>,
+  );
+  const labels = [...container.querySelectorAll("svg")].map((svg) =>
+    svg.getAttribute("aria-label"),
+  );
+  expect(labels).toEqual(["weiße Dame", "schwarzer Springer"]);
 });
 
 test("every path is closed and starts with a move", () => {

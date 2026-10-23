@@ -1,0 +1,117 @@
+# Localization
+
+The app speaks English and German (`docs/product-specs/languages.md`).
+English is written in the code, where it reads like the screen it produces;
+German is extracted into one catalogue, `src/i18n/de.ts`, keyed by the
+English text; and `npm run check` fails when code and catalogue disagree.
+Notation follows the language too: a German reader sees `Lb5` where an
+English one sees `Bb5`. The code lives in `src/i18n/` (pure TypeScript),
+`src/ui/language/` (the React context, the hooks and the footer switch) and
+`src/app/language.ts` (detecting and storing the choice);
+`docs/ARCHITECTURE.md` has the layer.
+
+## Writing text a visitor sees
+
+- **Every string shown or read aloud goes through `t()`.** In a component,
+  `const t = useT()` (`src/ui/language/LanguageContext.ts`); outside React,
+  `translator(language)` from `src/i18n/translate.ts`. The English text is
+  the key, written as one plain string literal: `t("Nothing to train yet.")`.
+  There are no message ids to invent, and a reader of the code sees the
+  screen.
+- **Values go in as `{name}` placeholders**, never by concatenation:
+  `t("Move {n} of {total}", { n, total })`. German declines and reorders:
+  "white king" is "weißer König" but "white queen" is "weiße Dame", so a
+  colour word and a piece word cannot be translated apart
+  (`src/ui/board/Piece.tsx` has twelve messages for that reason). A name
+  followed by a square ("king e1") is the one join that holds in every
+  language.
+- **A message chosen at runtime from a table** is wrapped in `msg()` where
+  it is written, so the catalogue check still finds it:
+  `const NAMES = { king: msg("king"), … }` and later `t(NAMES[type])`. Any
+  other non-literal argument to `t()` is a translation the check cannot
+  see.
+- **Numbers and dates** are formatted with `Intl.NumberFormat` and
+  `Intl.DateTimeFormat` for the language, never by hand. Plurals have no
+  helper yet; the first message that needs one adds it (one English message
+  per plural form, chosen with `Intl.PluralRules`) and updates this doc.
+- **Not translated**: the app name, square names and FEN, and the language
+  names in the switch, each written in its own language ("Deutsch").
+- **An English literal in JSX has no sensor yet.** The first one that
+  ships on a German screen is the incident that adds one
+  (eslint-plugin-react's `jsx-no-literals`, scoped to `src/ui` and
+  `src/app`).
+
+## The German catalogue
+
+`src/i18n/de.ts` maps each English message to its German, placeholders
+kept. The German line lands in the same commit as the English, and
+`src/i18n/catalogue.test.ts`, run by `npm test` and so by `npm run check`,
+reads every `src/**/*.ts` and `.tsx` except tests, collects the literals in
+`t("…")` and `msg("…")` calls, and fails on:
+
+- a message with no entry (the German page would show English);
+- an entry no code uses any more (dead text nobody reviews);
+- an entry whose `{placeholders}` differ from its message's (a literal
+  `{name}` on screen).
+
+Its failure message lists each offending message and what to do. At
+runtime a missing entry falls back to the English text, so the symptom is
+an English sentence on a German page; the check is what catches it before
+the commit. English has no catalogue: `CATALOGUES.en` is empty by design.
+The scan is textual, so a comment that quotes a call, `t("like this")`, is
+collected too; write `t()` in comments.
+
+## Notation
+
+Inside the app notation is English: the domain, the content files, FEN and
+later PGN all use `K Q R B N`. It is adapted at display time only, by
+`localizeSan(san, language)` from `src/i18n/notation.ts` on every move or
+move sequence shown; `pieceLetter(type, language)` gives one letter. German
+uses `K D T L S`; the pawn has no letter in either; files, ranks, `x`, `+`,
+`#`, `=` and `O-O` are the same everywhere. `localizeSan` replaces every
+capital `K Q R B N`, so it takes notation only, never the prose around it.
+
+## Opening content
+
+Content holds the chess data once and the prose once per language:
+`ruy-lopez.ts` has the moves and positions, `ruy-lopez.en.ts` and
+`ruy-lopez.de.ts` the text, joined as a `Record<Language, …>` (`Language`
+from `src/i18n/language.ts`). English is complete; German may be missing
+for a lesson, and the English then shows, which the languages spec lists
+as accepted. No content exists yet: the first content lands in this layout,
+and if the opening explainer's spec needs another, this section changes
+with it.
+
+## Choosing the language
+
+`src/app/language.ts`: a choice stored under the localStorage key
+`uberschach.language` wins; otherwise the first entry of
+`navigator.languages` whose primary subtag is supported (`de-AT` is
+German); otherwise English. `App` holds the language as state, provides it
+through `LanguageContext`, sets `<html lang>` to it, and the footer's
+`LanguageSwitch` changes and stores it.
+
+Adding a language: its tag in `SUPPORTED_LANGUAGES` and its name in
+`LANGUAGE_NAMES` (`src/i18n/language.ts`), a catalogue file and its
+`CATALOGUES` entry (`translate.ts`), its piece letters (`notation.ts`). The
+`Record<Language, …>` types point at every other place, and the catalogue
+check covers every catalogue but English.
+
+## Decisions
+
+Taken with the maintainer on 2026-10-23; the recommended option each time.
+
+- **Hand-rolled over Lingui, i18next and react-intl.** About two hundred
+  lines over five small files, comments included; no dependency, no build
+  plugin, no extraction CLI; the catalogue check does in Vitest what
+  `lingui extract` would. Lingui matched the
+  rules best out of the box but adds a macro plugin and `.po` tooling;
+  i18next keys by id, so the English would leave the code; react-intl is
+  the heaviest.
+- **`src/i18n/` as a layer** between `domain` and `content`, so content
+  files can type their languages and the domain stays chess only.
+- **Stored in localStorage, not in the URL.** There is no routing yet, and
+  Pages has no SPA fallback; detection alone would switch a German visitor
+  with an English browser back on every visit.
+- **Neutral data once, prose per language beside it**, over one folder per
+  language, which would duplicate the chess data.

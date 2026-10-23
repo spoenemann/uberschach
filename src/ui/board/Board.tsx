@@ -1,5 +1,4 @@
 import {
-  describePlacement,
   FILES,
   RANKS,
   squareColor,
@@ -7,7 +6,9 @@ import {
   type Placement,
   type Square,
 } from "../../domain/position.ts";
+import { useT } from "../language/LanguageContext.ts";
 import styles from "./Board.module.css";
+import { describeBoard } from "./describe.ts";
 import { Piece } from "./Piece.tsx";
 
 export interface BoardProps {
@@ -29,13 +30,14 @@ export function Board({
   orientation = "white",
   highlights = [],
 }: BoardProps) {
+  const t = useT();
   const files = orientation === "white" ? FILES : [...FILES].reverse();
   const ranks = orientation === "white" ? [...RANKS].reverse() : RANKS;
   return (
     <div
       className={styles.board}
       role="img"
-      aria-label={`Chessboard. ${describePlacement(placement)}`}
+      aria-label={describeBoard(placement, t)}
       data-orientation={orientation}
     >
       <div className={styles.ranks}>

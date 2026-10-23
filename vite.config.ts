@@ -9,8 +9,8 @@ export default defineConfig({
   plugins: [react()],
   test: {
     // Two test environments, split by layer (docs/ARCHITECTURE.md, Invariants):
-    // domain and content run in plain Node, so any DOM access fails there.
-    // A test file outside these globs never runs; the lint rule
+    // domain, i18n and content run in plain Node, so any DOM access fails
+    // there. A test file outside these globs never runs; the lint rule
     // boundaries/no-unknown-files is what catches that.
     projects: [
       {
@@ -18,7 +18,11 @@ export default defineConfig({
         test: {
           name: "node",
           environment: "node",
-          include: ["src/domain/**/*.test.ts", "src/content/**/*.test.ts"],
+          include: [
+            "src/domain/**/*.test.ts",
+            "src/i18n/**/*.test.ts",
+            "src/content/**/*.test.ts",
+          ],
         },
       },
       {
@@ -31,11 +35,12 @@ export default defineConfig({
       },
     ],
     coverage: {
-      // "A test with every domain change" (AGENTS.md, definition of done),
-      // measured per file over src/domain only. Raise, never lower.
+      // "A test with every domain or i18n change" (AGENTS.md, definition of
+      // done), measured per file over src/domain and src/i18n only. Raise,
+      // never lower.
       provider: "v8",
-      include: ["src/domain/**/*.ts"],
-      exclude: ["src/domain/**/*.test.ts"],
+      include: ["src/domain/**/*.ts", "src/i18n/**/*.ts"],
+      exclude: ["src/**/*.test.ts"],
       thresholds: {
         perFile: true,
         lines: 90,

@@ -196,8 +196,9 @@ looks with classic chess vibes: wood, tangible, kept simple.
 - Accessibility: text contrast as measured above; a visible focus ring on
   every focusable element; colour never the only signal for feedback;
   `prefers-reduced-motion` respected. The board is an image named by the
-  position in words (`describePosition` in `src/domain/position.ts`), and
-  each piece names itself ("white knight"). Open: board highlights are low
+  position in words (`describeBoard` in `src/ui/board/describe.ts`), and
+  each piece names itself ("white knight"), both in the visitor's language
+  (`docs/localization.md`). Open: board highlights are low
   in luminance contrast by design; a selected-square cue beyond colour is
   decided when the board becomes interactive.
 - Performance and privacy: no web fonts, no images in the chrome, no
@@ -218,3 +219,10 @@ looks with classic chess vibes: wood, tangible, kept simple.
   library choice stays with the opening explainer. Tokens added:
   `--piece-light`, `--piece-dark`. The non-goal on the piece set and the
   board library is replaced by the one on a board library and rules engine.
+- 2026-10-23: a footer (Layout). The page column ends in a footer row
+  under a hairline, pinned to the bottom of the viewport on tall screens,
+  in `--text-sm` muted ink. It holds the language switch
+  (`src/ui/language/LanguageSwitch.tsx`): text buttons styled as links, the
+  current language in ink and not underlined, each language named in
+  itself. Came with the localization work (`docs/localization.md`); no
+  token added.

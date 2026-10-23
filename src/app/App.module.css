@@ -1,13 +1,22 @@
 /* The page frame: one centred column with the side gutter the design system
-   requires (docs/design-docs/design-system.md, Layout). */
+   requires (docs/design-docs/design-system.md, Layout), the footer pinned to
+   the bottom of the viewport on tall screens (design system, Amendments,
+   2026-10-23). */
 .page {
   display: grid;
-  gap: var(--space-6);
+  grid-template-rows: 1fr auto;
+  gap: var(--space-12);
+  min-height: 100dvh;
   max-width: var(--content-max);
   margin: 0 auto;
   padding-block: var(--space-12);
   padding-left: max(var(--space-4), env(safe-area-inset-left, 0px));
   padding-right: max(var(--space-4), env(safe-area-inset-right, 0px));
+}
+
+.main {
+  display: grid;
+  gap: var(--space-6);
 }
 
 /* Board beside text on wide screens, stacked below 40rem (design system,
@@ -24,4 +33,12 @@
   .sample {
     grid-template-columns: minmax(0, 1fr);
   }
+}
+
+/* The footer: a hairline above, small muted type. */
+.footer {
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-hairline);
+  font-size: var(--text-sm);
+  color: var(--color-ink-muted);
 }
