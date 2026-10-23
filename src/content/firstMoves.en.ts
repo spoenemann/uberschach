@@ -13,10 +13,6 @@ export const en: OpeningTexts = {
   },
 
   "1.e4": {
-    name: "King's Pawn Game",
-    background:
-      "The most popular first move in chess. Bobby Fischer called it “best by test” in " +
-      "My 60 Memorable Games (1969).",
     strategy:
       "Occupies a central square, attacks d5 and opens the diagonals of the queen and the " +
       "king's bishop, so White can develop quickly and castle early. The pawn on e4 is not " +
@@ -24,11 +20,6 @@ export const en: OpeningTexts = {
   },
 
   "1.d4": {
-    name: "Queen's Pawn Game",
-    background:
-      "Unusual in the 19th century, when 1.e4 was by far the most common move. Its merits were " +
-      "explored in the 20th, first through the Queen's Gambit, then through the Indian " +
-      "defences the hypermoderns popularised.",
     strategy:
       "Occupies the centre and attacks c5 and e5. Unlike the e-pawn, the d-pawn is defended by " +
       "the queen from the start, so Black cannot attack it as easily; the position tends to stay " +
@@ -36,12 +27,6 @@ export const en: OpeningTexts = {
   },
 
   "1.Nf3": {
-    name: "Zukertort Opening",
-    background:
-      "Named after Johannes Zukertort. Most sources call only 1.Nf3 d5 2.c4 the Réti Opening, " +
-      "the line with which Richard Réti beat the reigning world champion Capablanca at New " +
-      "York 1924. Réti championed the hypermodern school of the 1920s, which controlled the " +
-      "centre from a distance rather than occupying it with pawns.",
     strategy:
       "Develops a piece towards the centre and controls e5 and d4 without committing a pawn. " +
       "The most flexible first move: White can still steer into 1.d4, 1.c4 or 1.e4 openings, " +
@@ -49,12 +34,6 @@ export const en: OpeningTexts = {
   },
 
   "1.c4": {
-    name: "English Opening",
-    background:
-      "Named after Howard Staunton, the English player regarded as the unofficial world " +
-      "champion of his time, who played it in his 1843 match against Saint-Amant and at London " +
-      "1851, the first international tournament. It caught on only in the 20th century; " +
-      "Botvinnik, Karpov, Kasparov and Carlsen have all used it in world championship matches.",
     strategy:
       "Claims d5 from the wing and keeps the central pawns back, so White decides later whether " +
       "to play d4, e4 or a fianchetto. Flexible and solid, with asymmetrical positions when Black " +
@@ -63,12 +42,6 @@ export const en: OpeningTexts = {
   },
 
   "1.g3": {
-    name: "King's Fianchetto Opening",
-    background:
-      "Also called the Benko Opening after Pal Benko, who beat Bobby Fischer and Mikhail Tal " +
-      "with it at the 1962 Candidates Tournament in Curaçao and played it in his first eleven " +
-      "games as White there. Richard Réti had already tried it at Baden-Baden 1925, with mixed " +
-      "results.",
     strategy:
       "Prepares the fianchetto Bg2, which controls the long diagonal and supports a later e4 " +
       "and d5. It commits nothing in the centre and usually transposes into another opening " +
@@ -76,12 +49,6 @@ export const en: OpeningTexts = {
   },
 
   "1.b3": {
-    name: "Nimzowitsch–Larsen Attack",
-    background:
-      "Named after Aron Nimzowitsch, who experimented with it in the 1920s and 30s, and Bent " +
-      "Larsen, the Danish grandmaster who played it frequently between 1968 and 1972, including " +
-      "a loss to Spassky in 17 moves at the 1970 USSR versus Rest of the World match. Fischer " +
-      "used it five times in 1970.",
     strategy:
       "Prepares the fianchetto Bb2, aiming at e5 and along the long diagonal at Black's " +
       "kingside. White lets Black build a classical pawn centre and plans to undermine it " +

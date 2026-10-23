@@ -47,19 +47,25 @@ describe("viewAt with the shipped book", () => {
     expect(view.lastMove?.book?.strategy.en).toMatch(/^Occupies a central square/);
     expect(view.name?.en).toBe("King's Pawn Game");
     expect(view.entry?.background?.en).toMatch(/best by test/);
-    // Black's replies are not written yet: the book ends here.
-    expect(view.entry?.moves).toEqual([]);
-    expect(view.candidates).toEqual([]);
+    // Black's replies rated 4 and 5 are the candidates, the others are written but not offered.
+    expect(view.entry?.moves).toHaveLength(20);
+    expect(view.candidates.map((c) => c.move.san)).toContain("e5");
+    expect(view.candidates.every((c) => c.move.rating >= 4)).toBe(true);
+    expect(view.candidates.length).toBeLessThan(20);
   });
 
   test("a move rated below 4 is rated and explained when played", () => {
     const view = viewAt(lineOf("1.g4"), 1, OPENINGS);
     expect(view.lastMove?.book?.rating).toBe(1);
     expect(view.name?.en).toBe("Grob's Attack");
+    // Not followed: the book ends here.
+    expect(view.entry?.moves).toEqual([]);
+    expect(view.candidates).toEqual([]);
   });
 
   test("off the book: no entry, no name, the move unrated, no candidates", () => {
-    const view = viewAt(lineOf("1.e4 e5"), 2, OPENINGS);
+    // 2.Ke2 is a move the book rates and does not follow, so the position after ...Ke7 is not in it.
+    const view = viewAt(lineOf("1.e4 e5 2.Ke2 Ke7"), 4, OPENINGS);
     expect(view.entry).toBeUndefined();
     expect(view.name).toBeUndefined();
     expect(view.lastMove?.book).toBeUndefined();

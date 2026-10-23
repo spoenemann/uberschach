@@ -1,0 +1,64 @@
+// After 1.e4 (King's Pawn Game): the replies, all rated, and the positions they
+// reach that the book does not follow further. The replies it follows (rated 4 and 5) have
+// their own modules in this folder.
+
+import type { OpeningModule } from "../book.ts";
+import { de } from "./e4.de.ts";
+import { en } from "./e4.en.ts";
+
+const WIKIPEDIA = "https://en.wikipedia.org/wiki/";
+
+export const e4: OpeningModule = {
+  positions: [
+    {
+      line: "1.e4",
+      sources: [`${WIKIPEDIA}King%27s_Pawn_Game`],
+      moves: [
+        { san: "e5", rating: 5 },
+        { san: "c5", rating: 5 },
+        { san: "e6", rating: 5 },
+        { san: "c6", rating: 5 },
+        { san: "d5", rating: 4 },
+        { san: "d6", rating: 4 },
+        { san: "Nf6", rating: 4 },
+        { san: "g6", rating: 4 },
+        { san: "Nc6", rating: 3 },
+        { san: "b6", rating: 3 },
+        { san: "a6", rating: 3 },
+        { san: "h6", rating: 2 },
+        { san: "Na6", rating: 1 },
+        { san: "Nh6", rating: 1 },
+        { san: "a5", rating: 1 },
+        { san: "b5", rating: 1 },
+        { san: "f6", rating: 1 },
+        { san: "f5", rating: 1 },
+        { san: "g5", rating: 1 },
+        { san: "h5", rating: 1 },
+      ],
+    },
+    { line: "1.e4 e5", sources: [`${WIKIPEDIA}Open_Game`] },
+    { line: "1.e4 c5", sources: [`${WIKIPEDIA}Sicilian_Defence`] },
+    { line: "1.e4 e6", sources: [`${WIKIPEDIA}French_Defence`] },
+    { line: "1.e4 c6", sources: [`${WIKIPEDIA}Caro%E2%80%93Kann_Defence`] },
+    { line: "1.e4 d5", sources: [`${WIKIPEDIA}Scandinavian_Defense`] },
+    { line: "1.e4 d6", sources: [`${WIKIPEDIA}Pirc_Defence`] },
+    { line: "1.e4 Nf6", sources: [`${WIKIPEDIA}Alekhine%27s_Defence`] },
+    { line: "1.e4 g6", sources: [`${WIKIPEDIA}Modern_Defense`] },
+    { line: "1.e4 Nc6", sources: [`${WIKIPEDIA}Nimzowitsch_Defence`] },
+    {
+      line: "1.e4 b6",
+      sources: [`${WIKIPEDIA}Owen%27s_Defence`, `${WIKIPEDIA}John_Owen_(chess_player)`],
+    },
+    { line: "1.e4 a6", sources: [`${WIKIPEDIA}St._George_Defence`] },
+    { line: "1.e4 h6", sources: [`${WIKIPEDIA}King%27s_Pawn_Game`] },
+    { line: "1.e4 Na6" },
+    { line: "1.e4 Nh6" },
+    { line: "1.e4 a5", sources: [`${WIKIPEDIA}King%27s_Pawn_Game`, `${WIKIPEDIA}Ware_Opening`] },
+    { line: "1.e4 b5" },
+    { line: "1.e4 f6", sources: [`${WIKIPEDIA}King%27s_Pawn_Game`] },
+    { line: "1.e4 f5", sources: [`${WIKIPEDIA}King%27s_Pawn_Game`] },
+    { line: "1.e4 g5", sources: [`${WIKIPEDIA}King%27s_Pawn_Game`] },
+    { line: "1.e4 h5", sources: [`${WIKIPEDIA}King%27s_Pawn_Game`] },
+  ],
+  texts: { en, de },
+};

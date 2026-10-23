@@ -1,0 +1,81 @@
+// After 1.b3 (Nimzowitsch–Larsen Attack): the replies, all rated, and the positions they
+// reach that the book does not follow further. The replies it follows (rated 4 and 5) have
+// their own modules in this folder.
+
+import type { OpeningModule } from "../book.ts";
+import { de } from "./b3.de.ts";
+import { en } from "./b3.en.ts";
+
+const WIKIPEDIA = "https://en.wikipedia.org/wiki/";
+
+export const b3: OpeningModule = {
+  positions: [
+    {
+      line: "1.b3",
+      sources: [`${WIKIPEDIA}Nimzowitsch%E2%80%93Larsen_Attack`],
+      moves: [
+        { san: "e5", rating: 5 },
+        { san: "d5", rating: 5 },
+        { san: "Nf6", rating: 4 },
+        { san: "c5", rating: 4 },
+        { san: "b6", rating: 3 },
+        { san: "e6", rating: 3 },
+        { san: "c6", rating: 3 },
+        { san: "d6", rating: 3 },
+        { san: "Nc6", rating: 3 },
+        { san: "f5", rating: 3 },
+        { san: "g6", rating: 3 },
+        { san: "b5", rating: 3 },
+        { san: "a6", rating: 2 },
+        { san: "a5", rating: 2 },
+        { san: "Na6", rating: 2 },
+        { san: "Nh6", rating: 2 },
+        { san: "f6", rating: 2 },
+        { san: "h6", rating: 2 },
+        { san: "h5", rating: 2 },
+        { san: "g5", rating: 1 },
+      ],
+    },
+    {
+      line: "1.b3 e5",
+      sources: [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._b3",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._b3/1...e5",
+        "https://chessiverse.com/resources/openings/nimzowitsch-larsen-attack",
+      ],
+    },
+    {
+      line: "1.b3 d5",
+      sources: [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._b3",
+        `${WIKIPEDIA}Nimzowitsch%E2%80%93Larsen_Attack`,
+        "https://chessiverse.com/resources/openings/nimzowitsch-larsen-attack",
+      ],
+    },
+    {
+      line: "1.b3 Nf6",
+      sources: [
+        "https://chessiverse.com/resources/openings/nimzowitsch-larsen-attack",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._b3",
+      ],
+    },
+    { line: "1.b3 c5" },
+    { line: "1.b3 b6" },
+    { line: "1.b3 e6" },
+    { line: "1.b3 c6" },
+    { line: "1.b3 d6" },
+    { line: "1.b3 Nc6" },
+    { line: "1.b3 f5" },
+    { line: "1.b3 g6" },
+    { line: "1.b3 b5" },
+    { line: "1.b3 a6" },
+    { line: "1.b3 a5" },
+    { line: "1.b3 Na6" },
+    { line: "1.b3 Nh6" },
+    { line: "1.b3 f6" },
+    { line: "1.b3 g5" },
+    { line: "1.b3 h6" },
+    { line: "1.b3 h5" },
+  ],
+  texts: { en, de },
+};

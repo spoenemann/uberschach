@@ -1,10 +1,12 @@
 // The first move: the initial position with all twenty legal moves, rated,
-// and the twenty positions they reach, each with its name and background
-// (firstMoves.en.ts, firstMoves.de.ts). Only moves rated 4 and 5 are
-// followed further; the others end the book where they land
-// (docs/product-specs/opening-explorer.md, The database). The ratings are the
-// maintainer's, settled on 2026-10-23; the backgrounds were checked against
-// the sources listed, read the same day.
+// and the fourteen positions the book does not follow, each with its name and
+// background (firstMoves.en.ts, firstMoves.de.ts). The six moves rated 4 and 5
+// are followed, and the positions they reach are declared in their own
+// modules under lines/, which also hold the replies; the strategy text of each
+// first move stays here, with the move. The ratings are the maintainer's,
+// settled on 2026-10-23; the backgrounds were checked against the sources
+// listed, read the same day (docs/product-specs/opening-explorer.md, The
+// database).
 
 import { de } from "./firstMoves.de.ts";
 import { en } from "./firstMoves.en.ts";
@@ -40,19 +42,6 @@ export const firstMoves: OpeningModule = {
         { san: "Nh3", rating: 1 },
       ],
     },
-    { line: "1.e4", sources: [`${WIKIPEDIA}King%27s_Pawn_Game`] },
-    { line: "1.d4", sources: [`${WIKIPEDIA}Queen%27s_Pawn_Game`] },
-    {
-      line: "1.Nf3",
-      sources: [
-        `${WIKIPEDIA}Zukertort_Opening`,
-        `${WIKIPEDIA}R%C3%A9ti_Opening`,
-        `${WIKIPEDIA}Hypermodernism_(chess)`,
-      ],
-    },
-    { line: "1.c4", sources: [`${WIKIPEDIA}English_Opening`] },
-    { line: "1.g3", sources: [`${WIKIPEDIA}King%27s_Fianchetto_Opening`] },
-    { line: "1.b3", sources: [`${WIKIPEDIA}Nimzowitsch%E2%80%93Larsen_Attack`] },
     { line: "1.f4", sources: [`${WIKIPEDIA}Bird%27s_Opening`] },
     { line: "1.Nc3", sources: [`${WIKIPEDIA}Dunst_Opening`] },
     { line: "1.b4", sources: [`${WIKIPEDIA}Sokolsky_Opening`] },

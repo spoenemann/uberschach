@@ -5,7 +5,8 @@
   is live with a book deep enough that the maintainer plays the lines they
   half remember and reads why each move is played. Done when every promise
   in the spec points at its test and the book follows each move rated 4 or
-  5 to where public usage stops calling the line an opening.
+  5 to the depth the maintainer set on 2026-10-23: through White's second
+  move and Black's reply to it (Decision log, Depth).
 
 ## Acceptance criteria
 
@@ -20,9 +21,11 @@
       (`src/ui/explorer/`, `src/app/route.ts`; tests named in the spec).
 - [x] The entry page with the explorer card (`product-brief.md`;
       `src/ui/home/`).
-- [ ] Content for Black's replies to the six first moves rated 4 and 5, then
-      onward along moves rated 4 and 5, each line's depth decided and
-      recorded here.
+- [x] Black's replies to the six first moves (ply 2): all legal moves rated
+      and explained, in English and German, reviewed
+      (`src/content/lines/`).
+- [ ] White's second move after each reply rated 4 or 5 (ply 3).
+- [ ] Black's replies to those (ply 4), where the book ends.
 - [ ] Every promise in the spec names the test that keeps it.
 
 ## Content principles
@@ -76,8 +79,10 @@ of content is, before it is committed:
 - [x] Explorer screen, spec section by spec section, with the design-system
       amendment for rating colours and arrows.
 - [x] Entry page.
-- [ ] Content depth: Black's replies to 1.e4, 1.d4, 1.Nf3, 1.c4, 1.g3, 1.b3,
-      then onward.
+- [x] Content, ply 2: Black's replies to 1.e4, 1.d4, 1.Nf3, 1.c4, 1.g3, 1.b3.
+- [ ] Content, ply 3: White's second move after each of the 33 replies rated 4 or 5.
+- [ ] Content, ply 4: Black's replies to those, each position rated 4 or 5 that
+      White's second move reaches.
 
 ## Progress log
 
@@ -124,6 +129,22 @@ of content is, before it is committed:
   both screens green; a disposable module clicked through the board in
   Chrome at both widths (select, move, arrow, keys, candidate), its
   screenshots looked at.
+- 2026-10-23: **Ply 2 written: Black's replies to the six first moves.** The
+  maintainer set the depth (Decision log, Depth) and asked for the pipeline
+  below. Six Sonnet researchers and six Opus reviewers, one pair per
+  position, 120 moves in all; 1.35 million agent tokens, 17 minutes, about
+  110,000 tokens per agent. The reviewers made 111 corrections and dropped
+  23 claims, and changed one rating, 1.Nf3 f5 from 3 to 4 (Wikipedia's
+  Zukertort article lists it among the six main replies). What they found,
+  by kind: board claims in the strategy texts that were false or overstated
+  on the board (a pawn that "hangs", a bishop that "loses its guard"), the
+  most frequent by far; attributions the page does not make (1.e4 a5 "named
+  after" Ware; the Borg's "hence"; 1.e4 b6 "in London"); a background that
+  repeated one already told one move earlier (1.Nf3 d5); names in American
+  spelling. Result: 33 replies rated 4 or 5 to follow; 1.e4 has 8, 1.d4 4,
+  1.Nf3 6, 1.c4 6, 1.g3 5, 1.b3 4. `npm run check` green with the four UI
+  tests that assumed the book ended after the first move reworded to stay
+  true as it deepens.
 
 ## Decision log
 
@@ -223,3 +244,53 @@ of content is, before it is committed:
   at forty plies, measured in the notation doc), memoised by the line.
   Why: a reload, a shared link and the back button all follow from one
   mechanism, and no store exists to drift from the address.
+- 2026-10-23: **Depth: every legal move through White's second move, and
+  Black's reply to it.** The maintainer's choice, on recommendation, from
+  three options. A followed position needs about 30 legal moves rated and
+  explained in two languages, so the book multiplies about 30 times per
+  ply: roughly 140 followed positions and 4,000 move texts through Black's
+  second move, 700 and 25,000 through White's third. Positions after up to
+  three plies are followed when a move rated 4 or 5 reaches them; the
+  positions after four plies end the book. This replaces "as deep as public
+  usage names the line" (spec, The database) as the book's bound, which on
+  its own would have run to the ninth or tenth move; the spec says so. Not
+  chosen: through White's third move (six times the work, tens of millions of
+  agent tokens) and, below ply 4, only the moves the literature names (it
+  amends the promise that every legal move of a known position is
+  covered). Cost: the book stops at the family level (Open Game, Sicilian,
+  French, Queen's Gambit, King's Indian, English), before the Ruy Lopez, the
+  Najdorf or the Nimzo-Indian. `LAST_FOLLOWED_PLY` in `openings.test.ts`
+  holds the depth and rises as each ply is written.
+- 2026-10-23: **Research and review by position, not by move.** One Sonnet
+  agent per followed position researches all its legal moves, and one Opus
+  agent reviews and translates them, instead of an agent per move. Why: the
+  review compares sibling ratings, so siblings belong in one hand; the pages
+  of an opening family are read once, not thirty times. The briefs are the
+  procedure above made concrete: the researcher gets the position, the
+  legal moves, the names the Lichess chess-openings dataset (ECO) gives the
+  positions after them as hints, never as sources, and the rating scale; the
+  reviewer gets the research file and the node file, never the researcher's
+  reasoning, reads each cited source, checks every board claim with the rules
+  engine's board, re-judges ratings against siblings and sources, and
+  translates. A researcher's file is also validated by a script (every legal
+  move once, ratings, sources for every background, German piece letters in
+  German text) before the reviewer starts.
+- 2026-10-23: **A position reached by several lines is described once.** In
+  the module and under the line of the first move, in breadth-first order,
+  that reaches it; the other moves into it carry only their strategy. Why:
+  the loader refuses a position declared twice, and a transposition shows
+  the same information wherever it is reached.
+- 2026-10-23: **Modules under `src/content/lines/`, one per followed first
+  move and one per followed reply.** `e4` holds 1.e4 with Black's replies and
+  the replies the book does not follow; `e4-e5` holds 1.e4 e5 with White's
+  second moves and Black's replies after the ones rated 4 and 5. The
+  position's name and background live in the module that declares it, a
+  move's strategy in the module of the position it is played from, as
+  `book.ts` demands. The six followed first moves leave `firstMoves` (their
+  strategy texts stay, with the root's moves). `max-lines` is raised to 3,000
+  for this folder (the guidance in `scripts/eslint-guidance.mjs` says so): a
+  family's file is as long as its prose.
+- 2026-10-23: **Names in British spelling** ("Defence"), whatever the
+  Wikipedia title or the ECO hint says, as the book already writes "Dutch
+  Defence"; German names follow German Wikipedia, and a name German does not
+  translate keeps its English form with German grammar ("Alapin-Variante").

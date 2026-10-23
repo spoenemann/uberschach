@@ -87,6 +87,16 @@ export default tseslint.config(
     },
   },
   {
+    // Content modules under src/content/lines/ are prose and data, one
+    // module per opening family: the length of a file is the amount of
+    // content it holds, not tangled code (the opening explorer plan,
+    // Decision log, 2026-10-23). The limit is raised, not removed.
+    files: ["src/content/lines/**"],
+    rules: {
+      "max-lines": ["error", { max: 3000, skipBlankLines: true, skipComments: true }],
+    },
+  },
+  {
     // Test files are lists of cases; function length does not apply.
     files: ["**/*.test.{ts,tsx}"],
     rules: { "max-lines-per-function": "off" },

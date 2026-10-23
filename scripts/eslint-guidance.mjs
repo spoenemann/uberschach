@@ -40,7 +40,11 @@ const GUIDANCE = {
     "Fix: take the value as a parameter and let src/app read the browser.",
     "Exception: none; a browser-dependent helper belongs in src/app.",
   ],
-  "max-lines": sizeGuidance("file"),
+  "max-lines": [
+    ...sizeGuidance("file"),
+    "Content modules under src/content/lines/ have a higher limit: a file's length is",
+    "the amount of prose it holds, one module per opening family.",
+  ],
   "max-lines-per-function": sizeGuidance("function"),
   complexity: sizeGuidance("function"),
   "max-params": sizeGuidance("parameter list"),

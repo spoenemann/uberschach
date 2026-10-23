@@ -13,10 +13,6 @@ export const de: OpeningTexts = {
   },
 
   "1.e4": {
-    name: "Königsbauernspiel",
-    background:
-      "Der meistgespielte Eröffnungszug. Bobby Fischer nannte ihn in „Meine 60 denkwürdigen " +
-      "Partien“ (1969) „best by test“.",
     strategy:
       "Besetzt ein Zentrumsfeld, greift d5 an und öffnet die Diagonalen für Dame und " +
       "Königsläufer, sodass Weiß schnell entwickeln und früh rochieren kann. Der Bauer auf e4 " +
@@ -25,11 +21,6 @@ export const de: OpeningTexts = {
   },
 
   "1.d4": {
-    name: "Damenbauernspiel",
-    background:
-      "Im 19. Jahrhundert ungewöhnlich, als 1.e4 bei weitem am häufigsten gespielt wurde. Seine " +
-      "Stärken wurden im 20. Jahrhundert erschlossen, zuerst mit dem Damengambit, dann mit den " +
-      "Indischen Verteidigungen der Hypermodernen.",
     strategy:
       "Besetzt das Zentrum und greift c5 und e5 an. Anders als der e-Bauer ist der d-Bauer von " +
       "Anfang an durch die Dame gedeckt, sodass Schwarz ihn nicht so leicht angreifen kann; die " +
@@ -38,12 +29,6 @@ export const de: OpeningTexts = {
   },
 
   "1.Nf3": {
-    name: "Zukertort-Eröffnung",
-    background:
-      "Benannt nach Johannes Zukertort. Als Réti-Eröffnung gilt meist nur die Folge 1.Sf3 d5 " +
-      "2.c4, mit der Richard Réti in New York 1924 den amtierenden Weltmeister Capablanca " +
-      "besiegte. Réti war ein Vorkämpfer der hypermodernen Schule der 1920er-Jahre, die das " +
-      "Zentrum aus der Ferne kontrollierte, statt es mit Bauern zu besetzen.",
     strategy:
       "Entwickelt eine Figur zum Zentrum hin und kontrolliert e5 und d4, ohne einen Bauern " +
       "festzulegen. Der flexibelste erste Zug: Weiß kann noch in 1.d4-, 1.c4- oder " +
@@ -52,13 +37,6 @@ export const de: OpeningTexts = {
   },
 
   "1.c4": {
-    name: "Englische Eröffnung",
-    background:
-      "Benannt nach Howard Staunton, dem englischen Spieler, der als inoffizieller Weltmeister " +
-      "seiner Zeit gilt und den Zug 1843 im Wettkampf gegen Saint-Amant sowie in London 1851, " +
-      "dem ersten internationalen Turnier, spielte. Durchgesetzt hat er sich erst im 20. " +
-      "Jahrhundert; Botwinnik, Karpow, Kasparow und Carlsen haben ihn in " +
-      "Weltmeisterschaftskämpfen eingesetzt.",
     strategy:
       "Beansprucht d5 von der Flanke aus und hält die Zentrumsbauern zurück, sodass Weiß " +
       "später entscheidet, ob d4, e4 oder ein Fianchetto folgt. Flexibel und solide, mit " +
@@ -68,12 +46,6 @@ export const de: OpeningTexts = {
   },
 
   "1.g3": {
-    name: "Königsfianchetto",
-    background:
-      "Auch Benko-Eröffnung nach Pal Benko, der damit beim Kandidatenturnier 1962 in Curaçao " +
-      "Bobby Fischer und Michail Tal besiegte und den Zug dort in seinen ersten elf Weißpartien " +
-      "spielte. Richard Réti hatte ihn schon in Baden-Baden 1925 mit wechselndem Erfolg " +
-      "versucht.",
     strategy:
       "Bereitet das Fianchetto Lg2 vor, das die lange Diagonale kontrolliert und ein späteres " +
       "e4 und d5 unterstützt. Der Zug legt im Zentrum nichts fest und geht meist in eine andere " +
@@ -82,13 +54,6 @@ export const de: OpeningTexts = {
   },
 
   "1.b3": {
-    name: "Larsen-Eröffnung",
-    background:
-      "Auch Nimzowitsch-Larsen-Angriff: benannt nach Aron Nimzowitsch, der in den 1920er- und " +
-      "1930er-Jahren damit experimentierte, und Bent Larsen, dem dänischen Großmeister, der " +
-      "den Zug zwischen 1968 und 1972 häufig spielte, darunter eine Niederlage in 17 Zügen " +
-      "gegen Spasski beim Wettkampf UdSSR gegen den Rest der Welt 1970. Fischer setzte ihn 1970 " +
-      "fünfmal ein.",
     strategy:
       "Bereitet das Fianchetto Lb2 vor, das auf e5 und über die lange Diagonale auf den " +
       "schwarzen Königsflügel zielt. Weiß lässt Schwarz ein klassisches Bauernzentrum " +

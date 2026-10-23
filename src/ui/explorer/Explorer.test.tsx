@@ -75,7 +75,8 @@ describe("the opening explorer", () => {
     fireEvent.click(square(container, "e4"));
     expect(last()).toEqual({ line: "1.e4", ply: null, side: "white" });
     expect(screen.getByText("1.e4")).not.toBeNull();
-    expect(screen.getByText("Best")).not.toBeNull();
+    // The reading comes first, the candidates (Black's replies, also rated Best) after it.
+    expect(screen.getAllByText("Best")[0]?.getAttribute("data-rating")).toBe("5");
     expect(screen.getByRole("heading", { level: 2 }).textContent).toBe("King's Pawn Game");
     expect(screen.getByText(/best by test/)).not.toBeNull();
     expect(screen.getByText(/^Occupies a central square/)).not.toBeNull();
@@ -211,8 +212,10 @@ describe("the opening explorer", () => {
   test("writes notation in the visitor's language, and the address in English", () => {
     const { last } = renderExplorer({ line: "1.Nf3" }, "de");
     expect(screen.getByText("1.Sf3")).not.toBeNull();
-    expect(screen.getByText("Bester Zug")).not.toBeNull();
-    expect(screen.getByText("Das Buch endet hier.")).not.toBeNull();
+    expect(screen.getAllByText("Bester Zug")[0]?.getAttribute("data-rating")).toBe("5");
+    // Black's replies are the candidates, written in German letters.
+    const replies = within(screen.getByRole("list", { name: "Nächste Züge" }));
+    expect(replies.getByRole("button", { name: /^Sf6/ })).not.toBeNull();
     fireEvent.click(screen.getByRole("button", { name: "Zurück" }));
     expect(last()).toEqual({ line: "1.Nf3", ply: 0, side: "white" });
     const list = screen.getByRole("list", { name: "Nächste Züge" });

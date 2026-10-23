@@ -84,11 +84,14 @@ for and risks, and which replies matter.
   1 to 3 carries its name and background and no moves, so the book ends
   there; a position that a move rated 4 or 5 also reaches, by
   transposition, keeps its moves. (`src/content/openings.test.ts`)
-- The book goes as deep as a move still belongs to the opening by public
-  usage: as far as theory and the literature name the line as an opening
-  or variation. Where that is for a line is decided from public knowledge,
-  its history and its terminology, and recorded in the content's exec plan
-  (`docs/exec-plans/active/0002-opening-explorer.md`).
+- The book goes no deeper than a move still belongs to the opening by
+  public usage, and its depth is bounded for every line at once, so that it
+  stays finishable: moves are written through White's second move and
+  Black's reply to it, and the position after that reply ends the book
+  (the maintainer, 2026-10-23). The reasoning and what it costs are in the
+  content's exec plan (`docs/exec-plans/active/0002-opening-explorer.md`,
+  Decision log, Depth); deeper lines are content that can be added later.
+  (`src/content/openings.test.ts`)
 - The ratings are 5 Best, 4 Good, 3 Playable, 2 Inaccuracy, 1 Mistake.
   A rating is the author's judgement of the move for the side that plays
   it: 5 and 4 are moves worth learning, 3 is sound but not recommended, 2
