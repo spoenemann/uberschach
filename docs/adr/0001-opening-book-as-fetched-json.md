@@ -13,7 +13,7 @@ The opening book was TypeScript data imported by the app: 40 modules,
 all in the JavaScript bundle (1,911 kB, 535 kB gzipped) and all built into a
 Map keyed by position when the page loaded, 0.33 s of replaying every line
 through the rules engine before the entry page showed. The plan for the
-book (`docs/exec-plans/active/0002-opening-explorer.md`, Gathering the
+book (`docs/exec-plans/completed/0002-opening-explorer.md`, Gathering the
 information) projects about 21,000 positions two plies deeper, so the
 bundle would have reached about 12 MB and the start about three seconds,
 and the question was how the book should be stored and loaded before more

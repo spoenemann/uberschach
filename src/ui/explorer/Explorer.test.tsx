@@ -197,6 +197,16 @@ describe("the opening explorer", () => {
     expect(container.querySelectorAll("[data-arrow]")).toHaveLength(0);
   });
 
+  test("names each rating with its word, from 5 Best to 1 Mistake", async () => {
+    // The spec's scale, one first move for each rating, read from the panel's reading of the move.
+    const scale = [["1.e4", "Best", "5"], ["1.g3", "Good", "4"], ["1.Nc3", "Playable", "3"], ["1.c3", "Inaccuracy", "2"], ["1.g4", "Mistake", "1"]] as const;
+    for (const [line, word, rating] of scale) {
+      renderExplorer({ line });
+      expect((await screen.findAllByText(word))[0]?.getAttribute("data-rating"), `${line} is ${word}`).toBe(rating);
+      cleanup();
+    }
+  });
+
   test("shows the line with the current move marked, steps back and forward without discarding it, and resets", async () => {
     const { container, last } = renderExplorer({ line: "1.e4 e5 2.Nf3" });
     const moves = within(screen.getByRole("list", { name: "Moves played" })).getAllByRole("button");

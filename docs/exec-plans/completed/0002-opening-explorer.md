@@ -1,6 +1,6 @@
 # Exec plan: the opening explorer
 
-- **Status**: active, started 2026-10-23
+- **Status**: completed on 2026-10-24, started 2026-10-23
 - **Goal**: the opening explorer of `docs/product-specs/opening-explorer.md`
   is live with a book deep enough that the maintainer plays the lines they
   half remember and reads why each move is played. Done when every promise
@@ -45,7 +45,8 @@
       one rated 5, in English and German, reviewed
       (`src/content/openings.test.ts`): 5,790 moves added and 527 revised,
       14,025 moves in the book (Progress log, 2026-10-24).
-- [ ] Every promise in the spec names the test that keeps it.
+- [x] Every promise in the spec names the test that keeps it (Progress log,
+      2026-10-24, Closed).
 
 ## Content principles
 
@@ -90,7 +91,7 @@ of content is, before it is committed:
 What the three levels (240 agents, 2,918 moves) taught, for whoever writes
 the next batch. The numbers are measured on 2026-10-23 on a ten-core
 machine; the briefs and the scripts named here were scratch files of that
-session and are not in the repository (Open, below). The strategy notes'
+session and are not in the repository. The strategy notes'
 rework added the board tool, a node-file writer, a validator and a writer
 of the modules to the repository, with its briefs; the named lines and the
 gaps replaced all but the board tool with their own (`scripts/content/`),
@@ -349,8 +350,9 @@ for that (the frontier from the ratings instead of the dataset).
   built app: the page mounts in about 0.5 seconds on this machine and 1.5
   seconds with the CPU slowed fourfold, on the entry page as much as on the
   explorer, because both import the book; the bundle is 2.05 MB (576 kB
-  gzipped). Open, and the maintainer's to decide because it changes the app's
-  structure: load the explorer, and the book with it, on demand
+  gzipped). Open then, and the maintainer's to decide because it changes the
+  app's structure (decided the next day: ADR-0001, below): load the
+  explorer, and the book with it, on demand
   (`React.lazy` in `src/app/App.tsx`, a loading state, async tests), which
   returns the entry page to its former 0.4 MB, before any content, and
   takes the book's share (about 0.35 seconds here) off its start. `npm run
@@ -645,6 +647,30 @@ for that (the frontier from the ratings instead of the dataset).
   mistake (4.d4 fxe4?) and 3...Nf6, which no page names, 4. Now 3...f5
   is 4 with a new note in both languages, and 3...Nf6 is 3.
 
+- 2026-10-24: **Closed.** Every criterion is ticked; the plan moved to
+  `completed/`. The last one, every promise naming its test, was checked
+  promise by promise against the spec: every test file and document it points
+  at exists, and three promises named none. The rating scale now names the
+  explorer test, to which a test was added that reads all five words off the
+  screen ("Mistake" was the one no test had read), and the catalogue test for
+  the German; the line "the list shows no more than that" names the explorer
+  test that reads the list out; the review promise is a process, kept by
+  Content review above, and now names `src/content/openings.test.ts` for what
+  is mechanical. Every reference to the plan moved with it: `AGENTS.md`
+  (which now says the explorer is built), the spec and its index, both ADRs,
+  `scripts/content/` and the `about` field of the 71 modules that name it;
+  and the plan's three references to an "Open" section that was never
+  written are fixed. State at close: 7,857 positions in 174 chunks, 14,025
+  moves (Gaps, above); `npm run check` green with 32 test files and 335
+  tests, the build, and the visual check on both screens (nothing rendered
+  changed, so the screenshots were not looked at). Left, and not this plan's:
+  the book is as deep as its two rules make it (every legal move through
+  White's second move and Black's reply; the named lines to the twelfth move),
+  the positions where it ends hold no moves, ten positions hold fewer than
+  three because fewer are legal, and the note on the named lines stands, that
+  some claims false on the board are likely still among the deep notes. More
+  depth is a new plan, started from the tools in `scripts/content/`.
+
 ## Decision log
 
 - 2026-10-23: **Review by an agent that did not write the text, not by
@@ -869,7 +895,8 @@ for that (the frontier from the ratings instead of the dataset).
   dataset decides what the book follows, each line cut at its twelfth move
   played.** The maintainer: the breadth-first search does not scale past
   Black's second move (every legal move from every followed position
-  multiplies the book about thirty times a ply, Open below), while many
+  multiplies the book about thirty times a ply, Gathering the information,
+  Superseded), while many
   openings need more moves to be explained at all; so from the fifth half
   move on, and after a move rated 1 to 3 before it, the book writes the
   moves the dataset's 3,865 named lines play and nothing else, whatever

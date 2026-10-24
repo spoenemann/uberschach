@@ -19,7 +19,7 @@ export const NAMED_DIR = `${path.join(path.dirname(fileURLToPath(import.meta.url
 /**
  * The longest line the book follows, in moves played: a named line longer than
  * this is cut there, and its name, which belongs to its last position, is not
- * given (docs/exec-plans/active/0002-opening-explorer.md, Decision log, Named
+ * given (docs/exec-plans/completed/0002-opening-explorer.md, Decision log, Named
  * lines).
  */
 export const NAMED_LINE_PLIES = 12;

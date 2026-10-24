@@ -89,7 +89,7 @@ function split(line) {
   const id = idOf(line);
   const module = {
     data: {
-      about: `After ${line}: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).`,
+      about: `After ${line}: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/completed/0002-opening-explorer.md).`,
       positions: [entry],
     },
     en: {},

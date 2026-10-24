@@ -14,7 +14,7 @@ and at most two plies below it, so that a chunk grows with the branching and
 never with the depth. That was written for the breadth-first plies, where
 every legal move from a followed position is in the book.
 
-The named lines (`docs/exec-plans/active/0002-opening-explorer.md`, Decision
+The named lines (`docs/exec-plans/completed/0002-opening-explorer.md`, Decision
 log, Named lines) changed the shape of the book below them: from the fifth
 half move on, a position holds only the moves of the Lichess dataset's
 lines, mostly one or two. Under the two-ply rule every such position that

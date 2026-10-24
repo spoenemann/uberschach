@@ -4,7 +4,7 @@ The serve step that `npm run build` and `npm run dev` run, and the tools and
 briefs for agents that write the opening book: new entries along the named
 lines, and the gaps, more moves for the positions along them that have
 fewer than three or none rated 5 (both below; the explorer plan's decision
-log, `docs/exec-plans/active/0002-opening-explorer.md`, Named lines; Gaps).
+log, `docs/exec-plans/completed/0002-opening-explorer.md`, Named lines; Gaps).
 They run under plain Node from the repository root; Node runs the
 TypeScript sources of `src/domain/` and `src/content/` directly, so nothing
 is built first. The content itself is JSON under `src/content/lines/`, one

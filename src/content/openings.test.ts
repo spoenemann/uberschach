@@ -26,7 +26,7 @@ import { parseMove, serveBook } from "./serve.ts";
 
 /**
  * The deepest position, counted in moves played, from which the breadth-first
- * plies write every legal move: White's second move (docs/exec-plans/active/0002-opening-explorer.md,
+ * plies write every legal move: White's second move (docs/exec-plans/completed/0002-opening-explorer.md,
  * Decision log, Depth). A move rated 4 or 5 into a position at or before it is
  * followed with every legal move; beyond it the named lines decide
  * (Decision log, Named lines).
@@ -42,7 +42,7 @@ const MODULE_BYTES = 100_000;
 
 /**
  * The fewest moves a position with moves holds, every legal move where fewer are legal, one of
- * them rated 5 (docs/exec-plans/active/0002-opening-explorer.md, Decision log, Gaps).
+ * them rated 5 (docs/exec-plans/completed/0002-opening-explorer.md, Decision log, Gaps).
  */
 const LEAST_MOVES = 3;
 

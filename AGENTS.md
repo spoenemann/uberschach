@@ -4,11 +4,12 @@ Chess training app for the browser, built first for the maintainer's own
 training and published on GitHub Pages for anyone who finds it useful. Static
 single-page app: TypeScript 6 strict, Vite 8, React 19, Vitest 5, ESLint 10,
 npm, Node 24. The first capability, an opening explorer, is specified in
-`docs/product-specs/opening-explorer.md` and being built from
-`docs/exec-plans/active/0002-opening-explorer.md`: the screen, the entry
-page and the book exist, written breadth first through White's second move
-and Black's reply to it, and beyond that along the named lines of the Lichess
-dataset to their twelfth move.
+`docs/product-specs/opening-explorer.md` and built from
+`docs/exec-plans/completed/0002-opening-explorer.md` (done, 2026-10-24): the
+screen, the entry page and the book exist, written breadth first through
+White's second move and Black's reply to it, and beyond that along the named
+lines of the Lichess dataset to their twelfth move; every position with moves
+holds at least three and one rated 5.
 
 ## Commands
 
@@ -66,7 +67,7 @@ npm run dev                          # build:openings, then http://localhost:517
 - A change to anything rendered (`src/ui/`, `src/app/`, `index.html`) is looked at: open the screenshots `npm run check` writes, and check the specifics with a disposable ad-hoc module when looking is not enough (`docs/visual-verification.md`). Green checks do not see a blank or misaligned frame.
 - A change to `src/domain/` or `src/i18n/` includes a test; the per-file coverage threshold in `vite.config.ts` enforces it.
 - A change to intended behaviour updates its spec under `docs/product-specs/` in the same commit; a new capability gets its spec before its code.
-- Opening content ships after the review in `docs/product-specs/opening-explorer.md` (The database): an agent that did not write it checks every historical claim against its source and every rating against the sources and its sibling moves; the procedure and the findings are in `docs/exec-plans/active/0002-opening-explorer.md`. The maintainer does not read every text.
+- Opening content ships after the review in `docs/product-specs/opening-explorer.md` (The database): an agent that did not write it checks every historical claim against its source and every rating against the sources and its sibling moves; the procedure and the findings are in `docs/exec-plans/completed/0002-opening-explorer.md`. The maintainer does not read every text.
 - A change to the look (a token, a base style, a visual rule) updates `docs/design-docs/design-system.md` in the same commit, as a dated amendment.
 - A structural change (a layer added or moved, a new allowed dependency) updates `docs/ARCHITECTURE.md`, `eslint.config.js` and `vite.config.ts` in the same commit.
 - Work that spans sessions runs from a plan in `docs/exec-plans/active/`; its progress, decisions and verification output go there and nowhere else.

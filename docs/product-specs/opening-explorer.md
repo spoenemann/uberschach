@@ -96,7 +96,7 @@ for and risks, and which replies matter.
   instead, which is what the visitor reads before the first move. (`src/content/book.test.ts`)
 - The book is written in two ways (the maintainer, 2026-10-23 and
   2026-10-24; the reasoning and the costs are in the content's exec plan,
-  `docs/exec-plans/active/0002-opening-explorer.md`, Decision log, Depth
+  `docs/exec-plans/completed/0002-opening-explorer.md`, Decision log, Depth
   and Named lines):
   - *Breadth first, through White's second move.* From the initial
     position, and from every position up to White's second move that a
@@ -127,7 +127,9 @@ for and risks, and which replies matter.
   A rating is the author's judgement of the move for the side that plays
   it: 5 and 4 are moves worth learning, 3 is sound but not recommended, 2
   gives something away, 1 gives a lot away or falls for a trap. It is not
-  an engine evaluation.
+  an engine evaluation. (`src/ui/explorer/Explorer.test.tsx`: each word on
+  the screen; `src/i18n/catalogue.test.ts`: each in German; the judgement
+  itself is the content review's, below)
 - Every rating and text is reviewed before it ships by an agent that did
   not write it; the maintainer reads what they choose to, and nothing
   waits for them (the maintainer, 2026-10-23, after the first move:
@@ -139,7 +141,8 @@ for and risks, and which replies matter.
   move and against the ratings of its sibling moves, each text against
   what it must say (above). The findings and corrections are logged in
   the content's exec plan, which also holds the procedure
-  (`docs/exec-plans/active/0002-opening-explorer.md`, Content review).
+  (`docs/exec-plans/completed/0002-opening-explorer.md`, Content review);
+  the mechanical part of what it checks is `src/content/openings.test.ts`.
 - The footer of every screen says, in the visitor's language, that the
   texts on the site are AI-generated and may contain errors (the
   maintainer, 2026-10-24, to meet EU transparency requirements), small and
@@ -203,6 +206,8 @@ for and risks, and which replies matter.
 - The list shows no more than that, and the panel holds one move's
   information and one list. A candidate's texts are read after it is
   played; nothing is previewed, nothing stacks.
+  (`src/ui/explorer/Explorer.test.tsx`: the list read out, move, name and
+  rating word)
 - Moves rated 1 and 2 are never offered as candidates, nor those rated 3
   beside three or more rated 4 and 5. Played, they are rated and explained
   like any other. (`src/ui/explorer/view.test.ts`,
@@ -272,7 +277,7 @@ for and risks, and which replies matter.
   `src/content/loader.ts` how the app fetches it; `src/content/named/` the
   named lines that decide what the book follows beyond the breadth-first
   plies, read by `src/content/named.ts`.
-- `docs/exec-plans/active/0002-opening-explorer.md` — the build, its
+- `docs/exec-plans/completed/0002-opening-explorer.md` — the build, its
   progress and its decisions, including how deep each line goes.
 - `docs/localization.md` — the languages promised, translated text and
   the layout of per-language content.
