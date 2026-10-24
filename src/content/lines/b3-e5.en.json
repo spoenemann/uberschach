@@ -67,6 +67,8 @@
     "background": "Black's most popular and ambitious reply to 1.b3, chosen in about 45 percent of games."
   },
   "1.b3 e5 2.Bb2 Nc6": {
+    "name": "Nimzowitsch–Larsen Attack: Modern Variation",
+    "background": "The more common of the two natural ways to defend the e5-pawn after 2.Bb2; the other is 2...d6. A model game is Bent Larsen against Brian Eley, Hastings 1972, won by White after 3.e3 Nf6 4.Bb5 d6 5.Ne2.",
     "strategy": "The natural defence: the knight guards e5 and develops in one move, and Black stays free to take the centre with the d-pawn too. The cost is the c-pawn, which can no longer support the centre from c6. White usually lets Black build a broad centre and attacks it later from the flanks, a patient fight over who controls the centre in the end."
   },
   "1.b3 e5 2.Bb2 d6": {
@@ -251,5 +253,54 @@
   },
   "1.b3 e5 2.Nc3 d5": {
     "strategy": "Takes the centre with a second pawn and controls e4, the square White's knight and e-pawn want. The pawn also leaves Black the option of gaining space and harassing the knight by pushing again. Black stands comfortably in the middle against a slow set-up."
+  },
+  "1.b3 e5 2.a3 d5 3.c3": {
+    "strategy": "Builds a pawn wall but blocks its own bishop: with pawns on b3 and c3, a queen's bishop on b2 would look at its own pawn, the very fianchetto the b3 pawn was meant for. Three queenside pawn moves and none that contests the centre leave White well behind."
+  },
+  "1.b3 e5 2.a3 d5 3.c3 Nf6": {
+    "strategy": "Develops with a purpose: the knight eyes e4 and supports d5, so a central push by White would be hard to carry out. Black needs nothing special; development and castling are enough against a set-up that does not challenge the centre."
+  },
+  "1.b3 e5 2.a3 d5 3.c3 Nf6 4.d3": {
+    "strategy": "Controls e4 and prepares to meet the centre with a pawn of its own, but it is slow and blocks the king's bishop's route to the queenside. White's pawns form a wall on the third rank with the pieces behind, a solid but passive set-up from which Black can develop at leisure."
+  },
+  "1.b3 e5 2.a3 d5 3.c3 Nf6 4.d3 Nc6": {
+    "strategy": "Develops the second knight, defends e5 and eyes d4, so White cannot easily establish a pawn there. Black's centre is fully supported and the game is Black's to steer, with White still looking for a way to challenge it."
+  },
+  "1.b3 e5 2.a3 d5 3.c3 Nf6 4.d3 Nc6 5.e3": {
+    "strategy": "Covers d4 against the knight and keeps a push to e4 in reserve as the way to challenge Black's centre. But it locks the queen's bishop in, leaving it only b2 and d2. White builds a compact wall at the cost of piece play."
+  },
+  "1.b3 e5 2.a3 d5 3.c3 Nf6 4.d3 Nc6 5.e3 Bd6": {
+    "strategy": "A solid developing move: the bishop backs up the e5 pawn from behind, clears the way to castle and eyes the a3 pawn, though that is guarded. Black keeps every pawn defended and loses nothing in the centre while White's pieces remain boxed in."
+  },
+  "1.b3 e5 2.a3 d5 3.c3 Nf6 4.d3 Nc6 5.e3 Bd6 6.f3": {
+    "strategy": "Backs a later e4, but takes f3 from the king's knight, which is left with only e2 and h3, and does nothing about Black's lead in the centre. A slow, cramped way to finish the pawn wall when development still comes first."
+  },
+  "1.b3 e5 2.a3 d5 3.c3 Nf6 4.d3 Nc6 5.e3 Bd6 6.f3 O-O": {
+    "strategy": "Castles, putting the king to safety and bringing the rook towards the centre before anything happens. White's pawn wall has no active plan yet, so Black can castle first and pick the right moment for a central break."
+  },
+  "1.b3 e5 2.Bb2 Nc6 3.e3": {
+    "name": "Nimzowitsch–Larsen Attack: Modern Variation",
+    "strategy": "The typical plan: White lets Black have pawns on e5 and d5 and prepares to undermine them later. The move opens the king's bishop, which can pressure the knight guarding e5. The game becomes a patient fight of White's flank pieces against a big black centre."
+  },
+  "1.b3 e5 2.Bb2 Nc6 3.c4": {
+    "strategy": "Stops Black from setting up a pawn on d5 for free by fighting for that square with a flank pawn. White leaves the centre to Black, so the play is slow and manoeuvring."
+  },
+  "1.b3 e5 2.Bb2 Nc6 3.f4": {
+    "name": "Nimzowitsch–Larsen Attack: Pachman Gambit",
+    "strategy": "Hits e5 twice at once, with pawn and bishop against one defender, and offers the f-pawn to open the position. But Black simply takes it, winning a pawn, and the move opens the e1-h4 diagonal to a check on h4. The long diagonal and e-file are thin compensation."
+  },
+  "1.b3 e5 2.Bb2 Nc6 3.c4 Nf6": {
+    "name": "Nimzowitsch–Larsen Attack: Modern Variation",
+    "strategy": "Develops the second knight and adds pressure on e4 and d5, the squares White would need for a central break. Black gets a sound, flexible position: e5 is guarded and White's early pawn move has not stopped Black from challenging the centre on good terms."
+  },
+  "1.b3 e5 2.Nc3 d5 3.e4": {
+    "strategy": "Strikes at d5 at once: the pawn and the knight both attack it, and only the queen defends it. White opens the centre quickly, before Black's pieces are out, and the bishop that b3 prepares will later bear on the long diagonal."
+  },
+  "1.b3 e5 2.Nc3 d5 3.e4 dxe4": {
+    "strategy": "Takes the pawn and opens the d-file for Black's queen. The pawn on e4 can be won back at once by the knight, so Black gains the open file and removes White's central pawn, but no lasting extra pawn."
+  },
+  "1.b3 e5 2.Nc3 d5 3.e4 dxe4 4.d3": {
+    "name": "Dunst Opening: Gladbacher Gambit",
+    "strategy": "A gambit: White offers a second pawn to drag the e4 pawn away and bring the pieces out with tempo. If Black takes, the bishop recaptures on d3 and aims at the kingside, but White is a pawn down against sound play. Simply regaining the pawn is better."
   }
 }

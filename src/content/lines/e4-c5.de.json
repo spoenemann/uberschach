@@ -323,6 +323,7 @@
     "strategy": "Stellt den g-Bauern ein: 3.Sxg5 gewinnt ihn, da nichts zurückschlagen kann, denn der Läufer c8 und die Dame sind beide durch eigene Bauern verstellt. Der geschwächte Königsflügel bietet keine Kompensation."
   },
   "1.e4 c5 2.Nf3 f5": {
+    "name": "Sizilianische Verteidigung: Brüsseler Gambit",
     "strategy": "Bietet den f-Bauern an: 3.exf5 gewinnt ihn, da der Bauer d7 den Läufer c8 verstellt, und ihn zurückzugewinnen kostet Zeit. Die Diagonale e8-h5 zum schwarzen König bleibt dauerhaft offen."
   },
   "1.e4 c5 2.Nf3 c4": {
@@ -362,5 +363,65 @@
   },
   "1.e4 c5 2.Na3 Nc6": {
     "strategy": "Entwickelt den Springer auf sein bestes Feld gegen den exzentrischen Randspringer. Er kontrolliert d4 und e5, sodass der übliche zentrale Bauernvorstoß von Weiß einen Bauern kostet, und Schwarz kann sonst wie in jeder Sizilianischen Verteidigung spielen."
+  },
+  "1.e4 c5 2.b3 d5 3.Bb2": {
+    "name": "Sizilianische Verteidigung: Euwe-Angriff, Prins-Gambit",
+    "strategy": "Ignoriert die Spannung und entwickelt sich, bietet e4 für rasche Entwicklung und eine offene lange Diagonale mit Blick auf g7 an. Weiß muss zeigen, dass das für den Bauern genügt, denn der einfache Tausch auf d5 ist der solidere Weg."
+  },
+  "1.e4 c5 2.c4 d6 3.Nc3": {
+    "strategy": "Der natürliche Entwicklungszug: Der Springer kontrolliert d5, stützt den Bauern auf e4 und verstärkt den Griff der Bauern auf c4 und e4 auf das Zentrum. Weiß spielt auf eine langsame Stellungspartie mit mehr Raum."
+  },
+  "1.e4 c5 2.c4 d6 3.Nc3 Nc6": {
+    "strategy": "Entwickelt eine Figur gegen das Zentrum und behält d4 und e5 im Blick, ohne etwas zu schwächen. Schwarz nimmt eine solide, aber etwas beengte Stellung in Kauf und wartet, bis sich Weiß festlegt, bevor er einen Aufbau wählt."
+  },
+  "1.e4 c5 2.c4 d6 3.Nc3 Nc6 4.g3": {
+    "strategy": "Bereitet das Fianchetto auf dem Königsflügel vor, damit der Läufer die lange Diagonale beherrscht und der König ein sicheres Heim bekommt. Weiß bevorzugt eine kompakte Struktur und eine lange Manövrierpartie gegenüber einem scharfen Kampf im Zentrum."
+  },
+  "1.e4 c5 2.c4 d6 3.Nc3 Nc6 4.g3 h5": {
+    "name": "Sizilianische Verteidigung: Gloria-Variante",
+    "strategy": "Ein aggressiver Randbauernzug mit der Idee ...h4, der den Bauern auf g3 angreifen und den Aufbau von Weiß am Königsflügel stören würde. Er kostet ein Tempo und lockert den eigenen Königsflügel von Schwarz, sodass er spielbar und überraschend ist, aber nichts einbringt."
+  },
+  "1.e4 c5 2.c4 Nc6 3.Nc3": {
+    "strategy": "Der natürliche Entwicklungszug: Der Springer kontrolliert d5 und stützt e4. Weiß baut sich einen Halt im Zentrum auf und lässt die Wahl zwischen einer langsamen Stellungspartie und einem zentraleren Plan offen."
+  },
+  "1.e4 c5 2.c4 Nc6 3.Nc3 g6": {
+    "strategy": "Bereitet den Königsläufer auf der langen Diagonale vor, von wo aus er Druck auf das Zentrum und den Damenflügel ausübt. Schwarz kämpft nicht sofort um e5 und nimmt weniger Raum für eine kompakte, gesunde Stellung mit sicherem König in Kauf."
+  },
+  "1.e4 c5 2.c4 Nc6 3.Nc3 g6 4.g3": {
+    "strategy": "Bereitet den Läufer auf g2 und einen sicheren König vor. Weiß eilt im Zentrum nicht: Der Plan ist ein dauerhafter Raumvorteil und eine langsame Manövrierpartie statt schneller Taktik."
+  },
+  "1.e4 c5 2.c4 Nc6 3.Nc3 g6 4.g3 Bg7": {
+    "strategy": "Vollendet das Fianchetto von Schwarz: Der Läufer auf der langen Diagonale übt Druck auf d4 und auf den Springer auf c3 aus und macht den Weg zur Rochade frei. Beide Seiten haben nun den gleichen kompakten Aufbau und spielen auf kleine Stellungsvorteile."
+  },
+  "1.e4 c5 2.c4 Nc6 3.Nc3 g6 4.g3 Bg7 5.Bg2": {
+    "name": "Englische Symmetrievariante: Botwinnik-System",
+    "strategy": "Vollendet das Fianchetto von Weiß: Der Läufer schützt den Bauern auf e4, und der König ist einen Springerzug von der Rochade entfernt. Seine lange Diagonale ist vorerst vom eigenen Bauern versperrt, also spielt Weiß auf einen langsamen Aufbau mit Raum und Solidität."
+  },
+  "1.e4 c5 2.d3 Nc6 3.c3": {
+    "strategy": "Gibt dem Zentrum eine feste Basis: c3 stützt ein späteres d4 und nimmt dem Damenspringer das Feld c3. Weiß baut langsam und solide auf, hält die Optionen offen und vermeidet frühe Theorie."
+  },
+  "1.e4 c5 2.d3 Nc6 3.c3 d6": {
+    "strategy": "Baut eine solide Kette auf, öffnet den Läufer auf c8 und bereitet vor, das Zentrum von Weiß herauszufordern. Schwarz hält die Stellung gesund und flexibel und vermeidet eine Bauernstruktur, die Weiß angreifen könnte."
+  },
+  "1.e4 c5 2.d3 Nc6 3.c3 d6 4.f4": {
+    "name": "Sizilianische Verteidigung: Großer Klammeraufbau",
+    "strategy": "Gewinnt Raum am Königsflügel und bringt das Feld e5 unter Kontrolle, wodurch eine breite Bauernfront entsteht. Dahinter entstehen Löcher, vor allem auf e3 und g3, und Weiß legt sich auf einen Plan am Königsflügel fest, der schwer rückgängig zu machen ist."
+  },
+  "1.e4 c5 2.Na3 Nc6 3.d4": {
+    "strategy": "Spielt den üblichen zentralen Vorstoß, doch d4 ist zweimal angegriffen und nur von der Dame gedeckt, sodass dies ein Bauernangebot ist. Der Springer auf a3 kann nicht auf d4 zurückschlagen, der Zug hängt also von schnellem Figurenspiel ab, um sich auszuzahlen."
+  },
+  "1.e4 c5 2.Na3 Nc6 3.d4 cxd4": {
+    "strategy": "Nimmt den Bauern. Weiß kann nicht mit der Dame zurückschlagen, da ...Sxd4 sie gewinnen würde, sodass Schwarz den Mehrbauern vorerst behält. Der Preis ist Zeit: Nur der Springer ist entwickelt, und Weiß kann den Bauern mit natürlichen Zügen jagen."
+  },
+  "1.e4 c5 2.Na3 Nc6 3.d4 cxd4 4.Bc4": {
+    "name": "Sizilianische Verteidigung: Kronberger-Variante, Nemeth-Gambit",
+    "strategy": "Ein Gambit: Der Läufer zielt auf f7 und wird vom Springer auf a3 gestützt, doch der Bauer d4 bleibt bei Schwarz, und Weiß hat keinen unmittelbaren Weg, ihn zurückzugewinnen. Weiß spielt auf schnelle Entwicklung und Druck auf f7 gegen einen Bauern."
+  },
+  "1.e4 c5 2.Nf3 f5 3.exf5": {
+    "strategy": "Schlägt den Bauern und behält ihn: Das Gambit von Schwarz soll den e-Bauern des Weißen aus dem Zentrum ziehen, doch Weiß gewinnt schlicht einen Bauern. Die offenen Diagonalen, die Schwarz geschaffen hat, schwächen zudem die Felder e6 und e5 sowie den König, sodass sich Weiß in Ruhe entwickeln und die Kompensation von Schwarz verblassen lassen kann."
+  },
+  "1.e4 c5 2.Nf3 f5 3.exf5 Nh6": {
+    "name": "Sizilianische Verteidigung: Doppelholländisches Gambit",
+    "strategy": "Will den Bauern mit dem Springer zurückgewinnen, der f5 vom Brettrand aus angreift. Das ist langsam und umständlich: Der Springer leistet dort sonst wenig, und Weiß kann mit einem Bauern mehr einfach weiter entwickeln, solange der König von Schwarz auf der Diagonale e8-h5 noch ohne Deckung ist."
   }
 }

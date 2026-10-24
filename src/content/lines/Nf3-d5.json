@@ -1,5 +1,5 @@
 {
-  "about": "After 1.Nf3 d5: its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written.",
+  "about": "After 1.Nf3 d5: its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written. The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
   "positions": [
     {
       "line": "1.Nf3 d5",
@@ -747,6 +747,227 @@
     },
     {
       "line": "1.Nf3 d5 2.b3 d4"
+    },
+    {
+      "line": "1.Nf3 d5 2.b3 c5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nimzo-Larsen_Attack"
+      ],
+      "moves": [
+        {
+          "san": "c4",
+          "rating": 3
+        },
+        {
+          "san": "e4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.b3 c5 3.c4",
+      "moves": [
+        {
+          "san": "dxc4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.b3 c5 3.e4"
+    },
+    {
+      "line": "1.Nf3 d5 2.b3 c5 3.c4 dxc4",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.b3 c5 3.c4 dxc4 4.Nc3"
+    },
+    {
+      "line": "1.Nf3 d5 2.c4 dxc4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/R%C3%A9ti_Opening"
+      ],
+      "moves": [
+        {
+          "san": "e3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.c4 dxc4 3.e3",
+      "moves": [
+        {
+          "san": "Be6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.c4 dxc4 3.e3 Be6"
+    },
+    {
+      "line": "1.Nf3 d5 2.e3 c5",
+      "moves": [
+        {
+          "san": "c4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.e3 c5 3.c4",
+      "moves": [
+        {
+          "san": "dxc4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.e3 c5 3.c4 dxc4",
+      "moves": [
+        {
+          "san": "b3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.e3 c5 3.c4 dxc4 4.b3"
+    },
+    {
+      "line": "1.Nf3 d5 2.e3 Nf6",
+      "moves": [
+        {
+          "san": "c4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.e3 Nf6 3.c4",
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 5
+        },
+        {
+          "san": "c6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.e3 Nf6 3.c4 e6",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.e3 Nf6 3.c4 e6 4.Nc3",
+      "moves": [
+        {
+          "san": "Be7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.e3 Nf6 3.c4 e6 4.Nc3 Be7",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 Bg4",
+      "moves": [
+        {
+          "san": "Bg2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 Bg4 3.Bg2",
+      "moves": [
+        {
+          "san": "Nd7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 Bg4 3.Bg2 Nd7"
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 g6",
+      "moves": [
+        {
+          "san": "Bg2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 g6 3.Bg2",
+      "moves": [
+        {
+          "san": "Bg7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 g6 3.Bg2 Bg7",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 g6 3.Bg2 Bg7 4.O-O",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 g6 3.Bg2 Bg7 4.O-O e5",
+      "moves": [
+        {
+          "san": "d3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 g6 3.Bg2 Bg7 4.O-O e5 5.d3",
+      "moves": [
+        {
+          "san": "Ne7",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 g6 3.Bg2 Bg7 4.O-O e5 5.d3 Ne7"
     }
   ]
 }

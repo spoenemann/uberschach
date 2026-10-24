@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 d5 (Scandinavian Defence): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written.",
+  "about": "After 1.e4 d5 (Scandinavian Defence): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written. The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
   "positions": [
     {
       "line": "1.e4 d5",
@@ -456,6 +456,264 @@
     },
     {
       "line": "1.e4 d5 2.exd5 h5"
+    },
+    {
+      "line": "1.e4 d5 2.exd5 c6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Scandinavian_Defense"
+      ],
+      "moves": [
+        {
+          "san": "dxc6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 c6 3.dxc6",
+      "moves": [
+        {
+          "san": "Nxc6",
+          "rating": 3
+        },
+        {
+          "san": "e5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 c6 3.dxc6 Nxc6"
+    },
+    {
+      "line": "1.e4 d5 2.exd5 c6 3.dxc6 e5"
+    },
+    {
+      "line": "1.e4 d5 2.exd5 e5",
+      "moves": [
+        {
+          "san": "dxe6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 e5 3.dxe6",
+      "moves": [
+        {
+          "san": "Bxe6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 e5 3.dxe6 Bxe6"
+    },
+    {
+      "line": "1.e4 d5 2.f3 g6",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.f3 g6 3.d4",
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.f3 g6 3.d4 dxe4",
+      "moves": [
+        {
+          "san": "c3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.f3 g6 3.d4 dxe4 4.c3"
+    },
+    {
+      "line": "1.e4 d5 2.f4 dxe4",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.f4 dxe4 3.Nc3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.f4 dxe4 3.Nc3 Nf6",
+      "moves": [
+        {
+          "san": "Qe2",
+          "rating": 4
+        },
+        {
+          "san": "Nge2",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.f4 dxe4 3.Nc3 Nf6 4.Qe2",
+      "sources": [
+        "https://en.wikibooks.org/w/index.php?title=Chess_Opening_Theory/1._f4/1...d5/2._e4&action=raw"
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.f4 dxe4 3.Nc3 Nf6 4.Nge2"
+    },
+    {
+      "line": "1.e4 d5 2.g4 dxe4",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.g4 dxe4 3.Nc3",
+      "moves": [
+        {
+          "san": "h5",
+          "rating": 4
+        },
+        {
+          "san": "e5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.g4 dxe4 3.Nc3 h5"
+    },
+    {
+      "line": "1.e4 d5 2.g4 dxe4 3.Nc3 e5",
+      "moves": [
+        {
+          "san": "d3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.g4 dxe4 3.Nc3 e5 4.d3"
+    },
+    {
+      "line": "1.e4 d5 2.Nc3 dxe4",
+      "moves": [
+        {
+          "san": "Nxe4",
+          "rating": 5
+        },
+        {
+          "san": "Bc4",
+          "rating": 3
+        },
+        {
+          "san": "f3",
+          "rating": 2
+        },
+        {
+          "san": "d3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.Nc3 dxe4 3.Nxe4",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.Nc3 dxe4 3.Bc4"
+    },
+    {
+      "line": "1.e4 d5 2.Nc3 dxe4 3.f3"
+    },
+    {
+      "line": "1.e4 d5 2.Nc3 dxe4 3.d3"
+    },
+    {
+      "line": "1.e4 d5 2.Nc3 dxe4 3.Nxe4 e5"
+    },
+    {
+      "line": "1.e4 d5 2.Nf3 dxe4",
+      "moves": [
+        {
+          "san": "Ng5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.Nf3 dxe4 3.Ng5",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.Nf3 dxe4 3.Ng5 Nf6",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.Nf3 dxe4 3.Ng5 Nf6 4.Nc3",
+      "moves": [
+        {
+          "san": "Bf5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.Nf3 dxe4 3.Ng5 Nf6 4.Nc3 Bf5",
+      "moves": [
+        {
+          "san": "Qe2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.Nf3 dxe4 3.Ng5 Nf6 4.Nc3 Bf5 5.Qe2",
+      "moves": [
+        {
+          "san": "Qd4",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.Nf3 dxe4 3.Ng5 Nf6 4.Nc3 Bf5 5.Qe2 Qd4"
     }
   ]
 }

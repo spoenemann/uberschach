@@ -78,6 +78,8 @@
     "strategy": "Bereitet ...Lg7 und die schnelle Rochade vor und lässt offen, ob Schwarz sofort im Zentrum zuschlägt oder langsam aufbaut. Der Preis ist das Zentrum: Schwarz lässt es Weiß zuerst besetzen und setzt darauf, es später mit Bauernhebeln zu untergraben."
   },
   "1.Nf3 Nf6 2.c4 c5": {
+    "name": "Englische Symmetrievariante",
+    "background": "Dieselbe Stellung entsteht nach 1.c4 c5 2.Sf3 Sf6. Eine Variante daraus ist die Igel-Verteidigung mit 3.g3 b6 4.Lg2 Lb7 5.Sc3 e6 6.O-O Le7 7.d4 cxd4 8.Dxd4 d6; die Ideen des Igels wurden ursprünglich in der Englischen Eröffnung entwickelt, und in den 1970er-Jahren wurde er erstmals ausführlich analysiert.",
     "strategy": "Kontrolliert d4, so wie der weiße c-Bauer d5 kontrolliert, sodass Weiß das Zentrum nicht umsonst bekommt. Der Preis ist Raum: Kommt Weiß neben c4 auch zu e4, steht Schwarz beengt und braucht befreiende Hebel wie ...d5. Meist wird es ein manövrierender Kampf um d4 und d5."
   },
   "1.Nf3 Nf6 2.c4 b6": {
@@ -86,6 +88,7 @@
     "strategy": "Bereitet ...Lb7 vor, das die Kontrolle des Springers f6 über e4 und d5 verstärkt und die lange Diagonale besetzt. Schwarz stellt noch keinen Bauern ins Zentrum und kontrolliert es aus der Ferne, was Weiß die Wahl der Struktur überlässt."
   },
   "1.Nf3 Nf6 2.c4 d5": {
+    "name": "Englische Eröffnung: Anglo-Indische Verteidigung, Skandinavische Verteidigung",
     "strategy": "Greift c4 sofort an. Schlägt Weiß auf d5, hat der schwarze Springer zweimal gezogen, während Weiß mit Bauern ein Zentrum aufbaut. Der Zug ist solide, aber Weiß wählt die Struktur."
   },
   "1.Nf3 Nf6 2.c4 c6": {
@@ -142,6 +145,8 @@
     "strategy": "Stellt den Springer ein: 3.cxd5 gewinnt ihn glatt, da der Bauer d7 der Dame den Rückschlag verstellt und sonst nichts d5 deckt."
   },
   "1.Nf3 Nf6 2.g3 d5": {
+    "name": "Königsindischer Angriff",
+    "background": "Auf Großmeisterebene heute relativ selten, mit Bassem Amin als häufigstem Anwender auf hohem Niveau, auf Vereinsebene aber wegen seiner wiederkehrenden Mittelspielpläne beliebt. Der Trainer Mark Dworezki befürwortete das System und spielte es auch selbst.",
     "strategy": "Besetzt sofort das Zentrum und hält den Läufer c8 frei, sich außerhalb der Bauernkette zu entwickeln. Der Preis ist ein festgelegter d-Bauer, der Weiß ein klares Ziel für c4 bietet und den Aufbau mit d3 und e4 erlaubt. Die Partie wird meist geschlossen und strategisch, wobei Weiß das Tempo vorgibt."
   },
   "1.Nf3 Nf6 2.g3 g6": {
@@ -287,5 +292,101 @@
   },
   "1.Nf3 Nf6": {
     "name": "Zukertort-Eröffnung"
+  },
+  "1.Nf3 Nf6 2.a4 g6 3.b4": {
+    "name": "Zukertort-Eröffnung: Myers-Polnischer-Angriff",
+    "strategy": "Fügt einen zweiten Flankenbauernvorstoß hinzu, bevor Zentrum oder Figuren versorgt sind. Der Zug gewinnt Raum am Damenflügel und bereitet einen Läufer auf b2 vor, doch die Bauern auf a4 und b4 lassen sich nur durch Figuren verteidigen, und die lange Diagonale steht dem Fianchetto-Läufer von Schwarz offen, bis der eigene Läufer von Weiß eintrifft."
+  },
+  "1.Nf3 Nf6 2.b3 d5 3.Bb2": {
+    "strategy": "Vollendet das Fianchetto auf dem Damenflügel: Der Läufer blickt über die lange Diagonale auf f6 und zum Königsflügel, während der Bauer b3 das Feld c4 deckt. Weiß lässt Schwarz einen Bauern im Zentrum halten und plant, ihn aus der Distanz zu untergraben, statt das Zentrum zu besetzen; die Wahl des Bauerndurchbruchs behält er sich für später vor."
+  },
+  "1.Nf3 Nf6 2.b3 d5 3.Bb2 c5": {
+    "strategy": "Greift sofort d4 an, beansprucht Raum am Damenflügel und erschwert Weiß einen zentralen Vorstoß. Schwarz baut ein Bauernzentrum auf d5 und c5 auf, das Weiß mit Figurendruck zu untergraben versucht; die Partie dreht sich darum, ob dieses Zentrum sich als Stärke oder als Angriffsziel erweist."
+  },
+  "1.Nf3 Nf6 2.b3 d5 3.Bb2 g6": {
+    "strategy": "Spiegelt den Aufbau von Weiß: Der Fianchetto-Läufer wird dem Läufer auf b2 auf der langen Diagonale gegenüberstehen, während der Bauer d5 das Zentrum hält. Schwarz entscheidet sich für eine solide, ausgeglichene Partie statt für Raumgewinn am Damenflügel und hält den c-Bauern flexibel."
+  },
+  "1.Nf3 Nf6 2.b3 d5 3.Bb2 c5 4.e4": {
+    "name": "Larsen-Eröffnung: Norfolk-Gambit",
+    "strategy": "Ein Bauernangebot im Zentrum: Sowohl ...dxe4 als auch ...Sxe4 gewinnen ihn, da nichts ihn verteidigt. Weiß hofft, dass die Diagonale des Läufers, die sich nach g7 öffnet, wenn der Springer f6 schlägt, und schnelles Spiel gegen das Zentrum von Schwarz den Bauern aufwiegen, doch Weiß muss das Opfer erst rechtfertigen."
+  },
+  "1.Nf3 Nf6 2.b3 d5 3.Bb2 g6 4.c4": {
+    "strategy": "Greift den Bauern d5 sofort an, sodass Schwarz die Spannung im Zentrum auflösen muss, statt sich einfach zu entwickeln. Weiß kämpft mit einem Flügelbauern und einem Läufer auf der langen Diagonale statt mit einem Bauernzentrum um die Mitte und setzt den c-Bauern für Raumgewinn am Damenflügel ein."
+  },
+  "1.Nf3 Nf6 2.b3 d5 3.Bb2 g6 4.c4 c6": {
+    "name": "Réti-Eröffnung: Anglo-Slawische Variante, Bled-Variante",
+    "strategy": "Verteidigt d5 mit einem Bauern, sodass auf einen Schlag auf d5 ...cxd5 folgt und Schwarz einen Bauern im Zentrum behält. Der Zug errichtet eine solide Bauernwand, hinter der der Läufer g7 auf der langen Diagonale gegen den Läufer von Weiß wirkt, und hält die Struktur von Schwarz frei von Schwächen."
+  },
+  "1.Nf3 Nf6 2.b4 g6 3.Bb2": {
+    "name": "Sokolski-Eröffnung: Zukertort-System",
+    "strategy": "Bringt den Läufer sofort auf die lange Diagonale, wo er dem kommenden Fianchetto von Schwarz gegenübersteht und auf f6 drückt. Der Bauer b4 gewinnt Raum am Damenflügel, hat aber keinen Bauern hinter sich, sodass Weiß sich auf ein Flankenspiel festlegt: ein Fianchetto-Duell, in dem Weiß vom zusätzlichen Raum am Flügel zu profitieren hofft."
+  },
+  "1.Nf3 Nf6 2.c4 c5 3.Nc3": {
+    "strategy": "Entwickelt den Springer auf das Feld, das d5 und e4 überwacht, sodass der eigene zentrale Vorstoß von Schwarz schwer durchzusetzen ist. Weiß hält den zentralen Vorstoß in Reserve und spielt auf eine dauerhafte, leichte Initiative in einer spiegelbildlichen Bauernstruktur, in der beide Seiten dieselben Flankenbauern haben."
+  },
+  "1.Nf3 Nf6 2.c4 c5 3.b4": {
+    "name": "Englische Symmetrievariante: Napolitano-Gambit",
+    "strategy": "Bietet sofort einen Flankenbauern an, in der Hoffnung, den c-Bauern von Schwarz aus dem Zentrum abzulenken und Aktivität am Damenflügel zu gewinnen. Schwarz nimmt ihn einfach mit ...cxb4 und steht einen Bauern im Plus, und die Kompensation von Weiß ist dürftig, da nur der Springer f3 entwickelt ist, um die offenen Linien zu nutzen."
+  },
+  "1.Nf3 Nf6 2.c4 c6 3.b3": {
+    "strategy": "Stützt den Bauern c4 und bereitet den Läufer auf der langen Diagonale vor. Weiß lässt den d-Bauern zu Hause, will lieber sehen, wie Schwarz das Zentrum festlegt, und dann mit Figuren aus der Distanz um d5 kämpfen, nach Art einer flexiblen Flankeneröffnung."
+  },
+  "1.Nf3 Nf6 2.c4 c6 3.b3 d5": {
+    "strategy": "Nimmt das Zentrum sofort mit einem Bauern, den c6 bereits stützt, und greift den Bauern c4 an. Der Bauer b3 von Weiß hält ihn, sodass die Spannung stabil ist, und Schwarz erhält eine solide Struktur und einen klaren Anspruch auf das Zentrum."
+  },
+  "1.Nf3 Nf6 2.c4 c6 3.b3 d5 4.Bb2": {
+    "strategy": "Vollendet das Fianchetto: Der Läufer blickt auf die lange Diagonale und zum Königsflügel, während der Bauer b3 c4 gegen den Bauern d5 verteidigt hält. Weiß entscheidet sich für Figurendruck und Flexibilität statt für einen sofortigen zentralen Vorstoß und wartet auf den Plan von Schwarz für den weißfeldrigen Läufer."
+  },
+  "1.Nf3 Nf6 2.c4 c6 3.b3 d5 4.Bb2 Bf5": {
+    "name": "Réti-Eröffnung: Anglo-Slawische Variante, New-York-System",
+    "strategy": "Entwickelt den weißfeldrigen Läufer außerhalb der Bauernkette, solange es noch möglich ist, bevor ...e6 ihn einsperrt, und nimmt den Springer b1 und das Feld d3 ins Visier. Schwarz erhält eine aktive Figur umsonst und behält ein solides Zentrum; der Läufer muss später möglicherweise zurückweichen, wenn Weiß ihn herausfordert."
+  },
+  "1.Nf3 Nf6 2.c4 c6 3.b3 d5 4.Bb2 Bg4": {
+    "name": "Réti-Eröffnung: Anglo-Slawische Variante, Capablanca-Variante",
+    "background": "Benannt nach José Raúl Capablanca.",
+    "strategy": "Setzt den Springer f3 unter Druck, den nur der e- und der g-Bauer verteidigen, und droht, ihn abzutauschen und ihm die Kontrolle über e5 und d4 zu nehmen. Schwarz bringt den Läufer außerdem vor ...e6 heraus, um den Preis eines Tempos, das die Figuren von Weiß zu nutzen versuchen können."
+  },
+  "1.Nf3 Nf6 2.c4 c6 3.b3 d5 4.Bb2 Bf5 5.e3": {
+    "name": "Réti-Eröffnung: Anglo-Slawische Variante, New-York-System",
+    "strategy": "Öffnet die Diagonale des Läufers f1 und bereitet in einem soliden Aufbau eine schnelle Rochade vor. Weiß lässt den Läufer von Schwarz vorerst auf seiner aktiven Diagonale und entscheidet den zentralen Plan später, da er solide Entwicklung einem frühen Versuch vorzieht, den Läufer zu vertreiben."
+  },
+  "1.Nf3 Nf6 2.c4 c6 3.b3 d5 4.Bb2 Bf5 5.d3": {
+    "name": "Réti-Eröffnung: Anglo-Slawische Variante, New-York-System",
+    "strategy": "Nimmt dem Läufer f5 auf d3 den Blick auf den Springer b1 und deckt e4, doch der Bauer auf d3 sperrt auch die Diagonale des Läufers f1, der auf anderem Weg herauskommen muss. Ein bescheidener Zug, der die eigene Entwicklung von Weiß verlangsamt, um die Aktivität von Schwarz zu verringern."
+  },
+  "1.Nf3 Nf6 2.c4 c6 3.b3 d5 4.Bb2 Bg4 5.e3": {
+    "name": "Réti-Eröffnung: Anglo-Slawische Variante, Capablanca-Variante",
+    "strategy": "Öffnet die Diagonale des Läufers f1 und bereitet eine schnelle Entwicklung vor. Tauscht Schwarz auf f3, schlägt die Dame zurück, ohne die Bauern von Weiß zu beschädigen. Eine solide, flexible Antwort, die das Zentrum in Reserve hält und Schwarz die Entscheidung überlässt, ob er den Läufer abtauscht."
+  },
+  "1.Nf3 Nf6 2.c4 c6 3.b3 d5 4.Bb2 Bg4 5.d3": {
+    "name": "Réti-Eröffnung: Anglo-Slawische Variante, Capablanca-Variante",
+    "strategy": "Hält den e-Bauern flexibel und unterstützt einen späteren zentralen Vorstoß, doch der Bauer auf d3 sperrt die Diagonale des Läufers f1, sodass dieser nur nach e2 oder nach einem Fianchetto auf dem Königsflügel herauskommen kann. Ein bescheidener Aufbau, der sich langsamer entwickelt als die Alternative."
+  },
+  "1.Nf3 Nf6 2.c4 d5 3.cxd5": {
+    "strategy": "Schlägt den Bauern, um das Zentrum zu räumen: Der c-Bauer wird gegen den d-Bauern von Schwarz getauscht, sodass Weiß in der Mitte d- und e-Bauern gegen den einzelnen e-Bauern von Schwarz hat. Die Partie dreht sich dann darum, ob diese zentrale Mehrheit die Aktivität aufwiegt, die die Figuren von Schwarz gewinnen."
+  },
+  "1.Nf3 Nf6 2.c4 d5 3.cxd5 Nxd5": {
+    "name": "Englische Eröffnung: Anglo-Indische Verteidigung, Skandinavische Verteidigung, Abtauschvariante",
+    "strategy": "Schlägt mit dem Springer zurück, der damit das beste zentrale Feld erreicht und die Dame zu Hause lässt. Schwarz hat den d-Bauern gegen den c-Bauern von Weiß getauscht und spielt auf Figurenaktivität gegen die zentrale Bauernmehrheit von Weiß, muss aber darauf achten, keine Zeit zu verlieren, wenn der Springer herausgefordert wird."
+  },
+  "1.Nf3 Nf6 2.g3 d5 3.Bg2": {
+    "strategy": "Entwickelt den Läufer auf seinen Posten auf der langen Diagonale und bereitet die Rochade vor. Weiß hat einen flexiblen Aufbau: Das Zentrum kann mit dem e-Bauern oder mit dem c-Bauern genommen werden, und Schwarz muss entscheiden, wie er einem System statt einem bestimmten Zug begegnet."
+  },
+  "1.Nf3 Nf6 2.g3 d5 3.Bg2 c6": {
+    "strategy": "Stützt den d5-Bauern und lässt den Damenläufer frei, sich außerhalb der Bauernkette zu entwickeln. Ein solider, kompakter Aufbau, der den eingesperrten Läufer vermeidet, den die andere natürliche Verteidigung mit sich bringt."
+  },
+  "1.Nf3 Nf6 2.g3 d5 3.Bg2 e6": {
+    "name": "Königsindischer Angriff, mit e6",
+    "strategy": "Stützt d5 und öffnet den Weg für den Königsläufer. Der Zug ist solide, aber der Damenläufer ist hinter den Bauern e6 und d5 eingesperrt, sodass Schwarz einen Plan finden muss, ihn ins Spiel zu bringen, während Weiß geduldig aufbaut."
+  },
+  "1.Nf3 Nf6 2.g3 d5 3.Bg2 e6 4.O-O": {
+    "strategy": "Rochiert, bevor das Zentrum festgelegt wird. Der Aufbau von Weiß ist vollständig, und die Wahl des zentralen Plans bleibt offen, was die Stärke des Systems ist: Schwarz muss erraten, welcher Bauerndurchbruch kommt."
+  },
+  "1.Nf3 Nf6 2.g3 d5 3.Bg2 e6 4.O-O Be7": {
+    "name": "Königsindischer Angriff, mit e6",
+    "strategy": "Bringt den Königsläufer heraus und bereitet die Rochade vor, wobei die Stellung kompakt und sicher bleibt. Schwarz steht solide, wartet aber noch: Weiß hat die Entwicklung abgeschlossen und kann den passenden Plan wählen."
+  },
+  "1.Nf3 Nf6 2.g3 d5 3.Bg2 e6 4.O-O Be7 5.c4": {
+    "strategy": "Gibt den langsameren Plan mit dem e-Bauern auf und drückt direkt auf den d5-Bauern. Die Stellung nimmt den Charakter einer geschlossenen Partie an, in der die Figuren von Weiß und der c-Bauer gemeinsam das Zentrum von Schwarz prüfen."
   }
 }

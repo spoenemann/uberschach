@@ -31,6 +31,8 @@
     "strategy": "Die Hauptantwort: Schwarz nimmt den e4-Bauern, und da Weiß auf e5 zurückschlagen kann, werden die Bauern einfach getauscht. Der vorgerückte Springer braucht Unterstützung, aber die folgenden symmetrischen Stellungen sind die solideste Art, dem frühen Zentrumsstoß zu begegnen, und geben Weiß höchstens eine kleine Initiative."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4 exd4": {
+    "name": "Russische Verteidigung: Moderner Angriff",
+    "background": "David Hooper empfahl ihn in seinem Buch von 1967 über 1.e4 e5. Heute ist er eine unbedeutende Nebenvariante im modernen Turnierschach, in dem 3...Sxe4 klar bevorzugt wird.",
     "strategy": "Nimmt den Bauern auf d4 und behält vorerst den Mehrbauern, öffnet aber die e-Linie, während der König noch im Zentrum steht. Weiß gewinnt den Bauern mit Tempo durch einen Angriff auf den Springer zurück, sodass Schwarz Zeit mit dem Rückzug verliert. Solide und spielbar, aber passiver als die Hauptantwort."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4 d5": {
@@ -41,15 +43,199 @@
     "strategy": "Entwickelt den anderen Springer, die häufigste und angesehenste Antwort. Beide Seiten haben nun beide Springer entwickelt, und die Partie nimmt einen symmetrischen, klassischen Verlauf, der die für diese Verteidigung typischen Varianten vermeidet. Schwarz steht solide und ausgeglichen, Weiß hat wenig zu beanspruchen."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6": {
+    "name": "Russische Verteidigung",
+    "background": "Carl Jaenisch hob Alexander Petrows eigenständige Wiederentdeckung von Cozios 3.Sxe5 d6 hervor, das er dem Zug 3...Dd7 vorzog.",
     "strategy": "Greift den Springer auf e5 an und vertreibt ihn, bevor Schwarz den Bauern zurücknimmt. Das ist der solide Weg zum Ausgleich: Sobald der Springer die e-Linie verlassen hat, kann Schwarz auf e4 schlagen, ohne in Taktik zu laufen. Die Partie ist nahezu ausgeglichen, Weiß hat eine kleine Initiative."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nxe4": {
+    "name": "Russische Verteidigung: Damiano-Variante",
+    "background": "Von Pedro Damiano in seinem „Libro da Imparare a Giocare a Scacchi“ eingeführt, einem der ältesten Bücher über Schach nach den „modernen Regeln“. Er gilt meist als Fehler, wurde aber gelegentlich im Spitzenschach der letzten Jahre gesehen.",
     "strategy": "Schlägt sofort zurück, aber die offene e-Linie bestraft das: Die Dame greift e4 von e2 aus an, ein Springerzug deckt einen Abzugsschach auf, sodass das natürlich wirkende ...Sf6 die Dame an Sc6+ verliert. Schwarz muss genaue Züge finden, um zu überleben, und steht dennoch schlechter."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6": {
+    "name": "Russische Verteidigung: Stafford-Gambit",
+    "background": "Benannt nach Joseph Stafford, einem Fernschachspieler, der 1950 damit eine bemerkenswerte Partie in sechs Zügen gewann. Die älteste bekannte Partie stammt aus einer Simultanvorstellung von Howard Staunton 1857, in der er als Schwarzer verlor. Die Variante blieb bis Anfang der 2020er-Jahre unbekannt, als Eric Rosens Partien sie im Online-Blitz populär machten.",
     "strategy": "Bietet den e-Bauern für eine offene d-Linie, einen aktiven Läufer c8 und einen sofortigen Angriff auf e4 an, der gegen den Königsflügel von Weiß zielt. Antwortet Weiß ruhig, hat Schwarz keine echte Kompensation für den Bauern, aber viele natürlich wirkende Züge von Weiß laufen in Taktik."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Qe2 Nc6": {
     "strategy": "Eine natürliche Entwicklungsantwort: Der Springer deckt e5 und kämpft um d4, während die weiße Dame, die vor ihrem eigenen Läufer steht, nichts anzugreifen hat. Schwarz entwickelt sich mühelos und kann das Zentrum anstreben."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Bc4 Nxe4 4.Nc3": {
+    "name": "Läuferspiel: Boden-Kieseritzky-Gambit",
+    "background": "Benannt nach Samuel Boden und Lionel Kieseritzky; Boden veröffentlichte 1851 die erste Analyse davon.",
+    "strategy": "Gibt den Bauern für die Entwicklung: Der Springer greift den Bauern auf e4 an, und nach einem Abtausch schlägt Weiß mit dem d-Bauern zurück, was den Läufer c1 und die d-Linie öffnet; die Idee ist Sg5 gegen f7. Es reicht nicht ganz für den Bauern, weil Schwarz sich genau verteidigen kann, ist aber gegen sorglose Spielweise gefährlich."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Bc4 Nxe4 4.Nc3 d5": {
+    "name": "Läuferspiel: Boden-Kieseritzky-Gambit, Lichtenhein-Verteidigung",
+    "strategy": "Deckt den Springer mit einem Bauern und greift im selben Zug den Läufer an; Schwarz nimmt sich einen Teil des Zentrums, statt auf c3 zu schlagen. Weiß muss die Spannung sofort auflösen, und die Partie wird offen und taktisch. Eine spielbare Alternative zum Hauptschlag."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5": {
+    "strategy": "Greift den Springer sofort an und gewinnt Raum, solange der Bauer auf d4 noch hängt. Schwarz muss Zeit für den Springerzug aufwenden, und Weiß gewinnt den Bauern mit der aktiveren Stellung zurück, sodass der Mehrbauer von Schwarz nicht lange besteht."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4": {
+    "strategy": "Hält den Springer im Zentrum, statt ihn an den Rand zurückzuziehen. Er steht ungedeckt auf e4, sodass Weiß den d4-Bauern mit einem Angriff auf ihn zurückgewinnen kann und Schwarz ihn sofort mit einem Bauern stützen muss; dafür erhält Schwarz ein offenes, aktives Spiel."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qxd4": {
+    "name": "Russische Verteidigung: Moderner Angriff, Zentrumsangriff",
+    "strategy": "Gewinnt den Bauern mit der Dame zurück, die dadurch zentralisiert wird und zugleich den Springer auf e4 angreift. Schwarz muss ihn decken oder ziehen, und die Dame auf d4 ist später den Entwicklungszügen von Schwarz ausgesetzt. Es entsteht ein offenes Spiel, in dem Weiß einen kleinen Vorteil behält und beide Könige Vorsicht brauchen."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qe2": {
+    "name": "Russische Verteidigung: Moderner Angriff, Steinitz-Variante",
+    "background": "Wilhelm Steinitz führte die Variante in seinem Buch von 1889 ein, in dem er 5.De2 gegenüber dem natürlich wirkenden 5.Dxd4 empfahl.",
+    "strategy": "Greift den Springer von einem sicheren Feld aus an und bereitet vor, auf d4 mit dem Springer zurückzunehmen. Außerdem stellt der Zug eine Falle: Die Verteidigung mit ...d5 scheitert an exd6 en passant, was den Springer entlang der e-Linie am König fesselt. Schwarz muss den Springer erneut ziehen, kann aber ausgleichen."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Bb5": {
+    "name": "Russische Verteidigung: Moderner Angriff, Tal-Gambit",
+    "strategy": "Fesselt den d-Bauern, sodass Schwarz den Springer auf e4 nicht mit ...d5 stützen kann, und behält die Option, den d4-Bauern durch einen Angriff auf den Springer zurückzugewinnen. Der Läufer geht auf ein Feld, wo ihn ...c6 mit Tempo herausfordert, und die Entwicklung von Weiß stockt. Abseitig und zweischneidig."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qe2 Nc5": {
+    "strategy": "Zieht den Springer aus dem Angriff der Dame auf ein Feld, von dem aus er e4 und d3 im Blick hat, und nimmt hin, dass Weiß den d4-Bauern zurückgewinnt. Schwarz hält die Figur aktiv und die Struktur solide, aber Weiß hat mehr Raum, und der Springer auf c5 steht dem Läufer f8 im Weg."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qe2 Nc5 6.Nxd4": {
+    "strategy": "Gewinnt den Bauern mit dem Springer zurück, der auf einem starken Zentrumsfeld landet und c6 und e6 im Blick hat, während die Dame auf e2 den Bauern auf e5 deckt. Das Material ist ausgeglichen und Weiß hat den Raum, aber der Springer auf d4 ist nicht gedeckt, was Schwarz sofort nutzen kann."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qe2 Nc5 6.Nxd4 Nc6": {
+    "name": "Russische Verteidigung: Moderner Angriff, Bardeleben-Variante",
+    "strategy": "Entwickelt sich mit einem Doppelangriff: Der Springer greift den ungedeckten Springer auf d4 und den Bauern auf e5 an, sodass Weiß die Spannung sofort auflösen muss. Schwarz hat das Material zurückgewonnen und entwickelt sich frei, und der nur von der Dame gedeckte Bauer auf e5 bleibt ein Angriffsziel."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3": {
+    "name": "Russische Verteidigung: Moderner Angriff, Zentrumsvariante",
+    "strategy": "Entwickelt den Läufer mit einem direkten Angriff auf den Springer auf e4, sodass Schwarz ihn decken oder eine taktische Antwort vorbereiten muss, und lässt Weiß die Freiheit, später auf e5 zurückzunehmen. Weiß steht nur vorübergehend einen Bauern zurück und hat die aktivere Entwicklung."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5": {
+    "strategy": "Stützt den Springer mit einem Bauern, nimmt einen Teil des Zentrums und öffnet den Läufer c8. Die Struktur ist symmetrisch, sobald Weiß auf e5 zurücknimmt, und der Springer steht auf e4 gut; der Preis ist, dass der d-Bauer den Springer von Weiß nicht mehr von e5 vertreiben kann."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 Nc6": {
+    "name": "Russische Verteidigung: Moderner Angriff, Murrey-Variante",
+    "strategy": "Lässt den Springer auf e4 als Köder ungedeckt: Nimmt Weiß ihn mit dem Läufer, lässt ...d5 dem Läufer keinen guten Rückzug, und ...e4 gabelt Läufer und Springer und gewinnt die Figur zurück. Lehnt Weiß ab, hat Schwarz sich schnell entwickelt, überlässt Weiß aber die Wahl der Struktur, und Weiß behält einen kleinen Vorteil."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.Nxe5": {
+    "strategy": "Nimmt den Bauern zurück, stellt die Materialgleichheit wieder her und zentralisiert den Springer, den der d-Bauer deckt. Schwarz kann ihn nicht mehr mit ...d6 vertreiben, weil der Bauer schon auf d5 steht, und muss ihn auf andere Weise herausfordern. Die Stellung ist symmetrisch und ausgeglichen, wobei der Springer von Weiß die aktivere Figur ist."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.Nxe5 Bd6": {
+    "strategy": "Fordert den Springer auf e5 sofort heraus und entwickelt den Läufer für die Rochade, wobei die Stellung vollkommen symmetrisch bleibt. Eine solide Wahl, die einst eine Hauptantwort war und heute seltener gespielt wird als die Alternativen."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.Nxe5 Bd6 6.O-O": {
+    "strategy": "Rochiert, um den König zu sichern, bevor sich die Stellung öffnet. Der Springer auf e5 wird vom d-Bauern gedeckt, sodass der Angriff des Läufers Weiß nichts kostet, und Weiß bereitet vor, das Zentrum von Schwarz herauszufordern. Die Partie bleibt symmetrisch und ausgeglichen."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.Nxe5 Bd6 6.O-O O-O": {
+    "strategy": "Spiegelt Weiß: Der König ist sicher und die Struktur bleibt vollkommen symmetrisch. Keine Seite hat sofort einen klaren Weg zum Vorteil, und die Partie hängt davon ab, wer den vorgerückten Springer des Gegners besser herausfordern kann, der von Schwarz auf e4 oder der von Weiß auf e5."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3": {
+    "name": "Russische Verteidigung",
+    "strategy": "Bringt den Springer auf sein bestes Feld zurück, von dem aus er das Zentrum und den Königsflügel deckt. Schwarz nimmt den e4-Bauern, das Material ist ausgeglichen, und die Frage lautet, ob Weiß den vorgerückten schwarzen Springer zu einem akzeptablen Preis vertreiben kann."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nd3": {
+    "name": "Russische Verteidigung: Karklins-Martinovsky-Variante",
+    "background": "Karklins-Martinovsky-Variante genannt; der US-amerikanische Meister Andrew Karklins experimentierte damit. Magnus Carlsen spielte sie im WM-Kampf 2018 gegen Fabiano Caruana.",
+    "strategy": "Zieht den Springer nach d3 zurück, wo er vorerst den d-Bauern blockiert, aber nach f4 strebt, und weicht der viel analysierten Hauptvariante aus. Schwarz nimmt einfach den e4-Bauern mit Ausgleich: Der Zug ist solide, kostet aber Zeit und gibt Weiß keinen echten Vorteil."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nc4": {
+    "name": "Russische Verteidigung: Paulsen-Angriff",
+    "background": "De Firmian nannte ihn „ineffective“, obwohl er gelegentlich auf Großmeisterebene zu sehen ist.",
+    "strategy": "Zieht sich nach c4 zurück, wodurch der d-Bauer frei vorrücken kann, doch der Springer steht dort unglücklich: Hat Schwarz auf e4 geschlagen, vertreibt ihn ...d5 erneut, und Weiß verliert Zeit. Solide, aber wirkungslos; der Springer landet meist auf e3."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7": {
+    "name": "Russische Verteidigung: Cochrane-Gambit",
+    "background": "Nick de Firmian nannte ihn in „Modern Chess Openings“ „speculative but entertaining“ und beurteilte die Stellung der Partie Topalow–Kramnik, Linares 1999, als für beide Seiten chancenreich.",
+    "strategy": "Gibt einen Springer für einen Bauern, um den König herauszuziehen: Er kann nicht mehr rochieren, und Weiß hofft, Initiative und schnelle Entwicklung gegen ihn zu nutzen. Die Kompensation ist spekulativ, denn eine Figur ist viel, und Schwarz steht klar besser, wenn der Angriff verpufft."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4": {
+    "name": "Russische Verteidigung",
+    "strategy": "Nimmt den Bauern jetzt zurück, da die e-Linie frei ist, stellt die Materialgleichheit wieder her und setzt den Springer auf ein aktives Zentrumsfeld. Weiß wird versuchen, ihn zu vertreiben oder zu untergraben, und die Aufgabe von Schwarz ist es, den Springer zu stützen und ein solides Zentrum zu behalten."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7 Kxf7": {
+    "strategy": "Schlägt den Springer: Schwarz nimmt das Opfer an und steht mit einer Figur für zwei Bauern im Plus. Der Preis ist der König, der aus seiner Ecke gezogen wurde und nicht mehr rochieren kann. Schwarz muss ihn daher in Sicherheit bringen und notfalls Material zurückgeben, während Weiß auf die Initiative spielt."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4": {
+    "name": "Russische Verteidigung: Klassischer Angriff",
+    "background": "Der beliebteste fünfte Zug von Weiß und die Hauptvariante der Klassischen Variante.",
+    "strategy": "Besetzt das Zentrum und bereitet vor, den vorgerückten Springer mit dem Läufer herauszufordern. Schwarz stützt ihn mit einem Bauern, und die folgenden symmetrischen Strukturen geben Weiß eine kleine Initiative, aber nicht viel mehr. Die Hauptwahl, weil sie um Raum kämpft, statt zum Abtausch zu eilen."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.Nc3": {
+    "name": "Russische Verteidigung: Nimzowitsch-Angriff",
+    "background": "Die wichtigste Nebenvariante zu 5.d4. Viswanathan Anand gab gegen Alonso Zapata in Biel 1988 schon nach sechs Zügen auf, nachdem er in dieser Variante auf eine Falle hereingefallen war.",
+    "strategy": "Bietet den Tausch des Springers auf e4 an und setzt auf rasche Entwicklung: Nach dem Tausch nimmt Weiß mit dem d-Bauern zurück, was die Dame und den Läufer c1 öffnet und die lange Rochade für einen Angriff auf den Königsflügel erlaubt. Weiß nimmt Doppelbauern auf der c-Linie für die Initiative in Kauf. Schwarz muss ...Lf5?? vermeiden, das eine Figur an De2 verliert."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.Qe2": {
+    "name": "Russische Verteidigung: Cozio-Angriff",
+    "background": "Die häufigste Fortsetzung im Amateurbereich.",
+    "strategy": "Fesselt den Springer entlang der offenen e-Linie am König, sodass Schwarz die Fesselung lösen und mit der Dame decken muss; deckt er stattdessen mit einem Bauern, verliert er den Springer an d3. Die Partie läuft dann auf einen frühen Damentausch und ein remisliches Endspiel zu, in dem keine Seite viel Spielraum hat."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d3": {
+    "name": "Russische Verteidigung: Französischer Angriff",
+    "strategy": "Vertreibt den Springer sofort mit einem Bauern. Schwarz zieht ihn verlustfrei zurück, und Weiß folgt meist mit d4, um ein symmetrisches Zentrum aufzubauen; der d-Bauer hat für die beiden Springerzüge zwei Züge gemacht, sodass sich die Tempi aufheben und die Partie ausgeglichen und ruhig ist."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.c4": {
+    "name": "Russische Verteidigung: Kaufmann-Angriff",
+    "background": "Keres untersuchte ihn.",
+    "strategy": "Nimmt dem Bauern von Schwarz das Feld d5 weg, sodass der Springer dort nicht mehr gestützt werden kann, sobald d4 und der Läufer da sind. Der Plan ist langsam, und Schwarz zieht den Springer einfach auf ein sicheres Feld zurück oder entwickelt sich und fordert das Zentrum heraus; er erreicht Ausgleich."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.Bd3": {
+    "name": "Russische Verteidigung: Millennium-Angriff",
+    "strategy": "Greift den Springer mit einem Entwicklungszug direkt an, doch der Läufer blockiert den eigenen d-Bauern und muss erneut ziehen, bevor das Zentrum aufgebaut werden kann. Schwarz zieht den Springer zurück, und die Struktur von Weiß ist unbequem, weshalb der Zug selten gespielt wird."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5": {
+    "strategy": "Stützt den Springer mit einem Bauern, besetzt das Zentrum und öffnet den Läufer c8. Das ist die Standardantwort und gibt Schwarz eine solide, symmetrische Struktur; die Aufgabe von Weiß ist es, den vorgerückten Springer zu vertreiben, die von Schwarz, ihn zu sichern."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 Nf6": {
+    "name": "Russische Verteidigung: Klassischer Angriff, Geschlossene Variante",
+    "strategy": "Ein ruhiger Rückzug: Der Springer geht nach Hause, und Weiß behält den weiter vorgerückten d-Bauern, sodass Schwarz aktives Spiel aufgegeben hat und Weiß die Initiative des ersten Zuges behält. Solide, aber passiv."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5 6.Bd3": {
+    "strategy": "Greift den Springer an und bereitet die Rochade vor. Weiß wird nun versuchen, den vorgerückten Springer durch zusätzlichen Druck zu vertreiben, was meist eine strukturelle Konzession kostet, die den Gewinn ausgleicht. Die Stellung ist symmetrisch, aber Schwarz hat einen Springerzug mehr gemacht."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5 6.Bd3 Be7": {
+    "strategy": "Entwickelt den Läufer auf sein sicherstes Feld und bereitet die Rochade vor, sodass der König Schutz hat, bevor Weiß den vorgerückten Springer zu untergraben beginnt. Das ist die solideste Aufstellung, wenn auch der Läufer auf e7 passiv steht."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5 6.Bd3 Nc6": {
+    "name": "Russische Verteidigung: Klassischer Angriff, Mason-Showalter-Variante",
+    "strategy": "Entwickelt den Springer mit Druck auf d4 und bereitet die Rochade vor. Die Partie erreicht normalerweise dieselben Stellungen wie mit dem ruhigeren Läuferzug, da Schwarz beides will, aber Schwarz behält die Wahl, wohin der Läufer geht."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5 6.Bd3 Bd6": {
+    "name": "Russische Verteidigung: Klassischer Angriff, Marshall-Variante",
+    "background": "Benannt nach Frank Marshall, der darin 8...Lg4 spielte.",
+    "strategy": "Stellt den Läufer auf die Diagonale zum König von Weiß, wo er h2 im Blick hat, und hält die Stellung vollkommen symmetrisch. Aktiver als der ruhige Läuferzug, und die Partie bleibt ausgeglichen."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7 Kxf7 5.Bc4+": {
+    "name": "Russische Verteidigung: Cochrane-Gambit, Läuferschach-Variante",
+    "strategy": "Gibt Schach, damit der König dauerhaft im Freien bleibt, da er nicht mehr rochieren kann, und der Läufer nimmt die Felder um ihn herum ins Visier. Weiß hat einen Springer für zwei Bauern geopfert, deshalb darf der Angriff nicht an Tempo verlieren; Schwarz kann den Schutz einstellen und dann den Läufer mit einem Bauern herausfordern."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7 Kxf7 5.d4": {
+    "name": "Russische Verteidigung: Cochrane-Gambit, Zentrumsvariante",
+    "strategy": "Besetzt das Zentrum und öffnet den Läufer c1, solange der König noch gestrandet ist; dabei hat Weiß e5 im Blick, um den Springer zu vertreiben. Der Bauer e4 bleibt ohne Verteidiger, doch ihn zu nehmen verliert: ...Sxe4 läuft in Dh5+, und nach Dd5+ gewinnt Weiß den Springer zurück."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6": {
+    "strategy": "Schlägt den angebotenen Springer und behält den Mehrbauern. Der Abtausch von Figuren bringt die Seite, die vorn liegt, der Festigung ihres Vorteils näher. Das Rückschlagen öffnet Linien für Schwarz, deshalb muss Weiß nun auf e4 und den Königsflügel achten."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6": {
+    "name": "Russische Verteidigung: Angenommenes Stafford-Gambit",
+    "strategy": "Der Sinn des Gambits: Schwarz gibt einen Bauern her und nimmt Doppelbauern auf der c-Linie in Kauf, um die d-Linie für die Dame und die Diagonale für den Läufer c8 zu öffnen. Der Bauer e4 wird bereits angegriffen und ist ungedeckt, deshalb muss Weiß sofort reagieren."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6 5.d3": {
+    "strategy": "Die solide Antwort: Ein Bauer deckt e4, der Läufer c1 wird frei, und Weiß gibt nichts zurück. Der Aufbau wirkt passiv, doch er behält den Mehrbauern und überlässt es Schwarz, die Kompensation zu beweisen, während Weiß die Taktik rund um f2 vermeiden muss."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6 5.Nc3": {
+    "strategy": "Deckt e4 mit einer Figur, die sich zugleich entwickelt, und lässt den d-Bauern frei. Das ist weniger solide als die Verteidigung mit dem Bauern: Ein Läufer auf c5 und ein Springer auf g4 können gemeinsam auf f2 zielen, deshalb muss Weiß den Königsflügel im Auge behalten, während der Mehrbauer gesichert wird."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6 5.d3 Bc5": {
+    "name": "Russische Verteidigung: Angenommenes Stafford-Gambit",
+    "strategy": "Richtet den Läufer auf f2, das nur der König deckt, und macht natürliche Entwicklungszüge zu Fallen: Nach 6.Lg5? Sxe4! ist die Dame angegriffen, und 7.Lxd8 Lxf2+ 8.Ke2 Lg4 ist Matt. Die Kompensation von Schwarz beruht auf solcher schnellen Taktik, nicht auf der Struktur."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6 5.Nc3 Bc5": {
+    "name": "Russische Verteidigung: Angenommenes Stafford-Gambit",
+    "strategy": "Derselbe Gedanke gegen einen anderen Aufbau: Der Läufer setzt f2 unter Druck, wo nur der König wacht, und ...Sg4 kann einen zweiten Angreifer hinzufügen. Mit dem Springer auf c3 bleibt der d-Bauer frei, doch Weiß muss einen Weg finden, seinen Vorteil zu festigen."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nxe4 4.Qe2": {
+    "strategy": "Greift den Springer an und stellt die Dame hinter ihm auf der offenen e-Linie auf. Zieht der Springer weg, kann der weiße Springer mit Abzugsschach ziehen, weshalb ...Sf6?? sofort an Sc6+ scheitert und die Dame verliert. Schwarz muss die beste Verteidigung finden."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nxe4 4.Qe2 Qe7": {
+    "name": "Russische Verteidigung: Damiano-Variante, Cholmow-Gambit",
+    "background": "Pedro Damiano gab 4.De2 De7 in seinem Libro da Imparare a Giocare a Scacchi an, einem der ältesten Bücher über Schach nach den modernen Regeln; die Linie trägt heute den Namen Kholmov-Gambit.",
+    "strategy": "Die beste Antwort von Schwarz: Die Dame tritt auf die e-Linie, sodass nach dem Schlagen des Springers auf e4 der weiße Springer auf e5 an seine Dame gefesselt ist und mit ...d6 angegriffen werden kann. Schwarz endet einen Bauern zurück, dafür mit offenen Linien und schneller Entwicklung; Weiß behält einen kleinen Vorteil."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Qe2 Nc6 4.d4": {
+    "name": "Russische Verteidigung: Moody-Gambit",
+    "strategy": "Bietet den d-Bauern an, um das Zentrum zu öffnen: Nach ...exd4 kann der Springer nicht einfach zurückschlagen, da ...Sxd4 ihn gewinnen würde. Doch die Dame versperrt weiterhin den Läufer f1, und der Bauer e4 steht unter Angriff, sodass Weiß für den Bauern wenig vorzuweisen hat."
   }
 }

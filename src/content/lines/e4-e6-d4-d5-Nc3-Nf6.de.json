@@ -25,12 +25,18 @@
     "name": "Französische Verteidigung: Henneberger-Variante"
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7": {
+    "name": "Französische Verteidigung: Klassische Variante, Normalvariante",
+    "background": "Die Linie 4.Lg5 Le7 5.e5 Sfd7 6.Lxe7 Dxe7 war einst die Hauptvariante der Französischen Verteidigung; die Burn-Variante (4...dxe4) hat 4...Le7 an Beliebtheit inzwischen überholt.",
     "strategy": "Die klassische Art, die Fesselung zu beantworten: Der Läufer deckt dazwischen, sodass der Springer auf f6 nicht mehr an der Dame hängt und bei e5 zurückweichen kann. Schwarz nimmt etwas weniger Raum für eine gesunde Struktur in Kauf und plant, mit ...c5 das Zentrum zurückzuschlagen."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 dxe4": {
+    "name": "Französische Verteidigung: Klassische Variante, Burn-Variante",
+    "background": "Benannt nach Amos Burn. Sie ist auf Spitzenniveau die häufigste Antwort auf 4.Lg5 und seit langem ein Liebling von Jewgeni Bareew.",
     "strategy": "Nimmt den Bauern, bevor Weiß ihn vorstoßen kann, sodass e5 keine Drohung mehr ist. Nach der Wiedernahme sind die Figuren von Weiß aktiv, doch Schwarz hat ein solides Spiel, oft mit dem Läuferpaar, und schlägt mit ...c5 ins Zentrum zurück."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4": {
+    "name": "Französische Verteidigung: McCutcheon-Variante",
+    "background": "Benannt nach John Lindsay McCutcheon, einem Anwalt aus Pennsylvania, der sie bekannt machte, indem er 1885 in einer Simultanvorstellung in New York Weltmeister Wilhelm Steinitz damit besiegte. Am beliebtesten war sie von 1905 bis 1925, und 1990 wurde sie wiederbelebt.",
     "strategy": "Greift an, statt die Fesselung aufzulösen: Der Läufer fesselt den Springer auf c3, sodass e5 von Weiß mit einem Angriff auf den Läufer auf g5 beantwortet werden kann. Es ist die schärfste Antwort auf die Fesselung, eine taktische Partie, in der Schwarz oft den Läufer für den Springer hergibt und geschwächte dunkle Felder nahe seinem König in Kauf nimmt."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7": {
@@ -38,5 +44,172 @@
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.exd5 exd5": {
     "strategy": "Schlägt zurück und erreicht eine symmetrische Bauernstruktur, in der Schwarz keine Probleme hat: Der Läufer auf c8 ist nun frei, da der e6-Bauer fort ist, und keine Seite hat eine Schwäche. Ein ruhiges Spiel, in dem Ausgleich wahrscheinlich ist und keine Seite viel hat, solange niemand einen Fehler macht."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5": {
+    "name": "Französische Verteidigung: McCutcheon-Variante, Vorstoßvariante",
+    "strategy": "Greift den gefesselten Springer mit einem Bauern an und gewinnt Raum, die prinzipielle Antwort auf den Gegenangriff. Weiß lässt sich auf ein scharfes Spiel ein: Der Läufer auf g5 wird zum Ziel, und Schwarz hat einen direkten Weg, ihn herauszufordern."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.exd5": {
+    "name": "Französische Verteidigung: McCutcheon-Variante, Abtauschvariante",
+    "strategy": "Löst die Spannung auf, statt e5 vorzustoßen, und behält die Fesselung auf f6. Schwarz kann nicht mit dem Springer wiedernehmen, weil der Läufer auf g5 dann die Dame schlagen würde, und braucht daher eine andere Wiedernahme. Eine weniger ehrgeizige Art, den Gegenangriff zu beantworten, die den mit e5 gewonnenen Raum aufgibt."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6": {
+    "strategy": "Greift den Läufer sofort an. Beide Seiten haben nun eine Figur unter Beschuss: der Springer von Schwarz wird vom Bauern auf e5 angegriffen, der Läufer von Weiß vom h-Bauern, und Weiß muss zwischen Rückzug und Ausführung der Drohung wählen."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.exd5 Qxd5": {
+    "strategy": "Schlägt mit der Dame zurück, weil 5...Sxd5 die Dame auf d8 dem Läufer auf g5 preisgeben würde. Die Dame zentralisiert sich und greift ihrerseits diesen Läufer an, was Weiß zu sofortigem Handeln zwingt, und die beste Antwort von Weiß nimmt den Springer auf f6, um die schwarze Königsflügelstruktur zu beschädigen."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.Bd2": {
+    "strategy": "Die Hauptvariante: Der Läufer zieht sich auf ein geschütztes Feld zurück und deckt nun den Springer auf c3. Schwarz tauscht meist auf c3, und der Springer entkommt nach e4; Weiß bekommt das Läuferpaar und ein starkes Bauernzentrum, Schwarz einen beschädigten Damenflügel zum Angreifen."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.exf6": {
+    "name": "Französische Verteidigung: McCutcheon-Variante, Tschigorin-Variante",
+    "strategy": "Führt die Drohung sofort aus: Schwarz nimmt den Läufer, und der Bauer schlägt auf g7, wo er den Turm angreift. Das Ergebnis ist ein scharfer Tausch von Springer gegen Läufer, der die Königsflügelbauern von Schwarz zersplittert, aber seinen Türmen Linien öffnet."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.Bh4": {
+    "name": "Französische Verteidigung: McCutcheon-Variante, Bernstein-Variante",
+    "strategy": "Hält die Fesselung aufrecht: Der Springer wird vom Bauern und vom Läufer angegriffen, und Schwarz muss handeln. Der Läufer bleibt ...g5 ausgesetzt, was den Königsflügel von Schwarz schwächt, aber auch Weiß zwingt, erneut zurückzuweichen, sodass Weiß für das Tempo wenig gewinnt."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.Bc1": {
+    "name": "Französische Verteidigung: McCutcheon-Variante, Dr.-Olland-Variante",
+    "strategy": "Zieht sich ganz nach Hause zurück: Der Läufer ist sicher, doch die Reise hat zwei Züge gekostet, und der Springer auf c3 bleibt gegen den König gefesselt, während der Springer von Schwarz dem Bauern auf e5 mit Zeitgewinn entkommt."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.Be3": {
+    "name": "Französische Verteidigung: McCutcheon-Variante, Janowski-Variante",
+    "strategy": "Zieht sich nach e3 zurück, wo der Läufer d4 schützt und nicht wie auf d2 von einem Springer auf e4 getroffen werden kann. Der Springer auf c3 bleibt jedoch gegen den König gefesselt, und Weiß gewinnt wenig: Schwarz tauscht auf c3, und der Springer kommt trotzdem nach e4."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.Bd2 Bxc3": {
+    "name": "Französische Verteidigung: McCutcheon-Variante, Lasker-Variante",
+    "strategy": "Tauscht den Läufer gegen den Springer, bevor a3 die Entscheidung erzwingt. Nimmt Weiß mit dem b-Bauern zurück, hat Weiß Doppelbauern auf der c-Linie, und der schwarze Springer erhält das Feld e4. Der Preis sind das Läuferpaar und die dunklen Felder, und das mächtige weiße Bauernzentrum gibt Weiß die Initiative."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.Bd2 Nfd7": {
+    "name": "Französische Verteidigung: McCutcheon-Variante, Tartakower-Variante",
+    "strategy": "Zieht den angegriffenen Springer zurück, behält aber den Läufer auf b4, sodass die Spannung bleibt und Schwarz weiter wählen kann, wann er tauscht. Der Preis sind Zeit und Raum: Der e5-Bauer engt Schwarz ein, der Springer sperrt den Läufer auf c8 ein, und a3 zwingt den Läufer trotzdem zur Entscheidung."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.exf6 hxg5": {
+    "strategy": "Schlägt den Läufer mit dem Bauern zurück, sodass das Material ausgeglichen bleibt, und die h-Linie ist für den schwarzen Turm halb offen. Der weiße Bauer auf f6 ist ein Dorn im Fleisch, aber wenn er auf g7 schlägt, schwenkt der Turm nach g8 und Schwarz gewinnt den Bauern zurück."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.exd5 Qxd5 6.Bxf6": {
+    "strategy": "Der Läufer wird von der Dame angegriffen, also nimmt er zuerst den Springer. Schwarz kann nur mit dem g-Bauern zurückschlagen, was Doppelbauern auf der f-Linie und einen isolierten h-Bauern hinterlässt. Dafür gibt Weiß das Läuferpaar auf, und Weiß muss zeigen, dass die beschädigten Bauern mehr wert sind als die aktiven schwarzen Figuren."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.exd5 Qxd5 6.Bxf6 gxf6": {
+    "strategy": "Die einzige Rückeroberung, da die Dame f6 nicht erreichen kann. Schwarz nimmt Doppelbauern auf der f-Linie und einen isolierten h-Bauern in Kauf, erhält dafür aber das Läuferpaar, eine halb offene g-Linie und eine zentralisierte Dame. Weiß spielt auf eine dauerhafte Bauernschwäche, Schwarz auf Figurenaktivität."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5": {
+    "strategy": "Schiebt den Bauern mit Tempogewinn, denn er greift den Springer an und beantwortet so die Entfesselung mit einer eigenen Drohung. Weiß legt sich auf eine einengende Bauernkette und einen Raumvorteil fest, und Schwarz muss Gegenspiel gegen das Zentrum finden."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.Bxf6": {
+    "name": "Französische Verteidigung: Klassische Variante, Richter-Angriff",
+    "strategy": "Nimmt den Springer, der e4 angreift, sodass der Bauer dort stehen bleiben kann. Weiß gibt das Läuferpaar auf, und Schwarz schlägt mit einem Läufer zurück, der auf d4 zielt. Weiß spielt auf ein solides Zentrum statt auf eine einengende Bauernkette."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.Bxf6 Bxf6": {
+    "strategy": "Die natürliche Rückeroberung: Schwarz behält gesunde Bauern und das Läuferpaar, und der Läufer auf f6 zielt über die lange Diagonale auf den d4-Bauern. Mit dem g-Bauern zu schlagen, würde Weiß ein dauerhaftes Ziel am Königsflügel schenken."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7": {
+    "strategy": "Der wichtigste Rückzug: Der Springer verlässt das angegriffene Feld für eines, von dem aus er den e5-Bauern angreift und hilft, die Kette zu untergraben. Der Preis ist eine beengte Stellung mit eingesperrtem Läufer auf c8, doch Schwarz hat eine feste Struktur und einen klaren Plan gegen das Zentrum."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Ne4": {
+    "name": "Französische Verteidigung: Klassische Variante, Tartakower-Variante",
+    "strategy": "Greift den Springer auf c3 an und bietet Abtausch an, um die Enge zu lindern. Kommen die Figuren herunter, kann die weiße Dame nach g4 schwenken und e4 und g7 zugleich angreifen, sodass Schwarz genau verteidigen muss. Es befreit das Spiel, zum Preis eines Bauern auf e4, der schwer zu halten ist."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Ng8": {
+    "name": "Französische Verteidigung: Klassische Variante, Vistaneckis-Variante",
+    "strategy": "Führt den Springer ganz nach Hause zurück, verliert zwei Tempi und verfolgt eine bescheidene Idee: bei einem Läufertausch mit dem Springer auf e7 zurückzuschlagen. Weiß behält einfach den Läufer und genießt den Raumvorteil und einen großen Entwicklungsvorsprung."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.Bxf6 Bxf6 6.e5": {
+    "strategy": "Gewinnt Raum und vertreibt den Läufer, kostet Weiß aber Zeit und fixiert den Bauern auf e5, wo Schwarz ihn von beiden Seiten angreifen kann, während er das Läuferpaar behält. Der Läufer muss sich zurückziehen, denn das Schlagen auf e5 verliert nur eine Figur an den d-Bauern. Spielbar, aber es gibt Schwarz ein leichtes Spiel."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.Bxf6 Bxf6 6.e5 Be7": {
+    "strategy": "Zieht den angegriffenen Läufer zurück und behält ihn, sodass Schwarz das Läuferpaar hält. Der e5-Bauer engt Schwarz ein, aber die Struktur ist solide, und Schwarz hat natürliche Wege, die Bauernkette anzugreifen und das Spiel zu befreien."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.Bxe7": {
+    "strategy": "Tauscht jetzt die dunkelfeldrigen Läufer, da der schwarze Läufer den auf g5 angreift, und lässt den e5-Bauern Schwarz einengen. Weiß behält den Raumvorteil und baut ein breites Bauernzentrum auf; Schwarz hat eine solide, aber passive Stellung und spielt auf einen Gegenschlag gegen das Zentrum."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.h4": {
+    "name": "Französische Verteidigung: Aljechin-Chatard-Angriff",
+    "background": "Ein Gambit, das Adolf Albin entwickelte und Chatard spielte; ernst genommen wurde es erst nach Aljechins Partie gegen Fahrni in Mannheim 1914.",
+    "strategy": "Ein Bauerngambit: Der h-Bauer deckt den Läufer auf g5, sodass bei einem Tausch die h-Linie für einen Königsangriff gegen einen König geöffnet wird, der keinen sicheren Platz findet. Der natürliche Durchbruch von Schwarz ...c5 läuft in einen Springersprung nach b5. Scharf und riskant, mit Angriff statt Raumvorteil."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.Bxe7 Qxe7": {
+    "name": "Französische Verteidigung: Klassische Variante",
+    "background": "Sie war einst die Hauptvariante der Französischen Verteidigung, doch die Burn-Variante hat 4...Le7 inzwischen an Beliebtheit überholt, und 6.h4 konkurriert heute in der Häufigkeit mit 6.Lxe7.",
+    "strategy": "Schlägt mit der Dame zurück und behält das Recht zur Rochade; ein Zurückschlagen mit dem König würde es ohne Not aufgeben. Schwarz hat den dunkelfeldrigen Läufer abgegeben, sodass die beengte Stellung einen Bauerndurchbruch zur Befreiung braucht, während Weiß den Raum hat."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.h4 Bxg5": {
+    "strategy": "Nimmt das Gambit an: Nach dem Läufertausch schlägt die schwarze Dame den g5-Bauern, und Schwarz ist einen Bauern voraus. Der Preis sind Zeit und Königssicherheit, denn die Figuren von Weiß schwenken zum Königsflügel, während der König von Schwarz kein sicheres Zuhause hat."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.h4 a6": {
+    "name": "Französische Verteidigung: Aljechin-Chatard-Angriff, Maróczy-Variante",
+    "strategy": "Lehnt den Bauern ab und nimmt dem weißen Springer das Feld b5, sodass der c-Bauer ohne diesen Sprung als Antwort vorrücken kann. Weiß kann die Initiative mit der Dame nach g4 behalten, die droht, auf e7 und dann auf g7 zu schlagen, was Schwarz zwingt, auf g5 zu schlagen und die h-Linie zu öffnen. Ein wildes Spiel mit unsicheren Königen."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.h4 c5": {
+    "name": "Französische Verteidigung: Aljechin-Chatard-Angriff, Breyer-Variante",
+    "strategy": "Greift d4 an, wie Schwarz diese Struktur normalerweise bekämpft, ist hier aber zu langsam: Die Läufer werden getauscht, und ein Springer landet auf b5 und droht mit einer Gabel auf c7 und einem Schach auf d6. Schwarz muss dafür Zeit aufwenden, bei einem König unter Druck des vorgerückten h-Bauern."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.h4 O-O": {
+    "name": "Französische Verteidigung: Aljechin-Chatard-Angriff, Spielmann-Variante",
+    "strategy": "Rochiert sofort, aber in den Angriff hinein: Der h-Bauer ist bereits vorgerückt, und die Dame und die Läufer von Weiß können auf den Königsflügel zielen, bevor Schwarz Gegenspiel hat. Spielbar, aber riskant; es ist genau die Königsstellung, die das Gambit angreifen soll."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.h4 f6": {
+    "name": "Französische Verteidigung: Aljechin-Chatard-Angriff, Teichmann-Variante",
+    "strategy": "Greift den e5-Bauern sofort an, öffnet aber die Diagonale e8-h5: Die weiße Dame gibt auf h5 Schach, und der König hat wenig Deckung. Schwarz wird den einengenden Bauern los, zum Preis der Königssicherheit."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Ng8 6.Be3": {
+    "strategy": "Vermeidet den Tausch, auf den der Springerrückzug zielte, und hält den Läufer auf einer guten Diagonale, die auch d4 schützt. Weiß behält den Raumvorteil und den Entwicklungsvorsprung, und der Rückzug von Schwarz hat Zeit gekostet."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Ng8 6.Be3 b6": {
+    "name": "Französische Verteidigung: Klassische Variante, Frankfurter Variante",
+    "strategy": "Bereitet vor, den weißfeldrigen Läufer, die Problemfigur der Französischen Verteidigung, auf der Diagonale a6 abzutauschen. Doch nach dem Springerumweg liegt Schwarz in der Entwicklung weit zurück, und Weiß hält das Zentrum mühelos."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 dxe4 5.Nxe4": {
+    "strategy": "Schlägt den Bauern mit einem Springer zurück, der nun zusammen mit dem Läufer auf g5 auf f6 zielt. Weiß hat den Bauern zurückgewonnen und hat ein offenes Zentrum, und Schwarz muss entscheiden, wie er den Springer verteidigt."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 dxe4 5.Nxe4 Be7": {
+    "name": "Französische Verteidigung: Klassische Variante",
+    "background": "Die Hauptvariante der Burn-Variante, seit Langem ein Liebling von Jewgeni Barejew.",
+    "strategy": "Beendet die Fesselung, indem er die Linie zur Dame blockiert, und fügt dem Springer auf f6 einen zweiten Verteidiger hinzu, sodass er bequem gedeckt ist. Schwarz hat den Zentrumsbauern für schnelle Entwicklung und eine solide Stellung aufgegeben."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 dxe4 5.Nxe4 Be7 6.Bxf6": {
+    "strategy": "Tauscht den Läufer gegen den Springer und nimmt den Verlust des Läuferpaars in Kauf. Weiß behält den aktiven Springer auf e4 und einen Raumvorteil; Schwarz hat das Läuferpaar und dynamische Chancen."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 dxe4 5.Nxe4 Be7 6.Bxf6 Bxf6": {
+    "strategy": "Die Hauptrückeroberung: Schwarz behält eine gesunde Bauernstruktur und das Läuferpaar, und der Läufer blickt über die lange Diagonale auf d4. Schwarz muss sich entwickeln und Figuren sorgfältig tauschen, denn Weiß hat das freiere Zentrum und den aktiven Springer."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 dxe4 5.Nxe4 Be7 6.Bxf6 gxf6": {
+    "name": "Französische Verteidigung: Klassische Variante, Burn-Variante, Morosewitsch-Linie",
+    "background": "Gespielt von Alexander Morosewitsch und Gregory Kaidanow.",
+    "strategy": "Schlägt stattdessen mit dem Bauern zurück: Schwarz nimmt Doppelbauern auf der f-Linie für eine halb offene g-Linie und aktive Figuren in Kauf, und der Bauer kann vorrücken, um den Springer von e4 zu vertreiben. Schwarz erhält Figurenaktivität zum Preis einer beschädigten Struktur."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.f4": {
+    "strategy": "Verteidigt den e5-Bauern und sichert einen großen Raumvorteil. Weiß bindet den Königsflügel an die Bauernkette und schwächt das Feld e3 und die Diagonale des Königs. Schwarz hat in der Basis der Kette auf d4 ein klares Ziel."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.Nce2": {
+    "name": "Französische Verteidigung: Klassische Variante, Schirow-Anand-Variante",
+    "strategy": "Leitet den Springer so um, dass sowohl der c- als auch der f-Bauer vorrücken und das Zentrum stützen können, während der Springer d4 und das Feld f4 deckt. Es ist ein langsamerer, solider Aufbau, der den Druck des Springers auf d5 und e4 aufgibt und in der Entwicklung zurückbleibt."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.Qg4": {
+    "name": "Französische Verteidigung: Steinitz-Variante, Gledhill-Angriff",
+    "strategy": "Ein früher Damenausflug, der g7 und e6 angreift, doch beide sind gedeckt, sodass er keine echte Drohung darstellt. Er kostet ein Tempo und gibt Schwarz Zeit, gegen den d4-Bauern vorzugehen."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.f4 c5": {
+    "strategy": "Untergräbt sofort die Basis der Bauernkette: Fällt d4, verliert der e5-Bauer seine Stütze, und der Springer nimmt ihn. Weiß muss d4 weiter verteidigen, was die übrige Entwicklung verlangsamt."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.f4 c5 6.Nf3": {
+    "name": "Französische Verteidigung: Steinitz-Variante",
+    "background": "6.Sf3 gehört zur Hauptvariante der Steinitz-Variante: 5.f4 c5 6.Sf3 Sc6 7.Le3.",
+    "strategy": "Entwickelt und deckt sowohl d4 als auch e5, sodass die Kette hält. Weiß behält den Raum und ein solides Zentrum, und Schwarz häuft mit Figuren Druck auf d4 und e5 an."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.f4 c5 6.dxc5": {
+    "strategy": "Nimmt einen Bauern, den er nicht halten kann: Der Springer und der Läufer von Schwarz greifen c5 beide an, und nichts deckt ihn. Das Schlagen gibt außerdem den d4-Bauern auf, die Basis der weißen Kette, sodass e5 nur noch den f-Bauern hinter sich hat. Schwarz gewinnt den Bauern und die Initiative zurück."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.f4 c5 6.dxc5 Nc6": {
+    "name": "Französische Verteidigung: Steinitz-Variante",
+    "strategy": "Setzt den e5-Bauern unter doppelten Angriff, bevor er den c5-Bauern zurückgewinnt, den Weiß nicht halten kann. Weiß muss sich zuerst um die Bedrohung des Zentrums kümmern, und Schwarz erhält den Entwicklungsvorsprung."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.f4 c5 6.dxc5 Bxc5": {
+    "strategy": "Gewinnt den Bauern sofort mit einem Entwicklungszug zurück und hält den e5-Bauern durch den Springer unter Druck. Der weißen Kette fehlt die Basis auf d4, sodass e5 nur vom f-Bauern gehalten wird, und Schwarz hat ein leichtes Spiel."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.f4 c5 6.Nf3 Nc6": {
+    "strategy": "Fügt d4 und e5 einen zweiten Angreifer hinzu, sodass beide Zentrumsbauern unter Druck stehen. Schwarz hält die Spannung, und Weiß muss seine Bauernkette schützen, während er die Entwicklung vollendet."
   }
 }

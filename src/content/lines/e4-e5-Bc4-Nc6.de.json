@@ -3,9 +3,57 @@
     "strategy": "Verteidigt e4 mit einem Entwicklungszug und hält den f-Bauern frei, sodass Weiß ihn später vorstoßen kann. Der Springer blockiert den c-Bauern, was ein breites Bauernzentrum ausschließt, und übt keinen Druck auf e5 aus."
   },
   "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6": {
+    "name": "Wiener Partie: Stanley-Variante, Dreispringervariante",
     "strategy": "Die natürlichste Erwiderung: Sie entwickelt eine Figur mit Angriff auf e4, das der Springer auf c3 deckt. Schwarz behält eine flexible, solide Aufstellung und überlässt Weiß die Wahl zwischen einem ruhigen und einem scharfen Spiel."
   },
   "1.e4 e5 2.Bc4 Nc6 3.Nc3 Bc5": {
     "strategy": "Spiegelt den Läufer von Weiß und zielt auf f2, läuft aber sofort in den Damenzug nach g4: g7 verliert seinen Verteidiger, wenn der Läufer f8 verlässt, und Schwarz muss auf die Rochade verzichten oder den Königsflügel schwächen, um den Bauern zu halten."
+  },
+  "1.e4 e5 2.Bc4 Nc6 3.Nc3 Bc5 4.Qg4": {
+    "strategy": "Greift sofort g7 an: Der Bauer hat keinen Verteidiger mehr, da der Läufer f8 verlassen hat, und der Turm auf h8 steht dahinter. Schwarz muss sich mit einem Zugeständnis verteidigen, und der natürlich wirkende Damenzug läuft in eine Falle."
+  },
+  "1.e4 e5 2.Bc4 Nc6 3.Nc3 Bc5 4.Qg4 Qf6": {
+    "strategy": "Tappt in die Falle: Die Dame deckt g7 und zielt doppelt auf f2, aber 5.Sd5 greift sie und den Bauern c7 zugleich an. Nach 5...Dxf2+ 6.Kd1 ist der weiße König sicher genug, während g7 und c7 hängen und Sxc7+ König und Turm gabeln würde."
+  },
+  "1.e4 e5 2.Bc4 Nc6 3.Nc3 Bc5 4.Qg4 Qf6 5.Nd5": {
+    "name": "Wiener Partie: Stanley-Variante, Meitner-Mieses-Gambit",
+    "strategy": "Löst die Falle aus mit einem Doppelangriff auf die Dame und c7, während die Dame auf g4 weiter g7 anvisiert. Schwarz kann f2 mit Schach nehmen, doch der König geht nach d1, und die Drohungen von Weiß gegen g7 und c7 wiegen schwerer als der verlorene Bauer."
+  },
+  "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6 4.d3": {
+    "name": "Läuferspiel: Wiener Hybrid",
+    "background": "Der Name spiegelt die gemischte Herkunft wider: Die Stellung kann aus dem Läuferspiel und über mehrere Zugfolgen aus der Wiener Partie erreicht werden.",
+    "strategy": "Stützt e4 mit einem Bauern, was den Springer c3 von der Deckungsaufgabe befreit und den Läufer c1 öffnet. Weiß baut langsam auf, hält den Läufer auf c4 auf f7 gerichtet und lässt den Plan offen."
+  },
+  "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6 4.f4": {
+    "strategy": "Bietet den e-Bauern für einen schnellen Angriff an: Der f-Bauer wirkt auf e5, die f-Linie öffnet sich und der Läufer blickt schon auf f7. Es ist ein echtes Gambit mit echtem Risiko: Weiß steht einen Bauern im Minus, wenn der Angriff verpufft, und die Diagonale e1-h4 ist offen."
+  },
+  "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6 4.d3 Bc5": {
+    "strategy": "Entwickelt den Läufer auf die aktive Diagonale gegen f2, den schwächsten Punkt von Weiß, und lässt die Bauernstruktur intakt. Schwarz bleibt flexibel und bereit zur Rochade und überlässt Weiß die Entscheidung, wie scharf das Spiel wird."
+  },
+  "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6 4.d3 Bb4": {
+    "strategy": "Fesselt den Springer c3 an den König, da d2 leer ist, und droht mit ...Lxc3+, die Bauern von Weiß zu verdoppeln. Schwarz nutzt die Fesselung, um Druck auf e4 und das weiße Zentrum auszuüben, und entscheidet selbst, wann er den Läufer hergibt."
+  },
+  "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6 4.f4 Nxe4": {
+    "strategy": "Nimmt den Bauern mit dem Springer, der durch eine Taktik geschützt ist: Nach 5.Sxe4 d5 werden Läufer und Springer zugleich angegriffen. Weiß erhält offene Linien gegen e5 und einen Entwicklungsvorsprung, daher muss Schwarz den Mehrbauern sorgfältig halten."
+  },
+  "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6 4.d3 Bb4 5.Ne2": {
+    "name": "Läuferspiel: Wiener Hybrid, Hromádka-Variante",
+    "strategy": "Deckt c3 ein zweites Mal, sodass ...Lxc3+ mit einem Springer beantwortet werden kann und die Bauern von Weiß heil bleiben, mit dem Läuferpaar als Zugabe. Die Fesselung bleibt, kostet Weiß aber nun wenig, und der Springer unterstützt auch einen späteren Vorstoß des f-Bauern."
+  },
+  "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6 4.d3 Bc5 5.f4": {
+    "strategy": "Greift sofort e5 an, der Sinn davon, zuerst den Springer nach c3 zu entwickeln: Der f-Bauer kann frei vorrücken und die f-Linie öffnen. Der Preis ist ein gelockerter König, denn bei leerem f2 wirkt der schwarze Läufer direkt auf den Springer g1."
+  },
+  "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6 4.d3 Bc5 5.f4 d6": {
+    "strategy": "Hält e5 mit einem Bauern und öffnet die Diagonale des Läufers c8. Schwarz wählt eine solide Aufstellung statt eines sofortigen Gegenschlags und hält den Läufer auf c5 auf g1 gerichtet, während der Bauer f4 das Zentrum noch nicht öffnen darf."
+  },
+  "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6 4.d3 Bc5 5.f4 d6 6.Nf3": {
+    "strategy": "Bringt den Königsspringer ins Spiel und fügt e5, das d6 und der Springer c6 verteidigen, einen zweiten Angreifer hinzu. Er bereitet auch die Rochade vor, doch steht der Springer nun vor der Dame, eine Schwäche, die Schwarz nutzen kann."
+  },
+  "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6 4.d3 Bc5 5.f4 d6 6.Nf3 Bg4": {
+    "strategy": "Fesselt den Springer an die Dame, sodass jeder Springerzug die Dame preisgibt, und droht mit ...Lxf3, einen Angreifer von e5 zu entfernen. Schwarz entwickelt sich mit Absicht und erhöht den Druck auf das Zentrum."
+  },
+  "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6 4.f4 Nxe4 5.Nf3": {
+    "name": "Wiener Partie: Stanley-Variante, Bronstein-Gambit",
+    "strategy": "Verzichtet darauf, auf e4 zu tauschen, wo ...d5 Läufer und Springer gabeln würde, und entwickelt sich mit einem zweiten Angriff auf e5 neben dem f-Bauern. Der ungedeckte Springer auf e4 wird weiterhin angegriffen, daher spielt Weiß auf Tempo und Druck statt auf die schnelle Rückgewinnung des Bauern."
   }
 }

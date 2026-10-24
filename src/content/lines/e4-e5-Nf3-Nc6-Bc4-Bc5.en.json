@@ -34,9 +34,12 @@
     "background": "Named after Alonzo Wheeler Jerome of Paxton, Illinois, whose game with it against William Shinkman was published in the Dubuque Chess Journal in 1876. It was a brief fad in the late nineteenth century but is almost never seen today."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4": {
+    "name": "Italian Game: Evans Gambit Accepted",
     "strategy": "Takes the pawn and accepts the challenge. Black is a pawn up, and White's compensation is time: the bishop on b4 is hit again after c3, so White builds a broad centre with tempo and a lead in development. Black's task is to find the moment to give the pawn back and defuse the attack."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6": {
+    "name": "Italian Game: Evans Gambit Declined",
+    "background": "Aron Nimzowitsch defended declining the gambit in My System, arguing that it loses no tempo because b4 does nothing for development anyway. Most commentators nevertheless judge declining weaker than accepting the pawn and returning it later.",
     "strategy": "Declines the pawn and keeps the bishop on its diagonal, so White cannot gain time with c3. But the move wastes a tempo, and White's b-pawn has gained space on the queenside, which gives White the easier game."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 d5": {
@@ -51,21 +54,273 @@
     "strategy": "The natural reply: develops a piece, attacks e4 and prepares to castle. With the c-pawn on c3, White's b1-knight has no square to defend e4, so White must either defend it another way or strike in the centre at once."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7": {
+    "name": "Italian Game: Classical Variation, Closed Variation",
+    "background": "The move 4...Qe7 first appears in the Göttingen manuscript of about 1500, and it has always been less popular than 4...Nf6.",
     "strategy": "Props up e5 with the queen so the centre holds, but it is a passive set-up: the queen may be misplaced on the e-file, and White can still take a full pawn centre and the space it controls."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6": {
     "strategy": "Defends e5 with a pawn and prepares to develop, but it is passive: White builds a broad pawn centre at once. Black's pieces are reasonably developed in return, and the position stays solid, if a little cramped."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3 Nf6": {
+    "name": "Italian Game: Giuoco Pianissimo, Normal",
     "strategy": "Develops the knight to its natural square, where it pressures e4, controls d5 and prepares castling. Black mirrors White's quiet set-up, so neither side commits the centre and the game is a patient fight over the right moment to open it."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3 f5": {
+    "name": "Italian Game: Giuoco Pianissimo, Lucchini Gambit",
+    "background": "Named after the Italian player Marco Lucchini.",
     "strategy": "A gambit that tries to turn a quiet position into a sharp one: the pawn attacks e4, but it also weakens f7 and the diagonal to the king. White can take the pawn or simply develop, and Black has to prove its compensation, which is doubtful."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.Nc3 Nf6": {
+    "name": "Four Knights Game: Italian Variation",
     "strategy": "Develops the knight with an attack on e4, which White's knight defends. The symmetrical structure leaves the centre unresolved and gives both sides a safe, flexible position from which to choose a plan."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6": {
     "strategy": "Develops with an attack on e4, which nothing defends. White has to protect the pawn or give it up as a gambit, so Black takes the initiative while developing naturally."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.a4": {
+    "name": "Italian Game: Evans Gambit Declined",
+    "strategy": "Threatens a5, after which the bishop on b6 has no safe square: the a7 pawn blocks its retreat and the b4 pawn covers c5. Black must make room at once, and White keeps a lasting space advantage on the queenside."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.Bb2": {
+    "name": "Italian Game: Evans Gambit Declined, Cordel Variation",
+    "strategy": "Brings the bishop to the long diagonal, so that e5 is attacked a second time and has only the knight to defend it. A natural, developing move, but it does not threaten the bishop on b6 the way a4 does."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.b5": {
+    "strategy": "Chases the knight in the hope of winning e5, but the pawn has nowhere to go from here. The knight steps to a5 with tempo, hitting the bishop on c4, and White's attack turns out to be premature."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.a4 a6": {
+    "strategy": "Makes room for the bishop: without it, a5 would trap the piece on b6. The a-pawn move is the useful one here, keeping the bishop on its diagonal and the centre intact, and Black accepts a modest space deficit on the queenside."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.b5 Na5": {
+    "strategy": "Saves the knight and attacks the bishop on c4 in the same move. The cost is that e5 loses its defender, so White can win a pawn, but Black gets active play in return and White's king is still in the centre."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.a4 a6 6.Nc3": {
+    "name": "Italian Game: Evans Gambit Declined, Showalter Variation",
+    "strategy": "Develops the knight toward d5, using the queenside space the pawns have gained. White keeps a small but lasting edge, which comes from that extra space."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.b5 Na5 6.Nxe5": {
+    "strategy": "Wins the e5 pawn and rescues the bishop, which the knight now guards. But the knight on e5 is loose and the king is still in the centre, so Black's queen can hit the knight and the g2 pawn at once."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.b5 Na5 6.Nxe5 Qg5": {
+    "name": "Italian Game: Evans Gambit Declined, Hirschbach Variation",
+    "strategy": "Hits the loose knight on e5 and the g2 pawn at once, while the bishop on b6 points at f2 and the knight on a5 still eyes the bishop on c4. White has more to answer than one move can cover, and Black takes the initiative."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.b5 Na5 6.Nxe5 Nh6": {
+    "name": "Italian Game: Evans Gambit Declined, Lange Variation",
+    "strategy": "Guards f7, the point both the knight and the bishop aim at, and develops a piece. The knight on a5 keeps pressing the bishop. Less forcing than a queen sortie, but it leaves Black well placed after White's premature pawn advance."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3": {
+    "strategy": "Hits the bishop again and prepares to build a centre with d4, so the bishop must move for a second time. This is the point of the gambit: White gives a pawn for time and a pawn centre, and the queen also gets the b3 square, aiming at f7 together with the bishop."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5": {
+    "name": "Italian Game: Evans Gambit, Main Line",
+    "strategy": "The main retreat: the bishop stays on the diagonal to e1, so once White plays d4 the c3 pawn is pinned and cannot simply recapture. It keeps the pawn and sets the sharpest test of the gambit, but takes a5 away from the knight."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Be7": {
+    "name": "Italian Game: Evans Gambit, Anderssen Variation",
+    "background": "Viswanathan Anand has played it.",
+    "strategy": "The safest retreat: the bishop cannot be hit again soon, covers g5 and helps the king, and leaves a5 free for the knight to challenge the bishop on c4. Black often returns the pawn later and aims for a solid, balanced game."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bd6": {
+    "name": "Italian Game: Evans Gambit, Stone-Ware Variation",
+    "background": "Named after Henry Nathan Stone and Preston Ware. Grandmasters including Andrei Volokitin, Alexander Grischuk and Loek van Wely have played it.",
+    "strategy": "Adds a defender to e5, so that d4 no longer arrives with an attack on the pawn. The price is that the bishop blocks the d-pawn. A solid, less trodden way to keep the extra pawn for now."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5": {
+    "name": "Italian Game: Evans Gambit, McDonnell Defence",
+    "strategy": "Goes back to the square it came from in the hope of stopping d4, but White plays it anyway with tempo on the bishop. Black has spent three bishop moves to keep one pawn, and White has a free hand in the centre."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bf8": {
+    "name": "Italian Game: Evans Gambit, Mayet Defence",
+    "background": "Rarely seen in practice.",
+    "strategy": "Undevelops the bishop completely: Black has spent three moves to win a pawn with it and, to castle, must now move it again as well as bring out the g8 knight. White takes the centre with a large lead in development."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4": {
+    "strategy": "Strikes in the centre at once: the pawn attacks e5, and White aims for a full pawn centre backed by the lead in development. Black must choose between keeping the pawns and giving some back, while White is often happy to offer a second pawn for the attack."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.O-O": {
+    "name": "Italian Game: Evans Gambit, Slow Variation",
+    "background": "Popular in the Romantic era, it is now a notable but much rarer alternative to 6.d4.",
+    "strategy": "Castles first, so that the c3 pawn is not pinned against the king when d4 comes. Safe and sensible, but slow: Black gets time to consolidate and to return the pawn under good conditions, which takes much of the sting out of the gambit."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4 d6": {
+    "name": "Italian Game: Evans Gambit, Bronstein Defence",
+    "strategy": "The solid reply: a pawn protects e5, d7 opens for the queen and the bishop on c8 gets the diagonal to g4. Black keeps the extra pawn without grabbing a second one, though White's lead in development still brings attacking chances."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4 exd4": {
+    "name": "Italian Game: Evans Gambit, Pierce Defence",
+    "strategy": "Takes the pawn and keeps both extra pawns for the moment: cxd4 is impossible because the bishop on a5 pins the c3 pawn to the king. But White does not need to hurry, and quick development brings strong attacking chances, so Black has to defend precisely."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4 b5": {
+    "name": "Italian Game: Evans Gambit, Leonhardt Countergambit",
+    "strategy": "Offers a pawn so that, after the bishop takes it, the knight can capture on d4 with the c3 pawn still pinned. That knight then attacks both the bishop on b5 and the knight on f3. Sharp and ambitious, but Black has given a pawn for activity."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4 Nf6": {
+    "name": "Italian Game: Evans Gambit, Laroche Variation",
+    "strategy": "Counterattacks e4 but ignores the centre. White takes on e5 with tempo on the knight, and the natural capture on e4 runs into a queen move to d5, which attacks the knight and threatens mate on f7."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.O-O d6": {
+    "name": "Italian Game: Evans Gambit",
+    "strategy": "Protects e5 with a pawn, frees the queen's bishop and keeps the extra pawn. It leads to much the same structures as the main line, with White having spent a move on castling instead of a central advance."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.O-O Nf6": {
+    "strategy": "Develops with an attack on e4, which White cannot simply leave: it forces White to act in the centre at once. Black keeps the pawn and prepares to castle, and the game takes its own course."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.d4": {
+    "strategy": "Gains another tempo on the bishop: the pawn attacks both c5 and e5 and builds the centre. Black's retreat to c5 did not stop it, and the bishop must move once more."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.d4 exd4": {
+    "strategy": "Takes the pawn and with it removes the attacker of the bishop. Black is a pawn up and White's compensation lies in the open lines and strong central pawns that come after recapturing."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Be7 6.d4": {
+    "strategy": "The usual follow-up to c3: the pawn takes the centre and attacks e5. The bishop on e7 cannot be hit by it, so White gains no tempo here, but the centre is big and Black must find a safe way to return the extra pawn."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Be7 6.d4 Na5": {
+    "name": "Italian Game: Evans Gambit, Anderssen Variation, Cordel Line",
+    "strategy": "Attacks the bishop on c4 at once, the move that the retreat to e7 made possible since a5 is free for the knight. Black gains time to challenge the centre and, if need be, to hand the pawn back for a solid game."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6 5.d4": {
+    "strategy": "Takes the centre and punishes the passive set-up: the pawn attacks both e5 and the bishop on c5. White aims for a broad pawn centre and the space it controls, and Black has to decide how to meet it."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6 5.d4 exd4": {
+    "strategy": "Trades the e-pawn for the d-pawn. The recapture hits the bishop again, so Black accepts that White gets a strong centre and in exchange has a sound structure and a quick development."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6 5.d4 exd4 6.cxd4": {
+    "strategy": "Recaptures and builds the pawn pair on d4 and e4, attacking the bishop again with gain of time. Black has to give ground in the centre once more, but the big centre needs support, and Black is well developed."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6 5.d4 exd4 6.cxd4 Bb6": {
+    "name": "Italian Game: Classical Variation, La Bourdonnais Variation",
+    "strategy": "Retreats out of reach of the pawns while keeping the bishop on the diagonal that eyes d4 and f2. Black accepts White's big centre but has developed reasonably and aims to undermine it rather than hold it."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4": {
+    "strategy": "Strikes in the centre at once: the pawn attacks the bishop and the e5-pawn, which Black's queen move was meant to hold. White gets a bigger centre and the more comfortable game, while the queen stands a little awkwardly in front of the king."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6": {
+    "name": "Italian Game: Classical Variation, Centre Holding Variation",
+    "strategy": "Retreats the bishop out of the pawn's reach while it keeps its eye on f2, and holds e5 with queen and knight. Black has a compact but passive position: the e5-pawn is solid, but White has more room to move."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6 6.O-O": {
+    "strategy": "Castles first and keeps the tension in the centre, so White decides when to resolve it. The bigger centre gives White a slight edge, and Black's pieces stay tied to the defence of the e5-pawn."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6 6.Bg5": {
+    "name": "Italian Game: Classical Variation, Mestel Variation",
+    "strategy": "Attacks the queen along the diagonal and forces Black to settle the pin at once. Blocking with the f-pawn weakens the king's cover; blocking with the knight lets White pin it. White gains time because Black has to respond."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6 6.d5": {
+    "strategy": "Gains space and a tempo by forcing the knight back, but gives up the pressure on e5: the centre closes, and Black can regroup the knight and play against the advanced pawn. It trades flexibility for room and leads to a slow game."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6 6.d5 Nb8": {
+    "strategy": "Retreats the knight rather than leaving it to be taken, and keeps it in play from the back rank. White has gained space and a tempo, but the pawn on d5 has also released the pressure on e5, so Black is cramped rather than worse."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6 6.O-O d6": {
+    "strategy": "Adds a pawn to the defence of e5, so the queen is no longer needed there, and opens the diagonal for the c8-bishop. Black accepts less space for a compact structure that White cannot easily break; the game becomes a slow fight for the centre."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3 f5 5.Ng5": {
+    "strategy": "The sharpest reply: the knight joins the bishop against f7, the square the f-pawn has left, where only the king defends it. White tests the weakened king at once rather than simply taking the pawn."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3 f5 5.Ng5 f4": {
+    "name": "Italian Game: Giuoco Pianissimo, Dubois Variation",
+    "strategy": "Blocks the bishop on c1 from g5, so the knight there loses its only defender and the queen attacks it. But the knight can jump to f7, forking queen and rook with the bishop behind it. Black must be ready for a sacrificial counter-attack."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3 Nf6 5.Nc3": {
+    "name": "Italian Game: Giuoco Pianissimo, Italian Four Knights Variation",
+    "strategy": "Develops the knight and guards e4 a second time. The knight blocks the c-pawn, so White gives up the central pawn plan for fast piece play and the idea of pinning the knight on f6."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3 Nf6 5.Nc3 d6": {
+    "strategy": "Mirrors White: the pawn defends e5 and opens the c8-bishop, keeping the position symmetrical and solid. Neither side has an obvious weakness, so the game turns on who finds the better squares for the pieces."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3 Nf6 5.Nc3 d6 6.Bg5": {
+    "name": "Italian Game: Giuoco Pianissimo, Canal Variation",
+    "strategy": "Pins the knight on f6 against the queen. That adds pressure on f6 and on the d5 square, where White's knight would like to land. Black normally challenges the bishop at once, so the pin is as much a question as a threat."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.Nc3 Nf6 5.O-O": {
+    "strategy": "Castles first and leaves the quiet pawn move for later; the knight on c3 covers e4, so nothing hangs. A flexible route to the same slow set-up, though the usual order puts the pawn move first."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.Nc3 Nf6 5.O-O d6": {
+    "strategy": "Supports e5 and frees the c8-bishop, mirroring White's solid set-up. Black delays castling to see how White develops, keeping the symmetrical structure and a flexible choice for the other pieces."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.Nc3 Nf6 5.O-O O-O": {
+    "name": "Italian Game: Giuoco Pianissimo",
+    "strategy": "Completes kingside development: both kings are safe and the structure is symmetrical. Black accepts that White will build up slowly, but nothing in the position is weak, and the fight is for the right time to play in the centre."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.Nc3 Nf6 5.O-O d6 6.d3": {
+    "name": "Italian Game: Giuoco Pianissimo",
+    "background": "The name Giuoco Pianissimo, \"Very Quiet Game\", was given by Adolf Anderssen.",
+    "strategy": "Supports the e4 pawn and opens the c1 bishop without committing to a central break. White chooses a slow build-up over an immediate d4: both sides have solid, symmetrical pawn structures, and the game is decided by manoeuvring and later pawn breaks rather than early tactics."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.Nc3 Nf6 5.O-O O-O 6.d3": {
+    "name": "Italian Game: Giuoco Pianissimo",
+    "strategy": "Defends e4 with a pawn, so the knight on c3 is no longer tied to it, and White heads for the slow build-up with both kings safe. A long manoeuvring middlegame follows, with a central break prepared piece by piece."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3": {
+    "strategy": "Defends e4 with a pawn and keeps the position closed, heading for the slow set-up in which White prepares the central advance. The most patient way to meet the attack on e4."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.Nc3": {
+    "strategy": "Defends e4 with a piece rather than a pawn and develops at the same time. It reaches the symmetrical knight set-up with White already castled, which keeps the centre pawns flexible while e4 is guarded."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.c3": {
+    "name": "Italian Game: Classical Variation, Albin Gambit",
+    "strategy": "Prepares the central strike with a pawn and offers e4 as a gambit: if Black takes it, White strikes in the centre and gets a lead in development. If Black declines, White has a flexible set-up with the classical plan in reserve."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d4": {
+    "name": "Italian Game: Deutz Gambit",
+    "background": "The line has no standard name and has also been called the Max Lange Gambit.",
+    "strategy": "A gambit: the pawn attacks the bishop and e5, but Black can take it and trade the pieces that White's attack needs. White has open lines and quick development as compensation, but the pawn is real."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 d6": {
+    "strategy": "Supports e5 and opens the c8-bishop, the most natural set-up against the slow build-up. Black keeps the king in the centre for the moment and has flexible plans on both wings, with the bishop on c5 still pointing at f2."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 O-O": {
+    "strategy": "Castles at once, completing kingside development and leaving the d-pawn free for a later central break. The king is safe, and Black waits to see which plan White chooses."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 h6": {
+    "strategy": "Takes g5 away from the white bishop so the knight on f6 cannot be pinned. A sensible precaution, but it spends a tempo on the kingside before the centre is settled and gives White time to regroup."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 a5": {
+    "strategy": "Stops White from expanding with b4 and takes space on the queenside, but it commits early: the b5 square is weakened and Black has spent a move on the wing before finishing development."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d4 Bxd4": {
+    "strategy": "The accurate way to take the gambit pawn: after the exchanges on d4 Black is a pawn up, having given the bishop for a knight. White's compensation is a lead in development and the initiative, so Black has to defend carefully, but the extra pawn is real and Black can steer for a simplified game."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d4 exd4": {
+    "name": "Italian Game: Scotch Gambit, Max Lange Attack",
+    "background": "The Max Lange Attack, which follows with 6.e5, is named for the German master Max Lange, who suggested it in 1854.",
+    "strategy": "Takes the pawn with the e-pawn and allows the sharpest reply: e5 hits the knight with tempo and starts a heavily analysed attack on Black's king. Black keeps the extra pawn but has to find accurate defensive moves from the start, and White chooses the pace."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 a5 6.c3": {
+    "name": "Italian Game: Classical Variation, Giuoco Pianissimo, with a5",
+    "strategy": "Prepares the central advance, which the pawn on a5 does not hinder. The queenside pawn does give Black a way to harass the bishop if it retreats to b3, so White has to watch the bishop's retreat as the pawn centre grows."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 d6 6.c3": {
+    "strategy": "Prepares the central advance. This reaches the main set-up of the slow Italian: White builds a solid pawn centre first and plays for the break when the pieces stand well."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 h6 6.c3": {
+    "name": "Italian Game: Classical Variation, Giuoco Pianissimo",
+    "strategy": "Prepares the central advance. Black's extra h-pawn move has cost a tempo, so White can carry on building a solid centre without hurry."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 O-O 6.c3": {
+    "strategy": "Prepares the central break d4 with a pawn behind it: if Black takes on d4, the recapture with the c-pawn hits the bishop on c5 and leaves White a broad centre. It also gives the c4-bishop the b3 and c2 squares to retreat to. The price is time: this is a slow manoeuvring game."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 O-O 6.c3 d5": {
+    "name": "Italian Game: Classical Variation, Giuoco Pianissimo",
+    "background": "The name Giuoco Pianissimo is credited to Adolf Anderssen.",
+    "strategy": "Strikes in the centre before White can build with d4, and the pawn attacks the c4-bishop with tempo. Black accepts an open game in return for active pieces and a share of the centre, while White has to decide how to resolve the tension and where the bishop belongs."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d4 Bxd4 6.Nxd4": {
+    "strategy": "Takes the bishop that took the pawn, but Black retakes at once, so White is a pawn down and the compensation has to come from piece activity and quick development."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d4 Bxd4 6.Nxd4 Nxd4": {
+    "strategy": "Recaptures with the knight, which lands on a strong central square supported by the e5 pawn, and Black keeps the pawn won on d4. The knight on f6 also attacks the unprotected e4 pawn, so White must show the compensation quickly."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d4 exd4 6.e5": {
+    "name": "Italian Game: Two Knights Defence, Max Lange Attack",
+    "strategy": "The point of the gambit: the pawn attacks the knight at once and gains space, and White's lead in development with the bishop aimed at f7 pays for the missing pawn. White commits to a direct attack on the king; if Black parries it, the extra pawn counts."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d4 exd4 6.e5 d5": {
+    "strategy": "The principled counterattack: the pawn hits the c4-bishop, so if White takes the knight Black takes the bishop in return. Black is then a pawn up, but White's rook check on the e-file, the pawn on f6 and Black's undeveloped kingside keep the play sharp and balanced."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d4 exd4 6.e5 Ng4": {
+    "name": "Italian Game: Scotch Gambit, Max Lange Attack, Spielmann Defence",
+    "strategy": "Dodges the pawn and eyes e5 and f2, but f7 is now guarded by the king alone: the bishop sacrifice on f7 and then Ng5+ drive the king aside, and the queen takes the stranded knight. It needs more care than the natural defence."
   }
 }

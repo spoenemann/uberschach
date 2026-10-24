@@ -14,9 +14,11 @@
     "strategy": "Verteidigt d4 gegen den Springer auf c6 und entwickelt, verwendet den Zug aber für die Verteidigung, statt den Druck auf d5 zu erhöhen. Eine solide, ruhige Wahl, die Weißens Zentrum intakt hält, doch Schwarz kann aktives Spiel aufbauen, während Weiß im Zentrum noch aufholt."
   },
   "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5": {
+    "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung, Abtauschvariante",
     "strategy": "Die natürliche Wiedernahme: Die Dame schlägt den Bauern, der den Springer auf c6 angegriffen hat, und steht sofort im Zentrum, wo sie den Druck auf d4 verstärkt. Schwarz hat keinen Zentrumsbauern mehr, daher lautet der Plan rasche Entwicklung, wobei die Dame einem Springerzug mit Tempogewinn ausgesetzt ist."
   },
   "1.d4 d5 2.c4 Nc6 3.Nc3 dxc4": {
+    "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung",
     "strategy": "Nimmt den Bauern und greift d4 ein zweites Mal an, sodass Weiß sofort reagieren muss. Schwarz gibt den Zentrumsbauern auf d5 auf und verlässt sich auf Figurendruck gegen Weißens Zentrum, wobei er versucht, den Mehrbauern nur so lange zu halten, wie es diesem Plan dient."
   },
   "1.d4 d5 2.c4 Nc6 3.Nc3 e6": {
@@ -27,10 +29,47 @@
     "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung, Tartakower-Gambit"
   },
   "1.d4 d5 2.c4 Nc6 3.Nf3 Bg4": {
+    "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung, Hauptvariante",
     "strategy": "Entwickelt den Läufer außerhalb der Bauernkette, bevor ...e6 ihn einsperren kann, und greift den Springer an, der d4 und e5 deckt. Zusammen mit dem Springer auf c6 hält er den Druck auf d4 aufrecht, sodass Weiß sofort entscheiden muss, wie es darauf antwortet."
   },
   "1.d4 d5 2.c4 Nc6 3.Nf3 e5": {
     "strategy": "Ein Gambit, das den e-Bauern sofort anbietet, um die Stellung für die Figuren zu öffnen und d4 anzugreifen. Weiß kann annehmen und den Bauern behalten, sodass Schwarz zeigen muss, dass der Entwicklungsvorsprung und die offenen Linien einen Bauern wert sind. Ein riskanter praktischer Versuch.",
     "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung, Lazard-Gambit"
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3": {
+    "strategy": "Stützt d4, das die Dame und der Springer auf c6 beide angreifen, und öffnet die Diagonale des Königsläufers. Der Preis ist ein Läufer auf c1, der vorerst hinter seinem eigenen Bauern eingesperrt bleibt."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5": {
+    "strategy": "Greift d4 ein drittes Mal an und öffnet die Diagonale des Läufers auf f8. Schwarz hat keinen Bauern mehr auf d5 und setzt stattdessen auf Figurenaktivität: Die Dame und der Springer wirken auf Weißens Zentrum, und Weiß muss d4 weiter decken, während es die Entwicklung beendet."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3": {
+    "strategy": "Entwickelt mit Tempogewinn gegen die Dame und bringt eine zweite Figur in den Kampf um das Zentrum. Der Springer kann als Antwort gegen den König gefesselt werden, sodass Weiß das scheinbar gewonnene Tempo nicht gewinnt und Schwarz seinen aktiven Aufbau behält."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4": {
+    "strategy": "Fesselt den Springer gegen den König, sodass er die Dame nicht tatsächlich schlagen kann und die Dame ungestört auf d5 bleibt. Schwarz entwickelt sich mit einer Drohung und hält den Druck auf d4 aufrecht: Weiß muss sich mit der Fesselung befassen, bevor es seine eigenen Figuren in Gang bringen kann."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4 6.Bd2": {
+    "strategy": "Löst die Fesselung und entwickelt endlich den Läufer, den e3 eingesperrt hatte, was den Springer außerdem ein zweites Mal deckt. Weiß ist bereit, auf ...Lxc3 mit einem Wiederschlagen zu antworten, das das Läuferpaar behält, und steuert eine solide Entwicklung gegen Schwarzens aktive Figuren an."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4 6.Bd2 Bxc3": {
+    "strategy": "Tauscht den Läufer gegen den Springer, die Figur, die die Dame angegriffen hat, und regelt so die Fesselung zu Schwarzens Bedingungen. Schwarz gibt das Läuferpaar ab, und Weiß kann auf zwei Arten zurückschlagen, doch Schwarz behält den Vorsprung an Figurenaktivität und den Druck auf d4."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 dxc4 4.Nf3": {
+    "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung, Janowski-Variante",
+    "strategy": "Verteidigt d4 gegen die Dame und den Springer und entwickelt mit dem Ziel, den Bauern auf c4 zurückzugewinnen. Weiß lässt Schwarz den Bauern vorerst behalten und baut ein breites eigenes Zentrum auf, sodass Schwarz aktiv spielen muss, um die Aufgabe des d5-Bauern zu rechtfertigen."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 dxc4 4.Nf3 Nf6": {
+    "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung, Modernes Gambit",
+    "strategy": "Ein natürlicher Entwicklungszug, der nicht versucht, den Bauern auf c4 zu halten. Schwarz lässt Weiß ein breites Zentrum nehmen und den Bauern zurückgewinnen und setzt auf Figurendruck gegen dieses Zentrum, wobei der Springer e4 und d5 im Blick hat."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 e6 4.Nf3": {
+    "strategy": "Entwickelt und deckt d4 gegen den Springer auf c6, sodass Weiß einfach die Entwicklung fortsetzt und seine Zentrumsbauern intakt hält. Schwarz hat einen soliden Zug gespielt, der das Problem des unglücklichen Springers auf c6 nicht löst."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 e6 4.Nf3 Nf6": {
+    "strategy": "Bringt den Königsspringer auf sein natürliches Feld und deckt e4, womit der Aufbau eines abgelehnten Gambits erreicht ist, nur dass der Damenspringer schon auf c6 steht. Solide und natürlich, doch dieser Springer blockiert den c-Bauern, sodass Schwarz weniger Gegenspiel im Zentrum hat als üblich."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nf3 Bg4 4.Qa4": {
+    "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung, Hauptvariante, Aljechin-Variante",
+    "strategy": "Fesselt den Springer auf c6 gegen den König, was die Figur, die d4 angegriffen hat, aus dem Spiel nimmt, und deckt den Bauern auf c4. Die Dame verlässt d1 und steht exponiert, doch Schwarz muss die Fesselung auflösen, bevor der Druck auf d4 wieder aufgenommen werden kann."
   }
 }

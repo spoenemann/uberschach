@@ -123,8 +123,8 @@ neutral JSON file with the positions, moves, ratings and sources, and
 beside it one JSON file per language with the names, backgrounds and
 strategy texts (`docs/product-specs/opening-explorer.md`, The database),
 under `src/content/lines/` as `<id>.json`, `<id>.en.json`, `<id>.de.json`,
-one module per followed position, `root` for the initial position
-(`docs/adr/0001-opening-book-as-fetched-json.md`). `src/content/files.ts`
+one module per subtree of the book, `root` for the initial position
+(`docs/adr/0002-opening-modules-folded-to-a-size-budget.md`). `src/content/files.ts`
 reads them into a `Record<Language, …>` with `Language` from
 `src/i18n/language.ts`, so a new language is a new file beside the others.
 Both the data and the prose name a position by the canonical line that

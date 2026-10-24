@@ -23,6 +23,7 @@
     "name": "Französische Verteidigung: Vorstoßvariante, Steinitz-Variante"
   },
   "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6": {
+    "name": "Französische Verteidigung: Vorstoßvariante",
     "strategy": "Entwickelt eine Figur und fügt neben dem c5-Bauern einen zweiten Angreifer auf d4 hinzu, während er auch e5 im Blick hat. Schwarz tauscht noch nicht auf d4: Er hält den Druck auf die Basis der Kette mit Figuren aufrecht und zwingt Weiß, genug Verteidiger zu finden."
   },
   "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Qb6": {
@@ -33,5 +34,54 @@
   },
   "1.e4 e6 2.d4 d5 3.e5 c5 4.Qg4 cxd4": {
     "strategy": "Nimmt den angebotenen Bauern an: g7 wird vom Läufer auf f8 gedeckt und e6 vom f7-Bauern und vom Läufer auf c8, sodass der Vorstoß der Dame kein unmittelbares Ziel hat und Schwarz schlicht einen Bauern mehr hat."
+  },
+  "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3": {
+    "name": "Französische Verteidigung: Vorstoßvariante, Paulsen-Angriff",
+    "strategy": "Die Hauptvariante: Der Springer deckt d4 und e5 zugleich, sodass d4 nun drei Verteidiger gegen zwei Angreifer von Schwarz hat. Weiß entwickelt sich und hält die ganze Kette zusammen, nimmt dafür aber in Kauf, dass das Zentrum unter Druck bleibt und Schwarz entscheidet, wie er ihn verstärkt."
+  },
+  "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Be3": {
+    "name": "Französische Verteidigung: Vorstoßvariante, Kupreichik-Variante",
+    "strategy": "Fügt d4 mit einem Entwicklungszug einen Verteidiger hinzu, nimmt den Läufer aber vom b2-Bauern weg: 5...Db6 greift sofort den ungedeckten Bauern an, sodass Weiß einen Zug darauf verwenden muss. Eine selten gespielte Nebenvariante, die keinen Vorteil bringt."
+  },
+  "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Qb6": {
+    "strategy": "Der häufigste Zug: Die Dame verstärkt den Druck auf d4 und greift b2 an, das der Läufer auf c1 nicht verlassen kann, ohne den Bauern einzubüßen. Dadurch ist d4 allein mit Figuren schwer zu verteidigen. Schwarz legt die Dame früh fest, und Weiß muss entscheiden, wie er dem Druck begegnet."
+  },
+  "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Bd7": {
+    "name": "Französische Verteidigung: Vorstoßvariante, Euwe-Variante",
+    "background": "Greco erwähnte 5...Ld7 bereits 1620. Sie ist als Euwe-Variante bekannt und wurde in den 1970er Jahren von Viktor Kortschnoi populär gemacht; heute ist sie eine Hauptvariante.",
+    "strategy": "Der schlechte Läufer entwickelt sich sofort, und die Dame behält ihr bestes Feld frei, sodass Weiß seinen Plan zuerst zeigen muss. Er gibt den direkten Druck auf b2 auf, doch das übliche a3 von Weiß ist dann ein verlorener Zug, weil Schwarz die Zeit nutzen kann, um das Zentrum anzugreifen."
+  },
+  "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Qb6 6.a3": {
+    "name": "Französische Verteidigung: Vorstoßvariante, Hauptvariante",
+    "background": "In der aktuellen Theorie ist dies die wichtigste Linie der Vorstoßvariante.",
+    "strategy": "Die heute wichtigste Variante: Sie nimmt den Figuren von Schwarz das Feld b4 und bereitet selbst b4 vor, was Raum am Damenflügel gewinnen und den Läufer auf c1 von der Deckung des b2-Bauern befreien würde. Der Zug ist langsam, sodass Schwarz Zeit bekommt zu entscheiden, wie er die Expansion bekämpft."
+  },
+  "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Qb6 6.Bd3": {
+    "name": "Französische Verteidigung: Vorstoßvariante, Milner-Barry-Gambit",
+    "background": "Benannt nach Stuart Milner-Barry, einem Schachspieler und Codeknacker im Krieg, dessen Name mit vier Eröffnungsvarianten verbunden ist.",
+    "strategy": "Opfert den d4-Bauern für Entwicklung und Angriff: Weiß erhält offene Linien und einen Vorsprung gegen den nicht rochierten König. Schwarz muss genau verteidigen, denn wer d4 mit Springer und Dame zugleich schlägt, läuft in Lb5+, ein Schach, das einen Angriff auf die Dame aufdeckt."
+  },
+  "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Qb6 6.a3 Nh6": {
+    "name": "Französische Verteidigung: Vorstoßvariante, Lputjan-Variante",
+    "strategy": "Strebt f5 an, um d4 anzugreifen, und hält die Diagonale des Läufers auf f8 offen. Weiß kann die Bauern von Schwarz verdoppeln, indem er auf h6 schlägt, gibt damit aber den Läufer von c1 auf und öffnet die g-Linie, was als in Ordnung für Schwarz gilt. Eine angesehene Alternative."
+  },
+  "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Qb6 6.Bd3 cxd4": {
+    "strategy": "Nimmt das Gambit an und schlägt den Bauern. Schwarz muss dann auf das Feld b5 achten, denn schlägt er d4 ein zweites Mal mit dem Springer, verliert er die Dame durch Lb5+. Der Mehrbauer ist real, doch wegen des Entwicklungsvorsprungs von Weiß muss Schwarz genau verteidigen."
+  },
+  "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Qb6 5.Nf3": {
+    "strategy": "Die natürliche Antwort: Der Springer entwickelt sich und deckt d4 und e5, sodass die Bauernkette intakt bleibt. Weiß muss die Dame auf b6 noch nicht fürchten, da der Läufer auf c1 b2 deckt."
+  },
+  "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Qb6 5.Nf3 Bd7": {
+    "name": "Französische Verteidigung: Vorstoßvariante, Wade-Variante",
+    "background": "Benannt nach Robert Wade, der sie 1953 erstmals gegen Enrico Paoli spielte. Ab 1955 kam sie in breiten Gebrauch und wurde seither von einigen der stärksten Spieler der Welt gespielt, darunter Anatoli Karpow, Yasser Seirawan und Lewon Aronjan.",
+    "strategy": "Bringt den schlechten Läufer heraus, um ihn auf b5 gegen den weißfeldrigen Läufer von Weiß zu tauschen, wobei die Dame auf b6 den Tausch dort unterstützt. Der Plan kostet Zeit, da Schwarz Züge für den Läufer und später für die Stellung der Dame aufwendet, sodass sich der Tausch lohnen muss."
+  },
+  "1.e4 e6 2.d4 d5 3.e5 c5 4.Nf3 cxd4 5.Bd3": {
+    "name": "Französische Verteidigung: Vorstoßvariante, Ruisdonk-Gambit",
+    "strategy": "Bietet den Bauern für Entwicklung an: Der Läufer kommt heraus, und Weiß rochiert, wobei der Springer auf f3 e5 deckt, statt sofort zurückzunehmen. Weiß erhält einen Entwicklungsvorsprung, doch Schwarz hat einen sauberen Mehrbauern, mit dem er sich verteidigen kann."
+  },
+  "1.e4 e6 2.d4 d5 3.e5 c5 4.Qg4 cxd4 5.Nf3": {
+    "name": "Französische Verteidigung: Vorstoßvariante, Nimzowitsch-Gambit",
+    "strategy": "Entwickelt sich mit Angriff auf den d4-Bauern, während die Dame g7 und e6 unter Feuer hält. Weiß steht vorerst einen Bauern im Nachteil, und Schwarz muss den Drohungen am Königsflügel begegnen, bevor er sich festigt, doch der Ausgleich ist zweifelhaft."
   }
 }

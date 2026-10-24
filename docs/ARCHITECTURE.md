@@ -62,8 +62,9 @@ Enforced by: `boundaries/dependencies` and `boundaries/no-unknown-files` in
   and by `src/content/openings.test.ts`, which also holds the content
   principles of `docs/product-specs/opening-explorer.md` (The database),
   the named lines of `src/content/named/` beyond the breadth-first plies,
-  and the module layout the chunking relies on: one root per module, two
-  plies below it at most.
+  and the module layout the chunking relies on: one root per module and
+  one subtree below it, two plies deep or within 100 kB on disk
+  (`docs/adr/0002-opening-modules-folded-to-a-size-budget.md`).
 - The app never bundles the book: `src/ui` and `src/app` do not import the
   authored content (`src/content/openings.ts`, `files.ts`, `lines/`,
   `named.ts`, `named/`); the

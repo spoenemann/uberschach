@@ -63,6 +63,8 @@
     "strategy": "Pins the knight, the defender of e4, so White has to resolve the central tension. Black usually wants to trade the bishop for the knight, doubling White's pawns, at the price of the dark-squared bishop and a weaker kingside. It leads to unbalanced, double-edged play."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 dxe4": {
+    "name": "French Defence: Rubinstein Variation",
+    "background": "Named after Akiba Rubinstein. It has undergone a modest revival, featuring in many grandmaster games as a drawing weapon.",
     "strategy": "Releases the tension at once and answers 3.Nd2 the same way. Black gives White freer development and more space, aiming to neutralise it later with a pawn break; a solid but slightly passive choice, often used to steer for a safe game."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nc6": {
@@ -79,9 +81,11 @@
     "background": "Advocated by Frank Marshall, it is considered theoretically suspect and is a rare sideline today. It was the opening of the famous game Levitsky versus Marshall, also known as the Gold Coins Game."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nf6": {
+    "name": "French Defence: Tarrasch Variation, Closed Variation",
     "strategy": "Attacks the e4 pawn and makes White decide: the push to e5 closes the centre. The game is closed, with a pawn chain for Black to strike at, and Black avoids the isolated pawn of the open lines. Solid and strategically clear."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 c5": {
+    "name": "French Defence: Tarrasch Variation, Open System",
     "strategy": "The most direct reply: it hits the d4 pawn at once, which the knight on d2 has left without the queen's support. Black may end up with an isolated pawn in exchange for open lines and active pieces."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 a6": {
@@ -98,6 +102,7 @@
     "strategy": "Resolves the tension at once: after the knight retakes, White has more space but Black has a solid position and easy development, with no pawn to defend. A quiet choice that avoids theory specific to this move order."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nc6": {
+    "name": "French Defence: Tarrasch Variation, Guimard Defence",
     "strategy": "Develops with a hit on d4 but blocks the c-pawn, so the usual pawn break against the centre is gone. Black develops a piece, but White keeps a slight edge."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 f5": {
@@ -112,5 +117,214 @@
   },
   "1.e4 e6 2.d4 d5": {
     "name": "French Defence"
+  },
+  "1.e4 e6 2.d4 d5 3.exd5 exd5 4.Nf3": {
+    "name": "French Defence: Exchange Variation",
+    "strategy": "Develops the knight with quick castling and calm piece play in mind. The structure is symmetrical, so there is no pawn lever to fight over: White must find activity with its pieces, and Black can mirror it, which is why such games are often drawn."
+  },
+  "1.e4 e6 2.d4 d5 3.exd5 exd5 4.Nc3": {
+    "name": "French Defence: Exchange Variation",
+    "strategy": "Develops the knight with an eye on d5 and e4, at the cost of the c-pawn's path. White's pieces gain scope for a more varied middlegame, since the king can castle on either wing, but the symmetry remains and Black can usually mirror the plan."
+  },
+  "1.e4 e6 2.d4 d5 3.exd5 exd5 4.c4": {
+    "name": "French Defence: Exchange Variation, Monte Carlo Variation",
+    "background": "Played by the grandmasters Normunds Miezis and Maurice Ashley.",
+    "strategy": "Attacks d5 at once to unbalance the symmetrical structure. If Black takes on c4, White gets an isolated d-pawn but more freedom for the pieces and attacking chances: White gives up the safe symmetrical game to play for a win."
+  },
+  "1.e4 e6 2.d4 d5 3.exd5 exd5 4.Nc3 Nf6": {
+    "strategy": "The natural developing move: the knight adds to the control of e4 and prepares to bring out the king's bishop. The pawn structure stays symmetrical and Black has no problems, so development and piece placement decide the game."
+  },
+  "1.e4 e6 2.d4 d5 3.exd5 exd5 4.Nc3 Nf6 5.Bg5": {
+    "name": "French Defence: Exchange Variation, Svenonius Variation",
+    "strategy": "Pins the f6-knight to the queen and develops the bishop actively outside the pawn chain. Black must decide how to meet the pin, so White gains a small initiative, though the symmetrical structure keeps the position balanced."
+  },
+  "1.e4 e6 2.d4 d5 3.exd5 exd5 4.Nc3 Nf6 5.Bg5 Nc6": {
+    "name": "French Defence: Exchange Variation, Bogoljubow Variation",
+    "strategy": "Ignores the pin and develops: the knight attacks d4, which only the queen defends, and d5 is covered by the queen and the knight. Black keeps developing, at the cost of leaving the pin on f6 for the moment."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 a6 4.Nf3": {
+    "strategy": "Develops a piece and adds a defender to d4 and to the e5 square before the centre is decided. Black's ...a6 has done nothing about the centre, so White simply gets on with development and keeps the pawn structure flexible."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 a6 4.Nf3 Nf6": {
+    "strategy": "Develops with a hit on e4 and steers back into the classical set-up. The extra ...a6 is a spare move there: it keeps White's pieces off b5 and prepares queenside play, but it cost a tempo in the centre."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 a6 4.Nf3 Nf6 5.e5": {
+    "strategy": "Attacks the knight and takes space, the pawn being supported by d4 and Nf3. The centre locks into a pawn chain: White gets room on the kingside, Black a target in the base of the chain and a cramped but solid position."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 a6 4.Nf3 Nf6 5.e5 Nfd7": {
+    "name": "French Defence: Steinitz Variation",
+    "background": "Named after Wilhelm Steinitz.",
+    "strategy": "The standard retreat: the knight keeps the pawn chain under fire by attacking e5 and leaves f6 free for a later pawn break. The price is a cramped position with the c8 bishop blocked, but Black gets counterplay against both ends of White's chain."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 a6 4.Nf3 Nf6 5.e5 Nfd7 6.Ne2": {
+    "name": "French Defence: Steinitz Variation",
+    "strategy": "Re-routes the knight so that it supports d4 and can head for the kingside, and it frees the c-pawn to reinforce the centre. White gives up the pressure on d5 to prepare a solid space advantage and slow play with pieces against the kingside."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 a6 4.Nf3 Nf6 5.e5 Nfd7 6.Bg5": {
+    "name": "French Defence: Classical Variation",
+    "strategy": "Hits the queen along the diagonal the retreating knight has opened, which asks Black to trade dark-squared bishops. The trade eases Black's cramped position a little but costs a defender of the dark squares near the king; White keeps the space and the e5 pawn."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 a6 4.Nf3 Nf6 5.e5 Nfd7 6.a3": {
+    "name": "French Defence: Steinitz Variation",
+    "strategy": "A quiet move that takes b4 from Black's bishop, so the knight on c3 cannot be pinned, and prepares queenside expansion. It does nothing for the centre, where Black is about to challenge the pawn chain, so it spends a tempo on a precaution."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4": {
+    "strategy": "Recaptures the pawn and puts a knight on a strong central square, essentially the only move here. White gets freer development and more space in the centre; Black must neutralise this by striking at the centre with ...c5 at some point."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7": {
+    "name": "French Defence: Rubinstein Variation, Blackburne Defence",
+    "background": "The most frequent high-level exponent of 4...Nd7 is Georg Meier, and at a high level it is the most common way to continue.",
+    "strategy": "Develops the knight to d7 first, so that after a trade on f6 the other knight can recapture. That avoids ...Qxf6 and a damaged pawn structure; the price is a slightly passive piece, and ...c5 is the freeing move Black has to prepare."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bd7": {
+    "strategy": "Heads for c6, where the light-squared bishop, usually the French Defence's passive problem piece, becomes active. It takes the knight's natural square on d7 and loses a move, a high price for a very solid but cramped set-up."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Qd5": {
+    "name": "French Defence: Rubinstein Variation, Maric Variation",
+    "strategy": "Centralises the queen early and attacks the knight on e4, but the queen is exposed: White can defend the knight with a developing move or chase the queen with Nc3, and Black has lost time for nothing."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 e5": {
+    "name": "French Defence: Rubinstein Variation, Ellis Gambit",
+    "strategy": "A bad gambit: Black pushes the e-pawn a second time while behind in development, opening the centre against its own unfinished set-up. White keeps the advantage by not rushing into 5.dxe5 Qxd1+ 6.Kxd1, which costs White the right to castle and levels the game."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bd7 5.Nf3": {
+    "strategy": "Develops the king's knight and defends d4 while keeping the position flexible. The bishop is heading for c6, and when it arrives the knight on e4 will need support, so White should have a plan ready."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bd7 5.Nf3 Bc6": {
+    "name": "French Defence: Rubinstein Variation, Fort Knox Variation",
+    "background": "Alexander Rustemov often plays it.",
+    "strategy": "Completes the plan: the bishop reaches the long diagonal and attacks the undefended knight on e4, so White must respond at once. Black is ready to trade the bishop for the knight and be rid of its worst piece, at the price of a cramped but sturdy position."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Nf3": {
+    "strategy": "Develops the king's knight and protects d4, keeping the strong knight on e4 where it controls the centre. White simply develops and waits for Black to commit."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Nf3 Ngf6": {
+    "strategy": "Challenges the strong knight on e4, so White must trade or retreat it. With the other knight on d7 ready to recapture on f6, Black's pawn structure stays intact and the queen stays at home."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Nf3 Ngf6 6.Nxf6+": {
+    "strategy": "Trades the strong knight rather than retreat it: the knight on e4 is attacked and moving it would lose time. White gives up its best-placed piece for a simple, safe position and a slight space edge."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Nf3 Ngf6 6.Nxf6+ Nxf6": {
+    "strategy": "Recaptures with the knight from d7, the whole point of Black's set-up: the pawn structure is intact, the c8 bishop is free, and Black is ready to break with ...c5. White keeps a slight space edge but has no real target."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5": {
+    "strategy": "Settles the tension in the centre at once and leaves Black to choose the recapture. Taking with the pawn frees the light-squared bishop but leaves an isolated queen's pawn; taking with the queen gives Black the healthier structure but lets White's pieces harass it. Either way the game opens and White aims for a lead in development."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 c5 4.Ngf3": {
+    "name": "French Defence: Tarrasch Variation, Open System, Euwe-Keres Line",
+    "background": "Played by Paul Keres and Max Euwe, and still in significant use.",
+    "strategy": "Keeps the tension and defends d4 with a piece, so that a capture on d4 can be answered by recapturing with the knight. White can still decide later whether to take on d5, which often steers the game back into the main lines, though Black can also pick paths that avoid them."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 c5 4.c3": {
+    "name": "French Defence: Tarrasch Variation, Open System, Süchting Line",
+    "strategy": "Defends d4 with a pawn, but unlike in the closed lines the e4 pawn is still there to be taken. Black releases the tension in the centre and White is left with an isolated queen's pawn that is hard to keep protected. It gives White no advantage."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 Qxd5": {
+    "name": "French Defence: Tarrasch Variation, Chistyakov Defence",
+    "background": "Has become the modern main line of the Open Tarrasch; the recapture with the pawn is the old main line.",
+    "strategy": "Recaptures with the queen, which White cannot chase away with Nc3 because the b1-knight has already gone to d2. Black intends to win the d4 pawn and swap his c- and d-pawns for White's d- and e-pawns, ending with an extra central pawn; in return White gains time for development by attacking the queen."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 exd5": {
+    "name": "French Defence: Tarrasch Variation, Open System",
+    "background": "The old main line: a staple of many Karpov-Korchnoi games, among them seven in their 1974 Candidates match.",
+    "strategy": "Recaptures with the pawn: the light-squared bishop is freed and the centre opens, at the price of an isolated queen's pawn. If White neutralises the activity of Black's pieces in the middlegame, that pawn becomes a target in the ending, so Black has to play for active pieces."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 Nf6": {
+    "name": "French Defence: Tarrasch Variation, Open System, Shaposhnikov Gambit",
+    "strategy": "A gambit: Black develops with an attack on the pawn on d5 instead of recapturing, so White is a pawn up for the moment. Nothing guards that pawn yet, so White has to be careful, but Black must show that quicker development is worth a whole pawn, and the move gives White the easier game."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 exd5 5.Ngf3": {
+    "strategy": "Defends d4, which the c5 pawn attacks and nothing else guards, and develops towards e5 and kingside castling. White's plan is to let the tension on c5 resolve so that Black is left with the isolated d-pawn, and to trade pieces towards an ending in which that pawn is a weakness."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 exd5 5.Ngf3 Nc6": {
+    "name": "French Defence: Tarrasch Variation, Open System, Main Line",
+    "strategy": "Adds a second attacker on d4, which only the knight defends, so White must reinforce the pawn or let it go. Black develops with threats and accepts the isolated queen's pawn that this structure brings, relying on active pieces."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 exd5 5.Ngf3 c4": {
+    "name": "French Defence: Tarrasch Variation, Open System, Advance Line",
+    "strategy": "Pushes past the d4 pawn to cramp White's queenside, but gives up the pressure on that pawn and hands White the e5 square for a knight. The pawn on c4 can also be undermined from the b-file, so the space it wins has to be defended."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 exd5 5.Ngf3 Nc6 6.Bb5": {
+    "strategy": "Pins the knight to the king, so it cannot take on d4. The bishop also clears the way for castling and threatens to trade itself for the knight and double Black's pawns. White plays for a small, lasting edge in an open position."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 exd5 5.Ngf3 Nc6 6.Bb5 Bd6": {
+    "strategy": "Develops the bishop to a natural square where it guards the c5 pawn, so that a capture there can be answered by retaking, and points down the diagonal at White's kingside. It also starts to clear the way for castling."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 Qxd5 5.Ngf3": {
+    "strategy": "Develops and defends d4 ahead of Black's capture, preparing to hit the queen with the f1-bishop. White does not mind losing the d4 pawn for a while: it is won back later, while Black's queen is chased about and White leads in development."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 Qxd5 5.Ngf3 cxd4": {
+    "strategy": "Takes the pawn and carries out the plan of swapping Black's c- and d-pawns for White's d- and e-pawns. Black is a pawn up for the moment and will have an extra central pawn, but the queen on d5 is exposed to a gain of tempo."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 Qxd5 5.Ngf3 cxd4 6.Bc4": {
+    "strategy": "Attacks the queen with a developing move. The pawn on e6 guards it, but a queen for a bishop is no trade, so Black must move it. White gains a tempo, keeps the lead in development and has the d4 pawn to recover."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 Qxd5 5.Ngf3 cxd4 6.Bc4 Qd6": {
+    "strategy": "Keeps the queen in the centre, out of the bishop's reach and still guarding d4. White's knight can jump to e4 with a tempo on it, so Black has to develop a knight to f6 to stop that; after that he is solid, with the extra central pawn."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 Qxd5 5.Ngf3 cxd4 6.Bc4 Qd8": {
+    "name": "French Defence: Tarrasch Variation, Eliskases Variation",
+    "strategy": "Retreats the queen all the way home. It still guards d4, but Black has moved the queen twice and White uses the time to finish development before winning the pawn back. Safe but passive: Black keeps the extra central pawn and gives up the initiative."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 dxe4 4.Nxe4": {
+    "strategy": "Recaptures and centralises the knight at once, reaching the same position as after the other third move. White enjoys more space and central control, and Black has traded away the tension in the centre and must now show that a solid, patient set-up equalises."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 Nc6 4.Ngf3": {
+    "strategy": "Defends d4, which the knight on c6 attacks and the queen cannot guard with the knight on d2 in the way, and develops a piece. Because that knight blocks Black's c-pawn, Black has no pawn lever against d4, so White keeps a slight space advantage in a solid structure."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 Nc6 4.c3": {
+    "strategy": "Also answers the attack on d4, with a pawn, and builds a solid chain. But it develops no piece: Black can release the tension on e4 and strike at the centre with the e-pawn, so White gets a less comfortable game than with a developing move."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 Nc6 4.c3 dxe4": {
+    "strategy": "Releases the tension and opens the centre: Black swaps the d-pawn for White's e-pawn and plans to strike at d4 with the e-pawn once White has recaptured. Black accepts that White's pieces get more room, in return for easy development and counterplay against d4."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 Nc6 4.Ngf3 Nf6": {
+    "name": "French Defence: Tarrasch Variation, Guimard Defence, Main Line",
+    "strategy": "Develops and puts a second attacker on e4, which only the knight on d2 defends, so White has to settle the tension in the centre at once. Black gets flexible development and the chance to undermine whatever pawn chain White then builds."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 Nc6 4.c3 dxe4 5.Nxe4": {
+    "strategy": "Takes the pawn back and centralises the knight, with the c-pawn already on c3 to support d4. The knight eyes the d6, f6 and c5 squares, and White keeps more space in the centre as the game opens."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 Nc6 4.c3 dxe4 5.Nxe4 e5": {
+    "name": "French Defence: Tarrasch Variation, Guimard Defence, Thunderbunny Variation",
+    "strategy": "Strikes at d4 for a third time and opens the diagonal of the queen's bishop, so White has to settle the centre at once. Black chooses an open game with quick development over passive solidity; the cost is a looser pawn structure."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5": {
+    "strategy": "The only sensible answer to the double attack on e4: the pawn advances, gaining space, closing the centre and driving the knight away with tempo. White gets a pawn chain from d4 to e5, and Black must find a way to undermine it."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7": {
+    "strategy": "Retreats the knight to a square from which it attacks the pawn on e5, and prepares to hit the pawn chain at both ends. The price is a cramped position: the knight blocks the c8-bishop, which stays Black's problem piece."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.Bd3": {
+    "strategy": "Develops the bishop on an active diagonal aimed at h7, and keeps the knight's route open: the knight can go to e2 later without blocking the bishop. White prepares to defend the centre with pieces and a pawn on c3."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.f4": {
+    "name": "French Defence: Tarrasch Variation, Pawn Centre Variation",
+    "strategy": "Props up e5 with a second pawn and takes space on the kingside, which makes it harder for Black to attack e5 from the other side. In return White slows his development and loosens the king's side: the e3 square and the diagonal towards the king are weakened."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.Bd3 c5": {
+    "strategy": "Hits the base of White's chain, the right place to challenge it: with d4 and e5 locked together, the d4 pawn is the one that can be undermined. It starts Black's counterplay at once, since d4 has no defender yet."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.Bd3 c5 6.c3": {
+    "strategy": "Reinforces d4 with a pawn, the only good way to hold it. White cannot give up the centre: if the d-pawn takes on c5, the pawn on e5 loses its support and falls to the knight. The chain is stable and White has the space, while Black has to keep working against it."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.Bd3 c5 6.c3 Nc6": {
+    "name": "French Defence: Tarrasch Variation, Closed Variation",
+    "strategy": "Adds a second attacker on d4, which only the c-pawn defends, so White must reinforce it with a piece or give it up for development. This is the main line: Black develops and increases the pressure at the base of White's chain."
+  },
+  "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.Bd3 c5 6.c3 b6": {
+    "name": "French Defence: Tarrasch Variation, Botvinnik Variation",
+    "strategy": "Prepares to trade Black's bad light-squared bishop for White's good one, and adds a pawn defender to c5. It deals with the structure's main strategic problem, at the cost of a slower attack on d4, so White gets time to organise the defence."
+  },
+  "1.e4 e6 2.d4 d5 3.Nf3 dxe4 4.Ne5": {
+    "name": "French Defence: Carlson Gambit",
+    "strategy": "The point of the gambit: the knight reaches a central outpost, supported by the d4 pawn and hard for Black to dislodge, and keeps Qh5 ideas in the air. White is a pawn down for it, and Black can consolidate with natural development to keep an edge."
+  },
+  "1.e4 e6 2.d4 d5 3.Qe2 e5 4.f4": {
+    "strategy": "Attacks e5 a second time, and Black's pawn has no defender, so Black must act at once. White offers the f-pawn: if Black takes it, the e-pawn captures on d5 with check and the queen on e2 looks down the open e-file at the king."
+  },
+  "1.e4 e6 2.d4 d5 3.Qe2 e5 4.f4 exf4": {
+    "name": "French Defence: Hoffmann Gambit",
+    "strategy": "Grabs a pawn that falls straight back: White takes on d5 with check along the open e-file, and Black's king stays in the centre with the f4 pawn hanging to the bishop. Black ends a pawn down and behind in development."
   }
 }

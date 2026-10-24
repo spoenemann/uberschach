@@ -146,6 +146,7 @@
     "name": "Sokolsky Opening: Symmetrical Variation"
   },
   "1.d3 e5": {
+    "name": "Mieses Opening: Reversed Rat",
     "strategy": "Takes the centre at once, since White's modest first move has left it free. Black gets a full pawn on e5 and easy development, and White has to prove that the flexible, less committal set-up is worth the space it concedes."
   },
   "1.d3 g6": {
@@ -201,6 +202,7 @@
     "strategy": "The instinctive centre grab, and a good one: Black builds a pawn centre of his own and can aim at the h4 square, which the g-pawn has left weak. It puts less direct pressure on White than hitting g4 does."
   },
   "1.g4 g5": {
+    "name": "Grob's Attack: Double Grob",
     "strategy": "Copies White's move, so neither side has the better-placed kingside pawns. It is safe and keeps the balance, but Black gives up the chance to take the centre and to punish the loosened kingside."
   },
   "1.g4 f5": {
@@ -269,5 +271,132 @@
   },
   "1.Nh3 d5": {
     "strategy": "Takes the centre at once and punishes the knight's odd square: ...Bxh3 threatens to take it and double White's kingside pawns. Black loses nothing by being the first to occupy the centre, and White has to spend a move on the knight's problem."
+  },
+  "1.a3 a5 2.b4": {
+    "name": "Anderssen's Opening: Polish Gambit",
+    "strategy": "A dubious gambit: the pawn is offered to open the long diagonal for the bishop and the a-file for the rook. Black simply takes it, and White cannot retake with the a-pawn, because the rook on a8 would then capture the rook on a1. The open lines are not worth a pawn."
+  },
+  "1.a3 e5 2.b3": {
+    "strategy": "Prepares to put the queen's bishop on the long diagonal, where it eyes the e5 pawn and the kingside. White leaves the centre to Black for now and plays for pressure from a distance, a slow but sound set-up."
+  },
+  "1.a3 e5 2.g3": {
+    "strategy": "Prepares to fianchetto the king's bishop and castle early, aiming at the long diagonal. White accepts that Black has the larger share of the centre and plays a flexible, quiet game, hoping to undermine the pawn on e5 later."
+  },
+  "1.a3 e5 2.Nc3": {
+    "name": "Dunst Opening: Battambang Variation",
+    "strategy": "Develops a knight towards the centre, where it eyes the e4 and d5 squares, and the pawn on a3 takes the b4 square away from Black's bishop. The cost is that the knight blocks the c-pawn, so White cannot build the c4 set-up and leaves the centre to Black."
+  },
+  "1.a4 b5 2.axb5": {
+    "strategy": "Takes the free pawn, and Black has no way to win it back at once. White stays a pawn up and opens the a-file for the rook, while the pawn on b5 cramps the queenside; Black's compensation is limited to quick development."
+  },
+  "1.a4 b5 2.axb5 Bb7": {
+    "name": "Ware Opening: Wing Gambit",
+    "strategy": "Carries on with the gambit: the bishop fianchettoes onto the long diagonal and eyes the kingside, in return for the pawn. It is the natural follow-up, but Black is a pawn down and has little more than a free bishop to show for it."
+  },
+  "1.d3 c5 2.Nc3": {
+    "strategy": "Develops the knight where it eyes the d5 and e4 squares and keeps the position flexible. The c-pawn is blocked, so White settles for a restrained set-up with a kingside fianchetto instead of a quick central break."
+  },
+  "1.d3 c5 2.Nc3 Nc6": {
+    "strategy": "Develops a piece and adds a second guard to d4, so White cannot easily claim that square. Black mirrors White's flexible set-up and keeps every option open for the centre."
+  },
+  "1.d3 c5 2.Nc3 Nc6 3.g3": {
+    "name": "Mieses Opening: Venezolana Variation",
+    "strategy": "Prepares the fianchetto of the king's bishop, which has little to do on f1 behind the d3-pawn but a long diagonal to rule from g2. White aims at a slow, solid game in which the bishop and the knight on c3 together pressure d5 and the queenside."
+  },
+  "1.d3 e5 2.Nd2": {
+    "name": "Valencia Opening",
+    "strategy": "Heads for the centre with the knight and leaves the f-pawn free, but it shuts in the queen's bishop and cramps development. The move is playable, since that bishop can still come out on b2 after b3, but it is the less natural way to answer Black's central pawn."
+  },
+  "1.d3 g6 2.g4": {
+    "name": "Mieses Opening: Myers Spike Attack",
+    "strategy": "A flank thrust that grabs space on the kingside and prepares to push the pawns further. It loosens White's own king's side before a single piece has moved, so the attack must justify itself quickly; Black gets a free hand in the centre meanwhile."
+  },
+  "1.f3 d5 2.e4": {
+    "strategy": "Strikes at the centre at once and offers a pawn trade. It undoes part of the damage of the first move, but the pawn on f3 still takes the knight's natural square and leaves the king on an open diagonal, so Black has an easy game."
+  },
+  "1.f3 f5 2.e4": {
+    "strategy": "Strikes in the centre with a pawn offer, hoping to win time for development against the pawn Black takes. White has to prove the compensation, and the open e1–h4 diagonal stays a liability."
+  },
+  "1.f3 f5 2.e4 fxe4": {
+    "strategy": "Takes the offered pawn and pulls White's centre pawn away. Black is a pawn up, and White has little more than open lines to show for it, so Black has only to stay alert to White's quick development."
+  },
+  "1.f3 f5 2.e4 fxe4 3.Nc3": {
+    "name": "Barnes Opening: Gedult Gambit",
+    "strategy": "Attacks the pawn on e4 a second time and develops a piece, aiming to win the pawn back at once. Black must find a way to keep it; if Black does, White has only quick development to show for the sacrifice."
+  },
+  "1.f4 h6 2.Nf3": {
+    "strategy": "A natural developing move that makes the planned ...g5 a risk: from f3 the knight eyes g5, so the pawn would be attacked twice and defended once. White gains a useful move while Black's h-pawn has done little but weaken the kingside."
+  },
+  "1.f4 h6 2.Nf3 g5": {
+    "name": "Bird's Opening: Hobbs-Zilbermints Gambit",
+    "strategy": "Overextends: the pawn on g5 is attacked twice and defended once, so White simply takes it and wins a clean pawn. The open h-file gives Black nothing because the rook on h1 guards h2, and Black has weakened its own kingside for two wasted moves."
+  },
+  "1.g4 g5 2.f4": {
+    "name": "Grob's Attack: Double Grob, Coca-Cola Gambit",
+    "background": "The origin of the name is uncertain; the first known online references to it are a German forum post and a chess.com forum post, both from 2008.",
+    "strategy": "Offers a pawn for nothing concrete: 2...gxf4 wins it, and White's own king is left exposed on the diagonal from e1 to h4 once Black opens the centre. White has no compensation for the lost pawn and the weakened kingside."
+  },
+  "1.h3 d5 2.a3": {
+    "strategy": "A second move on the rim, aimed at a quick c4 against the d5 pawn and at keeping a black bishop off b4. It is sound but passive: Black keeps the freer centre."
+  },
+  "1.h3 d5 2.a3 e5": {
+    "name": "Creepy Crawly Formation: Classical Defence",
+    "strategy": "Adds a second central pawn, so Black owns a broad centre while White has spent two moves on the edge pawns. White now has to show that the flank set-up is worth the lost time, and Black can simply develop and play for the centre."
+  },
+  "1.h3 e5 2.a3": {
+    "name": "Global Opening",
+    "background": "Also known as the Creepy Crawly Formation, a humorous name for the formation of White's wing pawns.",
+    "strategy": "Stays on the wing for the second move in a row, preparing a quick c4 and a slow build-up while stopping a black bishop from coming to b4. Black already holds the centre, so White plays a patient game from a passive position."
+  },
+  "1.h3 h5 2.g4": {
+    "name": "Clemenz Opening: Spike Lee Gambit",
+    "background": "Its association with the filmmaker Spike Lee probably has no direct connection. No tournament game with the gambit is on record.",
+    "strategy": "Gives a pawn away for nothing: 2...hxg4 wins it, and 3.hxg4 would open the h-file for 3...Rxh1, winning the rook. White's kingside is left loose and there is no compensation for the pawn."
+  },
+  "1.h4 c5 2.b4": {
+    "name": "Kádas Opening: Kádas Gambit",
+    "strategy": "A wing gambit: White offers the b-pawn to pull Black's c-pawn away from the centre and gain space there. It costs a pawn and a second flank pawn move for a modest lead, and Black can just take the pawn and develop."
+  },
+  "1.h4 d5 2.d4": {
+    "strategy": "The principled reply: White claims the centre with a pawn and goes for a solid queen's pawn game in which the h-pawn move is just an extra flank step. The position is the same as when the pawn moves are played in the other order."
+  },
+  "1.h4 d5 2.Rh3": {
+    "name": "Kádas Opening: Beginner's Trap",
+    "strategy": "Loses material: the c8-bishop, freed by ...d5, takes the rook, and White can only recapture with the g-pawn. White is down the exchange, with doubled h-pawns and a damaged kingside, for nothing in return."
+  },
+  "1.h4 e5 2.d4": {
+    "strategy": "Strikes at e5 straight away to open the centre. Black can simply take the pawn, so White must back the idea with further sacrifice or quick development, and the early h-pawn move leaves White a little behind in the race."
+  },
+  "1.h4 e5 2.d4 exd4": {
+    "strategy": "Takes the pawn and removes White's central pawn, leaving Black a pawn up with the more natural development. The extra pawn is worth keeping, but White gets time to build lines, so Black has to go on developing with care."
+  },
+  "1.h4 e5 2.d4 exd4 3.c3": {
+    "name": "Kádas Opening: Kádas Gambit",
+    "strategy": "Offers a second pawn to open lines for the pieces. If Black takes again, White is two pawns down for a lead in development, and that is hard to justify when the h-pawn move has already cost a tempo."
+  },
+  "1.Na3 g6 2.g4": {
+    "name": "Durkin Opening: Chenoboskion Variation",
+    "strategy": "Grabs space on the kingside in the hope of a quick attack, but loosens White's own king and does nothing for the knight on the rim. Black answers by developing and striking in the centre, and the advanced pawn becomes a target rather than a spearhead."
+  },
+  "1.Nc3 f5 2.e4": {
+    "strategy": "Hits the f5 pawn at once. The knight on c3 already guards e4, so the pawn cannot be won for nothing, and Black has to choose between taking and holding the centre. White gets the lead in the centre either way."
+  },
+  "1.Nc3 f5 2.e4 fxe4": {
+    "strategy": "Takes the pawn and wins central material, but the e8-h5 diagonal is already open after ...f5 and stays so. Black has to be ready to give the pawn back or to defend the loosened king's side."
+  },
+  "1.Nc3 f5 2.e4 fxe4 3.d3": {
+    "name": "Dunst Opening: Kluever Gambit",
+    "strategy": "A gambit: White offers a second pawn to open the position for the bishops and the queen. The bishop on d3 would aim along the open diagonal at g6 and the h7 pawn, which makes Black's acceptance risky, but the compensation needs sharp play."
+  },
+  "1.Nc3 g6 2.h4": {
+    "name": "Dunst Opening: Myers Attack",
+    "strategy": "A flank advance that threatens h5 to undermine g6, but it costs time and does nothing for development. Black simply develops and meets the threat calmly."
+  },
+  "1.Nc3 Nf6 2.g4": {
+    "name": "Dunst Opening: Tübingen Gambit",
+    "strategy": "Gives away a pawn for nothing: Black takes it with the knight, and when the queen attacks the knight it just retreats. White has weakened the king's side and has no compensation."
+  },
+  "1.Nh3 d5 2.g3": {
+    "strategy": "The usual answer to the threat: after ...Bxh3 the bishop takes back, so White's pawns stay whole. The move also opens the long diagonal for the king's bishop. The knight remains on the rim and White a tempo behind, so the game is a slow one in which Black has the easier time."
   }
 }

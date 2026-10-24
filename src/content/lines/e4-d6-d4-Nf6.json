@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 d6 2.d4 Nf6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 d6 2.d4 Nf6: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 d6 2.d4 Nf6",
@@ -53,6 +53,509 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Pirc_Defence"
       ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 e5",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3",
+      "moves": [
+        {
+          "san": "Nbd7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Philidor_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Bc4",
+          "rating": 5
+        },
+        {
+          "san": "Be2",
+          "rating": 4
+        },
+        {
+          "san": "g4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4",
+      "moves": [
+        {
+          "san": "Be7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Be2",
+      "moves": [
+        {
+          "san": "Be7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.g4"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        },
+        {
+          "san": "dxe5",
+          "rating": 3
+        },
+        {
+          "san": "Ng5",
+          "rating": 2
+        },
+        {
+          "san": "Bxf7+",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.O-O",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        },
+        {
+          "san": "h6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.dxe5",
+      "moves": [
+        {
+          "san": "dxe5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.Ng5",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.Bxf7+"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.O-O O-O"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.O-O h6"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.dxe5 dxe5"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.Ng5 O-O"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Be2 Be7",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Be2 Be7 6.O-O",
+      "moves": [
+        {
+          "san": "c6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Be2 Be7 6.O-O c6"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "f4",
+          "rating": 5
+        },
+        {
+          "san": "Be3",
+          "rating": 4
+        },
+        {
+          "san": "Be2",
+          "rating": 4
+        },
+        {
+          "san": "Bg5",
+          "rating": 4
+        },
+        {
+          "san": "g3",
+          "rating": 4
+        },
+        {
+          "san": "Bc4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pirc_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Bg7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pirc_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Bg7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3",
+      "moves": [
+        {
+          "san": "c6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be2",
+      "moves": [
+        {
+          "san": "Bg7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Bg5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pirc_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.g3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pirc_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Bc4"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be2 Bg7",
+      "moves": [
+        {
+          "san": "h4",
+          "rating": 3
+        },
+        {
+          "san": "g4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be2 Bg7 5.h4"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be2 Bg7 5.g4"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 c6",
+      "moves": [
+        {
+          "san": "Qd2",
+          "rating": 5
+        },
+        {
+          "san": "h3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 c6 5.Qd2",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pirc_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Bg4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 c6 5.h3"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 c6 5.Qd2 Bg4"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "Bc4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Nf3",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        },
+        {
+          "san": "c5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Bc4"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Nf3 c5"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Nf3 O-O",
+      "moves": [
+        {
+          "san": "Bd3",
+          "rating": 5
+        },
+        {
+          "san": "Be3",
+          "rating": 4
+        },
+        {
+          "san": "e5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Nf3 O-O 6.Bd3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pirc_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Nf3 O-O 6.Be3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pirc_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Nf3 O-O 6.e5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pirc_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Nfd7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Nf3 O-O 6.e5 Nfd7"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7",
+      "moves": [
+        {
+          "san": "Be2",
+          "rating": 5
+        },
+        {
+          "san": "h3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.Be2",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.h3"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.Be2 O-O",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.Be2 O-O 6.O-O",
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 4
+        },
+        {
+          "san": "c6",
+          "rating": 4
+        },
+        {
+          "san": "Bg4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.Be2 O-O 6.O-O Nc6"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.Be2 O-O 6.O-O c6"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.Be2 O-O 6.O-O Bg4"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Philidor_Defence"
+      ],
+      "moves": [
+        {
+          "san": "f4",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "g4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.f4",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.Nf3",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.g4"
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.f4 e5",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.f4 e5 5.Nf3",
+      "moves": [
+        {
+          "san": "exd4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.f4 e5 5.Nf3 exd4",
+      "moves": [
+        {
+          "san": "Qxd4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.f4 e5 5.Nf3 exd4 6.Qxd4",
+      "moves": [
+        {
+          "san": "c6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.f4 e5 5.Nf3 exd4 6.Qxd4 c6"
     }
   ]
 }

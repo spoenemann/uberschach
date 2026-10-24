@@ -13,12 +13,16 @@
     "strategy": "Prepares a kingside fianchetto and keeps the c8 bishop free instead of closing it in with ...e6. Sound but slower than the standard pawn chain: White gets time to build in the centre while the bishop on g7 waits behind its own knight."
   },
   "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6": {
+    "name": "Semi-Slav Defence",
     "strategy": "Adds a pawn to the c6-d5 chain and closes the c8 bishop in, in exchange for a solid centre and the threat of ...dxc4 followed by ...b5. The game becomes sharp and theoretical, a very complex opening in its own right."
   },
   "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4": {
+    "name": "Slav Defence: Two Knights Attack",
     "strategy": "Takes the pawn at once and aims to develop the c8 bishop actively, before ...e6 can shut it in, while the c6 pawn makes ...b5 a real option. Black gives up the centre and accepts that White will recapture or build there."
   },
   "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 a6": {
+    "name": "Slav Defence: Chebanenko Variation",
+    "background": "Introduced in the 1990s as an alternative to the traditional 4...e6 and 4...dxc4.",
     "strategy": "Prepares ...b5 without committing the e-pawn, so the c8 bishop stays free and Black may take on c4 on better terms. It also denies White's pieces the b5 square. The cost is a tempo: White can gain space with c5."
   },
   "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 g6": {
@@ -29,5 +33,233 @@
   "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 Qb6": {
     "strategy": "Brings the queen out early to hit b2 and d4, but White can chase it with c5 and gain space and time. Black has used the queen to little effect and has no lasting pressure in return.",
     "name": "Slav Defence: Süchting Variation"
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3": {
+    "name": "Semi-Slav Defence: Main Line",
+    "strategy": "Develops the knight, guards d4 and e5 and keeps the f1 bishop ready to recapture on c4. With e3 played, the dark-squared bishop is closed in and White heads for a solid central game rather than a pin on the f6 knight."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7": {
+    "name": "Semi-Slav Defence: Normal Variation",
+    "strategy": "The standard developing move: the knight guards e5, covers b6 and supports the freeing breaks in the centre. Black accepts a compact, slightly cramped position with the c8 bishop still shut in, and waits for White to commit before choosing between a central break and queenside expansion."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 a6": {
+    "name": "Semi-Slav Defence: Accelerated Meran Variation",
+    "strategy": "Prepares ...b5 in advance, so that a later ...dxc4 can be supported, and leaves the b8 knight free to choose its square. Black spends a tempo on the edge pawn but gains flexibility for queenside expansion."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Ne4": {
+    "strategy": "Hits the c3 knight and offers a trade to ease Black's cramped position. The price is that White can recapture with the b-pawn and gain a strong centre, while Black has spent a second move with the same knight."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Bd6": {
+    "strategy": "Puts the bishop on its natural diagonal, eyeing h2 and supporting an ...e5 break. Sound but second-rate: the bishop is committed before White shows a set-up, and with the c8 bishop still shut in, Black has done little about the real problem."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 a6 6.Bd3": {
+    "strategy": "Develops the bishop to its best diagonal and invites Black to take the pawn. After the capture White retakes and plays for the central advance, while Black grabs queenside space with tempo on the bishop. A rich, double-edged game: White gets the centre, Black the queenside."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 a6 6.Bd3 dxc4": {
+    "strategy": "Takes the pawn and clears d5, giving up the centre for queenside expansion and time against the bishop. With ...a6 already played, the pawn push against the bishop is ready at once. Black then plays to free the c8-bishop by striking at White's centre."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Bd6 6.Bd3": {
+    "strategy": "Develops the bishop to its most active diagonal, aimed at h7, and prepares to castle. If Black takes on c4, the bishop must recapture there and White loses a tempo, but White accepts that to keep the centre and play for a long positional game."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Bd6 6.Bd3 dxc4": {
+    "strategy": "Takes the pawn exactly when the bishop has committed to d3: it has to retake on c4, so White loses a tempo. Black gives up the d5-pawn's grip on the centre but gains time to free the position with a central pawn break."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Bd3": {
+    "name": "Semi-Slav Defence: Main Line",
+    "background": "It provokes the Meran Variation (6...dxc4 7.Bxc4 b5), first played in 1906 in the game Schlechter–Perlis. The variation takes its name from the town of Meran, where a 1924 tournament saw it used successfully in the game Grünfeld–Rubinstein.",
+    "strategy": "Aims the bishop at the kingside and invites Black to open the centre: if Black takes on c4, the bishop recaptures and ...b5 gains time against it. White plays for a central e4 push, Black for queenside expansion in exchange for the centre; the game is sharp and double-edged."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Qc2": {
+    "name": "Semi-Slav Defence: Stoltz Variation",
+    "background": "Named after the Swedish grandmaster Gösta Stoltz, it was once a sideline and then exploded in popularity in the 1990s, in large part through Anatoly Karpov's advocacy.",
+    "strategy": "Waits before placing the bishop: the queen supports e4 and eyes h7 along the b1-h7 diagonal, and White decides where the bishop goes only once Black has committed to ...dxc4. The game is slower, with White keeping a flexible central structure."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.b3": {
+    "strategy": "Guards the c4 pawn so that ...dxc4 never wins it, and prepares the bishop on the long diagonal, although the c3 knight stands in its way. Slow: Black has time to complete development."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Ne5": {
+    "name": "Semi-Slav Defence: Rubinstein System",
+    "strategy": "Stakes out e5, pressing on d7 and f7. White spends a second move with the same knight without developing a new piece, and Black can challenge and trade it, so the gain of space is small."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.b3 Bd6": {
+    "strategy": "Develops the bishop on its best diagonal, aiming at h2 and preparing castling and the ...e5 break. White's b3 has spent time on the queenside, so Black completes development and fights for the centre without problems."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Bd3 dxc4": {
+    "strategy": "Takes on c4 now that White's bishop has committed to d3: after Bxc4, ...b5 gains a tempo against it. Black trades the centre for queenside space and activity, while White gets a free hand in the middle; the result is a double-edged fight."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Bd3 Bd6": {
+    "name": "Semi-Slav Defence: Chigorin Defence",
+    "background": "Much the most popular line before the Meran came into play, it was espoused by the American grandmaster Arthur Bisguier throughout his career.",
+    "strategy": "Supports the ...e5 break and eyes the h2 pawn, so that White's own central push can be answered at once. Black delays ...dxc4 and keeps more of the pawn centre."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Bd3 Be7": {
+    "name": "Semi-Slav Defence: Bogoljubow Variation",
+    "strategy": "Solid but passive: the bishop does nothing to prepare the ...e5 break, so White can build in the centre with little to fear. Black castles quickly but gets little counterplay."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Bd3 Bb4": {
+    "name": "Semi-Slav Defence: Romih Variation",
+    "background": "Introduced by the Italian master Max Romih.",
+    "strategy": "Pins the c3 knight to the king, which holds back e4 for the moment. The pin is easily broken, and if Black trades on c3 White recaptures with the b-pawn and keeps the two bishops, so the move gains little."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Qc2 Bd6": {
+    "strategy": "Develops the bishop with an eye on h2 and supports the ...e5 break. Black does not take on c4 yet, so White's bishop has no target and Black stays flexible, with central counterplay as the main plan."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Qc2 b6": {
+    "strategy": "Prepares to bring the queen's bishop to b7, but that bishop is blocked by the c6 pawn until Black plays ...c5, which gives up the compact centre. The plan is slow and gives White time to build in the centre."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Ne4 6.Bd3": {
+    "strategy": "Attacks the knight a second time: the c3 knight and the bishop both hit e4, defended only by the d5 pawn, so Black must support, trade or move it. If Black trades on c3, White recaptures towards the centre and gets a broad pawn centre at the price of doubled c-pawns."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Ne4 6.Bd3 f5": {
+    "name": "Semi-Slav Defence: Stonewall Defence",
+    "strategy": "Supports the knight on e4 with the f-pawn, building a wall of pawns on c6, d5, e6 and f5 and a firm outpost for the knight. The cost is lasting: the e5 square is left to White, and the c8-bishop stays shut in behind its own pawns."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 g6 5.Nf3": {
+    "strategy": "Develops the knight and guards d4 and e5, the squares a fianchettoed bishop on g7 will aim at. White keeps a compact centre and waits to see how Black's set-up develops."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 g6 5.Nf3 Bg7": {
+    "strategy": "Completes the fianchetto and prepares castling. The bishop aims at d4 along the long diagonal once the f6 knight moves, giving White's centre a long-term target, while the pawn chain on c6 and d5 stays solid."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 g6 5.Nf3 Bg7 6.Bd3": {
+    "strategy": "Develops the bishop where it guards c4 and supports a later e4, and prepares castling. White builds a classical set-up and neither side has committed in the centre."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 g6 5.Nf3 Bg7 6.Bd3 O-O": {
+    "strategy": "Castles into safety and brings the rook towards the centre. The king and the fianchettoed bishop stand together, and Black can now turn to the centre and to the still undeveloped c8 bishop."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 a6 5.c5": {
+    "name": "Slav Defence: Chebanenko Variation, Advance System",
+    "strategy": "Takes space on the queenside at once and cashes in on the weakness ...a6 leaves on b6: the c5 pawn takes b6 and d6 away from Black's pieces and cramps the queenside. White gets a lasting space advantage; Black's counterplay comes from undermining the advanced pawn with pawn breaks."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 a6 5.e3": {
+    "strategy": "Supports d4 and opens the f1-bishop to c4, so a pawn Black takes can be won back. White does not try to cramp Black, accepting that ...a6 has prepared queenside expansion, and plays for a sound centre. The cost is a dark-squared bishop that stays shut in behind the e3 pawn for now."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 a6 5.e3 Bf5": {
+    "name": "Slav Defence: Chebanenko Variation",
+    "background": "Named after Vyacheslav Chebanenko, a chess theoretician and mentor who developed the system.",
+    "strategy": "Brings the light-squared bishop outside the pawn chain before ...e6 can lock it in, the very idea of the ...a6 set-up. The pawn on a6 also lets Black answer Qb3 by guarding b7 with the rook instead of retreating. The price is that White can gain time by chasing the bishop."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4 5.a4": {
+    "name": "Slav Defence: Alapin Variation",
+    "strategy": "Stops ...b5 directly, so Black's extra pawn is short-lived and White will win it back. The price is a tempo spent on a rim pawn and a b4 square no pawn guards, which gives Black time to develop the light-squared bishop actively. The most testing and best-explored answer to the pawn grab."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4 5.e3": {
+    "name": "Slav Defence: Alekhine Variation",
+    "strategy": "A solid way to regain the pawn: e3 opens the bishop's path to c4, and if Black clings to the extra pawn with ...b5, White attacks the advanced pawns from the flank. White keeps a healthy, flexible centre and risks nothing, but shuts in the c1-bishop and lets Black expand on the queenside."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4 5.e4": {
+    "name": "Slav Defence: Geller Gambit",
+    "background": "Its evaluation has changed as improvements were found; as of 2005 it was generally thought to favour Black.",
+    "strategy": "A gambit: White ignores the c4 pawn and takes the centre at once, hoping a lead in development and central pressure will repay the pawn. Black can keep the extra pawn, and the attack is generally thought to fall short, though a prepared White can still pose problems in the sharp, unexplored lines."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4 5.a4 Bf5": {
+    "name": "Slav Defence: Czech Variation",
+    "background": "It can be considered the main line of the Slav Defence.",
+    "strategy": "Develops the bishop outside the pawn chain, and from f5 it controls e4, so White cannot simply take the centre and recapture c4 at leisure. Black holds the extra pawn for now and White must find another way to win it back. This is the testing main line of the Slav."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4 5.a4 Na6": {
+    "name": "Slav Defence: Smyslov Variation",
+    "strategy": "Lets White build in the centre and goes for counterplay instead: the knight heads for b4, where no White pawn can chase it away. A respectable idea, but less testing than the main line, and White gets a comfortable centre."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4 5.a4 e6": {
+    "name": "Slav Defence: Soultanbeieff Variation",
+    "strategy": "Walls in the light-squared bishop behind the e6 pawn and gives up the Slav's main point, steering for a solid but cramped set-up. White regains the pawn at leisure with a strong centre, while Black's bishop is still shut in."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4 5.a4 Bg4": {
+    "name": "Slav Defence: Steiner Variation",
+    "strategy": "Develops the bishop on the other side of the pawn chain and eyes the knight on f3, but there is no pin because the e2 pawn still stands behind it. White simply hits the bishop with Ne5 and gains time. Black needs a good grasp of the resulting positions to justify it."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4 5.e4 b5": {
+    "strategy": "Holds the extra pawn by supporting c4, the standard Slav idea, and gives Black queenside space. It also accepts the challenge: White owns the centre while Black's king is still in the middle, so Black must defend precisely. If Black survives the opening, the reward is a healthy extra pawn."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4 5.a4 Bf5 6.e3": {
+    "name": "Slav Defence: Czech Variation, Classical System",
+    "strategy": "The classical way to win the pawn back: the king's bishop is released to retake on c4, and White follows with castling and central play. It blocks the c1-bishop for now, but the structure is healthy, and the result is a sound and fairly quiet game in which White usually regains the pawn."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4 5.a4 Bf5 6.Ne5": {
+    "name": "Slav Defence: Czech Variation, Krause Attack",
+    "strategy": "Regains the pawn with the knight instead of the bishop, which keeps the c1-bishop's diagonal and the e-pawn free for a central advance or a fianchetto. The knight is strong in the centre but becomes a target for Black's pieces. The most ambitious try, and sharper than the quiet main line."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4 5.a4 Bf5 6.Nh4": {
+    "name": "Slav Defence: Czech Variation, Bled Attack",
+    "strategy": "Attacks the bishop at once. If Black lets the bishop be traded off, White wins the bishop pair and removes Black's most active piece. The knight leaves the centre, though, and Black keeps the c4 pawn meanwhile, so the line is less ambitious than the alternatives and gives Black a solid game."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4 5.a4 Bf5 6.e3 e6": {
+    "strategy": "Opens the way for the king's bishop and prepares castling, accepting that White takes back the pawn. With the light-squared bishop already outside the chain, the e6 pawn costs nothing. The structure is sound and the game fairly quiet: Black plays to catch up in development and challenge White's centre."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4 5.a4 Bf5 6.e3 Na6": {
+    "name": "Slav Defence: Czech Variation, Lasker Variation",
+    "strategy": "Heads for b4, where no White pawn can drive the knight away because the a-pawn has already advanced. There it joins the bishop on f5 in eyeing c2 and d3, which keeps White from settling comfortably. Black gives up holding the pawn for active piece play."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4 5.a4 Bf5 6.Ne5 Nbd7": {
+    "strategy": "Challenges the knight at once while developing, so White does not keep the strong central post for free. If White regains the pawn, Black's pieces can harass the knight on its new square, and Black prepares to claim the centre with a pawn break. Solid, flexible and the main reply."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4 5.a4 Bf5 6.Ne5 e6": {
+    "name": "Slav Defence: Czech Variation, Wiesbaden Variation",
+    "strategy": "A radical answer that prepares to give a bishop for three pawns if White tries to hold the knight on e5 with pawn moves. Black gets a pin on the c3 knight, active pieces and a mass of pawns against White's extra piece. Unbalanced and forcing, but objectively sound."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4 5.a4 Bf5 6.Ne5 Na6": {
+    "strategy": "Develops the knight with an eye on b4 but leaves the knight on e5 undisturbed. White regains the c4 pawn at once with a comfortable position, and Black has little to show in return. It does less than the move that attacks the intruder immediately."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4 5.e4 b5 6.e5": {
+    "name": "Slav Defence: Geller Gambit",
+    "strategy": "Drives the knight from f6 and gains space, trying to use White's lead in development before Black consolidates the pawn. The pawn on e5 cramps Black's kingside but can become a target, and the attack must work quickly. A main line, though generally thought to be good for Black."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.Bg5": {
+    "strategy": "Pins the f6-knight against the queen and keeps the dark-squared bishop out of the pawn chain, at the price of leaving c4 unprotected and the kingside undeveloped. White plays for sharp, tactical play at once rather than a slow build-up, and Black has to decide immediately whether to take the pawn or challenge the bishop."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.e3": {
+    "strategy": "The positional main line: the pawn opens the f1-bishop to defend c4 and keeps the centre intact, at the cost of shutting in the c1-bishop for a while. White aims for a calm, strategic struggle in which Black must justify the ...dxc4 pawn grab with queenside expansion."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.Bg5 h6": {
+    "strategy": "Asks the bishop what it intends: it must either take on f6, giving Black the bishop pair in a positional game, or retreat and keep the pin for a sharp pawn sacrifice. Black puts the question before committing to anything else and keeps the choice of structure."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.Bg5 dxc4": {
+    "name": "Semi-Slav Defence Accepted",
+    "strategy": "Takes the pawn at once and invites the most complicated theory in the Semi-Slav. Black hopes to keep the extra pawn despite the pin on the f6-knight, while White plays for the centre and initiative. Principled but unforgiving: both sides need long forcing lines under their belt."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.Bg5 Nbd7": {
+    "strategy": "Defends the pinned knight with a developing move and declines the sharp lines. Black aims to bring the queen to a5, where it will pin the knight on c3 in turn. A sound route with real tactical content, in which White chooses how sharply the game goes."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.Bg5 Be7": {
+    "strategy": "Breaks the pin by developing, and heads for a solid, traditional structure, giving up the fighting ideas of the Semi-Slav. It is safe but passive, and White scores heavily against it in master games."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.Bg5 dxc4 6.e4": {
+    "name": "Semi-Slav Defence: Botvinnik Variation",
+    "background": "Introduced by Mikhail Botvinnik in the 1945 USSR–USA radio match against Arnold Denker, although Klaus Junge is credited as its actual inventor. Alexei Shirov has been Black's chief proponent.",
+    "strategy": "Counters the pawn grab with the centre: the e-pawn arrives with the threat of e5 against the pinned knight on f6, and White counts on development and attacking chances to outweigh the pawn. One of the sharpest lines in the opening, with long forcing theory on both sides."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.Bg5 dxc4 6.e4 b5": {
+    "strategy": "Defends the extra pawn in the standard way, accepting a stretched queenside in exchange for material. With the knight on f6 still pinned, Black must be ready for the e5 advance, and the king stays in the centre for a long time. The play is forcing, and one slip decides it."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.Bg5 h6 6.Bh4": {
+    "name": "Semi-Slav Defence: Anti-Moscow Gambit",
+    "strategy": "Declines to trade and keeps the pin, offering the c4 pawn for a lasting initiative against Black's kingside. Black can win and keep the pawn, but only by loosening its own position, and the king lacks a secure shelter. A very sharp, complicated fight in which White has the more active pieces."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.Bg5 h6 6.Bxf6": {
+    "strategy": "Gives up the bishop for the knight to end the pin, trading the sharp lines for a positional struggle. White keeps better development and a firmer grip on the centre, while Black gets the bishop pair and a sound pawn structure."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.Bg5 h6 6.Bxf6 Qxf6": {
+    "name": "Semi-Slav Defence: Moscow Variation",
+    "background": "Alexei Dreev has played this line successfully as Black.",
+    "strategy": "Recaptures with the queen, keeping the pawn structure intact and the bishop pair. Black's position is solid but passive and a little behind in development, so Black must avoid opening the centre too early. The bishop pair is the long-term trump."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.Bg5 Nbd7 6.e3": {
+    "name": "Queen's Gambit Declined",
+    "strategy": "Builds a solid centre and prepares to develop the king's bishop and castle, keeping the pin on f6. The cost is that the bishop on g5 and the knight on c3 become targets once Black's queen reaches a5, so White must know the traps that follow."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.Bg5 Nbd7 6.e4": {
+    "name": "Queen's Gambit Declined: Alekhine Variation",
+    "strategy": "Opens the centre at once, using the pin on f6 and regaining the pawn Black takes. It is a straightforward, simplifying choice: White gets open lines and active pieces, but not the lasting pressure of the main line."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.Bg5 Nbd7 6.Rc1": {
+    "strategy": "A waiting move: the rook adds a second defender to the c3 knight before the queen can pin it from a5, and eyes the c-file. It spends a tempo without settling the centre, so Black gets time to complete development."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.Bg5 Nbd7 6.e3 Qa5": {
+    "name": "Queen's Gambit Declined: Cambridge Springs Defence",
+    "background": "The first recorded use was by Emanuel Lasker in 1892. The name comes from the 1904 tournament at Cambridge Springs, Pennsylvania, where it was played several times, and Alekhine beat Capablanca with it in the 1927 World Championship match.",
+    "strategy": "Takes the queen off the pinned diagonal and pins the knight on c3 against the king in turn. If Black later takes on c4, the queen also hits the g5 bishop along the fifth rank, so the bishop and knight are under constant pressure. Black gets active play against an awkward white set-up."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 e6 5.Bg5 Nbd7 6.Rc1 Qa5": {
+    "strategy": "Pins the knight on c3 against the king and removes the queen from the bishop's diagonal, the same idea as when White has played e3. The rook on c1 already guards the knight, so the pin is less awkward than usual. A sound, active move with tactical chances."
   }
 }

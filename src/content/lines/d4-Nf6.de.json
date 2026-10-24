@@ -128,6 +128,8 @@
     "strategy": "Opfert einen Bauern für schnelle Entwicklung und aktives Figurenspiel und gewinnt ihn meist zurück. Weiß kann versuchen, den Mehrbauern zu behalten, oder ihn für einen Entwicklungsvorsprung zurückgeben, sodass die Partie davon abhängt, ob die schwarze Aktivität das Material aufwiegt. Auf Großmeisterebene selten gespielt."
   },
   "1.d4 Nf6 2.c4 d5": {
+    "name": "Abgelehntes Damengambit: Marshall-Verteidigung",
+    "background": "Frank Marshall spielte sie in den 1920er-Jahren, gab sie aber auf, nachdem er damit 1925 in Baden-Baden gegen Alexander Aljechin verloren hatte. Sie gilt als ziemlich zweifelhafte Variante des Abgelehnten Damengambits, und erfahrene Spieler wenden sie nicht mehr an.",
     "strategy": "Besetzt sofort das Zentrum, doch Weiß schlägt einfach: Nach 3.cxd5 Sxd5 4.Sf3 gewinnt Weiß Zeit gegen den Springer und errichtet ein breites Zentrum, ohne den Gegenstoß ...e5 zuzulassen."
   },
   "1.d4 Nf6 2.c4 b5": {
@@ -184,6 +186,7 @@
     "strategy": "Bereitet ...Lb7 vor, das auf e4 und die lange Diagonale wirkt, und hält einen soliden Bauernaufbau in Reserve. Schwarz kontrolliert das Zentrum aus der Ferne, statt es zu besetzen. Der Preis ist, dass das Zentrum vorerst Weiß gehört."
   },
   "1.d4 Nf6 2.Nf3 c5": {
+    "name": "Indische Verteidigung: Spielmann-Indische Variante",
     "strategy": "Greift d4 sofort an und steuert eine Benoni-Struktur an, wobei Schwarz Zentrumsraum gegen Gegenspiel am Damenflügel tauscht. Der Zug ist seltener als die Hauptantworten, und Weiß, der c4 nicht spielen muss, kann ein großes Zentrum aufbauen und mit Raumvorteil Druck machen."
   },
   "1.d4 Nf6 2.Nf3 d6": {
@@ -191,6 +194,7 @@
     "strategy": "Gibt den Läufer c8 frei und bereitet vor, das Zentrum später anzugreifen, während mehrere Aufbauten offen bleiben. Solide, aber bescheiden: Der Bauer d6 beansprucht weniger Raum als ...d5, und Weiß behält die freie Wahl des Aufbaus."
   },
   "1.d4 Nf6 2.Nf3 c6": {
+    "name": "Indische Verteidigung: Tschechisch-Indisch",
     "strategy": "Bereitet ...d5 hinter einer soliden Bauernkette vor und hält andere Aufbauten in Reserve. Weiß muss c4 nicht spielen, und der Bauer c6 hat dem Springer b8 sein natürliches Feld genommen."
   },
   "1.d4 Nf6 2.Nf3 Ne4": {
@@ -246,6 +250,8 @@
     "strategy": "Greift den Läufer sofort an, sodass Weiß ihn erneut ziehen oder decken muss; Schwarz gibt dafür ein Entwicklungstempo her. Danach hält Schwarz den Springer auf e4 und greift das Zentrum an, und vertreibt Weiß ihn mit f3, nimmt dieser Bauer dem eigenen Springer das beste Feld. Das sorglose 3.Sf3 erlaubt 3...Sxg5 4.Sxg5 e5, und der Abzugsangriff auf den Springer holt die verlorene Zeit zurück."
   },
   "1.d4 Nf6 2.Bg5 e6": {
+    "name": "Trompowsky-Angriff: Klassische Verteidigung",
+    "background": "Nach 2...Se4 die zweitbeliebteste Antwort auf den Trompowsky-Angriff.",
     "strategy": "Erlaubt der Dame, nach Lxf6 zurückzuschlagen, sodass Schwarz Doppelbauern vermeidet, und öffnet die Diagonale des Läufers f8. Der Preis ist ein gefesselter Springer, und Weiß kann sofort ein breites Zentrum aufbauen. Schlägt Weiß auf f6, behält Schwarz das Läuferpaar und eine intakte Bauernstruktur gegen das weiße Zentrum."
   },
   "1.d4 Nf6 2.Bg5 d5": {
@@ -399,5 +405,37 @@
   "1.d4 Nf6 2.Nd2 e5": {
     "strategy": "Bietet den e-Bauern an, in der Hoffnung auf eine Falle mit dem Springer auf g4. Das Gambit gilt als unkorrekt, sodass Schwarz für schnelles Figurenspiel einen Bauern weniger hat, was nur gegen einen unachtsamen Weißen funktioniert.",
     "name": "Indische Verteidigung: Lazard-Gambit"
+  },
+  "1.d4 Nf6 2.Bg5 c5 3.d5": {
+    "strategy": "Gewinnt Raum und schränkt die Damenflügel von Schwarz ein, statt den Läufer gegen den Springer zu tauschen. Der Preis ist, dass b2 die Deckung des Läufers verloren hat, sodass die schwarze Dame sofort darauf losgehen kann."
+  },
+  "1.d4 Nf6 2.Bg5 c5 3.d5 Qb6": {
+    "strategy": "Greift den ungedeckten Bauern b2 sofort an, sodass Weiß ihn verteidigen oder opfern muss. Das ist der Sinn des Vorstoßes mit dem c-Bauern: Schwarz ergreift die Initiative, auch wenn die Dame die Grundreihe früh verlässt und zum Ziel werden kann."
+  },
+  "1.d4 Nf6 2.Bg5 c5 3.d5 Qb6 4.Nc3": {
+    "name": "Trompowsky-Angriff: Giftbauern-Variante",
+    "strategy": "Entwickelt sich und lässt den Bauern b2 ziehen: Nimmt die Dame ihn, ist sie weit von zu Hause entfernt, und Weiß hofft, mit Entwicklungszügen gegen sie Tempo zu gewinnen. Schwarz bekommt einen Bauern, Weiß einen Entwicklungsvorsprung, und die Stellung ist schwer zu beurteilen."
+  },
+  "1.d4 Nf6 2.Bg5 e6 3.e4": {
+    "name": "Trompowsky-Angriff: Klassische Verteidigung, Großzentrum-Variante",
+    "strategy": "Baut sofort ein breites Bauernzentrum auf, während der Läufer auf g5 bleibt und dort den Springer gegen die Dame fesselt, sodass Schwarz nicht einfach auf e4 schlagen kann: Die Dame ginge an den Läufer verloren. Schwarz wird versuchen, das große Zentrum mit Bauernvorstößen zu untergraben."
+  },
+  "1.d4 Nf6 2.c4 d5 3.cxd5": {
+    "strategy": "Entscheidet die Spannung zugunsten des Weißen: Schwarz hat keinen c- oder e-Bauern zum Zurückschlagen bereit, also muss eine Figur zurückschlagen und kann von einem großen Bauernzentrum vertrieben werden. Weiß erhält Raum und die Initiative gegen ein zweifelhaftes frühes ...d5."
+  },
+  "1.d4 Nf6 2.c4 d5 3.cxd5 c6": {
+    "name": "Abgelehntes Damengambit: Marshall-Verteidigung, Tan-Gambit",
+    "strategy": "Ein Gambit: Schwarz opfert einen Bauern für schnelle Entwicklung und offene Linien; nach dem Tausch auf c6 strebt er einen zentralen Durchbruch und einen frühen Damentausch an. Weiß behält den Mehrbauern und einen kleinen Vorteil im damenlosen Mittelspiel, daher muss Schwarz auf Aktivität spielen."
+  },
+  "1.d4 Nf6 2.Nf3 c5 3.d5": {
+    "strategy": "Die übliche Antwort: Weiß gewinnt Raum und beengt das Zentrum von Schwarz, statt den c-Bauern an d4 nagen zu lassen. Der Bauer auf d5 wird vorerst nur von der Dame gedeckt, Weiß muss ihn also stützen, während Schwarz mit Spiel am Damenflügel dagegen vorgeht."
+  },
+  "1.d4 Nf6 2.Nf3 c6 3.c4": {
+    "strategy": "Gewinnt Raum am Damenflügel und setzt das Zentrum unter Druck, bevor ...d5 von Schwarz kommt. Der natürliche Weg, ...c6 zu begegnen: Weiß erhält den größeren Anteil am Zentrum, Schwarz eine solide Struktur, die er verteidigen muss."
+  },
+  "1.d4 Nf6 2.Nf3 c6 3.c4 b5": {
+    "name": "Slawisch-Indisch: Kudischewitsch-Gambit",
+    "background": "Manchmal Kudischewitsch-Gambit genannt, nach dem israelischen IM David Kudischewitsch.",
+    "strategy": "Ein Bauernangebot, das den c4-Bauern sofort herausfordert, um den Damenflügel zu öffnen. Es lockert den eigenen Damenflügel von Schwarz, der daher zeigen muss, dass die offenen Linien den Bauern wert sind."
   }
 }

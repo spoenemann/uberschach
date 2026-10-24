@@ -12,9 +12,12 @@
     "name": "Pirc-Ufimzew-Verteidigung: Roscher-Gambit"
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 g6": {
+    "name": "Pirc-Ufimzew-Verteidigung",
     "strategy": "Der prägende Zug der Pirc-Verteidigung: Schwarz bereitet das Fianchetto des Königsläufers vor und übt aus der Distanz Druck auf das Zentrum aus, statt es zu besetzen. Weiß wird eingeladen, ein großes Bauernzentrum aufzubauen, und Schwarz setzt darauf, es später mit dem Läufer und mit Bauernvorstößen auf den Flügeln zu untergraben."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7": {
+    "name": "Löwen-Verteidigung",
+    "background": "In den letzten Jahren hat Schwarz diese Zugfolge mit 1...d6 versucht, um den verbesserten Hanham-Aufbau der Philidor-Verteidigung zu erreichen und die frühen Optionen von Weiß dxe5 und Lc4 zu vermeiden.",
     "strategy": "Bereitet ...e5 vor, wobei der Springer bereits an Ort und Stelle steht, sodass die d-Linie für die weiße Dame geschlossen bleibt und Schwarz auf e5 mit einer Figur zurücknehmen kann, statt die Damen zu tauschen und das Rochaderecht zu verlieren. Der Springer sperrt vorerst den Läufer c8, und Weiß kann einen schärferen Aufbau wählen als die einfache Entwicklung."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 e5": {
@@ -27,5 +30,215 @@
   },
   "1.e4 d6 2.d4 Nf6": {
     "name": "Pirc-Ufimzew-Verteidigung"
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3": {
+    "strategy": "Entwickelt und greift den Bauern e5 ein zweites Mal an, sodass Schwarz ihn sofort stützen muss. Es folgt eine ruhige Partie mit einem kleinen Raumvorteil für Weiß. Zuerst Bauern und Damen zu tauschen ist die andere Spielweise und gibt Weiß nur einen kleinen Endspielvorteil."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7": {
+    "name": "Philidor-Verteidigung: Löwen-Variante",
+    "background": "Tony Kosten nannte diese Zugfolge die „verbesserte“ Hanham-Variante; die ursprüngliche ist nach dem amerikanischen Meister James Moore Hanham benannt.",
+    "strategy": "Fügt dem doppelt angegriffenen Bauern einen Verteidiger hinzu und vermeidet ...Sc6, wo Lb5 den Springer fesseln würde. Schwarz hält das Zentrum solide und behält die Rochade, auch wenn der Springer den Läufer c8 sperrt und die Stellung vorerst etwas passiv bleibt."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4": {
+    "strategy": "Richtet den Läufer auf f7, das nur der König deckt, und bereitet die Rochade vor. Der Zug fordert Schwarz auf, einen sicheren Aufbau ohne Schwächung von e5 zu finden, und hält die Spannung im Zentrum aufrecht: Weiß spielt auf langsamen Druck statt auf einen sofortigen Durchbruch."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Be2": {
+    "strategy": "Der bescheidene Entwicklungszug: Der Läufer strebt der Rochade zu und bleibt flexibel, gibt aber den Druck auf f7 auf. Weiß spielt auf eine langsame Partie im Zentrum, und der solide Aufbau von Schwarz ist schwer zu erschüttern."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.g4": {
+    "name": "Philidor-Verteidigung: Löwen-Variante, Schirow-Gambit",
+    "strategy": "Ein Gambit: Der g-Bauer wird angeboten, weil ihn der Springer auf f6 nehmen kann, und Weiß hofft auf die halboffene g-Linie und die Drohung, weiter vorzustoßen und den Springer einzuengen. Nimmt Schwarz an und verteidigt sich sorgfältig, muss Weiß beweisen, dass der Angriff den Bauern und die gelockerte Königsstellung wert ist."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7": {
+    "strategy": "Entwickelt den Läufer und macht den Weg für die Rochade frei, nach der der Turm f7 gegen den Läufer auf c4 deckt. Die Bauern auf d6 und e5 bleiben stehen, sodass die Spannung im Zentrum bestehen bleibt und Schwarz abwartet, bis sich Weiß festlegt."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Be2 Be7": {
+    "strategy": "Entwickelt den Läufer hinter der Bauernkette, wo er das Zentrum schützt, statt auf etwas zu zielen, und bereitet die Rochade vor. Schwarz baut eine kompakte, geduldige Verteidigung von e5 auf und hält die Spannung im Zentrum, statt sie aufzulösen."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.O-O": {
+    "strategy": "Bringt zuerst den König in Sicherheit und lässt die Spannung im Zentrum unverändert. Schwarz muss nun die Entwicklung beenden und Gegenspiel finden, während Weiß die Wahl zwischen einem Durchbruch im Zentrum und einem langsamen Aufbau behält."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.dxe5": {
+    "strategy": "Löst die Spannung im Zentrum zu früh auf: Schwarz nimmt mit dem Bauern oder dem Springer zurück und schließt die Entwicklung ohne Schwierigkeiten ab, und Weiß hat für das geöffnete Zentrum nichts Konkretes vorzuweisen."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.Ng5": {
+    "strategy": "Verdoppelt den Angriff auf f7 und droht, sobald Schwarz rochiert, mit einem Opfer dort, gefolgt von einem Springerraid, der Material gewinnt. Doch der Springer strandet am Rand, während Schwarz für das Material starke Initiative erhält, sodass der Plan nach hinten losgeht und Weiß Zeit verliert."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.Bxf7+": {
+    "name": "Philidor-Verteidigung: Löwen-Variante, Läuferopfer",
+    "strategy": "Ein spekulatives Opfer: Der Läufer schlägt einen Bauern in der Hoffnung, den König ins Freie zu locken, um mit dem Springer Tricks zu versuchen. Schwarz nimmt ihn einfach, und Weiß hat eine Figur weniger für einen Bauern und keinen Angriff vorzuweisen."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.O-O O-O": {
+    "strategy": "Rochiert sofort: Der König ist sicher, der Turm deckt nun f7, und der Druck des Läufers auf c4 verliert seinen Stachel. Schwarz lässt die Zentrumsbauern, wo sie sind, und spielt auf eine geduldige, solide Partie."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.O-O h6": {
+    "name": "Philidor-Verteidigung: Löwen-Variante, Löwenkralle mit Lc4 und h6",
+    "strategy": "Nimmt dem weißen Springer und Läufer das Feld g5, bevor sie es nutzen können, sodass der Druck auf f7 seinen Stachel verliert, auf Kosten eines Tempos und eines Bauernzugs am Königsflügel, der noch nicht nötig ist. Schwarz lässt den König etwas länger im Zentrum und spielt geduldig."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.dxe5 dxe5": {
+    "strategy": "Schlägt mit dem Bauern statt mit dem Springer zurück, behält so einen Bauern auf e5 mit dem Springer auf d7 als Verteidiger und öffnet die d-Linie. Schwarz erhält eine solide, aber etwas passive Struktur, in der der Springer an die Verteidigung von e5 gebunden ist."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.Ng5 O-O": {
+    "strategy": "Rochiert und lässt Weiß das Opfer auf f7 versuchen: Weiß ist danach materiell im Vorteil, doch der Springer steht am Brettrand abseits, und Schwarz erhält eine starke Initiative. Damit ist 6.Sg5 der unterlegene Versuch."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Be2 Be7 6.O-O": {
+    "strategy": "Rochiert, bevor sich Schwarz im Zentrum festlegt, sodass Weiß auf alles reagieren kann, was Schwarz wählt. Die Stellung bietet keinen schnellen Durchbruch gegen den soliden Aufbau von Schwarz, und die Partie wird zu einem Manövrierkampf um die Spannung auf d4 und e5: Raum gegen Solidität."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Be2 Be7 6.O-O c6": {
+    "name": "Philidor-Verteidigung: Löwen-Variante, Löwenkralle mit Le2 und c6",
+    "strategy": "Vollendet einen kompakten Aufbau um e5: Bauer auf d6, Springer auf d7 und f6, Läufer auf e7. Der Bauer auf c6 nimmt den weißen Figuren die Felder b5 und d5, sodass Schwarz e5 fest im Griff behält und abwarten kann, auf Kosten von Raum."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3": {
+    "name": "Pirc-Ufimzew-Verteidigung: Klassische Variante",
+    "background": "Auch als Zwei-Springer-System bekannt. Efim Geller, Anatoli Karpow und Jewgeni Wassjukow haben sie mit Weiß erfolgreich gespielt, und Surab Asmaiparaschwili hat mit Schwarz dagegen gut abgeschnitten.",
+    "strategy": "Der klassische Zug: Er entwickelt den Königsspringer und deckt d4 und e5, während die Bauern auf e4 und d4 unverrückt bleiben. Weiß erhält Raum im Zentrum bei solider Struktur und rochiert schnell, während das Gegenspiel von Schwarz davon abhängt, das Zentrum im richtigen Moment anzugreifen."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4": {
+    "name": "Pirc-Ufimzew-Verteidigung: Österreichischer Angriff",
+    "background": "Siegbert Tarrasch besiegte damit 1896 Rudolf Charousek in 17 Zügen. In der Partie der Weltmeisterschaft 1972 gegen Fischers Pirc-Verteidigung spielte Boris Spasski sie.",
+    "strategy": "Baut ein breites Zentrum aus e4, d4 und f4 auf und bereitet den Vorstoß e5 vor, um Schwarz einzuengen und einen Königsangriff zu unterstützen. Der Preis ist eine gelockerte Königsstellung, und Schwarz muss rechtzeitig mit einem Bauernvorstoß im Zentrum zuschlagen, sonst wird er erdrückt."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3": {
+    "strategy": "Flexible Entwicklung im Hinblick darauf, die Dame nach d2 zu bringen und lang zu rochieren, wonach Weiß den Königsflügel stürmen kann, oder auf einen ruhigeren Aufbau. Der Läufer stützt d4 und legt weder den f-Bauern noch den Königsspringer fest."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be2": {
+    "strategy": "Bescheidene, flexible Entwicklung: Der Läufer bereitet die Rochade vor, und Weiß entscheidet später zwischen einem klassischen Aufbau und einem aggressiven Angriff am Flügel. Schwarz bekommt Zeit, das Fianchetto zu vollenden, sodass Weiß schnell einen Plan braucht."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Bg5": {
+    "name": "Pirc-Ufimzew-Verteidigung: Byrne-Variante",
+    "background": "Robert Byrne führte sie in den 1960er Jahren ein.",
+    "strategy": "Greift den Springer an, der e4 angreift, und bereitet vor, die Dame nach d2 und den Läufer nach h6 gegen den fianchettierten Läufer von Schwarz zu bringen. Der Zug ist solide und kann eine kleine Falle stellen, doch Schwarz kann das Fianchetto aufschieben und die Stellung flexibel halten."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.g3": {
+    "name": "Pirc-Ufimzew-Verteidigung: Sweschnikow-System",
+    "background": "Anatoli Karpow wählte sie gelegentlich.",
+    "strategy": "Ein ruhiges Fianchetto für Weiß: Der Läufer auf g2 wird e4 auf der langen Diagonale stützen, und der f-Bauer kann zu Hause bleiben. Der Zug ist solide, aber langsam, verzichtet auf die aggressiven Aufbauten und gibt Schwarz Zeit, seinen Plan zu vollenden."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Bc4": {
+    "name": "Pirc-Ufimzew-Verteidigung: Cholmow-System",
+    "strategy": "Richtet den Läufer auf f7, bevor der Springer herauskommt, ein ausgefallener Versuch um die Initiative statt einer empfohlenen Variante. Der Läufer kann Zeit verlieren, wenn Schwarz im Zentrum mit Tempo zuschlägt, und Schwarz hat solide Wege zum Ausgleich."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be2 Bg7": {
+    "strategy": "Vollendet das Fianchetto: Der Läufer steht nun auf der langen Diagonale gegen das Zentrum, und Schwarz kann rochieren. Das ist der ganze Sinn der Eröffnung, ein flexibler, solider Aufbau, der darauf wartet, dass Weiß sich überdehnt."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 c6": {
+    "strategy": "Bereitet Damenflügel-Gegenspiel mit dem c-Bauern und der Dame vor und hält das Fianchetto in Reserve, bis Weiß einen Plan zeigt. Das Spiel zielt auf den Damenflügel, wo Weiß möglicherweise rochiert."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7": {
+    "strategy": "Vollendet das Fianchetto sofort: Der Läufer steht auf der langen Diagonale bereit, hinter dem Springer f6, um auf d4 und e5 zu drücken, sobald der Springer zieht. Schwarz kann als Nächstes rochieren und auf den richtigen Moment warten, das Zentrum anzugreifen."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7": {
+    "name": "Pirc-Ufimzew-Verteidigung: Klassische Variante",
+    "strategy": "Vollendet das Fianchetto: Der Läufer auf g7 lässt Schwarz rochieren und steht gegen das Zentrum. Schwarz antwortet auf den klassischen Aufbau mit einer kompakten, flexiblen Struktur und wartet auf eine Gelegenheit zum Durchbruch."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be2 Bg7 5.h4": {
+    "name": "Pirc-Ufimzew-Verteidigung: Bajonett-Angriff",
+    "strategy": "Rückt den h-Bauern vor, um mit h5 die h-Linie aufzubrechen und den Königsflügel ins Visier zu nehmen. Er gewinnt Raum am Flügel, schwächt aber den eigenen König und legt sich auf einen Angriff fest, bevor das Zentrum von Schwarz herausgefordert wurde."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be2 Bg7 5.g4": {
+    "name": "Pirc-Ufimzew-Verteidigung: Chinesische Variante",
+    "strategy": "Gewinnt Raum mit dem g-Bauern und droht, den Springer f6 mit g5 zu vertreiben, ein aggressiver, aber sehr verpflichtender Plan. Der Bauer wird vom Läufer gedeckt, mit der Dame dahinter, doch er lockert die Königsstellung von Weiß, und Schwarz kann im Zentrum kontern."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 c6 5.Qd2": {
+    "name": "Pirc-Ufimzew-Verteidigung: 150-Angriff",
+    "background": "Britische Spieler wie Mark Hebden, Paul Motwani, Gary Lane und später Michael Adams spielten Le3 und Dd2 ohne f3 und nannten es „150 Attack“, weil Spieler dieser Stärke (150 ECF, etwa 1825 Elo) die Stellung ohne Theorie gut spielen können.",
+    "strategy": "Stützt den Läufer auf e3 und bereitet die lange Rochade und den Sturm auf den Königsflügel vor, mit Lh6, um den fianchettierten Läufer von Schwarz abzutauschen. Er braucht wenig Theorie, legt den König aber auf dem Damenflügel fest, genau dort, wohin das Gegenspiel von Schwarz zielt."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 c6 5.h3": {
+    "name": "Pirc-Ufimzew-Verteidigung: 150-Angriff, Sweschnikow-Jansa-Angriff",
+    "strategy": "Ein flexibler Wartezug: Er nimmt dem schwarzen Läufer das Feld g4 und hält Weiß die Wahl zwischen Expansion am Königsflügel und einem ruhigeren Aufbau offen. Er ist langsamer als der Damenzug und gibt Schwarz Zeit, Gegenspiel am Damenflügel zu organisieren."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 c6 5.Qd2 Bg4": {
+    "name": "Pirc-Ufimzew-Verteidigung: 150-Angriff, Inner-Doll-Verteidigung",
+    "strategy": "Entwickelt den Läufer außerhalb der Bauernkette, bevor er eingesperrt wird, und entmutigt den Königsspringer: Sf3 würde einen Tausch erlauben, der die Bauern von Weiß verdoppelt. Weiß kann den Läufer einfach vertreiben, sodass Schwarz Zeit verbraucht, bevor er aktives Spiel bekommt."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Nf3": {
+    "strategy": "Entwickelt den Springer und deckt e5 und d4, sodass der Zentrumsvorstoß zu einer echten Drohung wird. Schwarz muss rasch Gegenspiel einleiten, durch Rochade und einen Angriff auf das Zentrum, sonst macht sich der Raumvorteil von Weiß bemerkbar."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Bc4": {
+    "name": "Pirc-Ufimzew-Verteidigung: Österreichischer Angriff, Ljubojevic-Variante",
+    "strategy": "Stellt den Läufer auf die Diagonale a2-g8, bevor der Springer entwickelt wird, mit Blick auf f7. Der Zug verlangt von Schwarz wenig, der sich ruhig entwickeln und das Zentrum mit Tempo herausfordern kann, sodass Weiß Komplikationen statt eines Vorteils bekommt."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Nf3 O-O": {
+    "name": "Pirc-Ufimzew-Verteidigung: Österreichischer Angriff",
+    "strategy": "Bringt den König in Sicherheit, bevor das Zentrum von Weiß vorrückt. Schwarz bereitet vor, dieses Zentrum mit einem Bauernvorstoß anzugreifen und zum Gegenangriff überzugehen."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Nf3 c5": {
+    "name": "Pirc-Ufimzew-Verteidigung: Österreichischer Angriff, Drachenaufbau",
+    "strategy": "Greift sofort den Bauern d4 an, statt zu rochieren, und nimmt das Risiko des Zentrumsvorstoßes von Weiß und Schachs in Kauf, um früh Gegenspiel am Damenflügel zu bekommen. Das ist schärfer als die Rochade und verlangt von beiden Seiten genaues Spiel."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Nf3 O-O 6.Bd3": {
+    "name": "Pirc-Ufimzew-Verteidigung: Österreichischer Angriff, Weiss-Variante",
+    "background": "Es ist hier der am häufigsten gespielte Zug. Weißspieler, darunter Fischer, wandten sich ihm zu, nachdem Fischer 1962 in Curaçao mit 6.Le2 gegen Viktor Kortschnoi verloren hatte.",
+    "strategy": "Entwickelt den Läufer auf ein Feld, von dem aus er e4 deckt und die Rochade vorbereitet, und hält den Vorstoß e5 in Reserve. Das ist die Hauptfortsetzung: solide, flexibel, und Schwarz muss gegen ein großes Zentrum Gegenspiel finden."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Nf3 O-O 6.Be3": {
+    "name": "Pirc-Ufimzew-Verteidigung: Österreichischer Angriff, Kurajica-Variante",
+    "background": "Erstmals in den 1970er Jahren ausführlich untersucht und von Bojan Kurajica, Juri Balaschow und Alexander Beljawski gespielt.",
+    "strategy": "Entwickelt den Läufer auf ein Feld, von dem aus er den Bauern d4 stützt, den Schwarz mit ...c5 und ...Sc6 angreift, und lässt Weiß die Wahl zwischen einem Vorstoß im Zentrum und einem ruhigeren Aufbau. Es folgt scharfes Spiel."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Nf3 O-O 6.e5": {
+    "name": "Pirc-Ufimzew-Verteidigung: Österreichischer Angriff, Unzicker-Angriff",
+    "background": "In den 1960er Jahren viel gespielt, wurde aber auf höchstem Niveau nie populär.",
+    "strategy": "Schlägt sofort zu und vertreibt den Springer von f6, um Raum zu gewinnen, bevor Schwarz bereit ist. Doch der vorgerückte Bauer kann zum Ziel werden, und die Folgen sind unklar, weshalb der Zug nie zur Hauptvariante wurde."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Bg7 5.Nf3 O-O 6.e5 Nfd7": {
+    "strategy": "Fordert das Haupt der weißen Kette sofort heraus: Der Rückzug bringt den Springer und den Läufer auf der langen Diagonale gegen e5 ins Spiel, das nun dreifach angegriffen ist, vom d6-Bauern, vom Springer und vom Läufer. Der Raumvorteil von Weiß ist real, doch das Zentrum muss genau verteidigt werden."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.Be2": {
+    "name": "Pirc-Ufimzew-Verteidigung: Klassische Variante, Ruhiges System",
+    "strategy": "Der klassische Aufbau: Der Läufer bereitet die Rochade vor, in ruhiger, solider Entwicklung mit den Zentrumsbauern auf e4 und d4. Der Vorteil von Weiß ist der Raum; Schwarz bekommt Zeit zu rochieren und einen Durchbruch im Zentrum vorzubereiten."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.h3": {
+    "name": "Pirc-Ufimzew-Verteidigung: Klassische Variante, Schlechter-Variante",
+    "strategy": "Nimmt dem Läufer c8 das Feld g4, sodass der Springer auf f3 nicht gegen die Dame gefesselt werden kann. Ein nützlicher Wartezug, der aber wenig für die Entwicklung tut, sodass Schwarz rochieren und das Zentrum angreifen kann."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.Be2 O-O": {
+    "strategy": "Rochiert in Sicherheit und macht sich bereit für einen Schlag gegen das Zentrum. Beide Seiten haben sich natürlich entwickelt, und die Partie bleibt flexibel, mit der kompakten Struktur von Schwarz und dem zusätzlichen Raum von Weiß als langfristigem Tausch."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.Be2 O-O 6.O-O": {
+    "strategy": "Vollendet die Entwicklung am Königsflügel und bringt den König in Sicherheit, während beide Zentrumsbauern stehen bleiben. Weiß verzichtet auf den festlegenden Vormarsch des f-Bauern und baut ein kompaktes, flexibles Zentrum auf; Schwarz muss selbst herausfinden, woher sein Gegenspiel kommen soll."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.Be2 O-O 6.O-O Nc6": {
+    "name": "Pirc-Ufimzew-Verteidigung: Klassische Variante, Ruhiges System, Tschigorin-Linie",
+    "strategy": "Entwickelt mit direktem Druck auf d4 und bereitet vor, das Zentrum mit einem Bauern anzugreifen. Der Preis: Weiß kann mit d5 Raum gewinnen und den Springer zum Ausweichen zwingen, sodass Schwarz auf eine geschlossenere Partie gefasst sein muss."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.Be2 O-O 6.O-O c6": {
+    "name": "Pirc-Ufimzew-Verteidigung: Klassische Variante, Ruhiges System, Tschechische Verteidigung",
+    "strategy": "Ein solider, flexibler Zug: Er nimmt den weißen Figuren die Felder b5 und d5 und bereitet entweder einen Angriff auf das Zentrum oder eine Expansion am Damenflügel vor. Der Springer von b8 verliert sein natürlichstes Feld, doch Schwarz lässt sich den Plan offen."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.Be2 O-O 6.O-O Bg4": {
+    "name": "Pirc-Ufimzew-Verteidigung: Klassische Variante, Ruhiges System, Parma-Verteidigung",
+    "strategy": "Entwickelt den weißfeldrigen Läufer aktiv außerhalb der Bauernkette und setzt den Springer auf f3 unter Druck, der d4 und e5 deckt. Der Preis: Nach dem Schlag auf f3 hat Weiß das Läuferpaar; Schwarz nimmt das in Kauf, um den Kampf um das Zentrum am Laufen zu halten."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.f4": {
+    "name": "Löwen-Verteidigung: Anti-Philidor",
+    "strategy": "Die ambitionierteste Antwort: Ein dritter Bauer im Zentrum stärkt die Kontrolle über e5, sodass das geplante ...e5 von Schwarz auf echten Widerstand trifft, und Weiß erhält ein breites Zentrum mit Raum am Königsflügel. Das kostet etwas Solidität und verpflichtet Weiß zu einem scharfen Kampf um das Zentrum."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.Nf3": {
+    "strategy": "Der natürliche Entwicklungszug: Er deckt d4 und e5, hindert Schwarz aber nicht daran, die gewünschte Bauernstruktur aufzubauen. Weiß bekommt ein leichtes, gesundes Spiel mit einem kleinen Raumvorteil, aber ein weniger kritisches als bei den schärferen Alternativen."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.g4": {
+    "name": "Löwen-Verteidigung: Bajonett-Angriff",
+    "strategy": "Ein scharfer Flügelvorstoß, der droht, mit g5 Raum zu gewinnen und den Springer von seinem guten Feld f6 zu vertreiben. Er schwächt jedoch den eigenen Königsflügel, bevor die Figuren entwickelt sind, und Schwarz kann sofort im Zentrum zuschlagen: spielbar und riskant, nicht der beste Zug."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.f4 e5": {
+    "name": "Löwen-Verteidigung: Anti-Philidor, Löwenhöhle",
+    "strategy": "Greift das Zentrum sofort an und attackiert d4 und f4 zugleich. Der Springer auf d7 stützt den Bauern, sodass Schwarz die Spannung gelassen hinnehmen kann; der Preis: e5 steht nun unter starkem Druck, und der folgende Kampf muss genau geführt werden."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.Nf3 e5": {
+    "strategy": "Nimmt sich den zentralen Raum, auf den Schwarz bisher gewartet hat. Der Springer auf d7 und der Bauer auf d6 stützen e5, und Schwarz sieht es gelassen, wenn das Zentrum durch einen Abtausch auf e5 geöffnet wird. Die Struktur ist kompakt und gesund, mit etwas weniger Raum als Weiß."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.f4 e5 5.Nf3": {
+    "strategy": "Fügt e5 einen dritten Angreifer hinzu, wo es nur zwei Verteidiger gibt; Schwarz kann den Bauern also nicht einfach halten, und die Spannung im Zentrum muss sofort gelöst werden. Weiß behält vorerst das Bauernzentrum und entwickelt dabei mit Tempogewinn eine Figur."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.f4 e5 5.Nf3 exd4": {
+    "strategy": "Der Weg, die Spannung zu lösen: Schwarz schlägt zuerst, denn Abwarten kostet einen Bauern, sobald Weiß auf e5 schlägt (ein Entwicklungszug wie ...Le7 scheitert an fxe5). Schwarz gibt die zentrale Rolle des e-Bauern auf, löst dafür aber das breite weiße Zentrum auf."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.f4 e5 5.Nf3 exd4 6.Qxd4": {
+    "strategy": "Schlägt mit der Dame zurück, die zentralisiert steht und zugleich den Springer auf f6 sowie die Bauern d6 und a7 angreift. Weiß behält den Entwicklungsvorsprung und den Raumvorteil, doch die exponierte Dame kann attackiert werden, sodass Weiß aktiv weiterspielen muss."
+  },
+  "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.f4 e5 5.Nf3 exd4 6.Qxd4 c6": {
+    "strategy": "Nimmt den weißen Figuren die Felder b5 und d5: kein Läufer, der den Springer auf d7 fesselt, kein Springer, der nach b5 springt und d6 angreift. Das nimmt den aktiven weißen Figuren die Schärfe und lässt Schwarz die Entwicklung in Ruhe abschließen, auch wenn Weiß eine kleine Initiative behält."
   }
 }

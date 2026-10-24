@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 c6 2.d4 d5 3.Nc3 dxe4: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 c6 2.d4 d5 3.Nc3 dxe4: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4",
@@ -47,6 +47,319 @@
     },
     {
       "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 h6"
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Caro%E2%80%93Kann_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Ng3",
+          "rating": 5
+        },
+        {
+          "san": "Ng5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3",
+      "moves": [
+        {
+          "san": "Bg6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng5",
+      "moves": [
+        {
+          "san": "Bg6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6",
+      "moves": [
+        {
+          "san": "h4",
+          "rating": 5
+        },
+        {
+          "san": "Nh3",
+          "rating": 4
+        },
+        {
+          "san": "f4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6 6.h4",
+      "moves": [
+        {
+          "san": "h6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6 6.Nh3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_chess_openings_named_after_people"
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6 6.f4"
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6 6.h4 h6"
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng5 Bg6",
+      "moves": [
+        {
+          "san": "N1f3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng5 Bg6 6.N1f3",
+      "moves": [
+        {
+          "san": "h6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng5 Bg6 6.N1f3 h6"
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Caro%E2%80%93Kann_Defence",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...c6/2._d4/2...d5/3._Nc3/3...dxe4/4._Nxe4/4...Nd7"
+      ],
+      "moves": [
+        {
+          "san": "Ng5",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "Bc4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Ng5",
+      "moves": [
+        {
+          "san": "Ngf6",
+          "rating": 5
+        },
+        {
+          "san": "Ndf6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Nf3",
+      "moves": [
+        {
+          "san": "Ngf6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Bc4",
+      "moves": [
+        {
+          "san": "Ngf6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Ng5 Ndf6"
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Bc4 Ngf6",
+      "moves": [
+        {
+          "san": "Ng5",
+          "rating": 5
+        },
+        {
+          "san": "Nxf6+",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Bc4 Ngf6 6.Ng5",
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Bc4 Ngf6 6.Nxf6+",
+      "moves": [
+        {
+          "san": "Nxf6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Bc4 Ngf6 6.Ng5 e6"
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Bc4 Ngf6 6.Nxf6+ Nxf6"
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Nf3 Ngf6",
+      "moves": [
+        {
+          "san": "Ng3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Nf3 Ngf6 6.Ng3"
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Ng5 Ngf6",
+      "moves": [
+        {
+          "san": "Bd3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Ng5 Ngf6 6.Bd3",
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Ng5 Ngf6 6.Bd3 e6"
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6",
+      "moves": [
+        {
+          "san": "Nxf6+",
+          "rating": 5
+        },
+        {
+          "san": "Bd3",
+          "rating": 2
+        },
+        {
+          "san": "Ng5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Nxf6+",
+      "moves": [
+        {
+          "san": "exf6",
+          "rating": 5
+        },
+        {
+          "san": "gxf6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Bd3"
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Ng5",
+      "moves": [
+        {
+          "san": "h6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Nxf6+ gxf6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Caro%E2%80%93Kann_Defence",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...c6/2._d4/2...d5/3._Nc3/3...dxe4/4._Nxe4/4...Nf6/5._Nxf6"
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Ng5 h6",
+      "moves": [
+        {
+          "san": "Nxf7",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Ng5 h6 6.Nxf7",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...c6/2._d4/2...d5/3._Nc3/3...dxe4/4._Nxe4/4...Nf6"
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Nxf6+ exf6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Caro%E2%80%93Kann_Defence"
+      ],
+      "moves": [
+        {
+          "san": "c3",
+          "rating": 5
+        },
+        {
+          "san": "Bc4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Nxf6+ exf6 6.c3",
+      "moves": [
+        {
+          "san": "Bd6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Nxf6+ exf6 6.Bc4"
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Nxf6+ exf6 6.c3 Bd6"
     }
   ]
 }

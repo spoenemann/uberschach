@@ -7,5 +7,35 @@
   },
   "1.e4 c5 2.c3 Nf6 3.e5 Nd5": {
     "strategy": "Das einzige Feld, auf dem der Springer aktiv bleibt: Er steht im Zentrum, übt Druck auf c3 aus und versperrt dem d-Bauern den Weg, sodass Weiß einen Bauern- oder Läuferzug braucht, um ihn zu vertreiben. Schwarz hat zwei Züge mit diesem Springer verbraucht, also muss er e5 untergraben, um das zu rechtfertigen."
+  },
+  "1.e4 c5 2.c3 Nf6 3.e5 Nd5 4.d4": {
+    "strategy": "Baut sofort das breite Bauernzentrum auf und gibt e5 festen Halt. Er droht mit c4, um den Springer zu vertreiben, und danach mit d5, um Schwarz einzuengen. Schwarz muss das Zentrum sofort angreifen, denn Abwarten lässt Weiß nur mehr Raum gewinnen."
+  },
+  "1.e4 c5 2.c3 Nf6 3.e5 Nd5 4.Nf3": {
+    "strategy": "Entwickelt und deckt e5, bevor Weiß entscheidet, wie er das Zentrum aufbaut. Das ist flexibler, aber langsamer, als das Zentrum sofort zu besetzen, sodass Schwarz Zeit bekommt, Figuren gegen e5 zu bringen und im Zentrum ein Gegenspiel zu organisieren."
+  },
+  "1.e4 c5 2.c3 Nf6 3.e5 Nd5 4.d4 cxd4": {
+    "name": "Sizilianische Verteidigung: Alapin-Variante, Abgelehntes Morra-Gambit",
+    "strategy": "Tauscht den Flügelbauern gegen den Zentrumsbauern von Weiß, den Tausch, auf den 1...c5 zielt. Weiß schlägt normalerweise mit dem c-Bauern zurück und behält ein breites Zentrum, das Schwarz dann untergräbt, sodass es darum geht, ob e5 und d4 halten."
+  },
+  "1.e4 c5 2.c3 Nf6 3.e5 Nd5 4.Nf3 Nc6": {
+    "strategy": "Entwickelt sich mit Druck auf e5, den vorgerückten Bauern, den nur der Springer auf f3 deckt. Schwarz bringt sofort eine Figur in den Kampf um das Zentrum und hält die Bauernstruktur flexibel."
+  },
+  "1.e4 c5 2.c3 Nf6 3.e5 Nd5 4.Nf3 Nc6 5.Bc4": {
+    "strategy": "Greift den zentralisierten Springer an und zielt auf der Diagonale dahinter auf f7. Schwarz muss sofort entscheiden, ob er den Springer behält oder aufgibt. Weiß zieht Figurendruck einem schnellen Bauernzentrum vor, und der Läufer kann später vertrieben werden."
+  },
+  "1.e4 c5 2.c3 Nf6 3.e5 Nd5 4.Nf3 Nc6 5.Na3": {
+    "name": "Sizilianische Verteidigung: Heidenfeld-Variante",
+    "strategy": "Eine Möglichkeit, den Damenspringer zu entwickeln, obwohl c3 besetzt ist: Vom Rand aus strebt er nach c4 oder b5, wo er Druck auf d6 ausübt und e5 stützt. Der Springer beginnt weit vom Zentrum entfernt und der Plan ist langsam, sodass Schwarz Zeit bekommt, das Bauernzentrum anzugreifen."
+  },
+  "1.e4 c5 2.c3 Nf6 3.e5 Nd5 4.Nf3 Nc6 5.Bc4 Nb6": {
+    "strategy": "Zieht den Springer aus dem Angriff des Läufers zurück und greift in demselben Zug den Läufer an, sodass Schwarz den Springer behält und ein Tempo gewinnt. Der Springer steht auf b6 weniger aktiv als auf d5, deckt aber das Feld c4."
+  },
+  "1.e4 c5 2.c3 Nf6 3.e5 Nd5 4.Nf3 Nc6 5.Bc4 Nb6 6.Bb3": {
+    "name": "Sizilianische Verteidigung: Alapin-Variante, Stoltz-Angriff",
+    "strategy": "Zieht den Läufer zurück, hält ihn aber auf der Diagonale, die auf f7 und auf das Feld d5 zeigt. Der Läufer steht abseits des Zentrums und kann belästigt werden, sodass Weiß ein wenig Zeit gegen dauerhaften Druck auf den Königsflügel von Schwarz eintauscht."
+  },
+  "1.e4 c5 2.c3 Nf6 3.e5 Nd5 4.Nf3 Nc6 5.Bc4 Nb6 6.Bb3 c4": {
+    "strategy": "Greift den Läufer mit einem Bauern an und gewinnt sofort Raum. Lxc4 verliert den Läufer für einen Bauern nach ...Sxc4, also muss der Läufer zurückweichen. Schwarz nimmt Weiß das Feld d3, aber der Bauer braucht die Unterstützung des Springers und kontrolliert d4 nicht mehr."
   }
 }

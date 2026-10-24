@@ -11,5 +11,24 @@
   },
   "1.e4 c6 2.Nf3 d5 3.exd5 cxd5": {
     "strategy": "Recaptures with the c-pawn, which keeps a pawn on d5 and opens the c-file for Black. Black gets a firm central pawn and an open game, and White decides how to challenge the pawn."
+  },
+  "1.e4 c6 2.Nf3 d5 3.d3 dxe4 4.dxe4": {
+    "strategy": "Recaptures with the pawn and opens the d-file, so Black can trade queens at once. White keeps a pawn on e4, but the queenless endgame is easy for Black to accept and the play is level."
+  },
+  "1.e4 c6 2.Nf3 d5 3.d3 dxe4 4.Ng5": {
+    "name": "Caro–Kann Defence: Dinic Gambit",
+    "strategy": "A gambit: White ignores the recapture and jumps at e4 and f7, which only the king guards. Black takes a second pawn on d3; unless Black carelessly allows Nxf7, White ends up a pawn down for little."
+  },
+  "1.e4 c6 2.Nf3 d5 3.d3 dxe4 4.dxe4 Qxd1+": {
+    "strategy": "Takes the offered trade and removes the sting from the opening. White's king must recapture and loses castling, but with the queens off it is in little danger; Black reaches a safe, level endgame."
+  },
+  "1.e4 c6 2.Nf3 d5 3.d3 dxe4 4.dxe4 Qxd1+ 5.Kxd1": {
+    "name": "Caro–Kann Defence: Endgame Variation",
+    "background": "This endgame line received increased attention in the 21st century; it is reached via 2.d3 as well as 2.Nf3.",
+    "strategy": "The only recapture. The king stays in the middle and loses castling, but with the queens off it is safe; White develops quickly and uses the pawn on e4 for a small space edge, while Black aims for equality with simple development."
+  },
+  "1.e4 c6 2.Nf3 d5 3.exd5 cxd5 4.Ne5": {
+    "name": "Caro–Kann Defence: Apocalypse Attack",
+    "strategy": "Plants the knight on a strong central square before Black's bishop can pin anything on f3, and sets small traps, such as 4...Bf5? 5.Bb5+ costing Black a tempo and the bishop pair. Black has sound ways to challenge the knight, so it is a sharp try rather than an advantage."
   }
 }

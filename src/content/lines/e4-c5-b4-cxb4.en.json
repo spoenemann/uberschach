@@ -17,5 +17,33 @@
   "1.e4 c5 2.b4 cxb4 3.a3 bxa3": {
     "strategy": "Grabs a second pawn, the greedy way to meet the gambit. White recaptures with a piece and gets what the gambit was played for: quick development and open files on the queenside, against Black's extra material and a king's side still to be developed.",
     "name": "Sicilian Defence: Wing Gambit, Carlsbad Variation"
+  },
+  "1.e4 c5 2.b4 cxb4 3.a3 d5 4.exd5": {
+    "strategy": "Takes first instead of defending e4, trading the attacked pawn for Black's d-pawn. It is the cleanest answer to the counterattack, but the black queen recaptures into the centre, so White's lead in development now has to do the work of the missing pawn."
+  },
+  "1.e4 c5 2.b4 cxb4 3.a3 d5 4.exd5 Qxd5": {
+    "strategy": "Recaptures with the queen, which stands well in the centre and eyes g2. It also sets a trap: the greedy 5.axb4?? runs into ...Qe5+, a check that attacks the rook on a1 and wins it."
+  },
+  "1.e4 c5 2.b4 cxb4 3.a3 d5 4.exd5 Qxd5 5.Nf3": {
+    "strategy": "The right way to win the pawn back: White develops first. The knight covers e5, so Qe5+ stops being an answer and the threat of axb4 is real again. Black has to defend the pawn on b4 or give it back."
+  },
+  "1.e4 c5 2.b4 cxb4 3.a3 d5 4.exd5 Qxd5 5.Bb2": {
+    "name": "Sicilian Defence: Wing Gambit, Marienbad Variation",
+    "strategy": "Puts the bishop on the long diagonal, so that axb4 no longer allows the queen check on e5: the bishop would take the queen. The price is that the bishop steps onto a square the b4 pawn can attack with ...bxa3, forcing White to recapture and remain a pawn down."
+  },
+  "1.e4 c5 2.b4 cxb4 3.a3 d5 4.exd5 Qxd5 5.Nf3 e5": {
+    "strategy": "Takes the centre with a pawn and opens the diagonal for the king's bishop, which now defends the pawn on b4 and answers axb4 in kind. It also gains space and keeps ...e4 in hand to drive the knight away with a gain of time."
+  },
+  "1.e4 c5 2.b4 cxb4 3.a3 d5 4.exd5 Qxd5 5.Nf3 e5 6.c4": {
+    "strategy": "Attacks the queen with a pawn and wins a tempo, and takes control of d5. It also gives up the chance to cover d4 with a pawn, leaving a hole there for Black's pieces. White is still a pawn down and has to make the lead in development count."
+  },
+  "1.e4 c5 2.b4 cxb4 3.a3 d5 4.exd5 Qxd5 5.Nf3 e5 6.Bb2": {
+    "strategy": "Aims at the e5 pawn: the knight and the bishop both attack it and only the queen defends it, so Nxe5 is a real threat. It develops with a threat, but Black has natural ways to cover e5 and keeps the extra pawn."
+  },
+  "1.e4 c5 2.b4 cxb4 3.a3 d5 4.exd5 Qxd5 5.Nf3 e5 6.Bb2 Nc6": {
+    "strategy": "The natural defence: a developing move that gives e5 the second defender it needs, so that taking on e5 would just lose material. Black keeps the pawn on b4, the extra pawn and the centre, and White has to look for other compensation on the long diagonal."
+  },
+  "1.e4 c5 2.b4 cxb4 3.a3 d5 4.exd5 Qxd5 5.Nf3 e5 6.c4 Qe6": {
+    "strategy": "The queen steps out of the attack to a square from which it still guards the e5 pawn and eyes the c4 pawn. Black keeps the pawn up and the centre intact, while White can no longer cover d4 with a pawn."
   }
 }

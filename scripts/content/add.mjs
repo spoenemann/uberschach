@@ -2,8 +2,9 @@
 // (README.md, Named lines): each move with its rating and notes into the module of the
 // position it is played from, each new position, its name and background into the module of
 // the move along the line it is declared under. A position that gains moves two plies below
-// its module's root moves out into a module of its own, as the layout test demands
-// (src/content/openings.test.ts). Writes nothing while an output file is missing.
+// its module's root moves out into a module of its own, which the layout test allows
+// (src/content/openings.test.ts); merge-modules.mjs folds such small modules afterwards.
+// Writes nothing while an output file is missing.
 // Usage: node scripts/content/add.mjs <work> [<batch id> ...]   (no id: every batch of ids.json)
 import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { REPO, fileOf, idOf } from "./lib.mjs";

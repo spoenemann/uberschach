@@ -17,6 +17,7 @@
     "name": "Italian Game: Bird's Attack"
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6": {
+    "name": "Italian Game: Classical Variation, Giuoco Pianissimo",
     "strategy": "Mirrors White's set-up: it defends e5 solidly and prepares to develop the c8 bishop. Black keeps the centre closed and concedes nothing, and the game becomes a slow manoeuvre with chances for both sides."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 a6": {
@@ -29,5 +30,73 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4": {
     "strategy": "Removes the pawn that attacks both the bishop and the e5-pawn, and takes the fight to the centre. White will rebuild it with tempo on the bishop, so Black accepts a sharp, open game in which the central pawns decide who has the initiative."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.O-O": {
+    "name": "Italian Game: Classical Variation, Giuoco Pianissimo",
+    "strategy": "Gets the king to safety first and keeps every central plan open. A typical patient move in a slow manoeuvring game, where neither side hurries to commit."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.Nbd2": {
+    "strategy": "Brings the b1 knight into play and adds a defender to e4, which relieves the d3 pawn. White keeps a flexible, patient game and opens the centre only when the pieces stand well."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.b4": {
+    "name": "Italian Game: Classical Variation, Giuoco Pianissimo, Albin Variation",
+    "strategy": "Attacks the bishop at once to win queenside space and gain a tempo. Sharper than the quiet main plan, but the pawn advance loosens the queenside while the bishop finds a good square on b6."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.Nbd2 O-O": {
+    "strategy": "Puts the king in safety before the centre can open. Nothing is gained by waiting: the centre is closed, White has no quick attack, and Black keeps every option for the bishop and the queenside pawns. A patient manoeuvring game follows, with both sides preparing a central break."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.Nbd2 a6": {
+    "name": "Italian Game: Classical Variation, Giuoco Pianissimo, with a6",
+    "strategy": "Takes b5 away from the white bishop, where it would pin the knight against the king, and prepares a retreat square on a7 for the bishop when White tries to chase it with b4 or d4. A useful waiting move that leaves Black flexible about castling."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.O-O O-O": {
+    "name": "Italian Game: Classical Variation, Giuoco Pianissimo",
+    "strategy": "The simplest plan: Black finishes kingside development and takes the king out of the centre while the position is still closed. White needs several more moves to prepare a central break, and Black meets it from a safe position."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.O-O a5": {
+    "name": "Italian Game: Classical Variation, Giuoco Pianissimo",
+    "strategy": "Stops White from gaining space with b4 and so from chasing the bishop on c5 with a pawn. The cost is the b5 square: the white bishop can now come there to pin the knight without being asked a question. Black takes a firm stand on the queenside."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.O-O a6": {
+    "name": "Italian Game: Classical Variation, Giuoco Pianissimo",
+    "strategy": "Stops the bishop from jumping to b5 to pin the knight, and gives the bishop on c5 the a7 square if White starts chasing it. Black keeps the question of when to castle open and waits to see which plan White chooses."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.O-O Bb6": {
+    "name": "Italian Game: Classical Variation, Giuoco Pianissimo",
+    "strategy": "Moves the bishop out of reach of b4 and d4 while it keeps its eye on f2. It is playable, but on b6 the bishop can be harassed again by a queenside pawn advance, so Black may end up retreating further for nothing in return."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.O-O h6": {
+    "name": "Italian Game: Classical Variation, Giuoco Pianissimo, with h6",
+    "strategy": "Asks the white bishop what it wants before it reaches g5: the pawn takes the square away, so the knight on f6 cannot be pinned against the queen. A sensible precaution, but it spends a tempo on the kingside and lets White regroup freely."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.cxd4": {
+    "name": "Italian Game: Classical Variation, Greco Gambit, Traditional Line",
+    "background": "The old main line of the Giuoco Piano, developed by Gioachino Greco in the early 17th century.",
+    "strategy": "Rebuilds the broad pawn centre and attacks the bishop with tempo. White gets space and an open game; the price is that the bishop's check on b4 interrupts the build-up and the e4-pawn must be defended against the knight on f6."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.e5": {
+    "name": "Italian Game: Classical Variation, Greco Gambit, Modern Line",
+    "background": "A line favoured by Evgeny Sveshnikov, which has seen a surge in popularity in the early 21st century.",
+    "strategy": "Drives the knight away at once and gains space, leaving the recapture on d4 for later. White gets the initiative only if Black fails to strike back in the centre immediately; if it does, White keeps more space and Black has active pieces."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.b4": {
+    "name": "Italian Game: Classical Variation, Greco Gambit, Dubov Italian",
+    "background": "A gambit advocated by Daniil Dubov. In the 21st century it has emerged as a frequent alternative to 6.e5 and 6.cxd4.",
+    "strategy": "A gambit: White does not recapture, but attacks the bishop with the b-pawn and threatens to chase the knight with b5. It aims for quick development and open lines in return for a pawn. Sharp, and Black must take care not to fall behind in development."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.O-O": {
+    "name": "Italian Game: Scotch Gambit, Walbrodt-Baird Gambit",
+    "background": "A rarely seen gambit that was more popular in the era of Romantic chess.",
+    "strategy": "A gambit: White castles without recapturing and lets Black take the e4-pawn as well. Black can accept it safely and keeps the extra pawn after White recaptures on d4; White's lead in development is the only compensation, and it is not enough."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.cxd4 Bb4+": {
+    "strategy": "Saves the bishop with check, so White must react before it can attend to e4, which the knight attacks. Retreating to b6 instead lets White push e5 and drive the knight away with a gain of space, which is why the check is the standard way to meet the recapture."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.e5 d5": {
+    "name": "Italian Game: Classical Variation, Greco Gambit, Modern Line",
+    "strategy": "Strikes back in the centre at once: the pawn attacks the bishop, so White has to deal with that before anything else. The knight reaches a strong square on e4, Black's pieces become active, and White keeps more space. The only good answer to the push."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.e5 Ne4": {
+    "strategy": "Runs the knight forward and into a trap: the bishop lands on d5 and the knight has no safe retreat. Black must prop it up with the f-pawn, which weakens the king's side, or sacrifice it for a speculative attack. White keeps the better chances either way."
   }
 }

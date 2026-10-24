@@ -58,6 +58,8 @@
     "strategy": "Develops with a threat to e4 and simply ignores the bishop: Black can take the pawn and White regains it, so nothing is lost. The line leads to solid, drawish positions, often an early queen trade in which Black has the bishop pair against a kingside pawn majority."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nge7": {
+    "name": "Ruy Lopez: Cozio Defence",
+    "background": "Carl Jaenisch dismissed it in his mid-nineteenth-century analysis of the Ruy Lopez, and Bent Larsen later used it occasionally with success.",
     "strategy": "Defends the knight with the other knight, so after a capture on c6 Black recaptures with the knight and keeps the pawns intact. The cost is that the knight blocks the king's bishop. An old-fashioned, little-explored set-up that avoids the main-line theory."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6": {
@@ -68,6 +70,8 @@
     "name": "Ruy Lopez: Lucena Variation"
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nd4": {
+    "name": "Ruy Lopez: Bird Variation",
+    "background": "Published in 1843 in Paul Rudolf von Bilguer's Handbuch des Schachspiels and explored by Henry Bird in the late nineteenth century; Bird played it as Black at least 25 times, scoring nine wins, thirteen losses and three draws. No strong master since Bird has adopted it regularly.",
     "strategy": "Counterattacks the bishop and the knight on f3 at once, a surprise that offers a trade. If White takes, Black recaptures with the pawn and gains space, but at the price of a slightly worse pawn structure. With careful play White is held to keep a small edge."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6": {
@@ -80,6 +84,7 @@
     "strategy": "Develops the bishop on the active diagonal toward f2 without worrying about the pressure on c6. But White can drive it back with pawn moves that also build the centre, so Black loses time; rarely played."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4": {
+    "name": "Ruy Lopez: Alapin Defence",
     "strategy": "Puts the bishop on an active diagonal but does nothing about the pressure on c6 and e5. White kicks it at once with a pawn move that also builds the centre, so Black loses time for little in return."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a5": {
@@ -111,6 +116,7 @@
     "name": "Ruy Lopez: Retreat Variation"
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d5": {
+    "name": "Ruy Lopez: Spanish Countergambit",
     "strategy": "Counterattacks in the centre at once, offering White the choice between two central pawns. But Black is behind in development and the bishop still presses on c6: if White takes on d5 and the queen recaptures, Nc3 hits it with gain of time."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6": {
@@ -120,6 +126,8 @@
     "strategy": "Mirrors White's bishop and keeps the queen's control of g5, so there is no sudden attack on f7. A slower, more positional choice than the sharp alternative, in which the fight is over the d4 square and which side builds the centre first."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Be7": {
+    "name": "Italian Game: Hungarian Defence",
+    "background": "Named after a correspondence game between Paris and Pest, Hungary, played from 1842 to 1845; Carlo Cozio had already analysed the move in the 18th century.",
     "strategy": "A cautious reply that avoids the sharp lines and keeps the position solid, but does little to challenge White's centre. Black accepts a slightly cramped game: White has more space and freer development, and Black plays mostly for safety."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 h6": {
@@ -151,6 +159,8 @@
     "strategy": "The safest reply: Black develops with an attack on the loose e4 pawn, so White has to commit the centre at once. Play can run from quiet and drawish, where White has a little more space, to very sharp."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 f5": {
+    "name": "Ponziani Opening: Ponziani Countergambit",
+    "background": "Domenico Lorenzo Ponziani introduced the countergambit 3...f5 in 1769.",
     "strategy": "Counterattacks at once with a pawn against e4, but the pawn move loosens Black's own king side. An aggressive surprise weapon that gives White the better game with correct play."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 Nge7": {
@@ -172,15 +182,19 @@
     "strategy": "The normal capture. Black has no good way to hold the pawn on e5, so it is exchanged for White's d-pawn and the centre opens: White's pieces become active, Black's develop easily, and the game is level."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 Nxd4": {
+    "name": "Scotch Game: Lolli Variation",
+    "background": "Popular in the nineteenth century, it received five columns of analysis in Freeborough and Ranken's Chess Openings Ancient and Modern in 1896.",
     "strategy": "Trades knights, but after the exchanges White's queen lands on d4, where it cannot easily be driven away. Black has used time and a developed piece to take the pawn, and has handed White the better central control."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6": {
     "strategy": "Develops the second knight and keeps the position symmetrical and solid. Black takes no risks, but White decides the character of the game, which tends to be quiet and drawish, and Black has little scope to unbalance it."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Bb4": {
+    "name": "Three Knights Opening",
     "strategy": "Develops the bishop and hits the knight, but it is early: the d2 pawn still stands behind the knight, so there is no pin, and White can jump to d5, attacking the bishop and gaining time."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 g6": {
+    "name": "Three Knights Opening: Steinitz Defence",
     "strategy": "Prepares to fianchetto the bishop to g7, aiming it down the long diagonal, but it is slow: White can open the centre before Black is ready, and Black has to catch up in development."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 f5": {
@@ -189,5 +203,182 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nxe5 Nxe5": {
     "strategy": "Takes the knight, which wins a piece for a pawn: the e5 knight was attacked and White's last move gave it away for nothing. Black can simply take; there is no reason to decline."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4 4.c3": {
+    "strategy": "Hits the bishop at once and prepares d4. The black bishop, which only copies White's move and attacks nothing undefended, must retreat or be exchanged, so White builds a broad pawn centre with tempo."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4 4.c3 Ba5": {
+    "strategy": "Keeps the bishop on the diagonal towards White's king instead of retreating to c5, but it leaves e5 hanging to Bxc6 and Nxe5, and the c3 pawn takes away the d4 square that would let Black's queen win the pawn back. Black ends up a pawn down for the bishop pair."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4 4.c3 Ba5 5.Bxc6": {
+    "strategy": "Takes the knight before Black can regroup: after either recapture the e5 pawn is loose, and ...Qd4 is no longer a defence because the c3 pawn covers d4. White wins a pawn."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4 4.c3 Ba5 5.Bxc6 dxc6": {
+    "name": "Ruy Lopez: Alapin Defence, Alapin Gambit",
+    "strategy": "The natural recapture, giving Black the bishop pair, but it cannot save the e5 pawn: after Nxe5 the c3 pawn covers d4, so the queen cannot win the pawn back, and Black must find compensation in the bishops."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 d5 4.Nxe5": {
+    "strategy": "Wins a pawn that the pinned c6 knight cannot take back. Grabbing e4 in return loses to Nxc6 bxc6 Bxc6+, which wins the rook on a8, so Black needs a sharper answer, while White must watch for forks against the loose knight and the g2 pawn."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 d5 4.Nxe5 Qg5": {
+    "strategy": "Forks the unprotected knight on e5 and the g2 pawn, which nothing defends while White's king is still on e1. White has to find the careful reply, since the natural-looking ones lose material; it is Black's trickiest try in this counter-gambit."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 d5 4.Nxe5 Qg5 5.O-O": {
+    "name": "Ruy Lopez: Spanish Countergambit, Harding Countergambit, Fricke Gambit",
+    "strategy": "Castles to cover g2 and lets Black take the knight, hoping to win two pawns back with exd5 while the c6 knight is pinned and Black's king sits in the centre. A knight for two pawns is too much to give, and simply retreating the knight keeps White better."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 d5 4.Nxe5 Qg5 5.Nxc6": {
+    "name": "Ruy Lopez: Spanish Countergambit, Harding Gambit",
+    "strategy": "Takes the knight but walks into the point of the queen move: with the king still on e1 nothing guards g2, so ...Qxg2 attacks the rook on h1 and the queen then takes e4 with check. White ends a pawn down with a king stuck in the centre."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nd4 4.Nxd4": {
+    "strategy": "Takes the knight at once: White gives Black no time to profit from the attack on the bishop. Black recaptures with the pawn and gains space on d4 at the cost of doubled pawns and a lag in development."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nd4 4.Nxd4 exd4": {
+    "strategy": "The only sensible recapture. The pawn on d4 cramps White's queenside development and is not easy to dislodge, but Black has doubled pawns and is behind in development."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nd4 4.Nxd4 exd4 5.O-O": {
+    "strategy": "Castles at once: the pawn on d4 cannot be attacked quickly, so White builds a solid position, closes the centre and waits for the doubled pawns and the lag in development to tell."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nd4 4.Nxd4 exd4 5.O-O Ne7": {
+    "name": "Ruy Lopez: Bird Variation, Paulsen Variation",
+    "strategy": "Quiet development: the knight heads for g6 or f5 and ...c6 can follow to chase the bishop, but it shuts the f8 bishop's diagonal for now. Black keeps the space-gaining pawn on d4 but is behind in development, which White will try to exploit."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nge7 4.Nc3": {
+    "strategy": "Develops the queen's knight rather than castling and keeps a central strike in reserve. With Black's bishop still shut in behind the knight on e7, White can choose the moment to open the centre, and d5 is a good square to aim at."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nge7 4.Nc3 g6": {
+    "name": "Ruy Lopez: Cozio Defence, Paulsen Variation",
+    "strategy": "Fianchettoes the king's bishop to the long diagonal, solving the problem of the bishop shut in behind the knight on e7. But Black's pieces are slow to coordinate: White can strike in the centre and plant a knight on d5 with the initiative."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Be7 4.d4": {
+    "strategy": "Claims the centre at once while Black's bishop on e7 does not bear on d4 as it would from c5. If Black takes, White recaptures with the knight and has more space and the freer development, so Black must be ready for a cramped, defensive game, the price of this solid set-up."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Be7 4.d4 exd4": {
+    "name": "Scotch Game: Benima Defence",
+    "strategy": "Resolves the tension by taking, so White must recapture or sacrifice. After the usual recapture with the knight White has more space and the freer pieces, and Black has to be content with a solid but slightly cramped position, a safe way to play for equality rather than for the advantage."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Be7 4.d4 exd4 5.c3": {
+    "strategy": "Offers a second pawn for development instead of simply recapturing: if Black grabs it with ...dxc3, Qd5 puts heavy pressure on f7. Black can decline by developing, though, so the gambit is weaker than the plain recapture on d4, which keeps more space."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Be7 4.d4 exd4 5.c3 Nf6": {
+    "strategy": "Develops with an attack on the e4-pawn, which nothing defends, and keeps the extra pawn on d4. White must answer at once, and the push that does it gives White space and the initiative; Black is a pawn up, but White has the more comfortable game."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Be7 4.d4 exd4 5.c3 Nf6 6.e5": {
+    "strategy": "Drives the knight away with a pawn that gains space. The extra pawn on d4, attacked three times, will be won back, and White comes out with the better development and central space in return for an advanced e-pawn that Black can try to attack."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Be7 4.d4 exd4 5.c3 Nf6 6.e5 Ne4": {
+    "name": "Italian Game: Hungarian Defence, Tartakower Variation",
+    "background": "Named after Savielly Tartakower.",
+    "strategy": "Centralises the knight, which hits c3 and f2, instead of retreating. Black keeps the extra pawn for the moment, but the knight is exposed to attack and White's space advantage tells, so White keeps the more comfortable game."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d3": {
+    "strategy": "Guards e4 with a pawn and chooses a slow, compact set-up: develop behind the pawn chain, castle and wait for Black to commit. White gives up the initiative in return for a solid, low-risk game."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d4": {
+    "name": "King's Pawn Game: Tayler Opening",
+    "background": "John Tayler introduced 4.d4 and published analysis of it in Chess, February to March 1981.",
+    "strategy": "Strikes at e5 at once instead of defending e4, offering a pawn for an open game and a tempo against the knight on f6. An offbeat gambit with real ideas but more risk than the quiet set-up, and Black can simply take the pawn."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d3 d5": {
+    "strategy": "Takes the centre and attacks e4 a second time, so the pawn is attacked twice and guarded once and White must respond at once. Black stakes out space and takes the more active role against White's passive set-up."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d4 exd4": {
+    "strategy": "Takes the pawn offered, the natural reply to a central strike: Black is a pawn up and relieves the pressure on e5. White's pawn advance to e5 will hit the knight on f6 with tempo, so Black must keep developing carefully."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d3 d5 5.Nbd2": {
+    "name": "King's Pawn Game: Tayler Opening, Inverted Hanham",
+    "background": "White's set-up resembles Black's in the Hanham Variation of the Philidor Defence, so the opening is sometimes called the Inverted Hanham.",
+    "strategy": "Adds a second defender to e4 and develops without blocking the bishop on c1 or the c-pawn. White builds a compact structure and waits for Black to release the central tension, accepting less space in return for solidity."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d4 exd4 5.e5": {
+    "name": "King's Pawn Game: Tayler Opening, Basman Gambit",
+    "background": "Michael Basman took the gambit up and developed it further; this is its critical line.",
+    "strategy": "Hits the knight with a pawn to win time and space for the sacrificed d-pawn. The e5 pawn is both a spearhead and a target, and White must regain the pawn quickly with active play: dynamic compensation and an unclear fight."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Qa4": {
+    "strategy": "Pins the c6 knight to the king, leaving the e5 pawn without real protection and threatening to take it. White's pieces come out with tempo, and Black has to find a way to hold e5 and deal with the loose e4 pawn at the same time."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5": {
+    "name": "Ponziani Opening: Spanish Variation",
+    "strategy": "Pins the knight as well, but does nothing about the loose e4 pawn. Black takes it, and after White takes back on e5 with the knight, the queen move to g5 forks the knight and the g2 pawn, so Black comes out ahead."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4": {
+    "strategy": "Wins the loose pawn. The pinned knight on c6 and the loose e5 pawn look dangerous, but Black has a strong reply to White's capture on e5 and comes out ahead."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Qa4 f6": {
+    "name": "Ponziani Opening: Steinitz Variation",
+    "strategy": "Defends e5 directly with a pawn, so no material is lost. It is the soundest answer but an awkward one: the pawn takes f6 from the king's knight and loosens the kingside, and the pinned knight on c6 stays a target for White's pieces."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Qa4 Bd7": {
+    "name": "Ponziani Opening: Caro Gambit",
+    "strategy": "Unpins the knight and so defends e5 for the moment, but the bishop blocks the queen's view of d5, so White simply takes the pawn. Black hits the queen with ...Nd4 and threatens doubled pawns, which gives enough play to make it a true gambit."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Qa4 Nf6": {
+    "name": "Ponziani Opening: Leonhardt Variation",
+    "strategy": "Ignores the threat to e5 and develops, counting on activity: White can win the pawn, but Black gets time to guard d5 twice, bring the bishop out and castle. A real gambit, with compensation in development rather than in any concrete attack."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5": {
+    "strategy": "Takes back the pawn and piles up on the pinned knight, but the pin does not win anything: the knight on c6 is guarded by the b-pawn. White's own pieces are loose, and the position is already difficult."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5 Qd5": {
+    "strategy": "Centralises the queen with a double attack on the loose bishop on b5 and the knight on e5. White must find an answer to both threats at once, and Black keeps the initiative."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5 Qd5 6.Qa4": {
+    "name": "Ponziani Opening: Spanish Variation, Harrwitz Attack, Nikitin Gambit",
+    "strategy": "Backs up the bishop on b5, which Black's queen attacks, and keeps the knight on c6 pinned to the king. White has won back the pawn it gave up, and Black must now untangle the pinned knight while White's pieces are active."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.c3 f5 4.d4": {
+    "strategy": "Strikes in the centre at once, the idea behind 3.c3: the pawn on e4 hits f5 and the new pawn on d4 hits e5, which only the knight defends. Black's countergambit has to be justified quickly, while White gets a big centre."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.c3 f5 4.d4 d6": {
+    "strategy": "A solid answer: e5 gets a second defender and the c8-bishop is freed to guard f5. But it is passive. Black does not take on e4, and the countergambit loses its sting while White gains space and time in the centre."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.c3 f5 4.d4 d6 5.d5": {
+    "name": "Ponziani Opening: Ponziani Countergambit, Schmidt Attack",
+    "strategy": "Gains time by attacking the knight and space in the centre, while the pawn on e4 still bears on f5. Black's pieces are cramped and the knight has to retreat; White has a big, secure centre against a loosened kingside."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.c4 Nf6 4.Nxe5": {
+    "name": "Dresden Opening: The Goblin",
+    "strategy": "Hangs a piece for a pawn: 4...Nxe5 wins the knight, and 5.d4 only chases it away to a safe square. White has nothing to show for the piece."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.d3 f5 4.exf5": {
+    "name": "Latvian Gambit: Clam Gambit",
+    "strategy": "Wins a pawn. Black's f-pawn has left the king's cover, and the half-open f-file and quick development are all Black has in return. White's solid d3 pawn keeps the position safe while the pieces come out."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.d4 Nxd4 4.Nxd4": {
+    "strategy": "Takes on d4 and invites ...exd4, after which the queen's recapture centralises it for free. The trade works in White's favour because the knight that would have chased the queen has been exchanged."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.d4 Nxd4 4.Nxd4 exd4": {
+    "strategy": "The natural recapture, which restores material but leaves the d4 pawn attacked by the queen at once. Black must accept that White gets the more comfortable game."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.d4 Nxd4 4.Nxd4 exd4 5.Qxd4": {
+    "strategy": "Takes the pawn with the queen, which stands centrally and cannot be chased away easily. White gets the more active position; Black is slightly passive but can hold with accurate play."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.d4 Nxd4 4.Nxd4 exd4 5.Bc4": {
+    "name": "Scotch Game: Napoleon Gambit",
+    "strategy": "Develops with an eye on f7 and delays the recapture. The d4 pawn can still be taken later, but Black can now defend it with ...Qf6, so White has swapped a sure recapture for a lead in development."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Nc3 Bb4 4.Nd5": {
+    "strategy": "Answers the early bishop at once: the knight jumps to d5 and attacks it. Black has to spend time on the bishop while White's knight stands in the centre."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Nc3 Bb4 4.Nd5 Nf6": {
+    "name": "Three Knights Opening: Schlechter Variation",
+    "strategy": "Develops with a threat: the knight attacks the e4 pawn, which lost its guard when the c3 knight left, and challenges the knight on d5. White can still trade on b4 or f6 first."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Nc3 g6 4.d4": {
+    "strategy": "Strikes in the centre while Black's fianchetto is still unfinished. The e5 pawn is attacked twice and defended once, so Black has to resolve the tension at once, and White's pieces come out with more space."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Nc3 g6 4.d4 exd4": {
+    "strategy": "Trades the attacked pawn rather than defending it passively, and keeps the c6 knight pressing on d4. The price is time: White recaptures with a lead in development, and Black has to catch up with the fianchetto."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Nc3 g6 4.d4 exd4 5.Nd5": {
+    "name": "Three Knights Opening: Steinitz-Rosenthal Variation",
+    "strategy": "Plants the knight on an outpost Black's pawns cannot easily challenge: the e-pawn is gone and the c-pawn is blocked by its own knight. From d5 it eyes c7 and f6, and the d4 pawn is still to be won back, so White keeps the initiative."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Nxe5 Nxe5 4.d4": {
+    "name": "King's Pawn Game: Schulze-Müller Gambit",
+    "background": "D. T. Phillips used it to beat Harry Nelson Pillsbury in a simultaneous exhibition in Chicago on 7 January 1899. A newspaper report gave the line the name Chicago Gambit, after the city, and some online opening books call it the Schulze-Müller Gambit.",
+    "strategy": "Attacks the knight with tempo, but a pawn is all White has for the piece. White gets a broad centre while Black remains a piece up, and once the knight moves White does not have enough for what was given up."
   }
 }

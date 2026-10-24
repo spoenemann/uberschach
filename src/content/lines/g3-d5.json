@@ -1,5 +1,5 @@
 {
-  "about": "After 1.g3 d5: its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written.",
+  "about": "After 1.g3 d5: its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written. The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
   "positions": [
     {
       "line": "1.g3 d5",
@@ -353,6 +353,43 @@
     },
     {
       "line": "1.g3 d5 2.Bg2 Bh3"
+    },
+    {
+      "line": "1.g3 d5 2.Bg2 e5",
+      "moves": [
+        {
+          "san": "c4",
+          "rating": 3
+        },
+        {
+          "san": "b4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.g3 d5 2.Bg2 e5 3.c4",
+      "moves": [
+        {
+          "san": "dxc4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.g3 d5 2.Bg2 e5 3.b4"
+    },
+    {
+      "line": "1.g3 d5 2.Bg2 e5 3.c4 dxc4",
+      "moves": [
+        {
+          "san": "b3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.g3 d5 2.Bg2 e5 3.c4 dxc4 4.b3"
     }
   ]
 }

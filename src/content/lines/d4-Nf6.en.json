@@ -128,6 +128,8 @@
     "strategy": "Sacrifices a pawn for quick development and active piece play, and usually wins it back. White can try to keep the extra pawn or return it for a lead in development, so the game turns on whether Black's activity outweighs the material. Rarely played at grandmaster level."
   },
   "1.d4 Nf6 2.c4 d5": {
+    "name": "Queen's Gambit Declined: Marshall Defence",
+    "background": "Frank Marshall played it in the 1920s but gave it up after losing with it to Alexander Alekhine at Baden-Baden in 1925. It is regarded as a fairly dubious variation of the Queen's Gambit Declined, and experienced players no longer use it.",
     "strategy": "Claims the centre at once, but White simply takes it: after 3.cxd5 Nxd5 4.Nf3, White gains time against the knight and builds a broad centre without allowing the counter ...e5."
   },
   "1.d4 Nf6 2.c4 b5": {
@@ -184,6 +186,7 @@
     "strategy": "Prepares ...Bb7 to bear on e4 and the long diagonal, and keeps a solid pawn set-up in hand. Black controls the centre from a distance rather than occupying it. The cost is that the centre stays with White for now."
   },
   "1.d4 Nf6 2.Nf3 c5": {
+    "name": "Indian Defence: Spielmann-Indian Variation",
     "strategy": "Strikes at d4 at once and heads for a Benoni-type structure, trading central space for queenside counterplay. It is less common than the main replies, and White, not obliged to play c4, can build a big centre and press with extra space."
   },
   "1.d4 Nf6 2.Nf3 d6": {
@@ -191,6 +194,7 @@
     "strategy": "Frees the c8-bishop and prepares to challenge the centre later, while several set-ups stay open. Sound but modest: the d6-pawn claims less space than ...d5, and White keeps a free choice of set-up."
   },
   "1.d4 Nf6 2.Nf3 c6": {
+    "name": "Indian Defence: Czech-Indian",
     "strategy": "Prepares ...d5 behind a solid pawn chain and keeps other set-ups in reserve. White need not play c4, and the c6-pawn has taken the natural square of the b8-knight."
   },
   "1.d4 Nf6 2.Nf3 Ne4": {
@@ -246,6 +250,8 @@
     "strategy": "Attacks the bishop at once, so White must move it again or defend it; Black gives up a tempo of development for that. Black then keeps the knight on e4 and strikes at the centre, and if White chases it with f3, that pawn takes the best square from White's own knight. The careless 3.Nf3 allows 3...Nxg5 4.Nxg5 e5, and the discovered attack on the knight regains the lost time."
   },
   "1.d4 Nf6 2.Bg5 e6": {
+    "name": "Trompowsky Attack: Classical Defence",
+    "background": "The second most popular reply to the Trompowsky Attack, after 2...Ne4.",
     "strategy": "Lets the queen recapture if White takes on f6, so Black avoids doubled pawns, and opens the diagonal of the f8-bishop. The price is a pinned knight, and White can build a broad centre at once. If White does take on f6, Black keeps the bishop pair and an intact pawn structure against White's centre."
   },
   "1.d4 Nf6 2.Bg5 d5": {
@@ -399,5 +405,37 @@
   "1.d4 Nf6 2.Nd2 e5": {
     "strategy": "Offers the e-pawn in the hope of a trap with the knight on g4. The gambit is considered unsound, so Black is a pawn down for quick piece play, which works only against a careless White.",
     "name": "Indian Defence: Lazard Gambit"
+  },
+  "1.d4 Nf6 2.Bg5 c5 3.d5": {
+    "strategy": "Gains space and cramps Black's queenside instead of trading the bishop for the knight. The cost is that b2 has lost the bishop's cover, so Black's queen can go after it at once."
+  },
+  "1.d4 Nf6 2.Bg5 c5 3.d5 Qb6": {
+    "strategy": "Attacks the unguarded b2 pawn at once, so White has to defend it or sacrifice it. It is the point of the c-pawn thrust: Black grabs the initiative, though the queen leaves the back rank early and can become a target."
+  },
+  "1.d4 Nf6 2.Bg5 c5 3.d5 Qb6 4.Nc3": {
+    "name": "Trompowsky Attack: Poisoned Pawn Variation",
+    "strategy": "Develops and lets the b2 pawn go: if the queen takes it, it is far from home, and White hopes to win time with developing moves against it. Black gets a pawn, White a lead in development, and the position is hard to judge."
+  },
+  "1.d4 Nf6 2.Bg5 e6 3.e4": {
+    "name": "Trompowsky Attack: Classical Defence, Big Centre Variation",
+    "strategy": "Builds a broad pawn centre at once while the bishop stays on g5, where it pins the knight against the queen, so Black cannot simply take on e4: the queen would fall to the bishop. Black will aim to undermine the big centre with pawn breaks."
+  },
+  "1.d4 Nf6 2.c4 d5 3.cxd5": {
+    "strategy": "Settles the tension in White's favour: Black has no c- or e-pawn ready to recapture, so a piece has to retake and can be driven away by a big pawn centre. White gets space and the initiative against a dubious early ...d5."
+  },
+  "1.d4 Nf6 2.c4 d5 3.cxd5 c6": {
+    "name": "Queen's Gambit Declined: Marshall Defence, Tan Gambit",
+    "strategy": "Gambits a pawn for quick development and open lines: after the exchange on c6 Black aims for a central break and an early queen trade. White keeps the extra pawn and a small edge in the queenless middlegame, so Black must play for activity."
+  },
+  "1.d4 Nf6 2.Nf3 c5 3.d5": {
+    "strategy": "The usual reply: White gains space and cramps Black's centre instead of letting the c-pawn chip away at d4. The pawn on d5 is guarded only by the queen for now, so White has to support it, while Black plays against it with queenside play."
+  },
+  "1.d4 Nf6 2.Nf3 c6 3.c4": {
+    "strategy": "Takes space on the queenside and puts the centre under pressure before Black's ...d5 arrives. The natural way to meet ...c6: White gets the bigger share of the centre, Black a solid structure to defend."
+  },
+  "1.d4 Nf6 2.Nf3 c6 3.c4 b5": {
+    "name": "Slav Indian: Kudischewitsch Gambit",
+    "background": "Sometimes called the Kudischewitsch Gambit, after the Israeli IM David Kudischewitsch.",
+    "strategy": "A pawn offer that challenges the c4 pawn at once to open the queenside. It loosens Black's own queenside, so Black has to show that the open lines are worth the pawn."
   }
 }

@@ -40,5 +40,98 @@
   },
   "1.d4 Nf6 2.Nf3 g6 3.Nc3 d5": {
     "strategy": "Steckt das Zentrum sofort ab und hält e4 von Weiß fern. Der Springer auf c3 blockiert den c-Bauern, sodass Weiß d5 nicht mit c4 untergraben kann, und der Bauer wird von Springer und Dame gedeckt."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Bf4 Bg7 4.e3": {
+    "name": "Londoner System",
+    "strategy": "Stützt d4 und den Läufer auf f4 und öffnet die Diagonale für den Königsläufer. Das ist die London-Struktur: solide und flexibel, darauf angelegt, jedem Aufbau von Schwarz zu begegnen, statt etwas Bestimmtes von ihm zu verlangen."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Bf4 Bg7 4.e3 d6": {
+    "name": "Londoner System",
+    "strategy": "Baut eine kompakte Bauernstruktur auf, kontrolliert e5 und befreit den Damenläufer. Schwarz bereitet die Rochade vor und will das Zentrum später mit einem Bauerndurchbruch angreifen. Der Bauer wird vom Läufer angegriffen, doch der e-Bauer und die Dame decken ihn."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Bf4 Bg7 4.e3 d6 5.Be2": {
+    "name": "Londoner System, mit Le2",
+    "strategy": "Bereitet die Rochade vor, ohne den Läufer auf d3 festzulegen, wo er gegen das Fianchetto nur auf den Bauern g6 träfe. Das bevorzugte Feld in dieser Variante: Weiß erhält eine kompakte, flexible Stellung und wartet, bis Schwarz seinen Plan zeigt."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Bf4 Bg7 4.e3 d6 5.Bd3": {
+    "name": "Londoner System, mit Ld3",
+    "strategy": "Das übliche Londoner Feld für den Läufer, auf den Königsflügel gerichtet, doch gegen das Fianchetto trifft er nur den Bauern g6 und hat daher weniger zu tun als sonst. Solide, und es passt zu einem Plan mit Springer auf e5, gestützt von Bauer und Läufer."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Bf4 Bg7 4.e3 d6 5.h3": {
+    "strategy": "Ein nützlicher Wartezug: Der Läufer erhält auf h2 einen Rückzug, falls Schwarz ihn angreift, bleibt auf seiner Diagonale und deckt weiterhin e5, und der Damenläufer von Schwarz kann nicht mehr sinnvoll nach g4 kommen. Er kostet ein Entwicklungstempo, das in einer langsamen Partie vertretbar ist."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Bf4 Bg7 4.e3 d6 5.Be2 O-O": {
+    "name": "Londoner System, mit Le2",
+    "strategy": "Rochiert, bringt den König hinter den fianchettierten Läufer und schließt die Entwicklung am Königsflügel ab. Schwarz ist bereit, das Zentrum mit einem Bauerndurchbruch zu öffnen, und die ruhige Entwicklung von Weiß gibt ihm keinen Grund zur Eile."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Bf4 Bg7 4.e3 d6 5.h3 c5": {
+    "strategy": "Greift sofort d4 an, statt einen Zentrumsdurchbruch vorzubereiten. Der Bauer wird von der Dame, dem Springer und dem e-Bauern gehalten, sodass es keinen unmittelbaren Gewinn gibt, doch Schwarz öffnet die lange Diagonale für den Läufer auf g7 oder gewinnt Raum am Damenflügel."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Bf4 Bg7 4.e3 d6 5.h3 c5 6.Be2": {
+    "name": "Londoner System, mit Le2",
+    "strategy": "Entwickelt den Läufer und bereitet die Rochade vor, während die Dame, der Springer und der e-Bauer d4 bequem halten. Weiß hält die Struktur solide und überlässt Schwarz die Entscheidung, wie er die Spannung im Zentrum löst."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Bg5 Bg7 4.Nbd2": {
+    "strategy": "Entwickelt den Springer auf das Feld, von dem aus er ein späteres e4 unterstützt, und lässt den c-Bauern frei, um d4 zu stützen. Weiß baut ein kompaktes Zentrum auf, wobei der Läufer auf g5 den Springer von Schwarz im Auge behält."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Bg5 Bg7 4.Nbd2 d5": {
+    "strategy": "Verhindert den Plan von Weiß, e4 zu besetzen, und steckt das Zentrum mit einem Bauern ab, statt zu warten. Der Preis: Der Springer auf f6 muss d5 weiter decken, solange der Läufer auf g5 auf ihn gerichtet bleibt, und kann sich daher nicht frei bewegen."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Bg5 Bg7 4.Nbd2 c5": {
+    "name": "Torre-Angriff: Fianchetto-Verteidigung, Euwe-Variante",
+    "strategy": "Greift sofort d4 an, und der Bauer wird nur vom Springer auf f3 gedeckt, weil der Springer auf d2 die Dame ausschließt. Schwarz kämpft vom Flügel aus ums Zentrum, und der Läufer auf g5 und der Springer auf f6 stehen einander gegenüber."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Bg5 Bg7 4.Nbd2 d5 5.e3": {
+    "strategy": "Stützt d4 und öffnet den Königsläufer, nimmt also eine langsamere, geschlossene Partie in Kauf, nun da d5 e4 verhindert hat. Die Figuren von Weiß stehen gut für einen geduldigen Kampf, wobei der Läufer auf g5 noch vor der Bauernkette steht."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Bg5 Bg7 4.Nbd2 d5 5.e3 O-O": {
+    "name": "Damenbauernspiel: Torre-Angriff, Grünfeld-Variante, Hauptvariante",
+    "strategy": "Rochiert und bringt den König hinter den fianchettierten Läufer. Der Bauer auf d5 hält das Zentrum, sodass Schwarz das von Weiß vom Flügel aus angreifen kann, und ein Tausch des Läufers auf g5 gegen den Springer auf f6 gäbe Schwarz das Läuferpaar."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.e3 Bg7 4.Bd3": {
+    "strategy": "Richtet den Läufer auf den Königsflügel und bereitet die Rochade vor, in einem System, das ein späteres e4 mit Läufer und Springern stützt. Gegen das Fianchetto trifft der Läufer nur den Bauern g6, der Aufbau ist also solide, aber unambitioniert und bereitet Schwarz selten Probleme."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.e3 Bg7 4.Bd3 d6": {
+    "name": "Indische Verteidigung: Colle-System, Königsindische Variante",
+    "background": "Das Colle-System wurde in den 1920er Jahren vom belgischen Meister Edgard Colle bekannt gemacht und von George Koltanowski weiterentwickelt. Im Meisterschach ist es aus der Mode.",
+    "strategy": "Kontrolliert e5 und befreit den Damenläufer, womit Schwarz die kompakte Struktur aufbaut, die er will. Der langsame Aufbau von Weiß muss erst beweisen, dass er Spiel erzeugen kann, während Schwarz die Rochade vorbereitet und das Zentrum in aller Ruhe angreifen will."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.g3 Bg7 4.Bg2": {
+    "strategy": "Vollendet das Fianchetto von Weiß und bereitet die Rochade vor. Der Läufer wird vorerst von seinem eigenen Springer auf f3 blockiert, wirkt aber auf der langen Diagonale auf das Zentrum und den Damenflügel, sobald sich die Stellung öffnet."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.g3 Bg7 4.Bg2 O-O": {
+    "strategy": "Rochiert sofort und bringt den König hinter den fianchettierten Läufer, bevor Weiß das Zentrum klärt. Ein natürlicher, nützlicher Zug: Der Mittelspielplan wird erst gewählt, nachdem Weiß seinen c-Bauern festgelegt hat."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.g3 Bg7 4.Bg2 O-O 5.O-O": {
+    "strategy": "Spiegelt Schwarz: Der König steht sicher hinter seinem Läufer, und der Aufbau ist symmetrisch. Weiß behält die entscheidende Wahl in der Hand, ob er am Damenflügel Raum beanspruchen will."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.g3 Bg7 4.Bg2 O-O 5.O-O d5": {
+    "strategy": "Steckt das Zentrum sofort mit einem Bauern ab, statt mit einem ruhigeren Bauernzug zu warten. Der Bauer nimmt c4 und e4 unter Kontrolle, und der Läufer auf g7 erhält die lange Diagonale, falls sich das Zentrum öffnet, sodass Weiß das ganze Zentrum nicht leicht beanspruchen kann."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.g3 Bg7 4.Bg2 O-O 5.O-O d5 6.c4": {
+    "strategy": "Der thematische Schlag: Der c-Bauer greift sofort d5 an, und Weiß kämpft mit einem Flügelbauern ums Zentrum. Schwarz muss den Bauern entweder stützen oder tauschen, und die Partie dreht sich um diesen Kampf."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Nc3 d5 4.Bf4": {
+    "name": "Damenbauernspiel: Barry-Angriff",
+    "background": "Aaron Summerscale schrieb „A Killer Chess Opening Repertoire“, das den Barry-Angriff und den verwandten 150-Angriff behandelt, und Niaz Murshed gehört zu seinen regelmäßigen Anwendern.",
+    "strategy": "Der Aufbau, der der Variante ihren Charakter gibt: Der Läufer kommt heraus, bevor e3 ihn einsperrt, und nimmt c7 ins Visier, das ein fianchettierter Läufer nicht mitverteidigen kann. Weiß gibt Flexibilität im Zentrum für Tempo und Angriffschancen auf."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Nc3 d5 4.Bf4 Bg7": {
+    "name": "Damenbauernspiel: Barry-Angriff",
+    "strategy": "Die natürliche Entwicklung, die die Rochade vorbereitet. Sie lässt c7 allein von der Dame gedeckt, sodass Schwarz auf einen Springersprung nach b5 achten muss, der den Angriff dort verdoppelt und König und Turm auf c7 gabeln würde."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Nc3 d5 4.Bf4 Bg7 5.e3": {
+    "strategy": "Schützt den Läufer auf f4 und den Bauern d4 und öffnet den Königsläufer. Ein bescheidener Zug, der die Angriffsformation von Weiß sichert, bevor etwas gegen den König unternommen wird."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Nc3 d5 4.Bf4 Bg7 5.Qd2": {
+    "name": "Damenbauernspiel: Barry-Angriff, Tarzan-Angriff",
+    "strategy": "Stützt den Läufer und bereitet vor, den fianchettierten Läufer, den wichtigsten Verteidiger des schwarzen Königs, mit Lh6 abzutauschen. Der unbewegte e-Bauer lässt den Königsläufer eingesperrt, sodass die Entwicklung von Weiß hinter dem frühen Angriff zurückbleibt."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Nc3 d5 4.Bf4 Bg7 5.e3 O-O": {
+    "strategy": "Rochiert und bringt den König hinter den Läufer, während das Zentrum fest bleibt. Schwarz bleibt solide und wartet ab, wie Weiß den Angriff aufbaut, da ihn nichts auf dem Brett schon zum Handeln zwingt."
+  },
+  "1.d4 Nf6 2.Nf3 g6 3.Nc3 d5 4.Bf4 Bg7 5.e3 O-O 6.Be2": {
+    "name": "Damenbauernspiel: Barry-Angriff, Grünfeld-Variante",
+    "strategy": "Entwickelt die letzte Leichtfigur und bereitet die Rochade vor, mit einem Springersprung nach e5 und einem Bauernvorstoß am Königsflügel als Angriffsideen hinter dem Aufbau."
   }
 }

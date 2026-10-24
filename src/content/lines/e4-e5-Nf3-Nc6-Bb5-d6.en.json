@@ -13,5 +13,34 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 exd4": {
     "strategy": "Trades pawns before White can win one, but gives up the stronghold on e5. White's knight recaptures into the centre and keeps a lasting space edge, so Black must defend a cramped but solid position."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7 5.Nc3": {
+    "strategy": "Guards e4 and renews the threat to e5: after the exchange on c6 and the capture on e5 the e4 pawn can no longer be won back by the bishop, so a pawn is really at stake. White develops and keeps the initiative while Black stays cramped."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7 5.c4": {
+    "name": "Ruy Lopez: Steinitz Defence, Semi-Duras Variation",
+    "strategy": "Gains space on the queenside but, instead of guarding e4, leaves it undefended, so the threat against e5 is gone: Black can trade on d4 or attack e4 with a developing move. White settles for a space edge with a looser centre."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7 5.Nc3 Nf6": {
+    "strategy": "Develops with an attack on e4, so that capturing on e5 no longer wins a pawn: ...Bxe4 or ...Nxe4 regains it at once. Black completes development and holds the centre solidly."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7 5.Nc3 Nf6 6.O-O": {
+    "strategy": "Brings the king to safety and keeps all the pressure on e5 and the option of exchanging on c6. It is the sound way to continue development; Black must soon decide how to resolve the tension in the centre."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7 5.Nc3 Nf6 6.Bxc6": {
+    "name": "Ruy Lopez: Steinitz Defence, Nimzowitsch Attack",
+    "strategy": "Trades the bishop for the knight to remove a defender of e5, but Black recaptures with the bishop, so the pawn structure stays intact and e5 is not really attacked. White gives up the bishop pair for little in return."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7 5.Nc3 Nf6 6.O-O Be7": {
+    "name": "Ruy Lopez: Berlin Defence, Hedgehog Variation",
+    "strategy": "Develops the bishop and prepares to castle, but only once the centre is settled: with White's rook heading for e1, castling at once runs into a tactic that loses material, so Black will have to exchange on d4. Solid, but passive."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7 5.Nc3 Nf6 6.O-O exd4": {
+    "name": "Ruy Lopez: Berlin Defence, Closed Wolf Variation",
+    "strategy": "Resolves the centre at once, before White's rook reaches the e-file, and so avoids the tactics around castling. The price is the e5 stronghold: White's knight recaptures into the centre with a freer game, but Black's pieces are well placed and the structure is sound."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 exd4 5.O-O": {
+    "name": "Ruy Lopez: Steinitz Defence, Centre Gambit",
+    "strategy": "Castles before recapturing on d4. The pinned c6 knight cannot take the pawn, and unpinning with ...Bd7 just lets White recapture. A harmless delay that gains nothing over the direct recapture and lets Black try to keep the pawn."
   }
 }

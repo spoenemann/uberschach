@@ -1,7 +1,7 @@
 /// <reference types="node" />
 // The authored content on disk: src/content/lines/<id>.json holds a module's
-// chess data, <id>.en.json and <id>.de.json its prose, one module per followed
-// position, <id> the module's line without move numbers ("root", "e4",
+// chess data, <id>.en.json and <id>.de.json its prose, one module per subtree
+// of the book, <id> its root's line without move numbers ("root", "e4",
 // "e4-e5"; docs/localization.md, Opening content). Read by openings.ts for the
 // tests, by scripts/content/serve.mjs when the app is built, and by the
 // content tools; never by the app, which fetches the served form (loader.ts).

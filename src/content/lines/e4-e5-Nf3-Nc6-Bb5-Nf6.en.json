@@ -26,22 +26,125 @@
     "strategy": "Defends e5 with a pawn, the solid answer to the extra pressure 4.d3 puts on it. The cost is that the king's bishop has only e7 as a natural square, so Black settles for a slow, closed game in which White chooses the pace."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Ne7": {
+    "name": "Ruy Lopez: Berlin Defence, Anti-Berlin Variation, Mortimer Variation",
+    "background": "James Mortimer played 4...Ne7 at the London 1883 tournament against Englisch, Rosenthal and Noa and lost all three games; the tournament winner, Zukertort, also played it, drawing with Englisch.",
     "strategy": "Moves the same knight twice and blocks the king's bishop, so Black falls behind in development; the only point is a trap. If White grabs the pawn on e5, the reply ...c6 wins a piece. Met calmly, Black is simply a tempo down."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d4 exd4": {
     "strategy": "Captures the pawn rather than defending e5, which opens the e-file and leads to open play. Black is a pawn up for the moment, but the king is still in the centre, so Black must meet White's quick development accurately."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4": {
+    "name": "Ruy Lopez: Berlin Defence, Rio Gambit Accepted",
     "strategy": "Takes the pawn at once. It is more an exchange than a gambit, because White wins it back easily on the half-open e-file while Black's king is still in the centre. Black accepts open play in return for the most solid, and often drawish, positions."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5": {
+    "name": "Ruy Lopez: Berlin Defence, Beverwijk Variation",
     "strategy": "Develops the bishop to its most active square, eyeing f2 and the castled king, while keeping the e4 pawn under attack. Black avoids the heavy theory of the main line and asks White to build the centre while watching f2."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O d6": {
+    "name": "Ruy Lopez: Berlin Defence, Improved Steinitz Defence",
+    "background": "Once a frequent alternative to 4...Nxe4; Emanuel Lasker played it twice in the 1908 World Championship match.",
     "strategy": "Reinforces e5 with a pawn and keeps the position compact. It is solid but passive: the king's bishop is limited to e7, and White gets the freer game."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Ng4": {
     "strategy": "Steps away from the centre to set a trap: after h3 and ...h5, taking the knight opens the h-file for a dangerous attack. When White does not bite, the knight is only driven back and Black has lost time.",
     "name": "Ruy Lopez: Berlin Defence, Fishing Pole Variation"
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Bc5 5.Be3": {
+    "name": "Ruy Lopez: Berlin Defence, Anti-Berlin Variation, Kaufmann Variation",
+    "strategy": "Challenges the active bishop at once and blocks its diagonal to f2. If Black trades, the recapture gives White doubled e-pawns, a structural cost that buys the open f-file and a very firm hold on e4. Offbeat, it gives up the usual pawn build-up in the centre."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 d6 5.Bxc6+": {
+    "name": "Ruy Lopez: Berlin Defence, Anti-Berlin Variation, Anderssen Variation",
+    "strategy": "Trades the bishop for the knight at once. Because the d-pawn has already moved, Black must recapture with the b-pawn, which doubles the c-pawns and opens the b-file but leaves Black the two bishops. White gets a lasting structural target in return for the bishop pair."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 d6 5.c4": {
+    "name": "Ruy Lopez: Berlin Defence, Anti-Berlin Variation, Duras Variation",
+    "strategy": "Takes space, covers d5 and supports the bishop on b5 with a pawn. The cost is d4: with pawns on c4 and d3, no White pawn can ever guard it, so it becomes a lasting outpost for Black's pieces. An aggressive try, riskier than the quiet set-ups."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Ne7 5.Nxe5": {
+    "strategy": "Falls into the trap: after the pawn grab, ...c6 attacks the bishop, and a retreat to a4 or c4 loses a piece to ...Qa5+, which forks king and knight. Quiet development would have kept White better."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Ne7 5.Nxe5 c6": {
+    "name": "Ruy Lopez: Berlin Defence, Anti-Berlin Variation, Mortimer Trap",
+    "strategy": "Springs the trap: the pawn attacks the bishop and prepares ...Qa5+, a fork of king and knight, so White cannot keep both pieces and loses material. The pawn Black gave up buys a lasting advantage."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d4 exd4 5.O-O": {
+    "name": "Ruy Lopez: Berlin Defence, Nyholm Attack",
+    "strategy": "Castles instead of recapturing on d4 at once, since the pawn can be taken back whenever White likes. The rook is ready for the e-file, where a Black king still in the centre is the target: if Black takes on e4, the rook pins the knight. White plays for open lines and quick development."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3": {
+    "name": "Ruy Lopez: Classical Variation, Zukertort Gambit",
+    "background": "Johannes Zukertort played 5.c3 in the 1860s.",
+    "strategy": "Prepares a pawn on d4 to strike at the bishop and the centre, and takes d4 away from Black's pieces. The e4 pawn is left on offer, but White can win it back with the queen, since the knight that takes it has little support. The most straightforward way to play for the centre."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 O-O": {
+    "strategy": "Castles before the centre opens and keeps the option of taking the e4 pawn in reserve. Black prefers a safe king to a risky race for the pawn, and waits to see how White commits the centre."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 O-O 6.d4": {
+    "strategy": "Strikes in the centre with tempo: the pawn attacks both the bishop and e5. White leaves the e4 pawn loose for the moment, betting that the open centre and the pressure on the c6 knight are worth more than a pawn."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 O-O 6.d4 Bb6": {
+    "name": "Ruy Lopez: Classical Defence, Benelux Variation",
+    "strategy": "Steps out of the pawn's attack but keeps the bishop pressing on d4, and keeps the central tension instead of releasing it by capturing. Black accepts a little less space and asks White to resolve the centre first."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O d6 5.d4": {
+    "strategy": "Opens the centre at once, putting two attackers on e5 while Black's ...d6 has spent a tempo on defence. White gets space and easy development, and Black has to hold e5 rather than counterattack."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O d6 5.d4 Bd7": {
+    "strategy": "Blocks the diagonal from b5 to the king, so the c6 knight is no longer pinned and can capture on d4 while e5 stays defended. A solid, compact set-up that completes development and prepares to castle."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O d6 5.d4 Nd7": {
+    "name": "Ruy Lopez: Closed Berlin Defence, Chigorin Variation",
+    "strategy": "Retreats the knight so that e5 gets another defender and the pawn chain holds without any exchange. The price is a clumsy set-up: the knight blocks the c8-bishop, and White gets the space and the choice of plan."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O d6 5.d4 Bd7 6.Nc3": {
+    "strategy": "Defends e4 against the knight on f6 and brings out another piece, so White can resolve the centre on its own terms. A plain, healthy move that keeps the space advantage and waits for Black to commit."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4": {
+    "strategy": "The main line: strikes at e5 before Black can consolidate the extra pawn, and opens the e-file against a king still in the centre. Black can hardly take on d4, since the rook would pin the knight on e4 to the king, so the knight has to retreat or be supported."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6": {
+    "name": "Ruy Lopez: Berlin Defence, l'Hermet Variation",
+    "strategy": "Retreats the knight to safety and attacks the bishop in the same move. Black gives the extra pawn back for a safe, sound structure, the usual road to a solid game with early exchanges."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Be7": {
+    "name": "Ruy Lopez: Berlin Defence, Rio de Janeiro Variation",
+    "background": "Once common: Emanuel Lasker played it several times, including three games of the 1908 World Championship match, before it declined in popularity.",
+    "strategy": "Prepares castling and avoids the early endgame of the main line, keeping the pieces on. The knight on e4 stays loose, though, so White gains time against it, and the extra pawn has to be returned anyway."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 a6": {
+    "name": "Ruy Lopez: Berlin Defence, Rosenthal Variation",
+    "background": "Johannes Zukertort analysed 5...a6 in an article published in 1883.",
+    "strategy": "Asks the bishop at once, while the knight on e4 still holds the extra pawn. If the bishop retreats, Black reaches a main line of the Ruy Lopez with an active knight; if White takes on c6, Black recaptures with the d-pawn and keeps a sound game."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Be7 6.Qe2": {
+    "strategy": "Attacks the loose knight on e4 and protects the bishop on b5 in one move, so Black has to decide where the knight goes. White is set to regain the pawn and keeps the initiative while Black untangles."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Be7 6.dxe5": {
+    "name": "Ruy Lopez: Berlin Defence, Minckwitz Variation",
+    "strategy": "Regains the pawn at once by capturing on e5, which trades the central tension for a half-open d-file. It gives Black time to castle with an active knight on e4, so White gets a solid, unambitious game rather than an initiative."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Be7 6.Qe2 Nd6": {
+    "strategy": "Retreats the knight with a threat on the bishop. After the exchange on c6 Black has doubled pawns but the two bishops and active pieces, enough compensation for the pawn White regains on e5."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Be7 6.Qe2 d5": {
+    "name": "Ruy Lopez: Berlin Defence, Trifunovic Variation",
+    "strategy": "Backs up the knight on e4 with a pawn, but clears d7 so the bishop pins the knight on c6 to the king. With e5 attacked twice and its only defender pinned, the pawn is in trouble: the centre is overextended."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.Bxc6": {
+    "strategy": "Removes the defender of e5 and forces Black to double the c-pawns, in exchange for the bishop pair. White gets a healthy kingside pawn majority to play for in a long, grinding game, though a drawish one."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.Ba4": {
+    "name": "Ruy Lopez: Open Berlin Defence, Showalter Variation",
+    "strategy": "Retreats the bishop to keep it and avoid the endgame of the main line. The cost is time: Black can advance the e-pawn, gaining space with a tempo against the knight on f3."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.dxe5": {
+    "name": "Ruy Lopez: Open Berlin Defence, l'Hermet Variation",
+    "background": "Colloquially known as the Berlin Draw, because top players have often used it to agree an early draw. Nepomniachtchi forced a quick repetition with it against Nakamura in the 2022 Candidates Tournament, and it was featured in Erigaisi-Gukesh at Wijk aan Zee in 2023.",
+    "strategy": "Captures at once and attacks the knight on d6, but after Black takes the bishop the play can run into a forced repetition. White has no advantage here, so it suits a player who wants a safe half point rather than winning chances."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.Bxc6 dxc6": {
+    "strategy": "Recaptures with the d-pawn, which opens the c8-bishop and the d-file at the price of doubled c-pawns. Black keeps the bishop pair and a solid position, and the exchanges that follow tend toward an endgame that is hard to crack."
   }
 }

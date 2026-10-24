@@ -9,9 +9,11 @@
     "strategy": "Controls e4 and d5 and keeps every pawn at home, so Black can still choose between a classical pawn centre and a fianchetto of his own. Neither side commits yet, and the game stays flexible."
   },
   "1.g3 g6": {
+    "name": "Hungarian Opening: Symmetrical Variation",
     "strategy": "Mirrors White's set-up: the bishop on g7 will bear down on the centre and on b2, and Black can castle quickly. Both sides fight for the centre from a distance with pieces rather than pawns, which usually means a closed, manoeuvring game."
   },
   "1.g3 c5": {
+    "name": "Hungarian Opening: Sicilian Invitation",
     "strategy": "Controls d4 from the flank and gains queenside space while the d- and e-pawns stay flexible. The position is level, but White's bishop on g2 will press along the long diagonal against Black's queenside."
   },
   "1.g3 Nc6": {
@@ -75,5 +77,296 @@
   },
   "1.g3 Nc6 2.Nc3": {
     "strategy": "Develops a knight to fight for e4 and d5 and prepares to build a pawn centre of White's own. The fianchetto of the king's bishop is only delayed, not given up, and White now challenges Black's central claims earlier than usual in a g3 opening."
+  },
+  "1.g3 c5 2.Bg2": {
+    "strategy": "Puts the bishop on the long diagonal, where it presses on the centre, c6 and b7, and clears f1 so White can castle once the knight is out. White commits to nothing else yet and keeps the choice between a restrained set-up and a more direct build-up in the centre. The game stays quiet and manoeuvring."
+  },
+  "1.g3 c5 2.Nf3": {
+    "strategy": "Brings out the king's knight to cover d4 and e5, and clears g1 so that the bishop and castling can follow quickly. With no central pawn yet, White allows Black to take space first and relies on flexible development and later counterplay against that centre. The game is a quiet one of manoeuvring rather than early confrontation."
+  },
+  "1.g3 c5 2.c4": {
+    "strategy": "Meets the c-pawn with the c-pawn and fights for d5, with the bishop on g2 still to come and press on that square. The structure is symmetrical and the game slow, with both sides manoeuvring for control of d4 and d5. With no white knight on f3 yet, Black has an easier time aiming for ...e5."
+  },
+  "1.g3 c5 2.e4": {
+    "strategy": "Occupies the centre at once and transposes into a Sicilian Defence with g3 already played. Black can strike at once with ...d5, since exd5 Qxd5 hits the rook on h1 through the gap on g2, so White usually has to block that diagonal. Sound, but less ambitious than the main lines of the Sicilian."
+  },
+  "1.g3 c5 2.d3": {
+    "strategy": "Prepares e4 and frees the c1 bishop, aiming for a King's Indian Attack set-up. It commits the d-pawn before Black's set-up is known, and Black can take space in the centre. Sound, but Bg2 first keeps more options open."
+  },
+  "1.g3 c5 2.Nc3": {
+    "strategy": "Develops the knight towards d5 and e4 and heads for a Closed Sicilian formation. The knight blocks the c-pawn, so the English plan with c4 is gone, and ...d5 followed by ...d4 gains space with tempo. Sound, but it commits the knight early and sets Black no problems."
+  },
+  "1.g3 c5 2.b3": {
+    "strategy": "Prepares Bb2 to pair with Bg2, so both bishops work on the long diagonals. The set-up is sound but slow: with no central pawn, White lets Black take the centre first."
+  },
+  "1.g3 c5 2.c3": {
+    "strategy": "Prepares d4 to challenge the c5 pawn and builds a solid centre. The pawn takes the natural square of the queen's knight, which must come out via d2, and Black can occupy the centre first. Sound but passive."
+  },
+  "1.g3 c5 2.e3": {
+    "strategy": "Prepares d4 and Ne2 for a compact set-up. The pawn blocks the c1 bishop's diagonal, so the bishop usually has to come out by a fianchetto, and Black can take the centre first. Sound, but slow."
+  },
+  "1.g3 c5 2.f4": {
+    "strategy": "Takes e5 under control and heads for a Dutch Defence set-up with the colours reversed. The pawn slightly loosens White's king position, and Black can take the centre first. Sound, but less flexible than a developing move."
+  },
+  "1.g3 c5 2.d4": {
+    "strategy": "Offers a trade that costs a tempo: after 2...cxd4 3.Qxd4 Nc6 the queen must move again, and Black develops with gain of time. With no knight on f3, only the queen can recapture at once."
+  },
+  "1.g3 c5 2.b4": {
+    "strategy": "Offers the b-pawn to deflect Black's c-pawn, but after 2...cxb4 nothing recovers it quickly. White has no central pawn to show for it, and Black can simply develop."
+  },
+  "1.g3 c5 2.a3": {
+    "strategy": "Prepares b4 to undermine the c5 pawn, but spends a tempo on a rim pawn before any piece or central pawn is out. Black is free to take the centre."
+  },
+  "1.g3 c5 2.a4": {
+    "strategy": "Takes b5 under control, but spends a tempo on the rim with nothing gained for the centre or development. Black is free to take space."
+  },
+  "1.g3 c5 2.f3": {
+    "strategy": "Takes f3 from the king's knight and blocks the long diagonal on which the bishop is meant to work from g2. It prepares e4, but it loosens the king's position further and develops nothing."
+  },
+  "1.g3 c5 2.h3": {
+    "strategy": "Spends a tempo on a rim pawn that guards g4 but neither fights for the centre nor develops a piece. Black is free to take space."
+  },
+  "1.g3 c5 2.h4": {
+    "strategy": "Spends a second move on the kingside pawns with no target, since Black has not fianchettoed. It leaves the g3 pawn guarded only by f2 and does nothing for the centre."
+  },
+  "1.g3 c5 2.Bh3": {
+    "strategy": "Leaves the long diagonal for h3, where the bishop attacks only the guarded d7 pawn. After ...d5 the c8 bishop opposes it, so White must trade bishops, retreat, or allow ...Bxh3 Nxh3 with a knight on the rim."
+  },
+  "1.g3 c5 2.Nh3": {
+    "strategy": "Heads for f4, which the g3 pawn covers, but the knight stands on the rim instead of f3, and on f4 it can be challenged by ...e5. Black is free to take space."
+  },
+  "1.g3 c5 2.Na3": {
+    "strategy": "Heads for c4 or b5, but a knight on the rim covers no central square and can be harried by ...d5 and ...b5 once it reaches c4. Nc3 would develop the same knight towards the centre."
+  },
+  "1.g3 c5 2.g4": {
+    "strategy": "Loosens the kingside for good. The pawn on g4 is unprotected, since the e2 pawn blocks the queen's defence, and after ...d5 or ...d6 the c8 bishop attacks it, as does ...h5, so White must weaken further with a pawn move."
+  },
+  "1.g3 c5 2.Bg2 Nc6": {
+    "strategy": "Develops a knight toward the centre, adds pressure on d4 and blocks the long diagonal of White's bishop, so the a8-rook is no longer in danger once the b-pawn moves. Nothing is conceded and every set-up stays open, from a symmetrical fianchetto to a flexible central build-up."
+  },
+  "1.g3 c5 2.Bg2 Nf6": {
+    "strategy": "Develops the knight toward the centre, eyeing e4 and d5, and keeps the choice between a fianchetto and a pawn in the centre open. Black commits to nothing yet and gets ordinary, comfortable development."
+  },
+  "1.g3 c5 2.Bg2 d5": {
+    "strategy": "Takes the centre at once and shuts the long diagonal of White's bishop. The pawn is attacked by that bishop and defended only by the queen, so it needs support, and Black must develop without loosening the centre. In return it claims space and sets the agenda early."
+  },
+  "1.g3 c5 2.Bg2 g6": {
+    "strategy": "Mirrors White's set-up: the bishop on g7 will take the long diagonal toward b2 and c3. It concedes nothing but offers little to unbalance the game, so Black plays for a slow strategic fight in a symmetrical structure."
+  },
+  "1.g3 c5 2.Bg2 d6": {
+    "strategy": "Opens the c8-bishop and prepares a solid Sicilian-style set-up. It claims less of the centre than ...d5, which would now cost a second tempo, and leaves White free to develop at ease."
+  },
+  "1.g3 c5 2.Bg2 e6": {
+    "strategy": "Opens the f8-bishop and prepares ...d5 backed by a pawn. Once ...d5 is in, the e6-pawn shuts in the c8-bishop, and White meanwhile develops at leisure."
+  },
+  "1.g3 c5 2.Bg2 e5": {
+    "strategy": "Takes the centre with pawns on c5 and e5, controlling d4 and f4. Neither pawn can cover d5 any more, so the square is a lasting hole that White can aim a knight at."
+  },
+  "1.g3 c5 2.Bg2 f5": {
+    "strategy": "Claims e4 and prepares to fianchetto the king's bishop behind the f-pawn. It loosens e6 and the a2-g8 diagonal and delays development, while White develops freely and prepares e4."
+  },
+  "1.g3 c5 2.Bg2 Na6": {
+    "strategy": "Heads for b4 or c7 from the rim, which costs time and leaves the g2-a8 diagonal unblocked, so ...b6 and ...b5 still lose the rook. A central square develops the knight with more effect."
+  },
+  "1.g3 c5 2.Bg2 Qc7": {
+    "strategy": "Brings the queen out before any minor piece. White develops with gain of time, since a knight on b5 or d5 hits the queen on c7."
+  },
+  "1.g3 c5 2.Bg2 Qb6": {
+    "strategy": "Eyes b2, which Bc1 guards, so there is no real threat. The queen is out early and White's knight drives it back with gain of time."
+  },
+  "1.g3 c5 2.Bg2 Qa5": {
+    "strategy": "Brings the queen out before any minor piece and only pins the d2-pawn, a pin that Nc3 or c3 ends at once. The queen on a5 later becomes a target for a white knight arriving on b3 or c4, so the move costs time."
+  },
+  "1.g3 c5 2.Bg2 Nh6": {
+    "strategy": "Puts the knight on the rim, where it controls neither e4 nor d5. Once d3 opens the c1-bishop, Bxh6 gxh6 can wreck Black's kingside pawns."
+  },
+  "1.g3 c5 2.Bg2 a6": {
+    "strategy": "Prepares ...b5, but that hangs the a8-rook to Bxa8 as long as the long diagonal is open, so Black first has to block it. The move spends a tempo on the flank while White develops at ease."
+  },
+  "1.g3 c5 2.Bg2 a5": {
+    "strategy": "Takes queenside space but develops nothing and weakens b5 for a white knight arriving via Nc3. White develops unhindered."
+  },
+  "1.g3 c5 2.Bg2 f6": {
+    "strategy": "Prepares ...e5 but takes the f6-square from the king's knight, weakens e6 and the e8-h5 diagonal, and develops nothing."
+  },
+  "1.g3 c5 2.Bg2 g5": {
+    "strategy": "Weakens the kingside and opens the a1-h8 diagonal. After 3.d4 the c1-bishop eyes the loose g5-pawn, and 3...cxd4 4.Qxd4 also hits the h8-rook, so Black has to block the diagonal and the g5-pawn stays a target."
+  },
+  "1.g3 c5 2.Bg2 h6": {
+    "strategy": "A waiting move that develops nothing and does not touch the centre. White gains a tempo for development; the pawn on h6 only takes g5 from a white bishop or knight."
+  },
+  "1.g3 c5 2.Bg2 h5": {
+    "strategy": "Aims for ...h4 against the g3-pawn but develops nothing and weakens g5 and g6. White can close the flank with h4 and carry on developing."
+  },
+  "1.g3 c5 2.Bg2 c4": {
+    "strategy": "Gains space, but the pawn is undermined at once by b3 or d3 and cannot be backed up by ...b5, which hangs the a8-rook. After the exchange Black has spent two moves on the c-pawn and White's pieces get open lines."
+  },
+  "1.g3 c5 2.Bg2 b6": {
+    "strategy": "Hangs the rook: with the b7-pawn gone the long diagonal is open, and 3.Bxa8 wins the a8-rook because the queen cannot recapture past the c8-bishop and the b8-knight."
+  },
+  "1.g3 c5 2.Bg2 b5": {
+    "strategy": "Hangs the rook: the b-pawn no longer blocks the long diagonal, and 3.Bxa8 wins the a8-rook because the queen cannot recapture past the c8-bishop and the b8-knight. The pawn on b5 wins nothing back."
+  },
+  "1.g3 f5 2.e4 fxe4": {
+    "strategy": "Takes the offered pawn and keeps it for now. The pawn on e4 needs support, and the open e8-h5 diagonal means Black must develop with care."
+  },
+  "1.g3 f5 2.e4 fxe4 3.Qh5+": {
+    "strategy": "Checks at once, but the only reply, ...g6, blocks the check and attacks the queen, so White loses a tempo while still a pawn down and with only the queen developed. The raid wins nothing and gives Black a natural pawn move for free."
+  },
+  "1.g3 f5 2.e4 fxe4 3.Qh5+ g6": {
+    "name": "Hungarian Opening: Pachman Gambit",
+    "strategy": "The only legal reply: the pawn blocks the check and attacks the queen, so White has to spend another tempo and Black keeps the extra pawn. The price is a weakened dark-square complex around the king, but with the queen on the retreat Black has little to fear."
+  },
+  "1.g3 g6 2.Bg2": {
+    "strategy": "Completes the fianchetto: the bishop on the long diagonal presses on b7 and on the centre from a distance. White keeps the pawn set-up flexible, but leaves Black free to claim the centre first."
+  },
+  "1.g3 g6 2.c4": {
+    "strategy": "Claims queenside space and controls d5, reaching an English Opening with an early g3. The pawn occupies no central square, so Black develops naturally and claims a share of the centre."
+  },
+  "1.g3 g6 2.Nf3": {
+    "strategy": "Develops the knight, guarding d4 and e5, and leaves the pawn set-up undecided. Black develops freely and can take central space before White has chosen."
+  },
+  "1.g3 g6 2.b3": {
+    "strategy": "Prepares Bb2 to contest the long diagonal, but 2...Bg7 hits the rook on a1 through the empty b2 square, and 3.Bb2 Bxb2 loses a piece, since nothing guards b2. White must first block the diagonal, so the double fianchetto costs an extra move and loosens the queenside."
+  },
+  "1.g3 g6 2.c3": {
+    "strategy": "Prepares d4 with pawn support and blocks the long diagonal in advance of ...Bg7. It develops no piece and takes c3 from the queen's knight, while Black develops freely and takes the centre. The move is sound but passive."
+  },
+  "1.g3 g6 2.d3": {
+    "strategy": "Supports a later e4, opens the c1-bishop and prepares a compact set-up with a kingside fianchetto, Nf3 and castling. It is sound but slow, since it takes no central space and lets Black develop and claim the centre."
+  },
+  "1.g3 g6 2.d4": {
+    "strategy": "Takes the centre at once and reaches the same position as opening with 1.d4 and playing g3 second. It is sound but gives up the flexibility of 1.g3, and Black hits the centre at once."
+  },
+  "1.g3 g6 2.e3": {
+    "strategy": "Prepares a compact kingside set-up while keeping d4 available. It is solid but slow: the e3-pawn shuts in the c1-bishop, and Black develops freely and takes the centre."
+  },
+  "1.g3 g6 2.e4": {
+    "strategy": "Occupies the centre at once and reaches the same position as opening with 1.e4 and playing g3 second. Bg2 then backs the pawn along the long diagonal, and a compact set-up with d3, Nf3 and castling follows. Nothing guards e4 yet, so Black can strike at it with ...d5, when 3.exd5 Qxd5 hits the rook on h1, or build calmly."
+  },
+  "1.g3 g6 2.f4": {
+    "strategy": "Takes control of e5 and prepares to develop the kingside with a fianchetto and castling. The pawn weakens e4 and opens the g1-a7 diagonal before the king is safe, so Black develops and aims at the centre."
+  },
+  "1.g3 g6 2.Nc3": {
+    "strategy": "Develops the queen's knight and covers d5 and e4, aiming for a kingside set-up with a fianchetto. The knight blocks the c-pawn, so c4 has to wait, and Black can develop and take the centre. The move is sound, but it commits the knight before White has chosen a pawn set-up."
+  },
+  "1.g3 g6 2.a3": {
+    "strategy": "Spends a tempo on a rim pawn to prepare b4 and does nothing for the centre or development. Black develops and takes space in the centre while White has yet to develop a piece."
+  },
+  "1.g3 g6 2.a4": {
+    "strategy": "Gains queenside space and takes b5 from Black, but loosens b4 and the b3 square and leaves the centre untouched. Black develops and builds in the centre at leisure."
+  },
+  "1.g3 g6 2.b4": {
+    "strategy": "Grabs queenside space but leaves b2 empty, so 2...Bg7 attacks the rook on a1 at once and 3.Bb2 Bxb2 loses a piece. White must spend a move blocking the diagonal, and the b4-pawn becomes a target for ...a5."
+  },
+  "1.g3 g6 2.f3": {
+    "strategy": "Blocks the long diagonal of the bishop meant for g2 and takes f3 from the king's knight. It also opens the g1-a7 diagonal towards White's king and does nothing for the centre, so Black develops and takes the centre."
+  },
+  "1.g3 g6 2.h3": {
+    "strategy": "Takes g4 from Black's bishop and knight but spends a tempo on a rim pawn that adds nothing to White's position. Black develops and takes the centre first."
+  },
+  "1.g3 g6 2.h4": {
+    "strategy": "Prepares h5 against the g6-pawn, but Black can stop it with ...h5 or simply develop and take the centre. The advance leaves the g3-pawn guarded only by f2 and develops nothing."
+  },
+  "1.g3 g6 2.Na3": {
+    "strategy": "Develops the knight to the rim, where it eyes b5 and c4 but blocks the a-pawn and guards nothing in the centre. Black takes the centre with ...d5, which also covers c4, and develops freely while the knight needs more moves to find a post."
+  },
+  "1.g3 g6 2.Bh3": {
+    "strategy": "Puts the bishop on h3, where it attacks only the guarded d7-pawn, instead of on the long diagonal. After ...d5 the c8-bishop opposes it, so the bishops come off or White spends another move returning to the long diagonal, while Black develops."
+  },
+  "1.g3 g6 2.Nh3": {
+    "strategy": "Heads for f4 or g5, but the knight stands on the rim, away from the centre, instead of on f3. Black develops and takes the centre, and ...e5 also takes f4 from the knight."
+  },
+  "1.g3 g6 2.g4": {
+    "strategy": "Moves the g-pawn a second time, loosens the kingside for good and leaves the pawn on g4 unguarded. After ...d5 or ...d6 the c8-bishop attacks it, as does ...h5, and White must spend further moves just to keep it."
+  },
+  "1.g3 g6 2.Bg2 Bg7": {
+    "strategy": "Completes the fianchetto: the bishop looks down the long diagonal at c3 and b2, and Black mirrors White's set-up. Neither side has a pawn in the centre yet, so the game stays flexible and whoever commits first shows their plan."
+  },
+  "1.g3 g6 2.Bg2 Nf6": {
+    "strategy": "Develops the knight to its natural square, where it covers d5 and e4. Black keeps every set-up open, and the centre stays unoccupied for both sides."
+  },
+  "1.g3 g6 2.Bg2 d5": {
+    "strategy": "Takes the centre at once and gains space, but the bishop on g2 already bears on d5, so Black has to keep the pawn supported."
+  },
+  "1.g3 g6 2.Bg2 c5": {
+    "strategy": "Fights for d4 and gains queenside space, the mirror of White's own set-up. The cost is a centre left to White: if d4 is met by ...cxd4, Qxd4 hits the h8-rook along the open long diagonal until Black blocks it."
+  },
+  "1.g3 g6 2.Bg2 e5": {
+    "strategy": "Takes a share of the centre at once, with the kingside fianchetto behind it. The pawn is committed before any piece is out: Nf3 attacks it immediately, and after d4 exd4 Qxd4 the queen hits the h8-rook along the open diagonal."
+  },
+  "1.g3 g6 2.Bg2 Nc6": {
+    "strategy": "Develops the knight, eyes d4 and e5 and blocks the long diagonal of Bg2 at c6. The knight takes the square of the c-pawn, though, so ...c5 and ...c6 are off the table, and White can take space in the centre before Black has chosen a structure."
+  },
+  "1.g3 g6 2.Bg2 d6": {
+    "strategy": "Frees the c8-bishop and heads for a Modern or King's Indian set-up. The centre is left to White for now, who can take space with the bishop on g2 already developed."
+  },
+  "1.g3 g6 2.Bg2 c6": {
+    "strategy": "Prepares ...d5 with a pawn behind it and blocks the long diagonal of Bg2 at c6, so a later ...b6 or ...b5 no longer drops the a8-rook. The centre is left to White for now, and the c-pawn is committed before the centre has taken shape."
+  },
+  "1.g3 g6 2.Bg2 e6": {
+    "strategy": "Prepares ...d5 in a compact set-up. The e6-pawn shuts in the c8-bishop, which can come out only via d7 or, after ...b6, via b7, and ...b6 must wait until ...d5 or ...c6 has closed the long diagonal."
+  },
+  "1.g3 g6 2.Bg2 f5": {
+    "strategy": "Takes control of e4 and builds the pawn structure of the Leningrad Dutch. The set-up is double-edged: it loosens e6 and the king's cover, and White can develop freely."
+  },
+  "1.g3 g6 2.Bg2 Na6": {
+    "strategy": "Puts the knight on the rim, where it eyes b4 and c5 but covers no central square. White uses the time to develop and take the centre."
+  },
+  "1.g3 g6 2.Bg2 Nh6": {
+    "strategy": "Sends the knight via the rim towards f5, where a pawn on e4 would chase it away; from h6 it covers no central square. White simply develops and takes the centre."
+  },
+  "1.g3 g6 2.Bg2 Bh6": {
+    "strategy": "Puts the bishop on h6 instead of g7, where the d2-pawn stops it and it takes no part in the fight for the long diagonal. Once d3 or d4 opens the c1-h6 diagonal, Black must either allow the trade of dark-squared bishops, leaving the squares weakened by ...g6 without their defender, or spend another move on ...Bg7."
+  },
+  "1.g3 g6 2.Bg2 a6": {
+    "strategy": "Spends a tempo on a rim pawn that prepares ...b5, but that advance would drop the a8-rook to Bxa8 as long as the long diagonal stays open. White just develops and takes the centre."
+  },
+  "1.g3 g6 2.Bg2 a5": {
+    "strategy": "Gains queenside space and takes b4 from White's pieces, but develops nothing. White can develop and take the centre with a free hand."
+  },
+  "1.g3 g6 2.Bg2 f6": {
+    "strategy": "Prepares ...e5, but blocks the long diagonal in front of the future g7-bishop, takes f6 from the king's knight and opens the a2-g8 diagonal towards the king's castling square. White develops while Black has nothing out."
+  },
+  "1.g3 g6 2.Bg2 h6": {
+    "strategy": "Spends a tempo on a rim pawn that only takes g5 from White's pieces and brings Black no closer to developing. White just develops and takes the centre."
+  },
+  "1.g3 g6 2.Bg2 h5": {
+    "strategy": "Gains kingside space and prepares ...h4 to attack g3, but develops nothing. White can stop the advance at once with h4."
+  },
+  "1.g3 g6 2.Bg2 g5": {
+    "strategy": "Moves the g-pawn a second time and leaves it unguarded on g5: once d3 or d4 opens the c1-bishop, Bxg5 is threatened, and Black must spend another move defending it. The kingside stays loosened for good."
+  },
+  "1.g3 g6 2.Bg2 b6": {
+    "strategy": "Hangs the rook: with the b-pawn gone from b7, the long diagonal is open to a8, and 3.Bxa8 takes the rook, since neither the c8-bishop nor the queen can recapture. Even if the bishop is later trapped in the corner, White stays at least an exchange up."
+  },
+  "1.g3 g6 2.Bg2 b5": {
+    "strategy": "Opens the long diagonal to a8: 3.Bxa8 takes the rook, and no black piece can recapture there. White stays at least an exchange up even if the bishop is later trapped, and the queenside space is no compensation."
+  },
+  "1.g3 h5 2.Nf3 h4": {
+    "name": "Hungarian Opening: Van Kuijk Gambit",
+    "strategy": "Offers the h-pawn to open the h-file for the rook. White simply takes it with the knight, which the g3 pawn protects, so the rook has nothing to hit and Black has given up a pawn and time for very little."
+  },
+  "1.g3 Nc6 2.Nc3 d5": {
+    "strategy": "Claims the centre at once. The pawn is guarded by the queen, so the c3 knight cannot win it, and Black invites White to challenge it while the c6 knight already eyes d4 and e5."
+  },
+  "1.g3 Nc6 2.Nc3 d5 3.d4": {
+    "strategy": "Takes space in the centre and stops Black's d-pawn from advancing to d4, where it would drive the knight from c3. Unusual for a g3 opening, it gives the game an open, classical character, and the pawn will be challenged at once."
+  },
+  "1.g3 Nc6 2.Nc3 d5 3.d4 e5": {
+    "strategy": "Attacks d4 a second time, since the knight and the pawn both aim at it while only the queen guards it, so White must react. Black offers the e-pawn for open lines and a chance to gain time against the knight on c3: sharp, but a pawn is at stake."
+  },
+  "1.g3 Nc6 2.Nc3 d5 3.d4 e5 4.dxe5": {
+    "strategy": "Takes the pawn rather than keep d4 under double attack. White gains material, but the pawn on e5 is attacked by the c6 knight and is not defended, and the c3 knight can be harassed, so the extra pawn has to be earned."
+  },
+  "1.g3 Nc6 2.Nc3 d5 3.d4 e5 4.dxe5 d4": {
+    "strategy": "Pushes the pawn with tempo against the knight on c3 while the c6 knight keeps attacking e5. The d4 pawn is guarded by knight and queen, cramps White's centre, and Black either wins the pawn back or gains space and time."
+  },
+  "1.g3 Nc6 2.Nc3 d5 3.d4 e5 4.dxe5 d4 5.Ne4": {
+    "strategy": "Moves the knight out of the pawn's attack to a strong central square, where it eyes d6, f6 and c5. It does not defend e5, so the game turns on whether White's extra pawn survives while the kingside pieces are still at home."
+  },
+  "1.g3 Nc6 2.Nc3 d5 3.d4 e5 4.dxe5 d4 5.Ne4 f5": {
+    "name": "Hungarian Opening: Asten Gambit",
+    "strategy": "Kicks the knight with a pawn that White may take en passant. This is a second pawn sacrifice for open lines and a lead in development, and it only pays off if the attack comes before White's extra material tells."
   }
 }

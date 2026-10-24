@@ -14,9 +14,11 @@
     "strategy": "Defends d4 against the knight on c6 and develops, but spends the move on defence instead of increasing the pressure on d5. A sound, calm choice that keeps White's centre intact, though Black can build up active play while White is still catching up in the centre."
   },
   "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5": {
+    "name": "Queen's Gambit Declined: Chigorin Defence, Exchange Variation",
     "strategy": "The natural recapture: the queen takes the pawn that was attacking the c6 knight and stands in the centre at once, where it adds to the pressure on d4. Black has no central pawn left, so the plan is quick development, with the queen exposed to a tempo-gaining knight move."
   },
   "1.d4 d5 2.c4 Nc6 3.Nc3 dxc4": {
+    "name": "Queen's Gambit Declined: Chigorin Defence",
     "strategy": "Takes the pawn and attacks d4 a second time, so White has to react at once. Black gives up the central pawn on d5 and relies on piece pressure against White's centre, trying to hold the extra pawn only as long as it serves that plan."
   },
   "1.d4 d5 2.c4 Nc6 3.Nc3 e6": {
@@ -27,10 +29,47 @@
     "name": "Queen's Gambit Declined: Chigorin Defence, Tartakower Gambit"
   },
   "1.d4 d5 2.c4 Nc6 3.Nf3 Bg4": {
+    "name": "Queen's Gambit Declined: Chigorin Defence, Main Line",
     "strategy": "Develops the bishop outside the pawn chain before ...e6 can shut it in, with an attack on the knight that guards d4 and e5. Together with the knight on c6 it keeps the pressure on d4, so White has to decide at once how to meet it."
   },
   "1.d4 d5 2.c4 Nc6 3.Nf3 e5": {
     "strategy": "A gambit that offers the e-pawn at once to open the position for the pieces and attack d4. White can accept and keep the pawn, so Black must show that the lead in development and open lines are worth a pawn. A risky practical try.",
     "name": "Queen's Gambit Declined: Chigorin Defence, Lazard Gambit"
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3": {
+    "strategy": "Shores up d4, which the queen and the c6 knight both attack, and opens the diagonal of the king's bishop. The price is a bishop on c1 that stays shut in behind its own pawn for now."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5": {
+    "strategy": "Hits d4 a third time and opens the diagonal of the bishop on f8. Black has no pawn left on d5 and plays for piece activity instead: the queen and the knight bear on White's centre, and White has to keep guarding d4 while finishing development."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3": {
+    "strategy": "Develops with a gain of time on the queen and brings a second piece towards the fight for the centre. The knight can be pinned against the king in reply, so White does not win the tempo it appears to win, and Black keeps its active set-up."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4": {
+    "strategy": "Pins the knight against the king, so it cannot actually take the queen and the queen stays on d5 undisturbed. Black develops with a threat and keeps up the pressure on d4: White has to deal with the pin before it can get its own pieces going."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4 6.Bd2": {
+    "strategy": "Breaks the pin and finally develops the bishop that e3 had shut in, which also guards the knight a second time. White is ready to answer ...Bxc3 with a recapture that keeps the two bishops, and heads for solid development against Black's active pieces."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4 6.Bd2 Bxc3": {
+    "strategy": "Trades the bishop for the knight, the piece that was hitting the queen, and so settles the pin on Black's terms. Black gives up the bishop pair and White can recapture in two ways, but Black keeps the lead in piece activity and the pressure on d4."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 dxc4 4.Nf3": {
+    "name": "Queen's Gambit Declined: Chigorin Defence, Janowski Variation",
+    "strategy": "Defends d4 against the queen and knight and develops with the aim of winning back the c4 pawn. White lets Black keep the pawn for the moment and builds a broad centre of its own, so Black has to play actively to justify giving up the d5 pawn."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 dxc4 4.Nf3 Nf6": {
+    "name": "Queen's Gambit Declined: Chigorin Defence, Modern Gambit",
+    "strategy": "A natural developing move that does not try to hold the pawn on c4. Black lets White take a broad centre and win the pawn back, betting on piece pressure against that centre, with the knight eyeing e4 and d5."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 e6 4.Nf3": {
+    "strategy": "Develops and guards d4 against the knight on c6, so White simply continues development and keeps its central pawns intact. Black has played a solid move that does not solve the problem of the awkward knight on c6."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 e6 4.Nf3 Nf6": {
+    "strategy": "Brings the king's knight to its natural square and guards e4, reaching the set-up of a declined gambit with the queen's knight already on c6. Sound and natural, but that knight blocks the c-pawn, so Black has less than the usual counterplay in the centre."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nf3 Bg4 4.Qa4": {
+    "name": "Queen's Gambit Declined: Chigorin Defence, Main Line, Alekhine Variation",
+    "strategy": "Pins the c6 knight against the king, which takes the piece that attacked d4 out of play, and guards the c4 pawn. The queen leaves d1 and stands exposed, but Black has to untangle the pin before the pressure on d4 can resume."
   }
 }

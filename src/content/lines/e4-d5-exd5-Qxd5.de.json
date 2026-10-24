@@ -7,12 +7,119 @@
     "strategy": "Entwickelt mit Tempo: Der Springer greift die Dame an, sodass Schwarz für den frühen Schlagzug noch einen weiteren Zug braucht, um ihr ein sicheres Feld zu geben. Weiß liegt in der Entwicklung vorn und kann nach dem Damenzug mit einem Bauernvorstoß das Zentrum beanspruchen, während Schwarz dafür offenes Spiel mit leichtem Figurenspiel bekommt."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5": {
+    "name": "Skandinavische Verteidigung: Hauptvariante",
     "strategy": "Die Dame zieht auf ein Feld, auf dem keine Figur sie sofort angreifen kann; von dort zielt sie auf e5 und kann nach b6 gehen, um den Bauern b2 anzugreifen. Sobald der d-Bauer gezogen ist, fesselt sie außerdem den Springer c3 gegen den König. Schwarz nimmt eine zweimal gezogene Dame in Kauf und erhält dafür eine gesunde Struktur und eine ruhige, einfache Entwicklung."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6": {
+    "name": "Skandinavische Verteidigung: Gubinsky-Melts-Verteidigung",
+    "background": "Auch bekannt als Pytel-Variante, nach Krzysztof und Bożena Pytel. Lange galt sie als minderwertig, seit Mitte der 1990er Jahre wird sie auf hohem Niveau oft gespielt, und Michael Melts behandelte sie 2001 ausführlich in einem Buch.",
     "strategy": "Hält die Dame im Zentrum, aktiv und bereit, die Entwicklung zu unterstützen, aber auf einem exponierten Feld: Sb5 oder ein Läufer auf f4 greift sie nach dem d-Bauernzug mit Tempo an. Schwarz muss b5 mit einem Bauernzug nehmen; dafür kontrolliert die Dame das Zentrum, und das Spiel bleibt lebhaft."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8": {
+    "name": "Skandinavische Verteidigung: Valencianische Variante",
+    "background": "3...Dd8 ist der Zug, der im Gedicht „Scachs d'amor“ dargestellt ist, und 2023 schlugen Sergi Núñez de Arenas und Francisco Rubio dafür den Namen Valencia-Variante vor. Vor dem zwanzigsten Jahrhundert galt sie oft als Hauptvariante, und Staunton nannte sie „best“. Sie erlebte in den 1960er Jahren eine Wiederbelebung, nachdem Bronstein sie 1959 gegen Fuderer gespielt hatte.",
     "strategy": "Zieht auf das Ausgangsfeld zurück: Die Dame steht völlig sicher und die Struktur von Schwarz bleibt gesund, doch zwei Damenzüge haben Zeit gekostet, während Weiß sich weiter entwickelt. Das Spiel ist ruhig und etwas passiv, mit einer soliden schwarzen Stellung ohne Schwächen und freier Hand für Weiß im Zentrum."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4": {
+    "strategy": "Besetzt sofort das Zentrum und öffnet den Läufer c1. Der Preis ist eine Fesselung: Die Dame auf a5 hält den Springer c3 gegen den König fest, bis der Läufer auf d2 deckt. Weiß erhält Raum und einen Entwicklungsvorsprung und spielt auf ein breites Zentrum gegen eine kompakte schwarze Stellung."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.b4": {
+    "name": "Skandinavische Verteidigung: Hauptvariante, Leonhardt-Gambit",
+    "background": "Die Ausgabe von 1946 von „Modern Chess Openings“ schrieb den Zug Jan Kotrč zu, obwohl es keinen Beleg dafür gibt, dass er ihn je gespielt hat; spätere Ausgaben nannten ihn Kotrč-Mieses-Gambit. Er heißt auch Leonhardt-Gambit, nach Paul Saladin Leonhardt, der ihn in einer Partie gegen Jacques Mieses ins Meisterspiel brachte. Lasker, Capablanca und Keres probierten ihn alle als Weiß aus.",
+    "strategy": "Ein Bauernopfer, um die Dame von a5 zu vertreiben: Nimmt Schwarz an, bekommt Weiß die halboffene b-Linie und schnelle Entwicklung, zum Beispiel mit Tb1, das die Dame sofort angreift. Bei korrektem Spiel behält Schwarz den Mehrbauern ohne Gefahr, sodass das Gambit nur gegen einen unvorbereiteten Gegner funktioniert."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6": {
+    "name": "Skandinavische Verteidigung: Hauptvariante, Mieses-Variante",
+    "strategy": "Der natürliche Entwicklungszug: Der Springer zielt auf d5 und e4 und bereitet die Rochade vor, während die Dame die Fesselung des Springers c3 aufrechterhält. Schwarz strebt eine kompakte Bauernstruktur an, mit dem weißfeldrigen Läufer außerhalb davon, und überlässt Weiß gern den Raum."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5": {
+    "name": "Skandinavische Verteidigung: Anderssen-Gegenangriff",
+    "strategy": "Ein Gegenschlag im Zentrum, der einen Bauern anbietet, in der Hoffnung, dass der gefesselte Springer c3 und ein Entwicklungsvorsprung genug Spiel geben. Der Zug ist zweischneidig und abseitig: Weiß kann den Bauern nehmen oder die Spannung halten und sich entwickeln, sodass Schwarz genaues Folgespiel braucht, um die Investition zu rechtfertigen."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Nf3": {
+    "name": "Skandinavische Verteidigung: Anderssen-Gegenangriff, Göteborg-System",
+    "strategy": "Entwickelt und greift e5 ein zweites Mal an, ohne sich auf ein Schlagen festzulegen: Die Spannung bleibt, der Springer deckt d4, und Weiß entscheidet, wann er sie auflöst. Schwarz muss den Bauern e5 gedeckt halten, solange die Dame den Springer c3 noch fesselt."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5": {
+    "strategy": "Nimmt den angebotenen Bauern: Weiß steht einen Bauern vorn, doch der Bauer e5 ist exponiert und der Springer c3 gefesselt, sodass Schwarz als Kompensation schnelle Entwicklung erhält. Die Aufgabe von Weiß ist es, den Mehrbauern zu konsolidieren, ohne in der Entwicklung zurückzufallen."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Nc6": {
+    "strategy": "Greift den Bauern e5 sofort an und entwickelt dabei eine Figur, sodass Weiß den Mehrbauern nicht einfach genießen kann. Der Entwicklungsvorsprung ist die Kompensation von Schwarz, und jeder Zug, den Weiß zur Verteidigung des Bauern braucht, muss auch den gefesselten Springer berücksichtigen."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Nf3 Bg4": {
+    "name": "Skandinavische Verteidigung: Anderssen-Gegenangriff, Collijn-Variante",
+    "strategy": "Entwickelt mit Fesselung: Der Läufer bindet den Springer f3 an die Dame und droht, ihn abzutauschen, womit die Figur verschwindet, die d4 deckt und e5 im Blick hat. Schwarz gewinnt Zeit für die Entwicklung gegen das Zentrum von Weiß."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Nc6 6.Nf3": {
+    "strategy": "Verteidigt den Bauern e5 und entwickelt, der natürlichste Weg, das Mehrmaterial zu behalten. Der Springer c3 bleibt vorerst gefesselt, sodass Weiß die Entwicklung sorgfältig beenden muss, während die Figuren von Schwarz auf ihn zielen."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Nc6 6.Nf3 Bb4": {
+    "strategy": "Fesselt den Springer c3 erneut, diesmal mit dem Läufer, den die Dame von hinten unterstützt, und droht, den Springer zu schlagen und Weiß Doppelbauern zu machen. Schwarz behält die Initiative und baut Druck auf, statt den Bauern hastig zurückzugewinnen."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3": {
+    "strategy": "Entwickelt mit dem natürlichen Plan: Der Springer deckt d4, kontrolliert e5 und bereitet die Rochade vor. Weiß behält den Raumvorteil und kann die Entwicklung in Ruhe abschließen, während Schwarz noch zeigen muss, dass sich der frühe Damenausflug gelohnt hat."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bf5": {
+    "name": "Skandinavische Verteidigung: Klassische Variante",
+    "strategy": "Entwickelt den Läufer außerhalb der Bauernkette, bevor ein Bauer auf e6 ihn einsperren kann; er zielt auf c2 und den Königsflügel. Schwarz bleibt solide und flexibel, muss der Dame aber noch ein sicheres Feld finden, sobald Weiß mit Tempo weiterentwickelt."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bg4": {
+    "strategy": "Entwickelt den Läufer mit Fesselung des Springers f3 gegen die Dame und bereitet den Abtausch vor. Weiß kann dem Läufer sofort die Frage stellen, und Schwarz muss entscheiden, ob er tauscht oder sich zurückzieht."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bf5 6.Ne5": {
+    "strategy": "Zentralisiert den Springer auf einem vom d-Bauern gestützten Vorposten, von dem aus er f7 und d7 im Blick hat und die Entwicklung von Schwarz einengt. Weiß spielt auf Raum und aktive Figuren, sodass Schwarz den Springer herausfordern muss, statt sich nur zu entwickeln."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bf5 6.Ne5 c6": {
+    "strategy": "Macht c7 als Rückzugsfeld für die Dame frei und nimmt dem Springer c3 die Felder b5 und d5, sodass er nicht mit Tempo gegen die Dame springen kann. Schwarz erhält ein solides Zentrum, und die Dame ist kein Angriffsziel mehr."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bg4 6.h3": {
+    "name": "Skandinavische Verteidigung: Lasker-Variante",
+    "strategy": "Fordert den Läufer auf, sich sofort zu entscheiden. Tauscht Schwarz auf f3, schlägt Weiß zurück und hat das Läuferpaar; zieht sich der Läufer zurück, hat Weiß am Königsflügel Raum gewonnen und kann ihn weiter jagen."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4": {
+    "strategy": "Besetzt sofort das Zentrum, mit Blick auf den exponierten Standort der Dame: Der Bauer öffnet den Läufer c1, sodass Lf4 jetzt die Dame angreift, und Sb5 tut es schon. Schwarz muss beide Ideen beantworten, während Weiß ein Zentrum und aktive Entwicklung bekommt."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6": {
+    "strategy": "Entwickelt eine Figur und übernimmt die Kontrolle über e4 und d5, wobei die exponierte Dame vorerst ignoriert wird. Schwarz behält eine flexible Struktur, muss aber auf Sb5 gefasst sein, sodass die Sicherheit der Dame die Frage der Eröffnung bleibt."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 c6": {
+    "name": "Skandinavische Verteidigung: Schiller-Pytel-Variante",
+    "strategy": "Nimmt dem Springer c3 das Feld b5 und stützt d5, womit die Belästigung der Dame durch Sb5 endet. Schwarz spielt auf eine solide Bauernstruktur und langsamere Entwicklung, während die Dame weiterhin auf einen Läufer auf f4 achten muss."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Nf3": {
+    "strategy": "Der übliche Entwicklungszug: Der Springer deckt d4 und kontrolliert e5, und Weiß behält alle Ideen zur Belästigung der Dame in der Hand. Weiß hat den Raum und eine bequeme Partie, und Schwarz muss die exponierte Dame weiter rechtfertigen."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Bc4": {
+    "strategy": "Entwickelt den Läufer aktiv: Er zielt auf f7 und kontrolliert d5 und e6, was die natürliche Entwicklung von Schwarz einengt. Weiß baut einen Entwicklungsvorsprung auf, während die Dame auf d6 ein Ziel für Tempozüge bleibt."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Bc4 c6": {
+    "strategy": "Nimmt den Figuren von Weiß die Felder b5 und d5, womit die Belästigung der Dame durch Sb5 endet und ihr c7 als Rückzugsfeld bleibt. Schwarz baut eine solide Bauernstruktur auf und steht bequem gegen den Läufer auf c4."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Nf3 a6": {
+    "name": "Skandinavische Verteidigung: Bronstein-Variante",
+    "strategy": "Nimmt dem Springer von Weiß das Feld b5 mit einem Randbauern, sodass der c-Bauer für den Kampf ums Zentrum frei bleibt. Der Preis ist ein Tempo für einen Bauernzug statt für die Entwicklung, und die Dame muss weiterhin einen Läufer auf f4 beachten."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Bc4 c6 6.Nge2": {
+    "strategy": "Entwickelt den Springer nach e2 statt nach f3, wo er d4 und den Springer c3 stützt und den f-Bauern freilässt. Von e2 kann er nach g3 schwenken, um einen Läufer auf f5 herauszufordern."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Bc4 c6 6.Nge2 Bf5": {
+    "strategy": "Bringt den weißfeldrigen Läufer außerhalb der Bauernkette, wo er c2 und den Königsflügel unter Druck setzt. Da der c-Bauer schon auf c6 steht, ist die Struktur solide und die Figuren von Schwarz sind koordiniert, auch wenn Weiß den Läufer mit dem Springer herausfordern kann."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4": {
+    "strategy": "Beansprucht das Zentrum, während Schwarz die Entwicklung der Dame rückgängig gemacht hat: Der Bauer öffnet den Läufer c1 und gewinnt Raum. Die kompakte Struktur von Schwarz bleibt, doch Weiß hat mehr Raum und die leichtere Entwicklung."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 Nf6": {
+    "strategy": "Entwickelt eine Figur und bestreitet das Zentrum aus der Distanz, mit Blick auf e4 und d5, wobei die Dame sicher dahinter steht. Schwarz überlässt Weiß den Raum, hält die Stellung aber frei von Schwächen und strebt einen soliden, kompakten Aufbau an."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 Nf6 5.Nf3": {
+    "strategy": "Entwickelt den Springer, deckt d4, kontrolliert e5 und bereitet die Rochade vor. Weiß schließt die Entwicklung bequem mit mehr Raum ab, und Schwarz muss einen Plan gegen das Zentrum von Weiß finden und zeigen, warum sich der Rückzug gelohnt hat."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 Nf6 5.Nf3 Bg4": {
+    "name": "Skandinavische Verteidigung: Valencianische Variante, Hauptvariante",
+    "strategy": "Der direkteste Entwicklungszug: Der Läufer fesselt den Springer f3 gegen die Dame und bereitet den Abtausch vor, was die Enge des kompakten Aufbaus von Schwarz lindert. Schwarz tauscht eine Figur, um die Stellung zu entlasten, und nimmt in Kauf, dass Weiß das Läuferpaar und den Raum behält."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 Nf6 5.Nf3 c6": {
+    "name": "Skandinavische Verteidigung: Valencianische Variante, Ilundain-Variante",
+    "strategy": "Baut zuerst die solide Bauernstruktur auf, hält d5 und b5 und lässt die Entwicklung des Läufers offen. Schwarz legt den Läufer nicht früh fest und spielt eine geduldige, solide Partie."
   }
 }

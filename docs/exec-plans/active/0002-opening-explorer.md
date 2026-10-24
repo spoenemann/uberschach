@@ -548,6 +548,17 @@ write JSON).
   the move after which the book ends; the named lines go on from it, so
   they use 1.c3, after which none does.
 
+- 2026-10-24: **The modules folded.** `scripts/content/merge-modules.mjs`
+  folded the 1,692 modules into 194 (ADR-0002, and the decision below):
+  582 files under `src/content/lines/` instead of 5,076. The book built
+  before and after, compared position by position with every name, note,
+  rating and source, is the same; only the module of each position moved.
+  Served: 194 chunks, the median 5.7 kB gzipped (0.9 kB before), the
+  largest 26.3 kB (`e4-e5`, 26.1 kB before), the index 49.7 kB gzipped
+  (59.4 kB), the root chunk 24.9 kB (17.7 kB). A main line to its twelfth
+  move fetches four to six chunks instead of seven (the Najdorf four, the
+  closed Ruy Lopez six, the King's Indian and the Winawer five).
+
 ## Decision log
 
 - 2026-10-23: **Review by an agent that did not write the text, not by
@@ -810,3 +821,13 @@ write JSON).
   below its module's root moves into a module of its own, so the book goes
   from 40 modules to 1,692, and the served index from 14.5 kB to 58 kB
   gzipped (measured after the run).
+- 2026-10-24: **The modules are subtrees, folded up to 100 kB.** The
+  maintainer asked to merge the 1,692 modules of the named-lines run
+  mechanically, for a balance between file size and the number of files.
+  `docs/adr/0002-opening-modules-folded-to-a-size-budget.md` holds the
+  decision and the options; it supersedes the layout rule of ADR-0001 and
+  the paragraph above that keeps it. A module is now one subtree of the
+  book, two plies deep as before or, deeper, at most 100,000 bytes on disk,
+  the size of the largest breadth-first module rounded up, so no chunk is
+  larger than one the book already served. `add.mjs` still splits new
+  depth into modules of its own; `merge-modules.mjs` folds them again.

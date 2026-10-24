@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 e5 2.Nc3 Nc6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 e5 2.Nc3 Nc6: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 e5 2.Nc3 Nc6",
@@ -69,6 +69,181 @@
     },
     {
       "line": "1.e4 e5 2.Nc3 Nc6 3.d4 f5"
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5",
+      "moves": [
+        {
+          "san": "fxe5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5 4.fxe5",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5 4.fxe5 d6"
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.f4 exf4",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "d4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vienna_Game"
+      ],
+      "moves": [
+        {
+          "san": "Qh4+",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+",
+      "moves": [
+        {
+          "san": "Ke2",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "d5",
+          "rating": 4
+        },
+        {
+          "san": "b6",
+          "rating": 3
+        },
+        {
+          "san": "g5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2 d6"
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2 d5"
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2 b6"
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2 g5"
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5",
+      "moves": [
+        {
+          "san": "Bg2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2",
+      "moves": [
+        {
+          "san": "h5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5 5.Nf3",
+      "moves": [
+        {
+          "san": "h4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5 5.Nf3 h4"
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6",
+      "moves": [
+        {
+          "san": "Bg2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2",
+      "moves": [
+        {
+          "san": "Bc5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5",
+      "moves": [
+        {
+          "san": "Nge2",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2 d5",
+      "moves": [
+        {
+          "san": "exd5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2 d5 6.exd5"
     }
   ]
 }

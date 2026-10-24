@@ -30,6 +30,8 @@
     "strategy": "Entwickelt und greift sofort e4 an und lässt Weiß das gewünschte Bauernzentrum aufbauen. Schwarz verhindert das Zentrum nicht, sondern rechnet damit, es mit Figuren und einem gut getimten Zentrumsdurchbruch anzugreifen; das führt zur Hauptvariante und zu lebhaftem, offenem Spiel."
   },
   "1.e4 e5 2.Bc4 Bc5 3.c3 d5": {
+    "name": "Läuferspiel: Lewis-Gegengambit",
+    "background": "Benannt nach dem englischen Spieler und Autor William Lewis (1787–1870), der die Variante 1834 analysierte und veröffentlichte.",
     "strategy": "Begegnet dem drohenden Zentrum, indem Schwarz zuerst im Zentrum zuschlägt: Der Bauer greift den Läufer auf c4 an und öffnet Linien für die schwarzen Figuren. Nimmt Weiß den Bauern, spielt Schwarz auf schnelle Entwicklung und Aktivität statt auf Material; das ist die scharfe, energische Antwort."
   },
   "1.e4 e5 2.Bc4 Bc5 3.c3 Qg5": {
@@ -41,5 +43,71 @@
   },
   "1.e4 e5 2.Bc4 Bc5 3.Qe2 Nf6": {
     "strategy": "Entwickelt sich mit Angriff auf e4, sodass die Dame auf e2 verteidigen muss. Schwarz erhält aktiveres Spiel als bei der ruhigen Deckung von e5, und die Dame ist vorerst an die Verteidigung des Bauern e4 gebunden."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.b4 Bxb4 4.c3": {
+    "name": "Läuferspiel: McDonnell-Gambit, La-Bourdonnais-Denker-Gambit",
+    "strategy": "Greift den Läufer sofort an und bereitet ein breites Bauernzentrum vor, sodass sich die weißen Figuren mit Tempo entwickeln, während der Läufer erneut ziehen muss. So macht Weiß üblicherweise Kompensation für den Bauern geltend: Zentrum und offene Linien sind der Gegenwert."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.b4 Bxb4 4.f4": {
+    "name": "Läuferspiel: McDonnell-Gambit, McDonnell-Doppelgambit",
+    "strategy": "Bietet einen zweiten Bauern an, um den e-Bauern von Schwarz aus dem Zentrum zu ziehen und die f-Linie für einen schnellen Angriff zu öffnen. Nimmt Schwarz, steht Weiß zwei Bauern zurück und darf keine Zeit verlieren: Der Plan braucht schnelle Entwicklung und ein starkes Zentrum, was die Partie scharf und zweischneidig macht."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.b4 Bxb4 4.f4 exf4": {
+    "strategy": "Nimmt den zweiten Bauern und lässt Weiß im Zentrum nur den e-Bauern. Schwarz hat zwei Bauern mehr und muss die Entwicklung abschließen, bevor die weißen Figuren und das Zentrum zur Stelle sind; jedes Tempo zählt, und ein ruhiger, solider Aufbau ist die beste Chance von Schwarz, das Material zu behalten."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.b4 Bxb4 4.f4 exf4 5.Nf3": {
+    "strategy": "Entwickelt mit Absicht: Der Springer deckt h4, sodass die schwarze Dame dort nicht umsonst Schach bieten kann. Außerdem bereitet er einen Zentrumsschlag und die Rochade vor, womit Weiß den Entwicklungsvorsprung in Kompensation für zwei Bauern verwandeln will."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.b4 Bxb4 4.f4 exf4 5.Nf3 Be7": {
+    "strategy": "Bringt den Läufer vor dem Eintreffen des weißen Zentrums auf ein sicheres Feld zurück, von dem aus er g5 deckt und h4 im Blick behält. Schwarz behält beide Mehrbauern und nimmt in Kauf, dass Weiß das Zentrum und den Entwicklungsvorsprung hat."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.b4 Bxb4 4.f4 exf4 5.Nf3 Be7 6.d4": {
+    "strategy": "Baut den zentralen Bauern auf, für den das Gambit gespielt wurde. Er öffnet zugleich die Diagonale des Läufers auf c1, sodass der Bauer f4 sofort angegriffen wird. Schwarz hat zwei Bauern mehr, doch Weiß hat Raum und die Initiative."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.b4 Bxb4 4.f4 exf4 5.Nf3 Be7 6.d4 Bh4+": {
+    "strategy": "Bietet Schach, um die Mehrbauern zu behalten und Zeit zu gewinnen, doch der Springer auf f3 deckt h4 und kann den Läufer einfach schlagen, sodass Schwarz mit der Dame zurückschlagen und sie früh ins Spiel bringen muss. Das erhält das Material, kostet aber eine exponierte Dame in offener Stellung."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.c3 d5 4.Bxd5": {
+    "strategy": "Nimmt den angebotenen Bauern mit dem Läufer, der im Zentrum steht und vom e-Bauern gedeckt ist. Weiß hat einen Bauern mehr, doch der Läufer wird zum Ziel der schwarzen Entwicklung, sodass Weiß beweisen muss, dass der Mehrbauer mehr wert ist als die Aktivität von Schwarz."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.c3 d5 4.Bxd5 Nf6": {
+    "name": "Läuferspiel: Lewis-Gegengambit",
+    "strategy": "Greift mit einem Entwicklungszug Läufer auf d5 und Bauer e4 in einem Zug an. Schwarz zahlt einen Bauern für Tempo und Linien: Weiß muss die Spannung im Zentrum lösen, bevor die schwarzen Figuren zu aktiv werden."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.c3 d5 4.Bxd5 Nf6 5.d4": {
+    "name": "Läuferspiel: Lewis-Gegengambit, Walker-Variante",
+    "strategy": "Schlägt im Zentrum zurück: Der Bauer greift den Läufer auf c5 und den Bauern e5 zugleich an, und der Bauer auf c3 stützt ihn. Der Läufer auf d5 bleibt Dame und Springer von Schwarz ausgesetzt, die Stellung ist daher ein scharfer, offener Kampf um den weißen Mehrbauern."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.c3 Nf6 4.d4": {
+    "strategy": "Spielt den Zug, den 3.c3 vorbereitet hat: Der Bauer greift Läufer und e5 an und bildet, vom Bauern auf c3 gestützt, ein breites Zentrum. Weiß beansprucht Raum und die Initiative, und Schwarz muss sofort gegen das Zentrum vorgehen."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.c3 Nf6 4.d4 exd4": {
+    "strategy": "Nimmt den Bauern, um das Zentrum aufzulösen, und hält den Bauern e4 weiter durch den Springer unter Beschuss. Der Bauer hat keinen Verteidiger, daher muss Weiß sich sofort darum kümmern."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.c3 Nf6 4.d4 exd4 5.e5": {
+    "strategy": "Rettet den angegriffenen Bauern e4, indem er mit Tempo auf den Springer vorrückt, der nicht auf f6 bleiben kann. Weiß gibt den Bauern auf d4 für einen Raumvorteil und die Initiative, und die Partie wird zum scharfen Kampf, in dem die Taktik entscheidet."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.c3 Nf6 4.d4 exd4 5.e5 d5": {
+    "strategy": "Der Gegenschlag: Statt den Springer zu retten, greift Schwarz mit einem Bauern den Läufer auf c4 an. Beide Seiten haben eine angegriffene Figur, und Schwarz nimmt den Tausch von Springer gegen Läufer in Kauf, um Zentrumsbauern und offene Linien zu bekommen."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.c3 Nf6 4.d4 exd4 5.e5 d5 6.exf6": {
+    "strategy": "Nimmt den Springer, statt den Läufer zu retten, sodass ein Figurentausch folgt. Der Bauer auf f6 nimmt g7 ins Visier und beengt den schwarzen Königsflügel, und Weiß hofft, den ungedeckten Läufer auf c5 zum Ziel eines Angriffs zu machen."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.c3 Nf6 4.d4 exd4 5.e5 d5 6.exf6 dxc4": {
+    "strategy": "Schlägt den Läufer mit dem Bauern, sodass jede Seite eine Leichtfigur verloren hat. Schwarz hat Bauern auf c4 und d4 und einen aktiven Läufer auf c5, doch der Bauer auf f6 und der ungedeckte Läufer sind Ziele, sodass die weiße Dame echte Angriffschancen hat."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.Qe2 Nc6 4.c3": {
+    "strategy": "Bereitet ein Bauernzentrum vor, wobei die Dame e4 und f2 deckt, sodass der Läuferdruck von Schwarz auf f2 abgedeckt ist. Weiß spielt auf einen langsamen Aufbau im Zentrum; der Preis ist, dass der Bauer c3 dem Damenspringer das Feld nimmt."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.Qe2 Nc6 4.c3 Nf6": {
+    "strategy": "Entwickelt sich und greift erneut e4 an, sodass die Dame es weiter verteidigen muss. Schwarz schließt die natürliche Entwicklung der Leichtfiguren ab und ist bereit zur Rochade, mit solidem Spiel und ohne Schwächen, um die er sich sorgen müsste."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.Qe2 Nc6 4.c3 Nf6 5.f4": {
+    "name": "Läuferspiel: Lopez-Gambit",
+    "strategy": "Versucht einen Gambitvorstoß gegen e5, doch ohne den f-Bauern greift der Läufer auf c5 den Springer auf g1 an. Weiß erhält keine klare Kompensation für den Bauern, den es womöglich verliert, und der Königsflügel wird geschwächt; Schwarz kann den Bauern nehmen oder einfach das Zentrum halten."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.Qe2 Nf6 4.f4": {
+    "name": "Läuferspiel: Lopez-Variante, Lopez-Gambit",
+    "strategy": "Versucht einen Gambitvorstoß gegen e5, doch der f-Bauer lässt den Königsflügel offen, und der Läufer auf c5 greift den Springer auf g1 an. Der Bauer auf e4 wird vom Springer angegriffen und nur von der Dame verteidigt. Weiß hat keine klare Kompensation, wenn Schwarz ruhig spielt."
   }
 }

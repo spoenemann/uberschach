@@ -1,5 +1,5 @@
 {
-  "about": "After 1.d4 d5 2.c4 c5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.d4 d5 2.c4 c5: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.d4 d5 2.c4 c5",
@@ -50,6 +50,205 @@
     },
     {
       "line": "1.d4 d5 2.c4 c5 3.dxc5 d4"
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.cxd5 Nf6",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4",
+      "moves": [
+        {
+          "san": "Nxe4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 Nxe4",
+      "moves": [
+        {
+          "san": "dxc5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 Nxe4 5.dxc5",
+      "moves": [
+        {
+          "san": "Qa5+",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 Nxe4 5.dxc5 Qa5+"
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.Nf3 Nf6",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3",
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_chess_openings_named_after_people"
+      ],
+      "moves": [
+        {
+          "san": "cxd5",
+          "rating": 5
+        },
+        {
+          "san": "e3",
+          "rating": 4
+        },
+        {
+          "san": "Bg5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5",
+      "moves": [
+        {
+          "san": "Nxd5",
+          "rating": 5
+        },
+        {
+          "san": "cxd4",
+          "rating": 4
+        },
+        {
+          "san": "exd5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.e3",
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 cxd4",
+      "moves": [
+        {
+          "san": "Qxd4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 cxd4 6.Qxd4",
+      "moves": [
+        {
+          "san": "exd5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 cxd4 6.Qxd4 exd5"
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 exd5",
+      "moves": [
+        {
+          "san": "g3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 exd5 6.g3",
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 5
+        },
+        {
+          "san": "e3",
+          "rating": 4
+        },
+        {
+          "san": "g3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.e4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Semi-Tarrasch_Defense",
+        "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined"
+      ],
+      "moves": [
+        {
+          "san": "Nxc3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.e3",
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.g3",
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.e4 Nxc3"
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.e3 Nc6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.g3 Nc6"
     }
   ]
 }

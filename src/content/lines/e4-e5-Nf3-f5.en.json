@@ -61,5 +61,104 @@
   "1.e4 e5 2.Nf3 f5 3.Nxe5 Qe7": {
     "strategy": "Attacks the knight, but leaves the king on the h5 diagonal: Qh5+ g6 Nxg6 hits queen and rook, and even if Black takes on g6, the rook on h8 falls. The queen also blocks the f8-bishop.",
     "name": "Latvian Gambit: Greco Variation"
+  },
+  "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5": {
+    "strategy": "The only move that makes sense: White regains the pawn and threatens a knight jump to f7, forking queen and rook, because the bishop on c4 guards f7 and the king cannot take."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 d5": {
+    "name": "Latvian Gambit: Mayet Attack, Polerio-Svedenborg Variation",
+    "background": "Known as the Polerio-Svedenborg Variation, it is by far the most common fourth move for Black in the Mayet Attack. The Latvian Gambit specialists Kon Grivainis and John Elburg report that Black wins more often than White in this line.",
+    "strategy": "Meets the threat on f7 directly: the pawn blocks the bishop's diagonal, hits the bishop and supports the pawn on e4. Black gets a strong centre in return for an exposed kingside, which makes this the accurate way to defend."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Qg5": {
+    "strategy": "Attacks the knight on e5 and the g2 pawn in one move and sets a trap: the apparently winning knight jump to f7 lets Black take g2 with tempo and start a dangerous attack. Black accepts a murky position for activity."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Nf6": {
+    "name": "Latvian Gambit: Corkscrew Countergambit",
+    "strategy": "Develops and hopes for the knight jump to f7, answered by ...Qe7, so that Black traps the knight on h8 and attacks the king. Accurate play defuses it: White is left a rook up and has to meet a speculative attack."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Nf6 5.Nf7": {
+    "strategy": "Forks queen and rook, and the bishop on c4 guards the knight, so the king cannot take it. Black has to give up the rook on h8 and hopes for an attack to compensate, but White can calmly collect the material."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Nf6 5.Nf7 Qe7": {
+    "strategy": "Moves the queen out of the fork with a counterattack on the knight, and gives up the rook on h8 for quick development. The knight that takes it will be stuck in the corner, and Black hopes to trap it and pile up against the king in the centre."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Nf6 5.Nf7 Qe7 6.Nxh8": {
+    "strategy": "Takes the rook. The knight is stranded in the corner, but White is a rook up for now and can give some of it back to escape if Black's pieces become dangerous; calm development is all the position asks."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Nf6 5.Nf7 Qe7 6.Nxh8 d5": {
+    "name": "Latvian Gambit: Corkscrew Gambit",
+    "strategy": "Hits the bishop and opens the c8-bishop, hoping for a swift attack on the queen and the king in the centre while the knight is stuck on h8. A calm Be2 keeps everything covered and leaves Black a rook down for too little."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Qg5 5.d4": {
+    "strategy": "The real test of the queen's sortie: the pawn opens the c1-bishop's diagonal against the queen and builds a centre. White accepts the loss of g2 for a lead in development, and the game becomes a tactical melee with Black's queen far from home."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Qg5 5.Nf7": {
+    "strategy": "Looks like it wins the exchange with a fork, but the queen escapes by taking g2 with tempo on the rook on h1, and White has to save material at once. The knight stays offside while Black develops with an attack."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Qg5 5.d4 Qxg2": {
+    "name": "Latvian Gambit: Mayet Attack, Poisoned Pawn Variation",
+    "background": "Part of what is perhaps the most notorious and heavily analysed line of the Latvian Gambit.",
+    "strategy": "Takes the pawn and escapes the bishop's attack in one move, with the queen now hitting the rook on h1. The pawn is poisoned: White gets a strong check and an attack for sacrificed material, so Black must find a string of precise defensive moves."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Qg5 5.Nf7 Qxg2": {
+    "strategy": "Escapes the fork with tempo by taking g2 and hitting the rook on h1. White cannot cash in on h8, because the queen then takes the rook on h1 with check, so Black wins time and gets the initiative."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Qg5 5.Nf7 Qxg2 6.Rf1": {
+    "strategy": "The only move that saves the rook: it leaves the queen's attack for a square guarded by king and bishop, and the knight on f7 keeps its threat on h8. The price is time, with the king still in the centre and Black free to bring pieces into the attack."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Qg5 5.Nf7 Qxg2 6.Rf1 d5": {
+    "strategy": "Opens the c8-bishop, hits the bishop on c4 and prepares ...Bg4 against the queen. White can take the rook on h8, but then has to avoid being mated while the knight is far from the king."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Nxe5 Nf6 4.Bc4": {
+    "strategy": "Offers the pawn back for development: the bishop and the knight on e5 aim at f7, and the natural recapture ...Nxe4 allows Qh5+ again, since the knight no longer guards h5. White returns the extra pawn for a lead in development."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Nxe5 Nf6 4.Bc4 fxe4": {
+    "strategy": "Takes back the pawn but walks into a position where knight and bishop strike at f7: Nf7 forks queen and rook. Black hopes to trap the knight that takes on h8 and attack the king, but accurate play leaves Black down material."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.Nc4": {
+    "name": "Latvian Gambit Accepted: Foltys-Leonhardt Variation",
+    "background": "Recommended by Grandmaster Tony Kosten and now considered a more critical test of the gambit than 4.d4; its popularity has grown in recent years.",
+    "strategy": "Retreats the knight without blocking the d-pawn, so White can meet the pawn on e4 with d3 once Black takes it. White accepts that the extra pawn will go but keeps the better development and the easier game."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4": {
+    "name": "Latvian Gambit Accepted: Main Line",
+    "background": "The traditional main line of the Latvian Gambit; in recent years 4.Nc4 has gained in popularity.",
+    "strategy": "Builds a full pawn centre and defends the knight on e5, so the pieces can develop freely. Black can only shift the knight with a pawn move that shuts in the f8-bishop, and White plays to keep the centre and the extra pawn while Black looks for activity."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4 d6": {
+    "strategy": "Challenges the knight with a pawn, the way to make White decide, but it closes in the f8-bishop, and Black is a pawn behind. The idea is to take on e4 next and open lines for the queen and the other pieces."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.Nc4 fxe4": {
+    "strategy": "Black captures at once, because waiting lets White take on f5 and keep the extra pawn. It also threatens ...d5, hitting the knight with a developing move, and leaves White to find the right way to contest the pawn."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4 d6 5.Nc4": {
+    "name": "Latvian Gambit Accepted: Bilguer Variation",
+    "strategy": "Retreats the knight to a safe, active square. The e4 pawn is left undefended: White lets Black take it and relies on the centre and development, which tests whether the early queen sortie really helps Black."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4 d6 5.Nc4 fxe4": {
+    "strategy": "Black's long-planned capture. It restores material equality and puts a pawn on e4 that cramps White. The price is the open king: the e8-h5 diagonal is weak, so White develops with tempo against it."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4 d6 5.Nc4 fxe4 6.Be2": {
+    "name": "Latvian Gambit Accepted: Bronstein Attack",
+    "strategy": "Develops the bishop and prepares to castle while the queen keeps d4 guarded. It avoids committing the knight to c3, but it does not touch the pawn on e4, so Black keeps it and gets time to consolidate."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4 d6 5.Nc4 fxe4 6.Ne3": {
+    "name": "Latvian Gambit Accepted: Nimzowitsch Attack",
+    "strategy": "Brings the knight to e3, where it covers d5, f5 and g4 and takes good squares from Black's pieces. It leaves the pawn on e4 alone and blocks the c1-bishop, so White pays with time and flexibility."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4 d6 5.Nc4 fxe4 6.Qh5+": {
+    "strategy": "Provokes ...g6 but gains nothing: the queen is attacked and must retreat, and d4 loses its protection, so the queen on f6 hits it. White has spent two moves to weaken Black's kingside slightly and lost the lead in development."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4 d6 5.Nc4 fxe4 6.Qh5+ g6": {
+    "strategy": "The natural answer: the pawn attacks the queen with gain of tempo, and White must retreat while Black's queen eyes d4. The move slightly loosens the kingside but takes no risk."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.Nc4 fxe4 5.Nc3": {
+    "name": "Latvian Gambit Accepted: Leonhardt Variation",
+    "strategy": "Hits the pawn on e4 with a developing move and covers d5, so the freeing ...d5 is not available. Material is level, but White has the better development and the safer king, and Black must now look after the pawn on e4."
+  },
+  "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.Nc4 fxe4 5.d3": {
+    "name": "Latvian Gambit Accepted: Foltys Variation",
+    "strategy": "Challenges the pawn on e4 with a pawn at once, opening the diagonal for the f1-bishop. It leaves the knight on c4 exposed to ...d5, which wins a tempo for Black, so White contests the centre less convincingly than with a developing move."
   }
 }

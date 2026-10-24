@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 e5 2.Qh5 Nc6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 e5 2.Qh5 Nc6: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 e5 2.Qh5 Nc6",
@@ -18,6 +18,63 @@
           "rating": 3
         }
       ]
+    },
+    {
+      "line": "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6",
+      "moves": [
+        {
+          "san": "d3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3",
+      "moves": [
+        {
+          "san": "g6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6",
+      "moves": [
+        {
+          "san": "Qf3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3",
+      "moves": [
+        {
+          "san": "f6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6",
+      "moves": [
+        {
+          "san": "Ne2",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.Ne2",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.Ne2 d5"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 d5 2.exd5 Qxd5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 d5 2.exd5 Qxd5: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 d5 2.exd5 Qxd5",
@@ -29,6 +29,282 @@
           "rating": 3
         }
       ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "b4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "e5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.b4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Scandinavian_Defense",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...d5/2._exd5/2...Qxd5/3._Nc3/3...Qa5/4._b4"
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "dxe5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Nf3",
+      "moves": [
+        {
+          "san": "Bg4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5",
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Nf3 Bg4"
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Nc6",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Nc6 6.Nf3",
+      "moves": [
+        {
+          "san": "Bb4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Nc6 6.Nf3 Bb4"
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3",
+      "moves": [
+        {
+          "san": "Bf5",
+          "rating": 5
+        },
+        {
+          "san": "Bg4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bf5",
+      "moves": [
+        {
+          "san": "Ne5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bf5 6.Ne5",
+      "moves": [
+        {
+          "san": "c6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bf5 6.Ne5 c6"
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bg4",
+      "moves": [
+        {
+          "san": "h3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bg4 6.h3"
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Scandinavian_Defense"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "c6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 c6"
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "Bc4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Nf3",
+      "moves": [
+        {
+          "san": "a6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Bc4",
+      "moves": [
+        {
+          "san": "c6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Nf3 a6"
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Bc4 c6",
+      "moves": [
+        {
+          "san": "Nge2",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Bc4 c6 6.Nge2",
+      "moves": [
+        {
+          "san": "Bf5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Bc4 c6 6.Nge2 Bf5"
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Scandinavian_Defense",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...d5/2._exd5/2...Qxd5/3._Nc3/3...Qd8"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 Nf6",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 Nf6 5.Nf3",
+      "moves": [
+        {
+          "san": "Bg4",
+          "rating": 5
+        },
+        {
+          "san": "c6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 Nf6 5.Nf3 Bg4"
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 Nf6 5.Nf3 c6"
     }
   ]
 }

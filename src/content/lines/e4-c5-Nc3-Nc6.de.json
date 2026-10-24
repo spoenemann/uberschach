@@ -25,9 +25,72 @@
     "strategy": "Schwarz fianchettiert den Läufer, der den Springer c3 auf der langen Diagonale unter Druck setzt, und hält beide Pläne am Leben: einen Schlag im Zentrum oder Spiel am Damenflügel mit dem bereits vorgerückten c-Bauern. Weiß hat Bauern am Königsflügel festgelegt, also kann Schwarz abwarten und wählen."
   },
   "1.e4 c5 2.Nc3 Nc6 3.g3 g6": {
+    "name": "Sizilianische Verteidigung: Geschlossene Variante",
     "strategy": "Schwarz antwortet auf das Fianchetto mit einem eigenen Fianchetto: Der Läufer wird die lange Diagonale und den Springer c3 unter Druck setzen, während der Springer c6 d4 kontrolliert. Solide gegen den langsamen Plan von Weiß, mit Spiel am Damenflügel und einem Zentrumsdurchbruch weiterhin möglich."
   },
   "1.e4 c5 2.Nc3 Nc6": {
     "name": "Sizilianische Verteidigung: Geschlossene Variante, Traditionelle Variante"
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.d3 g6 4.g4": {
+    "name": "Sizilianische Verteidigung: Geschlossene Variante, Portland-Angriff",
+    "strategy": "Gewinnt sofort Raum am Königsflügel, mit g5 als Fortsetzung, sodass der Königsspringer von Schwarz f6 verliert. Das ist zweischneidig: Schwarz kann den Bauern mit ...h5 gleich angreifen, und jeder Bauernvorstoß lockert den eigenen Königsflügel von Weiß, bevor die Figuren entwickelt sind."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3": {
+    "strategy": "Bringt den zweiten Springer auf ein Feld, von dem aus er das Zentrum und den Königsflügel überwacht, und stützt den Angriff des f-Bauern mit einer Figur, sodass der Angriff nicht allein auf Bauern ruht. Weiß bleibt flexibel, welche Diagonale der Läufer nutzen wird."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3 Bg7": {
+    "strategy": "Entwickelt den Läufer auf der langen Diagonale, wo er schon den Springer c3 und die dunklen Felder im Zentrum unter Druck setzt, und bereitet die Rochade vor. Schwarz legt sich auf das Fianchetto und den soliden Königsflügel fest, den es mit sich bringt, und hält die Wahl zwischen einem Zentrumsschlag und Spiel am Damenflügel offen."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3 Bg7 5.Bc4": {
+    "strategy": "Die aggressive Art, den Läufer zu platzieren: Er zielt auf f7 und arbeitet mit dem f-Bauern und dem Springer auf einen Königsangriff hin. Weiß legt sich auf ein scharfes Spiel fest, und der Läufer kann auf c4 belästigt werden, doch die Aufstellung passt am besten zum Angriff."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3 Bg7 5.Bc4 e6": {
+    "strategy": "Versperrt dem Läufer die Diagonale nach f7 und kontrolliert d5 und f5, was den Angriffsplan von Weiß stumpf macht; zugleich gibt es dem Springer g8 den Weg nach e7 frei und hält einen Zentrumsschlag in Reserve. Der Preis ist, dass das Feld d6 seinen Bauernschutz verliert."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3 Bg7 5.Bc4 e6 6.f5": {
+    "name": "Sizilianische Verteidigung: Grand-Prix-Angriff, Schofman-Variante",
+    "strategy": "Greift e6 und g6 an, um den Königsflügel von Schwarz aufzureißen, wobei der e4-Bauer den Vorstoß stützt und der Läufer den Druck auf e6 verstärkt. Das gibt das Feld e5 auf, das der f-Bauer hielt, und der Angriff lohnt sich nur, wenn die Königsstellung von Schwarz zusammenbricht."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2": {
+    "strategy": "Vollendet das Fianchetto: Der Läufer stützt den e4-Bauern und steht bereit, das Zentrum und den Damenflügel auf der langen Diagonale zu treffen, falls der e-Bauer je vorrückt oder getauscht wird. Weiß wählt einen langsamen Aufbau, und bis dahin bleibt der Läufer hinter dem eigenen Bauern."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7": {
+    "name": "Sizilianische Verteidigung: Geschlossene Variante",
+    "strategy": "Derselbe Aufbau für Schwarz: Der Läufer greift den Springer c3 auf der langen Diagonale an und deckt die dunklen Felder. Beide Seiten haben nun solide, gleiche Strukturen, und der Kampf dreht sich darum, wer zuerst und wo ausbricht, Weiß am Königsflügel, Schwarz am Damenflügel."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3": {
+    "strategy": "Stützt den e4-Bauern, sodass Läufer und Springer ihn nicht mehr decken müssen, und öffnet die Diagonale des Läufers c1. Weiß legt sich auf ein geschlossenes Zentrum und einen langsamen Aufbau am Königsflügel fest und nimmt in Kauf, dass die Partie durch Manövrieren entschieden wird, nicht durch frühe Taktik."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6": {
+    "name": "Sizilianische Verteidigung: Geschlossene Variante",
+    "strategy": "Solide und flexibel: Der Bauer kontrolliert e5, öffnet die Diagonale des Läufers c8 und stützt einen späteren Halt im Zentrum. Schwarz kann dem langsamen Aufbau von Weiß mit einer Bauernkette im Zentrum oder mit Figurenspiel und Druck am Damenflügel begegnen; in der Struktur ist noch nichts festgelegt."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 e6": {
+    "strategy": "Ein weniger direkter Aufbau: Der e-Bauer bereitet einen Zentrumsschlag und einen Weg für den Springer g8 nach e7 vor. Er lässt aber d6 ohne Bauernschutz und hält den Läufer c8 länger eingesperrt, sodass der Zug solide, aber langsamer im Druckaufbau ist als die Hauptvariante."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6 6.f4": {
+    "name": "Sizilianische Verteidigung: Geschlossene Variante",
+    "strategy": "Die angreifende Fortsetzung: Der f-Bauer beansprucht e5 und Raum am Königsflügel, der Springer wird dahinter entwickelt und die kurze Rochade folgt. Weiß legt sich auf einen Königsangriff fest und schwächt die Felder hinter dem Bauern, sodass die Sicherheit des Königs davon abhängt, dass der Angriff schneller läuft als das Gegenspiel von Schwarz."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6 6.Be3": {
+    "name": "Sizilianische Verteidigung: Geschlossene Variante",
+    "strategy": "Entwickelt den Läufer im Hinblick auf Dd2 und vielleicht die lange Rochade und kontrolliert d4, sodass sich dort kein schwarzer Springer umsonst festsetzen kann. Es ist der positionellere Weg: Weiß baut seine Figuren auf, bevor es entscheidet, was mit den Bauern am Königsflügel geschehen soll."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6 6.Nge2": {
+    "strategy": "Die ruhige Entwicklungsalternative: Der Springer geht nach e2, sodass der f-Bauer später noch vorrücken kann und Weiß kurz rochieren kann. Er gibt die Kontrolle über e5 auf, die ein Springer auf f3 ausüben würde, sodass Schwarz das Zentrum sofort mit dem e-Bauern nehmen kann."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6 6.f4 e5": {
+    "name": "Sizilianische Verteidigung: Geschlossene Variante, Botwinnik-Verteidigung, mit f4",
+    "strategy": "Schwarz schlägt sofort im Zentrum zu, greift den f4-Bauern an und beansprucht mit der Kette d6-e5 Raum. Der Läufer g7 wird vorerst vom eigenen Bauern gebremst, doch die Spannung im Zentrum gibt Schwarz echtes Gegenspiel gegen die Königsflügelpläne von Weiß."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6 6.Nge2 e5": {
+    "name": "Sizilianische Verteidigung: Geschlossene Variante, Botwinnik-Verteidigung, mit Sge2",
+    "strategy": "Nimmt das Zentrum, solange der f-Bauer von Weiß noch zu Hause steht: Die Kette d6-e5 hält Raum und macht den Vorstoß des f-Bauern teuer, da der e-Bauer f4 kontrolliert. Der Preis ist der vom eigenen Bauern gebremste Läufer g7 und ein Feld d5, das kein schwarzer Bauer deckt."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 e6 6.Be3": {
+    "strategy": "Entwickelt den Läufer im Hinblick auf Dd2 und die lange Rochade und kontrolliert d4. Der Preis ist, dass der Läufer dann auf einem Feld steht, wo ein schwarzer Springer ihn herausfordern kann, sodass Weiß bereit sein muss, den dunkelfeldrigen Läufer abzugeben."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 e6 6.Be3 Nd4": {
+    "strategy": "Der Springer besetzt den zentralen Vorposten und lädt den Läufer e3 zum Tausch ein. Tauscht Weiß, gewinnt ...cxd4 Zeit gegen den Springer c3 und lässt Schwarz einen Bauern im Zentrum; tauscht Weiß nicht, bleibt der Springer stehen und behindert die Entwicklung von Weiß."
   }
 }

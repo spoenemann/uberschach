@@ -17,6 +17,7 @@
     "name": "Italienische Partie: Bird-Angriff"
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6": {
+    "name": "Italienische Partie: Klassische Variante, Giuoco Pianissimo",
     "strategy": "Spiegelt den Aufbau von Weiß: Es verteidigt e5 solide und bereitet die Entwicklung des Läufers c8 vor. Schwarz hält das Zentrum geschlossen und gibt nichts preis, und die Partie wird zu einem langsamen Manöverspiel mit Chancen für beide Seiten."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 a6": {
@@ -29,5 +30,73 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4": {
     "strategy": "Beseitigt den Bauern, der sowohl den Läufer als auch den e5-Bauern angreift, und trägt den Kampf ins Zentrum. Weiß baut es mit Tempo auf den Läufer wieder auf, daher nimmt Schwarz ein scharfes, offenes Spiel in Kauf, in dem die Zentrumsbauern darüber entscheiden, wer die Initiative hat."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.O-O": {
+    "name": "Italienische Partie: Klassische Variante, Giuoco Pianissimo",
+    "strategy": "Bringt zuerst den König in Sicherheit und hält alle Zentrumspläne offen. Ein typischer geduldiger Zug in einem langsamen Manöverspiel, in dem keine Seite sich zu früh festlegt."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.Nbd2": {
+    "strategy": "Bringt den Springer von b1 ins Spiel und fügt e4 einen Verteidiger hinzu, was den d3-Bauern entlastet. Weiß behält ein flexibles, geduldiges Spiel und öffnet das Zentrum erst, wenn die Figuren gut stehen."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.b4": {
+    "name": "Italienische Partie: Klassische Variante, Giuoco Pianissimo, Albin-Variante",
+    "strategy": "Greift den Läufer sofort an, um Raum am Damenflügel und ein Tempo zu gewinnen. Schärfer als der ruhige Hauptplan, doch der Bauernvorstoß lockert den Damenflügel, während der Läufer auf b6 ein gutes Feld findet."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.Nbd2 O-O": {
+    "strategy": "Bringt den König in Sicherheit, bevor sich das Zentrum öffnen kann. Abwarten bringt nichts: Das Zentrum ist geschlossen, Weiß hat keinen schnellen Angriff, und Schwarz behält alle Möglichkeiten für den Läufer und die Damenflügelbauern. Es folgt ein geduldiges Manövrierspiel, in dem beide Seiten einen Zentrumsdurchbruch vorbereiten."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.Nbd2 a6": {
+    "name": "Italienische Partie: Klassische Variante, Giuoco Pianissimo, mit a6",
+    "strategy": "Nimmt dem weißen Läufer das Feld b5, von dem aus er den Springer gegen den König fesseln würde, und bereitet dem Läufer das Rückzugsfeld a7 vor, falls Weiß ihn mit b4 oder d4 vertreiben will. Ein nützlicher Wartezug, der Schwarz bei der Rochade flexibel lässt."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.O-O O-O": {
+    "name": "Italienische Partie: Klassische Variante, Giuoco Pianissimo",
+    "strategy": "Der einfachste Plan: Schwarz schließt die Entwicklung am Königsflügel ab und bringt den König aus dem Zentrum, solange die Stellung noch geschlossen ist. Weiß braucht noch einige Züge, um einen Zentrumsdurchbruch vorzubereiten, und Schwarz begegnet ihm aus sicherer Stellung."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.O-O a5": {
+    "name": "Italienische Partie: Klassische Variante, Giuoco Pianissimo",
+    "strategy": "Hindert Weiß daran, mit b4 Raum zu gewinnen und damit den Läufer auf c5 mit einem Bauern zu vertreiben. Der Preis ist das Feld b5: Der weiße Läufer kann jetzt dorthin kommen und den Springer fesseln, ohne dass ihm eine Frage gestellt wird. Schwarz nimmt auf dem Damenflügel eine feste Haltung ein."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.O-O a6": {
+    "name": "Italienische Partie: Klassische Variante, Giuoco Pianissimo",
+    "strategy": "Verhindert, dass der Läufer nach b5 springt und den Springer fesselt, und gibt dem Läufer auf c5 das Feld a7, falls Weiß ihn zu vertreiben beginnt. Schwarz lässt offen, wann er rochiert, und wartet ab, für welchen Plan sich Weiß entscheidet."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.O-O Bb6": {
+    "name": "Italienische Partie: Klassische Variante, Giuoco Pianissimo",
+    "strategy": "Bringt den Läufer außer Reichweite von b4 und d4, während er weiter auf f2 zielt. Der Zug ist spielbar, doch auf b6 kann der Läufer durch einen Vorstoß der Damenflügelbauern erneut belästigt werden, sodass Schwarz am Ende ohne Gegenleistung noch weiter zurückweichen muss."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.O-O h6": {
+    "name": "Italienische Partie: Klassische Variante, Giuoco Pianissimo, mit h6",
+    "strategy": "Fragt den weißen Läufer, was er will, bevor er g5 erreicht: Der Bauer nimmt das Feld weg, sodass der Springer auf f6 nicht gegen die Dame gefesselt werden kann. Eine vernünftige Vorsichtsmaßnahme, die aber ein Tempo am Königsflügel kostet und Weiß freie Hand für die Umgruppierung lässt."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.cxd4": {
+    "name": "Italienische Partie: Klassische Variante, Greco-Gambit, Traditionelle Linie",
+    "background": "Die alte Hauptvariante des Giuoco Piano, entwickelt von Gioachino Greco im frühen 17. Jahrhundert.",
+    "strategy": "Baut das breite Bauernzentrum wieder auf und greift den Läufer mit Tempo an. Weiß gewinnt Raum und ein offenes Spiel; der Preis ist, dass das Schach des Läufers auf b4 den Aufbau unterbricht und der e4-Bauer gegen den Springer auf f6 gedeckt werden muss."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.e5": {
+    "name": "Italienische Partie: Klassische Variante, Greco-Gambit, Moderne Linie",
+    "background": "Eine Variante, die Jewgeni Sweschnikow bevorzugte und die seit dem frühen 21. Jahrhundert stark an Beliebtheit gewonnen hat.",
+    "strategy": "Vertreibt den Springer sofort und gewinnt Raum, wobei das Zurückschlagen auf d4 auf später verschoben wird. Weiß bekommt die Initiative nur, wenn Schwarz nicht sofort im Zentrum zurückschlägt; tut er es, behält Weiß mehr Raum, und Schwarz hat aktive Figuren."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.b4": {
+    "name": "Italienische Partie: Klassische Variante, Greco-Gambit, Dubov-Italienisch",
+    "background": "Ein Gambit, für das sich Daniil Dubow eingesetzt hat. Im 21. Jahrhundert hat es sich als häufige Alternative zu 6.e5 und 6.cxd4 etabliert.",
+    "strategy": "Ein Gambit: Weiß schlägt nicht zurück, sondern greift den Läufer mit dem b-Bauern an und droht, mit b5 den Springer zu vertreiben. Es zielt auf schnelle Entwicklung und offene Linien für einen Bauern. Scharf, und Schwarz muss aufpassen, nicht in der Entwicklung zurückzufallen."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.O-O": {
+    "name": "Italienische Partie: Schottisches Gambit, Walbrodt-Baird-Gambit",
+    "background": "Ein selten gespieltes Gambit, das in der Zeit des romantischen Schachs beliebter war.",
+    "strategy": "Ein Gambit: Weiß rochiert, ohne zurückzuschlagen, und lässt Schwarz auch den e4-Bauern nehmen. Schwarz kann es sicher annehmen und behält den Mehrbauern, nachdem Weiß auf d4 zurückgeschlagen hat; der Entwicklungsvorsprung ist die einzige Kompensation von Weiß, und sie reicht nicht aus."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.cxd4 Bb4+": {
+    "strategy": "Rettet den Läufer mit Schach, sodass Weiß reagieren muss, bevor er sich um e4 kümmern kann, das der Springer angreift. Der Rückzug nach b6 erlaubt Weiß stattdessen e5 und die Vertreibung des Springers mit Raumgewinn; deshalb ist das Schach die übliche Antwort auf das Zurückschlagen."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.e5 d5": {
+    "name": "Italienische Partie: Klassische Variante, Greco-Gambit, Moderne Linie",
+    "strategy": "Schlägt sofort im Zentrum zurück: Der Bauer greift den Läufer an, sodass Weiß sich zuerst darum kümmern muss. Der Springer erreicht ein starkes Feld auf e4, die schwarzen Figuren werden aktiv, und Weiß behält mehr Raum. Die einzig gute Antwort auf den Vorstoß."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.e5 Ne4": {
+    "strategy": "Lässt den Springer vorlaufen, direkt in eine Falle: Der Läufer kommt nach d5, und der Springer hat keinen sicheren Rückzug. Schwarz muss ihn mit dem f-Bauern stützen, was den Königsflügel schwächt, oder ihn für einen spekulativen Angriff opfern. Weiß behält in beiden Fällen die besseren Chancen."
   }
 }

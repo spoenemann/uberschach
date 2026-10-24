@@ -142,6 +142,8 @@
     "strategy": "Prepares ...Bb7, which would hit d5 along the long diagonal, but White holds the pawn easily and stays a pawn up with the better development."
   },
   "1.e4 d5 2.exd5 c6": {
+    "name": "Scandinavian Defence: Blackburne–Kloosterboer Gambit",
+    "background": "Joseph Blackburne played it successfully on at least one occasion, but after 3.dxc6 it is thought to be unsound and is almost never seen in master-level play.",
     "strategy": "Offers a pawn for development: after 3.dxc6 Nxc6 Black's pieces come out quickly on open lines, but White stays a clean pawn up and can finish development in peace."
   },
   "1.e4 d5 2.exd5 c5": {
@@ -206,5 +208,101 @@
   },
   "1.e4 d5 2.Nf3 dxe4": {
     "strategy": "Accepts the gambit, the usual and most critical reply: Black takes a pawn and attacks the knight, which must move. White is left with a lead in development to find, and Black's task is to hold the pawn without falling into the traps."
+  },
+  "1.e4 d5 2.exd5 c6 3.dxc6": {
+    "strategy": "Takes the second pawn offered. White is now two pawns up, and the gambit is unsound: Black has only some development to show for the material, which White can answer by calmly completing its own."
+  },
+  "1.e4 d5 2.exd5 c6 3.dxc6 Nxc6": {
+    "name": "Scandinavian Defence: Blackburne Gambit",
+    "strategy": "Recaptures with a developing move and settles for a pawn deficit instead of two. The knight takes a central post and the bishop on c8 is free, but Black has no d-pawn and must make quick development and open lines count for the pawn."
+  },
+  "1.e4 d5 2.exd5 c6 3.dxc6 e5": {
+    "name": "Scandinavian Defence: Kloosterboer Gambit",
+    "strategy": "Gives up a second pawn for open lines for the king's bishop and the queen, with no concrete threat to show for it. White is two pawns ahead, and the advanced pawn on c6 cramps Black by attacking b7 and d7, so White simply develops."
+  },
+  "1.e4 d5 2.exd5 e5 3.dxe6": {
+    "strategy": "Takes the offered pawn en passant, which puts White two pawns up until Black recaptures on e6. The gambit gives Black no more than development in return, so White has no reason to refuse and can calmly finish developing."
+  },
+  "1.e4 d5 2.exd5 e5 3.dxe6 Bxe6": {
+    "name": "Scandinavian Defence: Boehnke Gambit",
+    "strategy": "Recaptures with the bishop, which at once becomes active on the open diagonal, so Black is only one pawn down and develops freely. It is the natural way out of the gambit, but White keeps a healthy extra pawn and Black has to compensate with activity."
+  },
+  "1.e4 d5 2.f3 g6 3.d4": {
+    "strategy": "Seizes the centre with a second pawn, which the pawn on f3 helps to hold. White takes space while Black's g6 prepares a fianchetto that will pressure the centre from a distance. The cost is a slow kingside: f3 takes the natural square from the g1 knight and weakens the king's diagonal."
+  },
+  "1.e4 d5 2.f3 g6 3.d4 dxe4": {
+    "strategy": "Challenges the centre at once and makes White choose. Recapturing with the f-pawn gives White a broad pawn centre but opens the king's diagonal and the f-file; declining the recapture is a gambit that costs a pawn. Either way Black's fianchetto will work against the d4 pawn."
+  },
+  "1.e4 d5 2.f3 g6 3.d4 dxe4 4.c3": {
+    "name": "Barnes Opening: Gedult Gambit",
+    "strategy": "Declines to recapture: after Black takes on f3 and White retakes with the knight, White is a pawn down with only quick development and a solid pawn pair on c3 and d4 as compensation. Black can simply keep the pawn and develop, so this is a risk, not a plan."
+  },
+  "1.e4 d5 2.f4 dxe4 3.Nc3": {
+    "strategy": "Attacks the e4 pawn at once and brings a piece out: the natural way to try to win the pawn back before Black consolidates. The gambit works only if White's lead in development outweighs the pawn."
+  },
+  "1.e4 d5 2.f4 dxe4 3.Nc3 Nf6": {
+    "strategy": "Defends the pawn with a developing move and prepares to bring the rest of the army out. Black keeps the extra pawn and White has no quick way to recover it, so White has to show real compensation in activity."
+  },
+  "1.e4 d5 2.f4 dxe4 3.Nc3 Nf6 4.Qe2": {
+    "name": "Bird's Opening: Williams Gambit",
+    "background": "The Williams of the name is uncertain: the second edition of The Oxford Companion to Chess credits the nineteenth-century player Elijah Williams, but no game of his in this line is cited. William L. Williams, who wrote a 1997 monograph on the gambit, claimed to have originated it in 1975.",
+    "strategy": "Piles a second attacker on e4 against its single defender and eyes b5, where a check would also hit b7. Black has to add a defender or give the pawn back. The queen is exposed on e2, though: a bishop arriving on g4 hits it with tempo."
+  },
+  "1.e4 d5 2.f4 dxe4 3.Nc3 Nf6 4.Nge2": {
+    "name": "Bird's Opening: Williams-Zilbermints Gambit",
+    "strategy": "Develops the knight with Ng3 in mind, to attack e4 a second time while the queen stays at home. The price is a blocked king's bishop and clumsy coordination, and White is still a pawn down, so Black can develop calmly."
+  },
+  "1.e4 d5 2.g4 dxe4 3.Nc3": {
+    "name": "Grob's Attack: Zilbermints Gambit",
+    "strategy": "Develops and attacks the e4 pawn, the natural way to try to win it back. White is still a pawn down and the g-pawn advance has already weakened the kingside, so the compensation depends on opening lines quickly."
+  },
+  "1.e4 d5 2.g4 dxe4 3.Nc3 h5": {
+    "name": "Grob's Attack: Zilbermints Gambit, Schiller Defence",
+    "strategy": "Strikes at the g4 pawn with a pawn: it is attacked twice and guarded once, so White must resolve the tension. If the pawn falls, Black gets the h-file for the rook, and Black still holds the extra pawn on e4."
+  },
+  "1.e4 d5 2.g4 dxe4 3.Nc3 e5": {
+    "strategy": "Stakes the centre and opens lines for the queen and the king's bishop, while the g4 pawn stays under fire from the c8 bishop. The cost is that the e4 pawn stays unguarded, so Black may have to return it."
+  },
+  "1.e4 d5 2.g4 dxe4 3.Nc3 e5 4.d3": {
+    "name": "Grob's Attack: Zilbermints Gambit, Zilbermints-Hartlaub Gambit",
+    "strategy": "Opens lines for the pieces: if Black takes on d3 and White recaptures, White is still a pawn down, with a lead in development and an open d-file as the only compensation. Black can hold the extra material with sensible development, and White's advanced g-pawn leaves the kingside thin."
+  },
+  "1.e4 d5 2.Nc3 dxe4 3.Nxe4": {
+    "strategy": "The simple recapture: White restores material and puts the knight on a central square. The game is open, Black has traded the d-pawn for the e-pawn and can develop freely, and White has no pawn weaknesses to worry about."
+  },
+  "1.e4 d5 2.Nc3 dxe4 3.Bc4": {
+    "name": "Dunst Opening: Hector Gambit",
+    "strategy": "Develops with a hit on f7 before recapturing, trying to win the pawn back with piece pressure instead of pawn moves. Black can defend e4 with a developing move and stay a pawn up, leaving White chasing it with a lead in development as the only compensation."
+  },
+  "1.e4 d5 2.Nc3 dxe4 3.f3": {
+    "name": "Dunst Opening: Dougherty Gambit",
+    "strategy": "Hits the pawn on e4 with a pawn, hoping to open the f-file and gain time while Black captures. After the pawn is taken and the knight retakes, White is a pawn down for development. The move weakens the king's diagonal and takes a natural square from the g1 knight."
+  },
+  "1.e4 d5 2.Nc3 dxe4 3.d3": {
+    "name": "Dunst Opening: Dunst-Perrenet Gambit",
+    "strategy": "Offers the pawn to open the d-file and the bishop's diagonal. After the capture and the recapture with the bishop, White is a pawn down with a developed piece but no central pawns, and Black needs only careful development to keep the extra pawn."
+  },
+  "1.e4 d5 2.Nc3 dxe4 3.Nxe4 e5": {
+    "name": "Dunst Opening: Grünfeld Defence",
+    "strategy": "Stakes the centre at once and opens the diagonal for the bishop, but moves the e-pawn before developing, so f7 becomes the weak point that White's pieces aim at. Several natural moves go wrong, so Black has to be precise."
+  },
+  "1.e4 d5 2.Nf3 dxe4 3.Ng5": {
+    "strategy": "Moves the knight with tempo to a square where it hits e4 and f7, keeping the pawn recapture in reserve. White aims to use the pressure on f7 to gain time before regaining the pawn, or to set traps for a Black who clings to the extra pawn."
+  },
+  "1.e4 d5 2.Nf3 dxe4 3.Ng5 Nf6": {
+    "strategy": "Defends the pawn with a developing move, but keeps the extra pawn at a price: White's pieces lead in development and f7 is under pressure, so Black has to be careful. Giving the pawn back at once is the safer way to a comfortable game."
+  },
+  "1.e4 d5 2.Nf3 dxe4 3.Ng5 Nf6 4.Nc3": {
+    "strategy": "Adds a second attacker on e4, so the pawn falls unless Black adds a defender, and develops a piece while the knight on g5 stays active. White plays for quick development and tactical chances rather than a quiet recovery of the pawn."
+  },
+  "1.e4 d5 2.Nf3 dxe4 3.Ng5 Nf6 4.Nc3 Bf5": {
+    "strategy": "Defends e4 a second time with a developing move, so the pawn is held twice against two attackers and White cannot simply recapture. Black stays a pawn up, but the bishop and the b7 pawn are now targets for a queen coming to e2 and b5."
+  },
+  "1.e4 d5 2.Nf3 dxe4 3.Ng5 Nf6 4.Nc3 Bf5 5.Qe2": {
+    "strategy": "Brings a third attacker to e4 against two defenders and eyes b5, where a check would hit the b7 pawn. Black must meet the pressure with care, and the queen on e2 sets a trap for a Black who answers carelessly."
+  },
+  "1.e4 d5 2.Nf3 dxe4 3.Ng5 Nf6 4.Nc3 Bf5 5.Qe2 Qd4": {
+    "name": "Zukertort Opening: Tennison Gambit, Brigg's Trap",
+    "strategy": "Walks into a queen check on b5 that hits the loose bishop on f5 and the b7 pawn at once. After the bishop blocks the check, White takes b7 with the queen, attacking both the rook on a8 and the knight on b8."
   }
 }

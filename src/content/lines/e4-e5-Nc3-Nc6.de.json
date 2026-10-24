@@ -35,5 +35,73 @@
   },
   "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6": {
     "strategy": "Entwickelt den Springer und greift e4 an, bereitet einen Zentrumsdurchbruch vor und lässt dem Läufer sein bestes Feld offen. Eine natürliche Antwort, die Schwarz noch auf nichts festlegt."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5 4.fxe5": {
+    "strategy": "Nimmt den Bauern, den Schwarz im Stich gelassen hat, und Schwarz kann ihn nicht sofort zurücknehmen: Nach ...Sxe5 greift d4 Läufer und Springer zugleich an. Weiß steht einen sauberen Bauern vorn, und Schwarz muss das durch Entwicklung ausgleichen."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5 4.fxe5 d6": {
+    "name": "Wiener Gambit, mit Max-Lange-Verteidigung: Quelle-Gambit",
+    "strategy": "Bietet einen zweiten Bauern an, um das Zentrum zu öffnen, bevor Weiß sich konsolidiert, in der Hoffnung auf schnelle Entwicklung und einen Angriff auf den weißen König. Es ist ein spekulatives Gambit: Weiß kann es ablehnen und behält einen materiellen Vorteil."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.Nf3": {
+    "strategy": "Deckt h4, sodass ...Dh4+ den König nicht mehr stört, und entwickelt eine Figur. Die solideste Fortsetzung und die einzige, die ungefähres Gleichgewicht hält; Schwarz muss nun entscheiden, wie er den Mehrbauern hält."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4": {
+    "name": "Wiener Gambit, mit Max-Lange-Verteidigung: Steinitz-Gambit",
+    "background": "Ein Lieblingszug von Wilhelm Steinitz, dem ersten Weltmeister, der bekanntlich die Ansicht vertrat, der König sei eine Kampffigur. Nur wenige heutige Spieler sind bereit, ihren König auf diese Weise zu exponieren, und es wird heute selten gespielt.",
+    "strategy": "Besetzt sofort das Zentrum und lässt der schwarzen Dame das Schach auf h4 zu, sodass der König ziehen muss und Weiß auf die Rochade verzichtet. Dafür hat Weiß das Bauernzentrum und schnelle Entwicklung, doch der König bleibt exponiert. Ein seltener und zweifelhafter Nebenzweig."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+": {
+    "strategy": "Nutzt die Diagonale e1-h4, die der f-Bauer geöffnet hat. Weiß muss den König ziehen und das Rochaderecht verlieren oder noch mehr Material abgeben, sodass Schwarz den weißen König zum Ziel der Partie macht."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2": {
+    "name": "Wiener Gambit, mit Max-Lange-Verteidigung: Steinitz-Gambit, Hauptvariante",
+    "strategy": "Die konsequente Antwort: Weiß nimmt den exponierten König in Kauf für ein großes Bauernzentrum und schnelle Entwicklung mit Tempo gegen die schwarze Dame, auch wenn ein König in der Mitte ein Angriffsziel bleibt."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2 d6": {
+    "name": "Wiener Gambit, mit Max-Lange-Verteidigung: Steinitz-Gambit, Paulsen-Verteidigung",
+    "strategy": "Solide: Der Läufer auf c8 wird frei und kann einen Springer auf f3 gegen den König fesseln, sobald dieser dort steht. Schwarz behält den Mehrbauern und entwickelt sich gegen den gestrandeten König."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2 d5": {
+    "name": "Wiener Gambit, mit Max-Lange-Verteidigung: Steinitz-Gambit, Zukertort-Verteidigung",
+    "strategy": "Greift sofort den Bauern e4 an und versucht, das Zentrum zu öffnen, solange der weiße König auf e2 festsitzt. Aktiv, lässt aber die schwarze Dame auf h4 stehen, während sich das Zentrum öffnet."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2 b6": {
+    "name": "Wiener Gambit, mit Max-Lange-Verteidigung: Steinitz-Gambit, Fraser-Minckwitz-Verteidigung",
+    "strategy": "Ein ruhiger Entwicklungszug, der den Weg des Läufers auf die lange Diagonale vorbereitet. Er tut nichts gegen den weißen König, und die Dame auf h4 bleibt ein Ziel für den Springer, der nach f3 kommt."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2 g5": {
+    "name": "Wiener Gambit, mit Max-Lange-Verteidigung: Steinitz-Gambit, Sörensen-Verteidigung",
+    "strategy": "Verteidigt den Bauern f4 und behält das Mehrmaterial, lockert aber die Bauern am Königsflügel um den eigenen König von Schwarz. Der weiße Springer kommt dann mit Tempogewinn gegen die Dame ins Spiel."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2": {
+    "strategy": "Vollendet das Fianchetto: Der Läufer stützt e4 und das ganze Zentrum aus einer sicheren Ecke und steht bereit für die lange Diagonale, sobald sich die Stellung öffnet. Weiß steht solide und behält einen flexiblen Plan."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5": {
+    "strategy": "Ein ausgefallener Versuch, das Fianchetto mit dem h-Bauern anzugreifen. Er gewinnt Raum am Flügel, lockert aber die eigene Königsstellung von Schwarz, bevor der König rochiert hat, und gibt Weiß damit Zeit."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5 5.Nf3": {
+    "strategy": "Entwickelt den Springer und deckt h4 und g5, sodass der h-Bauer geschlagen werden kann, wenn er vorrückt. Außerdem greift er e5 an, das der schwarze Springer verteidigen muss."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5 5.Nf3 h4": {
+    "name": "Wiener Partie: Paulsen-Variante, Mariotti-Gambit",
+    "strategy": "Ein Bauernangebot, das droht, die h-Linie zu öffnen, doch Weiß nimmt es einfach an: Der Springer schlägt auf h4, und die schwarze Dame kann nicht zurücknehmen, weil der Bauer g3 das Feld deckt. Schwarz bekommt wenig für den Bauern."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2": {
+    "strategy": "Vollendet das Fianchetto: Der Läufer stützt e4 aus einer sicheren Ecke und steht bereit für die lange Diagonale, falls sich das Zentrum öffnet. Ein solider Aufbau, der Weiß flexibel lässt."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5": {
+    "strategy": "Entwickelt den Läufer auf die aktive Diagonale, mit Druck auf f2 und der Möglichkeit, e4 sofort herauszufordern. Das hält den Aufbau von Schwarz flexibel."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2": {
+    "strategy": "Entwickelt den Königsspringer nach e2 statt nach f3, sodass der Läufer auf g2 seine Diagonale behält und der f-Bauer frei vorrücken kann. Der Springer deckt d4 und f4 und lässt den Springer auf c3 an seinem Platz."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2 d5": {
+    "name": "Wiener Partie: Paulsen-Variante",
+    "strategy": "Der thematische Zentrumsdurchbruch, der zugleich e4 und die lange Diagonale angreift. Er bietet einen Bauern an: Weiß kann schlagen, und der Läufer auf g2 macht das Zurücknehmen auf d5 für Schwarz unbequem. Scharf, aber etwas optimistisch."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2 d5 6.exd5": {
+    "name": "Wiener Partie: Paulsen-Variante, Pollock-Gambit",
+    "strategy": "Nimmt den Bauern, und das Zurücknehmen funktioniert für Schwarz nicht: Nach ...Sxd5 Sxd5 kann die Dame nicht zurücknehmen, weil der Läufer auf g2 auf d5 zielt. Weiß steht einen Bauern vorn, auch wenn Schwarz aktives Figurenspiel bekommt."
   }
 }

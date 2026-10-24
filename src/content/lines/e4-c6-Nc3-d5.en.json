@@ -19,6 +19,7 @@
     "strategy": "Takes the pawn at once, so White must recapture or play on a pawn down. Black gets the first say in the type of game, and White's slow set-up has no obvious way to claim it back with interest."
   },
   "1.e4 c6 2.Nc3 d5 3.Nf3 Bg4": {
+    "name": "Caro–Kann Defence: Two Knights Attack, Mindeno Variation",
     "strategy": "Develops Black's problem bishop outside the pawn chain before it can be shut in, and pins the f3 knight against the queen. The logical reply: White has to decide what to do about the pin, and Black can trade the bishop for the knight or keep the tension."
   },
   "1.e4 c6 2.Nc3 d5 3.Nf3 dxe4": {
@@ -26,5 +27,25 @@
   },
   "1.e4 c6 2.Nc3 d5": {
     "name": "Caro–Kann Defence"
+  },
+  "1.e4 c6 2.Nc3 d5 3.d3 dxe4 4.Bg5": {
+    "name": "Caro–Kann Defence: Scorpion-Horus Gambit",
+    "strategy": "A gambit: White leaves e4 alone and develops the bishop outside the pawn chain with a pawn down. Nothing is under real threat, since Black's pieces easily guard e7, so Black keeps the extra pawn and the bishop is soon driven away."
+  },
+  "1.e4 c6 2.Nc3 d5 3.Nf3 Bg4 4.h3": {
+    "strategy": "Asks the bishop to decide. Black must give up the bishop for the knight and hand White the bishop pair, or retreat and keep the pin, in which case the bishop can be harassed. Either way White gets the choice between quiet and sharp play."
+  },
+  "1.e4 c6 2.Nc3 d5 3.Nf3 Bg4 4.h3 Bxf3": {
+    "name": "Caro–Kann Defence: Two Knights Attack, Mindeno Variation, Exchange Line",
+    "strategy": "Ends the pin for good by trading the bishop for the knight. Black concedes the bishop pair but keeps a solid pawn structure, so the task is to neutralise the bishops with sound development."
+  },
+  "1.e4 c6 2.Nc3 d5 3.Nf3 Bg4 4.h3 Bh5": {
+    "name": "Caro–Kann Defence: Two Knights Attack, Mindeno Variation, Retreat Line",
+    "background": "In Noteboom–Mindeno 1927, Black lost quickly after retreating the bishop to h5.",
+    "strategy": "Keeps the bishop and the pin instead of surrendering the bishop pair, but the bishop stands on a square where a pawn push attacks it again and it risks running short of safe squares. Playable, yet Black must be accurate and trading on f3 is simpler."
+  },
+  "1.e4 c6 2.Nc3 d5 3.Nf3 dxe4 4.Ng5": {
+    "name": "Caro–Kann Defence: Hector Gambit",
+    "strategy": "Attacks e4 a second time and eyes f7, hoping to win the pawn back. But the knight moves twice in the opening, and the pawn could simply have been regained with Nxe4, so the move offers little over the normal recapture."
   }
 }

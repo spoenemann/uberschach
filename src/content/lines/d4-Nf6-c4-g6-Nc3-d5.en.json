@@ -45,6 +45,8 @@
     "strategy": "Attacks the bishop and the c3 knight at once. Black challenges the pressure on d5 by offering to trade off the c3 knight that presses on it, and keeps the initiative in the centre: White must retreat the bishop or exchange pieces."
   },
   "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5": {
+    "name": "Grünfeld Defence: Exchange Variation",
+    "background": "The most frequent continuation of the Grünfeld Defence.",
     "strategy": "The natural recapture, and the Grünfeld bet: the knight steps into the centre and invites White to build a large pawn centre with e4. Black will attack that centre from the wings and the long diagonal instead of occupying it."
   },
   "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.e3 Bg7": {
@@ -54,6 +56,162 @@
     "strategy": "Hits d4 at once, before the pawn on f3 can support an e4 centre. The pawn on d4 is defended only by the queen, so White must decide the centre now, while f3 has weakened the king's diagonal."
   },
   "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7": {
+    "name": "Grünfeld Defence: Three Knights Variation",
     "strategy": "Completes the fianchetto and prepares castling. The d5 pawn is guarded by the knight and the queen, so Black can let White choose how to proceed, and the bishop is ready for the long diagonal when the f6 knight moves."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.e3": {
+    "strategy": "Supports d4 and the bishop on f4, and opens the f1-bishop to guard c4. White plays for the initiative on the queenside with a smaller, safer pawn centre rather than the big one that cxd5 and e4 would build."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.Rc1": {
+    "strategy": "Brings the rook to the c-file at once, but leaves c4 unprotected: the f1-bishop is still shut in by the e2 pawn, so Black may simply take on c4 and White has to justify the pawn. Black can also castle and let White play e3 next."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.e3 O-O": {
+    "name": "Grünfeld Defence: Brinckmann Attack, Grünfeld Gambit",
+    "strategy": "Castles and lets the centre tension stand. If White takes on d5, the queen's recapture later leaves the c7 pawn to fall, but Black gets quick development and pressure on d4 in return. A gambit that asks White to accept it, instead of the more usual immediate counter-strike in the centre."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.Rc1 O-O": {
+    "strategy": "Castles before anything else. The king is safe whichever way the centre is settled, and Black does not need to take the loose c4 pawn to be comfortable: White's e3 will close the gap and bring the same quiet set-up as with e3 first."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.e3 O-O 6.Rc1": {
+    "name": "Grünfeld Defence: Brinckmann Attack, Grünfeld Gambit, Capablanca Variation",
+    "strategy": "Declines the gambit and puts the rook on the c-file, where it will look down the file when the position opens. White keeps the bishop on f4 and the pawn on e3 solid and avoids the sharp line in which Black's pieces come alive for the pawn on c7."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.e3 O-O 6.cxd5": {
+    "strategy": "Accepts the gambit. After the trades on d5 the queen recaptures and c7 hangs, so White wins a pawn. In return Black develops with tempo and pushes against the d4 pawn, so White has to defend accurately rather than attack."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.e3 O-O 6.cxd5 Nxd5": {
+    "strategy": "The natural recapture: the knight reaches the centre and attacks both the bishop on f4 and the knight on c3. Black accepts that a queen recapture on d5 will leave c7 unguarded: that is the pawn Black has offered."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.e3 O-O 6.Rc1 c5": {
+    "strategy": "The standard counter-strike: Black hits d4 at once, before White has settled. If White takes on c5, the position opens and Black's pieces get active play against the c3 knight; if White holds d4, Black can trade the central pawn and free the bishop on g7."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.Rc1 O-O 6.e3": {
+    "strategy": "Closes the gap: the pawn supports d4 and the bishop on f4, and the f1-bishop at last guards the c4 pawn. White reaches the same quiet set-up as with e3 first, with the rook already placed on the c-file, and declines any sharp play."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bg5 Ne4 5.Nxe4": {
+    "strategy": "Trades knights instead of retreating the bishop. The recapture ...dxe4 gives Black a pawn on e4 that gains space and cramps White's kingside; the pawn is also a target, but White has given up the knight that pressed on d5."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bg5 Ne4 5.Nxe4 dxe4": {
+    "strategy": "The only sensible recapture, and a good one: the pawn takes space on e4, removes the pressure on d5, and cramps White's kingside development. The pawn is a point of tension, because White can attack it, so Black must keep it supported."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bg5 Ne4 5.Nxe4 dxe4 6.Qd2": {
+    "strategy": "Protects the bishop on g5 and the d4 pawn in one move, and clears the d1 square so that White can castle long. White develops calmly and plans to undermine the pawn on e4 rather than hurry."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bg5 Ne4 5.Nxe4 dxe4 6.Qd2 c5": {
+    "name": "Grünfeld Defence: Lundin Variation",
+    "strategy": "Strikes at d4 straight away: with the queen on d8 also looking at it, the pawn is attacked twice and defended only by the queen. White must resolve the centre now, while Black keeps the cramping pawn on e4."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.e4": {
+    "strategy": "Kicks the knight and builds the broad pawn centre in one go, exactly what Black has invited. White gets space and the initiative, but must keep the centre together under attack, since the pawns on d4 and e4 become the targets."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.Na4": {
+    "name": "Grünfeld Defence: Exchange Variation, Nadanian Attack",
+    "background": "Named after Ashot Nadanian, who first played it in 1996. His analysis, published in volume 67 of Chess Informant, caused major ripples in the chess world.",
+    "strategy": "Puts the knight on the edge to control c5 and discourage ...c5, Black's usual way of attacking the centre. The knight loses time, but e4 then wins it back by driving the d5 knight away. A deliberate challenge to the usual plans."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.e4 Nxc3": {
+    "strategy": "Takes the knight before it is driven away. White must recapture, which gives White the big centre but leaves a pawn on c3 that will be a long-term target, and Black's pieces aim at exactly that."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.e4 Nxc3 6.bxc3": {
+    "strategy": "Recaptures with the b-pawn, completing the large centre of pawns on c3, d4 and e4. White gets space and a free hand for the pieces, at the cost of a weak c3 pawn and a lonely a-pawn, so the centre has to stay active."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.e4 Nxc3 6.bxc3 Bg7": {
+    "strategy": "Aims the bishop along the long diagonal at the d4 pawn, the base of the white centre, and prepares castling. Black attacks the centre from a distance, and more pressure from the pieces will follow."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.e3 Bg7 5.Qb3": {
+    "strategy": "Guards c4 again and eyes b7, planning to regain the pawn at once if Black takes on c4. But the queen comes out before the pieces and spends time, so Black gets a free hand to take the pawn and then complete development."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.e3 Bg7 5.Qb3 dxc4": {
+    "strategy": "Takes the pawn rather than defend d5 passively. White regains it, but the queen on b3 and the time spent give Black the chance to castle and complete development, with a healthy structure and a freer game."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.e3 Bg7 5.Qb3 dxc4 6.Bxc4": {
+    "strategy": "Regains the pawn with a developing move, and the bishop eyes f7 with the queen behind it on b3. White's pieces aim at the kingside; Black has to meet the pressure on f7 before anything else."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.e3 Bg7 5.Qb3 dxc4 6.Bxc4 O-O": {
+    "strategy": "Castles and adds the rook and king as defenders of f7, the point at which the bishop and the queen are aimed. Black's development is level, and Black can now play against d4 and the white queenside with the king safe."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.f3 c5 5.cxd5": {
+    "strategy": "Resolves the tension in the centre at once. After the recapture White can drive the knight away with e4, which the pawn on f3 supports, and fight for a broad centre."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.f3 c5 5.cxd5 Nxd5": {
+    "strategy": "Recaptures with the knight, centralising it and attacking the c3 knight. Together with the pawn on c5 hitting d4, Black has pressure on the centre at once, and White's plan of building it with e4 has to be paid for."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.f3 c5 5.cxd5 Nxd5 6.Na4": {
+    "name": "Grünfeld Defence: Lutikov Variation, Murrey Attack",
+    "background": "A modified version of Ashot Nadanian's idea of Na4, it has been called the Neo-Nadanian.",
+    "strategy": "Attacks the c5 pawn a second time: with d4 and the knight on it, and nothing guarding it, Black must resolve the tension at once. The knight stands on the edge, but the move gains a tempo."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Qb3": {
+    "name": "Grünfeld Defence: Russian Variation",
+    "strategy": "Piles pressure on d5 and b7 and practically forces ...dxc4, after which White gets a lead in the centre. The price is that the queen is exposed on c4 as Black's queenside play unfolds. A sharp, principled test of the d5 pawn."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Bg5": {
+    "name": "Grünfeld Defence: Three Knights Variation, Petrosian System",
+    "background": "Also known as the Taimanov Variation, it is a line favoured by Yasser Seirawan.",
+    "strategy": "Attacks the knight on f6, the main guard of d5, so that taking on d5 gets stronger. White develops with a threat to trade off that guard, and Black must answer the bishop actively, or accept a weakened grip on the centre."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Bf4": {
+    "name": "Grünfeld Defence: Three Knights Variation, Hungarian Attack",
+    "background": "The 1956 \"Game of the Century\" between Donald Byrne and the 13-year-old Bobby Fischer featured this opening, arriving in it by a transposition of moves.",
+    "strategy": "Develops the bishop outside the pawn chain, eyeing c7, and keeps the d4 pawn under the protection of the knight. White avoids the big centre that cxd5 and e4 would build and plays for a flexible, solid set-up."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.e3": {
+    "name": "Grünfeld Defence: Three Knights Variation, Burille Variation",
+    "strategy": "A quiet, solid set-up: the pawn supports d4, opens the f1-bishop to guard c4, and prepares castling. White concedes the initiative to the black fianchetto, but the structure is sound and the game turns on slow manoeuvring."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.cxd5": {
+    "strategy": "Resolves the tension at once and prepares to build the large centre with e4. With the knight already on f3 the plan is less comfortable than usual: Black can pin the knight and attack the d4 pawn quickly."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Qa4+": {
+    "name": "Grünfeld Defence: Flohr Variation",
+    "strategy": "Gives check and adds to the pressure on d5, but the queen is out early and Black can block with a developing move, such as a bishop that hits the queen at once. The check gains little and the queen has to find another square."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Bf4 O-O": {
+    "strategy": "Castles at once. The bishop on f4 attacks only c7, which the queen guards, so Black needs nothing special, and the king is safe before the centre opens. Black keeps the Grünfeld counter-strike ...c5 in reserve."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.e3 O-O": {
+    "strategy": "Castles before anything else. White's quiet set-up has made no threat, so Black completes development with the king safe and keeps the choice of how to strike at the centre for later."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Qb3 dxc4": {
+    "strategy": "Takes the pawn, since defending d5 passively gives White the better game. Black gives up the centre for activity: White regains the pawn on c4 with the queen and gets a lead in the centre, but the queen is exposed to Black's play on the queenside."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.cxd5 Nxd5": {
+    "strategy": "Recaptures with the knight, which frees f6 for the g7 bishop and brings the bishop to bear on d4. Black invites White to kick the knight with e4 and take a large pawn centre, and then attacks that centre: the central idea of the defence."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Bf4 O-O 6.e3": {
+    "name": "Grünfeld Defence: Three Knights Variation, Hungarian Variation",
+    "strategy": "Supports the bishop on f4 and d4, and opens the f1-bishop to guard c4. White keeps a modest, solid centre and plays against Black's queenside, with castling next."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.cxd5 Nxd5 6.e4": {
+    "strategy": "Kicks the knight and takes a broad pawn centre with tempo. White gains space and the initiative for now, and the whole point of the defence is that this centre becomes a target: Black will attack d4 and the pawns behind it."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.cxd5 Nxd5 6.e4 Nxc3": {
+    "strategy": "Trades the attacked knight rather than retreating, which leaves White a full pawn centre but without the knight that supported it. Black now attacks that centre with the g7 bishop and the c-pawn; the centre must prove strong rather than a target."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.e3 O-O 6.b4": {
+    "name": "Grünfeld Defence: Makogonov Variation",
+    "strategy": "Gains queenside space and takes c5 away from Black, the usual square for the central counter-strike. White commits to a plan on the queenside, but the pawn on b4 is loose and can become a target."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.e3 O-O 6.Qb3": {
+    "name": "Grünfeld Defence: Three Knights Variation, Vienna Variation",
+    "strategy": "Hits d5 and b7 together and asks Black to declare a plan in the centre. The queen comes out early, but the e3 pawn solidifies the centre, and the queen is safe on b3 for now."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.e3 O-O 6.Bd2": {
+    "name": "Grünfeld Defence: Opocensky Variation",
+    "strategy": "A modest developing move that lets White recapture on c3 with the bishop, avoiding doubled or isolated pawns if the knights are traded. It is solid but slow, and Black gets time to build up the centre play."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.e3 O-O 6.Bd3": {
+    "name": "Grünfeld Defence: Three Knights Variation, Paris Variation",
+    "strategy": "Develops the bishop actively and keeps c4 guarded, so ...dxc4 would only cost Black a tempo against the recapture. But the bishop stands in front of the queen on d3, and White gives the centre little extra pressure."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.e3 O-O 6.Qb3 e6": {
+    "name": "Grünfeld Defence: Botvinnik Variation",
+    "strategy": "Holds d5 with a pawn, and the structure is solid. The cost is a passive bishop on c8, shut in behind the e6 pawn, so Black has to find activity elsewhere."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Qb3 dxc4 6.Qxc4": {
+    "strategy": "Regains the pawn at once and leaves White with the bigger share of the centre. The cost is a queen standing in the open on c4, where Black's pieces can attack it with tempo; Black accepts a smaller centre in exchange for that active play."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Qb3 dxc4 6.Qxc4 O-O": {
+    "strategy": "Gets the king to safety and leaves the g7 bishop free to work on the long diagonal. Black lets White take a broad pawn centre and plans to undermine it with pieces and queenside play, using the exposed queen on c4 as a target for tempo moves."
   }
 }

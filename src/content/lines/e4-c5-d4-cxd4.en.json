@@ -17,6 +17,7 @@
     "name": "Sicilian Defence: Halasz Gambit"
   },
   "1.e4 c5 2.d4 cxd4 3.c3 dxc3": {
+    "name": "Sicilian Defence: Smith-Morra Gambit Accepted",
     "strategy": "Accepts the gambit: Black wins a pawn and has a d- and e-pawn against White's lone e-pawn in the centre, but must now finish development against open lines. The task is to untangle safely and, ideally, to keep the extra pawn into the endgame."
   },
   "1.e4 c5 2.d4 cxd4 3.c3 Nf6": {
@@ -32,6 +33,7 @@
     "name": "Sicilian Defence: Smith-Morra Gambit Declined, Centre Formation"
   },
   "1.e4 c5 2.d4 cxd4 3.c3 d3": {
+    "name": "Sicilian Defence: Smith-Morra Gambit Declined, Push Variation",
     "strategy": "Hands the pawn straight back, so Black never has to defend against a gambit. The price is a passive position: White takes on d3, builds pawns on c4 and e4 that clamp d5, and has more space, though Black stays flexible and sound."
   },
   "1.e4 c5 2.d4 cxd4 3.c3 Qa5": {
@@ -43,5 +45,143 @@
   },
   "1.e4 c5 2.d4 cxd4 3.Qxd4 Nc6": {
     "strategy": "Wins a tempo by attacking the queen, which must move again while Black develops. Black gets the initiative and takes the sting out of White's first-move advantage."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 d3 4.c4": {
+    "name": "Sicilian Defence: Smith-Morra Gambit Declined, Dubois Variation",
+    "strategy": "Puts the centre before the pawn: the black pawn on d3 is attacked twice and has no defender, and with pawns on c4 and e4 White also clamps the d5 square. White regains the pawn with a space advantage, a solid and slightly better position with little risk."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3": {
+    "strategy": "Retakes with a developing move. White has now moved both centre pawns, so both bishops are free, and the pawn bought quick pieces and play on the open c- and d-files; Black is a pawn up but has no piece out and two bishops locked behind pawns."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nf3": {
+    "name": "Sicilian Defence: Smith-Morra Gambit Accepted, Danish Variation",
+    "strategy": "Offers a second pawn: after ...cxb2 the recapture Bxb2 gives White a bishop on the long diagonal and quick development, but only for two pawns. That is too much to give for the compensation; Black simply takes and keeps a clear material edge."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6": {
+    "strategy": "The most flexible reply: it develops a piece and controls d4 and e5, so White cannot push the e-pawn yet, and Black can later develop the king's bishop without Qd4 hitting b4 and g7. Black starts the task of untangling against White's lead in development."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 d6": {
+    "strategy": "Controls e5 so White cannot gain space there, and opens the diagonal of the queen's bishop. It builds a compact pawn wall, but it commits the d-pawn before any piece is out, so Black still has all of its development to do against White's lead."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 e6": {
+    "strategy": "Opens the king's bishop and covers d5, a solid reply that also softens the bishop's pressure on f7 in advance. The king stays in the centre, though, and a knight sacrifice on d5 that opens the e-file is always a tactical idea for White."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 g6": {
+    "name": "Sicilian Defence: Smith-Morra Gambit Accepted, Fianchetto Defence",
+    "strategy": "Heads for a fianchetto, where the bishop on g7 pressures the knight on c3 along the long diagonal. Sound but slow: a flank pawn move while White is already developing, and if ...e6 follows as well the dark squares around the king become weak."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 d6 5.Nf3": {
+    "strategy": "Natural development: the knight covers d4 and e5 and clears the way to castle. White has no need to hurry, since each developing move adds to the lead for the pawn, while Black still has to find a safe formation for its pieces."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 d6 5.Nf3 e6": {
+    "strategy": "Opens the king's bishop and builds a solid d6-e6 pawn pair that covers d5 and e5. Black aims to complete development and castle before White's lead can be used, accepting a slightly passive position for the extra pawn."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 d6 5.Nf3 g6": {
+    "name": "Sicilian Defence: Smith-Morra Gambit Accepted, Fianchetto Defence",
+    "strategy": "Heads for a fianchetto and a bishop aimed at the knight on c3. Sound, but a slow flank pawn move while White's pieces come out, and the white bishop will soon target f7 with no pawn yet in its way."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 d6 5.Nf3 e6 6.Bc4": {
+    "strategy": "The natural developing move: the bishop controls d5, pressures the e6 pawn and clears the way to castle. White's lead in development grows, while Black's solid pawns leave the queen's bishop boxed in behind e6."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 d6 5.Nf3 e6 6.Bc4 Nf6": {
+    "strategy": "Develops the knight with pressure on e4 and prepares castling. Black's fight is to get the king safe while the extra pawn is still on the board, and the solid pawn pair on d6 and e6 gives the pieces cover to do it."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 d6 5.Nf3 e6 6.Bc4 a6": {
+    "strategy": "Takes b5 away from White's knight and bishop and prepares ...b5 to drive the bishop back, building queenside counterplay. It is a flank pawn move, though, so Black's king stays in the centre a move longer than with a developing move."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 e6 5.Nf3": {
+    "strategy": "Develops the knight to its natural square without committing the bishop, which keeps its options open. Black has no piece out yet and must choose a pawn structure while White gets ready to castle."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 e6 5.Bc4": {
+    "strategy": "Develops the bishop at once, pressuring e6 and controlling d5 while White heads for quick castling. Placing it before the knight shows Black what is coming, and Black can use the time to gain queenside space."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 e6 5.Bc4 a6": {
+    "strategy": "Takes b5 away from the knight and bishop and prepares ...b5 to gain queenside space with tempo against the bishop. It is slow while White leads in development, but the pawns on e6 and a6 give Black a flexible position with several plans."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 e6 5.Nf3 d6": {
+    "strategy": "Takes control of e5 and frees the queen's bishop, reaching the same compact d6-e6 structure as the lines where ...d6 comes first. Black has spent a move on a pawn rather than a piece, so development must now catch up."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 e6 5.Nf3 a6": {
+    "name": "Sicilian Defence: Smith-Morra Gambit Accepted, Kan Formation",
+    "strategy": "Prevents Nb5 and Bb5 and prepares queenside expansion, keeping all pawn structures and the knight's squares open. No piece comes out, though, so White uses the time to bring the bishop out and castle."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 e6 5.Bc4 a6 6.Nf3": {
+    "strategy": "Completes the kingside development, so castling is next. White's pieces bear on the open centre and the c- and d-files, while Black's queen's bishop and king's knight are still at home."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 e6 5.Bc4 a6 6.Nf3 Ne7": {
+    "name": "Sicilian Defence: Smith-Morra Gambit Accepted, Taimanov Formation",
+    "strategy": "Develops the knight where it guards d5 and avoids ...Nf6, which would offer White's e-pawn a free push. But it blocks the king's bishop, and a white bishop on g5 can then force Black to weaken the kingside to keep developing."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3": {
+    "strategy": "The standard development: the knight covers d4 and e5, prepares castling and keeps the bishop's square open. Black must untangle against a lead in development, with the extra pawn as its compensation."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Bc4": {
+    "strategy": "Aims the bishop at f7 at once, where only the king defends it, so Black normally closes the diagonal with a pawn before developing further. White gets quick pressure and early castling for little cost."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Bc4 e6": {
+    "strategy": "Blocks the bishop's diagonal to f7 with a pawn that also covers d5, and opens the king's bishop. It is the solid answer; the pawn on e6 now faces the bishop, and Black's queen's bishop is still shut in behind the d7 pawn."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3 e6": {
+    "strategy": "The main reply: it opens the king's bishop and, once the white bishop reaches c4, shields f7 behind a pawn. Black reaches the position where the choice of set-up is made, with a solid pawn on e6."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3 d6": {
+    "strategy": "Controls e5 and frees the queen's bishop, a classical and flexible set-up. It leaves f7 guarded only by the king for now, so Black has to take care of that square once the bishop arrives on c4."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3 g6": {
+    "name": "Sicilian Defence: Smith-Morra Gambit Accepted, Fianchetto Defence",
+    "strategy": "A small sideline: the bishop on g7 will pressure the knight on c3, but the pawn move weakens the dark squares around the king, and White can open the kingside with the h-pawn. It also makes ...e6 unwise, since the dark squares would be too weak."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Bc4 e6 6.Nf3": {
+    "strategy": "Completes the kingside development and prepares castling, reaching the main set-up of the gambit by the other move order. White has the more active pieces, and Black has to decide how to arrange its pawns and bishops."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Bc4 e6 6.Nf3 d6": {
+    "name": "Sicilian Defence: Smith-Morra Gambit Accepted, Scheveningen Formation",
+    "strategy": "Opens the diagonal of the queen's bishop and controls e5 with a compact d6-e6 pawn pair, a solid way to arrange the pawns. Black is ready to castle and to free the position later with a central break, and the extra pawn promises a good endgame if the attack is survived."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Bc4 e6 6.Nf3 Qc7": {
+    "name": "Sicilian Defence: Smith-Morra Gambit Accepted, Siberian Variation",
+    "strategy": "Puts the queen on the diagonal that eyes h2. It sets a trap: after ...Nf6, castling and Qe2, the knight jump ...Ng4 makes the natural h3 lose decisive material to ...Nd4, with Qh2 mate threatened."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Bc4 e6 6.Nf3 Bc5": {
+    "name": "Sicilian Defence: Smith-Morra Gambit Accepted, Morphy Defence",
+    "strategy": "Develops the bishop to an active square, eyeing f2 and the white king's shelter. The price is that the bishop becomes a target for a knight on a4, and the king stays in the centre a little longer."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Bc4 e6 6.Nf3 a6": {
+    "name": "Sicilian Defence: Smith-Morra Gambit Accepted, Paulsen Formation",
+    "strategy": "Prevents Nb5 and Bb5 and prepares queenside space with ...b5, keeping both bishops' routes open. It is slower than a developing move, so Black relies on the solid pawns to hold while the king is uncastled."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Bc4 e6 6.Nf3 Bb4": {
+    "name": "Sicilian Defence: Smith-Morra Gambit Accepted, Pin Defence",
+    "strategy": "Pins the knight on c3 to the king, so it cannot jump to d5 or b5, and prepares to trade the bishop for it and damage White's pawns. Black removes an active piece, but spends another tempo on the bishop while White castles and keeps the initiative."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3 d6 6.Bc4": {
+    "strategy": "The bishop goes to its best diagonal at once, aiming at f7 where only the king defends it, and clears the way to castle. Black has to deal with that pressure before anything else."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3 d6 6.Bc4 e6": {
+    "strategy": "Closes the diagonal to f7 with a pawn and sets up the compact d6-e6 structure; the position is the same as with the other move order. Black plans to finish development and castle, trusting the solid structure to absorb the pressure."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3 d6 6.Bc4 a6": {
+    "strategy": "Delays ...e6 so that the queen's bishop can leave first, for g4, instead of being locked behind the e6 pawn, and takes b5 away from White's pieces. The cost is that f7 stays under the bishop's pressure in the meantime."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3 d6 6.Bc4 g6": {
+    "name": "Sicilian Defence: Smith-Morra Gambit Accepted, Fianchetto Defence",
+    "strategy": "Fianchetto: the bishop on g7 pressures c3 and Black can castle quickly. But f7 is still under the bishop's eye, Black lacks the flexible ...e6 structure, and playing ...e6 later would weaken the dark squares."
+  },
+  "1.e4 c5 2.d4 cxd4 3.c3 dxc3 4.Nxc3 Nc6 5.Nf3 e6 6.Bc4": {
+    "strategy": "The Morra bishop: it eyes e6 and the d5 square, where a knight sacrifice can tear the position open. White is a pawn down but ahead in development, with open lines for the rooks; Black must develop accurately to keep the extra pawn."
+  },
+  "1.e4 c5 2.d4 cxd4 3.Nf3 e5 4.c3": {
+    "name": "Sicilian Defence: Morphy Gambit, Andreaschek Gambit",
+    "strategy": "A gambit in the Morra spirit: if Black takes on c3 and White recaptures with the knight, White is a pawn down for quicker development and open lines. If Black does not take, the c3 pawn attacks d4 at once, so Black has to decide immediately."
+  },
+  "1.e4 c5 2.d4 cxd4 3.Qxd4 Nc6 4.Qd1": {
+    "strategy": "Retreats to safety but undoes the work: the queen is back on its home square and White has only advanced the e-pawn, while Black has a developed knight. The pawn is regained and material is level, but Black has the easier game."
+  },
+  "1.e4 c5 2.d4 cxd4 3.Qxd4 Nc6 4.Qd1 Nf6": {
+    "strategy": "Develops with a second tempo by attacking the e4 pawn, which nothing defends yet. White has to spend another move on it, and Black keeps the lead in development."
+  },
+  "1.e4 c5 2.d4 cxd4 3.Qxd4 Nc6 4.Qd1 Nf6 5.Bc4": {
+    "name": "Sicilian Defence: Coles Sicilian Gambit",
+    "strategy": "Offers the e4 pawn, which the knight on f6 already attacks, for a bishop aimed at f7. A gambit with little behind it: Black can simply take the pawn, and White has to make the pressure on f7 count at once."
   }
 }

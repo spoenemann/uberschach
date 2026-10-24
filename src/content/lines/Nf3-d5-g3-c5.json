@@ -1,5 +1,5 @@
 {
-  "about": "After 1.Nf3 d5 2.g3 c5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.Nf3 d5 2.g3 c5: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.Nf3 d5 2.g3 c5",
@@ -22,6 +22,82 @@
           "rating": 4
         }
       ]
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 c5 3.Bg2 Nc6",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 c5 3.Bg2 Nc6 4.d4",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 c5 3.Bg2 Nc6 4.d4 e6",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 c5 3.Bg2 Nc6 4.d4 e6 5.O-O"
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 c5 3.Bg2 Nc6 4.d4 Nf6",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 c5 3.Bg2 Nc6 4.d4 Nf6 5.O-O"
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 c5 3.Bg2 Nf6",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 c5 3.Bg2 Nf6 4.O-O",
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 c5 3.Bg2 Nf6 4.O-O e6",
+      "moves": [
+        {
+          "san": "d3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.Nf3 d5 2.g3 c5 3.Bg2 Nf6 4.O-O e6 5.d3"
     }
   ]
 }

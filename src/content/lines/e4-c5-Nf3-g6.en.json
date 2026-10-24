@@ -23,10 +23,102 @@
     "strategy": "Trades the c-pawn for White's d-pawn, the whole point of the Sicilian: Black gets a half-open c-file and a central pawn majority against White's lone e-pawn. In return White recaptures with a lead in development that Black must be ready to counter."
   },
   "1.e4 c5 2.Nf3 g6 3.d4 Bg7": {
+    "name": "Sicilian Defence: Hyperaccelerated Pterodactyl",
     "strategy": "Completes the fianchetto and leaves c5 attacked on purpose: if White takes it, the queen check on a5 wins the pawn back. It sidesteps the main trades of the open game, but costs an early queen move and leads to a less common kind of game."
   },
   "1.e4 c5 2.Nf3 g6 3.d4 f5": {
     "strategy": "Strikes at e4 at once, but leaves c5 attacked and weakens the king's diagonal. White can simply take: after 4.exf5 gxf5 5.dxc5 White is a pawn up and Black's kingside structure is loosened.",
     "name": "Sicilian Defence: Frederico Variation"
+  },
+  "1.e4 c5 2.Nf3 g6 3.c3 Bg7 4.d4": {
+    "strategy": "Carries out the point of 3.c3: if Black takes, the c-pawn recaptures and White has pawns on d4 and e4, a big centre supported by the knight and queen. The e4 pawn becomes the target of Black's ...d5, so the fight is about whether that centre holds or is undermined."
+  },
+  "1.e4 c5 2.Nf3 g6 3.c3 Bg7 4.d4 Qa5": {
+    "name": "Pterodactyl Defence: Western, Pterodactyl",
+    "strategy": "Brings the queen out early to press on c3 and the e1-a5 diagonal. The c3 pawn is well defended by the b-pawn and the knight, so Black has no concrete gain for the time spent, and White simply goes on developing."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.dxc5": {
+    "strategy": "Takes the pawn at once. No black piece can recapture it, so Black regains it with the queen check on a5; the d-pawn for the c-pawn then leaves a balanced game, with Black's queen out early."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Nc3": {
+    "strategy": "The natural developing move: it defends e4 and brings a piece towards the centre. It also steps onto the diagonal of Black's queen, which ...Qa5 pins against the king, exactly what Black's set-up aims at."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Be3": {
+    "strategy": "Defends d4 with a developing move and prepares to castle queenside. It does not deal with the queen check on a5, however, and White's centre is no better placed than after simply developing the knight."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Bc4": {
+    "strategy": "Aims the bishop at f7 before the centre is settled. Black can trade pawns and check on a5 with tempo, while the bishop on c4 has no follow-up, so White gains little for committing the piece so early."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.dxc5 Qa5+": {
+    "name": "Pterodactyl Defence: Western, Rhamphorhynchus",
+    "strategy": "Regains the pawn with tempo: the check forces White to spend a move, and the queen will pick up c5 afterwards. Black ends with a lead in central pawns and a bishop already aiming down the long diagonal."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Nc3 Qa5": {
+    "name": "Modern Defence: Pterodactyl Variation",
+    "strategy": "Pins the knight against the king and puts pressure on it from the first moment. White must either break the pin or resolve the centre, so Black takes the initiative with a single queen move while the knight, tied to the king, cannot do its job."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Be3 Qa5+": {
+    "name": "Pterodactyl Defence: Western, Anhanguera",
+    "strategy": "Checks at once, forcing White to answer, and defends the attacked pawn on c5 in the same move. Black gets an active queen early and can decide how to resolve the tension in the centre."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Bc4 cxd4": {
+    "strategy": "Settles the centre by trading the c-pawn for the d-pawn. After the recapture the knight on d4 stands in front of the bishop on g7, which Black can exploit with a check, and Black keeps the half-open c-file."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Bc4 cxd4 5.Nxd4": {
+    "strategy": "The natural recapture. The knight stands in the centre, but it is defended only by the queen and attacked by the bishop on g7, which sets up a useful check."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Bc4 cxd4 5.Nxd4 Qa5+": {
+    "name": "Pterodactyl Defence: Western, Siroccopteryx",
+    "strategy": "Checks at once, and the knight on d4 is attacked by the bishop on g7 and defended only by the queen. White must answer the check, so Black gains time to develop while the bishop sits on c4 without a clear job."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.dxc5 Qa5+ 5.Nc3": {
+    "name": "Pterodactyl Defence: Sicilian, Rhamphorhynchus",
+    "strategy": "Blocks the check with a knight that is then pinned to the king, and walks into 5...Bxc3+: after the recapture on c3 the queen takes that pawn with check and wins c5 as well."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.dxc5 Qa5+ 5.Nc3 Bxc3+": {
+    "strategy": "Takes the pinned knight with check. White must recapture, and the doubled pawn on c3 is loose: the queen can take it with check next while the pawn on c5 also hangs."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.dxc5 Qa5+ 5.Nc3 Bxc3+ 6.bxc3": {
+    "name": "Pterodactyl Defence: Sicilian, Pteranodon",
+    "strategy": "The only sensible recapture: anything else leaves White a piece down. The price is a wrecked queenside, since the pawn on c3 is now attacked by the queen and the pawn on c5 is still loose."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.dxc5 Qa5+ 5.Nc3 Bxc3+ 6.bxc3 Qxc3+": {
+    "name": "Sicilian Defence: Hyperaccelerated Pterodactyl, Exchange Variation",
+    "strategy": "Takes the pawn with check; the queen also attacks the rook on a1 and the pawn on c5. White has to block, and Black wins c5 as well, leaving White with the two bishops as the only compensation for a pawn."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Nc3 Qa5 5.Be2": {
+    "strategy": "Develops the king's bishop and prepares castling without creating a weakness. The pin on c3 stays, but the knight is solidly defended by the b-pawn, so White simply completes development and keeps the centre intact."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Nc3 Qa5 5.Bc4": {
+    "name": "Pterodactyl Defence: Sicilian, Siroccopteryx",
+    "strategy": "Develops the bishop to its most active square, aiming at f7 and the kingside before White castles. The pinned knight on c3 is still well defended by the b-pawn, so White loses nothing for the active setup."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Nc3 Qa5 5.Bd2": {
+    "name": "Pterodactyl Defence: Sicilian, Unpin",
+    "strategy": "Breaks the pin by interposing the bishop, so the knight is free again and c3 is defended twice. The price is a passive piece and a lost tempo, and White's development lags behind while the centre stays tense."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Nc3 Qa5 5.Be3": {
+    "name": "Pterodactyl Defence: Sicilian, Anhanguera",
+    "strategy": "Supports the d4 pawn with a developing move and prepares queenside castling, but it leaves the pin in force a while longer. Black can use the time to resolve the centre on favourable terms."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Nc3 Qa5 5.d5": {
+    "name": "Pterodactyl Defence: Sicilian, Benoni Gambit",
+    "strategy": "Opens the long diagonal for Black's bishop: 5...Bxc3+ 6.bxc3 Qxc3+ wins a pawn, and White has only the bishop pair and some extra space in return."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Nc3 Qa5 5.Be2 d6": {
+    "name": "Pterodactyl Defence: Sicilian, Quetzalcoatlus",
+    "strategy": "Takes e5 away from White's pieces and frees the bishop on c8. A solid, flexible move that completes the pawn structure, though the queen is still on a5 and cannot easily find a better square."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 cxd4 4.Nxd4": {
+    "strategy": "The standard Open Sicilian recapture: the knight takes the centre, where it is hard to dislodge. It is defended only by the queen, so it needs support once Black's bishop arrives on g7."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 cxd4 4.Nxd4 Nf6": {
+    "strategy": "Develops with tempo, attacking e4 and forcing White to defend it. It heads for a fianchettoed bishop that stares down the long diagonal at White's queenside, and keeps Black's centre pawn structure flexible."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3": {
+    "strategy": "The natural defence of e4: a piece develops with no concession, and White keeps the strong knight on d4. White has a free choice of set-up, including a kingside attack with queenside castling."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 d6": {
+    "strategy": "Takes e5 away from White's pieces and frees the bishop on c8, giving Black a compact structure for the bishop that is about to be fianchettoed on the long diagonal. It leads to a sharp game in which each side has clear plans on its own wing."
   }
 }

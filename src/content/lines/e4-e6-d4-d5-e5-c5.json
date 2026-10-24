@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 e6 2.d4 d5 3.e5 c5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 e6 2.d4 d5 3.e5 c5: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 e6 2.d4 d5 3.e5 c5",
@@ -62,6 +62,132 @@
     },
     {
       "line": "1.e4 e6 2.d4 d5 3.e5 c5 4.dxc5"
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "Be3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3",
+      "moves": [
+        {
+          "san": "Qb6",
+          "rating": 5
+        },
+        {
+          "san": "Bd7",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Be3"
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Bd7",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Qb6",
+      "moves": [
+        {
+          "san": "a3",
+          "rating": 5
+        },
+        {
+          "san": "Bd3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Qb6 6.a3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Nh6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Qb6 6.Bd3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Stuart_Milner-Barry"
+      ],
+      "moves": [
+        {
+          "san": "cxd4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Qb6 6.a3 Nh6"
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Nc6 5.Nf3 Qb6 6.Bd3 cxd4"
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Qb6",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Qb6 5.Nf3",
+      "moves": [
+        {
+          "san": "Bd7",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.e5 c5 4.c3 Qb6 5.Nf3 Bd7",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e6/2._d4/2...d5/3._e5/3...c5/4._c3/4...Qb6/5._Nf3/5...Bd7"
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.e5 c5 4.Nf3 cxd4",
+      "moves": [
+        {
+          "san": "Bd3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.e5 c5 4.Nf3 cxd4 5.Bd3"
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.e5 c5 4.Qg4 cxd4",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.e5 c5 4.Qg4 cxd4 5.Nf3"
     }
   ]
 }

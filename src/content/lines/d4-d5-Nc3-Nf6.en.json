@@ -30,6 +30,7 @@
     "strategy": "Defends the f6-knight with the other knight, so Bxf6 no longer damages Black's pawns and would only give away the bishop pair. The cost is that the c8-bishop is shut in for the moment, so Black needs a few quiet moves to free the position."
   },
   "1.d4 d5 2.Nc3 Nf6 3.Bg5 Bf5": {
+    "name": "Richter-Veresov Attack",
     "strategy": "Brings the light-squared bishop outside the pawn chain before it can be shut in, and adds a third piece to the fight for e4. Black allows Bxf6 and doubled pawns, but the bishop pair makes up for that, so the game stays level."
   },
   "1.d4 d5 2.Nc3 Nf6 3.Bg5 c5": {
@@ -41,5 +42,39 @@
   },
   "1.d4 d5 2.Nc3 Nf6": {
     "name": "Queen's Pawn Game: Chigorin Variation"
+  },
+  "1.d4 d5 2.Nc3 Nf6 3.Bg5 Bf5 4.f3": {
+    "name": "Richter-Veresov Attack: Richter Variation",
+    "background": "Named after Kurt Richter, who usually continued with 4.f3 against 3...Bf5.",
+    "strategy": "Supports e4 so that White can build a broad pawn centre and push the bishop and knight back. The price is a loosened kingside and the knight on g1 losing its best square, so White has to be sure the centre advance works."
+  },
+  "1.d4 d5 2.Nc3 Nf6 3.Bg5 Bf5 4.Bxf6": {
+    "name": "Richter-Veresov Attack: Veresov Variation",
+    "background": "Named after Gavriil Veresov, who usually played 4.Bxf6 against 3...Bf5.",
+    "strategy": "Takes the knight to double Black's f-pawns after the recapture. The doubled pawns are not a large weakness, since Black keeps the bishop pair, so White plays a slow positional game and tries to trade off the light-squared bishops."
+  },
+  "1.d4 d5 2.Nc3 Nf6 3.Bg5 c5 4.Bxf6": {
+    "strategy": "Takes the knight at once: whichever pawn recaptures, Black ends up with doubled f-pawns. White gives up the bishop for a knight to cause that structural damage, and accepts that Black gets the bishop pair in return."
+  },
+  "1.d4 d5 2.Nc3 Nf6 3.Bg5 c5 4.Bxf6 gxf6": {
+    "strategy": "Recaptures with the g-pawn, which keeps the c-, d- and e-pawns in the centre and opens the g-file for the rook. The kingside is left with doubled f-pawns and an isolated h-pawn, a structural cost Black accepts for central control and the bishop pair."
+  },
+  "1.d4 d5 2.Nc3 Nf6 3.Bg5 c5 4.Bxf6 gxf6 5.e4": {
+    "strategy": "Attacks d5 a second time, so it is hit by the pawn and the knight and defended only by the queen. White tries to open the centre while Black's kingside pawns are damaged and Black's king is not yet safe."
+  },
+  "1.d4 d5 2.Nc3 Nf6 3.Bg5 c5 4.Bxf6 gxf6 5.e4 dxe4": {
+    "strategy": "Takes the pawn and removes the double attack on d5, but the pawn on e4 is attacked by the knight and has no defender, so White can win it back at once. Black has to be ready either to hold it or to give it back."
+  },
+  "1.d4 d5 2.Nc3 Nf6 3.Bg5 c5 4.Bxf6 gxf6 5.e4 dxe4 6.d5": {
+    "name": "Richter-Veresov Attack: Malich Gambit",
+    "strategy": "Instead of regaining the pawn with Nxe4, White pushes the d-pawn forward to cramp Black's queenside pieces. The pawn stays with Black, so White has to justify the sacrifice with the initiative against the damaged kingside."
+  },
+  "1.d4 d5 2.Nc3 Nf6 3.Bg5 Nbd7 4.Nf3": {
+    "name": "Richter-Veresov Attack: Two Knights System",
+    "strategy": "Develops the second knight and covers e5, fighting for the centre with pieces instead of an early pawn push. The set-up is quiet and flexible: the bishop stays on g5, and White decides the pawn structure and the side to castle later."
+  },
+  "1.d4 d5 2.Nc3 Nf6 3.Bg5 Nbd7 4.Nf3 g6": {
+    "name": "Richter-Veresov Attack: Two Knights System, Grünfeld Defence",
+    "strategy": "Aims for a fianchetto, with the bishop on g7 pressing d4 and the long diagonal while the knights guard the centre. The cost is that the bishop on g5 can go to h6 and harass the f8-bishop, so Black must watch the dark squares around the kingside."
   }
 }

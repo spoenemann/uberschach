@@ -8,7 +8,7 @@ describes (`docs/exec-plans/active/0002-opening-explorer.md`, Named lines;
 Strategy notes). They run under plain Node from the repository root; Node runs the
 TypeScript sources of `src/domain/` and `src/content/` directly, so nothing
 is built first. The content itself is JSON under `src/content/lines/`, one
-module per followed position: `<id>.json` the data, `<id>.en.json` and
+module per subtree of the book: `<id>.json` the data, `<id>.en.json` and
 `<id>.de.json` the prose (`docs/localization.md`, Opening content). The
 working files (node files, agent output) go in a working folder outside the
 repository, named `<work>` below.
@@ -29,6 +29,7 @@ repository, named `<work>` below.
 | `brief-names.md` | The brief for the German of the new names, a family at a time, against the book's glossary. |
 | `validate-batch.mjs` | Checks a batch's writer, reviewer or translator file, or a names file, against its input; the agents run it until it prints OK. |
 | `add.mjs` | Writes the finished batches and names into the modules, moving a position that gains moves two plies below its module's root into a module of its own. |
+| `merge-modules.mjs` | Folds small modules into the modules above them, up to the size the layout test allows (`docs/adr/0002-opening-modules-folded-to-a-size-budget.md`); run once on 2026-10-24, and again after `add.mjs` has made small modules. |
 | `lib.mjs` | Shared: the rules engine, the content modules as data (through `src/content/files.ts`), the named lines (`src/content/named.ts`), keys, ids and file paths. |
 
 ## A run
@@ -86,6 +87,7 @@ are put into German beside them, a family at a time.
 node scripts/content/frontier.mjs <work>          # batches/, ids.json, names/, name-ids.json, glossary.json
 # the workflow below, with args { repo, work, ids, nameIds } from ids.json and name-ids.json
 node scripts/content/add.mjs <work>               # writes every finished batch and name into src/content/lines/
+node scripts/content/merge-modules.mjs            # folds the small modules add.mjs made
 npm run check
 ```
 

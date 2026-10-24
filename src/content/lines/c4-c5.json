@@ -1,5 +1,5 @@
 {
-  "about": "After 1.c4 c5 (English Opening: Symmetrical Variation): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written.",
+  "about": "After 1.c4 c5 (English Opening: Symmetrical Variation): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written. The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
   "positions": [
     {
       "line": "1.c4 c5",
@@ -439,6 +439,177 @@
     },
     {
       "line": "1.c4 c5 2.g3 h5"
+    },
+    {
+      "line": "1.c4 c5 2.d4 cxd4",
+      "moves": [
+        {
+          "san": "e3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.c4 c5 2.d4 cxd4 3.e3"
+    },
+    {
+      "line": "1.c4 c5 2.g3 g6",
+      "moves": [
+        {
+          "san": "Bg2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 c5 2.g3 g6 3.Bg2",
+      "moves": [
+        {
+          "san": "Bg7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 c5 2.g3 g6 3.Bg2 Bg7",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3",
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "e3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "e5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.e3",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.e3 e5"
+    },
+    {
+      "line": "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 e5",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 e5 6.O-O",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "Nge7",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 e5 6.O-O d6"
+    },
+    {
+      "line": "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 e5 6.O-O Nge7"
+    },
+    {
+      "line": "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 Nf6",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 Nf6 6.O-O",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 Nf6 6.O-O O-O"
+    },
+    {
+      "line": "1.c4 c5 2.Nc3 Nc6",
+      "moves": [
+        {
+          "san": "g3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.c4 c5 2.Nc3 Nc6 3.g3",
+      "moves": [
+        {
+          "san": "g6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 c5 2.Nc3 Nc6 3.g3 g6",
+      "moves": [
+        {
+          "san": "Bg2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2",
+      "moves": [
+        {
+          "san": "Bg7",
+          "rating": 5
+        }
+      ]
     }
   ]
 }

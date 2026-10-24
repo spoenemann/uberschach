@@ -355,6 +355,7 @@
     "strategy": "Supports d5 with a pawn, takes b5 from the knight and leaves the c8-bishop's diagonal open, so the bishop can come out before ...e6. It aims at a solid pawn structure. The cost is that the b8-knight loses c6 and usually goes to d7."
   },
   "1.d4 d5 2.Nc3 e6": {
+    "name": "Queen's Pawn Game: Chigorin Variation",
     "strategy": "Supports d5 and opens the f8-bishop, heading for French Defence structures, which 3.e4 transposes to. The price is the usual one in the French: the c8-bishop is shut in behind the e6-pawn. Black gets a solid, fairly closed game."
   },
   "1.d4 d5 2.Nc3 Nc6": {
@@ -377,6 +378,7 @@
     "strategy": "Offers the e-pawn to gain space with ...d4: after 3.dxe5 d4 the knight must move, and on 4.Ne4 the reply 4...Qd5 attacks the knight and e5 together and wins the pawn back. The gambit is rare, and its value is unclear."
   },
   "1.d4 d5 2.Nc3 f5": {
+    "name": "Queen's Pawn Game: Veresov Attack, Dutch System",
     "strategy": "Sets up a Stonewall structure, with the pawns on d5 and f5 holding e4. The price is a weak e5-square and an open e8-h5 diagonal, and 3.e4 fxe4 4.Qh5+ g6 5.Qxd5 wins the pawn back at once. Playable but rare and risky."
   },
   "1.d4 d5 2.Nc3 Na6": {
@@ -439,9 +441,32 @@
     "name": "Queen's Pawn Game: Levitsky Attack, Welling Variation"
   },
   "1.d4 d5 2.e3 Nf6": {
+    "name": "Queen's Pawn Game",
     "strategy": "Develops the knight to its natural square, where it controls e4. White's e3 has shut in the bishop on c1 for the moment, so Black can simply develop and see what set-up White chooses, with a solid pawn on d5 and nothing to fear."
   },
   "1.d4 d5 2.h4 c5": {
     "strategy": "Hits d4 at once and takes space on the queenside. White's h-pawn move has done nothing for the centre or for development, so Black can strike at the centre first and the d4 pawn has to be defended."
+  },
+  "1.d4 d5 2.e3 Nf6 3.Bd3": {
+    "name": "Queen's Pawn Game: Stonewall Attack",
+    "background": "The Stonewall Attack became established in master play after Harry Nelson Pillsbury won all six games in which he used it at the two New York tournaments of 1893. It began to disappear from top-level chess by the early 1920s but remains a popular choice at club level.",
+    "strategy": "Develops the bishop to its most active diagonal, aiming at h7, and builds a compact pawn chain, with a later f4 to control e5 and prepare a kingside attack. The price is an inflexible structure, weak light squares and a c1-bishop shut in behind its own pawns."
+  },
+  "1.d4 d5 2.Nc3 e6 3.Bf4": {
+    "name": "Rapport-Jobava System, with e6",
+    "strategy": "Develops the bishop outside the pawn chain before e3 can shut it in, eyeing c7 and e5. White pairs it with the knight on c3 to build an active set-up, while Black, with e6 played, has a solid but slightly passive light-squared bishop."
+  },
+  "1.d4 d5 2.Nc3 f5 3.e4": {
+    "name": "Dutch Defence: Kingfisher Gambit",
+    "strategy": "A pawn gambit: the e-pawn is offered at once to open the centre and exploit the loosened kingside and a lead in development. Black can simply accept the pawn and develop, and White has to prove its compensation."
+  },
+  "1.d4 d5 2.Nf3 Bf5 3.c4": {
+    "strategy": "Challenges d5 at once, which is now attacked by the pawn and defended only by the queen. Black's early bishop move has not added a defender to d5, so Black must decide at once how to hold the centre."
+  },
+  "1.d4 d5 2.Nf3 Bf5 3.c4 e6": {
+    "strategy": "Defends d5 with a pawn and opens the f8-bishop. The c8-bishop is already outside the chain, so the usual worry about it being shut in by this move does not arise, and Black gets a solid centre."
+  },
+  "1.d4 d5 2.Nf3 Bf5 3.c4 e6 4.Nc3": {
+    "strategy": "Develops the queenside knight and adds a second attacker to d5, so the pressure on Black's centre is now real. White has a sound set-up against the d-pawn, while Black's bishop is already outside the chain, so the fight is over whether d5 can be held."
   }
 }

@@ -25,9 +25,13 @@
     "name": "King's Gambit Declined: Falkbeer Countergambit, Modern Transfer"
   },
   "1.e4 e5 2.f4 d5 3.exd5 c6": {
+    "name": "King's Gambit Declined: Falkbeer Countergambit, Nimzowitsch-Marshall Countergambit",
+    "background": "Frank Marshall introduced 3...c6 to master play, beating Richard Teichmann at Ostend in 1905, but it is usually attributed to Aron Nimzowitsch, who played it successfully against Rudolf Spielmann at Munich in 1906. It languished in obscurity for many years; John Nunn is its most notable advocate, and it is now the most commonly played move after 3.exd5.",
     "strategy": "Challenges the d5 pawn at once, trading material for piece activity. If White hands the pawn back and consolidates, White keeps the better pawn structure and the better endgame prospects, so Black must make the activity count in the middlegame against the weakened kingside."
   },
   "1.e4 e5 2.f4 d5 3.exd5 e4": {
+    "name": "King's Gambit Declined: Falkbeer Countergambit, Staunton Line",
+    "background": "The line was once considered good for Black and scored well.",
     "strategy": "The traditional idea: the pawn takes the f3 square from White's king's knight and Black plays for a lead in development against the exposed king. But the pawn is also a target, and White's way of attacking it gives White the better game, so the line is played less than it once was."
   },
   "1.e4 e5 2.f4 d5 3.exd5 Bc5": {
@@ -36,5 +40,80 @@
   },
   "1.e4 e5 2.f4 d5 3.Nc3 dxe4": {
     "strategy": "Takes the pawn the knight guards and wins it for the moment. If the knight recaptures, the loose f4 pawn gives Black a target, and White's weakened kingside gives Black the easier game."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 c6 4.dxc6": {
+    "strategy": "Grabs a second pawn instead of developing. That wins material but leaves White's king uncastled with a loosened kingside, and Black's lead in development grows with every move; the greedy capture is dubious, and developing a piece is the better way to meet the pawn offer."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 c6 4.dxc6 Bc5": {
+    "name": "King's Gambit Declined: Falkbeer Countergambit, Pickler Gambit",
+    "strategy": "The point of the gambit: instead of recapturing on c6, Black develops the bishop on a diagonal that eyes f2 and g1, so White cannot castle short. Black is two pawns down, but White's kingside is loose and Black's pieces come out faster."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3": {
+    "name": "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit",
+    "background": "Against 3...e4 it gives White some advantage, which is why that line fell out of favour.",
+    "strategy": "The reply that took the shine off Black's gambit: it challenges the cramping pawn on e4 at once and frees the queen's bishop. White keeps the extra pawn on d5 and, once the e4 pawn is gone, develops freely; Black has to prove the activity is enough."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3": {
+    "strategy": "Develops, guards the d5 pawn and attacks e4 in one move, without committing the d-pawn. The cost is that the c1-bishop stays shut in for now, and Black gets time to defend the e4 pawn with a developing move."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 e4 4.Bb5+": {
+    "name": "King's Gambit Declined: Falkbeer Countergambit, Anderssen Attack",
+    "strategy": "Checks at once to make Black spend a move on the king, but the bishop stands exposed on b5 and the check wins nothing lasting: Black can answer with a pawn move that hits both the bishop and d5, while the e4 pawn still cramps White's development."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6": {
+    "strategy": "Develops with a purpose: the knight guards the e4 pawn and attacks the pawn on d5 at once, so Black keeps the gambit going. Black commits to the advanced pawn on e4, which White will now try to dissolve, and relies on a lead in development."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3 Nf6": {
+    "strategy": "Develops, guards the e4 pawn and attacks the pawn on d5 in one move. Black keeps the gambit going with the advanced pawn, and White's extra pawn is now a target that has to be defended or given back."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.dxe4": {
+    "name": "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit Accepted",
+    "strategy": "Takes the pawn: White keeps the extra material and removes the cramping pawn, at the price of opening the position. Black's knight retakes with an active piece, and the game becomes a race between Black's development and White's extra pawn."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.Nd2": {
+    "name": "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit, Keres Variation",
+    "strategy": "Develops and adds a second attacker to e4 without giving up the d3 pawn, but it leaves d5 with no defender, so Black can retake it at once. The knight also blocks the c1-bishop, so White's development gets no easier."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.Qe2": {
+    "name": "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit, Old Line",
+    "strategy": "Adds the queen to the attack on e4, but the queen stands on the e-file in front of the uncastled king, where Black can gain time against it with the bishop or a check, and d5 is left without a defender."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.dxe4 Nxe4": {
+    "strategy": "Regains one pawn and centralises the knight in one move, so White's extra pawn is the one on d5. No pawn can drive the knight from e4, and Black's pieces are ready to come out with threats against the king that stands in the middle."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.dxe4 Nxe4 6.Nf3": {
+    "strategy": "Brings the knight to its natural square now that the e4 pawn no longer controls it. It covers h4 against queen checks and keeps the extra pawn, and White hopes to finish development before Black's pieces become dangerous."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.dxe4 Nxe4 6.Qe2": {
+    "name": "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit",
+    "strategy": "Pins the knight on e4 against the king and attacks it, but the pin is harmless: Black defends the knight and wins back the d5 pawn in one move. The queen then stands in front of the uncastled king, and White has used a tempo without solving the development problems."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.dxe4 Nxe4 6.Nf3 Bc5": {
+    "strategy": "Black's compensation for the pawn: the bishop eyes f2 and g1, so White cannot castle short and the king stays in the centre while Black's pieces keep coming. Black needs this initiative, since the pawn deficit is real."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.dxe4 Nxe4 6.Qe2 Qxd5": {
+    "strategy": "Recaptures on d5, which levels the material, and guards the pinned knight from the centre in the same move. The knight cannot move while the pin lasts, so a developing move that attacks the queen is what Black has to watch for."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3 Nf6 5.d3": {
+    "strategy": "Attacks the e4 pawn a second time while the knight already guards d5, so Black's pawn is attacked twice and defended once. It reaches the main line's plan by another move order: White removes the cramping pawn and keeps the extra material."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3 Nf6 5.Qe2": {
+    "name": "King's Gambit Declined: Falkbeer Countergambit, Rubinstein Variation",
+    "background": "One of the common alternatives to the main line 4.d3 in the old Falkbeer line 3...e4.",
+    "strategy": "Brings a second attacker, the queen, to the e4 pawn, with the knight on c3 as the first. The queen stands on the e-file in front of the uncastled king, where the c8-bishop can gain time against it, and Black must act at once to keep the e4 pawn."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3 Nf6 5.d3 Bb4": {
+    "strategy": "Develops with a pin: the knight on c3 cannot move without exposing the king, and that knight both guards d5 and attacks e4. White has to deal with the pin before anything else."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3 Nf6 5.d3 Bb4 6.Bd2": {
+    "strategy": "Breaks the pin by putting the bishop on d2, a developing move that keeps the knight on c3 guarding d5 and attacking e4. The bishop on d2 is now exposed to a pawn push from Black, so White has to be ready for a sharp reply."
+  },
+  "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3 Nf6 5.d3 Bb4 6.Bd2 e3": {
+    "name": "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit, Morphy Defence",
+    "strategy": "Attacks the bishop and f2 with the pawn, giving a second pawn to drag the bishop off d2 and revive the pin on the knight on c3. For two pawns Black gets open lines and a lead in development against the kingside."
+  },
+  "1.e4 e5 2.f4 d5 3.Nc3 dxe4 4.Nxe4": {
+    "name": "Dunst Opening: Grünfeld Defence, Steiner Gambit",
+    "strategy": "Regains the pawn at once, but the f4 pawn is still loose: Black takes it with ...exf4 and is a pawn up. White has no lead in development to make up for it, and the king is still exposed."
   }
 }

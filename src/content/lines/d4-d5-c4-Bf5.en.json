@@ -18,5 +18,33 @@
   },
   "1.d4 d5 2.c4 Bf5 3.Nc3 e6": {
     "strategy": "Defends d5, which the knight and the c-pawn both attack, and frees the f8 bishop. Black's light-squared bishop is already outside the pawn chain, which avoids the usual problem of this opening, at the price of a slightly passive centre against White's extra space."
+  },
+  "1.d4 d5 2.c4 Bf5 3.cxd5 Bxb1 4.Qa4+": {
+    "strategy": "Check before recapturing. Black has to answer it, so the bishop on b1 has no time to escape and the rook takes it next; the check costs White nothing and forces Black to spend a move on the king."
+  },
+  "1.d4 d5 2.c4 Bf5 3.cxd5 Bxb1 4.Qa4+ c6": {
+    "strategy": "Blocks the check with a pawn that attacks d5, the pawn White captured. The b1 bishop falls to the rook next, in return for the knight it took, so Black's task is to win the pawn back and reach a solid game."
+  },
+  "1.d4 d5 2.c4 Bf5 3.cxd5 Bxb1 4.Qa4+ c6 5.dxc6": {
+    "strategy": "Greedily takes a second pawn instead of simply collecting the trapped bishop. The extra pawn does not last: Black's recapture hits d4, and the queen swap that follows leaves a level endgame, so White gives up the better way to keep a small plus."
+  },
+  "1.d4 d5 2.c4 Bf5 3.cxd5 Bxb1 4.Qa4+ c6 5.dxc6 Nxc6": {
+    "name": "Queen's Gambit Declined: Baltic Defence, Argentinian Gambit",
+    "strategy": "Recaptures with a developing move that attacks d4, which is now attacked twice and held once. Black wins the pawn back once White has taken the bishop, and the queen swap that follows is level. The knight is pinned to the king meanwhile, but only until the queen leaves a4."
+  },
+  "1.d4 d5 2.c4 Bf5 3.Nc3 e6 4.Nf3": {
+    "strategy": "The natural developing move: the knight guards d4 and e5, so the queen can later go to b3 against b7 without leaving the d4 pawn loose. White develops in order and keeps a slight edge from the extra space."
+  },
+  "1.d4 d5 2.c4 Bf5 3.Nc3 e6 4.Qb3": {
+    "name": "Queen's Gambit Declined: Baltic Defence, Queen Attack Deferred",
+    "strategy": "Hits b7 and d5 too early. With the knight still on g1, the d4 pawn has no defender, so Black develops with tempo by attacking it, and a grab on d5 can run into a counterstrike against d4. White loses the initiative."
+  },
+  "1.d4 d5 2.c4 Bf5 3.Nc3 e6 4.Nf3 c6": {
+    "name": "Queen's Gambit Declined: Baltic Defence, Pseudo-Slav",
+    "strategy": "Supports d5 with a second pawn, so the e6 and c6 pawns make a compact barrier with the bishop outside it. Black is solid, but concedes space: White keeps a slight edge and the more comfortable game."
+  },
+  "1.d4 d5 2.c4 Bf5 3.Nc3 e6 4.Nf3 Nc6": {
+    "name": "Queen's Gambit Declined: Baltic Defence, Pseudo-Chigorin",
+    "strategy": "Develops with pressure on d4 and keeps the c-pawn free to strike at the centre later. In return d5 rests on the e6 pawn and the queen alone, which asks for care once White starts exchanging on d5."
   }
 }

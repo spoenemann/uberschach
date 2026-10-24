@@ -74,9 +74,12 @@
     "name": "Angenommenes Königsgambit: Schurig-Gambit mit Ld3"
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Nf6": {
+    "name": "Angenommenes Königsgambit: Läufergambit, Cozio-Verteidigung",
     "strategy": "Entwickelt eine Figur mit Drohung gegen den ungedeckten Bauern auf e4, sodass Weiß antworten muss, bevor er angreift, während Schwarz den Mehrbauern behält und sich alle Optionen offenhält. Die natürliche, flexible Antwort, die in der Praxis zu ausgeglichenem Spiel führt."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 d5": {
+    "name": "Angenommenes Königsgambit: Läufergambit, Bledow-Variante",
+    "background": "Eine der hoch angesehenen Verteidigungen von Schwarz gegen das Läufergambit.",
     "strategy": "Schwarz gibt den Bauern sofort zurück, um den Läufer anzugreifen, sich einen Teil des Zentrums zu sichern und Linien zu öffnen: Entwicklung, nicht Material, ist das Ziel. Es ist eine der gut angesehenen Antworten von Schwarz und führt zu offenem, ungefähr ausgeglichenem Spiel."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+": {
@@ -101,6 +104,8 @@
     "name": "Angenommenes Königsgambit: Läufergambit, Anderssen-Verteidigung"
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 f5": {
+    "name": "Angenommenes Königsgambit: Läufergambit, Gianutio-Gambit",
+    "background": "Auch Nordisches Gegengambit genannt; es entstand 1854 in einer Partie zwischen Adolf Anderssen und Louis Eichborn.",
     "strategy": "Greift e4 sofort an, schwächt aber den eigenen König: Die Diagonale e8-h5 ist für ein Damenschach offen, und Weiß kann e4 einfach verteidigen und die bessere Entwicklung behalten. Ein Gegengambit, das selten funktioniert."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 b5": {
@@ -115,18 +120,27 @@
     "strategy": "Der klassische Weg, den Mehrbauern zu behalten: Der g-Bauer verteidigt f4, und ein späteres ...g4 würde den Springer vertreiben. Schwarz besitzt den Raum am Königsflügel, doch die vorgerückten Bauern werden zu Zielen, sodass dies ein scharfer, zweischneidiger Kampf um die Initiative ist."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 h6": {
+    "name": "Angenommenes Königsgambit: Becker-Verteidigung",
     "strategy": "Ein vorbereitender Zug: Er nimmt dem Springer das Feld g5 und bereitet ...g5 mit einem Bauern dahinter vor, sodass Schwarz nicht zu ...g4 gezwungen ist, wenn Weiß die Kette mit h4 untergräbt. Der Preis ist ein Tempo und ein leicht geschwächter Königsflügel."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 d6": {
+    "name": "Angenommenes Königsgambit: Fischer-Verteidigung",
+    "background": "Obwohl der Zug schon früher bekannt war, wurde er erst zu einer Hauptvariante, nachdem Fischer ihn 1961 in einem Artikel in der ersten Ausgabe des American Chess Quarterly empfohlen hatte. Er nannte ihn „a high-class waiting move“.",
     "strategy": "Ein Wartezug: Er nimmt dem Springer das Feld e5, sodass der scharfe Plan h4 und Se5 gegen ...g5 entfällt, befreit den Läufer c8 und bereitet ...g5 vor. Der Preis ist, dass der Läufer f8 eingesperrt ist und der Bauer auf f4 noch nicht gedeckt ist."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nf6": {
+    "name": "Angenommenes Königsgambit: Schallopp-Verteidigung",
+    "background": "Benannt nach Emil Schallopp. Sie hat im 21. Jahrhundert mehr Interesse gefunden, besonders 2020, als Ding Liren sie nutzte, um Magnus Carlsen in der Online-Turnierserie Magnus Carlsen Invitational zu schlagen.",
     "strategy": "Entwickelt mit Angriff auf e4 und bereitet vor, f4 mit dem Springer von h5 aus zu halten, sobald der e-Bauer vorrückt. Ein Springer am Rand ist eine Schwäche, wenn Weiß Zeit bekommt, ihn anzugreifen, daher muss Schwarz genau spielen, doch es ist ein solider Weg mit Gegenangriff, den Bauern zu behalten."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Be7": {
+    "name": "Angenommenes Königsgambit: Cunningham-Verteidigung",
+    "background": "Benannt nach Alexander Cunningham, einem schottischen Juristen und Schachspieler, der in Den Haag lebte. Howard Staunton veröffentlichte Beispielvarianten davon in seinem Chess Player's Handbook von 1847.",
     "strategy": "Erneuert die Drohung eines Schachs auf h4, das den König von Weiß im Zentrum festhalten könnte. Weiß muss auf das Schach vorbereitet sein, und Schwarz entwickelt eine Figur mit Tempo. Der Bauer auf f4 ist nicht direkt gedeckt, deshalb setzt Schwarz auf aktives Figurenspiel."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 d5": {
+    "name": "Angenommenes Königsgambit: Moderne Verteidigung",
+    "background": "Mehrere Veröffentlichungen haben sie als einfachen Weg zum Ausgleich empfohlen, und sie galt einst als kritische Variante.",
     "strategy": "Greift den Bauern e4 an, sodass Weiß keine Zeit für den d-Bauernzug hat, der f4 zurückgewinnen würde, und öffnet Linien für den Läufer c8 und die Dame. Schwarz will den Bauern für Entwicklung und Aktivität zurückgeben und nimmt in Kauf, dass Weiß den zusätzlichen Zentrumsbauern behält."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6": {
@@ -145,5 +159,173 @@
     "strategy": "Beginnt einen Plan, den Königsflügel mit einem Vorstoß des h-Bauern und dann des g-Bauern abzuriegeln, verbraucht aber einen Zug für einen Randbauern, ohne etwas zu entwickeln. Der d-Bauer von Weiß droht dann, den Bauern auf f4 zu gewinnen, bevor der Plan fertig ist.",
     "name": "Angenommenes Königsgambit: Wagenbach-Verteidigung",
     "background": "Benannt nach János Wagenbach. John Shaw nennt den Zeitaufwand, den der Plan erfordert, als seinen Nachteil."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5": {
+    "strategy": "Schlägt den Bauern mit dem Läufer, der auf d5 besser steht als hinter einem Bauern: Nach exd5 würde der Bauer die Diagonale des Läufers versperren. Das Material ist ausgeglichen, der Läufer beherrscht das Zentrum, und Schwarz hat dafür schnelle Entwicklung."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Nf6": {
+    "name": "Angenommenes Königsgambit: Läufergambit, Bledow-Gegengambit",
+    "background": "Die Hauptlinie der Bledow-Variante, seltener als die Klassische Verteidigung oder die Bogoljubow-Variante, aber immer noch häufig gespielt.",
+    "strategy": "Die Hauptvariante: Schwarz entwickelt sich mit Tempogewinn gegen den Läufer, bei ausgeglichenem Material und dem Bauern auf f4 als Spannungspunkt. Die Aktivität ist die Kompensation von Schwarz für den starken weißen Läufer im Zentrum, und die Partie bleibt offen und ungefähr ausgeglichen."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Qh4+": {
+    "strategy": "Gibt sofort Schach und nimmt Weiß die Rochade, zwingt den König nach f1, während der Läufer das Zentrum für sich behält. Zweischneidig: Die Dame von Schwarz steht exponiert, der König von Weiß ist unrochiert, und jede Seite kann am Ende vorn liegen."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 c6": {
+    "name": "Angenommenes Königsgambit: Läufergambit, Anderssen-Variante",
+    "strategy": "Greift den Läufer mit einem Bauern an, um ein solides Bauernzentrum aufzubauen, doch das ist ein Bauernzug, kein Entwicklungszug: Der Läufer zieht sich zurück, und Schwarz hat einen Zug verbraucht, ohne eine Figur ins Spiel zu bringen."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Qh4+ 5.Kf1": {
+    "strategy": "Die Standardantwort: Der König geht nach f1, wo die Dame ihn nicht mehr belästigen kann, statt auf das unbequeme Ke2. Weiß gibt die Rochade auf, doch der Läufer auf d5 steht stark im Zentrum, und ein Springer auf f3 wird die Dame mit Tempogewinn jagen."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Qh4+ 5.Kf1 Bd6": {
+    "name": "Angenommenes Königsgambit: Läufergambit, Boren-Svenonius-Variante",
+    "strategy": "Entwickelt eine Figur und deckt f4, sodass Weiß dort mit dem Läufer auf c1 keinen Bauern gewinnen kann. Eine natürliche, solide Antwort; die Dame auf h4 bleibt einem Springer auf f3 ausgesetzt, aber der Läufer lässt die Stellung zusammenhalten."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Qh4+ 5.Kf1 g5": {
+    "strategy": "Hält den Bauern auf f4 mit einer Bauernkette, die schärfere Wahl: Sie verschließt der Dame den Rückzug nach d8 und schwächt die Königsseite, sodass Weiß sich schnell entwickelt und die Kette mit einem Bauernhebel am Königsflügel bricht. Zweischneidiges Spiel für beide Seiten."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Qh4+ 5.Kf1 g5 6.g3": {
+    "name": "Angenommenes Königsgambit: Läufergambit, Tschigorin-Angriff",
+    "background": "Auch als Gifford-Variante bekannt.",
+    "strategy": "Greift sofort die Dame an, und sie kann nicht ins Zentrum zurück, weil der eigene g-Bauer von Schwarz die Diagonale versperrt. Schwarz muss sich gleich entscheiden, ob er auf g3 schlägt oder sich zurückzieht. Die Partie wird scharf, Weiß setzt bei geöffnetem Königsflügel auf die schnellere Entwicklung."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2": {
+    "strategy": "Verteidigt e4 sofort, sodass ...f5 nichts gewonnen hat, und lässt dem König das Feld d1, falls die Dame Schach gibt. Weiß behält die bessere Entwicklung, während der schwarze König auf der Diagonale e8-h5 exponiert steht."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+": {
+    "strategy": "Gibt sofort Schach, um Weiß die Rochade zu nehmen, und nimmt in Kauf, dass die Dame exponiert steht. Es zwingt den König auf ein Feld, das er selten wählen würde, und gibt Schwarz Zeit, das Zentrum mit dem f-Bauern zu öffnen."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+ 5.Kd1": {
+    "strategy": "Geht nach d1, dem Feld, das der Damenzug nach e2 freigemacht hat, statt nach f1. Er verliert die Rochade und wirkt unbeholfen, doch der König bleibt von der f-Linie fort, und die Dame auf e2 hält e4 weiter unter Beschuss."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+ 5.Kd1 fxe4": {
+    "strategy": "Schlägt den Bauern und liegt zwei Bauern vorn, doch der Bauer auf e4 ist jetzt das Einzige zwischen der weißen Dame auf e2 und dem König auf e8. Die Sicherheit des schwarzen Königs ist der Preis für das Material."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+ 5.Kd1 fxe4 6.Nc3": {
+    "strategy": "Entwickelt sich mit Drohung: Der Springer greift den Bauern auf e4 an, und ihn zu nehmen würde die Dame auf e2 gegen den König auf e8 aufdecken. Weiß hat zwei Bauern für schnelle Entwicklung und Druck auf der offenen e-Linie gegeben."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+ 5.Kd1 fxe4 6.Nc3 Kd8": {
+    "name": "Angenommenes Königsgambit: Lopez-Gianutio-Gegengambit, Hein-Variante",
+    "strategy": "Verlässt die e-Linie, bevor der Springer auf e4 schlagen und von dort mit Abzugsschach weiterspringen kann. Der König verliert die Rochade, steht auf d8 aber sicher genug, und Schwarz behält das Mehrmaterial, während Weiß zeigen muss, dass sich der Entwicklungsvorsprung auszahlt."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Nf6 4.Nc3": {
+    "name": "Angenommenes Königsgambit: Läufergambit, Bogoljubow-Variante",
+    "background": "Als moderne Hauptvariante des Läufergambits bezeichnet, auch wenn sie nicht mehr so dominant ist wie früher.",
+    "strategy": "Verteidigt den angegriffenen Bauern auf e4 mit einem Entwicklungszug, der natürlichen Antwort auf die Drohung des Springers. Es führt zur Hauptvariante des Gambits, in der Weiß schnelle Entwicklung und die offene f-Linie als Kompensation für den Bauern hat."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Nf6 4.Nc3 c6": {
+    "name": "Angenommenes Königsgambit: Läufergambit, Bogoljubow-Verteidigung",
+    "background": "Korchnoi und Zak empfehlen es als beste Antwort von Schwarz auf das Läufergambit.",
+    "strategy": "Schwarz plant, das Zentrum mit ...d5 anzugreifen, mit einem Bauern dahinter und aktiven Figuren, und behält dabei den Mehrbauern. Der Preis: Die Bauern auf d5 und f4 werden zu Zielen für den Entwicklungsvorsprung von Weiß."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Nf6 4.Nc3 Bb4": {
+    "strategy": "Setzt den Springer unter Druck, der e4 deckt: Ihn zu schlagen würde die weißen Bauern verdoppeln und e4 ohne Verteidiger lassen. Weiß kann das nicht ignorieren und muss in manchen Varianten den Bauern auf e4 für einen Angriff aufgeben."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Nf6 4.Nc3 Bb4 5.e5": {
+    "name": "Angenommenes Königsgambit: Läufergambit, Paulsen-Angriff",
+    "background": "Der häufigste Zug gegen 4...Lb4.",
+    "strategy": "Greift den Springer sofort an und nimmt die Drohung gegen e4 vom Brett. Der Bauer schränkt Schwarz ein und durchkreuzt den Plan des Läufers, steht aber ungestützt, und die Partie wird scharf, mit beiden Königen im Zentrum."
+  },
+  "1.e4 e5 2.f4 exf4 3.Be2 f5 4.exf5": {
+    "strategy": "Schlägt den Bauern, der e4 angegriffen hat, womit das Material wieder ausgeglichen ist. Der Bauer auf f5 ist ungedeckt, und der schwarze Läufer kann ihn angreifen, sobald der d-Bauer gezogen ist, deshalb muss Weiß ihn schützen; keiner der Könige hat rochiert, daher zählt schnelle Entwicklung."
+  },
+  "1.e4 e5 2.f4 exf4 3.Be2 f5 4.exf5 d6": {
+    "name": "Angenommenes Königsgambit: Tartakower-Gambit, Weiss-Verteidigung",
+    "strategy": "Öffnet die Diagonale des Läufers c8, um den Bauern auf f5 zu schlagen, was Schwarz wieder einen Bauern voranbringen würde. Weiß muss Zeit aufwenden, um den Bauern zu halten. Der Preis ist, dass der Bauer auf d6 den Läufer f8 einsperrt."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Be7 4.Bc4": {
+    "strategy": "Die beliebteste Antwort: Der Läufer zielt auf f7 und macht f1 für den König frei, sodass das Schach auf h4 den König nicht nach e2 zwingt, wo er den Läufer einengen würde. Weiß entwickelt sich und bereitet sich im selben Zug auf das Schach vor."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Be7 4.Bc4 Nf6": {
+    "name": "Angenommenes Königsgambit: Cunningham-Verteidigung, McCormick-Verteidigung",
+    "background": "In der modernen Praxis ist es für Schwarz üblicher, sich mit diesem Zug einfach zu entwickeln, als sofort das Schach auf h4 zu geben.",
+    "strategy": "Entwickelt mit Angriff auf e4 und hält das Schach in Reserve, statt ein Tempo dafür aufzuwenden. Der Zentrumsbauer von Weiß ist das Ziel, deshalb muss Weiß entscheiden, wie er dem Druck des Springers begegnet, während Schwarz den Läufer flexibel hält."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Be7 4.Bc4 Bh4+": {
+    "strategy": "Gibt trotzdem Schach: Weiß verliert das Rochaderecht, doch der König steht auf f1 sicher genug, und der Läufer auf h4 kann vom Springer auf f3 angegriffen werden. Schwarz hat Zeit für ein dauerhaftes Ärgernis aufgewendet, weshalb die meisten Spieler sich stattdessen einfach entwickeln."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Be7 4.Bc4 Bh4+ 5.g3": {
+    "name": "Angenommenes Königsgambit: Cunningham-Verteidigung, Bertin-Gambit",
+    "background": "Auch Drei-Bauern-Gambit genannt, wurde es im 19. Jahrhundert gespielt.",
+    "strategy": "Bietet einen Bauern an, um den Läufer anzugreifen: Schwarz nimmt ihn einfach und steht zwei Bauern vorn, und die offenen Linien von Weiß sind gegen genaue Verteidigung nicht so viel wert. Ein spekulatives Gambit, daher steht Schwarz bei bestem Spiel besser."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Be7 4.Bc4 Bh4+ 5.g3 fxg3": {
+    "strategy": "Schlägt den Bauern, was den Angreifer des Läufers h4 beseitigt und Schwarz zwei Bauern voranbringt; der Bauer auf g3 greift außerdem h2 an. Weiß hat offene Linien und schnelle Entwicklung für die Bauern, daher muss Schwarz vorsichtig verteidigen, doch das Mehrmaterial ist real."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Be7 4.Bc4 Bh4+ 5.g3 fxg3 6.O-O": {
+    "strategy": "Rochiert in die offenen Linien, statt einen Bauern zurückzugewinnen, damit der Turm die f-Linie erreicht. Der Bauer auf h2 steht mit Schach zum Schlagen, deshalb ist Weiß bereit, für Aktivität einen dritten Bauern zu opfern, die Art wildes Wagnis, für die die Variante bekannt ist."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Be7 4.Bc4 Bh4+ 5.g3 fxg3 6.O-O gxh2+": {
+    "strategy": "Schlägt den dritten Bauern mit Schach. Schwarz steht drei Bauern vorn, doch die Figuren von Weiß sind bereit, die offenen Linien zu nutzen, deshalb muss Schwarz sich sorgfältig konsolidieren und bereit sein, Material zurückzugeben."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d5 4.exd5": {
+    "name": "Angenommenes Königsgambit: Moderne Verteidigung",
+    "strategy": "Schlägt den Bauern sofort, was die richtige Antwort auf die Herausforderung von e4 ist: Der Vorstoß des e-Bauern wäre schlechter, weil er dem Springer das Feld e5 nimmt. Das Material ist ausgeglichen, Weiß hat den zusätzlichen Zentrumsbauern, und Schwarz bekommt dafür Entwicklung und Aktivität."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d5 4.exd5 Nf6": {
+    "name": "Angenommenes Königsgambit: Abbazia-Verteidigung",
+    "strategy": "Entwickelt mit Angriff auf den Bauern d5, den der Springer und die Dame angreifen. Schwarz gibt die Idee auf, f4 zu halten, und spielt auf Figurenaktivität, sodass Weiß sofort schützen oder kontern muss. Weiß behält den Zentrumsbauern, Schwarz die schnellere Entwicklung."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d5 4.exd5 Nf6 5.Bb5+": {
+    "strategy": "Kontert mit Schach: Der Läufer entwickelt sich mit Tempo, und Schwarz muss darauf antworten, bevor er auf d5 schlägt. Weiß hält den Zentrumsbauern vorerst, und das Schach zwingt Schwarz, sich für einen Umgang mit dem Läufer festzulegen."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d5 4.exd5 Nf6 5.Bb5+ c6": {
+    "strategy": "Blockt das Schach mit einem Bauern, der sowohl den Läufer als auch den Bauern d5 angreift, sodass Weiß sofort handeln muss. Der Zug öffnet Linien am Damenflügel für die Figuren von Schwarz, auf Kosten einer lockereren Bauernstruktur dort."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d5 4.exd5 Nf6 5.Bb5+ c6 6.dxc6": {
+    "strategy": "Schlägt den Bauern, der den Läufer angreift, statt sich zurückzuziehen, und tauscht den d-Bauern von Weiß gegen den c-Bauern von Schwarz. Schwarz gewinnt den Bauern sofort zurück, meist mit dem b-Bauern, was die b-Linie öffnet, aber einen isolierten a-Bauern zurücklässt."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d5 4.exd5 Nf6 5.Bb5+ c6 6.dxc6 bxc6": {
+    "strategy": "Schlägt mit dem b-Bauern wieder, der den Läufer erneut angreift und ein Tempo gewinnt. Die b-Linie öffnet sich gegen b2, und das Material ist ausgeglichen, wobei Schwarz den Bauern auf f4 weiter hält. Die Partie ist offen, ein Kampf um die Initiative."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.d4": {
+    "strategy": "Öffnet den Angriff des Läufers c1 auf f4, den Schwarz kaum anders als mit einem Bauern halten kann, und baut das klassische Zentrum auf. Weiß will ein offenes Spiel mit schneller Entwicklung, und auf den Wartezug von Schwarz muss nun ein Plan folgen, den Bauern zu halten."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.Bc4": {
+    "strategy": "Entwickelt den Läufer mit Druck auf f7 und bereitet die Rochade vor, ohne den d-Bauern festzulegen. Weiß behält die Wahl, wie er den Bauern zurückgewinnt, und der Wartezug von Schwarz hat f4 noch nicht angesprochen."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.b4": {
+    "name": "Angenommenes Königsgambit: Fischer-Verteidigung, Schulder-Gambit",
+    "strategy": "Wirft den b-Bauern nach vorn, um Raum am Damenflügel zu gewinnen, tut aber nichts gegen den Bauern auf f4 oder das Zentrum von Schwarz. Schwarz bekommt Zeit, sich zu konsolidieren, und behält den Mehrbauern ohne Schwierigkeiten."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.Bc4 h6": {
+    "strategy": "Die häufigste Antwort: Die Bauern auf d6 und h6 nehmen dem Springer e5 und g5 als Vorposten, sodass er nicht nach g5 springen kann, um f7 anzugreifen, und ...g5 mit dem h-Bauern dahinter folgen kann. Ein solider Weg, den Mehrbauern ohne taktische Möglichkeiten gegen f7 zu behalten."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.d4 Nf6": {
+    "strategy": "Entwickelt sich mit Angriff auf e4, hält den Gambitbauern aber nicht: f4 ist ungedeckt, und Weiß kann ihn mit dem Läufer von c1 nehmen, sobald e4 gedeckt ist. Schwarz gibt den Bauern ohne Kompensation zurück, und Weiß erhält ein breites Zentrum und die bequemere Stellung."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.Bc4 h6 5.d4": {
+    "strategy": "Öffnet den Angriff des Läufers c1 auf f4 und baut sofort ein großes Zentrum auf. Schwarz muss auf die Drohung gegen den Bauern antworten, und Weiß bekommt für den Bauern rasche Entwicklung und ein breites Zentrum."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.Bc4 h6 5.d4 g5": {
+    "strategy": "Der übliche Weg, den Bauern auf f4 zu halten: Der g-Bauer vervollständigt eine Bauernkette, die nun von h6 gestützt wird. Der Preis ist ein geschwächter Königsflügel, den Weiß untergraben kann, doch mit dem h-Bauern dahinter ist die Kette solide."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.Bc4 h6 5.d4 g5 6.h4": {
+    "strategy": "Greift den Bauern g5 an, bevor der Läufer nach g7 kommt und h6 deckt: Ignoriert Schwarz das, öffnet hxg5 hxg5 die h-Linie, und Txh8 gewinnt den ungedeckten Turm. Schwarz muss sofort am Königsflügel antworten, solange der Läufer auf c1 noch auf f4 zielt und Weiß die Initiative behält."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.Bc4 h6 5.d4 g5 6.h4 Bg7": {
+    "name": "Angenommenes Königsgambit: Greco-Gambit",
+    "strategy": "Deckt den Bauern h6 am Ende der Kette f4-g5-h6, sodass nach hxg5 hxg5 die Türme einfach getauscht werden. Der Läufer blickt zudem die lange Diagonale entlang auf den weißen Bauern d4. Schwarz behält den Mehrbauern, und Weiß muss ihn mit dem Zentrum und der Initiative ausgleichen."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.d4 Nf6 5.Bd3": {
+    "name": "Angenommenes Königsgambit: Fischer-Verteidigung, Spanische Variante",
+    "strategy": "Deckt e4 gegen den Springer auf f6 und lässt den Läufer von c1 frei, den Bauern f4 zu nehmen. Weiß steht kurz davor, den Gambitbauern zurückzugewinnen und ein volles Zentrum zu behalten, sodass die Partie zum Kampf ums Zentrum wird, in dem Weiß die bequemere Seite hat."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 h6 4.Bc4": {
+    "strategy": "Ein natürlicher Entwicklungszug: Der Läufer greift f7 an, und Weiß behält die Wahl zwischen einem Schlag im Zentrum und dem Untergraben der schwarzen Bauernkette. Weiß erhält einen flexiblen Aufbau und überlässt Schwarz die Entscheidung, wie er den Bauern f4 hält."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 h6 4.Bc4 d6": {
+    "strategy": "Eine solide Entwicklungsantwort, die den Läufer c8 befreit und e5 kontrolliert. Schwarz hat den g-Bauern noch nicht festgelegt, sodass ...g5 zum Halten von f4 in Reserve bleibt oder der Bauer für Entwicklung zurückgegeben werden kann. Es führt zu einem weniger scharfen Spiel als die Hauptlinien des Gambits."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nf6 4.e5": {
+    "strategy": "Beantwortet den Angriff auf e4, indem der Bauer am Springer vorbeizieht und ihn angreift, sodass Schwarz ihn erneut ziehen muss. Weiß gewinnt Raum und ein Tempo; der Preis ist ein vorgerückter Bauer, den Schwarz später untergraben kann, und der Gambitbauer ist noch nicht zurückgewonnen."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nf6 4.e5 Nh5": {
+    "strategy": "Behält den Gambitbauern, indem der Springer f4 deckt, statt sich zurückzuziehen. Der Preis ist ein Springer am Rand mit wenigen Feldern, den Schwarz daher sorgfältig behandeln muss; der Plan ist, den vorgerückten e5-Bauern von Weiß zu untergraben und die Entwicklung zu beenden."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nf6 4.e5 Nh5 5.g4": {
+    "name": "Angenommenes Königsgambit: Schallopp-Verteidigung, Taschkent-Angriff",
+    "strategy": "Greift den Springer mit einem Bauern an, doch Schwarz schlägt einfach en passant: ...fxg3 beseitigt den Angreifer und gewinnt einen zweiten Bauern, und nach hxg3 schlägt der Springer auf g3 und gabelt Turm und Läufer."
   }
 }

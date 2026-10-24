@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 e5 (Open Game): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written.",
+  "about": "After 1.e4 e5 (Open Game): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written. The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
   "positions": [
     {
       "line": "1.e4 e5",
@@ -951,6 +951,18 @@
       "sources": [
         "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Qh5/2...Nf6"
       ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 d6",
+      "moves": [
+        {
+          "san": "f4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 d6 3.f4"
     }
   ]
 }

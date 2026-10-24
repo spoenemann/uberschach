@@ -1,5 +1,5 @@
 {
-  "about": "After 1.d4 e6 2.c4 f5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.d4 e6 2.c4 f5: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.d4 e6 2.c4 f5",
@@ -36,6 +36,66 @@
     },
     {
       "line": "1.d4 e6 2.c4 f5 3.e4"
+    },
+    {
+      "line": "1.d4 e6 2.c4 f5 3.Nf3 Nf6",
+      "moves": [
+        {
+          "san": "g3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 f5 3.Nf3 Nf6 4.g3",
+      "moves": [
+        {
+          "san": "c6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 f5 3.Nf3 Nf6 4.g3 c6",
+      "moves": [
+        {
+          "san": "Bg2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 f5 3.Nf3 Nf6 4.g3 c6 5.Bg2",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 f5 3.Nf3 Nf6 4.g3 c6 5.Bg2 d5",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 f5 3.Nf3 Nf6 4.g3 c6 5.Bg2 d5 6.O-O",
+      "moves": [
+        {
+          "san": "Bd6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 f5 3.Nf3 Nf6 4.g3 c6 5.Bg2 d5 6.O-O Bd6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dutch_Defence"
+      ]
     }
   ]
 }

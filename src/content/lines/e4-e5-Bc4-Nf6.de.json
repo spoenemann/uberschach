@@ -43,6 +43,8 @@
     "strategy": "Entwickelt den Läufer auf ein aktives Feld, von dem aus er durch das leere f2 auf den Springer auf g1 zielt. Schwarz nutzt die Schwäche, die der Bauernzug von Weiß geschaffen hat."
   },
   "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4": {
+    "name": "Wiener Partie: Frankenstein-Dracula-Variante",
+    "background": "Tim Harding gab der Variante ihren Namen in seinem Buch über die Wiener Partie von 1976 und schrieb, eine Partie zwischen Dracula und Frankensteins Monster würde in einem so blutrünstigen Spiel nicht fehl am Platz wirken. Auf höchstem Niveau ist sie selten zu sehen.",
     "strategy": "Nimmt den e4-Bauern sofort. Das Zurückschlagen mit dem Springer erlaubt ...d5, eine Gabel gegen Läufer und Springer, sodass Weiß nicht darauf zählen kann, ihn zurückzugewinnen. Schwarz steht einen Bauern besser, und Weiß muss f7 mit Dame und Läufer angreifen, um Kompensation zu bekommen, was zu sehr scharfem Spiel führt."
   },
   "1.e4 e5 2.Bc4 Nf6 3.Nc3 Bc5": {
@@ -58,5 +60,104 @@
   },
   "1.e4 e5 2.Bc4 Nf6 3.Ne2 Nxe4": {
     "strategy": "Nimmt den ungedeckten Bauern: Der Springer auf e2 deckt e4 nicht. Schwarz steht einen glatten Bauern besser und hat das einfachere Spiel."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d3 Be7 4.Nf3": {
+    "strategy": "Entwickelt den Springer mit Angriff auf e5, das noch keinen Verteidiger hat. Schwarz muss sich sofort um den Bauern kümmern, während Weiß sich auf natürliche Weise in Richtung Rochade entwickelt."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d3 Be7 4.Nf3 O-O": {
+    "name": "Läuferspiel: Kitchener-Torheit",
+    "strategy": "Rochiert, vergisst aber den e5-Bauern: Nichts verteidigt ihn, und 5.Sxe5 gewinnt ihn. Der Schlag gegen den Läufer mit ...d5 bringt ihn nicht zurück, da exd5 den Mehrbauern behält. Die Rochade ist natürlich, aber hier nicht dringend."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d3 Nc6 4.Nc3": {
+    "strategy": "Entwickelt den zweiten Springer und hält einen späteren f-Bauern-Vorstoß in Reserve, im Geist eines verzögerten Königsgambits. Der Springer wacht außerdem über d5, sodass Zentrumsschläge von Schwarz schwerer werden. Eine flexible, solide Wahl, wenn auch der c-Bauer blockiert wird."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.Nf3": {
+    "name": "Läuferspiel: Urusov-Gambit",
+    "background": "Benannt nach dem russischen Fürsten Sergei Semjonowitsch Urussow (1827-1897).",
+    "strategy": "Greift den d4-Bauern sofort an und entwickelt sich mit Tempo, sodass Weiß droht, ihn mit Entwicklungsvorsprung zurückzugewinnen. Der Preis: e4 ist nur durch dieses Tempo verteidigt, und Schwarz muss sich entscheiden, ob er den Bauern behält oder ihn für ein ruhiges Spiel zurückgibt."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.c3": {
+    "name": "Läuferspiel: Warschauer Gambit",
+    "strategy": "Baut das Zentrum mit einem Bauern statt mit einer Figur wieder auf. Weiß bietet einen zweiten Bauern an, um Linien für die Figuren zu öffnen, lässt aber e4 ungedeckt, sodass Schwarz ihn sofort nehmen kann. Ein spekulativer Versuch mit hohem Preis."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.Nf3 d5": {
+    "strategy": "Schlägt sofort im Zentrum zu und greift Läufer und e4-Bauern an. Schwarz gibt den Mehrbauern für offene Linien und schnelle Entwicklung zurück und strebt ein ausgeglichenes Spiel an."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.Nf3 Nxe4": {
+    "strategy": "Behält den Mehrbauern durch das Schlagen auf e4. Schwarz bekommt eine solide Stellung ohne klare Schwächen, während Weiß Figurenaktivität und Angriffschancen als Kompensation hat. Ein Test, ob sich der Verteidiger halten kann."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.Nf3 d5 5.exd5": {
+    "strategy": "Beseitigt den Angreifer des Läufers und gewinnt sofort einen Bauern zurück. Weiß öffnet die Stellung, und die schwarzen Figuren entwickeln sich nun mit Tempo, sodass der Bauer Weiß im Kampf um die Aktivität keinen Vorsprung lässt."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.Nf3 d5 5.exd5 Bb4+": {
+    "strategy": "Entwickelt den Läufer mit Schach, sodass Weiß einen Zug darauf verwenden muss, bevor Schwarz auf d5 zurückschlägt. Bei offener e-Linie und dem noch im Zentrum stehenden weißen König hat Schwarz die leichtere Entwicklung."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.Nf3 d5 5.exd5 Bb4+ 6.c3": {
+    "strategy": "Die übliche Abschirmung: Der Bauer greift den Läufer und den d4-Bauern gleichzeitig an und zwingt Schwarz zum Handeln. Weiß öffnet gern Linien für die Figuren im Tausch gegen einen Bauern."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.Nf3 d5 5.exd5 Bb4+ 6.c3 Qe7+": {
+    "name": "Läuferspiel: Urusov-Gambit, Panow-Variante",
+    "strategy": "Beantwortet den Angriff auf den Läufer mit einem zweiten Schach entlang der offenen e-Linie, sodass Weiß blocken oder den König ziehen muss. Schwarz gewinnt Zeit und steuert auf ein ausgeglichenes, offenes Spiel zu."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.Nf3 Nxe4 5.Qxd4": {
+    "name": "Läuferspiel: Urusov-Gambit, Keidansky-Gambit",
+    "strategy": "Gewinnt mit einer zentralisierten Dame einen Bauern zurück, die den Springer auf e4 angreift und auf g7 zielt, sodass Schwarz reagieren muss. Weiß steht noch einen Bauern zurück, hat aber den Entwicklungsvorsprung und Angriffschancen gegen den König."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.f3 Bc5 4.Ne2": {
+    "strategy": "Bringt den Springer aus dem Zielbereich des Läufers und entwickelt ihn auf dem besten Feld, das der f-Bauer ihm lässt. Weiß steht solide genug, doch der Bauernzug hat Zeit gekostet, und der Königsflügel ist lockerer."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.f3 Bc5 4.Ne2 Nc6": {
+    "strategy": "Entwickelt den zweiten Springer und erhöht den Druck auf das Zentrum. Schwarz ist in der Entwicklung voraus, der Lohn für den schwächenden dritten Zug."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.f3 Bc5 4.Ne2 Nc6 5.b4": {
+    "name": "Läuferspiel: Krejcik-Gambit",
+    "strategy": "Bietet den b-Bauern an, um Zeit gegen den Läufer zu gewinnen und ein breites Zentrum zu errichten, doch f3 und Se2 unterstützen ihn kaum, sodass es ein spekulativer Versuch statt eines Plans ist."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Bc5 4.d3": {
+    "name": "Läuferspiel: Wiener Hybrid, Spielmann-Angriff",
+    "strategy": "Verteidigt e4 solide, sodass ...Sxe4 keine Drohung mehr ist, und befreit den Damenläufer. Weiß behält eine flexible Stellung mit einem späteren f-Bauern-Vorstoß in Reserve, ein ruhiger Zug mit Angriffspotenzial."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Bc5 4.Nge2": {
+    "strategy": "Entwickelt den zweiten Springer, ohne den f-Bauern zu blockieren, und unterstützt einen späteren Zentrumsvorstoß. Der Springer steht auf einem weniger aktiven Feld als f3, und gegen den auf f2 gerichteten schwarzen Läufer unternimmt der Zug nichts."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Bc5 4.Nge2 b5": {
+    "name": "Wiener Partie: Stanley-Variante, Eifel-Gambit",
+    "strategy": "Bietet einen Bauern an, um den Läufer oder den Springer wegzulocken: Der Bauer greift den Läufer an, wird aber doppelt angegriffen und von nichts verteidigt, sodass Weiß ihn einfach nimmt und Schwarz wenig vorzuweisen hat."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5": {
+    "strategy": "Eine Doppeldrohung: Dame und Läufer zielen auf f7 und drohen Matt, und die Dame greift zugleich den e5-Bauern an. Schwarz muss beides auf einmal beantworten, was die Variante forciert und scharf macht."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5 Nd6": {
+    "strategy": "Die einzige gute Antwort auf beide Drohungen: Der Springer deckt f7, greift den Läufer an und kehrt in die Verteidigung zurück. Er lässt e5 ungedeckt, was der Variante ihre Schärfe gibt."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5 Nd6 5.Bb3": {
+    "strategy": "Rettet den Läufer und hält ihn auf f7 gerichtet. Die Dame greift weiter e5 an, das von nichts verteidigt wird, sodass Schwarz einen Weg finden muss, dieser Drohung zu begegnen."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5 Nd6 5.Bb3 Nc6": {
+    "strategy": "Verteidigt e5 mit einem Entwicklungszug und behält den Mehrbauern. Schwarz wählt den scharfen Weg: Der König bleibt im Zentrum, und der weiße Springer kann mit Drohungen auf c7 und d6 hineinspringen."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5 Nd6 5.Bb3 Be7": {
+    "name": "Wiener Partie: Stanley-Variante, Abgelehntes Monster",
+    "strategy": "Die ruhigere Wahl: Schwarz verteidigt e5 nicht und gibt den Mehrbauern zurück, um die Entwicklung abzuschließen und sicher zu rochieren. Es folgt ein ausgeglichenes Spiel."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5 Nd6 5.Bb3 Be7 6.Nf3": {
+    "strategy": "Greift e5 ein zweites Mal an und entwickelt sich, sodass der Bauer zurückgewonnen wird, wenn Schwarz ihn nicht verstärkt. Weiß kommt außerdem der Rochade näher."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5 Nd6 5.Bb3 Be7 6.Nf3 Nc6": {
+    "strategy": "Entwickelt und verteidigt e5, doch der Bauer wird zweimal angegriffen und einmal verteidigt, sodass Schwarz ihn für sichere Entwicklung zurückgibt."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5 Nd6 5.Bb3 Nc6 6.Nb5": {
+    "strategy": "Der Kern der Variante: Der Springer greift den Springer auf d6 an, der f7 deckt, und zielt auf c7. Weiß behält die Initiative und spielt auf schnellen Angriff."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5 Nd6 5.Bb3 Nc6 6.d4": {
+    "name": "Wiener Partie: Adams-Gambit",
+    "strategy": "Greift e5 zusätzlich zur Dame mit einem Bauern an, und dxe5 würde auch den Springer von d6 vertreiben. Wenn Schwarz auf d4 schlägt, steht Weiß einen zweiten Bauern zurück, und das offene Zentrum setzt die weißen Figuren Gefahren aus; ein spekulativer Versuch."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5 Nd6 5.Bb3 Nc6 6.Nb5 g6": {
+    "strategy": "Greift die Dame mit einem Bauern an und gewinnt ein Tempo. Schwarz nimmt in Kauf, dass der Springer auf a8 einen Turm gewinnen kann, im Tausch gegen einen Angriff auf die gestrandete Figur und den König im Zentrum, die schärfste Spielweise."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Ne2 Nxe4 4.Nec3": {
+    "name": "Läuferspiel: Pachman-Gambit",
+    "strategy": "Greift den Springer auf e4 sofort an. Weiß hofft, ihn abzutauschen und den Entwicklungsvorsprung zu nutzen, doch der Bauer fehlt weiterhin, und Schwarz behält ihn in einer soliden Struktur."
   }
 }

@@ -25,5 +25,46 @@
   },
   "1.d4 Nf6 2.Bg5 Ne4 3.h4 Nxg5": {
     "strategy": "Takes the bishop, but the recapture opens the h-file for White's rook against the h7 pawn and leaves a pawn on g5 that cramps Black's kingside. Black has the bishop pair, but the open file and the space are an expensive price."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 c6 4.Nd2": {
+    "strategy": "Attacks the knight on e4 with a developing move: Black has to trade, retreat or hold it. The price is that the knight can be pinned to the king by a queen on a5, which spoils the idea."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 c6 4.Nd2 Qa5": {
+    "strategy": "Pins the knight on d2 to the king, so it cannot capture on e4, and keeps the e4 knight in place. White must spend a move to break the pin, which gives Black time to organise the centre."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 c6 4.Nd2 Qa5 5.c3": {
+    "strategy": "Breaks the pin by blocking the diagonal and supports the d4 pawn at the same time. White gets a sturdy pawn pair in the centre, at the cost of letting Black's queen keep an eye on c3."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 c6 4.Nd2 Qa5 5.c3 Nxd2": {
+    "strategy": "Trades the twice-moved knight for White's developed one and simplifies at once. White recaptures with the queen, so Black reaches a simple, safe position."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 c6 4.Nd2 Qa5 5.c3 Nxd2 6.Qxd2": {
+    "strategy": "The natural recapture: the queen develops with the trade, and from d2 it is safe behind the c3 pawn that blocks Black's queen. The game is balanced, with White's centre pawns slightly freer."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 c6 4.Nd2 Qa5 5.c3 Nxd2 6.Qxd2 d5": {
+    "strategy": "Claims the centre and opens the diagonal for the light-squared bishop, answering White's pawn pair with a solid pawn of Black's own. The queen on a5 keeps c3 under pressure, and the position is balanced."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 d5 4.f3": {
+    "strategy": "Chases the knight at once and holds the centre, but takes the f3 square from White's own knight and loosens the king's position. The gain of time is real, since Black's knight has to move again."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 d5 4.f3 Nf6": {
+    "strategy": "The knight goes back to its best square, where it guards the kingside and keeps an eye on e4 and d5. Black has lost time, but White's pawn move helped neither development nor the centre."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 d5 4.f3 Nf6 5.Nc3": {
+    "strategy": "Develops towards the centre and adds pressure on d5 and e4, preparing to build a broad pawn centre. The queen's knight develops naturally here, as f3 is taken from the other one."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 d5 4.f3 Nf6 5.Nc3 Bf5": {
+    "strategy": "Develops the light-squared bishop outside the pawn chain before it is shut in, and puts pressure on e4 and c2. Black aims for an easy development and a solid centre."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 d5 4.f3 Nf6 5.Nc3 Bf5 6.e4": {
+    "name": "Trompowsky Attack: Edge Variation, Hergert Gambit",
+    "strategy": "Offers the e-pawn to blow the centre open before Black has castled, hoping that open lines and quick piece play pay for it. A speculative gambit: if Black takes calmly, White has to prove the compensation."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.h4 Nxg5 4.hxg5": {
+    "strategy": "Recaptures with the pawn so the rook looks down the open h-file at h7. The doubled g-pawns are accepted for the file and for a pawn on g5 that takes f6 and h6 away from Black's pieces."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.h4 Nxg5 4.hxg5 e5": {
+    "name": "Trompowsky Attack: Raptor Variation, Hergert Gambit",
+    "strategy": "Counterattacks at once: the pawn challenges d4 and opens the queen's diagonal against the pawn on g5, which has no support. Black plays for quick development and activity, with g5 the first target."
   }
 }

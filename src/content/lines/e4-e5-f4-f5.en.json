@@ -16,5 +16,41 @@
   "1.e4 e5 2.f4 f5 3.exf5 Bc5": {
     "strategy": "Develops the bishop but does nothing about the threat: Qh5+ forces the king to move, losing castling, or the g-pawn to block, and White is a pawn up with the e5 pawn also attacked.",
     "name": "King's Gambit Declined: Panteldakis Countergambit, Schiller's Defence"
+  },
+  "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Qh5+": {
+    "strategy": "Cashes in the open diagonal at once: the check forces Black to weaken the kingside with the g-pawn or to move the king and forfeit castling. White keeps the initiative, at the cost of an early queen sortie."
+  },
+  "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Nf3": {
+    "strategy": "A calmer route: the knight develops and covers h4, so Black's queen has no check there, and the f4 pawn can be won back once the c1-bishop is freed. White trades the immediate check for sound development."
+  },
+  "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Nf3 d5": {
+    "strategy": "Strikes at the centre and opens the c8-bishop's diagonal onto f5, so White's f5 pawn is attacked at once. Black wants to regain the pawn and hold the centre rather than defend passively."
+  },
+  "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Qh5+ g6": {
+    "strategy": "Blocks the check and keeps the right to castle, at the price of a pawn: White can take on g6, and Black's kingside is left open to the queen. Black counts on the tempo it can win with the queen in return."
+  },
+  "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Qh5+ Ke7": {
+    "name": "King's Gambit Declined: Panteldakis Countergambit, Shirazi Line",
+    "strategy": "Gives up castling by walking the king onto the open e-file instead of blocking with a pawn. It keeps the pawn structure intact, but the king is exposed to White's active queen and quick development."
+  },
+  "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Nf3 d5 5.d4": {
+    "strategy": "Claims the centre and opens the c1-bishop's diagonal onto the f4 pawn, so Black has to defend it. The f5 pawn is still attacked by the c8-bishop, and White accepts a balanced, symmetrical fight over both pawns."
+  },
+  "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Nf3 d5 5.d4 Bd6": {
+    "strategy": "Defends the f4 pawn with a developing move and mirrors White's set-up. The f5 pawn is still attacked by the c8-bishop, so White has to react to that before anything else."
+  },
+  "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Nf3 d5 5.d4 Bd6 6.Bd3": {
+    "name": "King's Gambit Declined: Panteldakis Countergambit, Symmetrical Variation",
+    "strategy": "Develops and guards the f5 pawn, so taking it now just loses a bishop for a pawn. Both sides hold a pawn on the fifth and fourth rank in mirrored set-ups, and the game turns on who finishes development and breaks in the centre first."
+  },
+  "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Qh5+ g6 5.fxg6": {
+    "strategy": "Takes the pawn and leaves White a pawn up, with the g-pawn now attacking h7. Black cannot recapture with the h-pawn: it would open the h-file and Qxh8 would win the rook. Black must look for counterplay with a check instead."
+  },
+  "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Qh5+ g6 5.fxg6 Qe7+": {
+    "strategy": "Checks along the open e-file, which makes White block or move the king, and so wins back time for the pawn. This is the point of ...g6: the queen comes out with tempo while the h-pawn recapture, which would lose the rook, stays unplayed."
+  },
+  "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Qh5+ g6 5.fxg6 Qe7+ 6.Kd1": {
+    "name": "King's Gambit Declined: Panteldakis Countergambit, Pawn Sacrifice Line",
+    "strategy": "Keeps the queens on and the pawn on g6 by moving the king instead of blocking. White gives up castling and the king sits uncomfortably on d1, so safety has been traded for material and White must consolidate quickly."
   }
 }

@@ -110,6 +110,7 @@
     "strategy": "Challenges e4 at once, which is the point of the c6 pawn: it supports d5, so Black recaptures with a pawn and keeps a sound structure. Unlike in the French, the c8-bishop is not shut in. The cost is the tempo spent on ...c6, so Black can lag in development; the game is usually solid and positional."
   },
   "1.e4 c6 2.d4 Na6": {
+    "name": "Caro–Kann Defence: De Bruycker Defence",
     "strategy": "Heads for c7 via a6, where the knight supports d5 and e6 without blocking the c8-bishop. The price is an extra tempo and a knight that stands on the rim for a move, so White builds the centre at leisure and stays slightly ahead in development."
   },
   "1.e4 c6 2.d4 Nf6": {
@@ -375,5 +376,64 @@
   },
   "1.e4 c6 2.g4 d5": {
     "strategy": "The natural reply: the g-pawn advance does nothing for the centre, so Black strikes at e4 at once. The pawn on g4 is a weakness, and the bishop on c8 already looks at it; White's early flank advance leaves the kingside loose."
+  },
+  "1.e4 c6 2.b4 d5 3.b5": {
+    "name": "Caro–Kann Defence: Labahn Attack, Double Gambit",
+    "strategy": "A double gambit: Black can take the b5 pawn with ...cxb5 or the e4 pawn with ...dxe4. White has nothing developed and gets no real compensation for a pawn, which makes this a try for surprise rather than a sound plan."
+  },
+  "1.e4 c6 2.b4 e5 3.Bb2": {
+    "name": "Caro–Kann Defence: Labahn Attack, Polish Variation",
+    "strategy": "The point of 2.b4: the bishop comes out on the long diagonal and attacks the e5 pawn, which nothing defends. White pays with the loose b4 pawn, so this is a gambit for quick development and the initiative."
+  },
+  "1.e4 c6 2.Bc4 d5 3.Bb3": {
+    "strategy": "Keeps the bishop on the diagonal towards f7 and leaves the e4 pawn en prise as a gambit, instead of losing a tempo after an exchange on d5. White offers a pawn for quick play against the Black king."
+  },
+  "1.e4 c6 2.Bc4 d5 3.Bb3 dxe4": {
+    "strategy": "Accepts the gambit: Black wins a clean pawn and removes White's central pawn. The cost is that the bishop now eyes f7, so Black must develop with that square in mind."
+  },
+  "1.e4 c6 2.Bc4 d5 3.Bb3 dxe4 4.Qh5": {
+    "name": "Caro–Kann Defence: Hillbilly Attack, Schaeffer Gambit",
+    "strategy": "Brings the queen to join the bishop against f7, which only the king defends. There is no mate threat, but Black does well to blunt the attack first and only then complete development. White's compensation is time and activity for the pawn."
+  },
+  "1.e4 c6 2.d3 d5 3.Nd2": {
+    "strategy": "Defends e4 a second time, so the pawn can be exchanged and retaken with the d-pawn, and avoids the early queen trade down the d-file. White keeps the queens on and a flexible set-up with a solid pawn chain."
+  },
+  "1.e4 c6 2.d3 d5 3.Nd2 g6": {
+    "strategy": "Chooses a fianchetto set-up that presses on the centre from a distance instead of occupying it with the e-pawn. Black keeps the pawn structure flexible and plays for a long manoeuvring game."
+  },
+  "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3": {
+    "strategy": "Brings the second knight out to its natural square, where it covers e5 and d4 and starts clearing the way for castling. With the d3 and e4 pawns behind it, White builds a solid centre and keeps a flexible plan."
+  },
+  "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7": {
+    "strategy": "Completes the fianchetto: the bishop presses on the long diagonal towards the centre and takes a step towards castling. Black develops without any hurry, since nothing in White's set-up threatens the centre."
+  },
+  "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7 5.g3": {
+    "strategy": "Prepares to fianchetto the king's bishop to g2, where it backs up the centre from behind. White plays by set-up rather than by direct threats, aiming for a slow game in which the pieces rather than the pawns decide."
+  },
+  "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7 5.g3 e5": {
+    "strategy": "Stakes a claim to the centre now that the bishop supports it: the e5 pawn is attacked by the knight and defended by the bishop. Black gets a broad pawn centre, and White must decide when to resolve the tension on e4."
+  },
+  "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7 5.g3 e5 6.Bg2": {
+    "strategy": "Completes the fianchetto and gets the king ready to castle. The bishop stands behind the f3 knight and will work along the long diagonal once the centre opens, so White waits for Black to commit."
+  },
+  "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7 5.g3 e5 6.Bg2 Ne7": {
+    "strategy": "A flexible development: the knight backs up d5 and c6 and leaves the f-pawn free to advance. It does not take the f6 square, so Black keeps a free hand for the pawn break against White's centre."
+  },
+  "1.e4 c6 2.d4 Na6 3.Nc3": {
+    "strategy": "Develops the knight and guards e4 while Black's knight stands on the rim. White does not need to punish the slow move at once: sound development and a hold on the centre are enough to keep the better of the opening."
+  },
+  "1.e4 c6 2.d4 Na6 3.Nc3 Nc7": {
+    "name": "Caro–Kann Defence: De Bruycker Defence",
+    "strategy": "Completes the knight's roundabout route: from c7 it supports a later push in the centre and covers d5 and e6. But it has taken two moves to develop one piece, and White is ahead in development and space."
+  },
+  "1.e4 c6 2.g4 d5 3.Nc3": {
+    "strategy": "Guards the e4 pawn and develops, but does nothing about what g4 has created: that pawn is guarded only by the queen, and White's kingside is loose. Black exchanges in the centre and has the easier game."
+  },
+  "1.e4 c6 2.g4 d5 3.Nc3 dxe4": {
+    "strategy": "Takes the pawn and opens the d-file, where the queen now looks at White's d2 pawn, while the bishop on c8 keeps its eye on g4, which only the queen guards. White has to recover the pawn or find compensation at once."
+  },
+  "1.e4 c6 2.g4 d5 3.Nc3 dxe4 4.d3": {
+    "name": "Caro–Kann Defence: Spike Variation, Scorpion-Grob Gambit",
+    "strategy": "Offers a second pawn to open lines for the c1 bishop and hit e4, but after Black takes on d3 and White recaptures, White is a pawn down with a lead in development as the only compensation. The g4 pawn is still a target: a gambit that gives more than it gets."
   }
 }

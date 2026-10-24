@@ -30,6 +30,8 @@
     "strategy": "Develops and attacks e4 at once, and lets White build the pawn centre it wants. Black does not stop the centre but counts on hitting it with pieces and a well-timed central break, which leads to the main line of this variation and to lively open play."
   },
   "1.e4 e5 2.Bc4 Bc5 3.c3 d5": {
+    "name": "Bishop's Opening: Lewis Countergambit",
+    "background": "Named for the English player and author William Lewis (1787–1870), who published analysis of the line in 1834.",
     "strategy": "Meets the threatened centre by striking in the centre first: the pawn hits the bishop on c4 and opens lines for Black's pieces. If White takes the pawn, Black plays for quick development and activity instead of material, so this is the sharp, energetic answer."
   },
   "1.e4 e5 2.Bc4 Bc5 3.c3 Qg5": {
@@ -41,5 +43,71 @@
   },
   "1.e4 e5 2.Bc4 Bc5 3.Qe2 Nf6": {
     "strategy": "Develops with an attack on e4, so the queen on e2 has to do the defending. Black gets a more active game than with the quiet defence of e5, and the queen is tied to the defence of the pawn on e4 for now."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.b4 Bxb4 4.c3": {
+    "name": "Bishop's Opening: McDonnell Gambit, La Bourdonnais-Denker Gambit",
+    "strategy": "Hits the bishop at once and prepares a broad pawn centre, so White's pieces come out with tempo while the bishop has to move again. This is the usual way to claim compensation for the pawn: the centre and the open lines are the return on it."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.b4 Bxb4 4.f4": {
+    "name": "Bishop's Opening: McDonnell Gambit, McDonnell Double Gambit",
+    "strategy": "Offers a second pawn to pull Black's e-pawn out of the centre and open the f-file for a quick attack. If Black takes, White is two pawns down and has no time to lose: the plan needs fast development and a strong centre, which makes the game sharp and double-edged."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.b4 Bxb4 4.f4 exf4": {
+    "strategy": "Takes the second pawn and leaves White without a pawn in the centre but the e-pawn. Black is two pawns up and has to finish development before White's pieces and centre arrive; every tempo counts, and a calm, solid setup is Black's best chance to keep the material."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.b4 Bxb4 4.f4 exf4 5.Nf3": {
+    "strategy": "Develops with a purpose: the knight covers h4, so Black's queen cannot check there for free. It also prepares a central strike and castling, which is how White hopes to turn the lead in development into compensation for two pawns."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.b4 Bxb4 4.f4 exf4 5.Nf3 Be7": {
+    "strategy": "Brings the bishop back to a safe post before White's centre arrives, from where it guards g5 and keeps h4 in view. Black keeps both extra pawns and accepts that White will have the centre and the lead in development."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.b4 Bxb4 4.f4 exf4 5.Nf3 Be7 6.d4": {
+    "strategy": "Builds the central pawn that the gambit was played for. It also opens the c1-bishop's diagonal, so the f4-pawn is attacked at once. Black is two pawns up, but White has space and the initiative."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.b4 Bxb4 4.f4 exf4 5.Nf3 Be7 6.d4 Bh4+": {
+    "strategy": "Gives check to keep the extra pawns and win time, but the knight on f3 guards h4 and can simply take the bishop, so Black must recapture with the queen and bring it out early. That keeps the material at the cost of an exposed queen in an open position."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.c3 d5 4.Bxd5": {
+    "strategy": "Takes the offered pawn with the bishop, which lands in the centre guarded by the e-pawn. White is a pawn up, but the bishop becomes the target of Black's development, so White has to prove that the extra pawn is worth more than Black's activity."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.c3 d5 4.Bxd5 Nf6": {
+    "name": "Bishop's Opening: Lewis Countergambit",
+    "strategy": "Attacks the bishop on d5 and the e4 pawn in one move, with a developing move. Black pays a pawn for tempo and lines: White has to resolve the tension in the centre before Black's pieces become too active."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.c3 d5 4.Bxd5 Nf6 5.d4": {
+    "name": "Bishop's Opening: Lewis Countergambit, Walker Variation",
+    "strategy": "Counterattacks in the centre: the pawn hits the bishop on c5 and the e5 pawn at once, and the pawn on c3 supports it. The bishop on d5 stays exposed to Black's queen and knight, so the position is a sharp open fight over White's extra pawn."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.c3 Nf6 4.d4": {
+    "strategy": "Plays the move that 3.c3 prepared: the pawn attacks the bishop and e5 and, backed by the pawn on c3, forms a broad centre. White claims space and the initiative, and Black has to act against the centre at once."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.c3 Nf6 4.d4 exd4": {
+    "strategy": "Takes the pawn to break up the centre and keeps the e4 pawn under attack by the knight. The pawn has no defender, so White has to deal with that at once."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.c3 Nf6 4.d4 exd4 5.e5": {
+    "strategy": "Saves the attacked e4 pawn by advancing it with tempo on the knight, which cannot stay on f6. White gives up the pawn on d4 for a lead in space and initiative, and the game becomes a sharp fight where tactics decide."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.c3 Nf6 4.d4 exd4 5.e5 d5": {
+    "strategy": "The counter-strike: instead of saving the knight, Black hits the bishop on c4 with a pawn. Both sides have a piece attacked, and Black accepts a trade of knight for bishop in return for central pawns and open lines."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.c3 Nf6 4.d4 exd4 5.e5 d5 6.exf6": {
+    "strategy": "Takes the knight rather than saving the bishop, so a piece trade follows. The pawn on f6 eyes g7 and cramps Black's kingside, and White hopes to turn the loose bishop on c5 into a target for an attack."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.c3 Nf6 4.d4 exd4 5.e5 d5 6.exf6 dxc4": {
+    "strategy": "Takes the bishop with the pawn, so each side has lost a minor piece. Black has pawns on c4 and d4 and an active bishop on c5, but the pawn on f6 and the loose bishop are targets, so White's queen has real attacking chances."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.Qe2 Nc6 4.c3": {
+    "strategy": "Prepares a pawn centre with the queen guarding e4 and f2, so Black's bishop pressure on f2 is covered. White plays for a slow build-up in the centre; the cost is that the c3 pawn takes the square from the queen's knight."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.Qe2 Nc6 4.c3 Nf6": {
+    "strategy": "Develops and attacks e4 again, asking the queen to keep defending it. Black completes the natural development of the minor pieces and is ready to castle, with a solid game and no weaknesses to worry about."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.Qe2 Nc6 4.c3 Nf6 5.f4": {
+    "name": "Bishop's Opening: Lopez Gambit",
+    "strategy": "Tries a gambit break against e5, but with the f-pawn gone the bishop on c5 attacks the knight on g1. White gets no clear compensation for the pawn it may lose, and the king's side is weakened; Black can take the pawn or simply hold the centre."
+  },
+  "1.e4 e5 2.Bc4 Bc5 3.Qe2 Nf6 4.f4": {
+    "name": "Bishop's Opening: Lopez Variation, Lopez Gambit",
+    "strategy": "Tries a gambit break against e5, but the f-pawn leaves the king's side open and the bishop on c5 attacks the knight on g1. The pawn on e4 is attacked by the knight and defended only by the queen. White has no clear compensation if Black plays calmly."
   }
 }

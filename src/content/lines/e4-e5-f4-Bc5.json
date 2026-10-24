@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 e5 2.f4 Bc5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 e5 2.f4 Bc5: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 e5 2.f4 Bc5",
@@ -32,6 +32,127 @@
     },
     {
       "line": "1.e4 e5 2.f4 Bc5 3.Nf3 g5"
+    },
+    {
+      "line": "1.e4 e5 2.f4 Bc5 3.Nf3 d6",
+      "moves": [
+        {
+          "san": "c3",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "b4",
+          "rating": 3
+        },
+        {
+          "san": "fxe5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 Bc5 3.Nf3 d6 4.c3",
+      "moves": [
+        {
+          "san": "Bg4",
+          "rating": 3
+        },
+        {
+          "san": "f5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 Bc5 3.Nf3 d6 4.Nc3",
+      "moves": [
+        {
+          "san": "Nd7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 Bc5 3.Nf3 d6 4.b4"
+    },
+    {
+      "line": "1.e4 e5 2.f4 Bc5 3.Nf3 d6 4.fxe5"
+    },
+    {
+      "line": "1.e4 e5 2.f4 Bc5 3.Nf3 d6 4.Nc3 Nd7"
+    },
+    {
+      "line": "1.e4 e5 2.f4 Bc5 3.Nf3 d6 4.c3 Bg4",
+      "moves": [
+        {
+          "san": "fxe5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 Bc5 3.Nf3 d6 4.c3 Bg4 5.fxe5",
+      "moves": [
+        {
+          "san": "dxe5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 Bc5 3.Nf3 d6 4.c3 Bg4 5.fxe5 dxe5",
+      "moves": [
+        {
+          "san": "Qa4+",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 Bc5 3.Nf3 d6 4.c3 Bg4 5.fxe5 dxe5 6.Qa4+"
+    },
+    {
+      "line": "1.e4 e5 2.f4 Bc5 3.Nf3 d6 4.c3 f5",
+      "moves": [
+        {
+          "san": "fxe5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 Bc5 3.Nf3 d6 4.c3 f5 5.fxe5",
+      "moves": [
+        {
+          "san": "dxe5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 Bc5 3.Nf3 d6 4.c3 f5 5.fxe5 dxe5",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 Bc5 3.Nf3 d6 4.c3 f5 5.fxe5 dxe5 6.d4",
+      "moves": [
+        {
+          "san": "exd4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 Bc5 3.Nf3 d6 4.c3 f5 5.fxe5 dxe5 6.d4 exd4"
     }
   ]
 }

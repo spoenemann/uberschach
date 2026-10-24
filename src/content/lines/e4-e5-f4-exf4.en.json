@@ -74,9 +74,12 @@
     "name": "King's Gambit Accepted: Schurig Gambit, with Bd3"
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Nf6": {
+    "name": "King's Gambit Accepted: Bishop's Gambit, Cozio Defence",
     "strategy": "Develops a piece with a threat on the undefended e4 pawn, so White has to answer before attacking, while Black keeps the extra pawn and all options open. The natural, flexible reply, which in practice leads to balanced play."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 d5": {
+    "name": "King's Gambit Accepted: Bishop's Gambit, Bledow Variation",
+    "background": "One of Black's highly regarded defences to the Bishop's Gambit.",
     "strategy": "Black gives the pawn back at once to hit the bishop and gain a share of the centre and open lines: development, not material, is the aim. It is one of Black's well-regarded replies and leads to an open, roughly balanced game."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+": {
@@ -101,6 +104,8 @@
     "name": "King's Gambit Accepted: Bishop's Gambit, Anderssen Defence"
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 f5": {
+    "name": "King's Gambit Accepted: Bishop's Gambit, Gianutio Gambit",
+    "background": "Also called the Nordic Countergambit, it originated in a game between Adolf Anderssen and Louis Eichborn in 1854.",
     "strategy": "Counterattacks e4 at once, but loosens Black's own king: the e8-h5 diagonal is open to a queen check, and White can simply defend e4 and keep the better development. A countergambit that rarely works."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 b5": {
@@ -115,18 +120,27 @@
     "strategy": "The classical way to keep the extra pawn: the g-pawn defends f4, and a later ...g4 would drive the knight away. Black owns the space on the kingside, but the advanced pawns become targets, so this is a sharp and double-edged fight for the initiative."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 h6": {
+    "name": "King's Gambit Accepted: Becker Defence",
     "strategy": "A preparatory move: it takes g5 away from the knight and readies ...g5 with a pawn behind it, so Black is not forced to push ...g4 when White undermines the chain with h4. The cost is a tempo and a slightly loosened kingside."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 d6": {
+    "name": "King's Gambit Accepted: Fischer Defence",
+    "background": "Although the move was known earlier, it became a major variation only after Fischer advocated it in an article in the first issue of the American Chess Quarterly in 1961. He called it \"a high-class waiting move\".",
     "strategy": "A waiting move: it takes the e5 square away from the knight, so the sharp h4 and Ne5 plan against ...g5 is off, frees the c8-bishop and prepares ...g5. The cost is that the f8-bishop is shut in, and the pawn on f4 is not yet defended."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nf6": {
+    "name": "King's Gambit Accepted: Schallopp Defence",
+    "background": "Named after Emil Schallopp. It has drawn more interest in the 21st century, notably in 2020, when Ding Liren used it to beat Magnus Carlsen in the online Magnus Carlsen Invitational.",
     "strategy": "Develops with an attack on e4 and prepares to hold f4 with the knight from h5 once the e-pawn advances. A knight on the rim is a liability if White gets time to attack it, so Black must be accurate, but it is a sound counter-attacking way to keep the pawn."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Be7": {
+    "name": "King's Gambit Accepted: Cunningham Defence",
+    "background": "Named after Alexander Cunningham, a Scottish jurist and chess player who lived at The Hague. Howard Staunton published sample lines of it in his Chess Player's Handbook of 1847.",
     "strategy": "Renews the threat of a check on h4 that could fix White's king in the centre. White must be ready for the check, and Black develops a piece with tempo. The pawn on f4 is not defended directly, so Black relies on active piece play."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 d5": {
+    "name": "King's Gambit Accepted: Modern Defence",
+    "background": "Several publications have recommended it as an easy way to equalise, and it was once seen as a critical line.",
     "strategy": "Hits the e4 pawn so that White has no time for the d-pawn push that would win back f4, and opens lines for the c8-bishop and the queen. Black aims to return the pawn for development and activity, accepting that White keeps the extra central pawn."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6": {
@@ -145,5 +159,173 @@
     "strategy": "Starts a plan to seal off the kingside with an h-pawn push and then the g-pawn, but it spends a move on an edge pawn without developing anything. White's d-pawn then threatens to win the pawn on f4 before the plan is ready.",
     "name": "King's Gambit Accepted: Wagenbach Defence",
     "background": "Named after János Wagenbach. John Shaw names the amount of time the plan needs as its drawback."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5": {
+    "strategy": "Takes the pawn with the bishop, which is better placed on d5 than behind a pawn: after exd5 the pawn would block the bishop's diagonal. Material is level, the bishop dominates the centre, and Black has rapid development in return."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Nf6": {
+    "name": "King's Gambit Accepted: Bishop's Gambit, Bledow Countergambit",
+    "background": "The main line of the Bledow Variation, less common than the Classical Defence or the Bogoljubov Variation but still frequently played.",
+    "strategy": "The main line: Black develops with a gain of time against the bishop, with material level and the f4 pawn as the point of tension. The activity is Black's compensation for White's strong bishop in the centre, and the game stays open and roughly equal."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Qh4+": {
+    "strategy": "Checks at once and takes away White's castling, forcing the king to f1 while the bishop keeps the centre to itself. Double-edged: Black's queen is exposed, White's king is uncastled, and either side can come out ahead."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 c6": {
+    "name": "King's Gambit Accepted: Bishop's Gambit, Anderssen Variation",
+    "strategy": "Hits the bishop with a pawn to build a solid pawn centre, but it is a pawn move, not a developing one: the bishop retreats and Black has spent a move without bringing a piece out."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Qh4+ 5.Kf1": {
+    "strategy": "The standard reply: the king steps to f1, where the queen can no longer harass it, instead of the awkward Ke2. White gives up castling, but the bishop on d5 is strong in the centre and a knight on f3 will chase the queen with a gain of time."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Qh4+ 5.Kf1 Bd6": {
+    "name": "King's Gambit Accepted: Bishop's Gambit, Boren-Svenonius Variation",
+    "strategy": "Develops a piece and guards f4, so White cannot win a pawn there with the c1-bishop. A natural, solid reply; the queen on h4 remains exposed to a knight on f3, but the bishop makes the position hold together."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Qh4+ 5.Kf1 g5": {
+    "strategy": "Holds the f4 pawn with a pawn chain, the sharper choice: it closes the queen's retreat to d8 and loosens the kingside, so White develops quickly and breaks the chain with a kingside pawn lever. Double-edged play for both sides."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Qh4+ 5.Kf1 g5 6.g3": {
+    "name": "King's Gambit Accepted: Bishop's Gambit, Chigorin's Attack",
+    "background": "It is also known as the Gifford Variation.",
+    "strategy": "Attacks the queen at once, and it cannot slip back to the centre because Black's own g-pawn blocks the diagonal. Black has to decide immediately between taking on g3 and retreating. The game turns sharp, White relying on faster development with the kingside opened."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2": {
+    "strategy": "Defends e4 at once, so ...f5 has gained nothing, and leaves the king a square on d1 if the queen checks. White keeps the better development while Black's king is exposed on the e8-h5 diagonal."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+": {
+    "strategy": "Checks at once to rob White of castling, accepting that the queen is exposed. It forces the king to a square it would rarely choose and gives Black time to open the centre with the f-pawn."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+ 5.Kd1": {
+    "strategy": "Steps to d1, the square the queen's trip to e2 has made available, instead of f1. It loses castling and looks awkward, but the king stays off the f-file, and the queen on e2 keeps e4 under attack."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+ 5.Kd1 fxe4": {
+    "strategy": "Takes the pawn and goes two pawns up, but the e4 pawn is now the only thing between White's queen on e2 and the king on e8. Black's king safety is the price of the material."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+ 5.Kd1 fxe4 6.Nc3": {
+    "strategy": "Develops with a threat: the knight attacks the e4 pawn, and taking it would uncover the queen on e2 against the king on e8. White has given two pawns for rapid development and pressure on the open e-file."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+ 5.Kd1 fxe4 6.Nc3 Kd8": {
+    "name": "King's Gambit Accepted: Lopez-Gianutio Countergambit, Hein Variation",
+    "strategy": "Steps off the e-file before the knight can take on e4 and jump on from there with a discovered check. The king loses castling but is safe enough on d8, and Black keeps the extra material while White must show that the lead in development pays."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Nf6 4.Nc3": {
+    "name": "King's Gambit Accepted: Bishop's Gambit, Bogoljubow Variation",
+    "background": "Dubbed the modern main line of the Bishop's Gambit, though it is no longer as dominant as it was.",
+    "strategy": "Defends the attacked e4 pawn with a developing move, the natural way to meet the knight's threat. It leads to the main line of the gambit, where White has rapid development and the open f-file as compensation for the pawn."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Nf6 4.Nc3 c6": {
+    "name": "King's Gambit Accepted: Bishop's Gambit, Bogoljubow Defence",
+    "background": "Korchnoi and Zak recommend it as Black's best answer to the Bishop's Gambit.",
+    "strategy": "Black plans to hit the centre with ...d5, with a pawn behind it and active pieces, while keeping the extra pawn. The price is that the pawns on d5 and f4 become targets for White's lead in development."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Nf6 4.Nc3 Bb4": {
+    "strategy": "Pressures the knight that guards e4: taking it would double White's pawns and leave e4 without a defender. White cannot ignore it, and in some lines has to give up the e4 pawn for an attack."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Nf6 4.Nc3 Bb4 5.e5": {
+    "name": "King's Gambit Accepted: Bishop's Gambit, Paulsen Attack",
+    "background": "The most common move against 4...Bb4.",
+    "strategy": "Strikes at the knight at once, taking the threat to e4 off the board. The pawn cramps Black and cuts across the bishop's plan, but it stands unsupported, and the game turns sharp with both kings in the centre."
+  },
+  "1.e4 e5 2.f4 exf4 3.Be2 f5 4.exf5": {
+    "strategy": "Takes the pawn that struck at e4, which brings material level again. The pawn on f5 is not defended and Black's bishop can attack it once the d-pawn moves, so White has to look after it; neither king has castled, so quick development counts."
+  },
+  "1.e4 e5 2.f4 exf4 3.Be2 f5 4.exf5 d6": {
+    "name": "King's Gambit Accepted: Tartakower Gambit, Weiss Defence",
+    "strategy": "Opens the diagonal of the c8-bishop to take the pawn on f5, which would put Black a pawn up again. White has to spend time keeping the pawn. The price is that the pawn on d6 shuts in the f8-bishop."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Be7 4.Bc4": {
+    "strategy": "The most popular reply: the bishop eyes f7 and clears f1 for the king, so the check on h4 does not force the king to e2 where it would hem in the bishop. White develops and prepares for the check in the same move."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Be7 4.Bc4 Nf6": {
+    "name": "King's Gambit Accepted: Cunningham Defence, McCormick Defence",
+    "background": "In modern practice it is more common for Black to simply develop with this move than to give the check on h4 at once.",
+    "strategy": "Develops with an attack on e4 and keeps the check in reserve instead of spending a tempo on it. White's centre pawn is the target, so White has to decide how to meet the knight's pressure, while Black keeps the bishop flexible."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Be7 4.Bc4 Bh4+": {
+    "strategy": "Checks anyway: White loses the right to castle, but the king is safe enough on f1 and the bishop on h4 can be attacked by the knight on f3. Black has spent time for a lasting nuisance, which is why most players simply develop instead."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Be7 4.Bc4 Bh4+ 5.g3": {
+    "name": "King's Gambit Accepted: Cunningham Defence, Bertin Gambit",
+    "background": "Also called the Three Pawns' Gambit, it was played in the nineteenth century.",
+    "strategy": "Offers a pawn to hit the bishop: Black simply takes it and is two pawns up, and White's open lines are not worth that much against accurate defence. A speculative gambit, so Black is better with best play."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Be7 4.Bc4 Bh4+ 5.g3 fxg3": {
+    "strategy": "Takes the pawn, which removes the attacker of the h4-bishop and puts Black two pawns up; the pawn on g3 also attacks h2. White has open lines and quick development for the pawns, so Black has to defend carefully, but the extra material is real."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Be7 4.Bc4 Bh4+ 5.g3 fxg3 6.O-O": {
+    "strategy": "Castles into the open lines instead of recovering a pawn, so that the rook reaches the f-file. The pawn on h2 hangs with check, so White is ready to give up a third pawn for activity, the kind of wild gamble the line is known for."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Be7 4.Bc4 Bh4+ 5.g3 fxg3 6.O-O gxh2+": {
+    "strategy": "Takes the third pawn with check. Black is three pawns up, but White's pieces are ready to use the open files, so Black has to consolidate carefully and be ready to give material back."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d5 4.exd5": {
+    "name": "King's Gambit Accepted: Modern Defence",
+    "strategy": "Takes the pawn at once, which is the right answer to the challenge to e4: the e-pawn push would be inferior because it takes e5 from the knight. Material is level, White has the extra central pawn, and Black gets development and activity for it."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d5 4.exd5 Nf6": {
+    "name": "King's Gambit Accepted: Abbazia Defence",
+    "strategy": "Develops with an attack on the d5 pawn, which is attacked by the knight and the queen. Black gives up the idea of holding f4 and plays for piece activity, so White has to protect or counter at once. White keeps the central pawn, Black the faster development."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d5 4.exd5 Nf6 5.Bb5+": {
+    "strategy": "Counterattacks with check: the bishop develops with tempo, and Black must answer it before capturing on d5. White holds the central pawn for the moment, and the check forces Black to commit to a way of dealing with the bishop."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d5 4.exd5 Nf6 5.Bb5+ c6": {
+    "strategy": "Blocks the check with a pawn that attacks both the bishop and the d5 pawn, so White has to act at once. It opens lines on the queenside for Black's pieces at the cost of a looser pawn structure there."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d5 4.exd5 Nf6 5.Bb5+ c6 6.dxc6": {
+    "strategy": "Captures the pawn that attacks the bishop instead of retreating, trading White's d-pawn for Black's c-pawn. Black wins the pawn back at once, usually with the b-pawn, which opens the b-file but leaves an isolated a-pawn."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d5 4.exd5 Nf6 5.Bb5+ c6 6.dxc6 bxc6": {
+    "strategy": "Recaptures with the b-pawn, which attacks the bishop again and gains a tempo. The b-file opens against b2, and material is level with Black still holding the pawn on f4. The game is open and a fight over the initiative."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.d4": {
+    "strategy": "Opens the c1-bishop's attack on f4, which Black has little choice but to hold with a pawn, and builds the classical centre. White wants an open game with quick development, and Black's waiting move must now be followed by a plan to hold the pawn."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.Bc4": {
+    "strategy": "Develops the bishop with a pull on f7 and prepares to castle, without committing the d-pawn. White keeps the choice of how to win back the pawn, and Black's waiting move has not yet addressed f4."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.b4": {
+    "name": "King's Gambit Accepted: Fischer Defence, Schulder Gambit",
+    "strategy": "Throws the b-pawn forward to gain queenside space, but it does nothing about the pawn on f4 or Black's centre. Black gets time to consolidate and keeps the extra pawn without difficulty."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.Bc4 h6": {
+    "strategy": "The most common reply: the pawns on d6 and h6 deny the knight both e5 and g5 as outposts, so it cannot jump to g5 to hit f7, and ...g5 can follow with the h-pawn behind it. A solid way to keep the extra pawn without allowing tactics against f7."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.d4 Nf6": {
+    "strategy": "Develops with a hit on e4 but does not hold the gambit pawn: f4 is undefended and White can take it with the c1-bishop once e4 is guarded. Black returns the pawn without compensation, and White gets a broad centre and the more comfortable game."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.Bc4 h6 5.d4": {
+    "strategy": "Opens the c1-bishop's attack on f4 and builds a big centre at once. Black has to answer the threat on the pawn, and White gets rapid development and a wide centre for the pawn."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.Bc4 h6 5.d4 g5": {
+    "strategy": "The standard way to hold the pawn on f4: the g-pawn completes a pawn chain, now supported from h6. The cost is a loosened kingside that White can undermine, but with the h-pawn behind it the chain is solid."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.Bc4 h6 5.d4 g5 6.h4": {
+    "strategy": "Hits the g5 pawn before the bishop reaches g7 to protect h6: if Black ignores it, hxg5 hxg5 opens the h-file and Rxh8 wins the undefended rook. Black has to answer on the kingside at once, while the c1-bishop still eyes f4 and White keeps the initiative."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.Bc4 h6 5.d4 g5 6.h4 Bg7": {
+    "name": "King's Gambit Accepted: Greco Gambit",
+    "strategy": "Protects the h6 pawn at the end of the chain f4-g5-h6, so after hxg5 hxg5 the rooks simply trade. The bishop also looks down the long diagonal at White's d4 pawn. Black keeps the extra pawn, and White must make up for it with the centre and the initiative."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 d6 4.d4 Nf6 5.Bd3": {
+    "name": "King's Gambit Accepted: Fischer Defence, Spanish Variation",
+    "strategy": "Guards e4 against the knight on f6 and leaves the c1-bishop free to take the f4 pawn. White is about to regain the gambit pawn and keep a full centre, so the game becomes a fight for the centre in which White has the more comfortable side."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 h6 4.Bc4": {
+    "strategy": "A natural developing move: the bishop attacks f7 and White keeps the choice between hitting the centre and undermining Black's pawn chain. White gets a flexible set-up and lets Black decide how to hold the f4 pawn."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 h6 4.Bc4 d6": {
+    "strategy": "A solid developing reply that frees the c8 bishop and controls e5. Black has not yet committed the g-pawn, so ...g5 stays in reserve to hold f4, or the pawn can be returned for development. It leads to a less sharp game than the main gambit lines."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nf6 4.e5": {
+    "strategy": "Answers the attack on e4 by pushing past the knight and attacking it, so Black must move it again. White gains space and a tempo; the cost is an advanced pawn that Black can later undermine, and the gambit pawn is still not won back."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nf6 4.e5 Nh5": {
+    "strategy": "Keeps the gambit pawn by guarding f4 with the knight rather than retreating. The price is a knight on the rim with few squares, so Black must handle it with care; the plan is to undermine White's advanced e5 pawn and finish development."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nf6 4.e5 Nh5 5.g4": {
+    "name": "King's Gambit Accepted: Schallopp Defence, Tashkent Attack",
+    "strategy": "Attacks the knight with a pawn, but Black simply captures en passant: ...fxg3 removes the attacker and wins a second pawn, and after hxg3 the knight takes on g3 with a fork of rook and bishop."
   }
 }

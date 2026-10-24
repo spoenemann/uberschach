@@ -45,6 +45,8 @@
     "strategy": "Greift den Läufer und den Springer auf c3 zugleich an. Schwarz stellt den Druck auf d5 infrage, indem er den Springer auf c3, der darauf drückt, zum Tausch anbietet, und behält die Initiative im Zentrum: Weiß muss den Läufer zurückziehen oder Figuren tauschen."
   },
   "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5": {
+    "name": "Grünfeld-Indische Verteidigung: Abtauschvariante",
+    "background": "Die häufigste Fortsetzung im Grünfeld-Indisch.",
     "strategy": "Die natürliche Rückeroberung und die Wette des Grünfeld-Spiels: Der Springer rückt ins Zentrum und lädt Weiß ein, mit e4 ein großes Bauernzentrum aufzubauen. Schwarz wird dieses Zentrum von den Flügeln und von der langen Diagonale aus angreifen, statt es zu besetzen."
   },
   "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.e3 Bg7": {
@@ -54,6 +56,162 @@
     "strategy": "Greift sofort d4 an, bevor der Bauer auf f3 ein Zentrum mit e4 stützen kann. Der Bauer auf d4 wird nur von der Dame gedeckt, daher muss Weiß das Zentrum jetzt entscheiden, solange f3 die Diagonale des Königs geschwächt hat."
   },
   "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7": {
+    "name": "Grünfeld-Indische Verteidigung: Drei-Springer-Variante",
     "strategy": "Vollendet das Fianchetto und bereitet die Rochade vor. Der Bauer d5 wird von Springer und Dame gedeckt, sodass Schwarz Weiß wählen lassen kann, wie es weitergeht, und der Läufer steht bereit für die lange Diagonale, wenn der Springer von f6 zieht."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.e3": {
+    "strategy": "Stützt d4 und den Läufer auf f4 und öffnet dem Läufer auf f1 den Weg, um c4 zu decken. Weiß spielt mit einem kleineren, sichereren Bauernzentrum auf die Initiative am Damenflügel, statt das große Zentrum aufzubauen, das cxd5 und e4 ergäben."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.Rc1": {
+    "strategy": "Bringt den Turm sofort auf die c-Linie, lässt aber c4 ungedeckt: Der Läufer auf f1 ist noch vom Bauern e2 eingesperrt, daher kann Schwarz einfach auf c4 schlagen, und Weiß muss den Bauern rechtfertigen. Schwarz kann auch rochieren und Weiß als Nächstes e3 spielen lassen."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.e3 O-O": {
+    "name": "Grünfeld-Indische Verteidigung: Brinckmann-Angriff, Grünfeld-Gambit",
+    "strategy": "Rochiert und lässt die Spannung im Zentrum bestehen. Schlägt Weiß auf d5, lässt die spätere Rückeroberung mit der Dame den Bauern auf c7 fallen, doch Schwarz erhält dafür schnelle Entwicklung und Druck auf d4. Ein Gambit, das Weiß zur Annahme auffordert, statt des üblicheren sofortigen Gegenschlags im Zentrum."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.Rc1 O-O": {
+    "strategy": "Rochiert vor allem anderen. Der König steht sicher, wie auch immer das Zentrum geklärt wird, und Schwarz muss den ungedeckten Bauern auf c4 nicht nehmen, um bequem zu stehen: Mit e3 schließt Weiß die Lücke und erreicht denselben ruhigen Aufbau wie mit e3 zuerst."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.e3 O-O 6.Rc1": {
+    "name": "Grünfeld-Indische Verteidigung: Brinckmann-Angriff, Grünfeld-Gambit, Capablanca-Variante",
+    "strategy": "Lehnt das Gambit ab und stellt den Turm auf die c-Linie, von wo er die Linie hinabblickt, wenn sich die Stellung öffnet. Weiß hält den Läufer auf f4 und den Bauern auf e3 solide und vermeidet die scharfe Variante, in der die schwarzen Figuren für den Bauern auf c7 lebendig werden."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.e3 O-O 6.cxd5": {
+    "strategy": "Nimmt das Gambit an. Nach den Abtausch auf d5 schlägt die Dame zurück und c7 hängt, sodass Weiß einen Bauern gewinnt. Dafür entwickelt sich Schwarz mit Tempo und drückt gegen den Bauern d4, sodass Weiß genau verteidigen muss, statt anzugreifen."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.e3 O-O 6.cxd5 Nxd5": {
+    "strategy": "Die natürliche Rückeroberung: Der Springer erreicht das Zentrum und greift sowohl den Läufer auf f4 als auch den Springer auf c3 an. Schwarz nimmt in Kauf, dass eine Rückeroberung mit der Dame auf d5 später c7 ungedeckt lässt: Das ist der Bauer, den Schwarz angeboten hat."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.e3 O-O 6.Rc1 c5": {
+    "strategy": "Der übliche Gegenschlag: Schwarz greift d4 sofort an, bevor sich Weiß eingerichtet hat. Schlägt Weiß auf c5, öffnet sich die Stellung, und die schwarzen Figuren erhalten aktives Spiel gegen den Springer auf c3; hält Weiß d4, kann Schwarz den Zentrumsbauern tauschen und den Läufer auf g7 befreien."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bf4 Bg7 5.Rc1 O-O 6.e3": {
+    "strategy": "Schließt die Lücke: Der Bauer stützt d4 und den Läufer auf f4, und der Läufer auf f1 deckt endlich den Bauern auf c4. Weiß erreicht denselben ruhigen Aufbau wie mit e3 zuerst, mit dem Turm bereits auf der c-Linie, und verzichtet auf scharfes Spiel."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bg5 Ne4 5.Nxe4": {
+    "strategy": "Tauscht die Springer, statt den Läufer zurückzuziehen. Die Rückeroberung ...dxe4 gibt Schwarz einen Bauern auf e4, der Raum gewinnt und den Königsflügel von Weiß einengt; der Bauer ist auch ein Angriffsziel, doch Weiß hat den Springer abgegeben, der auf d5 drückte."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bg5 Ne4 5.Nxe4 dxe4": {
+    "strategy": "Die einzig sinnvolle Rückeroberung, und eine gute: Der Bauer gewinnt Raum auf e4, nimmt den Druck von d5 und engt die Entwicklung des weißen Königsflügels ein. Der Bauer ist ein Spannungspunkt, weil Weiß ihn angreifen kann, daher muss Schwarz ihn gedeckt halten."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bg5 Ne4 5.Nxe4 dxe4 6.Qd2": {
+    "strategy": "Deckt den Läufer auf g5 und den Bauern d4 in einem Zug und räumt das Feld d1, sodass Weiß lang rochieren kann. Weiß entwickelt sich ruhig und plant, den Bauern auf e4 zu untergraben, statt zu hetzen."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Bg5 Ne4 5.Nxe4 dxe4 6.Qd2 c5": {
+    "name": "Grünfeld-Indische Verteidigung: Lundin-Variante",
+    "strategy": "Greift sofort d4 an: Mit der Dame auf d8, die den Bauern ebenfalls im Blick hat, wird er zweimal angegriffen und nur von der Dame gedeckt. Weiß muss das Zentrum jetzt klären, während Schwarz den einengenden Bauern auf e4 behält."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.e4": {
+    "strategy": "Vertreibt den Springer und baut in einem Zug das breite Bauernzentrum auf, genau das, wozu Schwarz eingeladen hat. Weiß erhält Raum und die Initiative, muss das Zentrum unter Angriff aber zusammenhalten, da die Bauern d4 und e4 zu Zielen werden."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.Na4": {
+    "name": "Grünfeld-Indische Verteidigung: Abtauschvariante, Nadanian-Angriff",
+    "background": "Benannt nach Ashot Nadanian, der sie 1996 erstmals spielte. Seine Analyse, veröffentlicht in Band 67 des „Chess Informant“, sorgte in der Schachwelt für großes Aufsehen.",
+    "strategy": "Stellt den Springer an den Rand, um c5 zu kontrollieren und ...c5, den üblichen Weg von Schwarz, das Zentrum anzugreifen, zu erschweren. Der Springer verliert Zeit, doch e4 gewinnt sie durch die Vertreibung des Springers auf d5 zurück. Eine bewusste Herausforderung der üblichen Pläne."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.e4 Nxc3": {
+    "strategy": "Schlägt den Springer, bevor er vertrieben wird. Weiß muss zurückschlagen, was ihm das große Zentrum gibt, aber einen Bauern auf c3 hinterlässt, der ein langfristiges Ziel sein wird, und die schwarzen Figuren zielen genau darauf."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.e4 Nxc3 6.bxc3": {
+    "strategy": "Schlägt mit dem b-Bauern zurück und vollendet das große Zentrum aus den Bauern auf c3, d4 und e4. Weiß erhält Raum und freie Hand für die Figuren, um den Preis eines schwachen Bauern auf c3 und eines einsamen a-Bauern, sodass das Zentrum aktiv bleiben muss."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.e4 Nxc3 6.bxc3 Bg7": {
+    "strategy": "Richtet den Läufer auf der langen Diagonale auf den Bauern d4, die Basis des weißen Zentrums, und bereitet die Rochade vor. Schwarz greift das Zentrum aus der Ferne an, und weiterer Druck der Figuren wird folgen."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.e3 Bg7 5.Qb3": {
+    "strategy": "Deckt c4 wieder und zielt auf b7, in der Absicht, den Bauern sofort zurückzugewinnen, falls Schwarz auf c4 schlägt. Doch die Dame kommt vor den Figuren heraus und kostet Zeit, sodass Schwarz freie Hand hat, den Bauern zu nehmen und dann die Entwicklung zu vollenden."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.e3 Bg7 5.Qb3 dxc4": {
+    "strategy": "Nimmt den Bauern, statt d5 passiv zu verteidigen. Weiß gewinnt ihn zurück, doch die Dame auf b3 und die verbrauchte Zeit geben Schwarz die Gelegenheit zu rochieren und die Entwicklung zu vollenden, mit gesunder Struktur und freierem Spiel."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.e3 Bg7 5.Qb3 dxc4 6.Bxc4": {
+    "strategy": "Gewinnt den Bauern mit einem Entwicklungszug zurück, und der Läufer zielt auf f7, die Dame dahinter auf b3. Die weißen Figuren zielen auf den Königsflügel; Schwarz muss den Druck auf f7 vor allem anderen beantworten."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.e3 Bg7 5.Qb3 dxc4 6.Bxc4 O-O": {
+    "strategy": "Rochiert und fügt Turm und König als Verteidiger von f7 hinzu, dem Punkt, auf den Läufer und Dame zielen. Die Entwicklung von Schwarz ist ausgeglichen, und Schwarz kann nun mit sicherem König gegen d4 und den weißen Damenflügel spielen."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.f3 c5 5.cxd5": {
+    "strategy": "Klärt die Spannung im Zentrum sofort. Nach dem Zurückschlagen kann Weiß den Springer mit e4 vertreiben, was der Bauer auf f3 stützt, und um ein breites Zentrum kämpfen."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.f3 c5 5.cxd5 Nxd5": {
+    "strategy": "Schlägt mit dem Springer zurück, zentralisiert ihn und greift den Springer auf c3 an. Zusammen mit dem Bauern auf c5, der d4 angreift, übt Schwarz sofort Druck auf das Zentrum aus, und der Plan von Weiß, es mit e4 aufzubauen, hat seinen Preis."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.f3 c5 5.cxd5 Nxd5 6.Na4": {
+    "name": "Grünfeld-Indische Verteidigung: Lutikow-Variante, Murrey-Angriff",
+    "background": "Eine abgewandelte Fassung von Ashot Nadanians Idee Sa4, die als Neo-Nadanian bezeichnet wird.",
+    "strategy": "Greift den Bauern auf c5 ein zweites Mal an: Mit d4 und dem Springer darauf und ohne dass ihn etwas deckt, muss Schwarz die Spannung sofort klären. Der Springer steht am Rand, doch der Zug gewinnt ein Tempo."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Qb3": {
+    "name": "Grünfeld-Indische Verteidigung: Russische Variante",
+    "strategy": "Setzt d5 und b7 unter Druck und erzwingt praktisch ...dxc4, wonach Weiß einen Vorsprung im Zentrum erhält. Der Preis ist, dass die Dame auf c4 exponiert steht, wenn sich das Spiel von Schwarz am Damenflügel entfaltet. Ein scharfer, konsequenter Test des Bauern d5."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Bg5": {
+    "name": "Grünfeld-Indische Verteidigung: Drei-Springer-Variante, Petrosjan-System",
+    "background": "Auch als Taimanov-Variante bekannt, eine Linie, die Yasser Seirawan bevorzugt.",
+    "strategy": "Greift den Springer auf f6 an, den Hauptverteidiger von d5, sodass das Schlagen auf d5 stärker wird. Weiß entwickelt sich mit der Drohung, diesen Verteidiger abzutauschen, und Schwarz muss den Läufer aktiv beantworten oder einen geschwächten Griff auf das Zentrum hinnehmen."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Bf4": {
+    "name": "Grünfeld-Indische Verteidigung: Drei-Springer-Variante, Ungarischer Angriff",
+    "background": "Die „Partie des Jahrhunderts“ von 1956 zwischen Donald Byrne und dem 13-jährigen Bobby Fischer enthielt diese Eröffnung, erreichte sie aber durch eine Zugumstellung.",
+    "strategy": "Entwickelt den Läufer außerhalb der Bauernkette, mit Blick auf c7, und hält den Bauern d4 unter dem Schutz des Springers. Weiß vermeidet das große Zentrum, das cxd5 und e4 aufbauen würden, und spielt auf einen flexiblen, soliden Aufbau."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.e3": {
+    "name": "Grünfeld-Indische Verteidigung: Drei-Springer-Variante, Burille-Variante",
+    "strategy": "Ein ruhiger, solider Aufbau: Der Bauer stützt d4, öffnet dem Läufer auf f1 den Weg, um c4 zu decken, und bereitet die Rochade vor. Weiß überlässt dem schwarzen Fianchetto die Initiative, doch die Struktur ist gesund, und die Partie entscheidet sich im langsamen Manövrieren."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.cxd5": {
+    "strategy": "Klärt die Spannung sofort und bereitet vor, das große Zentrum mit e4 aufzubauen. Mit dem Springer bereits auf f3 ist der Plan weniger bequem als üblich: Schwarz kann den Springer fesseln und den Bauern d4 schnell angreifen."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Qa4+": {
+    "name": "Grünfeld-Indische Verteidigung: Flohr-Variante",
+    "strategy": "Gibt Schach und verstärkt den Druck auf d5, doch die Dame steht früh draußen, und Schwarz kann mit einem Entwicklungszug abdecken, etwa mit einem Läufer, der die Dame sofort angreift. Das Schach bringt wenig, und die Dame muss ein anderes Feld suchen."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Bf4 O-O": {
+    "strategy": "Rochiert sofort. Der Läufer auf f4 greift nur c7 an, das die Dame deckt, sodass Schwarz nichts Besonderes braucht, und der König steht sicher, bevor sich das Zentrum öffnet. Schwarz hält den Grünfeld-Gegenschlag ...c5 in Reserve."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.e3 O-O": {
+    "strategy": "Rochiert vor allem anderen. Der ruhige Aufbau von Weiß hat keine Drohung geschaffen, daher vollendet Schwarz die Entwicklung mit sicherem König und behält die Wahl, wie er das Zentrum angreift, für später."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Qb3 dxc4": {
+    "strategy": "Nimmt den Bauern, da passives Verteidigen von d5 Weiß die bessere Partie gibt. Schwarz gibt das Zentrum für Aktivität auf: Weiß gewinnt den Bauern auf c4 mit der Dame zurück und erhält einen Vorsprung im Zentrum, doch die Dame steht den Angriffen von Schwarz am Damenflügel ausgesetzt."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.cxd5 Nxd5": {
+    "strategy": "Schlägt mit dem Springer zurück, was f6 für den Läufer auf g7 freimacht und den Läufer auf d4 wirken lässt. Schwarz lädt Weiß ein, den Springer mit e4 zu vertreiben und ein großes Bauernzentrum zu nehmen, und greift dieses Zentrum dann an: die zentrale Idee der Verteidigung."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Bf4 O-O 6.e3": {
+    "name": "Grünfeld-Indische Verteidigung: Drei-Springer-Variante, Ungarische Variante",
+    "strategy": "Stützt den Läufer auf f4 und d4 und öffnet dem Läufer auf f1 den Weg, um c4 zu decken. Weiß behält ein bescheidenes, solides Zentrum und spielt gegen den Damenflügel von Schwarz, die Rochade folgt als Nächstes."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.cxd5 Nxd5 6.e4": {
+    "strategy": "Vertreibt den Springer und nimmt mit Tempo ein breites Bauernzentrum. Weiß gewinnt vorerst Raum und die Initiative, und der ganze Sinn der Verteidigung ist, dass dieses Zentrum zum Angriffsziel wird: Schwarz wird d4 und die Bauern dahinter angreifen."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.cxd5 Nxd5 6.e4 Nxc3": {
+    "strategy": "Tauscht den angegriffenen Springer, statt zurückzuziehen, was Weiß ein volles Bauernzentrum lässt, aber ohne den Springer, der es stützte. Schwarz greift dieses Zentrum nun mit dem Läufer auf g7 und dem c-Bauern an; das Zentrum muss sich als stark erweisen, statt ein Ziel zu sein."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.e3 O-O 6.b4": {
+    "name": "Grünfeld-Indische Verteidigung: Makogonow-Variante",
+    "strategy": "Gewinnt Raum am Damenflügel und nimmt Schwarz c5 weg, das übliche Feld für den Gegenschlag im Zentrum. Weiß legt sich auf einen Plan am Damenflügel fest, doch der Bauer auf b4 steht ungedeckt und kann zum Ziel werden."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.e3 O-O 6.Qb3": {
+    "name": "Grünfeld-Indische Verteidigung: Drei-Springer-Variante, Wiener Variante",
+    "strategy": "Greift d5 und b7 zugleich an und verlangt von Schwarz, einen Plan im Zentrum zu nennen. Die Dame kommt früh heraus, doch der Bauer auf e3 festigt das Zentrum, und die Dame steht vorerst sicher auf b3."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.e3 O-O 6.Bd2": {
+    "name": "Grünfeld-Indische Verteidigung: Opočenský-Variante",
+    "strategy": "Ein bescheidener Entwicklungszug, mit dem Weiß auf c3 mit dem Läufer zurückschlagen kann und so Doppelbauern oder isolierte Bauern vermeidet, falls die Springer getauscht werden. Er ist solide, aber langsam, und Schwarz bekommt Zeit, das Zentrumsspiel aufzubauen."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.e3 O-O 6.Bd3": {
+    "name": "Grünfeld-Indische Verteidigung: Drei-Springer-Variante, Pariser Variante",
+    "strategy": "Entwickelt den Läufer aktiv und hält c4 gedeckt, sodass ...dxc4 Schwarz nur ein Tempo gegenüber dem Zurückschlagen kosten würde. Doch der Läufer steht auf d3 vor der Dame, und Weiß gibt dem Zentrum wenig zusätzlichen Druck."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.e3 O-O 6.Qb3 e6": {
+    "name": "Grünfeld-Indische Verteidigung: Botwinnik-Variante",
+    "strategy": "Hält d5 mit einem Bauern, und die Struktur ist solide. Der Preis ist ein passiver Läufer auf c8, hinter dem Bauern auf e6 eingesperrt, sodass Schwarz anderswo Aktivität finden muss."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Qb3 dxc4 6.Qxc4": {
+    "strategy": "Gewinnt den Bauern sofort zurück und überlässt Weiß den größeren Anteil am Zentrum. Der Preis ist eine Dame, die offen auf c4 steht und dort von schwarzen Figuren mit Tempo angegriffen werden kann; Schwarz nimmt ein kleineres Zentrum für dieses aktive Spiel in Kauf."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Qb3 dxc4 6.Qxc4 O-O": {
+    "strategy": "Bringt den König in Sicherheit und lässt den Läufer auf g7 frei auf der langen Diagonale wirken. Schwarz gestattet Weiß ein breites Bauernzentrum und plant, es mit Figuren und Damenflügelspiel zu untergraben, wobei die exponierte Dame auf c4 als Ziel für Tempozüge dient."
   }
 }

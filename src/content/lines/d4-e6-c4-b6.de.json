@@ -18,5 +18,42 @@
   },
   "1.d4 e6 2.c4 b6 3.e4 Bb7": {
     "strategy": "Der Kern der Eröffnung: Der Läufer greift sofort den Bauern e4 an, und noch nichts deckt ihn. Weiß muss einen Zug für den Bauern aufwenden, während Schwarz eine Figur entwickelt und ein langfristiges Ziel geschaffen hat."
+  },
+  "1.d4 e6 2.c4 b6 3.e4 Bb7 4.Bd3": {
+    "strategy": "Die natürlichste Verteidigung: Sie deckt e4 und entwickelt eine Figur zum Königsflügel, ohne die Bauern um den König zu schwächen. Der Preis ist, dass der Läufer der Dame die Sicht auf d4 versperrt, was Schwarz sofort angreifen kann."
+  },
+  "1.d4 e6 2.c4 b6 3.e4 Bb7 4.f3": {
+    "strategy": "Stützt e4 mit einem Bauern, was die Figuren frei und das Zentrum intakt hält. Doch es nimmt dem Springer das Feld f3 und öffnet die Diagonale e1-h4, sodass ...Dh4+ das schwächende g3 erzwingt."
+  },
+  "1.d4 e6 2.c4 b6 3.e4 Bb7 4.Bd3 Nc6": {
+    "name": "Englische Verteidigung: Perrin-Variante",
+    "strategy": "Greift den Bauern d4 an, den der Läufer ohne den Schutz der Dame zurückgelassen hat. Schwarz bereitet außerdem vor, den Springer gegen den Läufer zu tauschen, der e4 deckt, und so den Griff von Weiß auf das Zentrum zu lockern."
+  },
+  "1.d4 e6 2.c4 b6 3.e4 Bb7 4.f3 f5": {
+    "strategy": "Fordert den Bauern e4 sofort heraus, doch mit f3 dahinter kann Weiß auf f5 schlagen, und es ist der Königsflügel von Schwarz, der offen bleibt. Ein thematischer Schlag, der mehr Vorbereitung braucht, um solide zu sein."
+  },
+  "1.d4 e6 2.c4 b6 3.e4 Bb7 4.f3 f5 5.exf5": {
+    "strategy": "Öffnet das Zentrum durch das Schlagen des Bauern. Der Bauer auf f3 hält die lange Diagonale des Läufers geschlossen, lässt aber die Diagonale e1-h4 offen, sodass Weiß bereit sein muss, ...Dh4+ mit g3 zu beantworten."
+  },
+  "1.d4 e6 2.c4 b6 3.e4 Bb7 4.f3 f5 5.exf5 Nh6": {
+    "name": "Englische Verteidigung: Poli-Gambit",
+    "strategy": "Greift f5 ein zweites Mal an, doch Weiß kann die Drohung ignorieren: Lxh6 Dh4+ g3 Dxh6 fxe6 lässt Weiß einen klaren Mehrbauern. Schwarz riskiert einen Bauern und stellt einen Springer an den Rand, um den Bauern zurückzugewinnen."
+  },
+  "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4": {
+    "strategy": "Baut das breite Bauernzentrum auf, mit dem Springer bereits entwickelt, um e4 zu decken, dem Aufbau, zu dem die Englische Verteidigung einlädt. Weiß erhält Raum und freie Hand im Mittelspiel, doch die Zentrumsbauern werden zu Zielen für den Läufer auf b7 und den Bauernvorstoß ...f5."
+  },
+  "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4 f5": {
+    "strategy": "Greift e4 ein zweites Mal an, mit Läufer und f-Bauer gegen den Springer allein, sodass Weiß sofort reagieren muss. Der Preis ist ein geschwächter Königsflügel: Sind die Bauern erst getauscht, liegt die Diagonale zum eigenen König von Schwarz offen."
+  },
+  "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4 f5 5.exf5": {
+    "strategy": "Schlägt den Bauern und öffnet das Zentrum. Die Diagonale des Läufers reicht nun bis g2, das der Läufer auf f1 deckt, und Weiß behält seine Bauern auf d4 und c4. Schlägt Schwarz nicht zurück, bleibt Weiß einen Bauern im Plus."
+  },
+  "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4 f5 5.d5": {
+    "name": "Englische Verteidigung: Abgelehntes Hartlaub-Gambit",
+    "strategy": "Lehnt den Bauern ab und antwortet stattdessen im Zentrum: Der Bauer greift e6 an und steht vor dem Läufer auf b7, der nun auf einen gut gedeckten Bauern beißt. Weiß behält seinen Raum und vermeidet die Komplikationen eines offenen Zentrums."
+  },
+  "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4 f5 5.exf5 Nf6": {
+    "name": "Englische Verteidigung: Angenommenes Hartlaub-Gambit",
+    "strategy": "Lässt den Bauern auf f5 stehen und entwickelt sich stattdessen, als Gambit. Der Springer deckt h5 und verhindert so das Damenschach, kontrolliert e4 und d5, während die offene Diagonale vom Läufer bis g2 reicht. Schwarz spielt auf Aktivität gegen einen Mehrbauern, den Weiß womöglich behalten kann."
   }
 }

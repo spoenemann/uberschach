@@ -103,6 +103,8 @@
     "strategy": "Controls e5 and c5 and keeps several set-ups open, with the bishop on the long diagonal or the knight on f6. The pawn also supports a later ...e5 or ...c5, but until then White has a free hand in the centre."
   },
   "1.e4 g6 2.d4 Nf6": {
+    "name": "Modern Defence: Norwegian Defence",
+    "background": "Also called the North Sea Variation. Magnus Carlsen calls the continuation 3.e5 Nh5 the “Norwegian Rat”, and he played it, with 4.Be2 d6, against Michael Adams at the 2010 Khanty-Mansiysk Olympiad.",
     "strategy": "Attacks e4 at once and heads for a Pirc if White simply defends it. Pushing the pawn to e5 gains space but drives the knight to the edge, from where Black hopes to undermine e5 with ...d6. A risky, offbeat route."
   },
   "1.e4 g6 2.d4 c6": {
@@ -354,5 +356,74 @@
   },
   "1.e4 g6 2.Bc4 Bg7": {
     "strategy": "The natural reply: the fianchettoed bishop presses on the centre and the b2 pawn, and Black ignores the early bishop on c4. That bishop is dangerous only when joined by the queen against f7, which one pawn move parries."
+  },
+  "1.e4 g6 2.Bc4 Bg7 3.Qf3": {
+    "strategy": "Doubles the attack on f7 and threatens Qxf7 mate, a quick trap for the careless. Against a careful defence it commits the queen before the knights are out and leaves White with little to follow up."
+  },
+  "1.e4 g6 2.Bc4 Bg7 3.Qf3 e6": {
+    "strategy": "Parries the threat on f7 by blocking the c4 bishop's diagonal with a pawn that the f-pawn defends. Black gives up a few light squares but takes the sting out of White's early queen and bishop, which have nothing to aim at."
+  },
+  "1.e4 g6 2.Bc4 Bg7 3.Qf3 e6 4.d4": {
+    "strategy": "Offers the d-pawn for quick development and an open centre. If Black takes with the bishop, nothing attacks it yet, so White needs a developing move to chase it; the compensation is thin."
+  },
+  "1.e4 g6 2.Bc4 Bg7 3.Qf3 e6 4.d4 Bxd4": {
+    "name": "Modern Defence: Bishop Attack, Monkey's Bum",
+    "background": "Nigel Povah's game as White against Shimon Kagan at Birmingham in 1977 is the example given of how thin White's compensation for the pawn proves in practice.",
+    "strategy": "Takes the pawn and puts the bishop on an active central square, pressing on b2 and f2, both defended. Black is a pawn up, and once White spends a move to chase the bishop, it can retreat and keep the material."
+  },
+  "1.e4 g6 2.d4 Nf6 3.e5": {
+    "strategy": "Chases the knight at once and gains space with tempo. The pawn on e5 cramps Black, but it advances early and becomes a target that Black will undermine."
+  },
+  "1.e4 g6 2.d4 Nf6 3.e5 Nh5": {
+    "strategy": "The knight goes to the rim rather than to d5, where c4 would hit it again. Black loses time, but White's e-pawn is overextended and the knight eyes squares on f4 and g3. A provocative way to lure White forward."
+  },
+  "1.e4 g6 2.d4 Nf6 3.e5 Nh5 4.Be2": {
+    "strategy": "Develops with an attack on the rim knight and threatens Bxh5, which would double Black's pawns after the recapture. Black has to retreat or pay a pawn for activity, and White gets a useful move in either case."
+  },
+  "1.e4 g6 2.d4 Nf6 3.e5 Nh5 4.Be2 d6": {
+    "name": "Modern Defence: Norwegian Defence, Norwegian Gambit",
+    "strategy": "Ignores the threat and strikes at the e5 pawn. If White takes the knight, the recapture opens the g-file, and that file with a bishop coming to g7 is Black's compensation for the pawn. A double-edged gambit that demands accurate play from both sides."
+  },
+  "1.e4 g6 2.d4 Nh6 3.c4": {
+    "strategy": "Builds a three-pawn centre while Black's knight stands awkwardly on the rim. Black has no quick way to challenge it, and White can build on the space for a long time."
+  },
+  "1.e4 g6 2.d4 Nh6 3.Nc3": {
+    "strategy": "A natural developing move that supports a later central advance and keeps the c-pawn flexible. White develops while Black's knight is badly placed on the rim."
+  },
+  "1.e4 g6 2.d4 Nh6 3.Nc3 f5": {
+    "strategy": "Hits e4 and gives the h6 knight a job, but it loosens the kingside and invites White to trade the knight off or take on f5. An ambitious move that is more risky than useful."
+  },
+  "1.e4 g6 2.d4 Nh6 3.c4 f6": {
+    "name": "Adams Defence",
+    "strategy": "Gives the knight the f7 square and holds e5, but the pawn shuts the long diagonal on which the bishop would stand and loosens the a2-g8 diagonal. White's three-pawn centre keeps plenty of time to expand."
+  },
+  "1.e4 g6 2.d4 Nh6 3.Nc3 f5 4.Bxh6": {
+    "strategy": "Trades the bishop for the knight that supports f5. Black's only recapture drags the f8 bishop to h6, away from the long diagonal it would like, and White can still take the pawn on f5."
+  },
+  "1.e4 g6 2.d4 Nh6 3.Nc3 f5 4.Bxh6 Bxh6": {
+    "strategy": "The only recapture. The bishop does at least get an active diagonal, pointing at d2 and c1, but the plan of a fianchetto on g7 is gone and White can take the pawn on f5."
+  },
+  "1.e4 g6 2.d4 Nh6 3.Nc3 f5 4.Bxh6 Bxh6 5.exf5": {
+    "strategy": "Takes the pawn that Black offered. White is a pawn up, and the pawn on f5 attacks g6, so Black has to find something in return for it."
+  },
+  "1.e4 g6 2.d4 Nh6 3.Nc3 f5 4.Bxh6 Bxh6 5.exf5 O-O": {
+    "name": "Modern Defence: Masur Gambit",
+    "strategy": "Gives up the pawn for quick king safety and a bishop that keeps d2 and c1 under watch, which makes it awkward for White's queen and queenside castling. There is little else to show for the pawn."
+  },
+  "1.e4 g6 2.Nc3 Bg7 3.f4": {
+    "strategy": "Grabs kingside space and prepares a quick central advance and an attack. It commits the f-pawn early and loosens the e1-h4 diagonal, so White needs to keep an eye on its own king."
+  },
+  "1.e4 g6 2.Nc3 Bg7 3.f4 c5": {
+    "strategy": "Stakes a claim on d4 before White has a pawn there; the g7 bishop already attacks the c3 knight. Black fights for the queenside and the centre from the flank instead of waiting."
+  },
+  "1.e4 g6 2.Nc3 Bg7 3.f4 c5 4.Nf3": {
+    "strategy": "Develops the knight and covers d4 and e5, the squares Black's c-pawn and bishop fight for. White keeps the centre solid while the f-pawn and e-pawn hold space for the later attack."
+  },
+  "1.e4 g6 2.Nc3 Bg7 3.f4 c5 4.Nf3 Qa5": {
+    "name": "Pterodactyl Defence: Austrian, Grand Prix Pterodactyl",
+    "strategy": "An early queen sortie that puts the queen and the g7 bishop both on the c3 knight, which the b2 and d2 pawns hold, and also eyes a2. Black takes the initiative on the queenside, though the queen may lose time if White harasses it."
+  },
+  "1.e4 g6 2.Nf3 Bg7 3.d4": {
+    "strategy": "Takes the centre now that the knight has developed, and reaches the same position as 2.d4 Bg7 3.Nf3 by another move order. White faces no extra problems here, and Black has the same decisions to make."
   }
 }

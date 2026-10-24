@@ -19,5 +19,26 @@
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 d5 5.cxd5 exd5": {
     "strategy": "Keeps a pawn in the centre and opens the e-file and the bishop on c8. The line is sharper than the queen recapture, since White's bishop can come to g5 to pin the f6 knight against the queen, so Black has to be ready for a tactical fight.",
     "name": "Nimzo-Indian Defence: Classical Variation, Noa Variation"
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 d5 5.a3 Bxc3+ 6.Qxc3": {
+    "strategy": "The natural recapture: the queen keeps White's pawns healthy, guards c4 and keeps the two bishops. The queen is centralised but also becomes a target, so Black can look for tempo against it at once."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 d5 5.a3 Bxc3+ 6.Qxc3 Ne4": {
+    "name": "Nimzo-Indian Defence: Classical Variation, Noa Variation, Main Line",
+    "strategy": "The main line: the knight attacks the queen, wins a tempo and takes the strong central square. Black aims for a quick opening of the position to exploit the lead in development against the two bishops, with a balanced game."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 d5 5.a3 Bxc3+ 6.Qxc3 Nc6": {
+    "name": "Nimzo-Indian Defence: Classical Variation, Noa Variation, Botvinnik Variation",
+    "strategy": "Develops a piece and adds pressure on d4, but unlike the knight move to e4 it does not hit the queen. White gets time to take space with its pawns and to use its bishops, while the knight blocks Black's own c-pawn."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 d5 5.a3 Bxc3+ 6.Qxc3 c5": {
+    "name": "Nimzo-Indian Defence: Classical Variation, Romanishin Gambit",
+    "strategy": "A gambit: Black hits d4 at once and offers a pawn. If White takes, the knight comes to e4 with tempo on both the queen and the pawn, so Black gets quick play; but it is a risky try rather than a refutation."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 d5 5.cxd5 Qxd5 6.Nf3": {
+    "strategy": "Natural development, but it lets Black offer a queen trade that leaves Black comfortable. The trade gives Black equality, which makes this the weaker way to meet the queen recapture."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 d5 5.cxd5 Qxd5 6.Nf3 Qf5": {
+    "strategy": "Offers the exchange of queens: after the trade, the pawn recapture on f5 strengthens Black's grip on e4 and frees e6 for the bishop. The queen already attacks White's queen along the diagonal, so White must answer at once."
   }
 }

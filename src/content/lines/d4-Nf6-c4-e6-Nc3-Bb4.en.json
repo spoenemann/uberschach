@@ -62,6 +62,7 @@
     "strategy": "The most common reply: Black castles, a move it will want in any case, and keeps the structure open. Black waits to see where White puts the bishop and knights before deciding between a central pawn strike and taking on c3."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5": {
+    "name": "Nimzo-Indian Defence: Rubinstein System",
     "strategy": "Presses on d4 immediately and keeps the central pawn set-up flexible. The threat to double White's pawns is held in reserve, so White has time to arrange to recapture with a piece, at the cost of a less natural development."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 b6": {
@@ -94,12 +95,257 @@
     "strategy": "The most common reply: Black puts the king away and keeps every plan open. The queen on c2 has made sure White will not get doubled pawns, so Black does not hurry to give up the bishop and waits to see how White commits."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 Nc6": {
+    "name": "Nimzo-Indian Defence: Classical Variation, Zurich Variation",
+    "background": "Also known as the Milner-Barry Variation, after the British player Stuart Milner-Barry.",
     "strategy": "Attacks the d4 pawn and prepares a pawn centre on d6 and e5 that leaves the other bishop free. The dark-squared bishop is given up, and the knight blocks Black's own c-pawn, which is why the move is rarer today."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 d5": {
     "strategy": "Stakes a claim in the centre at once and attacks the c4 pawn, which the queen cannot defend because the knight on c3 is in the way. White has to decide immediately how to resolve the central tension."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 c5": {
+    "name": "Nimzo-Indian Defence: Classical Variation, Berlin Variation",
     "strategy": "Strikes at the d4 pawn, which the queen on c2 no longer guards. If White defends it, Black keeps the pressure and gets an easy game, so White almost always takes, and Black then plans to win the pawn back."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.a3 Bxc3+ 5.bxc3": {
+    "strategy": "Recaptures with the pawn, the only way to do it. White accepts doubled pawns and a weak pawn on c4 in return for the bishop pair, a broad centre and the chance of a quick attack on the kingside."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.a3 Bxc3+ 5.bxc3 c5": {
+    "strategy": "Blockades the doubled pawns and hits d4 at once. Black's plan is to pile up on the weak c4 pawn while White builds the centre, so the game turns on whether White's centre and kingside play outweigh that target."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.a3 Bxc3+ 5.bxc3 O-O": {
+    "name": "Nimzo-Indian Defence: Sämisch Variation",
+    "strategy": "Gets the king to safety before the centre opens and keeps the plans against the doubled pawns in reserve. The cost is that White can start building the pawn centre without hindrance, so Black must still find a way to fight it."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.a3 Bxc3+ 5.bxc3 c5 6.e3": {
+    "name": "Nimzo-Indian Defence: Sämisch Variation",
+    "strategy": "Adds a defender to d4 and opens the way for the king's bishop, which also guards c4. White answers the pressure with a solid chain and keeps the central advance in hand, so the weak pawns are shielded while the pieces come out."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.a3 Bxc3+ 5.bxc3 c5 6.e3 b6": {
+    "name": "Nimzo-Indian Defence: Sämisch Variation, O'Kelly Variation",
+    "strategy": "Prepares ...Ba6 against the weak c4 pawn, so White has to defend it or give it up. Black plays against the doubled pawns on the queenside, and the pawn on b6 also gives the c8 bishop its diagonal."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bg5 h6 5.Bh4": {
+    "strategy": "Declines the trade and keeps the pin on the f6 knight, so Black's knight still cannot freely move or guard d5. The price is a bishop placed far from the queenside, where Black may later harass it with a kingside pawn."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bg5 h6 5.Bh4 c5": {
+    "strategy": "Strikes at d4 at once. It forces White to decide whether to release the tension or to gain space, and it keeps both a pawn exchange and a closed blockade of the dark squares available to Black."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bg5 h6 5.Bh4 c5 6.d5": {
+    "strategy": "The point of the pin: with the f6 knight tied down, White grabs space and attacks e6 right away. Black must decide whether to open the position against the new pawn or to close it and fight for the dark squares."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bg5 h6 5.Bh4 c5 6.d5 d6": {
+    "name": "Nimzo-Indian Defence: Leningrad Variation, Benoni Defence",
+    "strategy": "Supports a pawn on e5 and keeps the e6 pawn's options open: Black can capture on d5 or, more usually, give up the bishop on c3 and blockade the dark squares. The position then favours Black's knights over White's bishops."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bg5 h6 5.Bh4 c5 6.d5 b5": {
+    "name": "Nimzo-Indian Defence: Leningrad Variation, Averbakh Gambit",
+    "background": "Much played in the 1970s, after Mikhail Tal scored a crushing win over Boris Spassky at Tallinn 1973.",
+    "strategy": "A pawn sacrifice that attacks the undefended c4 pawn, the support of White's d5 pawn, from the flank. The knight on c3 is pinned and cannot take it, but Black has to prove that open lines against the centre are worth the pawn."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Bd3": {
+    "strategy": "Develops the bishop to its best square, where it helps control e4, and leaves the tension on d4 unresolved. White accepts doubled pawns if Black takes on c3, in return for the bishop pair and a flexible centre."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Ne2": {
+    "name": "Nimzo-Indian Defence: Rubinstein System, Rubinstein Variation",
+    "strategy": "Prevents Black from doubling the pawns by preparing to recapture on c3 with the knight. White keeps a healthy structure and can answer a pawn exchange in the centre with a recapture by the e-pawn, at the cost of a knight that blocks the king's bishop."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Bd3 Nc6": {
+    "strategy": "Develops a piece and adds a second attacker to d4. Black keeps the option of taking on c3 at once and building a closed position, in which the knights are better placed than White's bishops and the doubled pawns leave White without queenside breaks."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Ne2 cxd4": {
+    "strategy": "Releases the tension in the centre and clears c5, giving the bishop a retreat to e7. White recaptures with the e-pawn, because taking with the knight would let ...Bxc3+ double the pawns after all."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Bd3 Nc6 6.Nf3": {
+    "strategy": "The flexible developing move: it covers d4 and e5 and lets White meet ...Bxc3 with the bishop pair and doubled c-pawns, without a tempo spent on a3. White bets that the two bishops and the centre outweigh the weak queenside pawns once the position opens."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Bd3 Nc6 6.a3": {
+    "strategy": "Asks the bishop to decide at once, but Black was ready to take on c3 anyway. White gets the bishop pair and doubled c-pawns for a tempo spent on the a-pawn while the kingside is still undeveloped, so Black has time to set up a blockade."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Bd3 Nc6 6.a3 Bxc3+": {
+    "strategy": "Takes the knight and doubles White's pawns, the usual aim of the pin. Black gives up the bishop pair for a lasting queenside weakness and keeps the pressure on d4 with the c-pawn and the knight."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Bd3 Nc6 6.Nf3 Bxc3+": {
+    "strategy": "Captures at once, without waiting for a3. Black then closes the centre and blockades the dark squares, so that the knights outplay White's bishops and the doubled c-pawns leave White without pawn breaks on the queenside."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Ne2 cxd4 6.exd4": {
+    "strategy": "Recaptures with the pawn so that the knight stays on e2 to guard c3. White gets a broad pawn centre on c4 and d4 and a free dark-squared bishop, but the knight is passive and the f1-bishop still has to find a way out."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Ne2 cxd4 6.exd4 O-O": {
+    "strategy": "Castles first and does not push the d-pawn yet, which would allow White to gain space with c5. The bishop keeps its retreat to e7 in reserve, and a quiet game follows in which White's central pawns face Black's piece play."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Ne4 5.Qc2": {
+    "strategy": "Attacks the undefended knight on e4; the pinned knight on c3 cannot take it, so the queen does the work. It also guards c3, which both the knight on e4 and the bishop attack."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Ne4 5.Qc2 f5": {
+    "strategy": "Supports the knight with a pawn so that it can stay on e4, a bold way to hold the central square. The price is a looser king's side: the e8-h5 diagonal is open and e6 is weaker, with Black's king still uncastled."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Ne4 5.Qc2 f5 6.Nf3": {
+    "strategy": "Develops and covers e5 and d4, ready to challenge the outpost with the bishop. Black's knight now relies on the f5 pawn alone, so Black needs more support or has to trade it for the knight on c3."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Ne4 5.Qc2 f5 6.Nf3 b6": {
+    "strategy": "Prepares ...Bb7 to give the e4 knight a second defender. Black answers the challenge to the outpost by adding force to it rather than trading."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.f3 d5 5.a3": {
+    "strategy": "Puts the question to the bishop. If Black takes on c3, White gets the bishop pair and doubled c-pawns, and with the f-pawn on f3 the e4 advance can follow with a broad centre. Retreating lets White build the centre in peace."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.f3 d5 5.a3 Bxc3+": {
+    "strategy": "Takes the knight and doubles White's pawns, giving up the bishop pair. White's f3 does nothing for development, so Black has time to attack the doubled pawns."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.f3 d5 5.a3 Bxc3+ 6.bxc3": {
+    "strategy": "The only recapture. White gets the bishop pair and a pawn mass on c3, c4 and d4 with an advance of the e-pawn in mind; the doubled pawns and the loosened kingside are the price."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.f3 d5 5.a3 Bxc3+ 6.bxc3 c5": {
+    "strategy": "Attacks d4 at once, and with the d-pawn already hitting c4, both the c4 and d4 pawns come under pressure. White has to open the centre quickly, since only open lines give the bishops their scope."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 b6 5.Bg5": {
+    "strategy": "Pins the knight on f6 against the queen, so it cannot leave for e4 without uncovering the queen to the bishop, and adds a second pin to the one on c3. Black has to untangle without giving White a free hand."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 b6 5.e3": {
+    "strategy": "Solid and flexible: it opens the f1-bishop's path to d3 and builds the centre. White accepts that the pinned knight cannot take on e4, so the black knight may settle there, and plans to challenge it."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 b6 5.e3 Ne4": {
+    "strategy": "Plants the knight on e4, where the pinned c3 knight cannot take it, and prepares ...Bb7 to support it. Black fights for the central square before White has built a centre, at the cost of moving the knight a second time."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 b6 5.Bg5 h6": {
+    "strategy": "Asks the g5 bishop at once what it wants: keep the pin by retreating, or trade itself for the knight. Black spends a pawn move but gets a clear answer before choosing a set-up, while the bishop on b4 keeps the c3 knight pinned."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 b6 5.Bg5 h6 6.Bh4": {
+    "strategy": "Keeps the bishop and the pin on f6 instead of exchanging on f6. The bishop can be challenged by a pawn advance on the kingside, but that advance weakens Black's king, so the position stays tense."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 b6 5.Bg5 h6 6.Bh4 Bb7": {
+    "name": "Queen's Indian Defence: Kasparov Variation",
+    "strategy": "Completes the fianchetto while keeping the pin on the c3 knight, which restrains White's centre. Black now fights for e4 and d5 with pieces and decides later how to deal with the pin on f6. A complex game with chances for both sides."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 b6 5.e3 Ne4 6.Qc2": {
+    "name": "Nimzo-Indian Defence: St. Petersburg Variation",
+    "strategy": "Hits the knight on e4, which nothing protects yet; the pinned knight on c3 cannot take it, so the queen does the work. The queen also guards c3 against the bishop. Black has to support or trade the knight at once."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 b6 5.e3 Ne4 6.Qc2 Bb7": {
+    "strategy": "Guards the knight on e4, which White's queen attacks, and puts the bishop on the long diagonal in the same move. Black keeps the knight on its strong central square and the pin on c3 in place, so White has to spend time challenging the knight rather than developing."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 Bxc3+ 5.bxc3": {
+    "strategy": "Recaptures with the pawn, accepting doubled c-pawns in return for the bishop pair and a broad pawn centre. The pawns on c3 and c4 are a long-term weakness that Black will attack, but White gets space in the centre and a base for play against the kingside."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 Bxc3+ 5.bxc3 b6": {
+    "strategy": "Aims at the c4 pawn, the soft spot of White's doubled pawns, from the long diagonal or from a6. Black fights the pawn mass on the queenside instead of the centre, and White has to defend c4 or hurry with the central and kingside play before the pressure tells."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 Bxc3+ 5.bxc3 b6 6.e3": {
+    "strategy": "Solid: the pawn supports d4 and frees the king's bishop, which can defend c4 from d3. White accepts the structure, doubled pawns against the bishop pair, and plays to build its centre while Black's queenside pressure is still slow."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 Bxc3+ 5.bxc3 b6 6.e3 Bb7": {
+    "strategy": "Brings the bishop to the long diagonal, where it eyes the knight on f3 and the e4 square that White needs for its big centre. Black makes it harder for White to advance in the middle and keeps the weak c4 pawn as a target for later play."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.g3": {
+    "strategy": "The main reply: White fianchettoes the king's bishop and accepts that the centre may open. If Black takes on d4 and the knight recaptures, the bishop on g2 looks down the long diagonal at Black's queenside and keeps up the pressure there."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.d5": {
+    "name": "Nimzo-Indian Defence: Three Knights Variation, Korchnoi Variation",
+    "strategy": "Gains space and ends the fight for d4: the pawn on d5 cramps Black's e6 pawn. White gives up the central tension, though, and the pin on c3 stays, so Black has easy play against the c4 pawn that supports the advance."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.d5 Ne4": {
+    "name": "Nimzo-Indian Defence: Three Knights Variation, Euwe Variation",
+    "strategy": "Attacks the pinned knight on c3 at once and claims the e4 square before White can build a centre. White has to defend or exchange the knight, which costs a tempo, and Black gets real counterplay against the d5 and c4 pawns."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.d5 b5": {
+    "name": "Nimzo-Indian Defence: Three Knights Variation, Shocron Gambit",
+    "strategy": "Sacrifices a pawn at once to undermine the c4 pawn and open lines for the queen's bishop. White can take the pawn on b5 or on e6, so Black has to show that the open lines are worth it; it is a risky try rather than a refutation of 5.d5."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.g3 cxd4": {
+    "strategy": "Resolves the tension at once and dissolves White's pawn centre. After the recapture Black develops freely, while White's bishop, once on g2, presses on the queenside in return; this is the main line."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.g3 O-O": {
+    "strategy": "Puts the king away and keeps the pressure on d4 from the c5 pawn. A calm move that leaves it to White to decide how the central tension is resolved, while the bishop pin on c3 stays in place."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.g3 cxd4 6.Nxd4": {
+    "strategy": "The natural recapture: the knight lands on a strong central square. It also opens the long diagonal for the bishop that will go to g2."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.g3 cxd4 6.Nxd4 O-O": {
+    "strategy": "Castles before the position opens further. With White's centre dissolved, king safety comes first, and Black can then challenge the centre from a safe position."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.g3 O-O 6.Bg2": {
+    "name": "Nimzo-Indian Defence: Romanishin Variation",
+    "strategy": "Completes the fianchetto and clears the way for castling. White keeps the central tension and counts on the bishop to work along the long diagonal once the knight steps aside."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qb3 c5 5.dxc5": {
+    "strategy": "Takes the pawn and removes the one that defended the bishop, so the queen attacks it for a moment. The extra pawn is exposed, though, and Black's quick development means White may have to give it back."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qb3 c5 5.dxc5 Nc6": {
+    "name": "Nimzo-Indian Defence: Spielmann Variation, Romanovsky Gambit",
+    "strategy": "Defends the bishop and develops, with the pawn on c5 already under fire from the bishop. Black offers the pawn for speed: the knight on f6 can then go to e4, where White's queen does not reach."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qb3 c5 5.dxc5 Nc6 6.Nf3": {
+    "strategy": "Develops the kingside knight and keeps the extra pawn for now, but it does not deal with e4, which the queen on b3 does not control. Black gets the central square it wants, and the c5 pawn is not safe for long."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qb3 c5 5.dxc5 Nc6 6.Nf3 Ne4": {
+    "strategy": "The point of the line: the queen on b3 does not control e4, so the knight arrives with effect. It joins the bishop in piling up on the pinned knight on c3 and attacks the c5 pawn, which Black regains with a lead in development."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 c5 5.dxc5": {
+    "strategy": "Almost forced: the d4 pawn is attacked and nothing guards it, so White takes. The pawn on c5 is exposed to the bishop, which means White will soon have to fight to keep it."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 c5 5.dxc5 O-O": {
+    "name": "Nimzo-Indian Defence: Classical Variation, Berlin Variation, Pirc Variation",
+    "background": "In the mid-20th century it was one of the reasons 4.Qc2 was little played, since Black's recapture with the knight was reckoned to give easy equality. Edmar Mednis remarked that the entire Pirc Variation had become unplayable at the highest level, though players like Kramnik have been willing to defend the Black side against players like Kasparov.",
+    "strategy": "The main line: Black castles and waits to win the pawn back. Whether the bishop or a knight recaptures on c5 decides the character of the game, and White's next move decides which of the two is possible."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 c5 5.dxc5 Bxc3+": {
+    "name": "Nimzo-Indian Defence: Classical Variation, Berlin Variation, Steiner Variation",
+    "strategy": "Gives up the bishop for the knight at once, to bring a knight to e4 after the recapture, where it attacks the queen and the c5 pawn together. It surrenders the bishop pair, and White keeps the extra pawn for the moment."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 c5 5.dxc5 O-O 6.a3": {
+    "strategy": "Asks the bishop to decide and takes away the manoeuvre with the knight that gave Black easy equality. The bishop will recapture on c5 or take the knight, so White keeps the bishop pair; this is the critical test of the line."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 c5 5.dxc5 O-O 6.a3 Bxc5": {
+    "strategy": "Regains the pawn at once and puts the bishop on an active diagonal. Black has the pawn back and active pieces in return for the bishop pair that White keeps."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 Nc6 5.Nf3": {
+    "name": "Nimzo-Indian Defence: Classical Variation, Zurich Variation",
+    "strategy": "Protects the d4 pawn, which the knight on c6 attacks, and develops a piece. White keeps its set-up flexible and waits to see how Black builds its centre, with the unpinning of the knight still in reserve."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 Nc6 5.Nf3 d6": {
+    "name": "Nimzo-Indian Defence: Classical Variation, Milner-Barry Variation",
+    "strategy": "The idea of the variation: Black prepares a pawn centre on d6 and e5, which leaves the light-squared bishop free on its diagonal. Black has accepted giving up the dark-squared bishop in return for a flexible, solid structure."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 Nc6 5.Nf3 O-O": {
+    "strategy": "Castles first and keeps the choice of pawn structure open. It delays the central pawn plan, which can be prepared with a rook or the queen, but gives White time to unpin the knight."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 Nc6 5.Nf3 d6 6.Bd2": {
+    "name": "Nimzo-Indian Defence: Classical Variation, Zurich Variation",
+    "strategy": "Unpins the knight, so that a capture on c3 can be answered with the bishop and the queen can stay on c2. White avoids the doubled pawns it feared and is ready to close the centre if Black pushes in the middle."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 Nc6 5.Nf3 O-O 6.e3": {
+    "name": "Nimzo-Indian Defence: Classical Variation, Zurich Variation",
+    "strategy": "Solid: the pawn guards d4 and opens the king's bishop for quiet development. The knight on c3 remains pinned, but the queen on c2 means Black's bishop can only take it at the price of giving up the bishop pair."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.a3": {
+    "strategy": "Asks the bishop to decide and prepares to meet the capture with the queen. White keeps the two bishops with a healthy pawn structure, and Black has to find activity in return; this is the main line of the Classical set-up."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.e3": {
+    "strategy": "Quiet and solid: the pawn guards d4 and opens the king's bishop for development. White does not force the bishop's decision, so Black can keep the pin or take on c3 when it likes."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.a3 Bxc3+": {
+    "strategy": "Settles the bishop's future at once: it trades itself for the knight instead of retreating. White gets the bishop pair and can recapture with the queen, and Black, already castled, has the lead in development to make something of it."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.e3 d5": {
+    "strategy": "Claims a share of the centre at once and takes e4 away from White's pieces. The pawn also attacks c4, so White has to decide whether to release the tension. Black gets a solid structure and easy development in return for a little less space."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.a3 Bxc3+ 6.Qxc3": {
+    "strategy": "The recapture that 4.Qc2 was made for: White keeps the pawn structure intact and the bishop pair. The price is that the queen has now moved twice and the kingside is undeveloped, so Black will try to open the game quickly."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.a3 Bxc3+ 6.Qxc3 b6": {
+    "name": "Nimzo-Indian Defence: Classical Variation, Keres Defence",
+    "background": "Nowadays the main line of the Classical Variation.",
+    "strategy": "Prepares the bishop for b7, where it and the f6 knight watch e4, the square White needs for a pawn centre. Black accepts that White has the two bishops and plays for control of the light squares, which leads to a manoeuvring fight over e4."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.a3 Bxc3+ 6.Qxc3 b5": {
+    "name": "Nimzo-Indian Defence: Classical Variation, Vitolins-Adorjan Gambit",
+    "background": "The gambit was invented by Alvis Vītoliņš.",
+    "strategy": "A gambit: Black offers the b-pawn to open the queenside and gain time against the queen, since the knight can come to e4 with a hit on it once White takes. The compensation rests on activity alone, so it is a try for a lively game, not a sound way to equalise."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.e3 d5 6.Nf3": {
+    "strategy": "Develops the knight toward the centre, where it guards d4 and e5, and prepares to finish the kingside development. The knight on c3 is still pinned against the king by the bishop, so White wants to castle without much delay."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.e3 d5 6.Nf3 c5": {
+    "name": "Nimzo-Indian Defence: Classical Variation, Berlin Variation",
+    "strategy": "Hits d4 at once, the pawn that holds White's centre together, while the bishop keeps the c3 knight pinned and the white king is still in the middle. Black strikes before White is ready, and the centre will open or take shape quickly."
   }
 }

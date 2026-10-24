@@ -34,12 +34,16 @@
     "strategy": "Deckt e5 mit einem Bauern, sodass der Springer dort nicht mehr gebraucht wird und Schwarz darauf zielen kann, den Läufer zu vertreiben und abzutauschen. Der Preis ist ein Läufer auf f8, der vom eigenen Bauern eingesperrt ist, und ein Springer, der auf c6 gefesselt bleibt."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7": {
+    "name": "Spanische Partie: Geschlossene Variante",
+    "background": "Das am häufigsten gespielte System der Spanischen Partie.",
     "strategy": "Die Hauptvariante: Der Läufer entwickelt sich hinter der Bauernkette und schützt den König auf der e-Linie, was die Taktik aus dem Spiel von Weiß nimmt. Schwarz droht nun wirklich, den e4-Bauern zu gewinnen, und bereitet die Rochade vor."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O b5": {
     "strategy": "Vertreibt den Läufer sofort und beendet damit endgültig die Drohung Lxc6 mit folgendem Sxe5. Schwarz gewinnt Raum am Damenflügel und kann frei wählen, wohin er die Läufer entwickelt, zum Preis eines Bauern, der später zum Ziel wird."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4": {
+    "name": "Spanische Partie: Offene Variante",
+    "background": "Die früheste überlieferte Partie mit der Offenen Verteidigung wurde 1854 von Robert Brien und Robert Wormald, die gemeinsam mit Schwarz berieten, gegen Johann Löwenthal gespielt. Wiktor Kortschnoi wählte sie in den Weltmeisterschaftskämpfen 1978 und 1981 gegen Karpows 1.e4.",
     "strategy": "Nimmt den Bauern, den Weiß hängen gelassen hat. Weiß kann ihn durch Öffnen des Zentrums zurückgewinnen, doch Schwarz erhält einen Stützpunkt in der Mitte und ein offenes, lebhaftes Spiel, sofern der König nicht auf der offenen e-Linie erwischt wird."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O g6": {
@@ -52,6 +56,8 @@
     "background": "Benannt nach Jørgen Møller, der sie in „Tidskrift för Schack“ analysierte. Alexander Aljechin spielte sie in seiner frühen Laufbahn mit Schwarz, aber sie wurde nie beliebt."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O d6": {
+    "name": "Spanische Partie: Morphy-Verteidigung, Steinitz-Verteidigung im Nachzug",
+    "background": "Michail Tschigorin spielte sie in den 1890er Jahren, und Akiba Rubinstein und Aljechin übernahmen sie später; zuletzt wurde sie in den 1950er Jahren von einigen russischen Meistern nennenswert gespielt.",
     "strategy": "Deckt e5 mit einem Bauern, sodass der Springer auf c6 von der Deckungsaufgabe befreit ist. Aber der Bauer sperrt den Königsläufer ein, und die langsame Entwicklung von Schwarz macht sich bemerkbar, sobald Weiß das Zentrum schnell öffnet; solide, aber ein wenig passiv."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O d5": {
@@ -63,5 +69,114 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.Qe2 Be7": {
     "strategy": "Entwickelt den Läufer und bereitet die Rochade vor, wobei ...b5 aufgeschoben wird, bis es nötig ist. Die weiße Dame deckt e4 bereits, daher gibt es keine Eile, den Läufer zu vertreiben, und die Rochade von Weiß führt zu einer ruhigen, vertrauten Struktur."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.d3 d6 6.c4": {
+    "name": "Spanische Partie: Morphy-Verteidigung, Duras-Variante",
+    "strategy": "Nimmt die Felder b5 und d5 weg: ...b5 vertreibt den Läufer nicht mehr, und die Fesselung auf c6 bleibt, sodass der übliche Weg von Schwarz, ihn abzutauschen, entfällt. Weiß nimmt in Kauf, dass der c-Bauer d4 nicht mehr überwacht."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O b5 6.Bb3": {
+    "strategy": "Der natürliche Rückzug: Der Läufer behält seine auf f7 gerichtete Diagonale und vermeidet den Abtausch auf c6. Schwarz hat Raum am Damenflügel gewonnen, aber die Idee Lxc6 und Sxe5 ist endgültig vorbei."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O b5 6.Bb3 Be7": {
+    "strategy": "Der Läufer geht nach Hause auf e7, die Aufstellung des Hauptaufbaus der Geschlossenen Variante, wo er den Königsflügel deckt. Schwarz bereitet die Rochade vor und akzeptiert eine robuste Stellung, die passiv wirken kann."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O b5 6.Bb3 Bb7": {
+    "name": "Spanische Partie: Morphy-Verteidigung, Archangelsk-Variante",
+    "background": "Verbreitet von sowjetischen Spielern aus der Stadt Archangelsk, etwa Wladimir Maljanin.",
+    "strategy": "Stellt den Läufer auf die lange Diagonale, hinter den Springer auf c6, in der Annahme, dass sein Druck auf das Zentrum und den Königsflügel die Verzögerung der Rochade aufwiegt. Die Variante ist taktisch fundiert und führt zu scharfem Spiel."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O b5 6.Bb3 Bc5": {
+    "name": "Spanische Partie: Morphy-Verteidigung, Neo-Archangelsk-Variante",
+    "background": "Sie kam in den 1990er Jahren in Mode, wesentlich durch Alexei Schirow. Fabiano Caruana ist ein bekannter neuerer Vertreter und spielte sie beim Kandidatenturnier 2020.",
+    "strategy": "Stellt den Läufer auf seine aktivste Diagonale mit Blick auf f2, statt ihn auf e7 zu verstecken. Weiß kann durch Bauernangriffe Tempo gewinnen, aber er kann sich nach b6 zurückziehen, und die Stellung ist dynamisch und ausgeglichen."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O b5 6.Bb3 d6": {
+    "name": "Spanische Partie: Morphy-Verteidigung",
+    "strategy": "Ein solider, flexibler Zug: Der Bauer deckt e5 und gibt dem Springer die Möglichkeit, den Läufer herauszufordern. Er blockiert die Diagonale des Läufers von f8, sodass die Entwicklung von Schwarz etwas langsamer ist als mit einem direkten Läuferzug."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1": {
+    "strategy": "Die Hauptvariante: Der Turm deckt e4, wodurch Lxc6 mit folgendem Sxe5 zur echten Drohung wird und Schwarz sich mit dem Läufer befassen muss. Weiß legt sich im Zentrum auf nichts fest und hält alle Pläne offen, die flexibelste Art, den Bauern zu halten."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.d3": {
+    "name": "Spanische Partie: Geschlossene Variante, Martinez-Variante",
+    "background": "Eine moderne Variante, die unter Spitzenspielern beliebter geworden ist und eine häufige Alternative zu 6.Te1 darstellt.",
+    "strategy": "Deckt e4 mit einem Bauern und vermeidet das scharfe Bauernopfer, das Schwarz gegen die Hauptvariante vorbereiten kann. Weiß wählt ein langsames, sicheres Spiel und entscheidet seinen Aufbau später, während Lxc6 mit folgendem Sxe5 wieder eine Drohung ist."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Qe2": {
+    "name": "Spanische Partie: Geschlossene Variante, Worrall-Angriff",
+    "background": "Paul Keres spielte sie mehrmals, und in jüngerer Zeit hat Sergei Tiwjakow sie gespielt. Nigel Short spielte sie zweimal in seinem Wettkampf 1992 gegen Anatoli Karpow und gewann beide Partien.",
+    "strategy": "Deckt e4 mit der Dame, sodass der Turm hinter dem Bauernzentrum nach d1 gehen kann. Die Dame steht auf der Linie, die am ehesten geöffnet wird; das ist der Preis dafür, den Turmzug der Hauptvariante zu vermeiden."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.d4": {
+    "name": "Spanische Partie: Geschlossene Variante, Zentrumsangriff",
+    "strategy": "Schlägt sofort im Zentrum zu, statt vorzubereiten, und überlässt e4 sich selbst. Es führt zu offenem, scharfem Spiel, gibt Weiß aber keinen Vorteil gegenüber den langsameren Zügen."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Nc3": {
+    "name": "Spanische Partie: Geschlossene Variante, Morphy-Angriff",
+    "background": "Benannt nach Paul Morphy, der die Idee 1859 in einer Blindsimultanvorstellung einführte. Paul Keres und Boris Spasski spielten sie einige Male, und Siegbert Tarrasch dreimal in seinem Wettkampf 1911 gegen Schlechter, doch sie bleibt die unbeliebteste Option für Weiß im sechsten Zug.",
+    "strategy": "Entwickelt eine Figur und deckt e4, und der Springer kann nach d5 springen, um den Läufer von Schwarz abzutauschen. Ein aggressiver Versuch, aber der Springer blockiert den c-Bauern, und der Vorteil von Weiß ist kleiner als in der Hauptvariante."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Bxc6": {
+    "name": "Spanische Partie: Geschlossene Variante, Verzögerter Abtausch",
+    "strategy": "Tauscht den Läufer sofort gegen den Springer, ein Tempo im Rückstand gegenüber einem früheren Abtausch, in der Hoffnung, dass Springer und Läufer von Schwarz ungünstig stehen. Der Springer auf f6 blockiert die Verteidigung e5 durch ...f6, und ...Ld6 würde Zeit verschwenden."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.d4 exd4": {
+    "strategy": "Schlägt den Bauern sofort, sodass der e4-Bauer nun vom Springer auf f6 angegriffen wird und Weiß handeln muss: e5 vorstoßen, um den Springer zu vertreiben, oder den Bauern decken. In beiden Fällen öffnet sich das Zentrum, und der solide Aufbau von Schwarz kommt damit zurecht, wobei sich der Springer bei einem Vorstoß auf e4 festsetzt."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Qe2 b5": {
+    "strategy": "Vertreibt den Läufer sofort und beendet die Idee Lxc6 und Sxe5 endgültig, sodass Schwarz in Ruhe rochieren kann. Schwarz gewinnt Raum am Damenflügel, während die Dame auf e2 zwar e4 hält, aber auf einer Linie steht, die Schwarz später öffnen könnte."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5": {
+    "strategy": "Beseitigt die Drohung endgültig: Da e4 gedeckt ist, würde Lxc6 mit folgendem Sxe5 einen Bauern gewinnen, also vertreibt Schwarz den Läufer sofort. Der Preis ist ein festgelegter Damenflügel, doch Schwarz erhält dort Raum und einen soliden, flexiblen Aufbau für eine lange Manövrierpartie."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 d6": {
+    "name": "Spanische Partie: Geschlossene Variante, Averbach-Variante",
+    "background": "Benannt nach Juri Averbach.",
+    "strategy": "Deckt e5 mit einem Bauern, statt den Läufer zu vertreiben, und wehrt die Drohung so ruhig ab. Der Preis ist Zeit: Weiß kann c3 spielen, bevor der Läufer vertrieben wird, und ein späteres ...b5 wird mit Lc2 in einem Zug beantwortet. Als Ausgleich hat Schwarz ...Lg4, das den Springer auf f3 fesselt und d4 vorerst verhindert."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O d6 6.Bxc6+": {
+    "strategy": "Schlägt den Springer mit Schach, solange der d-Bauer von Schwarz schon gezogen ist, sodass das natürliche Zurückschlagen mit dem b-Bauern geschieht, was den Damenflügel zerstört. Weiß öffnet dann schnell Linien im Zentrum, um aus der unentwickelten Stellung der schwarzen Figuren Profit zu schlagen."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O d6 6.Bxc6+ bxc6": {
+    "strategy": "Das natürliche Zurückschlagen, da der d-Bauer schon auf d6 steht: Die c-Bauern verdoppeln sich und der Damenflügel ist beschädigt, doch Schwarz erhält das Läuferpaar und die halboffene b-Linie. Schwarz muss aktiv spielen, denn das schnelle Zentrumsspiel von Weiß bestraft jeden Entwicklungsrückstand."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4": {
+    "name": "Spanische Partie: Offene Variante",
+    "strategy": "Die Hauptvariante: Der Bauer kontrolliert c5, sodass der Springer sich nicht dorthin zurückziehen kann, und greift e5 an, solange der schwarze König noch im Zentrum steht. Weiß wird den Bauern mit aktivem Spiel zurückgewinnen, also muss Schwarz sich schnell und sorgfältig entwickeln, wobei auf der e-Linie Gefahren lauern."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.Qe2": {
+    "name": "Spanische Partie: Morphy-Verteidigung, Tartakower-Variante",
+    "strategy": "Greift den Springer an, den auf e4 nichts deckt, und bereitet vor, den Bauern zurückzugewinnen, sobald er zieht: Nach ...Sc5 stellen Lxc6 und Sxe5 das Material wieder her. Doch Weiß hat den Läufer gegen einen Springer getauscht und Schwarz das Läuferpaar überlassen, sodass es Schwarz weniger abverlangt als die Hauptvariante."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.Nc3": {
+    "name": "Spanische Partie: Offene Variante, Knorre-Variante",
+    "strategy": "Greift den Springer an und bietet den Tausch an. Wenn Schwarz auf c3 schlägt, muss Weiß mit einem Bauern zurückschlagen und beschädigt dadurch seine Struktur, außerdem muss er den Bauern noch zurückgewinnen; die Hauptvariante nutzt dafür den d-Bauern."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.Re1": {
+    "strategy": "Greift den Springer entlang der e-Linie an, doch er kann sich nach c5 zurückziehen und den Läufer angreifen. Weiß tauscht auf c6 und gewinnt den Bauern auf e5 zurück, hat aber Zeit mit zwei Läuferzügen verbraucht, und Schwarz bekommt das Läuferpaar und ein leichtes Spiel."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4 b5": {
+    "strategy": "Vertreibt den Läufer, um ...d5 vorzubereiten, das sonst den Springer auf c6 gegen den König gefesselt ließe und e5 an Sxe5 verlöre. Schwarz stützt den vorgerückten Springer mit dem d-Bauern, und Weiß bekommt den Bauern nur durch Schlagen auf e5 zurück."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4 Be7": {
+    "strategy": "Entwickelt den Läufer und bereitet die Rochade vor, lädt aber zu einer Liquidation des Zentrums ein, in der Weiß den Bauern mit dem Turm auf der e-Linie zurückgewinnt. Schwarz muss dann wegen des Drucks auf den Läufer e7 womöglich die Rochade aufschieben."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4 exd4": {
+    "name": "Spanische Partie: Offene Variante, Riga-Variante",
+    "background": "Ein berühmtes Beispiel für diese Variante ist die Partie Capablanca gegen Edward Lasker, New York 1915.",
+    "strategy": "Holt sich einen zweiten Bauern und öffnet die e-Linie, solange König und Springer von Schwarz noch auf ihr stehen. Weiß antwortet mit Te1, und das folgende forcierte Spiel endet in einem Endspiel, in dem Weiß besser steht, wobei Schwarz in den scharfen Stellungen praktische Chancen behält."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.Re1 d5": {
+    "name": "Spanische Partie: Offene Variante, Skipworth-Gambit",
+    "strategy": "Deckt den Springer auf e4 mit einem Bauern, doch der Springer auf c6 ist nun vom Läufer auf a4 gegen den König gefesselt und kann e5 nicht decken: Weiß schlägt ihn einfach mit Sxe5 und gewinnt den Bauern zurück, während die Figuren von Schwarz gebunden sind."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.Qe2 b5 6.Bb3": {
+    "strategy": "Der natürliche Rückzug: Der Läufer entkommt dem Bauern und zielt von b3 auf f7. Weiß behält e4 durch die Dame gedeckt und steuert auf ein breites Bauernzentrum zu, wobei er in Kauf nimmt, dass Schwarz Raum am Damenflügel gewonnen hat."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.Qe2 b5 6.Bb3 Be7": {
+    "strategy": "Entwickelt den Läufer hinter den Bauern und bereitet die Rochade vor, ein solider Aufbau, der Weiß überlässt, einen Weg zum Aufbau des Zentrums zu finden. Anders als bei ...Lc5 kann der Läufer nicht durch c3 und d4 angegriffen werden, doch Schwarz nimmt eine etwas passive Stellung in Kauf."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.Qe2 Be7 6.O-O": {
+    "strategy": "Rochiert in einen Aufbau, in dem die Dame e4 hält und der Turm, von dieser Aufgabe befreit, nach d1 gehen kann, um einen Zentrumsdurchbruch zu unterstützen. Die Dame steht auf der e-Linie, die Schwarz öffnen könnte, doch Weiß erhält einen flexiblen Plan zum Aufbau des Zentrums in einer ruhigen Manövrierpartie."
   }
 }

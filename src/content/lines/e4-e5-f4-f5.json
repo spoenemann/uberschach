@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 e5 2.f4 f5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 e5 2.f4 f5: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 e5 2.f4 f5",
@@ -36,6 +36,104 @@
     },
     {
       "line": "1.e4 e5 2.f4 f5 3.exf5 Bc5"
+    },
+    {
+      "line": "1.e4 e5 2.f4 f5 3.exf5 exf4",
+      "moves": [
+        {
+          "san": "Qh5+",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Qh5+",
+      "moves": [
+        {
+          "san": "g6",
+          "rating": 4
+        },
+        {
+          "san": "Ke7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Nf3",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Qh5+ Ke7"
+    },
+    {
+      "line": "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Nf3 d5",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Nf3 d5 5.d4",
+      "moves": [
+        {
+          "san": "Bd6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Nf3 d5 5.d4 Bd6",
+      "moves": [
+        {
+          "san": "Bd3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Nf3 d5 5.d4 Bd6 6.Bd3"
+    },
+    {
+      "line": "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Qh5+ g6",
+      "moves": [
+        {
+          "san": "fxg6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Qh5+ g6 5.fxg6",
+      "moves": [
+        {
+          "san": "Qe7+",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Qh5+ g6 5.fxg6 Qe7+",
+      "moves": [
+        {
+          "san": "Kd1",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 f5 3.exf5 exf4 4.Qh5+ g6 5.fxg6 Qe7+ 6.Kd1"
     }
   ]
 }

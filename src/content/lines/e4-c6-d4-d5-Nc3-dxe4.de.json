@@ -15,9 +15,13 @@
     "name": "Caro-Kann-Verteidigung: Von-Hennig-Gambit"
   },
   "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5": {
+    "name": "Caro-Kann-Verteidigung: Klassische Variante",
+    "background": "Auch Capablanca-Variante genannt, nach dem kubanischen Weltmeister José Raúl Capablanca. Sie galt lange als bestes Spiel für beide Seiten.",
     "strategy": "Entwickelt den Läufer außerhalb der Bauernkette, bevor ...e6 ihn einschließen kann, und greift den zentralisierten Springer an. Schwarz behält eine gesunde Bauernstruktur und bekämpft d4 später mit ...c5, ein solider Aufbau mit wenigen Schwächen, der lange als bestes Spiel galt."
   },
   "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7": {
+    "name": "Caro-Kann-Verteidigung: Karpow-Variante",
+    "background": "Sie war einst nach dem ersten Weltmeister Wilhelm Steinitz benannt, der sie spielte, und heißt auch Smyslow-Variante nach Wassili Smyslow, der damit eine Reihe bemerkenswerter Partien spielte. Nach Anatoli Karpow ist sie benannt, weil sie in dessen Repertoire recht oft vorkam.",
     "strategy": "Entwickelt einen Springer statt des Läufers, mit dem Ziel, den zentralisierten Springer von Weiß abzutauschen, ohne die Bauernstruktur zu beschädigen. Der Preis ist ein langsamerer Läufer und mehr Raum für Weiß im Zentrum, sodass Weiß oft Druck am Königsflügel sucht."
   },
   "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6": {
@@ -26,5 +30,123 @@
   "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 h6": {
     "strategy": "Spielt das ...h6 des klassischen Aufbaus im Voraus, damit sich der Läufer später nach h7 zurückziehen und am Königsflügel nicht belästigt werden kann. Es kostet ein Tempo in einer Stellung, in der Weiß sich frei entwickelt, sodass Weiß einen kleinen Vorteil behält.",
     "name": "Caro-Kann-Verteidigung: Finnische Variante"
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3": {
+    "strategy": "Beantwortet den Angriff auf den Springer mit einem Angriff auf den Läufer, sodass Schwarz entscheiden muss, wohin der Läufer gehört. Weiß behält alle Figuren, und der Springer deckt h5, was es einem späteren Vorstoß des h-Bauern erlaubt, den Läufer zu bedrängen."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng5": {
+    "strategy": "Weicht dem Läufer aus, indem er nach g5 springt, von wo der Springer f7 und h7 anvisiert. Es folgt nichts Reales, da beide gedeckt sind, und der Springer steht am Rand des Geschehens, wo Schwarz ihn mit einem Bauernzug zurücktreiben kann. Eine seltene, harmlose Alternative."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6": {
+    "strategy": "Zieht sich aus dem Angriff des Springers nach g6 zurück, wo die Bauern f7 und h7 den Läufer schützen. Der Läufer bleibt auf der Diagonale nach d3, sodass ein Läufertausch möglich bleibt; der Preis ist, dass der h-Bauer von Weiß ihn jetzt angreifen kann."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng5 Bg6": {
+    "strategy": "Geht aus dem Weg, von den Bauern f7 und h7 geschützt, und hält den Läufer auf seiner Diagonale nach d3. Der weiße Springer bleibt abseits auf g5 ohne Angriffsziel zurück, sodass Schwarz ihn zurücktreiben und die Entwicklung ohne Mühe abschließen kann."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6 6.h4": {
+    "name": "Caro-Kann-Verteidigung: Klassische Variante, Hauptvariante",
+    "strategy": "Die Hauptvariante: Sie droht mit h5, was den Läufer fangen würde, weil jedes Feld, auf das er ziehen könnte, gedeckt ist und der Bauer h7 ihm den Rückzug versperrt. Schwarz muss sofort Platz schaffen, und Weiß gewinnt Raum am Königsflügel und die Initiative, auch wenn der vorgerückte Bauer im Endspiel zum Ziel werden kann."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6 6.Nh3": {
+    "name": "Caro-Kann-Verteidigung: Klassische Variante, Flohr-Variante",
+    "background": "Benannt nach Salo Flohr.",
+    "strategy": "Steuert f4 an, um den Läufer auf g6 herauszufordern; von dort würde der Springer auch d5 und e6 anvisieren, und ein Tausch würde Weiß das Läuferpaar geben. Bis er ankommt, steht der Springer am Rand, was Schwarz Zeit gibt, das Zentrum zu organisieren."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6 6.f4": {
+    "name": "Caro-Kann-Verteidigung: Klassische Variante, Maróczy-Angriff",
+    "strategy": "Droht mit f5, um den Läufer genauso zu fangen wie der h-Bauer, aber zu einem höheren Preis: Der Bauer verlässt f2, sodass e3 seine Deckung verliert und der eigene Königsflügel von Weiß dünner wird. Schwarz wehrt die Drohung mit einem soliden Entwicklungszug ab und hat keinen Grund zur Sorge."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6 6.h4 h6": {
+    "strategy": "Gibt dem Läufer das Feld h7, bevor h5 ihn fangen kann, und nimmt den weißen Figuren das Feld g5. Schwarz nimmt in Kauf, dass Weiß am Flügel Raum gewinnt, und behält den Läufer; der vorgerückte h-Bauer engt den Königsflügel von Schwarz ein, kann aber später auch zur Schwäche werden."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng5 Bg6 6.N1f3": {
+    "strategy": "Bringt den zweiten Springer ins Spiel, um den vorgerückten zu unterstützen: Der Springer auf f3 deckt g5 und e5, während der auf g5 f7 anvisiert, was Weiß etwas Spiel am Königsflügel gibt. Aber der Springer auf g5 ist weiterhin leicht herauszufordern, und der Rest der weißen Armee muss sich noch entwickeln."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng5 Bg6 6.N1f3 h6": {
+    "strategy": "Greift den vorgerückten Springer sofort an und gewinnt ein Tempo, und der Bauer gibt dem Läufer außerdem den Rückzug nach h7. Das Springeropfer auf f7 funktioniert nicht: Der Läufer schlägt es einfach, und Weiß steht einen Springer gegen einen Bauern im Nachteil."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Ng5": {
+    "name": "Caro-Kann-Verteidigung: Karpow-Variante, Moderne Variante",
+    "strategy": "Ein aggressiver Versuch: Der Springer zielt auf f7 und e6 und prüft den Königsflügel von Schwarz von Anfang an. Schwarz muss sich sorgfältig entwickeln und lockernde Züge wie ...h6 vermeiden, da der Bauer auf f7 nur vom König gedeckt ist."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Nf3": {
+    "strategy": "Der ruhige Weg: Er entwickelt, deckt g5 und d4 und bietet den Tausch auf f6 an, wo Schwarz mit dem anderen Springer zurücknehmen und die Bauernstruktur intakt halten kann. Es folgt ein langsames Manövrierspiel, in dem Weiß einen kleinen Raumvorteil behält."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Bc4": {
+    "strategy": "Stellt den Läufer gegen f7, bevor der Springer nach g5 springt, eine geduldigere Art, den Königsflügel unter Druck zu setzen. Der Springer bleibt auf e4 für den Tausch auf f6, und Schwarz kann mit ruhiger Entwicklung antworten, sodass der Zug weniger unmittelbare Fragen stellt."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Nf3 Ngf6": {
+    "strategy": "Entwickelt den zweiten Springer und lädt zum Tausch ein, den Schwarz mit dem Springer beantworten und so die Bauernstruktur heil halten kann: der Sinn von 4...Sd7. Schwarz bleibt solide und kann das weiße Zentrum später mit ...c5 herausfordern."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Bc4 Ngf6": {
+    "strategy": "Entwickelt sich mit einer Herausforderung des Springers auf e4. Tauscht Weiß, schlägt der Springer von d7 zurück, und die Bauernstruktur von Schwarz bleibt intakt, was genau der Grund ist, ihn dorthin zu stellen. Schwarz entwickelt sich bequem, während der Läufer auf c4 Schwarz auffordert, auf f7 achtzugeben."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Ng5 Ngf6": {
+    "strategy": "Entwickelt den Springer, deckt h7 gegen den Springer auf g5 und bereitet vor, diesen Springer zurückzutreiben. Der Springer auf d7 versperrt weiterhin den Läufer auf c8, daher brauchen e6 und f7 Sorgfalt: Die weißen Figuren zielen auf beide, und Schwarz darf den Königsflügel nicht leichtfertig schwächen."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Ng5 Ndf6": {
+    "name": "Caro-Kann-Verteidigung: Karpow-Variante, Moderne Variante, Iwantschuk-Verteidigung",
+    "strategy": "Entwickelt sich stattdessen mit dem Springer von d7, was die Diagonale des Läufers auf c8 sofort öffnet: Der Läufer verteidigt dann e6, das Feld, auf das der weiße Springer zielt. Schwarz lässt den Springer auf g8 zu Hause und liegt in der Entwicklung etwas zurück, doch die Stellung ist solide und bereit, den Springer zurückzutreiben."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Bc4 Ngf6 6.Ng5": {
+    "strategy": "Bringt eine zweite Figur gegen f7 ins Spiel: Der Bauer wird von Springer und Läufer angegriffen und nur vom König verteidigt, sodass Schwarz sofort reagieren muss, statt sich frei zu entwickeln. Weiß übernimmt die Initiative, aber wenn Schwarz genau abwehrt, ist die Stellung ausgeglichen."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Bc4 Ngf6 6.Nxf6+": {
+    "strategy": "Tauscht den Springer, der das Zentrum herausfordert, und hält den Läufer auf f7 gerichtet. Der Tausch erleichtert auch die beengte Entwicklung von Schwarz, daher ist der Vorteil von Weiß klein: Dies ist eine ruhige Variante, in der Weiß auf etwas mehr Raum und ein leichtes Spiel hofft."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Bc4 Ngf6 6.Ng5 e6": {
+    "strategy": "Versperrt die Diagonale des Läufers nach f7 und begegnet dem Doppelangriff so an der Wurzel, während er den Königsläufer befreit. Schwarz erhält ein solides Zentrum und schnelle Entwicklung am Königsflügel, muss aber auf e6 achtgeben, das Läufer und Springer von Weiß beide angreifen."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Bc4 Ngf6 6.Nxf6+ Nxf6": {
+    "name": "Caro-Kann-Verteidigung: Karpow-Variante, Tiwjakow-Fischer-Angriff",
+    "strategy": "Das Zurückschlagen mit dem Springer erhält die Bauernstruktur und räumt den Läufer auf c8, der sich nun entwickeln kann. Der Springer auf f6 deckt d5 und e4 und hält das Zentrum: Schwarz hat eine gesunde Stellung, Weiß etwas mehr Raum."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Nf3 Ngf6 6.Ng3": {
+    "name": "Caro-Kann-Verteidigung: Karpow-Variante, Moderne Variante, Kasparow-Angriff",
+    "strategy": "Zieht den Springer zurück, statt ihn auf f6 zu tauschen, und hält die Figuren für einen Königsangriff auf dem Brett. Von g3 aus deckt er f5 und h5, sodass Weiß auf die Initiative drückt, während Schwarz eine solide Stellung hat und den Königsflügel sorgfältig verteidigen muss."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Ng5 Ngf6 6.Bd3": {
+    "strategy": "Entwickelt den Läufer auf die Diagonale nach h7, wo er sich dem Springer auf g5 anschließt: Der Bauer wird zweimal angegriffen, aber der Springer und der Turm von Schwarz verteidigen ihn zweimal. Weiß bereitet die Rochade vor und behält die Initiative, wobei die Springer bereitstehen einzuspringen, falls Schwarz die Stellung lockert."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Ng5 Ngf6 6.Bd3 e6": {
+    "strategy": "Baut eine solide Struktur auf und befreit den Königsläufer, nimmt aber in Kauf, dass der Läufer auf c8 vorerst eingesperrt bleibt. Der Bauer auf e6 und das Feld f7 sind empfindliche Stellen, auf die die Springer von Weiß zielen, daher muss Schwarz vermeiden, den Königsflügel leichtfertig zu schwächen."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Nxf6+": {
+    "strategy": "Tauscht den aktiven Springer von Schwarz ab und erzwingt eine Bauernrücknahme, die die Bauernstruktur von Schwarz dauerhaft beschädigt. Weiß erhält keinen schnellen Angriff, aber einen bleibenden strukturellen Vorteil und das leichtere Spiel: Schwarz muss dies durch Figurenaktivität ausgleichen."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Bd3": {
+    "name": "Caro-Kann-Verteidigung: Aljechin-Gambit",
+    "strategy": "Das Gambit bietet den d4-Bauern für schnelle Entwicklung an: Nachdem die Dame ihn genommen hat, greift Sf3 die Dame an und gewinnt Zeit. Weiß gibt einen Zentrumsbauern für Tempi, die Schwarz mit ruhiger Entwicklung beantworten kann; der Zug ist riskant statt solide."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Ng5": {
+    "strategy": "Zieht einen bereits entwickelten Springer zum dritten Mal, um f7 anzuvisieren, in der Hoffnung, dass Schwarz mit ...h6 antwortet und in ein Opfer läuft. Schwarz kann sich einfach entwickeln oder den Springer jagen, und Weiß hat Zeit verloren und nichts gewonnen."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Ng5 h6": {
+    "strategy": "Fordert den Springer sofort heraus. Zieht er sich zurück, hat Weiß mit einer entwickelten Figur Zeit verschwendet und Schwarz steht bequem; schlägt er auf f7, ist das Opfer unkorrekt und Schwarz nimmt den Springer einfach."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Nxf6+ exf6": {
+    "name": "Caro-Kann-Verteidigung: Tartakower-Variante",
+    "background": "Auch als Korchnoi-Variante bekannt: Viktor Kortschnoi spielte sie oft, auch in seinem ersten Weltmeisterschaftskampf gegen Anatoli Karpow, und auch Ulf Andersson hat sie eingesetzt.",
+    "strategy": "Die gesündere Rücknahme: Der e-Bauer öffnet den Läufer auf f8 und gibt Schwarz schnelle Entwicklung. Der Preis sind Doppelbauern auf der f-Linie und der weiße Vorteil bei Struktur und langfristigen Aussichten, sodass Schwarz aktiv spielen und ein langsames Endspiel vermeiden muss."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Nxf6+ gxf6": {
+    "name": "Caro-Kann-Verteidigung: Bronstein-Larsen-Variante",
+    "background": "David Bronstein und Bent Larsen setzten sie mit einigem Erfolg ein, was ihr den Namen gab; Larsen spielte sie in den 1970er-Jahren häufig.",
+    "strategy": "Öffnet die g-Linie für den Turm und strebt aktives, ungewöhnliches Gegenspiel an, ruiniert aber die Bauern am Königsflügel und zwingt Schwarz praktisch zur langen Rochade. Es gewinnt Dynamik auf Kosten der Struktur und gilt allgemein als etwas unkorrekt."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Ng5 h6 6.Nxf7": {
+    "name": "Caro-Kann-Verteidigung: Alien-Gambit",
+    "background": "Ein Springeropfer, das zuerst von Witty Alien gespielt wurde, einem Streamer aus Bulgarien.",
+    "strategy": "Opfert einen Springer für einen einzelnen Bauern in der Hoffnung, den schwarzen König zu jagen. Nach ...Kxf7 läuft sich der Angriff tot: Schwarz blockt die Schachs und behält die Mehrfigur, sodass das Gambit nur gegen nachlässige Verteidigung funktioniert."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Nxf6+ exf6 6.c3": {
+    "strategy": "Stützt d4 und gibt der Dame das Feld c2, sodass Weiß ein solides Zentrum und die bessere Struktur behält. Mit dem Läufer, der nach d3 kommt, spielt Weiß ohne Risiko auf einen bleibenden Vorteil gegen die Doppelbauern."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Nxf6+ exf6 6.Bc4": {
+    "name": "Caro-Kann-Verteidigung: Forgacs-Variante",
+    "strategy": "Stellt den Läufer sofort auf seine aktive Diagonale mit Blick auf f7, statt zuerst d4 zu stützen. Schwarz antwortet mit normaler Entwicklung, und der strukturelle Vorteil von Weiß ist nicht schneller zu erreichen, sodass dies eine solide, seltenere Art ist, auf einen kleinen Vorteil zu spielen."
+  },
+  "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nf6 5.Nxf6+ exf6 6.c3 Bd6": {
+    "strategy": "Entwickelt den Läufer auf sein bestes Feld: Er deckt den Königsflügel, zielt auf h2 und bereitet die Rochade vor. Schwarz nimmt die Doppelbauern für eine harmonische Stellung in Kauf und nutzt die offenen Linien für Figurenspiel, was der Sinn der Variante ist."
   }
 }

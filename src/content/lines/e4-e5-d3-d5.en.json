@@ -4,5 +4,12 @@
   },
   "1.e4 e5 2.d3 d5 3.exd5 c6": {
     "strategy": "Declines to recapture the d5-pawn and offers a second pawn instead, hoping for quick development. After dxc6 Nxc6 Black is a pawn down for a single developed piece, which White's solid set-up can absorb without difficulty."
+  },
+  "1.e4 e5 2.d3 d5 3.exd5 c6 4.dxc6": {
+    "strategy": "Accepts the second pawn: after the recapture White keeps a clean extra pawn. The task is to finish development safely and keep the position closed enough that Black's lead in activity cannot turn into an attack."
+  },
+  "1.e4 e5 2.d3 d5 3.exd5 c6 4.dxc6 Nxc6": {
+    "name": "King's Pawn Game: Weber Gambit",
+    "strategy": "The natural recapture, developing a piece and covering e5 and d4. Black is still a pawn down and plays for quick development and open lines as compensation, a fair try against White's slow set-up but no more than that."
   }
 }

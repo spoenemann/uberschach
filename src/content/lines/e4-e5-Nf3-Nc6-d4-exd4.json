@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 e5 2.Nf3 Nc6 3.d4 exd4: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 e5 2.Nf3 Nc6 3.d4 exd4: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4",
@@ -88,6 +88,478 @@
     },
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bb4+"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bb4+",
+      "moves": [
+        {
+          "san": "c3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bb4+ 5.c3",
+      "moves": [
+        {
+          "san": "dxc3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bb4+ 5.c3 dxc3",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        },
+        {
+          "san": "bxc3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bb4+ 5.c3 dxc3 6.O-O",
+      "moves": [
+        {
+          "san": "cxb2",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bb4+ 5.c3 dxc3 6.bxc3",
+      "moves": [
+        {
+          "san": "Ba5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bb4+ 5.c3 dxc3 6.bxc3 Ba5"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bb4+ 5.c3 dxc3 6.O-O cxb2"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bc5",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 4
+        },
+        {
+          "san": "Ng5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bc5 5.O-O",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bc5 5.Ng5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Scotch_Game"
+      ],
+      "moves": [
+        {
+          "san": "Nh6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bc5 5.Ng5 Nh6",
+      "moves": [
+        {
+          "san": "Nxf7",
+          "rating": 5
+        },
+        {
+          "san": "Qh5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bc5 5.Ng5 Nh6 6.Nxf7",
+      "moves": [
+        {
+          "san": "Nxf7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bc5 5.Ng5 Nh6 6.Qh5"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bc5 5.Ng5 Nh6 6.Nxf7 Nxf7"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bc5 5.O-O d6",
+      "moves": [
+        {
+          "san": "c3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bc5 5.O-O d6 6.c3",
+      "moves": [
+        {
+          "san": "Bg4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Bc4 Bc5 5.O-O d6 6.c3 Bg4"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.c3 dxc3",
+      "moves": [
+        {
+          "san": "Nxc3",
+          "rating": 5
+        },
+        {
+          "san": "Bc4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.c3 dxc3 5.Nxc3",
+      "moves": [
+        {
+          "san": "Bb4",
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.c3 dxc3 5.Bc4",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.c3 dxc3 5.Nxc3 Bb4"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.c3 dxc3 5.Bc4 Nf6",
+      "moves": [
+        {
+          "san": "Nxc3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.c3 dxc3 5.Bc4 Nf6 6.Nxc3",
+      "moves": [
+        {
+          "san": "Bb4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.c3 dxc3 5.Bc4 Nf6 6.Nxc3 Bb4"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.c3 dxc3 5.Nxc3 d6",
+      "moves": [
+        {
+          "san": "Bc4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.c3 dxc3 5.Nxc3 d6 6.Bc4",
+      "moves": [
+        {
+          "san": "Bg4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.c3 dxc3 5.Nxc3 d6 6.Bc4 Bg4"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5",
+      "moves": [
+        {
+          "san": "Be3",
+          "rating": 5
+        },
+        {
+          "san": "Nxc6",
+          "rating": 4
+        },
+        {
+          "san": "Nb3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Be3",
+      "moves": [
+        {
+          "san": "Qf6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Nxc6",
+      "moves": [
+        {
+          "san": "Qf6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Nb3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Scotch_Game"
+      ],
+      "moves": [
+        {
+          "san": "Bb4+",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Nb3 Bb4+"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Nxc6 Qf6"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Be3 Qf6",
+      "moves": [
+        {
+          "san": "c3",
+          "rating": 5
+        },
+        {
+          "san": "Nb5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Be3 Qf6 6.c3",
+      "moves": [
+        {
+          "san": "Nge7",
+          "rating": 5
+        },
+        {
+          "san": "Qg6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Be3 Qf6 6.Nb5"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Be3 Qf6 6.c3 Nge7"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Be3 Qf6 6.c3 Qg6"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nf6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Scotch_Game"
+      ],
+      "moves": [
+        {
+          "san": "Nxc6",
+          "rating": 5
+        },
+        {
+          "san": "e5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nf6 5.Nxc6",
+      "moves": [
+        {
+          "san": "bxc6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nf6 5.e5"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nf6 5.Nxc6 bxc6",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        },
+        {
+          "san": "Nd2",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nf6 5.Nxc6 bxc6 6.e5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Scotch_Game"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nf6 5.Nxc6 bxc6 6.Nd2"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4",
+      "moves": [
+        {
+          "san": "Qxd4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4 5.Qxd4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Scotch_Game"
+      ],
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4 5.Qxd4 d6",
+      "moves": [
+        {
+          "san": "Bd3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4 5.Qxd4 d6 6.Bd3"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Scotch_Game"
+      ],
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        },
+        {
+          "san": "Nb5",
+          "rating": 4
+        },
+        {
+          "san": "Be3",
+          "rating": 3
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
+        },
+        {
+          "san": "Nf5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nc3",
+      "moves": [
+        {
+          "san": "Bb4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nb5",
+      "moves": [
+        {
+          "san": "Bb4+",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Be3"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nf3"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nf5"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nc3 Bb4"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nb5 Bb4+",
+      "moves": [
+        {
+          "san": "Bd2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nb5 Bb4+ 6.Bd2",
+      "moves": [
+        {
+          "san": "Qxe4+",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nb5 Bb4+ 6.Bd2 Qxe4+"
     }
   ]
 }

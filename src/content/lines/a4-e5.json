@@ -1,5 +1,5 @@
 {
-  "about": "After 1.a4 e5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.a4 e5: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.a4 e5",
@@ -32,6 +32,36 @@
     },
     {
       "line": "1.a4 e5 2.Ra3"
+    },
+    {
+      "line": "1.a4 e5 2.a5 d5",
+      "moves": [
+        {
+          "san": "e3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.a4 e5 2.a5 d5 3.e3",
+      "moves": [
+        {
+          "san": "f5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.a4 e5 2.a5 d5 3.e3 f5",
+      "moves": [
+        {
+          "san": "a6",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.a4 e5 2.a5 d5 3.e3 f5 4.a6"
     }
   ]
 }

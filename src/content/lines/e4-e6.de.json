@@ -121,6 +121,7 @@
     "strategy": "Bereitet das Fianchetto des Damenläufers gegen e4 und einen flexiblen Aufbau der Springer vor. Weiß kann das Zentrum stützen und mehr Raum behalten."
   },
   "1.e4 e6 2.d4 c5": {
+    "name": "Französische Verteidigung: Franco-Sizilianische Verteidigung",
     "strategy": "Greift d4 sofort an und will den c-Bauern gegen den weißen d-Bauern tauschen, mit bereits gespieltem ...e6. Weiß kann zusätzlichen Raum geben oder das Spiel öffnen. Eine seltene Nebenvariante, nicht widerlegt, aber weniger solide als der sofortige Angriff auf das Zentrum mit dem d-Bauern."
   },
   "1.e4 e6 2.d4 d6": {
@@ -168,6 +169,7 @@
     "strategy": "Kontrolliert e5 und bereitet ...e5 vor, öffnet aber die Diagonale e8–h5: 3.Dh5+ erzwingt ...g6 oder ...Ke7, und der König verliert seinen Schutz. Außerdem nimmt der Bauer dem Springer sein bestes Feld."
   },
   "1.e4 e6 2.d4 f5": {
+    "name": "Französische Verteidigung: Franco-Hiva-Gambit",
     "strategy": "Greift e4 nach holländischem Vorbild an, doch nach 3.exf5 exf5 liegen die e-Linie und die Diagonale e8–h5 vor dem schwarzen König offen, und der Bauer f5 muss gegen Ld3 gedeckt werden. Weiß entwickelt sich rasch, und Schwarz hat keinen Ausgleich für die gelockerte Stellung."
   },
   "1.e4 e6 2.d4 g6": {
@@ -313,5 +315,90 @@
   "1.e4 e6 2.Nf3 f5": {
     "strategy": "Derselbe Gedanke wie gegen 2.d4: Ein Flügelbauer stürmt auf e4 los, bevor eine einzige Figur entwickelt ist. Weiß kann ihn einfach schlagen, und nach dem Zurückschlagen auf f5 liegen die e-Linie und die Diagonale e8–h5 vor dem König offen, ohne dass Schwarz dafür etwas bekommt.",
     "name": "Französische Verteidigung: Springervariante, Franco-Hiva-Gambit"
+  },
+  "1.e4 e6 2.b3 d5 3.Bb2": {
+    "name": "Französische Verteidigung: Horwitz-Angriff, Papa-Ticulat-Gambit",
+    "strategy": "Entwickelt den Läufer auf die lange Diagonale, wo er g7 im Visier hat, und überlässt Schwarz den e4-Bauern. Weiß hofft dafür auf schnelle Entwicklung und Druck auf der Diagonale; nimmt Schwarz den Bauern, muss Weiß zeigen, dass die Kompensation echt ist, was dies zu einer abseitigen Spielweise macht."
+  },
+  "1.e4 e6 2.b4 Bxb4 3.e5": {
+    "name": "Französische Verteidigung: Banzai-Leong-Gambit, Pinova-Gambit",
+    "strategy": "Gewinnt Raum und hält den Springer von g8 von seinem natürlichen Feld fern, da ein Springer auf f6 geschlagen würde. Aber Schwarz ist einen Bauern voraus, der Läufer auf b4 wird nicht angegriffen, und der Bauer auf e5 hat selbst keinen Verteidiger; Weiß hat also einen Bauern für kaum mehr als Raum gegeben."
+  },
+  "1.e4 e6 2.c4 d5 3.cxd5": {
+    "strategy": "Löst die Spannung durch Schlagen auf, entfernt den Zentralbauern von Schwarz und gibt Weiß eine halboffene c-Linie gegen c7. Schlägt Schwarz mit dem e-Bauern zurück, kann Weiß erneut schlagen und einen Bauern gewinnen, doch Schwarz erhält dafür gute Kompensation."
+  },
+  "1.e4 e6 2.c4 d5 3.cxd5 exd5": {
+    "strategy": "Schlägt in Richtung Zentrum zurück, sodass Schwarz wieder einen Bauern auf d5 hat, der e4 angreift. Der Abgang des e-Bauern befreit außerdem den Läufer auf c8, der hinter e6 eingesperrt war. Weiß kann mit exd5 einen Bauern gewinnen, doch Schwarz erhält dafür gute Kompensation."
+  },
+  "1.e4 e6 2.c4 d5 3.cxd5 exd5 4.Qb3": {
+    "name": "Französische Verteidigung: Orthoschnapp-Gambit",
+    "strategy": "Bringt die Dame früh ins Spiel, um d5 und b7 anzugreifen, doch eigentlich wird nichts bedroht: Der Läufer deckt b7, und Schwarz nimmt einfach den e-Bauern und steht einen Bauern vorn. Weiß hofft auf Kompensation durch Aktivität, aber Schwarz muss nur ruhig entwickeln."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2": {
+    "strategy": "Hält die d-Linie geschlossen, sodass ...dxe4 keinen Damentausch erzwingt, wie es nach Sf3 der Fall wäre. Weiß wählt einen langsamen, soliden Aufbau: Figuren hinter dem Bauern auf e4 und der Plan, von dort mit einem späteren Vorstoß des e-Bauern einen Königsangriff aufzubauen."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2 Nf6": {
+    "strategy": "Entwickelt und greift e4 ein zweites Mal an, sodass Weiß den Bauern gedeckt halten muss, statt vorzustoßen. Schwarz entscheidet sich für einen klassischen Aufbau und hat weiterhin die Wahl, wie er das Zentrum von Weiß herausfordert."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2 Nf6 4.Ngf3": {
+    "strategy": "Entwickelt den Königsspringer und lässt den Springer auf d2 als zweiten Verteidiger von e4 stehen. Der d3-Bauer und der Springer auf d2 decken den Bauern bereits gegen seine beiden Angreifer, sodass Weiß im Zentrum keine Eile hat; der Aufbau ist flexibel und wartet ab, wie Schwarz seine Figuren aufstellt."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2 Nf6 4.Ngf3 c5": {
+    "strategy": "Der klassische Gegenschlag: Der Bauer kämpft um d4 und gewinnt Raum am Damenflügel. Schwarz plant zu rochieren und am Damenflügel zu spielen, während Weiß auf den Königsflügel geht; es ist also ein Wettlauf der Pläne in einer geschlossenen Partie."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2 Nf6 4.Ngf3 Nc6": {
+    "strategy": "Bereitet den Tausch auf e4 und einen Bauern auf e5 vor, der einen fianchettierten Königsläufer einsperren würde. Ein direkter Weg: Schwarz baut ein breites Zentrum auf, statt des Spiels am Damenflügel, das der c-Bauer bietet."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2 Nf6 4.Ngf3 c5 5.g3": {
+    "strategy": "Bereitet das Fianchetto des Königsläufers vor, den charakteristischen Aufbau dieses Systems: Der Läufer zielt aufs Zentrum, und der König rochiert hinter einem kompakten Bauernschild. Langsam und solide, mit dem Vorstoß des e-Bauern als langfristigem Plan, um Schwarz einzuengen."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2 Nf6 4.Ngf3 c5 5.g3 Nc6": {
+    "strategy": "Entwickelt sich mit Druck auf d4: Bauer und Springer kämpfen gemeinsam um das Feld, sodass Weiß im Zentrum nicht leicht mit dem d-Bauern spielen kann. Schwarz erhält einen harmonischen Aufbau und bereitet die Rochade vor."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2 Nf6 4.Ngf3 c5 5.g3 Nc6 6.Bg2": {
+    "strategy": "Entwickelt den Königsläufer und macht den Weg zur Rochade frei. Der Läufer ist vorerst hinter dem eigenen Bauern und Springer eingeengt, der Preis dieses kompakten Aufbaus; die Partie bleibt geschlossen und strategisch, und der Plan von Weiß ist der Vorstoß des e-Bauern."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2 Nf6 4.Ngf3 c5 5.g3 Nc6 6.Bg2 Be7": {
+    "strategy": "Bringt den Königsläufer ins Spiel und bereitet die Rochade vor. Der Preis ist der Läufer auf c8, der hinter dem Bauern auf e6 eingesperrt bleibt, sodass Schwarz solide, aber etwas passiv spielt."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2 Nf6 4.Ngf3 Nc6 5.Be2": {
+    "name": "Französische Verteidigung: Philidor-Aufbau mit vertauschten Farben",
+    "strategy": "Entwickelt den Läufer nach e2, statt ein Fianchetto zu spielen: e4 wird vom d-Bauern und dem Springer auf d2 gehalten, und die Rochade ist einen Zug entfernt. Ein flexibler Aufbau, der ein kompaktes Bauernzentrum behält und abwartet, ob Schwarz im Zentrum vorstößt."
+  },
+  "1.e4 e6 2.d4 c5 3.d5": {
+    "name": "Benoni-Verteidigung: Französisch-Benoni",
+    "strategy": "Gewinnt Raum und greift e6 an, doch der Bauer dort ist zweimal gedeckt, sodass nichts verloren geht. Tauscht Schwarz auf d5, öffnet sich die e-Linie, und der weiße Bauer auf d5 nimmt den Figuren von Schwarz die Felder c6 und e6; tut Schwarz es nicht, hat Weiß einen einengenden Keil im Zentrum."
+  },
+  "1.e4 e6 2.d4 f5 3.exf5": {
+    "name": "Französische Verteidigung: Angenommenes Franco-Hiva-Gambit",
+    "strategy": "Schlägt den Bauern, die richtige Antwort auf einen Zug, der nichts entwickelt und die Königsdiagonale schwächt. Schlägt Schwarz mit dem e-Bauern zurück, liegen die e-Linie und die Diagonale e8–h5 vor dem König offen, und Weiß entwickelt sich einfach mit dem leichteren Spiel."
+  },
+  "1.e4 e6 2.f4 d5 3.Nf3": {
+    "strategy": "Entwickelt, überlässt e4 aber seinem Schicksal: Nach dem Schlagen greift der Bauer auf e4 den Springer an, sodass Weiß neben einem Bauern auch Zeit verliert. Ein Springerstützpunkt auf e5, gestützt vom f-Bauern, und etwas Aktivität sind ein dürftiger Ausgleich."
+  },
+  "1.e4 e6 2.f4 d5 3.Nf3 dxe4": {
+    "name": "Französische Verteidigung: La-Bourdonnais-Variante, Reuter-Gambit",
+    "strategy": "Schlägt den Bauern, den Weiß hat hängen lassen, mit Tempogewinn, weil der Bauer den Springer angreift. Schwarz muss die Entwicklung sicher abschließen und das Mehrmaterial behalten; der einzige Ausgleich des Weißen ist Aktivität, nicht Struktur."
+  },
+  "1.e4 e6 2.Nc3 d5 3.d4": {
+    "strategy": "Baut das volle Bauernzentrum auf und führt in die Hauptvariante der Französischen Verteidigung über, mit dem Springer bereits auf c3. Weiß hat mehr Raum und einen gedeckten Bauern e4, und Schwarz muss nun einen Weg finden, dieses Zentrum zu bekämpfen."
+  },
+  "1.e4 e6 2.Nc3 d5 3.f4": {
+    "name": "Französische Verteidigung: Pelikan-Variante",
+    "strategy": "Bereitet e5 und einen Königsangriff vor, statt das Zentrum d4–e4 aufzubauen. Der Preis ist die Diagonale e1–h4, die vor dem König offen ist (nach einem Tausch auf e4 kommt ...Dh4+ mit Schach), und kein Druck im Zentrum auf Schwarz, der sich in Ruhe entwickeln und zurückschlagen kann."
+  },
+  "1.e4 e6 2.Nf3 d5 3.Nc3": {
+    "name": "Französische Verteidigung: Zweispringervariante",
+    "strategy": "Verteidigt e4 mit einem Entwicklungszug und hält die Möglichkeiten des Weißen offen: Die Partie kann nach d4 eine gewöhnliche Französische werden oder in den einengenden Vorstoß e5 übergehen. Der Springer blockiert den c-Bauern, sodass sich Weiß auf einen figurenbetonten Aufbau festlegt und das Bauernzentrum später errichtet."
+  },
+  "1.e4 e6 2.Nf3 d5 3.e5": {
+    "strategy": "Engt den Königsflügel von Schwarz ein, indem es dem Springer auf g8 sein natürliches Feld nimmt, und fixiert das Zentrum. Der Bauer e5 wird nur vom Springer gehalten, sodass Schwarz seine Basis auf d4 angreifen wird und Weiß die Kette mit Figuren und Bauern stützen muss."
+  },
+  "1.e4 e6 2.Nf3 d5 3.e5 c5": {
+    "strategy": "Der Standardschlag gegen eine Bauernkette: Schwarz greift sofort ihre Basis an, bevor Weiß einen Bauern auf d4 gestellt hat, wo nur der Springer das Feld deckt. Der Bauer e5 verliert seine natürliche Stütze, und Weiß muss das Zentrum verteidigen, statt sich auszudehnen."
+  },
+  "1.e4 e6 2.Nf3 d5 3.e5 c5 4.b4": {
+    "name": "Französische Verteidigung: Flügelgambit",
+    "strategy": "Bietet den b-Bauern an, um den c-Bauern von Schwarz wegzulocken, damit ein Bauernzentrum ohne Druck auf d4 aufgebaut werden kann. Der Bauer ist jedoch echt, und der Damenflügel wird gelockert; Schwarz kann ihn nehmen und die solide Struktur behalten."
   }
 }

@@ -1,5 +1,5 @@
 {
-  "about": "After 1.d4 Nf6 (Indian Defence): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written.",
+  "about": "After 1.d4 Nf6 (Indian Defence): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written. The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
   "positions": [
     {
       "line": "1.d4 Nf6",
@@ -842,6 +842,109 @@
     },
     {
       "line": "1.d4 Nf6 2.Nd2 e5"
+    },
+    {
+      "line": "1.d4 Nf6 2.Bg5 c5",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Bg5 c5 3.d5",
+      "moves": [
+        {
+          "san": "Qb6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Bg5 c5 3.d5 Qb6",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Bg5 c5 3.d5 Qb6 4.Nc3"
+    },
+    {
+      "line": "1.d4 Nf6 2.Bg5 e6",
+      "sources": [
+        "https://www.chess.com/openings/Trompowsky-Attack"
+      ],
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Bg5 e6 3.e4"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Marshall_Defense",
+        "https://en.wikipedia.org/wiki/Indian_Defence"
+      ],
+      "moves": [
+        {
+          "san": "cxd5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d5 3.cxd5",
+      "moves": [
+        {
+          "san": "c6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d5 3.cxd5 c6"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 c5",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 c6",
+      "moves": [
+        {
+          "san": "c4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 c6 3.c4",
+      "moves": [
+        {
+          "san": "b5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 c6 3.c4 b5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Indian_Defence"
+      ]
     }
   ]
 }

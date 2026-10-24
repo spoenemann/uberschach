@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 e5 2.Nf3 f5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 e5 2.Nf3 f5: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 e5 2.Nf3 f5",
@@ -117,6 +117,265 @@
     },
     {
       "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qe7"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4",
+      "moves": [
+        {
+          "san": "Nxe5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Qg5",
+          "rating": 4
+        },
+        {
+          "san": "Nf6",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 d5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Latvian_Gambit",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...f5/3._Bc4/3...fxe4/4._Nxe5"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Nf6",
+      "moves": [
+        {
+          "san": "Nf7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Nf6 5.Nf7",
+      "moves": [
+        {
+          "san": "Qe7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Nf6 5.Nf7 Qe7",
+      "moves": [
+        {
+          "san": "Nxh8",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Nf6 5.Nf7 Qe7 6.Nxh8",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Nf6 5.Nf7 Qe7 6.Nxh8 d5"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Qg5",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "Nf7",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Qg5 5.d4",
+      "moves": [
+        {
+          "san": "Qxg2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Qg5 5.Nf7",
+      "moves": [
+        {
+          "san": "Qxg2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Qg5 5.d4 Qxg2",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Latvian_Gambit"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Qg5 5.Nf7 Qxg2",
+      "moves": [
+        {
+          "san": "Rf1",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Qg5 5.Nf7 Qxg2 6.Rf1",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Qg5 5.Nf7 Qxg2 6.Rf1 d5"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Nf6",
+      "moves": [
+        {
+          "san": "Bc4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Nf6 4.Bc4",
+      "moves": [
+        {
+          "san": "fxe4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6",
+      "moves": [
+        {
+          "san": "Nc4",
+          "rating": 5
+        },
+        {
+          "san": "d4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.Nc4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Latvian_Gambit",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...f5/3._Nxe5/3...Qf6"
+      ],
+      "moves": [
+        {
+          "san": "fxe4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Latvian_Gambit",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...f5/3._Nxe5/3...Qf6"
+      ],
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4 d6",
+      "moves": [
+        {
+          "san": "Nc4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4 d6 5.Nc4",
+      "moves": [
+        {
+          "san": "fxe4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4 d6 5.Nc4 fxe4",
+      "moves": [
+        {
+          "san": "Be2",
+          "rating": 3
+        },
+        {
+          "san": "Ne3",
+          "rating": 3
+        },
+        {
+          "san": "Qh5+",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4 d6 5.Nc4 fxe4 6.Be2"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4 d6 5.Nc4 fxe4 6.Ne3"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4 d6 5.Nc4 fxe4 6.Qh5+",
+      "moves": [
+        {
+          "san": "g6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4 d6 5.Nc4 fxe4 6.Qh5+ g6"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.Nc4 fxe4",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        },
+        {
+          "san": "d3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.Nc4 fxe4 5.Nc3"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.Nc4 fxe4 5.d3"
     }
   ]
 }

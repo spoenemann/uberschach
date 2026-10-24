@@ -14,12 +14,16 @@
     "strategy": "The natural developing move: it adds a defender to d5 and controls e4, so White cannot build a broad pawn centre. The knight blocks the queen's protection of g5, so White can pin it at once. Black gets a solid structure and plays for a freeing pawn break later."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 Be7": {
+    "name": "Queen's Gambit Declined: Charousek Variation",
     "strategy": "Develops the bishop before the knight, so that Bg5 simply loses a piece to ...Bxg5. White's dark-squared bishop has to look for another square, and Black avoids the pin on f6 that the immediate ...Nf6 allows."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c6": {
+    "name": "Semi-Slav Defence: Accelerated Move Order",
     "strategy": "Backs up d5 with a pawn and prepares to take on c4 and keep the pawn with ...b5. The game turns double-edged, with White's central break and Black's queenside play colliding, at the price of leaving the light-squared bishop shut in behind e6."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c5": {
+    "name": "Tarrasch Defence",
+    "background": "Siegbert Tarrasch advocated it, arguing that the greater mobility it gives Black is worth the weakness of the isolated d-pawn. Many masters in the tradition of Wilhelm Steinitz rejected it out of hand for that weakness, but Tarrasch kept playing it.",
     "strategy": "Strikes at d4 at once, a bid for central space that frees both of Black's bishops. Black usually has to live with an isolated pawn on d5 after the exchanges: a pawn no other pawn can defend, but a foothold in the centre and active pieces in return."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 a6": {
@@ -34,6 +38,306 @@
     "strategy": "Backs d5 with a pawn, so Black can take on c4 later and try to keep the extra pawn. The price is a tight position with the c8-bishop shut in behind e6 for a long time; the reward is a very solid centre and rich, double-edged play if White goes after the pawn."
   },
   "1.d4 d5 2.c4 e6 3.Nf3 c5": {
+    "name": "Queen's Gambit Declined: Tarrasch Defence, Pseudo-Tarrasch",
     "strategy": "Strikes at d4 at once. After the exchange on d5 Black accepts an isolated d-pawn in return for free piece play. Because White's queen's knight is still at home, White can choose between the main-line set-up and an independent one, so Black gives White more say."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3": {
+    "strategy": "The flexible developing move: it guards d4 and e5 and leaves open where the dark-squared bishop will go until Black has shown how the other knight comes out. White keeps a solid centre and waits for Black to commit."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.e4": {
+    "strategy": "Goes for the central break at once, but Black takes the pawn and the knight has to recapture: the exchange removes Black's central pawn and leaves Black free to develop. White gets space and open lines, but no lasting pressure and nothing to aim at."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.e4 dxe4": {
+    "strategy": "Takes the pawn offered by the central break and removes the d5 target. White has to win the pawn back with a piece or offer a gambit for it, while Black's pawn structure stays solid."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6": {
+    "strategy": "Brings the knight out so that Black can castle next, and covers d5 and e4 again. With the bishop already on e7 the knight is shielded against the coming Bg5, so Black reaches the usual set-up without the pin."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.e4 dxe4 5.f3": {
+    "name": "Queen's Gambit Declined: Charousek Variation, Miladinovic Gambit",
+    "strategy": "A gambit: instead of simply recapturing with the knight, White attacks the e4 pawn with the f-pawn to rebuild the centre. Black takes again and is a clean pawn up while White's king is loosened; quick development is all the compensation White has."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bg5": {
+    "name": "Queen's Gambit Declined",
+    "strategy": "Develops the bishop outside the pawn chain and aims it at the knight that defends d5 and guards e4: trading it would loosen Black's grip on the centre. White builds pressure on d5 while Black prepares a freeing break, the slow strategic game typical of this opening."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bf4": {
+    "name": "Queen's Gambit Declined: Harrwitz Attack",
+    "background": "Peter Leko, usually a player of 1.e4, used it with White to beat Vladimir Kramnik in their 2004 World Championship match. Bobby Fischer played the line in game 14 of his 1972 match against Boris Spassky.",
+    "strategy": "Keeps the bishop outside the pawn chain, on the diagonal towards c7 and e5, and makes the knight exchanges that ease Black's game against a bishop on g5 less effective. It is a quieter, more manoeuvring way to fight for the centre, with more pieces kept on."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.e3": {
+    "strategy": "A solid, modest move that supports d4 and frees the king's bishop, but it shuts the queen's bishop in behind the pawn chain, the piece that usually needs a good square in this opening. White is safe and flexible, but Black has an easy game."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bf4 O-O": {
+    "strategy": "Castles and puts the king out of the centre. Nothing is threatened, since the queen guards c7, so Black can ignore the bishop and complete development. The king is safe and the rook comes towards the centre, ready for a freeing pawn break."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bg5 O-O": {
+    "strategy": "Gets the king to safety and a rook towards the centre. The knight on f6 is shielded by the bishop on e7, so the bishop on g5 threatens nothing yet. Black keeps the solid structure and waits for White to show how the pressure will grow."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bg5 h6": {
+    "strategy": "Asks the bishop at once what it intends. If White trades on f6, Black recaptures with the bishop and has the two bishops; if the bishop retreats, Black has put the question for free and the pawn on h6 gives the king some room."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bg5 c6": {
+    "strategy": "Supports d5 solidly, but leaves the king in the centre and the light-squared bishop shut in, while the bishop on g5 stays aimed at the knight on f6. It is playable but slow, and it gives White time to finish development."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.e3 O-O": {
+    "name": "Queen's Gambit Declined: Three Knights Variation",
+    "strategy": "Castles before White has shown a plan. The king is safe and the rook comes towards the centre, so Black can wait. The standing worry is the c8-bishop shut in behind e6, freed later by a ...c5 break or by taking on c4 once White's bishop has committed itself."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bf4 O-O 6.e3": {
+    "strategy": "Supports d4 and opens the diagonal of the king's bishop, so White can castle quickly behind a solid centre. The bishop on f4 stays outside the pawn chain instead of being shut in. Black must now decide how to challenge the centre."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bf4 O-O 6.e3 c5": {
+    "strategy": "Strikes at d4 at once, the freeing break Black wants in this structure. Black accepts that the pawn structure may change, with an isolated pawn or hanging pawns, in return for open lines for the bishops and active pieces."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bf4 O-O 6.e3 b6": {
+    "name": "Queen's Gambit Declined: Harrwitz Attack, Fianchetto Defence",
+    "strategy": "Prepares to fianchetto the light-squared bishop, the piece usually shut in behind e6, onto the long diagonal, where it will eye the centre and support d5. Black plans to free the problem piece and keeps the central pawns intact."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bf4 O-O 6.e3 c6": {
+    "name": "Queen's Gambit Declined: Harrwitz Attack, Orthodox Defence",
+    "strategy": "Reinforces d5 with a pawn, so White's pressure on it counts for little. The light-squared bishop stays boxed in behind e6, so Black accepts a patient, slightly passive game in which freeing the position takes time."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bf4 O-O 6.e3 Nbd7": {
+    "name": "Queen's Gambit Declined: Harrwitz Attack, Two Knights Defence",
+    "strategy": "Develops the second knight and covers e5, where the bishop on f4 points. The light-squared bishop stays shut in behind e6, so the set-up is solid but passive, and Black still has to find a way to free the position."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bg5 c6 6.e3": {
+    "strategy": "The solid, natural move: it supports d4 and c4, opens the f1-bishop and keeps the bishop on g5 pressing on the knight. White gets a space advantage and a slow, strategic game. Black, with ...c6 played, holds d5 firmly but still has the c8-bishop shut in behind the e6-pawn."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bg5 c6 6.e3 Nbd7": {
+    "strategy": "Develops the knight, supports the f6 knight and keeps d5 firmly defended. Black holds the tension in the centre and waits for White to commit the f1-bishop; Black can then capture on c4 and gain a tempo. The cost is a cramped game with the c8-bishop shut in."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bg5 c6 6.e3 dxc4": {
+    "strategy": "Takes the pawn before White has committed the bishop to d3, so Bxc4 recaptures and develops the bishop in one move. Black surrenders the centre without winning a tempo in return and has to free the game by piece exchanges later. It is playable but gives White the easier game."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bg5 h6 6.Bh4": {
+    "strategy": "Keeps the bishop on the diagonal and the pressure on the knight on f6 instead of trading, so Black must decide how to deal with it. White holds the bishop for the fight against the centre and denies Black the bishop pair."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bg5 h6 6.Bxf6": {
+    "strategy": "Trades the bishop for the knight that guards d5, but Black recaptures with the bishop and keeps the two bishops. White gives up its active bishop without a concrete gain, so this is the less ambitious choice."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bg5 h6 6.Bh4 O-O": {
+    "strategy": "Castles into safety; the knight is shielded by the bishop on e7, so the bishop on h4 has no target. Black reaches a solid, balanced position and keeps a freeing break in the centre in reserve."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bg5 h6 6.Bxf6 Bxf6": {
+    "strategy": "Recaptures with the bishop, keeping the pawn structure intact and the two bishops. The bishop on f6 looks at the centre, and the d5 pawn is still comfortably defended. White has the trade but no lasting pressure, and Black is solid."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bg5 O-O 6.e3": {
+    "strategy": "Solidly supports d4 and the centre and opens the way for the f1-bishop and castling. The g5-bishop stays to press on the f6-knight, which the e7-bishop shields for now. White settles for a long manoeuvring game in which the extra space matters."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bg5 O-O 6.Qc2": {
+    "name": "Queen's Gambit Declined: Miles Variation",
+    "strategy": "Develops the queen to the b1-h7 diagonal, where it guards c4 and backs a later e4 break. White keeps the e-pawn flexible, at the price of slower development of the kingside pieces."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.e3 O-O 6.b3": {
+    "strategy": "Avoids the usual pin on f6 and prepares the queen's bishop for b2, where it supports the centre. The b3 pawn also firms up c4, so Black's capture there would only help White build a broad centre. A restrained set-up with a long game ahead."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.e3 O-O 6.b3 b6": {
+    "name": "Queen's Indian Defence, with e3",
+    "strategy": "Mirrors White's plan and gives the light-squared bishop a diagonal, instead of leaving it as the passive piece behind the e6 pawn. Black stays compact and lets the bishop wait for the centre to open."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5": {
+    "strategy": "Takes the pawn first and clarifies the centre: Black will recapture with the e-pawn, leaving an isolated pawn on d5 for White to attack. It also keeps Black's pawns from harassing the knight on c3, and White gets a clear target."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.e3": {
+    "strategy": "A solid, quiet reply that supports d4 and gets the kingside going, but it gives up the chance to saddle Black with an isolated pawn. Black develops comfortably and can mirror White's set-up, so White has no real advantage."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5": {
+    "name": "Queen's Gambit Declined: Tarrasch Defence",
+    "strategy": "Recaptures with the pawn, keeping a pawn in the centre and opening the diagonals of both bishops. The price is the isolated pawn on d5, which White will attack and Black will defend with active pieces."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 cxd4": {
+    "name": "Tarrasch Defence: Schara Gambit",
+    "background": "Alexander Alekhine once tried it, and it retains some play at master level.",
+    "strategy": "A gambit: Black does not recapture on d5 but hits the knight with the d4 pawn, hoping to gain time against White's queen and develop quickly. Careful play from White keeps the extra pawn and survives the lead in development, so the gambit is dubious."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.e3 Nf6": {
+    "strategy": "Develops the knight, watches e4 and keeps d5 defended. By copying White's set-up Black meets the quiet move with a symmetrical position that is easy to play; the fight is about who resolves the tension in the centre on better terms."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 cxd4 5.Qxd4": {
+    "strategy": "Takes the pawn, but the queen steps into the centre and can be driven back at once, so Black develops with tempo. White keeps the extra pawn if it can ride out Black's lead in development; the move is sound but gives Black the activity it was playing for."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 cxd4 5.Qxd4 Nc6": {
+    "strategy": "Develops with tempo by attacking the queen, which has to retreat. This is the point of the gambit: Black builds up pieces against White's slowly developing kingside while the queen loses time."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 cxd4 5.Qxd4 Nc6 6.Qd1": {
+    "strategy": "Returns the queen to d1, where it defends d5 together with the knight and avoids further tempo-gaining attacks. White has spent two queen moves on a pawn and now has to catch up in development against Black's active pieces."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 cxd4 5.Qxd4 Nc6 6.Qd1 exd5": {
+    "strategy": "Recaptures the pawn and opens the diagonal for the c8-bishop, which can attack the queen if White takes on d5. Black plays for rapid development against a White army that is still mostly at home."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.Nf3": {
+    "name": "Tarrasch Defence: Two Knights Variation",
+    "background": "5.Nf3 is the most common move in the main line, after 4.cxd5 exd5.",
+    "strategy": "Develops the knight so that a later ...cxd4 can be met by a recapture with the knight, which takes the sting out of Black's break. White keeps the pressure on the isolated pawn and heads for a fianchetto of the king's bishop."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.e4": {
+    "name": "Tarrasch Defence: Marshall Gambit",
+    "background": "A rare gambit that Frank Marshall tried.",
+    "strategy": "A rare gambit: White offers the e-pawn to open the centre and gain space with the d-pawn. Black can keep the pawn, so White must make the space and the open lines count; it is playable, but a risky way to fight the isolated pawn."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.dxc5": {
+    "strategy": "Wins a pawn for the moment but gives Black a tempo: the d-pawn attacks the knight, and the pawn on c5 is hard to keep. In return Black gets active pieces and a pawn on d4 that cramps White, so White must prove that the extra pawn is worth it."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.dxc5 d4": {
+    "strategy": "Attacks the knight on c3 with the pawn and gains time, which is the point of the line: the isolated pawn becomes a spearhead and Black recovers the c5 pawn through piece activity."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.Nf3 Nc6": {
+    "strategy": "Develops with pressure on d4, adding to the attack of the c5 pawn on it. Black keeps building active piece play around the isolated d-pawn rather than defending it passively."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.dxc5 d4 6.Na4": {
+    "strategy": "Steps away from the d4 pawn while guarding c5, the extra pawn White is trying to hold. The knight on the rim has few good squares and is easily harassed, so keeping the pawn demands accuracy."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.dxc5 d4 6.Na4 b5": {
+    "name": "Tarrasch Defence: Tarrasch Gambit",
+    "strategy": "Attacks the knight on a4, which has no comfortable square, and keeps up the pressure on c5, since the bishop on f8 sees it along the open diagonal. Black gains time and plays to recover the pawn while White is still undeveloped."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.Nf3 Nc6 6.g3": {
+    "name": "Tarrasch Defence: Rubinstein System",
+    "background": "6.g3, fianchettoing the king's bishop, is the most common set-up after 5...Nc6.",
+    "strategy": "Fianchettoes the king's bishop to put pressure on the isolated d-pawn along the long diagonal and prepares to castle. White plays for a slow positional squeeze, while Black counts on piece activity to make up for the weak pawn."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.Nf3 Nc6 6.dxc5": {
+    "strategy": "Gives up the d-pawn's tension to win a pawn: the knight must soon deal with the d-pawn's advance, and Black gets active play for the pawn. White has to prove that the extra pawn can be held, which makes it a more combative choice than the quiet fianchetto."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.Nf3 Nc6 6.Bg5": {
+    "strategy": "Develops with a hit on the queen, so Black must answer, but the bishop does not pressure the isolated pawn, which is what White's play in this structure needs. It is a sound developing move that leaves White's grip on the centre unchanged."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.Nf3 Nc6 6.Bg5 Be7": {
+    "name": "Queen's Gambit Declined: Tarrasch Defence",
+    "strategy": "Blocks the attack on the queen and develops the bishop, ready to castle, so White's bishop has nothing to hit. Black's pieces come out harmoniously and the bishop on g5 has done little to help the fight against the isolated pawn."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.Nf3 Nc6 6.dxc5 d4": {
+    "strategy": "The idea behind Black's set-up: the pawn advances with tempo against the knight on c3, so White cannot enjoy the extra pawn on c5 in peace. Black gains space and the initiative and expects to win the pawn back through active piece play, while keeping d4 supported."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.Nf3 Nc6 6.g3 Nf6": {
+    "name": "Tarrasch Defence: Prague Variation",
+    "strategy": "Develops the last knight, guards d5 a second time and eyes e4. Black accepts that the d5 pawn may become a weakness in return for active pieces and free bishops, the whole bargain of this defence; White's bishop will aim at that pawn from g2."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.Nf3 Nc6 6.g3 c4": {
+    "name": "Tarrasch Defence: Swedish Variation",
+    "background": "Also called the Folkestone Variation, it is rarely seen in modern practice.",
+    "strategy": "Fixes the pawn on c4, giving Black four pawns against three on the queenside to push forward later, while White prepares a central break with e4. Black releases the pressure on d4 and stakes everything on the queenside advance, so the plan is sharp but second-rate."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c5 4.e3 Nf6 5.Nf3": {
+    "strategy": "Completes the development of the kingside knight and guards d4 a second time, so a capture on d4 can be met by recapturing with the pawn or the knight. The structure is symmetrical, and the tension can later be released into hanging pawns or an isolated pawn; the game is quiet and positional."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3": {
+    "strategy": "Develops the knight and guards d4 without committing the e-pawn. It leaves Black to decide the character of the game, a sharp pawn grab or solid development, and White has to be ready for both."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e3": {
+    "strategy": "Solid and quiet: it supports d4, opens the f1 bishop and sidesteps the sharp pawn grab on c4. The price is that the queen's bishop is shut in behind its own pawns, and Black may choose a solid game or an aggressive kingside set-up."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4": {
+    "name": "Semi-Slav Defence: Marshall Gambit",
+    "strategy": "Strikes in the centre at once, before Black's knight reaches f6 to contest e4. White builds a broad pawn centre and will give up a pawn for quick development and play against the king in the middle; a sharp gambit that is less popular than the quiet moves."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e3 Nf6": {
+    "strategy": "Develops the knight and keeps the solid pawn triangle on c6, d5 and e6. Black stays flexible and plans to free the light-squared bishop at the right moment by taking on c4 and advancing on the queenside; the cost is that the bishop is still shut in."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e3 f5": {
+    "name": "Semi-Slav Defence: Anti-Noteboom, Stonewall Variation",
+    "strategy": "Builds a wall of pawns on d5, e6 and f5 that controls e4 and prepares a quick kingside attack. The costs are a passive light-squared bishop, which stays behind its own pawns, and a hole on e5 that no black pawn can guard."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 dxe4": {
+    "strategy": "Accepts the offer and removes White's central pawn. The d-file is now open and the queen looks at the pawn on d4, so White has to recapture and cannot rest on a broad centre; declining with ...Bb4 would leave White better."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 Nf6": {
+    "strategy": "Develops the knight and keeps the capture on c4 in reserve instead of committing to it now. Black keeps a firm centre and a flexible, solid position, with the light-squared bishop still to be freed; the game is the standard strategic fight of the Semi-Slav."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4": {
+    "name": "Semi-Slav Defence: Noteboom Variation",
+    "background": "Named after the Dutch player Daniël Noteboom, who played it at the 1930 Chess Olympiad in Hamburg; it is also known as the Abrahams Defence, after the English master Gerald Abrahams.",
+    "strategy": "Takes the pawn at once and challenges White's big centre. Black aims for two passed pawns on the queenside in exchange for it: the middlegame is critical, but if Black survives it, the endgame favours Black. A sharp way to meet 4.Nf3."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e3 f5 5.g4": {
+    "name": "Semi-Slav Defence: Anti-Noteboom, Stonewall Variation, Portisch Gambit",
+    "strategy": "Hits the f5 pawn at once to break up the pawn wall. If Black takes, the queen can retake on g4, so no pawn is lost, but the queen is out early and White's own kingside has lost its pawn cover; Black can simply develop and take advantage."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 dxe4 5.Nxe4": {
+    "strategy": "The simple recapture: material is level again, the knight takes a central post and White keeps the big centre on c4 and d4. The drawback is that the knight has left c3, which opens the diagonal to the king for a check."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 dxe4 5.f3": {
+    "name": "Semi-Slav Defence: Gunderam Gambit",
+    "strategy": "Offers a second pawn to open the f-file and rebuild the centre, but a pawn for a lead in development is too little. After the capture on f3 and the recapture with the knight, White has two pieces out to none, yet Black is a pawn up with a solid position."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 dxe4 5.Nxe4 Bb4+": {
+    "strategy": "Checks along the diagonal the knight has just left and wins a tempo, since the queen already eyes d4. White must block: retreating the knight keeps d4 covered, while blocking with the bishop leaves d4 loose and the knight on e4 exposed to ...Qxd4, a sharp pawn sacrifice."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 dxe4 5.Nxe4 Bb4+ 6.Bd2": {
+    "name": "Semi-Slav Defence: Marshall Gambit, Main Line",
+    "background": "Regarded as the main line of the Marshall Gambit; Bacrot and Morozevich played it at Biel in 2012.",
+    "strategy": "Blocks with the bishop and heads for the critical line: Black can win the d4 pawn and the knight, but White trades off the bishop on b4 and leaves the black king in the centre, with the bishop eyeing d6 and f8. White plays for development and pressure in return for the pawn."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 dxe4 5.Nxe4 Bb4+ 6.Nc3": {
+    "name": "Semi-Slav Defence: Marshall Gambit, Forgotten Variation",
+    "background": "It was played in the 2013 World Championship match between Carlsen and Anand.",
+    "strategy": "Retreats the knight to block the check, so the d4 pawn stays covered by the queen and no pawn is sacrificed. White keeps a sound centre for a calmer game, but the knight is now pinned and Black can hit the centre at once."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 dxe4 5.Nxe4 Bb4+ 6.Bd2 Qxd4": {
+    "strategy": "Takes the pawn and attacks the loose knight on e4 at once. After the bishops trade and the queen takes the knight with check, Black is a pawn up, but the king stays in the centre and White's bishop on b4 eyes d6 and f8."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.a4": {
+    "strategy": "Stops the pawn from being held with ...b5, so White can hope to regain c4 soon. The price is the b4 square, which the a-pawn no longer covers: Black's bishop will take it with a pin, and that fight decides the line."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.e3": {
+    "strategy": "Opens the f1 bishop to win back the c4 pawn, but Black can protect it with ...b5. White then has to attack the supporting pawn with a4, which weakens b4 and usually brings about the same position as the main line."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.Bg5": {
+    "name": "Semi-Slav Defence: Noteboom Variation, Anti-Noteboom Variation",
+    "strategy": "Develops with an attack on the queen and avoids the sharp main line, in which a4 weakens White's queenside. Black must answer the bishop at once, and White hopes to regain the c4 pawn in a quieter game with a healthier pawn structure."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.g3": {
+    "name": "Semi-Slav Defence: Noteboom Variation, Anti-Noteboom Gambit",
+    "strategy": "A real gambit: White does not hurry to regain c4 and instead prepares to fianchetto the bishop, hoping that its pressure and the open position repay the pawn. Black can keep the pawn with ...b5, so White must prove the compensation."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.a4 Bb4": {
+    "strategy": "Pins the knight on c3 to the king, so it cannot take on b5 later, and prepares ...b5 to hold the extra pawn. Black goes straight for the b4 square that White's a-pawn has left uncovered."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.Bg5 f6": {
+    "name": "Semi-Slav Defence: Noteboom Variation, Anti-Noteboom Variation, Belyavsky Line",
+    "strategy": "Kicks the bishop at once and prepares to keep the extra pawn with ...b5, instead of blocking with a developing move. The cost is real: the e6 pawn loses the f7 pawn's support, the king's diagonal is weakened and Black is still undeveloped."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.e3 b5": {
+    "strategy": "Protects the c4 pawn with the b-pawn straight away, so White cannot regain it by simply developing. White will undermine the support with a4, which weakens b4, the very square Black's bishop is heading for."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.a4 Bb4 6.e3": {
+    "strategy": "Opens the f1 bishop to attack the c4 pawn, so White threatens to win it back at once. The pawn also supports d4, but it shuts in the queen's bishop, and Black has an accurate way to hold the pawn."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.a4 Bb4 6.e3 b5": {
+    "strategy": "Defends the c4 pawn and keeps it. Even after axb5 cxb5 the pinned knight cannot capture on b5, so Black gets what the variation is about: a queenside majority of connected, mobile pawns against White's strong centre."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.a4 Bb4 6.e3 Bxc3+": {
+    "strategy": "Gives up the pinning bishop for the knight at once. White recaptures with the b-pawn, keeping the bishop pair, a strong centre and a threat to take the c4 pawn immediately. Black trades the bishop that holds the position together, a less ambitious choice than keeping the pin."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.e3 b5 6.a4": {
+    "strategy": "Attacks the b5 pawn that supports c4, so White can regain the pawn. The move leaves b4 without any white pawn to cover it, and Black can use that square at once to pin the knight and keep the extra pawn."
+  },
+  "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.e3 b5 6.a4 Bb4": {
+    "strategy": "Pins the c3 knight to the king, so the knight cannot take on b5 after axb5 cxb5. The bishop lands on the weak square the a-pawn left behind, and Black keeps the pawn with a good game."
+  },
+  "1.d4 d5 2.c4 e6 3.Nf3 c5 4.cxd5": {
+    "strategy": "Resolves the tension in the centre and forces the question: Black must recapture and accept an isolated d-pawn, or lose time elsewhere. White now plays against that pawn with a clear structural target, while Black has to make its piece activity count."
+  },
+  "1.d4 d5 2.c4 e6 3.Nf3 c5 4.cxd5 exd5": {
+    "strategy": "Recaptures with the pawn, the idea of the whole line: Black takes an isolated d-pawn, but the c8-bishop is freed, the e-file opens and every piece gets a lively square. The pawn is a weakness to keep guarded and a springboard for central play."
+  },
+  "1.d4 d5 2.c4 e6 3.Nf3 c5 4.cxd5 exd5 5.g3": {
+    "strategy": "Prepares to fianchetto the king's bishop against the isolated d-pawn, the standard way of pressuring it. White keeps the kingside compact and the pieces flexible; Black gets free development and has to use it before the pressure on d5 builds."
+  },
+  "1.d4 d5 2.c4 e6 3.Nf3 c5 4.cxd5 exd5 5.Bg5": {
+    "name": "Queen's Gambit Declined: Tarrasch Defence, Pseudo-Tarrasch Bishop Attack",
+    "strategy": "Develops with tempo: the exchange opened the diagonal to the queen, so Black must answer the bishop first. It works for quick development rather than against the isolated d-pawn, which this bishop does not pressure; the real test of the pawn comes with other pieces."
+  },
+  "1.d4 d5 2.c4 e6 3.Nf3 c5 4.cxd5 exd5 5.g3 Nc6": {
+    "strategy": "Develops a piece towards the centre, adding pressure on d4 and e5. Black's game rests on quick, harmonious development, which is what the isolated d-pawn pays for."
+  },
+  "1.d4 d5 2.c4 e6 3.Nf3 c5 4.cxd5 exd5 5.g3 Nc6 6.Bg2": {
+    "strategy": "Completes the fianchetto. The bishop stands behind the f3-knight for now but aims at d5, and the pressure grows as soon as that knight steps aside; the king is also one move from castling. White plays patiently against the isolated pawn."
+  },
+  "1.d4 d5 2.c4 e6 3.Nf3 c5 4.cxd5 exd5 5.g3 Nc6 6.Bg2 Nf6": {
+    "strategy": "Guards d5 a second time and develops, so the pawn is covered when the g2-bishop's diagonal opens. Black heads for castling with a compact position; the isolated pawn must never be left short of protection."
   }
 }

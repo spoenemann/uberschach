@@ -12,6 +12,7 @@
     "name": "Philidor-Verteidigung"
   },
   "1.e4 e5 2.Nf3 d6 3.Bc4 Be7": {
+    "name": "Philidor-Verteidigung",
     "strategy": "Die natürliche, solide Antwort: Der d6-Bauer hat die Diagonale des Läufers verschlossen, und e7 ist das einzige gute Feld, das ihm bleibt. Er deckt f6 und g5, hält den Königsflügel kompakt und bereitet die Rochade vor. Schwarz bleibt kompakt und passiv und wartet, bis Weiß sich festlegt."
   },
   "1.e4 e5 2.Nf3 d6 3.Bc4 f5": {
@@ -20,22 +21,196 @@
     "background": "Bereits im Göttinger Manuskript analysiert und 1575 von Ruy López gespielt."
   },
   "1.e4 e5 2.Nf3 d6 3.d4 exd4": {
+    "name": "Philidor-Verteidigung: Abtauschvariante",
     "strategy": "Die Hauptvariante: Schwarz löst die Spannung sofort auf, statt den Bauern zu verteidigen, und beseitigt damit die Drohung von Weiß gegen e5. Weiß erhält das Zentrum und einen Raumvorteil, Schwarz dagegen eine kompakte Stellung mit wenigen Schwächen und spielt auf eine lange, solide Verteidigung."
   },
   "1.e4 e5 2.Nf3 d6 3.d4 Nd7": {
+    "name": "Philidor-Verteidigung: Hanham-Variante",
+    "background": "Benannt nach dem amerikanischen Meister James Hanham, der es beim 6. Amerikanischen Schachkongress 1889 elfmal spielte; John Lord hatte es beim Kongress der British Chess Association 1868 zweimal gespielt.",
     "strategy": "Hält die Spannung und verteidigt e5 ein zweites Mal, um den Bauern durch einen Stützpunkt zu verteidigen. Der Springer steht bescheiden und blockiert den Läufer auf c8, und f7 wird zum Ziel; Schwarz hofft, das Zentrum zu halten und die Entwicklung später aufzuholen."
   },
   "1.e4 e5 2.Nf3 d6 3.d4 Nf6": {
+    "name": "Philidor-Verteidigung: Nimzowitsch-Variante",
+    "background": "Tony Kosten führt den Zug auf Aron Nimzowitsch zurück, der ihn bevorzugte, um die Variante 3...Sd7 4.Lc4 zu vermeiden.",
     "strategy": "Greift e4 an, statt e5 zu verteidigen, und vermeidet den unangenehmen Läuferangriff auf f7, dem Schwarz nach ...Sd7 begegnet. Weiß kann auf e5 schlagen und die Dame nach d5 bringen, mit besseren Chancen; Schwarz muss also auf eine leicht schlechtere, vereinfachte Partie gefasst sein."
   },
   "1.e4 e5 2.Nf3 d6 3.d4 Bg4": {
     "strategy": "Fesselt den Springer gegen die Dame, doch die Fesselung ist hohl, und der Läufer deckt e5 nicht. Nimmt Weiß auf e5 und schlägt Schwarz mit dem d-Bauern zurück, werden die Damen getauscht, der Springer kann frei auf e5 schlagen, und Schwarz hat einen Bauern und das Rochaderecht verloren."
   },
   "1.e4 e5 2.Nf3 d6 3.d4 f5": {
+    "name": "Philidor-Verteidigung: Philidor-Gegengambit",
+    "background": "Philidors eigene Empfehlung, und 1858 mehrmals von Paul Morphy gespielt. Auch Bronstein, Mestel, Kosten und Nakamura haben es gespielt, und führende Autoritäten haben es oft verworfen, während es immer wiederkehrt.",
     "strategy": "Die aggressivste Antwort: Ein Flügelbauer greift e4 und das Zentrum an. Er schwächt den Königsflügel und die Diagonale zum König, sodass Weiß dauerhafte Angriffschancen erhält. Tückisch, wenn Weiß nicht vorbereitet ist, aber als zu riskant und zweifelhaft eingestuft."
   },
   "1.e4 e5 2.Nf3 d6 3.d4 Bd7": {
     "strategy": "Bietet den e5-Bauern ohne Plan an. Schlägt Weiß und nimmt Schwarz zurück, versperrt der Läufer auf d7 die Dame, sodass keine Damen getauscht werden, doch der Springer schlägt einfach auf e5, greift den Läufer an und gewinnt einen Bauern. Schwarz bekommt dafür nichts Konkretes.",
     "name": "Philidor-Verteidigung: Philidor-Gambit"
+  },
+  "1.e4 e5 2.Nf3 d6 3.Bc4 Be7 4.c3": {
+    "name": "Philidor-Verteidigung: Steinitz-Variante",
+    "background": "Benannt nach einer Partie, die Wilhelm Steinitz gegen George MacDonnell spielte.",
+    "strategy": "Ruhig und solide: Es bereitet einen langsamen Aufbau mit dem d-Bauern hinter dem Läufer vor, statt im Zentrum etwas zu erzwingen. Die Partie bleibt geschlossen und manövrierbetont, und Weiß kann sich Zeit lassen, weil der Aufbau von Schwarz solide, aber passiv ist."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Bg4 4.dxe5": {
+    "strategy": "Schlägt den Bauern sofort, und die Fesselung des Springers ist hohl: Nimmt Schwarz mit dem d-Bauern zurück, werden die Damen getauscht, der Springer kann frei auf e5 schlagen, und Weiß gewinnt sauber einen Bauern, während Schwarz das Rochaderecht verliert."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Bg4 4.dxe5 Nd7": {
+    "name": "Philidor-Verteidigung: Albin-Blackburne-Gambit",
+    "strategy": "Ein Gambit: Schwarz überlässt Weiß den e5-Bauern und entwickelt sich mit Tempo, mit dem Ziel, nach dem Schlagen der Bauern drei schwarze Figuren gegen eine weiße im Spiel zu haben. Schwarz spielt auf offene Linien und einen Entwicklungsvorsprung; Weiß muss nur konsolidieren, um den Mehrbauern zu behalten."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 exd4 4.Nxd4": {
+    "name": "Philidor-Verteidigung: Abtauschvariante",
+    "strategy": "Der natürliche Rückschlag: Der Springer landet auf einem starken Zentrumsfeld, und Weiß behält einen Raum- und Entwicklungsvorsprung gegen das solide, aber passive Lager von Schwarz. Nichts steht im Angriff; Weiß baut einfach auf einem kleinen, dauerhaften Vorteil auf."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 exd4 4.c3": {
+    "name": "Philidor-Verteidigung: Bird-Gambit",
+    "strategy": "Ein ungewöhnliches Gambit: Weiß lässt den d4-Bauern stehen und bietet nach dem Schlagen einen zweiten Bauern an, mit dem Ziel eines Entwicklungsvorsprungs und offener Linien. Schwarz kann einfach annehmen, und Weiß muss zeigen, dass die Bauern es wert sind."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 exd4 4.Qxd4": {
+    "strategy": "Die Dame schlägt zurück und behält das Zentrum, steht aber offen, und Schwarz entwickelt sich mit Tempo, indem es sie angreift. Weiß erhält Zentrumskontrolle nur auf Kosten von Zeit; spielbar, aber ungenauer als das Zurückschlagen mit dem Springer."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 exd4 4.Bc4": {
+    "name": "Philidor-Verteidigung: Morphy-Gambit",
+    "strategy": "Verzichtet auf das Zurückschlagen und entwickelt sich mit Druck auf f7, bietet also einen Bauern für Tempo. Schwarz muss es nicht fürchten: Den Bauern zurückzugeben und die Entwicklung ruhig abzuschließen ist die sichere Antwort, während Gier und langsame Züge bestraft werden können."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 exd4 4.Nxd4 Nf6": {
+    "name": "Philidor-Verteidigung: Abtauschvariante",
+    "strategy": "Der Hauptzug: Er entwickelt sich mit Tempo gegen den e4-Bauern, sodass Weiß ihn verteidigen muss. Schwarz folgt dann mit einem kompakten, soliden Aufbau und früher Rochade, gibt etwas Raum ab, lässt aber keine Schwächen zum Angriff übrig."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 exd4 4.Nxd4 g6": {
+    "name": "Philidor-Verteidigung: Larsen-Variante",
+    "background": "Bent Larsen versuchte den Zug in einigen Partien, darunter einem Remis gegen Michail Tal 1969.",
+    "strategy": "Bereitet das Fianchetto des Königsläufers vor, für Druck auf der langen Diagonale. Flexibel, aber langsam: Schwarz verbraucht Zeit für den Läufer, während der zentralisierte Springer und die schnellere Entwicklung von Weiß diesem mehr Raum geben, sodass Schwarz etwas zurückliegt."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 exd4 4.Nxd4 d5": {
+    "strategy": "Versucht, das Zentrum sofort zu beanspruchen, solange Schwarz noch unentwickelt ist. Schlägt die Dame auf d5 zurück, kommt sie früh heraus und wird dort von Weiß mit Tempo angegriffen; der Zug ist daher selten zu sehen: Er kostet Zeit, die Schwarz sich nicht leisten kann."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 exd4 4.Qxd4 Bd7": {
+    "name": "Philidor-Verteidigung: Boden-Variante",
+    "strategy": "Entwickelt den Läufer und deckt c6 und e6, bereit für ...Sc6 mit Tempo auf die Dame. Der Preis ist Passivität: Der Läufer blockiert die eigene Dame und den Springer auf b8, sodass Schwarz in der Entwicklung etwas zurückliegt."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 exd4 4.Nxd4 d5 5.exd5": {
+    "name": "Philidor-Verteidigung: Paulsen-Angriff",
+    "background": "Paulsen-Angriff, benannt nach Louis Paulsen; der Zug 4...d5 von Schwarz, der ihn erlaubt, ist eine selten gesehene Alternative.",
+    "strategy": "Schlägt den Bauern und öffnet die e-Linie gegen einen König, der noch im Zentrum steht. Schlägt die Dame zurück, gewinnt Weiß Zeit durch ein Schach auf der e-Linie und durch einen Springerangriff auf sie und behält so die Initiative."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 exd4 4.Nxd4 Nf6 5.Nc3": {
+    "strategy": "Verteidigt den angegriffenen e4-Bauern mit einem Entwicklungszug, die naheliegende Antwort. Weiß lässt den Springer im Zentrum auf d4 stehen, und alle Figuren arbeiten zusammen, sodass Schwarz sich gegen den Raumvorteil sorgfältig entwickeln muss."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 exd4 4.Nxd4 Nf6 5.Nc3 Be7": {
+    "strategy": "Das natürliche Feld des Läufers und der erste Schritt zur Rochade. Schwarz bleibt kompakt: Ein Bauernzug wie ...c5 würde d6 schwächen, daher kommen Entwicklung und ein sicherer König zuerst, und Schwarz nimmt hin, dass Weiß mehr Raum hat."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 exd4 4.Nxd4 Nf6 5.Nc3 Be7 6.Be2": {
+    "strategy": "Eine ruhige, flexible Entwicklung: Der Läufer strebt der Rochade zu und lässt Weiß die Optionen offen, statt einen Angriff zu überstürzen. Eine respektierte Alternative zu den aktiveren Läuferzügen, und Weiß behält einen kleinen Raumvorteil."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 exd4 4.Nxd4 Nf6 5.Nc3 Be7 6.Be2 O-O": {
+    "strategy": "Der geplante Aufbau von Schwarz: Der König ist sicher und die Struktur kompakt, ohne Schwächen zum Angriff. Weiß behält einen kleinen Raumvorteil, doch Schwarz hat eine solide Stellung und kann später im Zentrum zurückschlagen."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 f5 4.Bc4": {
+    "strategy": "Zielt auf den geschwächten Königsflügel: Da f7 nach dem Bauernvorstoß leer ist, werden ein Springer auf g5 und ein Damenschach auf h5 zu echten Drohungen. Der überzeugendste Weg für Weiß, gegen das Gegengambit klaren Vorteil zu erlangen."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 f5 4.dxe5": {
+    "strategy": "Schlägt auf e5 und führt zu einer sehr scharfen Stellung. Die Engines bevorzugen Weiß, doch der Kampf ist ungewöhnlich und gefährlich, sodass Schwarz auf ein scharfes, forciertes Spiel gefasst sein muss."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 f5 4.Nc3": {
+    "name": "Philidor-Verteidigung: Philidor-Gegengambit, Zukertort-Variante",
+    "background": "Manchmal Zukertort-Variante genannt, nach Johannes Zukertort.",
+    "strategy": "Verteidigt e4 und stellt eine Falle: Schlägt Schwarz auf e4, nimmt Weiß zurück, und nach ...d5 fällt der e5-Bauer durch ein Damenschach auf h5 und einen Einbruch auf g6, der Material gewinnt. Ein dauerhafter Vorteil, wenn auch weniger direkt als der Läuferangriff."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 f5 4.Bc4 exd4": {
+    "strategy": "Schlägt den Bauern, statt sich zu entwickeln, und der Zeitverlust macht sich bemerkbar: Der weiße Springer springt sofort vor, und der Königsflügel steht unter starkem Druck. Schwarz hätte eine Figur entwickeln müssen, vor allem ...Sc6, um das Zentrum zu halten."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 f5 4.dxe5 fxe4": {
+    "strategy": "Schlägt den Bauern mit Tempo auf den Springer, der f3 verlassen muss. Schwarz hat einen Flügelbauern gegen den e-Bauern von Weiß getauscht, öffnet die f-Linie und will das Zentrum mit ...d5 wieder aufbauen."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 f5 4.Bc4 exd4 5.Ng5": {
+    "strategy": "Der Springersprung zielt auf f7, das leer ist und vom Läufer auf c4 gedeckt wird, sodass eine Gabel von Dame und Turm droht, sowie auf h7. Der Königsflügel von Schwarz ist das Ziel, und Schwarz muss genaue Züge finden."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 f5 4.Bc4 exd4 5.Ng5 Nh6": {
+    "strategy": "Pariert die Gabel durch die Deckung von f7 und entwickelt eine Figur, auch wenn der Springer am Rand ungünstig steht. Schwarz behält vorerst den Mehrbauern, muss aber die Entwicklung abschließen, ehe die Figuren von Weiß zuschlagen."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 f5 4.Bc4 exd4 5.Ng5 Nh6 6.Nxh7": {
+    "name": "Philidor-Verteidigung: López-Gegengambit, Jaenisch-Variante",
+    "background": "Jaenisch-Variante genannt, nach Carl Jaenisch.",
+    "strategy": "Gewinnt einen Bauern und greift den Läufer auf f8 an, doch der Springer ist vom Rest der weißen Armee abgeschnitten, und der Turm auf h8 kann ihn einfach schlagen. Weiß muss beweisen, dass der Angriff auf dem Königsflügel den Springer aufwiegt, während einfaches Rochieren einen klareren Vorteil behält."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 f5 4.dxe5 fxe4 5.Ng5": {
+    "strategy": "Der Springer weicht mit einer Drohung gegen e4 aus und hält die d-Linie für die Dame offen, statt sie auf d4 oder d2 zu blockieren. Schwarz muss sofort ein Zentrum aufbauen, während Weiß die aktiveren Figuren hat."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 f5 4.dxe5 fxe4 5.Ng5 d5": {
+    "strategy": "Verteidigt den e4-Bauern und füllt das Zentrum wieder auf. Der Preis ist ein lockerer Königsflügel: Die Diagonale e8-h5 und das Feld e6 sind schwach, sodass Weiß sofort zuschlägt."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 f5 4.dxe5 fxe4 5.Ng5 d5 6.e6": {
+    "name": "Philidor-Verteidigung: Philidor-Gegengambit, del-Rio-Angriff",
+    "background": "Der Del-Rio-Angriff, benannt nach Ercole del Rio, ist seit 1763 bekannt.",
+    "strategy": "Der Hauptzug: Der Bauer engt Schwarz ein und stützt einen Springersprung nach f7, der Dame und Turm gabeln würde, sodass Schwarz sofort reagieren muss. Die Stellung ist sehr scharf und begünstigt Weiß, weil die Figuren von Schwarz ungedeckt stehen."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 f5 4.dxe5 fxe4 5.Ng5 d5 6.e6 Bc5": {
+    "strategy": "Ein Turmopfer: Schwarz ignoriert den Springersprung nach f7 und entwickelt sich mit Drohungen auf der Diagonale nach f2, in der Hoffnung auf Aktivität. Weiß nimmt einfach den e4-Bauern und behält die Kontrolle, sodass sich das Opfer nicht auszahlt."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Nd7 4.Bc4": {
+    "strategy": "Die schwierigste Antwort: Der Läufer zielt auf f7 und belebt die Drohung, auf e5 zu schlagen, wieder, weil Schwarz nicht bequem zurückschlagen kann. Natürliche Entwicklungszüge verlieren hier einen Bauern, sodass Schwarz genau wissen muss, wie er antworten soll."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Nd7 4.Nc3": {
+    "strategy": "Ein ruhigerer Entwicklungszug, der Schwarz Zeit gibt, den Aufbau zu vollenden. Weiß behält die Wahl der Pläne und einen kleinen Raumvorteil, verzichtet aber auf den Druck gegen f7."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Nd7 4.Bc4 c6": {
+    "strategy": "Die genaue Antwort: Der Bauer nimmt der weißen Dame das Feld d5, sodass das Zurückschlagen auf e5 nicht mehr auf Dd5 stößt, und öffnet der schwarzen Dame eine Diagonale. Schwarz behält die Zentrumsstruktur, auch wenn Weiß meist einen leichten Vorteil und das Läuferpaar behält."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Nd7 4.Bc4 Nb6": {
+    "name": "Philidor-Verteidigung: Hanham-Variante, Scharfe Variante",
+    "strategy": "Greift den Läufer sofort an, doch der Springer verlässt d7 und gibt die Deckung von e5 auf. Zieht sich der Läufer zurück, kehrt die Drohung wieder, auf e5 zu schlagen, die Damen zu tauschen und den Bauern zu gewinnen, sodass Schwarz für den Zeitaufwand wenig gewonnen hat."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Nd7 4.Nc3 Ngf6": {
+    "strategy": "Entwickelt den zweiten Springer gegen e4, während der Bauer d6 und der Springer d7 e5 weiterhin decken. Da der Läufer noch nicht auf c4 steht, greift nichts f7 an, die Entwicklung ist also sicher. Schwarz hält das Zentrum in einem soliden, aber etwas passiven Aufbau und wartet ab, wofür sich Weiß entscheidet."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Nd7 4.Bc4 c6 5.O-O": {
+    "name": "Philidor-Verteidigung: Hanham-Variante, Krause-Variante",
+    "strategy": "Bringt den König in Sicherheit, ehe das Zentrum geöffnet wird: Der Bauerntausch auf e5 wirkt dann taktisch gegen f7 und lässt Weiß typischerweise das Läuferpaar und ein kleines Plus. Schwarz muss die Varianten genau kennen."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Nd7 4.Bc4 c6 5.Nc3": {
+    "name": "Philidor-Verteidigung: Hanham-Variante, Schlechter-Variante",
+    "strategy": "Natürliche Entwicklung: Er stützt e4 und bringt eine Figur ins Spiel, während der Zentrumsvorstoß in Reserve bleibt. Weniger scharf als zuerst zu rochieren, gibt er Schwarz Zeit, den Aufbau zu vollenden und zu rochieren."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Nd7 4.Bc4 c6 5.c3": {
+    "name": "Philidor-Verteidigung: Hanham-Variante, Delmar-Variante",
+    "strategy": "Ruhiger als die Rochade: Der c-Bauer stützt d4 für ein breites Bauernzentrum, nimmt aber dem Springer das Feld c3 und nimmt dem Tausch auf e5 die taktische Schärfe. Die Partie verläuft ruhig, und der Vorteil von Weiß, falls vorhanden, ist klein."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Nd7 4.Bc4 c6 5.Ng5": {
+    "name": "Philidor-Verteidigung: Hanham, Kmoch-Variante",
+    "strategy": "Verdoppelt den Angriff auf f7, das nur der König deckt, doch Schwarz kann es einfach verteidigen. Der Springer hat dann das Zentrum für wenig verlassen, und Schwarz schließt die Entwicklung bequem ab."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Nd7 4.Bc4 c6 5.O-O Be7": {
+    "strategy": "Vervollständigt den kompakten Aufbau: Der Bauer d6 und der Springer d7 halten e5, und der Läufer macht den Weg für die Rochade frei. Schwarz nimmt eine beengte Stellung in Kauf, in der der Läufer c8 hinter dem Springer eingesperrt ist, und erhält dafür eine solide Struktur, die Weiß erst mühsam untergraben muss."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Nd7 4.Bc4 c6 5.O-O Be7 6.dxe5": {
+    "name": "Philidor-Verteidigung: Hanham-Variante, Steiner-Variante",
+    "strategy": "Löst die Spannung im Zentrum auf, solange die schwarzen Figuren sich gegenseitig im Weg stehen, und jedes Zurückschlagen hat einen Haken. Schlägt der Springer zurück, geht der Bauer e5 nach Sxe5 und Dh5 verloren, was e5 und f7 angreift. Schlägt der Bauer zurück, erlaubt das Sg5, und Weiß bekommt das Läuferpaar und Druck am Königsflügel."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Nf6 4.Nc3": {
+    "strategy": "Deckt e4 mit einem Entwicklungszug und macht die Drohung wieder real: Lässt Schwarz e5 ungedeckt, gewinnen ein Bauerntausch und ein Damentausch den Bauern. Weiß hält die Spannung und lädt zu einem langsamen Manövrierspiel ein, in dem Schwarz e5 durch sorgfältige Entwicklung halten muss."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Nf6 4.dxe5": {
+    "name": "Philidor-Verteidigung: Nimzowitsch-Variante",
+    "strategy": "Löst die Spannung sofort auf und nimmt der Eröffnung die Ruhe. Schwarz muss den Bauern auf e4 zurückgewinnen, denn 4...dxe5 verliert nach einem Damentausch und Sxe5 Material. Weiß behält einen kleinen Entwicklungsvorsprung und die leichtere Partie."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Nf6 4.Bc4": {
+    "name": "Philidor-Verteidigung: Nimzowitsch-Variante, Klein-Variante",
+    "strategy": "Entwickelt den Läufer in Richtung f7 und lässt Schwarz auf e4 schlagen. Nach 4...Sxe4 5.dxe5 lassen das natürliche Zurückschlagen dxe5 und ein Damentausch den schwarzen König im Zentrum und f7 unter Druck, sodass Schwarz das ruhigere 5...c6 braucht. Solide, aber selten."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Nf6 4.Ng5": {
+    "name": "Philidor-Verteidigung: Nimzowitsch, Locock-Variante",
+    "strategy": "Deckt e4, indem derselbe Springer zum zweiten Mal zieht, und überlässt Schwarz das Zentrum, der einfach auf d4 schlagen und sich frei entwickeln kann. Die Hoffnung liegt in einer Falle: Nach ...h6 und dxe5 verliert ...dxe5? einen Turm durch die Springergabel auf f7."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Nf6 4.dxe5 Nxe4": {
+    "strategy": "Gewinnt den Bauern sofort zurück und lässt die Damen auf dem Brett. Es ist das richtige Zurückschlagen, denn 4...dxe5 5.Dxd8+ Kxd8 6.Sxe5 verliert Material. Der Preis ist ein exponierter Springer auf einem zentralen Feld, den Weiß mit Tempogewinn angreifen kann."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Nf6 4.dxe5 Nxe4 5.Qd5": {
+    "name": "Philidor-Verteidigung: Nimzowitsch-Variante, Rellstab-Variante",
+    "strategy": "Greift den ungedeckten Springer mit der Dame an und zwingt ihn zum Ausweichen, wobei die unentwickelten schwarzen Figuren unter Druck bleiben. Die Dame steht zwar exponiert im Zentrum, verhindert aber auch, dass Schwarz den Springer mit ...d5 deckt. Oft folgt ein Damentausch, der Weiß einen kleinen, bleibenden Entwicklungsvorsprung lässt."
+  },
+  "1.e4 e5 2.Nf3 d6 3.d4 Nf6 4.dxe5 Nxe4 5.Nbd2": {
+    "name": "Philidor-Verteidigung: Nimzowitsch-Variante, Sokolski-Variante",
+    "strategy": "Eine ruhige Art, den Springer herauszufordern: Der Zug entwickelt eine Figur und fordert den Springer auf, zu ziehen oder zu tauschen. Anders als der Damenausflug behält er keine Initiative, sodass Schwarz die Springer tauschen und auf e5 zurückschlagen kann, um eine einfache, ausgeglichene Partie zu erreichen."
   }
 }

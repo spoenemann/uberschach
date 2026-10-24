@@ -9,4 +9,8 @@ decisions stay in its decision log under `docs/exec-plans/`.
 
 - [0001-opening-book-as-fetched-json.md](0001-opening-book-as-fetched-json.md) —
   accepted 2026-10-24: the opening content is JSON, served in chunks
-  generated at build time and fetched as the visitor's line walks into them.
+  generated at build time and fetched as the visitor's line walks into them;
+  superseded by 0002 in its module layout, the rest standing.
+- [0002-opening-modules-folded-to-a-size-budget.md](0002-opening-modules-folded-to-a-size-budget.md) —
+  accepted 2026-10-24: a module is a subtree of the book, two plies deep or
+  folded up to 100 kB on disk; the rest of 0001 stands.

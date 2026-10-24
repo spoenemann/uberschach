@@ -1,5 +1,5 @@
 {
-  "about": "After 1.c4 g6 (English Opening: Great Snake Variation): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written.",
+  "about": "After 1.c4 g6 (English Opening: Great Snake Variation): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written. The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
   "positions": [
     {
       "line": "1.c4 g6",
@@ -552,6 +552,81 @@
     },
     {
       "line": "1.c4 g6 2.Nc3 g5"
+    },
+    {
+      "line": "1.c4 g6 2.Nc3 Bg7",
+      "moves": [
+        {
+          "san": "g3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.c4 g6 2.Nc3 Bg7 3.g3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.c4 g6 2.Nc3 Bg7 3.g3 Nf6",
+      "moves": [
+        {
+          "san": "Bg2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 g6 2.Nc3 Bg7 3.g3 Nf6 4.Bg2",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 g6 2.Nc3 Bg7 3.g3 Nf6 4.Bg2 O-O",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.c4 g6 2.Nc3 Bg7 3.g3 Nf6 4.Bg2 O-O 5.e4",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.c4 g6 2.Nc3 Bg7 3.g3 Nf6 4.Bg2 O-O 5.e4 d6",
+      "moves": [
+        {
+          "san": "Nge2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 g6 2.Nc3 Bg7 3.g3 Nf6 4.Bg2 O-O 5.e4 d6 6.Nge2",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 g6 2.Nc3 Bg7 3.g3 Nf6 4.Bg2 O-O 5.e4 d6 6.Nge2 e5"
     }
   ]
 }

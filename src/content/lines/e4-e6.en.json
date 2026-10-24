@@ -121,6 +121,7 @@
     "strategy": "Prepares to fianchetto the queen's bishop against e4 and a flexible set-up for the knights. White can support the centre and keep more space."
   },
   "1.e4 e6 2.d4 c5": {
+    "name": "French Defence: Franco-Sicilian Defence",
     "strategy": "Hits d4 at once and aims to trade the c-pawn for White's d-pawn, with ...e6 already played. White can give extra space or open the game. A rare sideline, not refuted but less sound than challenging the centre at once with the d-pawn."
   },
   "1.e4 e6 2.d4 d6": {
@@ -168,6 +169,7 @@
     "strategy": "Takes e5 and prepares ...e5, but opens the e8-h5 diagonal: 3.Qh5+ forces ...g6 or ...Ke7, and the king loses its cover. The pawn also takes the best square from the knight."
   },
   "1.e4 e6 2.d4 f5": {
+    "name": "French Defence: Franco-Hiva Gambit",
     "strategy": "Attacks e4 in Dutch style, but after 3.exf5 exf5 the e-file and the e8-h5 diagonal lie open in front of Black's king, and the f5-pawn needs defending against Bd3. White develops quickly, and Black has no compensation for the loosened position."
   },
   "1.e4 e6 2.d4 g6": {
@@ -313,5 +315,90 @@
   "1.e4 e6 2.Nf3 f5": {
     "strategy": "The same idea as against 2.d4: a flank pawn lunges at e4 before a single piece is out. White can simply take it, and after the recapture on f5 the e-file and the e8–h5 diagonal are open in front of the king, with nothing gained in return.",
     "name": "French Defence: Knight Variation, Franco-Hiva Gambit"
+  },
+  "1.e4 e6 2.b3 d5 3.Bb2": {
+    "name": "French Defence: Horwitz Attack, Papa-Ticulat Gambit",
+    "strategy": "Develops the bishop to the long diagonal, where it eyes g7, and leaves the e4 pawn to Black. White hopes for quick development and pressure along the diagonal in return; if Black takes the pawn, White has to show that the compensation is real, which makes this an offbeat way to play."
+  },
+  "1.e4 e6 2.b4 Bxb4 3.e5": {
+    "name": "French Defence: Banzai-Leong Gambit, Pinova Gambit",
+    "strategy": "Gains space and keeps the g8 knight from its natural square, since a knight on f6 would be captured. But Black is a pawn up, the bishop on b4 is not attacked, and the pawn on e5 itself has no defender, so White has given a pawn for little more than space."
+  },
+  "1.e4 e6 2.c4 d5 3.cxd5": {
+    "strategy": "Releases the tension by capturing, removing Black's central pawn and leaving White a half-open c-file to play against c7. If Black recaptures with the e-pawn, White can take again and win a pawn, though Black gets good compensation for it."
+  },
+  "1.e4 e6 2.c4 d5 3.cxd5 exd5": {
+    "strategy": "Recaptures towards the centre, so that Black has a pawn on d5 attacking e4 again. The departure of the e-pawn also frees the c8-bishop, which was shut in behind e6. White can win a pawn with exd5, but Black gets good compensation for it."
+  },
+  "1.e4 e6 2.c4 d5 3.cxd5 exd5 4.Qb3": {
+    "name": "French Defence: Orthoschnapp Gambit",
+    "strategy": "Brings the queen out early to hit d5 and b7, but nothing is really threatened: the bishop guards b7, and Black simply takes the e-pawn, ending a pawn up. White hopes for compensation in activity, but Black has only to develop calmly."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2": {
+    "strategy": "Keeps the d-file blocked, so that ...dxe4 does not force an exchange of queens as it would after Nf3. White chooses a slow, solid set-up: pieces behind the pawn on e4, and the plan of building a kingside attack from there with a later e-pawn advance."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2 Nf6": {
+    "strategy": "Develops and attacks e4 a second time, so White must keep the pawn protected rather than push ahead. Black commits to a classical set-up and still has a choice of how to challenge White's centre."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2 Nf6 4.Ngf3": {
+    "strategy": "Develops the kingside knight and keeps the d2-knight as a second defender of e4. The d3 pawn and the d2-knight already guard the pawn against its two attackers, so White has no hurry in the centre; the set-up is flexible and waits to see how Black arranges the pieces."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2 Nf6 4.Ngf3 c5": {
+    "strategy": "The classical counter: the pawn contests d4 and gains queenside space. Black plans to castle and play on the queenside while White goes for the kingside, so it is a race of plans in a closed game."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2 Nf6 4.Ngf3 Nc6": {
+    "strategy": "Prepares to trade on e4 and put a pawn on e5, which would shut in a fianchettoed king's bishop. A direct approach: Black builds a broad centre instead of the queenside play that the c-pawn offers."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2 Nf6 4.Ngf3 c5 5.g3": {
+    "strategy": "Prepares the fianchetto of the king's bishop, the characteristic set-up of this system: the bishop will aim at the centre and the king castles behind a compact pawn shield. Slow and solid, with the advance of the e-pawn as the long-term plan to cramp Black."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2 Nf6 4.Ngf3 c5 5.g3 Nc6": {
+    "strategy": "Develops with pressure on d4: pawn and knight together fight for the square, so White cannot easily play in the centre with the d-pawn. Black gets a harmonious set-up and prepares to castle."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2 Nf6 4.Ngf3 c5 5.g3 Nc6 6.Bg2": {
+    "strategy": "Develops the king's bishop and clears the way to castling. The bishop is hemmed in behind its own pawn and knight for now, the price of this compact set-up; the game stays closed and strategic, and White's plan is the e-pawn advance."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2 Nf6 4.Ngf3 c5 5.g3 Nc6 6.Bg2 Be7": {
+    "strategy": "Gets the king's bishop out and prepares castling. The cost is the c8-bishop, which stays shut in behind the pawn on e6, so Black plays a solid but slightly passive game."
+  },
+  "1.e4 e6 2.d3 d5 3.Nd2 Nf6 4.Ngf3 Nc6 5.Be2": {
+    "name": "French Defence: Reversed Philidor Formation",
+    "strategy": "Develops the bishop to e2 instead of fianchettoing: e4 is held by the d-pawn and the d2-knight, and castling is one move away. A flexible set-up that keeps a compact pawn centre and waits to see whether Black pushes in the centre."
+  },
+  "1.e4 e6 2.d4 c5 3.d5": {
+    "name": "Benoni Defence: French Benoni",
+    "strategy": "Gains space and attacks e6, though the pawn there is defended twice and nothing is lost. If Black trades on d5, the e-file opens and White's pawn on d5 takes the c6 and e6 squares from Black's pieces; if Black does not, White has a cramping wedge in the centre."
+  },
+  "1.e4 e6 2.d4 f5 3.exf5": {
+    "name": "French Defence: Franco-Hiva Gambit Accepted",
+    "strategy": "Takes the pawn, the right answer to a move that develops nothing and weakens the king's diagonal. If Black recaptures with the e-pawn, the e-file and the e8–h5 diagonal are open in front of the king, and White simply develops with the easier game."
+  },
+  "1.e4 e6 2.f4 d5 3.Nf3": {
+    "strategy": "Develops, but leaves e4 to its fate: after the capture the pawn on e4 attacks the knight, so White loses time as well as a pawn. A knight outpost on e5 backed by the f-pawn and some activity are thin compensation."
+  },
+  "1.e4 e6 2.f4 d5 3.Nf3 dxe4": {
+    "name": "French Defence: La Bourdonnais Variation, Reuter Gambit",
+    "strategy": "Takes the pawn White left hanging, with a gain of time because the pawn attacks the knight. Black has to finish development safely and keep the extra material; White's only compensation is activity, not structure."
+  },
+  "1.e4 e6 2.Nc3 d5 3.d4": {
+    "strategy": "Builds the full pawn centre and transposes into the main French with the knight already on c3. White has more space and a defended e4 pawn, and Black must now find a way to fight that centre."
+  },
+  "1.e4 e6 2.Nc3 d5 3.f4": {
+    "name": "French Defence: Pelikan Variation",
+    "strategy": "Prepares e5 and a kingside attack instead of building the d4–e4 centre. The cost is the e1–h4 diagonal, open in front of the king (after a trade on e4, ...Qh4+ comes with check), and no central pressure on Black, who can develop and strike back at ease."
+  },
+  "1.e4 e6 2.Nf3 d5 3.Nc3": {
+    "name": "French Defence: Two Knights Variation",
+    "strategy": "Defends e4 with a developing move and keeps White's options open: the game can become an ordinary French after d4, or a cramping e5 advance. The knight blocks the c-pawn, so White commits to a piece-based set-up and builds the pawn centre later."
+  },
+  "1.e4 e6 2.Nf3 d5 3.e5": {
+    "strategy": "Cramps Black's kingside by denying the g8 knight its natural square, and fixes the centre. The e5 pawn is held only by the knight, so Black will attack its base on d4, and White has to support the chain with pieces and pawns."
+  },
+  "1.e4 e6 2.Nf3 d5 3.e5 c5": {
+    "strategy": "The standard counter to a pawn chain: Black attacks its base at once, before White has put a pawn on d4, where only the knight guards the square. The e5 pawn loses its natural support, and White must defend the centre rather than expand."
+  },
+  "1.e4 e6 2.Nf3 d5 3.e5 c5 4.b4": {
+    "name": "French Defence: Wing Gambit",
+    "strategy": "Offers the b-pawn to pull Black's c-pawn away so that a pawn centre can be built without pressure on d4. The pawn is real, though, and the queenside is loosened; Black can take it and keep the solid structure."
   }
 }

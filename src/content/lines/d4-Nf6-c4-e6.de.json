@@ -35,6 +35,8 @@
     "strategy": "Greift sofort d4 an und fragt Weiß, was es mit dem Zentrum vorhat. Schwarz nimmt ein unausgeglichenes Spiel in Kauf: Gewinnt Weiß mit dem Vorstoß des d-Bauern Raum, erhält Schwarz eine Bauernmehrheit am Damenflügel und Spiel gegen das Zentrum."
   },
   "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+": {
+    "name": "Bogoindische Verteidigung",
+    "background": "Benannt nach Efim Bogoljubow, der es vermutlich erfunden hat und in den 1920er Jahren regelmäßig spielte. Nimzowitsch, Keres, Petrosjan, Larsen, Smyslow und Kortschnoi übernahmen es später.",
     "strategy": "Entwickelt sich mit Schach und fragt Weiß, wie es sich deckt. Schwarz ist bereit, den Läufer gegen die deckende Figur zu tauschen oder zurückzuziehen, und begnügt sich mit einem kompakten, soliden Spiel. Weiß erhält den Raum und die Wahl der Struktur, doch Schwarz hat wenige Schwächen."
   },
   "1.d4 Nf6 2.c4 e6 3.Nf3 a6": {
@@ -48,6 +50,7 @@
     "background": "Ungewöhnlich, aber 1937 war es in Wien Thema eines Thementurniers, das Paul Keres gewann."
   },
   "1.d4 Nf6 2.c4 e6 3.g3 d5": {
+    "name": "Katalanische Eröffnung",
     "strategy": "Die klassische Antwort: Schwarz bezieht im Zentrum Stellung und wartet ab, wie der Läufer sich zeigt. Der Bauer d5 versperrt vorerst die lange Diagonale, doch Schwarz muss später entscheiden, ob es das Zentrum hält oder auf c4 nimmt und den Bauern zurückgibt."
   },
   "1.d4 Nf6 2.c4 e6 3.g3 c5": {
@@ -71,5 +74,241 @@
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 c5": {
     "strategy": "Greift sofort d4 an, aber ohne die Fesselung kann Weiß d5 spielen, Raum gewinnen und dann ein breites Zentrum aufbauen. Schwarz erhält ein unausgeglichenes Spiel mit Gegenspiel gegen dieses Zentrum, doch Weiß hat den Raum und die leichtere Entwicklung."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 Bb4+ 4.Bd2": {
+    "strategy": "Deckt das Schach mit dem Läufer, greift den ungedeckten Läufer auf b4 an und vermeidet eine Fesselung auf c3. Der Läufer steht nicht ideal, doch der Zug lässt den Fianchetto-Plan intakt und fragt Schwarz, was es mit seinem Läufer vorhat."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 Bb4+ 4.Bd2 Be7": {
+    "strategy": "Zieht sich zurück, statt zu tauschen, sodass Schwarz mit dem Läufer zwei Züge braucht, Weiß nur einen. Dafür steht der Läufer von Weiß auf d2 und nimmt dem Springer b1 das Feld, und Schwarz behält alle Figuren für ein solides Spiel."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 Bb4+ 4.Bd2 Be7 5.Bg2": {
+    "strategy": "Vollendet das Fianchetto: Der Läufer blickt die lange Diagonale entlang auf b7 und das Zentrum, und der Königsflügel von Weiß ist bereit zur Rochade. Weiß bestimmt nun das Tempo, und Schwarz muss entscheiden, wie es dem Druck am Damenflügel begegnet."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 Bb4+ 4.Bd2 Be7 5.Bg2 d5": {
+    "strategy": "Besetzt das Zentrum und versperrt vorerst die lange Diagonale. Schwarz erhält ein solides Bauernpaar auf d5 und e6 und freie Bahn zur Rochade, um den Preis eines eingeengten Damenläufers und eines etwas passiven Spiels."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 Bb4+ 4.Bd2 Be7 5.Bg2 d5 6.Nf3": {
+    "name": "Bogoindische Verteidigung: Rückzugsvariante",
+    "strategy": "Vollendet die Entwicklung am Königsflügel, deckt d4 und e5 und bereitet die Rochade vor. Weiß hält die Spannung gegen d5 und c4, sodass der Läufer auf g2 seinen Einfluss behält und Weiß auf einen kleinen, dauerhaften Vorteil drückt."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 Bb4+ 4.Bd2 Be7 5.Bg2 d5 6.Nf3 O-O": {
+    "name": "Bogoindische Verteidigung: Rückzugsvariante",
+    "strategy": "Bringt den König in Sicherheit und schließt die Entwicklung am Königsflügel ab. Schwarz steht kompakt und stabil, aber etwas passiv: Weiß behält den Raumvorteil und den langfristigen Druck auf d5 und den Damenflügel."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 Bb4+ 4.Bd2 Be7 5.Bg2 d5 6.Nf3 Nbd7": {
+    "strategy": "Entwickelt die letzte Leichtfigur auf ein Feld, das einen späteren zentralen Bauernvorstoß unterstützt, lässt den König aber einen Zug länger im Zentrum. Eine vernünftige Alternative zur Rochade, mit derselben soliden, aber etwas beengten Struktur."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 Be7 4.Bg2": {
+    "strategy": "Vollendet das Fianchetto sofort. Der Läufer nimmt die lange Diagonale und den Druck auf den Damenflügel auf, während der ruhige Läuferzug von Schwarz kein Angriffsziel geboten hat."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 Be7 4.Bg2 d5": {
+    "strategy": "Besetzt das Zentrum und sperrt die lange Diagonale. Schwarz baut ein festes Bauernpaar auf d5 und e6 auf und bereitet die Rochade vor, zufrieden mit einem soliden, etwas beengten Spiel, während Weiß entscheidet, wie es den Druck aufrechterhält."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 Be7 4.Bg2 d5 5.Nf3": {
+    "strategy": "Entwickelt, deckt das Zentrum und bereitet die Rochade vor. Schwarz behält den Bauern d5 als starken Punkt und wird die Partie geschlossen und solide finden, während Weiß einen leichten Raumvorteil und den Druck des Läufers auf g2 behält."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 c5 4.d5": {
+    "strategy": "Gewinnt Raum und fixiert das Zentrum sofort, mit dem Ziel einer unausgeglichenen Bauernstruktur. Weiß hält die zentralen Bauern und kann später e4 vorstoßen, während Schwarz mit einer Mehrheit am Damenflügel und der offenen e-Linie kontert."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 c5 4.d5 exd5": {
+    "strategy": "Nimmt den Bauern und öffnet die e-Linie gegen den Bauern auf e2. Schwarz gibt das solide Zentrum für Aktivität auf: Nach dem Zurückschlagen hat Weiß den Bauern d5 und zentralen Raum, und Schwarz spielt auf die Mehrheit am Damenflügel."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 c5 4.d5 exd5 5.cxd5": {
+    "strategy": "Schlägt mit dem c-Bauern zurück, was Weiß einen Bauern auf d5 und eine zentrale Mehrheit gibt, Schwarz aber die Mehrheit am Damenflügel lässt. Beide Seiten spielen nun auf ihren eigenen Bauerndurchbruch in einer scharfen, unausgeglichenen Partie."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 c5 4.d5 exd5 5.cxd5 d6": {
+    "strategy": "Stützt den Bauern c5, hemmt den Vorstoß e5 von Weiß und befreit die Diagonale des weißfeldrigen Läufers. Schwarz nimmt den Raumvorteil von Weiß hin und erhält dafür die halboffene e-Linie und eine Mehrheit am Damenflügel."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 c5 4.d5 exd5 5.cxd5 d6 6.Nc3": {
+    "strategy": "Entwickelt den Springer, deckt d5 und bereitet den Aufbau des Zentrums mit e4 vor. Weiß nutzt seinen Raumvorteil, um den Vorstoß in der Mitte vorzubereiten, während Schwarz Gegenspiel gegen das Zentrum und am Damenflügel vorbereitet."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 c5 4.d5 exd5 5.cxd5 d6 6.Nc3 g6": {
+    "strategy": "Bereitet das Fianchetto des Königsläufers auf der langen Diagonale vor, von wo er Zentrum und Damenflügel unter Druck setzt. Schwarz nimmt das Zentrum von Weiß hin und will es untergraben, mit dynamischem Gegenspiel auf der e-Linie und am Flügel."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2": {
+    "name": "Katalanische Eröffnung: Offene Verteidigung",
+    "strategy": "Fianchettiert den Königsläufer sofort. Er wirkt die lange Diagonale entlang auf d5 und den Damenflügel und lässt c4 absichtlich ungedeckt: Weiß ist bereit, den Bauern zurückzugewinnen, falls Schwarz ihn nimmt."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2 dxc4": {
+    "name": "Katalanische Eröffnung: Offene Verteidigung",
+    "background": "Ein Offenes Katalanisch entstand durch Zugumstellung in Réti–Leonhardt, Berlin 1928, vor Tartakowers Verwendung beim Turnier von Barcelona.",
+    "strategy": "Nimmt den Bauern und öffnet die lange Diagonale für den Läufer von Weiß. Schwarz muss den Mehrbauern entweder um den Preis einer geschwächten Damenflügelstellung halten oder ihn für Entwicklungszeit zurückgeben. Weiß erhält dauerhaften Druck und aktive Figuren."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2 Be7": {
+    "strategy": "Entwickelt den Läufer, bereitet die Rochade vor und behält den starken Punkt d5. Schwarz legt sich bei c4 nicht fest und nimmt ein solides, etwas beengtes Spiel hin, in dem Weiß am Damenflügel drückt."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2 c5": {
+    "strategy": "Greift sofort d4 an und hält das Zentrum gespannt. Schwarz öffnet Linien für die Figuren, bleibt nach den Abtäuschen aber womöglich mit einem schwachen oder isolierten Zentrumsbauern zurück und muss auf den Läufer von Weiß auf der langen Diagonale achten."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2 c5 5.Nf3": {
+    "strategy": "Entwickelt, deckt d4 gegen den Bauern auf c5 und bereitet die Rochade vor. Weiß ist bereit, der Spannung im Zentrum mit Figuren statt mit Bauern zu begegnen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2 c5 5.Nf3 Nc6": {
+    "name": "Katalanische Eröffnung: Tarrasch-Verteidigung",
+    "strategy": "Fügt mit einem Entwicklungszug einen zweiten Angreifer gegen d4 hinzu. Schwarz fordert das Zentrum mit Figuren heraus, und Weiß muss d4 unter Kontrolle halten, während die lange Diagonale durch den Springer auf f3 versperrt bleibt."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2 dxc4 5.Nf3": {
+    "name": "Katalanische Eröffnung: Offene Verteidigung",
+    "strategy": "Entwickelt und bereitet die Rochade vor, ohne den Bauern hastig zurückzugewinnen. Weiß verlässt sich auf den Läufer auf g2 und einen Entwicklungsvorsprung und kann c4 jederzeit zurückholen, während Schwarz einen Plan finden muss."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2 dxc4 5.Qa4+": {
+    "strategy": "Gewinnt den Bauern sofort mit Schach zurück. Die Dame kommt früh heraus, doch Schwarz kann den Bauern kaum behalten, sodass die Partie sich ausgleicht: Weiß behält den aktiven Läufer, Schwarz entwickelt sich leicht."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2 dxc4 5.Nf3 Be7": {
+    "name": "Katalanische Eröffnung: Offene Verteidigung, Klassische Linie",
+    "background": "Ein Lieblingsspiel von Anatoli Karpow und Efim Geller mit Schwarz sowie von Oleg Romanischin mit Weiß.",
+    "strategy": "Der klassische Aufbau: Schwarz entwickelt sich, bereitet die Rochade vor und rechnet damit, den Mehrbauern zurückzugeben. Ohne Bauern auf d5 behindert der Läufer von Weiß den Damenflügel, und den Bauern zu halten würde Schwarz zwingen, ihn stark zu schwächen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2 dxc4 5.Nf3 Nc6": {
+    "strategy": "Entwickelt mit Blick auf d4 und das Feld e5, tut aber wenig zum Schutz des Bauern c4 und läuft in einen Damenzug, der den Springer an den König fesselt. Aktiv, setzt den König von Schwarz aber früh unter Druck."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2 dxc4 5.Qa4+ Nbd7": {
+    "strategy": "Deckt das Schach mit einem Entwicklungszug, doch der Bauer c4 fällt trotzdem. Schwarz gibt den Bauern für gesunde Entwicklung und ein ausgeglichenes, bequemes Spiel zurück."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2 dxc4 5.Nf3 Nc6 6.Qa4": {
+    "strategy": "Greift den Bauern c4 an und fesselt den Springer auf c6 an den König, sodass Schwarz den Bauern nicht mit ihm verteidigen kann. Ein scharfer, direkter Versuch, den Bauern zurückzugewinnen, solange der König noch im Zentrum steht."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2 dxc4 5.Nf3 Nc6 6.Qa4 Bb4+": {
+    "name": "Katalanische Eröffnung: Offene Verteidigung, Moderne Scharfe Variante",
+    "strategy": "Antwortet mit Schach und deckt den Angriff der Dame auf c4 ab. Der Läufer ist vom Springer gedeckt, Weiß kann ihn also nicht nehmen und muss auf das Schach reagieren. Schwarz behält vorerst den Mehrbauern, und die Partie wird scharf."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2 dxc4 5.Qa4+ Nbd7 6.Qxc4": {
+    "name": "Katalanische Eröffnung: Offene Verteidigung",
+    "strategy": "Gewinnt den Bauern sofort zurück, sodass der Läufer auf g2 seine offene lange Diagonale ohne Materialverlust bekommt. Der Preis ist eine Dame, die schon zweimal gezogen hat und dort steht, wo die Bauern und Springer von Schwarz am Damenflügel sie jagen können, während Schwarz freie Hand zur Organisation hat."
+  },
+  "1.d4 Nf6 2.c4 e6 3.g3 d5 4.Bg2 dxc4 5.Qa4+ Nbd7 6.Qxc4 a6": {
+    "strategy": "Nimmt der Dame das Feld b5 und bereitet vor, mit ...b5 Raum und Zeit zu gewinnen. Der Vorstoß muss warten, bis Schwarz sich um die lange Diagonale gekümmert hat, denn wenn der b-Bauer b7 verlässt, steht der Turm auf a8 dem Läufer auf g2 offen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 c5 4.Nf3": {
+    "strategy": "Entwickelt den Springer und fügt d4, das der c-Bauer angreift, einen Verteidiger hinzu. Weiß lässt die Spannung im Zentrum ungelöst und behält ein flexibles Spiel, in dem keine Seite ihre Bauernstruktur schon festgelegt hat und das Zurückschlagen auf d4 mit einer Figur erfolgen würde."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2": {
+    "strategy": "Die häufigste Antwort: Der Läufer beantwortet das Schach auf einem natürlichen Entwicklungsfeld und greift den Läufer b4 an, sodass Schwarz entscheiden muss, was er damit macht. Weiß behält die Bauernstruktur intakt und eine flexible Entwicklung."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2": {
+    "name": "Bogoindische Verteidigung: Grünfeld-Variante",
+    "strategy": "Eine ehrgeizige Zwischenziehung, die darauf zielt, den Springer gegen den Läufer zu tauschen oder ihn zurückzutreiben. Der Springer blockiert den Läufer c1 und ist gegen den König gefesselt, bis Weiß rochiert hat, ein Nachteil, der durch eine reibungslose Entwicklung ausgeglichen werden muss."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nc3": {
+    "strategy": "Geht in den Fesselungsaufbau, der nach 3.Sc3 Lb4 entsteht, über eine andere Zugfolge. Weiß nimmt in Kauf, dass der Springer gefesselt und die Bauern verdoppelt werden können, und strebt dafür ein breites Zentrum und das Läuferpaar an."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nfd2": {
+    "name": "Bogoindische Verteidigung: Neuengland-Variante",
+    "strategy": "Zieht den Springer nach d2 zurück, macht also einen Entwicklungszug rückgängig und blockiert den Läufer c1. Der Springer b1 bleibt für c3 frei, und e4 wird gestützt, doch Weiß verliert Zeit damit, und Schwarz hat ein leichtes Spiel."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 Qe7": {
+    "name": "Bogoindische Verteidigung: Nimzowitsch-Variante",
+    "background": "Inzwischen die am häufigsten gespielte Antwort auf 4.Ld2.",
+    "strategy": "Verteidigt den Läufer mit der Dame, statt ihn zu tauschen: Schlägt Weiß auf b4, nimmt die Dame mit Schach zurück. Schwarz behält die Spannung und die Wahl, wann er den Läufer hergibt, zum Preis eines frühen Damenzugs."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 Bxd2+": {
+    "name": "Bogoindische Verteidigung: Abtauschvariante",
+    "background": "Nicht besonders beliebt, aber häufig von Ulf Andersson gespielt, oft als Remisvariante.",
+    "strategy": "Die einfachste Lösung: Schwarz tauscht den Läufer sofort ab, und Weiß schlägt zurück. Schwarz erhält eine solide, sichere Stellung mit wenig Risiko, aber auch wenig Gewinnchancen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 c5": {
+    "name": "Bogoindische Verteidigung: Vitolins-Variante",
+    "background": "Eine modernere Variante gegen 4.Ld2.",
+    "strategy": "Schwarz greift sofort d4 an. Schlägt Weiß auf b4, verdoppelt das Zurückschlagen die Bauern von Schwarz und zieht einen Bauern aus dem Zentrum ab, doch der Bauer auf b4 nimmt dem weißen Springer das Feld c3."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 a5": {
+    "name": "Bogoindische Verteidigung: Wade-Smyslow-Variante",
+    "background": "David Bronstein versuchte es als schärfere Alternative.",
+    "strategy": "Verteidigt den Läufer mit einem Bauern und gewinnt Raum am Damenflügel. Der Preis sind strukturelle Schwächen am Damenflügel, sodass Schwarz den Vorposten des Läufers zur Geltung bringen muss."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 Nc6": {
+    "name": "Bogoindische Verteidigung: Haiti-Variante",
+    "strategy": "Verteidigt den Läufer mit einem Entwicklungszug, doch der Springer versperrt den c-Bauern, sodass Schwarz d4 nicht mehr mit ...c5 angreifen kann. Weiß behält das breitere Zentrum und entwickelt sich weiter, während Schwarz nichts Besonderes vorzuweisen hat."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 Be7": {
+    "name": "Bogoindische Verteidigung: Rückzugsvariante",
+    "strategy": "Zieht sich zurück und verliert so Zeit, doch der weiße Läufer steht auf d2 nicht ideal, wo er den Damenspringer blockiert, was einen Teil davon ausgleicht. Ein solider, leicht passiver Aufbau, der Weiß die Wahl über das Zentrum lässt."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2 b6": {
+    "strategy": "Entwickelt sofort das Fianchetto und lässt den Springer auf d2 gefesselt: Er kann sich nicht bewegen, ohne den König zu entblößen, und der Läufer b7 übernimmt die lange Diagonale. Weiß muss einen Weg finden, die Fesselung aufzulösen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 a5 5.g3": {
+    "strategy": "Fianchettiert und zielt auf die lange Diagonale, statt sich sofort mit dem Läufer auf b4 zu befassen. Der a-Bauer von Schwarz hat Raum gewonnen, aber das Feld b5 geschwächt, und Weiß entwickelt sich ruhig mit Blick auf die lange Diagonale."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 a5 5.g3 b6": {
+    "strategy": "Bereitet das Fianchetto vor: Der Läufer von Schwarz auf b4 wird vom a-Bauern gehalten, und der Damenläufer kommt nach b7, um gemeinsam mit dem Springer f6 um e4 und d5 zu kämpfen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 a5 5.g3 b6 6.Bg2": {
+    "strategy": "Vollendet das eigene Fianchetto, das die Rochade vorbereitet und sich der langen Diagonale entgegenstellt, die der Läufer von Schwarz einnehmen wird. Weiß bleibt solide und wartet mit der Entscheidung, wie er dem Druck auf d4 und c4 begegnet."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 a5 5.g3 b6 6.Bg2 Bb7": {
+    "name": "Damenindische Verteidigung: Yates-Variante",
+    "strategy": "Vollendet das Fianchetto: Die beiden Läufer stehen sich auf der langen Diagonale gegenüber. Schwarz hat mit dem a-Bauern Raum am Damenflügel gewonnen und plant, den Läufer b4 gegen einen Springer zu tauschen, wenn er c3 erreicht, was den Griff auf die hellen Felder verstärkt."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2 b6 5.a3": {
+    "strategy": "Stellt dem Läufer sofort die Frage, bevor Schwarz ...Lb7 hinzufügen und rochieren kann. Schlägt Schwarz auf d2, schlägt Weiß zurück und besitzt das Läuferpaar; zieht sich der Läufer zurück, hat Weiß Raum am Damenflügel gewonnen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2 b6 5.e3": {
+    "strategy": "Hält die Stellung solide und befreit den Läufer f1, lässt aber die Fesselung des Springers d2 bestehen. Schwarz entscheidet, wann er Läufer gegen Springer tauscht, was Weiß das Läuferpaar verschafft."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2 b6 5.a3 Bxd2+": {
+    "strategy": "Schlägt sofort den Springer, sodass a3 nur einen Tausch des schwarzen Läufers gegen einen Springer erzwungen hat. Schwarz gibt das Läuferpaar ab, doch die Fesselung ist verschwunden, und die Stellung ist vereinfacht und ausgeglichen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2 b6 5.e3 Bb7": {
+    "name": "Damenindische Verteidigung, mit e3, Lb4+-Variante",
+    "strategy": "Vollendet das Fianchetto: Der Läufer blickt auf der langen Diagonale auf e4, d5 und den Springer auf f3, während der Läufer auf b4 den weißen Springer auf d2 weiter an den König fesselt. Schwarz hat eine kompakte Aufstellung, und Weiß muss einen Weg finden, seine Figuren zu entwirren."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2 b6 5.a3 Bxd2+ 6.Qxd2": {
+    "strategy": "Schlägt mit der Dame zurück, was die Bauernstruktur und das Läuferpaar bewahrt. Die Dame auf d2 steht vor dem Läufer c1, sodass Weiß dies entwirren muss, bevor die Läufer wirken, doch es wird kein Springer festgelegt."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2 b6 5.a3 Bxd2+ 6.Qxd2 Bb7": {
+    "strategy": "Vollendet das Fianchetto: Der Läufer blickt auf den Springer f3 und die lange Diagonale, und nach dem Verlust des dunkelfeldrigen Läufers verlässt sich Schwarz auf die Figurenkontrolle von e4 und d5. Weiß hat das Läuferpaar und das breitere Bauernzentrum; die Frage ist, ob dieses Zentrum untergraben werden kann."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5": {
+    "strategy": "Löst die Spannung auf d4 auf, indem es Raum gewinnt: Der Bauer auf d5 schränkt die schwarzen Figuren ein und bereitet ein breites Zentrum vor. Dafür bekommt Schwarz eine halboffene e-Linie, eine Mehrheit am Damenflügel und reichlich Gegenspiel, sodass Weiß das Zentrum unter Kontrolle halten muss."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 exd5": {
+    "strategy": "Die Hauptantwort: Schwarz öffnet die e-Linie und hat nach dem Wiederschlagen eine Bauernmehrheit am Damenflügel gegen die weißen Zentrumsbauern. Die Partie wird zu einem klaren Kampf zwischen dem weißen Raumvorteil im Zentrum und den aktiven Figuren und dem Damenflügelspiel von Schwarz."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5": {
+    "name": "Blumenfeld-Gegengambit",
+    "background": "Benannt nach dem russischen Meister Benjamin Blumenfeld, der es erfunden hat; Weltmeister Alexander Aljechin spielte es später.",
+    "strategy": "Ein Bauernopfer, das das weiße Zentrum vom Flügel aus angreift. Schwarz will eine starke Bauernmasse im Zentrum aufbauen, sich schnell entwickeln und am Königsflügel spielen, und zahlt dafür einen Flügelbauern. Die Partie ist scharf und zweischneidig."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5 5.Bg5": {
+    "name": "Blumenfeld-Gegengambit: Duz-Chotimirski-Variante",
+    "strategy": "Entwickelt den Läufer mit einer Fesselung des Springers auf f6 gegen die Dame und lehnt es ab, etwas zu schlagen. Weiß behält den Bauern auf d5 und einen Raumvorteil und überlässt Schwarz die Entscheidung, wie er die Spannung auflöst. Es ist die beliebteste Erwiderung von Weiß."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5 5.dxe6": {
+    "strategy": "Schlägt den Bauern auf e6 und nimmt das Gambit an. Weiß gibt den Zentrumsbauern auf, der Schwarz eingeengt hat, und lässt die f-Linie sich öffnen, in der Hoffnung, den zusätzlichen Damenflügelbauern zu behalten; Schwarz erhält dafür schnelle Entwicklung und ein starkes Zentrum."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5 5.Bg5 exd5": {
+    "strategy": "Schlägt sofort auf d5 und beendet die Spannung im Zentrum. Nachdem Weiß wiedergeschlagen hat, wird der Bauer auf b5 nicht mehr angegriffen, das Gambit kostet Schwarz also nichts. Schwarz hat eine Mehrheit am Damenflügel, doch der Springer auf f6 bleibt an die Dame gefesselt."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5 5.dxe6 fxe6": {
+    "strategy": "Schlägt mit dem f-Bauern wieder, was die f-Linie für den Turm öffnet und den d-Bauern zu Hause lässt, damit er im Zentrum standhält. Der Preis ist eine lockerere Bauerndeckung um den König, und der Bauer auf b5 bleibt weiter dem weißen c-Bauern ausgeliefert."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5 5.Bg5 exd5 6.cxd5": {
+    "strategy": "Schlägt zum Zentrum hin wieder, was zugleich den Angriff auf b5 beendet, sodass das Material ausgeglichen ist. Weiß hat einen Bauern auf d5 und Raum, Schwarz eine Mehrheit am Damenflügel und aktive Figuren; der gefesselte Springer auf f6 ist das Erste, was Schwarz lösen muss."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5 5.Bg5 exd5 6.cxd5 h6": {
+    "name": "Blumenfeld-Gegengambit: Spielmann-Variante",
+    "strategy": "Stellt dem Läufer sofort die Frage und geht so die Fesselung des Springers auf f6 an. Tauscht Weiß auf f6, schlägt Schwarz mit der Dame wieder, die dann die lange Diagonale Richtung b2 im Blick hat; zieht sich der Läufer zurück, hat Schwarz ein Tempo verbraucht, behält aber seinen Springer und ein solides Zentrum."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5 5.dxe6 fxe6 6.cxb5": {
+    "strategy": "Nimmt den Gambitbauern und lässt Weiß einen Bauern voraus. Das Problem von Weiß ist, ihn zu halten: Die schwarzen Zentrumsbauern und die offene f-Linie verschaffen Schwarz rasche Entwicklung, und Weiß muss den Bauern zurückgeben oder die Initiative überstehen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5 5.dxe6 fxe6 6.cxb5 d5": {
+    "name": "Angenommenes Blumenfeld-Gegengambit",
+    "strategy": "Besetzt das ganze Zentrum mit Bauern auf c5, d5 und e6 und gibt beiden Läufern Raum zur Entwicklung. Schwarz ist einen Bauern im Nachteil und spielt auf Initiative: Die Kompensation sind Raum, schnelle Entwicklung und Druck auf der offenen f-Linie."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 exd5 5.cxd5": {
+    "strategy": "Schlägt zum Zentrum hin wieder: Weiß hat einen raumgewinnenden Bauern auf d5 und eine halboffene c-Linie gegen den Bauern auf c5, Schwarz dagegen die e-Linie und eine Mehrheit am Damenflügel. Beide Seiten erhalten einen klaren Plan: Weiß drückt im Zentrum, Schwarz greift am Flügel gegen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 exd5 5.cxd5 d6": {
+    "strategy": "Schützt den Bauern auf c5, hindert den d-Bauern am Vorrücken und gibt dem Läufer auf c8 Raum. Schwarz legt sich auf eine feste Bauernkette fest und gibt den Gedanken an einen frühen Durchbruch im Zentrum auf; die Partie ist ein Manövrierkampf gegen den weißen Raumvorteil."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 exd5 5.cxd5 d6 6.Nc3": {
+    "strategy": "Bringt den Springer, um den Bauern auf d5 zu verteidigen und einen Vorstoß im Zentrum zu unterstützen. Weiß entwickelt sich mit Absicht und behält den gewonnenen Raum, und nun muss Schwarz Gegenspiel gegen ein solides Zentrum finden."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 exd5 5.cxd5 d6 6.Nc3 g6": {
+    "name": "Benoni-Verteidigung",
+    "background": "Der Name geht auf Aaron Reinganums Buch Ben-Oni von 1825 zurück, das 1.d4 c5 analysierte, damals eine unbekannte Eröffnung. Später haftete er an Eröffnungen, in denen Schwarz auf d4 mit einem frühen ...c5 antwortet, darunter 1.d4 Sf6 2.c4 c5.",
+    "strategy": "Bereitet das Fianchetto des Königsläufers vor, damit er auf der langen Diagonale Druck gegen das weiße Zentrum und den Damenflügel ausübt. Schwarz nimmt eine beengte Stellung in Kauf für aktives Figurenspiel und die Mehrheit am Damenflügel, während Weiß einen Durchbruch im Zentrum anstrebt."
   }
 }

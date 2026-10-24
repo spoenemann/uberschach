@@ -62,6 +62,7 @@
     "strategy": "Die häufigste Antwort: Schwarz rochiert, was es ohnehin will, und hält die Struktur offen. Schwarz wartet ab, wohin Weiß Läufer und Springer stellt, bevor es sich zwischen einem Zentrumsschlag und dem Schlagen auf c3 entscheidet."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5": {
+    "name": "Nimzo-Indische Verteidigung: Rubinstein-System",
     "strategy": "Setzt d4 sofort unter Druck und hält den Bauernaufbau im Zentrum flexibel. Die Drohung, die weißen Bauern zu verdoppeln, bleibt in Reserve, sodass Weiß Zeit hat, sich auf ein Zurückschlagen mit einer Figur einzurichten, um den Preis einer weniger natürlichen Entwicklung."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 b6": {
@@ -94,12 +95,257 @@
     "strategy": "Die häufigste Antwort: Schwarz bringt den König in Sicherheit und lässt alle Pläne offen. Die Dame auf c2 hat dafür gesorgt, dass Weiß keine Doppelbauern bekommt, sodass Schwarz es mit dem Abtausch des Läufers nicht eilig hat und abwartet, wie sich Weiß festlegt."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 Nc6": {
+    "name": "Nimzo-Indische Verteidigung: Klassische Variante, Zürcher Variante",
+    "background": "Auch bekannt als Milner-Barry-Variante, nach dem britischen Spieler Stuart Milner-Barry.",
     "strategy": "Greift den Bauern d4 an und bereitet ein Bauernzentrum auf d6 und e5 vor, das den anderen Läufer frei lässt. Der dunkelfeldrige Läufer wird abgegeben, und der Springer verstellt den eigenen c-Bauern, weshalb der Zug heute seltener ist."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 d5": {
     "strategy": "Beansprucht sofort das Zentrum und greift den Bauern c4 an, den die Dame nicht verteidigen kann, weil der Springer auf c3 im Weg steht. Weiß muss sofort entscheiden, wie er die Spannung im Zentrum löst."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 c5": {
+    "name": "Nimzo-Indische Verteidigung: Klassische Variante, Berliner Variante",
     "strategy": "Stößt gegen den Bauern d4 vor, den die Dame auf c2 nicht mehr deckt. Verteidigt Weiß ihn, behält Schwarz den Druck und hat leichtes Spiel, daher schlägt Weiß fast immer, und Schwarz plant dann, den Bauern zurückzugewinnen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.a3 Bxc3+ 5.bxc3": {
+    "strategy": "Schlägt mit dem Bauern zurück, die einzige Möglichkeit. Weiß nimmt Doppelbauern und einen schwachen Bauern auf c4 in Kauf, dafür bekommt es das Läuferpaar, ein breites Zentrum und die Chance auf einen schnellen Angriff am Königsflügel."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.a3 Bxc3+ 5.bxc3 c5": {
+    "strategy": "Blockiert die Doppelbauern und greift sofort d4 an. Schwarz plant, sich auf dem schwachen Bauern c4 zu massieren, während Weiß das Zentrum aufbaut, sodass die Partie davon abhängt, ob das weiße Zentrum und das Spiel am Königsflügel dieses Ziel aufwiegen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.a3 Bxc3+ 5.bxc3 O-O": {
+    "name": "Nimzo-Indische Verteidigung: Sämisch-Variante",
+    "strategy": "Bringt den König in Sicherheit, bevor sich das Zentrum öffnet, und hält die Pläne gegen die Doppelbauern in Reserve. Der Preis ist, dass Weiß ungehindert beginnen kann, das Bauernzentrum aufzubauen, sodass Schwarz noch einen Weg finden muss, es zu bekämpfen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.a3 Bxc3+ 5.bxc3 c5 6.e3": {
+    "name": "Nimzo-Indische Verteidigung: Sämisch-Variante",
+    "strategy": "Fügt d4 einen Verteidiger hinzu und öffnet dem Königsläufer den Weg, der auch c4 deckt. Weiß beantwortet den Druck mit einer soliden Kette und behält den Zentrumsvorstoß in der Hand, sodass die schwachen Bauern geschützt sind, während sich die Figuren entwickeln."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.a3 Bxc3+ 5.bxc3 c5 6.e3 b6": {
+    "name": "Nimzo-Indische Verteidigung: Sämisch-Variante, O'Kelly-Variante",
+    "strategy": "Bereitet ...La6 gegen den schwachen Bauern c4 vor, sodass Weiß ihn verteidigen oder aufgeben muss. Schwarz spielt am Damenflügel gegen die Doppelbauern, und der Bauer auf b6 gibt dem Läufer auf c8 außerdem seine Diagonale."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bg5 h6 5.Bh4": {
+    "strategy": "Lehnt den Tausch ab und behält die Fesselung des Springers auf f6, sodass der Springer von Schwarz immer noch nicht frei ziehen oder d5 decken kann. Der Preis ist ein Läufer, der weit vom Damenflügel entfernt steht und den Schwarz später mit einem Bauern am Königsflügel belästigen kann."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bg5 h6 5.Bh4 c5": {
+    "strategy": "Greift sofort d4 an. Es zwingt Weiß zu entscheiden, ob es die Spannung löst oder Raum gewinnt, und es lässt Schwarz sowohl einen Bauerntausch als auch eine geschlossene Blockade der dunklen Felder offen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bg5 h6 5.Bh4 c5 6.d5": {
+    "strategy": "Der Sinn der Fesselung: Da der Springer auf f6 gebunden ist, nimmt sich Weiß Raum und greift sofort e6 an. Schwarz muss entscheiden, ob er die Stellung gegen den neuen Bauern öffnet oder sie schließt und um die dunklen Felder kämpft."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bg5 h6 5.Bh4 c5 6.d5 d6": {
+    "name": "Nimzo-Indische Verteidigung: Leningrader Variante, Benoni-Verteidigung",
+    "strategy": "Stützt einen Bauern auf e5 und hält die Möglichkeiten des Bauern e6 offen: Schwarz kann auf d5 schlagen oder, üblicher, den Läufer auf c3 hergeben und die dunklen Felder blockieren. Die Stellung begünstigt dann die schwarzen Springer gegenüber den weißen Läufern."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bg5 h6 5.Bh4 c5 6.d5 b5": {
+    "name": "Nimzo-Indische Verteidigung: Leningrader Variante, Awerbach-Gambit",
+    "background": "In den 1970er Jahren viel gespielt, nachdem Michail Tal 1973 in Tallinn einen vernichtenden Sieg über Boris Spasski errungen hatte.",
+    "strategy": "Ein Bauernopfer, das den ungedeckten Bauern c4, die Stütze des weißen Bauern d5, von der Flanke aus angreift. Der Springer auf c3 ist gefesselt und kann nicht nehmen, doch Schwarz muss beweisen, dass offene Linien gegen das Zentrum den Bauern wert sind."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Bd3": {
+    "strategy": "Entwickelt den Läufer auf sein bestes Feld, wo er e4 mitkontrolliert, und lässt die Spannung auf d4 ungelöst. Weiß nimmt Doppelbauern in Kauf, falls Schwarz auf c3 schlägt, als Gegenleistung für das Läuferpaar und ein flexibles Zentrum."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Ne2": {
+    "name": "Nimzo-Indische Verteidigung: Rubinstein-System, Rubinstein-Variante",
+    "strategy": "Verhindert, dass Schwarz die Bauern verdoppelt, indem es vorbereitet, auf c3 mit dem Springer zurückzuschlagen. Weiß behält eine gesunde Struktur und kann einen Bauerntausch im Zentrum mit dem Zurückschlagen des e-Bauern beantworten, um den Preis eines Springers, der den Königsläufer blockiert."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Bd3 Nc6": {
+    "strategy": "Entwickelt eine Figur und fügt d4 einen zweiten Angreifer hinzu. Schwarz behält die Option, sofort auf c3 zu schlagen und eine geschlossene Stellung aufzubauen, in der die Springer besser stehen als die weißen Läufer und die Doppelbauern Weiß ohne Durchbrüche am Damenflügel lassen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Ne2 cxd4": {
+    "strategy": "Löst die Spannung im Zentrum und räumt c5, sodass der Läufer nach e7 zurückweichen kann. Weiß schlägt mit dem e-Bauern zurück, denn mit dem Springer würde ...Lxc3+ die Bauern doch noch verdoppeln."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Bd3 Nc6 6.Nf3": {
+    "strategy": "Der flexible Entwicklungszug: Er deckt d4 und e5 und lässt Weiß auf ...Lxc3 mit dem Läuferpaar und Doppelbauern auf der c-Linie antworten, ohne ein Tempo für a3 aufzuwenden. Weiß setzt darauf, dass die beiden Läufer und das Zentrum die schwachen Damenflügelbauern aufwiegen, sobald sich die Stellung öffnet."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Bd3 Nc6 6.a3": {
+    "strategy": "Fordert den Läufer auf, sich sofort zu entscheiden, doch Schwarz war ohnehin bereit, auf c3 zu schlagen. Weiß erhält das Läuferpaar und Doppelbauern auf der c-Linie, für ein Tempo, das auf den a-Bauern verwendet wurde, während der Königsflügel noch unentwickelt ist; Schwarz hat daher Zeit, eine Blockade aufzubauen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Bd3 Nc6 6.a3 Bxc3+": {
+    "strategy": "Schlägt den Springer und verdoppelt die weißen Bauern, das übliche Ziel der Fesselung. Schwarz gibt das Läuferpaar für eine dauerhafte Schwäche am Damenflügel her und hält mit dem c-Bauern und dem Springer den Druck auf d4 aufrecht."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Bd3 Nc6 6.Nf3 Bxc3+": {
+    "strategy": "Schlägt sofort, ohne auf a3 zu warten. Schwarz schließt dann das Zentrum und blockiert die dunklen Felder, sodass die Springer die weißen Läufer übertreffen und die Doppelbauern auf der c-Linie Weiß ohne Bauerndurchbrüche am Damenflügel lassen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Ne2 cxd4 6.exd4": {
+    "strategy": "Schlägt mit dem Bauern zurück, damit der Springer auf e2 bleibt und c3 deckt. Weiß erhält ein breites Bauernzentrum auf c4 und d4 und einen freien dunkelfeldrigen Läufer, doch der Springer steht passiv und der Läufer auf f1 muss noch einen Weg hinaus finden."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Ne2 cxd4 6.exd4 O-O": {
+    "strategy": "Rochiert zuerst und stößt den d-Bauern noch nicht vor, was Weiß erlauben würde, mit c5 Raum zu gewinnen. Der Läufer behält seinen Rückzug nach e7 in Reserve, und es folgt ein ruhiges Spiel, in dem die weißen Zentrumsbauern dem Figurenspiel von Schwarz gegenüberstehen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Ne4 5.Qc2": {
+    "strategy": "Greift den ungedeckten Springer auf e4 an; der gefesselte Springer auf c3 kann ihn nicht schlagen, also übernimmt die Dame die Arbeit. Sie deckt außerdem c3, das sowohl der Springer auf e4 als auch der Läufer angreifen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Ne4 5.Qc2 f5": {
+    "strategy": "Stützt den Springer mit einem Bauern, damit er auf e4 bleiben kann, eine kühne Art, das zentrale Feld zu halten. Der Preis ist ein geschwächter Königsflügel: Die Diagonale e8-h5 ist offen und e6 ist schwächer, während der schwarze König noch nicht rochiert hat."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Ne4 5.Qc2 f5 6.Nf3": {
+    "strategy": "Entwickelt sich und deckt e5 und d4, bereit, den Vorposten mit dem Läufer anzugreifen. Der schwarze Springer stützt sich nun allein auf den Bauern f5, sodass Schwarz mehr Unterstützung braucht oder ihn gegen den Springer auf c3 tauschen muss."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Ne4 5.Qc2 f5 6.Nf3 b6": {
+    "strategy": "Bereitet ...Lb7 vor, um dem Springer auf e4 einen zweiten Verteidiger zu geben. Schwarz beantwortet die Herausforderung des Vorpostens, indem er ihn verstärkt, statt zu tauschen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.f3 d5 5.a3": {
+    "strategy": "Stellt dem Läufer die Frage. Wenn Schwarz auf c3 schlägt, erhält Weiß das Läuferpaar und Doppelbauern auf der c-Linie, und da der f-Bauer auf f3 steht, kann der Vorstoß e4 mit einem breiten Zentrum folgen. Weicht der Läufer zurück, kann Weiß das Zentrum in Ruhe aufbauen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.f3 d5 5.a3 Bxc3+": {
+    "strategy": "Schlägt den Springer und verdoppelt die weißen Bauern, wobei das Läuferpaar hergegeben wird. Das Spiel f3 trägt nichts zur Entwicklung bei, sodass Schwarz Zeit hat, die Doppelbauern anzugreifen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.f3 d5 5.a3 Bxc3+ 6.bxc3": {
+    "strategy": "Die einzige Rückeroberung. Weiß erhält das Läuferpaar und eine Bauernmasse auf c3, c4 und d4 mit Blick auf den Vorstoß des e-Bauern; die Doppelbauern und der gelockerte Königsflügel sind der Preis."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.f3 d5 5.a3 Bxc3+ 6.bxc3 c5": {
+    "strategy": "Greift d4 sofort an, und da der d-Bauer schon c4 bedrängt, geraten sowohl der c4- als auch der d4-Bauer unter Druck. Weiß muss das Zentrum schnell öffnen, denn nur offene Linien geben den Läufern Spielraum."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 b6 5.Bg5": {
+    "strategy": "Fesselt den Springer auf f6 gegen die Dame, sodass er nicht nach e4 ausweichen kann, ohne die Dame dem Läufer preiszugeben, und fügt der Fesselung auf c3 eine zweite hinzu. Schwarz muss sich entwirren, ohne Weiß freie Hand zu lassen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 b6 5.e3": {
+    "strategy": "Solide und flexibel: Er öffnet dem Läufer auf f1 den Weg nach d3 und baut das Zentrum auf. Weiß nimmt in Kauf, dass der gefesselte Springer nicht auf e4 schlagen kann, sodass sich der schwarze Springer dort festsetzen darf, und plant, ihn herauszufordern."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 b6 5.e3 Ne4": {
+    "strategy": "Setzt den Springer auf e4, wo ihn der gefesselte Springer auf c3 nicht schlagen kann, und bereitet ...Lb7 zu seiner Stützung vor. Schwarz kämpft um das zentrale Feld, bevor Weiß ein Zentrum aufgebaut hat, auf Kosten eines zweiten Springerzugs."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 b6 5.Bg5 h6": {
+    "strategy": "Fragt den Läufer auf g5 sofort, was er will: die Fesselung durch Rückzug behalten oder sich gegen den Springer tauschen. Schwarz verbraucht einen Bauernzug, erhält aber eine klare Antwort, bevor er einen Aufbau wählt, während der Läufer auf b4 den Springer c3 weiter gefesselt hält."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 b6 5.Bg5 h6 6.Bh4": {
+    "strategy": "Behält den Läufer und die Fesselung auf f6, statt auf f6 zu tauschen. Der Läufer kann durch einen Bauernvorstoß am Königsflügel herausgefordert werden, doch dieser Vorstoß schwächt den schwarzen König, sodass die Stellung gespannt bleibt."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 b6 5.Bg5 h6 6.Bh4 Bb7": {
+    "name": "Damenindische Verteidigung: Kasparow-Variante",
+    "strategy": "Vollendet das Fianchetto und behält die Fesselung des Springers c3, die das weiße Zentrum einengt. Schwarz kämpft nun mit Figuren um e4 und d5 und entscheidet später, wie er mit der Fesselung auf f6 umgeht. Eine komplexe Partie mit Chancen für beide Seiten."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 b6 5.e3 Ne4 6.Qc2": {
+    "name": "Nimzo-Indische Verteidigung: St.-Petersburg-Variante",
+    "strategy": "Greift den Springer auf e4 an, den noch nichts schützt; der gefesselte Springer auf c3 kann nicht schlagen, also übernimmt die Dame die Arbeit. Sie deckt außerdem c3 gegen den Läufer. Schwarz muss den Springer sofort stützen oder tauschen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 b6 5.e3 Ne4 6.Qc2 Bb7": {
+    "strategy": "Deckt den Springer auf e4, den die weiße Dame angreift, und stellt den Läufer im selben Zug auf die lange Diagonale. Schwarz behält den Springer auf seinem starken Zentralfeld und die Fesselung auf c3 bei, sodass Weiß Zeit darauf verwenden muss, den Springer zu vertreiben, statt sich zu entwickeln."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 Bxc3+ 5.bxc3": {
+    "strategy": "Schlägt mit dem Bauern zurück und nimmt Doppelbauern auf der c-Linie in Kauf, dafür bekommt Weiß das Läuferpaar und ein breites Bauernzentrum. Die Bauern auf c3 und c4 sind eine langfristige Schwäche, die Schwarz angreifen wird, doch Weiß gewinnt Raum im Zentrum und eine Grundlage für Spiel am Königsflügel."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 Bxc3+ 5.bxc3 b6": {
+    "strategy": "Zielt auf den Bauern c4, den wunden Punkt der weißen Doppelbauern, von der langen Diagonale oder von a6 aus. Schwarz bekämpft die Bauernmasse am Damenflügel statt des Zentrums, und Weiß muss c4 verteidigen oder mit Spiel im Zentrum und am Königsflügel eilen, bevor der Druck wirkt."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 Bxc3+ 5.bxc3 b6 6.e3": {
+    "strategy": "Solide: Der Bauer stützt d4 und gibt dem Königsläufer den Weg frei, der c4 von d3 aus verteidigen kann. Weiß nimmt die Struktur hin, Doppelbauern gegen das Läuferpaar, und baut sein Zentrum auf, solange der schwarze Druck am Damenflügel noch langsam ist."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 Bxc3+ 5.bxc3 b6 6.e3 Bb7": {
+    "strategy": "Bringt den Läufer auf die lange Diagonale, wo er den Springer auf f3 und das Feld e4 im Visier hat, das Weiß für sein großes Zentrum braucht. Schwarz erschwert Weiß das Vorrücken in der Mitte und behält den schwachen Bauern c4 als Ziel für späteres Spiel."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.g3": {
+    "strategy": "Die Hauptantwort: Weiß fianchettiert den Königsläufer und nimmt in Kauf, dass sich das Zentrum öffnet. Schlägt Schwarz auf d4 und der Springer nimmt zurück, blickt der Läufer auf g2 die lange Diagonale entlang auf den schwarzen Damenflügel und hält dort den Druck aufrecht."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.d5": {
+    "name": "Nimzo-Indische Verteidigung: Dreispringer-Variante, Kortschnoi-Variante",
+    "strategy": "Gewinnt Raum und beendet den Kampf um d4: Der Bauer auf d5 engt den schwarzen Bauern e6 ein. Weiß gibt aber die Spannung im Zentrum auf, und die Fesselung auf c3 bleibt bestehen, sodass Schwarz leichtes Spiel gegen den Bauern c4 hat, der den Vorstoß stützt."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.d5 Ne4": {
+    "name": "Nimzo-Indische Verteidigung: Dreispringer-Variante, Euwe-Variante",
+    "strategy": "Greift sofort den gefesselten Springer auf c3 an und besetzt das Feld e4, bevor Weiß ein Zentrum aufbauen kann. Weiß muss den Springer verteidigen oder tauschen, was ein Tempo kostet, und Schwarz erhält echtes Gegenspiel gegen die Bauern d5 und c4."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.d5 b5": {
+    "name": "Nimzo-Indische Verteidigung: Dreispringer-Variante, Shocron-Gambit",
+    "strategy": "Opfert sofort einen Bauern, um den Bauern c4 zu untergraben und Linien für den Damenläufer zu öffnen. Weiß kann den Bauern auf b5 oder auf e6 nehmen, sodass Schwarz zeigen muss, dass die offenen Linien es wert sind; es ist ein riskanter Versuch, keine Widerlegung von 5.d5."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.g3 cxd4": {
+    "strategy": "Löst die Spannung sofort auf und beseitigt das weiße Bauernzentrum. Nach dem Zurückschlagen entwickelt sich Schwarz frei, während der weiße Läufer, einmal auf g2, dafür auf dem Damenflügel Druck ausübt; das ist die Hauptvariante."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.g3 O-O": {
+    "strategy": "Bringt den König in Sicherheit und hält den Druck auf d4 durch den Bauern c5 aufrecht. Ein ruhiger Zug, der es Weiß überlässt, wie die Spannung im Zentrum gelöst wird, während die Läuferfesselung auf c3 bestehen bleibt."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.g3 cxd4 6.Nxd4": {
+    "strategy": "Das natürliche Zurückschlagen: Der Springer erreicht ein starkes Zentralfeld. Außerdem öffnet er die lange Diagonale für den Läufer, der nach g2 gehen wird."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.g3 cxd4 6.Nxd4 O-O": {
+    "strategy": "Rochiert, bevor sich die Stellung weiter öffnet. Da das weiße Zentrum aufgelöst ist, geht die Sicherheit des Königs vor, und Schwarz kann das Zentrum dann aus sicherer Stellung herausfordern."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 c5 5.g3 O-O 6.Bg2": {
+    "name": "Nimzo-Indische Verteidigung: Romanishin-Variante",
+    "strategy": "Vollendet das Fianchetto und macht den Weg für die Rochade frei. Weiß hält die Spannung im Zentrum aufrecht und zählt darauf, dass der Läufer auf der langen Diagonale wirkt, sobald der Springer zur Seite tritt."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qb3 c5 5.dxc5": {
+    "strategy": "Nimmt den Bauern und entfernt den, der den Läufer verteidigte, sodass die Dame ihn für einen Moment angreift. Der Mehrbauer steht aber exponiert, und wegen der schnellen Entwicklung von Schwarz muss Weiß ihn womöglich zurückgeben."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qb3 c5 5.dxc5 Nc6": {
+    "name": "Nimzo-Indische Verteidigung: Spielmann-Variante, Romanowski-Gambit",
+    "strategy": "Verteidigt den Läufer und entwickelt sich, wobei der Bauer auf c5 bereits unter dem Feuer des Läufers steht. Schwarz bietet den Bauern für Tempo an: Der Springer von f6 kann dann nach e4 gehen, wohin die weiße Dame nicht reicht."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qb3 c5 5.dxc5 Nc6 6.Nf3": {
+    "strategy": "Entwickelt den Königsspringer und behält den Mehrbauern vorerst, behandelt aber e4 nicht, das die Dame auf b3 nicht kontrolliert. Schwarz bekommt das gewünschte Zentralfeld, und der Bauer c5 ist nicht lange sicher."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qb3 c5 5.dxc5 Nc6 6.Nf3 Ne4": {
+    "strategy": "Der Sinn der Variante: Die Dame auf b3 kontrolliert e4 nicht, sodass der Springer mit Wirkung dort ankommt. Er gesellt sich zum Läufer beim Druck auf den gefesselten Springer auf c3 und greift den Bauern c5 an, den Schwarz mit Entwicklungsvorsprung zurückgewinnt."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 c5 5.dxc5": {
+    "strategy": "Fast erzwungen: Der Bauer d4 ist angegriffen und ungedeckt, also schlägt Weiß. Der Bauer auf c5 steht dem Läufer ausgesetzt, sodass Weiß bald darum kämpfen muss, ihn zu behalten."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 c5 5.dxc5 O-O": {
+    "name": "Nimzo-Indische Verteidigung: Klassische Variante, Berliner Variante, Pirc-Variante",
+    "background": "Mitte des 20. Jahrhunderts war sie einer der Gründe, weshalb 4.Dc2 kaum gespielt wurde, da das Zurückschlagen von Schwarz mit dem Springer als leichter Ausgleich galt. Edmar Mednis bemerkte, die gesamte Pirc-Variante sei auf höchstem Niveau unspielbar geworden, doch Spieler wie Kramnik waren bereit, die schwarze Seite gegen Spieler wie Kasparow zu verteidigen.",
+    "strategy": "Die Hauptvariante: Schwarz rochiert und wartet darauf, den Bauern zurückzugewinnen. Ob der Läufer oder ein Springer auf c5 zurückschlägt, bestimmt den Charakter der Partie, und der nächste weiße Zug entscheidet, welches von beiden möglich ist."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 c5 5.dxc5 Bxc3+": {
+    "name": "Nimzo-Indische Verteidigung: Klassische Variante, Berliner Variante, Steiner-Variante",
+    "strategy": "Gibt den Läufer sofort für den Springer ab, um nach dem Zurückschlagen einen Springer nach e4 zu bringen, wo er Dame und Bauer c5 zugleich angreift. Das Läuferpaar wird aufgegeben, und Weiß behält vorerst den Mehrbauern."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 c5 5.dxc5 O-O 6.a3": {
+    "strategy": "Zwingt den Läufer zur Entscheidung und nimmt das Springermanöver weg, das Schwarz leichten Ausgleich gab. Der Läufer schlägt auf c5 zurück oder nimmt den Springer, sodass Weiß das Läuferpaar behält; das ist der kritische Test der Variante."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 c5 5.dxc5 O-O 6.a3 Bxc5": {
+    "strategy": "Gewinnt den Bauern sofort zurück und stellt den Läufer auf eine aktive Diagonale. Schwarz hat den Bauern zurück und aktive Figuren als Gegenwert für das Läuferpaar, das Weiß behält."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 Nc6 5.Nf3": {
+    "name": "Nimzo-Indische Verteidigung: Klassische Variante, Zürcher Variante",
+    "strategy": "Schützt den Bauern d4, den der Springer auf c6 angreift, und entwickelt eine Figur. Weiß hält seinen Aufbau flexibel und wartet ab, wie Schwarz sein Zentrum aufbaut, wobei das Entfesseln des Springers noch in Reserve bleibt."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 Nc6 5.Nf3 d6": {
+    "name": "Nimzo-Indische Verteidigung: Klassische Variante, Milner-Barry-Variante",
+    "strategy": "Der Grundgedanke der Variante: Schwarz bereitet ein Bauernzentrum auf d6 und e5 vor, das den weißfeldrigen Läufer auf seiner Diagonale frei lässt. Schwarz hat in Kauf genommen, den dunkelfeldrigen Läufer abzugeben, und erhält dafür eine flexible, solide Struktur."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 Nc6 5.Nf3 O-O": {
+    "strategy": "Rochiert zuerst und lässt die Wahl der Bauernstruktur offen. Das verzögert den zentralen Bauernplan, der mit einem Turm oder der Dame vorbereitet werden kann, gibt Weiß aber Zeit, den Springer zu entfesseln."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 Nc6 5.Nf3 d6 6.Bd2": {
+    "name": "Nimzo-Indische Verteidigung: Klassische Variante, Zürcher Variante",
+    "strategy": "Entfesselt den Springer, sodass ein Schlagen auf c3 mit dem Läufer beantwortet werden kann und die Dame auf c2 bleiben darf. Weiß vermeidet die befürchteten Doppelbauern und ist bereit, das Zentrum zu schließen, falls Schwarz in der Mitte vorstößt."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 Nc6 5.Nf3 O-O 6.e3": {
+    "name": "Nimzo-Indische Verteidigung: Klassische Variante, Zürcher Variante",
+    "strategy": "Solide: Der Bauer deckt d4 und gibt dem Königsläufer den Weg zu ruhiger Entwicklung frei. Der Springer auf c3 bleibt gefesselt, doch wegen der Dame auf c2 kann der schwarze Läufer ihn nur um den Preis des Läuferpaars nehmen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.a3": {
+    "strategy": "Zwingt den Läufer zur Entscheidung und bereitet vor, das Schlagen mit der Dame zu beantworten. Weiß behält die beiden Läufer bei gesunder Bauernstruktur, und Schwarz muss als Ausgleich Aktivität finden; das ist die Hauptvariante des klassischen Aufbaus."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.e3": {
+    "strategy": "Ruhig und solide: Der Bauer deckt d4 und gibt dem Königsläufer den Weg zur Entwicklung frei. Weiß erzwingt die Entscheidung des Läufers nicht, sodass Schwarz die Fesselung halten oder auf c3 nehmen kann, wann er will."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.a3 Bxc3+": {
+    "strategy": "Entscheidet die Zukunft des Läufers sofort: Er tauscht sich gegen den Springer, statt sich zurückzuziehen. Weiß erhält das Läuferpaar und kann mit der Dame zurücknehmen; Schwarz, bereits rochiert, hat einen Entwicklungsvorsprung, aus dem es etwas machen kann."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.e3 d5": {
+    "strategy": "Beansprucht sofort einen Anteil am Zentrum und nimmt den weißen Figuren das Feld e4. Der Bauer greift auch c4 an, sodass Weiß entscheiden muss, ob es die Spannung auflöst. Schwarz erhält eine solide Struktur und leichte Entwicklung, dafür etwas weniger Raum."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.a3 Bxc3+ 6.Qxc3": {
+    "strategy": "Die Wiedernahme, für die 4.Dc2 gespielt wurde: Weiß behält die Bauernstruktur intakt und das Läuferpaar. Der Preis ist, dass die Dame nun schon zweimal gezogen hat und der Königsflügel unentwickelt ist, sodass Schwarz versuchen wird, das Spiel rasch zu öffnen."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.a3 Bxc3+ 6.Qxc3 b6": {
+    "name": "Nimzo-Indische Verteidigung: Klassische Variante, Keres-Verteidigung",
+    "background": "Heute die Hauptvariante der Klassischen Variante.",
+    "strategy": "Bereitet den Läufer für b7 vor, wo er zusammen mit dem Springer auf f6 e4 überwacht, das Feld, das Weiß für ein Bauernzentrum braucht. Schwarz nimmt hin, dass Weiß die beiden Läufer hat, und spielt um die Kontrolle der hellen Felder, was zu einem Manövrierkampf um e4 führt."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.a3 Bxc3+ 6.Qxc3 b5": {
+    "name": "Nimzo-Indische Verteidigung: Klassische Variante, Vitolins-Adorjan-Gambit",
+    "background": "Das Gambit wurde von Alvis Vītoliņš erfunden.",
+    "strategy": "Ein Gambit: Schwarz bietet den b-Bauern an, um den Damenflügel zu öffnen und Tempo gegen die Dame zu gewinnen, denn nach dem Schlagen kann der Springer mit Angriff auf sie nach e4 kommen. Die Kompensation beruht allein auf Aktivität; es ist also ein Versuch auf lebhaftes Spiel, kein solider Weg zum Ausgleich."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.e3 d5 6.Nf3": {
+    "strategy": "Entwickelt den Springer zum Zentrum, wo er d4 und e5 deckt, und bereitet den Abschluss der Entwicklung am Königsflügel vor. Der Springer auf c3 ist vom Läufer noch gegen den König gefesselt, daher will Weiß ohne große Verzögerung rochieren."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.e3 d5 6.Nf3 c5": {
+    "name": "Nimzo-Indische Verteidigung: Klassische Variante, Berliner Variante",
+    "strategy": "Greift sofort d4 an, den Bauern, der das weiße Zentrum zusammenhält, während der Läufer den Springer c3 gefesselt hält und der weiße König noch in der Mitte steht. Schwarz schlägt zu, bevor Weiß bereit ist, und das Zentrum wird sich schnell öffnen oder Gestalt annehmen."
   }
 }

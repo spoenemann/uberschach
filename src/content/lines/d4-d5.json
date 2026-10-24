@@ -1,5 +1,5 @@
 {
-  "about": "After 1.d4 d5 (Closed Game): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written.",
+  "about": "After 1.d4 d5 (Closed Game): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written. The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
   "positions": [
     {
       "line": "1.d4 d5",
@@ -955,6 +955,72 @@
     },
     {
       "line": "1.d4 d5 2.Bg5 Bg4"
+    },
+    {
+      "line": "1.d4 d5 2.e3 Nf6",
+      "moves": [
+        {
+          "san": "Bd3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.e3 Nf6 3.Bd3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Stonewall_Attack"
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.Nc3 e6",
+      "moves": [
+        {
+          "san": "Bf4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.Nc3 e6 3.Bf4"
+    },
+    {
+      "line": "1.d4 d5 2.Nc3 f5",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.Nc3 f5 3.e4"
+    },
+    {
+      "line": "1.d4 d5 2.Nf3 Bf5",
+      "moves": [
+        {
+          "san": "c4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.Nf3 Bf5 3.c4",
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.Nf3 Bf5 3.c4 e6",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        }
+      ]
     }
   ]
 }

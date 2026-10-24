@@ -15,5 +15,16 @@
   },
   "1.Nc3 c5 2.d4 cxd4": {
     "strategy": "Takes the offered pawn. Black trades the c-pawn for White's d-pawn, which removes White's only advanced central pawn and leaves Black a half-open c-file to play on."
+  },
+  "1.Nc3 c5 2.d4 cxd4 3.Qxd4": {
+    "strategy": "The natural recapture: the queen lands in the middle of the board and White's pawn structure stays intact. The price is an early queen that Black can harass with developing moves, so White has to play for activity."
+  },
+  "1.Nc3 c5 2.d4 cxd4 3.Qxd4 Nc6": {
+    "strategy": "Develops with tempo: the knight attacks the queen, which has to leave the centre again. Black gets a piece out while White's queen is chased, and the tempo outweighs White's lead in the middle."
+  },
+  "1.Nc3 c5 2.d4 cxd4 3.Qxd4 Nc6 4.Qh4": {
+    "name": "Dunst Opening: Novosibirsk Variation",
+    "background": "Schiller calls the line the Novosibirsk Variation.",
+    "strategy": "Moves the queen to a flank square where it eyes e7 and h7, but both are well defended, so it threatens nothing. White has now spent a second tempo on the queen while Black develops freely."
   }
 }

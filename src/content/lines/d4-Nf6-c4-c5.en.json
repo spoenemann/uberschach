@@ -17,9 +17,13 @@
     "strategy": "Takes a pawn that Black wins straight back: ...e6 opens the f8-bishop's diagonal and ...Bxc5 recovers it. White has traded the important d-pawn for Black's c-pawn and gained nothing for it."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 b5": {
+    "name": "Benko Gambit",
+    "background": "B. Argunov analysed 3...b5 in the second 1946 issue of Shakhmaty v SSSR, written in a city on the Volga, which gave the opening its Eastern European name, the Volga Gambit. Pal Benko promoted it from the late 1960s, and his name stuck in English-speaking countries.",
     "strategy": "Offers a pawn to undermine the base of White's pawn chain. Black wants half-open a- and b-files, an unblocked long diagonal for the g7-bishop and a single kingside pawn island: long-term pressure rather than a quick attack, with White having to defend an extra pawn patiently."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6": {
+    "name": "Benoni Defence: Modern Variation",
+    "background": "Max Euwe named it the \"Tal-System\" in his 1965 opening encyclopedia, in recognition of Mikhail Tal's contribution to it. Down 2-0 in the 1972 world championship match, Bobby Fischer answered Spassky's 1.d4 with it in Game 3 and won.",
     "strategy": "Strikes at the tip of the pawn chain and invites ...exd5. White then has a central pawn majority and a target on d6, Black a queenside majority, an open e-file and the dark squares. A sharp, imbalanced game in which Black plays for the win."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 d6": {
@@ -27,6 +31,8 @@
     "name": "Benoni Defence: Hromádka System"
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e5": {
+    "name": "Benoni Defence: Czech Benoni Defence",
+    "background": "Also known as the Hromádka Benoni, after Karel Hromádka.",
     "strategy": "Closes the centre instead of attacking the pawn chain: solid, but passive. White gets a lot of space and can choose which flank to open, while Black manoeuvres and waits to break with ...b5 or ...f5 once the pieces are ready."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 Ne4": {
@@ -43,5 +49,159 @@
   },
   "1.d4 Nf6 2.c4 c5 3.Nf3 cxd4": {
     "strategy": "Takes the d-pawn at once, exchanging Black's flank pawn for White's central one. The game takes a Sicilian-like character, with White's pawn on c4 where the Sicilian has one on e4, and Black gets a half-open c-file and a fair share of the centre."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5": {
+    "strategy": "Accepts the pawn, the principal answer: declining brings problems of its own, since it allows Black to expand with ...b4 or keep the tension. White takes material and must then show that the extra pawn survives Black's lasting pressure on the queenside."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.Nf3": {
+    "name": "Benko Gambit Declined: Main Line",
+    "strategy": "The main way of declining: White develops and keeps the choice of when to capture on b5. Black can expand with ...b4, but more often fianchettoes and lets play return to something close to the accepted gambit, with White's knight already developed."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.a4": {
+    "name": "Benko Gambit Declined: Sosonko Variation",
+    "strategy": "Goes after the b5 pawn at once: with a4 and c4 both attacking it, Black cannot leave it there and must resolve the tension, by taking on c4, advancing it or checking on a5. A serious try that leads to sharp play."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.Bg5": {
+    "name": "Benko Gambit Declined: Bishop Attack",
+    "strategy": "Aims at the f6 knight and develops outside the pawn chain, but ignores the gambit: the c4 pawn can simply be taken with ...bxc4, and the bishop has no strong follow-up. Playable, yet Black gets a free hand on the queenside."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.f3": {
+    "name": "Benko Gambit Declined: Pseudo-Sämisch",
+    "strategy": "Prepares e4 with a pawn and takes e4 and g4 away from Black's knight, but leaves the c4 pawn to be taken with ...bxc4 and loosens the king's diagonal. It builds a centre at the cost of time, and gains less than other ways of declining."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.Nd2": {
+    "name": "Benko Gambit Declined: Quiet Line",
+    "strategy": "The quiet way to decline: the knight guards c4 and supports e4, so if Black takes on c4 White builds a centre and recovers the pawn with the bishop. Solid, but the knight blocks the c1-bishop and Black can still gain queenside space."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.e4": {
+    "name": "Benko Gambit Declined: Hjørring Countergambit",
+    "strategy": "A countergambit that offers the e-pawn. Taking carelessly with ...b4 or ...bxc4 allows e5 with a hit on the knight, and ...Nxe4 meets Qf3, aiming at a8 along the long diagonal. Calm play by Black simply leaves White a pawn down."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.g4": {
+    "name": "Benko Gambit: Mutkin Countergambit",
+    "strategy": "Offers a pawn for a kingside attack, but nothing guards g4 and ...Nxg4 simply takes it. White is undeveloped and has given a pawn away with little to show for it before the fight has started."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6": {
+    "name": "Benko Gambit Accepted",
+    "background": "In his 1974 book, Benko used the name Benko Gambit for 3...b5 4.cxb5 a6 and Volga Gambit for 3...b5 on its own; today the two names are used interchangeably.",
+    "strategy": "The gambit proper, essentially the only move: Black offers a second pawn to open the a-file as well as the b-file. If White takes, Black cannot win both pawns back at once but gets half-open files against the queenside, an open long diagonal and a compact pawn structure."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.bxa6": {
+    "name": "Benko Gambit Accepted: Fully Accepted Variation",
+    "strategy": "Takes the second pawn: White is two pawns up for the moment and Black can win only one back at once. The question to Black is direct: are the open a- and b-files, the long diagonal and the lead in development worth the material?"
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.f3": {
+    "name": "Benko Gambit Accepted: Dlugy Variation",
+    "background": "Has been gaining in popularity in recent years, as the newer way for White to half-accept the gambit.",
+    "strategy": "Declines the second pawn and prepares e4 with the f-pawn instead of a knight, so White can build a centre quickly. The price is a loosened king's diagonal, which Black can use for a time-gaining check on a5."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.e3": {
+    "name": "Benko Gambit Accepted: Modern Variation",
+    "background": "The older way to half-accept the gambit, covered in Benko's own book and in major opening treatises since; it remains popular at all levels.",
+    "strategy": "Opens the f1-bishop so that it can recapture on b5, keeping the extra pawn in a compact set-up. Black can play against the loose d5 pawn, or keep the tension and develop with a fianchetto."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.b6": {
+    "name": "Benko Gambit Accepted: Pawn Return Variation",
+    "background": "Popular at the grandmaster level as of 2004, and considered safer for Black.",
+    "strategy": "Returns the pawn at once: Black regains it on b6 and the material is level. White avoids defending an extra pawn through the middlegame but also gives up the point of the gambit, a quiet choice that leaves Black comfortable."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.Nc3": {
+    "name": "Benko Gambit: Zaitsev System",
+    "strategy": "Develops a piece and does not grab the second pawn. After ...axb5 the knight supports a quick e4 that takes space and shores up d5, so White fights for the centre instead of the extra material. The positions are sharp and double-edged."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.bxa6 Bxa6": {
+    "strategy": "Regains a pawn and puts the bishop on the diagonal to f1: if White later plays e3 or e4, Black can take the f1-bishop and force the king to recapture, ruining castling. White also has the open a- and b-files to worry about."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.bxa6 g6": {
+    "strategy": "Fianchettoes first and keeps the choice of how to take on a6, since the knight may do it as well as the bishop. It is aimed at White's double fianchetto: after b3 and Bb2, ...Nxa6 and ...Nb4 hit d5 and a2. Slightly less direct than recapturing at once."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.Nc3 axb5": {
+    "strategy": "Recaptures and opens the a-file against the a2 pawn. White's knight can take on b5, but the usual plan is to ignore it and build a centre, which leaves Black pressure on the file and a pawn to challenge the knight."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.bxa6 Bxa6 6.Nc3": {
+    "strategy": "The natural developing move: the knight supports e4 and brings White's pieces towards the centre. White is still behind in development and has to solve the problem of the f1-bishop, which the bishop on a6 makes awkward."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.bxa6 Bxa6 6.Nc3 d6": {
+    "strategy": "A solid developing move: it controls e5, frees d7 for the queen's knight and prepares ...g6 and ...Bg7. If White plays e4, Black can take the f1-bishop and force White to castle artificially."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.bxa6 g6 6.Nc3": {
+    "strategy": "Develops the knight and avoids the double fianchetto. Black recaptures on a6 with the bishop, and the game reaches the usual structures with White still having to solve the f1-bishop and Black having pressure on the queenside files."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.bxa6 g6 6.Nc3 Bxa6": {
+    "strategy": "Takes back the pawn with the bishop, which now eyes the f1-bishop's diagonal and makes e3 or e4 awkward for White. Black has the fianchetto already in place and aims at the queenside files for compensation."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.Nc3 axb5 6.e4": {
+    "strategy": "Takes the centre instead of the b5 pawn: e4 supports d5 and gives White space, to smother Black's queenside play with a mobile pawn centre. The cost is a knight on c3 that the b-pawn can now harass."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.Nc3 axb5 6.e4 b4": {
+    "strategy": "Attacks the knight and drives it away from its support of e4 and d5. The game turns sharp: the knight has few good squares and White's centre becomes a target, but Black has to prove the move is worth the time."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 e5 4.Nc3": {
+    "strategy": "Develops the knight and prepares e4, taking central space against Black's closed centre. With the pawn on d5 secure, White can build a broad centre and later choose which wing to open."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 e5 4.Nc3 d6": {
+    "strategy": "Shores up the e5 pawn with a solid chain and keeps the centre closed. Black has little space and has to wait for the right moment to break with ...b5 or ...f5."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 e5 4.Nc3 d6 5.e4": {
+    "strategy": "Takes much more space and gives the pawn on d5 a firm base. White can now play for kingside expansion or a break on either flank, while Black's position stays passive and cramped."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 e5 4.Nc3 d6 5.e4 g6": {
+    "name": "Benoni Defence: King's Indian System",
+    "strategy": "Fianchettoes the king's bishop instead of developing it on e7. The bishop is hemmed in by its own pawn on e5, so the plan is slower than the usual development."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3": {
+    "strategy": "Develops the knight and prepares e4 to support the d5 pawn. If Black waited, White could recapture on d5 with the e-pawn and keep space without giving Black a queenside majority, so Black usually takes at once."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5": {
+    "strategy": "Takes at once so that White cannot recapture with the e-pawn later. It creates the opening's imbalance: the recapture will give White the centre and Black a queenside majority, which is Black's source of counterplay."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5": {
+    "strategy": "Recaptures with the c-pawn, as the structure demands: White has a central majority and a space advantage, Black a queenside majority and a half-open e-file. The pawn on d5 cramps Black, who must find activity."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6": {
+    "strategy": "The standard move: it stops White's d-pawn from advancing to d6 and prepares the bishop's fianchetto on g7, which brings Black control of the central dark squares. The price is a backward pawn on d6 for White to aim at."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 Bd6": {
+    "name": "Benoni Defence: Modern Variation, Snake Variation",
+    "background": "Rolf Olav Martens invented it in 1982 and named it for the sinuous movement of the bishop; the Swedish word for snake, orm, is an anagram of his initials. Normunds Miezis has been a regular exponent.",
+    "strategy": "An unusual development: the bishop goes to d6 instead of g7, keeping the d-pawn at home and sidestepping the weakness on d6. But it gives up the long diagonal that makes the usual set-up work, and White keeps an edge."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.e4": {
+    "name": "Benoni Defence: King's Pawn Line",
+    "strategy": "Builds the full centre and gains space, putting Black's set-up to the test. The price is a half-open e-file, which gives Black a target and counterplay against the pawn."
+  },
+  "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.e4 g6": {
+    "strategy": "Prepares the fianchetto of the king's bishop, which will bear down the long diagonal on White's centre and the dark squares. Black accepts a weak pawn on d6 and relies on active play and queenside pressure."
+  },
+  "1.d4 Nf6 2.c4 c5 3.e3 g6 4.Nc3": {
+    "strategy": "Brings the knight out and adds a defender to the centre. It does not ask anything of Black yet, but it keeps White's position healthy and flexible."
+  },
+  "1.d4 Nf6 2.c4 c5 3.e3 g6 4.Nc3 Bg7": {
+    "strategy": "Develops the bishop on its natural diagonal and prepares to castle. It works from a distance: behind the knight on f6 it aims at White's centre, while the c-pawn already presses on d4. Black prefers pressure on the centre to occupying it."
+  },
+  "1.d4 Nf6 2.c4 c5 3.e3 g6 4.Nc3 Bg7 5.Nf3": {
+    "strategy": "The natural developing move: the knight adds a defender to d4, which Black's c-pawn is pressing, and covers e5. White builds a compact, solid set-up and leaves it to Black whether to exchange on d4 or keep the tension."
+  },
+  "1.d4 Nf6 2.c4 c5 3.e3 g6 4.Nc3 Bg7 5.Nf3 O-O": {
+    "strategy": "Castles early, tucking the king behind the fianchettoed bishop and connecting the rooks. With the kingside settled, Black decides when to challenge d4 with the c-pawn, and White has not yet claimed more space than Black can contest."
+  },
+  "1.d4 Nf6 2.c4 c5 3.e3 g6 4.Nc3 Bg7 5.Nf3 O-O 6.Be2": {
+    "strategy": "A modest developing move that prepares castling and keeps the e3-d4 pawn chain intact. White is content with a solid set-up and does not grab space, so Black can challenge the centre at once and has no problems in the opening."
+  },
+  "1.d4 Nf6 2.c4 c5 3.e3 g6 4.Nc3 Bg7 5.Nf3 O-O 6.Be2 cxd4": {
+    "strategy": "Trades the c-pawn for White's central d-pawn. It opens the c-file for Black's rook and leaves the d4 pawn a target for the fianchettoed bishop once the f6 knight steps aside. The exchange reduces White's control of the centre."
+  },
+  "1.d4 Nf6 2.c4 c5 3.Nf3 cxd4 4.Nxd4": {
+    "strategy": "Recaptures with a developing move and puts the knight on a central post, where it eyes c6 and e6. White has traded a central pawn for a flank pawn, so the question is whether the knight can keep that post: Black can challenge it at once."
+  },
+  "1.d4 Nf6 2.c4 c5 3.Nf3 cxd4 4.Nxd4 e5": {
+    "strategy": "Kicks the knight away and takes space in the centre. The price is a hole on d6, which no black pawn guards any more, and the knight can aim for it. Black has to make up for that with quick development and activity."
+  },
+  "1.d4 Nf6 2.c4 c5 3.Nf3 cxd4 4.Nxd4 e5 5.Nb5": {
+    "strategy": "The most active retreat: the knight, protected by the c-pawn, eyes the hole on d6 and the squares c7 and a7 instead of falling back passively. It stands far from the kingside, though, and Black can strike at once in the centre."
+  },
+  "1.d4 Nf6 2.c4 c5 3.Nf3 cxd4 4.Nxd4 e5 5.Nb5 d5": {
+    "name": "English Opening: Symmetrical Variation, Anti-Benoni Variation, Kasparov-Vaganian Gambit",
+    "strategy": "Strikes in the centre at once and offers the d-pawn. White's knight is offside, and Black plays for quick development and active pieces in return for the pawn."
   }
 }

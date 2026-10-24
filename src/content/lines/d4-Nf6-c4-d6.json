@@ -1,5 +1,5 @@
 {
-  "about": "After 1.d4 Nf6 2.c4 d6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.d4 Nf6 2.c4 d6: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.d4 Nf6 2.c4 d6",
@@ -67,6 +67,129 @@
     },
     {
       "line": "1.d4 Nf6 2.c4 d6 3.Nf3 c6"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Bf5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Old_Indian_Defense"
+      ],
+      "moves": [
+        {
+          "san": "f3",
+          "rating": 5
+        },
+        {
+          "san": "g3",
+          "rating": 4
+        },
+        {
+          "san": "e4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Bf5 4.f3"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Bf5 4.g3"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Bf5 4.e4"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 e5",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "e3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 e5 4.Nf3"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 e5 4.e3",
+      "moves": [
+        {
+          "san": "Nbd7",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 e5 4.e3 Nbd7",
+      "moves": [
+        {
+          "san": "Bd3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 e5 4.e3 Nbd7 5.Bd3"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4 e5",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4 e5 5.Nf3",
+      "moves": [
+        {
+          "san": "g6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4 e5 5.Nf3 g6",
+      "moves": [
+        {
+          "san": "Be2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4 e5 5.Nf3 g6 6.Be2",
+      "moves": [
+        {
+          "san": "Bg7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4 e5 5.Nf3 g6 6.Be2 Bg7"
     }
   ]
 }

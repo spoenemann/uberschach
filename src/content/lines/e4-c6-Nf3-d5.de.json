@@ -11,5 +11,24 @@
   },
   "1.e4 c6 2.Nf3 d5 3.exd5 cxd5": {
     "strategy": "Schlägt mit dem c-Bauern zurück, wodurch ein Bauer auf d5 bleibt und die c-Linie für Schwarz geöffnet wird. Schwarz erhält einen festen Zentrumsbauern und offenes Spiel, und Weiß entscheidet, wie er den Bauern herausfordert."
+  },
+  "1.e4 c6 2.Nf3 d5 3.d3 dxe4 4.dxe4": {
+    "strategy": "Schlägt mit dem Bauern zurück und öffnet die d-Linie, sodass Schwarz sofort die Damen tauschen kann. Weiß behält einen Bauern auf e4, doch das damenlose Endspiel ist für Schwarz leicht anzunehmen, und das Spiel ist ausgeglichen."
+  },
+  "1.e4 c6 2.Nf3 d5 3.d3 dxe4 4.Ng5": {
+    "name": "Caro-Kann-Verteidigung: Dinic-Gambit",
+    "strategy": "Ein Gambit: Weiß verzichtet auf das Zurückschlagen und springt auf e4 und f7 zu, das nur der König deckt. Schwarz nimmt einen zweiten Bauern auf d3; sofern Schwarz nicht unvorsichtig Sxf7 zulässt, steht Weiß am Ende für wenig einen Bauern im Minus."
+  },
+  "1.e4 c6 2.Nf3 d5 3.d3 dxe4 4.dxe4 Qxd1+": {
+    "strategy": "Nimmt den angebotenen Tausch an und nimmt der Eröffnung die Schärfe. Der weiße König muss zurückschlagen und verliert das Rochaderecht, ist aber bei fehlenden Damen kaum gefährdet; Schwarz erreicht ein sicheres, ausgeglichenes Endspiel."
+  },
+  "1.e4 c6 2.Nf3 d5 3.d3 dxe4 4.dxe4 Qxd1+ 5.Kxd1": {
+    "name": "Caro-Kann-Verteidigung: Endspielvariante",
+    "background": "Diese Endspielvariante fand im 21. Jahrhundert verstärkte Beachtung; sie wird sowohl über 2.d3 als auch über 2.Sf3 erreicht.",
+    "strategy": "Das einzige Zurückschlagen. Der König bleibt in der Mitte und verliert das Rochaderecht, ist bei fehlenden Damen aber sicher; Weiß entwickelt sich schnell und nutzt den Bauern auf e4 für einen kleinen Raumvorteil, während Schwarz mit einfacher Entwicklung den Ausgleich anstrebt."
+  },
+  "1.e4 c6 2.Nf3 d5 3.exd5 cxd5 4.Ne5": {
+    "name": "Caro-Kann-Verteidigung: Apokalypse-Angriff",
+    "strategy": "Setzt den Springer auf ein starkes Zentrumsfeld, bevor der Läufer von Schwarz etwas auf f3 fesseln kann, und stellt kleine Fallen, etwa 4...Lf5? 5.Lb5+ mit Tempo- und Läuferpaarverlust für Schwarz. Schwarz hat gesunde Wege, den Springer herauszufordern; es ist also ein scharfer Versuch und kein Vorteil."
   }
 }

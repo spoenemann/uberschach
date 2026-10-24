@@ -101,6 +101,7 @@
     "strategy": "Develops the knight, attacks e4 and keeps the pawn structure flexible. Black plans to fianchetto the king's bishop and castle, letting White build a broad centre that ...c5 or ...e5 will undermine later. The price is a cramped game against sharp set-ups such as an early f4."
   },
   "1.e4 d6 2.d4 g6": {
+    "background": "The same position arises from 1.e4 g6 2.d4 d6, the Modern Defence, also known as the Robatsch Defence. The tenth edition of Modern Chess Openings (1965) grouped the Pirc and the Robatsch together as the Pirc–Robatsch Defence.",
     "strategy": "Prepares to fianchetto the king's bishop and castle while keeping the knight's development in reserve, so Black can still choose the set-up later. Delaying the knight puts less early pressure on e4, which lets White blunt the g7-bishop with c3 or build a broad centre. Black waits to strike at it later with ...c5 or ...e5."
   },
   "1.e4 d6 2.d4 Nd7": {
@@ -112,6 +113,7 @@
     "strategy": "Develops a piece and adds pressure on d4, but 3.d5 chases the knight: 3...Ne5 runs into 4.f4 with another tempo, and 3...Nb8 wastes time. Black can regroup and stays solid, yet White keeps an easy space advantage."
   },
   "1.e4 d6 2.d4 e5": {
+    "name": "King's Pawn Game: Maróczy Defence",
     "strategy": "Challenges the centre at once and heads for a Philidor-type pawn structure. White can instead trade everything in the centre and queens, leaving Black without castling and White a little more comfortable. Sound, but less flexible than ...Nf6."
   },
   "1.e4 d6 2.d4 c5": {
@@ -349,5 +351,26 @@
   },
   "1.e4 d6 2.f4 d5": {
     "strategy": "Claims the centre at once, the natural answer to a flank pawn move that does nothing for development. The e4 pawn is attacked and no piece defends it yet, so White must decide how to meet it, and f4 has left the king slightly exposed."
+  },
+  "1.e4 d6 2.d4 e5 3.dxe5": {
+    "strategy": "Takes the pawn and offers a queen exchange: after Black recaptures, trading queens costs Black the right to castle and gives White a small lead in development. The endgame is easy to defend, so this gives White a pull and not more."
+  },
+  "1.e4 d6 2.d4 e5 3.dxe5 Bd7": {
+    "name": "King's Pawn Game: Philidor Gambit",
+    "strategy": "Sidesteps the queen exchange, but never wins back the pawn on e5, so Black is simply a pawn down. A developed bishop and some activity are poor payment for it."
+  },
+  "1.e4 d6 2.d4 g6 3.Nc3": {
+    "strategy": "Develops and guards the e4 pawn, so White builds a broad pawn centre without hurry. Black's fianchettoed bishop will press on that centre from a distance, and White decides how to meet it: the game is a test of whether the centre is a strength or a target."
+  },
+  "1.e4 d6 2.d4 g6 3.Nc3 c6": {
+    "name": "Rat Defence: Accelerated Gurgenidze",
+    "strategy": "A waiting set-up: the pawn frees the queen's route to b6 and prepares queenside expansion, while the knight and bishop are left for later. The price is that White gets time to extend the centre before Black has challenged it."
+  },
+  "1.e4 d6 2.f4 d5 3.exd5": {
+    "strategy": "Takes the central pawn, but the extra pawn is hard to keep: Black attacks it at once with the queen and, after a developing move, with a knight too, while f4 has done little for White's development."
+  },
+  "1.e4 d6 2.f4 d5 3.exd5 Nf6": {
+    "name": "Rat Defence: Fuller Gambit",
+    "strategy": "Develops with tempo: the knight and the queen both attack the d5 pawn, which nothing defends, so White must spend a move holding it or give it back. Black prefers quick development to the immediate recapture."
   }
 }

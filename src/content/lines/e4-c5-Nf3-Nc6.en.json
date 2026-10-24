@@ -20,6 +20,7 @@
     "name": "Sicilian Defence: Portsmouth Gambit"
   },
   "1.e4 c5 2.Nf3 Nc6 3.Bb5 g6": {
+    "name": "Sicilian Defence: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation",
     "strategy": "Prepares the fianchetto: the bishop on g7 will help control the centre and make it harder for White to build a pawn centre, and the king gets a safe home. Black accepts the threat of doubled pawns for a solid game, with counterplay on the queenside or from the d4 outpost."
   },
   "1.e4 c5 2.Nf3 Nc6 3.Bb5 Nb8": {
@@ -30,6 +31,7 @@
     "strategy": "Sidesteps the bishop and avoids doubled pawns, but puts the knight on the rim, where it no longer guards d4 and e5 and can be harassed by the b-pawn. White gets a free hand in the centre against a badly placed piece."
   },
   "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4": {
+    "name": "Sicilian Defence: Open",
     "strategy": "Takes the pawn and removes White's d-pawn from the centre in return for Black's c-pawn: Black trades a wing pawn for a central one. After White recaptures, Black has two centre pawns against one, and the fight is about who profits from that."
   },
   "1.e4 c5 2.Nf3 Nc6 3.d4 e6": {
@@ -37,6 +39,210 @@
     "name": "Sicilian Defence: Franco-Sicilian Variation"
   },
   "1.e4 c5 2.Nf3 Nc6 3.Nc3 e5": {
+    "name": "Sicilian Defence: Closed, Anti-Sveshnikov Variation",
     "strategy": "Plants a pawn on e5 that guards d4, so White can no longer open the game with d4. Black gets space in the centre but leaves d5 as a hole, since neither the c5 nor the e5 pawn can cover it, and the game turns into a slow manoeuvring fight."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Bb5 g6 4.O-O": {
+    "strategy": "Brings the king to safety and the rook towards the centre. White keeps the exchange on c6 in reserve and plays it when it can double Black's pawns, so Black has to decide how to meet that threat while finishing development."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Bb5 g6 4.O-O Bg7": {
+    "strategy": "Completes the fianchetto: the bishop watches the long diagonal towards the centre and the queenside, and Black can castle once the knight is out. It also makes White's plan of a broad pawn centre harder to carry out."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Bb5 g6 4.O-O Bg7 5.Re1": {
+    "strategy": "Supports the e-pawn, so that Black's knight development does not win time against it, and keeps two plans alive: a broad pawn centre and a space-gaining advance of the e-pawn. White stays flexible and commits to a patient, strategic game."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Bb5 g6 4.O-O Bg7 5.c3": {
+    "strategy": "Prepares a pawn centre at once, but leaves e4 without a defender: Black's knight can attack it immediately, so White has to deal with that before the plan goes on."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Bb5 g6 4.O-O Bg7 5.c3 Nf6": {
+    "strategy": "Develops with a threat: the knight attacks the unprotected e4 pawn, so White's centre plan comes with a price, either a pawn offer or a detour to protect e4. The most natural way to punish the missing rook on e1."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Bb5 g6 4.O-O Bg7 5.c3 e5": {
+    "strategy": "Takes the centre with a pawn and makes it hard to build one of White's own, but blocks the bishop on g7 and leaves d5 as a hole. Unlike the natural knight move it does not hit e4, which gives White time to organise."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Bb5 g6 4.O-O Bg7 5.Re1 e5": {
+    "strategy": "Takes space in the centre and stops White from advancing the e-pawn, but blocks the bishop on g7 and leaves a hole on d5. Black gets a solid, closed structure, while White can pick the moment to take on c6."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Bb5 g6 4.O-O Bg7 5.c3 e5 6.d4": {
+    "name": "Sicilian Defence: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation, Gufeld Gambit",
+    "strategy": "A gambit: White offers the d-pawn, which Black's two pawns and knight attack, to open the centre and trade off Black's central pawns. The compensation is open lines for the pieces and the pressure of the bishop on b5, at the cost of material."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Bb5 g6 4.O-O Bg7 5.c3 Nf6 6.Qa4": {
+    "name": "Sicilian Defence: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation, Totsky Attack",
+    "strategy": "Solves the problem of e4 at once, since the queen defends it along the fourth rank, and adds a second attacker to the knight on c6 behind the bishop. White keeps the pressure on the knight while the pawn centre stays intact."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Bb5 g6 4.O-O Bg7 5.c3 Nf6 6.d4": {
+    "name": "Sicilian Defence: Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation, Lutikov Gambit",
+    "strategy": "A gambit: with e4 still unprotected, White opens the centre at once and leaves both d4 and e4 under attack. The compensation is piece activity and the threat of taking on c6, and it is risky, since White has to make up the lost material."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Bb5 g6 4.O-O Bg7 5.Re1 e5 6.b4": {
+    "name": "Sicilian Defence: Nyezhmetdinov-Rossolimo Attack, Gurgenidze Variation",
+    "strategy": "Offers the b-pawn to pull Black's c-pawn away from the centre, aiming at a broad pawn centre and open lines. It is an unusual wing gambit that costs a pawn for the sake of initiative and space, and Black can accept it calmly."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Bb5 Na5 4.b4": {
+    "name": "Sicilian Defence: Nyezhmetdinov-Rossolimo Attack, San Francisco Gambit",
+    "strategy": "Strikes at the displaced knight at once: the pawn attacks both the knight and the c5 pawn, offering a pawn to harass a piece that stands badly. The gambit costs material if Black simply takes it and defends calmly."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4": {
+    "name": "Sicilian Defence: Open",
+    "strategy": "Recaptures with the knight, which stands in the centre with open lines for all of White's pieces. White has fewer central pawns but more activity; the knights on d4 and c6 face each other, and neither side wants to trade first."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6": {
+    "name": "Sicilian Defence: Open",
+    "strategy": "The main line. The knight develops with a threat to the unprotected e4 pawn, so White has to deal with it, usually by developing the knight to c3, which also takes the c4 square away from White. Black keeps the pawn structure flexible."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6": {
+    "name": "Sicilian Defence: Accelerated Dragon",
+    "background": "Kennedy against Wyvill in 1851 is an early game with it. It became popular in the twentieth century as a way to reach a Dragon set-up while avoiding the Yugoslav Attack, its ultimate test, at the price of allowing the Maróczy Bind.",
+    "strategy": "Prepares ...Bg7, ...Nf6 and castling without spending a move on ...d6, so ...d5 stays available in one move. Black avoids the most dangerous direct attack, but accepts that White can clamp the centre with c4 and play a cramped, manoeuvring game."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 e5": {
+    "name": "Sicilian Defence: Löwenthal Variation",
+    "background": "It was first played by La Bourdonnais in his matches against McDonnell in 1834.",
+    "strategy": "Kicks the knight away at once and claims the centre. In return Black accepts a weak square on d5 and a backward d-pawn, while White's knight gets a forward post from which to attack the d6 square."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Qc7": {
+    "name": "Sicilian Defence: Flohr Variation",
+    "strategy": "Puts the queen on the c-file, where it supports the knight and prepares to meet the centre with ...e6 without committing the d-pawn. Solid and flexible, but it gives up the more active knight development and lets White build the centre as it wishes."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Qb6": {
+    "name": "Sicilian Defence: Godiva Variation",
+    "strategy": "Attacks the knight a second time (the knight on c6 already hits it) and eyes the b2 pawn, so the natural defence with the bishop drops that pawn. White simply retreats the knight, and the queen has come out early without achieving much."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 a6": {
+    "strategy": "Takes b5 away from White's knight and prepares queenside play, but does nothing for development and lets White clamp the centre. A slow, useful move rather than a challenge to the position."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 d5": {
+    "name": "Sicilian Defence: Nimzo-American Variation",
+    "strategy": "Strikes at the centre before the pieces are out. White can steer into a queenless position, or take on d5 and chase the queen with developing moves, so Black's early break costs more than it gains."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 a6 5.c4": {
+    "strategy": "Clamps down on d5 with pawns on c4 and e4. With Black's ...a6 already played, the bind is easy to establish: White gets a space advantage and makes Black's freeing ...d5 break hard to achieve, at the price of a weakened d4 square."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 a6 5.c4 e5": {
+    "name": "Sicilian Defence: O'Kelly Variation, Maróczy Bind, Geller Line",
+    "strategy": "Challenges the knight and takes space in the centre. With White's pawns on c4 and e4 holding the d5 square, Black accepts a backward d-pawn and a hole that White's bind keeps under control."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 e5 5.Nb5": {
+    "strategy": "The critical reply: the knight leaves the centre and aims at the weakened d6 square, where it would land with check and cost Black the bishop pair. White gains time and the initiative."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 e5 5.Nb5 d6": {
+    "name": "Sicilian Defence: Kalashnikov Variation",
+    "background": "In the late 1980s Black players revived 4...e5 with the intention of meeting 5.Nb5 with 5...d6; it was popularised by Evgeny Sveshnikov and is now significantly more popular than the older 5...a6.",
+    "strategy": "Closes the d6 square at once and accepts the structural trade: a backward d-pawn and a hole on d5 for the time gained chasing the stray knight on b5. Neither side has committed its knights yet, which leaves both with more choices."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.c4": {
+    "name": "Sicilian Defence: Accelerated Dragon, Maróczy Bind",
+    "background": "The first game known to feature the Maróczy Bind is Swiderski against Maróczy, Monte Carlo 1904. For several decades it was generally considered tantamount to a blunder for Black to allow it; from the 1950s new methods made it less feared.",
+    "strategy": "The most testing line: pawns on c4 and e4 clamp down on the d5 square, making Black's freeing ...d5 break difficult and giving White a space advantage. The game becomes a slow manoeuvring battle in which Black has to find counterplay."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.Nc3": {
+    "name": "Sicilian Defence: Accelerated Dragon, Modern Variation",
+    "strategy": "Develops the knight to its natural square and defends e4, keeping the position sharp. Black can reach the ...d5 break a tempo sooner because ...d6 has not been spent, so a direct attack is less dangerous for Black here, and White gives up the idea of the bind."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.Nxc6": {
+    "name": "Sicilian Defence: Accelerated Dragon, Exchange Variation",
+    "strategy": "Trades off the knight that guards d4 and e5, but after ...bxc6 the pawn on c6 supports ...d5 and the bishop is free to develop. The queen sortie that hits the h8 rook looks flashy and leaves Black comfortable."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.Be3": {
+    "strategy": "Develops the bishop to a post that defends the knight on d4 and keeps White's options open. It is flexible, but it claims no space as c4 does, so Black can complete the fianchetto in peace and prepare the freeing ...d5 break."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.Be3 Bg7": {
+    "strategy": "Completes the fianchetto: the bishop now attacks the knight on d4 together with the knight on c6, adding to the pressure on the centre. The king can castle once the knight is out, and Black stays flexible about the pawn structure."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.c4 Bg7": {
+    "name": "Sicilian Defence: Accelerated Dragon, Maróczy Bind",
+    "strategy": "The main line: completes the fianchetto and puts the bishop on the diagonal towards d4 before White has chosen where to put the pieces. Black accepts the cramp of the bind and plans to relieve it with exchanges and counterplay."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.c4 Nf6": {
+    "strategy": "Develops with an attack on e4, so White has to reinforce it by developing the knight. Black aims to trade knights on d4 to relieve the cramp of the bind, and because White's bishop is not yet on e3, the queen has to recapture."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.Nc3 Bg7": {
+    "strategy": "The essential move of the set-up: the fianchettoed bishop eyes the d4 knight and the long diagonal, and Black prepares to castle. Because the d-pawn has not moved, ...d5 can still be played in a single move, which makes White's attacking plans less dangerous than against the usual Dragon."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.Be3 Bg7 6.Be2": {
+    "strategy": "Prepares to castle and keeps the pieces compact. A quiet set-up rather than an attack, in which White waits for Black to commit."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.Be3 Bg7 6.Be2 Nf6": {
+    "strategy": "Develops with an attack on e4 and prepares to castle, after which the freeing ...d5 break is only one move away. A natural, harmonious set-up."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.c4 Bg7 6.Be3": {
+    "name": "Sicilian Defence: Accelerated Dragon, Maróczy Bind",
+    "strategy": "The main line: the bishop defends the knight on d4 and develops, so White meets a knight trade with a recapture by a minor piece rather than by the queen. White keeps the bind and plays for a lasting space advantage."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.c4 Bg7 6.Nc2": {
+    "strategy": "Retreats the knight to avoid the exchanges that would relieve Black's cramp, keeping the bind intact. It looks passive, but it keeps more pieces on the board and aims to keep Black short of space."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.c4 Bg7 6.Be3 Nf6": {
+    "strategy": "Develops with an attack on e4 and prepares castling. Black's counterplay comes from exchanges that ease the cramp and from pawn breaks on the wings, since the central ...d5 is hard to achieve."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.c4 Bg7 6.Nc2 d6": {
+    "strategy": "Solidifies the centre and gives the bishop on c8 a diagonal. With the knight retreated, Black can look for space and counterplay through pawn breaks on the wings, with a solid game."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.c4 Nf6 6.Nc3": {
+    "strategy": "Defends e4 against the knight on f6 and adds a third guard of d5, which completes the clamp on Black's centre. Black's freeing ...d5 push is all but ruled out, so Black must look for counterplay elsewhere, in a slow manoeuvring game in which White keeps the extra space."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.c4 Nf6 6.Nc3 Nxd4": {
+    "strategy": "Trades off White's best-placed piece at once to ease the cramp. With no bishop on e3 yet, only the queen can recapture, and it is drawn to d4, where Black can try to gain time against it. White keeps the space, but Black develops freely."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.Nc3 Bg7 6.Be3": {
+    "strategy": "Supports the d4 knight, which the bishop on g7 attacks, and prepares to castle long. The aggressive set-up with pawn storm on the kingside is less effective here, since Black can answer it with ...d5 in a single move; White usually needs a more careful way to place the pieces."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.Nc3 Bg7 6.Be3 Nf6": {
+    "strategy": "Brings the last kingside piece out with pressure on e4 and gets ready to castle. Black keeps the d-pawn at home so that ...d5 stays a one-move strike, and White has to place the bishop and castle with care or be hit in the centre."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3": {
+    "strategy": "Defends the e4 pawn that the knight attacks and develops the second knight, keeping the strong knight on d4. White hands Black the central question: a solid pawn structure, or a lunge that kicks the d4 knight at once."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5": {
+    "name": "Sicilian Defence: Lasker-Pelikan Variation",
+    "background": "Also called the Sveshnikov Variation, after Evgeny Sveshnikov, who pioneered it with Gennadi Timoshchenko in the 1970s. Before that it saw only occasional play: Emanuel Lasker played it once in his world championship match against Carl Schlechter, and Jorge Pelikan a few times in the 1950s. Today it is extremely popular among grandmasters and amateurs alike.",
+    "strategy": "Kicks the d4 knight and stakes a claim in the centre at once. The price is a backward d-pawn and a lasting hole on d5, which White's pieces can occupy; in return Black gets active pieces and dynamic play, and White's knight is often driven to the edge of the board."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 d6": {
+    "strategy": "Supports the centre with the d-pawn, controls e5 and keeps Black's structure flexible. Black gives up the immediate kick at the d4 knight, and with it the active play, for a sound pawn set-up in which White chooses the plan, a quiet build-up or a sharp attack."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 6.Ndb5": {
+    "strategy": "The critical reply: the knight leaves with the threat of Nd6+, after which ...Bxd6 Qxd6 leaves a white queen cramping Black's whole position. White's long-term trump is the d5 hole; the price is a knight away from the centre."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 6.Nf3": {
+    "name": "Sicilian Defence: Lasker-Pelikan Variation, Retreat Variation",
+    "strategy": "Retreats the knight and concedes that the kick on e5 was a gain of time. The f8 bishop is free to go to b4, where it pins the c3 knight and makes e4 a real target. White gets nothing for the lost time and Black equalises comfortably."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 6.Nb3": {
+    "name": "Sicilian Defence: Lasker-Pelikan Variation, Schlechter Variation",
+    "strategy": "Retreats the knight to the queenside, where it stops ...Bc5 but does little else. Black plays ...Bb4 instead, pinning the c3 knight and putting the e4 pawn under real pressure, and the knight on b3 does not help to defend it. Easy equality for Black."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 6.Nxc6": {
+    "name": "Sicilian Defence: Lasker-Pelikan Variation, Exchange Variation",
+    "strategy": "Gives up the strong knight for Black's, but the recapture ...bxc6 gives Black a central pawn that covers the d5 square, which was White's target. White has no edge and Black equalises without difficulty."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 6.Ndb5 d6": {
+    "strategy": "Shuts the d6 square against Nd6+, at the price of the concession that comes with ...e5: a backward d-pawn and a permanent hole on d5. The knight on b5 is out on a limb, and Black plays for activity and time rather than a perfect structure."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Nc3 e5 4.Bc4": {
+    "strategy": "Puts the bishop on its most active square, eyeing f7, where Black can no longer shield the diagonal with an e-pawn move. With the pawns on c5 and e5, neither covers d5, which stays a long-term outpost for White."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Nc3 e5 4.Bc4 Be7": {
+    "strategy": "A solid developing move that prepares castling and guards g5, so White's knight cannot jump there to double the attack on f7. Black keeps the structure intact and waits, accepting a modest game in which White controls d5."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Nc3 e5 4.Bc4 Be7 5.d3": {
+    "strategy": "Supports e4 with a pawn and opens the c1 bishop. White gives up the idea of opening the centre and plays a slow, safe build-up, keeping the pressure on f7 and the control of d5 in the background."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Nc3 e5 4.Bc4 Be7 5.d3 d6": {
+    "name": "Sicilian Defence: Closed, Anti-Sveshnikov Variation, with d6",
+    "strategy": "Props up the e5 pawn with a pawn and opens the c8 bishop, giving Black a compact structure with no obvious target. Black accepts a slightly passive game in which White's pieces have more room and White holds the d5 square."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Nc3 e5 4.Bc4 Be7 5.d3 Nf6": {
+    "name": "Sicilian Defence: Closed, Anti-Sveshnikov Variation, with Nf6",
+    "strategy": "Develops with a direct hit on e4, keeping the active ...d5 strike in mind instead of the slower pawn move. But the knight blocks the bishop's view of g5, so White can bring a knight there to double the pressure on f7, and Black has to be ready for it."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Nc3 e5 4.Bc4 Be7 5.d3 d6 6.Nd2": {
+    "strategy": "Clears the way for the f-pawn, so White can plan a kingside pawn break while the bishop on c4 and the knight on c3 keep d5 under control. The cost is that the knight blocks the c1 bishop for now, and the plan is slow."
+  },
+  "1.e4 c5 2.Nf3 Nc6 3.Nc3 e5 4.Bc4 Be7 5.d3 d6 6.Nd2 Bg5": {
+    "name": "Sicilian Defence: Closed, Anti-Sveshnikov Variation, Kharlov-Kramnik Line",
+    "background": "Vladimir Kramnik played 6...Bg5 as a common alternative to 6...Nf6.",
+    "strategy": "Reroutes the bishop to an active diagonal, where it controls f4 and keeps White from the natural f-pawn advance, and puts the d2 knight under pressure. Black avoids a passive game and challenges White's plan at once."
   }
 }

@@ -4,5 +4,24 @@
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6": {
     "strategy": "Parries the mate threat by guarding f7 with the knight, which develops a piece but puts it on the rim, where it becomes a target. As soon as White's d-pawn moves, the bishop on c1 eyes the knight, and the knight is a defender White can try to remove."
+  },
+  "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3": {
+    "strategy": "Opens the c1-bishop onto the knight on h6 and supports e4. The threat is concrete: Bxh6 removes the guard of f7, and if the g-pawn recaptures, Qxf7 is mate. Black has to spend a move on this, and the natural way is to hit the queen with a pawn."
+  },
+  "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6": {
+    "strategy": "Hits the queen with a pawn and cuts its line to f7, gaining a tempo. The queen has to move before the bishop can take on h6, so the threat is parried for now. The price is a kingside committed to a fianchetto, with a knight still stuck on the rim."
+  },
+  "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3": {
+    "strategy": "Steps back to a safe square and renews the threat from another side: the queen on f3 and the bishop on c4 both press f7. If the bishop takes on h6 and is recaptured, Qxf7 is mate, so Black must deal with it again. The queen has lost time, but the pressure is real."
+  },
+  "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6": {
+    "strategy": "Shuts the f-file with a pawn, so the mate threat on f7 disappears, and gives e5 a second defender. The cost is a loosened set-up: the light squares around the king are weaker. Black is solid but a little passive."
+  },
+  "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.Ne2": {
+    "strategy": "The queen has taken f3, the knight's natural square, so the knight develops via e2, which also clears the way to castle and leaves the b1-knight for c3. Quiet but sound: White gives up the quick mate and plays for ordinary development against Black's loosened set-up."
+  },
+  "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.Ne2 d5": {
+    "name": "King's Pawn Game: Wayward Queen Attack, Mellon Gambit",
+    "strategy": "Strikes at the bishop and the e-pawn at once, but it is a pawn sacrifice: White simply takes on d5, and the capture with the e-pawn also attacks the knight on c6. White keeps an extra pawn and the safer game."
   }
 }

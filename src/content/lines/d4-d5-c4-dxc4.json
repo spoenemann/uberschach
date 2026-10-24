@@ -1,5 +1,5 @@
 {
-  "about": "After 1.d4 d5 2.c4 dxc4: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.d4 d5 2.c4 dxc4: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.d4 d5 2.c4 dxc4",
@@ -131,6 +131,542 @@
     },
     {
       "line": "1.d4 d5 2.c4 dxc4 3.Nf3 b5"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 e5",
+      "moves": [
+        {
+          "san": "Bxc4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4",
+      "moves": [
+        {
+          "san": "exd4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4",
+      "moves": [
+        {
+          "san": "Qb3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.Qb3",
+      "moves": [
+        {
+          "san": "Qe7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.Qb3 Qe7",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 3
+        },
+        {
+          "san": "Nd2",
+          "rating": 3
+        },
+        {
+          "san": "a3",
+          "rating": 2
+        },
+        {
+          "san": "Kf1",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.Qb3 Qe7 6.Nf3"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.Qb3 Qe7 6.Nd2"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.Qb3 Qe7 6.a3"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.Qb3 Qe7 6.Kf1"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 Nf6",
+      "moves": [
+        {
+          "san": "Bxc4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4",
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4 e6",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4 e6 5.Nf3",
+      "moves": [
+        {
+          "san": "c5",
+          "rating": 5
+        },
+        {
+          "san": "Be7",
+          "rating": 4
+        },
+        {
+          "san": "a6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4 e6 5.Nf3 a6",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4 e6 5.Nf3 a6 6.Nc3",
+      "moves": [
+        {
+          "san": "b5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4 e6 5.Nf3 a6 6.Nc3 b5"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4 e6 5.Nf3 Be7",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4 e6 5.Nf3 Be7 6.O-O",
+      "moves": [
+        {
+          "san": "a6",
+          "rating": 5
+        },
+        {
+          "san": "O-O",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4 e6 5.Nf3 Be7 6.O-O a6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4 e6 5.Nf3 Be7 6.O-O O-O"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4 e6 5.Nf3 c5",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        },
+        {
+          "san": "Qe2",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4 e6 5.Nf3 c5 6.O-O",
+      "moves": [
+        {
+          "san": "a6",
+          "rating": 5
+        },
+        {
+          "san": "Nc6",
+          "rating": 4
+        },
+        {
+          "san": "cxd4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4 e6 5.Nf3 c5 6.Qe2",
+      "moves": [
+        {
+          "san": "a6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4 e6 5.Nf3 c5 6.O-O a6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Accepted"
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4 e6 5.Nf3 c5 6.O-O Nc6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4 e6 5.Nf3 c5 6.O-O cxd4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Accepted"
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4 e6 5.Nf3 c5 6.Qe2 a6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e4 c5",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e4 c5 4.d5",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "b5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e4 c5 4.d5 b5"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e4 c5 4.d5 Nf6",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e4 c5 4.d5 Nf6 5.Nc3",
+      "moves": [
+        {
+          "san": "b5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e4 c5 4.d5 Nf6 5.Nc3 b5"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e4 e5",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._d4/1...d5/2._c4/2...dxc4/3._e4/3...e5",
+        "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Accepted"
+      ],
+      "moves": [
+        {
+          "san": "Bxc4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.e4 e5 4.Bxc4"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 a6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Accepted"
+      ],
+      "moves": [
+        {
+          "san": "e3",
+          "rating": 5
+        },
+        {
+          "san": "e4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 a6 4.e3",
+      "moves": [
+        {
+          "san": "Bg4",
+          "rating": 4
+        },
+        {
+          "san": "b5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 a6 4.e4"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 a6 4.e3 b5"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 a6 4.e3 Bg4",
+      "moves": [
+        {
+          "san": "Bxc4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 a6 4.e3 Bg4 5.Bxc4",
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 a6 4.e3 Bg4 5.Bxc4 e6",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 a6 4.e3 Bg4 5.Bxc4 e6 6.d5"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 e6",
+      "moves": [
+        {
+          "san": "e3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 e6 4.e3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 e6 4.e3 Nf6",
+      "moves": [
+        {
+          "san": "Bxc4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Accepted"
+      ],
+      "moves": [
+        {
+          "san": "e3",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "Qa4+",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3",
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 5
+        },
+        {
+          "san": "Bg4",
+          "rating": 4
+        },
+        {
+          "san": "g6",
+          "rating": 3
+        },
+        {
+          "san": "Be6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.Nc3",
+      "moves": [
+        {
+          "san": "a6",
+          "rating": 5
+        },
+        {
+          "san": "c5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.Qa4+",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Accepted"
+      ],
+      "moves": [
+        {
+          "san": "c6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 Bg4"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 g6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 Be6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.Nc3 a6",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.Nc3 a6 5.e4"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.Nc3 c5",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.Nc3 c5 5.d5",
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.Nc3 c5 5.d5 e6",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.Nc3 c5 5.d5 e6 6.e4",
+      "moves": [
+        {
+          "san": "exd5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.Nc3 c5 5.d5 e6 6.e4 exd5"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.Qa4+ c6",
+      "moves": [
+        {
+          "san": "Qxc4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.Qa4+ c6 5.Qxc4",
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.Qa4+ c6 5.Qxc4 e6",
+      "moves": [
+        {
+          "san": "Qc2",
+          "rating": 4
+        },
+        {
+          "san": "g3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.Qa4+ c6 5.Qxc4 e6 6.Qc2"
+    },
+    {
+      "line": "1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.Qa4+ c6 5.Qxc4 e6 6.g3"
     }
   ]
 }

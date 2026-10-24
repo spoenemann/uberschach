@@ -20,5 +20,50 @@
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 Be7": {
     "strategy": "Entwickelt sich mit der Drohung eines Schachs auf h4, das Weiß das Rochaderecht kosten kann, da der König ausweichen müsste. Weiß erhält starke Zentrumskontrolle, und Schwarz rechnet damit, dass das Unbehagen des weißen Königs ihn entschädigt.",
     "name": "Wiener Gambit, mit Max-Lange-Verteidigung: Cunningham-Verteidigung"
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.Bc4": {
+    "strategy": "Richtet den Läufer auf f7 und bereitet vor, den Springer f3 zu opfern, um die f-Linie zu öffnen, falls Schwarz den g-Bauern vorschiebt. Weiß steuert auf ein scharfes, taktisches Spiel zu, bei dem mehrere Figuren auf den Königsflügel drücken, und Schwarz muss genau verteidigen."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.d4": {
+    "name": "Wiener Gambit, mit Max-Lange-Verteidigung: Pierce-Gambit",
+    "strategy": "Fordert sofort das Zentrum heraus und öffnet den Läufer c1 gegen den Bauern f4. Wenn Schwarz den g-Bauern vorschiebt, opfert Weiß meist den Springer für Aktivität; es ist also ein scharfes Bauernzentrums-Gambit und kein ruhiger Versuch, den Bauern zurückzugewinnen."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.h4": {
+    "strategy": "Untergräbt den Bauern g5 und bereitet ein Springeropfer vor, falls Schwarz weiterstürmt. Der schwarze Springer auf c6 hilft bei der Verteidigung des Königsflügels nicht, doch der Angriff muss funktionieren, denn sonst steht Weiß einfach eine Figur im Minus."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.h4 g4": {
+    "strategy": "Vertreibt den Springer, die natürliche Fortsetzung von ...g5, und gewinnt Raum. Das einzige aktive Feld des Springers ist g5, und das folgende Opfer bringt den Angriff zum schwarzen König, sodass Schwarz auf ein scharfes, forciertes Spiel gefasst sein muss."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.Bc4 g4": {
+    "strategy": "Jagt den Springer und behält den Gambitbauern auf f4, womit Weiß zum Springeropfer herausgefordert wird. Schwarz nimmt ein scharfes Spiel in Kauf, in dem das Mehrmaterial durch genaue Verteidigung eines noch nicht rochierten Königs verdient werden muss."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.d4 g4": {
+    "strategy": "Vertreibt den Springer sofort und behält den f4-Bauern. Da d4 gespielt ist, nimmt der Läufer von Weiß auf c1 diesen Bauern bereits ins Visier, sodass Schwarz Weiß zwingt, den Springer festzulegen oder zurückzuziehen. Schwarz gewinnt Raum und Zeit, auf Kosten gelockerter Bauern am Königsflügel."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.Bc4 g4 6.O-O": {
+    "name": "Wiener Partie: Hamppe-Muzio-Gambit",
+    "background": "Benannt nach dem österreichischen Theoretiker Carl Hamppe, ist es ein enger Verwandter des Muzio-Gambits im Königsgambit.",
+    "strategy": "Rochiert und lässt den Springer ziehen: Weiß gibt eine Figur für schnelle Entwicklung, einen Turm auf der f-Linie und den auf f7 gerichteten Läufer. Es ist eine scharfe Wette auf einen kraftvollen Angriff gegen den schwarzen König."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.Bc4 g4 6.O-O gxf3": {
+    "name": "Wiener Gambit, mit Max-Lange-Verteidigung: Hamppe-Muzio-Gambit",
+    "strategy": "Schlägt den Springer, die natürliche Antwort. Schwarz hat eine Figur mehr, aber der König steht noch in der Mitte, die g-Linie ist offen und die Dame und der Läufer von Weiß zielen auf den Königsflügel, sodass Schwarz Material zurückgeben oder die Entwicklung abschließen muss, bevor der Angriff durchschlägt."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.d4 g4 6.Bc4": {
+    "strategy": "Richtet den Läufer auf f7 und lässt den Springer im Schlag stehen, bereit, ihn für offene Linien gegen den König zu opfern. Mit einem Bauern auf d4 hat Weiß zudem ein starkes Zentrum und den Läufer von c1 auf f4 gerichtet, was das Opfer mehr als zu einem bloßen Angriff macht."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.d4 g4 6.Bc4 gxf3": {
+    "strategy": "Schlägt den Springer, die häufigste Antwort. Schwarz hat eine Figur mehr, aber der König hat nicht rochiert, die g-Linie ist offen und die Dame von Weiß schlägt mit Druck gegen den f4-Bauern zurück, während der Läufer f7 im Visier hat, sodass Schwarz sich rasch festigen muss."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.h4 g4 6.Ng5": {
+    "name": "Wiener Gambit, mit Max-Lange-Verteidigung: Hamppe-Allgaier-Gambit",
+    "strategy": "Der Springer kann wegen des Springers auf c6 nicht nach e5 gehen, also springt er ins schwarze Lager, vom Bauern h4 geschützt, und zielt auf f7. Der Springer von Schwarz trägt wenig zur Verteidigung bei, was den Angriff gefährlich macht, doch die Figur des Weißen ist in Gefahr, wenn er scheitert."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.h4 g4 6.Ng5 h6": {
+    "strategy": "Greift den Springer an, der keinen sicheren Rückzug hat und sich auf f7 opfern muss. Schwarz erzwingt die Entscheidung und gewinnt eine Figur für einen Bauern, muss dann aber den Angriff auf einen ins Freie gezogenen König überstehen."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.h4 g4 6.Ng5 d6": {
+    "name": "Wiener Gambit, mit Max-Lange-Verteidigung: Hamppe-Allgaier-Gambit, Alapin-Variante",
+    "strategy": "Stützt den Bauern g4 mit dem Läufer c8 und deckt e5, lässt aber den Springer auf g5 stehen, wo er weiter auf f7 drückt. Eine langsamere Antwort, als den Springer zu vertreiben, sodass Schwarz ohnehin auf das Opfer auf f7 gefasst sein muss."
   }
 }

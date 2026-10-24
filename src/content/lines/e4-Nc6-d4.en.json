@@ -30,6 +30,7 @@
     "strategy": "Resolves the tension and clears the way for the pieces. Only the queen can recapture at once, so it comes out early and can be chased with tempo, but it also hits d4 together with the knight, which keeps the game balanced."
   },
   "1.e4 Nc6 2.d4 d5 3.Nc3": {
+    "name": "Nimzowitsch Defence: Scandinavian Variation, Bogoljubow Variation",
     "strategy": "Defends e4 and pressures d5, offering a pawn in the centre: if Black takes on e4, a central pawn push attacks the c6 knight and gains time. Black has to choose between grabbing the pawn and holding the tension."
   },
   "1.e4 Nc6 2.d4 d5 3.Be3": {
@@ -42,5 +43,90 @@
   "1.e4 Nc6 2.d4 e5 3.d5": {
     "strategy": "Pushes the pawn past the attack, gaining space and driving the knight from its fine post on c6. The centre closes into a manoeuvring game where White's extra room is the asset, though it brings only a slight plus in practice, and Black's knight needs time to find a new job.",
     "name": "Nimzowitsch Defence: Kennedy Variation, Linksspringer Variation"
+  },
+  "1.e4 Nc6 2.d4 d5 3.exd5 Qxd5": {
+    "name": "Nimzowitsch Defence: Scandinavian Variation, Exchange Variation",
+    "strategy": "The natural recapture: Black wins the pawn back at once, and the queen hits d4 together with the knight, so White must defend it or give it up. The queen comes out early and can be chased by development, but Black's pieces come out easily and equality is within reach."
+  },
+  "1.e4 Nc6 2.d4 d5 3.exd5 Nb4": {
+    "name": "Nimzowitsch Defence: Scandinavian Variation, Aachen Gambit",
+    "strategy": "A gambit: the knight heads for d5, but it spends a second move on the same piece. White can challenge it with a developing bishop check, keeps the extra pawn and has the better of the game."
+  },
+  "1.e4 Nc6 2.d4 d5 3.exd5 Qxd5 4.Nc3": {
+    "name": "Nimzowitsch Defence: Scandinavian Variation, Exchange Variation, Marshall Gambit",
+    "strategy": "Gains a tempo on the queen by developing, but leaves d4 to its fate: Black can take it and White must prove that the lead in development is worth a pawn. If Black merely retreats the queen, White has gained a tempo for free. A risky, speculative choice."
+  },
+  "1.e4 Nc6 2.d4 d5 3.Nc3 dxe4": {
+    "name": "Nimzowitsch Defence: Scandinavian Variation, Bogoljubow Variation",
+    "strategy": "Takes the offered pawn and accepts the challenge. White's natural answer chases the c6 knight with a central pawn push, so the game becomes Black's extra pawn against White's time and activity, and Black aims to develop quickly and soundly."
+  },
+  "1.e4 Nc6 2.d4 d5 3.Nc3 Nf6": {
+    "name": "Nimzowitsch Defence: Scandinavian Variation, Bogoljubow Variation, Vehre Variation",
+    "strategy": "Develops and attacks e4 a second time, so White must resolve the tension at once or lose the pawn. Black gets sound development with a threat; the knight on c6 still blocks the c-pawn, so the set-up stays slightly awkward."
+  },
+  "1.e4 Nc6 2.d4 d5 3.Nc3 a6": {
+    "name": "Nimzowitsch Defence: Scandinavian Variation, Bogoljubow Variation, Brandics Gambit",
+    "strategy": "Neither takes nor supports anything and offers the d5 pawn, intending to win it back by hitting it with pieces. The a-pawn also denies White a check on b5. Offbeat and playable, but White gets the choice and the easier game."
+  },
+  "1.e4 Nc6 2.d4 d5 3.Nc3 g6": {
+    "name": "Nimzowitsch Defence: Scandinavian Variation, Bogoljubow Variation, Erben Gambit",
+    "strategy": "Ignores the tension and fianchettoes, so White can take on d5 and keep the pawn for now. Black hopes to win it back with piece play, but development lags while the extra pawn is real."
+  },
+  "1.e4 Nc6 2.d4 d5 3.Nc3 e5": {
+    "name": "Nimzowitsch Defence: Scandinavian Variation, Bogoljubow Variation, Heinola-Deppe Gambit",
+    "strategy": "Strikes at the centre at once and offers a pawn: White can capture, and Black has to hope that a pawn advance against the c3 knight and the open lines pay for it. Too optimistic against sound play."
+  },
+  "1.e4 Nc6 2.d4 d5 3.Nc3 dxe4 4.d5": {
+    "name": "Dunst Opening: Berlin Gambit",
+    "strategy": "Gains space with tempo by hitting the c6 knight, which must move. The pawn on d5 cramps Black's pieces and gives White the choice between regaining the e4 pawn at once and playing for a lead in development."
+  },
+  "1.e4 Nc6 2.d4 d5 3.Nc3 dxe4 4.d5 Ne5": {
+    "name": "Nimzowitsch Defence: Scandinavian Variation, Bogoljubow Variation, Nimzowitsch Gambit",
+    "strategy": "The main reply: the knight steps into the centre, out of the pawn's reach, and eyes f3, d3 and c4. Black keeps the extra pawn for now, while White gets time with development against the knight; Black is close to equality."
+  },
+  "1.e4 Nc6 2.d4 d5 3.Nc3 dxe4 4.d5 Nb8": {
+    "strategy": "Retreats to the starting square, which avoids any harassment of the knight but undoes the development. Black keeps the pawn, but the knight is passive, White's d5 pawn cramps Black's position, and White is happy to use the lost time."
+  },
+  "1.e4 Nc6 2.d4 d5 3.Nc3 dxe4 4.d5 Nb8 5.f3": {
+    "name": "Nimzowitsch Defence: Scandinavian Variation, Bogoljubow Variation, Richter Gambit",
+    "strategy": "Attacks the e4 pawn at once, offering to open lines for it: if Black takes, White recaptures with a developing move and has a lead in development. Black is a pawn up and solid, so White needs real activity as payment; risky but playable."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 Nxe5": {
+    "strategy": "The natural recapture: material is level and the knight stands in the centre, where White will try to harry it with tempo. Black gets a healthy pawn structure and a solid game, and accepts having to defend a little more passively."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 Bc5": {
+    "name": "Nimzowitsch Defence: Kennedy Variation, Bielefelder Gambit",
+    "strategy": "Develops with the bishop aimed at f2 instead of winning the e5 pawn back, hoping a lead in development pays for it. White can protect the pawn with a developing move and stay a clean pawn up, so Black has to prove that the activity is worth the material."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 f6": {
+    "name": "Nimzowitsch Defence: Kennedy Variation, Hammer Gambit",
+    "strategy": "Tries to undermine the e5 pawn at once, but the f-pawn leaves the diagonal in front of the king: a queen check on h5 is possible immediately. White is a pawn up, and Black's weakened king is too high a price for the attempt to win it back."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 Qh4": {
+    "name": "Nimzowitsch Defence: Kennedy Variation, Herford Gambit",
+    "strategy": "Brings the queen out early to hit the e4 pawn, which is undefended for the moment, and eyes f2. White can defend with a developing move and stay a pawn up, so Black has spent a queen move for nothing, and a queen exposed in the centre becomes a target for tempo moves."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 d6": {
+    "name": "Nimzowitsch Defence: Kennedy Variation, de Smet Gambit",
+    "strategy": "Offers the d-pawn to open lines for both bishops. White simply takes it and Black, after recapturing, is a clean pawn down with a lead in development. That is too little against a sound setup, and White has few weaknesses to attack."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 Nxe5 4.Nf3": {
+    "name": "Nimzowitsch Defence: Kennedy Variation, Paulsen Attack",
+    "strategy": "The calm, principled choice: it develops and attacks the knight on e5 at once. Knights are likely to trade, leaving White with the better development and the half-open d-file against d7, in a quiet game that offers a small, low-risk edge."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 Nxe5 4.f4": {
+    "strategy": "Kicks the knight at once and builds a strong pawn centre with a gain of tempo. White takes space and sets the agenda, but the advance weakens the e1-h4 diagonal and the king's cover, so the centre has to be defended with care."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 Nxe5 4.Nc3": {
+    "name": "Nimzowitsch Defence: Kennedy Variation, Keres Attack",
+    "strategy": "Defends e4 and develops, but does nothing about the knight on e5, which Black can settle at once, and then pin the knight on c3 with the bishop. White has a sound, flexible position and gives up the chance to play for an edge by harrying the centralised knight."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 Nxe5 4.f4 Ng6": {
+    "name": "Nimzowitsch Defence: Kennedy Variation, Main Line",
+    "strategy": "Retreats to a safe square from which the knight eyes f4 and h4. White has gained space and tempo, so Black's task is to undermine the strong pawn centre; the knight is well placed for that, though another pawn advance can drive it away again."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 Nxe5 4.f4 Nc6": {
+    "name": "Nimzowitsch Defence: Kennedy Variation, Riemann Defence",
+    "strategy": "Goes back to c6, undoing Black's two knight moves: White got the pawn centre with a free tempo. Black keeps a solid position, but has lost time, with no obvious way to challenge the centre soon."
   }
 }

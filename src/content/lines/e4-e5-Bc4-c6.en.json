@@ -8,5 +8,23 @@
   },
   "1.e4 e5 2.Bc4 c6 3.d4 d5": {
     "strategy": "The point of 2...c6: the pawn strikes at the centre, attacking the bishop and the e4 pawn while c6 and the queen defend it. Black opens the game with every piece still at home, which rewards whoever develops faster."
+  },
+  "1.e4 e5 2.Bc4 c6 3.d4 d5 4.exd5": {
+    "strategy": "Takes first, so the pawn that attacked the bishop disappears and the e-file opens. The cost is the e-pawn, which until now held the centre together with d4, and Black recaptures with a gain of time on the bishop."
+  },
+  "1.e4 e5 2.Bc4 c6 3.d4 d5 4.exd5 cxd5": {
+    "strategy": "Restores the material and attacks the bishop again, while the c-pawn leaves the file for Black's rooks. The e5 pawn is still attacked by d4 and has no defender, so the bishop will be able to move with a threat."
+  },
+  "1.e4 e5 2.Bc4 c6 3.d4 d5 4.exd5 cxd5 5.Bb5+": {
+    "strategy": "Saves the attacked bishop with check, so Black has to answer the check and the threat to take on e5 together. White gains time and trades the bishop for a piece that is not yet developed."
+  },
+  "1.e4 e5 2.Bc4 c6 3.d4 d5 4.exd5 cxd5 5.Bb5+ Bd7": {
+    "strategy": "Blocks the check with the bishop and offers a trade. The b8-knight can recapture on d7 with a developing move that also defends e5, which is why Black can afford to leave that pawn alone for the moment."
+  },
+  "1.e4 e5 2.Bc4 c6 3.d4 d5 4.exd5 cxd5 5.Bb5+ Bd7 6.Bxd7+": {
+    "strategy": "Trades White's light-squared bishop for Black's, ending the pressure the bishop has put on f7 since move two. The d4 pawn still attacks e5, so Black's recapture has to defend that pawn as well."
+  },
+  "1.e4 e5 2.Bc4 c6 3.d4 d5 4.exd5 cxd5 5.Bb5+ Bd7 6.Bxd7+ Nxd7": {
+    "strategy": "The recapture that develops a piece and defends e5 in the same move. If White takes on e5, the knight recaptures on an active square, at the price of an isolated pawn on d5 that Black must look after."
   }
 }

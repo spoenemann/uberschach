@@ -250,7 +250,7 @@ for and risks, and which replies matter.
 - `docs/design-docs/chess-notation.md` — how a move is written in the
   visitor's language and how the moves in the address are read.
 - `src/content/book.ts` — the database's format and how it is checked;
-  `src/content/lines/` the content, one JSON module per followed position
+  `src/content/lines/` the content, one JSON module per subtree of the book
   (`root.json` the initial position) with its language files beside it;
   `src/content/loader.ts` how the app fetches it; `src/content/named/` the
   named lines that decide what the book follows beyond the breadth-first

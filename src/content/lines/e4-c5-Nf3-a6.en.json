@@ -64,5 +64,31 @@
   },
   "1.e4 c5 2.Nf3 a6 3.d4 cxd4": {
     "strategy": "The standard capture: Black trades a wing pawn for White's central one, opens the c-file and ends up with a central pawn majority. The a-pawn has already taken b5 away from White's knight."
+  },
+  "1.e4 c5 2.Nf3 a6 3.c3 d5 4.exd5": {
+    "strategy": "Takes the pawn at once and makes Black justify the central break. Black must recapture or compensate for the pawn, while White aims for a broad pawn centre and keeps a small, lasting edge."
+  },
+  "1.e4 c5 2.Nf3 a6 3.c3 d5 4.exd5 Nf6": {
+    "name": "Sicilian Defence: O'Kelly Variation, Venice System, Gambit Line",
+    "strategy": "Develops with an attack on d5 instead of recapturing, a pawn offer for quick development and pressure on White's pawns. White can hold the extra pawn, and it is doubtful that Black's play fully pays for it."
+  },
+  "1.e4 c5 2.Nf3 a6 3.d4 cxd4 4.Nxd4": {
+    "strategy": "Recaptures with a centralised knight and heads into open play. Here ...a6 stops the knight from jumping to b5, so White has to find other squares for it and Black has gained a useful move."
+  },
+  "1.e4 c5 2.Nf3 a6 3.d4 cxd4 4.c3": {
+    "name": "Sicilian Defence: O'Kelly Variation, Normal System, Smith-Morra Line",
+    "strategy": "A pawn sacrifice for quick development and open lines: if Black takes, White recaptures with a piece and gets a lead in development with pressure on the c- and d-files. Playable, but Black stands a pawn up if it defends accurately."
+  },
+  "1.e4 c5 2.Nf3 a6 3.d4 cxd4 4.Qxd4": {
+    "name": "Sicilian Defence: O'Kelly Variation, Normal System, Zagorovsky Line",
+    "strategy": "Brings the queen to the centre at once, but ...Nc6 attacks it with a gain of tempo for Black. A slightly eccentric way to recapture that costs time, though the position stays playable."
+  },
+  "1.e4 c5 2.Nf3 a6 3.d4 cxd4 4.Bc4": {
+    "name": "Sicilian Defence: O'Kelly Variation, Normal System, Cortlever Gambit",
+    "strategy": "Leaves the d4 pawn alone and develops the bishop toward f7, but White is a pawn down and ...b5 gains time against the bishop. White has no more than the plain recapture offers, and the pawn remains a problem."
+  },
+  "1.e4 c5 2.Nf3 a6 3.d4 cxd4 4.Nxd4 e5": {
+    "name": "Sicilian Defence: O'Kelly Variation, Normal System, Taimanov Line",
+    "strategy": "Challenges the knight at once, using ...a6 which takes b5 away, so the knight must retreat to a less useful square. Black gains central space but leaves the d5 square without a pawn guard."
   }
 }

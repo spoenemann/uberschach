@@ -351,5 +351,43 @@
   },
   "1.c4 e5 2.e3 d6": {
     "strategy": "Supports e5 with a pawn and opens the c8 bishop. Solid, but it fixes the pawn structure early and develops no piece, so Black is less flexible than after a developing move."
+  },
+  "1.c4 e5 2.e3 d6 3.Nc3": {
+    "strategy": "Develops the knight to the centre, where with the c-pawn it controls d5 and e4. White's quiet set-up stays flexible: the next moves decide between a slow fianchetto and an active plan in the centre."
+  },
+  "1.c4 e5 2.e3 d6 3.Nc3 Nc6": {
+    "strategy": "Develops a piece and adds protection to e5 while keeping the centre intact. The knight also watches d4 and b4, discouraging an early central break by White."
+  },
+  "1.c4 e5 2.e3 d6 3.Nc3 Nc6 4.b3": {
+    "strategy": "Prepares the queen's bishop on the long diagonal. For now the knight on c3 stands in front of it, so the bishop only pressures e5 once that knight moves. A modest, flexible plan: White develops safely without challenging Black's centre."
+  },
+  "1.c4 e5 2.e3 d6 3.Nc3 Nc6 4.b3 Nf6": {
+    "name": "Amsterdam Attack",
+    "strategy": "Completes the development of both knights and takes control of e4 and d5, so White's e-pawn cannot advance for free. Black has a solid, flexible set-up with the centre held and no weaknesses."
+  },
+  "1.c4 e5 2.e3 Nf6 3.f4": {
+    "strategy": "An aggressive try that challenges e5 at once and aims for the open f-file. It loosens White's pawns and weakens the diagonal towards the king, so Black can develop calmly and reach a comfortable game. Offbeat rather than bad."
+  },
+  "1.c4 e5 2.e3 Nf6 3.f4 exf4": {
+    "strategy": "Takes the pawn. If White retakes with the e-pawn, the position opens without harm to Black; if White offers the pawn as a gambit instead, Black has to answer quick development with care."
+  },
+  "1.c4 e5 2.e3 Nf6 3.f4 exf4 4.Nf3": {
+    "name": "English Opening: King's English Variation, Kahiko-Hula Gambit",
+    "strategy": "A gambit: White refuses to retake and develops, hoping open lines and a lead in development repay the pawn. Black can keep the pawn, and White's compensation does not obviously justify the sacrifice."
+  },
+  "1.c4 e5 2.Nc3 d6 3.Nf3": {
+    "name": "English Opening: King's English Variation",
+    "strategy": "Develops the knight and tests e5 at once. Black's d6 already covers it, so there is no gain, but the knight also controls d4 and keeps every set-up open for White. A natural, flexible move that leads to a slow fight for central space."
+  },
+  "1.c4 e5 2.Nc3 d6 3.g3": {
+    "strategy": "Prepares to fianchetto the king's bishop, so that it supports the knight's grip on d5. White picks a restrained set-up against Black's solid pawn structure and builds long-term pressure rather than striking immediately."
+  },
+  "1.c4 e5 2.Nc3 d6 3.g3 c6": {
+    "name": "English Opening: King's English Variation, Keres Defence",
+    "strategy": "Covers d5 and b5, so White's pieces lose both outposts, and gives Black a compact trio of pawns on c6, d6 and e5. It is solid but slow: Black spends a move without developing a piece and leaves White the freedom to choose the plan."
+  },
+  "1.c4 e5 2.Nc3 d6 3.Nf3 Bg4": {
+    "name": "English Opening: King's English Variation, Smyslov Defence",
+    "strategy": "Develops the bishop outside the pawn chain and puts pressure on the knight that covers d4. If Black takes on f3, White recaptures with a pawn and has doubled pawns, but also the two bishops and a say over how the position opens."
   }
 }

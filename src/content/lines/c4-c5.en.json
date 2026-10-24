@@ -70,6 +70,7 @@
     "background": "So named because both players have advanced the c-pawn two squares. Alongside the Reversed Sicilian (1...e5) it is one of the broad categories of defence to the English Opening; ECO classes it as A30 to A39."
   },
   "1.c4 c5 2.Nc3 Nc6": {
+    "name": "English Opening: Symmetrical Variation, Two Knights Variation",
     "strategy": "Develops the knight to its natural square, where it joins the c5-pawn in guarding d4 and also covers e5 and b4. Black commits to no pawn structure yet: a fianchetto, a clamp on d4 or the compact Hedgehog all stay possible. The price is that White decides what kind of game it becomes."
   },
   "1.c4 c5 2.Nc3 Nf6": {
@@ -197,5 +198,71 @@
   },
   "1.c4 c5 2.d4 cxd4": {
     "strategy": "Takes the pawn on offer. White can retake at once with the queen, but then loses time as Black develops with a gain of tempo; if White does not retake, Black is simply a pawn up. Black has little to fear from this early central break."
+  },
+  "1.c4 c5 2.d4 cxd4 3.e3": {
+    "name": "Queen's Pawn Game: Liedmann Gambit",
+    "strategy": "A gambit: instead of retaking on d4 with the queen, White leaves the pawn and aims to open lines for the bishops. Black can capture again or just keep the extra pawn, and White's quicker development does not obviously make up for it."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2": {
+    "strategy": "Completes the fianchetto: from g2 the bishop presses along the long diagonal on d5 and the queenside, and it shelters the future castled king. White controls the centre from a distance instead of occupying it."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7": {
+    "strategy": "Mirrors White. The bishop on the long diagonal covers d4, the square White needs for a central break, and bears down on c3 and b2. Both sides now follow the same plan, and the game stays level and manoeuvring."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3": {
+    "strategy": "Develops the knight where it works with the c-pawn and the bishop against d5: a pawn and two pieces watch the square, so Black's ...d5 break is hard to carry out. White keeps the pawn centre flexible and decides later how to open the game."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6": {
+    "name": "English Opening: Symmetrical Variation, Ultra-Symmetrical Variation",
+    "strategy": "Black matches White move for move: the knight joins the c5 pawn and the g7 bishop in watching d4 three times, so White's d-pawn cannot break freely. The game stays symmetrical and strategic, a fight over the centre squares rather than for pawns."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3": {
+    "name": "English Opening: Symmetrical Variation, Three Knights, Fianchetto Variation",
+    "strategy": "Develops the knight to a square from which it guards d4 and attacks e5, so Black cannot take central space for free. White leaves both the pawn centre and the fianchetto set-up open and waits to see how Black commits."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.e3": {
+    "strategy": "Guards d4 and prepares to bring the knight to e2, from where it can support a later d4 break. A restrained, flexible set-up, but slower than taking space: Black gets time to build a central pawn structure."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.e3 e5": {
+    "name": "English Opening: Symmetrical Variation, Botvinnik System Reversed, with e3",
+    "strategy": "Takes space in the centre, denying White d4 and hemming in the g7 bishop for now. The cost is the d5 square: the c4 pawn, the c3 knight and the g2 bishop all watch it, and no black pawn can ever guard it again."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 Nf6": {
+    "name": "English Opening: Symmetrical Variation, Full Symmetry Line",
+    "strategy": "Completes the mirror: the knight develops and covers d5 and e4, so Black can answer any central advance. Black keeps every option open and asks whether White's extra tempo is worth anything in a position with no pawn weaknesses."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 e5": {
+    "name": "English Opening: Symmetrical Variation, Botvinnik System Reversed, with Nf3",
+    "strategy": "Claims the centre at once, the pawn held by knight and bishop. White's knight loses d4, and the g7 bishop is blocked by its own pawn. As after e3, d5 becomes a hole that Black has to live with, now with White's knight already developed."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 e5 6.O-O": {
+    "strategy": "Gets the king to safety behind the fianchetto bishop before anything happens in the centre. The rook comes to the f-file, from where the f-pawn can later strike at e5."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 e5 6.O-O d6": {
+    "name": "English Opening: Symmetrical Variation, Botvinnik System Reversed, with Nf3",
+    "strategy": "Supports e5 with a pawn and frees the knight and bishop from its defence. Black builds a solid chain but accepts a narrower position: the g7 bishop is hemmed in by its own pawn and d5 is a hole for White's pieces to use."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 e5 6.O-O Nge7": {
+    "name": "English Opening: Symmetrical Variation, Botvinnik System Reversed, with Nf3",
+    "strategy": "Develops the knight to e7, where it covers d5 and leaves the d-pawn free to advance two squares. The price is that e5 is defended by pieces only, so Black has less of a solid chain than after the pawn move but more elasticity."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 Nf6 6.O-O": {
+    "strategy": "Castles into the safety of the fianchetto, the same set-up Black has. With the kings secure, the fight moves to the centre, and the first side to find a good pawn break gets the initiative in an otherwise level position."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 Nf6 6.O-O O-O": {
+    "strategy": "Copies White. The position is now fully symmetrical, with both kings safe behind fianchettoed bishops and no weaknesses on either side, so the game is decided by who handles the manoeuvring and the central pawn breaks better."
+  },
+  "1.c4 c5 2.Nc3 Nc6 3.g3": {
+    "name": "English Opening: Symmetrical Variation, Two Knights, Fianchetto Variation",
+    "strategy": "Chooses the fianchetto over an immediate d4 break, controlling the centre from a distance with the bishop and the c3 knight. A quiet, manoeuvring game follows, in which White gives Black time to set up in the same way."
+  },
+  "1.c4 c5 2.Nc3 Nc6 3.g3 g6": {
+    "strategy": "Mirrors the fianchetto and prepares a bishop on g7 which, with the c5 pawn and the knight on c6, keeps d4 under triple watch. White cannot take the centre with the d-pawn at will."
+  },
+  "1.c4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2": {
+    "strategy": "Puts the bishop on the long diagonal, where it works with the c4 pawn and the c3 knight against d5, and prepares to castle behind it. A solid, flexible set-up in which White has not yet committed the centre."
+  },
+  "1.c4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7": {
+    "strategy": "Completes Black's fianchetto as a mirror of White's: the bishop eyes the c3 knight and the d4 square. The position is symmetrical and level, with neither side having weaknesses to attack."
   }
 }

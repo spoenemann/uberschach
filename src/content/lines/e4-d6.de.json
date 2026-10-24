@@ -101,6 +101,7 @@
     "strategy": "Entwickelt den Springer, greift e4 an und hält die Bauernstruktur flexibel. Schwarz plant, den Königsläufer zu fianchettieren und zu rochieren, und lässt Weiß ein breites Zentrum errichten, das später mit ...c5 oder ...e5 untergraben wird. Der Preis ist ein beengtes Spiel gegen scharfe Aufbauten wie ein frühes f4."
   },
   "1.e4 d6 2.d4 g6": {
+    "background": "Dieselbe Stellung entsteht auch nach 1.e4 g6 2.d4 d6, der Modernen Verteidigung, die auch Robatsch-Verteidigung heißt. Die zehnte Auflage von Modern Chess Openings (1965) fasste die Pirc- und die Robatsch-Verteidigung als Pirc-Robatsch-Verteidigung zusammen.",
     "strategy": "Bereitet vor, den Königsläufer zu fianchettieren und zu rochieren, und hält die Entwicklung des Springers in Reserve, sodass Schwarz den Aufbau noch später wählen kann. Weil der Springer aufgeschoben wird, steht e4 anfangs weniger unter Druck; Weiß kann den Läufer g7 mit c3 bremsen oder ein breites Zentrum aufbauen. Schwarz wartet, um es später mit ...c5 oder ...e5 anzugreifen."
   },
   "1.e4 d6 2.d4 Nd7": {
@@ -112,6 +113,7 @@
     "strategy": "Entwickelt eine Figur und erhöht den Druck auf d4, doch 3.d5 vertreibt den Springer: Auf 3...Se5 folgt 4.f4 mit erneutem Tempogewinn, und 3...Sb8 verliert Zeit. Schwarz kann sich umgruppieren und steht solide, doch Weiß behält mühelos einen Raumvorteil."
   },
   "1.e4 d6 2.d4 e5": {
+    "name": "Königsbauernspiel: Maróczy-Verteidigung",
     "strategy": "Fordert das Zentrum sofort heraus und steuert eine Bauernstruktur wie in der Philidor-Verteidigung an. Weiß kann stattdessen im Zentrum und dann die Damen tauschen, wonach Schwarz nicht mehr rochieren kann und Weiß etwas bequemer steht. Solide, aber weniger flexibel als ...Sf6."
   },
   "1.e4 d6 2.d4 c5": {
@@ -349,5 +351,26 @@
   },
   "1.e4 d6 2.f4 d5": {
     "strategy": "Beansprucht sofort das Zentrum, die natürliche Antwort auf einen Flügelbauernzug, der nichts für die Entwicklung tut. Der Bauer auf e4 wird angegriffen und von keiner Figur gedeckt, sodass Weiß entscheiden muss, wie er darauf reagiert, und f4 hat den König leicht entblößt."
+  },
+  "1.e4 d6 2.d4 e5 3.dxe5": {
+    "strategy": "Nimmt den Bauern und bietet den Damentausch an: Nachdem Schwarz zurückgeschlagen hat, kostet der Damentausch Schwarz das Rochaderecht und gibt Weiß einen kleinen Entwicklungsvorsprung. Das Endspiel ist leicht zu verteidigen, daher verschafft dies Weiß einen Zugvorteil und nicht mehr."
+  },
+  "1.e4 d6 2.d4 e5 3.dxe5 Bd7": {
+    "name": "Königsbauernspiel: Philidor-Gambit",
+    "strategy": "Weicht dem Damentausch aus, gewinnt den Bauern auf e5 aber nie zurück, sodass Schwarz schlicht einen Bauern im Minus steht. Ein entwickelter Läufer und etwas Aktivität sind eine schlechte Bezahlung dafür."
+  },
+  "1.e4 d6 2.d4 g6 3.Nc3": {
+    "strategy": "Entwickelt und deckt den Bauern auf e4, sodass Weiß ohne Eile ein breites Bauernzentrum aufbaut. Der fianchettierte Läufer von Schwarz wird dieses Zentrum aus der Ferne unter Druck setzen, und Weiß entscheidet, wie es dem begegnet: Die Partie prüft, ob das Zentrum eine Stärke oder ein Angriffsziel ist."
+  },
+  "1.e4 d6 2.d4 g6 3.Nc3 c6": {
+    "name": "Rat-Verteidigung: Beschleunigter Gurgenidze",
+    "strategy": "Ein abwartender Aufbau: Der Bauer schafft der Dame den Weg nach b6 und bereitet eine Expansion am Damenflügel vor, während Springer und Läufer für später bleiben. Der Preis ist, dass Weiß Zeit bekommt, das Zentrum auszubauen, bevor Schwarz es herausgefordert hat."
+  },
+  "1.e4 d6 2.f4 d5 3.exd5": {
+    "strategy": "Nimmt den zentralen Bauern, doch der Mehrbauer lässt sich schwer behaupten: Schwarz greift ihn sofort mit der Dame und nach einem Entwicklungszug auch mit einem Springer an, während f4 für die Entwicklung von Weiß wenig getan hat."
+  },
+  "1.e4 d6 2.f4 d5 3.exd5 Nf6": {
+    "name": "Rat-Verteidigung: Fuller-Gambit",
+    "strategy": "Entwickelt mit Tempo: Springer und Dame greifen beide den Bauern auf d5 an, den nichts deckt, sodass Weiß einen Zug aufwenden muss, um ihn zu halten, oder ihn zurückgeben muss. Schwarz zieht die schnelle Entwicklung dem sofortigen Zurückschlagen vor."
   }
 }

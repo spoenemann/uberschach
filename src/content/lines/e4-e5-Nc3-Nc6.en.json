@@ -35,5 +35,73 @@
   },
   "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6": {
     "strategy": "Develops the knight and hits e4, preparing a central break while keeping the bishop's best square open. A natural reply that commits Black to nothing yet."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5 4.fxe5": {
+    "strategy": "Takes the pawn that Black left en prise, and Black cannot take it back at once: after ...Nxe5, d4 attacks bishop and knight together. White is a clean pawn up, and Black must make up for it with development."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5 4.fxe5 d6": {
+    "name": "Vienna Gambit, with Max Lange Defence: Quelle Gambit",
+    "strategy": "Offers a second pawn to open the centre before White consolidates, hoping for quick development and an attack on the white king. It is a speculative gambit: White can decline it and keeps a material edge."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.Nf3": {
+    "strategy": "Guards h4, so ...Qh4+ no longer disturbs the king, and develops a piece. The most solid way to go on, and the only one that keeps rough equality; Black must now decide how to hold the extra pawn."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4": {
+    "name": "Vienna Gambit, with Max Lange Defence: Steinitz Gambit",
+    "background": "A favourite of Wilhelm Steinitz, the first World Champion, who famously held that the king is a fighting piece. Few modern players are willing to expose their king this way, and it is rarely seen today.",
+    "strategy": "Takes the centre at once and lets the black queen check on h4, so the king has to move and White gives up castling. In return White has the pawn centre and quick development, but the king stays exposed. A rare and dubious sideline."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+": {
+    "strategy": "Uses the e1-h4 diagonal that the f-pawn left open. White must move the king and lose the right to castle, or give up more material, so Black makes the white king the target of the game."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2": {
+    "name": "Vienna Gambit, with Max Lange Defence: Steinitz Gambit, Main Line",
+    "strategy": "The consistent answer: White accepts the exposed king in return for a big pawn centre and quick development with tempo on the black queen, though a king in the middle remains a target."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2 d6": {
+    "name": "Vienna Gambit, with Max Lange Defence: Steinitz Gambit, Paulsen Defence",
+    "strategy": "Solid: it opens the c8-bishop, which can pin a knight on f3 against the king once it arrives. Black keeps the extra pawn and develops against the stranded king."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2 d5": {
+    "name": "Vienna Gambit, with Max Lange Defence: Steinitz Gambit, Zukertort Defence",
+    "strategy": "Strikes at the e4 pawn at once and tries to open the centre while the white king is stuck on e2. Active, but it leaves Black's queen out on h4 while the centre opens."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2 b6": {
+    "name": "Vienna Gambit, with Max Lange Defence: Steinitz Gambit, Fraser-Minckwitz Defence",
+    "strategy": "A quiet developing move that prepares the bishop's route to the long diagonal. It does nothing against the white king, and the queen on h4 remains a target for the knight coming to f3."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2 g5": {
+    "name": "Vienna Gambit, with Max Lange Defence: Steinitz Gambit, Sörensen Defence",
+    "strategy": "Defends the f4 pawn and keeps the extra material, but loosens the kingside pawns around Black's own king. White's knight then comes out with a gain of time against the queen."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2": {
+    "strategy": "Completes the fianchetto: the bishop backs up e4 and the whole centre from a safe corner, and is ready for the long diagonal once the position opens. White is solid and keeps a flexible plan."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5": {
+    "strategy": "An offbeat attempt to attack the fianchetto with the h-pawn. It gains space on the wing but loosens Black's own kingside before the king has castled, so it gives White time."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5 5.Nf3": {
+    "strategy": "Develops the knight and covers h4 and g5, so the h-pawn can be taken if it advances. It also attacks e5, which Black's knight has to defend."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5 5.Nf3 h4": {
+    "name": "Vienna Game: Paulsen Variation, Mariotti Gambit",
+    "strategy": "A pawn offer that threatens to open the h-file, but White simply takes it: the knight captures on h4, and Black's queen cannot retake because the g3 pawn guards the square. Black gets little for the pawn."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2": {
+    "strategy": "Completes the fianchetto: the bishop supports e4 from a safe corner and stands ready for the long diagonal if the centre opens. A solid set-up that leaves White flexible."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5": {
+    "strategy": "Develops the bishop to the active diagonal, with pressure on f2 and the option of challenging e4 at once. It keeps Black's set-up flexible."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2": {
+    "strategy": "Develops the king's knight to e2 instead of f3, so the g2-bishop keeps its diagonal and the f-pawn stays free to advance. The knight covers d4 and f4 and keeps the c3-knight in place."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2 d5": {
+    "name": "Vienna Game: Paulsen Variation",
+    "strategy": "The thematic central break, striking at e4 and the long diagonal at once. It offers a pawn: White can capture, and the bishop on g2 makes recapturing on d5 awkward for Black. Sharp, but a little optimistic."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2 d5 6.exd5": {
+    "name": "Vienna Game: Paulsen Variation, Pollock Gambit",
+    "strategy": "Takes the pawn, and the recapture does not work for Black: after ...Nxd5 Nxd5, the queen cannot retake because the bishop on g2 is aimed at d5. White is a pawn up, though Black gets active piece play."
   }
 }

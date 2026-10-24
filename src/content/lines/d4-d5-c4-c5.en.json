@@ -13,6 +13,7 @@
     "strategy": "Takes the c5 pawn with the centre pawn, swapping a central pawn for a flank pawn. White is a pawn up, but gives up the d4 pawn's hold on the centre, and Black gets space and quick development as compensation. Sound enough, but it gives Black more play than the exchange on d5."
   },
   "1.d4 d5 2.c4 c5 3.cxd5 Nf6": {
+    "name": "Queen's Gambit Declined: Austrian Defence, Gusev Countergambit",
     "strategy": "Develops with an eye on d5, so the pawn can be retaken with the knight instead of the queen, which would be harassed by Nc3. A countergambit: Black offers the c5 pawn to get the pieces out, and accepts that White has the easier game for it."
   },
   "1.d4 d5 2.c4 c5 3.dxc5 d4": {
@@ -21,5 +22,82 @@
   },
   "1.d4 d5 2.c4 c5 3.Nf3 Nf6": {
     "strategy": "Develops the knight and adds a second defender of d5, so the pawn tension holds. Black keeps the choice between several set-ups, and White's pressure on the centre has to come from pieces rather than from captures."
+  },
+  "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4": {
+    "strategy": "The critical reply: the pawn defends d5 and takes space, and White offers the e-pawn rather than defend passively. If Black takes it, White wins the c5 pawn and stays a pawn up with an open centre, so Black has to generate play by force."
+  },
+  "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 Nxe4": {
+    "strategy": "Takes the offered pawn at once and centralises the knight. The cost is time: the knight has moved twice, White can take c5 next, and Black must use the lead in development to create threats."
+  },
+  "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 Nxe4 5.dxc5": {
+    "strategy": "Takes the pawn that attacked d4 and leaves White a pawn up with a strong pawn on d5. Black can win the pawn back with the knight or by checking on a5, but at the cost of more time, so White keeps the easier game."
+  },
+  "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 Nxe4 5.dxc5 Qa5+": {
+    "name": "Queen's Gambit Declined: Austrian Defence, Haberditz Variation",
+    "strategy": "Checks the king while attacking the c5 pawn, so White must answer the check before holding on to the extra pawn. The price is an early queen sortie, and White keeps the pawn on d5 and a lead in space."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3": {
+    "strategy": "A natural developing move that puts a second attacker on d5 and asks Black to settle the centre. White commits no pawn yet and keeps the option of exchanging on d5 or on c5 depending on how Black reinforces the centre."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6": {
+    "name": "Queen's Gambit Declined: Semi-Tarrasch Defence",
+    "background": "Named after Siegbert Tarrasch.",
+    "strategy": "Reinforces d5 and opens the dark-squared bishop. The idea is that Black can retake on d5 with the knight rather than a pawn, avoiding an isolated pawn, at the price of giving White the freer position."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5": {
+    "name": "Queen's Gambit Declined: Semi-Tarrasch Defence",
+    "strategy": "Resolves the tension in the centre and forces Black to decide how to recapture. White gains the freer position, and each recapture leads to a different pawn structure and plan."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.e3": {
+    "strategy": "Supports d4 and opens the light-squared bishop, keeping the tension in the centre instead of exchanging on d5. White keeps the position solid and flexible, but resolves nothing: Black decides the pawn structure by how it reacts."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.Bg5": {
+    "strategy": "Pins the f6 knight to the queen, so the main defender of d5 cannot move freely. White adds pressure on the centre with a piece, and Black has to deal with the pin before the central tension can be released."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.e3 Nc6": {
+    "strategy": "The normal reply: Black develops, adds a second attacker on d4 and keeps the position symmetrical. White now has to decide how to handle the centre: give Black an isolated pawn, accept one, or keep the symmetry and play with the extra tempo."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5": {
+    "strategy": "Retakes with the knight, the idea of the whole set-up: Black avoids an isolated pawn and puts a piece in the centre. The knight can be challenged by White's pieces and pawns, and in return for the free development Black accepts a space disadvantage."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 cxd4": {
+    "strategy": "Takes on d4 at once and opens the position for an early exchange of queens. Black accepts a fairly drawish game, and in the main line an endgame with doubled isolated pawns."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 exd5": {
+    "strategy": "Retakes with the e-pawn and accepts the isolated d5 pawn of a Tarrasch structure, but with the knight already committed on f6 Black has less freedom than in that opening. The bishop on g5 can pin the knight, so this is a rarer and less comfortable choice."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 cxd4 6.Qxd4": {
+    "strategy": "Recaptures with the queen, which stands in the centre, supports the pawn on d5 and eyes the knight on f6. The queen can be harassed by Black's pieces, but White keeps the better structure and the choice of how to simplify."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 cxd4 6.Qxd4 exd5": {
+    "strategy": "Wins the pawn back and opens the f8-bishop. Black accepts a structure with some weaknesses in exchange for a safe, quick route to simplification, and a drawish game is the normal outcome at the top level."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 exd5 6.g3": {
+    "strategy": "Puts the king's bishop on the long diagonal for long-term pressure on the isolated d5 pawn, the target the whole structure is about. White aims for a slow positional squeeze."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 exd5 6.g3 Nc6": {
+    "strategy": "Develops with pressure on d4, the standard way for Black to make up for the isolated d5 pawn: active pieces and free play. Black's game depends on using that activity before White's pressure on d5 builds."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.e4": {
+    "name": "Queen's Gambit Declined: Semi-Tarrasch Defence, Exchange Variation",
+    "background": "The most common sixth move, and the Exchange Variation it leads to has been used by Ding Liren, Anish Giri, Vladimir Kramnik and Magnus Carlsen.",
+    "strategy": "Hits the knight at once and claims the whole centre. White gets a broad pawn centre, which Black has to undermine with pieces and a pawn exchange, though the knight exchange that follows leaves White's a-pawn isolated."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.e3": {
+    "name": "Queen's Gambit Declined: Semi-Tarrasch Defence, Pillsbury Variation",
+    "strategy": "The quiet alternative: it supports d4 and opens the bishop instead of kicking the knight at once. White keeps a flexible centre and plays for slow pressure in a game with more room to play for a win than after e4."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.g3": {
+    "name": "Queen's Gambit Declined: Semi-Tarrasch Defence",
+    "strategy": "Prepares to fianchetto the king's bishop for slow pressure on the centre. Playable, but the knight on f3 blocks the bishop's diagonal, and Black's centralised knight stands well, so White gives Black time instead of making a threat."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.e4 Nxc3": {
+    "strategy": "Takes the knight before it is driven away and forces White to recapture with the b-pawn, which leaves the a-pawn isolated. White keeps the big centre, and Black will attack it with pieces and pawns for a roughly balanced game."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.e3 Nc6": {
+    "strategy": "Develops and adds a second attacker on d4, so White's pawn centre has to be defended. The centralised knight on d5 stands well, and Black's task is to turn the pressure on d4 into counterplay."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.g3 Nc6": {
+    "strategy": "Develops with pressure on d4. The centralised knight on d5 is defended by the e6 pawn and the queen, so Black can complete development comfortably while d4 is attacked by the c-pawn and the knight."
   }
 }

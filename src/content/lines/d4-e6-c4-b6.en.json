@@ -18,5 +18,42 @@
   },
   "1.d4 e6 2.c4 b6 3.e4 Bb7": {
     "strategy": "The point of the opening: the bishop attacks the e4 pawn at once, and nothing defends it yet. White must spend a move on the pawn, while Black has developed a piece and set up a long-term target."
+  },
+  "1.d4 e6 2.c4 b6 3.e4 Bb7 4.Bd3": {
+    "strategy": "The most natural defence: it protects e4 and develops a piece towards the kingside without weakening the pawns around the king. The price is that the bishop blocks the queen's view of d4, which Black can attack at once."
+  },
+  "1.d4 e6 2.c4 b6 3.e4 Bb7 4.f3": {
+    "strategy": "Props up e4 with a pawn, which keeps the pieces free and the centre intact. But it takes the f3 square from the knight and opens the e1-h4 diagonal, so ...Qh4+ forces a loosening g3."
+  },
+  "1.d4 e6 2.c4 b6 3.e4 Bb7 4.Bd3 Nc6": {
+    "name": "English Defence: Perrin Variation",
+    "strategy": "Hits the d4 pawn, which the bishop has left without the queen's protection. Black also prepares to trade the knight for the bishop that guards e4, and so to weaken White's hold on the centre."
+  },
+  "1.d4 e6 2.c4 b6 3.e4 Bb7 4.f3 f5": {
+    "strategy": "Challenges the e4 pawn right away, but with f3 behind it White can take on f5 and Black's kingside is the one that is left open. A thematic strike that needs more preparation to be sound."
+  },
+  "1.d4 e6 2.c4 b6 3.e4 Bb7 4.f3 f5 5.exf5": {
+    "strategy": "Opens the centre by taking the pawn. The pawn on f3 keeps the bishop's long diagonal shut, but it leaves the e1-h4 diagonal open, so White has to be ready to answer ...Qh4+ with g3."
+  },
+  "1.d4 e6 2.c4 b6 3.e4 Bb7 4.f3 f5 5.exf5 Nh6": {
+    "name": "English Defence: Poli Gambit",
+    "strategy": "Attacks f5 a second time, but White can ignore the threat: Bxh6 Qh4+ g3 Qxh6 fxe6 leaves White a clean pawn up. Black risks a pawn and puts a knight on the rim to get the pawn back."
+  },
+  "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4": {
+    "strategy": "Builds the broad pawn centre with the knight already out to guard e4, the set-up the English Defence invites. White gets space and a free hand in the middlegame, but the centre pawns become targets for the bishop on b7 and the pawn thrust ...f5."
+  },
+  "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4 f5": {
+    "strategy": "Attacks e4 a second time, with the bishop and the f-pawn against the knight alone, so White has to react at once. The cost is a loosened kingside: once the pawns are exchanged, the diagonal to Black's own king is open."
+  },
+  "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4 f5 5.exf5": {
+    "strategy": "Takes the pawn and opens the centre. The bishop's diagonal now runs right up to g2, which the bishop on f1 guards, and White keeps its pawns on d4 and c4. If Black does not recapture, White stays a pawn up."
+  },
+  "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4 f5 5.d5": {
+    "name": "English Defence: Hartlaub Gambit Declined",
+    "strategy": "Declines the pawn and answers in the centre instead: the pawn hits e6 and stands in front of the bishop on b7, which now bites on a well-guarded pawn. White keeps its space and avoids the complications of an open centre."
+  },
+  "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4 f5 5.exf5 Nf6": {
+    "name": "English Defence: Hartlaub Gambit Accepted",
+    "strategy": "Leaves the pawn on f5 and develops instead, as a gambit. The knight covers h5, keeping the queen check off, and controls e4 and d5, while the open diagonal runs from the bishop to g2. Black plays for activity against an extra pawn that White may keep."
   }
 }

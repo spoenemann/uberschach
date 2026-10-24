@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 g6 2.d4 Bg7: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 g6 2.d4 Bg7: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 g6 2.d4 Bg7",
@@ -124,6 +124,344 @@
     },
     {
       "line": "1.e4 g6 2.d4 Bg7 3.Nf3 b6"
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.f4 c5",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "c3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.f4 c5 4.Nf3",
+      "moves": [
+        {
+          "san": "Qa5+",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.f4 c5 4.c3",
+      "moves": [
+        {
+          "san": "Qa5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.f4 c5 4.c3 Qa5"
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.f4 c5 4.Nf3 Qa5+"
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.g3 c5",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "dxc5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.g3 c5 4.Nf3",
+      "moves": [
+        {
+          "san": "Qa5+",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.g3 c5 4.dxc5",
+      "moves": [
+        {
+          "san": "Qa5+",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.g3 c5 4.dxc5 Qa5+"
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.g3 c5 4.Nf3 Qa5+"
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lawrence_Day"
+      ],
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "Be3",
+          "rating": 4
+        },
+        {
+          "san": "d5",
+          "rating": 4
+        },
+        {
+          "san": "dxc5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.Be3"
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.d5",
+      "moves": [
+        {
+          "san": "Bxc3+",
+          "rating": 4
+        },
+        {
+          "san": "Qa5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.dxc5",
+      "moves": [
+        {
+          "san": "Bxc3+",
+          "rating": 4
+        },
+        {
+          "san": "Qa5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.d5 Qa5"
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.dxc5 Qa5"
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.d5 Bxc3+",
+      "moves": [
+        {
+          "san": "bxc3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.d5 Bxc3+ 5.bxc3",
+      "moves": [
+        {
+          "san": "Qa5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.d5 Bxc3+ 5.bxc3 Qa5"
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.dxc5 Bxc3+",
+      "moves": [
+        {
+          "san": "bxc3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.dxc5 Bxc3+ 5.bxc3",
+      "moves": [
+        {
+          "san": "Qa5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.dxc5 Bxc3+ 5.bxc3 Qa5"
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c6",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "f4",
+          "rating": 4
+        },
+        {
+          "san": "Bc4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.f4",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Bc4",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Bc4 d6",
+      "moves": [
+        {
+          "san": "Qe2",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Bc4 d6 5.Qe2"
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.f4 d5",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.f4 d5 5.e5",
+      "moves": [
+        {
+          "san": "h5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.f4 d5 5.e5 h5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bukhuti_Gurgenidze"
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6",
+      "moves": [
+        {
+          "san": "Bg5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6 5.Bg5",
+      "moves": [
+        {
+          "san": "Qb6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6 5.Bg5 Qb6",
+      "moves": [
+        {
+          "san": "Qd2",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6 5.Bg5 Qb6 6.Qd2",
+      "moves": [
+        {
+          "san": "Qxb2",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6 5.Bg5 Qb6 6.Qd2 Qxb2"
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 d6",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...g6/2._d4/2...Bg7/3._Nc3"
+      ],
+      "moves": [
+        {
+          "san": "f4",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.f4"
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Nf3",
+      "moves": [
+        {
+          "san": "c6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nf3 d6",
+      "moves": [
+        {
+          "san": "c4",
+          "rating": 4
+        },
+        {
+          "san": "c3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nf3 d6 4.c3"
     }
   ]
 }

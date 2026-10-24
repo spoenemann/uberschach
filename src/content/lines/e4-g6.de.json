@@ -103,6 +103,8 @@
     "strategy": "Kontrolliert e5 und c5 und hält mehrere Aufbauten offen, mit dem Läufer auf der langen Diagonale oder dem Springer auf f6. Der Bauer stützt außerdem ein späteres ...e5 oder ...c5, doch bis dahin hat Weiß im Zentrum freie Hand."
   },
   "1.e4 g6 2.d4 Nf6": {
+    "name": "Moderne Verteidigung: Norwegische Verteidigung",
+    "background": "Auch Nordsee-Variante genannt. Magnus Carlsen nennt die Fortsetzung 3.e5 Sh5 die „Norwegische Ratte“, und er spielte sie mit 4.Le2 d6 gegen Michael Adams bei der Schacholympiade 2010 in Chanty-Mansijsk.",
     "strategy": "Greift e4 sofort an und steuert die Pirc-Ufimzew-Verteidigung an, wenn Weiß es einfach deckt. Der Vorstoß nach e5 gewinnt Raum, treibt den Springer aber an den Rand, von wo Schwarz e5 mit ...d6 zu untergraben hofft. Ein riskanter, ungewöhnlicher Weg."
   },
   "1.e4 g6 2.d4 c6": {
@@ -354,5 +356,74 @@
   },
   "1.e4 g6 2.Bc4 Bg7": {
     "strategy": "Die natürliche Antwort: Der fianchettierte Läufer drückt auf das Zentrum und den Bauern b2, und Schwarz ignoriert den frühen Läufer auf c4. Dieser Läufer ist nur gefährlich, wenn die Dame gegen f7 hinzukommt, was ein Bauernzug abwehrt."
+  },
+  "1.e4 g6 2.Bc4 Bg7 3.Qf3": {
+    "strategy": "Verdoppelt den Angriff auf f7 und droht Dxf7 matt, eine schnelle Falle für Unvorsichtige. Gegen sorgfältige Verteidigung bindet es die Dame, bevor die Springer entwickelt sind, und lässt Weiß wenig Fortsetzung."
+  },
+  "1.e4 g6 2.Bc4 Bg7 3.Qf3 e6": {
+    "strategy": "Wehrt die Drohung auf f7 ab, indem ein Bauer, den der f-Bauer deckt, die Diagonale des Läufers c4 blockiert. Schwarz gibt ein paar weiße Felder auf, nimmt aber der frühen Dame und dem Läufer des Weißen die Schärfe, da sie nichts anzugreifen haben."
+  },
+  "1.e4 g6 2.Bc4 Bg7 3.Qf3 e6 4.d4": {
+    "strategy": "Bietet den d-Bauern für schnelle Entwicklung und ein offenes Zentrum an. Schlägt Schwarz mit dem Läufer, greift ihn noch nichts an, sodass Weiß einen Entwicklungszug braucht, um ihn zu vertreiben; der Ausgleich ist dürftig."
+  },
+  "1.e4 g6 2.Bc4 Bg7 3.Qf3 e6 4.d4 Bxd4": {
+    "name": "Moderne Verteidigung: Läuferangriff, Monkey's Bum",
+    "background": "Die Partie von Nigel Povah als Weiß gegen Shimon Kagan in Birmingham 1977 ist das Beispiel dafür, wie dürftig der Ausgleich des Weißen für den Bauern in der Praxis ausfällt.",
+    "strategy": "Nimmt den Bauern und stellt den Läufer auf ein aktives Zentrumsfeld, wo er b2 und f2 unter Druck setzt, die beide gedeckt sind. Schwarz steht einen Bauern vorn, und sobald Weiß einen Zug aufwendet, um den Läufer zu vertreiben, kann dieser sich zurückziehen und das Material behalten."
+  },
+  "1.e4 g6 2.d4 Nf6 3.e5": {
+    "strategy": "Jagt den Springer sofort und gewinnt mit Tempo Raum. Der Bauer auf e5 beengt Schwarz, ist aber früh vorgerückt und wird zu einem Ziel, das Schwarz untergraben wird."
+  },
+  "1.e4 g6 2.d4 Nf6 3.e5 Nh5": {
+    "strategy": "Der Springer geht an den Rand statt nach d5, wo c4 ihn erneut angreifen würde. Schwarz verliert Zeit, doch der weiße e-Bauer ist überdehnt, und der Springer hat Felder wie f4 und g3 im Blick. Eine provokante Art, Weiß nach vorn zu locken."
+  },
+  "1.e4 g6 2.d4 Nf6 3.e5 Nh5 4.Be2": {
+    "strategy": "Entwickelt mit Angriff auf den Randspringer und droht Lxh5, was nach dem Zurückschlagen Schwarz Doppelbauern bescheren würde. Schwarz muss sich zurückziehen oder einen Bauern für Aktivität zahlen, und Weiß erhält in beiden Fällen einen nützlichen Zug."
+  },
+  "1.e4 g6 2.d4 Nf6 3.e5 Nh5 4.Be2 d6": {
+    "name": "Moderne Verteidigung: Norwegische Verteidigung, Norwegisches Gambit",
+    "strategy": "Ignoriert die Drohung und greift den Bauern auf e5 an. Nimmt Weiß den Springer, öffnet das Zurückschlagen die g-Linie, und diese Linie mit einem Läufer, der nach g7 kommt, ist die Kompensation von Schwarz für den Bauern. Ein zweischneidiges Gambit, das von beiden Seiten genaues Spiel verlangt."
+  },
+  "1.e4 g6 2.d4 Nh6 3.c4": {
+    "strategy": "Baut ein Dreibauernzentrum auf, während der schwarze Springer unglücklich am Rand steht. Schwarz hat keine schnelle Möglichkeit, es herauszufordern, und Weiß kann lange auf dem Raumvorteil aufbauen."
+  },
+  "1.e4 g6 2.d4 Nh6 3.Nc3": {
+    "strategy": "Ein natürlicher Entwicklungszug, der einen späteren Vorstoß im Zentrum unterstützt und den c-Bauern flexibel hält. Weiß entwickelt sich, während der schwarze Springer am Rand schlecht steht."
+  },
+  "1.e4 g6 2.d4 Nh6 3.Nc3 f5": {
+    "strategy": "Greift e4 an und gibt dem Springer auf h6 eine Aufgabe, lockert aber den Königsflügel und lädt Weiß ein, den Springer abzutauschen oder auf f5 zu schlagen. Ein ehrgeiziger Zug, der riskanter als nützlich ist."
+  },
+  "1.e4 g6 2.d4 Nh6 3.c4 f6": {
+    "name": "Adams-Verteidigung",
+    "strategy": "Gibt dem Springer das Feld f7 und hält e5, aber der Bauer sperrt die lange Diagonale, auf der der Läufer stehen würde, und lockert die Diagonale a2-g8. Beim Dreibauernzentrum von Weiß bleibt viel Zeit, sich auszudehnen."
+  },
+  "1.e4 g6 2.d4 Nh6 3.Nc3 f5 4.Bxh6": {
+    "strategy": "Tauscht den Läufer gegen den Springer, der f5 stützt. Das einzige Zurückschlagen zieht den Läufer von f8 nach h6, weg von der langen Diagonale, die er gern hätte, und Weiß kann dennoch den Bauern auf f5 nehmen."
+  },
+  "1.e4 g6 2.d4 Nh6 3.Nc3 f5 4.Bxh6 Bxh6": {
+    "strategy": "Das einzige Zurückschlagen. Der Läufer erhält immerhin eine aktive Diagonale, die auf d2 und c1 zeigt, aber der Plan eines Fianchettos auf g7 ist dahin, und Weiß kann den Bauern auf f5 nehmen."
+  },
+  "1.e4 g6 2.d4 Nh6 3.Nc3 f5 4.Bxh6 Bxh6 5.exf5": {
+    "strategy": "Nimmt den Bauern, den Schwarz angeboten hat. Weiß ist einen Bauern voraus, und der Bauer auf f5 greift g6 an, sodass Schwarz dafür eine Entschädigung finden muss."
+  },
+  "1.e4 g6 2.d4 Nh6 3.Nc3 f5 4.Bxh6 Bxh6 5.exf5 O-O": {
+    "name": "Moderne Verteidigung: Masur-Gambit",
+    "strategy": "Gibt den Bauern für schnelle Königssicherheit und einen Läufer, der d2 und c1 im Auge behält, was der weißen Dame und der langen Rochade zu schaffen macht. Mehr als das gibt es für den Bauern kaum."
+  },
+  "1.e4 g6 2.Nc3 Bg7 3.f4": {
+    "strategy": "Gewinnt Raum am Königsflügel und bereitet einen schnellen Vorstoß im Zentrum und einen Angriff vor. Er bindet den f-Bauern früh und lockert die Diagonale e1-h4, sodass Weiß auf den eigenen König achten muss."
+  },
+  "1.e4 g6 2.Nc3 Bg7 3.f4 c5": {
+    "strategy": "Erhebt Anspruch auf d4, bevor Weiß dort einen Bauern hat; der Läufer auf g7 greift bereits den Springer auf c3 an. Schwarz kämpft von der Flanke aus um den Damenflügel und das Zentrum, statt abzuwarten."
+  },
+  "1.e4 g6 2.Nc3 Bg7 3.f4 c5 4.Nf3": {
+    "strategy": "Entwickelt den Springer und deckt d4 und e5, die Felder, um die der c-Bauer und der Läufer von Schwarz kämpfen. Weiß hält das Zentrum solide, während f- und e-Bauer Raum für den späteren Angriff halten."
+  },
+  "1.e4 g6 2.Nc3 Bg7 3.f4 c5 4.Nf3 Qa5": {
+    "name": "Pterodactylus-Verteidigung: Österreichische Variante, Grand-Prix-Pterodactylus",
+    "strategy": "Ein früher Damenausflug, der Dame und Läufer auf g7 beide auf den Springer c3 richtet, den die Bauern b2 und d2 halten, und außerdem a2 im Blick hat. Schwarz ergreift die Initiative am Damenflügel, doch die Dame kann Zeit verlieren, wenn Weiß sie angreift."
+  },
+  "1.e4 g6 2.Nf3 Bg7 3.d4": {
+    "strategy": "Nimmt das Zentrum, nun da der Springer entwickelt ist, und erreicht durch eine andere Zugfolge dieselbe Stellung wie nach 2.d4 Lg7 3.Sf3. Weiß hat hier keine zusätzlichen Probleme, und Schwarz steht vor denselben Entscheidungen."
   }
 }

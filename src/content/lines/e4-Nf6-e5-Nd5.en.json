@@ -34,6 +34,7 @@
     "name": "Alekhine's Defence: The Squirrel"
   },
   "1.e4 Nf6 2.e5 Nd5 3.d4 d6": {
+    "name": "Alekhine's Defence",
     "strategy": "Hits the head of the pawn chain at once, the standard way to challenge the space White has taken, and opens the c8-bishop. White now has to decide how to meet ...dxe5, and that choice sets the character of the game."
   },
   "1.e4 Nf6 2.e5 Nd5 3.d4 b5": {
@@ -42,5 +43,188 @@
   },
   "1.e4 Nf6 2.e5 Nd5": {
     "name": "Alekhine's Defence: Normal Variation"
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.Bc4 Nb6 4.Bb3": {
+    "strategy": "Keeps the bishop on the diagonal aimed at f7 and out of the knight's reach. But the bishop has few safe squares there: the knight covers a4, c4 and d5, Black's pawns cover e6, and its own pawns block a2 and c2, so a pawn attack on it needs care."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.Bc4 Nb6 4.Bb3 c5": {
+    "strategy": "Threatens ...c4, which would trap the bishop: the knight covers a4 and c4, and the white pawns on a2 and c2 take away the other squares. It also stakes a claim on d4 and starts queenside play for Black."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.Bc4 Nb6 4.Bb3 c5 5.d3": {
+    "name": "Alekhine's Defence: Kmoch Variation",
+    "strategy": "Guards c4, so that ...c4 can be met by a pawn capture and the bishop is safe. The price is a slower, modest set-up: the d-pawn no longer stakes out the centre, and White settles for solid development instead of space."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.c5": {
+    "name": "Alekhine's Defence: Two Pawns Attack, Lasker Variation",
+    "strategy": "Chases the knight a second time and grabs more space, but gives up control of d5, where the knight happily returns. The pawns on c5 and e5 stretch White's position, and they must prove strong rather than overextended."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.b3": {
+    "name": "Alekhine's Defence: Steiner Variation",
+    "strategy": "Supports the c4 pawn, which frees the f1-bishop from guarding it, and prepares to put a bishop on the long diagonal, where it also backs up e5. A flexible but slow set-up that lets Black challenge the advanced pawns."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.a4": {
+    "name": "Alekhine's Defence: Two Pawns Attack, Tate Variation",
+    "background": "The idea of this early rook lift probably came from the American International Master Emory Tate, for whom the line is named. Mariya Muzychuk, Lu Shanglei and Nazar Firman have tried it with some success.",
+    "strategy": "A tricky sideline: the a-pawn threatens to chase the knight again, with a pawn sacrifice on e6 in mind to disturb Black's development. Black can stop that, and White then swings a rook along the third rank towards the kingside. It needs accurate answers, but the plan is slow and leaves Black a strong centre."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.c5 Nd5": {
+    "strategy": "The only square: the knight returns to d5, which White's last move left without a pawn to challenge it, so it now stands there as an outpost. White's pawns on c5 and e5 are far advanced and need support."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.c5 Nd5 5.Bc4": {
+    "strategy": "Develops with tempo: the knight on d5 has no defender, so Black has to support it or move it. The bishop also eyes f7, and White keeps the choice of trading it for the knight or leaving it as a thorn."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.c5 Nd5 5.Nc3": {
+    "strategy": "Attacks the undefended knight and invites a trade that helps White's development. Black can trade, or defend d5 with a pawn, and White hopes the space on c5 and e5 outweighs the time spent."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.c5 Nd5 5.Bc4 e6": {
+    "strategy": "Defends the knight with a pawn and opens the f8-bishop. Black accepts a solid pawn chain on the light squares, at the price of shutting in the c8-bishop for now, and keeps the strong knight on d5."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.c5 Nd5 5.Nc3 Nxc3": {
+    "strategy": "Removes the attacker rather than defending the knight, and forces White to recapture with a pawn. White gets open lines for the pieces and doubled c-pawns; Black gets a healthy structure and a free hand against the advanced pawns."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.c5 Nd5 5.Bc4 e6 6.Nc3": {
+    "name": "Alekhine's Defence: Hunt Variation, Lasker Simul Gambit",
+    "strategy": "Brings a second attacker to d5 and develops, but leaves c5 and e5 without pawn support, so ...d6 hits both at once. White plays for quick piece play and has to be ready to give up a pawn for it."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.c5 Nd5 5.Bc4 e6 6.Nc3 d6": {
+    "name": "Alekhine's Defence: Two Pawns Attack, Mikenas Variation",
+    "strategy": "Attacks both advanced pawns at once, the point of the whole line: neither is supported, so something has to give. It also opens the c8-bishop, and White's space grab on the queenside starts to cost something."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.c5 Nd5 5.Nc3 Nxc3 6.dxc3": {
+    "strategy": "Recaptures towards the centre, which opens the d-file and the c1-bishop for quick development. But the d-pawn that could have supported the advanced pawns is gone, and both c5 and e5 stand without pawn support."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.c5 Nd5 5.Nc3 Nxc3 6.dxc3 d6": {
+    "strategy": "Attacks c5 and e5 at once, neither of which has any pawn behind it, and opens the c8-bishop. White cannot easily support both, so the space gained by the pawn advances now comes under pressure."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3": {
+    "name": "Alekhine's Defence: Modern Variation",
+    "background": "The most common variation of Alekhine's Defence.",
+    "strategy": "Develops a piece and prepares to retake on e5 with the knight if Black takes. White accepts a modest space advantage and relies on piece play rather than a full pawn centre; Black's natural test is to pin the knight."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4": {
+    "name": "Alekhine's Defence",
+    "strategy": "Drives the knight away again and takes more space,. White commits the c-pawn to the centre and has to decide between a safe trade and a maximalist centre, while the knight can only go to b6."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Bc4": {
+    "name": "Alekhine's Defence: Balogh Variation",
+    "background": "The first recorded game with it is Canal-Colle, Karlovy Vary 1929, which White resigned after Black's 40th move. Unlike several other sidelines, it is fairly popular.",
+    "strategy": "Attacks the undefended knight and commits White to recapturing on e5 with the d-pawn. The retreat to b6 hits the bishop in return, and the attacking chances come at the cost of a thinner centre; there are traps for the unwary."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6": {
+    "strategy": "The only safe square: the knight retreats and keeps an eye on the c4 pawn, and Black threatens to take on e5 and trade queens, which would cost White the right to castle. White must settle the tension in the centre at once."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 Bg4": {
+    "name": "Alekhine's Defence: Modern Variation, Main Line",
+    "strategy": "The main line: the bishop develops outside the pawn chain and pins the knight to the queen, so the knight cannot simply recapture on e5. Black keeps the tension in the centre and stands ready to trade bishop for knight, which undermines White's centre pawns."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 g6": {
+    "name": "Alekhine's Defence: Modern Variation, Alburt Variation",
+    "background": "Played in the thirteenth game of the Match of the Century between Boris Spassky and Bobby Fischer. Lev Alburt has also played it frequently.",
+    "strategy": "Leaves White's pawn chain alone for now and prepares to fianchetto the king's bishop, so that it fights the e5 pawn from a distance. Black accepts less space for a flexible, solid set-up and plans to undermine the centre later."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 dxe5": {
+    "name": "Alekhine's Defence: Modern Variation, Larsen Variation",
+    "background": "Named after Bent Larsen, who employed the line in the 1965 Candidates.",
+    "strategy": "Settles the tension at once and frees both the c8-bishop and the d-file. The price is that the white knight lands on e5, where it is strong and hard to dislodge, so White keeps a small edge in space and Black has to find active development."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 Nc6": {
+    "name": "Alekhine's Defence: Modern Variation, Larsen-Haakert Variation",
+    "strategy": "Develops the other knight and adds pressure on d4 and e5 at once. It takes the c6 square from the pawn that could have supported the knight on d5, and White can gain space with tempo by hitting that knight with the c-pawn."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 Nb6": {
+    "name": "Alekhine's Defence: Modern Variation, Schmid Variation",
+    "strategy": "Retreats the knight before White has driven it away. That saves White the time the c-pawn would have cost, so White can develop on its own terms, while Black keeps a flexible structure but has given up the knight's central post."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.exd6": {
+    "name": "Alekhine's Defence: Exchange Variation",
+    "strategy": "Takes first, which removes the threat of ...dxe5 and a queen trade that would cost White castling. White settles for a modest space advantage and a more strategic game, and Black's way of recapturing decides how sharp it gets."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.f4": {
+    "name": "Alekhine's Defence: Four Pawns Attack",
+    "background": "Not particularly popular in practice, because many White players are wary of entering so sharp a line that Black may have prepared.",
+    "strategy": "Prepares to retake on e5 with the f-pawn and so keep a huge pawn centre. The most ambitious try, but the pawns must be used: Black will undermine them, and the game is sharp and tactical."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.Nf3": {
+    "strategy": "Develops and prepares to retake on e5 with the knight, while keeping the d4 pawn in the centre. But it walks into ...Bg4, which pins the knight to the queen, and White has not yet settled the pawn tension."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.c5": {
+    "name": "Alekhine's Defence: Hunt Variation",
+    "strategy": "Chases the knight a third time, but gives up control of d5 and leaves two advanced pawns facing the d6 pawn. Black can take on c5 and trade queens, which leaves the white king uncastled and the knight settled on d5."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.exd6 cxd6": {
+    "strategy": "The sharper recapture: Black keeps a pawn majority in the centre and aims pieces at White's c4 and d4 pawns. The usual plan is a fianchetto of the king's bishop, with a knight on b6 and c6 bearing down on the pawns."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.f4 dxe5": {
+    "strategy": "The main reply: Black strikes at the head of the chain at once. After the recapture with the f-pawn the f-file is half-open for White and Black can aim pieces at d4 and e5, the weak points of the big centre."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.f4 g6": {
+    "name": "Alekhine's Defence: Four Pawns Attack, Fianchetto Variation",
+    "background": "Magnus Carlsen has played it.",
+    "strategy": "A fianchetto: the bishop on g7 will press along the long diagonal against d4 and e5, tackling the big centre from a distance. A quieter reply, but it gives White other attacking plans on the kingside."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.f4 Bf5": {
+    "name": "Alekhine's Defence: Four Pawns Attack, Trifunovic Variation",
+    "strategy": "A quieter way to meet the big centre: the bishop develops outside the pawn chain before ...e6 would shut it in, and the capture on e5 waits. Black delays the central fight instead of starting it at once."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.f4 g5": {
+    "name": "Alekhine's Defence: Four Pawns Attack, Cambridge Gambit",
+    "background": "Named the Planinc Variation after Albin Planinc, who championed it in the 1970s. The correspondence player Michael Schirmer took it up in the 1990s, and British grandmaster Nigel Davies noted his games in a book on the defence.",
+    "strategy": "A gambit: if White takes the pawn, the centre falls apart after ...dxe5 and a queen trade, and Black wins the pawn back with a better structure. It is objectively unsound, since declining it gives White an edge with the centre intact."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.Nf3 Bg4": {
+    "strategy": "Pins the knight to the queen and loosens White's hold on the centre. The knight cannot leave f3 without losing the queen, which means the e5 pawn depends on the d-pawn alone."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.exd6 cxd6 6.Nc3": {
+    "strategy": "Develops while keeping the king's knight off f3, where ...Bg4 would make it a target. White delays kingside development so that Black has less to harass, and the knight on c3 adds pressure on d5."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.exd6 cxd6 6.Nc3 g6": {
+    "strategy": "Prepares to fianchetto the king's bishop: from g7 it presses along the long diagonal on d4, and Black attacks White's pawn centre with pieces instead of defending against it. The central pawn majority gives that plan its support."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.f4 dxe5 6.fxe5": {
+    "strategy": "The natural recapture: it keeps three pawns in the centre and half-opens the f-file for White's pieces. But the f-pawn no longer stands behind e5, and Black can attack the pawns on e5 and d4 with pieces."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.f4 dxe5 6.fxe5 Nc6": {
+    "strategy": "Attacks d4, the base of White's pawn chain, at once. The whole defence aims at knocking out the support of the centre, and the knight adds a second attacker to the pawn while White is still developing."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.f4 dxe5 6.fxe5 Bf5": {
+    "strategy": "Develops the bishop outside the pawn chain before ...e6 closes it in. It adds nothing against d4, so White gets a moment to consolidate the big centre with natural development."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.Nf3 Bg4 6.Be2": {
+    "name": "Alekhine's Defence: Modern Variation, Alekhine Gambit",
+    "strategy": "Unpins the knight by interposing the bishop, which also guards the c4 pawn that Black's knight attacks. Black will often trade the bishop for the knight to weaken the white centre, and White keeps the bishop pair."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.Nf3 Bg4 6.d5": {
+    "name": "Alekhine's Defence: Modern Variation, Vitolins Attack",
+    "strategy": "Gains space, but takes away the d-pawn's support of e5 while the knight is still pinned. Black can simply take ...dxe5, and the knight cannot recapture without losing the queen to ...Bxd1."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 Bg4 5.Be2": {
+    "strategy": "The main line: the bishop breaks the pin and prepares castling, so the knight is free again to recapture on e5. White keeps a broad pawn centre and a small edge in space, and leaves Black to decide whether to trade bishop for knight."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 Bg4 5.c4": {
+    "name": "Alekhine's Defence: Modern Variation, Alekhine Variation",
+    "strategy": "Hits the knight with a pawn at once, so it has to move again, and White gains space. The cost is time and a looser grip on d4, but the e5 chain stays intact and White builds a broad pawn centre that Black must learn to undermine."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 Bg4 5.h3": {
+    "name": "Alekhine's Defence: Modern Variation, Panov Variation",
+    "strategy": "Asks the bishop what it wants, but Black is happy to give it up for the knight: White recaptures with the queen, gets the bishop pair, and finds the centre pawns easier to attack than before."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 Bg4 5.Be2 c6": {
+    "name": "Alekhine's Defence: Modern Variation, Flohr Variation",
+    "strategy": "Supports the knight on d5 with a pawn and covers b5, so the knight keeps its post in the centre. A solid, compact choice, at the price of the c6 square, which the b8-knight loses."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 Bg4 5.c4 Nb6": {
+    "strategy": "The only sensible retreat: Nb4 runs into Qa4+ and loses the knight. From b6 the knight eyes the c4 pawn, and the pin on f3 stays, so Black keeps the pressure on White's big centre, which White now has to resolve."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 g6 5.Bc4": {
+    "strategy": "The main move: the bishop develops with tempo against the knight on d5 and keeps the c-pawn free. Once the knight leaves, the bishop eyes f7, and White gains time and lasting kingside pressure while Black has to find a way to undermine the d4 and e5 pawns."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 g6 5.Bc4 Nb6": {
+    "strategy": "The natural retreat, which hits the bishop and makes it decide. Black has spent three moves on this knight in return for a compact, solid set-up with the king's bishop to follow, accepting that White's bishop keeps a good diagonal."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 g6 5.Bc4 Nb6 6.Bb3": {
+    "strategy": "Keeps the bishop instead of allowing a trade on c4. From b3 it stays on the diagonal to f7, so Black has to watch that square throughout, while White keeps its space and the initiative on the kingside."
+  },
+  "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 g6 5.Bc4 Nb6 6.Bb3 Bg7": {
+    "strategy": "Completes the fianchetto: the bishop attacks e5 along the long diagonal, challenging White's whole pawn centre, and Black is ready to castle. The cost is that White's pieces aim at f7 and the kingside, so Black has to hold that side together."
   }
 }

@@ -95,6 +95,8 @@
     "strategy": "Besetzt sofort das Zentrum und steuert das Abgelehnte Damengambit an. Die Struktur ist solide, mit natürlicher Entwicklung und Rochade im Anschluss, aber etwas passiv: Der Läufer c8 bleibt hinter dem Bauern e6 eingesperrt, bis Schwarz ihn befreit, und Weiß behält mit Druck auf d5 die Initiative."
   },
   "1.d4 e6 2.c4 Bb4+": {
+    "name": "Keres-Verteidigung",
+    "background": "Benannt nach dem estnischen Großmeister Paul Keres und auch als Känguru-Verteidigung bekannt. Das Schach war schon in den 1840er-Jahren bekannt, und Henry Thomas Buckle spielte es 1851 in London in der vierten Partie seines Wettkampfs gegen Johann Löwenthal; die heute übliche Antwort 3.Ld2 hatte Howard Staunton empfohlen.",
     "strategy": "Entwickelt den Läufer mit Schach, bevor Schwarz sich mit dem Springer g8 festlegt, was viele Aufbauten offenhält. Weiß hat mehrere Möglichkeiten zu antworten, und die Partie wechselt oft in ein bekannteres System. Der Preis ist, dass der Läufer getauscht oder vertrieben werden kann; der Zug funktioniert daher am besten, wenn Schwarz mit einem dieser Systeme zufrieden ist."
   },
   "1.d4 e6 2.c4 f5": {
@@ -282,6 +284,7 @@
     "strategy": "Greift d4 sofort an und nutzt, dass der Läufer c1 verlassen hat: Der Bauer b2 ist ungedeckt, sodass eine Dame auf b6 ihn angreift. Das ist ein beliebter Weg, den bequemen weißen Aufbau zu stören. Schwarz erhält schnelles Spiel am Damenflügel und aktive Entwicklung, während der Läufer c8 weiterhin hinter e6 eingesperrt ist."
   },
   "1.d4 e6 2.Bf4 f5": {
+    "background": "Der englische Großmeister Simon Williams nutzt 1.d4 e6 oft, um die Holländische Verteidigung zu spielen und dabei das Staunton-Gambit 1.d4 f5 2.e4 zu umgehen.",
     "strategy": "Kontrolliert e4 und steuert einen holländischen Aufbau an, flexibel zwischen dem Königsläufer auf e7 und einer Stonewall-Bauernmauer. Schwarz spielt auf Initiative am Königsflügel. Der Vorstoß schwächt e6 und die Diagonale e8–h5, und das Feld e5, das der Läufer f4 bereits kontrolliert, kann zum Vorposten für einen weißen Springer werden."
   },
   "1.d4 e6 2.Bf4 Bd6": {
@@ -361,5 +364,50 @@
   },
   "1.d4 e6 2.Bf4 Qh4": {
     "strategy": "Greift den Läufer f4 an, doch da die Dame d8 verlassen hat, ist der Bauer c7 ungedeckt: 3.Lxc7 rettet den Läufer und gewinnt einen Bauern, und Weiß könnte stattdessen Tempo gegen die Dame gewinnen."
+  },
+  "1.d4 e6 2.Bf4 f5 3.g4": {
+    "name": "Holländische Verteidigung: Senechaud-Gambit",
+    "strategy": "Ein Gambit, das den g-Bauern opfert, um den Königsflügel zu öffnen, bevor irgendetwas entwickelt ist. Schwarz nimmt ihn einfach und steht einen Bauern im Plus, während der eigene Königsflügel von Weiß geschwächt ist und dem Angriff noch jeder Rückhalt fehlt."
+  },
+  "1.d4 e6 2.c4 Bb4+ 3.Nc3": {
+    "name": "Känguru-Verteidigung: Keres-Verteidigung, Transpositionsvariante",
+    "strategy": "Blockt das Schach mit dem Springer, der dann gegen den König gefesselt ist. Das lädt Schwarz ein, die Bauern von Weiß zu verdoppeln oder die Fesselung zu halten und um e4 zu kämpfen. Spielbar, doch die übliche Art, das Schach zu beantworten, hält die Bauernstruktur intakt."
+  },
+  "1.d4 e6 2.c4 c5 3.d5": {
+    "strategy": "Beansprucht mit einem Bauern auf d5 Raum, der Schwarz einengt. Tauscht Schwarz ihn, erhält Weiß eine zentrale Bauernmehrheit gegen die am Damenflügel von Schwarz: ein scharfes, unausgewogenes Spiel, in dem Weiß im Zentrum und Schwarz am Damenflügel spielt."
+  },
+  "1.d4 e6 2.c4 c5 3.Nf3": {
+    "strategy": "Verteidigt d4 mit einem Entwicklungszug und legt das Zentrum nicht fest. Tauscht Schwarz auf d4, schlägt Weiß mit dem Springer zurück und behält einen Entwicklungsvorsprung und einen Raumvorteil am Damenflügel, mit flexiblem Spiel vor sich."
+  },
+  "1.d4 e6 2.c4 c5 3.Nf3 cxd4": {
+    "strategy": "Tauscht den c-Bauern gegen den d-Bauern von Weiß und nimmt die Spannung aus dem Zentrum. Weiß schlägt mit einem Entwicklungszug zurück, doch die Stellung von Schwarz ist solide und frei von Schwächen."
+  },
+  "1.d4 e6 2.c4 c5 3.d5 exd5": {
+    "strategy": "Tauscht den e-Bauern gegen den vorgerückten Bauern von Weiß, sodass Schwarz eine halboffene e-Linie und, nachdem Weiß mit dem c-Bauern zurückgeschlagen hat, eine Bauernmehrheit am Damenflügel erhält. Schwarz gibt Raum auf und bekommt dafür Gegenspiel am Flügel."
+  },
+  "1.d4 e6 2.c4 c5 3.d5 exd5 4.cxd5": {
+    "strategy": "Schlägt zur Mitte hin zurück. Der Bauer auf d5 engt Schwarz ein, und Weiß hat eine zentrale Mehrheit gegen die am Damenflügel von Schwarz. Ein scharfes, unausgewogenes Spiel: Weiß spielt im Zentrum und am Königsflügel, Schwarz am Damenflügel."
+  },
+  "1.d4 e6 2.c4 c5 3.d5 exd5 4.cxd5 d6": {
+    "strategy": "Stützt den Bauern c5 und fixiert die Struktur, statt sofort den Bauern d5 gewinnen zu wollen. Es öffnet außerdem die Diagonale des Läufers auf c8 und gibt Schwarz eine solide Basis für die Mehrheit am Damenflügel."
+  },
+  "1.d4 e6 2.c4 c5 3.d5 exd5 4.cxd5 d6 5.Nc3": {
+    "strategy": "Entwickelt den Springer, schützt den Bauern auf d5 und bereitet den Vorstoß e4 vor, der das Bauernzentrum von Weiß vollendet. Weiß spielt auf den Raum, den diese Struktur gibt, und Schwarz muss Gegenspiel am Damenflügel finden."
+  },
+  "1.d4 e6 2.c4 c5 3.d5 exd5 4.cxd5 d6 5.Nc3 g6": {
+    "strategy": "Bereitet das Fianchetto des Königsläufers vor, der auf der langen Diagonale Druck gegen das Zentrum von Weiß ausüben wird. Schwarz bestreitet das Zentrum nicht direkt: Er lässt Weiß es aufbauen und plant, es von der Seite und aus der Distanz zu untergraben."
+  },
+  "1.d4 e6 2.c4 c5 3.d5 exd5 4.cxd5 d6 5.Nc3 g6 6.e4": {
+    "strategy": "Vollendet das Bauernzentrum, mit Bauern auf d5 und e4 und dem Springer dahinter. Weiß gewinnt den Raum, den die Struktur verspricht, und zielt auf das Zentrum und den Königsflügel, doch die vorgerückten Bauern müssen gestützt bleiben."
+  },
+  "1.d4 e6 2.c4 c5 3.d5 exd5 4.cxd5 d6 5.Nc3 g6 6.e4 Bg7": {
+    "strategy": "Vollendet das Fianchetto: Der Läufer übt Druck auf der langen Diagonale aus, auf den Springer auf c3 und auf das Zentrum, und der Königsläufer ist entwickelt. Schwarz überlässt Weiß das Zentrum absichtlich und plant, es mit der Mehrheit am Damenflügel zu untergraben."
+  },
+  "1.d4 e6 2.c4 c5 3.Nf3 cxd4 4.Nxd4": {
+    "strategy": "Schlägt mit einem Entwicklungszug zurück und zentralisiert den Springer, wo er e6, c6 und b5 im Visier hat. Weiß behält den c-Bauern als Raumvorteil am Damenflügel, und Schwarz muss sich mit dem aktiven Springer auseinandersetzen."
+  },
+  "1.d4 e6 2.c4 c5 3.Nf3 cxd4 4.Nxd4 Nf6": {
+    "name": "Englische Symmetrievariante: Anti-Benoni-Variante, Spielmann-Verteidigung",
+    "strategy": "Entwickelt den Springer auf sein natürliches Feld, wo er e4 und d5 kontrolliert. Das bremst den Versuch von Weiß, mit e4 ein breites Zentrum aufzubauen, und bereitet die schnelle Rochade vor. Schwarz nimmt etwas weniger Raum für ein solides, leichtes Spiel in Kauf."
   }
 }

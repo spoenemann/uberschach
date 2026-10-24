@@ -34,12 +34,16 @@
     "strategy": "Defends e5 with a pawn, so the knight is no longer needed there and Black can aim to chase the bishop and trade it. The cost is a bishop on f8 shut in by its own pawn and a knight left pinned on c6."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7": {
+    "name": "Ruy Lopez: Closed",
+    "background": "The most played system of the Ruy Lopez.",
     "strategy": "The main line: the bishop develops behind the pawn chain and shields the king on the e-file, which takes the tactics out of White's play. Black now really threatens to win the e4 pawn and prepares to castle."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O b5": {
     "strategy": "Chases the bishop at once, ending the threat of Bxc6 followed by Nxe5 for good. Black gains queenside space and keeps a free choice of where to develop the bishops, at the cost of a pawn that later becomes a target."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4": {
+    "name": "Ruy Lopez: Open",
+    "background": "The earliest recorded game with the Open Defence was played in 1854 by Robert Brien and Robert Wormald, consulting with Black, against Johann Löwenthal. Viktor Korchnoi chose it against Karpov's 1.e4 in the 1978 and 1981 World Championship matches.",
     "strategy": "Takes the pawn that White left hanging. White can win it back by opening the centre, but Black gets a foothold in the middle and an open, lively game, provided the king is not caught on the open e-file."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O g6": {
@@ -52,6 +56,8 @@
     "background": "Named after Jørgen Møller, who analysed it in Tidskrift för Schack. Alexander Alekhine played it with Black early in his career, but it never became popular."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O d6": {
+    "name": "Ruy Lopez: Morphy Defence, Steinitz Deferred",
+    "background": "Mikhail Chigorin played it in the 1890s, and Akiba Rubinstein and Alekhine adopted it later; its last significant use was by some Russian masters in the 1950s.",
     "strategy": "Defends e5 with a pawn, so the c6 knight is freed from guard duty. But the pawn shuts in the king's bishop, and Black's slow development shows once White opens the centre quickly; solid, but a little passive."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O d5": {
@@ -63,5 +69,114 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.Qe2 Be7": {
     "strategy": "Develops the bishop and prepares castling, delaying ...b5 until it is needed. White's queen already guards e4, so there is no hurry to chase the bishop, and castling by White leads to a quiet, familiar structure."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.d3 d6 6.c4": {
+    "name": "Ruy Lopez: Morphy Defence, Duras Variation",
+    "strategy": "Takes the b5 and d5 squares away: ...b5 no longer chases the bishop, and the pin on c6 stays, so Black's usual way of trading it is gone. White accepts that the c-pawn no longer watches d4."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O b5 6.Bb3": {
+    "strategy": "The natural retreat: the bishop keeps its diagonal aimed at f7 and avoids the exchange on c6. Black has won queenside space, but the Bxc6 and Nxe5 idea is gone for good."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O b5 6.Bb3 Be7": {
+    "strategy": "The bishop goes home to e7, the placement of the main-line Closed set-up, where it guards the kingside. Black prepares castling and accepts a sturdy position that can look passive."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O b5 6.Bb3 Bb7": {
+    "name": "Ruy Lopez: Morphy Defence, Arkhangelsk Variation",
+    "background": "Popularised by Soviet players from the city of Arkhangelsk, such as Vladimir Malaniuk.",
+    "strategy": "Puts the bishop on the long diagonal, behind the c6 knight, wagering that its pull on the centre and the kingside outweighs the delay in castling. The line is tactically sound and leads to sharp play."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O b5 6.Bb3 Bc5": {
+    "name": "Ruy Lopez: Morphy Defence, Neo-Arkhangelsk Variation",
+    "background": "It began to gain popularity in the 1990s, significantly through Alexei Shirov. Fabiano Caruana is a notable recent exponent and used it in the 2020 Candidates Tournament.",
+    "strategy": "Puts the bishop on its most active diagonal, eyeing f2, instead of tucking it away on e7. White may gain time by hitting it with pawns, but it can retreat to b6, and the position is dynamic and balanced."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O b5 6.Bb3 d6": {
+    "name": "Ruy Lopez: Morphy Defence",
+    "strategy": "A solid, flexible move: the pawn guards e5 and frees the knight to challenge the bishop. It blocks the f8-bishop's diagonal, so Black's development is a little slower than with a direct bishop move."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1": {
+    "strategy": "The main line: the rook defends e4, which makes Bxc6 followed by Nxe5 a real threat and forces Black to deal with the bishop. White commits to nothing in the centre and keeps every plan open, the most flexible way to hold the pawn."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.d3": {
+    "name": "Ruy Lopez: Closed, Martinez Variation",
+    "background": "A modern line that has grown in popularity among top players and is a frequent alternative to 6.Re1.",
+    "strategy": "Protects e4 with a pawn and avoids the sharp pawn sacrifice Black can prepare against the main line. White chooses a slow, safe game and decides its set-up later, while Bxc6 followed by Nxe5 is a threat again."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Qe2": {
+    "name": "Ruy Lopez: Closed, Worrall Attack",
+    "background": "Paul Keres played it several times, and more recently Sergei Tiviakov has played it. Nigel Short played it twice in his 1992 match against Anatoly Karpov and won both games.",
+    "strategy": "Protects e4 with the queen, so the rook is free to go to d1 behind the pawn centre. The queen stands on the file most likely to open, which is the price of avoiding the main-line rook move."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.d4": {
+    "name": "Ruy Lopez: Closed, Centre Attack",
+    "strategy": "Strikes in the centre at once instead of preparing, with e4 left to look after itself. It brings open, sharp play, but it gives White no advantage over the slower moves."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Nc3": {
+    "name": "Ruy Lopez: Closed, Morphy Attack",
+    "background": "Named after Paul Morphy, who introduced the idea in a blindfold simultaneous exhibition in 1859. Paul Keres and Boris Spassky played it a few times, and Siegbert Tarrasch three times in his 1911 match against Schlechter, but it remains the least popular option for White on move six.",
+    "strategy": "Develops a piece and protects e4, and the knight can jump to d5 to exchange Black's bishop. An aggressive try, but the knight blocks the c-pawn and White's edge is smaller than in the main line."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Bxc6": {
+    "name": "Ruy Lopez: Closed, Delayed Exchange",
+    "strategy": "Trades the bishop for the knight at once, a tempo down on exchanging earlier, hoping that Black's knight and bishop are awkwardly placed. The knight on f6 blocks the ...f6 defence of e5, and ...Bd6 would waste time."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.d4 exd4": {
+    "strategy": "Takes the pawn at once, so the e4 pawn is now attacked by the f6 knight and White has to act: push e5 to chase the knight, or defend it. Either way the centre opens, and Black's solid set-up copes with it, with the knight settling on e4 if White pushes."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Qe2 b5": {
+    "strategy": "Drives the bishop back at once and ends the Bxc6 and Nxe5 idea for good, so Black can castle in peace. Black gains queenside space, while White's queen on e2 holds e4 but stands on a file that Black may open later."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5": {
+    "strategy": "Cuts out the threat for good: with e4 defended, Bxc6 followed by Nxe5 would win a pawn, so Black drives the bishop away at once. The price is a committed queenside, but Black gets space there and a solid, flexible set-up for a long manoeuvring game."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 d6": {
+    "name": "Ruy Lopez: Closed, Averbakh Variation",
+    "background": "Named for Yuri Averbakh.",
+    "strategy": "Defends e5 with a pawn instead of chasing the bishop, which parries the threat quietly. The price is time: White can play c3 before the bishop is kicked, and a later ...b5 is met by Bc2 in one move. Black's compensation is ...Bg4, pinning the f3 knight to hold back d4 for now."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O d6 6.Bxc6+": {
+    "strategy": "Takes the knight with check while Black's d-pawn has already moved, so the natural recapture is with the b-pawn, which breaks up the queenside. White then opens lines in the centre quickly, aiming to profit from Black's undeveloped pieces."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O d6 6.Bxc6+ bxc6": {
+    "strategy": "The natural recapture, since the d-pawn is already on d6: the c-pawns double and the queenside is damaged, but Black gets the bishop pair and the half-open b-file. Black has to play actively, as White's quick central play punishes any lag in development."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4": {
+    "name": "Ruy Lopez: Open",
+    "strategy": "The main line: the pawn takes control of c5, so the knight cannot retreat there, and attacks e5 while Black's king is still in the centre. White is about to win the pawn back with active play, so Black must develop quickly and carefully, with dangers on the e-file."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.Qe2": {
+    "name": "Ruy Lopez: Morphy Defence, Tartakower Variation",
+    "strategy": "Attacks the knight, which nothing defends on e4, and prepares to win back the pawn once it moves: after ...Nc5, Bxc6 and Nxe5 restore the material. But White has traded the bishop for a knight and left Black the two bishops, so it asks less of Black than the main line."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.Nc3": {
+    "name": "Ruy Lopez: Open, Knorre Variation",
+    "strategy": "Attacks the knight and offers to trade it. If Black takes on c3, White must recapture with a pawn, damaging its structure, and still has to win the pawn back; the main line uses the d-pawn for that instead."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.Re1": {
+    "strategy": "Hits the knight along the e-file, but it can retreat to c5 and hit the bishop. White trades on c6 and regains the pawn on e5, yet has spent time moving the bishop twice, and Black ends up with the two bishops and an easy game."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4 b5": {
+    "strategy": "Chases the bishop away to prepare ...d5, which would otherwise leave the c6 knight pinned against the king and lose e5 to Nxe5. Black reinforces the advanced knight with the d-pawn, and White gets the pawn back only by capturing on e5."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4 Be7": {
+    "strategy": "Develops the bishop and prepares castling, but invites a liquidation of the centre in which White wins back the pawn with the rook on the e-file. Black may then be forced to delay castling because of the pressure on the e7 bishop."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4 exd4": {
+    "name": "Ruy Lopez: Open, Riga Variation",
+    "background": "A famous example of this line is the game Capablanca-Edward Lasker, New York 1915.",
+    "strategy": "Grabs a second pawn and opens the e-file while Black's king and knight still stand on it. White replies with Re1, and the forcing play that follows ends in an endgame White is better in, though Black keeps practical chances in the sharp positions."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.Re1 d5": {
+    "name": "Ruy Lopez: Open, Skipworth Gambit",
+    "strategy": "Defends the e4 knight with a pawn, but the c6 knight is now pinned to the king by the a4 bishop and cannot guard e5: White simply takes it with Nxe5, regaining the pawn with Black's pieces tied up."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.Qe2 b5 6.Bb3": {
+    "strategy": "The natural retreat: the bishop escapes the pawn and eyes f7 from b3. White keeps e4 guarded by the queen and heads for a broad pawn centre, accepting that Black has gained queenside space."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.Qe2 b5 6.Bb3 Be7": {
+    "strategy": "Develops the bishop behind the pawns and prepares castling, a solid set-up that leaves White to find a way to build the centre. Unlike ...Bc5, the bishop cannot be hit by c3 and d4, though Black accepts a slightly passive position."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.Qe2 Be7 6.O-O": {
+    "strategy": "Castles into a set-up where the queen holds e4 and the rook, freed from that job, can go to d1 to support a central break. The queen stands on the e-file that Black may open, but White gets a flexible centre-building plan in a quiet, manoeuvring game."
   }
 }

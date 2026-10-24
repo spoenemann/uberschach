@@ -10,6 +10,7 @@
     "strategy": "Bietet einen zweiten Bauern ohne Gegenwert an. Schwarz nimmt ihn einfach, und der Bauer g4 wird weiter vom Läufer c8 angegriffen, sodass Weiß zwei Bauern zurückgewinnen müsste und nichts entwickelt hat."
   },
   "1.g4 d5 2.Bg2 c6": {
+    "name": "Grob-Angriff: Abgelehntes Grob-Gambit",
     "strategy": "Lehnt den Bauern ab und sperrt den Läufer aus: Der Bauer c6 deckt d5 und blockiert die lange Diagonale. Schwarz behält ein solides Bauernzentrum und zwingt Weiß zu beweisen, dass g4 einen Bauern wert war."
   },
   "1.g4 d5 2.Bg2 Bxg4": {
@@ -23,5 +24,84 @@
   },
   "1.g4 d5 2.h3 e5": {
     "strategy": "Besetzt das Zentrum und baut ein breites Bauernzentrum auf, statt dem nun gedeckten Bauern g4 nachzujagen. Schwarz kann später die lange Diagonale schließen und dem weißen Läufer die Arbeit schwer machen."
+  },
+  "1.g4 d5 2.Bg2 Bxg4 3.c4": {
+    "name": "Grob-Angriff: Grob-Gambit, Fritz-Gambit",
+    "strategy": "Greift d5 mit einem Bauern an: Das Feld wird von Bauer und Läufer angegriffen und nur von der Dame gedeckt. Fällt der Bauer, nimmt der Läufer b7 und den Turm dahinter ins Visier. Weiß gibt einen zweiten Bauern für Druck auf der langen Diagonale."
+  },
+  "1.g4 d5 2.Bg2 Bxg4 3.c4 d4": {
+    "name": "Grob-Angriff: Romford-Gegengambit",
+    "strategy": "Schwarz verteidigt den Bauern d5 nicht, sondern lässt ihn vorrücken, was dem Läufer den Weg nach b7 und zum Turm dahinter öffnet. Die Idee ist, die Qualität zu opfern und gegen den weißen Königsflügel Tempo zu gewinnen."
+  },
+  "1.g4 d5 2.Bg2 Bxg4 3.c4 d4 4.Bxb7": {
+    "strategy": "Gierig: Der Läufer gewinnt einen Bauern und greift den Turm an, doch sobald er den Turm nimmt, hat er den Königsflügel endgültig verlassen. Die schwarze Dame übernimmt dann die lange Diagonale gegen eine unentwickelte weiße Stellung."
+  },
+  "1.g4 d5 2.Bg2 Bxg4 3.c4 d4 4.Bxb7 Nd7": {
+    "strategy": "Ignoriert den angegriffenen Turm und räumt den Springer von der Grundreihe, sodass die Dame auf a8 zurücknehmen kann. Schwarz gibt die Qualität mit Absicht und entwickelt zugleich eine Figur."
+  },
+  "1.g4 d5 2.Bg2 Bxg4 3.c4 d4 4.Bxb7 Nd7 5.Bxa8": {
+    "strategy": "Nimmt den Turm und gewinnt die Qualität. Der Preis ist der Königsläufer, der den Königsflügel und die lange Diagonale endgültig verlässt, und das Zurücknehmen öffnet diese Diagonale für Schwarz."
+  },
+  "1.g4 d5 2.Bg2 Bxg4 3.c4 d4 4.Bxb7 Nd7 5.Bxa8 Qxa8": {
+    "name": "Grob-Angriff: Grob-Gambit, Fritz-Gambit, Romford-Gegengambit",
+    "strategy": "Die Dame nimmt direkt auf der langen Diagonale zurück und greift den Turm auf h1 an, da der Läufer g2 verschwunden ist. Schwarz hat die Qualität gegeben, erhält aber die Initiative gegen den unentwickelten weißen Königsflügel."
+  },
+  "1.g4 d5 2.Bg2 c6 3.c4": {
+    "strategy": "Greift d5 erneut an, jetzt aber einen Bauern, den c6 deckt. Weiß will das Zentrum für die lange Diagonale öffnen, doch der Läufer ist vorerst blockiert, und Schwarz kann den Bauern einfach nehmen."
+  },
+  "1.g4 d5 2.Bg2 c6 3.g5": {
+    "name": "Grob-Angriff: Spike-Angriff",
+    "strategy": "Zieht den Bauern aus der Reichweite des Läufers c8 und gewinnt Raum am Königsflügel, indem er dem schwarzen Springer das Feld f6 nimmt. Der Bauer steht weit vorgerückt und ist schwer zu stützen, und nichts ist entwickelt."
+  },
+  "1.g4 d5 2.Bg2 c6 3.c4 dxc4": {
+    "strategy": "Nimmt den Bauern und gewinnt Material, da der Bauer c6 die lange Diagonale bereits blockiert. Weiß erhält offene Linien für die Figuren, doch der Mehrbauer ist real, und Schwarz hat wenig zu befürchten."
+  },
+  "1.g4 d5 2.Bg2 c6 3.c4 dxc4 4.b3": {
+    "name": "Grob-Angriff: Grob-Gambit, Richter-Grob-Gambit",
+    "strategy": "Greift den Bauern c4 an, um den Bauern zurückzugewinnen, und öffnet den Damenläufer. Aber c6 sperrt den Läufer g2 aus, sodass Weiß einen Bauern im Minus ist und wenig dafür bekommt, und Schwarz kann noch auf b3 schlagen."
+  },
+  "1.g4 d5 2.Bg2 e5 3.c4": {
+    "name": "Grob-Angriff: Spike, Hurst-Angriff",
+    "strategy": "Geht direkt auf d5, das von Bauer und Läufer angegriffen und nur von der Dame gedeckt wird. Das ist der natürliche Grob-Plan, am Zentrum zu reißen, um die lange Diagonale zu bekommen, zum Preis eines ungedeckten g-Bauern."
+  },
+  "1.g4 d5 2.Bg2 e5 3.d4": {
+    "strategy": "Greift sofort den Bauern e5 an, um das Zentrum für den Läufer zu öffnen. Aber der Bauer g4 hängt weiterhin am Läufer c8, und Weiß hat keinen Entwicklungsvorsprung, der dafür entschädigt."
+  },
+  "1.g4 d5 2.Bg2 e5 3.d4 exd4": {
+    "strategy": "Nimmt den Bauern und beseitigt den weißen Vorstoß im Zentrum. Schwarz behält den Mehrbauern und einen einengenden Bauern auf d4, und der Bauer g4 ist weiter ungedeckt, sodass Weiß rasch Kompensation finden muss."
+  },
+  "1.g4 d5 2.Bg2 e5 3.d4 exd4 4.c3": {
+    "name": "Grob-Angriff: Grob-Gambit, Keres-Gambit",
+    "strategy": "Bietet einen zweiten Bauern an, um Linien zu öffnen und mit einem Entwicklungszug zurückzunehmen. Das ist viel zu geben: Bleibt Schwarz ruhig, hat Weiß für zwei Bauern wenig vorzuweisen."
+  },
+  "1.g4 d5 2.Bg2 h5 3.gxh5": {
+    "name": "Grob-Angriff: Grob-Gambit, Basman-Gambit",
+    "strategy": "Nimmt den Bauern, die natürliche Antwort, und es kostet nichts Neues. Schwarz nimmt mit dem Turm zurück, der auch d5 deckt, sodass der Bauer bald zurückgegeben wird und Weiß eine beschädigte Bauernstruktur am Königsflügel behält."
+  },
+  "1.g4 d5 2.h3 e5 3.Bg2": {
+    "strategy": "Die Standardaufstellung: Der Läufer besetzt seine lange Diagonale, und der Bauer g4 steht sicher hinter h3. Weiß will das Zentrum von Bauern räumen, damit der Läufer wirken kann."
+  },
+  "1.g4 d5 2.h3 e5 3.Bg2 c6": {
+    "name": "Grob-Angriff: Keene-Verteidigung",
+    "strategy": "Stützt d5 mit einem Bauern, damit Schwarz die lange Diagonale später mit einem Bauern auf e4 endgültig schließen kann. Eine starke und solide Antwort, die dem weißen Fianchetto den Stachel zieht."
+  },
+  "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d4": {
+    "strategy": "Greift den ungedeckten Bauern e5 an und reißt am Zentrum, so wie die Grob-Eröffnung gedacht ist: Wird das Zentrum geöffnet, bekommt der Läufer seine Diagonale. Es zwingt Schwarz zu entscheiden, was er mit dem Bauern tut."
+  },
+  "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d4 e4": {
+    "strategy": "Beantwortet den Angriff, indem er die lange Diagonale im Zentrum schließt: Der Bauer e4 blockiert den Läufer und gewinnt Raum. Schwarz nimmt eine einengende Bauernkette und ein Ziel in Kauf, das Weiß untergraben kann."
+  },
+  "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d4 e4 5.c4": {
+    "strategy": "Greift den Bauern d5 an, um die Kette zu untergraben, die e4 hält, und um die Diagonale des Läufers wieder zu öffnen. Das ist das Standardmittel gegen eine schwarze Mauer im Zentrum."
+  },
+  "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d4 e4 5.c4 Bd6": {
+    "strategy": "Entwickelt den Läufer auf eine Diagonale, die auf die dunklen Felder zielt, die der g-Bauer am weißen Königsflügel schwach zurückgelassen hat. Schwarz bringt eine Figur ins Spiel und hält das Zentrum geschlossen."
+  },
+  "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d4 e4 5.c4 Bd6 6.Nc3": {
+    "strategy": "Fügt e4, das nur d5 deckt, einen zweiten Angreifer hinzu, und ebenso d5 selbst. Weiß erhöht den Druck auf die Kette von beiden Enden und entwickelt eine Figur."
+  },
+  "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d4 e4 5.c4 Bd6 6.Nc3 Ne7": {
+    "name": "Grob-Angriff: Keene-Verteidigung, Hauptvariante",
+    "strategy": "Entwickelt den Springer, um d5 und f5 zu decken, sodass die Kette dem Druck standhält und der f-Bauer frei ist, e4 zu stützen. Schwarz hält das Zentrum geschlossen und spielt auf den Königsflügel."
   }
 }

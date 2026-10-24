@@ -30,6 +30,7 @@
     "strategy": "Löst die Spannung auf und macht den Weg für die Figuren frei. Nur die Dame kann sofort zurücknehmen, sodass sie früh herauskommt und mit Tempo vertrieben werden kann, doch sie greift zusammen mit dem Springer auch d4 an, was die Partie ausgeglichen hält."
   },
   "1.e4 Nc6 2.d4 d5 3.Nc3": {
+    "name": "Nimzowitsch-Verteidigung: Skandinavische Variante, Bogoljubow-Variante",
     "strategy": "Deckt e4 und setzt d5 unter Druck, wobei ein Zentrumsbauer angeboten wird: Nimmt Schwarz auf e4, greift ein Vorstoß des Zentrumsbauern den Springer auf c6 an und gewinnt Zeit. Schwarz muss wählen, ob er den Bauern nimmt oder die Spannung hält."
   },
   "1.e4 Nc6 2.d4 d5 3.Be3": {
@@ -42,5 +43,90 @@
   "1.e4 Nc6 2.d4 e5 3.d5": {
     "strategy": "Stößt den Bauern am Angriff vorbei, gewinnt Raum und vertreibt den Springer von seinem guten Posten auf c6. Das Zentrum schließt sich zu einem Manövrierspiel, in dem der zusätzliche Raum von Weiß der Trumpf ist, auch wenn er in der Praxis nur einen kleinen Vorteil bringt, und der schwarze Springer braucht Zeit, um eine neue Aufgabe zu finden.",
     "name": "Nimzowitsch-Verteidigung: Kennedy-Variante, Linksspringer-Variante"
+  },
+  "1.e4 Nc6 2.d4 d5 3.exd5 Qxd5": {
+    "name": "Nimzowitsch-Verteidigung: Skandinavische Variante, Abtauschvariante",
+    "strategy": "Die natürliche Rücknahme: Schwarz gewinnt den Bauern sofort zurück, und die Dame greift zusammen mit dem Springer d4 an, sodass Weiß ihn decken oder aufgeben muss. Die Dame kommt früh heraus und kann durch Entwicklung vertrieben werden, doch die schwarzen Figuren kommen leicht ins Spiel, und der Ausgleich ist in Reichweite."
+  },
+  "1.e4 Nc6 2.d4 d5 3.exd5 Nb4": {
+    "name": "Nimzowitsch-Verteidigung: Skandinavische Variante, Aachener Gambit",
+    "strategy": "Ein Gambit: Der Springer strebt nach d5, verbraucht dafür aber einen zweiten Zug mit derselben Figur. Weiß kann ihn mit einem entwickelnden Läuferschach herausfordern, behält den Mehrbauern und steht besser."
+  },
+  "1.e4 Nc6 2.d4 d5 3.exd5 Qxd5 4.Nc3": {
+    "name": "Nimzowitsch-Verteidigung: Skandinavische Variante, Abtauschvariante, Marshall-Gambit",
+    "strategy": "Gewinnt durch die Entwicklung ein Tempo auf die Dame, überlässt d4 aber seinem Schicksal: Schwarz kann ihn nehmen, und Weiß muss beweisen, dass der Entwicklungsvorsprung einen Bauern wert ist. Zieht Schwarz die Dame bloß zurück, hat Weiß ein Tempo geschenkt bekommen. Eine riskante, spekulative Wahl."
+  },
+  "1.e4 Nc6 2.d4 d5 3.Nc3 dxe4": {
+    "name": "Nimzowitsch-Verteidigung: Skandinavische Variante, Bogoljubow-Variante",
+    "strategy": "Nimmt den angebotenen Bauern und nimmt die Herausforderung an. Die natürliche Antwort von Weiß jagt den Springer auf c6 mit einem Zentrumsvorstoß, sodass die Partie zum Mehrbauern von Schwarz gegen Zeit und Aktivität von Weiß wird; Schwarz will sich schnell und solide entwickeln."
+  },
+  "1.e4 Nc6 2.d4 d5 3.Nc3 Nf6": {
+    "name": "Nimzowitsch-Verteidigung: Skandinavische Variante, Bogoljubow-Variante, Vehre-Variante",
+    "strategy": "Entwickelt und greift e4 ein zweites Mal an, sodass Weiß die Spannung sofort lösen muss oder den Bauern verliert. Schwarz erhält eine solide Entwicklung mit Drohung; der Springer auf c6 blockiert weiterhin den c-Bauern, sodass der Aufbau etwas unbequem bleibt."
+  },
+  "1.e4 Nc6 2.d4 d5 3.Nc3 a6": {
+    "name": "Nimzowitsch-Verteidigung: Skandinavische Variante, Bogoljubow-Variante, Brandics-Gambit",
+    "strategy": "Nimmt nichts und stützt nichts, bietet den d5-Bauern an und will ihn durch Angriffe mit den Figuren zurückgewinnen. Der a-Bauer nimmt Weiß außerdem das Schach auf b5. Abseitig und spielbar, aber Weiß hat die Wahl und das leichtere Spiel."
+  },
+  "1.e4 Nc6 2.d4 d5 3.Nc3 g6": {
+    "name": "Nimzowitsch-Verteidigung: Skandinavische Variante, Bogoljubow-Variante, Erben-Gambit",
+    "strategy": "Ignoriert die Spannung und fianchettiert, sodass Weiß auf d5 nehmen und den Bauern vorerst behalten kann. Schwarz hofft, ihn mit Figurenspiel zurückzugewinnen, doch die Entwicklung hinkt hinterher, während der Mehrbauer real ist."
+  },
+  "1.e4 Nc6 2.d4 d5 3.Nc3 e5": {
+    "name": "Nimzowitsch-Verteidigung: Skandinavische Variante, Bogoljubow-Variante, Heinola-Deppe-Gambit",
+    "strategy": "Schlägt sofort im Zentrum zu und bietet einen Bauern an: Weiß kann schlagen, und Schwarz muss hoffen, dass ein Bauernvorstoß gegen den Springer auf c3 und die offenen Linien dafür entschädigen. Gegen solides Spiel zu optimistisch."
+  },
+  "1.e4 Nc6 2.d4 d5 3.Nc3 dxe4 4.d5": {
+    "name": "Dunst-Eröffnung: Berliner Gambit",
+    "strategy": "Gewinnt mit Tempo Raum, indem er den Springer auf c6 angreift, der ziehen muss. Der Bauer auf d5 schränkt die schwarzen Figuren ein und lässt Weiß die Wahl, den e4-Bauern sofort zurückzugewinnen oder auf einen Entwicklungsvorsprung zu spielen."
+  },
+  "1.e4 Nc6 2.d4 d5 3.Nc3 dxe4 4.d5 Ne5": {
+    "name": "Nimzowitsch-Verteidigung: Skandinavische Variante, Bogoljubow-Variante, Nimzowitsch-Gambit",
+    "strategy": "Die Hauptantwort: Der Springer springt ins Zentrum, außerhalb der Reichweite des Bauern, und nimmt f3, d3 und c4 ins Visier. Schwarz behält vorerst den Mehrbauern, während Weiß durch Entwicklung gegen den Springer Zeit gewinnt; Schwarz ist nahe am Ausgleich."
+  },
+  "1.e4 Nc6 2.d4 d5 3.Nc3 dxe4 4.d5 Nb8": {
+    "strategy": "Zieht auf das Ausgangsfeld zurück, wodurch jede Belästigung des Springers entfällt, die Entwicklung aber rückgängig gemacht wird. Schwarz behält den Bauern, doch der Springer steht passiv, der d5-Bauer von Weiß schränkt die schwarze Stellung ein, und Weiß nutzt die verlorene Zeit gern."
+  },
+  "1.e4 Nc6 2.d4 d5 3.Nc3 dxe4 4.d5 Nb8 5.f3": {
+    "name": "Nimzowitsch-Verteidigung: Skandinavische Variante, Bogoljubow-Variante, Richter-Gambit",
+    "strategy": "Greift den e4-Bauern sofort an und bietet an, Linien für ihn zu öffnen: Nimmt Schwarz, schlägt Weiß mit einem entwickelnden Zug zurück und hat einen Entwicklungsvorsprung. Schwarz steht einen Bauern im Plus und solide, daher braucht Weiß echte Aktivität als Gegenwert; riskant, aber spielbar."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 Nxe5": {
+    "strategy": "Die natürliche Rückeroberung: Das Material ist ausgeglichen, und der Springer steht im Zentrum, wo Weiß ihn mit Tempo jagen will. Schwarz bekommt eine gesunde Bauernstruktur und ein solides Spiel, muss aber in Kauf nehmen, etwas passiver zu verteidigen."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 Bc5": {
+    "name": "Nimzowitsch-Verteidigung: Kennedy-Variante, Bielefelder Gambit",
+    "strategy": "Entwickelt den Läufer mit Blick auf f2, statt den Bauern e5 zurückzugewinnen, in der Hoffnung, dass ein Entwicklungsvorsprung dafür entschädigt. Weiß kann den Bauern mit einem Entwicklungszug decken und bleibt sauber einen Bauern im Plus, sodass Schwarz beweisen muss, dass die Aktivität das Material wert ist."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 f6": {
+    "name": "Nimzowitsch-Verteidigung: Kennedy-Variante, Hammer-Gambit",
+    "strategy": "Versucht, den Bauern e5 sofort zu untergraben, doch der f-Bauer verlässt die Diagonale vor dem König: Ein Damenschach auf h5 ist sofort möglich. Weiß hat einen Bauern mehr, und der geschwächte schwarze König ist ein zu hoher Preis für den Versuch, ihn zurückzugewinnen."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 Qh4": {
+    "name": "Nimzowitsch-Verteidigung: Kennedy-Variante, Herforder Gambit",
+    "strategy": "Bringt die Dame früh heraus, um den Bauern e4 anzugreifen, der im Moment ungedeckt ist, und nimmt f2 ins Visier. Weiß kann sich mit einem Entwicklungszug verteidigen und bleibt einen Bauern im Plus, sodass Schwarz einen Damenzug umsonst aufgewendet hat, und eine Dame, die im Zentrum exponiert steht, wird zum Ziel für Tempozüge."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 d6": {
+    "name": "Nimzowitsch-Verteidigung: Kennedy-Variante, De-Smet-Gambit",
+    "strategy": "Bietet den d-Bauern an, um Linien für beide Läufer zu öffnen. Weiß nimmt ihn einfach, und Schwarz steht nach der Rückeroberung einen Bauern im Minus, bei einem Entwicklungsvorsprung. Das ist zu wenig gegen eine gesunde Aufstellung, und Weiß hat kaum Schwächen, die man angreifen könnte."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 Nxe5 4.Nf3": {
+    "name": "Nimzowitsch-Verteidigung: Kennedy-Variante, Paulsen-Angriff",
+    "strategy": "Die ruhige, grundsätzliche Wahl: Sie entwickelt und greift sofort den Springer auf e5 an. Die Springer werden wahrscheinlich getauscht, sodass Weiß die bessere Entwicklung und die halboffene d-Linie gegen d7 behält, in einer ruhigen Partie mit einem kleinen, risikoarmen Vorteil."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 Nxe5 4.f4": {
+    "strategy": "Vertreibt den Springer sofort und baut mit Tempogewinn ein starkes Bauernzentrum auf. Weiß gewinnt Raum und bestimmt das Geschehen, doch der Vorstoß schwächt die Diagonale e1-h4 und die Deckung des Königs, sodass das Zentrum sorgfältig verteidigt werden muss."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 Nxe5 4.Nc3": {
+    "name": "Nimzowitsch-Verteidigung: Kennedy-Variante, Keres-Angriff",
+    "strategy": "Deckt e4 und entwickelt sich, unternimmt aber nichts gegen den Springer auf e5, den Schwarz sofort festigen und dann mit dem Läufer den Springer auf c3 fesseln kann. Weiß hat eine gesunde, flexible Stellung und verzichtet auf die Chance, durch die Jagd auf den zentralisierten Springer nach einem Vorteil zu streben."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 Nxe5 4.f4 Ng6": {
+    "name": "Nimzowitsch-Verteidigung: Kennedy-Variante, Hauptvariante",
+    "strategy": "Zieht sich auf ein sicheres Feld zurück, von dem aus der Springer f4 und h4 im Blick hat. Weiß hat Raum und Tempo gewonnen, sodass Schwarz das starke Bauernzentrum untergraben muss; der Springer ist dafür gut platziert, auch wenn ein weiterer Bauernvorstoß ihn wieder vertreiben kann."
+  },
+  "1.e4 Nc6 2.d4 e5 3.dxe5 Nxe5 4.f4 Nc6": {
+    "name": "Nimzowitsch-Verteidigung: Kennedy-Variante, Riemann-Verteidigung",
+    "strategy": "Geht zurück nach c6 und macht die beiden Springerzüge von Schwarz rückgängig: Weiß hat das Bauernzentrum mit einem Gratistempo erhalten. Schwarz behält eine solide Stellung, hat aber Zeit verloren und sieht keine naheliegende Möglichkeit, das Zentrum bald anzugreifen."
   }
 }

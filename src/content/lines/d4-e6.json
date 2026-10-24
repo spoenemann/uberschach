@@ -1,5 +1,5 @@
 {
-  "about": "After 1.d4 e6 (Franco-Indian Defence): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written.",
+  "about": "After 1.d4 e6 (Franco-Indian Defence): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written. The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
   "positions": [
     {
       "line": "1.d4 e6",
@@ -815,6 +815,145 @@
     },
     {
       "line": "1.d4 e6 2.Bf4 Qh4"
+    },
+    {
+      "line": "1.d4 e6 2.Bf4 f5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Franco-Indian_Defence"
+      ],
+      "moves": [
+        {
+          "san": "g4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.Bf4 f5 3.g4"
+    },
+    {
+      "line": "1.d4 e6 2.c4 Bb4+",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Keres_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 Bb4+ 3.Nc3"
+    },
+    {
+      "line": "1.d4 e6 2.c4 c5",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 c5 3.d5",
+      "moves": [
+        {
+          "san": "exd5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 c5 3.Nf3",
+      "moves": [
+        {
+          "san": "cxd4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 c5 3.d5 exd5",
+      "moves": [
+        {
+          "san": "cxd5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 c5 3.d5 exd5 4.cxd5",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 c5 3.d5 exd5 4.cxd5 d6",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 c5 3.d5 exd5 4.cxd5 d6 5.Nc3",
+      "moves": [
+        {
+          "san": "g6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 c5 3.d5 exd5 4.cxd5 d6 5.Nc3 g6",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 c5 3.d5 exd5 4.cxd5 d6 5.Nc3 g6 6.e4",
+      "moves": [
+        {
+          "san": "Bg7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 c5 3.d5 exd5 4.cxd5 d6 5.Nc3 g6 6.e4 Bg7"
+    },
+    {
+      "line": "1.d4 e6 2.c4 c5 3.Nf3 cxd4",
+      "moves": [
+        {
+          "san": "Nxd4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 c5 3.Nf3 cxd4 4.Nxd4",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 c5 3.Nf3 cxd4 4.Nxd4 Nf6"
     }
   ]
 }

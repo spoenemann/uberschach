@@ -54,6 +54,7 @@
     "strategy": "Matches White's fianchetto: the king's bishop belongs on the long diagonal anyway. Black stays flexible and keeps the choice between challenging the centre at once and letting White build it first."
   },
   "1.d4 Nf6 2.c4 g6 3.g3 d5": {
+    "name": "Neo-Grünfeld Defence: with g3",
     "strategy": "Challenges the centre at once with a pawn. White's fianchetto bishop will bear down on d5, and the centre is likely to be traded off; the game is a calm one in which White has no knight on c3 yet to meet the pawn directly."
   },
   "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7": {
@@ -68,5 +69,100 @@
   "1.d4 Nf6 2.c4 g6 3.Nf3 d5": {
     "strategy": "Challenges c4 at once, before White has played Nc3. White can win space with cxd5 and then kick the recapturing knight with e4, but Black gets quick piece play against that centre; with the knight not yet on c3, this is a different game from the main Grünfeld lines.",
     "name": "Neo-Grünfeld Defence: with Nf3"
+  },
+  "1.d4 Nf6 2.c4 g6 3.f3 c5 4.d5": {
+    "strategy": "Gains space and fixes the pawn structure, escaping the pressure on d4. White gets a free hand in the centre; Black gets targets, since the d5 pawn can be attacked and the queenside is open for pawn play. The slow f3 pawn will matter if the position opens."
+  },
+  "1.d4 Nf6 2.c4 g6 3.f3 c5 4.d5 d6": {
+    "strategy": "Builds a solid pawn chain and takes e5 under control. Black accepts White's space and counts on queenside pawn play and pressure against the d5 pawn, and the pawn on d6 also gives the dark-squared bishop a solid pawn chain to work behind."
+  },
+  "1.d4 Nf6 2.c4 g6 3.f3 c5 4.d5 d6 5.e4": {
+    "strategy": "Completes the broad pawn centre that f3 was preparing, taking space and fixing the structure. The cost is development: f3 takes the natural square from the g1 knight, and Black will undermine the centre with pawn breaks while White looks for a kingside attack."
+  },
+  "1.d4 Nf6 2.c4 g6 3.f3 c5 4.d5 d6 5.e4 Bg7": {
+    "strategy": "Completes the fianchetto: the bishop is the base of Black's counterplay and the king can castle behind it. White has the space and the broad centre; Black keeps the structure flexible and waits for the moment to hit it, with pawn breaks on the queenside and against e4."
+  },
+  "1.d4 Nf6 2.c4 g6 3.f3 c5 4.d5 d6 5.e4 Bg7 6.Nc3": {
+    "strategy": "Develops the queenside knight to support e4 and d5, rounding off the chain of pawns on c4, d5 and e4. The king's knight still lacks a natural square because of f3, so White's development remains awkward. White has the space, Black the targets."
+  },
+  "1.d4 Nf6 2.c4 g6 3.f3 c5 4.d5 d6 5.e4 Bg7 6.Nc3 e6": {
+    "strategy": "Attacks the d5 pawn with a pawn, offering to trade Black's e-pawn for White's space-gaining spearhead. Black gets a fluid structure with play against e4 and the queenside pawns ready to advance; White keeps the space but has to guard the central pawns."
+  },
+  "1.d4 Nf6 2.c4 g6 3.g3 Bg7 4.Bg2": {
+    "strategy": "Completes the fianchetto: the bishop watches the long diagonal, fights for d5 and the queenside, and the king can castle behind it. White has not yet decided how to build the centre, which is the point of the quiet start."
+  },
+  "1.d4 Nf6 2.c4 g6 3.g3 d5 4.Bg2": {
+    "strategy": "Completes the fianchetto and lines the bishop up against the d5 pawn: if Black ever lets the tension go, the bishop presses the centre and the queenside from the long diagonal. White accepts the tension on c4 and d5 and keeps the king safe."
+  },
+  "1.d4 Nf6 2.c4 g6 3.g3 d5 4.Bg2 Bg7": {
+    "strategy": "Develops the bishop behind the knight, so that after the central pawns are exchanged it bears down on d4. Both sides now have fianchettoed bishops, and the game becomes a manoeuvring fight over the centre rather than a race."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.Nc3": {
+    "strategy": "Develops the knight to its natural square and reaches the standard 3.Nc3 set-up by a different move order. White keeps every plan open, from a broad pawn centre to a fianchetto, and Black decides whether to challenge the centre at once or to build a classical structure."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3": {
+    "name": "King's Indian Defence: Fianchetto Variation",
+    "background": "Viktor Korchnoi was once its most notable practitioner, and it is one of the most popular lines at grandmaster level.",
+    "strategy": "Answers the fianchetto in kind: the bishop on g2 shelters the king and bears down on the long diagonal. Because e4 would block that bishop, White often avoids it and keeps the centre flexible, playing for a slower, patient fight instead of a big pawn centre."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.b4": {
+    "name": "King's Indian Defence: Santasiere Variation",
+    "strategy": "An offbeat flank advance that grabs queenside space and clears b2 for the bishop. The pawn on b4 stands undefended and does nothing for the centre, so Black can complete development calmly and ask White to justify the loosening."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 O-O": {
+    "strategy": "Castles into the shelter of the fianchettoed bishop, so the king is safe at once. Black commits to no pawn structure yet and keeps the choice between a classical set-up and a direct strike at the centre."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 d6": {
+    "strategy": "Prepares the classical structure, with the pawn on d6 holding the e5 square for a later central break. It usually transposes to the main line once Black castles, but it gives up the immediate central strike with the d-pawn."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 c5": {
+    "strategy": "Hits d4 at once from the wing, before castling. It is active, but d4 is defended twice and the king is still in the centre, so White can calmly continue development and Black's pawn move has no concrete follow-up."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 c5 5.Bg2": {
+    "strategy": "Ignores the challenge to d4, which is attacked once and defended twice, and completes the fianchetto. White keeps all options in the centre while Black's c-pawn has yet to find a follow-up, and the bishop will matter on the light squares and the long diagonal."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 c5 5.Bg2 Qa5+": {
+    "name": "King's Indian Defence: Fianchetto Variation, Pterodactyl Variation",
+    "strategy": "An early check that drags the queen out to pressure the queenside diagonal and the c3 square, forcing White to answer with a developing move. It gains a tempo but exposes the queen, which will have to move again, so it works only if Black gets something lasting for it."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 d6 5.Bg2": {
+    "strategy": "Completes the fianchetto: the bishop pressures the long diagonal and shelters the future castled king. Because e4 would block it, White avoids that push and plays for a flexible, slower fight in which the bishop matters more than a pawn centre."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 d6 5.Bg2 O-O": {
+    "strategy": "Castles into the fianchetto with the classical pawn structure in place. Black has a solid, compact set-up, and with a fianchettoed bishop on each side the fight for the centre is fought by piece pressure rather than by early pawn advances."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 d6 5.Bg2 O-O 6.O-O": {
+    "strategy": "Castles and completes the set-up in which both kings sit behind fianchettoed bishops. White's kingside is more solid than in most King's Indian lines, so Black's usual attack on the king hardly works, and the fight is for the centre and c4."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 d6 5.Bg2 O-O 6.O-O Nc6": {
+    "strategy": "Pressures d4 and prepares to challenge the centre, and the knight can later head for the edge to bear down on c4, the weak point of the fianchetto set-up. Black trades a little comfort for lasting queenside pressure; White must keep c4 covered."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 d6 5.Bg2 O-O 6.O-O Nbd7": {
+    "strategy": "Supports the e5 advance with a piece and leaves the c-pawn and the c8-bishop untouched. Black aims to claim the centre with ...e5, the plan of the classical King's Indian, and White has to decide how to meet it."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 d6 5.Bg2 O-O 6.O-O c5": {
+    "name": "King's Indian Defence: Fianchetto Variation, Yugoslav System",
+    "strategy": "Hits d4 with the c-pawn instead of the e-pawn, trading a wing pawn for a central one and moving Black's counterplay to the queenside. White decides whether to release the tension or to gain space; if the centre opens, the g7 bishop gains scope."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 d6 5.Bg2 O-O 6.O-O c6": {
+    "strategy": "A restrained pawn move that supports a later ...d5 and gives the queen the b6 and a5 squares. Black claims no space yet, so White can take time to build a position."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 O-O 5.Bg2": {
+    "strategy": "Completes the fianchetto while Black has shown only the safe king. White keeps the pawn centre flexible and lets Black choose between a classical structure and a Grünfeld-style strike at the centre."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 O-O 5.Bg2 d6": {
+    "strategy": "Commits to the classical King's Indian pawn structure, which holds e5 and keeps the g7 bishop behind a solid base. The game transposes to the main fianchetto line, a patient manoeuvring game."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 O-O 5.Bg2 d5": {
+    "strategy": "Strikes at c4 and the centre at once, the Grünfeld idea meeting a fianchetto. With no knight on c3, White cannot easily build a big pawn centre, so the game is more balanced and manoeuvring, and Black fights for the centre with piece pressure."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 O-O 5.Bg2 c6": {
+    "strategy": "Keeps both a quiet and a Grünfeld-style structure available and supports a later pawn on d5, so a capture there can be answered by the c-pawn. It commits to a solid, flexible set-up and waits to see where White puts the pieces."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 O-O 5.Bg2 c6 6.O-O": {
+    "strategy": "Brings the king to safety before the centre is decided. White stays flexible, free to keep the tension on c4 and d4 or to exchange, and Black must now show what the c6 pawn is for."
+  },
+  "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 O-O 5.Bg2 c6 6.O-O d5": {
+    "strategy": "Strikes at the centre, now backed by the c6 pawn, so a capture on d5 can be answered by recapturing with the pawn and keeping a solid pawn there. Black gets a sound structure and a long-diagonal bishop, and the game turns on pressure against c4 and d5."
   }
 }

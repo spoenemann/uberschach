@@ -43,6 +43,8 @@
     "strategy": "Develops the bishop to an active square from which it aims through the empty f2 at the knight on g1. Black takes advantage of the weakness that White's pawn move created."
   },
   "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4": {
+    "name": "Vienna Game: Frankenstein-Dracula Variation",
+    "background": "Tim Harding gave the variation its name in his 1976 book on the Vienna Game, saying that a game between Dracula and the Frankenstein Monster would not seem out of place in such bloodthirsty play. It is rarely seen at the top level.",
     "strategy": "Takes the e4-pawn at once. Recapturing with the knight allows ...d5, a fork of bishop and knight, so White cannot count on winning it back. Black is a pawn up and White must attack f7 with queen and bishop to get compensation, which leads to very sharp play."
   },
   "1.e4 e5 2.Bc4 Nf6 3.Nc3 Bc5": {
@@ -58,5 +60,104 @@
   },
   "1.e4 e5 2.Bc4 Nf6 3.Ne2 Nxe4": {
     "strategy": "Takes the undefended pawn: the knight on e2 does not guard e4. Black is a clean pawn up and has the simpler game."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d3 Be7 4.Nf3": {
+    "strategy": "Develops the knight with an attack on e5, which has no defender yet. Black has to take care of the pawn at once, while White's development proceeds naturally towards castling."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d3 Be7 4.Nf3 O-O": {
+    "name": "Bishop's Opening: Kitchener Folly",
+    "strategy": "Castles but forgets the e5-pawn: nothing defends it, and 5.Nxe5 wins it. Striking at the bishop with ...d5 does not get it back, as exd5 keeps the extra pawn. Castling is natural, but it is not urgent here."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d3 Nc6 4.Nc3": {
+    "strategy": "Develops the second knight and keeps a later f-pawn break in reserve, in the spirit of a delayed King's Gambit. The knight also watches d5, so Black's central strikes are harder. A flexible, solid choice, though it blocks the c-pawn."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.Nf3": {
+    "name": "Bishop's Opening: Urusov Gambit",
+    "background": "Named after the Russian prince Sergey Semyonovich Urusov (1827-1897).",
+    "strategy": "Attacks the d4-pawn at once and develops with tempo, so White threatens to regain it with a lead in development. The cost is that e4 is only defended by that tempo: Black must decide between keeping the pawn and returning it for a calm game."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.c3": {
+    "name": "Bishop's Opening: Warsaw Gambit",
+    "strategy": "Rebuilds the centre with a pawn rather than a piece. White offers a second pawn to open lines for the pieces, but leaves e4 undefended, so Black can take it at once. A speculative try with a high price."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.Nf3 d5": {
+    "strategy": "Strikes at the centre at once, hitting the bishop and the e4-pawn. Black gives the extra pawn back in exchange for open lines and quick development, and aims for a balanced game."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.Nf3 Nxe4": {
+    "strategy": "Keeps the extra pawn by taking e4. Black gets a solid position without clear weaknesses, while White has piece activity and attacking chances as compensation. A test of whether the defender can hold on."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.Nf3 d5 5.exd5": {
+    "strategy": "Removes the attacker of the bishop and regains a pawn at once. White opens the position, and Black's pieces now develop with tempo, so the pawn does not leave White ahead in the fight for activity."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.Nf3 d5 5.exd5 Bb4+": {
+    "strategy": "Develops the bishop with check, so White has to spend a move on it before Black recaptures on d5. With the e-file open and the white king still in the centre, Black gets the easier development."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.Nf3 d5 5.exd5 Bb4+ 6.c3": {
+    "strategy": "The usual block: the pawn attacks the bishop and the d4-pawn at once, forcing Black to act. White is happy to open lines for the pieces in return for a pawn."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.Nf3 d5 5.exd5 Bb4+ 6.c3 Qe7+": {
+    "name": "Bishop's Opening: Urusov Gambit, Panov Variation",
+    "strategy": "Answers the attack on the bishop with a second check along the open e-file, so White must block or move the king. Black gains time and drives towards a balanced, open game."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.d4 exd4 4.Nf3 Nxe4 5.Qxd4": {
+    "name": "Bishop's Opening: Urusov Gambit, Keidansky Gambit",
+    "strategy": "Wins a pawn back with a centralised queen that attacks the knight on e4 and eyes g7, so Black must react. White is still a pawn down but has the lead in development and attacking chances against the king."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.f3 Bc5 4.Ne2": {
+    "strategy": "Gets the knight out of the bishop's aim and develops it on the best square the f-pawn leaves it. White is solid enough, but the pawn move has cost time and the king's side is looser."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.f3 Bc5 4.Ne2 Nc6": {
+    "strategy": "Develops the second knight and adds pressure on the centre. Black is ahead in development, which is the reward for the weakening third move."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.f3 Bc5 4.Ne2 Nc6 5.b4": {
+    "name": "Bishop's Opening: Krejcik Gambit",
+    "strategy": "Offers the b-pawn to gain time against the bishop and build a broad centre, but f3 and Ne2 do little to support it, so it is a speculative try rather than a plan."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Bc5 4.d3": {
+    "name": "Bishop's Opening: Vienna Hybrid, Spielmann Attack",
+    "strategy": "Defends e4 solidly so that ...Nxe4 is no longer a threat, and frees the queen's bishop. White keeps a flexible position with a later f-pawn break in reserve, a quiet move with attacking potential."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Bc5 4.Nge2": {
+    "strategy": "Develops the second knight without blocking the f-pawn, and supports a later central push. It puts the knight on a less active square than f3, and it does nothing about Black's bishop aimed at f2."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Bc5 4.Nge2 b5": {
+    "name": "Vienna Game: Stanley Variation, Eifel Gambit",
+    "strategy": "Offers a pawn to drag the bishop or the knight away: the pawn attacks the bishop but is attacked twice and defended by nothing, so White just takes it and Black has little to show."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5": {
+    "strategy": "A double threat: the queen and the bishop aim at f7, threatening mate, and the queen also attacks the e5-pawn. Black has to answer both at once, which makes the line forcing and sharp."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5 Nd6": {
+    "strategy": "The only good answer to both threats: the knight guards f7, attacks the bishop and returns to the defence. It leaves e5 loose, which gives the line its sharpness."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5 Nd6 5.Bb3": {
+    "strategy": "Saves the bishop and keeps it aimed at f7. The queen still attacks e5, which nothing defends, so Black must find a way to meet that threat."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5 Nd6 5.Bb3 Nc6": {
+    "strategy": "Defends e5 with a developing move and keeps the extra pawn. Black chooses the sharp road: the king stays in the centre, and White's knight can jump in with threats on c7 and d6."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5 Nd6 5.Bb3 Be7": {
+    "name": "Vienna Game: Stanley Variation, Monster Declined",
+    "strategy": "The calmer choice: Black does not defend e5 and gives back the extra pawn to complete development and castle safely. A balanced game follows."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5 Nd6 5.Bb3 Be7 6.Nf3": {
+    "strategy": "Attacks e5 a second time and develops, so the pawn is regained unless Black reinforces it. White also gets closer to castling."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5 Nd6 5.Bb3 Be7 6.Nf3 Nc6": {
+    "strategy": "Develops and defends e5, but the pawn is attacked twice and defended once, so Black gives it back in return for safe development."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5 Nd6 5.Bb3 Nc6 6.Nb5": {
+    "strategy": "The point of the line: the knight attacks the knight on d6, which guards f7, and eyes c7. White keeps the initiative and plays for a quick attack."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5 Nd6 5.Bb3 Nc6 6.d4": {
+    "name": "Vienna Game: Adams' Gambit",
+    "strategy": "Attacks e5 with a pawn as well as the queen, and dxe5 would also drive the knight from d6. If Black takes on d4, White is a second pawn down and the open centre exposes White's pieces; a speculative try."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Nc3 Nxe4 4.Qh5 Nd6 5.Bb3 Nc6 6.Nb5 g6": {
+    "strategy": "Attacks the queen with a pawn and wins a tempo. Black accepts that the knight can win a rook on a8 in exchange for an attack on the stranded piece and the king in the centre, the sharpest way to play."
+  },
+  "1.e4 e5 2.Bc4 Nf6 3.Ne2 Nxe4 4.Nec3": {
+    "name": "Bishop's Opening: Pachman Gambit",
+    "strategy": "Attacks the knight on e4 at once. White hopes to trade it off and use the lead in development, but the pawn is still missing, and Black keeps it in a solid structure."
   }
 }

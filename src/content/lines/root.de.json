@@ -146,6 +146,7 @@
     "name": "Sokolski-Eröffnung: Symmetrische Variante"
   },
   "1.d3 e5": {
+    "name": "Mieses-Eröffnung: Umgekehrte Rat-Verteidigung",
     "strategy": "Nimmt sofort das Zentrum, denn der bescheidene erste Zug des Weißen hat es freigelassen. Schwarz bekommt einen vollen Bauern auf e5 und eine leichte Entwicklung, und Weiß muss beweisen, dass der flexible, weniger festgelegte Aufbau den überlassenen Raum wert ist."
   },
   "1.d3 g6": {
@@ -201,6 +202,7 @@
     "strategy": "Der instinktive Griff nach dem Zentrum, und ein guter: Schwarz baut ein eigenes Bauernzentrum auf und kann das Feld h4 anvisieren, das der g-Bauer schwach zurückgelassen hat. Es setzt Weiß weniger direkt unter Druck als der Angriff auf g4."
   },
   "1.g4 g5": {
+    "name": "Grob-Angriff: Doppel-Grob",
     "strategy": "Kopiert den Zug von Weiß, sodass keine Seite die besser stehenden Bauern am Königsflügel hat. Das ist sicher und hält das Gleichgewicht, aber Schwarz lässt die Gelegenheit aus, das Zentrum zu besetzen und den geschwächten Königsflügel zu bestrafen."
   },
   "1.g4 f5": {
@@ -269,5 +271,132 @@
   },
   "1.Nh3 d5": {
     "strategy": "Schwarz besetzt sofort das Zentrum und bestraft das ungewöhnliche Feld des Springers: ...Lxh3 droht, ihn zu schlagen und die Bauern von Weiß am Königsflügel zu verdoppeln. Schwarz verliert nichts dadurch, dass er als Erster das Zentrum besetzt, und Weiß muss einen Zug für das Problem des Springers aufwenden."
+  },
+  "1.a3 a5 2.b4": {
+    "name": "Anderssen-Eröffnung: Polnisches Gambit",
+    "strategy": "Ein zweifelhaftes Gambit: Der Bauer wird angeboten, um die lange Diagonale für den Läufer und die a-Linie für den Turm zu öffnen. Schwarz nimmt ihn einfach, und Weiß kann nicht mit dem a-Bauern zurückschlagen, weil der Turm auf a8 dann den Turm auf a1 schlagen würde. Die offenen Linien sind keinen Bauern wert."
+  },
+  "1.a3 e5 2.b3": {
+    "strategy": "Bereitet vor, den Damenläufer auf die lange Diagonale zu stellen, wo er den Bauern auf e5 und den Königsflügel im Blick hat. Weiß überlässt Schwarz vorerst das Zentrum und spielt auf Druck aus der Ferne, ein langsamer, aber solider Aufbau."
+  },
+  "1.a3 e5 2.g3": {
+    "strategy": "Bereitet das Fianchetto des Königsläufers und eine frühe Rochade vor und zielt auf die lange Diagonale. Weiß nimmt hin, dass Schwarz den größeren Anteil am Zentrum hat, und spielt flexibel und ruhig in der Hoffnung, den Bauern auf e5 später zu untergraben."
+  },
+  "1.a3 e5 2.Nc3": {
+    "name": "Dunst-Eröffnung: Battambang-Variante",
+    "strategy": "Entwickelt einen Springer zum Zentrum, wo er die Felder e4 und d5 im Blick hat, und der Bauer auf a3 nimmt dem Läufer des Schwarzen das Feld b4. Der Preis ist, dass der Springer den c-Bauern blockiert, sodass Weiß den Aufbau mit c4 nicht errichten kann und Schwarz das Zentrum überlässt."
+  },
+  "1.a4 b5 2.axb5": {
+    "strategy": "Nimmt den freien Bauern, und Schwarz kann ihn nicht sofort zurückgewinnen. Weiß bleibt einen Bauern im Plus und öffnet die a-Linie für den Turm, während der Bauer auf b5 den Damenflügel einengt; der Ausgleich von Schwarz beschränkt sich auf rasche Entwicklung."
+  },
+  "1.a4 b5 2.axb5 Bb7": {
+    "name": "Ware-Eröffnung: Flügelgambit",
+    "strategy": "Setzt das Gambit fort: Der Läufer geht im Fianchetto auf die lange Diagonale und zielt auf den Königsflügel, als Gegenwert für den Bauern. Es ist die natürliche Fortsetzung, doch Schwarz steht einen Bauern im Minus und hat kaum mehr als einen freien Läufer vorzuweisen."
+  },
+  "1.d3 c5 2.Nc3": {
+    "strategy": "Entwickelt den Springer dorthin, wo er die Felder d5 und e4 im Blick hat, und hält die Stellung flexibel. Der c-Bauer ist blockiert, deshalb begnügt sich Weiß mit einem zurückhaltenden Aufbau mit Königsfianchetto statt eines schnellen Durchbruchs im Zentrum."
+  },
+  "1.d3 c5 2.Nc3 Nc6": {
+    "strategy": "Entwickelt eine Figur und gibt d4 eine zweite Deckung, sodass Weiß dieses Feld nicht leicht beanspruchen kann. Schwarz spiegelt den flexiblen Aufbau des Weißen und hält sich im Zentrum alle Optionen offen."
+  },
+  "1.d3 c5 2.Nc3 Nc6 3.g3": {
+    "name": "Mieses-Eröffnung: Venezolana-Variante",
+    "strategy": "Bereitet das Fianchetto des Königsläufers vor, der hinter dem d3-Bauern auf f1 wenig zu tun hat, aber von g2 aus eine lange Diagonale beherrscht. Weiß strebt ein langsames, solides Spiel an, in dem der Läufer und der Springer auf c3 gemeinsam d5 und den Damenflügel unter Druck setzen."
+  },
+  "1.d3 e5 2.Nd2": {
+    "name": "Valencia-Eröffnung",
+    "strategy": "Zieht mit dem Springer Richtung Zentrum und lässt den f-Bauern frei, sperrt aber den Damenläufer ein und behindert die Entwicklung. Der Zug ist spielbar, da dieser Läufer nach b3 immer noch auf b2 herauskommen kann, aber er ist die weniger natürliche Antwort auf den Zentrumsbauern von Schwarz."
+  },
+  "1.d3 g6 2.g4": {
+    "name": "Mieses-Eröffnung: Myers-Spike-Angriff",
+    "strategy": "Ein Vorstoß am Flügel, der Raum am Königsflügel gewinnt und vorbereitet, die Bauern weiter vorzuschieben. Er lockert den eigenen Königsflügel des Weißen, bevor eine einzige Figur gezogen wurde, sodass sich der Angriff schnell rechtfertigen muss; Schwarz hat währenddessen im Zentrum freie Hand."
+  },
+  "1.f3 d5 2.e4": {
+    "strategy": "Greift sofort das Zentrum an und bietet einen Bauerntausch an. Das macht einen Teil des Schadens des ersten Zugs wett, doch der Bauer auf f3 nimmt dem Springer weiterhin sein natürliches Feld und lässt den König auf einer offenen Diagonale stehen, sodass Schwarz leichtes Spiel hat."
+  },
+  "1.f3 f5 2.e4": {
+    "strategy": "Schlägt im Zentrum mit einem Bauernangebot zu und hofft, gegen den Bauern, den Schwarz nimmt, Zeit für die Entwicklung zu gewinnen. Weiß muss die Kompensation erst beweisen, und die offene Diagonale e1–h4 bleibt eine Belastung."
+  },
+  "1.f3 f5 2.e4 fxe4": {
+    "strategy": "Nimmt den angebotenen Bauern und zieht den Mittelbauern von Weiß weg. Schwarz steht einen Bauern besser, und Weiß hat kaum mehr als offene Linien vorzuweisen; Schwarz muss nur auf die schnelle Entwicklung von Weiß achten."
+  },
+  "1.f3 f5 2.e4 fxe4 3.Nc3": {
+    "name": "Barnes-Eröffnung: Gedult-Gambit",
+    "strategy": "Greift den Bauern auf e4 ein zweites Mal an und entwickelt eine Figur, um den Bauern sofort zurückzugewinnen. Schwarz muss einen Weg finden, ihn zu behalten; gelingt das, hat Weiß für das Opfer nur schnelle Entwicklung vorzuweisen."
+  },
+  "1.f4 h6 2.Nf3": {
+    "strategy": "Ein natürlicher Entwicklungszug, der das geplante ...g5 riskant macht: Von f3 aus nimmt der Springer g5 ins Visier, sodass der Bauer zweimal angegriffen und nur einmal gedeckt wäre. Weiß gewinnt einen nützlichen Zug, während der h-Bauer von Schwarz bisher kaum mehr getan hat, als die Königsflanke zu schwächen."
+  },
+  "1.f4 h6 2.Nf3 g5": {
+    "name": "Bird-Eröffnung: Hobbs-Zilbermints-Gambit",
+    "strategy": "Überdehnt: Der Bauer auf g5 wird zweimal angegriffen und nur einmal gedeckt, sodass Weiß ihn einfach schlägt und glatt einen Bauern gewinnt. Die offene h-Linie bringt Schwarz nichts, weil der Turm auf h1 den Bauern h2 deckt, und Schwarz hat die eigene Königsflanke für zwei vergeudete Züge geschwächt."
+  },
+  "1.g4 g5 2.f4": {
+    "name": "Grob-Angriff: Doppel-Grob, Coca-Cola-Gambit",
+    "background": "Der Ursprung des Namens ist ungewiss; die ersten bekannten Erwähnungen im Internet sind ein Beitrag in einem deutschen Forum und ein Beitrag im Forum von chess.com, beide aus dem Jahr 2008.",
+    "strategy": "Bietet einen Bauern ohne konkreten Gegenwert an: 2...gxf4 gewinnt ihn, und der weiße König bleibt auf der Diagonale von e1 nach h4 ungeschützt, sobald Schwarz das Zentrum öffnet. Weiß hat weder für den verlorenen Bauern noch für den geschwächten Königsflügel eine Kompensation."
+  },
+  "1.h3 d5 2.a3": {
+    "strategy": "Ein zweiter Zug am Rand, der auf ein schnelles c4 gegen den Bauern d5 zielt und einen schwarzen Läufer von b4 fernhalten soll. Er ist solide, aber passiv: Schwarz behält das freiere Zentrum."
+  },
+  "1.h3 d5 2.a3 e5": {
+    "name": "Creepy-Crawly-Aufbau: Klassische Verteidigung",
+    "strategy": "Fügt einen zweiten Zentrumsbauern hinzu, sodass Schwarz ein breites Zentrum besitzt, während Weiß zwei Züge mit Randbauern verbracht hat. Weiß muss nun zeigen, dass sich der Flügelaufbau für den verlorenen Zeitgewinn lohnt, und Schwarz kann sich einfach entwickeln und um das Zentrum spielen."
+  },
+  "1.h3 e5 2.a3": {
+    "name": "Globale Eröffnung",
+    "background": "Auch als Creepy Crawly Formation bekannt, ein humorvoller Name für die Aufstellung der Flügelbauern von Weiß.",
+    "strategy": "Bleibt zum zweiten Mal in Folge am Flügel, bereitet ein schnelles c4 und einen langsamen Aufbau vor und hindert einen schwarzen Läufer daran, nach b4 zu kommen. Schwarz besitzt bereits das Zentrum, daher spielt Weiß eine geduldige Partie aus passiver Stellung."
+  },
+  "1.h3 h5 2.g4": {
+    "name": "Clemenz-Eröffnung: Spike-Lee-Gambit",
+    "background": "Der Zusammenhang mit dem Filmemacher Spike Lee besteht wahrscheinlich nicht direkt. Von diesem Gambit ist keine Turnierpartie überliefert.",
+    "strategy": "Gibt einen Bauern umsonst her: 2...hxg4 gewinnt ihn, und 3.hxg4 würde die h-Linie für 3...Txh1 öffnen und den Turm gewinnen. Der Königsflügel von Weiß bleibt geschwächt, und es gibt keine Kompensation für den Bauern."
+  },
+  "1.h4 c5 2.b4": {
+    "name": "Kádas-Eröffnung: Kádas-Gambit",
+    "strategy": "Ein Flügelgambit: Weiß bietet den b-Bauern an, um den c-Bauern des Schwarzen vom Zentrum wegzulocken und dort Raum zu gewinnen. Es kostet einen Bauern und einen zweiten Flankenzug mit Bauern für einen bescheidenen Vorsprung, und Schwarz kann den Bauern einfach nehmen und sich entwickeln."
+  },
+  "1.h4 d5 2.d4": {
+    "strategy": "Die konsequente Antwort: Weiß beansprucht das Zentrum mit einem Bauern und strebt eine solide Partie mit Damenbauer an, in der der h-Bauernzug nur ein zusätzlicher Flankenschritt ist. Die Stellung ist dieselbe wie bei umgekehrter Zugfolge der Bauernzüge."
+  },
+  "1.h4 d5 2.Rh3": {
+    "name": "Kádas-Eröffnung: Anfängerfalle",
+    "strategy": "Verliert Material: Der durch ...d5 befreite Läufer c8 schlägt den Turm, und Weiß kann nur mit dem g-Bauern zurückschlagen. Weiß steht mit der Qualität im Nachteil, hat Doppelbauern auf der h-Linie und eine beschädigte Königsstellung, ohne etwas dafür zu bekommen."
+  },
+  "1.h4 e5 2.d4": {
+    "strategy": "Greift sofort e5 an, um das Zentrum zu öffnen. Schwarz kann den Bauern einfach nehmen, daher muss Weiß die Idee durch weitere Opfer oder schnelle Entwicklung untermauern, und der frühe h-Bauernzug lässt Weiß im Wettlauf etwas zurückliegen."
+  },
+  "1.h4 e5 2.d4 exd4": {
+    "strategy": "Nimmt den Bauern und beseitigt den Zentralbauern des Weißen, sodass Schwarz einen Bauern mehr hat und natürlicher entwickelt ist. Der Mehrbauer ist es wert, behalten zu werden, doch Weiß bekommt Zeit, Linien aufzubauen, daher muss Schwarz mit Sorgfalt weiter entwickeln."
+  },
+  "1.h4 e5 2.d4 exd4 3.c3": {
+    "name": "Kádas-Eröffnung: Kádas-Gambit",
+    "strategy": "Bietet einen zweiten Bauern an, um Linien für die Figuren zu öffnen. Nimmt Schwarz erneut, steht Weiß zwei Bauern zurück für einen Entwicklungsvorsprung, und das ist schwer zu rechtfertigen, da der h-Bauernzug bereits ein Tempo gekostet hat."
+  },
+  "1.Na3 g6 2.g4": {
+    "name": "Durkin-Eröffnung: Chenoboskion-Variante",
+    "strategy": "Gewinnt Raum am Königsflügel in der Hoffnung auf einen schnellen Angriff, lockert aber den eigenen König des Weißen und tut nichts für den Springer am Rand. Schwarz antwortet mit Entwicklung und einem Schlag im Zentrum, und der vorgerückte Bauer wird zum Angriffsziel statt zur Speerspitze."
+  },
+  "1.Nc3 f5 2.e4": {
+    "strategy": "Greift den Bauern auf f5 sofort an. Der Springer auf c3 deckt e4 bereits, sodass der Bauer nicht umsonst zu gewinnen ist, und Schwarz muss zwischen Schlagen und Halten des Zentrums wählen. Weiß erhält in jedem Fall die Führung im Zentrum."
+  },
+  "1.Nc3 f5 2.e4 fxe4": {
+    "strategy": "Nimmt den Bauern und gewinnt zentrales Material, doch die Diagonale e8-h5 ist nach ...f5 schon offen und bleibt es. Schwarz muss bereit sein, den Bauern zurückzugeben oder die gelockerte Königsseite zu verteidigen."
+  },
+  "1.Nc3 f5 2.e4 fxe4 3.d3": {
+    "name": "Dunst-Eröffnung: Kluever-Gambit",
+    "strategy": "Ein Gambit: Weiß bietet einen zweiten Bauern an, um die Stellung für die Läufer und die Dame zu öffnen. Der Läufer auf d3 würde entlang der offenen Diagonale auf g6 und den Bauern h7 zielen, was die Annahme für Schwarz riskant macht, doch die Kompensation verlangt scharfes Spiel."
+  },
+  "1.Nc3 g6 2.h4": {
+    "name": "Dunst-Eröffnung: Myers-Angriff",
+    "strategy": "Ein Flügelvorstoß, der mit h5 droht, um g6 zu untergraben, doch er kostet Zeit und tut nichts für die Entwicklung. Schwarz entwickelt sich einfach und begegnet der Drohung gelassen."
+  },
+  "1.Nc3 Nf6 2.g4": {
+    "name": "Dunst-Eröffnung: Tübinger Gambit",
+    "strategy": "Gibt einen Bauern umsonst her: Schwarz nimmt ihn mit dem Springer, und wenn die Dame den Springer angreift, zieht er sich einfach zurück. Weiß hat die Königsseite geschwächt und hat keine Kompensation."
+  },
+  "1.Nh3 d5 2.g3": {
+    "strategy": "Die übliche Antwort auf die Drohung: Nach ...Lxh3 schlägt der Läufer zurück, sodass die Bauern von Weiß intakt bleiben. Der Zug öffnet außerdem die lange Diagonale für den Königsläufer. Der Springer bleibt am Rand und Weiß ein Tempo im Rückstand, sodass die Partie ruhig verläuft und Schwarz es leichter hat."
   }
 }

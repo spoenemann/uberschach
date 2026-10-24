@@ -14,9 +14,12 @@
     "name": "Old Indian Defence: Aged Gibbon Gambit"
   },
   "1.d4 Nf6 2.c4 d6 3.Nc3 e5": {
+    "name": "Old Indian Defence: Ukrainian Variation",
     "strategy": "Occupies the centre with a pawn backed by d6 and challenges White's plan of building a big pawn centre. Black accepts a compact structure with a little less space, but a solid one in which every piece has a clear job."
   },
   "1.d4 Nf6 2.c4 d6 3.Nc3 Bf5": {
+    "name": "Old Indian Defence: Janowski Variation",
+    "background": "Dawid Janowski introduced 3...Bf5 in the 1920s, but it gained little popularity until the 1980s. Mikhail Tal, Bent Larsen, Florin Gheorghiu and Kamran Shirazi have each played it several times.",
     "strategy": "Develops the bishop outside the pawn chain before it can be shut in, and stops White's space grab: 4.e4 would simply lose a pawn to ...Nxe4. The price is that the bishop on f5 needs care later, and Black still has to settle the centre."
   },
   "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7": {
@@ -33,5 +36,50 @@
   "1.d4 Nf6 2.c4 d6 3.Nf3 c6": {
     "strategy": "Prepares a solid centre with a pawn on c6 that takes d5 and b5 from White's pieces. It takes the natural square from the queen's knight and does not challenge White's centre, so Black waits to see what White does.",
     "name": "Old Indian Defence: Czech Variation, with Nf3"
+  },
+  "1.d4 Nf6 2.c4 d6 3.Nc3 Bf5 4.f3": {
+    "name": "Old Indian Defence: Janowski Variation, Main Line",
+    "strategy": "Prepares e4 with the support of a pawn, so that the knight and bishop can no longer win it. White still builds the broad centre it wants, at the cost of loosening the e1-h4 diagonal and taking the natural square from the g1 knight."
+  },
+  "1.d4 Nf6 2.c4 d6 3.Nc3 Bf5 4.g3": {
+    "name": "Old Indian Defence: Janowski Variation, Fianchetto Variation",
+    "strategy": "A quiet answer to the bishop's idea: the fianchettoed bishop on g2 will guard e4, so White can still prepare a central advance. A low-risk choice that claims less space than a big pawn centre but keeps long-term pressure on the long diagonal."
+  },
+  "1.d4 Nf6 2.c4 d6 3.Nc3 Bf5 4.e4": {
+    "name": "Old Indian Defence: Janowski Variation, Grinberg Gambit",
+    "strategy": "Offers the e-pawn at once. Black takes it with the knight, and after the knights are exchanged the bishop takes again, because e4 has two attackers and only one defender. White gets little for the pawn."
+  },
+  "1.d4 Nf6 2.c4 d6 3.Nc3 e5 4.Nf3": {
+    "name": "Old Indian Defence: Two Knights Variation",
+    "strategy": "The principal move: it develops with an attack on e5, which Black has to support at once, and keeps the choice between holding the tension and exchanging on e5. White keeps a healthy lead in space without committing the pawns."
+  },
+  "1.d4 Nf6 2.c4 d6 3.Nc3 e5 4.e3": {
+    "strategy": "Supports d4 with a pawn and frees the bishop instead of facing the tension on e5. It is solid but passive: Black gets time to finish development and White gives up the chance of an active centre."
+  },
+  "1.d4 Nf6 2.c4 d6 3.Nc3 e5 4.e3 Nbd7": {
+    "strategy": "Defends e5 with a developing move and keeps the structure healthy. Against the quiet set-up Black needs nothing special: development and a firm hold on the centre are enough for an easy game."
+  },
+  "1.d4 Nf6 2.c4 d6 3.Nc3 e5 4.e3 Nbd7 5.Bd3": {
+    "name": "Old Indian Defence: Duz-Khotimirsky Variation",
+    "strategy": "Develops the bishop on its active diagonal, where it supports a later e4 advance. White accepts a slow, solid build-up in which Black can complete development safely, and the fight for the centre is put off."
+  },
+  "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4": {
+    "strategy": "Takes the full centre at once. With the knight already on d7, Black has no quick way to hit the e-pawn, and White's space advantage will last. Black has to counter with piece play and a well-timed pawn lever."
+  },
+  "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4 e5": {
+    "strategy": "Challenges the big centre immediately. The pawn is backed by d6 and by the knight, so Black keeps a compact and well-protected structure, accepting a little less space for a solid position without weaknesses."
+  },
+  "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4 e5 5.Nf3": {
+    "name": "Old Indian Defence: Normal Variation",
+    "strategy": "Develops with an attack on e5, which is attacked twice and defended twice. White keeps its pawns on d4 and e4 together and can choose later whether to release the tension or hold it, with more space in either case."
+  },
+  "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4 e5 5.Nf3 g6": {
+    "strategy": "Chooses to fianchetto the king's bishop rather than develop it modestly. Black aims for a compact structure with castling and a bishop behind the firm e5 pawn, and accepts a closed centre in which White keeps more space."
+  },
+  "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4 e5 5.Nf3 g6 6.Be2": {
+    "strategy": "Brings the bishop to a safe square and prepares castling without weakening the centre. White's modest development keeps the d4 and e4 pawns protected and the space advantage intact, and leaves the question of the e5 tension open."
+  },
+  "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4 e5 5.Nf3 g6 6.Be2 Bg7": {
+    "strategy": "Completes the fianchetto and prepares castling. The bishop stands behind its own e5 pawn, so it works more as a defender than as an attacker for now. Black's position is solid and short of space, and the bishop becomes active only if the centre opens."
   }
 }

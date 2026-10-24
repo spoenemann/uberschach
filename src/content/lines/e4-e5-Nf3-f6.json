@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 e5 2.Nf3 f6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 e5 2.Nf3 f6: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 e5 2.Nf3 f6",
@@ -24,6 +24,78 @@
           "san": "fxe5",
           "rating": 1
         }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f6 3.Nxe5 fxe5",
+      "moves": [
+        {
+          "san": "Qh5+",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f6 3.Nxe5 fxe5 4.Qh5+",
+      "moves": [
+        {
+          "san": "g6",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f6 3.Nxe5 fxe5 4.Qh5+ g6",
+      "moves": [
+        {
+          "san": "Qxe5+",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f6 3.Nxe5 fxe5 4.Qh5+ g6 5.Qxe5+",
+      "moves": [
+        {
+          "san": "Qe7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f6 3.Nxe5 fxe5 4.Qh5+ g6 5.Qxe5+ Qe7",
+      "moves": [
+        {
+          "san": "Qxh8",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f6 3.Nxe5 fxe5 4.Qh5+ g6 5.Qxe5+ Qe7 6.Qxh8"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f6 3.Nxe5 Qe7",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f6 3.Nxe5 Qe7 4.Nf3",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f6 3.Nxe5 Qe7 4.Nf3 d5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Damiano_Defence"
       ]
     }
   ]

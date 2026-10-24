@@ -9,13 +9,15 @@
 // hold what the loader cannot know, and the shape of the modules and of the
 // served form that the app's loading relies on
 // (docs/adr/0001-opening-book-as-fetched-json.md).
+import { existsSync, statSync } from "node:fs";
 import { describe, expect, test } from "vitest";
 import { newGame } from "../domain/game.ts";
 import { legalMoves, playMove } from "../domain/moves.ts";
 import type { Position } from "../domain/position.ts";
 import { toSan } from "../domain/san.ts";
+import { SUPPORTED_LANGUAGES } from "../i18n/language.ts";
 import { lookup, type BookPosition, type Rating } from "./book.ts";
-import { moduleId } from "./files.ts";
+import { moduleFile, moduleId } from "./files.ts";
 import { NAMED_LINE_PLIES, namedBook, readNamedLines } from "./named.ts";
 import { MODULES, OPENINGS } from "./openings.ts";
 import { parseMove, serveBook } from "./serve.ts";
@@ -28,6 +30,13 @@ import { parseMove, serveBook } from "./serve.ts";
  * (Decision log, Named lines).
  */
 const LAST_FOLLOWED_PLY = 3;
+
+/**
+ * The most a module reaching more than two plies below its root may hold, its data and prose
+ * files together: the largest module of the breadth-first plies (lines/e4-e5, 98,675 bytes on
+ * 2026-10-24), rounded up (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).
+ */
+const MODULE_BYTES = 100_000;
 
 /** A move in English piece letters (Nf3, Qxd5, the 2.Nf3 of a line), which a German text must not contain. */
 const ENGLISH_PIECE_MOVE = /(^|[\s(.])[NBRQ][a-h1-8]?x?[a-h][1-8](?![a-z0-9])/;
@@ -72,23 +81,36 @@ const breadthFirst = new Set<BookPosition>();
 
 describe("the shipped book", () => {
   // The app fetches the book one module at a time, so a module's size is a chunk's size: a module
-  // holds one followed position, its root, and the positions up to two plies below it, and deeper
-  // content goes into modules of its own. The served chunk then grows with the branching, never
-  // with the depth (docs/adr/0001-opening-book-as-fetched-json.md).
-  test("every module is rooted at one position, named after it, and reaches at most two plies below it", () => {
+  // is one subtree of the book, its root and positions each a move away from another of its own.
+  // Up to two plies below its root it grows with the branching; a module that reaches deeper
+  // stays within MODULE_BYTES on disk, the size of the largest module of the breadth-first plies
+  // (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).
+  test("every module is one subtree, rooted at one position and named after it, and within its size when deeper than two plies", () => {
     for (const module of MODULES) {
       const plies = module.positions.map((position) => plyOfLine(position.line));
       const rootPly = Math.min(...plies);
       const roots = module.positions.filter((position) => plyOfLine(position.line) === rootPly);
       expect(roots.map((root) => root.line), `the shallowest position of lines/${module.id}.json`).toHaveLength(1);
       expect(module.id, `the id of the module rooted at "${roots[0]?.line}"`).toBe(moduleId(roots[0]?.line ?? ""));
+      const lines = new Set(module.positions.map((position) => position.line));
       for (const position of module.positions) {
+        if (position === roots[0]) continue;
         expect(
-          plyOfLine(position.line),
-          `"${position.line}" lies more than two plies below the root of lines/${module.id}.json; ` +
-            `declare it in a module of its own, lines/${moduleId(position.line)}.json, with the positions below it`,
-        ).toBeLessThanOrEqual(rootPly + 2);
+          lines.has(position.line.replace(/\s*\S+$/, "")),
+          `"${position.line}" in lines/${module.id}.json is not a move away from another of its positions; ` +
+            `declare it in the module that holds the position before it`,
+        ).toBe(true);
       }
+      if (Math.max(...plies) <= rootPly + 2) continue;
+      const bytes = [undefined, ...SUPPORTED_LANGUAGES].reduce(
+        (sum, language) => sum + (existsSync(moduleFile(module.id, language)) ? statSync(moduleFile(module.id, language)).size : 0),
+        0,
+      );
+      expect(
+        bytes,
+        `lines/${module.id}.json and its prose reach more than two plies below its root and hold more than ` +
+          `${MODULE_BYTES} bytes; move a position below its root into a module of its own, with the positions below it`,
+      ).toBeLessThanOrEqual(MODULE_BYTES);
     }
   });
 

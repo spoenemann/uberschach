@@ -142,6 +142,8 @@
     "strategy": "Bereitet ...Lb7 vor, das d5 über die lange Diagonale angreifen würde, doch Weiß hält den Bauern leicht und bleibt mit der besseren Entwicklung einen Bauern vorn."
   },
   "1.e4 d5 2.exd5 c6": {
+    "name": "Skandinavische Verteidigung: Blackburne-Kloosterboer-Gambit",
+    "background": "Joseph Blackburne spielte es mindestens einmal erfolgreich, doch nach 3.dxc6 gilt es als inkorrekt und ist auf Meisterniveau fast nie zu sehen.",
     "strategy": "Bietet einen Bauern für Entwicklung an: Nach 3.dxc6 Sxc6 kommen die schwarzen Figuren auf offenen Linien schnell ins Spiel, doch Weiß bleibt einen gesunden Bauern vorn und kann die Entwicklung in Ruhe abschließen."
   },
   "1.e4 d5 2.exd5 c5": {
@@ -206,5 +208,101 @@
   },
   "1.e4 d5 2.Nf3 dxe4": {
     "strategy": "Nimmt das Gambit an, die übliche und kritischste Antwort: Schwarz nimmt einen Bauern und greift den Springer an, der ziehen muss. Weiß muss seinen Entwicklungsvorsprung nutzen, und die Aufgabe von Schwarz ist es, den Bauern zu halten, ohne in die Fallen zu tappen."
+  },
+  "1.e4 d5 2.exd5 c6 3.dxc6": {
+    "strategy": "Nimmt den zweiten angebotenen Bauern. Weiß hat nun zwei Bauern mehr, und das Gambit ist unkorrekt: Schwarz hat für das Material nur etwas Entwicklung vorzuweisen, die Weiß gelassen mit der eigenen beantworten kann."
+  },
+  "1.e4 d5 2.exd5 c6 3.dxc6 Nxc6": {
+    "name": "Skandinavische Verteidigung: Blackburne-Gambit",
+    "strategy": "Schlägt mit einem Entwicklungszug zurück und begnügt sich mit einem Bauern Rückstand statt zwei. Der Springer bezieht einen zentralen Posten und der Läufer auf c8 ist frei, aber Schwarz hat keinen d-Bauern und muss rasche Entwicklung und offene Linien für den Bauern nutzbar machen."
+  },
+  "1.e4 d5 2.exd5 c6 3.dxc6 e5": {
+    "name": "Skandinavische Verteidigung: Kloosterboer-Gambit",
+    "strategy": "Gibt einen zweiten Bauern für offene Linien für den Königsläufer und die Dame, ohne eine konkrete Drohung vorweisen zu können. Weiß ist zwei Bauern voraus, und der vorgerückte Bauer auf c6 schränkt Schwarz ein, indem er b7 und d7 angreift, sodass Weiß sich einfach entwickelt."
+  },
+  "1.e4 d5 2.exd5 e5 3.dxe6": {
+    "strategy": "Nimmt den angebotenen Bauern en passant, womit Weiß zwei Bauern mehr hat, bis Schwarz auf e6 zurückschlägt. Das Gambit gibt Schwarz nicht mehr als Entwicklung als Gegenwert, deshalb hat Weiß keinen Grund abzulehnen und kann gelassen die Entwicklung beenden."
+  },
+  "1.e4 d5 2.exd5 e5 3.dxe6 Bxe6": {
+    "name": "Skandinavische Verteidigung: Boehnke-Gambit",
+    "strategy": "Schlägt mit dem Läufer zurück, der sofort auf der offenen Diagonale aktiv wird, sodass Schwarz nur einen Bauern weniger hat und sich frei entwickelt. Das ist der natürliche Weg aus dem Gambit, aber Weiß behält einen gesunden Mehrbauern, und Schwarz muss mit Aktivität dafür entschädigen."
+  },
+  "1.e4 d5 2.f3 g6 3.d4": {
+    "strategy": "Besetzt das Zentrum mit einem zweiten Bauern, den der Bauer auf f3 mit hält. Weiß gewinnt Raum, während Schwarz mit g6 ein Fianchetto vorbereitet, das das Zentrum aus der Ferne unter Druck setzen wird. Der Preis ist ein langsamer Königsflügel: f3 nimmt dem Springer auf g1 sein natürliches Feld und schwächt die Diagonale des Königs."
+  },
+  "1.e4 d5 2.f3 g6 3.d4 dxe4": {
+    "strategy": "Fordert das Zentrum sofort heraus und zwingt Weiß zu einer Entscheidung. Schlägt Weiß mit dem f-Bauern zurück, erhält es ein breites Bauernzentrum, öffnet aber die Diagonale des Königs und die f-Linie; verzichtet es auf das Zurückschlagen, ist das ein Gambit, das einen Bauern kostet. So oder so wird das Fianchetto von Schwarz gegen den Bauern auf d4 arbeiten."
+  },
+  "1.e4 d5 2.f3 g6 3.d4 dxe4 4.c3": {
+    "name": "Barnes-Eröffnung: Gedult-Gambit",
+    "strategy": "Verzichtet auf das Zurückschlagen: Nimmt Schwarz auf f3 und schlägt Weiß mit dem Springer zurück, steht Weiß einen Bauern im Minus und hat als Ausgleich nur rasche Entwicklung und das solide Bauernpaar auf c3 und d4. Schwarz kann den Bauern einfach behalten und sich entwickeln, daher ist dies ein Risiko und kein Plan."
+  },
+  "1.e4 d5 2.f4 dxe4 3.Nc3": {
+    "strategy": "Greift den Bauern auf e4 sofort an und entwickelt eine Figur: der natürliche Weg, den Bauern zurückzugewinnen, bevor Schwarz sich konsolidiert. Das Gambit funktioniert nur, wenn der Entwicklungsvorsprung von Weiß den Bauern aufwiegt."
+  },
+  "1.e4 d5 2.f4 dxe4 3.Nc3 Nf6": {
+    "strategy": "Verteidigt den Bauern mit einem Entwicklungszug und bereitet vor, die übrigen Figuren ins Spiel zu bringen. Schwarz behält den Mehrbauern, und Weiß hat keinen schnellen Weg, ihn zurückzugewinnen; Weiß muss also echte Kompensation in Form von Aktivität zeigen."
+  },
+  "1.e4 d5 2.f4 dxe4 3.Nc3 Nf6 4.Qe2": {
+    "name": "Bird-Eröffnung: Williams-Gambit",
+    "background": "Der Williams im Namen ist ungewiss: Die zweite Auflage von The Oxford Companion to Chess nennt den Spieler Elijah Williams aus dem neunzehnten Jahrhundert, doch ist keine Partie von ihm in dieser Variante belegt. William L. Williams, der 1997 eine Monografie über das Gambit schrieb, behauptete, es 1975 erfunden zu haben.",
+    "strategy": "Bringt einen zweiten Angreifer gegen e4, das nur einmal verteidigt ist, und nimmt b5 ins Visier, wo ein Schach auch b7 treffen würde. Schwarz muss einen Verteidiger hinzufügen oder den Bauern zurückgeben. Die Dame steht auf e2 allerdings exponiert: Ein Läufer, der mit Tempo nach g4 kommt, greift sie an."
+  },
+  "1.e4 d5 2.f4 dxe4 3.Nc3 Nf6 4.Nge2": {
+    "name": "Bird-Eröffnung: Williams-Zilbermints-Gambit",
+    "strategy": "Entwickelt den Springer mit Sg3 im Sinn, um e4 ein zweites Mal anzugreifen, während die Dame zu Hause bleibt. Der Preis ist ein blockierter Königsläufer und eine unbeholfene Koordination; Weiß steht weiterhin einen Bauern im Minus, sodass Schwarz in Ruhe entwickeln kann."
+  },
+  "1.e4 d5 2.g4 dxe4 3.Nc3": {
+    "name": "Grob-Angriff: Zilbermints-Gambit",
+    "strategy": "Entwickelt und greift den Bauern auf e4 an, der natürliche Weg, ihn zurückzugewinnen. Weiß steht weiterhin einen Bauern im Minus, und der Vorstoß des g-Bauern hat den Königsflügel bereits geschwächt; die Kompensation hängt also davon ab, schnell Linien zu öffnen."
+  },
+  "1.e4 d5 2.g4 dxe4 3.Nc3 h5": {
+    "name": "Grob-Angriff: Zilbermints-Gambit, Schiller-Verteidigung",
+    "strategy": "Greift den Bauern auf g4 mit einem Bauern an: Er wird zweimal angegriffen und nur einmal gedeckt, daher muss Weiß die Spannung auflösen. Fällt der Bauer, bekommt Schwarz die h-Linie für den Turm, und Schwarz hält weiterhin den Mehrbauern auf e4."
+  },
+  "1.e4 d5 2.g4 dxe4 3.Nc3 e5": {
+    "strategy": "Besetzt das Zentrum und öffnet Linien für die Dame und den Königsläufer, während der Bauer auf g4 unter Beschuss des Läufers auf c8 bleibt. Der Preis ist, dass der Bauer auf e4 ungedeckt bleibt, sodass Schwarz ihn womöglich zurückgeben muss."
+  },
+  "1.e4 d5 2.g4 dxe4 3.Nc3 e5 4.d3": {
+    "name": "Grob-Angriff: Zilbermints-Gambit, Zilbermints-Hartlaub-Gambit",
+    "strategy": "Öffnet Linien für die Figuren: Nimmt Schwarz auf d3 und schlägt Weiß zurück, steht Weiß weiterhin einen Bauern im Minus, mit einem Entwicklungsvorsprung und einer offenen d-Linie als einziger Kompensation. Schwarz kann den Materialvorteil mit vernünftiger Entwicklung halten, und der vorgerückte g-Bauer von Weiß lässt den Königsflügel dünn besetzt."
+  },
+  "1.e4 d5 2.Nc3 dxe4 3.Nxe4": {
+    "strategy": "Das einfache Zurückschlagen: Weiß stellt das Material wieder her und bringt den Springer auf ein zentrales Feld. Das Spiel ist offen, Schwarz hat den d-Bauern gegen den e-Bauern getauscht und kann sich frei entwickeln, und Weiß hat keine Bauernschwächen, um die es sich sorgen müsste."
+  },
+  "1.e4 d5 2.Nc3 dxe4 3.Bc4": {
+    "name": "Dunst-Eröffnung: Hector-Gambit",
+    "strategy": "Entwickelt mit einem Angriff auf f7, bevor zurückgeschlagen wird, und versucht, den Bauern durch Figurendruck statt durch Bauernzüge zurückzugewinnen. Schwarz kann e4 mit einem Entwicklungszug verteidigen und bleibt einen Bauern voraus; Weiß jagt ihm hinterher, mit einem Entwicklungsvorsprung als einziger Kompensation."
+  },
+  "1.e4 d5 2.Nc3 dxe4 3.f3": {
+    "name": "Dunst-Eröffnung: Dougherty-Gambit",
+    "strategy": "Greift den Bauern auf e4 mit einem Bauern an, in der Hoffnung, die f-Linie zu öffnen und Zeit zu gewinnen, während Schwarz schlägt. Wird der Bauer genommen und schlägt der Springer zurück, steht Weiß einen Bauern im Minus für Entwicklung. Der Zug schwächt die Diagonale des Königs und nimmt dem Springer auf g1 ein natürliches Feld."
+  },
+  "1.e4 d5 2.Nc3 dxe4 3.d3": {
+    "name": "Dunst-Eröffnung: Dunst-Perrenet-Gambit",
+    "strategy": "Bietet den Bauern an, um die d-Linie und die Diagonale des Läufers zu öffnen. Nach dem Schlagen und dem Zurückschlagen mit dem Läufer steht Weiß einen Bauern im Minus, mit einer entwickelten Figur, aber ohne Zentrumsbauern, und Schwarz braucht nur sorgfältige Entwicklung, um den Mehrbauern zu behalten."
+  },
+  "1.e4 d5 2.Nc3 dxe4 3.Nxe4 e5": {
+    "name": "Dunst-Eröffnung: Grünfeld-Verteidigung",
+    "strategy": "Besetzt das Zentrum sofort und öffnet die Diagonale für den Läufer, zieht aber den e-Bauern vor der Entwicklung, sodass f7 zum Schwachpunkt wird, auf den die Figuren von Weiß zielen. Mehrere natürliche Züge gehen schief, daher muss Schwarz genau spielen."
+  },
+  "1.e4 d5 2.Nf3 dxe4 3.Ng5": {
+    "strategy": "Zieht den Springer mit Tempo auf ein Feld, von dem aus er e4 und f7 angreift, und hält das Zurückschlagen des Bauern in Reserve. Weiß will den Druck auf f7 nutzen, um Zeit zu gewinnen, bevor es den Bauern zurückerobert, oder Fallen für einen Schwarzen stellen, der am Mehrbauern festhält."
+  },
+  "1.e4 d5 2.Nf3 dxe4 3.Ng5 Nf6": {
+    "strategy": "Verteidigt den Bauern mit einem Entwicklungszug, behält den Mehrbauern aber um einen Preis: die Figuren von Weiß führen in der Entwicklung und f7 steht unter Druck, daher muss Schwarz vorsichtig sein. Den Bauern sofort zurückzugeben ist der sicherere Weg zu einem bequemen Spiel."
+  },
+  "1.e4 d5 2.Nf3 dxe4 3.Ng5 Nf6 4.Nc3": {
+    "strategy": "Bringt einen zweiten Angreifer gegen e4, sodass der Bauer fällt, wenn Schwarz keinen Verteidiger hinzufügt, und entwickelt eine Figur, während der Springer auf g5 aktiv bleibt. Weiß spielt auf schnelle Entwicklung und taktische Chancen statt auf eine ruhige Rückeroberung des Bauern."
+  },
+  "1.e4 d5 2.Nf3 dxe4 3.Ng5 Nf6 4.Nc3 Bf5": {
+    "strategy": "Verteidigt e4 ein zweites Mal mit einem Entwicklungszug, sodass der Bauer zweifach gegen zwei Angreifer gehalten wird und Weiß nicht einfach zurückschlagen kann. Schwarz bleibt einen Bauern voraus, doch der Läufer und der b7-Bauer sind nun Ziele für eine Dame, die nach e2 und b5 kommt."
+  },
+  "1.e4 d5 2.Nf3 dxe4 3.Ng5 Nf6 4.Nc3 Bf5 5.Qe2": {
+    "strategy": "Bringt einen dritten Angreifer gegen e4, das zweimal verteidigt ist, und nimmt b5 ins Visier, wo ein Schach den b7-Bauern treffen würde. Schwarz muss dem Druck mit Sorgfalt begegnen, und die Dame auf e2 stellt einem Schwarzen, der unachtsam antwortet, eine Falle."
+  },
+  "1.e4 d5 2.Nf3 dxe4 3.Ng5 Nf6 4.Nc3 Bf5 5.Qe2 Qd4": {
+    "name": "Zukertort-Eröffnung: Tennison-Gambit, Brigg-Falle",
+    "strategy": "Läuft in ein Damenschach auf b5, das den ungedeckten Läufer auf f5 und den b7-Bauern zugleich angreift. Nachdem der Läufer das Schach abgeblockt hat, nimmt Weiß mit der Dame auf b7 und greift den Turm auf a8 und den Springer auf b8 an."
   }
 }

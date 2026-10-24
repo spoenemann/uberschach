@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 Nf6 (Alekhine's Defence): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written.",
+  "about": "After 1.e4 Nf6 (Alekhine's Defence): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written. The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
   "positions": [
     {
       "line": "1.e4 Nf6",
@@ -508,6 +508,198 @@
     },
     {
       "line": "1.e4 Nf6 2.e5 h5"
+    },
+    {
+      "line": "1.e4 Nf6 2.Bc4 Nxe4",
+      "moves": [
+        {
+          "san": "Bxf7+",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.Bc4 Nxe4 3.Bxf7+"
+    },
+    {
+      "line": "1.e4 Nf6 2.d4 Nxe4",
+      "moves": [
+        {
+          "san": "Bd3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.d4 Nxe4 3.Bd3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.d4 Nxe4 3.Bd3 Nf6",
+      "moves": [
+        {
+          "san": "Bg5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.d4 Nxe4 3.Bd3 Nf6 4.Bg5"
+    },
+    {
+      "line": "1.e4 Nf6 2.e5 Ne4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alekhine%27s_Defence"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.e5 Ne4 3.d4",
+      "moves": [
+        {
+          "san": "f6",
+          "rating": 2
+        },
+        {
+          "san": "e6",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.e5 Ne4 3.d4 f6"
+    },
+    {
+      "line": "1.e4 Nf6 2.e5 Ne4 3.d4 e6"
+    },
+    {
+      "line": "1.e4 Nf6 2.e5 Ng8",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alekhine%27s_Defence"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.e5 Ng8 3.d4",
+      "moves": [
+        {
+          "san": "f5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.e5 Ng8 3.d4 f5"
+    },
+    {
+      "line": "1.e4 Nf6 2.Nc3 d5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alekhine%27s_Defence"
+      ],
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        },
+        {
+          "san": "exd5",
+          "rating": 4
+        },
+        {
+          "san": "d3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.Nc3 d5 3.e5",
+      "moves": [
+        {
+          "san": "Nfd7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.Nc3 d5 3.exd5",
+      "moves": [
+        {
+          "san": "c6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.Nc3 d5 3.d3",
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.Nc3 d5 3.exd5 c6"
+    },
+    {
+      "line": "1.e4 Nf6 2.Nc3 d5 3.d3 dxe4",
+      "moves": [
+        {
+          "san": "Bg5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.Nc3 d5 3.d3 dxe4 4.Bg5"
+    },
+    {
+      "line": "1.e4 Nf6 2.Nc3 d5 3.e5 Nfd7",
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.Nc3 d5 3.e5 Nfd7 4.e6"
+    },
+    {
+      "line": "1.e4 Nf6 2.Nc3 Nc6",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.Nc3 Nc6 3.d4",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.Nc3 Nc6 3.d4 e5"
     }
   ]
 }

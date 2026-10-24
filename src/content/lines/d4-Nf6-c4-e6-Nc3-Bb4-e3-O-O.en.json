@@ -22,6 +22,7 @@
     "strategy": "Takes at once: the bishop is attacked, and the exchange is the point of the defence. Black gives up the bishop pair to leave White with doubled c-pawns, a weakness to aim at for the rest of the game."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 d5": {
+    "name": "Nimzo-Indian Defence: Normal Variation, Classical Defence",
     "strategy": "The classical reply: a pawn takes the centre and attacks c4, so White cannot play e4 undisturbed. Black's pawns on d5 and e6 form a sturdy centre and the pin on c3 stays. White must soon decide how to resolve the tension on c4."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 c5": {
@@ -31,6 +32,56 @@
     "strategy": "Takes the centre and attacks c4 while White's bishop is still shut in by the knight on e2. Black does not count on doubling White's pawns here, because the knight can recapture on c3; the fight is for the centre instead."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Nf3 d5": {
+    "name": "Nimzo-Indian Defence: Normal Variation, Ragozin Variation",
     "strategy": "Builds a solid pawn centre on d5 and e6 and keeps the pin, so e4 is hard for White to push. White has to decide how to deal with the pin and the pressure on c4, while Black reaches a familiar structure with the bishop already active."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.a3 Bxc3+ 6.bxc3": {
+    "name": "Nimzo-Indian Defence: Sämisch Variation",
+    "background": "Named after Fritz Sämisch.",
+    "strategy": "The only recapture. White gets the bishop pair and a pawn mass on c3, c4, d4 and e3; the doubled pawn on c4 is the weakness Black will target, and White needs the attack to come before that pressure tells."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 c5 6.Nf3": {
+    "strategy": "Develops, adds a defender to d4 and prepares to castle. White keeps the centre intact and leaves Black the next decision: how to use the pressure on d4 while the bishop still pins c3."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 c5 6.Nf3 b6": {
+    "strategy": "Prepares ...Bb7, adding pressure on e4 and the central light squares, while the c5 pawn keeps working against d4. Black can trade on d4 later and play for activity against a possible isolated pawn."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 d5 6.Nf3": {
+    "strategy": "Develops the knight, covers d4 and e5 and prepares castling. White finishes development before resolving the tension on c4, d5 and c3, and Black has to choose a way to challenge the centre."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 d5 6.a3": {
+    "strategy": "Forces the bishop to decide before White's knight is out. If Black takes on c3 and later on c4, the bishop retakes and the doubling disappears, leaving White a broad centre and the bishop pair."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 d5 6.a3 Bxc3+": {
+    "strategy": "Takes the knight, doubling White's pawns at the price of the bishop pair. The c4 pawn, already attacked by the d-pawn, is the first target, and White has to be ready to undouble the pawns."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 d5 6.Nf3 c5": {
+    "name": "Nimzo-Indian Defence: Normal Variation, Gligoric System",
+    "strategy": "Attacks the base of White's centre and claims a share of it. This is the main line: both sides have developed naturally, and the fight is over who profits from the tensions on c4, d4 and c3."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 d5 6.Nf3 b6": {
+    "name": "Nimzo-Indian Defence: Normal Variation, Schlechter Defence",
+    "strategy": "Prepares ...Bb7 against e4 and keeps the structure compact. A solid set-up: White often holds the initiative early, but Black usually equalises in the end."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 d5 6.Nf3 Nc6": {
+    "strategy": "Attacks d4 with a piece, but the knight blocks the c-pawn, which can no longer challenge d4 itself. Black gets a sound but less direct set-up than the main line."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Ne2 d5 6.a3": {
+    "strategy": "Puts the question to the bishop. Capturing on c3 would give up the bishop for a knight that Ne2 can retake, leaving White's pawns intact, so Black has to retreat and White is rid of the pin."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Ne2 d5 6.a3 Bd6": {
+    "name": "Nimzo-Indian Defence: Simagin Variation",
+    "strategy": "Keeps the bishop and points it at h2 on the diagonal towards White's kingside, instead of trading on c3, where the knight could recapture without doubled pawns. Black stays active and keeps the tension in the centre."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Nf3 d5 6.a3": {
+    "name": "Nimzo-Indian Defence: Normal Variation, Sämisch Deferred",
+    "strategy": "Forces the bishop to decide. If Black takes on c3, White accepts doubled pawns for the bishop pair and aims to cure the weakness by exchanging on d5 and to build the centre with the bishop pair behind it."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Nf3 d5 6.Bd2": {
+    "strategy": "Breaks the pin, so ...Bxc3 no longer doubles the pawns. The price is a tempo and a passive dark-squared bishop on d2, which leaves Black free to put pressure on the c4 pawn and the centre."
+  },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Nf3 d5 6.Bd2 Nc6": {
+    "name": "Nimzo-Indian Defence: Normal Variation, Ragozin Variation",
+    "strategy": "Develops with pressure on d4 now that the pin is lifted and ...Bxc3 would not double any pawns. Black plays for piece activity and a central break, with the c4 pawn as a target."
   }
 }

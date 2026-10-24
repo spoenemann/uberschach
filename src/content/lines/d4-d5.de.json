@@ -355,6 +355,7 @@
     "strategy": "Stützt d5 mit einem Bauern, nimmt dem Springer das Feld b5 und lässt die Diagonale des Läufers c8 offen, sodass dieser vor ...e6 herauskommen kann. Der Zug steuert eine solide Bauernstruktur an. Der Preis: Der Springer b8 verliert das Feld c6 und geht meist nach d7."
   },
   "1.d4 d5 2.Nc3 e6": {
+    "name": "Damenbauernspiel: Tschigorin-Variante",
     "strategy": "Stützt d5 und öffnet den Läufer f8; der Zug steuert Strukturen der Französischen Verteidigung an, in die 3.e4 überleitet. Der Preis ist der übliche der Französischen Verteidigung: Der Läufer c8 ist hinter dem Bauern e6 eingesperrt. Schwarz erhält ein solides, eher geschlossenes Spiel."
   },
   "1.d4 d5 2.Nc3 Nc6": {
@@ -377,6 +378,7 @@
     "strategy": "Bietet den e-Bauern an, um mit ...d4 Raum zu gewinnen: Nach 3.dxe5 d4 muss der Springer ziehen, und auf 4.Se4 greift 4...Dd5 Springer und Bauern e5 zugleich an und gewinnt den Bauern zurück. Das Gambit ist selten, und seine Bewertung ist unklar."
   },
   "1.d4 d5 2.Nc3 f5": {
+    "name": "Damenbauernspiel: Weressow-Angriff, Holländisches System",
     "strategy": "Errichtet eine Stonewall-Struktur, in der die Bauern d5 und f5 das Feld e4 beherrschen. Der Preis ist ein schwaches Feld e5 und eine offene Diagonale e8–h5, und 3.e4 fxe4 4.Dh5+ g6 5.Dxd5 holt den Bauern sofort zurück. Spielbar, aber selten und riskant."
   },
   "1.d4 d5 2.Nc3 Na6": {
@@ -439,9 +441,32 @@
     "name": "Damenbauernspiel: Levitsky-Angriff, Welling-Variante"
   },
   "1.d4 d5 2.e3 Nf6": {
+    "name": "Damenbauernspiel",
     "strategy": "Entwickelt den Springer auf sein natürliches Feld, wo er e4 kontrolliert. Weißens e3 hat den Läufer auf c1 vorerst eingesperrt, daher kann Schwarz sich einfach entwickeln und abwarten, welchen Aufbau Weiß wählt, mit einem soliden Bauern auf d5 und nichts zu befürchten."
   },
   "1.d4 d5 2.h4 c5": {
     "strategy": "Greift d4 sofort an und gewinnt Raum am Damenflügel. Weißens Randbauernzug hat weder dem Zentrum noch der Entwicklung genützt, sodass Schwarz zuerst im Zentrum zuschlagen kann und der d4-Bauer verteidigt werden muss."
+  },
+  "1.d4 d5 2.e3 Nf6 3.Bd3": {
+    "name": "Damenbauernspiel: Stonewall-Angriff",
+    "background": "Der Stonewall-Angriff etablierte sich im Meisterspiel, nachdem Harry Nelson Pillsbury alle sechs Partien gewonnen hatte, in denen er ihn bei den beiden New Yorker Turnieren von 1893 einsetzte. Anfang der 1920er Jahre begann er aus dem Spitzenschach zu verschwinden, bleibt aber im Vereinsschach eine beliebte Wahl.",
+    "strategy": "Entwickelt den Läufer auf seine aktivste Diagonale, mit Blick auf h7, und baut eine kompakte Bauernkette auf, mit einem späteren f4, um e5 zu kontrollieren und einen Königsangriff vorzubereiten. Der Preis ist eine unflexible Struktur, schwache weiße Felder und ein Läufer auf c1, der hinter seinen eigenen Bauern eingesperrt bleibt."
+  },
+  "1.d4 d5 2.Nc3 e6 3.Bf4": {
+    "name": "Rapport-Jobava-System, mit e6",
+    "strategy": "Entwickelt den Läufer außerhalb der Bauernkette, bevor e3 ihn einsperren kann, mit Blick auf c7 und e5. Weiß kombiniert ihn mit dem Springer auf c3 zu einem aktiven Aufbau, während Schwarz nach ...e6 einen soliden, aber etwas passiven weißfeldrigen Läufer hat."
+  },
+  "1.d4 d5 2.Nc3 f5 3.e4": {
+    "name": "Holländische Verteidigung: Kingfisher-Gambit",
+    "strategy": "Ein Bauerngambit: Der e-Bauer wird sofort angeboten, um das Zentrum zu öffnen und den geschwächten Königsflügel sowie einen Entwicklungsvorsprung auszunutzen. Schwarz kann den Bauern einfach annehmen und sich entwickeln, und Weiß muss seine Kompensation beweisen."
+  },
+  "1.d4 d5 2.Nf3 Bf5 3.c4": {
+    "strategy": "Fordert d5 sofort heraus, das nun vom Bauern angegriffen und nur von der Dame verteidigt wird. Der frühe Läuferzug von Schwarz hat d5 keinen Verteidiger hinzugefügt, sodass Schwarz sofort entscheiden muss, wie er das Zentrum hält."
+  },
+  "1.d4 d5 2.Nf3 Bf5 3.c4 e6": {
+    "strategy": "Verteidigt d5 mit einem Bauern und öffnet den Läufer auf f8. Der Läufer auf c8 steht bereits außerhalb der Kette, sodass die übliche Sorge, er könne durch diesen Zug eingesperrt werden, entfällt und Schwarz ein solides Zentrum erhält."
+  },
+  "1.d4 d5 2.Nf3 Bf5 3.c4 e6 4.Nc3": {
+    "strategy": "Entwickelt den Damenspringer und fügt d5 einen zweiten Angreifer hinzu, sodass der Druck auf das schwarze Zentrum nun real ist. Weiß hat einen soliden Aufbau gegen den d-Bauern, während der schwarze Läufer bereits außerhalb der Kette steht, sodass es darum geht, ob d5 gehalten werden kann."
   }
 }

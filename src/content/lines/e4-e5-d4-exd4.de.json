@@ -35,6 +35,7 @@
     "name": "Abgelehntes Dänisches Gambit: Sörensen-Verteidigung"
   },
   "1.e4 e5 2.d4 exd4 3.c3 dxc3": {
+    "name": "Angenommenes Dänisches Gambit",
     "strategy": "Nimmt den Bauern und steht einen Bauern vorn, um den Preis, dass Weiß sich mit Tempo gegen den König entwickelt. Bei sorgfältigem Spiel ist das sicher, und die Analyse sieht Schwarz sogar leicht im Vorteil, doch das angenommene Gambit ist in der Praxis gefährlich, weil die weißen Figuren mit Drohungen ins Spiel kommen."
   },
   "1.e4 e5 2.d4 exd4 3.c3 Ne7": {
@@ -48,9 +49,101 @@
     "strategy": "Entwickelt den Läufer auf sein aktivstes Feld und deckt d4, doch der Bauer lässt sich nicht halten: Weiß nimmt einfach mit dem Springer zurück, und die Partie wird offen, mit gleichem Material und natürlicher Entwicklung für beide Seiten."
   },
   "1.e4 e5 2.d4 exd4 3.Nf3 c5": {
+    "name": "Mittelgambit: Kieseritzky-Variante",
     "strategy": "Hält den Bauern d4 mit einem Bauern, aber nicht umsonst: Kein Bauer kann d5 je wieder decken, und die Figuren von Weiß kommen zuerst heraus. Schwarz behält den Mehrbauern, und Weiß spielt auf den geschwächten Feldern im Zentrum."
   },
   "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6": {
+    "name": "Mittelgambit: Normalvariante",
     "strategy": "Greift die Dame an und entwickelt sich im selben Zug, sodass Weiß die Dame ein zweites Mal ziehen muss. Schwarz gewinnt ein Tempo und übernimmt die Initiative in der Entwicklung, während Weiß das Zentrum und einen Raumvorteil behält."
+  },
+  "1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4": {
+    "strategy": "Bietet einen zweiten Bauern an, statt ruhig mit dem Springer zurückzunehmen: Der Läufer zielt auf f7, und Weiß stellt Entwicklung vor Material. Nimmt Schwarz, feuern die weißen Läufer über das ganze Brett, und die Idee ist ein entscheidender Entwicklungsvorsprung."
+  },
+  "1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4 cxb2": {
+    "strategy": "Nimmt den zweiten Bauern: Schwarz steht zwei Bauern vorn, und Weiß muss mit dem Läufer zurücknehmen, der damit auf die lange Diagonale kommt. Das Mehrmaterial ist real, doch Schwarz muss die Entwicklung beenden und im richtigen Moment einen Teil davon zurückgeben."
+  },
+  "1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4 cxb2 5.Bxb2": {
+    "strategy": "Schlägt zurück und stellt den Läufer auf die lange Diagonale gegen g7, neben den Läufer auf c4, der auf f7 zielt. Weiß steht zwei Bauern zurück für einen großen Entwicklungsvorsprung, also muss der Angriff konkrete Gewinne bringen, bevor Schwarz sich konsolidiert."
+  },
+  "1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4 cxb2 5.Bxb2 d5": {
+    "name": "Angenommenes Dänisches Gambit: Schlechter-Verteidigung",
+    "background": "Carl Schlechter empfahl sie als eine der zuverlässigsten Verteidigungen für Schwarz. Nach ihrer Einführung sank die Beliebtheit des Dänischen Gambits stark, weil die entstehenden Stellungen nicht das sind, was Weiß von einem Gambit will.",
+    "strategy": "Gibt einen Bauern zurück, um den Läufer auf c8 und die Dame zu befreien und den Griff von Weiß auf das Zentrum zu brechen; der Bauer greift außerdem den Läufer auf c4 an. Schwarz schließt die Entwicklung ab und steuert auf eine ausgeglichene, oft damenlose Partie zu, in der die Damenflügelmehrheit ein langfristiger Trumpf ist."
+  },
+  "1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4 cxb2 5.Bxb2 Nf6": {
+    "name": "Angenommenes Dänisches Gambit: Klassische Verteidigung",
+    "strategy": "Entwickelt sich mit Angriff auf e4 und lädt zu 6.e5 ein, das den Springer scheinbar fängt, aber an ...d5 scheitert, das im Gegenzug den Läufer angreift. Schwarz zieht Figurenspiel und schnelle Entwicklung der Rückgabe eines Bauern vor, um den Preis einer taktischen Partie."
+  },
+  "1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4 cxb2 5.Bxb2 Bb4+": {
+    "name": "Angenommenes Dänisches Gambit: Kopenhagener Verteidigung",
+    "strategy": "Entwickelt sich mit Schach und gewinnt so ein Tempo; Weiß muss das Schach abdecken oder den König ziehen, bevor er weiter angreift. Der Läufer auf b4 kann später von der Dame auf b3 aus belästigt werden, wo sie zugleich den Druck auf f7 erhöht."
+  },
+  "1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4 cxb2 5.Bxb2 Qe7": {
+    "name": "Angenommenes Dänisches Gambit: Tschigorin-Verteidigung",
+    "strategy": "Greift den Bauern e4 an, steht aber vor dem Königsläufer, sodass der Königsflügel unentwickelt bleibt, während beide weißen Läufer schon auf f7 und g7 zielen. Der Zug trägt nichts zur Entwicklung von Schwarz bei, und gerade die kann sich Schwarz gegen diesen Angriff nicht leisten."
+  },
+  "1.e4 e5 2.d4 exd4 3.f4 Bc5 4.Nf3": {
+    "strategy": "Entwickelt sich mit Angriff auf d4 und deckt h4, sodass die schwarze Dame die geschwächte Diagonale nicht mehr nutzen kann. Weiß setzt den Mehrbauern jetzt wirklich unter Druck, und Schwarz muss ihn mit Entwicklungszügen verteidigen."
+  },
+  "1.e4 e5 2.d4 exd4 3.f4 Bc5 4.Nf3 Nc6": {
+    "strategy": "Deckt d4 ein zweites Mal mit einem Entwicklungszug und behält den Mehrbauern. Schwarz bleibt in der Entwicklung voraus, der König kann bald rochieren, und das Gambit von Weiß hat noch nichts Konkretes eingebracht."
+  },
+  "1.e4 e5 2.d4 exd4 3.f4 Bc5 4.Nf3 Nc6 5.c3": {
+    "name": "Mittelgambit: Halasz-McDonnell-Gambit, Krokodil-Variante",
+    "strategy": "Greift d4 ein drittes Mal an, drei Angreifer gegen zwei Verteidiger, sodass Schwarz entscheiden muss, ob er hält, nimmt oder vorstößt. Weiß bietet einen zweiten Bauern, um ein Bauernzentrum aufzubauen und Linien zu öffnen, ein riskanter Weg, das Gambit weiterzuführen."
+  },
+  "1.e4 e5 2.d4 exd4 3.Nf3 Bc5 4.c3": {
+    "name": "Mittelgambit: Lanc-Arnold-Gambit",
+    "strategy": "Ein Bauernangebot statt einfachen Zurücknehmens: Weiß öffnet Linien für schnelle Entwicklung und will später ein Bauernzentrum, und Schwarz steht einen Bauern vorn, ohne offensichtliche Schuld. Die Kompensation ist Entwicklung und offene Linien, nichts Konkretes."
+  },
+  "1.e4 e5 2.d4 exd4 3.Nf3 Bc5 4.c3 dxc3": {
+    "strategy": "Nimmt den Bauern und steht nun zwei Bauern vorn. Die Kompensation von Weiß ist die Entwicklung, also muss Schwarz schnell fertig entwickeln und Material zurückgeben, bevor die weißen Figuren zusammenspielen."
+  },
+  "1.e4 e5 2.d4 exd4 3.Nf3 Bc5 4.c3 dxc3 5.Bc4": {
+    "name": "Mittelgambit: Lanc-Arnold-Gambit, Schippler-Gambit",
+    "strategy": "Gibt auch den b-Bauern, da der Läufer seine beste Diagonale bekommt, und Weiß spielt auf Entwicklung und offene Linien gegen einen König, der noch nicht rochiert hat. Das Opfer ist rein dynamisch: Schwarz muss sich sicher entwickeln und im richtigen Moment Material zurückgeben."
+  },
+  "1.e4 e5 2.d4 exd4 3.Nf3 c5 4.Bc4": {
+    "name": "Mittelgambit: Kieseritzky-Variante",
+    "strategy": "Entwickelt den Läufer gegen f7, nur vom König gedeckt, während der Springer den Bauern d4 weiter angreift. Der c-Bauer von Schwarz hält d4, lässt aber d5 für den Läufer und die Figuren von Weiß ungedeckt, sodass Schwarz dem Druck genau begegnen muss."
+  },
+  "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qe3": {
+    "name": "Mittelgambit: Paulsen-Angriffsvariante",
+    "background": "Mit Abstand der beliebteste Rückzug der weißen Dame.",
+    "strategy": "Die Dame deckt e4, steht auf einer Linie mit dem schwarzen König auf der e-Linie und macht ...d5 unbequem. Weiß nimmt einen Entwicklungsrückstand für ein festes Zentrum in Kauf, mit der Dame bereit, nach g3 gegen g7 zu schwenken."
+  },
+  "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qc4": {
+    "name": "Mittelgambit: Hall-Variante",
+    "strategy": "Hält die Dame auf der Diagonale nach f7 und deckt e4 weiter entlang der vierten Reihe. Eine weniger erforschte Alternative, doch ...d5 greift die Dame sofort an, sodass Weiß eine Antwort bereithalten muss; Schwarz hat Chancen, im Zentrum Zeit zu gewinnen."
+  },
+  "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qe3 Nf6": {
+    "name": "Mittelgambit: Berger-Variante",
+    "strategy": "Die übliche Antwort: Schwarz entwickelt sich, greift den Bauern e4 an und bereitet die Rochade vor. Schwarz liegt in der Entwicklung vorn und hält ...d5 in Reserve, sodass Weiß e4 verteidigen und mit Figuren aufholen muss."
+  },
+  "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qe3 Bb4+": {
+    "strategy": "Entwickelt sich mit Schach auf der Diagonale zum König und zwingt Weiß, zu blockieren oder den König zu ziehen, bevor er sich entwickelt. Schwarz behält eine flexible Stellung und gibt dem Läufer sofort eine Aufgabe."
+  },
+  "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qe3 f5": {
+    "name": "Mittelgambit: l'Hermet-Variante",
+    "strategy": "Greift e4 an, schwächt aber den eigenen König: 5.exf5+ öffnet die e-Linie mit Schach, und die weiße Dame steht bereits darauf. Schwarz bleibt mit gelockertem Königsflügel und einem bedrängten König zurück, ohne erkennbaren Gewinn."
+  },
+  "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qe3 Bb4+ 5.c3": {
+    "strategy": "Beantwortet das Schach mit einem Bauern, der zugleich den Läufer angreift; die Dame deckt ihn, sodass der schwarze Läufer weichen muss. Der Preis ist, dass der Springer sein natürliches Feld c3 verliert, und der Bauernzug fördert die Entwicklung nicht."
+  },
+  "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qe3 Bb4+ 5.c3 Be7": {
+    "name": "Mittelgambit: Charousek-Variante",
+    "strategy": "Zieht den Läufer auf ein sicheres Feld zurück, wo er weiter der Rochade hilft, und lässt Weiß mit einem Bauern auf c3 zurück, der dem Springer sein natürliches Feld genommen hat. Schwarz erhält eine kompakte Stellung und bereitet einen Schlag im Zentrum vor."
+  },
+  "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qe3 Nf6 5.Nc3": {
+    "strategy": "Der traditionelle Zug: Er verteidigt e4 mit einem Entwicklungszug, was die Dame von der Deckungsaufgabe befreit und die Figuren aktiv hält. Weiß strebt lange Rochade und einen Königsangriff an, wobei die Dame nach g3 schwenkt."
+  },
+  "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qe3 Nf6 5.Nc3 Bb4": {
+    "strategy": "Fesselt den Springer an den König, sodass e4 nur von der Dame gedeckt ist und Weiß sich mit der Fesselung befassen muss. Schwarz entwickelt sich mit Tempo und zielt auf den Bauern e4 und die offene e-Linie."
+  },
+  "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qe3 Nf6 5.Nc3 Bb4 6.Bd2": {
+    "strategy": "Löst die Fesselung mit einem Entwicklungszug, sodass der Springer e4 wieder deckt, und räumt die Grundreihe für die lange Rochade. Weiß plant dann, die Dame gegen g7 auf den Königsflügel zu schwenken."
+  },
+  "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qe3 Nf6 5.Nc3 Bb4 6.Bd2 O-O": {
+    "strategy": "Rochiert in Sicherheit, bevor das Mittelspiel sich zuspitzt, mit dem Turm bereit für die e-Linie, wo er auf e4 und die Dame zielt. Weiß rochiert meist lang, sodass die Könige auf entgegengesetzten Flügeln stehen und jede Seite den König der anderen angreift."
   }
 }

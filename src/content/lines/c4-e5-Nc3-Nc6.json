@@ -1,5 +1,5 @@
 {
-  "about": "After 1.c4 e5 2.Nc3 Nc6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.c4 e5 2.Nc3 Nc6: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.c4 e5 2.Nc3 Nc6",
@@ -29,6 +29,161 @@
     },
     {
       "line": "1.c4 e5 2.Nc3 Nc6 3.Nf3"
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 d6",
+      "moves": [
+        {
+          "san": "Bg2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 d6 4.Bg2",
+      "moves": [
+        {
+          "san": "Be6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 d6 4.Bg2 Be6"
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 g6",
+      "moves": [
+        {
+          "san": "Bg2",
+          "rating": 5
+        },
+        {
+          "san": "Rb1",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 g6 4.Bg2",
+      "moves": [
+        {
+          "san": "Bg7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 g6 4.Rb1",
+      "moves": [
+        {
+          "san": "Nh6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7",
+      "moves": [
+        {
+          "san": "d3",
+          "rating": 5
+        },
+        {
+          "san": "e3",
+          "rating": 4
+        },
+        {
+          "san": "Rb1",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.e3",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.Rb1"
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6 6.e4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/English_Opening",
+        "https://en.wikipedia.org/wiki/Pawn_structure"
+      ]
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.e3 d6",
+      "moves": [
+        {
+          "san": "Nge2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.e3 d6 6.Nge2",
+      "moves": [
+        {
+          "san": "Nh6",
+          "rating": 4
+        },
+        {
+          "san": "Be6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.e3 d6 6.Nge2 Nh6"
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.e3 d6 6.Nge2 Be6"
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 g6 4.Rb1 Nh6",
+      "moves": [
+        {
+          "san": "Bg2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 g6 4.Rb1 Nh6 5.Bg2",
+      "moves": [
+        {
+          "san": "Bg7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.c4 e5 2.Nc3 Nc6 3.g3 g6 4.Rb1 Nh6 5.Bg2 Bg7"
     }
   ]
 }

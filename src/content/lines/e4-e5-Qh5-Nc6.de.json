@@ -4,5 +4,24 @@
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6": {
     "strategy": "Wehrt die Mattdrohung ab, indem der Springer f7 deckt; das entwickelt eine Figur, stellt sie aber an den Rand, wo sie zum Ziel wird. Sobald sich der d-Bauer von Weiß bewegt, nimmt der Läufer auf c1 den Springer ins Visier, und der Springer ist ein Verteidiger, den Weiß zu entfernen versuchen kann."
+  },
+  "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3": {
+    "strategy": "Öffnet dem Läufer auf c1 den Weg zum Springer auf h6 und stützt e4. Die Drohung ist konkret: Lxh6 entfernt den Verteidiger von f7, und wenn der g-Bauer zurückschlägt, ist Dxf7 Matt. Schwarz muss dafür einen Zug aufwenden, und der natürliche Weg ist, die Dame mit einem Bauern anzugreifen."
+  },
+  "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6": {
+    "strategy": "Greift die Dame mit einem Bauern an und schneidet ihre Linie nach f7 ab, mit Tempogewinn. Die Dame muss ziehen, bevor der Läufer auf h6 schlagen kann, die Drohung ist also vorerst abgewehrt. Der Preis ist ein auf das Fianchetto festgelegter Königsflügel mit einem Springer, der noch am Rand steht."
+  },
+  "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3": {
+    "strategy": "Zieht auf ein sicheres Feld zurück und erneuert die Drohung von anderer Seite: Die Dame auf f3 und der Läufer auf c4 setzen beide f7 unter Druck. Schlägt der Läufer auf h6 und wird zurückgeschlagen, ist Dxf7 Matt, sodass Schwarz sich erneut damit auseinandersetzen muss. Die Dame hat Zeit verloren, aber der Druck ist echt."
+  },
+  "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6": {
+    "strategy": "Schließt die f-Linie mit einem Bauern, sodass die Mattdrohung auf f7 verschwindet, und gibt e5 einen zweiten Verteidiger. Der Preis ist eine gelockerte Stellung: Die hellen Felder um den König sind schwächer. Schwarz steht solide, aber ein wenig passiv."
+  },
+  "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.Ne2": {
+    "strategy": "Die Dame hat f3, das natürliche Feld des Springers, besetzt, daher entwickelt sich der Springer über e2; das macht zugleich den Weg zur Rochade frei und lässt dem Springer auf b1 das Feld c3. Ruhig, aber solide: Weiß verzichtet auf das schnelle Matt und spielt auf gewöhnliche Entwicklung gegen die gelockerte Stellung von Schwarz."
+  },
+  "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.Ne2 d5": {
+    "name": "Königsbauernspiel: Eigenwilliger Damenangriff, Mellon-Gambit",
+    "strategy": "Greift den Läufer und den e-Bauern zugleich an, ist aber ein Bauernopfer: Weiß schlägt einfach auf d5, und das Schlagen mit dem e-Bauern greift auch den Springer auf c6 an. Weiß behält einen Mehrbauern und die sicherere Stellung."
   }
 }

@@ -27,9 +27,13 @@
     "strategy": "Develops with pressure on e4 and adds a second defender to d5, so Black meets the pressure without committing the e-pawn or taking on c4. White now decides what kind of game it becomes."
   },
   "1.d4 d5 2.c4 c6 3.Nc3 dxc4": {
+    "name": "Slav Defence",
+    "background": "Sometimes called the Argentinian Defence, it is more common after 3.Nc3 than after 3.Nf3.",
     "strategy": "A surprise weapon: Black takes the pawn at once and prepares to hold it with ...b5, where the pawn on c6 helps and a later ...b4 can chase the c3 knight. The price is the centre, which White is free to occupy."
   },
   "1.d4 d5 2.c4 c6 3.Nc3 e5": {
+    "name": "Slav Defence: Winawer Countergambit",
+    "background": "Introduced by Szymon Winawer in his game against Frank Marshall at Monte Carlo in 1901, it is rarely seen in high-level games.",
     "strategy": "A counter-gambit that sacrifices a pawn for quick development: after dxe5, ...d4 chases the c3 knight and Black usually regains the pawn. White stays ahead in development, so Black has to prove the sacrifice was worth it."
   },
   "1.d4 d5 2.c4 c6 3.Nf3 Nf6": {
@@ -37,5 +41,195 @@
   },
   "1.d4 d5 2.c4 c6 3.Nf3 e6": {
     "strategy": "Supports d5 solidly but locks in the light-squared bishop, the piece the c6-pawn was meant to free. With the knight on f3 rather than c3, White can avoid the sharp lines Black hoped for and play a quiet, comfortable game."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3": {
+    "strategy": "The main way to play the exchange: the knight develops with pressure on d5 and keeps the tension. White hopes the extra move tells; Black has to defend d5 and develop accurately to keep the symmetry."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6": {
+    "strategy": "Answers the pressure on d5 with a second defender and develops towards the e4 square. Black keeps the symmetry and a solid game, with no weaknesses for White to aim at."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Nf3": {
+    "strategy": "Solid development: the knight guards d4 and heads for a quiet, symmetrical position in which every piece stands well. White keeps the extra move but the symmetry offers little more than a safe game; Black has nothing to fear but also little to attack."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.f3": {
+    "name": "Slav Defence: Exchange Variation, Boor Attack",
+    "strategy": "Prepares e2-e4 to build a broad pawn centre and break the symmetry. The cost is development: the pawn takes f3 from the king's knight and opens the e1-h4 diagonal, so Black can strike at the centre first."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Nf3 Nc6": {
+    "strategy": "Mirrors White's development and puts the knight where it attacks d4 and covers e5. Black keeps the symmetrical structure and has no weaknesses, so the game stays level and quiet unless White finds a way to use the extra move."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Nf3 Nc6 6.Bf4": {
+    "strategy": "Develops the bishop outside the pawn chain before e3 can shut it in, taking the diagonal towards c7 and b8 and control of e5. It is the natural way to use the extra move, and Black has to decide how to match it."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Nf3 Nc6 6.Bf4 Bf5": {
+    "name": "Slav Defence: Exchange Variation, Symmetrical Line",
+    "strategy": "Mirrors the bishop and completes a fully symmetrical position in which every piece is well placed and neither side has a target. Black has reached equality by simple means; whoever wants more than a draw has to unbalance the position."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 dxc4 4.e4": {
+    "name": "Slav Defence: Slav Gambit, Alekhine Attack",
+    "strategy": "Builds a big pawn centre at once and leaves the c4 pawn for later. The cost is that the c3 knight loses e4 as a retreat square, which counts once Black's queenside pawns advance. White plays for space and the initiative, Black for queenside counterplay."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 e5 4.e4": {
+    "name": "Slav Defence: Winawer Countergambit, Anti-Winawer Gambit",
+    "strategy": "Offers a second pawn in the hope of opening the centre, but Black simply takes: after ...exd4 the pawn attacks the c3 knight and Black keeps the extra material. White has nothing concrete to show for the pawns."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3": {
+    "strategy": "Meets the declined set-up solidly: the pawn opens the f1-bishop to defend c4, so ...dxc4 gains Black nothing. White keeps the b1-knight flexible and a small, safe edge, while Black's light-squared bishop stays shut in behind the pawns."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.Qc2": {
+    "strategy": "Defends c4 with the queen instead of a pawn, so ...dxc4 loses its point while the c1-bishop is not yet boxed in by e3. The queen is somewhat exposed on c2, but White keeps a free choice between slow and sharp plans."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.Nc3": {
+    "strategy": "Develops the knight and heads for the full Semi-Slav set-up. White accepts that Black may now take on c4 and fight to keep the pawn, which leads to sharp, heavily analysed play with chances for both sides."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6": {
+    "strategy": "Develops the knight, which guards d5 and controls e4, and keeps the Semi-Slav structure. Because White has not put a knight on c3, White still chooses the set-up from here."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.Qc2 dxc4": {
+    "strategy": "Takes the pawn at once, so White's queen has to recapture on c4, where pawn pushes and knight moves can chase it and gain time. Black gives up the tension in the centre in exchange for easy, tempo-gaining development."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6 5.Nc3": {
+    "strategy": "The standard development, adding pressure on d5 and e4 and steering the game into the main line of the Semi-Slav, where the fight for the c4-pawn and the queenside decides. White commits the knight to c3 and accepts the sharp, strategically rich struggle."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6 5.Nbd2": {
+    "name": "Semi-Slav Defence: Quiet Variation",
+    "strategy": "A quieter way to develop: the knight protects c4 and supports an e4 break while c3 stays free. White avoids the main-line theory for a slow, flexible game, and Black cannot count on the usual tempo-gaining capture on c4."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6 5.Nbd2 Nbd7": {
+    "name": "Semi-Slav Defence: Quiet Variation",
+    "strategy": "A flexible developing move that supports a later central break. Black waits for White to commit the bishop before taking on c4, so the gain of time when the bishop recaptures stays available."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6 5.Nbd2 Ne4": {
+    "strategy": "Occupies e4 at once, though the knight is attacked by the d2-knight and defended only by the d-pawn, so Black must support it. The set-up gives Black a firm pawn chain and kingside space but a weak e5-square and a passive light-squared bishop."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6 5.Nbd2 g6": {
+    "name": "Queen's Gambit Declined: Spielmann Variation",
+    "strategy": "An unusual fianchetto that gives up the classical Semi-Slav set-up. It is solid but slow, and the bishop on g7 bites on a centre that White can still fill with pawns."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6 5.Nbd2 Nbd7 6.Bd3": {
+    "strategy": "Develops the bishop to its best diagonal, aimed at h7, and prepares to castle. It also backs up a later e4 push by the knight, so White plays for a central expansion in a solid structure."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6 5.Nbd2 Nbd7 6.Bd3 c5": {
+    "name": "Queen's Gambit Declined: Semmering Variation",
+    "strategy": "Strikes at d4 before White has castled, trading the solid c6-support for activity. Black opens the centre and the d5-pawn may become isolated, so the move trades long-term solidity for freedom of play."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6 5.Nbd2 Ne4 6.Bd3": {
+    "strategy": "Attacks the e4-knight a second time: with the knight on d2, Nxe4 dxe4 Bxe4 would win a pawn. Black has to trade the knight or reinforce it at once."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6 5.Nbd2 Ne4 6.Bd3 f5": {
+    "name": "Queen's Gambit Declined: Stonewall Variation",
+    "strategy": "Reinforces the knight with a pawn chain on d5, e6 and f5. The knight has a stable outpost and Black gains kingside space, at the price of a weakened e5-square and a light-squared bishop that is hemmed in behind its own pawns."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.Qc2 dxc4 5.Qxc4": {
+    "strategy": "Regains the pawn at once with the queen and keeps the pawn centre intact. The price is a queen on c4 that Black can attack with tempo, so White has to develop with that in mind. The natural recapture, and the point of the queen move to c2."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.Qc2 dxc4 5.Qxc4 Nf6": {
+    "strategy": "Develops the knight and keeps ...b5 in reserve to gain time against the queen on c4, so White cannot develop freely. Black has a solid structure and easy play; the c8-bishop comes out later once the queenside pawns move."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3": {
+    "strategy": "The main line of the Slav: the knight adds pressure on d5 and makes an early ...Bf5 costly, because cxd5 followed by Qb3 attacks b7 and d5 together. White takes the most testing path, in which Black must decide how to meet the pressure on the centre."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3": {
+    "name": "Slav Defence: Quiet Variation",
+    "strategy": "A modest move: the pawn opens the light-squared bishop and defends c4 while the b1-knight stays flexible. It blocks in the c1-bishop, and White accepts a quieter game in which Black can bring the light-squared bishop out of the pawn chain."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nbd2": {
+    "name": "Slav Defence: Breyer Variation",
+    "strategy": "A quiet developing move: the knight protects c4 and supports e4 while c3 stays free. White aims for a slow set-up with a kingside fianchetto instead of main-line theory, which gives Black time to bring the light-squared bishop out of the pawn chain."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qc2": {
+    "strategy": "Defends c4 with the queen and discourages ...Bf5, since the bishop would meet the queen on its diagonal. White keeps a flexible position, but the queen is somewhat exposed on c2."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.g3": {
+    "strategy": "Heads for a kingside fianchetto, but the move order is inaccurate: Black can develop the light-squared bishop outside the pawn chain at once, so the fianchetto set-up is less effective than in lines where that bishop stays shut in."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.cxd5": {
+    "strategy": "Releases the tension at once and heads for a symmetrical pawn structure with an open c-file. White gives up the pressure on d5 and keeps only the extra move, so the game tends towards a quiet, drawish middlegame."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Bg5": {
+    "name": "Slav Defence: Bonet Gambit",
+    "strategy": "A gambit that leaves c4 unprotected and the kingside undeveloped: Black can simply take the pawn, and the c6-pawn gives a base to hold it. White has to show compensation in development for the pawn."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.cxd5 cxd5": {
+    "name": "Slav Defence: Exchange Variation",
+    "strategy": "Recaptures with the c-pawn, restoring a symmetrical structure and opening the c-file. Black gives White only the first-move edge, and the middlegame tends to be quiet, with rooks and pieces traded down the file."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5": {
+    "name": "Slav Defence: Quiet Variation, Schallopp Defence",
+    "strategy": "Takes the light-squared bishop outside the pawn chain, the Slav's idea, before ...e6 can lock it in. Black need not fear cxd5 and Qb3, because the f6-knight guards d5 and the queen's fork of b7 and d5 does not work."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bg4": {
+    "name": "Slav Defence: Quiet Variation, Pin Defence",
+    "strategy": "Develops the bishop outside the pawn chain and pins the f3-knight against the queen. White has to deal with the pin soon, and Black is happy to trade the bishop for the knight if asked, in a solid but passive game."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 e6": {
+    "strategy": "Heads for a Semi-Slav chain but shuts in the light-squared bishop. Since White has not put a knight on c3, White keeps useful alternatives and White's position is the more comfortable."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.g3 dxc4": {
+    "strategy": "Takes the pawn while the fianchetto has not yet secured c4. White has to win it back with piece play, and Black has the c6-pawn as a base to hold it, but risks falling behind in development."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.g3 Bg4": {
+    "strategy": "Gets the light-squared bishop out of the pawn chain at once and presses on the f3-knight that guards e5. Black accepts that White's fianchettoed bishop will fight for the long diagonal."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qc2 e6": {
+    "strategy": "Supports d5 and keeps the tension in the centre. The bishop on c8 is shut in for the moment, but it can come out later via b7 once Black has taken on c4 and advanced the b-pawn. Black gains a solid centre at the cost of some freedom for that bishop."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.cxd5 cxd5 5.Nc3": {
+    "strategy": "Develops and adds pressure on d5 while keeping the symmetrical structure intact. The extra move gives White only a small initiative, so this is a safe way to play for a slight pull rather than a win."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.Nc3": {
+    "strategy": "The most testing development: the knight adds pressure on d5 and keeps the option of a sortie to chase the f5-bishop and win the bishop pair. White aims for a small, lasting edge while Black has a solid position."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.cxd5": {
+    "strategy": "Releases the tension and heads for a symmetrical structure with the queen's sortie to b3 in reserve. White's dark-squared bishop stays boxed in by e3, and Black can meet the queen's raid comfortably."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.cxd5 cxd5": {
+    "strategy": "Recaptures with the c-pawn, keeping a symmetrical structure and the open c-file. The bishop on f5 is already developed, which makes this exchange safe for Black."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.Nc3 e6": {
+    "name": "Slav Defence: Quiet Variation, Schallopp Defence",
+    "strategy": "Shores up d5 and opens the f8-bishop. White can win the bishop pair by chasing the f5-bishop with a knight, but Black gets a sound position with counterplay from a central break."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.cxd5 cxd5 6.Nc3": {
+    "name": "Slav Defence: Exchange Variation, Schallopp Variation",
+    "strategy": "Develops with pressure on d5 and keeps the queen's sortie in reserve. The structure is symmetrical, White's e3-pawn restricts the c1-bishop, and White plays for a small edge from the extra move."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.cxd5 cxd5 6.Qb3": {
+    "strategy": "Attacks b7 and d5 together, hoping to exploit that Black's bishop has left the queenside. The f6-knight guards d5, so Black only has to meet the threat to b7, and the sortie gives White no more than a small, active edge."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.cxd5 cxd5 6.Nc3 e6": {
+    "strategy": "Shores up d5 and opens the f8-bishop, a solid way to meet the pressure. Black has a sturdy symmetrical-type structure and only has to watch for losing the bishop pair."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.cxd5 cxd5 6.Qb3 Qc8": {
+    "strategy": "Defends b7 from c8, but it is a passive square for the queen. It holds everything together, while White keeps the more active game."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.g3 Bg4 5.Bg2": {
+    "strategy": "Completes the fianchetto: the bishop supports the centre along the long diagonal and prepares castling. White accepts the pressure on the f3-knight in return for a harmonious set-up."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.g3 Bg4 5.Bg2 e6": {
+    "strategy": "Finally supports d5 and opens the f8-bishop. The c8-bishop is already outside the pawn chain, so the move does not block it, and Black gets a solid structure."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.g3 Bg4 5.Bg2 e6 6.O-O": {
+    "name": "Slav Defence: Modern Line",
+    "strategy": "Tucks the king away and completes the kingside development. The bishop on g2 keeps the long diagonal pointed at Black's queenside, and White has a comfortable, harmonious game."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.g3 dxc4 5.Bg2": {
+    "strategy": "Develops the bishop to the long diagonal and prepares castling. White does not recapture at once: the c4-pawn is loose, Black must spend time to hold it, and White answers with pressure on the centre and queenside."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.g3 dxc4 5.Bg2 g6": {
+    "name": "Slav Defence: Modern Line",
+    "strategy": "Meets the fianchetto with a fianchetto of its own: the bishop on g7 contests the long diagonal and presses on d4. Black does not try to defend the c4-pawn directly and relies on development and counter-pressure."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qc2 e6 5.Nbd2": {
+    "strategy": "Adds a second guard to c4 and supports a later e4: if Black takes on c4, the knight retakes and the queen is not chased by ...b5. The cost is that the knight blocks the c1-bishop, which suits a quiet set-up with a kingside fianchetto better than a quick central break."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qc2 e6 5.Nbd2 Be7": {
+    "strategy": "Develops the bishop and prepares castling, waiting to see how White commits. It is a modest, solid move: Black keeps the pawn centre and all options of releasing the c8-bishop later. The price is passivity, as White gets the chance to build up slowly."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qc2 e6 5.Nbd2 Be7 6.g3": {
+    "strategy": "Chooses a fianchetto set-up: the king's bishop will sit on the long diagonal and press on d5 and the queenside. White develops quietly and keeps the tension in the centre, playing for slow pressure on the light squares rather than a quick central break."
+  },
+  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qc2 e6 5.Nbd2 Be7 6.g3 Nbd7": {
+    "strategy": "Brings out the last minor piece, backs up the knight on f6 and covers e5, so Black can castle and keep a compact, flexible structure. Black waits for the right moment to take on c4 or to hold the centre."
   }
 }

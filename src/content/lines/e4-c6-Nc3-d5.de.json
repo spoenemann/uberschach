@@ -19,6 +19,7 @@
     "strategy": "Nimmt den Bauern sofort, sodass Weiß zurückschlagen oder einen Bauern weniger weiterspielen muss. Schwarz bestimmt zuerst, welche Art von Partie entsteht, und der langsame Aufbau von Weiß hat keinen klaren Weg, den Bauern mit Gewinn zurückzuholen."
   },
   "1.e4 c6 2.Nc3 d5 3.Nf3 Bg4": {
+    "name": "Caro-Kann-Verteidigung: Zweispringer-Angriff, Mindeno-Variante",
     "strategy": "Entwickelt den Problemläufer von Schwarz außerhalb der Bauernkette, bevor er eingesperrt werden kann, und fesselt den Springer f3 gegen die Dame. Die logische Antwort: Weiß muss entscheiden, was er gegen die Fesselung unternimmt, und Schwarz kann den Läufer gegen den Springer tauschen oder die Spannung halten."
   },
   "1.e4 c6 2.Nc3 d5 3.Nf3 dxe4": {
@@ -26,5 +27,25 @@
   },
   "1.e4 c6 2.Nc3 d5": {
     "name": "Caro-Kann-Verteidigung"
+  },
+  "1.e4 c6 2.Nc3 d5 3.d3 dxe4 4.Bg5": {
+    "name": "Caro-Kann-Verteidigung: Scorpion-Horus-Gambit",
+    "strategy": "Ein Gambit: Weiß lässt e4 in Ruhe und entwickelt den Läufer außerhalb der Bauernkette, einen Bauern im Rückstand. Nichts ist ernsthaft bedroht, da die Figuren von Schwarz e7 leicht decken; Schwarz behält also den Mehrbauern, und der Läufer wird bald vertrieben."
+  },
+  "1.e4 c6 2.Nc3 d5 3.Nf3 Bg4 4.h3": {
+    "strategy": "Fordert den Läufer zur Entscheidung auf. Schwarz muss den Läufer für den Springer hergeben und Weiß das Läuferpaar überlassen oder sich zurückziehen und die Fesselung behalten, wobei der Läufer dann bedrängt werden kann. So oder so hat Weiß die Wahl zwischen ruhigem und scharfem Spiel."
+  },
+  "1.e4 c6 2.Nc3 d5 3.Nf3 Bg4 4.h3 Bxf3": {
+    "name": "Caro-Kann-Verteidigung: Zweispringer-Angriff, Mindeno-Variante, Abtauschlinie",
+    "strategy": "Beendet die Fesselung endgültig, indem der Läufer gegen den Springer getauscht wird. Schwarz überlässt das Läuferpaar, behält aber eine solide Bauernstruktur; die Aufgabe ist daher, die Läufer durch gesunde Entwicklung unschädlich zu machen."
+  },
+  "1.e4 c6 2.Nc3 d5 3.Nf3 Bg4 4.h3 Bh5": {
+    "name": "Caro-Kann-Verteidigung: Zweispringer-Angriff, Mindeno-Variante, Rückzugslinie",
+    "background": "In der Partie Noteboom–Mindeno 1927 verlor Schwarz nach dem Rückzug des Läufers nach h5 rasch.",
+    "strategy": "Behält den Läufer und die Fesselung, statt das Läuferpaar herzugeben, doch der Läufer steht auf einem Feld, auf dem ihn ein Bauernvorstoß erneut angreift, und es drohen ihm bald die sicheren Felder auszugehen. Spielbar, aber Schwarz muss genau spielen, und der Tausch auf f3 ist einfacher."
+  },
+  "1.e4 c6 2.Nc3 d5 3.Nf3 dxe4 4.Ng5": {
+    "name": "Caro-Kann-Verteidigung: Hector-Gambit",
+    "strategy": "Greift e4 ein zweites Mal an und zielt auf f7, in der Hoffnung, den Bauern zurückzugewinnen. Doch der Springer zieht in der Eröffnung zweimal, und der Bauer hätte einfach mit Sxe4 zurückgeholt werden können; der Zug bietet daher wenig gegenüber dem normalen Zurückschlagen."
   }
 }

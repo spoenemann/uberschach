@@ -1,5 +1,5 @@
 {
-  "about": "After 1.b4 e6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.b4 e6: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.b4 e6",
@@ -18,6 +18,95 @@
           "rating": 5
         }
       ]
+    },
+    {
+      "line": "1.b4 e6 2.Bb2 Nf6",
+      "moves": [
+        {
+          "san": "b5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.b4 e6 2.Bb2 Nf6 3.b5",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "a6",
+          "rating": 4
+        },
+        {
+          "san": "b6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.b4 e6 2.Bb2 Nf6 3.b5 b6"
+    },
+    {
+      "line": "1.b4 e6 2.Bb2 Nf6 3.b5 a6",
+      "moves": [
+        {
+          "san": "a4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.b4 e6 2.Bb2 Nf6 3.b5 a6 4.a4",
+      "moves": [
+        {
+          "san": "axb5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.b4 e6 2.Bb2 Nf6 3.b5 a6 4.a4 axb5",
+      "moves": [
+        {
+          "san": "axb5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.b4 e6 2.Bb2 Nf6 3.b5 a6 4.a4 axb5 5.axb5",
+      "moves": [
+        {
+          "san": "Rxa1",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.b4 e6 2.Bb2 Nf6 3.b5 a6 4.a4 axb5 5.axb5 Rxa1",
+      "moves": [
+        {
+          "san": "Bxa1",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.b4 e6 2.Bb2 Nf6 3.b5 a6 4.a4 axb5 5.axb5 Rxa1 6.Bxa1"
+    },
+    {
+      "line": "1.b4 e6 2.Bb2 Nf6 3.b5 d5",
+      "moves": [
+        {
+          "san": "e3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.b4 e6 2.Bb2 Nf6 3.b5 d5 4.e3"
     }
   ]
 }

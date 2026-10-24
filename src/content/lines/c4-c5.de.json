@@ -70,6 +70,7 @@
     "background": "So benannt, weil beide Seiten ihren c-Bauern zwei Felder vorgezogen haben. Neben Sizilianisch im Anzuge (1...e5) ist sie eine der großen Gruppen von Verteidigungen gegen die Englische Eröffnung; im ECO trägt sie die Schlüssel A30–A39."
   },
   "1.c4 c5 2.Nc3 Nc6": {
+    "name": "Englische Symmetrievariante: Zweispringervariante",
     "strategy": "Entwickelt den Springer auf sein natürliches Feld, wo er gemeinsam mit dem c5-Bauern d4 überwacht und außerdem e5 und b4 kontrolliert. Schwarz legt sich noch auf keine Bauernstruktur fest: Fianchetto, Druck auf d4 oder die kompakte Igelstellung bleiben möglich. Der Preis ist, dass Weiß bestimmt, was für eine Partie entsteht."
   },
   "1.c4 c5 2.Nc3 Nf6": {
@@ -197,5 +198,71 @@
   },
   "1.c4 c5 2.d4 cxd4": {
     "strategy": "Schlägt den angebotenen Bauern. Weiß kann sofort mit der Dame zurücknehmen, verliert dann aber Zeit, weil sich Schwarz mit Tempogewinn entwickelt; nimmt Weiß nicht zurück, steht Schwarz schlicht einen Bauern besser. Von diesem frühen Zentrumsvorstoß hat Schwarz wenig zu befürchten."
+  },
+  "1.c4 c5 2.d4 cxd4 3.e3": {
+    "name": "Damenbauernspiel: Liedmann-Gambit",
+    "strategy": "Ein Gambit: Statt auf d4 mit der Dame zurückzunehmen, lässt Weiß den Bauern stehen und will Linien für die Läufer öffnen. Schwarz kann noch einmal schlagen oder einfach den Mehrbauern behalten, und die schnellere Entwicklung von Weiß gleicht ihn nicht offensichtlich aus."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2": {
+    "strategy": "Vollendet das Fianchetto: Von g2 aus drückt der Läufer auf der langen Diagonale auf d5 und den Damenflügel und schützt den künftig rochierten König. Weiß kontrolliert das Zentrum aus der Ferne, statt es zu besetzen."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7": {
+    "strategy": "Spiegelt Weiß. Der Läufer auf der langen Diagonale deckt d4, das Feld, das Weiß für einen Zentrumsdurchbruch braucht, und setzt c3 und b2 unter Druck. Beide Seiten verfolgen nun denselben Plan, und die Partie bleibt ausgeglichen und manövrierlastig."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3": {
+    "strategy": "Entwickelt den Springer dorthin, wo er mit dem c-Bauern und dem Läufer gegen d5 zusammenwirkt: Ein Bauer und zwei Figuren bewachen das Feld, sodass der Vorstoß ...d5 für Schwarz schwer durchzuführen ist. Weiß hält das Bauernzentrum flexibel und entscheidet später, wie es die Partie öffnet."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6": {
+    "name": "Englische Symmetrievariante: Ultrasymmetrische Variante",
+    "strategy": "Schwarz zieht Zug um Zug nach: Der Springer gesellt sich zum c5-Bauern und zum Läufer auf g7 und bewacht d4 dreifach, sodass der d-Bauer von Weiß nicht frei durchbrechen kann. Die Partie bleibt symmetrisch und strategisch, ein Kampf um die Zentrumsfelder statt um Bauern."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3": {
+    "name": "Englische Symmetrievariante: Dreispringer, Fianchetto-Variante",
+    "strategy": "Entwickelt den Springer auf ein Feld, von dem aus er d4 deckt und e5 angreift, sodass Schwarz nicht kostenlos Raum im Zentrum gewinnen kann. Weiß lässt sowohl das Bauernzentrum als auch den Fianchetto-Aufbau offen und wartet ab, wie sich Schwarz festlegt."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.e3": {
+    "strategy": "Deckt d4 und bereitet vor, den Springer nach e2 zu bringen, von wo er einen späteren Durchbruch d4 unterstützen kann. Ein zurückhaltender, flexibler Aufbau, aber langsamer, als Raum zu gewinnen: Schwarz bekommt Zeit, eine Bauernstruktur im Zentrum aufzubauen."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.e3 e5": {
+    "name": "Englische Symmetrievariante: Botwinnik-System mit vertauschten Farben, mit e3",
+    "strategy": "Gewinnt Raum im Zentrum, nimmt Weiß das Feld d4 und sperrt den Läufer auf g7 vorerst ein. Der Preis ist das Feld d5: Der c4-Bauer, der Springer auf c3 und der Läufer auf g2 bewachen es, und kein schwarzer Bauer kann es je wieder decken."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 Nf6": {
+    "name": "Englische Symmetrievariante: Vollsymmetrische Variante",
+    "strategy": "Vollendet das Spiegelbild: Der Springer entwickelt sich und deckt d5 und e4, sodass Schwarz jedem Vorstoß im Zentrum begegnen kann. Schwarz hält sich alle Möglichkeiten offen und fragt, ob das zusätzliche Tempo von Weiß in einer Stellung ohne Bauernschwächen etwas wert ist."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 e5": {
+    "name": "Englische Symmetrievariante: Botwinnik-System mit vertauschten Farben, mit Sf3",
+    "strategy": "Beansprucht sofort das Zentrum, der Bauer wird von Springer und Läufer gehalten. Der weiße Springer verliert d4, und der Läufer auf g7 wird vom eigenen Bauern blockiert. Wie nach e3 wird d5 zu einem Loch, mit dem Schwarz leben muss, nun aber bei bereits entwickeltem weißem Springer."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 e5 6.O-O": {
+    "strategy": "Bringt den König hinter dem Fianchetto-Läufer in Sicherheit, bevor im Zentrum etwas geschieht. Der Turm kommt auf die f-Linie, von wo aus der f-Bauer später auf e5 zielen kann."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 e5 6.O-O d6": {
+    "name": "Englische Symmetrievariante: Botwinnik-System mit vertauschten Farben, mit Sf3",
+    "strategy": "Stützt e5 mit einem Bauern und befreit Springer und Läufer von dessen Verteidigung. Schwarz baut eine solide Kette, nimmt aber eine engere Stellung in Kauf: Der Läufer auf g7 wird vom eigenen Bauern eingesperrt, und d5 ist ein Loch, das die weißen Figuren nutzen können."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 e5 6.O-O Nge7": {
+    "name": "Englische Symmetrievariante: Botwinnik-System mit vertauschten Farben, mit Sf3",
+    "strategy": "Entwickelt den Springer nach e7, wo er d5 deckt und dem d-Bauern den Zweischritt freihält. Der Preis ist, dass e5 nur von Figuren verteidigt wird; Schwarz hat also weniger eine solide Kette als nach dem Bauernzug, aber mehr Elastizität."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 Nf6 6.O-O": {
+    "strategy": "Rochiert in die Sicherheit des Fianchettos, derselbe Aufbau wie bei Schwarz. Da beide Könige sicher stehen, verlagert sich der Kampf ins Zentrum, und wer zuerst einen guten Bauerndurchbruch findet, erhält in einer sonst ausgeglichenen Stellung die Initiative."
+  },
+  "1.c4 c5 2.g3 g6 3.Bg2 Bg7 4.Nc3 Nc6 5.Nf3 Nf6 6.O-O O-O": {
+    "strategy": "Kopiert Weiß. Die Stellung ist nun völlig symmetrisch, beide Könige stehen sicher hinter Fianchetto-Läufern, und keine Seite hat Schwächen; die Partie entscheidet sich also daran, wer das Manövrieren und die Bauerndurchbrüche im Zentrum besser beherrscht."
+  },
+  "1.c4 c5 2.Nc3 Nc6 3.g3": {
+    "name": "Englische Symmetrievariante: Zweispringer, Fianchetto-Variante",
+    "strategy": "Wählt das Fianchetto statt eines sofortigen Durchbruchs d4 und kontrolliert das Zentrum aus der Ferne mit dem Läufer und dem Springer auf c3. Es folgt eine ruhige Manöverpartie, in der Weiß Schwarz Zeit gibt, sich auf dieselbe Weise aufzubauen."
+  },
+  "1.c4 c5 2.Nc3 Nc6 3.g3 g6": {
+    "strategy": "Spiegelt das Fianchetto und bereitet einen Läufer auf g7 vor, der zusammen mit dem c5-Bauern und dem Springer auf c6 d4 unter dreifacher Beobachtung hält. Weiß kann das Zentrum nicht nach Belieben mit dem d-Bauern besetzen."
+  },
+  "1.c4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2": {
+    "strategy": "Stellt den Läufer auf die lange Diagonale, wo er mit dem c4-Bauern und dem Springer auf c3 gegen d5 zusammenwirkt, und bereitet die Rochade dahinter vor. Ein solider, flexibler Aufbau, in dem sich Weiß im Zentrum noch nicht festgelegt hat."
+  },
+  "1.c4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7": {
+    "strategy": "Vollendet das Fianchetto von Schwarz als Spiegelbild des weißen: Der Läufer nimmt den Springer auf c3 und das Feld d4 ins Visier. Die Stellung ist symmetrisch und ausgeglichen, und keine Seite hat Schwächen, die sich angreifen ließen."
   }
 }

@@ -4,5 +4,39 @@
   },
   "1.b4 e6 2.Bb2 Nf6": {
     "strategy": "Develops and controls the e4 and d5 squares without committing a pawn. Black can still choose between a solid pawn centre and a fianchetto of its own, and White's fianchetto has no direct target."
+  },
+  "1.b4 e6 2.Bb2 Nf6 3.b5": {
+    "strategy": "Answers the one concrete problem of the position: the b4-pawn is attacked by Black's bishop and nothing defends it. Stepping forward takes it out of reach and gains space, and commits White to a cramping pawn on b5 that must now be kept safe."
+  },
+  "1.b4 e6 2.Bb2 Nf6 3.b5 d5": {
+    "strategy": "Takes the full centre with pawns on d5 and e6 and ignores the pawn on b5. Black builds a solid, classical structure and keeps the king's bishop free, so White's space gain on the wing has to be justified by pressure on the centre."
+  },
+  "1.b4 e6 2.Bb2 Nf6 3.b5 a6": {
+    "name": "Sokolsky Opening: Queenside Defence",
+    "strategy": "Challenges the advanced pawn at once: White must support it or let it be traded off. If the pawns come off, Black opens the a-file, at the price of committing the a-pawn to the fight."
+  },
+  "1.b4 e6 2.Bb2 Nf6 3.b5 b6": {
+    "name": "Sokolsky Opening: Queen's Indian Variation",
+    "strategy": "Puts the pawn directly in front of White's and prepares to fianchetto the queen's bishop. Sound, but passive: White's advanced pawn keeps its grip on the queenside and Black has given it nothing to attack."
+  },
+  "1.b4 e6 2.Bb2 Nf6 3.b5 a6 4.a4": {
+    "strategy": "Defends the pawn with the rook's pawn and keeps the space it has gained. White accepts that Black can trade on b5, which opens the a-file, rather than give the advanced pawn up or retreat it."
+  },
+  "1.b4 e6 2.Bb2 Nf6 3.b5 a6 4.a4 axb5": {
+    "strategy": "Trades pawns by taking on b5. After White recaptures, the a-file is open and the rooks face each other, so the game turns on who controls the file."
+  },
+  "1.b4 e6 2.Bb2 Nf6 3.b5 a6 4.a4 axb5 5.axb5": {
+    "strategy": "Recaptures so that the pawn stays on b5, still cramping Black's queenside, and leaves the rooks staring at each other down the open file. White keeps the space, but the pawn on b5 now has no pawn to support it."
+  },
+  "1.b4 e6 2.Bb2 Nf6 3.b5 a6 4.a4 axb5 5.axb5 Rxa1": {
+    "strategy": "Trades off the rooks on the open file before White can use it; the bishop recaptures, so the trade is even and the file is left empty."
+  },
+  "1.b4 e6 2.Bb2 Nf6 3.b5 a6 4.a4 axb5 5.axb5 Rxa1 6.Bxa1": {
+    "name": "Sokolsky Opening: Rooks Swap Line",
+    "strategy": "The natural recapture: the bishop is the only piece that can take, and it stays on the long diagonal where it keeps pressure on the knight on f6. White enters a quiet middlegame with the advanced pawn on b5 as its space asset."
+  },
+  "1.b4 e6 2.Bb2 Nf6 3.b5 d5 4.e3": {
+    "name": "Sokolsky Opening: Schiffler-Sokolsky Variation",
+    "strategy": "A solid reply that opens the king's bishop, which now defends the pawn on b5, and prepares to castle. White accepts a quiet game: the bishop on b2 eyes the knight on f6 but wins nothing there, so the pawn on b5 must prove its worth with slow pressure."
   }
 }

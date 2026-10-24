@@ -95,6 +95,8 @@
     "strategy": "Occupies the centre at once and heads for a Queen's Gambit Declined. The structure is solid, with natural development and castling to follow, but a little passive: the c8-bishop stays shut in behind the e6-pawn until Black frees it, and White keeps the initiative with pressure on d5."
   },
   "1.d4 e6 2.c4 Bb4+": {
+    "name": "Keres Defence",
+    "background": "Named after the Estonian grandmaster Paul Keres and also called the Kangaroo Defence. The check was known from the 1840s, and Henry Thomas Buckle played it against Johann Löwenthal in the fourth game of their match in London in 1851; the standard reply today, 3.Bd2, was recommended by Howard Staunton.",
     "strategy": "Develops the bishop with check before Black commits the g8-knight, which keeps many set-ups open. White has several ways to answer, and the game often transposes into a better-known system. The cost is that the bishop may be exchanged or chased, so the move works best when Black is happy to reach one of those systems."
   },
   "1.d4 e6 2.c4 f5": {
@@ -282,6 +284,7 @@
     "strategy": "Strikes at d4 at once and exploits the bishop's absence from c1: the b2-pawn is undefended, so a queen on b6 hits it. This is a popular way to disturb White's comfortable set-up. Black gets quick queenside play and active development, while the c8-bishop is still shut in behind e6."
   },
   "1.d4 e6 2.Bf4 f5": {
+    "background": "The English grandmaster Simon Williams often uses 1.d4 e6 as a way of playing for the Dutch Defence while avoiding the Staunton Gambit, 1.d4 f5 2.e4.",
     "strategy": "Controls e4 and heads for a Dutch set-up, flexible between the king's bishop on e7 and a Stonewall pawn wall. Black plays for the initiative on the kingside. The advance weakens e6 and the e8-h5 diagonal, and the e5-square, which the f4-bishop already covers, can become an outpost for a white knight."
   },
   "1.d4 e6 2.Bf4 Bd6": {
@@ -361,5 +364,50 @@
   },
   "1.d4 e6 2.Bf4 Qh4": {
     "strategy": "Attacks the bishop on f4, but with the queen gone from d8 the c7-pawn is undefended: 3.Bxc7 saves the bishop and wins a pawn, and White could instead gain time against the queen."
+  },
+  "1.d4 e6 2.Bf4 f5 3.g4": {
+    "name": "Dutch Defence: Senechaud Gambit",
+    "strategy": "A gambit that offers the g-pawn to blow open the kingside before anything is developed. Black simply takes it and is a pawn up, while White's own kingside is loosened and the attack has nothing behind it yet."
+  },
+  "1.d4 e6 2.c4 Bb4+ 3.Nc3": {
+    "name": "Kangaroo Defence: Keres Defence, Transpositional Variation",
+    "strategy": "Blocks the check with the knight, which is then pinned against the king. That invites Black to double White's pawns or keep the pin and fight for e4. Playable, but the usual way to answer the check keeps the pawn structure intact."
+  },
+  "1.d4 e6 2.c4 c5 3.d5": {
+    "strategy": "Claims space with a pawn on d5 that cramps Black. If Black trades it, White gets a central pawn majority against Black's queenside one: a sharp, unbalanced game where White plays in the centre and Black on the queenside."
+  },
+  "1.d4 e6 2.c4 c5 3.Nf3": {
+    "strategy": "Defends d4 with a developing move and avoids committing the centre. If Black trades on d4, White recaptures with the knight and keeps a lead in development and a space edge on the queenside, with a flexible game ahead."
+  },
+  "1.d4 e6 2.c4 c5 3.Nf3 cxd4": {
+    "strategy": "Trades the c-pawn for White's d-pawn and removes the tension in the centre. White recaptures with a developing move, but Black's position is solid and free of weaknesses."
+  },
+  "1.d4 e6 2.c4 c5 3.d5 exd5": {
+    "strategy": "Trades the e-pawn for White's advanced pawn, so Black gets a half-open e-file and, after White recaptures with the c-pawn, a queenside pawn majority. Black gives up space in return for counterplay on the wing."
+  },
+  "1.d4 e6 2.c4 c5 3.d5 exd5 4.cxd5": {
+    "strategy": "Recaptures towards the centre. The pawn on d5 cramps Black, and White has a central majority against Black's queenside one. A sharp, unbalanced game: White plays in the centre and on the kingside, Black on the queenside."
+  },
+  "1.d4 e6 2.c4 c5 3.d5 exd5 4.cxd5 d6": {
+    "strategy": "Supports the c5 pawn and fixes the structure instead of trying to win the d5 pawn at once. It also opens the diagonal of the bishop on c8 and gives Black a solid base for the queenside majority."
+  },
+  "1.d4 e6 2.c4 c5 3.d5 exd5 4.cxd5 d6 5.Nc3": {
+    "strategy": "Develops the knight, protects the pawn on d5 and prepares the e4 advance that completes White's pawn centre. White is playing for the space this structure gives, and Black must find counterplay on the queenside."
+  },
+  "1.d4 e6 2.c4 c5 3.d5 exd5 4.cxd5 d6 5.Nc3 g6": {
+    "strategy": "Prepares to fianchetto the king's bishop, which will press the long diagonal against White's centre. Black does not contest the centre directly: it lets White build it and plans to undermine it from the side and from a distance."
+  },
+  "1.d4 e6 2.c4 c5 3.d5 exd5 4.cxd5 d6 5.Nc3 g6 6.e4": {
+    "strategy": "Completes the pawn centre, with pawns on d5 and e4 and the knight behind them. White gains the space the structure promises and aims for the centre and kingside, but the advanced pawns must be kept supported."
+  },
+  "1.d4 e6 2.c4 c5 3.d5 exd5 4.cxd5 d6 5.Nc3 g6 6.e4 Bg7": {
+    "strategy": "Completes the fianchetto: the bishop presses on the long diagonal, on the knight on c3 and on the centre, and the king's bishop is developed. Black leaves White the centre on purpose and plans to undermine it with the queenside majority."
+  },
+  "1.d4 e6 2.c4 c5 3.Nf3 cxd4 4.Nxd4": {
+    "strategy": "Recaptures with a developing move and centralises the knight, where it eyes e6, c6 and b5. White keeps the c-pawn as a space edge on the queenside, and Black has to deal with the active knight."
+  },
+  "1.d4 e6 2.c4 c5 3.Nf3 cxd4 4.Nxd4 Nf6": {
+    "name": "English Opening: Symmetrical Variation, Anti-Benoni Variation, Spielmann Defence",
+    "strategy": "Develops the knight to its natural square, where it controls e4 and d5. That brakes White's attempt to build a broad centre with e4 and prepares quick castling. Black accepts a little less space for a solid, easy game."
   }
 }

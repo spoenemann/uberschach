@@ -23,10 +23,102 @@
     "strategy": "Tauscht den c-Bauern gegen den d-Bauern von Weiß, der ganze Sinn der Sizilianischen: Schwarz erhält eine halboffene c-Linie und eine zentrale Bauernmehrheit gegen den einzelnen e-Bauern von Weiß. Dafür schlägt Weiß mit einem Entwicklungsvorsprung zurück, auf den Schwarz vorbereitet sein muss."
   },
   "1.e4 c5 2.Nf3 g6 3.d4 Bg7": {
+    "name": "Sizilianische Verteidigung: Hyper-beschleunigter Pterodaktylus",
     "strategy": "Vollendet das Fianchetto und lässt c5 absichtlich angegriffen: Schlägt Weiß, gewinnt das Damenschach auf a5 den Bauern zurück. Der Zug umgeht die wichtigsten Abtäusche des offenen Spiels, kostet aber einen frühen Damenzug und führt zu einer weniger gebräuchlichen Art von Partie."
   },
   "1.e4 c5 2.Nf3 g6 3.d4 f5": {
     "strategy": "Greift sofort e4 an, lässt aber c5 angegriffen und schwächt die Königsdiagonale. Weiß kann einfach nehmen: Nach 4.exf5 gxf5 5.dxc5 ist Weiß einen Bauern voraus, und die Königsflügelstruktur von Schwarz ist aufgelockert.",
     "name": "Sizilianische Verteidigung: Frederico-Variante"
+  },
+  "1.e4 c5 2.Nf3 g6 3.c3 Bg7 4.d4": {
+    "strategy": "Setzt den Sinn von 3.c3 um: Nimmt Schwarz, schlägt der c-Bauer zurück, und Weiß hat Bauern auf d4 und e4, ein großes Zentrum, gestützt von Springer und Dame. Der e4-Bauer wird zum Ziel von ...d5, der Kampf geht also darum, ob dieses Zentrum hält oder untergraben wird."
+  },
+  "1.e4 c5 2.Nf3 g6 3.c3 Bg7 4.d4 Qa5": {
+    "name": "Pterodactylus-Verteidigung: Westliche Variante, Pterodactylus",
+    "strategy": "Bringt die Dame früh heraus, um Druck auf c3 und die Diagonale e1-a5 auszuüben. Der c3-Bauer ist durch den b-Bauern und den Springer gut gedeckt, Schwarz hat also für den Zeitaufwand keinen konkreten Gewinn, und Weiß entwickelt sich einfach weiter."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.dxc5": {
+    "strategy": "Nimmt den Bauern sofort. Keine schwarze Figur kann ihn zurückschlagen, Schwarz gewinnt ihn daher mit dem Damenschach auf a5 zurück; der Tausch d-Bauer gegen c-Bauer führt dann zu einer ausgeglichenen Partie, in der die schwarze Dame früh draußen steht."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Nc3": {
+    "strategy": "Der natürliche Entwicklungszug: Er deckt e4 und bringt eine Figur zum Zentrum. Zugleich tritt er auf die Diagonale der schwarzen Dame, die mit ...Da5 gegen den König fesselt, genau worauf der Aufbau von Schwarz zielt."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Be3": {
+    "strategy": "Deckt d4 mit einem Entwicklungszug und bereitet die lange Rochade vor. Das Damenschach auf a5 löst er jedoch nicht, und das Zentrum von Weiß steht nicht besser als nach der einfachen Entwicklung des Springers."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Bc4": {
+    "strategy": "Richtet den Läufer auf f7, bevor das Zentrum geklärt ist. Schwarz kann die Bauern tauschen und mit Tempo auf a5 Schach bieten, während der Läufer auf c4 keine Fortsetzung hat; Weiß gewinnt also wenig dadurch, die Figur so früh festzulegen."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.dxc5 Qa5+": {
+    "name": "Pterodactylus-Verteidigung: Westliche Variante, Rhamphorhynchus",
+    "strategy": "Gewinnt den Bauern mit Tempo zurück: Das Schach zwingt Weiß zu einem Zug, und die Dame holt danach c5. Schwarz endet mit einem Vorsprung an zentralen Bauern und einem Läufer, der schon die lange Diagonale entlangzielt."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Nc3 Qa5": {
+    "name": "Moderne Verteidigung: Pterodaktylus-Variante",
+    "strategy": "Fesselt den Springer gegen den König und setzt ihn vom ersten Moment an unter Druck. Weiß muss die Fesselung lösen oder das Zentrum klären, Schwarz ergreift also mit einem einzigen Damenzug die Initiative, während der am König gebundene Springer seine Aufgabe nicht erfüllen kann."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Be3 Qa5+": {
+    "name": "Pterodactylus-Verteidigung: Westliche Variante, Anhanguera",
+    "strategy": "Bietet sofort Schach und zwingt Weiß zu antworten, und deckt im selben Zug den angegriffenen Bauern auf c5. Schwarz erhält früh eine aktive Dame und kann entscheiden, wie er die Spannung im Zentrum löst."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Bc4 cxd4": {
+    "strategy": "Klärt das Zentrum durch den Tausch des c-Bauern gegen den d-Bauern. Nach dem Rückschlag steht der Springer auf d4 vor dem Läufer auf g7, was Schwarz mit einem Schach ausnutzen kann, und Schwarz behält die halboffene c-Linie."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Bc4 cxd4 5.Nxd4": {
+    "strategy": "Der natürliche Rückschlag. Der Springer steht im Zentrum, wird aber nur von der Dame gedeckt und vom Läufer auf g7 angegriffen, was ein nützliches Schach vorbereitet."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Bc4 cxd4 5.Nxd4 Qa5+": {
+    "name": "Pterodactylus-Verteidigung: Westliche Variante, Siroccopteryx",
+    "strategy": "Bietet sofort Schach, und der Springer auf d4 wird vom Läufer auf g7 angegriffen und nur von der Dame gedeckt. Weiß muss das Schach beantworten, Schwarz gewinnt also Zeit zur Entwicklung, während der Läufer auf c4 ohne klare Aufgabe steht."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.dxc5 Qa5+ 5.Nc3": {
+    "name": "Pterodactylus-Verteidigung: Sizilianische Variante, Rhamphorhynchus",
+    "strategy": "Blockt das Schach mit einem Springer, der dann am König gefesselt ist, und läuft in 5...Lxc3+: Nach dem Rückschlag auf c3 nimmt die Dame diesen Bauern mit Schach und gewinnt auch noch c5."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.dxc5 Qa5+ 5.Nc3 Bxc3+": {
+    "strategy": "Nimmt den gefesselten Springer mit Schach. Weiß muss zurückschlagen, und der Doppelbauer auf c3 ist ungedeckt: Die Dame kann ihn als Nächstes mit Schach nehmen, während auch der Bauer auf c5 hängt."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.dxc5 Qa5+ 5.Nc3 Bxc3+ 6.bxc3": {
+    "name": "Pterodactylus-Verteidigung: Sizilianische Variante, Pteranodon",
+    "strategy": "Der einzig vernünftige Rückschlag: Alles andere lässt Weiß eine Figur zurückliegen. Der Preis ist ein zerstörter Damenflügel, denn der Bauer auf c3 wird nun von der Dame angegriffen und der Bauer auf c5 steht weiterhin ungedeckt."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.dxc5 Qa5+ 5.Nc3 Bxc3+ 6.bxc3 Qxc3+": {
+    "name": "Sizilianische Verteidigung: Hyper-beschleunigter Pterodaktylus, Abtauschvariante",
+    "strategy": "Nimmt den Bauern mit Schach; die Dame greift zugleich den Turm auf a1 und den Bauern auf c5 an. Weiß muss blocken, und Schwarz gewinnt auch noch c5, sodass Weiß als einzige Kompensation für einen Bauern das Läuferpaar bleibt."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Nc3 Qa5 5.Be2": {
+    "strategy": "Entwickelt den Königsläufer und bereitet die Rochade vor, ohne eine Schwäche zu schaffen. Die Fesselung auf c3 bleibt, doch der Springer ist durch den b-Bauern solide gedeckt, sodass Weiß einfach die Entwicklung vollendet und das Zentrum behält."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Nc3 Qa5 5.Bc4": {
+    "name": "Pterodactylus-Verteidigung: Sizilianische Variante, Siroccopteryx",
+    "strategy": "Entwickelt den Läufer auf sein aktivstes Feld und zielt auf f7 und den Königsflügel, bevor Weiß rochiert. Der gefesselte Springer auf c3 ist weiterhin durch den b-Bauern gut gedeckt, Weiß verliert für den aktiven Aufbau also nichts."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Nc3 Qa5 5.Bd2": {
+    "name": "Pterodactylus-Verteidigung: Sizilianische Variante, Entfesselung",
+    "strategy": "Löst die Fesselung durch Einschieben des Läufers, sodass der Springer wieder frei ist und c3 doppelt gedeckt wird. Der Preis ist eine passive Figur und ein verlorenes Tempo; die Entwicklung von Weiß hinkt hinterher, während das Zentrum gespannt bleibt."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Nc3 Qa5 5.Be3": {
+    "name": "Pterodactylus-Verteidigung: Sizilianische Variante, Anhanguera",
+    "strategy": "Stützt den d4-Bauern mit einem Entwicklungszug und bereitet die lange Rochade vor, lässt die Fesselung aber noch eine Weile bestehen. Schwarz kann die Zeit nutzen, um das Zentrum zu seinen Gunsten zu klären."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Nc3 Qa5 5.d5": {
+    "name": "Pterodactylus-Verteidigung: Sizilianische Variante, Benoni-Gambit",
+    "strategy": "Öffnet die lange Diagonale für den Läufer von Schwarz: 5...Lxc3+ 6.bxc3 Dxc3+ gewinnt einen Bauern, und Weiß hat dafür nur das Läuferpaar und etwas mehr Raum."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 Bg7 4.Nc3 Qa5 5.Be2 d6": {
+    "name": "Pterodactylus-Verteidigung: Sizilianische Variante, Quetzalcoatlus",
+    "strategy": "Nimmt den Figuren von Weiß das Feld e5 und befreit den Läufer auf c8. Ein solider, flexibler Zug, der die Bauernstruktur vollendet, auch wenn die Dame noch auf a5 steht und nicht leicht ein besseres Feld findet."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 cxd4 4.Nxd4": {
+    "strategy": "Der übliche Rückschlag der Offenen Sizilianischen: Der Springer besetzt das Zentrum, wo er schwer zu vertreiben ist. Er wird nur von der Dame gedeckt und braucht daher Unterstützung, sobald der schwarze Läufer auf g7 steht."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 cxd4 4.Nxd4 Nf6": {
+    "strategy": "Entwickelt mit Tempo, greift e4 an und zwingt Weiß, es zu decken. Er steuert auf einen fianchettierten Läufer zu, der die lange Diagonale entlang auf den Damenflügel von Weiß blickt, und hält die zentrale Bauernstruktur von Schwarz flexibel."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3": {
+    "strategy": "Die natürliche Deckung von e4: Eine Figur wird ohne Zugeständnis entwickelt, und Weiß behält den starken Springer auf d4. Weiß hat freie Wahl beim Aufbau, einschließlich eines Königsangriffs mit langer Rochade."
+  },
+  "1.e4 c5 2.Nf3 g6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 d6": {
+    "strategy": "Nimmt den Figuren von Weiß das Feld e5 und befreit den Läufer auf c8, womit Schwarz eine kompakte Struktur für den Läufer erhält, der gleich auf der langen Diagonale fianchettiert wird. Es führt zu einer scharfen Partie, in der jede Seite auf ihrem Flügel klare Pläne hat."
   }
 }

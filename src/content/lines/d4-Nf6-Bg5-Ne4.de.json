@@ -25,5 +25,46 @@
   },
   "1.d4 Nf6 2.Bg5 Ne4 3.h4 Nxg5": {
     "strategy": "Schlägt den Läufer, aber der Rückschlag öffnet die h-Linie für den weißen Turm gegen den Bauern h7 und lässt einen Bauern auf g5 stehen, der den Königsflügel von Schwarz einengt. Schwarz hat das Läuferpaar, aber die offene Linie und der Raum sind ein teurer Preis."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 c6 4.Nd2": {
+    "strategy": "Greift den Springer auf e4 mit einem Entwicklungszug an: Schwarz muss tauschen, sich zurückziehen oder ihn halten. Der Preis ist, dass der Springer durch eine Dame auf a5 gegen den König gefesselt werden kann, was den Gedanken zunichtemacht."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 c6 4.Nd2 Qa5": {
+    "strategy": "Fesselt den Springer auf d2 an den König, sodass er nicht auf e4 schlagen kann, und hält den Springer auf e4 an seinem Platz. Weiß muss einen Zug aufwenden, um die Fesselung zu lösen, was Schwarz Zeit gibt, das Zentrum zu organisieren."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 c6 4.Nd2 Qa5 5.c3": {
+    "strategy": "Löst die Fesselung, indem es die Diagonale blockiert, und stützt zugleich den Bauern d4. Weiß erhält ein stabiles Bauernpaar im Zentrum, zum Preis, dass die schwarze Dame c3 im Auge behält."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 c6 4.Nd2 Qa5 5.c3 Nxd2": {
+    "strategy": "Tauscht den zweimal gezogenen Springer gegen den entwickelten von Weiß und vereinfacht sofort. Weiß schlägt mit der Dame zurück, sodass Schwarz eine einfache, sichere Stellung erreicht."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 c6 4.Nd2 Qa5 5.c3 Nxd2 6.Qxd2": {
+    "strategy": "Der natürliche Rückschlag: Die Dame entwickelt sich mit dem Tausch und steht auf d2 sicher hinter dem Bauern c3, der die schwarze Dame blockiert. Die Partie ist ausgeglichen, wobei die Zentrumsbauern von Weiß etwas freier sind."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 c6 4.Nd2 Qa5 5.c3 Nxd2 6.Qxd2 d5": {
+    "strategy": "Beansprucht das Zentrum und öffnet die Diagonale für den weißfeldrigen Läufer, indem es dem Bauernpaar von Weiß einen soliden eigenen Bauern entgegensetzt. Die Dame auf a5 hält c3 unter Druck, und die Stellung ist ausgeglichen."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 d5 4.f3": {
+    "strategy": "Verjagt den Springer sofort und hält das Zentrum, nimmt aber dem eigenen Springer das Feld f3 und lockert die Königsstellung. Der Zeitgewinn ist real, denn der schwarze Springer muss erneut ziehen."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 d5 4.f3 Nf6": {
+    "strategy": "Der Springer geht auf sein bestes Feld zurück, wo er den Königsflügel deckt und e4 und d5 im Auge behält. Schwarz hat Zeit verloren, aber der Bauernzug von Weiß hat weder der Entwicklung noch dem Zentrum geholfen."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 d5 4.f3 Nf6 5.Nc3": {
+    "strategy": "Entwickelt sich zum Zentrum hin und erhöht den Druck auf d5 und e4, in Vorbereitung auf ein breites Bauernzentrum. Der Damenspringer entwickelt sich hier natürlich, da f3 dem anderen genommen ist."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 d5 4.f3 Nf6 5.Nc3 Bf5": {
+    "strategy": "Entwickelt den weißfeldrigen Läufer außerhalb der Bauernkette, bevor er eingesperrt wird, und übt Druck auf e4 und c2 aus. Schwarz strebt eine leichte Entwicklung und ein solides Zentrum an."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 d5 4.f3 Nf6 5.Nc3 Bf5 6.e4": {
+    "name": "Trompowsky-Angriff: Edge-Variante, Hergert-Gambit",
+    "strategy": "Bietet den e-Bauern an, um das Zentrum zu sprengen, bevor Schwarz rochiert hat, in der Hoffnung, dass offene Linien und schnelles Figurenspiel dafür entschädigen. Ein spekulatives Gambit: Nimmt Schwarz gelassen an, muss Weiß die Kompensation erst beweisen."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.h4 Nxg5 4.hxg5": {
+    "strategy": "Schlägt mit dem Bauern zurück, damit der Turm die offene h-Linie entlang auf h7 blickt. Die Doppelbauern auf der g-Linie werden für die Linie in Kauf genommen und für einen Bauern auf g5, der den schwarzen Figuren die Felder f6 und h6 nimmt."
+  },
+  "1.d4 Nf6 2.Bg5 Ne4 3.h4 Nxg5 4.hxg5 e5": {
+    "name": "Trompowsky-Angriff: Raptor-Variante, Hergert-Gambit",
+    "strategy": "Greift sofort im Gegenzug an: Der Bauer fordert d4 heraus und öffnet die Diagonale der Dame gegen den Bauern auf g5, der keine Unterstützung hat. Schwarz spielt auf schnelle Entwicklung und Aktivität, wobei g5 das erste Ziel ist."
   }
 }

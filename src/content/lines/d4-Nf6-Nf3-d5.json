@@ -1,5 +1,5 @@
 {
-  "about": "After 1.d4 Nf6 2.Nf3 d5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.d4 Nf6 2.Nf3 d5: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.d4 Nf6 2.Nf3 d5",
@@ -112,6 +112,454 @@
     },
     {
       "line": "1.d4 Nf6 2.Nf3 d5 3.e3 Bf5"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bf4 c5",
+      "moves": [
+        {
+          "san": "e3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bf4 c5 4.e3",
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 5
+        },
+        {
+          "san": "Qb6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bf4 c5 4.e3 Nc6",
+      "moves": [
+        {
+          "san": "Nbd2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bf4 c5 4.e3 Nc6 5.Nbd2",
+      "sources": [
+        "https://en.wikipedia.org/wiki/London_System"
+      ],
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bf4 c5 4.e3 Nc6 5.Nbd2 e6",
+      "moves": [
+        {
+          "san": "c3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bf4 c5 4.e3 Nc6 5.Nbd2 e6 6.c3"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bf4 c5 4.e3 Qb6",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bf4 c5 4.e3 Qb6 5.Nc3"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6",
+      "moves": [
+        {
+          "san": "e3",
+          "rating": 5
+        },
+        {
+          "san": "Nbd2",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.e3",
+      "moves": [
+        {
+          "san": "c5",
+          "rating": 5
+        },
+        {
+          "san": "Nbd7",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.Nbd2",
+      "moves": [
+        {
+          "san": "Be7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.e3 c5",
+      "moves": [
+        {
+          "san": "c3",
+          "rating": 5
+        },
+        {
+          "san": "Nbd2",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.e3 c5 5.c3",
+      "moves": [
+        {
+          "san": "Nbd7",
+          "rating": 5
+        },
+        {
+          "san": "Nc6",
+          "rating": 4
+        },
+        {
+          "san": "Qb6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.e3 c5 5.Nbd2",
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.e3 c5 5.c3 Qb6"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.e3 c5 5.c3 Nbd7",
+      "moves": [
+        {
+          "san": "Nbd2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.e3 c5 5.c3 Nbd7 6.Nbd2",
+      "moves": [
+        {
+          "san": "Bd6",
+          "rating": 5
+        },
+        {
+          "san": "Be7",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.e3 c5 5.c3 Nbd7 6.Nbd2 Bd6"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.e3 c5 5.c3 Nbd7 6.Nbd2 Be7"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.e3 c5 5.c3 Nc6",
+      "moves": [
+        {
+          "san": "Bd3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.e3 c5 5.c3 Nc6 6.Bd3"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.e3 c5 5.Nbd2 Nc6",
+      "moves": [
+        {
+          "san": "c3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.e3 c5 5.Nbd2 Nc6 6.c3"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.e3 Nbd7",
+      "moves": [
+        {
+          "san": "Bd3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.e3 Nbd7 5.Bd3"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.Nbd2 Be7",
+      "moves": [
+        {
+          "san": "c3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.Nbd2 Be7 5.c3",
+      "moves": [
+        {
+          "san": "Nbd7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.Nbd2 Be7 5.c3 Nbd7",
+      "moves": [
+        {
+          "san": "e3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 e6 4.Nbd2 Be7 5.c3 Nbd7 6.e3"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 g6",
+      "moves": [
+        {
+          "san": "e3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.Bg5 g6 4.e3"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 e6",
+      "moves": [
+        {
+          "san": "Bd3",
+          "rating": 5
+        },
+        {
+          "san": "b3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 e6 4.Bd3",
+      "moves": [
+        {
+          "san": "Bd6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 e6 4.b3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Colle_System"
+      ],
+      "moves": [
+        {
+          "san": "c5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 e6 4.b3 c5",
+      "moves": [
+        {
+          "san": "Bb2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 e6 4.b3 c5 5.Bb2",
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 e6 4.b3 c5 5.Bb2 Nc6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Colle_System"
+      ],
+      "moves": [
+        {
+          "san": "Bd3",
+          "rating": 5
+        },
+        {
+          "san": "Nbd2",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 e6 4.b3 c5 5.Bb2 Nc6 6.Bd3"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 e6 4.b3 c5 5.Bb2 Nc6 6.Nbd2"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 e6 4.Bd3 Bd6",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 e6 4.Bd3 Bd6 5.O-O",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 e6 4.Bd3 Bd6 5.O-O O-O",
+      "moves": [
+        {
+          "san": "b3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 e6 4.Bd3 Bd6 5.O-O O-O 6.b3",
+      "moves": [
+        {
+          "san": "Nbd7",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 e6 4.Bd3 Bd6 5.O-O O-O 6.b3 Nbd7"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 g6",
+      "moves": [
+        {
+          "san": "Bd3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 g6 4.Bd3",
+      "moves": [
+        {
+          "san": "Bg7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 g6 4.Bd3 Bg7"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.g3 c6",
+      "moves": [
+        {
+          "san": "Bg2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.g3 c6 4.Bg2",
+      "moves": [
+        {
+          "san": "Bg4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.g3 c6 4.Bg2 Bg4",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.g3 c6 4.Bg2 Bg4 5.O-O",
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 4
+        },
+        {
+          "san": "Nbd7",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.g3 c6 4.Bg2 Bg4 5.O-O e6"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.g3 c6 4.Bg2 Bg4 5.O-O Nbd7",
+      "moves": [
+        {
+          "san": "c4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.g3 c6 4.Bg2 Bg4 5.O-O Nbd7 6.c4",
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.g3 c6 4.Bg2 Bg4 5.O-O Nbd7 6.c4 e6"
     }
   ]
 }

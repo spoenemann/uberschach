@@ -1,6 +1,7 @@
 ---
-status: accepted
+status: superseded
 date: 2026-10-24
+superseded-by: 0002-opening-modules-folded-to-a-size-budget.md
 ---
 
 # ADR-0001: The opening book is JSON, served in chunks generated at build time and fetched as the line walks into them

@@ -15,6 +15,8 @@
     "strategy": "Gibt den Bauern zurück, um den Läufer anzugreifen, und erreicht dieselben Stellungen wie bei ...d5 einen Zug früher. Das Schach hat Weiß schon die Rochade gekostet, daher erhält Schwarz dasselbe offene Spiel mit schlecht stehendem weißen König."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5": {
+    "name": "Angenommenes Königsgambit: Läufergambit, Lopez-Variante",
+    "background": "Einst ein beliebter Zug, wird er heute nur noch gelegentlich gespielt, obwohl seine Theorie gut erforscht bleibt.",
     "strategy": "Hält den Bauern auf f4 mit einer Bauernkette und bereitet den Angriff auf den unrochierten König vor, doch der Bauer verschließt der Dame den Rückzug nach d8 und schwächt die Königsseite. Weiß entwickelt sich schnell, und die Partie ist scharf und zweischneidig."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Nf6": {
@@ -33,5 +35,48 @@
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Bc5": {
     "strategy": "Entwickelt den Läufer auf eine natürliche Diagonale, doch ein Bauernzug kann ihn mit Tempogewinn vertreiben. Weiß erhält ohne Kosten ein breites Bauernzentrum und einen Entwicklungsvorsprung.",
     "name": "Angenommenes Königsgambit: Läufergambit, Greco-Variante"
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 d5 5.Bxd5": {
+    "strategy": "Schlägt den angebotenen Bauern mit dem Läufer, womit der e-Bauer zu Hause bleibt und der Läufer auf einer offenen Diagonale steht; das Material ist wieder ausgeglichen. Der Läufer zielt auf b7 und f7, doch der weiße König kann nicht rochieren, deshalb wird Schwarz versuchen, gegen die zentralisierte Figur Tempo zu gewinnen."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3": {
+    "strategy": "Der übliche Entwicklungszug: Er stützt e4 und zielt auf d5 und b5. Weiß bringt eine Figur ins Spiel und behält die Wahl, ob er die Dame sofort angreift oder zuerst das Zentrum aufbaut."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Qf3": {
+    "name": "Angenommenes Königsgambit: Läufergambit, Klassische Verteidigung, Cozio-Angriff",
+    "strategy": "Stellt die Dame nach f3, wo sie auf den Bauern f4 drückt und dem Springer sein natürliches Feld nimmt. Zugleich bereitet der Zug g3 vor: Sobald der g-Bauer g2 verlassen hat, deckt die Dame den Turm auf h1, sodass der Bauer die schwarze Dame mit gedecktem Turm verjagen kann."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3 Bg7": {
+    "strategy": "Der Läufer besetzt die lange Diagonale und drückt dort auf den Springer c3, während die Bauern auf f4 und g5 den Mehrbauern halten. Der schwarze König bleibt im Zentrum und die Dame steht weit von zu Hause entfernt, sodass der Entwicklungsvorsprung von Weiß der Preis für den Bauern ist."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3 Bg7 6.g3": {
+    "name": "Angenommenes Königsgambit: Läufergambit, McDonnell-Angriff",
+    "background": "Sie ist die Hauptvariante der Lopez-Variante.",
+    "strategy": "Greift die Dame an und gibt einen zweiten Bauern als Gambit für offene Linien und schnelle Entwicklung. Nach ...fxg3 kann der König nach g2 gehen, um den Bauern zu blockieren und h1 zu decken, sodass hxg3 die Dame mit dem Turm angreift. Der schärfste Plan hier, beide Seiten spielen auf Angriff."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3 Bg7 6.d4": {
+    "strategy": "Beansprucht das Zentrum und öffnet die Diagonale des Läufers c1 gegen f4, das nun nur noch vom g-Bauern und der Dame gedeckt wird. Eine ruhigere Alternative zum sofortigen Durchbruch am Königsflügel: Weiß baut zuerst das Zentrum auf und hebt sich den Durchbruch mit g3 für später auf."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3 Bg7 6.d4 d6": {
+    "strategy": "Befreit den Läufer c8 und deckt e5, bereit, dem Vormarsch des weißen e-Bauern zu begegnen. Zudem vermeidet der Zug den Springer auf e7, wo Weiß mit g3 antworten kann, in einer Variante des Angriffs, die Weiß besser liegt. Schwarz bleibt solide und behält den Mehrbauern."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3 Bg7 6.d4 Ne7": {
+    "name": "Angenommenes Königsgambit: Läufergambit, Klassische Verteidigung",
+    "strategy": "Entwickelt den Springer in Richtung g6, wo er f4 halten helfen kann. Der Nachteil ist, dass Weiß nun g3 als Bauernopfer in einer Variante spielen kann, die für Weiß besser ist als die übliche; Schwarz tut daher besser daran, den Springer flexibel zu halten."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3 Bg7 6.g3 fxg3": {
+    "strategy": "Schwarz nimmt den zweiten Bauern und steht zwei Bauern vorn. Der Bauer auf g3 greift h2 an und die f-Linie ist für die weißen Figuren offen, deshalb muss Schwarz genau verteidigen; doch das Mehrmaterial ist real, und die Dame wird nicht mehr angegriffen."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Ne7 5.Nc3": {
+    "strategy": "Ein natürlicher Entwicklungszug, der e4 stützt, ohne die Dame anzugreifen, der durch den eigenen Springer das Feld e7 fehlt. Weiß entwickelt sich zuerst und wartet auf einen besseren Moment, die Dame zu vertreiben, und nimmt in Kauf, dass der König die Rochade bereits verloren hat."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Ne7 5.Nc3 g5": {
+    "strategy": "Stützt den Bauern auf f4 mit dem g-Bauern, ein direkter Weg, den Mehrbauern zu behalten. Der Preis ist ein geschwächter Königsflügel und eine Dame mit weniger Rückzugsfeldern, da der Bauer die Diagonale zurück ins Zentrum versperrt."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Ne7 5.Nc3 g5 6.d4": {
+    "strategy": "Baut ein zentrales Bauernpaar auf und öffnet die Diagonale des Läufers c1 auf f4, das nur der g-Bauer und die Dame decken. Weiß nimmt den König auf f1 für aktives Spiel in Kauf, und Schwarz muss nun einen Weg finden, den Bauern ohne Zeitverlust zu halten."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Ne7 5.Nc3 g5 6.d4 Bg7": {
+    "strategy": "Erreicht die Stellung der anderen Zugfolge: Der Läufer besetzt die lange Diagonale und setzt den Bauern d4 unter Druck, und der Springer auf e7 kann nach g6 gehen, um f4 halten zu helfen. Aber Weiß kann nun das Bauernopfer g3 in einer Variante spielen, die Weiß besser liegt."
   }
 }
