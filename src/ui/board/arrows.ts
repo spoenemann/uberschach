@@ -58,7 +58,7 @@ export function drawingOrder(arrows: readonly BoardArrow[]): readonly BoardArrow
     const [toX, toY] = squareCentre(arrow.to, "white");
     return Math.hypot(toX - fromX, toY - fromY);
   };
-  return arrows.toSorted((a, b) => length(b) - length(a));
+  return [...arrows].sort((a, b) => length(b) - length(a));
 }
 
 /** The SVG path of the arrow: a shaft with a head, as one closed polygon. */

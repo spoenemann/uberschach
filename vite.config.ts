@@ -7,6 +7,14 @@ export default defineConfig({
   // request its script from the wrong path.
   base: "/uberschach/",
   plugins: [react()],
+  build: {
+    // Safari 15, the last iOS of the iPhone SE (1st generation); Vite's
+    // default is Safari 16.4. Syntax and CSS are lowered to it. Built-ins are
+    // not, and neither is a media query written in the range syntax
+    // `(width < 40rem)`: tsconfig.app.json's `lib` keeps the former to
+    // Safari 15, and the CSS Modules write `min-width`.
+    target: "safari15",
+  },
   test: {
     // Two test environments, split by layer (docs/ARCHITECTURE.md, Invariants):
     // domain, i18n and content run in plain Node, so any DOM access fails

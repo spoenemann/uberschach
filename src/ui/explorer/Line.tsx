@@ -74,7 +74,7 @@ function pairs(game: Game): Pair[] {
     const before = game.positions[index];
     if (before === undefined) return;
     const ply = index + 1;
-    const last = result.at(-1);
+    const last = result[result.length - 1];
     if (before.turn === "white" || last === undefined) {
       result.push({ number: before.fullmoveNumber, plies: [ply] });
     } else {

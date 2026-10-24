@@ -85,8 +85,8 @@ function candidateMoves(moves: readonly BookMove[]): readonly BookMove[] {
 }
 
 function lastMoveOf(game: Game, book: OpeningBook): LastMove | null {
-  const move = game.moves.at(-1);
-  const before = game.positions.at(-2);
+  const move = game.moves[game.moves.length - 1];
+  const before = game.positions[game.positions.length - 2];
   if (move === undefined || before === undefined) return null;
   const written = lookup(book, before)?.moves.find((candidate) => sameMove(candidate.move, move));
   return { before, move, book: written };

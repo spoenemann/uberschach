@@ -60,6 +60,7 @@ npm run dev                          # build:openings, then http://localhost:517
 - Commits land on `main` directly, without review. Run `npm run check` before every commit; nothing else gates it. CI re-runs the suite on `main`, and only a green run deploys.
 - Agents commit; only the maintainer pushes, because a push to `main` deploys.
 - `.github/workflows/ci.yml` is the deploy. A change there is a change to production.
+- The oldest supported browser is Safari 15 (iPhone SE 1st generation, iOS 15). A "change your target library" type error, for `toSorted`, `at`, `findLast`, `Object.hasOwn`, means use the older API; never raise `lib` in `tsconfig.app.json`. CSS: `min-width` media queries, never the range syntax `(width < 40rem)`.
 - Never commit secrets. The app needs none: it has no backend.
 - Done means `npm run check` passes, run in this session with its output shown.
 - A change to anything rendered (`src/ui/`, `src/app/`, `index.html`) is looked at: open the screenshots `npm run check` writes, and check the specifics with a disposable ad-hoc module when looking is not enough (`docs/visual-verification.md`). Green checks do not see a blank or misaligned frame.

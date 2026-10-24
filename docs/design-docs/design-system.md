@@ -116,7 +116,9 @@ looks with classic chess vibes: wood, tangible, kept simple.
   and text sit side by side on wide screens and stack to one column below
   40rem (640px), the board scaling to the viewport. Custom properties cannot
   be used in media queries, so `40rem` is written as a literal in each CSS
-  Module that stacks.
+  Module that stacks, as a plain `min-width` query with the stacked layout
+  as the base, never in the range syntax `(width < 40rem)` (Safari 16.4;
+  Safari 15 drops the whole rule).
 - **Icons** — text first. An icon only where it is universally understood
   (next, previous, play), as inline SVG stroked in the current text colour,
   always with a visible label or an `aria-label`.
@@ -304,3 +306,10 @@ looks with classic chess vibes: wood, tangible, kept simple.
   `--color-bg`). That is below AA, a decision of the maintainer's and the
   one exception to the contrast rule (Cross-cutting concerns); both tokens
   are for this sentence alone, no other text uses them.
+- 2026-10-24: the stacked layout is the base (Layout). The explorer's two
+  columns were written as the base with `@media (width < 40rem)` stacking
+  them; Safari 15, the last iOS of the iPhone SE (1st generation), does not
+  read the range syntax and dropped the rule, so the two columns never
+  stacked on that phone. They are now written the other way round: stacked
+  as the base, `@media (min-width: 40rem)` for the two columns. The look at
+  both widths is unchanged; no token added.

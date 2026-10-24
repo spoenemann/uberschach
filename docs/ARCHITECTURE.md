@@ -14,6 +14,9 @@ under `docs/exec-plans/`; what the product promises lives in
 - TypeScript in strict mode (with `noUncheckedIndexedAccess`), Vite for the
   dev server and build, React for the UI, Vitest for tests, ESLint for lint
   and layer rules, npm, Node 24 (`.nvmrc`).
+- The oldest browser supported is Safari 15, the last iOS of the iPhone SE
+  (1st generation). Vite's `build.target` and the `lib` of `tsconfig.app.json`
+  say so (Invariants).
 - Deployed to GitHub Pages by `.github/workflows/ci.yml`: every push to
   `main` that passes `npm run check` publishes to
   https://spoenemann.github.io/uberschach/. Vite's `base` is `/uberschach/`
@@ -71,6 +74,11 @@ Enforced by: `boundaries/dependencies` and `boundaries/no-unknown-files` in
   explorer fetches `public/openings/`, written at build, chunk by chunk.
   Enforced by: `no-restricted-imports` in `eslint.config.js`; the bundle
   size `npm run build` prints is the measure (252 kB on 2026-10-24).
+- The code calls no built-in newer than Safari 15 (ES2021) and writes no
+  media query in the range syntax. Enforced by: `lib` and `target` in
+  `tsconfig.app.json`, which `npm run typecheck` applies (its hint to raise
+  `lib` is the wrong fix); `build.target` in `vite.config.ts` lowers syntax
+  and CSS. The range syntax is a convention only (design system, Layout).
 - The built app, served under the Pages base path, mounts into `#root` with
   no console error, no uncaught exception, no failed same-origin request and
   no third-party request, at a desktop and a phone width. Enforced by:

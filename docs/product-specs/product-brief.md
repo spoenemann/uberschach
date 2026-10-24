@@ -30,6 +30,10 @@ Built first for the maintainer's own training, and published on GitHub Pages,
 so it is open to anyone who finds it useful. No accounts and no server-side
 user data: whatever the app stores stays in the visitor's browser.
 
+It works on the smallest phone still in use, the iPhone SE (1st generation):
+320 px wide, Safari 15. A screen too full for it stacks to one column and
+scrolls; nothing needs a wider screen or a newer browser.
+
 ## Success in 6 months
 
 The maintainer uses it for their own training.

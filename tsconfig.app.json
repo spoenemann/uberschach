@@ -1,8 +1,15 @@
 {
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
-    "target": "es2023",
-    "lib": ["ES2023", "DOM"],
+    /* The oldest browser the app supports is Safari 15, the last iOS of the
+       iPhone SE (1st generation). The built-ins the type-checker knows are
+       therefore ES2021's: Array.prototype.at, toSorted, findLast, Object.hasOwn
+       and the like exist only in Safari 15.4 or 16, and a call to one is a
+       white screen on that phone. A "change your target library" error means
+       use the older API; never raise this (vite.config.ts, build.target).
+       ES2022.Error is the exception: Error's `cause` is in Safari 15. */
+    "target": "es2021",
+    "lib": ["ES2021", "ES2022.Error", "DOM"],
     "module": "esnext",
     "types": ["vite/client"],
     "allowArbitraryExtensions": true,
