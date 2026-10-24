@@ -49,6 +49,11 @@ export default defineConfig({
     // test file itself changes: found on 2026-10-23, when the explorer's new
     // messages counted as stale. The suite is small; the cache buys little.
     fsModuleCache: false,
+    // The content tests play thousands of lines and the whole book: 2 s alone
+    // on a laptop, but 6 s on the CI runner, where `npm run check` runs them
+    // in parallel under coverage (named.test.ts timed out at the default 5 s
+    // on 2026-10-24). A timeout here guards against a hang, not a slow run.
+    testTimeout: 30_000,
     coverage: {
       // "A test with every domain or i18n change" (AGENTS.md, definition of
       // done), measured per file over src/domain and src/i18n only. Raise,
