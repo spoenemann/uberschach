@@ -132,6 +132,16 @@ describe("the opening explorer", () => {
     expect(second.last()?.line).toBe("1.Nf3");
   });
 
+  test("plays the one candidate whose arrow points to a square clicked, and none where two do", async () => {
+    // After 1.e4 c5 the candidates are Nf3, c3 and Nc3: two arrows point to c3.
+    const { container, last, record } = renderExplorer({ line: "1.e4 c5" });
+    await arrow(container, "c2c3");
+    fireEvent.click(square(container, "c3"));
+    expect(record).not.toHaveBeenCalled();
+    fireEvent.click(square(container, "f3"));
+    expect(last()?.line).toBe("1.e4 c5 2.Nf3");
+  });
+
   test("with fewer than three moves rated 4 and 5, offers the moves rated 3 too, their arrows faint", async () => {
     // After 1.e4 d5 the book rates exd5 Best, and Nc3 and d4 Playable.
     const { container } = renderExplorer({ line: "1.e4 d5" });

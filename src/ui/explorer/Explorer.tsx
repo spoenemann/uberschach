@@ -59,16 +59,6 @@ export function Explorer({ line, ply, side, book, onChange }: ExplorerProps) {
   const position = view.game.position;
   const ongoing = view.status.kind === "ongoing";
   const targets = selected === undefined ? [] : legalMoves(position, selected).map((move) => move.to);
-  const onSquareClick = (square: Square) => {
-    if (!ongoing) return;
-    const move = squareMove(position, selected, square);
-    if (move !== undefined) {
-      playNow(move);
-      return;
-    }
-    const own = position.placement.get(square)?.color === position.turn;
-    select(own && square !== selected ? square : undefined);
-  };
   // While a piece is selected the arrows give way, so its targets stand alone.
   const arrows: BoardArrow[] =
     selected === undefined
@@ -80,6 +70,20 @@ export function Explorer({ line, ply, side, book, onChange }: ExplorerProps) {
         }))
       : [];
   const moveOf = (arrow: BoardArrow): Move => ({ from: arrow.from, to: arrow.to, ...promotionFor(position, arrow) });
+  const onSquareClick = (square: Square) => {
+    if (!ongoing) return;
+    // A square only one arrow points to plays that arrow: visitors tap where the move goes.
+    const [pointing, other] = arrows.filter((arrow) => arrow.to === square);
+    const move =
+      squareMove(position, selected, square) ??
+      (pointing !== undefined && other === undefined ? moveOf(pointing) : undefined);
+    if (move !== undefined) {
+      playNow(move);
+      return;
+    }
+    const own = position.placement.get(square)?.color === position.turn;
+    select(own && square !== selected ? square : undefined);
+  };
   return (
     <div className={styles.explorer}>
       <div className={styles.boardColumn}>

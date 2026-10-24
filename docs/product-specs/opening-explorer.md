@@ -42,7 +42,8 @@ for and risks, and which replies matter.
   turns the board around. (`src/ui/explorer/Explorer.test.tsx`)
 - The visitor makes every move, for White and for Black in turn, in one of
   three ways: selecting a piece and then its target square; activating a
-  candidate's arrow on the board; activating a candidate in the list.
+  candidate's arrow on the board, or the square only its arrow points to;
+  activating a candidate in the list.
   (`src/ui/explorer/Explorer.test.tsx`)
 - While a piece is selected, its legal target squares are marked.
   Selecting another own piece moves the selection; selecting the same
@@ -173,7 +174,9 @@ for and risks, and which replies matter.
   2026-10-24). They are drawn as arrows on the board from the piece to its
   square, rating 5 strong, rating 4 lighter and rating 3 thinner and
   fainter still, all distinct from the last-move
-  highlight. Activating an arrow plays the move. While a piece is selected
+  highlight. Activating an arrow plays the move, and so does activating
+  the square it points to when no other arrow points there (the
+  maintainer, 2026-10-24). While a piece is selected
   the arrows give way, so its target squares stand alone (the maintainer,
   2026-10-23). (`src/ui/board/Board.test.tsx`, `src/ui/board/arrows.test.ts`,
   `src/ui/explorer/Explorer.test.tsx`)
