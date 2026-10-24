@@ -70,6 +70,9 @@ function Screen() {
       <footer className={styles.footer}>
         <LanguageSwitch />
         <a href="https://github.com/spoenemann/uberschach">GitHub</a>
+        <p className={styles.notice}>
+          {t("The texts on this website are AI-generated and may contain errors.")}
+        </p>
       </footer>
     </div>
   );

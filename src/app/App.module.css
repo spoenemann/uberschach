@@ -47,7 +47,9 @@
 }
 
 /* The footer: a hairline above, small muted type; the language switch
-   leading, the link to the source trailing. */
+   leading, the link to the source trailing, and on a line of its own the
+   notice that the texts are AI-generated (design system, Amendments,
+   2026-10-24). */
 .footer {
   display: flex;
   flex-wrap: wrap;
@@ -57,4 +59,12 @@
   border-top: 1px solid var(--color-hairline);
   font-size: var(--text-sm);
   color: var(--color-ink-muted);
+}
+
+.notice {
+  flex-basis: 100%;
+  max-width: none; /* the base paragraph's measure would let it share a row */
+  font-size: var(--text-xs);
+  line-height: var(--leading-heading);
+  color: var(--color-ink-faint);
 }

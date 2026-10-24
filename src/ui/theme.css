@@ -12,6 +12,7 @@
   --color-surface: #ffffff; /* cards and controls */
   --color-ink: #241c14;
   --color-ink-muted: #6e5f4f;
+  --color-ink-faint: #a39787; /* the footer notice only; 2.75:1, below AA by decision */
   --color-hairline: #e5ddd0; /* borders and rules */
   --color-accent: #2f6846; /* forest green: links, primary action, selection */
   --color-accent-strong: #25533a; /* hover and pressed */
@@ -52,6 +53,7 @@
   --font-body:
     system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
     sans-serif;
+  --text-xs: 0.6875rem;
   --text-sm: 0.875rem;
   --text-md: 1rem;
   --text-lg: 1.25rem;

@@ -133,6 +133,10 @@ for and risks, and which replies matter.
   what it must say (above). The findings and corrections are logged in
   the content's exec plan, which also holds the procedure
   (`docs/exec-plans/active/0002-opening-explorer.md`, Content review).
+- The footer of every screen says, in the visitor's language, that the
+  texts on the site are AI-generated and may contain errors (the
+  maintainer, 2026-10-24, to meet EU transparency requirements), small and
+  faint so it does not compete with the content. (`src/app/App.test.tsx`)
 - A historical statement names its source in the data file; the source is
   not shown on screen. (`src/content/openings.test.ts`: every background
   names a source)

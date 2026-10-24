@@ -112,6 +112,17 @@ test("links to the source on GitHub from the footer", () => {
   );
 });
 
+test("says in the footer, in either language, that the texts are AI-generated", () => {
+  render(<App />);
+  const notice = "The texts on this website are AI-generated and may contain errors.";
+  expect(screen.getByText(notice)).not.toBeNull();
+  fireEvent.click(screen.getByRole("button", { name: "Deutsch" }));
+  expect(screen.queryByText(notice)).toBeNull();
+  expect(
+    screen.getByText("Die Texte auf dieser Website sind KI-generiert und können Fehler enthalten."),
+  ).not.toBeNull();
+});
+
 test("starts in the stored language", () => {
   localStorage.setItem("uberschach.language", "de");
   render(<App />);

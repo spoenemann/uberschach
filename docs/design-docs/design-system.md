@@ -100,7 +100,8 @@ looks with classic chess vibes: wood, tangible, kept simple.
   stack, for `h1` to `h3`; `--font-body`, a sans stack, for everything else
   including move notation, which is set with
   `font-variant-numeric: tabular-nums`. Scale: `--text-sm` 14px,
-  `--text-md` 16px, `--text-lg` 20px, `--text-xl` 24px, `--text-2xl` 32px.
+  `--text-md` 16px, `--text-lg` 20px, `--text-xl` 24px, `--text-2xl` 32px;
+  `--text-xs` 11px is the footer notice's alone (Amendments, 2026-10-24).
   Running text no wider than `--measure`; headings at weight 500, never
   bold-heavy.
 - **Space** — a 4px grid, `--space-1` to `--space-12`.
@@ -144,7 +145,8 @@ looks with classic chess vibes: wood, tangible, kept simple.
 - Text colours meet WCAG AA on their background. Against `--color-bg`: ink
   16.1:1, muted ink 5.9:1, accent 6.3:1, bad 6.2:1, note 5.1:1; white on the
   accent 6.6:1. A new text colour is measured the same way before it lands.
-  (promotion candidate)
+  The one exception is `--color-ink-faint`, 2.75:1, used by the footer
+  notice and nothing else (Amendments, 2026-10-24). (promotion candidate)
 
 ## Alternatives considered
 
@@ -293,3 +295,12 @@ looks with classic chess vibes: wood, tangible, kept simple.
   in the accent colour as every link; no icon, the rule being text first.
   The two wrap onto two lines where the column is too narrow for both. No
   token added.
+- 2026-10-24: the AI notice (Layout, Type, Colour). The footer carries, on
+  a line of its own under the switch and the link, one sentence that the
+  texts are AI-generated and may contain errors, for the transparency the
+  maintainer wants to meet under EU rules. The maintainer asked for it
+  unobtrusive: a really small size and low contrast. Tokens added:
+  `--text-xs` (11px) and `--color-ink-faint` (`#a39787`, 2.75:1 against
+  `--color-bg`). That is below AA, a decision of the maintainer's and the
+  one exception to the contrast rule (Cross-cutting concerns); both tokens
+  are for this sentence alone, no other text uses them.

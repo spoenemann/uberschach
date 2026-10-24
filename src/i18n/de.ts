@@ -41,6 +41,10 @@ export const de: Catalogue = {
   // The language switch
   Language: "Sprache",
 
+  // The footer notice
+  "The texts on this website are AI-generated and may contain errors.":
+    "Die Texte auf dieser Website sind KI-generiert und können Fehler enthalten.",
+
   // The board's accessible name
   "Chessboard. {position}": "Schachbrett. {position}",
   "White: {pieces}.": "Weiß: {pieces}.",
