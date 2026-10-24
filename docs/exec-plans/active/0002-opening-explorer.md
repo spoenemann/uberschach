@@ -624,6 +624,27 @@ for that (the frontier from the ratings instead of the dataset).
   128 kB would have given 135 modules, 180 kB 94; the present one keeps
   every chunk below the largest the book served before.
 
+- 2026-10-24: **Gaps: the moves raised from 1 or 2 to 5, checked.** The
+  maintainer asked whether the nine are right. Each is the best reply in
+  a position an earlier move spoiled, and that move keeps its 1 or 2
+  (5...Qh4+ in the Würzburger Trap, 3...fxe5 in the Damiano, 3.Nxe5 in
+  the Irish Gambit): the old ratings judged the line, not the move (the
+  spec: a rating is the judgement of the move). Read against the pages:
+  3...Qe7 after 2.f4 Qh4+ 3.g3 is Keene's Defence in Wikibooks' table;
+  6...Nxg3 is the line of both Wikipedia and Wikibooks after 6.g3 in the
+  Würzburger Trap; 3...c6 heads Wikibooks' table of 2...b5; 4...g6 in the
+  Damiano loses the exchange "though other options are worse"
+  (Wikipedia); 6...d5 is Wikibooks' Corkscrew Gambit; 4.d4 is the Irish
+  Gambit's line on Wikipedia; 3...f6 against the Mokele Mbembe is the
+  line Watson and Schiller analyse (Wikipedia). 4...Qg5 in the Elephant
+  Gambit rests on one game (Lob–Eliskases, Wikipedia) and 5...O-O after
+  1.e4 g6 2.d4 Nh6 3.Nc3 f5 4.Bxh6 Bxh6 5.exf5 on the board alone (no
+  page exists); both stay. One fault found beside them: after 2.Bc4 b5
+  3.Bxb5, Wikibooks gives 3...f5 (Thorold Gambit) and 3...c6 as
+  Anderssen's two choices, both ±, yet 3...f5 was rated 2 for a later
+  mistake (4.d4 fxe4?) and 3...Nf6, which no page names, 4. Now 3...f5
+  is 4 with a new note in both languages, and 3...Nf6 is 3.
+
 ## Decision log
 
 - 2026-10-23: **Review by an agent that did not write the text, not by
