@@ -1,0 +1,88 @@
+{
+  "about": "After 1.e4 Nf6 2.e5 Nd5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 Nf6 2.e5 Nd5",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "c4",
+          "rating": 4
+        },
+        {
+          "san": "Bc4",
+          "rating": 3
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        },
+        {
+          "san": "b3",
+          "rating": 3
+        },
+        {
+          "san": "Na3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.e5 Nd5 3.d4",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "b5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.e5 Nd5 3.c4",
+      "moves": [
+        {
+          "san": "Nb6",
+          "rating": 5
+        },
+        {
+          "san": "Nf4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.e5 Nd5 3.Bc4",
+      "moves": [
+        {
+          "san": "Nb6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.e5 Nd5 3.Nc3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Alekhine%27s_Defence",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...Nf6/2._e5/2...Nd5/3._Nc3"
+      ]
+    },
+    {
+      "line": "1.e4 Nf6 2.e5 Nd5 3.b3"
+    },
+    {
+      "line": "1.e4 Nf6 2.e5 Nd5 3.Na3"
+    },
+    {
+      "line": "1.e4 Nf6 2.e5 Nd5 3.c4 Nf4"
+    },
+    {
+      "line": "1.e4 Nf6 2.e5 Nd5 3.d4 b5"
+    }
+  ]
+}

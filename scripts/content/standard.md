@@ -24,6 +24,22 @@ The note explains what **this move** means:
 It should be useful and understandable: a reader who never plays on
 should still know why the move is played, or why it is not.
 
+Deeper in a line, where the reader has played a named opening for several
+moves, the note is an assessment of the strategic approach the move takes:
+
+- **what it solves or answers**: the question the position puts to this
+  side (a threat to parry, a pawn to defend, a piece without a square, a
+  plan of the opponent's to stop), and how this move deals with it;
+- **what it commits to**: the plan it chooses over the others, the
+  structure it fixes, the piece it gives a job;
+- **what it means for the game**: who gets the initiative and where, which
+  pawn structure and middlegame follow, what each side will play for, what
+  the side that plays it has to know or accept.
+
+A note that only restates what the move does on the board ("develops the
+bishop and prepares castling") tells the reader nothing the board does
+not; say why that matters here.
+
 ## What it avoids
 
 - **Naming concrete follow-up moves as the options to come.** "White then
@@ -53,6 +69,14 @@ should still know why the move is played, or why it is not.
 - **History.** Names of players, dates, games and books belong in the
   background, which is sourced separately. Do not repeat the background or
   the name either: they are shown just above.
+- **The sources as speakers.** "The sources prefer ...", "theory sees no
+  advantage", "the standard sources do not count it": the note is the
+  book's own judgement, so say it ("gives White nothing", "the better way
+  to meet the gambit is to strike in the centre").
+- **A plan as a list of pawn moves.** "Re1 and the c3 and d4 centre
+  follow", "keeps the c3 and d4 plan available": say the plan ("a broad
+  pawn centre", "a central pawn break"). A square or a single move stays
+  where it is the point ("eyes f7", "prepares ...b5 to chase the bishop").
 
 Move notation is **not** forbidden. It depends on what the sentence states:
 
@@ -87,7 +111,10 @@ of the moves that come next?** Keep the first, cut the second.
 - Every concrete claim about the position (what attacks, defends, blocks
   or hangs what) is true on the board. Check it with the board tool; in
   earlier rounds the most frequent error was a note that was false on the
-  board.
+  board. A tactic (a fork, a pin, a discovered attack, a trap) is played
+  out on the board tool, move by move, before it is described, and named
+  for what it is: a rook that attacks a queen with a knight between it and
+  the king is a discovered attack waiting, not a pin.
 
 ## Examples
 
@@ -122,6 +149,25 @@ After:
 > the king has to move again before White can develop normally. Black
 > needs nothing special: quick development and an open centre are enough
 > against the stranded king.
+
+**A move deep in a named line, written as an assessment** (1.e4 e5
+2.Nf3 Nc6 3.Bb5 a6, rated 5). A tour, and a description, both wrong:
+
+> Asks the bishop to decide. White can retreat with 4.Ba4, take with
+> 4.Bxc6, or play 4.O-O first; after 4.Ba4 Nf6 5.O-O Be7 the main lines
+> begin.
+
+> Attacks the bishop with the a-pawn and gains space on the queenside.
+
+Right:
+
+> The question to the bishop that defines the main line: Black finds out
+> at once whether White means to give up the bishop for the knight. If
+> White takes, Black gets the two bishops for doubled pawns; if White
+> retreats, the bishop keeps its eye on the knight that guards e5 but can
+> be chased again with ...b5 whenever Black likes. Either way Black keeps
+> the centre solid and gains a useful queenside move for a long
+> manoeuvring game.
 
 **A weak move, kept** (1.e4 e5 2.Ba6, rated 1). The reply that refutes it
 is the whole point, so the note stays:

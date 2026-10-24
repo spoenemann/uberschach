@@ -1,0 +1,46 @@
+{
+  "about": "After 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Evans_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "a4",
+          "rating": 5
+        },
+        {
+          "san": "Bb2",
+          "rating": 3
+        },
+        {
+          "san": "b5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.a4",
+      "moves": [
+        {
+          "san": "a6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.Bb2"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.b5",
+      "moves": [
+        {
+          "san": "Na5",
+          "rating": 5
+        }
+      ]
+    }
+  ]
+}

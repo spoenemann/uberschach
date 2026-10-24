@@ -1,0 +1,81 @@
+{
+  "about": "After 1.e4 c5 2.Nf3 Nc6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 c5 2.Nf3 Nc6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sicilian_Defence"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "Bb5",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        },
+        {
+          "san": "b4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.Nf3 Nc6 3.d4",
+      "moves": [
+        {
+          "san": "cxd4",
+          "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.Nf3 Nc6 3.Bb5",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...c5/2._Nf3/2...Nc6/3._Bb5",
+        "https://en.wikipedia.org/wiki/Sicilian_Defence"
+      ],
+      "moves": [
+        {
+          "san": "g6",
+          "rating": 5
+        },
+        {
+          "san": "Nb8",
+          "rating": 2
+        },
+        {
+          "san": "Na5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.Nf3 Nc6 3.Nc3",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.Nf3 Nc6 3.b4"
+    },
+    {
+      "line": "1.e4 c5 2.Nf3 Nc6 3.Bb5 Nb8"
+    },
+    {
+      "line": "1.e4 c5 2.Nf3 Nc6 3.d4 e6"
+    }
+  ]
+}

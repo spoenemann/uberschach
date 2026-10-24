@@ -1,0 +1,43 @@
+{
+  "about": "After 1.f3 e5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.f3 e5",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 3
+        },
+        {
+          "san": "Kf2",
+          "rating": 2
+        },
+        {
+          "san": "g4",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.f3 e5 2.Kf2",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Barnes_Opening"
+      ]
+    },
+    {
+      "line": "1.f3 e5 2.g4",
+      "moves": [
+        {
+          "san": "Qh4#",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.f3 e5 2.g4 Qh4#",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fool%27s_mate"
+      ]
+    }
+  ]
+}

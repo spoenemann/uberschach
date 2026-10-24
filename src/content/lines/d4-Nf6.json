@@ -496,7 +496,21 @@
       ]
     },
     {
-      "line": "1.d4 Nf6 2.Nc3"
+      "line": "1.d4 Nf6 2.Nc3",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "e5",
+          "rating": 2
+        },
+        {
+          "san": "c5",
+          "rating": 2
+        }
+      ]
     },
     {
       "line": "1.d4 Nf6 2.g3"
@@ -517,13 +531,29 @@
       "line": "1.d4 Nf6 2.f3",
       "sources": [
         "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._d4/1...Nf6/2._f3"
+      ],
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        }
       ]
     },
     {
       "line": "1.d4 Nf6 2.f4"
     },
     {
-      "line": "1.d4 Nf6 2.g4"
+      "line": "1.d4 Nf6 2.g4",
+      "moves": [
+        {
+          "san": "Nxg4",
+          "rating": 5
+        },
+        {
+          "san": "e5",
+          "rating": 3
+        }
+      ]
     },
     {
       "line": "1.d4 Nf6 2.b4"
@@ -541,7 +571,13 @@
       "line": "1.d4 Nf6 2.h4"
     },
     {
-      "line": "1.d4 Nf6 2.Nd2"
+      "line": "1.d4 Nf6 2.Nd2",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 2
+        }
+      ]
     },
     {
       "line": "1.d4 Nf6 2.Na3"
@@ -568,53 +604,11 @@
       "line": "1.d4 Nf6 2.Bh6"
     },
     {
-      "line": "1.d4 Nf6 2.c4 e6"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 g6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/King%27s_Indian_Defence"
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Benoni_Defense",
-        "https://en.wikipedia.org/wiki/Modern_Benoni"
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 d6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Old_Indian_Defence",
-        "https://en.wikipedia.org/wiki/Indian_Defence"
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 Nc6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Black_Knights%27_Tango"
-      ]
-    },
-    {
       "line": "1.d4 Nf6 2.c4 c6"
     },
     {
       "line": "1.d4 Nf6 2.c4 b6",
       "sources": [
-        "https://en.wikipedia.org/wiki/Indian_Defence"
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Budapest_Gambit"
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 d5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Marshall_Defense",
         "https://en.wikipedia.org/wiki/Indian_Defence"
       ]
     },
@@ -658,31 +652,7 @@
       "line": "1.d4 Nf6 2.c4 Rg8"
     },
     {
-      "line": "1.d4 Nf6 2.Nf3 e6"
-    },
-    {
-      "line": "1.d4 Nf6 2.Nf3 g6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Indian_Defence"
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.Nf3 d5"
-    },
-    {
-      "line": "1.d4 Nf6 2.Nf3 b6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Indian_Defence"
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.Nf3 c5"
-    },
-    {
       "line": "1.d4 Nf6 2.Nf3 d6"
-    },
-    {
-      "line": "1.d4 Nf6 2.Nf3 c6"
     },
     {
       "line": "1.d4 Nf6 2.Nf3 Ne4",
@@ -733,26 +703,10 @@
       "line": "1.d4 Nf6 2.Nf3 Nd5"
     },
     {
-      "line": "1.d4 Nf6 2.Bg5 Ne4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Trompowsky_Attack",
-        "https://www.chess.com/openings/Trompowsky-Attack"
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.Bg5 e6",
-      "sources": [
-        "https://www.chess.com/openings/Trompowsky-Attack"
-      ]
-    },
-    {
       "line": "1.d4 Nf6 2.Bg5 d5",
       "sources": [
         "https://en.wikipedia.org/wiki/World_Chess_Championship_2016"
       ]
-    },
-    {
-      "line": "1.d4 Nf6 2.Bg5 c5"
     },
     {
       "line": "1.d4 Nf6 2.Bg5 g6"
@@ -876,6 +830,18 @@
     },
     {
       "line": "1.d4 Nf6 2.Bf4 Nd5"
+    },
+    {
+      "line": "1.d4 Nf6 2.g4 e5"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nc3 e5"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nc3 c5"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nd2 e5"
     }
   ]
 }

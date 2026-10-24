@@ -492,6 +492,12 @@
       "line": "1.e4 c6 2.d3",
       "sources": [
         "https://en.wikipedia.org/wiki/Caro%E2%80%93Kann_Defence"
+      ],
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        }
       ]
     },
     {
@@ -523,13 +529,35 @@
       "line": "1.e4 c6 2.Bc4",
       "sources": [
         "https://en.wikipedia.org/wiki/Caro%E2%80%93Kann_Defence"
+      ],
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        }
       ]
     },
     {
-      "line": "1.e4 c6 2.g4"
+      "line": "1.e4 c6 2.g4",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        }
+      ]
     },
     {
-      "line": "1.e4 c6 2.b4"
+      "line": "1.e4 c6 2.b4",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "e5",
+          "rating": 4
+        }
+      ]
     },
     {
       "line": "1.e4 c6 2.f4"
@@ -575,12 +603,6 @@
     },
     {
       "line": "1.e4 c6 2.Ba6"
-    },
-    {
-      "line": "1.e4 c6 2.d4 d5"
-    },
-    {
-      "line": "1.e4 c6 2.d4 Na6"
     },
     {
       "line": "1.e4 c6 2.d4 Nf6"
@@ -635,9 +657,6 @@
     },
     {
       "line": "1.e4 c6 2.d4 c5"
-    },
-    {
-      "line": "1.e4 c6 2.Nc3 d5"
     },
     {
       "line": "1.e4 c6 2.Nc3 Nf6"
@@ -730,9 +749,6 @@
       "line": "1.e4 c6 2.c4 d6"
     },
     {
-      "line": "1.e4 c6 2.c4 d5"
-    },
-    {
       "line": "1.e4 c6 2.c4 e6"
     },
     {
@@ -758,9 +774,6 @@
     },
     {
       "line": "1.e4 c6 2.c4 c5"
-    },
-    {
-      "line": "1.e4 c6 2.Nf3 d5"
     },
     {
       "line": "1.e4 c6 2.Nf3 e6"

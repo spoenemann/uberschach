@@ -1,0 +1,74 @@
+{
+  "about": "After 1.e4 e5 2.Nc3 Nc6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vienna_Game",
+        "https://en.wikipedia.org/wiki/Max_Lange"
+      ],
+      "moves": [
+        {
+          "san": "f4",
+          "rating": 4
+        },
+        {
+          "san": "Bc4",
+          "rating": 4
+        },
+        {
+          "san": "g3",
+          "rating": 3
+        },
+        {
+          "san": "d4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.f4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vienna_Game"
+      ],
+      "moves": [
+        {
+          "san": "exf4",
+          "rating": 5
+        },
+        {
+          "san": "Bc5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.g3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vienna_Game"
+      ],
+      "moves": [
+        {
+          "san": "Bc5",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.d4",
+      "moves": [
+        {
+          "san": "f5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.d4 f5"
+    }
+  ]
+}

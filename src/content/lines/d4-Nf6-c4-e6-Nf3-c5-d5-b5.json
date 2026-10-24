@@ -1,0 +1,40 @@
+{
+  "about": "After 1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Blumenfeld_Gambit",
+        "https://en.wikipedia.org/wiki/Benjamin_Blumenfeld"
+      ],
+      "moves": [
+        {
+          "san": "Bg5",
+          "rating": 5
+        },
+        {
+          "san": "dxe6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5 5.Bg5",
+      "moves": [
+        {
+          "san": "exd5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5 5.dxe6",
+      "moves": [
+        {
+          "san": "fxe6",
+          "rating": 5
+        }
+      ]
+    }
+  ]
+}

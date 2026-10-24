@@ -87,24 +87,34 @@ for and risks, and which replies matter.
   test looks for it: whether a move belongs in the text depends on what
   the sentence says, which the content review judges (the maintainer,
   2026-10-23). A position may carry the name of the opening or
-  variation it belongs to and a short historical background; the initial
-  position carries an introduction instead, which is what the visitor
-  reads before the first move. (`src/content/book.test.ts`)
-- From a position in the database, every legal move is covered: each is
-  rated and has its text, so no move the visitor can make from a known
-  position goes unexplained. (`src/content/openings.test.ts`)
-- Only moves rated 4 and 5 are followed. The position after a move rated
-  1 to 3 carries its name and background and no moves, so the book ends
-  there; a position that a move rated 4 or 5 also reaches, by
-  transposition, keeps its moves. (`src/content/openings.test.ts`)
-- The book goes no deeper than a move still belongs to the opening by
-  public usage, and its depth is bounded for every line at once, so that it
-  stays finishable: moves are written through White's second move and
-  Black's reply to it, and the position after that reply ends the book
-  (the maintainer, 2026-10-23). The reasoning and what it costs are in the
-  content's exec plan (`docs/exec-plans/active/0002-opening-explorer.md`,
-  Decision log, Depth); deeper lines are content that can be added later.
+  variation it belongs to and a short historical background; along the
+  named lines the name is the dataset's, in British spelling, with the
+  family written as the book writes it elsewhere ("Nimzowitsch–Larsen
+  Attack" where the dataset says "Nimzo-Larsen"), and every position the
+  dataset names carries it. The initial position carries an introduction
+  instead, which is what the visitor reads before the first move. (`src/content/book.test.ts`)
+- The book is written in two ways (the maintainer, 2026-10-23 and
+  2026-10-24; the reasoning and the costs are in the content's exec plan,
+  `docs/exec-plans/active/0002-opening-explorer.md`, Decision log, Depth
+  and Named lines):
+  - *Breadth first, through White's second move.* From the initial
+    position, and from every position up to White's second move that a
+    move rated 4 or 5 reaches, every legal move is covered: each is rated
+    and has its text, so no move the visitor can make there goes
+    unexplained. Only moves rated 4 and 5 are followed this way.
+  - *Along the named lines, beyond.* From Black's reply to White's second
+    move on, and after a move rated 1 to 3 before it, the book follows the
+    lines the Lichess chess-openings dataset names (`src/content/named/`),
+    each to its twelfth move played (Black's sixth), and covers
+    exactly the moves they play: each is rated and has its text, whatever
+    its rating, and a named line through a dubious gambit or into a trap is
+    followed like any other. Another move from such a position leaves the
+    book. A line the dataset names beyond the twelfth move ends there.
   (`src/content/openings.test.ts`)
+- The book goes no deeper than a move still belongs to the opening by
+  public usage, which the named lines stand for, and its length is bounded
+  for every line at once, so that it stays finishable; deeper lines are
+  content that can be added later. (`src/content/openings.test.ts`)
 - The ratings are 5 Best, 4 Good, 3 Playable, 2 Inaccuracy, 1 Mistake.
   A rating is the author's judgement of the move for the side that plays
   it: 5 and 4 are moves worth learning, 3 is sound but not recommended, 2
@@ -213,8 +223,8 @@ for and risks, and which replies matter.
 - No engine: ratings and texts are the authors'. Nothing is evaluated,
   and a position off the book gets no opinion.
 - No opponent: the app never moves a piece.
-- No coverage promise: which openings and how deep is content, and it
-  grows. The arrows at each position are the map; there is no index of
+- No coverage promise beyond the two ways the book is written (The
+  database): which lines and how deep is content, and it grows. The arrows at each position are the map; there is no index of
   covered openings on the screen.
 - No preview: a candidate's texts are read after it is played. The list
   carries notation, name and rating only.
@@ -242,7 +252,9 @@ for and risks, and which replies matter.
 - `src/content/book.ts` — the database's format and how it is checked;
   `src/content/lines/` the content, one JSON module per followed position
   (`root.json` the initial position) with its language files beside it;
-  `src/content/loader.ts` how the app fetches it.
+  `src/content/loader.ts` how the app fetches it; `src/content/named/` the
+  named lines that decide what the book follows beyond the breadth-first
+  plies, read by `src/content/named.ts`.
 - `docs/exec-plans/active/0002-opening-explorer.md` — the build, its
   progress and its decisions, including how deep each line goes.
 - `docs/localization.md` — the languages promised, translated text and

@@ -1,0 +1,49 @@
+{
+  "about": "After 1.e4 e5 2.f4 exf4 3.Nf3 Nc6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 Nc6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/King%27s_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "Bc4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3",
+      "moves": [
+        {
+          "san": "g5",
+          "rating": 5
+        },
+        {
+          "san": "Be7",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Bc4",
+      "moves": [
+        {
+          "san": "g5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Bc4 g5"
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 Be7"
+    }
+  ]
+}

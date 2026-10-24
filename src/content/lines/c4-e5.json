@@ -483,7 +483,17 @@
       "line": "1.c4 e5 2.d3"
     },
     {
-      "line": "1.c4 e5 2.e3"
+      "line": "1.c4 e5 2.e3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 4
+        }
+      ]
     },
     {
       "line": "1.c4 e5 2.d4"
@@ -528,19 +538,10 @@
       "line": "1.c4 e5 2.c5"
     },
     {
-      "line": "1.c4 e5 2.Nc3 Nf6"
-    },
-    {
-      "line": "1.c4 e5 2.Nc3 Nc6"
-    },
-    {
       "line": "1.c4 e5 2.Nc3 Bb4",
       "sources": [
         "https://lichess.org/opening/English_Opening_Kings_English_Variation_Kramnik-Shirov_Counterattack"
       ]
-    },
-    {
-      "line": "1.c4 e5 2.Nc3 d6"
     },
     {
       "line": "1.c4 e5 2.Nc3 Bc5"
@@ -622,9 +623,6 @@
     },
     {
       "line": "1.c4 e5 2.g3 Nc6"
-    },
-    {
-      "line": "1.c4 e5 2.g3 Nf6"
     },
     {
       "line": "1.c4 e5 2.g3 d5"

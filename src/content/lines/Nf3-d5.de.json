@@ -78,24 +78,19 @@
     "strategy": "Verliert sofort einen Bauern: Nichts deckt g4, also schlägt 2...Lxg4, und Weiß hat für den geschwächten Königsflügel nur die halboffene g-Linie vorzuweisen."
   },
   "1.Nf3 d5": {
-    "background": "In den 1920er-Jahren die übliche Antwort, als Richard Réti viele seiner Partien mit 1.Sf3 begann; er spielte dagegen 2.c4, die Zugfolge, die heute seinen Namen trägt."
+    "background": "In den 1920er-Jahren die übliche Antwort, als Richard Réti viele seiner Partien mit 1.Sf3 begann; er spielte dagegen 2.c4, die Zugfolge, die heute seinen Namen trägt.",
+    "name": "Zukertort-Eröffnung"
   },
   "1.Nf3 d5 2.c4 e6": {
-    "name": "Englische Eröffnung: Agincourt-Verteidigung",
-    "background": "Dieselbe Stellung entsteht nach 1.c4 e6 2.Sf3 d5, der Agincourt-Verteidigung der Englischen Eröffnung, in der 1...e6 ein gestütztes ...d5 vorbereitet, vergleichbar mit der Französischen Verteidigung. In der Réti-Zugfolge führen 2...e6 und 2...c6 beide durch Zugumstellung in die Englische Eröffnung.",
     "strategy": "Deckt d5 mit einem Bauern und öffnet den Läufer f8, mit Kurs auf einen soliden Aufbau mit Bauern auf d5 und e6. Der Preis ist der Läufer c8, der hinter e6 eingesperrt bleibt, bis ein späterer Bauernzug ihm Spiel verschafft. Das Spiel ist solide, und Weiß entscheidet, ob er um das Zentrum kämpft oder fianchettiert."
   },
   "1.Nf3 d5 2.c4 c6": {
     "strategy": "Hält d5 mit dem c-Bauern und lässt, anders als ...e6, dem Läufer c8 den Weg außerhalb der Bauernkette offen. Der Preis ist, dass der Bauer dem Springer b8 das Feld c6 nimmt, sodass dieser meist nach d7 muss. Es folgt ein solides Spiel, in dem Schwarz wenig preisgibt."
   },
   "1.Nf3 d5 2.c4 d4": {
-    "name": "Réti-Eröffnung: Vorstoßvariante",
-    "background": "Neben 2...dxc4 eine der beiden eigenständigen Hauptvarianten der Réti-Eröffnung. Sie hält das Spiel geschlossen, und die Struktur ähnelt einer Benoni-Verteidigung mit vertauschten Farben: Wie Schwarz im Benoni fianchettiert Weiß meist den Königsläufer.",
     "strategy": "Gewinnt Raum und hält die Stellung geschlossen: Der Bauer nimmt Weiß die Felder c3 und e3, sodass 3.Sc3 nach ...dxc3 einen Springer kosten würde. Der Preis ist, dass ein vorgeschobener Bauer Unterstützung braucht und zur Zielscheibe wird, sobald Weiß ihn mit dem Springer f3 und einem Bauern auf e3 angreift. Zu erwarten ist ein geschlossenes Manövrierspiel."
   },
   "1.Nf3 d5 2.c4 dxc4": {
-    "name": "Réti-Eröffnung: Angenommenes Réti-Gambit",
-    "background": "Neben 2...d4 eine der beiden eigenständigen Hauptvarianten der Réti-Eröffnung, und zwar diejenige, die das Spiel öffnet. Die vielen Möglichkeiten, mit denen Weiß den Bauern zurückgewinnen kann, schränken ihre Beliebtheit ein.",
     "strategy": "Nimmt den Bauern sofort und überlässt Weiß, wie er ihn zurückgewinnt, und es gibt viele gute Wege. Schwarz liegt in der Entwicklung zurück und kann den Mehrbauern nicht halten: 3...b5?! ist wegen 4.a4 zweifelhaft. Schwarz muss die Entwicklung rasch abschließen und den Bauern bei Bedarf zurückgeben; das Spiel öffnet sich."
   },
   "1.Nf3 d5 2.c4 Nf6": {
@@ -178,14 +173,12 @@
     "strategy": "Entwickelt den Springer auf sein natürliches Feld und kontrolliert e4, wohin Weiß gern einen Bauern stellen würde. Schwarz legt sich nicht fest: ein solides Bauernzentrum, ein früher Läuferausflug oder ein gespiegeltes Fianchetto bleiben möglich. Der Preis ist, dass der langsame Aufbau von Weiß noch nicht herausgefordert wird."
   },
   "1.Nf3 d5 2.g3 c5": {
-    "name": "Königsindischer Angriff: Sizilianische Variante",
     "strategy": "Gewinnt Raum am Damenflügel und kontrolliert d4, mit Kurs auf einen königsindischen Aufbau mit vertauschten Farben. Schwarz kämpft sofort um das Zentrum, doch kein Bauer stützt d5, sodass Weiß mit c4 gegen d5 oder mit d4 gegen c5 zuschlagen kann. Die Partie hängt davon ab, ob das schwarze Zentrum hält."
   },
   "1.Nf3 d5 2.g3 c6": {
     "strategy": "Stützt d5 mit einem Bauern und hält dem Läufer c8 den Weg frei, die Bauernkette zu verlassen, bevor …e6 ihn einsperrt. Der Bauer nimmt dem Springer b8 das Feld c6, der deshalb über d7 entwickelt wird. Schwarz erhält ein stabiles, aber etwas passives Zentrum gegen den langsamen Aufbau von Weiß."
   },
   "1.Nf3 d5 2.g3 Bg4": {
-    "name": "Königsindischer Angriff: Keres-Variante",
     "strategy": "Entwickelt den Läufer c8 außerhalb der Bauernkette, bevor …e6 ihn einsperren kann. Viel Druck entsteht dadurch nicht: Der Springer f3 wird vom Bauern e2 gedeckt, und h3 oder Se5 zwingen den Läufer bald zur Entscheidung, ob er den Springer schlägt und Weiß das Läuferpaar überlässt."
   },
   "1.Nf3 d5 2.g3 Nc6": {
@@ -198,7 +191,6 @@
     "strategy": "Stützt d5 und befreit den Läufer f8, sperrt aber den Läufer c8 ein, bevor er herausgekommen ist. Weiß baut langsam mit Fianchetto, Rochade und späterem e4 auf, und der Läufer c8 muss sich später auf b7 oder d7 eine Aufgabe suchen. Solide, aber passiv."
   },
   "1.Nf3 d5 2.g3 g6": {
-    "name": "Königsindischer Angriff: Doppelfianchetto",
     "strategy": "Spiegelt das Fianchetto, sodass beide Königsläufer auf den langen Diagonalen stehen. Den Bauern d5 deckt vorerst nur die Dame, und der Läufer auf g7 hilft ihm nicht, sodass c4 ihn sofort prüft. Solide, legt sich aber stärker fest als …Sf6."
   },
   "1.Nf3 d5 2.g3 b6": {
@@ -267,7 +259,6 @@
     "strategy": "Entwickelt den Springer auf sein natürliches Feld, von dem aus er d5 stützt und e4 deckt. Schwarz legt sich noch nicht fest, jeder Aufbau mit den Läufern sowie dem c- und dem e-Bauern bleibt offen, und Weiß muss zeigen, wozu das Fianchetto mit b3 dient."
   },
   "1.Nf3 d5 2.b3 c5": {
-    "background": "Aron Nimzowitsch erreichte diese Stellung als Weißer gegen Rudolf Spielmann in New York 1927 (3.Lb2 Sc6 4.e3 Sf6 5.Lb5) und gewann in 55 Zügen.",
     "strategy": "Kämpft vom Flügel aus um d4, bevor Weiß einen Bauernmittelpunkt aufbauen kann, und bereitet die Entwicklung beider Springer vor. Oft entsteht eine Nimzo-Indische Verteidigung mit vertauschten Farben, mit schwarzen Bauern auf c5 und d5 gegenüber dem fianchettierten weißen Läufer. Dafür hat d5 bis …e6 keine Bauerndeckung, und Schwarz muss diesen Bauern bei der Entwicklung im Auge behalten."
   },
   "1.Nf3 d5 2.b3 Bg4": {
@@ -348,5 +339,11 @@
   },
   "1.Nf3 d5 2.b3 g5": {
     "strategy": "Lässt den g-Bauern durch 3.Sxg5 hängen, da der Bauer e7 die Diagonale der Dame versperrt und keine andere Figur ihn deckt. Zudem wird der Königsflügel ohne Gegenwert geschwächt."
+  },
+  "1.Nf3 d5 2.e3 Nf6": {
+    "strategy": "Entwickelt den Springer auf sein bestes Feld, wo er d5 stützt und e4 überwacht, und legt sich auf keine Bauernstruktur fest. Das ruhige e3 von Weiß hat das Zentrum nicht herausgefordert, daher kann Schwarz eine bequeme Stellung aufbauen und den Plan später wählen."
+  },
+  "1.Nf3 d5 2.e3 c5": {
+    "strategy": "Greift sofort das Feld d4 an und beansprucht Raum am Damenflügel, sodass Weiß keinen einfachen Zentrumsbauern hat. Der Preis ist, dass d5 die Stütze des c-Bauern verliert und nur die Dame es deckt, was Weiß einlädt, es sofort herauszufordern."
   }
 }

@@ -1,6 +1,7 @@
 {
   "1.e4 c5 2.Nf3": {
-    "strategy": "Entwickelt den Königsspringer, kontrolliert d4 und e5 und bereitet d4 vor, um das Zentrum zu öffnen. Wird d4 gespielt und getauscht, entsteht ein Offener Sizilianer: Entwicklungsvorsprung und Raum am Königsflügel gegen die schwarze Bauernmehrheit im Zentrum und die halboffene c-Linie. Der mit Abstand häufigste zweite Zug führt zu offenem, äußerst komplexem Spiel."
+    "strategy": "Entwickelt den Königsspringer, kontrolliert d4 und e5 und bereitet d4 vor, um das Zentrum zu öffnen. Wird d4 gespielt und getauscht, entsteht ein Offener Sizilianer: Entwicklungsvorsprung und Raum am Königsflügel gegen die schwarze Bauernmehrheit im Zentrum und die halboffene c-Linie. Der mit Abstand häufigste zweite Zug führt zu offenem, äußerst komplexem Spiel.",
+    "name": "Sizilianische Verteidigung"
   },
   "1.e4 c5 2.c3": {
     "name": "Sizilianische Verteidigung: Alapin-Variante",
@@ -122,7 +123,6 @@
     "background": "Giulio Cesare Polerio analysierte sie 1594 in einem Manuskript. 1813 legte Jacob Henry Sarratt den englischen Namen fest, nach einer alten italienischen Handschrift, die von „il gioco siciliano“ sprach, dem sizilianischen Spiel. In den 1940er- und 1950er-Jahren von Botwinnik, Boleslawski, Bronstein und Najdorf wiederbelebt, wurde sie nach den Worten von Modern Chess Openings (1990) zur meistgespielten und am gründlichsten analysierten Eröffnung, im Vereinsschach wie auf Meisterebene."
   },
   "1.e4 c5 2.c3 Nf6": {
-    "background": "Die Hauptvariante dieses Zuges, 2...Sf6 3.e5 Sd5, ist in der heutigen Praxis die übliche gegen die Alapin-Variante und kann auch entstehen, wenn Schwarz das Morra-Gambit ablehnt.",
     "strategy": "Greift e4 sofort an und entwickelt dabei. Weiß schiebt den Bauern meist nach e5 und gewinnt Raum, doch der Bauer wird zum Ziel, und der schwarze Springer landet auf einem aktiven Feld, wo er mit Tempo vertrieben werden kann. Schwarz will e5 von der Flanke und aus der Mitte untergraben; der Preis ist vorübergehend weniger Raum im Zentrum."
   },
   "1.e4 c5 2.c3 d5": {
@@ -255,32 +255,21 @@
     "strategy": "Gibt den Bauern weg: 3.Lxc4 nimmt ihn sofort und entwickelt den Läufer mit Blick auf f7, während Schwarz den c-Bauern und damit jeden Druck auf d4 verliert."
   },
   "1.e4 c5 2.Nf3 d6": {
-    "name": "Sizilianische Verteidigung: Moderne Varianten",
-    "background": "Der häufigste Zug von Schwarz nach 2.Sf3. Er ist das Tor zur Najdorf-Variante, zur Drachenvariante, zur Scheveninger und zur Klassischen Variante, die nach 3.d4 cxd4 4.Sxd4 Sf6 5.Sc3 entstehen.",
     "strategy": "Bereitet ...Sf6 gegen den e-Bauern vor, ohne dass Weiß ihn nach e5 vorstoßen kann, und öffnet die Diagonale des Läufers c8. Schwarz baut eine solide, flexible Aufstellung auf und spielt, sobald der c-Bauer gegen den weißen d-Bauern getauscht ist, mit einer Bauernmehrheit im Zentrum und der halboffenen c-Linie. Der Preis sind weniger Raum und der weiße Entwicklungsvorsprung."
   },
   "1.e4 c5 2.Nf3 Nc6": {
-    "name": "Sizilianische Verteidigung: Altsizilianische Variante",
-    "background": "Neben 2...d6 und 2...e6 eine der drei Hauptantworten von Schwarz auf 2.Sf3. Varianten, die mit 2...Sc6 beginnen und nicht in Varianten mit 2...d6 überleiten, haben eigene ECO-Codes, B30–B39; die wichtigsten darunter sind die Rossolimo-, die Kalaschnikow- und die Sweschnikow-Variante sowie die Beschleunigte Drachenvariante.",
     "strategy": "Entwickelt sofort eine Figur, kontrolliert d4 und e5 und bereitet ...Sf6 vor, ohne e5 zuzulassen. Schwarz legt weder den d- noch den e-Bauern fest und hält die Struktur flexibel. Der Preis: Weiß kann dem offenen Spiel mit einem ruhigen Läuferzug nach b5 ausweichen, der den Springer anvisiert und nach Lxc6 zu Doppelbauern führt."
   },
   "1.e4 c5 2.Nf3 e6": {
-    "name": "Sizilianische Verteidigung: Französische Variante",
-    "background": "Neben 2...d6 und 2...Sc6 eine der drei Hauptantworten von Schwarz auf 2.Sf3. Nach 3.d4 cxd4 4.Sxd4 führt der Zug zur Taimanow-Variante, benannt nach Mark Taimanow, und zur Kan-Variante, benannt nach Ilja Kan und nach Louis Paulsen auch Paulsen-Variante genannt.",
     "strategy": "Öffnet die Diagonale des Läufers f8 und bereitet ...d5 vor, baut eine kompakte Bauernstruktur auf und überlässt es späteren Zügen, wohin Springer und Dame gehen. Der Preis sind ein hinter dem Bauern e6 eingeengter Läufer c8, ein schwaches Feld d6 und ein langsamerer Kampf um das Zentrum."
   },
   "1.e4 c5 2.Nf3 Nf6": {
-    "name": "Sizilianische Verteidigung: Nimzowitsch-Variante",
-    "background": "Benannt nach Aron Nimzowitsch, der sie als eine von zwei provokativen Varianten der Sizilianischen Verteidigung einführte; sie ist auch als Nimzowitsch-Rubinstein-Variante bekannt. Nach 3.e5 Sd5 ähnelt sie der Aljechin-Verteidigung.",
     "strategy": "Greift e4 sofort an, doch Weiß stößt einfach mit 3.e5 vor und der Springer muss erneut ziehen, sodass Weiß Raum und Zeit gewinnt. Schwarz erhält ein ungewöhnliches Spiel, das auf dem Angriff gegen das vorgerückte weiße Zentrum beruht, doch bei bestem Spiel behält Weiß die Oberhand."
   },
   "1.e4 c5 2.Nf3 a6": {
-    "name": "Sizilianische Verteidigung: O'Kelly-Variante",
-    "background": "Benannt nach dem belgischen Großmeister Albéric O'Kelly de Galway, der zwischen 1937 und 1959 dreizehnmal die belgische Meisterschaft gewann.",
     "strategy": "Nimmt den weißen Figuren das Feld b5, sodass der weiße Springer nach ...Sf6 und ...e5 nicht dorthin springen kann. Der Preis ist ein Tempo für einen Bauernzug, der nichts entwickelt, und Weiß kann der Idee mit einem ruhigen Bauernzug ausweichen."
   },
   "1.e4 c5 2.Nf3 g6": {
-    "name": "Sizilianische Verteidigung: Hyper-beschleunigter Drache",
     "strategy": "Bereitet das Fianchetto des Königsläufers für Druck auf der langen Diagonale vor. Solange der Läufer nicht auf g7 steht, ist das Feld leer: Nach 3.d4 cxd4 4.Dxd4 greift die Dame sofort den Turm h8 an, und Schwarz muss darauf zuerst reagieren."
   },
   "1.e4 c5 2.Nf3 Qc7": {
@@ -334,10 +323,44 @@
     "strategy": "Stellt den g-Bauern ein: 3.Sxg5 gewinnt ihn, da nichts zurückschlagen kann, denn der Läufer c8 und die Dame sind beide durch eigene Bauern verstellt. Der geschwächte Königsflügel bietet keine Kompensation."
   },
   "1.e4 c5 2.Nf3 f5": {
-    "name": "Sizilianische Verteidigung: Brüsseler Gambit",
     "strategy": "Bietet den f-Bauern an: 3.exf5 gewinnt ihn, da der Bauer d7 den Läufer c8 verstellt, und ihn zurückzugewinnen kostet Zeit. Die Diagonale e8-h5 zum schwarzen König bleibt dauerhaft offen."
   },
   "1.e4 c5 2.Nf3 c4": {
     "strategy": "Stellt den c-Bauern auf ein Feld, auf dem er nicht gedeckt werden kann: 3.Lxc4 gewinnt ihn über die offene Diagonale und entwickelt zugleich den Läufer."
+  },
+  "1.e4 c5 2.b3 b6": {
+    "strategy": "Spiegelt den Plan von Weiß: Der Läufer auf b7 wird den noch ungedeckten Bauern e4 unter Druck setzen und um die lange Diagonale kämpfen. Beide Damenläufer zielen auf den gegnerischen Königsflügel, und die Partie wird zu einem Manöverduell.",
+    "name": "Sizilianische Verteidigung: Czerniak-Angriff, Damenfianchetto-Variante"
+  },
+  "1.e4 c5 2.b3 d5": {
+    "strategy": "Greift e4 sofort an, bevor die Figuren von Weiß entwickelt sind, und beansprucht das Zentrum mit einem Bauern, den die Dame zurücknehmen kann. Es ist eine scharfe Art, 2.b3 zu begegnen, da Weiß bei dem unter Druck stehenden Bauern e4 nicht in Ruhe fianchettieren kann."
+  },
+  "1.e4 c5 2.b4 cxb4": {
+    "strategy": "Das Annehmen ist solide: Schwarz steht einen Bauern im Plus, und der c-Bauer hat das Zentrum verlassen, was der Sinn des Gambits war. Weiß muss bei einem schnellen Zentrumsaufbau genug für den Bauern zeigen, und das gelingt dem Gambit selten."
+  },
+  "1.e4 c5 2.c4 Nc6": {
+    "strategy": "Entwickelt sich mit einem Anspruch auf d4: Der c-Bauer kann einen Vorstoß d4 nicht mehr stützen, sodass der Springer und spätere Bauernzüge um das Zentrum kämpfen. Schwarz bleibt flexibel, und der Springer hat ein gutes Feld, ohne etwas zu schwächen."
+  },
+  "1.e4 c5 2.c4 d6": {
+    "strategy": "Eine solide Antwort: Sie deckt e5, öffnet den Läufer auf c8 und lässt alle Möglichkeiten der Springer offen. Der Preis ist ein etwas passives Spiel, da Weiß mehr Raum im Zentrum hat und Schwarz vorsichtig spielen muss, um die Stellung zu befreien."
+  },
+  "1.e4 c5 2.d3 Nc6": {
+    "strategy": "Entwickelt den Springer gegen das Zentrum und hält die Bauernstruktur von Schwarz flexibel. Weiß hat einen ruhigen, langsamen Aufbau gewählt, sodass Schwarz im Zentrum die Initiative ergreifen kann und sich nicht beeilen muss."
+  },
+  "1.e4 c5 2.d4 cxd4": {
+    "strategy": "Schlägt den Zentrumsbauern mit dem Flügelbauern, dem Tausch, für den 1...c5 gespielt wurde. Weiß muss nun zwischen einem schnellen Zurückschlagen, das Zeit kostet, und einem Bauernopfer für die Entwicklung wählen."
+  },
+  "1.e4 c5 2.f4 d5": {
+    "strategy": "Greift im Zentrum an, bevor das Königsflügelspiel von Weiß in Gang kommt: e4 ist angegriffen, und nichts deckt es. Was auch immer Weiß wählt, Schwarz erhält entweder einen Entwicklungsvorsprung oder eine bequeme Struktur, was dies zur besten Antwort auf das sofortige 2.f4 macht."
+  },
+  "1.e4 c5 2.f4 Nc6": {
+    "strategy": "Eine ruhige, flexible Antwort: Schwarz entwickelt sich und nimmt d4 ins Visier, bereit, wie in jeder anderen Sizilianischen Verteidigung weiterzuspielen. Sie nutzt den lockernden Vorstoß des f-Bauern weniger aus als ein Schlag im Zentrum, sodass Weiß den Angriffsplan behält, Schwarz aber ein normales Spiel hat."
+  },
+  "1.e4 c5 2.f4 e5": {
+    "strategy": "Schiebt den Bauern dorthin, wo er genommen werden kann: 3.fxe5 gewinnt ihn glatt, da nichts auf e5 zurückschlagen kann. Schwarz hat den f-Bauern angegriffen, doch Weiß schlägt zuerst und steht sauber einen Bauern im Plus.",
+    "name": "Abgelehntes Königsgambit: Mafia-Verteidigung"
+  },
+  "1.e4 c5 2.Na3 Nc6": {
+    "strategy": "Entwickelt den Springer auf sein bestes Feld gegen den exzentrischen Randspringer. Er kontrolliert d4 und e5, sodass der übliche zentrale Bauernvorstoß von Weiß einen Bauern kostet, und Schwarz kann sonst wie in jeder Sizilianischen Verteidigung spielen."
   }
 }

@@ -1,0 +1,106 @@
+{
+  "about": "After 1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        },
+        {
+          "san": "d4",
+          "rating": 3
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        },
+        {
+          "san": "Ne5",
+          "rating": 3
+        },
+        {
+          "san": "h4",
+          "rating": 2
+        },
+        {
+          "san": "Bxf7+",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4 5.O-O",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Muzio_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "gxf3",
+          "rating": 5
+        },
+        {
+          "san": "Qe7",
+          "rating": 3
+        },
+        {
+          "san": "d5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4 5.d4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ghulam_Kassim"
+      ],
+      "moves": [
+        {
+          "san": "gxf3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4 5.Nc3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/King%27s_Gambit,_McDonnell_Gambit"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4 5.Ne5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Muzio_Gambit",
+        "https://en.wikipedia.org/wiki/King%27s_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "Qh4+",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4 5.h4"
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4 5.Bxf7+",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Giambattista_Lolli"
+      ],
+      "moves": [
+        {
+          "san": "Kxf7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4 5.O-O Qe7"
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4 g4 5.O-O d5"
+    }
+  ]
+}

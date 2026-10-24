@@ -1,0 +1,63 @@
+{
+  "about": "After 1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dani%C3%ABl_Noteboom",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._d4/1...d5/2._c4/2...e6/3._Nc3/3...c6/4._Nf3/4...dxc4"
+      ],
+      "moves": [
+        {
+          "san": "a4",
+          "rating": 5
+        },
+        {
+          "san": "e3",
+          "rating": 4
+        },
+        {
+          "san": "Bg5",
+          "rating": 4
+        },
+        {
+          "san": "g3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.a4",
+      "moves": [
+        {
+          "san": "Bb4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.e3",
+      "moves": [
+        {
+          "san": "b5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.Bg5",
+      "moves": [
+        {
+          "san": "f6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.g3"
+    },
+    {
+      "line": "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.Bg5 f6"
+    }
+  ]
+}

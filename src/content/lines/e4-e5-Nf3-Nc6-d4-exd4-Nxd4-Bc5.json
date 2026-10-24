@@ -1,0 +1,58 @@
+{
+  "about": "After 1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5",
+      "moves": [
+        {
+          "san": "Be3",
+          "rating": 5
+        },
+        {
+          "san": "Nxc6",
+          "rating": 4
+        },
+        {
+          "san": "Nb3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Be3",
+      "moves": [
+        {
+          "san": "Qf6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Nxc6",
+      "moves": [
+        {
+          "san": "Qf6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Nb3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Scotch_Game"
+      ],
+      "moves": [
+        {
+          "san": "Bb4+",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Nb3 Bb4+"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Nxc6 Qf6"
+    }
+  ]
+}

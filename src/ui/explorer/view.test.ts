@@ -59,10 +59,10 @@ describe("viewAt with the shipped book", () => {
   });
 
   test("a move rated below 4 is rated and explained when played", () => {
-    const view = viewAt(lineOf("1.g4"), 1, OPENINGS);
-    expect(view.lastMove?.book?.rating).toBe(1);
-    expect(view.name?.en).toBe("Grob's Attack");
-    // Not followed: the book ends here.
+    const view = viewAt(lineOf("1.c3"), 1, OPENINGS);
+    expect(view.lastMove?.book?.rating).toBe(2);
+    expect(view.name?.en).toBe("Saragossa Opening");
+    // Not followed, and no named line goes on: the book ends here.
     expect(view.entry?.moves).toEqual([]);
     expect(view.candidates).toEqual([]);
   });

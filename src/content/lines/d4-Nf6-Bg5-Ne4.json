@@ -1,0 +1,60 @@
+{
+  "about": "After 1.d4 Nf6 2.Bg5 Ne4: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.d4 Nf6 2.Bg5 Ne4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Trompowsky_Attack",
+        "https://www.chess.com/openings/Trompowsky-Attack"
+      ],
+      "moves": [
+        {
+          "san": "Bf4",
+          "rating": 5
+        },
+        {
+          "san": "Bh4",
+          "rating": 4
+        },
+        {
+          "san": "h4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Bg5 Ne4 3.Bf4",
+      "moves": [
+        {
+          "san": "g5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Bg5 Ne4 3.Bh4",
+      "moves": [
+        {
+          "san": "c6",
+          "rating": 3
+        },
+        {
+          "san": "d5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Bg5 Ne4 3.h4",
+      "moves": [
+        {
+          "san": "Nxg5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Bg5 Ne4 3.Bf4 g5"
+    }
+  ]
+}

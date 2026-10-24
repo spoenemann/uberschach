@@ -1,0 +1,41 @@
+{
+  "about": "After 1.d4 e6 2.c4 f5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.d4 e6 2.c4 f5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dutch_Defence",
+        "https://en.wikipedia.org/wiki/Franco-Indian_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "e4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 f5 3.Nf3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 e6 2.c4 f5 3.Nc3"
+    },
+    {
+      "line": "1.d4 e6 2.c4 f5 3.e4"
+    }
+  ]
+}

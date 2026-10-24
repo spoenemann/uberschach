@@ -55,7 +55,7 @@ export default tseslint.config(
   {
     // scripts/ run under Node; these are the globals they use.
     files: ["scripts/**/*.mjs"],
-    languageOptions: { globals: { console: "readonly", process: "readonly" } },
+    languageOptions: { globals: { console: "readonly", fetch: "readonly", process: "readonly" } },
   },
   eslintComments.recommended,
   reactHooks.configs.flat.recommended,
@@ -163,8 +163,9 @@ export default tseslint.config(
     // The app fetches the book and never bundles it
     // (docs/adr/0001-opening-book-as-fetched-json.md): with the content
     // imported, the bundle was 1.9 MB on 2026-10-23 and grew with every
-    // position. The authored modules and the files that read them stay out
-    // of src/ui and src/app; tests may build the book in memory.
+    // position. The authored modules, the named lines and the files that
+    // read them stay out of src/ui and src/app; tests may build the book in
+    // memory.
     files: ["src/ui/**", "src/app/**"],
     ignores: ["**/*.test.{ts,tsx}"],
     rules: {
@@ -173,7 +174,13 @@ export default tseslint.config(
         {
           patterns: [
             {
-              group: ["**/content/openings.ts", "**/content/files.ts", "**/content/lines/*"],
+              group: [
+                "**/content/openings.ts",
+                "**/content/files.ts",
+                "**/content/lines/*",
+                "**/content/named.ts",
+                "**/content/named/*",
+              ],
               message:
                 "The app fetches the book chunk by chunk (src/content/loader.ts, src/app/openings.ts); importing the content would bundle it (docs/adr/0001-opening-book-as-fetched-json.md).",
             },

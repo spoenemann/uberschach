@@ -463,7 +463,17 @@
       ]
     },
     {
-      "line": "1.Nf3 d5 2.e3"
+      "line": "1.Nf3 d5 2.e3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "c5",
+          "rating": 4
+        }
+      ]
     },
     {
       "line": "1.Nf3 d5 2.d3"
@@ -515,28 +525,6 @@
     },
     {
       "line": "1.Nf3 d5 2.Ng1"
-    },
-    {
-      "line": "1.Nf3 d5 2.c4 e6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/English_Opening",
-        "https://en.wikipedia.org/wiki/R%C3%A9ti_Opening"
-      ]
-    },
-    {
-      "line": "1.Nf3 d5 2.c4 c6"
-    },
-    {
-      "line": "1.Nf3 d5 2.c4 d4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/R%C3%A9ti_Opening"
-      ]
-    },
-    {
-      "line": "1.Nf3 d5 2.c4 dxc4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/R%C3%A9ti_Opening"
-      ]
     },
     {
       "line": "1.Nf3 d5 2.c4 Nc6"
@@ -611,15 +599,6 @@
       "line": "1.Nf3 d5 2.c4 h5"
     },
     {
-      "line": "1.Nf3 d5 2.g3 c5"
-    },
-    {
-      "line": "1.Nf3 d5 2.g3 c6"
-    },
-    {
-      "line": "1.Nf3 d5 2.g3 Bg4"
-    },
-    {
       "line": "1.Nf3 d5 2.g3 Nc6"
     },
     {
@@ -627,9 +606,6 @@
     },
     {
       "line": "1.Nf3 d5 2.g3 e6"
-    },
-    {
-      "line": "1.Nf3 d5 2.g3 g6"
     },
     {
       "line": "1.Nf3 d5 2.g3 b6"
@@ -690,12 +666,6 @@
     },
     {
       "line": "1.Nf3 d5 2.g3 Bh3"
-    },
-    {
-      "line": "1.Nf3 d5 2.b3 c5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Nimzo-Larsen_Attack"
-      ]
     },
     {
       "line": "1.Nf3 d5 2.b3 e6"

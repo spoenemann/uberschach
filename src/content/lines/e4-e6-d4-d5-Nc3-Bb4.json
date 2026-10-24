@@ -1,0 +1,114 @@
+{
+  "about": "After 1.e4 e6 2.d4 d5 3.Nc3 Bb4: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Defence"
+      ],
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        },
+        {
+          "san": "Ne2",
+          "rating": 3
+        },
+        {
+          "san": "exd5",
+          "rating": 3
+        },
+        {
+          "san": "Bd3",
+          "rating": 3
+        },
+        {
+          "san": "a3",
+          "rating": 3
+        },
+        {
+          "san": "Bd2",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5",
+      "moves": [
+        {
+          "san": "c5",
+          "rating": 5
+        },
+        {
+          "san": "Ne7",
+          "rating": 4
+        },
+        {
+          "san": "Qd7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Ne2",
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.exd5",
+      "moves": [
+        {
+          "san": "exd5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Bd3",
+      "moves": [
+        {
+          "san": "c5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.a3",
+      "moves": [
+        {
+          "san": "Bxc3+",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Bd2",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e6/2._d4/2...d5/3._Nc3/3...Bb4/4._Bd2",
+        "https://en.wikipedia.org/wiki/French_Defence"
+      ],
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 5
+        },
+        {
+          "san": "Ne7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 Qd7"
+    }
+  ]
+}

@@ -93,6 +93,28 @@
       "line": "1.e4 Nc6",
       "sources": [
         "https://en.wikipedia.org/wiki/Nimzowitsch_Defence"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        },
+        {
+          "san": "Bb5",
+          "rating": 3
+        },
+        {
+          "san": "b4",
+          "rating": 2
+        }
       ]
     },
     {
@@ -100,31 +122,61 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Owen%27s_Defence",
         "https://en.wikipedia.org/wiki/John_Owen_(chess_player)"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        }
       ]
     },
     {
       "line": "1.e4 a6",
       "sources": [
         "https://en.wikipedia.org/wiki/St._George_Defence"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        }
       ]
     },
     {
       "line": "1.e4 h6",
       "sources": [
         "https://en.wikipedia.org/wiki/King%27s_Pawn_Game"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        }
       ]
     },
     {
       "line": "1.e4 Na6"
     },
     {
-      "line": "1.e4 Nh6"
+      "line": "1.e4 Nh6",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        }
+      ]
     },
     {
       "line": "1.e4 a5",
       "sources": [
         "https://en.wikipedia.org/wiki/King%27s_Pawn_Game",
         "https://en.wikipedia.org/wiki/Ware_Opening"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        }
       ]
     },
     {
@@ -134,6 +186,12 @@
       "line": "1.e4 f6",
       "sources": [
         "https://en.wikipedia.org/wiki/King%27s_Pawn_Game"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        }
       ]
     },
     {
@@ -146,13 +204,31 @@
       "line": "1.e4 g5",
       "sources": [
         "https://en.wikipedia.org/wiki/King%27s_Pawn_Game"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        }
       ]
     },
     {
       "line": "1.e4 h5",
       "sources": [
         "https://en.wikipedia.org/wiki/King%27s_Pawn_Game"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        }
       ]
+    },
+    {
+      "line": "1.e4 Nc6 2.Bb5"
+    },
+    {
+      "line": "1.e4 Nc6 2.b4"
     }
   ]
 }

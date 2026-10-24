@@ -1,0 +1,72 @@
+{
+  "about": "After 1.e4 d5 2.d4 dxe4: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 d5 2.d4 dxe4",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        },
+        {
+          "san": "Be3",
+          "rating": 3
+        },
+        {
+          "san": "Bc4",
+          "rating": 3
+        },
+        {
+          "san": "f3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.d4 dxe4 3.Nc3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "e5",
+          "rating": 4
+        },
+        {
+          "san": "Bf5",
+          "rating": 4
+        },
+        {
+          "san": "f5",
+          "rating": 3
+        },
+        {
+          "san": "c5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.d4 dxe4 3.Be3"
+    },
+    {
+      "line": "1.e4 d5 2.d4 dxe4 3.Bc4"
+    },
+    {
+      "line": "1.e4 d5 2.d4 dxe4 3.f3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Blackmar–Diemer_Gambit"
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.d4 dxe4 3.Nc3 f5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Blackmar–Diemer_Gambit"
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.d4 dxe4 3.Nc3 c5"
+    }
+  ]
+}

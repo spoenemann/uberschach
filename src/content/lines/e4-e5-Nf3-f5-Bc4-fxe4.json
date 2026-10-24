@@ -1,0 +1,38 @@
+{
+  "about": "After 1.e4 e5 2.Nf3 f5 3.Bc4 fxe4: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4",
+      "moves": [
+        {
+          "san": "Nxe5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Qg5",
+          "rating": 4
+        },
+        {
+          "san": "Nf6",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 d5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Latvian_Gambit",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...f5/3._Bc4/3...fxe4/4._Nxe5"
+      ]
+    }
+  ]
+}

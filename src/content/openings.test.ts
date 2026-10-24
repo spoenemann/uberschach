@@ -1,28 +1,31 @@
 // The shipped book against the promises of docs/product-specs/opening-explorer.md
-// (The database) and the content principles recorded there: every legal move
-// from a book position is rated and explained, only moves rated 4 and 5 are
-// followed, to the depth the plan sets and no further, every historical
+// (The database) and the content principles recorded there: through the
+// breadth-first plies every legal move from a followed position is rated and
+// explained and only moves rated 4 and 5 are followed; beyond them, and after
+// a move rated 1 to 3, the book writes exactly the moves of the named lines
+// (src/content/named/), to the length the plan sets; every historical
 // background names its source, and both languages are complete. Importing
 // OPENINGS already fails when data and prose disagree (book.ts); these tests
 // hold what the loader cannot know, and the shape of the modules and of the
 // served form that the app's loading relies on
 // (docs/adr/0001-opening-book-as-fetched-json.md).
 import { describe, expect, test } from "vitest";
-import { newGame, positionKey } from "../domain/game.ts";
+import { newGame } from "../domain/game.ts";
 import { legalMoves, playMove } from "../domain/moves.ts";
 import type { Position } from "../domain/position.ts";
 import { toSan } from "../domain/san.ts";
 import { lookup, type BookPosition, type Rating } from "./book.ts";
 import { moduleId } from "./files.ts";
+import { NAMED_LINE_PLIES, namedBook, readNamedLines } from "./named.ts";
 import { MODULES, OPENINGS } from "./openings.ts";
 import { parseMove, serveBook } from "./serve.ts";
 
 /**
- * The deepest position, counted in moves played, from which the book writes
- * moves: White's second move (docs/exec-plans/active/0002-opening-explorer.md,
+ * The deepest position, counted in moves played, from which the breadth-first
+ * plies write every legal move: White's second move (docs/exec-plans/active/0002-opening-explorer.md,
  * Decision log, Depth). A move rated 4 or 5 into a position at or before it is
- * followed; the positions after Black's reply end the book. Deeper content
- * raises this and the plan's depth together.
+ * followed with every legal move; beyond it the named lines decide
+ * (Decision log, Named lines).
  */
 const LAST_FOLLOWED_PLY = 3;
 
@@ -32,6 +35,7 @@ const ENGLISH_PIECE_MOVE = /(^|[\s(.])[NBRQ][a-h1-8]?x?[a-h][1-8](?![a-z0-9])/;
 const START = newGame().position;
 const positions = [...OPENINGS.values()];
 const keyOf = new Map([...OPENINGS].map(([key, entry]) => [entry, key]));
+const NAMED = namedBook(readNamedLines());
 
 /** How many moves a line plays: one token each, as formatLine writes it. */
 function plyOfLine(line: string): number {
@@ -45,6 +49,25 @@ function plyOf(entry: BookPosition): number {
 /** The position a book entry describes, from its key, which is a FEN without the clocks. */
 function positionOf(entry: BookPosition): Position {
   return newGame(`${keyOf.get(entry) ?? ""} 0 1`).position;
+}
+
+/**
+ * The positions the breadth-first plies follow, where every legal move is written: the initial
+ * position, and each position up to LAST_FOLLOWED_PLY that a move rated 4 or 5 from one of
+ * them reaches.
+ */
+const breadthFirst = new Set<BookPosition>();
+{
+  const root = lookup(OPENINGS, START);
+  const queue = root === undefined ? [] : [root];
+  for (let entry = queue.shift(); entry !== undefined; entry = queue.shift()) {
+    if (breadthFirst.has(entry)) continue;
+    breadthFirst.add(entry);
+    for (const move of entry.moves) {
+      const reached = lookup(OPENINGS, playMove(positionOf(entry), move.move));
+      if (move.rating >= 4 && reached !== undefined && plyOf(reached) <= LAST_FOLLOWED_PLY) queue.push(reached);
+    }
+  }
 }
 
 describe("the shipped book", () => {
@@ -102,9 +125,8 @@ describe("the shipped book", () => {
     expect(root?.background?.de).toMatch(/^Aus der Grundstellung sind zwanzig/);
   });
 
-  test("rates and explains every legal move from every position that has moves at all", () => {
-    for (const entry of positions) {
-      if (entry.moves.length === 0) continue;
+  test("rates and explains every legal move from every position the breadth-first plies follow", () => {
+    for (const entry of breadthFirst) {
       const position = positionOf(entry);
       const legal = legalMoves(position).map((move) => toSan(position, move, "en")).sort();
       const written = entry.moves.map((move) => move.san).sort();
@@ -125,37 +147,38 @@ describe("the shipped book", () => {
     expect(ratings).toEqual(expected);
   });
 
-  test("follows only moves rated 4 and 5: a position reached by lower ratings alone has no moves", () => {
-    const best = new Map<string, Rating>();
-    for (const entry of positions) {
-      if (entry.moves.length === 0) continue;
-      const position = positionOf(entry);
-      for (const move of entry.moves) {
-        const key = positionKey(playMove(position, move.move));
-        best.set(key, Math.max(best.get(key) ?? 1, move.rating) as Rating);
-      }
-    }
-    for (const [key, rating] of best) {
-      const reached = OPENINGS.get(key);
-      if (reached !== undefined && rating <= 3) {
-        expect(reached.moves, `moves from "${reached.line}", reached by a move rated ${rating}`).toEqual([]);
-      }
-    }
-  });
-
-  test("follows every move rated 4 or 5 to the depth the plan sets, and goes no deeper", () => {
-    for (const entry of positions) {
-      if (plyOf(entry) > LAST_FOLLOWED_PLY) {
-        expect(entry.moves, `moves from "${entry.line}", beyond the depth`).toEqual([]);
-      }
+  test("follows every move rated 4 or 5 through the breadth-first plies", () => {
+    for (const entry of breadthFirst) {
       for (const move of entry.moves) {
         if (move.rating < 4) continue;
         const reached = lookup(OPENINGS, playMove(positionOf(entry), move.move));
         expect(reached, `position after "${entry.line}" ${move.san}`).toBeDefined();
-        if (reached !== undefined && plyOf(reached) <= LAST_FOLLOWED_PLY) {
-          expect(reached.moves.length, `moves from "${reached.line}", reached by a move rated ${move.rating}`).toBeGreaterThan(0);
-        }
       }
+    }
+  });
+
+  // Beyond the breadth-first plies, and after a move rated 1 to 3 within them, the named lines
+  // decide what the book follows (docs/product-specs/opening-explorer.md, The database).
+  test("writes from every other position exactly the moves the named lines play from it", () => {
+    for (const entry of positions) {
+      if (breadthFirst.has(entry)) continue;
+      const named = [...(NAMED.moves.get(keyOf.get(entry) ?? "") ?? [])].sort();
+      const written = entry.moves.map((move) => move.san).sort();
+      expect(written, `moves from "${entry.line}", which the breadth-first plies do not follow`).toEqual(named);
+    }
+  });
+
+  test(`covers every named line to its ${NAMED_LINE_PLIES}th move: each position on it is in the book, and each named one has a name`, () => {
+    for (const [key, moves] of NAMED.moves) {
+      const entry = OPENINGS.get(key);
+      expect(entry, `the position ${key}, on a named line`).toBeDefined();
+      const written = new Set(entry?.moves.map((move) => move.san));
+      for (const san of moves) expect(written.has(san), `${san} from "${entry?.line}", a named move`).toBe(true);
+    }
+    for (const [key, line] of NAMED.names) {
+      const entry = OPENINGS.get(key);
+      expect(entry, `the position of "${line.name}"`).toBeDefined();
+      expect(entry?.name?.en, `the name of "${entry?.line}", which the dataset calls "${line.name}"`).toBeTruthy();
     }
   });
 

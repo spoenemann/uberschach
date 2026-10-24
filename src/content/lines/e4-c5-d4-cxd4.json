@@ -1,0 +1,95 @@
+{
+  "about": "After 1.e4 c5 2.d4 cxd4: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 c5 2.d4 cxd4",
+      "moves": [
+        {
+          "san": "c3",
+          "rating": 5
+        },
+        {
+          "san": "Qxd4",
+          "rating": 3
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
+        },
+        {
+          "san": "f4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.d4 cxd4 3.c3",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...c5/2._d4/2...cxd4",
+        "https://en.wikipedia.org/wiki/Smith%E2%80%93Morra_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "dxc3",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        },
+        {
+          "san": "d5",
+          "rating": 4
+        },
+        {
+          "san": "e5",
+          "rating": 3
+        },
+        {
+          "san": "d3",
+          "rating": 3
+        },
+        {
+          "san": "Qa5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.d4 cxd4 3.Qxd4",
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.d4 cxd4 3.Nf3",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...c5/2._d4/2...cxd4/3._Nf3"
+      ],
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.d4 cxd4 3.f4"
+    },
+    {
+      "line": "1.e4 c5 2.d4 cxd4 3.c3 Nf6"
+    },
+    {
+      "line": "1.e4 c5 2.d4 cxd4 3.c3 d5"
+    },
+    {
+      "line": "1.e4 c5 2.d4 cxd4 3.c3 e5"
+    },
+    {
+      "line": "1.e4 c5 2.d4 cxd4 3.c3 Qa5"
+    }
+  ]
+}

@@ -589,10 +589,22 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Hodgson_Attack",
         "https://en.wikipedia.org/wiki/Closed_Game"
+      ],
+      "moves": [
+        {
+          "san": "Bg4",
+          "rating": 3
+        }
       ]
     },
     {
-      "line": "1.d4 d5 2.e3"
+      "line": "1.d4 d5 2.e3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        }
+      ]
     },
     {
       "line": "1.d4 d5 2.g3"
@@ -622,7 +634,13 @@
       "line": "1.d4 d5 2.h3"
     },
     {
-      "line": "1.d4 d5 2.h4"
+      "line": "1.d4 d5 2.h4",
+      "moves": [
+        {
+          "san": "c5",
+          "rating": 5
+        }
+      ]
     },
     {
       "line": "1.d4 d5 2.Na3"
@@ -653,48 +671,6 @@
     },
     {
       "line": "1.d4 d5 2.Kd2"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined"
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 c6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Slav_Defense"
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 dxc4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Accepted"
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 Nc6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Chigorin_Defense"
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 Bf5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Baltic_Defense"
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Albin_Countergambit"
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 c5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Austrian_Defense"
-      ]
     },
     {
       "line": "1.d4 d5 2.c4 Nd7"
@@ -776,9 +752,6 @@
       "line": "1.d4 d5 2.Nf3 Be6"
     },
     {
-      "line": "1.d4 d5 2.Nf3 Bf5"
-    },
-    {
       "line": "1.d4 d5 2.Nf3 Bg4"
     },
     {
@@ -809,18 +782,6 @@
       "line": "1.d4 d5 2.Nf3 b5"
     },
     {
-      "line": "1.d4 d5 2.Nf3 c6"
-    },
-    {
-      "line": "1.d4 d5 2.Nf3 c5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Orla_Hermann_Krause"
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.Nf3 e6"
-    },
-    {
       "line": "1.d4 d5 2.Nf3 e5"
     },
     {
@@ -840,13 +801,6 @@
     },
     {
       "line": "1.d4 d5 2.Nf3 h5"
-    },
-    {
-      "line": "1.d4 d5 2.Bf4 c5",
-      "sources": [
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._d4/1...d5/2._Bf4/2...c5",
-        "https://www.chessgames.com/perl/chessgame?gid=1002036"
-      ]
     },
     {
       "line": "1.d4 d5 2.Bf4 e6"
@@ -964,9 +918,6 @@
       "line": "1.d4 d5 2.Nc3 Nh6"
     },
     {
-      "line": "1.d4 d5 2.Nc3 Nf6"
-    },
-    {
       "line": "1.d4 d5 2.Nc3 a6"
     },
     {
@@ -985,16 +936,10 @@
       "line": "1.d4 d5 2.Nc3 c5"
     },
     {
-      "line": "1.d4 d5 2.Nc3 e6"
-    },
-    {
       "line": "1.d4 d5 2.Nc3 e5"
     },
     {
       "line": "1.d4 d5 2.Nc3 f6"
-    },
-    {
-      "line": "1.d4 d5 2.Nc3 f5"
     },
     {
       "line": "1.d4 d5 2.Nc3 g6"
@@ -1007,6 +952,9 @@
     },
     {
       "line": "1.d4 d5 2.Nc3 h5"
+    },
+    {
+      "line": "1.d4 d5 2.Bg5 Bg4"
     }
   ]
 }

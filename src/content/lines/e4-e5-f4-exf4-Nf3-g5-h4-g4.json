@@ -1,0 +1,90 @@
+{
+  "about": "After 1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4",
+      "moves": [
+        {
+          "san": "Ne5",
+          "rating": 5
+        },
+        {
+          "san": "Ng5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kieseritzky_Gambit",
+        "https://en.wikipedia.org/wiki/King's_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 4
+        },
+        {
+          "san": "d5",
+          "rating": 3
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
+        },
+        {
+          "san": "Bg7",
+          "rating": 3
+        },
+        {
+          "san": "Qe7",
+          "rating": 3
+        },
+        {
+          "san": "h5",
+          "rating": 2
+        },
+        {
+          "san": "Be7",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ng5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/King's_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "h6",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 d6"
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 Nc6"
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 Bg7"
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 Be7"
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ng5 Nf6"
+    }
+  ]
+}

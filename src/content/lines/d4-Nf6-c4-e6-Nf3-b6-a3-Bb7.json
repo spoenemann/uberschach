@@ -1,0 +1,47 @@
+{
+  "about": "After 1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.a3 Bb7: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.a3 Bb7",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.a3 Bb7 5.Nc3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Queen%27s_Indian_Defense"
+      ],
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Ne4",
+          "rating": 4
+        },
+        {
+          "san": "Be7",
+          "rating": 4
+        },
+        {
+          "san": "g6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.a3 Bb7 5.Nc3 Ne4"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.a3 Bb7 5.Nc3 Be7"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.a3 Bb7 5.Nc3 g6"
+    }
+  ]
+}

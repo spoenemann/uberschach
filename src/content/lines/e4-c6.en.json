@@ -1,9 +1,11 @@
 {
   "1.e4 c6 2.d4": {
-    "strategy": "Builds a two-pawn centre and takes the most space. Black's 2...d5 attacks e4 at once, and White then decides the character of the game: open piece play, a closed centre where White holds the space, or a balanced structure after an exchange. The cost is a centre that Black challenges straight away."
+    "strategy": "Builds a two-pawn centre and takes the most space. Black's 2...d5 attacks e4 at once, and White then decides the character of the game: open piece play, a closed centre where White holds the space, or a balanced structure after an exchange. The cost is a centre that Black challenges straight away.",
+    "name": "Caro–Kann Defence"
   },
   "1.e4 c6 2.Nc3": {
-    "strategy": "Defends e4 with a developing move and keeps the d-pawn flexible, so White can still head for the main line or choose faster development with the knights. The price is that the knight occupies c3, which rules out a set-up with the c-pawn on c3."
+    "strategy": "Defends e4 with a developing move and keeps the d-pawn flexible, so White can still head for the main line or choose faster development with the knights. The price is that the knight occupies c3, which rules out a set-up with the c-pawn on c3.",
+    "name": "Caro–Kann Defence"
   },
   "1.e4 c6 2.c4": {
     "name": "Caro–Kann Defence: Accelerated Panov Attack",
@@ -108,7 +110,6 @@
     "strategy": "Challenges e4 at once, which is the point of the c6 pawn: it supports d5, so Black recaptures with a pawn and keeps a sound structure. Unlike in the French, the c8-bishop is not shut in. The cost is the tempo spent on ...c6, so Black can lag in development; the game is usually solid and positional."
   },
   "1.e4 c6 2.d4 Na6": {
-    "name": "Caro–Kann Defence: De Bruycker Defence",
     "strategy": "Heads for c7 via a6, where the knight supports d5 and e6 without blocking the c8-bishop. The price is an extra tempo and a knight that stands on the rim for a move, so White builds the centre at leisure and stays slightly ahead in development."
   },
   "1.e4 c6 2.d4 Nf6": {
@@ -359,5 +360,20 @@
   },
   "1.e4 c6 2.Nf3 g5": {
     "strategy": "Hangs the pawn to Nxg5, which nothing defends, and weakens f5, h5 and the whole kingside for good."
+  },
+  "1.e4 c6 2.b4 d5": {
+    "strategy": "Takes the centre at once, the way the Caro-Kann is meant to be played. White's early b-pawn advance does nothing for the fight over the centre, so Black simply gets the usual solid structure."
+  },
+  "1.e4 c6 2.b4 e5": {
+    "strategy": "Takes the centre with the e-pawn instead and opens the bishop's diagonal towards the b4 pawn, which nothing defends. It is a sharper choice than ...d5, because the e5 pawn itself soon becomes a target and Black must look after both pawns."
+  },
+  "1.e4 c6 2.Bc4 d5": {
+    "strategy": "Strikes at once: the d5 pawn is protected twice, by the c-pawn and the queen, so the bishop has to leave the diagonal. Black gains central space with a tempo and loses nothing by it."
+  },
+  "1.e4 c6 2.d3 d5": {
+    "strategy": "Takes the centre at once and challenges e4, which White's modest move has to meet. Black gets a firm claim to the centre while White prepares a quiet set-up."
+  },
+  "1.e4 c6 2.g4 d5": {
+    "strategy": "The natural reply: the g-pawn advance does nothing for the centre, so Black strikes at e4 at once. The pawn on g4 is a weakness, and the bishop on c8 already looks at it; White's early flank advance leaves the kingside loose."
   }
 }

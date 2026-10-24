@@ -24,7 +24,8 @@
     "strategy": "Entwickelt den Läufer vor die Bauernkette, wo er e7 angreift und bereitsteht, ...Sf6 mit Lxf6 zu beantworten und Schwarz einen Doppelbauern auf der f-Linie zu geben. Der Preis: b2 bleibt ungedeckt, und der Läufer kann mit ...h6 belästigt werden, sodass Schwarz ein solides Spiel mit leichter Entwicklung erhält."
   },
   "1.d4 d5 2.e3": {
-    "strategy": "Stützt d4 und öffnet den Läufer f1, mit Kurs auf einen kompakten Aufbau mit solidem Bauernzentrum. Der Läufer c1 ist hinter dem Bauern eingesperrt, während Schwarz sofort ...Lf5 außerhalb der Kette entwickeln kann. Solide und risikoarm, aber passiv, weil nichts gegen d5 geschieht."
+    "strategy": "Stützt d4 und öffnet den Läufer f1, mit Kurs auf einen kompakten Aufbau mit solidem Bauernzentrum. Der Läufer c1 ist hinter dem Bauern eingesperrt, während Schwarz sofort ...Lf5 außerhalb der Kette entwickeln kann. Solide und risikoarm, aber passiv, weil nichts gegen d5 geschieht.",
+    "name": "Damenbauernspiel"
   },
   "1.d4 d5 2.e4": {
     "strategy": "Bietet den e-Bauern für schnelle Entwicklung an, in der Hoffnung auf Sc3 und f3. Die Theorie kennt für Schwarz mehrere Wege zum Ausgleich, daher ist das Gambit auf höchstem Niveau fast nie zu sehen; Schwarz kann es auch einfach ablehnen."
@@ -36,7 +37,8 @@
     "strategy": "Bereitet Lb2 vor, der d4 von hinten deckt, wobei der Bauer d4 dem Läufer die lange Diagonale versperrt. Solide, aber langsam: Gegen d5 geschieht nichts, sodass Schwarz seine Entwicklung in aller Ruhe abschließt."
   },
   "1.d4 d5 2.f4": {
-    "strategy": "Kontrolliert e5 und strebt einen kompakten Aufbau mit fester Bauernmauer im Zentrum an. Der Zug ist spielbar, hinterlässt aber auf e4 ein Loch für einen schwarzen Springer, öffnet die Diagonale e1–h4 und macht den Läufer c1 zu einem schlechten Läufer hinter den eigenen Bauern. Schwarz entwickelt sich leicht."
+    "strategy": "Kontrolliert e5 und strebt einen kompakten Aufbau mit fester Bauernmauer im Zentrum an. Der Zug ist spielbar, hinterlässt aber auf e4 ein Loch für einen schwarzen Springer, öffnet die Diagonale e1–h4 und macht den Läufer c1 zu einem schlechten Läufer hinter den eigenen Bauern. Schwarz entwickelt sich leicht.",
+    "name": "Damenbauernspiel: Mason-Angriff"
   },
   "1.d4 d5 2.c3": {
     "strategy": "Stützt d4 und öffnet die Diagonale d1–a4, sodass ein frühes ...Lf5 mit Db3 gegen den Bauern b7 beantwortet werden kann. Dafür verliert der Springer b1 das Feld c3, und ein späteres c4 kostet ein zweites Tempo; Schwarz entwickelt sich ungehindert."
@@ -96,38 +98,24 @@
     "background": "1.d4 d5 war Anfang des 20. Jahrhunderts weit verbreitet, als Weißspieler häufiger andere erste Züge als 1.e4 versuchten. 1...d5 ist bis heute die zweithäufigste Antwort auf 1.d4, nach 1...Sf6."
   },
   "1.d4 d5 2.c4 e6": {
-    "name": "Abgelehntes Damengambit",
-    "background": "Es wurde im frühen 20. Jahrhundert besonders häufig gespielt und gilt als eine der zuverlässigsten Verteidigungen von Schwarz gegen 1.d4. Viswanathan Anand wählte seine Lasker-Variante in der letzten Partie der Weltmeisterschaft 2010, besiegte Topalow und verteidigte den Titel.",
     "strategy": "Stützt d5 mit dem e-Bauern und errichtet ein solides Zentrum, das Schwarz lange halten kann. Weiß hält die Spannung auf d5 aufrecht und hat meist etwas mehr Raum. Der Preis ist der Läufer c8, der hinter e6 eingesperrt ist und erst nach einem befreienden Bauernhebel oder einem Fianchetto mitspielt."
   },
   "1.d4 d5 2.c4 c6": {
-    "name": "Slawische Verteidigung",
-    "background": "Obwohl sie schon 1590 analysiert wurde, wurde sie erst in den 1920er-Jahren eingehend erforscht. Die beiden Weltmeisterschaftskämpfe zwischen Aljechin und Euwe 1935 und 1937 stellten sie gründlich auf die Probe, und Wladimir Kramnik spielte sie bei der Weltmeisterschaft 2006 in sechs seiner acht Schwarzpartien.",
     "strategy": "Deckt d5 mit dem c-Bauern und hält die Diagonale des Läufers c8 offen, sodass er nicht hinter der Bauernkette begraben ist. Schlägt Schwarz später auf c4, stützt der Bauer c6 den Zug ...b5, um den Bauern zu halten oder Zeit gegen die schlagende Figur zu gewinnen. Nachteile: c6 entwickelt keine Figur und nimmt dem Springer b8 das Feld, und der Befreiungshebel ...c5 kostet ein Tempo."
   },
   "1.d4 d5 2.c4 dxc4": {
-    "name": "Angenommenes Damengambit",
-    "background": "Der Weltmeisterschaftskampf 1886 zwischen Wilhelm Steinitz und Johannes Zukertort brachte die ersten modernen Ideen: Steinitz gab den Bauern zurück und hinterließ Weiß einen isolierten Bauern auf d4. Alexander Aljechin steuerte neue Ideen bei, und ab den 1930er-Jahren wurde es auf höchstem Niveau gespielt. Nach dem Zweiten Weltkrieg verlor es an Boden, als die Indischen Verteidigungen aufkamen, doch Ende der 1990er-Jahre kehrten mehrere Spieler der Weltspitze zu ihm zurück, und heute gilt es als korrekt.",
     "strategy": "Nimmt den Bauern und gibt das Zentrum für freies Figurenspiel auf. Schwarz lässt Weiß den Bauern meist zurückgewinnen und nutzt die Zeit für Angriffe auf das weiße Zentrum, denn den Bauern zu halten, lohnt sich selten. Weiß will seinen Raumvorteil im Zentrum nutzen, um einen Angriff aufzubauen."
   },
   "1.d4 d5 2.c4 Nc6": {
-    "name": "Tschigorin-Verteidigung",
-    "background": "Benannt nach dem russischen Meister Michail Tschigorin aus dem 19. Jahrhundert. Wassili Smyslow setzte sie in den 1980er-Jahren gegen Garri Kasparow ein und erreichte ein Remis, und Alexander Morosewitsch, vielleicht der einzige moderne Großmeister, der sie regelmäßig spielt, veröffentlichte 2007 gemeinsam mit Wladimir Barski ein Buch über sie.",
     "strategy": "Entwickelt mit raschem Druck auf d4, doch der Springer verstellt den c-Bauern, und Schwarz hält d5 nicht mehr mit einem Bauern. Dafür bekommt Schwarz aktive Figuren und muss bereit sein, einen Läufer gegen einen Springer zu tauschen. Die Verteidigung ist spielbar und eine nützliche Überraschung, ihre Theorie ist aber weniger ausgearbeitet als die der Hauptverteidigungen."
   },
   "1.d4 d5 2.c4 Bf5": {
-    "name": "Keres-Verteidigung",
-    "background": "Auch als Baltische Verteidigung, Grau-Verteidigung oder Sahovic-Verteidigung bekannt. Großmeister wie Paul Keres und Alexei Schirow haben sie gespielt, doch unter Schachmeistern hat sie keine weite Verbreitung gefunden.",
     "strategy": "Entwickelt den Läufer, bevor ...e6 ihn einsperren kann, lässt aber b7 ungedeckt, sodass 3.Db3 den Bauern sofort angreift, und nach einem Tausch auf d5 gewinnt Weiß Zeit gegen die schwarze Dame und den Läufer. Es ist ein ungewöhnlicher, aber spielbarer Weg, das Problem des Läufers c8 zu lösen."
   },
   "1.d4 d5 2.c4 e5": {
-    "name": "Albins Gegengambit",
-    "background": "Benannt nach Adolf Albin, der es 1893 in New York gegen Emanuel Lasker spielte, obwohl Cavallotti es schon beim Turnier in Mailand 1881 gegen Salvioli gespielt hatte. Alexander Morosewitsch setzte es in den 2000er-Jahren mit einigem Erfolg ein.",
     "strategy": "Opfert einen Bauern für einen Keil auf d4 und einige Angriffschancen, mit rascher Entwicklung und oft langer Rochade. Weiß gibt den Bauern meist im passenden Moment zurück, um einen positionellen Vorteil zu erlangen. Der Bauer auf d4 ist stärker, als er aussieht, daher wird unvorsichtiges Spiel von Weiß bestraft."
   },
   "1.d4 d5 2.c4 c5": {
-    "name": "Österreichische Verteidigung",
-    "background": "Erstmals 1604 von Alessandro Salvio im Druck beschrieben. Der Name geht auf österreichische Spieler zurück, die sie untersuchten, darunter Hans Haberditz, Hans Müller und Ernst Grünfeld. Hikaru Nakamura spielte sie 2023 und 2024, erreichte damit im Finale der Champions Chess Tour 2023 ein Remis gegen Magnus Carlsen und besiegte bei Norway Chess 2024 Ding Liren.",
     "strategy": "Spiegelt den weißen Zug und greift d4 sofort an. Nach cxd5 sollte Schwarz nicht mit der Dame zurückschlagen, da Weiß sich dann mit Tempogewinn entwickelt. Die Theorie hält Weiß für leicht im Vorteil, und Schwarz spielt bestenfalls auf Remis."
   },
   "1.d4 d5 2.c4 Nf6": {
@@ -216,8 +204,6 @@
     "strategy": "Entwickelt den Läufer aktiv und bereitet …Lxf3 vor, das Weiß Doppelbauern auf der f-Linie einbrächte. Doch 3.Se5 greift den Läufer an und gewinnt ein Tempo, und da der Läufer c8 verlassen hat, ist der Bauer b7 ungedeckt."
   },
   "1.d4 d5 2.Nf3 c5": {
-    "name": "Damenbauernspiel: Krause-Variante",
-    "background": "Benannt nach Orla Hermann Krause (1867–1935), einem dänischen Schachmeister und Analytiker, der in den 1920er-Jahren viele neue Ideen in der Slawischen Verteidigung fand. Bei der Schacholympiade 1927 in London spielte er am ersten Brett für Dänemark, das die Silbermedaille gewann.",
     "strategy": "Greift d4 sofort an und bringt Spannung ins Zentrum, statt d5 passiv zu verteidigen. Der Preis sind Zeit und Struktur: Schlägt Weiß auf c5, muss Schwarz Züge aufwenden, um den Bauern zurückzugewinnen, und d5 hat unterdessen wenig Rückhalt. Der Zug zielt auf aktives statt solides Spiel."
   },
   "1.d4 d5 2.Nf3 g6": {
@@ -284,8 +270,6 @@
     "strategy": "Entwickelt eine Figur und deckt d5 und e4, sodass sich Schwarz noch auf keine Bauernstruktur festlegt. Der Springer lässt sowohl einen soliden Aufbau als auch scharfes Gegenspiel gegen den ungedeckten Bauern b2 offen."
   },
   "1.d4 d5 2.Bf4 c5": {
-    "name": "Beschleunigtes Londoner System: Steinitz-Gegengambit",
-    "background": "Wilhelm Steinitz spielte den Zug im Londoner Turnier von 1883 gegen James Mason. Mason nahm den Bauern, und nach 3.dxc5 Sc6 4.Sf3 f6 5.e3 e5 6.Lg3 Lxc5 hatte Schwarz ihn zurückgewonnen und das Zentrum übernommen; Steinitz gewann die Partie.",
     "strategy": "Greift sofort d4 an und will davon profitieren, dass der Läufer c1 verlassen hat: ...Db6 setzt den ungedeckten Bauern b2 unter Druck, bevor Schwarz rochiert hat. Schwarz bietet den c-Bauern für schnelle Entwicklung und Aktivität an, deshalb lehnt Weiß meist ab und behält zwei Bauern im Zentrum. Die Partie ist scharf, Schwarz hat Gegenspiel."
   },
   "1.d4 d5 2.Bf4 e6": {
@@ -393,7 +377,6 @@
     "strategy": "Bietet den e-Bauern an, um mit ...d4 Raum zu gewinnen: Nach 3.dxe5 d4 muss der Springer ziehen, und auf 4.Se4 greift 4...Dd5 Springer und Bauern e5 zugleich an und gewinnt den Bauern zurück. Das Gambit ist selten, und seine Bewertung ist unklar."
   },
   "1.d4 d5 2.Nc3 f5": {
-    "name": "Damenbauernspiel: Weressow-Angriff, Holländisches System",
     "strategy": "Errichtet eine Stonewall-Struktur, in der die Bauern d5 und f5 das Feld e4 beherrschen. Der Preis ist ein schwaches Feld e5 und eine offene Diagonale e8–h5, und 3.e4 fxe4 4.Dh5+ g6 5.Dxd5 holt den Bauern sofort zurück. Spielbar, aber selten und riskant."
   },
   "1.d4 d5 2.Nc3 Na6": {
@@ -450,5 +433,15 @@
   },
   "1.d4 d5 2.Nc3 g5": {
     "strategy": "Verliert einen Bauern an 3.Lxg5 und schwächt ohne Gegenwert den ganzen Königsflügel."
+  },
+  "1.d4 d5 2.Bg5 Bg4": {
+    "strategy": "Beantwortet den Läufer mit demselben Zug: Jeder Läufer blickt nun auf den e-Bauern der Gegenseite, mit der Dame dahinter. Die Symmetrie ist oberflächlich, denn Weiß zieht zuerst und entscheidet, wann und wie sie gebrochen wird; Schwarz gewinnt also nichts durch Nachahmen.",
+    "name": "Damenbauernspiel: Levitsky-Angriff, Welling-Variante"
+  },
+  "1.d4 d5 2.e3 Nf6": {
+    "strategy": "Entwickelt den Springer auf sein natürliches Feld, wo er e4 kontrolliert. Weißens e3 hat den Läufer auf c1 vorerst eingesperrt, daher kann Schwarz sich einfach entwickeln und abwarten, welchen Aufbau Weiß wählt, mit einem soliden Bauern auf d5 und nichts zu befürchten."
+  },
+  "1.d4 d5 2.h4 c5": {
+    "strategy": "Greift d4 sofort an und gewinnt Raum am Damenflügel. Weißens Randbauernzug hat weder dem Zentrum noch der Entwicklung genützt, sodass Schwarz zuerst im Zentrum zuschlagen kann und der d4-Bauer verteidigt werden muss."
   }
 }

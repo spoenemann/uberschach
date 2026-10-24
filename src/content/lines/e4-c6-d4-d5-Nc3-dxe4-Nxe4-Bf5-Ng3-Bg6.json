@@ -1,0 +1,43 @@
+{
+  "about": "After 1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6",
+      "moves": [
+        {
+          "san": "h4",
+          "rating": 5
+        },
+        {
+          "san": "Nh3",
+          "rating": 4
+        },
+        {
+          "san": "f4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6 6.h4",
+      "moves": [
+        {
+          "san": "h6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6 6.Nh3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_chess_openings_named_after_people"
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6 6.f4"
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6 6.h4 h6"
+    }
+  ]
+}

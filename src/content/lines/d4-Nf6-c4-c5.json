@@ -1,0 +1,94 @@
+{
+  "about": "After 1.d4 Nf6 2.c4 c5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.d4 Nf6 2.c4 c5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Benoni_Defense",
+        "https://en.wikipedia.org/wiki/Modern_Benoni"
+      ],
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "e3",
+          "rating": 3
+        },
+        {
+          "san": "dxc5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 c5 3.d5",
+      "moves": [
+        {
+          "san": "b5",
+          "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 4
+        },
+        {
+          "san": "e5",
+          "rating": 3
+        },
+        {
+          "san": "Ne4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 c5 3.Nf3",
+      "moves": [
+        {
+          "san": "cxd4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 c5 3.e3",
+      "moves": [
+        {
+          "san": "g6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 c5 3.dxc5",
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 c5 3.d5 d6"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 c5 3.d5 Ne4",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._d4/1...Nf6/2._c4/2...c5/3._d5/3...Ne4"
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 c5 3.dxc5 e6"
+    }
+  ]
+}

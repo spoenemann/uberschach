@@ -1,6 +1,7 @@
 {
   "1.d4 f5 2.c4": {
-    "strategy": "The traditional challenge: White takes space, adds control of d5 and aims at a Queen's Gambit-style set-up, with e4 as a later central break. The early c-pawn has a cost: once Black plays ...e6, the f8-bishop can develop with check on b4. The fight is over e4, which Black's f-pawn already watches."
+    "strategy": "The traditional challenge: White takes space, adds control of d5 and aims at a Queen's Gambit-style set-up, with e4 as a later central break. The early c-pawn has a cost: once Black plays ...e6, the f8-bishop can develop with check on b4. The fight is over e4, which Black's f-pawn already watches.",
+    "name": "Dutch Defence"
   },
   "1.d4 f5 2.g3": {
     "name": "Dutch Defence: Fianchetto Attack",
@@ -102,7 +103,6 @@
     "background": "Elias Stein, an Alsatian who settled in The Hague, recommended it as the best reply to 1.d4 in his 1789 book Nouvel essai sur le Jeu des échecs. In the 1951 World Championship match both Mikhail Botvinnik and his challenger David Bronstein played it."
   },
   "1.d4 f5 2.c4 Nf6": {
-    "name": "Dutch Defence: Normal Variation",
     "strategy": "Develops a piece and controls e4 and d5, which makes White's central break with e4 harder. The knight commits to no pawn structure, so every Dutch set-up stays open for Black, from a solid Stonewall to a fianchetto. In return Black must find a way to fight for the centre with the f-pawn already advanced."
   },
   "1.d4 f5 2.c4 e6": {
@@ -342,5 +342,37 @@
   },
   "1.d4 f5 2.Nf3 f4": {
     "strategy": "Loses the pawn to 3.Bxf4, because nothing defends it, and gains nothing in space or development in return."
+  },
+  "1.d4 f5 2.Bf4 e6": {
+    "strategy": "Supports the f5 pawn and frees the king's bishop, a sound reply to the London bishop. Black gets a compact structure but shuts in its own light-squared bishop, and the bishop on f4 keeps e5 under White's control for now."
+  },
+  "1.d4 f5 2.e4 fxe4": {
+    "strategy": "Takes the pawn: Black wins material, and White must prove compensation with fast development and attacking chances against a kingside loosened by the f-pawn's departure. Black has to defend accurately and be ready to give the pawn back."
+  },
+  "1.d4 f5 2.f4 d5": {
+    "strategy": "Takes the centre and the e4 square, mirroring White's pawns: each side's pawns now control the square the other's e-pawn wants to reach. A quiet, manoeuvring game follows, in which neither side can open the centre without preparation.",
+    "name": "Bird's Opening: Double Duck Formation"
+  },
+  "1.d4 f5 2.g4 fxg4": {
+    "strategy": "Accepts the pawn. Taking gives up the f5 pawn's grip on e4, but White has no easy way to exploit that, and the extra pawn is worth keeping if Black meets the attempts to win it back with care."
+  },
+  "1.d4 f5 2.g4 e5": {
+    "strategy": "A counter-gambit that ignores the offered pawn and hits d4 instead. It leaves both Black pawns attacked, f5 by the g-pawn and e5 by the d-pawn, with neither defended, so Black pays for the surprise.",
+    "name": "Dutch Defence: Hevendehl Gambit"
+  },
+  "1.d4 f5 2.h3 Nf6": {
+    "strategy": "The natural reply: the knight develops to its usual Dutch square, guards e4 and adds a second attacker to g4, so White's plan of pushing the g-pawn is no longer free. Black keeps the choice of kingside set-up open."
+  },
+  "1.d4 f5 2.Qd3 e6": {
+    "strategy": "The soundest way to hold f5: the pawn chain keeps e4 under Black's control and frees the f8-bishop. Black heads for a solid set-up with a firm grip on e4, while White's queen on d3 can come to look misplaced."
+  },
+  "1.d4 f5 2.Qd3 g6": {
+    "strategy": "Defends f5 with a pawn from the side and prepares the bishop on g7, where it will press on the long diagonal and the d4-pawn. Black chooses the dynamic set-up; the price is a looser kingside, with fewer pawns in front of the king."
+  },
+  "1.d4 f5 2.Qd3 d5": {
+    "strategy": "Guards f5 with the bishop's diagonal and claims e4 with a second pawn, a firm centre built on solid foundations. The cost is the e5 square: no Black pawn guards it any more, so a White knight can settle there if Black is careless."
+  },
+  "1.d4 f5 2.Qd3 d6": {
+    "strategy": "Guards f5 indirectly by opening the c8-bishop's diagonal, and keeps an ...e5 break in reserve. It is a modest way to defend: the bishop is tied to the pawn, and Black does not yet fight for e4 with a second pawn."
   }
 }

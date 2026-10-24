@@ -1,0 +1,29 @@
+{
+  "about": "After 1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.f4 d5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.f4 d5",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.f4 d5 5.e5",
+      "moves": [
+        {
+          "san": "h5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.f4 d5 5.e5 h5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bukhuti_Gurgenidze"
+      ]
+    }
+  ]
+}

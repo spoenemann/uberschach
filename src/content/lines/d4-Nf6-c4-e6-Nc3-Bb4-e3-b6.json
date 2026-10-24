@@ -1,0 +1,59 @@
+{
+  "about": "After 1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 b6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 b6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nimzo-Indian_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Bd3",
+          "rating": 5
+        },
+        {
+          "san": "Ne2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 b6 5.Bd3",
+      "moves": [
+        {
+          "san": "Bb7",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 b6 5.Ne2",
+      "moves": [
+        {
+          "san": "Ba6",
+          "rating": 5
+        },
+        {
+          "san": "Ne4",
+          "rating": 4
+        },
+        {
+          "san": "c5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 b6 5.Ne2 Ba6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nimzo-Indian_Defence"
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 b6 5.Ne2 Ne4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nimzo-Indian_Defence"
+      ]
+    }
+  ]
+}

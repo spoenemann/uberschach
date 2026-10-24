@@ -384,19 +384,47 @@
       ]
     },
     {
-      "line": "1.e4 e6 2.Nc3"
+      "line": "1.e4 e6 2.Nc3",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        }
+      ]
     },
     {
-      "line": "1.e4 e6 2.Nf3"
+      "line": "1.e4 e6 2.Nf3",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "f5",
+          "rating": 2
+        }
+      ]
     },
     {
       "line": "1.e4 e6 2.Qe2"
     },
     {
-      "line": "1.e4 e6 2.c4"
+      "line": "1.e4 e6 2.c4",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        }
+      ]
     },
     {
-      "line": "1.e4 e6 2.b3"
+      "line": "1.e4 e6 2.b3",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        }
+      ]
     },
     {
       "line": "1.e4 e6 2.e5"
@@ -415,13 +443,25 @@
       "line": "1.e4 e6 2.f4",
       "sources": [
         "https://en.wikipedia.org/wiki/French_Defence"
+      ],
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        }
       ]
     },
     {
       "line": "1.e4 e6 2.g3"
     },
     {
-      "line": "1.e4 e6 2.b4"
+      "line": "1.e4 e6 2.b4",
+      "moves": [
+        {
+          "san": "Bxb4",
+          "rating": 4
+        }
+      ]
     },
     {
       "line": "1.e4 e6 2.c3"
@@ -520,12 +560,6 @@
       "line": "1.e4 e6 2.d4 Ne7"
     },
     {
-      "line": "1.e4 e6 2.d4 a6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/St._George_Defence"
-      ]
-    },
-    {
       "line": "1.e4 e6 2.d4 a5"
     },
     {
@@ -538,19 +572,10 @@
       "line": "1.e4 e6 2.d4 c6"
     },
     {
-      "line": "1.e4 e6 2.d4 c5"
-    },
-    {
       "line": "1.e4 e6 2.d4 d6"
     },
     {
-      "line": "1.e4 e6 2.d4 d5"
-    },
-    {
       "line": "1.e4 e6 2.d4 f6"
-    },
-    {
-      "line": "1.e4 e6 2.d4 f5"
     },
     {
       "line": "1.e4 e6 2.d4 g6"
@@ -566,9 +591,6 @@
     },
     {
       "line": "1.e4 e6 2.d4 e5"
-    },
-    {
-      "line": "1.e4 e6 2.d3 d5"
     },
     {
       "line": "1.e4 e6 2.d3 c5"
@@ -656,6 +678,9 @@
     },
     {
       "line": "1.e4 e6 2.d3 e5"
+    },
+    {
+      "line": "1.e4 e6 2.Nf3 f5"
     }
   ]
 }

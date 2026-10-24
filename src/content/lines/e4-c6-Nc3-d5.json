@@ -1,0 +1,57 @@
+{
+  "about": "After 1.e4 c6 2.Nc3 d5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 c6 2.Nc3 d5",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "Qf3",
+          "rating": 3
+        },
+        {
+          "san": "d3",
+          "rating": 3
+        },
+        {
+          "san": "h3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 d5 3.Nf3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Caro%E2%80%93Kann_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Bg4",
+          "rating": 5
+        },
+        {
+          "san": "dxe4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 d5 3.Qf3"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 d5 3.d3",
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 d5 3.h3"
+    }
+  ]
+}

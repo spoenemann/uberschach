@@ -75,13 +75,9 @@
     "strategy": "Opens the f8-bishop's diagonal and prepares ...d5, keeping every set-up open: Black can still choose between a classical centre and a set-up with a fianchettoed bishop. The cost is the c8-bishop, which the e6-pawn shuts in until ...b6 gives it the long diagonal."
   },
   "1.Nf3 Nf6 2.c4 g6": {
-    "name": "English Opening: Anglo-Indian Defence, King's Indian Formation",
-    "background": "Until the mid-1930s the King's Indian Defence was generally regarded as highly suspect, but the analysis and play of three Soviet players in particular, Alexander Konstantinopolsky, Isaac Boleslavsky and David Bronstein, helped to make it much more respected and popular.",
     "strategy": "Prepares ...Bg7 and quick castling, and leaves open whether Black strikes in the centre at once or builds up slowly. The cost is the centre: Black lets White occupy it first and relies on undermining it later with pawn breaks."
   },
   "1.Nf3 Nf6 2.c4 c5": {
-    "name": "English Opening: Symmetrical Variation",
-    "background": "The same position arises from 1.c4 c5 2.Nf3 Nf6. The Hedgehog Defence, a line of it, continues 3.g3 b6 4.Bg2 Bb7 5.Nc3 e6 6.O-O Be7 7.d4 cxd4 8.Qxd4 d6; the ideas behind the Hedgehog were originally developed in the English Opening, and it first became extensively analysed in the 1970s.",
     "strategy": "Controls d4, just as White's c-pawn controls d5, so White cannot take the centre for free. The cost is space: if White gets e4 in beside c4, Black's position is cramped and needs freeing breaks such as ...d5. The game is usually a manoeuvring fight over d4 and d5."
   },
   "1.Nf3 Nf6 2.c4 b6": {
@@ -90,7 +86,6 @@
     "strategy": "Prepares ...Bb7, which adds to the f6-knight's control of e4 and d5 and claims the long diagonal. Black puts no pawn in the centre yet and controls it from a distance, which leaves White the choice of structure."
   },
   "1.Nf3 Nf6 2.c4 d5": {
-    "name": "English Opening: Anglo-Indian Defence, Scandinavian Defence",
     "strategy": "Challenges c4 at once. If White takes on d5, Black's knight has moved twice while White builds a centre with pawns. It is sound, but White chooses the structure."
   },
   "1.Nf3 Nf6 2.c4 c6": {
@@ -147,12 +142,9 @@
     "strategy": "Hangs the knight: 3.cxd5 wins it outright, since the d7-pawn blocks the queen from recapturing and nothing else covers d5."
   },
   "1.Nf3 Nf6 2.g3 d5": {
-    "name": "King's Indian Attack",
-    "background": "Relatively uncommon at grandmaster level today, with Bassem Amin its most frequent high-level practitioner, but popular at club level for its repeatable middlegame plans. The trainer Mark Dvoretsky advocated the system and played it himself.",
     "strategy": "Claims the centre at once and keeps the c8-bishop free to develop outside the pawn chain. The cost is a committed d-pawn, which gives White a clear target for c4 and the plan of building up with d3 and e4. The game tends to be closed and strategic, with White setting the pace."
   },
   "1.Nf3 Nf6 2.g3 g6": {
-    "name": "King's Indian Attack: Symmetrical Defence",
     "strategy": "Mirrors White's kingside fianchetto: the bishop will watch the long diagonal and the king can castle early, while the centre stays open for later. If White takes space with c4 and d4, the game becomes a King's Indian or a Grünfeld with White's bishop on g2. The cost is a slower claim on the centre than ...d5 makes at once."
   },
   "1.Nf3 Nf6 2.g3 c5": {
@@ -282,5 +274,18 @@
   },
   "1.Nf3 Nf6 2.b3 Rg8": {
     "strategy": "Forfeits kingside castling and sends the rook to a closed file, achieving nothing in the centre or in development. White simply goes on developing while Black's king has lost its natural home."
+  },
+  "1.Nf3 Nf6 2.a4 g6": {
+    "strategy": "Ignores White's flank pawn move and prepares the kingside fianchetto, so the bishop on g7 will bear on the long diagonal. The advance of the a-pawn has done nothing for White's centre or development, so Black can develop at ease and keep every set-up open."
+  },
+  "1.Nf3 Nf6 2.b4 g6": {
+    "strategy": "Meets the flank advance with a plain fianchetto: the bishop on g7 will bear on the long diagonal that White's b-pawn has just left open. Black develops sensibly and lets White's early pawn advance prove itself, since the b4 pawn has no pawn support."
+  },
+  "1.Nf3 Nf6 2.Nc3 Nc6": {
+    "strategy": "Mirrors White's development and aims at the centre: the knight eyes d4 and e5 while Black keeps all pawn set-ups open. Quiet and flexible, it asks White to declare a plan, since neither side has yet committed to a structure.",
+    "name": "Zukertort Opening"
+  },
+  "1.Nf3 Nf6": {
+    "name": "Zukertort Opening"
   }
 }

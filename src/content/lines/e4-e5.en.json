@@ -51,7 +51,8 @@
     "strategy": "Gains queenside space and prepares Ra3, but spends a tempo on the rim while the centre and development wait. Black develops at leisure."
   },
   "1.e4 e5 2.b3": {
-    "strategy": "Prepares Bb2 against e5, but that pawn is easily defended, and the bishop does little else. Meanwhile Black hits e4 at once, so White loses time without improving the centre."
+    "strategy": "Prepares Bb2 against e5, but that pawn is easily defended, and the bishop does little else. Meanwhile Black hits e4 at once, so White loses time without improving the centre.",
+    "name": "King's Pawn Opening"
   },
   "1.e4 e5 2.c3": {
     "name": "King's Pawn Game: MacLeod Attack",
@@ -117,27 +118,18 @@
     "background": "The Open Games, which begin 1.e4 e5, include many of the oldest and most deeply analysed openings in chess. 1...e5 was the usual answer to 1.e4 for centuries, until the Sicilian Defence became slightly more popular among tournament players in the mid-twentieth century."
   },
   "1.e4 e5 2.Nf3 Nc6": {
-    "name": "King's Knight Opening: Normal Variation",
     "strategy": "The most natural reply: Black defends the attacked pawn and develops a piece in the same move, and the knight joins the fight for the centre. Black commits to nothing yet, and that is both the strength and the cost. Every set-up stays open, but White now decides what kind of game it becomes, from slow manoeuvring to sharp open play, and Black has to be at home in all of them."
   },
   "1.e4 e5 2.Nf3 Nf6": {
-    "name": "Petrov's Defence",
-    "background": "First popularised by the Russian player Alexander Petrov in the mid-nineteenth century; in recognition of the early investigations by Petrov and Carl Jaenisch it is also called the Russian Game, the predominant name in some countries. World champions Smyslov, Petrosian, Karpov and Kramnik have all adopted it.",
     "strategy": "Counterattacks e4 instead of defending e5, aiming for a solid, symmetrical position and sidestepping the main set-ups White would otherwise choose. Black must be careful, though: grabbing e4 at once after 3.Nxe5 is an error that leaves Black worse. The price is a drawish reputation and a large body of theory to learn."
   },
   "1.e4 e5 2.Nf3 d6": {
-    "name": "Philidor Defence",
-    "background": "Ruy López already recommended 2...d6 in his 1561 book, because 2...Nc6 allows the Ruy Lopez 3.Bb5, and the eighteenth-century master Philidor favoured it as an alternative to 2...Nc6. By the First World War it had almost completely vanished from top-level chess.",
     "strategy": "Defends e5 with a pawn and builds a compact, solid set-up, but a passive one: the f8-bishop is hemmed in and White usually gets more space with d4. Black must then choose between holding e5 and giving up the centre for piece play against e4. It is easy to understand and rarely seen at the top level."
   },
   "1.e4 e5 2.Nf3 Qe7": {
-    "name": "Gunderam Defence",
-    "background": "Gerhart Gunderam first played it in a 1958 correspondence game against August Babel, but International Master Hélder Câmara had played it four years earlier, in 1954, in the Brazilian Championship. Brazilian players took it up, so that it came to be called the Brazilian Defence.",
     "strategy": "Defends e5 with the queen, which blocks the f8-bishop and makes Black's development awkward. White develops freely with natural moves, while Black's plans of queenside castling or a later ...f5 cost time."
   },
   "1.e4 e5 2.Nf3 Qf6": {
-    "name": "Greco Defence",
-    "background": "Named after Gioachino Greco, who gave a line against it in 1620. It is also called the McConnell Defence, and Paul Morphy met it against McConnell in New Orleans in 1849.",
     "strategy": "Defends e5 but brings the queen out early and takes f6 from the knight on g8. White develops with tempo against the queen, for example with e5 or Nd5 later; the advantage is mainly one of smoother development."
   },
   "1.e4 e5 2.Nf3 Na6": {
@@ -147,8 +139,6 @@
     "strategy": "Defends e5 but blocks the d-pawn, and with it the c8-bishop, and invites 3.d4. After 3...exd4 4.Nxd4 White has the centre and a lead in development, and the bishop on d6 becomes a target for Nb5 and Nf5."
   },
   "1.e4 e5 2.Nf3 Bc5": {
-    "name": "Busch–Gass Gambit",
-    "background": "The Busch–Gass Gambit was something of an online fad in the early 2020s.",
     "strategy": "Develops with pressure on f2 and offers the e5-pawn. After 3.Nxe5 Nc6 4.Nf3 White is a pawn up with the knight safely back, and Black has only a small lead in development to show for it."
   },
   "1.e4 e5 2.Nf3 Bb4": {
@@ -175,13 +165,9 @@
     "strategy": "Does nothing for the attacked e5-pawn: the c-pawn move ignores the threat. After 3.Nxe5 d6 4.Nf3 White is simply a pawn up."
   },
   "1.e4 e5 2.Nf3 d5": {
-    "name": "Elephant Gambit",
-    "background": "Also known as the Queen's Pawn Countergambit and the Turkish Gambit, it is considered unsound. Games cited for it include Lob–Eliskases (German correspondence, 1929), which White won, and Bondarevsky–Lilienthal (USSR, 1941) and Tal–Lutikov (Tallinn, 1964), which gave White the advantage.",
     "strategy": "Strikes at e4 at the cost of a pawn: after 3.exd5 e4 4.Qe2 White keeps the extra pawn, and after 3.Nxe5 Black wins it back on e4 but White keeps the better game. Black can set traps but often ends up passive, with White holding the initiative and more space."
   },
   "1.e4 e5 2.Nf3 f5": {
-    "name": "Latvian Gambit",
-    "background": "Analysed by Giulio Cesare Polerio in the late sixteenth century, it came to be called the Greco Countergambit after Gioachino Greco. Its present name honours several Latvian players who analysed it, most prominently Kārlis Bētiņš.",
     "strategy": "Hits e4 at once and gives up the e-pawn after 3.Nxe5, aiming for open lines. The price is a loosened king, with the e8-h5 diagonal open to Qh5+, and with accurate play White keeps the better game."
   },
   "1.e4 e5 2.Nf3 g6": {
@@ -215,29 +201,21 @@
     "strategy": "Gives a pawn away for nothing: 3.Bxb5 takes it, the bishop then pins the d7-pawn, and e5 is still attacked by the knight."
   },
   "1.e4 e5 2.Nf3 f6": {
-    "name": "Damiano Defence",
-    "background": "Named after the Portuguese author Pedro Damiano, who in fact condemned the move as weak; in 1847 Staunton noted that it occurs in Damiano's old work. Chigorin played it against Schiffers at St Petersburg in 1897, and it is never seen in top-level play today.",
     "strategy": "Defends e5 with a pawn but exposes the king and takes f6 from the knight. After 3.Nxe5 fxe5 4.Qh5+ Ke7 5.Qxe5+ White is clearly winning, and declining with 3...Qe7 still leaves Black worse."
   },
   "1.e4 e5 2.Nf3 g5": {
     "strategy": "Loosens the kingside while e5 hangs: 3.Nxe5 wins a pawn, and h4 then attacks the advanced g-pawn as well."
   },
   "1.e4 e5 2.Bc4 Nf6": {
-    "name": "Bishop's Opening: Berlin Defence",
-    "background": "Ludwig Bledow and the Berlin Pleiades worked out this reply, which neutralised f2-f4 in view of the counterstroke ...d7-d5. It is Black's most common answer to the Bishop's Opening.",
     "strategy": "Develops a piece with an attack on e4, so White must decide at once how to defend the pawn, and Black gets active play early. The usual quiet defence lets Black develop comfortably, but White can still play f2-f4 later, a delayed King's Gambit, so Black has to stay alert."
   },
   "1.e4 e5 2.Bc4 Nc6": {
     "strategy": "Defends e5 with a developing move but puts no pressure on e4, so White is free to choose the kind of game: a calm, familiar development, or a pawn sacrifice with f2-f4 in King's Gambit style, which Black must be ready for."
   },
   "1.e4 e5 2.Bc4 Bc5": {
-    "name": "Bishop's Opening: Classical Variation",
-    "background": "Black's symmetrical reply, also called the Boi Variation, and after 2...Nf6 and 2...Nc6 the next most common answer to 2.Bc4.",
     "strategy": "Mirrors White's bishop and develops it with an eye on f2, a symmetrical and solid set-up. White can steer the game into other openings or prepare d4 with c3, and Black must be ready for a pawn offered for quick play."
   },
   "1.e4 e5 2.Bc4 c6": {
-    "name": "Bishop's Opening: Philidor Counterattack",
-    "background": "Playable but rarely seen. Black seems to do better by delaying the idea one move, with 2...Nf6 3.d3 c6, the Paulsen Defence.",
     "strategy": "Prepares ...d5 to gain a tempo on the bishop and build a broad pawn centre. It costs time: the pawn takes c6 from the b8-knight and leaves e5 without support, so White can strike first in the centre."
   },
   "1.e4 e5 2.Bc4 d6": {
@@ -280,7 +258,6 @@
     "strategy": "Prepares ...Bb7 against the e4-pawn, but White holds e4 easily, and the slow move leaves f7 and e5 exposed to Qh5."
   },
   "1.e4 e5 2.Bc4 b5": {
-    "name": "Bishop's Opening: Anderssen Gambit",
     "strategy": "Offers the b-pawn to draw the bishop off its diagonal, hoping for ...Bb7 against e4 and quick development. 3.Bxb5 simply takes it, and Black's compensation is too thin to justify the pawn."
   },
   "1.e4 e5 2.Bc4 c5": {
@@ -295,8 +272,6 @@
     "strategy": "Defends e5 but takes f6 from the g8-knight and opens the a2-g8 diagonal to the c4-bishop, which then hinders castling short. 3.Qh5+ forces ...g6 or ...Ke7 and leaves lasting holes around the king."
   },
   "1.e4 e5 2.Bc4 f5": {
-    "name": "Bishop's Opening: Calabrese Countergambit",
-    "background": "Named after Greco's homeland, Calabria. It is considered dubious: the line recommended by Carl Jaenisch, 3.d3 Nf6 4.f4 d6 5.Nf3, gives White the advantage.",
     "strategy": "Hits e4 with the f-pawn and goes for a counterattack, but it weakens the e8-h5 diagonal and the king's cover, so White keeps an edge."
   },
   "1.e4 e5 2.Bc4 g6": {
@@ -321,18 +296,12 @@
     "strategy": "Hangs the bishop: bxa3 or Nxa3 simply wins the piece, and Black gets nothing in return."
   },
   "1.e4 e5 2.Nc3 Nf6": {
-    "name": "Vienna Game: Falkbeer Variation",
-    "background": "Named after Ernst Falkbeer (1819–1885), the Austrian master and journalist who founded the Wiener Schachzeitung in 1855 and also gave his name to the Falkbeer Countergambit. It is the most common reply to the Vienna Game.",
     "strategy": "Develops a piece and attacks e4, which the c3 knight must keep guarding. It also prepares to answer an attack on the centre with ...d5, striking back at once instead of defending. Taking a gambit pawn on f4 would be a mistake, since the push to e5 drives the knight back."
   },
   "1.e4 e5 2.Nc3 Nc6": {
-    "name": "Vienna Game: Max Lange Defence",
-    "background": "Named after Max Lange (1832–1899), the German chess player, problem composer and organiser who also gave his name to the Max Lange Attack in the Two Knights Defence. Hooper and Whyld's Oxford Companion to Chess lists 2...Nc6 as the Max Lange Defence.",
     "strategy": "Develops the queen's knight and defends e5. With no knight on f6 for a push to e5 to hit, Black can accept a gambit pawn on f4, which leads to very sharp play. Otherwise the set-up is solid and flexible, and White chooses between quiet development and attack."
   },
   "1.e4 e5 2.Nc3 Bc5": {
-    "name": "Vienna Game: Anderssen Defence",
-    "background": "An offbeat but playable alternative to the main replies; the former world champion José Raúl Capablanca played it as Black against Ilya Kan at Moscow 1936.",
     "strategy": "Puts the bishop on the a7–g1 diagonal, where it eyes f2, and keeps Black's development flexible. It is offbeat but playable, and Black must watch e5: after Nf3, the natural ...Nc6 allows Nxe5 Nxe5 d4, forking bishop and knight."
   },
   "1.e4 e5 2.Nc3 Bb4": {
@@ -412,5 +381,92 @@
   },
   "1.e4 e5 2.Nc3 Ba3": {
     "strategy": "Hangs the bishop to 3.bxa3: no Black piece guards a3, and there is no compensation for the piece."
+  },
+  "1.e4 e5 2.Bb5 Bc5": {
+    "strategy": "A natural developing move: the bishop eyes f2 and the centre while White's bishop on b5 has little to aim at, since no black knight stands on c6 to be pinned. Black simply develops and is already the more comfortable side."
+  },
+  "1.e4 e5 2.Bb5 Nf6": {
+    "strategy": "Develops and attacks the e4 pawn at once, which White now has to defend. The b5-bishop has no black knight to pin and does little; Black develops normally and can make use of the bishop's early excursion later."
+  },
+  "1.e4 e5 2.c3 d5": {
+    "strategy": "The vigorous answer to a slow move: Black strikes at the centre before White has a piece out. After 3.exd5 Qxd5 the queen cannot be chased with Nc3, because the c3-pawn occupies that square, so Black recaptures with an active queen and a comfortable game."
+  },
+  "1.e4 e5 2.c3 f5": {
+    "strategy": "Hits e4 at once with the f-pawn, but it opens the e8-h5 diagonal in front of an undeveloped king, and 3.exf5 simply wins a pawn. Black has no lead in development to make up for it, so the gambit is more reckless than ambitious.",
+    "name": "King's Pawn Game: MacLeod Attack, Lasa Gambit"
+  },
+  "1.e4 e5 2.c4 d5": {
+    "strategy": "Attacks e4 at once, but the c4-pawn guards d5: 3.exd5 wins a pawn that Black cannot retake, since Qxd5 loses the queen to cxd5, and 3.cxd5 Qxd5 4.Nc3 chases the queen with a gain of time. Black pays for the centre thrust.",
+    "name": "King's Pawn Game: Bavarian Gambit"
+  },
+  "1.e4 e5 2.d3 Nf6": {
+    "strategy": "Develops a piece and pressures e4, which the d3-pawn has to keep defending. White's slow second move leaves Black free to claim the centre with the d-pawn next, so Black reaches easy equality with a sound, flexible set-up and no weaknesses."
+  },
+  "1.e4 e5 2.d3 d5": {
+    "strategy": "Claims the centre at once, before White has developed anything. White can trade pawns, and Black recaptures with an active game and an easy equality; the price is that a queen recapture in the middle can be hit by a developing move."
+  },
+  "1.e4 e5 2.d3 f5": {
+    "strategy": "Hits e4 with the f-pawn, but d3 already guards that pawn, so the attack achieves nothing. White simply takes with 3.exf5, wins a pawn, and Black has opened the e8-h5 diagonal in front of an undeveloped king.",
+    "name": "King's Pawn Game: Clam Variation, King's Gambit Reversed"
+  },
+  "1.e4 e5 2.d4 exd4": {
+    "strategy": "Takes the pawn and wins a pawn for the moment. White must open lines quickly to get compensation, so Black's task is to meet the lead in development calmly; a queen that recaptures early can be chased with tempo by developing moves."
+  },
+  "1.e4 e5 2.d4 d6": {
+    "strategy": "Defends e5 with a pawn at the price of a passive position: the pawn hems in the king's bishop, and White can swap queens by taking on e5, leaving Black's king uncastled. It is sound but cramped, and White keeps the initiative."
+  },
+  "1.e4 e5 2.d4 d5": {
+    "strategy": "Answers the centre thrust with one of its own but leaves e5 en prise: 3.dxe5 dxe4 4.Qxd8+ Kxd8 trades queens on White's terms, leaving Black's king in the middle without castling and White's e5-pawn cramping the position.",
+    "name": "King's Pawn Game: Beyer Gambit"
+  },
+  "1.e4 e5 2.f3 Nf6": {
+    "strategy": "Develops the knight and puts the e4 pawn under attack, a pawn that only the f3 pawn holds. White's second move has already taken f3 from the king's knight and weakened the diagonal to the king, so Black can simply develop and stand comfortably."
+  },
+  "1.e4 e5 2.f4 exf4": {
+    "strategy": "Takes the pawn, the most testing reply: White has to prove the gambit with a lead in development and pressure on f7, while Black has to hold the extra pawn without falling behind. Black can either keep the pawn or give it back to speed up development."
+  },
+  "1.e4 e5 2.f4 Bc5": {
+    "strategy": "Declines the pawn and develops with a point: the bishop controls g1, so White cannot castle short, and it makes the d4 advance costly. Black settles for a quieter, roughly level game and avoids the sharpest gambit play; White must spend time to drive the bishop away."
+  },
+  "1.e4 e5 2.f4 d5": {
+    "strategy": "Counterattacks the e4 pawn at once instead of taking or defending: Black wants quick development and an open centre, aiming at White's weakened kingside. Grabbing 3.fxe5 loses a rook to ...Qh4+ and ...Qxe4+."
+  },
+  "1.e4 e5 2.f4 Nc6": {
+    "strategy": "Develops a piece and guards e5, but takes no stand on the centre or the f4 pawn: Black declines without making a claim. White keeps the choice between sharp and quiet play, and the move is far more common among club players than in master games."
+  },
+  "1.e4 e5 2.f4 Nf6": {
+    "strategy": "Develops and hits e4, so taking on e5 is answered by ...Nxe4 and the pawns balance again. The simplifying lines that follow tend to leave White a small, safe edge in the endgame, which makes this a modest way to decline.",
+    "name": "King's Gambit Declined: Petrov's Defence",
+    "background": "The move was suggested by Petroff."
+  },
+  "1.e4 e5 2.f4 Qh4+": {
+    "strategy": "Checks at once, but the check is harmless: 3.g3 attacks the queen and also supports the f4 pawn, so the queen must retreat and Black has lost time for nothing. An early queen sortie gives White the lead in development."
+  },
+  "1.e4 e5 2.f4 Qf6": {
+    "strategy": "Brings the queen out early to win the f4 pawn, but takes the best square from the king's knight and invites an attack on the queen: after 3.Nc3 Qxf4 4.d4 the c1-bishop hits the queen while e5 is attacked too, and White gets a free centre."
+  },
+  "1.e4 e5 2.f4 f5": {
+    "strategy": "A countergambit that hits e4 but opens Black's own king: 3.exf5 threatens Qh5+, and Black has no development to show for the loosened kingside. Black fights for the centre in the wrong place."
+  },
+  "1.e4 e5 2.f4 f6": {
+    "strategy": "Defends e5 with a pawn but weakens the king and blocks the knight's best square. 3.fxe5 fxe5 4.Qh5+ forces the king to move (4...g6? 5.Qxe5+ wins the h8 rook), so Black loses a pawn and the right to castle."
+  },
+  "1.e4 e5 2.f4 g5": {
+    "strategy": "Gives up a pawn for nothing: 3.fxg5 simply wins it, and 3...Qxg5? runs into 4.d4, when the c1-bishop attacks the queen and e5 is attacked too. Black's kingside is wrecked without any return.",
+    "name": "King's Gambit Declined: Zilbermints Double Countergambit"
+  },
+  "1.e4 e5 2.Qe2 Nc6": {
+    "strategy": "A natural reply: the knight defends e5 and takes a good square, while the queen on e2 stands in front of White's own bishop. Black develops comfortably and White has to decide what to do with the queen's placement."
+  },
+  "1.e4 e5 2.Qg4 Nf6": {
+    "strategy": "Attacks the queen and develops a piece in the same move, so Black gains a tempo. The queen has to move again, so White spends two moves on it while nothing else is developed."
+  },
+  "1.e4 e5 2.Qh5 Nc6": {
+    "strategy": "The main reply: the knight defends the attacked e5-pawn with a developing move, and Black can meet the threat against f7 calmly. Black loses no material, and the queen's early excursion starts to cost White time."
+  },
+  "1.e4 e5 2.Qh5 Nf6": {
+    "strategy": "Attacks the queen and develops a piece, but leaves e5 undefended, so Qxe5+ wins a pawn with check. Black plays for a lead in development in return; it is playable but unnecessary, since the queen must lose time anyway.",
+    "name": "King's Pawn Game: Wayward Queen Attack, Kiddie Countergambit",
+    "background": "The chess automaton Mephisto, a puppet operated by a hidden master, played this line in 1881. How it came to be called the Kiddie Countergambit is not clear."
   }
 }

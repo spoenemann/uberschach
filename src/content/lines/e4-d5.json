@@ -254,18 +254,36 @@
       "line": "1.e4 d5 2.Nc3",
       "sources": [
         "https://en.wikipedia.org/wiki/Dunst_Opening"
+      ],
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 4
+        }
       ]
     },
     {
       "line": "1.e4 d5 2.d4",
       "sources": [
         "https://en.wikipedia.org/wiki/Blackmar%E2%80%93Diemer_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 4
+        }
       ]
     },
     {
       "line": "1.e4 d5 2.Nf3",
       "sources": [
         "https://en.wikipedia.org/wiki/Tennison_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 5
+        }
       ]
     },
     {
@@ -281,7 +299,13 @@
       "line": "1.e4 d5 2.d3"
     },
     {
-      "line": "1.e4 d5 2.f3"
+      "line": "1.e4 d5 2.f3",
+      "moves": [
+        {
+          "san": "g6",
+          "rating": 3
+        }
+      ]
     },
     {
       "line": "1.e4 d5 2.Qe2"
@@ -308,13 +332,25 @@
       "line": "1.e4 d5 2.b4"
     },
     {
-      "line": "1.e4 d5 2.f4"
+      "line": "1.e4 d5 2.f4",
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 5
+        }
+      ]
     },
     {
       "line": "1.e4 d5 2.g3"
     },
     {
-      "line": "1.e4 d5 2.g4"
+      "line": "1.e4 d5 2.g4",
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 4
+        }
+      ]
     },
     {
       "line": "1.e4 d5 2.h3"
@@ -380,22 +416,10 @@
       "line": "1.e4 d5 2.exd5 Qd6"
     },
     {
-      "line": "1.e4 d5 2.exd5 Qxd5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Scandinavian_Defense"
-      ]
-    },
-    {
       "line": "1.e4 d5 2.exd5 Kd7"
     },
     {
       "line": "1.e4 d5 2.exd5 Nh6"
-    },
-    {
-      "line": "1.e4 d5 2.exd5 Nf6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Scandinavian_Defense"
-      ]
     },
     {
       "line": "1.e4 d5 2.exd5 a6"
@@ -410,19 +434,10 @@
       "line": "1.e4 d5 2.exd5 b5"
     },
     {
-      "line": "1.e4 d5 2.exd5 c6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Scandinavian_Defense"
-      ]
-    },
-    {
       "line": "1.e4 d5 2.exd5 c5"
     },
     {
       "line": "1.e4 d5 2.exd5 e6"
-    },
-    {
-      "line": "1.e4 d5 2.exd5 e5"
     },
     {
       "line": "1.e4 d5 2.exd5 f6"

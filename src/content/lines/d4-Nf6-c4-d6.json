@@ -1,0 +1,72 @@
+{
+  "about": "After 1.d4 Nf6 2.c4 d6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.d4 Nf6 2.c4 d6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Old_Indian_Defence",
+        "https://en.wikipedia.org/wiki/Indian_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "g4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        },
+        {
+          "san": "Bf5",
+          "rating": 4
+        },
+        {
+          "san": "Nbd7",
+          "rating": 4
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nf3",
+      "moves": [
+        {
+          "san": "Bg4",
+          "rating": 4
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.g4"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 c6"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nf3 Bg4"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nf3 c6"
+    }
+  ]
+}

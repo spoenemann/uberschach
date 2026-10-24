@@ -1,0 +1,70 @@
+{
+  "about": "After 1.d4 d5 2.c4 Nc6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.d4 d5 2.c4 Nc6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chigorin_Defense"
+      ],
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        },
+        {
+          "san": "cxd5",
+          "rating": 4
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Nc6 3.Nc3",
+      "moves": [
+        {
+          "san": "dxc4",
+          "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 3
+        },
+        {
+          "san": "e5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Nc6 3.cxd5",
+      "moves": [
+        {
+          "san": "Qxd5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Nc6 3.Nf3",
+      "moves": [
+        {
+          "san": "Bg4",
+          "rating": 5
+        },
+        {
+          "san": "e5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Nc6 3.Nc3 e5"
+    },
+    {
+      "line": "1.d4 d5 2.c4 Nc6 3.Nf3 e5"
+    }
+  ]
+}

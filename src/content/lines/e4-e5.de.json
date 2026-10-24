@@ -51,7 +51,8 @@
     "strategy": "Gewinnt Raum am Damenflügel und bereitet Ta3 vor, verbraucht aber ein Tempo am Rand, während Zentrum und Entwicklung warten. Schwarz entwickelt sich in Ruhe."
   },
   "1.e4 e5 2.b3": {
-    "strategy": "Bereitet Lb2 gegen e5 vor, doch dieser Bauer lässt sich leicht decken, und der Läufer bewirkt sonst wenig. Unterdessen greift Schwarz sofort e4 an, sodass Weiß Zeit verliert, ohne das Zentrum zu stärken."
+    "strategy": "Bereitet Lb2 gegen e5 vor, doch dieser Bauer lässt sich leicht decken, und der Läufer bewirkt sonst wenig. Unterdessen greift Schwarz sofort e4 an, sodass Weiß Zeit verliert, ohne das Zentrum zu stärken.",
+    "name": "Königsbauerneröffnung"
   },
   "1.e4 e5 2.c3": {
     "name": "Königsbauernspiel: MacLeod-Angriff",
@@ -117,27 +118,18 @@
     "background": "Zu den Offenen Spielen, die mit 1.e4 e5 beginnen, gehören viele der ältesten und am gründlichsten analysierten Eröffnungen. 1...e5 war jahrhundertelang die übliche Antwort auf 1.e4, bis Mitte des 20. Jahrhunderts die Sizilianische Verteidigung bei Turnierspielern etwas beliebter wurde."
   },
   "1.e4 e5 2.Nf3 Nc6": {
-    "name": "Königsspringerspiel: Normalvariante",
     "strategy": "Der natürlichste Zug: Schwarz deckt den angegriffenen Bauern und entwickelt im selben Zug eine Figur, und der Springer greift in den Kampf ums Zentrum ein. Schwarz legt sich noch auf nichts fest, und das ist Stärke und Preis zugleich. Jeder Aufbau bleibt offen, doch Weiß bestimmt nun, welche Art von Partie entsteht, vom langsamen Manövrieren bis zum scharfen, offenen Spiel, und Schwarz muss in allen zu Hause sein."
   },
   "1.e4 e5 2.Nf3 Nf6": {
-    "name": "Russische Verteidigung",
-    "background": "Zuerst populär gemacht hat sie Mitte des 19. Jahrhunderts der russische Spieler Alexander Petrow, nach dem sie auch Petrow-Verteidigung heißt; der Name Russische Verteidigung würdigt die frühen Untersuchungen von Petrow und Carl Jaenisch und ist in manchen Ländern der vorherrschende. Die Weltmeister Smyslow, Petrosjan, Karpow und Kramnik haben sie alle gespielt.",
     "strategy": "Greift e4 an, statt e5 zu decken, strebt eine solide, symmetrische Stellung an und weicht den Hauptaufbauten aus, die Weiß sonst wählen würde. Schwarz muss aber aufpassen: Sofort auf e4 zu schlagen, wenn Weiß 3.Sxe5 spielt, ist ein Fehler, nach dem Schwarz schlechter steht. Der Preis sind ein remislastiger Ruf und viel Theorie, die man lernen muss."
   },
   "1.e4 e5 2.Nf3 d6": {
-    "name": "Philidor-Verteidigung",
-    "background": "Schon Ruy López empfahl 2...d6 in seinem Buch von 1561, weil 2...Sc6 die Spanische Partie mit 3.Lb5 zulässt, und der Meister Philidor im 18. Jahrhundert bevorzugte den Zug als Alternative zu 2...Sc6. Bis zum Ersten Weltkrieg war die Eröffnung aus dem Spitzenschach fast vollständig verschwunden.",
     "strategy": "Deckt e5 mit einem Bauern und errichtet einen kompakten, soliden Aufbau, aber einen passiven: Der Läufer auf f8 ist eingeengt, und Weiß erhält mit d4 meist mehr Raum. Schwarz muss dann wählen, ob er e5 hält oder das Zentrum für Figurenspiel gegen e4 aufgibt. Der Aufbau ist leicht zu verstehen und auf höchster Ebene selten zu sehen."
   },
   "1.e4 e5 2.Nf3 Qe7": {
-    "name": "Gunderam-Verteidigung",
-    "background": "Gerhart Gunderam spielte sie erstmals 1958 in einer Fernpartie gegen August Babel, doch der Internationale Meister Hélder Câmara hatte sie schon vier Jahre früher, 1954, in der brasilianischen Meisterschaft gespielt. Brasilianische Spieler griffen sie auf, sodass sie den Namen Brasilianische Verteidigung erhielt.",
     "strategy": "Deckt e5 mit der Dame, die den Läufer auf f8 blockiert und die schwarze Entwicklung umständlich macht. Weiß entwickelt sich ungehindert mit natürlichen Zügen, während die schwarzen Pläne einer langen Rochade oder eines späteren ...f5 Zeit kosten."
   },
   "1.e4 e5 2.Nf3 Qf6": {
-    "name": "Greco-Verteidigung",
-    "background": "Benannt nach Gioachino Greco, der 1620 eine Variante dagegen angab. Sie heißt auch McConnell-Verteidigung, und Paul Morphy traf 1849 in New Orleans gegen McConnell auf sie.",
     "strategy": "Deckt e5, bringt aber die Dame früh ins Spiel und nimmt dem Springer auf g8 das Feld f6. Weiß entwickelt sich mit Tempo gegen die Dame, später etwa mit e5 oder Sd5; der Vorteil liegt vor allem in der glatteren Entwicklung."
   },
   "1.e4 e5 2.Nf3 Na6": {
@@ -147,8 +139,6 @@
     "strategy": "Deckt e5, blockiert aber den d-Bauern und damit den Läufer auf c8 und lädt zu 3.d4 ein. Nach 3...exd4 4.Sxd4 beherrscht Weiß das Zentrum und ist in der Entwicklung voraus, und der Läufer auf d6 wird zum Ziel für Sb5 und Sf5."
   },
   "1.e4 e5 2.Nf3 Bc5": {
-    "name": "Busch-Gass-Gambit",
-    "background": "Das Busch-Gass-Gambit war Anfang der 2020er-Jahre eine Art Online-Modeerscheinung.",
     "strategy": "Entwickelt mit Druck auf f2 und bietet den Bauern e5 an. Nach 3.Sxe5 Sc6 4.Sf3 hat Weiß einen Bauern mehr, der Springer steht wieder sicher, und Schwarz hat dafür nur einen kleinen Entwicklungsvorsprung."
   },
   "1.e4 e5 2.Nf3 Bb4": {
@@ -175,13 +165,9 @@
     "strategy": "Tut nichts für den angegriffenen Bauern e5: der Zug des c-Bauern ignoriert die Drohung. Nach 3.Sxe5 d6 4.Sf3 hat Weiß schlicht einen Bauern mehr."
   },
   "1.e4 e5 2.Nf3 d5": {
-    "name": "Mittelgambit im Nachzug",
-    "background": "Auch Elefantengambit, Damenbauern-Gegengambit oder Türkisches Gambit genannt, gilt es als inkorrekt. Zu den dafür angeführten Partien gehören Lob–Eliskases (deutsches Fernschach, 1929), die Weiß gewann, sowie Bondarewski–Lilienthal (UdSSR, 1941) und Tal–Lutikow (Tallinn, 1964), die Weiß den Vorteil brachten.",
     "strategy": "Greift e4 um den Preis eines Bauern an: Nach 3.exd5 e4 4.De2 behält Weiß den Mehrbauern, und nach 3.Sxe5 gewinnt Schwarz ihn auf e4 zurück, doch Weiß behält das bessere Spiel. Schwarz kann Fallen stellen, gerät aber oft in eine passive Stellung, in der Weiß die Initiative und mehr Raum hat."
   },
   "1.e4 e5 2.Nf3 f5": {
-    "name": "Lettisches Gambit",
-    "background": "Von Giulio Cesare Polerio im späten 16. Jahrhundert analysiert, wurde es nach Gioachino Greco als Greco-Gegengambit bekannt. Sein heutiger Name ehrt mehrere lettische Spieler, die es analysierten, allen voran Kārlis Bētiņš.",
     "strategy": "Greift sofort e4 an und gibt nach 3.Sxe5 den e-Bauern her, um Linien zu öffnen. Der Preis ist ein gelockerter König, dessen Diagonale e8-h5 für Dh5+ offen liegt, und bei genauem Spiel behält Weiß das bessere Spiel."
   },
   "1.e4 e5 2.Nf3 g6": {
@@ -215,29 +201,21 @@
     "strategy": "Gibt einen Bauern umsonst her: 3.Lxb5 schlägt ihn, der Läufer fesselt dann den Bauern d7, und e5 bleibt vom Springer angegriffen."
   },
   "1.e4 e5 2.Nf3 f6": {
-    "name": "Damianos Verteidigung",
-    "background": "Benannt nach dem portugiesischen Autor Pedro Damiano, der den Zug in Wahrheit als schwach verwarf; 1847 vermerkte Staunton, dass er in Damianos altem Werk vorkommt. Tschigorin spielte ihn 1897 in St. Petersburg gegen Schiffers, und im Spitzenschach kommt er heute nie vor.",
     "strategy": "Deckt e5 mit einem Bauern, entblößt aber den König und nimmt dem Springer das Feld f6. Nach 3.Sxe5 fxe5 4.Dh5+ Ke7 5.Dxe5+ steht Weiß klar auf Gewinn, und auch mit 3...De7 statt des Schlagens steht Schwarz schlechter."
   },
   "1.e4 e5 2.Nf3 g5": {
     "strategy": "Lockert den Königsflügel, während e5 hängt: 3.Sxe5 gewinnt einen Bauern, und h4 greift danach auch den vorgerückten g-Bauern an."
   },
   "1.e4 e5 2.Bc4 Nf6": {
-    "name": "Läuferspiel: Berliner Verteidigung",
-    "background": "Ludwig Bledow und die Berliner Plejaden arbeiteten diese Erwiderung aus, die f2-f4 wegen des Gegenstoßes ...d7-d5 entschärfte. Sie ist die häufigste Antwort von Schwarz auf das Läuferspiel.",
     "strategy": "Entwickelt eine Figur mit Angriff auf e4, sodass Weiß sofort entscheiden muss, wie er den Bauern verteidigt, und Schwarz früh aktiv wird. Die übliche ruhige Verteidigung lässt Schwarz bequem entwickeln, doch Weiß kann später noch f2-f4 spielen, ein verzögertes Königsgambit, sodass Schwarz wachsam bleiben muss."
   },
   "1.e4 e5 2.Bc4 Nc6": {
     "strategy": "Deckt e5 mit einem Entwicklungszug, übt aber keinen Druck auf e4 aus, sodass Weiß die Art der Partie wählen kann: eine ruhige, vertraute Entwicklung oder ein Bauernopfer mit f2-f4 im Stil des Königsgambits, auf das Schwarz gefasst sein muss."
   },
   "1.e4 e5 2.Bc4 Bc5": {
-    "name": "Läuferspiel: Klassische Variante",
-    "background": "Die symmetrische Antwort von Schwarz, auch Boi-Variante genannt, und nach 2...Sf6 und 2...Sc6 die nächsthäufige Erwiderung auf 2.Lc4.",
     "strategy": "Spiegelt den weißen Läufer und entwickelt den eigenen mit Blick auf f2, ein symmetrischer und solider Aufbau. Weiß kann das Spiel in andere Eröffnungen lenken oder mit c3 den Vorstoß d4 vorbereiten, und Schwarz muss auf ein Bauernopfer für schnelles Spiel gefasst sein."
   },
   "1.e4 e5 2.Bc4 c6": {
-    "name": "Läuferspiel: Philidor-Gegenangriff",
-    "background": "Spielbar, aber selten zu sehen. Schwarz scheint besser zu fahren, wenn er die Idee um einen Zug verschiebt, mit 2...Sf6 3.d3 c6, der Paulsen-Verteidigung.",
     "strategy": "Bereitet ...d5 vor, um mit Tempogewinn gegen den Läufer ein breites Bauernzentrum aufzubauen. Das kostet Zeit: Der Bauer nimmt dem Springer b8 das Feld c6 und lässt e5 ohne Stütze, sodass Weiß im Zentrum zuerst zuschlagen kann."
   },
   "1.e4 e5 2.Bc4 d6": {
@@ -280,7 +258,6 @@
     "strategy": "Bereitet ...Lb7 gegen den Bauern e4 vor, doch Weiß hält ihn mühelos, und der langsame Zug lässt f7 und e5 gegen Dh5 ungeschützt."
   },
   "1.e4 e5 2.Bc4 b5": {
-    "name": "Läuferspiel: Anderssen-Gambit",
     "strategy": "Bietet den b-Bauern an, um den Läufer von seiner Diagonale wegzulocken, in der Hoffnung auf ...Lb7 gegen e4 und schnelle Entwicklung. 3.Lxb5 nimmt ihn einfach, und die Kompensation von Schwarz ist zu dünn, um den Bauern zu rechtfertigen."
   },
   "1.e4 e5 2.Bc4 c5": {
@@ -295,8 +272,6 @@
     "strategy": "Deckt e5, nimmt aber dem Springer g8 das Feld f6 und öffnet dem Läufer c4 die Diagonale a2-g8, sodass die kurze Rochade erschwert ist. 3.Dh5+ erzwingt ...g6 oder ...Ke7 und hinterlässt bleibende Löcher um den König."
   },
   "1.e4 e5 2.Bc4 f5": {
-    "name": "Läuferspiel: Kalabrisches Gegengambit",
-    "background": "Benannt nach Grecos Heimat Kalabrien. Es gilt als zweifelhaft: Die von Carl Jänisch empfohlene Fortsetzung 3.d3 Sf6 4.f4 d6 5.Sf3 verschafft Weiß den Vorteil.",
     "strategy": "Greift e4 mit dem f-Bauern an und sucht den Gegenangriff, schwächt aber die Diagonale e8-h5 und die Deckung des Königs, sodass Weiß im Vorteil bleibt."
   },
   "1.e4 e5 2.Bc4 g6": {
@@ -321,18 +296,12 @@
     "strategy": "Stellt den Läufer ein: bxa3 oder Sxa3 gewinnt einfach die Figur, und Schwarz erhält nichts dafür."
   },
   "1.e4 e5 2.Nc3 Nf6": {
-    "name": "Wiener Partie: Falkbeer-Variante",
-    "background": "Benannt nach Ernst Falkbeer (1819–1885), dem österreichischen Schachmeister und Journalisten, der 1855 die Wiener Schachzeitung gründete und auch dem Falkbeer-Gegengambit seinen Namen gab. Sie ist die häufigste Antwort auf die Wiener Partie.",
     "strategy": "Entwickelt eine Figur und greift e4 an, das der Springer c3 weiter decken muss. Außerdem bereitet der Zug vor, einen Angriff auf das Zentrum mit ...d5 zu beantworten und sofort zurückzuschlagen, statt zu verteidigen. Einen Gambitbauern auf f4 zu nehmen wäre ein Fehler, denn der Vorstoß nach e5 treibt den Springer zurück."
   },
   "1.e4 e5 2.Nc3 Nc6": {
-    "name": "Wiener Partie: Max-Lange-Verteidigung",
-    "background": "Benannt nach Max Lange (1832–1899), dem deutschen Schachspieler, Problemkomponisten und Organisator, nach dem auch der Max-Lange-Angriff im Zweispringerspiel im Nachzuge benannt ist. Hooper und Whyld führen 2...Sc6 in ihrem Oxford Companion to Chess als Max-Lange-Verteidigung.",
     "strategy": "Entwickelt den Damenspringer und deckt e5. Da kein Springer auf f6 steht, den ein Vorstoß nach e5 träfe, kann Schwarz einen Gambitbauern auf f4 annehmen, was zu sehr scharfem Spiel führt. Sonst ist der Aufbau solide und flexibel, und Weiß wählt zwischen ruhiger Entwicklung und Angriff."
   },
   "1.e4 e5 2.Nc3 Bc5": {
-    "name": "Wiener Partie: Anderssen-Verteidigung",
-    "background": "Eine ausgefallene, aber spielbare Alternative zu den Hauptantworten; der frühere Weltmeister José Raúl Capablanca spielte sie 1936 in Moskau mit Schwarz gegen Ilja Kan.",
     "strategy": "Stellt den Läufer auf die Diagonale a7–g1, wo er auf f2 zielt, und hält die Entwicklung von Schwarz flexibel. Der Zug ist ungewöhnlich, aber spielbar, und Schwarz muss auf e5 achten: Nach Sf3 erlaubt das natürliche ...Sc6 den Zug Sxe5 Sxe5 d4, der Läufer und Springer gabelt."
   },
   "1.e4 e5 2.Nc3 Bb4": {
@@ -412,5 +381,92 @@
   },
   "1.e4 e5 2.Nc3 Ba3": {
     "strategy": "Stellt den Läufer gegen 3.bxa3 ein: Keine schwarze Figur deckt a3, und für die Figur gibt es keine Kompensation."
+  },
+  "1.e4 e5 2.Bb5 Bc5": {
+    "strategy": "Ein natürlicher Entwicklungszug: Der Läufer zielt auf f2 und das Zentrum, während der weiße Läufer auf b5 wenig anzugreifen hat, da kein schwarzer Springer auf c6 steht, den er fesseln könnte. Schwarz entwickelt sich einfach und steht bereits bequemer."
+  },
+  "1.e4 e5 2.Bb5 Nf6": {
+    "strategy": "Entwickelt und greift sofort den Bauern auf e4 an, den Weiß nun verteidigen muss. Der Läufer auf b5 hat keinen schwarzen Springer zu fesseln und bewirkt wenig; Schwarz entwickelt sich normal und kann den frühen Ausflug des Läufers später ausnutzen."
+  },
+  "1.e4 e5 2.c3 d5": {
+    "strategy": "Die energische Antwort auf einen langsamen Zug: Schwarz greift das Zentrum an, bevor Weiß eine Figur entwickelt hat. Nach 3.exd5 Dxd5 lässt sich die Dame nicht mit Sc3 vertreiben, weil der c3-Bauer dieses Feld besetzt. So schlägt Schwarz mit aktiver Dame zurück und steht bequem."
+  },
+  "1.e4 e5 2.c3 f5": {
+    "strategy": "Greift e4 sofort mit dem f-Bauern an, öffnet aber die Diagonale e8-h5 vor einem unentwickelten König, und 3.exf5 gewinnt schlicht einen Bauern. Schwarz hat keinen Entwicklungsvorsprung als Ausgleich, das Gambit ist daher eher leichtsinnig als ehrgeizig.",
+    "name": "Königsbauernspiel: MacLeod-Angriff, Lasa-Gambit"
+  },
+  "1.e4 e5 2.c4 d5": {
+    "strategy": "Greift e4 sofort an, doch der c4-Bauer deckt d5: 3.exd5 gewinnt einen Bauern, den Schwarz nicht zurückholen kann, denn Dxd5 verliert die Dame an cxd5, und nach 3.cxd5 Dxd5 4.Sc3 wird die Dame mit Tempogewinn vertrieben. Schwarz bezahlt für den Zentrumsvorstoß.",
+    "name": "Königsbauernspiel: Bayerisches Gambit"
+  },
+  "1.e4 e5 2.d3 Nf6": {
+    "strategy": "Entwickelt eine Figur und übt Druck auf e4 aus, das der d3-Bauer weiter decken muss. Der langsame zweite Zug von Weiß lässt Schwarz Zeit, als Nächstes mit dem d-Bauern das Zentrum zu besetzen. So erreicht Schwarz mit einem soliden, flexiblen Aufbau und ohne Schwächen leicht Ausgleich."
+  },
+  "1.e4 e5 2.d3 d5": {
+    "strategy": "Besetzt sofort das Zentrum, bevor Weiß etwas entwickelt hat. Weiß kann die Bauern tauschen, und Schwarz schlägt mit aktivem Spiel und leichtem Ausgleich zurück; der Preis ist, dass eine Damenrücknahme in der Mitte mit einem Entwicklungszug angegriffen werden kann."
+  },
+  "1.e4 e5 2.d3 f5": {
+    "strategy": "Greift e4 mit dem f-Bauern an, doch d3 deckt diesen Bauern bereits, der Angriff erreicht also nichts. Weiß nimmt einfach mit 3.exf5, gewinnt einen Bauern, und Schwarz hat die Diagonale e8-h5 vor einem unentwickelten König geöffnet.",
+    "name": "Königsbauernspiel: Muschel-Variante, Königsgambit mit vertauschten Farben"
+  },
+  "1.e4 e5 2.d4 exd4": {
+    "strategy": "Nimmt den Bauern und gewinnt vorerst einen Bauern. Weiß muss schnell Linien öffnen, um Kompensation zu erhalten, daher besteht die Aufgabe von Schwarz darin, dem Entwicklungsvorsprung ruhig zu begegnen; eine früh zurückschlagende Dame kann mit Entwicklungszügen unter Tempogewinn vertrieben werden."
+  },
+  "1.e4 e5 2.d4 d6": {
+    "strategy": "Deckt e5 mit einem Bauern, um den Preis einer passiven Stellung: Der Bauer sperrt den Königsläufer ein, und Weiß kann durch Schlagen auf e5 die Damen tauschen, wodurch der schwarze König unrochiert bleibt. Der Zug ist solide, aber beengt, und Weiß behält die Initiative."
+  },
+  "1.e4 e5 2.d4 d5": {
+    "strategy": "Beantwortet den Zentrumsvorstoß mit einem eigenen, lässt aber e5 im Stich: 3.dxe5 dxe4 4.Dxd8+ Kxd8 tauscht die Damen zu den Bedingungen von Weiß, lässt den schwarzen König ohne Rochade in der Mitte zurück, und der e5-Bauer von Weiß engt die Stellung ein.",
+    "name": "Königsbauernspiel: Beyer-Gambit"
+  },
+  "1.e4 e5 2.f3 Nf6": {
+    "strategy": "Entwickelt den Springer und greift den Bauern e4 an, den nur der Bauer f3 hält. Der zweite Zug von Weiß hat dem Königsspringer bereits das Feld f3 genommen und die Diagonale zum König geschwächt, sodass Schwarz sich einfach entwickeln und bequem stehen kann."
+  },
+  "1.e4 e5 2.f4 exf4": {
+    "strategy": "Schlägt den Bauern, die anspruchsvollste Antwort: Weiß muss das Gambit mit einem Entwicklungsvorsprung und Druck auf f7 rechtfertigen, während Schwarz den Mehrbauern halten muss, ohne zurückzufallen. Schwarz kann den Bauern entweder behalten oder zurückgeben, um die Entwicklung zu beschleunigen."
+  },
+  "1.e4 e5 2.f4 Bc5": {
+    "strategy": "Lehnt den Bauern ab und entwickelt sich mit Pointe: Der Läufer kontrolliert g1, sodass Weiß nicht kurz rochieren kann, und macht den Vorstoß d4 teuer. Schwarz begnügt sich mit einem ruhigeren, ungefähr ausgeglichenen Spiel und weicht dem schärfsten Gambitspiel aus; Weiß muss Zeit aufwenden, um den Läufer zu vertreiben."
+  },
+  "1.e4 e5 2.f4 d5": {
+    "strategy": "Greift den Bauern e4 sofort an, statt zu schlagen oder zu decken: Schwarz will schnelle Entwicklung und ein offenes Zentrum und zielt auf die geschwächte Königsseite von Weiß. Das gierige 3.fxe5 verliert durch ...Dh4+ und ...Dxe4+ einen Turm."
+  },
+  "1.e4 e5 2.f4 Nc6": {
+    "strategy": "Entwickelt eine Figur und deckt e5, bezieht aber keine Stellung zum Zentrum oder zum Bauern f4: Schwarz lehnt ab, ohne einen Anspruch zu erheben. Weiß behält die Wahl zwischen scharfem und ruhigem Spiel, und der Zug ist bei Vereinsspielern weit häufiger als in Meisterpartien."
+  },
+  "1.e4 e5 2.f4 Nf6": {
+    "strategy": "Entwickelt sich und greift e4 an, sodass auf das Schlagen auf e5 ...Sxe4 folgt und die Bauern wieder im Gleichgewicht sind. Die vereinfachenden Varianten, die folgen, lassen Weiß im Endspiel meist einen kleinen, sicheren Vorteil, was dies zu einer bescheidenen Art der Ablehnung macht.",
+    "name": "Abgelehntes Königsgambit: Russische Verteidigung",
+    "background": "Der Zug wurde von Petroff vorgeschlagen."
+  },
+  "1.e4 e5 2.f4 Qh4+": {
+    "strategy": "Gibt sofort Schach, doch das Schach ist harmlos: 3.g3 greift die Dame an und stützt zugleich den Bauern f4, sodass die Dame zurückweichen muss und Schwarz Zeit umsonst verloren hat. Ein früher Damenausflug gibt Weiß den Entwicklungsvorsprung."
+  },
+  "1.e4 e5 2.f4 Qf6": {
+    "strategy": "Bringt die Dame früh heraus, um den Bauern f4 zu gewinnen, nimmt aber dem Königsspringer das beste Feld und lädt zu einem Angriff auf die Dame ein: Nach 3.Sc3 Dxf4 4.d4 greift der Läufer c1 die Dame an, während auch e5 angegriffen ist, und Weiß erhält ein freies Zentrum."
+  },
+  "1.e4 e5 2.f4 f5": {
+    "strategy": "Ein Gegengambit, das e4 angreift, aber den eigenen König von Schwarz öffnet: 3.exf5 droht Dh5+, und Schwarz hat für die gelockerte Königsseite keine Entwicklung vorzuweisen. Schwarz kämpft am falschen Ort um das Zentrum."
+  },
+  "1.e4 e5 2.f4 f6": {
+    "strategy": "Deckt e5 mit einem Bauern, schwächt aber den König und blockiert das beste Feld des Springers. Nach 3.fxe5 fxe5 4.Dh5+ muss der König ziehen (4...g6? 5.Dxe5+ gewinnt den Turm h8), sodass Schwarz einen Bauern und das Rochaderecht verliert."
+  },
+  "1.e4 e5 2.f4 g5": {
+    "strategy": "Gibt einen Bauern umsonst her: 3.fxg5 gewinnt ihn einfach, und 3...Dxg5? läuft in 4.d4, worauf der Läufer c1 die Dame angreift und auch e5 angegriffen ist. Die Königsseite von Schwarz ist ohne jede Gegenleistung zerstört.",
+    "name": "Abgelehntes Königsgambit: Zilbermints-Doppelgegengambit"
+  },
+  "1.e4 e5 2.Qe2 Nc6": {
+    "strategy": "Eine natürliche Antwort: Der Springer verteidigt e5 und besetzt ein gutes Feld, während die Dame auf e2 vor dem eigenen Läufer von Weiß steht. Schwarz entwickelt sich bequem, und Weiß muss entscheiden, was er mit dem Standort der Dame anfängt."
+  },
+  "1.e4 e5 2.Qg4 Nf6": {
+    "strategy": "Greift die Dame an und entwickelt zugleich eine Figur, sodass Schwarz ein Tempo gewinnt. Die Dame muss erneut ziehen, Weiß verbraucht also zwei Züge für sie, während sonst nichts entwickelt ist."
+  },
+  "1.e4 e5 2.Qh5 Nc6": {
+    "strategy": "Die Hauptantwort: Der Springer verteidigt den angegriffenen Bauern e5 mit einem Entwicklungszug, und Schwarz kann der Drohung gegen f7 gelassen begegnen. Schwarz verliert kein Material, und der frühe Ausflug der Dame beginnt Weiß Zeit zu kosten."
+  },
+  "1.e4 e5 2.Qh5 Nf6": {
+    "strategy": "Greift die Dame an und entwickelt eine Figur, lässt aber e5 ungedeckt, sodass Dxe5+ mit Schach einen Bauern gewinnt. Schwarz spielt dafür auf einen Entwicklungsvorsprung; es ist spielbar, aber unnötig, da die Dame ohnehin Zeit verlieren muss.",
+    "name": "Königsbauernspiel: Eigenwilliger Damenangriff, Kiddie-Gegengambit",
+    "background": "Der Schachautomat Mephisto, eine von einem versteckten Meister bediente Puppe, spielte diese Variante 1881. Wie sie zum Namen Kiddie Countergambit kam, ist unklar."
   }
 }

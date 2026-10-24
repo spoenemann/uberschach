@@ -1,6 +1,7 @@
 {
   "1.e4 e6 2.d4": {
-    "strategy": "Occupies the centre with two pawns and invites Black to challenge them, usually with ...d5, which attacks the e4-pawn at once. White gains space and a firm grip on the centre, but the d4-pawn becomes Black's usual target and the fate of the e-pawn has to be settled early. Whether the game turns closed or open depends on how White answers."
+    "strategy": "Occupies the centre with two pawns and invites Black to challenge them, usually with ...d5, which attacks the e4-pawn at once. White gains space and a firm grip on the centre, but the d4-pawn becomes Black's usual target and the fate of the e-pawn has to be settled early. Whether the game turns closed or open depends on how White answers.",
+    "name": "French Defence: Normal Variation"
   },
   "1.e4 e6 2.d3": {
     "name": "French Defence: King's Indian Attack",
@@ -114,15 +115,12 @@
     "strategy": "Checks at once and, if White blocks with the knight, Black pins it and challenges the centre with ...d5. But blocking with a pawn simply forces the bishop back, and blocking with the bishop offers a trade of Black's dark-squared bishop, so Black has gained little for the time spent."
   },
   "1.e4 e6 2.d4 a6": {
-    "name": "French Defence: St. George Defence",
-    "background": "The name is borrowed from the St. George Defence, 1.e4 a6, named after England's patron saint, which reaches this position with 2.d4 e6. Its first known game is a simultaneous one in which the English amateur J. Baker beat Wilhelm Steinitz on 11 December 1868.",
     "strategy": "Keeps a White bishop off b5 and prepares ...b5 and ...Bb7 against e4, while Black can still build a French-style centre. The cost is a tempo on a rim pawn move, and White can answer by taking space and developing freely. It leads to an unorthodox game in which Black hopes to attack the centre from the wing."
   },
   "1.e4 e6 2.d4 b6": {
     "strategy": "Prepares to fianchetto the queen's bishop against e4 and a flexible set-up for the knights. White can support the centre and keep more space."
   },
   "1.e4 e6 2.d4 c5": {
-    "name": "French Defence: Franco-Sicilian Defence",
     "strategy": "Hits d4 at once and aims to trade the c-pawn for White's d-pawn, with ...e6 already played. White can give extra space or open the game. A rare sideline, not refuted but less sound than challenging the centre at once with the d-pawn."
   },
   "1.e4 e6 2.d4 d6": {
@@ -170,7 +168,6 @@
     "strategy": "Takes e5 and prepares ...e5, but opens the e8-h5 diagonal: 3.Qh5+ forces ...g6 or ...Ke7, and the king loses its cover. The pawn also takes the best square from the knight."
   },
   "1.e4 e6 2.d4 f5": {
-    "name": "French Defence: Franco-Hiva Gambit",
     "strategy": "Attacks e4 in Dutch style, but after 3.exf5 exf5 the e-file and the e8-h5 diagonal lie open in front of Black's king, and the f5-pawn needs defending against Bd3. White develops quickly, and Black has no compensation for the loosened position."
   },
   "1.e4 e6 2.d4 g6": {
@@ -294,5 +291,27 @@
   },
   "1.e4 e6 2.d3 Ba3": {
     "strategy": "Puts the bishop where 3.bxa3 or 3.Nxa3 takes it, so Black simply loses a piece."
+  },
+  "1.e4 e6 2.b3 d5": {
+    "strategy": "Strikes in the centre at once, as Black does against any French set-up; White's quiet queenside move has done nothing to stop it. The pawn immediately questions e4, which nothing defends yet, so White has to react and Black gets the easier game."
+  },
+  "1.e4 e6 2.b4 Bxb4": {
+    "strategy": "Accepts the gambit: the pawn is free and the bishop develops by taking it, without being attacked or giving White an immediate target. White's only compensation is a hope of faster development, so Black needs only to develop sensibly and look after the bishop."
+  },
+  "1.e4 e6 2.c4 d5": {
+    "strategy": "Strikes in the centre anyway: White's c-pawn did not prevent the French pawn on d5, and it hits e4 at once. White must now decide how to resolve the tension, and Black keeps a sound game whichever way it goes."
+  },
+  "1.e4 e6 2.f4 d5": {
+    "strategy": "The natural French reply: Black strikes at the e4 pawn at once, and f4 has done nothing to protect it. White's move aims at e5 and a kingside attack, but it opens the e1–h4 diagonal in front of the king, so Black is the one with a clear target."
+  },
+  "1.e4 e6 2.Nc3 d5": {
+    "strategy": "The move that makes it a French: Black hits e4 at once. The knight defends it, so there is no gain yet, but Black has claimed a share of the centre before White has built the d4–e4 pair, and the game most likely becomes an ordinary French."
+  },
+  "1.e4 e6 2.Nf3 d5": {
+    "strategy": "The standard French reply: Black challenges e4, which the knight on f3 does not defend, so White has to settle the tension at once. Black reaches the usual French pawn structure with the choice of how to meet White's decision."
+  },
+  "1.e4 e6 2.Nf3 f5": {
+    "strategy": "The same idea as against 2.d4: a flank pawn lunges at e4 before a single piece is out. White can simply take it, and after the recapture on f5 the e-file and the e8–h5 diagonal are open in front of the king, with nothing gained in return.",
+    "name": "French Defence: Knight Variation, Franco-Hiva Gambit"
   }
 }

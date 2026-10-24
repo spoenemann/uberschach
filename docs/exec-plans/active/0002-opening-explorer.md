@@ -5,8 +5,10 @@
   is live with a book deep enough that the maintainer plays the lines they
   half remember and reads why each move is played. Done when every promise
   in the spec points at its test and the book follows each move rated 4 or
-  5 to the depth the maintainer set on 2026-10-23: through White's second
-  move and Black's reply to it (Decision log, Depth).
+  5 to the depth the maintainer set on 2026-10-23, through White's second
+  move and Black's reply to it (Decision log, Depth), and beyond it every
+  named line of the Lichess dataset to its twelfth move (Decision log,
+  2026-10-24, Named lines).
 
 ## Acceptance criteria
 
@@ -32,6 +34,12 @@
       from them reaches a position that has moves or is at the depth, and the
       1,832 positions after Black's reply have none
       (`src/content/openings.test.ts`).
+- [x] The named lines (Decision log, 2026-10-24): every move the Lichess
+      dataset's lines play through the twelfth move, beyond the
+      breadth-first plies or after a move rated 1 to 3, rated and explained
+      in English and German, reviewed, and every position the dataset names
+      named (`src/content/openings.test.ts`): 5,317 moves and 5,136
+      positions, 7,857 positions in the book (Progress log, 2026-10-24).
 - [ ] Every promise in the spec names the test that keeps it.
 
 ## Content principles
@@ -168,7 +176,10 @@ of the modules to the repository, with its briefs (`scripts/content/`).
 - *Estimates ran high*: the depth decision estimated 140 followed positions
   and 4,000 moves for what became 121 and 2,918. Expect the same bias.
 
-**Open: the next two plies (White's third move and Black's reply)**
+**Superseded: the next two plies (White's third move and Black's reply)**
+
+What follows was the estimate for going on breadth first; the named lines
+replaced it (Decision log, 2026-10-24, Named lines).
 
 Level 4 is known exactly from the ratings, level 5 extrapolated at the
 rate of 3.2 moves rated 4 or 5 per position and 0.76 distinct positions per
@@ -220,6 +231,10 @@ write JSON).
 - [x] Strategy notes reworked to the spec's definition of 2026-10-23
       (Decision log, Strategy notes): all 2,918, in English and German
       (Progress log).
+- [x] Named lines, tooling: the dataset and its reader (`src/content/named.ts`),
+      the frontier, the briefs, the validator and the module writer
+      (`scripts/content/`), the content test held to the dataset.
+- [x] Named lines, content: 163 batches and 24 name files (Progress log).
 
 ## Progress log
 
@@ -479,6 +494,60 @@ write JSON).
   as a verdict beside "Spielbar" and "Fehler" rather than as a measurement.
   Offered beside it: "Fragwürdig" (harsher) and "Ungenau".
 
+- 2026-10-24: **Named lines: the tooling and the pilot.** The dataset's five
+  TSV files (commit `a6189a3`) are in `src/content/named/`, read by
+  `src/content/named.ts`, which plays them as a tree (each move once: 0.7
+  seconds for all 3,865 lines, where replaying each line through the game
+  took 30) and returns the named moves and names by position key. In
+  `scripts/content/`: `frontier.mjs` writes the batches, the names to put
+  into German and the glossary; three briefs for a batch and one for the
+  names; `validate-batch.mjs`; `add.mjs`, which writes finished batches into
+  the modules and moves a position out when the layout test demands it. A
+  dry run with dummy texts for all 4,191 moves of the ten-ply variant passed
+  every layout and coverage test, and the served form built in 2.9 seconds.
+  The pilot (four batches: the Open Sicilian with 2...d6, the Ruy Lopez
+  after 3...a6, the Queen's Gambit Declined, the Grob; 12 agents, 1.23
+  million tokens, 15 minutes) wrote notes that assess the move rather than
+  tour the next ones, and the reviewers corrected 31 notes, most of them
+  claims false on the board. Read in full, it still showed four faults,
+  each now engineered away: notes that cite the sources as speakers ("the
+  sources prefer"), plans written as pawn moves ("the c3 and d4 centre"), a
+  tactic misnamed (a "pin" that is a discovered attack waiting), all three
+  now in `standard.md` with the instruction to play a tactic out on the
+  board tool; and backgrounds with a detail the page does not give ("in the
+  early 1960s") or a fact about the parent line, which no reviewer had
+  changed. The reviewer now gives every fact it keeps with the sentence of
+  the page that states it, and the validator fetches the page and refuses a
+  quote it does not find there. The pilot's outputs were not used; the full
+  run writes those batches again with the corrected briefs.
+
+- 2026-10-24: **Named lines: the content.** One workflow ran the 163
+  batches and the 24 name files: 513 agents, none failed, 47.0 million
+  tokens, 3 hours 18 minutes. Every output passed `validate-batch.mjs`
+  again afterwards, and `add.mjs` wrote 5,317 moves and 5,136 positions
+  into 1,686 modules (1,692 in all; the served index is 654 kB, 58 kB
+  gzipped). The ratings: 2,392 rated 5, 1,515 rated 4, 980 rated 3, 383
+  rated 2, 47 rated 1. The reviewers changed 758 notes (480 findings were
+  claims false on the board, 194 claims the basis did not support, 40
+  breaches of the standard, 16 history in a note, 27 form) and 17 ratings,
+  and of 566 backgrounds kept 556 and changed 137, each fact kept with the
+  sentence of its page, 1,108 such quotes found by the validator on the
+  page; 1,939 described positions have no background, since the pages give
+  none. 2,522 names were put into German against the glossary. Read
+  afterwards: 4,732 of the notes (89 %) name no move at all, and the 65
+  that name three or more are, read one by one, the reply that refutes a
+  weak move or the trap a move sets, which the standard keeps; none cites
+  the sources as speakers. Main lines (the Najdorf with 6.Be3, the closed
+  Ruy Lopez, the Queen's Gambit Declined with 4.Bg5, the King's Indian with
+  6.Be2 e5, the Winawer, the Caro-Kann with 4...Bf5) are 5 throughout. Two
+  faults were found and fixed by hand: the only legal move (1.e4 b6 2.d4
+  Bb7 3.Bd3 f5 4.exf5 Bxg2 5.Qh5+ g6) was rated 2, now 5; a note had the
+  knight take on e4 "with a discovered check", where the check comes when
+  it jumps on (one of 30 deep notes read at random, so some claims false on
+  the board are likely still in the book). Two explorer tests used 1.g4 as
+  the move after which the book ends; the named lines go on from it, so
+  they use 1.c3, after which none does.
+
 ## Decision log
 
 - 2026-10-23: **Review by an agent that did not write the text, not by
@@ -699,3 +768,45 @@ write JSON).
   `max-lines` override of the Modules decision is gone with the TypeScript
   modules; the layout rule (one root per module, two plies below it) is now
   a test, since a chunk's size is a module's size.
+- 2026-10-24: **Named lines: beyond the breadth-first plies the Lichess
+  dataset decides what the book follows, each line cut at its twelfth move
+  played.** The maintainer: the breadth-first search does not scale past
+  Black's second move (every legal move from every followed position
+  multiplies the book about thirty times a ply, Open below), while many
+  openings need more moves to be explained at all; so from the fifth half
+  move on, and after a move rated 1 to 3 before it, the book writes the
+  moves the dataset's 3,865 named lines play and nothing else, whatever
+  their rating, with the dataset's names, and the research and review stay
+  as they were. The maintainer chose to keep the book's spelling of a
+  family (the dataset's "Nimzo-Larsen Attack: ..." is written under the
+  book's "Nimzowitsch–Larsen Attack"), and to cap the line length so that
+  the run takes under six hours. Measured on the full dataset: 7,728 new
+  moves to line ends as deep as the 36th ply; a pilot of four batches (175
+  moves, below) took 15 seconds of agent time per move in sequence, 20 for
+  the deepest, and 7,000 tokens a move. Through the twelfth move (Black's
+  sixth) that is 5,317 moves, 3,469 positions and 2,522 names in 163
+  batches and 24 name files, about four hours with eight agents at once;
+  through the fourteenth it would have been 6,201 moves and close to six
+  hours, too close for the margin a long run needs. The cap reaches the
+  defining move of most named systems (the Najdorf at the tenth, the
+  closed Ruy Lopez at the tenth) and stops before their deep theory.
+  The breadth-first part is unchanged: through White's second move every
+  legal move from a followed position. A position on a named line beyond
+  it holds only its named moves, and another move there leaves the book,
+  as an off-book move did before. Not chosen: every legal move from every
+  position on a named line (179,980 moves, not finishable); the named moves
+  only where the move into the position was rated 4 or 5 (drops the named
+  gambits and traps the maintainer wanted covered). The dataset is
+  committed (`src/content/named/`, CC0) so that `openings.test.ts` holds
+  the book to it, and `NAMED_LINE_PLIES` in `src/content/named.ts` is the
+  cap. The work runs in batches of about 35 moves, a family's positions
+  together, so the family's pages are read once: a Sonnet writer at high
+  effort rates and explains the moves and writes the backgrounds, a Sonnet
+  reviewer and a Sonnet translator at medium effort check them and write
+  the German (the maintainer's choice of models and efforts), and the new
+  names are put into German a family at a time against the book's
+  glossary (`scripts/content/README.md`, Named lines). The layout of the
+  modules stays as ADR-0001 set it: a position that gains moves two plies
+  below its module's root moves into a module of its own, so the book goes
+  from 40 modules to 1,692, and the served index from 14.5 kB to 58 kB
+  gzipped (measured after the run).

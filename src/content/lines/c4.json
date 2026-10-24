@@ -93,13 +93,37 @@
       "line": "1.c4 Nc6"
     },
     {
-      "line": "1.c4 f5"
+      "line": "1.c4 f5",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "e4",
+          "rating": 3
+        },
+        {
+          "san": "g4",
+          "rating": 2
+        }
+      ]
     },
     {
       "line": "1.c4 d5",
       "sources": [
         "https://en.wikipedia.org/wiki/English_Opening",
         "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._c4"
+      ],
+      "moves": [
+        {
+          "san": "cxd5",
+          "rating": 5
+        }
       ]
     },
     {
@@ -116,6 +140,12 @@
       "line": "1.c4 g5",
       "sources": [
         "https://en.wikipedia.org/wiki/English_Opening"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        }
       ]
     },
     {
@@ -145,6 +175,12 @@
     },
     {
       "line": "1.c4 h5"
+    },
+    {
+      "line": "1.c4 f5 2.e4"
+    },
+    {
+      "line": "1.c4 f5 2.g4"
     }
   ]
 }

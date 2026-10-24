@@ -1,0 +1,66 @@
+{
+  "about": "After 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6",
+      "moves": [
+        {
+          "san": "d3",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "c3",
+          "rating": 4
+        },
+        {
+          "san": "d4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "O-O",
+          "rating": 4
+        },
+        {
+          "san": "h6",
+          "rating": 3
+        },
+        {
+          "san": "a5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.c3"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Italian_Game"
+      ],
+      "moves": [
+        {
+          "san": "Bxd4",
+          "rating": 5
+        },
+        {
+          "san": "exd4",
+          "rating": 3
+        }
+      ]
+    }
+  ]
+}

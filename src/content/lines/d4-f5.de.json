@@ -1,6 +1,7 @@
 {
   "1.d4 f5 2.c4": {
-    "strategy": "Die traditionelle Herausforderung: Weiß gewinnt Raum, kontrolliert zusätzlich d5 und strebt einen Aufbau wie im Damengambit an, mit e4 als späterem Hebel im Zentrum. Der frühe c-Bauer hat einen Preis: Nach ...e6 kann sich der Läufer von f8 mit Schach auf b4 entwickeln. Gekämpft wird um e4, das der schwarze f-Bauer schon im Blick hat."
+    "strategy": "Die traditionelle Herausforderung: Weiß gewinnt Raum, kontrolliert zusätzlich d5 und strebt einen Aufbau wie im Damengambit an, mit e4 als späterem Hebel im Zentrum. Der frühe c-Bauer hat einen Preis: Nach ...e6 kann sich der Läufer von f8 mit Schach auf b4 entwickeln. Gekämpft wird um e4, das der schwarze f-Bauer schon im Blick hat.",
+    "name": "Holländische Verteidigung"
   },
   "1.d4 f5 2.g3": {
     "name": "Holländische Verteidigung: Fianchetto-Angriff",
@@ -102,7 +103,6 @@
     "background": "Elias Stein, ein Elsässer, der sich in Den Haag niedergelassen hatte, empfahl sie in seinem 1789 erschienenen Buch „Nouvel essai sur le Jeu des échecs“ als beste Antwort auf 1.d4. Im Weltmeisterschaftskampf 1951 spielten sie sowohl Michail Botwinnik als auch sein Herausforderer David Bronstein."
   },
   "1.d4 f5 2.c4 Nf6": {
-    "name": "Holländische Verteidigung: Normalvariante",
     "strategy": "Entwickelt eine Figur und kontrolliert e4 und d5, was den weißen Zentrumsvorstoß e4 erschwert. Der Springer legt keine Bauernstruktur fest, sodass für Schwarz jeder holländische Aufbau offen bleibt, vom soliden Stonewall bis zum Fianchetto. Dafür muss Schwarz einen Weg finden, mit dem vorgerückten f-Bauern um das Zentrum zu kämpfen."
   },
   "1.d4 f5 2.c4 e6": {
@@ -342,5 +342,37 @@
   },
   "1.d4 f5 2.Nf3 f4": {
     "strategy": "Verliert den Bauern durch 3.Lxf4, da ihn nichts deckt, und gewinnt dafür weder Raum noch Entwicklung."
+  },
+  "1.d4 f5 2.Bf4 e6": {
+    "strategy": "Stützt den f5-Bauern und befreit den Königsläufer, eine solide Antwort auf den Londoner Läufer. Schwarz erhält eine kompakte Struktur, sperrt aber den eigenen weißfeldrigen Läufer ein, und der Läufer auf f4 behält e5 vorerst unter der Kontrolle von Weiß."
+  },
+  "1.d4 f5 2.e4 fxe4": {
+    "strategy": "Schlägt den Bauern: Schwarz gewinnt Material, und Weiß muss mit schneller Entwicklung und Angriffschancen gegen den durch den Abgang des f-Bauern gelockerten Königsflügel Kompensation nachweisen. Schwarz muss genau verteidigen und bereit sein, den Bauern zurückzugeben."
+  },
+  "1.d4 f5 2.f4 d5": {
+    "strategy": "Nimmt das Zentrum und das Feld e4 und spiegelt die Bauern von Weiß: Die Bauern beider Seiten kontrollieren nun das Feld, das der e-Bauer des Gegners erreichen will. Es folgt eine ruhige Manöverpartie, in der keine Seite das Zentrum ohne Vorbereitung öffnen kann.",
+    "name": "Bird-Eröffnung: Doppelenten-Aufbau"
+  },
+  "1.d4 f5 2.g4 fxg4": {
+    "strategy": "Nimmt den Bauern an. Mit dem Schlagen gibt Schwarz den Griff des Bauern f5 auf e4 auf, doch Weiß hat keine einfache Möglichkeit, das auszunutzen, und der Mehrbauer lohnt es, behalten zu werden, wenn Schwarz die Versuche, ihn zurückzugewinnen, sorgfältig beantwortet."
+  },
+  "1.d4 f5 2.g4 e5": {
+    "strategy": "Ein Gegengambit, das den angebotenen Bauern ignoriert und stattdessen d4 angreift. Es lässt beide schwarzen Bauern angegriffen zurück, f5 vom g-Bauern und e5 vom d-Bauern, und keinen davon gedeckt, sodass Schwarz für die Überraschung bezahlt.",
+    "name": "Holländische Verteidigung: Hevendehl-Gambit"
+  },
+  "1.d4 f5 2.h3 Nf6": {
+    "strategy": "Der natürliche Zug: Der Springer entwickelt sich auf sein übliches holländisches Feld, deckt e4 und fügt g4 einen zweiten Angreifer hinzu, sodass der Plan von Weiß, den g-Bauern vorzustoßen, nicht mehr umsonst zu haben ist. Schwarz lässt die Wahl der Königsflügelaufstellung offen."
+  },
+  "1.d4 f5 2.Qd3 e6": {
+    "strategy": "Der solideste Weg, f5 zu halten: Die Bauernkette hält e4 unter schwarzer Kontrolle und gibt den f8-Läufer frei. Schwarz steuert eine solide Aufstellung mit festem Griff auf e4 an, während die Dame auf d3 bald fehlplatziert wirken kann."
+  },
+  "1.d4 f5 2.Qd3 g6": {
+    "strategy": "Deckt f5 mit einem Bauern von der Seite und bereitet den Läufer auf g7 vor, wo er auf der langen Diagonale und gegen den d4-Bauern Druck ausübt. Schwarz wählt die dynamische Aufstellung; der Preis ist ein lockerer Königsflügel mit weniger Bauern vor dem König."
+  },
+  "1.d4 f5 2.Qd3 d5": {
+    "strategy": "Deckt f5 mit der Diagonale des Läufers und beansprucht e4 mit einem zweiten Bauern, ein festes Zentrum auf solidem Fundament. Der Preis ist das Feld e5: Kein schwarzer Bauer deckt es mehr, sodass sich dort ein weißer Springer festsetzen kann, wenn Schwarz unvorsichtig ist."
+  },
+  "1.d4 f5 2.Qd3 d6": {
+    "strategy": "Deckt f5 indirekt, indem es die Diagonale des c8-Läufers öffnet, und hält einen ...e5-Durchbruch in Reserve. Es ist eine bescheidene Art der Verteidigung: Der Läufer ist an den Bauern gebunden, und Schwarz kämpft noch nicht mit einem zweiten Bauern um e4."
   }
 }

@@ -1,0 +1,34 @@
+{
+  "about": "After 1.f4 e5 2.fxe5 d6 3.exd6 Bxd6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.f4 e5 2.fxe5 d6 3.exd6 Bxd6",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.f4 e5 2.fxe5 d6 3.exd6 Bxd6 4.Nf3",
+      "moves": [
+        {
+          "san": "g5",
+          "rating": 3
+        },
+        {
+          "san": "Nh6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.f4 e5 2.fxe5 d6 3.exd6 Bxd6 4.Nf3 g5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bird%27s_Opening",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._f4/1...e5/2._fxe5/2...d6/3._exd6/3...Bxd6/4._Nf3"
+      ]
+    }
+  ]
+}

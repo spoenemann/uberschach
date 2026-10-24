@@ -229,13 +229,25 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Staunton_Gambit",
         "https://en.wikipedia.org/wiki/Dutch_Defence"
+      ],
+      "moves": [
+        {
+          "san": "fxe4",
+          "rating": 5
+        }
       ]
     },
     {
       "line": "1.d4 f5 2.f3"
     },
     {
-      "line": "1.d4 f5 2.f4"
+      "line": "1.d4 f5 2.f4",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        }
+      ]
     },
     {
       "line": "1.d4 f5 2.g3",
@@ -330,12 +342,28 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Josef_Krejcik",
         "https://en.wikipedia.org/wiki/Dutch_Defence"
+      ],
+      "moves": [
+        {
+          "san": "fxg4",
+          "rating": 4
+        },
+        {
+          "san": "e5",
+          "rating": 2
+        }
       ]
     },
     {
       "line": "1.d4 f5 2.h3",
       "sources": [
         "https://en.wikipedia.org/wiki/Dutch_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        }
       ]
     },
     {
@@ -443,6 +471,12 @@
       "sources": [
         "https://en.wikipedia.org/wiki/London_System",
         "https://en.wikipedia.org/wiki/Dutch_Defence"
+      ],
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 4
+        }
       ]
     },
     {
@@ -458,6 +492,24 @@
       "line": "1.d4 f5 2.Qd3",
       "sources": [
         "https://en.wikipedia.org/wiki/Semyon_Alapin"
+      ],
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 5
+        },
+        {
+          "san": "g6",
+          "rating": 4
+        },
+        {
+          "san": "d5",
+          "rating": 4
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        }
       ]
     },
     {
@@ -555,12 +607,6 @@
       "line": "1.d4 f5 2.d5"
     },
     {
-      "line": "1.d4 f5 2.c4 Nf6"
-    },
-    {
-      "line": "1.d4 f5 2.c4 g6"
-    },
-    {
       "line": "1.d4 f5 2.c4 d6"
     },
     {
@@ -609,12 +655,6 @@
       "line": "1.d4 f5 2.c4 f4"
     },
     {
-      "line": "1.d4 f5 2.g3 Nf6"
-    },
-    {
-      "line": "1.d4 f5 2.g3 g6"
-    },
-    {
       "line": "1.d4 f5 2.g3 e6"
     },
     {
@@ -622,9 +662,6 @@
     },
     {
       "line": "1.d4 f5 2.g3 d6"
-    },
-    {
-      "line": "1.d4 f5 2.g3 c6"
     },
     {
       "line": "1.d4 f5 2.g3 Nc6"
@@ -667,9 +704,6 @@
     },
     {
       "line": "1.d4 f5 2.g3 f4"
-    },
-    {
-      "line": "1.d4 f5 2.Nc3 Nf6"
     },
     {
       "line": "1.d4 f5 2.Nc3 e6"
@@ -726,9 +760,6 @@
       "line": "1.d4 f5 2.Nc3 f4"
     },
     {
-      "line": "1.d4 f5 2.Nf3 Nf6"
-    },
-    {
       "line": "1.d4 f5 2.Nf3 d6"
     },
     {
@@ -778,6 +809,12 @@
     },
     {
       "line": "1.d4 f5 2.Nf3 f4"
+    },
+    {
+      "line": "1.d4 f5 2.f4 d5"
+    },
+    {
+      "line": "1.d4 f5 2.g4 e5"
     }
   ]
 }

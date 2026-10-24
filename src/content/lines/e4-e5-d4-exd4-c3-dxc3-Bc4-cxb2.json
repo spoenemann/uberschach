@@ -1,0 +1,50 @@
+{
+  "about": "After 1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4 cxb2: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4 cxb2",
+      "moves": [
+        {
+          "san": "Bxb2",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4 cxb2 5.Bxb2",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        },
+        {
+          "san": "Bb4+",
+          "rating": 4
+        },
+        {
+          "san": "Qe7",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4 cxb2 5.Bxb2 d5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Danish_Gambit"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4 cxb2 5.Bxb2 Nf6"
+    },
+    {
+      "line": "1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4 cxb2 5.Bxb2 Bb4+"
+    },
+    {
+      "line": "1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4 cxb2 5.Bxb2 Qe7"
+    }
+  ]
+}

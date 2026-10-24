@@ -1,0 +1,160 @@
+{
+  "about": "After 1.e4 c6 2.d4 d5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 c6 2.d4 d5",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 5
+        },
+        {
+          "san": "Nd2",
+          "rating": 4
+        },
+        {
+          "san": "exd5",
+          "rating": 4
+        },
+        {
+          "san": "f3",
+          "rating": 3
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
+        },
+        {
+          "san": "Bd3",
+          "rating": 2
+        },
+        {
+          "san": "Be3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.e5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Caro%E2%80%93Kann_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Bf5",
+          "rating": 5
+        },
+        {
+          "san": "c5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3",
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 5
+        },
+        {
+          "san": "g6",
+          "rating": 4
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
+        },
+        {
+          "san": "b5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nd2",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Caro%E2%80%93Kann_Defence"
+      ],
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 5
+        },
+        {
+          "san": "Qb6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.exd5",
+      "moves": [
+        {
+          "san": "cxd5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.f3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Caro%E2%80%93Kann_Defence",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...c6/2._d4/2...d5/3._f3"
+      ],
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nf3",
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Bd3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Be3"
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.e5 c5",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...c6/2._d4/2...d5/3._e5/3...c5",
+        "https://en.wikipedia.org/wiki/Caro%E2%80%93Kann_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 g6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Caro%E2%80%93Kann_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 Nf6"
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nc3 b5"
+    },
+    {
+      "line": "1.e4 c6 2.d4 d5 3.Nd2 Qb6"
+    }
+  ]
+}

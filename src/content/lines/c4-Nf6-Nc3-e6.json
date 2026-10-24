@@ -1,0 +1,66 @@
+{
+  "about": "After 1.c4 Nf6 2.Nc3 e6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.c4 Nf6 2.Nc3 e6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Hedgehog_(chess)",
+        "https://en.wikipedia.org/wiki/English_Opening"
+      ],
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "e4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.c4 Nf6 2.Nc3 e6 3.Nf3",
+      "moves": [
+        {
+          "san": "c5",
+          "rating": 5
+        },
+        {
+          "san": "b6",
+          "rating": 4
+        },
+        {
+          "san": "Bb4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.c4 Nf6 2.Nc3 e6 3.e4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_chess_openings_named_after_people"
+      ],
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Nc6",
+          "rating": 4
+        },
+        {
+          "san": "c5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.c4 Nf6 2.Nc3 e6 3.e4 Nc6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_chess_openings_named_after_people",
+        "https://en.wikipedia.org/wiki/English_Opening"
+      ]
+    }
+  ]
+}

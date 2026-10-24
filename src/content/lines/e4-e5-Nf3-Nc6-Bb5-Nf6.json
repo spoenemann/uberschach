@@ -1,0 +1,85 @@
+{
+  "about": "After 1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ruy_Lopez"
+      ],
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        },
+        {
+          "san": "d3",
+          "rating": 4
+        },
+        {
+          "san": "d4",
+          "rating": 3
+        },
+        {
+          "san": "Nxe5",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O",
+      "moves": [
+        {
+          "san": "Nxe4",
+          "rating": 5
+        },
+        {
+          "san": "Bc5",
+          "rating": 4
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        },
+        {
+          "san": "Ng4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ruy_Lopez"
+      ],
+      "moves": [
+        {
+          "san": "Bc5",
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 4
+        },
+        {
+          "san": "Ne7",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d4",
+      "moves": [
+        {
+          "san": "exd4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.Nxe5"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Ng4"
+    }
+  ]
+}

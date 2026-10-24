@@ -1,0 +1,26 @@
+{
+  "about": "After 1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 Nxe4: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 Nxe4",
+      "moves": [
+        {
+          "san": "dxc5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 Nxe4 5.dxc5",
+      "moves": [
+        {
+          "san": "Qa5+",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 Nxe4 5.dxc5 Qa5+"
+    }
+  ]
+}

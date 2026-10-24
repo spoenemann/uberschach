@@ -1,9 +1,11 @@
 {
   "1.e4 c6 2.d4": {
-    "strategy": "Bildet ein Zweibauernzentrum und nimmt am meisten Raum. Schwarz greift mit 2...d5 sofort e4 an, und Weiß entscheidet dann über den Charakter der Partie: offenes Figurenspiel, ein geschlossenes Zentrum, in dem Weiß den Raumvorteil hält, oder eine ausgeglichene Struktur nach dem Abtausch. Der Preis ist ein Zentrum, das Schwarz sofort herausfordert."
+    "strategy": "Bildet ein Zweibauernzentrum und nimmt am meisten Raum. Schwarz greift mit 2...d5 sofort e4 an, und Weiß entscheidet dann über den Charakter der Partie: offenes Figurenspiel, ein geschlossenes Zentrum, in dem Weiß den Raumvorteil hält, oder eine ausgeglichene Struktur nach dem Abtausch. Der Preis ist ein Zentrum, das Schwarz sofort herausfordert.",
+    "name": "Caro-Kann-Verteidigung"
   },
   "1.e4 c6 2.Nc3": {
-    "strategy": "Deckt e4 mit einem Entwicklungszug und hält den d-Bauern flexibel, sodass Weiß noch in die Hauptvariante einlenken oder mit den Springern schneller entwickeln kann. Der Preis: Der Springer besetzt c3, was einen Aufbau mit dem c-Bauern auf c3 ausschließt."
+    "strategy": "Deckt e4 mit einem Entwicklungszug und hält den d-Bauern flexibel, sodass Weiß noch in die Hauptvariante einlenken oder mit den Springern schneller entwickeln kann. Der Preis: Der Springer besetzt c3, was einen Aufbau mit dem c-Bauern auf c3 ausschließt.",
+    "name": "Caro-Kann-Verteidigung"
   },
   "1.e4 c6 2.c4": {
     "name": "Caro-Kann-Verteidigung: Beschleunigter Panow-Angriff",
@@ -108,7 +110,6 @@
     "strategy": "Greift e4 sofort an, und darin liegt der Sinn des Bauern auf c6: Er stützt d5, sodass Schwarz mit einem Bauern zurückschlägt und eine gesunde Struktur behält. Anders als in der Französischen Verteidigung wird der Läufer c8 nicht eingesperrt. Der Preis ist das Tempo für ...c6, sodass Schwarz in der Entwicklung zurückbleiben kann; die Partie wird meist solide und positionell."
   },
   "1.e4 c6 2.d4 Na6": {
-    "name": "Caro-Kann-Verteidigung: De-Bruycker-Verteidigung",
     "strategy": "Strebt über a6 nach c7, wo der Springer d5 und e6 stützt, ohne den Läufer c8 zu verstellen. Der Preis ist ein zusätzliches Tempo und ein Springer, der einen Zug lang am Rand steht, sodass Weiß in Ruhe das Zentrum aufbaut und einen leichten Entwicklungsvorsprung behält."
   },
   "1.e4 c6 2.d4 Nf6": {
@@ -359,5 +360,20 @@
   },
   "1.e4 c6 2.Nf3 g5": {
     "strategy": "Verliert den Bauern an Sxg5, denn nichts deckt ihn, und schwächt f5, h5 und den ganzen Königsflügel dauerhaft."
+  },
+  "1.e4 c6 2.b4 d5": {
+    "strategy": "Besetzt sofort das Zentrum, so wie die Caro-Kann-Verteidigung gedacht ist. Der frühe Vorstoß des b-Bauern von Weiß hilft im Kampf um das Zentrum nicht, also bekommt Schwarz einfach die übliche solide Struktur."
+  },
+  "1.e4 c6 2.b4 e5": {
+    "strategy": "Nimmt das Zentrum stattdessen mit dem e-Bauern und öffnet die Diagonale des Läufers auf den Bauern b4, den nichts deckt. Das ist eine schärfere Wahl als ...d5, denn der Bauer e5 wird bald selbst zum Angriffsziel, und Schwarz muss beide Bauern im Auge behalten."
+  },
+  "1.e4 c6 2.Bc4 d5": {
+    "strategy": "Schlägt sofort zu: Der Bauer d5 ist doppelt gedeckt, vom c-Bauern und von der Dame, also muss der Läufer die Diagonale verlassen. Schwarz gewinnt mit Tempo Raum im Zentrum und verliert dabei nichts."
+  },
+  "1.e4 c6 2.d3 d5": {
+    "strategy": "Besetzt sofort das Zentrum und fordert e4 heraus, worauf der bescheidene Zug von Weiß reagieren muss. Schwarz bekommt einen festen Anspruch auf das Zentrum, während Weiß einen ruhigen Aufbau vorbereitet."
+  },
+  "1.e4 c6 2.g4 d5": {
+    "strategy": "Die natürliche Antwort: Der Vorstoß des g-Bauern tut nichts für das Zentrum, also greift Schwarz sofort e4 an. Der Bauer auf g4 ist eine Schwäche, und der Läufer auf c8 blickt schon auf ihn; der frühe Flügelvorstoß von Weiß lässt den Königsflügel locker zurück."
   }
 }

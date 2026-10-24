@@ -1,6 +1,7 @@
 {
   "1.e4 d6 2.d4": {
-    "strategy": "Builds a broad pawn centre on d4 and e4 and opens the diagonal of the c1-bishop. Black lets the centre stand and plans to undermine it from a distance, so the game becomes a fight between White's space and Black's counterplay. White must keep e4 defended and decide how sharply to play for an attack."
+    "strategy": "Builds a broad pawn centre on d4 and e4 and opens the diagonal of the c1-bishop. Black lets the centre stand and plans to undermine it from a distance, so the game becomes a fight between White's space and Black's counterplay. White must keep e4 defended and decide how sharply to play for an attack.",
+    "name": "Pirc Defence"
   },
   "1.e4 d6 2.Nf3": {
     "strategy": "Develops the knight, covers d4 and e5 and keeps the advance d4 in reserve. The knight blocks the f-pawn, so White's sharpest attacking set-ups are off for now, and it can be pinned by ...Bg4. The result is a flexible, quieter game in which White still has to decide how big a centre to build."
@@ -100,7 +101,6 @@
     "strategy": "Develops the knight, attacks e4 and keeps the pawn structure flexible. Black plans to fianchetto the king's bishop and castle, letting White build a broad centre that ...c5 or ...e5 will undermine later. The price is a cramped game against sharp set-ups such as an early f4."
   },
   "1.e4 d6 2.d4 g6": {
-    "background": "The same position arises from 1.e4 g6 2.d4 d6, the Modern Defence, also known as the Robatsch Defence. The tenth edition of Modern Chess Openings (1965) grouped the Pirc and the Robatsch together as the Pirc–Robatsch Defence.",
     "strategy": "Prepares to fianchetto the king's bishop and castle while keeping the knight's development in reserve, so Black can still choose the set-up later. Delaying the knight puts less early pressure on e4, which lets White blunt the g7-bishop with c3 or build a broad centre. Black waits to strike at it later with ...c5 or ...e5."
   },
   "1.e4 d6 2.d4 Nd7": {
@@ -112,7 +112,6 @@
     "strategy": "Develops a piece and adds pressure on d4, but 3.d5 chases the knight: 3...Ne5 runs into 4.f4 with another tempo, and 3...Nb8 wastes time. Black can regroup and stays solid, yet White keeps an easy space advantage."
   },
   "1.e4 d6 2.d4 e5": {
-    "name": "King's Pawn Game: Maróczy Defence",
     "strategy": "Challenges the centre at once and heads for a Philidor-type pawn structure. White can instead trade everything in the centre and queens, leaving Black without castling and White a little more comfortable. Sound, but less flexible than ...Nf6."
   },
   "1.e4 d6 2.d4 c5": {
@@ -204,7 +203,8 @@
     "strategy": "Develops a piece against d4 and e5, but blocks the c-pawn and can be driven back by d4-d5. White can trade a bishop for the knight and double Black's c-pawns, at the price of the bishop pair. Solid but less dynamic than the main Pirc set-ups, and often an inferior version of them."
   },
   "1.e4 d6 2.Nf3 Bg4": {
-    "strategy": "Pins the knight to the queen before White has built a centre. White can break the pin or question the bishop, and if Black trades on f3, White gets the bishop pair and a lead in development. Black gets quick piece play but often gives up a bishop for a knight."
+    "strategy": "Pins the knight to the queen before White has built a centre. White can break the pin or question the bishop, and if Black trades on f3, White gets the bishop pair and a lead in development. Black gets quick piece play but often gives up a bishop for a knight.",
+    "name": "Zukertort Opening: Wade Defence"
   },
   "1.e4 d6 2.Nf3 c6": {
     "strategy": "Covers d5 and b5 and opens the d8-a5 diagonal for the queen, preparing quiet development and a later central or queenside break. The pawn takes c6 from the queen's knight and does not contest d4, so White builds a centre unopposed; Black's structure is solid but passive."
@@ -346,5 +346,8 @@
   },
   "1.e4 d6 2.Nc3 d5": {
     "strategy": "Moves the d-pawn a second time and loses a pawn: after 3.exd5 the pawn on d5 is guarded by Nc3, so 3...Qxd5?? 4.Nxd5 drops the queen, and after 3...Nf6 4.Bc4 White can keep the extra pawn."
+  },
+  "1.e4 d6 2.f4 d5": {
+    "strategy": "Claims the centre at once, the natural answer to a flank pawn move that does nothing for development. The e4 pawn is attacked and no piece defends it yet, so White must decide how to meet it, and f4 has left the king slightly exposed."
   }
 }

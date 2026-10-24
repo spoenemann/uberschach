@@ -139,6 +139,16 @@
       "line": "1.e4 c5 2.b3",
       "sources": [
         "https://en.wikipedia.org/wiki/Sicilian_Defence"
+      ],
+      "moves": [
+        {
+          "san": "b6",
+          "rating": 4
+        },
+        {
+          "san": "d5",
+          "rating": 3
+        }
       ]
     },
     {
@@ -146,6 +156,12 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Sicilian_Defence",
         "https://en.wikipedia.org/wiki/Wing_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "cxb4",
+          "rating": 5
+        }
       ]
     },
     {
@@ -246,16 +262,38 @@
       ]
     },
     {
-      "line": "1.e4 c5 2.c4"
+      "line": "1.e4 c5 2.c4",
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 4
+        }
+      ]
     },
     {
-      "line": "1.e4 c5 2.d3"
+      "line": "1.e4 c5 2.d3",
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 4
+        }
+      ]
     },
     {
       "line": "1.e4 c5 2.d4",
       "sources": [
         "https://en.wikipedia.org/wiki/Smith%E2%80%93Morra_Gambit",
         "https://en.wikipedia.org/wiki/Sicilian_Defence"
+      ],
+      "moves": [
+        {
+          "san": "cxd4",
+          "rating": 5
+        }
       ]
     },
     {
@@ -266,6 +304,20 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Sicilian_Defence",
         "https://de.wikipedia.org/wiki/Sizilianische_Verteidigung"
+      ],
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Nc6",
+          "rating": 4
+        },
+        {
+          "san": "e5",
+          "rating": 2
+        }
       ]
     },
     {
@@ -384,6 +436,12 @@
       "line": "1.e4 c5 2.Na3",
       "sources": [
         "https://en.wikipedia.org/wiki/Sicilian_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 4
+        }
       ]
     },
     {
@@ -525,15 +583,6 @@
       "line": "1.e4 c5 2.e5"
     },
     {
-      "line": "1.e4 c5 2.c3 Nf6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence,_Alapin_Variation"
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.c3 d5"
-    },
-    {
       "line": "1.e4 c5 2.c3 e6"
     },
     {
@@ -594,9 +643,6 @@
       "line": "1.e4 c5 2.c3 f5"
     },
     {
-      "line": "1.e4 c5 2.Nc3 Nc6"
-    },
-    {
       "line": "1.e4 c5 2.Nc3 Na6"
     },
     {
@@ -627,13 +673,7 @@
       "line": "1.e4 c5 2.Nc3 b5"
     },
     {
-      "line": "1.e4 c5 2.Nc3 d6"
-    },
-    {
       "line": "1.e4 c5 2.Nc3 d5"
-    },
-    {
-      "line": "1.e4 c5 2.Nc3 e6"
     },
     {
       "line": "1.e4 c5 2.Nc3 f6"
@@ -655,41 +695,6 @@
     },
     {
       "line": "1.e4 c5 2.Nc3 c4"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence"
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 Nc6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence"
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 e6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence"
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 Nf6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence",
-        "https://en.wikipedia.org/wiki/Aron_Nimzowitsch"
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 a6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence",
-        "https://en.wikipedia.org/wiki/Alb%C3%A9ric_O%27Kelly_de_Galway"
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 g6"
     },
     {
       "line": "1.e4 c5 2.Nf3 Qc7",
@@ -739,10 +744,13 @@
       "line": "1.e4 c5 2.Nf3 g5"
     },
     {
-      "line": "1.e4 c5 2.Nf3 f5"
+      "line": "1.e4 c5 2.Nf3 c4"
     },
     {
-      "line": "1.e4 c5 2.Nf3 c4"
+      "line": "1.e4 c5 2.b3 b6"
+    },
+    {
+      "line": "1.e4 c5 2.f4 e5"
     }
   ]
 }

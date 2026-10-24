@@ -51,7 +51,8 @@
     "strategy": "Gains queenside space and stops …b5, but leaves e4 attacked. After …dxe4 White is a pawn down with no development or central play to show for it."
   },
   "1.e4 d5 2.b3": {
-    "strategy": "Prepares Bb2 against g7, but leaves e4 hanging. After 2.b3 dxe4 3.Bb2 Nf6 the diagonal is closed and White has nothing concrete for the pawn."
+    "strategy": "Prepares Bb2 against g7, but leaves e4 hanging. After 2.b3 dxe4 3.Bb2 Nf6 the diagonal is closed and White has nothing concrete for the pawn.",
+    "name": "Scandinavian Defence"
   },
   "1.e4 d5 2.b4": {
     "name": "Scandinavian Defence: Zilbermints Gambit",
@@ -105,13 +106,9 @@
     "background": "Arguably the oldest recorded opening: it appears in the Catalan poem Scachs d'amor (around 1475) and in Lucena's book of 1497. Bent Larsen's win over Karpov at Montreal 1979 spurred a rise in its popularity; in 1995 Anand played it against Kasparov in their PCA World Championship match in New York, its first appearance in a world championship match, and in 2014 Carlsen beat Caruana with it at the Olympiad in Tromsø."
   },
   "1.e4 d5 2.exd5 Qxd5": {
-    "name": "Scandinavian Defence: Mieses–Kotroc Variation",
-    "background": "The more “positional” of the two main branches of the Scandinavian Defence, the other being 2...Nf6. Joseph Henry Blackburne and Jacques Mieses often played the Scandinavian and greatly developed its theory in the late 19th and early 20th centuries.",
     "strategy": "Takes the pawn back at once with the queen, and accepts that White gains a tempo by attacking the queen with Nc3. In return Black gets a free game: easy development and a sound pawn structure, with no weakness to defend."
   },
   "1.e4 d5 2.exd5 Nf6": {
-    "name": "Scandinavian Defence: Modern Variation",
-    "background": "The more “tactical” of the two main branches of the Scandinavian Defence, known as the Modern Scandinavian. John Emms calls 3.d4 White's main line against it.",
     "strategy": "Delays the recapture so that the queen does not lose a tempo, and wins the pawn back with the knight later. White may try to keep the pawn, but usually just develops; the game turns more tactical, with Black aiming for quick development."
   },
   "1.e4 d5 2.exd5 Nd7": {
@@ -145,8 +142,6 @@
     "strategy": "Prepares ...Bb7, which would hit d5 along the long diagonal, but White holds the pawn easily and stays a pawn up with the better development."
   },
   "1.e4 d5 2.exd5 c6": {
-    "name": "Scandinavian Defence: Blackburne–Kloosterboer Gambit",
-    "background": "Joseph Blackburne played it successfully on at least one occasion, but after 3.dxc6 it is thought to be unsound and is almost never seen in master-level play.",
     "strategy": "Offers a pawn for development: after 3.dxc6 Nxc6 Black's pieces come out quickly on open lines, but White stays a clean pawn up and can finish development in peace."
   },
   "1.e4 d5 2.exd5 c5": {
@@ -193,5 +188,23 @@
   },
   "1.e4 d5 2.exd5 g5": {
     "strategy": "Loosens f6 and h6 and makes the g5 pawn a target for the c1-bishop once d4 opens its diagonal, while the d5 pawn stays with White."
+  },
+  "1.e4 d5 2.d4 dxe4": {
+    "strategy": "Accepts the gambit and wins a pawn. White's compensation is quick development and open lines, so Black must take care to stay solid and avoid the traps that this opening is full of."
+  },
+  "1.e4 d5 2.f3 g6": {
+    "strategy": "Develops by fianchetto, preparing the bishop for the long diagonal while the d5 pawn still presses e4. It is a modest answer to an awkward move: the better way to profit from f3 is to stake out the centre with a pawn at once, since White's king's knight loses f3 and the king's bishop has no good squares."
+  },
+  "1.e4 d5 2.f4 dxe4": {
+    "strategy": "Takes the offered pawn. The pawn on e4 cramps White by controlling d3 and f3, and Black has nothing to answer for yet. White's compensation is only quicker development, so Black keeps the pawn while it is safe and gives it back at the right moment to finish developing."
+  },
+  "1.e4 d5 2.g4 dxe4": {
+    "strategy": "Takes the e-pawn, and White has little to show for the loss. Grabbing the other pawn is not on: the bishop on c8 attacks g4 but the queen guards it, so taking loses the bishop. Black stays a pawn up and White's advanced g-pawn has weakened the kingside."
+  },
+  "1.e4 d5 2.Nc3 dxe4": {
+    "strategy": "Takes the pawn, which avoids losing the d5 pawn and opens the game. Black trades the d-pawn for White's e-pawn; White's knight now has to recapture or the position becomes a gambit."
+  },
+  "1.e4 d5 2.Nf3 dxe4": {
+    "strategy": "Accepts the gambit, the usual and most critical reply: Black takes a pawn and attacks the knight, which must move. White is left with a lead in development to find, and Black's task is to hold the pawn without falling into the traps."
   }
 }

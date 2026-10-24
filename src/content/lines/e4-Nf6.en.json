@@ -16,10 +16,12 @@
     "strategy": "Protects e4 with the bishop, which stands in front of the d-pawn: while it stays on d3, the d-pawn cannot move and the c1-bishop is shut in. Freeing them costs time, and Black takes a share of the centre at once. Playable, but not recommended."
   },
   "1.e4 Nf6 2.c4": {
-    "strategy": "Gambits the e4-pawn for development: after 2...Nxe4 White has some activity for it, but the extra pawn is real and the compensation doubtful. Black can also decline the pawn and develop solidly."
+    "strategy": "Gambits the e4-pawn for development: after 2...Nxe4 White has some activity for it, but the extra pawn is real and the compensation doubtful. Black can also decline the pawn and develop solidly.",
+    "name": "English Opening: Achilles-Omega Gambit"
   },
   "1.e4 Nf6 2.d4": {
-    "strategy": "Builds a pawn centre but leaves e4 unprotected, so 2...Nxe4 wins a pawn. White gets some central space and a lead in development, but no clear compensation, and Black consolidates easily."
+    "strategy": "Builds a pawn centre but leaves e4 unprotected, so 2...Nxe4 wins a pawn. White gets some central space and a lead in development, but no clear compensation, and Black consolidates easily.",
+    "name": "Indian Defence: Omega Gambit"
   },
   "1.e4 Nf6 2.f3": {
     "strategy": "Supports e4 with the f-pawn, but takes the best square from the g1-knight and weakens the e1-h4 diagonal and the white king. Black strikes at the centre at once."
@@ -109,8 +111,6 @@
     "strategy": "Prepares ...d5 with a solid pawn structure. With the knight already on f6, however, 3.e5 Nd5 4.Nxd5 cxd5 gives White the space of an advanced pawn, and Black must undermine it later. Sound, but it concedes more than ...d5 would."
   },
   "1.e4 Nf6 2.Nc3 d5": {
-    "name": "Alekhine's Defence: Scandinavian Variation",
-    "background": "This is the independent Alekhine line after 2.Nc3. Jonny Hector, who regularly plays 2.Nc3 against the Alekhine, has scored well against it, and his ideas have left White with a theoretical edge, so textbook authors including Davies, Cox and Taylor have encouraged 2...e5 instead.",
     "strategy": "Attacks e4 a second time, and White answers by exchanging on d5 or by advancing the pawn to e5. The exchange gives Black roughly equal play, while the advance gains space and can lead to a French-type structure. White chooses the structure, and this line has been a theoretical success for White, so the move is sound but not Black's most comfortable reply."
   },
   "1.e4 Nf6 2.Nc3 e6": {
@@ -168,13 +168,9 @@
     "strategy": "Moves the attacked knight to the centre and lets White gain space with tempo-gaining pawn moves. The idea is to tempt White into a broad pawn centre and then undermine it, so that the advanced pawns become targets instead of strengths. The price is lost time and a cramped position; the result is an unbalanced game in which Black must fight actively."
   },
   "1.e4 Nf6 2.e5 Ng8": {
-    "name": "Alekhine's Defence: Brooklyn Defence",
-    "background": "Named by Joel Benjamin after his hometown, Brooklyn; he calls it his pet line. The first recorded game with 2...Ng8 is Nimzowitsch–Albin, Vienna 1905, which Nimzowitsch won as White.",
     "strategy": "Retreats the knight to its starting square, giving White the e5 space for free. Black can strike at the pawn chain or build a French-like structure, but has lost two moves. White develops freely and keeps extra space, though theory rates the advantage as only small."
   },
   "1.e4 Nf6 2.e5 Ne4": {
-    "name": "Alekhine's Defence: Mokele Mbembe",
-    "background": "John L. Watson and Eric Schiller call the move the “Mokele Mbembe” and, in The Big Book of Busts (1995), analyse it to a winning advantage for White. Nunn's Chess Openings (1999) concludes that White gets a large advantage.",
     "strategy": "After 3.d4 the knight on e4 has no safe square, so Black must spend more moves propping it up or freeing a retreat. The natural 3...f6 also opens the e8-h5 diagonal, and 4.Qh5+ g6 5.Qh4 attacks the knight again while White leads in development."
   },
   "1.e4 Nf6 2.e5 Ng4": {
@@ -230,5 +226,11 @@
   },
   "1.e4 Nf6 2.e5 h5": {
     "strategy": "A rim-pawn push that neither moves nor defends the attacked knight. 3.exf6 wins it for a pawn."
+  },
+  "1.e4 Nf6 2.Bc4 Nxe4": {
+    "strategy": "Takes the free pawn. White can win the material back with a bishop sacrifice and a queen raid, but then Black's king finds safety on g8 and Black holds the centre. There is no reason to refuse the pawn."
+  },
+  "1.e4 Nf6 2.d4 Nxe4": {
+    "strategy": "Takes the unprotected pawn and puts the knight in the centre. White gets a chance to develop with tempo against the knight in return, so Black has to go back to the defence in order to keep the pawn."
   }
 }

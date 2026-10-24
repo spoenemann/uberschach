@@ -1,0 +1,64 @@
+{
+  "about": "After 1.e4 b6 2.d4: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 b6 2.d4",
+      "moves": [
+        {
+          "san": "Bb7",
+          "rating": 5
+        },
+        {
+          "san": "c5",
+          "rating": 3
+        },
+        {
+          "san": "Ba6",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 b6 2.d4 Bb7",
+      "moves": [
+        {
+          "san": "Bd3",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
+        },
+        {
+          "san": "Bg5",
+          "rating": 2
+        },
+        {
+          "san": "f3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 b6 2.d4 c5",
+      "moves": [
+        {
+          "san": "dxc5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 b6 2.d4 Ba6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Owen%27s_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 b6 2.d4 Bb7 3.Nf3"
+    },
+    {
+      "line": "1.e4 b6 2.d4 Bb7 3.Bg5"
+    }
+  ]
+}

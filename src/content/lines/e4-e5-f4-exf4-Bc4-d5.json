@@ -1,0 +1,43 @@
+{
+  "about": "After 1.e4 e5 2.f4 exf4 3.Bc4 d5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 d5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bishop%27s_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "Bxd5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "Qh4+",
+          "rating": 4
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Nf6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bishop%27s_Gambit"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 c6"
+    }
+  ]
+}

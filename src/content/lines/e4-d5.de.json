@@ -51,7 +51,8 @@
     "strategy": "Gewinnt Raum am Damenflügel und verhindert …b5, lässt aber e4 angegriffen. Nach …dxe4 hat Weiß einen Bauern weniger, ohne Entwicklung oder Spiel im Zentrum als Gegenwert."
   },
   "1.e4 d5 2.b3": {
-    "strategy": "Bereitet Lb2 gegen g7 vor, lässt aber e4 hängen. Nach 2.b3 dxe4 3.Lb2 Sf6 ist die Diagonale geschlossen, und Weiß hat nichts Greifbares für den Bauern."
+    "strategy": "Bereitet Lb2 gegen g7 vor, lässt aber e4 hängen. Nach 2.b3 dxe4 3.Lb2 Sf6 ist die Diagonale geschlossen, und Weiß hat nichts Greifbares für den Bauern.",
+    "name": "Skandinavische Verteidigung"
   },
   "1.e4 d5 2.b4": {
     "name": "Skandinavische Verteidigung: Zilbermints-Gambit",
@@ -105,13 +106,9 @@
     "background": "Wohl die älteste überlieferte Eröffnung: Sie erscheint im katalanischen Gedicht Scachs d'amor (um 1475) und in Lucenas Buch von 1497. Bent Larsens Sieg gegen Karpow in Montreal 1979 verschaffte ihr neue Beliebtheit; 1995 spielte Anand sie in New York im PCA-Weltmeisterschaftskampf gegen Kasparow, ihr erster Auftritt in einem WM-Kampf, und 2014 besiegte Carlsen damit Caruana bei der Olympiade in Tromsø."
   },
   "1.e4 d5 2.exd5 Qxd5": {
-    "name": "Skandinavische Verteidigung: Mieses-Kotroc-Variante",
-    "background": "Der eher „positionelle“ der beiden Hauptzweige der Skandinavischen Verteidigung, der andere ist 2...Sf6. Joseph Henry Blackburne und Jacques Mieses spielten die Skandinavische Verteidigung häufig und entwickelten ihre Theorie im späten 19. und frühen 20. Jahrhundert maßgeblich weiter.",
     "strategy": "Schlägt den Bauern sofort mit der Dame zurück und nimmt in Kauf, dass Weiß mit Sc3 gegen die Dame ein Tempo gewinnt. Dafür erhält Schwarz ein freies Spiel: leichte Entwicklung und eine gesunde Bauernstruktur, ohne Schwäche, die zu verteidigen wäre."
   },
   "1.e4 d5 2.exd5 Nf6": {
-    "name": "Skandinavische Verteidigung: Moderne Variante",
-    "background": "Der eher „taktische“ der beiden Hauptzweige der Skandinavischen Verteidigung, bekannt als Modernes Skandinavisch. John Emms bezeichnet 3.d4 als die weiße Hauptvariante dagegen.",
     "strategy": "Verzögert das Zurückschlagen, damit die Dame kein Tempo verliert, und gewinnt den Bauern später mit dem Springer zurück. Weiß kann versuchen, den Bauern zu halten, entwickelt sich aber meist einfach; das Spiel wird taktischer, und Schwarz strebt rasche Entwicklung an."
   },
   "1.e4 d5 2.exd5 Nd7": {
@@ -145,8 +142,6 @@
     "strategy": "Bereitet ...Lb7 vor, das d5 über die lange Diagonale angreifen würde, doch Weiß hält den Bauern leicht und bleibt mit der besseren Entwicklung einen Bauern vorn."
   },
   "1.e4 d5 2.exd5 c6": {
-    "name": "Skandinavische Verteidigung: Blackburne-Kloosterboer-Gambit",
-    "background": "Joseph Blackburne spielte es mindestens einmal erfolgreich, doch nach 3.dxc6 gilt es als inkorrekt und ist auf Meisterniveau fast nie zu sehen.",
     "strategy": "Bietet einen Bauern für Entwicklung an: Nach 3.dxc6 Sxc6 kommen die schwarzen Figuren auf offenen Linien schnell ins Spiel, doch Weiß bleibt einen gesunden Bauern vorn und kann die Entwicklung in Ruhe abschließen."
   },
   "1.e4 d5 2.exd5 c5": {
@@ -193,5 +188,23 @@
   },
   "1.e4 d5 2.exd5 g5": {
     "strategy": "Lockert f6 und h6 und macht den Bauern g5 zum Ziel für den Läufer c1, sobald d4 dessen Diagonale öffnet, während der Bauer d5 bei Weiß bleibt."
+  },
+  "1.e4 d5 2.d4 dxe4": {
+    "strategy": "Nimmt das Gambit an und gewinnt einen Bauern. Die Kompensation von Weiß besteht in rascher Entwicklung und offenen Linien; Schwarz muss daher darauf achten, solide zu bleiben und die Fallen zu vermeiden, von denen diese Eröffnung voll ist."
+  },
+  "1.e4 d5 2.f3 g6": {
+    "strategy": "Entwickelt per Fianchetto und bereitet den Läufer für die lange Diagonale vor, während der Bauer d5 weiter auf e4 drückt. Es ist eine bescheidene Antwort auf einen unbequemen Zug: Der bessere Weg, von f3 zu profitieren, ist, sofort mit einem Bauern das Zentrum zu besetzen, da der Königsspringer von Weiß das Feld f3 verliert und der Königsläufer keine guten Felder hat."
+  },
+  "1.e4 d5 2.f4 dxe4": {
+    "strategy": "Nimmt den angebotenen Bauern. Der Bauer auf e4 schränkt Weiß ein, weil er d3 und f3 kontrolliert, und Schwarz hat vorerst nichts zu verantworten. Die Kompensation von Weiß ist nur die schnellere Entwicklung, daher behält Schwarz den Bauern, solange es sicher ist, und gibt ihn im richtigen Moment zurück, um die Entwicklung zu beenden."
+  },
+  "1.e4 d5 2.g4 dxe4": {
+    "strategy": "Nimmt den e-Bauern, und Weiß hat für den Verlust wenig vorzuweisen. Den anderen Bauern zu schlagen geht nicht: Der Läufer auf c8 greift g4 an, aber die Dame deckt es, sodass das Schlagen den Läufer kostet. Schwarz bleibt einen Bauern voraus, und der vorgerückte g-Bauer von Weiß hat den Königsflügel geschwächt."
+  },
+  "1.e4 d5 2.Nc3 dxe4": {
+    "strategy": "Nimmt den Bauern, womit der Verlust des d5-Bauern vermieden wird und das Spiel sich öffnet. Schwarz tauscht den d-Bauern gegen den e-Bauern von Weiß; der Springer von Weiß muss nun zurückschlagen, sonst wird die Stellung zu einem Gambit."
+  },
+  "1.e4 d5 2.Nf3 dxe4": {
+    "strategy": "Nimmt das Gambit an, die übliche und kritischste Antwort: Schwarz nimmt einen Bauern und greift den Springer an, der ziehen muss. Weiß muss seinen Entwicklungsvorsprung nutzen, und die Aufgabe von Schwarz ist es, den Bauern zu halten, ohne in die Fallen zu tappen."
   }
 }

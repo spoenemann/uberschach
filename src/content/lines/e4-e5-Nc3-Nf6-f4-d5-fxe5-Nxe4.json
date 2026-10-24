@@ -1,0 +1,62 @@
+{
+  "about": "After 1.e4 e5 2.Nc3 Nf6 3.f4 d5 4.fxe5 Nxe4: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.Nc3 Nf6 3.f4 d5 4.fxe5 Nxe4",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "Qf3",
+          "rating": 4
+        },
+        {
+          "san": "d3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nf6 3.f4 d5 4.fxe5 Nxe4 5.Nf3",
+      "moves": [
+        {
+          "san": "Be7",
+          "rating": 5
+        },
+        {
+          "san": "Bg4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nf6 3.f4 d5 4.fxe5 Nxe4 5.Qf3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vienna_Game"
+      ],
+      "moves": [
+        {
+          "san": "f5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nf6 3.f4 d5 4.fxe5 Nxe4 5.d3",
+      "moves": [
+        {
+          "san": "Qh4+",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nf6 3.f4 d5 4.fxe5 Nxe4 5.Nf3 Be7",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vienna_Game"
+      ]
+    }
+  ]
+}

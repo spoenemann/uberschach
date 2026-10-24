@@ -1,0 +1,27 @@
+{
+  "about": "After 1.d4 Nf6 2.Nf3 d5 3.e3 e6 4.b3 c5 5.Bb2 Nc6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 e6 4.b3 c5 5.Bb2 Nc6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Colle_System"
+      ],
+      "moves": [
+        {
+          "san": "Bd3",
+          "rating": 5
+        },
+        {
+          "san": "Nbd2",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 e6 4.b3 c5 5.Bb2 Nc6 6.Bd3"
+    },
+    {
+      "line": "1.d4 Nf6 2.Nf3 d5 3.e3 e6 4.b3 c5 5.Bb2 Nc6 6.Nbd2"
+    }
+  ]
+}

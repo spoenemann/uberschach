@@ -1,0 +1,40 @@
+{
+  "about": "After 1.e4 e6 2.d4 d5 3.exd5 exd5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 e6 2.d4 d5 3.exd5 exd5",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "c4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.exd5 exd5 4.Nf3"
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.exd5 exd5 4.Nc3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.exd5 exd5 4.c4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Defence"
+      ]
+    }
+  ]
+}

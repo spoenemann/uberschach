@@ -1,0 +1,44 @@
+{
+  "about": "After 1.e4 e5 2.d4 exd4 3.Qxd4 Nc6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6",
+      "moves": [
+        {
+          "san": "Qe3",
+          "rating": 5
+        },
+        {
+          "san": "Qc4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qe3",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._d4/2...exd4/3._Qxd4/3...Nc6"
+      ],
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "Bb4+",
+          "rating": 4
+        },
+        {
+          "san": "f5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qc4"
+    },
+    {
+      "line": "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qe3 f5"
+    }
+  ]
+}

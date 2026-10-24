@@ -31,7 +31,7 @@ column. Nothing imports upward.
 | -------------- | ------------------------------------------------------------------------------ | --------------------------------- |
 | `src/domain/`  | Pure TypeScript: chess rules, notation, training. No React, no browser APIs.   | nothing in `src/`                 |
 | `src/i18n/`    | Pure TypeScript: the languages, the catalogues, each language's notation.      | `domain`                          |
-| `src/content/` | Opening content as JSON modules, the book keyed by position, its served form and the loader that fetches it. | `domain`, `i18n`; Node's own modules, to read the modules from disk |
+| `src/content/` | Opening content as JSON modules, the named lines that decide what it follows, the book keyed by position, its served form and the loader that fetches it. | `domain`, `i18n`; Node's own modules, to read the modules from disk |
 | `src/ui/`      | React components, their CSS Modules, and the design tokens.                    | `domain`, `i18n`, `content`       |
 | `src/app/`     | Composition root: entry point, routing, browser storage, wiring.               | `domain`, `i18n`, `content`, `ui` |
 
@@ -60,11 +60,13 @@ Enforced by: `boundaries/dependencies` and `boundaries/no-unknown-files` in
   `buildBook` in `src/content/book.ts`, which throws, run by
   `scripts/content/serve.mjs` before every build (`npm run build:openings`)
   and by `src/content/openings.test.ts`, which also holds the content
-  principles of `docs/product-specs/opening-explorer.md` (The database) and
-  the module layout the chunking relies on: one root per module, two plies
-  below it at most.
+  principles of `docs/product-specs/opening-explorer.md` (The database),
+  the named lines of `src/content/named/` beyond the breadth-first plies,
+  and the module layout the chunking relies on: one root per module, two
+  plies below it at most.
 - The app never bundles the book: `src/ui` and `src/app` do not import the
-  authored content (`src/content/openings.ts`, `files.ts`, `lines/`); the
+  authored content (`src/content/openings.ts`, `files.ts`, `lines/`,
+  `named.ts`, `named/`); the
   explorer fetches `public/openings/`, written at build, chunk by chunk.
   Enforced by: `no-restricted-imports` in `eslint.config.js`; the bundle
   size `npm run build` prints is the measure (252 kB on 2026-10-24).

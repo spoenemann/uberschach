@@ -94,6 +94,16 @@
       "sources": [
         "https://en.wikipedia.org/wiki/Bogoljubov%E2%80%93Mikenas_Defense",
         "https://en.wikipedia.org/wiki/Queen%27s_Pawn_Game"
+      ],
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "c4",
+          "rating": 4
+        }
       ]
     },
     {
@@ -112,37 +122,131 @@
       "line": "1.d4 b6",
       "sources": [
         "https://en.wikipedia.org/wiki/English_Defence"
+      ],
+      "moves": [
+        {
+          "san": "c4",
+          "rating": 5
+        }
       ]
     },
     {
       "line": "1.d4 b5",
       "sources": [
         "https://en.wikipedia.org/wiki/Polish_Defense"
+      ],
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 5
+        }
       ]
     },
     {
-      "line": "1.d4 c6"
+      "line": "1.d4 c6",
+      "moves": [
+        {
+          "san": "c4",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        }
+      ]
     },
     {
       "line": "1.d4 c5",
       "sources": [
         "https://en.wikipedia.org/wiki/Benoni_Defense"
+      ],
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "dxc5",
+          "rating": 3
+        },
+        {
+          "san": "c4",
+          "rating": 3
+        },
+        {
+          "san": "b4",
+          "rating": 2
+        }
       ]
     },
     {
-      "line": "1.d4 d6"
+      "line": "1.d4 d6",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "c4",
+          "rating": 4
+        }
+      ]
     },
     {
       "line": "1.d4 e5",
       "sources": [
         "https://en.wikipedia.org/wiki/Englund_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "dxe5",
+          "rating": 5
+        },
+        {
+          "san": "d5",
+          "rating": 3
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
+        },
+        {
+          "san": "e3",
+          "rating": 3
+        }
       ]
     },
     {
       "line": "1.d4 f6"
     },
     {
-      "line": "1.d4 g6"
+      "line": "1.d4 g6",
+      "moves": [
+        {
+          "san": "c4",
+          "rating": 5
+        },
+        {
+          "san": "e4",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "h4",
+          "rating": 3
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        }
+      ]
     },
     {
       "line": "1.d4 g5"
@@ -152,6 +256,12 @@
     },
     {
       "line": "1.d4 h5"
+    },
+    {
+      "line": "1.d4 c5 2.b4"
+    },
+    {
+      "line": "1.d4 e5 2.e3"
     }
   ]
 }

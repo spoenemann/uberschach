@@ -1,0 +1,41 @@
+{
+  "about": "After 1.e4 e5 2.f4 f5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.f4 f5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/King%27s_Gambit",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._f4/2...f5"
+      ],
+      "moves": [
+        {
+          "san": "exf5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 f5 3.exf5",
+      "moves": [
+        {
+          "san": "exf4",
+          "rating": 4
+        },
+        {
+          "san": "Qh4+",
+          "rating": 3
+        },
+        {
+          "san": "Bc5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 f5 3.exf5 Qh4+"
+    },
+    {
+      "line": "1.e4 e5 2.f4 f5 3.exf5 Bc5"
+    }
+  ]
+}

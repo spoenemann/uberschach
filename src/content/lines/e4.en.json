@@ -83,5 +83,46 @@
   "1.e4": {
     "name": "King's Pawn Game",
     "background": "The most popular first move in chess. Bobby Fischer called it “best by test” in My 60 Memorable Games (1969)."
+  },
+  "1.e4 a5 2.d4": {
+    "strategy": "Takes the centre at once. Black's 1...a5 does nothing for development or the middle of the board, so White occupies it with a second pawn and gains space, the initiative and a free choice of set-up."
+  },
+  "1.e4 a6 2.d4": {
+    "strategy": "Takes the full centre and lets Black show what 1...a6 is for. Black has chosen to attack the centre from the flank instead of occupying it, so two central pawns are the natural answer and the test of that plan."
+  },
+  "1.e4 b6 2.d4": {
+    "strategy": "A principled reply: White takes space with both centre pawns, and both bishops are ready to enter the game. Black has offered the centre on purpose, so the question is whether the fianchettoed bishop can make White's big centre a target."
+  },
+  "1.e4 f6 2.d4": {
+    "strategy": "Takes the centre with a second pawn. Black's f6 neither develops a piece nor fights the centre: it takes the best square from the g8 knight and opens the e8–h5 diagonal against the king, and 2...e5 fails to 3.dxe5 fxe5 4.Qh5+ g6 5.Qxe5+."
+  },
+  "1.e4 g5 2.d4": {
+    "strategy": "Attacks the loose pawn at once: the bishop on c1 now sees g5 and nothing defends it. White takes the centre with tempo while Black's kingside pawn move has weakened the position and cost time."
+  },
+  "1.e4 h5 2.d4": {
+    "strategy": "Takes the centre and leaves Black's rook-pawn move as a wasted tempo that also weakens the kingside. White is ahead in space and development and just needs to play normally."
+  },
+  "1.e4 h6 2.d4": {
+    "strategy": "Takes the centre against a move that develops nothing and fights for nothing. White builds a pawn centre and develops with an edge."
+  },
+  "1.e4 Nc6 2.d4": {
+    "strategy": "Takes the full pawn centre at once, which is exactly what Black's last move invited. White gains space and the initiative, and Black has to prove that the centre can be undermined or restrained. This is the principled test of the whole defence."
+  },
+  "1.e4 Nc6 2.Nf3": {
+    "strategy": "Develops a piece and controls e5 while declining the fight on Black's own ground. If Black plays ...e5 the game becomes an ordinary open one, and avoiding that means choosing a less natural set-up. White keeps the d-pawn flexible and sidesteps prepared lines."
+  },
+  "1.e4 Nc6 2.Nc3": {
+    "strategy": "Develops and defends e4 without committing the d-pawn. Sound but unambitious: Black can occupy the centre with the e-pawn for an ordinary open game, or pick its own set-up, and White has no special edge."
+  },
+  "1.e4 Nc6 2.Bb5": {
+    "strategy": "Attacks the knight, hoping for a well-known pressure game if Black fills the centre with ...e5. Until then the bishop achieves little, since nothing yet depends on the knight, and Black has several comfortable ways to avoid the transposition. An offbeat try, not a threat.",
+    "name": "Nimzowitsch Defence: Pseudo-Spanish Variation"
+  },
+  "1.e4 Nc6 2.b4": {
+    "strategy": "Offers the b-pawn to gain time for a broad centre. After ...Nxb4 White can drive the knight back with c3, but that leaves Black a clean pawn up in a solid position; the pawn is hard to justify.",
+    "name": "Nimzowitsch Defence: Wheeler Gambit"
+  },
+  "1.e4 Nh6 2.d4": {
+    "strategy": "Takes the whole centre, since the knight on the rim has no useful way to attack it. White gets a freer game, and Black has to justify the odd development with counterplay later."
   }
 }

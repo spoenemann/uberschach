@@ -1,0 +1,107 @@
+{
+  "about": "After 1.e4 e5 2.d4 exd4: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.d4 exd4",
+      "moves": [
+        {
+          "san": "Qxd4",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "Bc4",
+          "rating": 4
+        },
+        {
+          "san": "c3",
+          "rating": 3
+        },
+        {
+          "san": "f4",
+          "rating": 2
+        },
+        {
+          "san": "Bd3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.d4 exd4 3.Qxd4",
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.d4 exd4 3.Nf3",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._d4/2...exd4/3._Nf3"
+      ],
+      "moves": [
+        {
+          "san": "Bc5",
+          "rating": 4
+        },
+        {
+          "san": "c5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.d4 exd4 3.Bc4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Center_Game"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.d4 exd4 3.c3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Danish_Gambit",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._d4/2...exd4/3._c3"
+      ],
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "dxc3",
+          "rating": 4
+        },
+        {
+          "san": "Ne7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.d4 exd4 3.f4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Center_Game"
+      ],
+      "moves": [
+        {
+          "san": "Bc5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.d4 exd4 3.Bd3"
+    },
+    {
+      "line": "1.e4 e5 2.d4 exd4 3.c3 d5"
+    },
+    {
+      "line": "1.e4 e5 2.d4 exd4 3.c3 Ne7"
+    }
+  ]
+}

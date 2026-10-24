@@ -1,0 +1,64 @@
+{
+  "about": "After 1.e4 d5 2.exd5 Nf6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 d5 2.exd5 Nf6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Scandinavian_Defense"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "c4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Nf6 3.d4",
+      "moves": [
+        {
+          "san": "Nxd5",
+          "rating": 5
+        },
+        {
+          "san": "Bg4",
+          "rating": 4
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        },
+        {
+          "san": "g6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Nf6 3.c4",
+      "moves": [
+        {
+          "san": "c6",
+          "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Nf6 3.c4 c6"
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Nf6 3.c4 e6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Scandinavian_Defense"
+      ]
+    }
+  ]
+}

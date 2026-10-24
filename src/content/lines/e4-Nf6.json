@@ -151,7 +151,13 @@
       "line": "1.e4 Nf6 2.d3"
     },
     {
-      "line": "1.e4 Nf6 2.d4"
+      "line": "1.e4 Nf6 2.d4",
+      "moves": [
+        {
+          "san": "Nxe4",
+          "rating": 4
+        }
+      ]
     },
     {
       "line": "1.e4 Nf6 2.f3"
@@ -289,7 +295,13 @@
       "line": "1.e4 Nf6 2.Bd3"
     },
     {
-      "line": "1.e4 Nf6 2.Bc4"
+      "line": "1.e4 Nf6 2.Bc4",
+      "moves": [
+        {
+          "san": "Nxe4",
+          "rating": 5
+        }
+      ]
     },
     {
       "line": "1.e4 Nf6 2.Bb5"
@@ -396,9 +408,6 @@
       ]
     },
     {
-      "line": "1.e4 Nf6 2.Nc3 Nc6"
-    },
-    {
       "line": "1.e4 Nf6 2.Nc3 Na6"
     },
     {
@@ -415,12 +424,6 @@
     },
     {
       "line": "1.e4 Nf6 2.Nc3 b5"
-    },
-    {
-      "line": "1.e4 Nf6 2.Nc3 d5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Alekhine%27s_Defence"
-      ]
     },
     {
       "line": "1.e4 Nf6 2.Nc3 e6"
@@ -451,21 +454,6 @@
     },
     {
       "line": "1.e4 Nf6 2.Nc3 Nd5"
-    },
-    {
-      "line": "1.e4 Nf6 2.e5 Nd5"
-    },
-    {
-      "line": "1.e4 Nf6 2.e5 Ng8",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Alekhine%27s_Defence"
-      ]
-    },
-    {
-      "line": "1.e4 Nf6 2.e5 Ne4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Alekhine%27s_Defence"
-      ]
     },
     {
       "line": "1.e4 Nf6 2.e5 Ng4"

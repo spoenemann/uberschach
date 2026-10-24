@@ -6,8 +6,9 @@ single-page app: TypeScript 6 strict, Vite 8, React 19, Vitest 5, ESLint 10,
 npm, Node 24. The first capability, an opening explorer, is specified in
 `docs/product-specs/opening-explorer.md` and being built from
 `docs/exec-plans/active/0002-opening-explorer.md`: the screen, the entry
-page and the book exist, written through White's second move and Black's
-reply to it; deeper lines are content still to write.
+page and the book exist, written breadth first through White's second move
+and Black's reply to it, and beyond that along the named lines of the Lichess
+dataset to their twelfth move.
 
 ## Commands
 
@@ -31,7 +32,7 @@ npm run dev                          # build:openings, then http://localhost:517
 
 - `src/domain/` — chess and training logic in pure TypeScript; tests run in plain Node. The rules engine (FEN, legal moves, game end): `docs/design-docs/chess-rules-engine.md` holds its scope, its build and the test file per FIDE article; a rule change updates that doc and that test. Notation (`san.ts`, `line.ts`: moves and lines as text in English or German letters, the language an argument): `docs/design-docs/chess-notation.md`.
 - `src/i18n/` — the languages, the German catalogue (`de.ts`) and which notation each language reads (`notation.ts`), pure TypeScript. Text a visitor sees or hears is `t("English text")` in the code, never a literal in JSX; its German line goes in `de.ts` in the same commit, and a test fails `npm run check` otherwise (`docs/localization.md`).
-- `src/content/` — opening content as JSON under `lines/`, one module per followed position: `<id>.json` the chess data, `<id>.en.json` and `<id>.de.json` the prose (`docs/localization.md`, Opening content). `files.ts` reads and parses the modules, `book.ts` builds the book keyed by position and refuses a disagreement between data and prose, `serve.ts` is the served form (one chunk per module, an index from key to chunk), `loader.ts` the book as the app fetches it chunk by chunk, `openings.ts` the whole book for the tests. The app never imports the content (lint): `npm run build:openings` writes the served form into `public/openings/`, and `src/app/openings.ts` fetches it (`docs/adr/0001-opening-book-as-fetched-json.md`). The content principles (all legal moves covered, only ratings 4 and 5 followed, to the depth the plan sets, both languages, sourced backgrounds, a module two plies deep) are held by `openings.test.ts`.
+- `src/content/` — opening content as JSON under `lines/`, one module per followed position: `<id>.json` the chess data, `<id>.en.json` and `<id>.de.json` the prose (`docs/localization.md`, Opening content). `files.ts` reads and parses the modules, `book.ts` builds the book keyed by position and refuses a disagreement between data and prose, `serve.ts` is the served form (one chunk per module, an index from key to chunk), `loader.ts` the book as the app fetches it chunk by chunk, `openings.ts` the whole book for the tests. The app never imports the content (lint): `npm run build:openings` writes the served form into `public/openings/`, and `src/app/openings.ts` fetches it (`docs/adr/0001-opening-book-as-fetched-json.md`). `named/` holds the Lichess chess-openings dataset as published and `named.ts` reads it: beyond the breadth-first plies the book writes exactly the moves its lines play, to `NAMED_LINE_PLIES`, with its names. The content principles (all legal moves covered and only ratings 4 and 5 followed through the breadth-first plies, the named moves beyond, both languages, sourced backgrounds, a module two plies deep) are held by `openings.test.ts`.
 - `src/ui/` — React components.
 - `src/ui/board/` — the board and the pieces: a position, highlights, target
   marks and candidate arrows (`arrows.ts`), reporting clicks by square and by
@@ -52,7 +53,7 @@ npm run dev                          # build:openings, then http://localhost:517
 - Layers import downward only, app → ui → content → i18n → domain. `eslint.config.js` enforces it and mirrors the table in `docs/ARCHITECTURE.md`.
 - `scripts/eslint-guidance.mjs` — the why/fix/exception text printed under lint failures; every new lint rule gets an entry.
 - `scripts/visual-check.mjs` — the universal rendering invariants and screenshots (`docs/visual-verification.md`); route- or feature-specific checks are disposable ad-hoc modules, never committed. `npm run check` needs Google Chrome installed, or `CHROME_PATH`.
-- `scripts/content/` — the serve step (`serve.mjs`) and the content agents' tools and briefs: the board tool for checking a claim about a position, the strategy-note standard, the writer's and reviewer's briefs, the validator and the module writer (`scripts/content/README.md`).
+- `scripts/content/` — the serve step (`serve.mjs`) and the content agents' tools and briefs: the board tool for checking a claim about a position, the strategy-note standard, the briefs, validators and module writers of the strategy rework and of the named lines (`scripts/content/README.md`).
 
 ## Boundaries and definition of done
 

@@ -1,6 +1,7 @@
 {
   "1.e4 e6 2.d4": {
-    "strategy": "Besetzt das Zentrum mit zwei Bauern und lädt Schwarz ein, sie anzugreifen, meist mit ...d5, das sofort den Bauern e4 attackiert. Weiß gewinnt Raum und einen festen Griff aufs Zentrum, doch der Bauer d4 wird zum üblichen Ziel von Schwarz, und das Schicksal des e-Bauern muss früh geklärt werden. Ob das Spiel geschlossen oder offen wird, hängt davon ab, wie Weiß antwortet."
+    "strategy": "Besetzt das Zentrum mit zwei Bauern und lädt Schwarz ein, sie anzugreifen, meist mit ...d5, das sofort den Bauern e4 attackiert. Weiß gewinnt Raum und einen festen Griff aufs Zentrum, doch der Bauer d4 wird zum üblichen Ziel von Schwarz, und das Schicksal des e-Bauern muss früh geklärt werden. Ob das Spiel geschlossen oder offen wird, hängt davon ab, wie Weiß antwortet.",
+    "name": "Französische Verteidigung: Normalvariante"
   },
   "1.e4 e6 2.d3": {
     "name": "Französische Verteidigung: Königsindischer Angriff",
@@ -114,15 +115,12 @@
     "strategy": "Gibt sofort Schach und fesselt, wenn Weiß mit dem Springer dazwischenzieht, diesen und fordert mit ...d5 das Zentrum heraus. Doch ein Block mit einem Bauern zwingt den Läufer einfach zurück, und ein Block mit dem Läufer bietet den Tausch des schwarzfeldrigen Läufers von Schwarz an, sodass Schwarz für die aufgewandte Zeit wenig gewonnen hat."
   },
   "1.e4 e6 2.d4 a6": {
-    "name": "Französische Verteidigung: St.-George-Verteidigung",
-    "background": "Der Name stammt von der St.-George-Verteidigung 1.e4 a6, benannt nach dem heiligen Georg, dem Schutzpatron Englands, die mit 2.d4 e6 diese Stellung erreicht. Ihre erste bekannte Partie ist eine Simultanpartie, in der der englische Amateur J. Baker am 11. Dezember 1868 Wilhelm Steinitz besiegte.",
     "strategy": "Hält einen weißen Läufer von b5 fern und bereitet ...b5 und ...Lb7 gegen e4 vor, während Schwarz noch ein Zentrum nach französischer Art aufbauen kann. Der Preis ist ein Tempo für einen Randbauernzug, und Weiß kann mit Raumgewinn und freier Entwicklung antworten. Es entsteht eine unorthodoxe Partie, in der Schwarz das Zentrum vom Flügel aus anzugreifen hofft."
   },
   "1.e4 e6 2.d4 b6": {
     "strategy": "Bereitet das Fianchetto des Damenläufers gegen e4 und einen flexiblen Aufbau der Springer vor. Weiß kann das Zentrum stützen und mehr Raum behalten."
   },
   "1.e4 e6 2.d4 c5": {
-    "name": "Französische Verteidigung: Franco-Sizilianische Verteidigung",
     "strategy": "Greift d4 sofort an und will den c-Bauern gegen den weißen d-Bauern tauschen, mit bereits gespieltem ...e6. Weiß kann zusätzlichen Raum geben oder das Spiel öffnen. Eine seltene Nebenvariante, nicht widerlegt, aber weniger solide als der sofortige Angriff auf das Zentrum mit dem d-Bauern."
   },
   "1.e4 e6 2.d4 d6": {
@@ -170,7 +168,6 @@
     "strategy": "Kontrolliert e5 und bereitet ...e5 vor, öffnet aber die Diagonale e8–h5: 3.Dh5+ erzwingt ...g6 oder ...Ke7, und der König verliert seinen Schutz. Außerdem nimmt der Bauer dem Springer sein bestes Feld."
   },
   "1.e4 e6 2.d4 f5": {
-    "name": "Französische Verteidigung: Franco-Hiva-Gambit",
     "strategy": "Greift e4 nach holländischem Vorbild an, doch nach 3.exf5 exf5 liegen die e-Linie und die Diagonale e8–h5 vor dem schwarzen König offen, und der Bauer f5 muss gegen Ld3 gedeckt werden. Weiß entwickelt sich rasch, und Schwarz hat keinen Ausgleich für die gelockerte Stellung."
   },
   "1.e4 e6 2.d4 g6": {
@@ -294,5 +291,27 @@
   },
   "1.e4 e6 2.d3 Ba3": {
     "strategy": "Stellt den Läufer dorthin, wo 3.bxa3 oder 3.Sxa3 ihn schlägt, sodass Schwarz einfach eine Figur verliert."
+  },
+  "1.e4 e6 2.b3 d5": {
+    "strategy": "Greift sofort im Zentrum an, wie Schwarz es gegen jeden französischen Aufbau tut; der ruhige Damenflügelzug von Weiß hat das nicht verhindert. Der Bauer stellt e4, das noch nicht gedeckt ist, sofort in Frage, sodass Weiß reagieren muss und Schwarz die leichtere Partie bekommt."
+  },
+  "1.e4 e6 2.b4 Bxb4": {
+    "strategy": "Nimmt das Gambit an: Der Bauer ist umsonst zu haben, und der Läufer entwickelt sich durch das Schlagen, ohne angegriffen zu werden oder Weiß ein sofortiges Ziel zu bieten. Die einzige Kompensation von Weiß ist die Hoffnung auf schnellere Entwicklung, daher muss Schwarz nur vernünftig entwickeln und auf den Läufer achten."
+  },
+  "1.e4 e6 2.c4 d5": {
+    "strategy": "Greift trotzdem im Zentrum an: Der c-Bauer von Weiß hat den französischen Bauern auf d5 nicht verhindert, und er greift sofort e4 an. Weiß muss nun entscheiden, wie die Spannung aufgelöst wird, und Schwarz behält auf jedem Weg eine gesunde Stellung."
+  },
+  "1.e4 e6 2.f4 d5": {
+    "strategy": "Die natürliche französische Antwort: Schwarz greift sofort den Bauern e4 an, und f4 hat nichts getan, um ihn zu schützen. Der Zug des Weißen zielt auf e5 und einen Königsangriff, öffnet aber die Diagonale e1–h4 vor dem König, sodass Schwarz ein klares Ziel hat."
+  },
+  "1.e4 e6 2.Nc3 d5": {
+    "strategy": "Der Zug, der daraus eine Französische Verteidigung macht: Schwarz greift sofort e4 an. Der Springer verteidigt den Bauern, also gibt es noch keinen Gewinn, aber Schwarz hat sich einen Anteil am Zentrum gesichert, bevor Weiß das Bauernpaar d4–e4 aufgebaut hat, und die Partie wird höchstwahrscheinlich eine gewöhnliche Französische."
+  },
+  "1.e4 e6 2.Nf3 d5": {
+    "strategy": "Die Standardantwort der Französischen Verteidigung: Schwarz fordert e4 heraus, das der Springer auf f3 nicht verteidigt, sodass Weiß die Spannung sofort klären muss. Schwarz erreicht die übliche französische Bauernstruktur und kann wählen, wie er auf die Entscheidung des Weißen reagiert."
+  },
+  "1.e4 e6 2.Nf3 f5": {
+    "strategy": "Derselbe Gedanke wie gegen 2.d4: Ein Flügelbauer stürmt auf e4 los, bevor eine einzige Figur entwickelt ist. Weiß kann ihn einfach schlagen, und nach dem Zurückschlagen auf f5 liegen die e-Linie und die Diagonale e8–h5 vor dem König offen, ohne dass Schwarz dafür etwas bekommt.",
+    "name": "Französische Verteidigung: Springervariante, Franco-Hiva-Gambit"
   }
 }

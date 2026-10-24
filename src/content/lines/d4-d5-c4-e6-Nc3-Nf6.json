@@ -1,0 +1,119 @@
+{
+  "about": "After 1.d4 d5 2.c4 e6 3.Nc3 Nf6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined"
+      ],
+      "moves": [
+        {
+          "san": "cxd5",
+          "rating": 5
+        },
+        {
+          "san": "Bg5",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "Bf4",
+          "rating": 4
+        },
+        {
+          "san": "e3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.cxd5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._d4/1...d5/2._c4/2...e6/3._Nc3/3...Nf6"
+      ],
+      "moves": [
+        {
+          "san": "exd5",
+          "rating": 5
+        },
+        {
+          "san": "Nxd5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined"
+      ],
+      "moves": [
+        {
+          "san": "Be7",
+          "rating": 5
+        },
+        {
+          "san": "Nbd7",
+          "rating": 4
+        },
+        {
+          "san": "c5",
+          "rating": 3
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3",
+      "moves": [
+        {
+          "san": "Be7",
+          "rating": 5
+        },
+        {
+          "san": "Bb4",
+          "rating": 5
+        },
+        {
+          "san": "c6",
+          "rating": 5
+        },
+        {
+          "san": "dxc4",
+          "rating": 4
+        },
+        {
+          "san": "c5",
+          "rating": 4
+        },
+        {
+          "san": "Nbd7",
+          "rating": 3
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bf4"
+    },
+    {
+      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.e3",
+      "moves": [
+        {
+          "san": "Be7",
+          "rating": 5
+        }
+      ]
+    }
+  ]
+}

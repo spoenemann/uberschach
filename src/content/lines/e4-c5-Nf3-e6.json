@@ -1,0 +1,94 @@
+{
+  "about": "After 1.e4 c5 2.Nf3 e6: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.e4 c5 2.Nf3 e6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sicilian_Defence"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "c3",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "c4",
+          "rating": 4
+        },
+        {
+          "san": "b3",
+          "rating": 3
+        },
+        {
+          "san": "b4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.Nf3 e6 3.d4",
+      "moves": [
+        {
+          "san": "cxd4",
+          "rating": 5
+        },
+        {
+          "san": "a6",
+          "rating": 3
+        },
+        {
+          "san": "d5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.Nf3 e6 3.c3",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.Nf3 e6 3.Nc3",
+      "moves": [
+        {
+          "san": "a6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.Nf3 e6 3.c4"
+    },
+    {
+      "line": "1.e4 c5 2.Nf3 e6 3.b3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sicilian_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.Nf3 e6 3.b4"
+    },
+    {
+      "line": "1.e4 c5 2.Nf3 e6 3.d4 a6"
+    },
+    {
+      "line": "1.e4 c5 2.Nf3 e6 3.d4 d5"
+    }
+  ]
+}

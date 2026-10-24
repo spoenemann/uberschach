@@ -1,0 +1,74 @@
+{
+  "about": "After 1.f4 e5: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.f4 e5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bird%27s_Opening",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._f4/1...e5/2._fxe5"
+      ],
+      "moves": [
+        {
+          "san": "fxe5",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 2
+        },
+        {
+          "san": "d4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.f4 e5 2.fxe5",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
+        },
+        {
+          "san": "f6",
+          "rating": 2
+        },
+        {
+          "san": "Ne7",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.f4 e5 2.Nc3",
+      "moves": [
+        {
+          "san": "exf4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.f4 e5 2.d4",
+      "moves": [
+        {
+          "san": "exd4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.f4 e5 2.fxe5 Nc6"
+    },
+    {
+      "line": "1.f4 e5 2.fxe5 f6"
+    },
+    {
+      "line": "1.f4 e5 2.fxe5 Ne7"
+    }
+  ]
+}

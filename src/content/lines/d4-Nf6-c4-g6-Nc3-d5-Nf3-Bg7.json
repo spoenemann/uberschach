@@ -1,0 +1,82 @@
+{
+  "about": "After 1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7: the moves the named lines play from here (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "positions": [
+    {
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7",
+      "moves": [
+        {
+          "san": "Qb3",
+          "rating": 5
+        },
+        {
+          "san": "Bg5",
+          "rating": 4
+        },
+        {
+          "san": "Bf4",
+          "rating": 4
+        },
+        {
+          "san": "e3",
+          "rating": 4
+        },
+        {
+          "san": "cxd5",
+          "rating": 4
+        },
+        {
+          "san": "Qa4+",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Qb3",
+      "moves": [
+        {
+          "san": "dxc4",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Bg5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gr%C3%BCnfeld_Defence"
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Bf4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gr%C3%BCnfeld_Defence"
+      ],
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.e3",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.cxd5",
+      "moves": [
+        {
+          "san": "Nxd5",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.Nf3 Bg7 5.Qa4+"
+    }
+  ]
+}

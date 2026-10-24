@@ -1,6 +1,7 @@
 {
   "1.e4 c5 2.Nf3": {
-    "strategy": "Develops the king's knight, controls d4 and e5 and prepares d4 to open the centre. Once d4 is played and the pawns are exchanged, White has an Open Sicilian: a lead in development and kingside space, against Black's central pawn majority and half-open c-file. By far the most common second move, it leads to open, extremely complex play."
+    "strategy": "Develops the king's knight, controls d4 and e5 and prepares d4 to open the centre. Once d4 is played and the pawns are exchanged, White has an Open Sicilian: a lead in development and kingside space, against Black's central pawn majority and half-open c-file. By far the most common second move, it leads to open, extremely complex play.",
+    "name": "Sicilian Defence"
   },
   "1.e4 c5 2.c3": {
     "name": "Sicilian Defence: Alapin Variation",
@@ -122,7 +123,6 @@
     "background": "Giulio Cesare Polerio analysed it in a manuscript of 1594. In 1813 Jacob Henry Sarratt standardised the English name, after an old Italian manuscript that spoke of “il gioco siciliano”, the Sicilian game. Revived by Botvinnik, Boleslavsky, Bronstein and Najdorf in the 1940s and 1950s, it became, in the words of Modern Chess Openings (1990), the most played and most analysed opening at both club and master level."
   },
   "1.e4 c5 2.c3 Nf6": {
-    "background": "Its main line, 2...Nf6 3.e5 Nd5, is the one in current practice against the Alapin and can also arise when Black declines the Smith–Morra Gambit.",
     "strategy": "Hits e4 at once while developing. White usually pushes the pawn to e5 and gains space, but the pawn then becomes a target, and Black's knight lands on an active square where it can be chased with tempo. Black aims to undermine e5 from the flank and the centre; the price is less central space for a time."
   },
   "1.e4 c5 2.c3 d5": {
@@ -255,32 +255,21 @@
     "strategy": "Gives away the pawn: 3.Bxc4 takes it at once and develops the bishop towards f7, while Black loses the c-pawn and with it all pressure on d4."
   },
   "1.e4 c5 2.Nf3 d6": {
-    "name": "Sicilian Defence: Modern Variations",
-    "background": "Black's most common move after 2.Nf3. It is the gateway to the Najdorf, Dragon, Scheveningen and Classical Variations, which arise after 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3.",
     "strategy": "Prepares ...Nf6 against the e-pawn without letting White push it to e5, and opens the c8-bishop's diagonal. Black builds a solid, flexible set-up and, once the c-pawn is traded for White's d-pawn, plays with a central pawn majority and the half-open c-file. The price is less space and White's lead in development."
   },
   "1.e4 c5 2.Nf3 Nc6": {
-    "name": "Sicilian Defence: Old Sicilian",
-    "background": "One of Black's three main replies to 2.Nf3, with 2...d6 and 2...e6. Lines beginning 2...Nc6 that do not transpose into lines of 2...d6 have their own ECO codes, B30–B39; the most important among them are the Rossolimo, Kalashnikov, Sveshnikov and Accelerated Dragon.",
     "strategy": "Develops a piece at once, controls d4 and e5 and prepares ...Nf6 without allowing e5. Black commits neither the d- nor the e-pawn and keeps the structure flexible. The cost is that White can avoid the open game with a quiet bishop move to b5 that aims at the knight and, after Bxc6, leaves Black with doubled pawns."
   },
   "1.e4 c5 2.Nf3 e6": {
-    "name": "Sicilian Defence: French Variation",
-    "background": "One of Black's three main replies to 2.Nf3, with 2...d6 and 2...Nc6. After 3.d4 cxd4 4.Nxd4 it leads to the Taimanov Variation, named after Mark Taimanov, and the Kan Variation, named after Ilya Kan and also called the Paulsen Variation after Louis Paulsen.",
     "strategy": "Opens the f8-bishop's diagonal and prepares ...d5, building a compact pawn structure and leaving the knights and the queen to be placed later. The costs are a c8-bishop hemmed in behind the e6-pawn, a weak d6-square and a slower fight for the centre."
   },
   "1.e4 c5 2.Nf3 Nf6": {
-    "name": "Sicilian Defence: Nimzowitsch Variation",
-    "background": "Named after Aron Nimzowitsch, who pioneered it as one of two provocative variations of the Sicilian Defence; it is also known as the Nimzowitsch–Rubinstein Variation. After 3.e5 Nd5 it resembles Alekhine's Defence.",
     "strategy": "Attacks e4 at once, but White just pushes 3.e5 and the knight must move again, so White gains space and time. Black gets an unusual game built on attacking White's advanced centre, but with best play White keeps the better of it."
   },
   "1.e4 c5 2.Nf3 a6": {
-    "name": "Sicilian Defence: O'Kelly Variation",
-    "background": "Named after the Belgian grandmaster Albéric O'Kelly de Galway, who won the Belgian championship thirteen times between 1937 and 1959.",
     "strategy": "Takes b5 from White's pieces, so that after ...Nf6 and ...e5 White's knight has no jump to that square. The cost is a tempo spent on a pawn move that develops nothing, and White can sidestep the idea with a quiet pawn move."
   },
   "1.e4 c5 2.Nf3 g6": {
-    "name": "Sicilian Defence: Hyper-Accelerated Dragon",
     "strategy": "Prepares to fianchetto the king's bishop for pressure on the long diagonal. Until the bishop arrives g7 is empty: 3.d4 cxd4 4.Qxd4 attacks the h8-rook at once, so Black must deal with that first."
   },
   "1.e4 c5 2.Nf3 Qc7": {
@@ -334,10 +323,44 @@
     "strategy": "Hangs the g-pawn: 3.Nxg5 wins it, since nothing can recapture, with the c8-bishop and the queen both blocked by their own pawns. The weakened kingside offers no compensation."
   },
   "1.e4 c5 2.Nf3 f5": {
-    "name": "Sicilian Defence: Brussels Gambit",
     "strategy": "Offers the f-pawn: 3.exf5 wins it, since the d7-pawn blocks the c8-bishop, and winning it back costs time. The e8-h5 diagonal to Black's king stays open for good."
   },
   "1.e4 c5 2.Nf3 c4": {
     "strategy": "Pushes the c-pawn where it cannot be defended: 3.Bxc4 wins it along the open diagonal and develops the bishop at the same time."
+  },
+  "1.e4 c5 2.b3 b6": {
+    "strategy": "Mirrors White's plan: the bishop on b7 will pressure the e4 pawn, which has no defender yet, and fight for the long diagonal. Both queen's bishops aim at the opposing kingside, and the game becomes a manoeuvring duel.",
+    "name": "Sicilian Defence: Czerniak Attack, Queen Fianchetto Variation"
+  },
+  "1.e4 c5 2.b3 d5": {
+    "strategy": "Strikes at e4 at once, before White's pieces are out, and claims the centre with a pawn the queen can recapture. It is a sharp way to meet 2.b3, since White cannot calmly fianchetto with the e4 pawn under pressure."
+  },
+  "1.e4 c5 2.b4 cxb4": {
+    "strategy": "Accepting is sound: Black is a pawn up and the c-pawn has left the centre, which was the point of the gambit. White must show enough for the pawn in a quick central build-up, and the gambit rarely does."
+  },
+  "1.e4 c5 2.c4 Nc6": {
+    "strategy": "Develops with a stake in d4: the c-pawn can no longer support a d4 advance, so the knight and later pawn moves fight for the centre. Black stays flexible, and the knight has a good square without weakening anything."
+  },
+  "1.e4 c5 2.c4 d6": {
+    "strategy": "A solid reply: it guards e5, opens the c8-bishop and keeps all the knights' options open. The cost is a slightly passive game, since White has more space in the centre and Black has to play carefully to free the position."
+  },
+  "1.e4 c5 2.d3 Nc6": {
+    "strategy": "Develops the knight against the centre and keeps Black's pawn structure flexible. White has chosen a quiet, slow set-up, so Black can take the initiative in the centre and does not need to rush."
+  },
+  "1.e4 c5 2.d4 cxd4": {
+    "strategy": "Takes the central pawn with the flank pawn, the exchange 1...c5 was played for. White now has to decide between a quick recapture that costs time and a pawn sacrifice for development."
+  },
+  "1.e4 c5 2.f4 d5": {
+    "strategy": "Counterattacks in the centre before White's kingside play gets going: e4 is attacked and nothing defends it. Whatever White chooses, Black gets either a lead in development or a comfortable structure, which makes this the best reply to the immediate 2.f4."
+  },
+  "1.e4 c5 2.f4 Nc6": {
+    "strategy": "A quiet, flexible reply: Black develops and eyes d4, ready to play as in any other Sicilian. It makes less of the loosening f-pawn advance than a strike in the centre does, so White keeps the attacking plan but Black has a normal game."
+  },
+  "1.e4 c5 2.f4 e5": {
+    "strategy": "Pushes the pawn where it can be taken: 3.fxe5 wins it outright, as nothing can recapture on e5. Black has attacked the f-pawn, but White captures first and is a clean pawn up.",
+    "name": "King's Gambit Declined: Mafia Defence"
+  },
+  "1.e4 c5 2.Na3 Nc6": {
+    "strategy": "Develops the knight to its best square against the eccentric rim knight. It controls d4 and e5, so White's usual central pawn break comes with a pawn offered, and Black can otherwise play as in any Sicilian."
   }
 }

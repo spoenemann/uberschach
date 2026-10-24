@@ -6,11 +6,32 @@ import { pathToFileURL } from "node:url";
 export const REPO = path.resolve(import.meta.dirname, "../..");
 
 const domain = (name) => import(pathToFileURL(`${REPO}/src/domain/${name}.ts`).href);
-export const { newGame } = await domain("game");
+export const { newGame, positionKey } = await domain("game");
 export const { playLine } = await domain("line");
 export const { legalMoves } = await domain("moves");
-export const { toSan } = await domain("san");
-const files = await import(pathToFileURL(`${REPO}/src/content/files.ts`).href);
+export const { parseSan, toSan } = await domain("san");
+export const { applyMove } = await domain("apply");
+const content = (name) => import(pathToFileURL(`${REPO}/src/content/${name}.ts`).href);
+const files = await content("files");
+export const { NAMED_LINE_PLIES, britishName, namedBook, readNamedLines } = await content("named");
+
+/** The book built from the modules on disk, with every check, keyed by position. */
+export async function loadBook() {
+  return (await content("book")).buildBook(files.readModules());
+}
+
+/** The position after the line, played once per line and kept: for tools that visit thousands. */
+const positions = new Map();
+export function positionAt(line) {
+  if (positions.has(line)) return positions.get(line);
+  const cut = line.lastIndexOf(" ");
+  const before = line === "" ? null : positionAt(line.slice(0, Math.max(cut, 0)));
+  if (before === null) return positions.set(line, newGame().position).get(line);
+  const san = line.slice(cut + 1).replace(/^\d+\.+/, "");
+  const parsed = parseSan(before, san, "en");
+  if (!parsed.ok) throw new Error(`Line "${line}" fails at ${san}: ${parsed.reason}`);
+  return positions.set(line, applyMove(before, parsed.move)).get(line);
+}
 
 export function gameAt(line) {
   const { game, failure } = playLine(newGame(), line, "en");

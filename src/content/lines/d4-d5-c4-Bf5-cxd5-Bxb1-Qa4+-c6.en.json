@@ -1,0 +1,9 @@
+{
+  "1.d4 d5 2.c4 Bf5 3.cxd5 Bxb1 4.Qa4+ c6 5.dxc6": {
+    "strategy": "Greedily takes a second pawn instead of simply collecting the trapped bishop. The extra pawn does not last: Black's recapture hits d4, and the queen swap that follows leaves a level endgame, so White gives up the better way to keep a small plus."
+  },
+  "1.d4 d5 2.c4 Bf5 3.cxd5 Bxb1 4.Qa4+ c6 5.dxc6 Nxc6": {
+    "strategy": "Recaptures with a developing move that attacks d4, which is now attacked twice and held once. Black wins the pawn back once White has taken the bishop, and the queen swap that follows is level. The knight is pinned to the king meanwhile, but only until the queen leaves a4.",
+    "name": "Queen's Gambit Declined: Baltic Defence, Argentinian Gambit"
+  }
+}

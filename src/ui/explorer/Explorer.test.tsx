@@ -163,11 +163,11 @@ describe("the opening explorer", () => {
 
   test("any legal move is accepted, rated when the book rates it, unrated and off the book otherwise", async () => {
     const { container } = renderExplorer();
-    fireEvent.click(square(container, "g2"));
-    fireEvent.click(square(container, "g4"));
-    expect(screen.getByText("1.g4")).not.toBeNull();
-    expect(await screen.findByText("Mistake")).not.toBeNull();
-    expect(screen.getByRole("heading", { level: 2 }).textContent).toBe("Grob's Attack");
+    fireEvent.click(square(container, "c2"));
+    fireEvent.click(square(container, "c3"));
+    expect(screen.getByText("1.c3")).not.toBeNull();
+    expect(await screen.findByText("Inaccuracy")).not.toBeNull();
+    expect(screen.getByRole("heading", { level: 2 }).textContent).toBe("Saragossa Opening");
     expect(await screen.findByText("No further moves are rated or explained from here.")).not.toBeNull();
     expect(screen.queryByRole("list", { name: "Next moves" })).toBeNull();
     fireEvent.click(square(container, "e7"));

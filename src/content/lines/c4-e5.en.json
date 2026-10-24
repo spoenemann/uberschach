@@ -72,11 +72,9 @@
     "background": "Also called the Reversed Sicilian, because it is a Sicilian Defence with the colours reversed; Kasparov and Keene's Batsford Chess Openings (1982) calls it the King's English. In Modern Chess Openings (14th edition, 1999), Bruce Leverett wrote that it is natural to treat the English as a Sicilian reversed, but that the results are often surprising."
   },
   "1.c4 e5 2.Nc3 Nf6": {
-    "name": "English Opening: King's English Variation, Two Knights Variation",
     "strategy": "Develops a piece and takes control of d5 and e4, so White cannot build a broad centre unopposed. Black commits to no pawn structure yet and keeps every set-up open. The price is that White, with the extra tempo of a reversed Sicilian, still decides what kind of game this becomes."
   },
   "1.c4 e5 2.Nc3 Nc6": {
-    "name": "English Opening: King's English Variation, Reversed Closed Sicilian",
     "strategy": "Develops the knight, guards e5 and eyes d4. Black heads for a closed game: White tends to expand on the queenside, while Black seeks counterplay with kingside pawn advances that can put White's king under pressure. It keeps the bishop and the f-pawn flexible, at the cost of a slower fight for d5."
   },
   "1.c4 e5 2.Nc3 Bb4": {
@@ -347,5 +345,11 @@
   },
   "1.c4 e5 2.Nf3 h5": {
     "strategy": "Pushes the rook-pawn for no reason and leaves e5 en prise: 3.Nxe5 wins the pawn, and the h-pawn does nothing for the centre or development."
+  },
+  "1.c4 e5 2.e3 Nf6": {
+    "strategy": "The natural reply: Black develops with control of e4 and d5 and meets White's quiet second move without difficulty. The pawn on e5 holds the centre, and White has not claimed any space yet."
+  },
+  "1.c4 e5 2.e3 d6": {
+    "strategy": "Supports e5 with a pawn and opens the c8 bishop. Solid, but it fixes the pawn structure early and develops no piece, so Black is less flexible than after a developing move."
   }
 }
