@@ -1,5 +1,5 @@
 {
-  "about": "After 1.d4 d5 2.c4 Nc6: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.d4 d5 2.c4 Nc6: the moves the named lines play from here on on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.d4 d5 2.c4 Nc6",
@@ -22,6 +22,128 @@
       ]
     },
     {
+      "line": "1.d4 d5 2.c4 Nc6 3.cxd5",
+      "moves": [
+        {
+          "san": "Qxd5",
+          "rating": 5
+        },
+        {
+          "san": "Ne5",
+          "rating": 1
+        },
+        {
+          "san": "Nxd4",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5",
+      "moves": [
+        {
+          "san": "e3",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
+        },
+        {
+          "san": "e6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
+        },
+        {
+          "san": "dxe5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3",
+      "moves": [
+        {
+          "san": "Bb4",
+          "rating": 5
+        },
+        {
+          "san": "Qa5",
+          "rating": 3
+        },
+        {
+          "san": "Qd8",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4",
+      "moves": [
+        {
+          "san": "Bd2",
+          "rating": 5
+        },
+        {
+          "san": "dxe5",
+          "rating": 3
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4 6.Bd2",
+      "moves": [
+        {
+          "san": "Bxc3",
+          "rating": 5
+        },
+        {
+          "san": "Qd6",
+          "rating": 2
+        },
+        {
+          "san": "exd4",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4 6.Bd2 Bxc3"
+    },
+    {
       "line": "1.d4 d5 2.c4 Nc6 3.Nc3",
       "moves": [
         {
@@ -39,89 +161,7 @@
       ]
     },
     {
-      "line": "1.d4 d5 2.c4 Nc6 3.cxd5",
-      "moves": [
-        {
-          "san": "Qxd5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 Nc6 3.Nf3",
-      "moves": [
-        {
-          "san": "Bg4",
-          "rating": 5
-        },
-        {
-          "san": "e5",
-          "rating": 3
-        }
-      ]
-    },
-    {
       "line": "1.d4 d5 2.c4 Nc6 3.Nc3 e5"
-    },
-    {
-      "line": "1.d4 d5 2.c4 Nc6 3.Nf3 e5"
-    },
-    {
-      "line": "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5",
-      "moves": [
-        {
-          "san": "e3",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3",
-      "moves": [
-        {
-          "san": "e5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5",
-      "moves": [
-        {
-          "san": "Nc3",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3",
-      "moves": [
-        {
-          "san": "Bb4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4",
-      "moves": [
-        {
-          "san": "Bd2",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4 6.Bd2",
-      "moves": [
-        {
-          "san": "Bxc3",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4 6.Bd2 Bxc3"
     },
     {
       "line": "1.d4 d5 2.c4 Nc6 3.Nc3 dxc4",
@@ -129,6 +169,14 @@
         {
           "san": "Nf3",
           "rating": 5
+        },
+        {
+          "san": "d5",
+          "rating": 4
+        },
+        {
+          "san": "e3",
+          "rating": 3
         }
       ]
     },
@@ -138,6 +186,14 @@
         {
           "san": "Nf6",
           "rating": 5
+        },
+        {
+          "san": "Bg4",
+          "rating": 3
+        },
+        {
+          "san": "e6",
+          "rating": 3
         }
       ]
     },
@@ -150,6 +206,14 @@
         {
           "san": "Nf3",
           "rating": 5
+        },
+        {
+          "san": "cxd5",
+          "rating": 4
+        },
+        {
+          "san": "e3",
+          "rating": 3
         }
       ]
     },
@@ -158,16 +222,56 @@
       "moves": [
         {
           "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "dxc4",
           "rating": 4
+        },
+        {
+          "san": "Bb4",
+          "rating": 3
         }
       ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Nc6 3.Nf3",
+      "moves": [
+        {
+          "san": "Bg4",
+          "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 4
+        },
+        {
+          "san": "e5",
+          "rating": 3
+        },
+        {
+          "san": "dxc4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Nc6 3.Nf3 e5"
     },
     {
       "line": "1.d4 d5 2.c4 Nc6 3.Nf3 Bg4",
       "moves": [
         {
-          "san": "Qa4",
+          "san": "cxd5",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
           "rating": 4
+        },
+        {
+          "san": "Qa4",
+          "rating": 3
         }
       ]
     },

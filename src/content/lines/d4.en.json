@@ -12,8 +12,6 @@
     "strategy": "Stakes a claim to e4 and aims for an attack on White's kingside, with unbalanced, fighting play. The price is a weakened kingside, above all the e8-h5 diagonal, which White can test early with pawn sacrifices or a quick kingside pawn storm."
   },
   "1.d4 Nc6": {
-    "name": "Bogoljubov–Mikenas Defence",
-    "background": "Named after Efim Bogoljubov and Vladas Mikėnas. Hypermodern players such as Aron Nimzowitsch and Bogoljubov tried 1...Nc6, but it has never become very popular.",
     "strategy": "Develops a knight towards the centre and prepares ...e5, but blocks the c-pawn, which Black would normally keep free until White's set-up is clear. 2.d5 gains space and chases the knight away, usually to e5. Sound enough, but rare and committal."
   },
   "1.d4 b6": {
@@ -25,8 +23,6 @@
     "strategy": "Prepares ...d5 with a solid pawn chain behind it and keeps the light-squared bishop free. Sound, but Black commits the c-pawn early, and White decides what kind of game follows."
   },
   "1.d4 c5": {
-    "name": "Old Benoni Defence",
-    "background": "The Benoni name goes back to Aaron Reinganum's 1825 book Ben-Oni, which besides defences to the King's and Queen's Gambits analysed the then unknown 1.d4 c5. The line is sometimes called the Blackburne Defence after Joseph Henry Blackburne, the first player known to have used it successfully. It has never attracted serious interest in high-level play, though Alexander Alekhine beat Efim Bogoljubov with it in one game of their second match, in 1934.",
     "strategy": "Attacks d4 at once and challenges the centre from the side. White usually gains space with 2.d5, and that advantage lasts while Black looks for counterplay against the advanced pawn. Playable, but Black starts a step behind in space."
   },
   "1.d4 d6": {
@@ -56,8 +52,6 @@
     "strategy": "Gains queenside space but neglects the centre and leaves the b5-pawn loose: after 2.e4 the bishop on f1 aims at b5, and defending or recovering the pawn costs Black time."
   },
   "1.d4 e5": {
-    "name": "Englund Gambit",
-    "background": "Named after the Swedish player Fritz Englund (1871–1933), who sponsored a thematic tournament in 1932–33 in which every game began with the position after 4.Qd5. Kārlis Bētiņš (1867–1943) introduced the main line with 2...Nc6 and 3...Qe7, and Henry Charlick, the second Australian champion, introduced the 2...d6 line in the early 1890s.",
     "strategy": "Offers the e-pawn for quick development and trap chances, such as a queen raid on the b2-pawn. Accurate play lets White keep the pawn or a clear lead, so the compensation is questionable."
   },
   "1.d4 f6": {
@@ -80,32 +74,85 @@
   "1.d4 b5 2.e4": {
     "strategy": "Occupies the centre with a second pawn and opens the f1-bishop, which now attacks the b5 pawn, and nothing defends it. Black has spent a move on a flank pawn that neither develops a piece nor fights for the centre, and White is ready to punish that."
   },
+  "1.d4 b5 2.Nf3": {
+    "strategy": "A sound developing move that guards d4 and e5, but it leaves the b5 pawn alone: Black gets time to complete the fianchetto, and the flank pawn stops being a target. White keeps an easy game without punishing the early flank move."
+  },
+  "1.d4 b5 2.a4": {
+    "strategy": "Attacks the b5 pawn at once from the flank and makes Black decide whether to push on, defend or trade. It opens the a-file and gives White queenside play, but it spends a move on the wing before the centre is occupied."
+  },
+  "1.d4 b5 2.e4 Bb7": {
+    "strategy": "Answers the threat with a counter-threat: the bishop attacks the unprotected e4 pawn, so a pawn taken on b5 can be won back. It also carries out the idea of ...b5, a bishop on the long diagonal; Black accepts White's bigger centre and plays for activity."
+  },
+  "1.d4 b5 2.e4 a6": {
+    "strategy": "Defends the b5 pawn with a pawn, so taking it with the bishop would merely lose the bishop for a pawn. Black keeps the queenside space and the fianchetto in reserve, but the move develops nothing and White's bigger centre keeps the initiative for now."
+  },
+  "1.d4 b5 2.e4 c6": {
+    "strategy": "Holds b5 with a solid pawn chain, but the pawn on c6 closes the long diagonal that ...b5 was meant to open for the bishop and takes the square from the b8-knight. Black keeps the pawn at the price of a cramped, passive game against White's centre."
+  },
+  "1.d4 b5 2.e4 Bb7 3.Bxb5": {
+    "name": "Polish Defence: Spassky Gambit Accepted",
+    "strategy": "Wins the pawn the opening left hanging, but e4 is unprotected and Black regains it with the bishop, which then eyes g2. The bishop that guarded g2 has left f1, so White has to develop carefully against Black's active pieces."
+  },
+  "1.d4 b5 2.e4 Bb7 3.Bd3": {
+    "strategy": "Defends e4 and keeps the b5 pawn under attack along the same diagonal: ...Bxe4 would lose the bishop for a pawn, so Black must defend b5 instead. White keeps the big centre intact and develops, though the bishop on d3 blocks the d-pawn."
+  },
+  "1.d4 b5 2.e4 Bb7 3.Nf3": {
+    "strategy": "Develops the knight but leaves e4 unprotected, so Black can take it at once: after the bishop takes e4 and White takes b5, the pawns are traded and material is level. A natural move that does not exploit Black's early flank play."
+  },
   "1.d4 b6 2.c4": {
     "strategy": "Takes space and prepares to build a broad centre with e4, which ...b6 does nothing to stop directly. Black has to contest that centre with pieces from a distance, so White's task is to keep the pawns well supported."
   },
-  "1.d4 c5 2.d5": {
-    "name": "Benoni Defence: Old Benoni",
-    "strategy": "Gains space and cramps Black: the pawn takes c6 and e6 away from Black's pieces and closes the centre. White gets a space advantage that Black must undermine or be squeezed by; the price is that d5 can become a target."
+  "1.d4 b6 2.Nf3": {
+    "strategy": "Develops a piece and covers e5 and d4 while committing neither the c-pawn nor the e-pawn. White keeps the choice between a broad pawn centre and a slower set-up until Black shows how it will use the bishop on b7."
   },
-  "1.d4 c5 2.Nf3": {
-    "strategy": "Develops and adds a second defender to d4, so ...cxd4 can be met by recapturing with a piece. White keeps the structure flexible, free to advance d5 later or to open the position, and does not commit the c-pawn yet."
+  "1.d4 b6 2.e4": {
+    "strategy": "Occupies the centre at once with a second pawn and accepts the fight against Black's long-diagonal bishop: once ...Bb7 hits e4 the pawn needs support from White's pieces. A direct game in which Black has to show that piece pressure can undermine the pawns."
   },
-  "1.d4 c5 2.dxc5": {
-    "name": "Benoni Defence: Benoni Gambit Accepted",
-    "strategy": "Takes the pawn, but swaps White's central d-pawn for a flank pawn and leaves White holding an extra pawn against quick development. The capture gives White nothing: Black has easy ways to win the pawn back."
+  "1.d4 b6 2.c4 Bb7": {
+    "strategy": "The point of ...b6: the bishop looks down the long diagonal at e4 and the kingside, so White cannot simply push the e-pawn. Black leaves the centre to White for now and counts on that pressure to make the centre awkward to build."
   },
-  "1.d4 c5 2.c4": {
-    "strategy": "Takes space on the queenside, but d4 is protected only by the queen: after ...cxd4 White must recapture with the queen, which is then exposed to ...Nc6 with a gain of time for Black. Playable, but it hands Black an easy way to simplify."
+  "1.d4 b6 2.c4 e6": {
+    "strategy": "Opens the f8-bishop and covers d5, then lets White build the centre with a pawn on e4 and attacks it from a distance. Black accepts less space for flexible piece play and the chance of a flank pawn break against the centre."
   },
-  "1.d4 c5 2.b4": {
-    "strategy": "Throws the b-pawn at c5: after ...cxb4 White is simply a pawn down. The d4 pawn is relieved of its attacker, but White has no concrete compensation for the pawn.",
-    "name": "Benoni Defence: Zilbermints-Benoni Gambit"
+  "1.d4 b6 2.c4 Nf6": {
+    "strategy": "Develops with a hold on e4 and d5, so a central pawn push costs White a tempo or a pawn. Black stays flexible and can still choose between a solid pawn structure and an early fight for the centre."
+  },
+  "1.d4 b6 2.c4 Bb7 3.Nc3": {
+    "strategy": "Develops the knight to support a later e4 and to guard d5 and e4, the squares Black's bishop aims at. A natural, solid move that keeps the plan of a broad centre in place."
+  },
+  "1.d4 b6 2.c4 Bb7 3.Nf3": {
+    "strategy": "Develops the knight in front of Black's long-diagonal bishop, where the e- and g-pawns support it, and keeps the central pawns flexible. White gets a sound game without the sharpness of an early e4."
+  },
+  "1.d4 b6 2.c4 Bb7 3.e3": {
+    "strategy": "Solid: backs up d4 and opens the f1-bishop, but it shuts in the c1-bishop and gives up the immediate pawn centre. A quiet, sound set-up that lets Black's pieces settle on good squares."
+  },
+  "1.d4 b6 2.c4 Bb7 3.Nc3 e5": {
+    "name": "English Defence: Eastbourne Gambit",
+    "strategy": "Offers the e-pawn at once to open the centre for the bishop on b7. After dxe5 Black cannot regain the pawn immediately and has only open lines to show for it, so this is a gamble on activity against a solid centre."
+  },
+  "1.d4 b6 2.c4 Bb7 3.Nc3 e6": {
+    "strategy": "Opens the f8-bishop and prepares ...Bb4, which would hit the knight that supports e4, so White cannot establish a pawn there without a fight. Black lets White have the centre and undermines it with pieces; solid, with long-term counterplay."
+  },
+  "1.d4 b6 2.c4 Bb7 3.Nc3 Nf6": {
+    "strategy": "Develops with a second attacker on e4, so that pawn cannot be played at once: it would be attacked twice and defended once. Black keeps the pawn structure flexible, and White must prepare its centre with a quiet move first."
   },
   "1.d4 c6 2.c4": {
     "strategy": "Takes space and the d5 square: Black's ...d5 will now be met by a fight for the centre rather than a free grab of space. White heads for a game with pawns on c4 and d4 against Black's compact set-up."
   },
   "1.d4 c6 2.Nf3": {
     "strategy": "A flexible developing move that guards d4 and eyes e5 without committing the c-pawn or the e-pawn yet. White waits to see how Black means to set up before choosing a plan."
+  },
+  "1.d4 c6 2.e4": {
+    "strategy": "Builds a broad pawn centre at once. Black's c6 pawn has already prepared ...d5, so the centre is challenged immediately, and the game becomes the solid defence in which Black accepts less space for a sound pawn structure and a freely developing light-squared bishop."
+  },
+  "1.d4 c6 2.Nf3 Nf6": {
+    "strategy": "Develops with an eye on e4 and d5, and the c6 pawn already supports ...d5 and keeps the b5 and d5 squares from White's pieces. A flexible, solid set-up, though White has had a free hand in the centre."
+  },
+  "1.d4 c6 2.Nf3 d5": {
+    "strategy": "Takes the centre with the pawn the c6 pawn supports, and frees the c8-bishop to develop outside the pawn chain. Black commits to a solid central pair and decides the rest of the set-up by what White does with the c-pawn and the bishop."
+  },
+  "1.d4 c6 2.Nf3 g6": {
+    "strategy": "Prepares to fianchetto the king's bishop, to control the centre from a distance instead of occupying it. The set-up is sound, but Black does nothing about the centre yet, and White can build a broad one at leisure."
   },
   "1.d4 d6 2.Nf3": {
     "strategy": "Develops the knight to the square that watches e5, so Black's natural central strike loses its sting. White keeps all pawn moves for later and builds with pieces first, a flexible approach that asks Black to show his set-up before White shows his."
@@ -114,133 +161,27 @@
     "name": "Old Indian Defence",
     "strategy": "Adds a second central pawn, controls d5 and claims space. White chooses a fight for the centre with pawns rather than quiet development, and invites Black to challenge it at once. If Black does not, White builds a broad, space-gaining set-up."
   },
-  "1.d4 e5 2.dxe5": {
-    "strategy": "Takes the pawn, the sound answer to a gambit that offers it for no concrete return: White is a pawn up and Black must prove his compensation. White's task is calm development while avoiding traps against loose pieces and pawns; the extra pawn is the long-term trump."
-  },
-  "1.d4 e5 2.d5": {
-    "name": "Englund Gambit Declined",
-    "strategy": "Declines by closing the centre: the e5 pawn is safe from capture, but White passes up the free pawn and the chance to punish the gambit. Black develops freely and gets an easy, equal game."
-  },
-  "1.d4 e5 2.Nf3": {
-    "name": "Englund Gambit Declined: Reversed Alekhine",
-    "strategy": "Develops and protects d4, but lets Black push the pawn forward with gain of time: it attacks the knight and takes space. White avoids the gambit but is a move behind in the fight for the centre."
-  },
-  "1.d4 e5 2.e3": {
-    "strategy": "Supports d4 and frees the king's bishop, but declines the pawn: Black can trade on d4 and reach a balanced, open game with the gambit gone. White passes up the chance to punish 1...e5 for a quiet game of equal chances.",
-    "name": "Englund Gambit Declined: Reversed French"
-  },
-  "1.d4 g6 2.c4": {
-    "strategy": "Takes space on the queenside as well as in the centre, so Black's fianchetto bishop will face a broad pawn duo. The game becomes White's space against Black's counterpunches at the centre from the flanks."
-  },
-  "1.d4 g6 2.e4": {
-    "strategy": "Builds the full pawn centre straight away and invites Black to attack it. White gets space and the initiative, Black gets targets: the game tests whether the broad centre is strong or overextended."
-  },
-  "1.d4 g6 2.Nf3": {
-    "strategy": "The flexible developing move: it guards d4, eyes e5 and keeps the choice of central set-up open. White commits to nothing and waits to see how Black uses the offer of the centre."
-  },
-  "1.d4 g6 2.h4": {
-    "strategy": "An unorthodox flank thrust aiming at h5, to break open Black's kingside. It costs time and develops nothing, so it is dangerous only if Black ignores it and lets the plan work."
-  },
-  "1.d4 g6 2.Nc3": {
-    "strategy": "Develops and prepares e4, but blocks the c-pawn and gives Black time to stake a claim in the centre with ...d5. A sound set-up, but it mostly heads for the same pawn centre that 2.e4 builds directly."
-  },
-  "1.d4 Nc6 2.d5": {
-    "strategy": "Gains space by attacking the knight with a pawn that cramps Black's position. It also takes the game out of the usual transpositions. The pawn is advanced early, so White must be ready for Black to strike back at the centre."
-  },
-  "1.d4 Nc6 2.c4": {
-    "strategy": "Takes more of the centre and queenside space at once. With Black's knight on c6 blocking the c-pawn, Black cannot challenge the pawn pair with ...c5 or ...c6, so White gets a free space edge."
-  },
-  "1.d4 b5 2.e4 Bb7": {
-    "strategy": "Answers the threat with a counter-threat: the bishop attacks the unprotected e4 pawn, so a pawn taken on b5 can be won back. It also carries out the idea of ...b5, a bishop on the long diagonal; Black accepts White's bigger centre and plays for activity."
-  },
-  "1.d4 b5 2.e4 Bb7 3.Bxb5": {
-    "name": "Polish Defence: Spassky Gambit Accepted",
-    "strategy": "Wins the pawn the opening left hanging, but e4 is unprotected and Black regains it with the bishop, which then eyes g2. The bishop that guarded g2 has left f1, so White has to develop carefully against Black's active pieces."
-  },
-  "1.d4 b6 2.c4 Bb7": {
-    "strategy": "The point of ...b6: the bishop looks down the long diagonal at e4 and the kingside, so White cannot simply push the e-pawn. Black leaves the centre to White for now and counts on that pressure to make the centre awkward to build."
-  },
-  "1.d4 b6 2.c4 Bb7 3.Nc3": {
-    "strategy": "Develops the knight to support a later e4 and to guard d5 and e4, the squares Black's bishop aims at. A natural, solid move that keeps the plan of a broad centre in place."
-  },
-  "1.d4 b6 2.c4 Bb7 3.Nc3 e5": {
-    "name": "English Defence: Eastbourne Gambit",
-    "strategy": "Offers the e-pawn at once to open the centre for the bishop on b7. After dxe5 Black cannot regain the pawn immediately and has only open lines to show for it, so this is a gamble on activity against a solid centre."
-  },
-  "1.d4 c5 2.d5 Nf6": {
-    "name": "Benoni Defence: Benoni-Indian Defence",
-    "strategy": "Develops and challenges the d5 pawn at once, so White must keep it supported. Black leaves the rest of the pawn structure flexible and plays for pressure against the advanced pawn."
-  },
-  "1.d4 c5 2.d5 d6": {
-    "name": "Benoni Defence: Old Benoni",
-    "strategy": "Shores up c5 and the e5 square, giving a solid pawn chain and an open diagonal for the c8-bishop. Black accepts less space for a sound structure and keeps the choice between a fianchetto set-up and a central pawn chain."
-  },
-  "1.d4 c5 2.d5 e5": {
-    "name": "Benoni Defence: Old Benoni",
-    "strategy": "Grabs e5 and locks the centre: solid, but passive. With pawns on c5 and e5 the structure is fixed, the game becomes one of manoeuvring, and Black's play comes later from pawn breaks on a wing."
-  },
-  "1.d4 c5 2.d5 f5": {
-    "name": "Benoni Defence: Old Benoni, Mujannah Formation",
-    "strategy": "Takes e4 under control with a pawn, but loosens the king's cover and the e6 square, which White's d5 pawn already eyes. A double-edged choice that gives White a clear target for central play."
-  },
-  "1.d4 c5 2.d5 Na6": {
-    "name": "Benoni Defence: Snail Variation",
-    "strategy": "A slow, unusual development: the knight guards c5 and may continue to c7, but at the edge of the board it does little for the centre. Harmless, yet White can use the time to take more space."
-  },
-  "1.d4 c5 2.d5 d6 3.Nc3": {
-    "strategy": "Develops the knight to support the d5 pawn and prepare a central advance, while the c-pawn stays free for other tasks. A natural way to back up the space White has won."
-  },
-  "1.d4 c5 2.d5 e5 3.e4": {
-    "strategy": "Completes the pawn wall: d5 and e4 mirror Black's c5 and e5 and give White the larger share of space in the centre and on the kingside. The position is closed, and the fight is deferred to piece manoeuvres."
-  },
-  "1.d4 c5 2.d5 f5 3.e4": {
-    "name": "Benoni Defence: Benoni-Staunton Gambit",
-    "strategy": "Offers the e-pawn to lure Black's f-pawn away from its king: after ...fxe4 the diagonal to e8 is open and Qh5+ comes with check. White gambles on the exposed king and a lead in development."
-  },
-  "1.d4 c5 2.d5 Nf6 3.Nc3": {
-    "strategy": "Adds a second defender to d5, so the pawn is solid, and prepares e4 to complete the centre. A natural, harmonious set-up in which White's space is backed by pieces."
-  },
-  "1.d4 c5 2.d5 Nf6 3.Nf3": {
-    "name": "Benoni Defence: Benoni-Indian Defence, Kingside Move Order",
-    "strategy": "Develops the kingside knight first and leaves open how d5 will be supported, by a pawn or by the other knight. It keeps the position flexible, and Black's queenside pawns have room to advance."
-  },
-  "1.d4 c5 2.d5 d6 3.Nc3 g6": {
-    "name": "Benoni Defence: Old Benoni, Schmid Variation",
-    "strategy": "Prepares to fianchetto the king's bishop, which will press along the long diagonal on the c3 knight and the centre. Black answers White's space with piece pressure, and may even trade bishop for knight to double White's pawns."
-  },
-  "1.d4 c5 2.d5 e5 3.e4 d6": {
-    "name": "Benoni Defence: Semi-Benoni",
-    "strategy": "Supports e5 and c5 and frees the c8-bishop, a solid chain whose drawback is the lack of space. Black develops the pieces behind it and aims to open the position with a pawn break on a wing when ready."
-  },
-  "1.d4 c5 2.d5 Nf6 3.Nc3 Qa5": {
-    "name": "Benoni Defence: Woozle",
-    "strategy": "Pins the c3 knight to the king, but the pin is easy to break by developing the c1-bishop, and the queen has left the centre early. Black spends a tempo on a move that gives it little."
-  },
-  "1.d4 c5 2.d5 Nf6 3.Nf3 c4": {
-    "name": "Benoni Defence: Hawk Variation",
-    "strategy": "Gains queenside space and takes d3 from White's bishop, but the advanced pawn stands unsupported and can become a target for a pawn lever, and Black gives up the flexible c5 pawn."
-  },
-  "1.d4 c5 2.d5 Nf6 3.Nf3 b5": {
-    "name": "Indian Defence: Pseudo-Benko",
-    "strategy": "Pushes the b-pawn in the manner of the Benko pawn sacrifice, but White has no pawn on c4 to attack, so nothing opens: Black gains a little space and weakens the queenside pawns, with no target to show for it."
-  },
-  "1.d4 c5 2.dxc5 Na6": {
-    "name": "Benoni Defence: Benoni Gambit, Schlenker Defence",
-    "strategy": "Goes for the pawn at once with a knight, but from the edge of the board and without fighting for the centre. White can keep the pawn only by spending a move to defend it."
-  },
-  "1.d4 c5 2.dxc5 b6": {
-    "name": "Benoni Defence: Cormorant Gambit",
-    "strategy": "Gives a second pawn to open the a-file: after the exchanges on b6 Black is a pawn down, with only some pressure on a2 to show for it. Thin compensation."
-  },
-  "1.d4 c6 2.Nf3 Nf6": {
-    "strategy": "Develops with an eye on e4 and d5, and the c6 pawn already supports ...d5 and keeps the b5 and d5 squares from White's pieces. A flexible, solid set-up, though White has had a free hand in the centre."
+  "1.d4 d6 2.e4": {
+    "strategy": "Occupies the centre with a second pawn and asks Black to fight a broad centre from the flank. Black has to undermine it with pieces rather than contest it directly. White gains space and easy development, and must keep the centre guarded against that later counterattack."
   },
   "1.d4 d6 2.c4 e5": {
     "name": "Rat Defence: English Rat",
     "strategy": "Strikes at the centre at once, with the d6-pawn supporting the push, instead of waiting behind White's pawns. Black prefers a direct fight to a cramped game: White has to settle the tension in the centre, and Black gets a share of the space and open lines for the pieces."
   },
+  "1.d4 d6 2.c4 Nf6": {
+    "strategy": "Develops the knight with pressure on e4 and keeps the central decision open: Black can still challenge the centre with the e-pawn, or from a distance with a fianchettoed bishop. Sound and flexible; Black concedes White a little space in return for a position without weaknesses."
+  },
+  "1.d4 d6 2.c4 g6": {
+    "strategy": "Prepares to fianchetto the king's bishop, so Black fights White's centre from a distance instead of occupying it. White is allowed a broad pawn centre; Black plans to undermine it with the long-diagonal bishop and later pawn breaks, accepting less space for a solid king's side."
+  },
   "1.d4 d6 2.c4 e5 3.dxe5": {
     "strategy": "Takes the pawn, but Black's d-pawn can simply take it back, so the move settles the centre rather than wins material. White heads for a quiet, simplified game in which the c4 pawn keeps d5 under control. Black must decide between recapturing at once and playing for more activity."
+  },
+  "1.d4 d6 2.c4 e5 3.Nf3": {
+    "strategy": "Attacks the e5 pawn with a developing move instead of capturing it, keeping the tension. If Black pushes the pawn to e4, it gains space but becomes a target for White's pieces, and Black has to spend moves defending it."
+  },
+  "1.d4 d6 2.c4 e5 3.Nc3": {
+    "strategy": "Develops a knight but lets Black release the tension on its own terms. Black can open the centre by taking on d4 and gain time against the recapturing queen, so White's space edge melts away. Sound but passive, it wins nothing and gives Black easy development."
   },
   "1.d4 d6 2.c4 e5 3.dxe5 Nc6": {
     "name": "Rat Defence: English Rat, Lisbon Gambit",
@@ -249,6 +190,9 @@
   "1.d4 d6 2.c4 e5 3.dxe5 Be6": {
     "name": "Rat Defence: English Rat, Pounds Gambit",
     "strategy": "Hits the undefended pawn on c4 while the d6-pawn still attacks e5, so Black makes two threats at once. But if White parries accurately, Black is simply a pawn down for some activity."
+  },
+  "1.d4 d6 2.c4 e5 3.dxe5 dxe5": {
+    "strategy": "Recaptures the pawn and restores the balance in the centre. If White trades queens, Black loses the right to castle but has a sound position with no weaknesses and easy development. A quiet, safe choice for a player who prefers solidity to the risks of a gambit."
   },
   "1.d4 d6 2.Nf3 Bg4": {
     "name": "Wade Defence",
@@ -265,135 +209,96 @@
   "1.d4 d6 2.Nf3 Bg4 3.c4": {
     "strategy": "Takes space with a second central pawn and controls d5, preparing a broad pawn centre. White sets the agenda; Black's early bishop sortie has to prove that it gives enough counterplay against a big centre built up behind it."
   },
+  "1.d4 d6 2.Nf3 Bg4 3.e4": {
+    "strategy": "Builds the pawn centre at once. If Black trades the bishop on f3, White gets the two bishops and a broad centre; if not, the pawns cramp Black. White sets the agenda, and Black must prove that undermining the centre from the flanks is worth the time spent."
+  },
+  "1.d4 d6 2.Nf3 Bg4 3.Nc3": {
+    "strategy": "Develops the knight and prepares to build a centre with e4. Sound and flexible, it keeps the pawn structure intact, but it claims less space than a pawn move and leaves Black free to decide whether to trade the bishop for the knight on f3."
+  },
   "1.d4 d6 2.Nf3 Bg4 3.c4 Nd7": {
     "strategy": "Develops the knight to a square that supports a later central pawn push, without blocking the f6 square of the other knight. It keeps the structure compact, though b7 has had no defender since the bishop left c8."
   },
+  "1.d4 d6 2.Nf3 Bg4 3.c4 Nf6": {
+    "strategy": "Develops the knight to its natural square, adding control of e4 and d5, and leaves the other knight free to choose its post later. Sound and flexible; Black accepts that b7 stays unguarded for the moment, so White's queen can attack it with tempo."
+  },
+  "1.d4 d6 2.Nf3 Bg4 3.c4 Bxf3": {
+    "strategy": "Trades the bishop for the knight before White has committed to anything. White recaptures with a pawn and gets the two bishops and a broad centre for a slightly damaged pawn structure, while Black has little to show for the time spent."
+  },
   "1.d4 d6 2.Nf3 Bg4 3.c4 Nd7 4.Qb3": {
     "strategy": "Attacks the b7 pawn, which has had no defender since the bishop left c8, and develops the queen with a threat. White gains a tempo, but commits the queen early to the queenside, and Black must answer the threat at once."
+  },
+  "1.d4 d6 2.Nf3 Bg4 3.c4 Nd7 4.e4": {
+    "strategy": "Builds a full pawn centre and invites Black to give up the bishop for the knight. After that trade White has the two bishops and a broad centre to attack from the flanks; otherwise the pawns cramp Black. White sets the agenda, and Black must find counterplay against the centre."
+  },
+  "1.d4 d6 2.Nf3 Bg4 3.c4 Nd7 4.Nc3": {
+    "strategy": "Develops the knight and puts it where it supports a later e4, keeping the pawn structure intact. Sound and quiet, but less ambitious than the immediate central advance: Black gets time to set up solidly and reach a comfortable game."
   },
   "1.d4 d6 2.Nf3 Bg4 3.c4 Nd7 4.Qb3 Rb8": {
     "name": "Zukertort Opening: Wade Defence, Chigorin Plan",
     "strategy": "Defends b7 with the rook and keeps the pawn structure intact, at the price of a passive rook and the right to castle queenside. Development goes on undisturbed, so the queen's raid has won White little more than a tempo."
   },
-  "1.d4 e5 2.d5 Bc5": {
-    "strategy": "Develops the bishop to an active diagonal at once, aimed at f2. With the centre closed Black has given no pawn and White has taken none, so Black gets a healthy game; White's space gain is not backed by development."
+  "1.d4 d6 2.Nf3 Bg4 3.c4 Nd7 4.Qb3 Qc8": {
+    "strategy": "Guards b7 with the queen and keeps both rooks and castling on either side, at the price of a passive queen that hems in the bishop's retreat to c8. The raid on b7 has won White a tempo and little else, but Black's pieces are rather tied up for now."
   },
-  "1.d4 e5 2.d5 Bc5 3.e4": {
-    "strategy": "Grabs space but walks into a double threat: the queen goes to h4, attacking the e4 pawn and, with the bishop, the f2 pawn that only the king guards. White must defend at once and hands Black the initiative."
+  "1.d4 d6 2.Nf3 Bg4 3.c4 Nd7 4.Qb3 Bxf3": {
+    "strategy": "Gives up the bishop for the knight at once, and 5.Qxb7? fails to 5...Bxb7. White recaptures with a pawn, getting the two bishops in return for doubled pawns, but b7 still needs defending, so Black has spent two moves for little."
   },
-  "1.d4 e5 2.d5 Bc5 3.e4 Qh4": {
-    "name": "Englund Gambit Declined: Diemer Counterattack",
-    "strategy": "Springs the point of the bishop's sortie: the queen attacks e4 and, together with the bishop, f2, where mate is threatened. White has to defend at once, and Black takes the initiative with active pieces."
+  "1.d4 g6 2.c4": {
+    "strategy": "Takes space on the queenside as well as in the centre, so Black's fianchetto bishop will face a broad pawn duo. The game becomes White's space against Black's counterpunches at the centre from the flanks."
   },
-  "1.d4 e5 2.dxe5 Nc6": {
-    "strategy": "Develops a piece and attacks the e5 pawn at once, aiming to win it back through pressure and quick development rather than by offering more material. Black accepts a pawn deficit for activity while White has to defend a pawn far from his other pieces."
+  "1.d4 g6 2.e4": {
+    "strategy": "Builds the full pawn centre straight away and invites Black to attack it. White gets space and the initiative, Black gets targets: the game tests whether the broad centre is strong or overextended."
   },
-  "1.d4 e5 2.dxe5 d6": {
-    "name": "Englund Gambit: Hartlaub-Charlick Gambit",
-    "background": "Claude Bloodgood published a book on the gambit in 1998, Blackburne-Hartlaub Gambit, presenting theory he compiled during his prison sentence.",
-    "strategy": "Offers a second pawn: after White takes on d6, Black recaptures with the bishop and gets open lines and quick development at the cost of material. White should stay ahead with careful, unhurried play but must watch for attacking tricks."
+  "1.d4 g6 2.Nf3": {
+    "strategy": "The flexible developing move: it guards d4, eyes e5 and keeps the choice of central set-up open. White commits to nothing and waits to see how Black uses the offer of the centre."
   },
-  "1.d4 e5 2.dxe5 f6": {
-    "name": "Englund Gambit: Soller Gambit",
-    "strategy": "Attacks e5 with a pawn to open lines and develop with tempo for the pawn given. The move weakens the kingside, and White can answer by ignoring the offer and building a strong centre, keeping a clear edge."
+  "1.d4 g6 2.h4": {
+    "strategy": "An unorthodox flank thrust aiming at h5, to break open Black's kingside. It costs time and develops nothing, so it is dangerous only if Black ignores it and lets the plan work."
   },
-  "1.d4 e5 2.dxe5 Qh4": {
-    "name": "Englund Gambit: Mosquito Gambit",
-    "strategy": "Brings the queen out at once, eyeing f2, but nothing supports it: White chases it with a developing move such as Nf3 or g3 and keeps the extra pawn. Black has lost time as well as a pawn."
-  },
-  "1.d4 e5 2.dxe5 Nc6 3.Nf3": {
-    "strategy": "Defends the pawn with a developing move, the simplest way to keep the extra material. The knight is ideally placed on f3, and White can finish development in peace; the only challenge is to see the tactical tricks Black's quick development sets."
-  },
-  "1.d4 e5 2.dxe5 Nc6 3.Nf3 Qe7": {
-    "name": "Englund Gambit: Main Line",
-    "background": "Henri Grob frequently used this version of the gambit, with 3...Qe7.",
-    "strategy": "Puts a second attacker on e5, which only the knight defends, so Black threatens to win the pawn back at once. The queen steps out early, but it also has ideas of swinging to b4 to pick up the b2 pawn if White develops carelessly."
-  },
-  "1.d4 e5 2.dxe5 Nc6 3.Nf3 f6": {
-    "name": "Englund Gambit: Soller Gambit Deferred",
-    "background": "The gambit is named after Karl Soller. Detailed analysis in print has been limited to two German-language works by Stefan Bücker from the 1980s and 1990s, and in recent years International Master Kamran Shirazi has played it more than 1,400 times in online blitz and bullet games.",
-    "strategy": "Challenges e5 with a pawn to open the f-file and the centre for the pieces, accepting a pawn deficit for activity. It weakens the kingside, and White keeps some advantage with calm play."
-  },
-  "1.d4 e5 2.dxe5 Nc6 3.Nf3 Bc5": {
-    "name": "Englund Gambit: Felbecker Gambit",
-    "strategy": "Develops the bishop toward f2 and prepares a pawn lever against e5, but it does not touch e5 itself, so White keeps the pawn for now. Black bets on rapid development rather than direct recovery of the material."
-  },
-  "1.d4 e5 2.dxe5 Nc6 3.Nf3 Nge7": {
-    "name": "Englund Gambit: Zilbermints Gambit",
-    "background": "The gambit is named after the American player Lev D. Zilbermints, who had extensive analysis of the line published in Blackmar Diemer Gambit World (issues 61–63). Stefan Bücker analysed it further in Kaissiber 5 and 6.",
-    "strategy": "Intends to attack e5 a second time via g6, but needs two moves and blocks the f8-bishop, so White has time to defend or develop. A slow route to regain the pawn, relying on arriving before White consolidates."
-  },
-  "1.d4 e5 2.dxe5 Nc6 3.Nf3 Qe7 4.Qd5": {
-    "name": "Englund Gambit: Stockholm Variation",
-    "strategy": "Holds the pawn by defending it from the centre with the queen, instead of letting Black win it back with a lead in development. The queen is out early and exposed to attacks with tempo; White gambles that the extra pawn outweighs this."
-  },
-  "1.d4 e5 2.Nf3 e4": {
-    "name": "Englund Gambit Declined: Reversed Krebs",
-    "strategy": "Gains space and a tempo: the pawn hits the knight, which must move. Black takes more of the centre and cramps White's kingside development, accepting that the advanced pawn may become a target later."
-  },
-  "1.d4 e5 2.Nf3 e4 3.Ng1": {
-    "name": "Englund Gambit Declined: Reversed Brooklyn",
-    "strategy": "Retreats to the starting square: the knight has lost two moves while Black's pawn has gained space on e4. White avoids complications but trails in development and space and lets Black play comfortably."
-  },
-  "1.d4 e5 2.Nf3 e4 3.Ne5": {
-    "name": "Englund Gambit Declined: Reversed Mokele Mbembe",
-    "strategy": "Jumps into the centre, but ...d6 kicks the knight away again, so Black gains time and space while White gets no lasting outpost. White's pieces end up tied to repairing the damage."
+  "1.d4 g6 2.Nc3": {
+    "strategy": "Develops and prepares e4, but blocks the c-pawn and gives Black time to stake a claim in the centre with ...d5. A sound set-up, but it mostly heads for the same pawn centre that 2.e4 builds directly."
   },
   "1.d4 g6 2.h4 Nf6": {
     "strategy": "The natural developing reply: the knight stands in front of the h-pawn's path and joins the g6-pawn in attacking h5, so a push there is not free. Black keeps the usual fianchetto plan and the centre can wait."
+  },
+  "1.d4 g6 2.h4 Bg7": {
+    "strategy": "The usual fianchetto, ignoring the h-pawn: the bishop presses on d4 and stands ready to cover h8 if the h-file opens. The pawn's march achieves little against it, and Black keeps a solid, flexible position while White has committed a flank pawn early."
+  },
+  "1.d4 g6 2.h4 h5": {
+    "strategy": "Stops the h-pawn dead and keeps the kingside shut. The price is the g5 square, which White's bishop can occupy with the h4-pawn behind it, and a fixed pawn on h5 that can become a target."
   },
   "1.d4 g6 2.h4 Nf6 3.h5": {
     "name": "Modern Defence: Lizard Defence, Pirc-Diemer Gambit",
     "strategy": "Offers a pawn to open the h-file: h5 is attacked by the knight and the g-pawn and defended only by the rook. Black can simply take it with the knight, backed by g6, and White has nothing concrete to show for the pawn."
   },
+  "1.d4 g6 2.h4 Nf6 3.Nf3": {
+    "strategy": "Develops the kingside knight and keeps the centre flexible. An early h4 is a flank gamble that only pays if development follows, and the knight covers h4 and g5 while the other pieces come out. Black has no target yet, and White can still choose between c4, Nc3 and e3."
+  },
+  "1.d4 g6 2.h4 Nf6 3.Nc3": {
+    "strategy": "Develops the queenside knight to a good square, eyeing d5 and e4 and ready to support a quick e4. The h-pawn's advance is not yet backed by pieces, and Black can claim a share of the centre at once, so White has to go on developing sensibly."
+  },
+  "1.d4 g6 2.h4 Nf6 3.c4": {
+    "strategy": "Builds the usual pair of centre pawns and heads for a normal queen's pawn game in which the early h-pawn move is a spent tempo. Nothing is lost outright, but Black develops freely and challenges the centre while the h-pawn does little."
+  },
   "1.d4 g6 2.Nc3 Bg7": {
     "strategy": "Puts the bishop on its ideal diagonal, where it eyes the d4-pawn and the whole long diagonal. Black lets White build a centre, to be attacked later from the flanks, and keeps every set-up open."
+  },
+  "1.d4 g6 2.Nc3 Nf6": {
+    "strategy": "Develops the knight to its natural square and hits e4 before White has a pawn there, so a full centre costs White some effort. Black still has the bishop's fianchetto to complete, and keeps the choice of how to attack the centre once White commits to it."
+  },
+  "1.d4 g6 2.Nc3 d6": {
+    "strategy": "Prepares for a big white centre with a compact set-up: the pawn controls e5 and c5, and the fianchettoed bishop will bear on d4 while Black waits. Black accepts less space for now and plans to undermine the centre with pieces and pawn breaks later."
+  },
+  "1.d4 g6 2.Nc3 d5": {
+    "strategy": "Claims the centre with a pawn straight away instead of waiting. It is sound and solid, but White's knight already presses d5, and a quick e4 or bishop development leaves White with the freer game."
   },
   "1.d4 g6 2.Nc3 Bg7 3.e4": {
     "strategy": "Completes the pawn centre with the knight already developed, reaching the standard set-up against the fianchetto. The d4-pawn is attacked by the bishop and defended by the queen, which White accepts: space and a free hand against Black's counterplay."
   },
-  "1.d4 Nc6 2.c4 e5": {
-    "strategy": "Strikes at once: the d4-pawn is attacked by the pawn and the knight and defended only by the queen. White must settle the tension, and Black gets a say in the centre in exchange for the time the knight took."
+  "1.d4 g6 2.Nc3 Bg7 3.Nf3": {
+    "strategy": "Develops the kingside knight and adds a second defender to d4, which blunts the bishop's pressure on the long diagonal without committing the e-pawn. White keeps a flexible, controlled set-up, but gives Black time to challenge the centre before White has built it."
   },
-  "1.d4 Nc6 2.c4 e5 3.d5": {
-    "strategy": "Saves the d4-pawn by driving the knight away and gains space with tempo. White gets a spacious, closed centre; Black must find a good square for the knight and then undermine the pawn chain."
-  },
-  "1.d4 Nc6 2.c4 e5 3.dxe5": {
-    "strategy": "Gives up the central tension and the space gained. After the knight recaptures, it attacks the c4-pawn, which nothing defends, so White must spend time or offer the pawn while Black's knight is already active."
-  },
-  "1.d4 Nc6 2.c4 e5 3.d5 Nce7": {
-    "name": "Bogoljubov–Mikenas Defence: Lithuanian Variation",
-    "strategy": "Steps back to a flexible square, from which the knight eyes the d5-pawn and can go to g6. Black concedes space for a compact position with a strong e5 pawn, and prepares to attack White's centre with a pawn break in a closed game."
-  },
-  "1.d4 Nc6 2.c4 e5 3.d5 Nd4": {
-    "name": "Bogoljubov–Mikenas Defence: Cannstatter Variation",
-    "strategy": "Centralises the knight on a square protected by the e5-pawn. But White can drive it away with e3 and gain a tempo, and the knight has little future there, so Black risks falling behind in development against White's space edge."
-  },
-  "1.d4 Nc6 2.c4 e5 3.dxe5 Nxe5": {
-    "strategy": "Recaptures with a centralised knight that attacks the loose c4-pawn. White must give a pawn or spend a tempo to protect it, so Black quickly gets active play for free."
-  },
-  "1.d4 Nc6 2.c4 e5 3.dxe5 Nxe5 4.Nc3": {
-    "strategy": "Develops instead of defending the pawn, offering c4 as a gambit for quick development and open lines. It is a real gambit, not a free one: Black can take the pawn and keep it if White has no punishing follow-up."
-  },
-  "1.d4 Nc6 2.c4 e5 3.dxe5 Nxe5 4.Nc3 Nxc4": {
-    "name": "Bogoljubov–Mikenas Defence: Pozarek Gambit",
-    "strategy": "Accepts the gambit and wins a pawn, but the knight stands loose on c4 and has left the centre. A queen move to d4 would hit it and the g7-pawn at once, so Black must develop accurately and cannot be greedy twice."
-  },
-  "1.d4 Nc6 2.d5 Nb8": {
-    "name": "Montevideo Defence",
-    "strategy": "Goes back to the start square, which looks like a lost tempo but costs little: White has only gained space, and the advanced pawn on d5 needs support and can become a target. Black rebuilds solidly rather than risk the knight on an exposed square."
-  },
-  "1.d4 Nc6 2.d5 Nb8 3.e4": {
-    "strategy": "Makes the most of the lost time: Black's knight has gone to c6 and back, so White claims a broad pawn centre with the d5 pawn already taking c6 and e6 from Black's pieces. Black has to attack the centre rather than occupy it."
-  },
-  "1.d4 Nc6 2.d5 Nb8 3.e4 Nf6": {
-    "strategy": "Challenges the e4 pawn and develops, the natural way to fight the centre, but the pawn can simply advance with gain of time. Black has spent most of the opening moving the same knight around, and White's space grows."
-  },
-  "1.d4 Nc6 2.d5 Nb8 3.e4 Nf6 4.e5": {
-    "strategy": "Gains space and a tempo in one move: the pawn attacks the knight, and every square it can reach is one more move that Black spends on the knight instead of on development. The advanced pawns will need support later, but they cramp Black's position."
-  },
-  "1.d4 Nc6 2.d5 Nb8 3.e4 Nf6 4.e5 Ng8": {
-    "name": "Zaire Defence",
-    "strategy": "Retreats to the starting square: after four knight moves Black has made no progress, while White holds a broad pawn centre at no cost. Nothing hangs, but Black must start developing from scratch behind it."
+  "1.d4 g6 2.Nc3 Bg7 3.Be3": {
+    "strategy": "Develops the bishop outside the pawn chain, where it guards d4 and prepares to trade off Black's fianchetto bishop. It is a slower build-up aimed at a kingside attack, and Black gets time to fight for the centre before White has a full pawn centre."
   }
 }

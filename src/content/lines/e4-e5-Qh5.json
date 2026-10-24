@@ -1,0 +1,174 @@
+{
+  "about": "After 1.e4 e5 2.Qh5: its moves and the positions they reach (docs/adr/0002-opening-modules-folded-to-a-size-budget.md). The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.Qh5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Danvers_Opening"
+      ],
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
+        },
+        {
+          "san": "Qe7",
+          "rating": 3
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Qh5 Nf6",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Qh5/2...Nf6"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Qh5 Nc6",
+      "moves": [
+        {
+          "san": "Bc4",
+          "rating": 5
+        },
+        {
+          "san": "Bb5",
+          "rating": 3
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Qh5 Nc6 3.Bc4",
+      "moves": [
+        {
+          "san": "g6",
+          "rating": 5
+        },
+        {
+          "san": "Qe7",
+          "rating": 4
+        },
+        {
+          "san": "Nh6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6",
+      "moves": [
+        {
+          "san": "d3",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3",
+      "moves": [
+        {
+          "san": "g6",
+          "rating": 5
+        },
+        {
+          "san": "Qe7",
+          "rating": 3
+        },
+        {
+          "san": "Qf6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6",
+      "moves": [
+        {
+          "san": "Qf3",
+          "rating": 5
+        },
+        {
+          "san": "Qg5",
+          "rating": 3
+        },
+        {
+          "san": "Qe2",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3",
+      "moves": [
+        {
+          "san": "f6",
+          "rating": 5
+        },
+        {
+          "san": "Qe7",
+          "rating": 4
+        },
+        {
+          "san": "Bg7",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6",
+      "moves": [
+        {
+          "san": "Ne2",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        },
+        {
+          "san": "c3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.Ne2",
+      "moves": [
+        {
+          "san": "Bg7",
+          "rating": 5
+        },
+        {
+          "san": "Nf7",
+          "rating": 4
+        },
+        {
+          "san": "d5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.Ne2 d5"
+    }
+  ]
+}

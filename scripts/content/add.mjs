@@ -4,10 +4,12 @@
 // the move along the line it is declared under. A position that gains moves two plies below
 // its module's root moves out into a module of its own, which the layout test allows
 // (src/content/openings.test.ts); merge-modules.mjs folds such small modules afterwards.
-// Writes nothing while an output file is missing.
+// A batch of gaps (README.md, Gaps) adds moves to positions the book has and revises the
+// ratings and notes of their moves; the moves of every position it touches are then ordered by
+// rating. Writes nothing while an output file is missing.
 // Usage: node scripts/content/add.mjs <work> [<batch id> ...]   (no id: every batch of ids.json)
 import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
-import { REPO, fileOf, idOf } from "./lib.mjs";
+import { REPO, fileOf, idOf, keyOf } from "./lib.mjs";
 
 const [work, ...wanted] = process.argv.slice(2);
 if (!work) {
@@ -20,7 +22,7 @@ const missing = [];
 const need = (file) => (existsSync(file) ? readJson(file) : (missing.push(file), null));
 
 // The names, English and German, by line.
-const names = new Map(readJson(`${work}/names.json`).map((n) => [n.line, { en: n.en, de: null, inBook: n.inBook }]));
+const names = new Map((existsSync(`${work}/names.json`) ? readJson(`${work}/names.json`) : []).map((n) => [n.line, { en: n.en, de: null, inBook: n.inBook }]));
 for (const file of readdirSync(`${work}/out`).filter((f) => f.endsWith(".names.json"))) {
   for (const n of readJson(`${work}/out/${file}`).names) if (names.has(n.line)) names.get(n.line).de = n.de;
 }
@@ -28,12 +30,20 @@ for (const file of readdirSync(`${work}/out`).filter((f) => f.endsWith(".names.j
 // The moves by the position they are played from, the described positions by line.
 const moves = new Map();
 const described = new Map();
+const filled = new Map(); // a gaps batch's work by the position's line: added moves and revisions
 for (const id of ids) {
   const batch = need(`${work}/batches/${id}.json`);
   const review = need(`${work}/out/${id}.review.json`);
   const german = need(`${work}/out/${id}.de.json`);
   if (!batch || !review || !german) continue;
   const de = new Map(german.moves.map((m) => [`${m.from}|${m.san}`, m.de]));
+  if (batch.kind === "gaps") {
+    const deRevised = new Map(german.revisions.map((r) => [`${r.from}|${r.san}`, r.de]));
+    const at = (line) => filled.get(line) ?? filled.set(line, { added: [], revised: [] }).get(line);
+    for (const m of review.moves) at(m.from).added.push({ ...m, de: de.get(`${m.from}|${m.san}`) });
+    for (const r of review.revisions) at(r.from).revised.push({ ...r, de: r.en === null ? null : deRevised.get(`${r.from}|${r.san}`) });
+    continue;
+  }
   const deBackground = new Map(german.positions.map((p) => [p.line, p.background]));
   const reviewed = new Map(review.moves.map((m) => [`${m.from}|${m.san}`, m]));
   for (const p of batch.positions) {
@@ -134,6 +144,30 @@ for (const line of [...moves.keys()].sort((a, b) => plyOf(a) - plyOf(b))) {
       if (background) prose(module, lang, child).background = background[lang];
     }
   }
+}
+
+// The gaps: moves added to positions the book has, revisions of the moves they had.
+for (const [line, { added: list, revised }] of filled) {
+  const id = declaredIn.get(line);
+  if (id === undefined) throw new Error(`"${line}" is filled but declared nowhere`);
+  const module = modules.get(id);
+  module.changed = true;
+  const entry = module.data.positions.find((p) => p.line === line);
+  for (const r of revised) {
+    const move = entry.moves.find((m) => m.san === r.san);
+    if (move === undefined) throw new Error(`a revision of ${r.san} from "${line}", which the book does not have`);
+    move.rating = r.rating;
+    if (r.en === null) continue;
+    prose(module, "en", keyOf(line, r.san)).strategy = r.en;
+    prose(module, "de", keyOf(line, r.san)).strategy = r.de;
+  }
+  for (const m of list) {
+    added += 1;
+    entry.moves.push({ san: m.san, rating: m.rating });
+    prose(module, "en", keyOf(line, m.san)).strategy = m.en;
+    prose(module, "de", keyOf(line, m.san)).strategy = m.de;
+  }
+  entry.moves.sort((a, b) => b.rating - a.rating);
 }
 
 // Names the dataset gives positions the book already has, with the whole run only.

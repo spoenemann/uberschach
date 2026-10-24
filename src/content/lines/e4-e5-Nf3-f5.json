@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 e5 2.Nf3 f5: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 e5 2.Nf3 f5: the moves the named lines play from here on on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 e5 2.Nf3 f5",
@@ -42,28 +42,25 @@
       ]
     },
     {
-      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5",
-      "moves": [
-        {
-          "san": "Qf6",
-          "rating": 5
-        },
-        {
-          "san": "Nf6",
-          "rating": 4
-        },
-        {
-          "san": "Nc6",
-          "rating": 2
-        },
-        {
-          "san": "Qe7",
-          "rating": 1
-        }
+      "line": "1.e4 e5 2.Nf3 f5 3.exf5"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.d4"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nc3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Latvian_Gambit"
       ]
     },
     {
-      "line": "1.e4 e5 2.Nf3 f5 3.exf5"
+      "line": "1.e4 e5 2.Nf3 f5 3.c4"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.g4"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.b4"
     },
     {
       "line": "1.e4 e5 2.Nf3 f5 3.Bc4",
@@ -86,24 +83,6 @@
       ]
     },
     {
-      "line": "1.e4 e5 2.Nf3 f5 3.d4"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 f5 3.Nc3",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Latvian_Gambit"
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 f5 3.c4"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 f5 3.g4"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 f5 3.b4"
-    },
-    {
       "line": "1.e4 e5 2.Nf3 f5 3.Bc4 Nf6",
       "sources": [
         "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...f5/3._Bc4"
@@ -113,17 +92,19 @@
       "line": "1.e4 e5 2.Nf3 f5 3.Bc4 b5"
     },
     {
-      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Nc6"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qe7"
-    },
-    {
       "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4",
       "moves": [
         {
           "san": "Nxe5",
           "rating": 5
+        },
+        {
+          "san": "Bxg8",
+          "rating": 2
+        },
+        {
+          "san": "Ng5",
+          "rating": 1
         }
       ]
     },
@@ -157,6 +138,14 @@
         {
           "san": "Nf7",
           "rating": 5
+        },
+        {
+          "san": "Bf7+",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
         }
       ]
     },
@@ -166,6 +155,14 @@
         {
           "san": "Qe7",
           "rating": 5
+        },
+        {
+          "san": "Rg8",
+          "rating": 1
+        },
+        {
+          "san": "d5",
+          "rating": 1
         }
       ]
     },
@@ -175,6 +172,14 @@
         {
           "san": "Nxh8",
           "rating": 5
+        },
+        {
+          "san": "Ng5",
+          "rating": 2
+        },
+        {
+          "san": "Nd6+",
+          "rating": 1
         }
       ]
     },
@@ -183,6 +188,14 @@
       "moves": [
         {
           "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
+        },
+        {
+          "san": "g6",
           "rating": 2
         }
       ]
@@ -198,6 +211,14 @@
           "rating": 5
         },
         {
+          "san": "Ng4",
+          "rating": 3
+        },
+        {
+          "san": "Bxg8",
+          "rating": 3
+        },
+        {
           "san": "Nf7",
           "rating": 2
         }
@@ -209,15 +230,14 @@
         {
           "san": "Qxg2",
           "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Qg5 5.Nf7",
-      "moves": [
+        },
         {
-          "san": "Qxg2",
-          "rating": 5
+          "san": "Qf6",
+          "rating": 3
+        },
+        {
+          "san": "exd3",
+          "rating": 1
         }
       ]
     },
@@ -228,11 +248,36 @@
       ]
     },
     {
+      "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Qg5 5.Nf7",
+      "moves": [
+        {
+          "san": "Qxg2",
+          "rating": 5
+        },
+        {
+          "san": "Qe7",
+          "rating": 2
+        },
+        {
+          "san": "Qf5",
+          "rating": 2
+        }
+      ]
+    },
+    {
       "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Qg5 5.Nf7 Qxg2",
       "moves": [
         {
           "san": "Rf1",
           "rating": 5
+        },
+        {
+          "san": "Nxh8",
+          "rating": 2
+        },
+        {
+          "san": "Ke2",
+          "rating": 1
         }
       ]
     },
@@ -242,6 +287,14 @@
         {
           "san": "d5",
           "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
         }
       ]
     },
@@ -249,17 +302,60 @@
       "line": "1.e4 e5 2.Nf3 f5 3.Bc4 fxe4 4.Nxe5 Qg5 5.Nf7 Qxg2 6.Rf1 d5"
     },
     {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5",
+      "moves": [
+        {
+          "san": "Qf6",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        },
+        {
+          "san": "Nc6",
+          "rating": 2
+        },
+        {
+          "san": "Qe7",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Nc6"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qe7"
+    },
+    {
       "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Nf6",
       "moves": [
         {
           "san": "Bc4",
+          "rating": 5
+        },
+        {
+          "san": "exf5",
           "rating": 4
+        },
+        {
+          "san": "d4",
+          "rating": 3
         }
       ]
     },
     {
       "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Nf6 4.Bc4",
       "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Qe7",
+          "rating": 3
+        },
         {
           "san": "fxe4",
           "rating": 2
@@ -276,19 +372,10 @@
         {
           "san": "d4",
           "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.Nc4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Latvian_Gambit",
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...f5/3._Nxe5/3...Qf6"
-      ],
-      "moves": [
+        },
         {
-          "san": "fxe4",
-          "rating": 5
+          "san": "Nf3",
+          "rating": 1
         }
       ]
     },
@@ -302,6 +389,14 @@
         {
           "san": "d6",
           "rating": 5
+        },
+        {
+          "san": "fxe4",
+          "rating": 3
+        },
+        {
+          "san": "Nc6",
+          "rating": 2
         }
       ]
     },
@@ -311,6 +406,14 @@
         {
           "san": "Nc4",
           "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 2
+        },
+        {
+          "san": "Ng4",
+          "rating": 1
         }
       ]
     },
@@ -320,12 +423,24 @@
         {
           "san": "fxe4",
           "rating": 5
+        },
+        {
+          "san": "Nc6",
+          "rating": 2
+        },
+        {
+          "san": "Be6",
+          "rating": 2
         }
       ]
     },
     {
       "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4 d6 5.Nc4 fxe4",
       "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        },
         {
           "san": "Be2",
           "rating": 3
@@ -352,11 +467,40 @@
         {
           "san": "g6",
           "rating": 5
+        },
+        {
+          "san": "Qg6",
+          "rating": 3
+        },
+        {
+          "san": "Qf7",
+          "rating": 3
         }
       ]
     },
     {
       "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.d4 d6 5.Nc4 fxe4 6.Qh5+ g6"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.Nc4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Latvian_Gambit",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...f5/3._Nxe5/3...Qf6"
+      ],
+      "moves": [
+        {
+          "san": "fxe4",
+          "rating": 5
+        },
+        {
+          "san": "d5",
+          "rating": 2
+        },
+        {
+          "san": "Nc6",
+          "rating": 2
+        }
+      ]
     },
     {
       "line": "1.e4 e5 2.Nf3 f5 3.Nxe5 Qf6 4.Nc4 fxe4",
@@ -367,6 +511,10 @@
         },
         {
           "san": "d3",
+          "rating": 3
+        },
+        {
+          "san": "Ne3",
           "rating": 3
         }
       ]

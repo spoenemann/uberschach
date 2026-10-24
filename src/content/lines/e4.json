@@ -90,80 +90,15 @@
       ]
     },
     {
-      "line": "1.e4 Nc6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Nimzowitsch_Defence"
-      ],
-      "moves": [
-        {
-          "san": "d4",
-          "rating": 5
-        },
-        {
-          "san": "Nf3",
-          "rating": 5
-        },
-        {
-          "san": "Nc3",
-          "rating": 3
-        },
-        {
-          "san": "Bb5",
-          "rating": 3
-        },
-        {
-          "san": "b4",
-          "rating": 2
-        }
-      ]
-    },
-    {
-      "line": "1.e4 b6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Owen%27s_Defence",
-        "https://en.wikipedia.org/wiki/John_Owen_(chess_player)"
-      ],
-      "moves": [
-        {
-          "san": "d4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 a6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/St._George_Defence"
-      ],
-      "moves": [
-        {
-          "san": "d4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 h6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/King%27s_Pawn_Game"
-      ],
-      "moves": [
-        {
-          "san": "d4",
-          "rating": 5
-        }
-      ]
-    },
-    {
       "line": "1.e4 Na6"
     },
     {
-      "line": "1.e4 Nh6",
-      "moves": [
-        {
-          "san": "d4",
-          "rating": 5
-        }
+      "line": "1.e4 b5"
+    },
+    {
+      "line": "1.e4 f5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/King%27s_Pawn_Game"
       ]
     },
     {
@@ -176,63 +111,32 @@
         {
           "san": "d4",
           "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 b5"
-    },
-    {
-      "line": "1.e4 f6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/King%27s_Pawn_Game"
-      ],
-      "moves": [
+        },
         {
-          "san": "d4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 f5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/King%27s_Pawn_Game"
-      ]
-    },
-    {
-      "line": "1.e4 g5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/King%27s_Pawn_Game"
-      ],
-      "moves": [
+          "san": "Nf3",
+          "rating": 4
+        },
         {
-          "san": "d4",
-          "rating": 5
+          "san": "Nc3",
+          "rating": 4
         }
       ]
-    },
-    {
-      "line": "1.e4 h5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/King%27s_Pawn_Game"
-      ],
-      "moves": [
-        {
-          "san": "d4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 Nc6 2.Bb5"
-    },
-    {
-      "line": "1.e4 Nc6 2.b4"
     },
     {
       "line": "1.e4 a5 2.d4",
       "moves": [
+        {
+          "san": "b6",
+          "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 4
+        },
+        {
+          "san": "d5",
+          "rating": 4
+        },
         {
           "san": "Nc6",
           "rating": 3
@@ -243,11 +147,35 @@
       "line": "1.e4 a5 2.d4 Nc6"
     },
     {
+      "line": "1.e4 a6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/St._George_Defence"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "g3",
+          "rating": 3
+        }
+      ]
+    },
+    {
       "line": "1.e4 a6 2.d4",
       "moves": [
         {
           "san": "b5",
           "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 4
         },
         {
           "san": "e5",
@@ -256,16 +184,24 @@
       ]
     },
     {
+      "line": "1.e4 a6 2.d4 e5"
+    },
+    {
       "line": "1.e4 a6 2.d4 b5",
       "moves": [
         {
           "san": "Nf3",
           "rating": 5
+        },
+        {
+          "san": "Bd3",
+          "rating": 4
+        },
+        {
+          "san": "c4",
+          "rating": 3
         }
       ]
-    },
-    {
-      "line": "1.e4 a6 2.d4 e5"
     },
     {
       "line": "1.e4 a6 2.d4 b5 3.Nf3",
@@ -273,6 +209,14 @@
         {
           "san": "Bb7",
           "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 4
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
         }
       ]
     },
@@ -282,6 +226,14 @@
         {
           "san": "Bd3",
           "rating": 5
+        },
+        {
+          "san": "Nbd2",
+          "rating": 4
+        },
+        {
+          "san": "Qe2",
+          "rating": 3
         }
       ]
     },
@@ -290,6 +242,10 @@
       "moves": [
         {
           "san": "e6",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
           "rating": 5
         },
         {
@@ -307,12 +263,28 @@
         {
           "san": "O-O",
           "rating": 5
+        },
+        {
+          "san": "Nbd2",
+          "rating": 4
+        },
+        {
+          "san": "c3",
+          "rating": 4
         }
       ]
     },
     {
       "line": "1.e4 a6 2.d4 b5 3.Nf3 Bb7 4.Bd3 d6 5.O-O",
       "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 4
+        },
         {
           "san": "g6",
           "rating": 3
@@ -323,7 +295,15 @@
       "line": "1.e4 a6 2.d4 b5 3.Nf3 Bb7 4.Bd3 d6 5.O-O g6",
       "moves": [
         {
+          "san": "Nbd2",
+          "rating": 5
+        },
+        {
           "san": "c3",
+          "rating": 4
+        },
+        {
+          "san": "Re1",
           "rating": 4
         }
       ]
@@ -333,7 +313,15 @@
       "moves": [
         {
           "san": "Bg7",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
           "rating": 4
+        },
+        {
+          "san": "Nd7",
+          "rating": 3
         }
       ]
     },
@@ -341,27 +329,13 @@
       "line": "1.e4 a6 2.d4 b5 3.Nf3 Bb7 4.Bd3 d6 5.O-O g6 6.c3 Bg7"
     },
     {
-      "line": "1.e4 b6 2.d4",
+      "line": "1.e4 f6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/King%27s_Pawn_Game"
+      ],
       "moves": [
         {
-          "san": "Bb7",
-          "rating": 5
-        },
-        {
-          "san": "c5",
-          "rating": 3
-        },
-        {
-          "san": "Ba6",
-          "rating": 2
-        }
-      ]
-    },
-    {
-      "line": "1.e4 b6 2.d4 Bb7",
-      "moves": [
-        {
-          "san": "Bd3",
+          "san": "d4",
           "rating": 5
         },
         {
@@ -369,117 +343,28 @@
           "rating": 3
         },
         {
-          "san": "Bg5",
-          "rating": 2
-        },
-        {
-          "san": "f3",
-          "rating": 2
+          "san": "Nc3",
+          "rating": 3
         }
       ]
-    },
-    {
-      "line": "1.e4 b6 2.d4 c5",
-      "moves": [
-        {
-          "san": "dxc5",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 b6 2.d4 Ba6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Owen%27s_Defence"
-      ]
-    },
-    {
-      "line": "1.e4 b6 2.d4 Bb7 3.Nf3"
-    },
-    {
-      "line": "1.e4 b6 2.d4 Bb7 3.Bg5"
-    },
-    {
-      "line": "1.e4 b6 2.d4 Bb7 3.Bd3",
-      "moves": [
-        {
-          "san": "f5",
-          "rating": 1
-        }
-      ]
-    },
-    {
-      "line": "1.e4 b6 2.d4 Bb7 3.Bd3 f5",
-      "moves": [
-        {
-          "san": "exf5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 b6 2.d4 Bb7 3.Bd3 f5 4.exf5",
-      "moves": [
-        {
-          "san": "Bxg2",
-          "rating": 1
-        }
-      ]
-    },
-    {
-      "line": "1.e4 b6 2.d4 Bb7 3.Bd3 f5 4.exf5 Bxg2",
-      "moves": [
-        {
-          "san": "Qh5+",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 b6 2.d4 Bb7 3.Bd3 f5 4.exf5 Bxg2 5.Qh5+",
-      "moves": [
-        {
-          "san": "g6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 b6 2.d4 Bb7 3.Bd3 f5 4.exf5 Bxg2 5.Qh5+ g6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Owen%27s_Defence",
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...b6"
-      ]
-    },
-    {
-      "line": "1.e4 b6 2.d4 Bb7 3.f3",
-      "moves": [
-        {
-          "san": "e5",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 b6 2.d4 Bb7 3.f3 e5"
-    },
-    {
-      "line": "1.e4 b6 2.d4 c5 3.dxc5",
-      "moves": [
-        {
-          "san": "Nc6",
-          "rating": 2
-        }
-      ]
-    },
-    {
-      "line": "1.e4 b6 2.d4 c5 3.dxc5 Nc6"
     },
     {
       "line": "1.e4 f6 2.d4",
       "moves": [
         {
+          "san": "e6",
+          "rating": 5
+        },
+        {
           "san": "b6",
+          "rating": 3
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
+        },
+        {
+          "san": "g6",
           "rating": 3
         },
         {
@@ -489,16 +374,24 @@
       ]
     },
     {
+      "line": "1.e4 f6 2.d4 Kf7"
+    },
+    {
       "line": "1.e4 f6 2.d4 b6",
       "moves": [
         {
+          "san": "Bd3",
+          "rating": 5
+        },
+        {
           "san": "c4",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
           "rating": 4
         }
       ]
-    },
-    {
-      "line": "1.e4 f6 2.d4 Kf7"
     },
     {
       "line": "1.e4 f6 2.d4 b6 3.c4",
@@ -506,11 +399,39 @@
         {
           "san": "Bb7",
           "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 4
+        },
+        {
+          "san": "g6",
+          "rating": 3
         }
       ]
     },
     {
       "line": "1.e4 f6 2.d4 b6 3.c4 Bb7"
+    },
+    {
+      "line": "1.e4 g5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/King%27s_Pawn_Game"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        }
+      ]
     },
     {
       "line": "1.e4 g5 2.d4",
@@ -530,8 +451,26 @@
       ]
     },
     {
+      "line": "1.e4 g5 2.d4 Bg7"
+    },
+    {
+      "line": "1.e4 g5 2.d4 e5"
+    },
+    {
       "line": "1.e4 g5 2.d4 h6",
       "moves": [
+        {
+          "san": "Bd3",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "c3",
+          "rating": 4
+        },
         {
           "san": "h4",
           "rating": 3
@@ -539,17 +478,23 @@
       ]
     },
     {
-      "line": "1.e4 g5 2.d4 Bg7"
-    },
-    {
-      "line": "1.e4 g5 2.d4 e5"
-    },
-    {
       "line": "1.e4 g5 2.d4 h6 3.h4",
       "moves": [
         {
+          "san": "gxh4",
+          "rating": 5
+        },
+        {
           "san": "g4",
           "rating": 2
+        },
+        {
+          "san": "Bg7",
+          "rating": 2
+        },
+        {
+          "san": "Nf6",
+          "rating": 1
         }
       ]
     },
@@ -557,10 +502,38 @@
       "line": "1.e4 g5 2.d4 h6 3.h4 g4"
     },
     {
+      "line": "1.e4 h5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/King%27s_Pawn_Game"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        }
+      ]
+    },
+    {
       "line": "1.e4 h5 2.d4",
       "moves": [
         {
           "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "d5",
+          "rating": 3
+        },
+        {
+          "san": "d6",
           "rating": 3
         }
       ]
@@ -569,8 +542,40 @@
       "line": "1.e4 h5 2.d4 Nf6"
     },
     {
+      "line": "1.e4 h6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/King%27s_Pawn_Game"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        }
+      ]
+    },
+    {
       "line": "1.e4 h6 2.d4",
       "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        },
         {
           "san": "e5",
           "rating": 2
@@ -581,156 +586,35 @@
       "line": "1.e4 h6 2.d4 e5"
     },
     {
-      "line": "1.e4 Nc6 2.Nc3",
-      "moves": [
-        {
-          "san": "Nf6",
-          "rating": 4
-        },
-        {
-          "san": "e6",
-          "rating": 3
-        },
-        {
-          "san": "g6",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 Nc6 2.Nc3 e6"
-    },
-    {
-      "line": "1.e4 Nc6 2.Nf3",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Nimzowitsch_Defence"
-      ],
-      "moves": [
-        {
-          "san": "d6",
-          "rating": 4
-        },
-        {
-          "san": "Nf6",
-          "rating": 3
-        },
-        {
-          "san": "e6",
-          "rating": 3
-        },
-        {
-          "san": "f5",
-          "rating": 2
-        }
-      ]
-    },
-    {
-      "line": "1.e4 Nc6 2.Nf3 Nf6",
-      "moves": [
-        {
-          "san": "e5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 Nc6 2.Nf3 e6"
-    },
-    {
-      "line": "1.e4 Nc6 2.Nf3 f5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Nimzowitsch_Defence",
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...Nc6/2._Nf3/2...f5"
-      ],
-      "moves": [
-        {
-          "san": "exf5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 Nc6 2.Nf3 f5 3.exf5"
-    },
-    {
-      "line": "1.e4 Nc6 2.Nf3 Nf6 3.e5",
-      "moves": [
-        {
-          "san": "Ng4",
-          "rating": 2
-        }
-      ]
-    },
-    {
-      "line": "1.e4 Nc6 2.Nf3 Nf6 3.e5 Ng4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Nimzowitsch_Defence"
-      ],
+      "line": "1.e4 Nh6",
       "moves": [
         {
           "san": "d4",
           "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 Nc6 2.Nf3 Nf6 3.e5 Ng4 4.d4",
-      "moves": [
+        },
         {
-          "san": "d6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 Nc6 2.Nf3 Nf6 3.e5 Ng4 4.d4 d6",
-      "moves": [
-        {
-          "san": "h3",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 Nc6 2.Nf3 Nf6 3.e5 Ng4 4.d4 d6 5.h3",
-      "moves": [
-        {
-          "san": "Nh6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 Nc6 2.Nf3 Nf6 3.e5 Ng4 4.d4 d6 5.h3 Nh6",
-      "moves": [
-        {
-          "san": "exd6",
+          "san": "Nf3",
           "rating": 4
         },
         {
-          "san": "Bb5",
-          "rating": 4
-        },
-        {
-          "san": "e6",
-          "rating": 2
+          "san": "Nc3",
+          "rating": 3
         }
       ]
-    },
-    {
-      "line": "1.e4 Nc6 2.Nf3 Nf6 3.e5 Ng4 4.d4 d6 5.h3 Nh6 6.exd6"
-    },
-    {
-      "line": "1.e4 Nc6 2.Nf3 Nf6 3.e5 Ng4 4.d4 d6 5.h3 Nh6 6.Bb5"
-    },
-    {
-      "line": "1.e4 Nc6 2.Nf3 Nf6 3.e5 Ng4 4.d4 d6 5.h3 Nh6 6.e6"
     },
     {
       "line": "1.e4 Nh6 2.d4",
       "moves": [
         {
           "san": "g6",
+          "rating": 5
+        },
+        {
+          "san": "d5",
+          "rating": 3
+        },
+        {
+          "san": "d6",
           "rating": 3
         }
       ]

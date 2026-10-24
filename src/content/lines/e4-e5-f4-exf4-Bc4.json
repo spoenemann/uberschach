@@ -1,0 +1,628 @@
+{
+  "about": "After 1.e4 e5 2.f4 exf4 3.Bc4: its moves and the positions they reach (docs/adr/0002-opening-modules-folded-to-a-size-budget.md). The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bishop%27s_Gambit",
+        "https://en.wikipedia.org/wiki/Immortal_Game"
+      ],
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "d5",
+          "rating": 4
+        },
+        {
+          "san": "Qh4+",
+          "rating": 4
+        },
+        {
+          "san": "Nc6",
+          "rating": 4
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        },
+        {
+          "san": "Ne7",
+          "rating": 3
+        },
+        {
+          "san": "g5",
+          "rating": 2
+        },
+        {
+          "san": "f5",
+          "rating": 2
+        },
+        {
+          "san": "b5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Nc6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bishop%27s_Gambit"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 c6"
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Ne7",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bishop%27s_Gambit"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 g5"
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 b5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bishop%27s_Gambit"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 d5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bishop%27s_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "Bxd5",
+          "rating": 5
+        },
+        {
+          "san": "exd5",
+          "rating": 3
+        },
+        {
+          "san": "Bb3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "Qh4+",
+          "rating": 4
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Nf6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bishop%27s_Gambit"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 c6"
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Qh4+",
+      "moves": [
+        {
+          "san": "Kf1",
+          "rating": 5
+        },
+        {
+          "san": "Ke2",
+          "rating": 2
+        },
+        {
+          "san": "g3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Qh4+ 5.Kf1",
+      "moves": [
+        {
+          "san": "Bd6",
+          "rating": 5
+        },
+        {
+          "san": "g5",
+          "rating": 4
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Qh4+ 5.Kf1 Bd6"
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Qh4+ 5.Kf1 g5",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "g3",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "d4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5 Qh4+ 5.Kf1 g5 6.g3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bishop%27s_Gambit"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 f5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bishop%27s_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "Qe2",
+          "rating": 5
+        },
+        {
+          "san": "exf5",
+          "rating": 3
+        },
+        {
+          "san": "Nf3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2",
+      "moves": [
+        {
+          "san": "Qh4+",
+          "rating": 5
+        },
+        {
+          "san": "fxe4",
+          "rating": 3
+        },
+        {
+          "san": "Qe7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+",
+      "moves": [
+        {
+          "san": "Kd1",
+          "rating": 5
+        },
+        {
+          "san": "Kf1",
+          "rating": 3
+        },
+        {
+          "san": "g3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+ 5.Kd1",
+      "moves": [
+        {
+          "san": "fxe4",
+          "rating": 5
+        },
+        {
+          "san": "Qe7",
+          "rating": 3
+        },
+        {
+          "san": "Be7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+ 5.Kd1 fxe4",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
+        },
+        {
+          "san": "Qxe4+",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+ 5.Kd1 fxe4 6.Nc3",
+      "moves": [
+        {
+          "san": "Kd8",
+          "rating": 5
+        },
+        {
+          "san": "Be7",
+          "rating": 4
+        },
+        {
+          "san": "Ne7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+ 5.Kd1 fxe4 6.Nc3 Kd8"
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Nf6",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        },
+        {
+          "san": "d3",
+          "rating": 3
+        },
+        {
+          "san": "e5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Nf6 4.Nc3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bishop%27s_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "c6",
+          "rating": 5
+        },
+        {
+          "san": "Bb4",
+          "rating": 4
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Nf6 4.Nc3 c6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/King%27s_Gambit"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Nf6 4.Nc3 Bb4",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        },
+        {
+          "san": "Nge2",
+          "rating": 4
+        },
+        {
+          "san": "Qe2",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Nf6 4.Nc3 Bb4 5.e5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bishop%27s_Gambit"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+",
+      "moves": [
+        {
+          "san": "Kf1",
+          "rating": 5
+        },
+        {
+          "san": "Ke2",
+          "rating": 2
+        },
+        {
+          "san": "g3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "Nc6",
+          "rating": 4
+        },
+        {
+          "san": "d5",
+          "rating": 4
+        },
+        {
+          "san": "g5",
+          "rating": 4
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        },
+        {
+          "san": "Ne7",
+          "rating": 3
+        },
+        {
+          "san": "b5",
+          "rating": 2
+        },
+        {
+          "san": "Bc5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 d6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bishop%27s_Gambit"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Nc6"
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Nf6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bishop%27s_Gambit"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 b5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Immortal_Game"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Bc5"
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 d5",
+      "moves": [
+        {
+          "san": "Bxd5",
+          "rating": 5
+        },
+        {
+          "san": "exd5",
+          "rating": 3
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bishop%27s_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        },
+        {
+          "san": "Qf3",
+          "rating": 4
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "d4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Qf3"
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3",
+      "moves": [
+        {
+          "san": "Bg7",
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        },
+        {
+          "san": "Ne7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3 Bg7",
+      "moves": [
+        {
+          "san": "g3",
+          "rating": 5
+        },
+        {
+          "san": "d4",
+          "rating": 4
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3 Bg7 6.d4",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "Ne7",
+          "rating": 3
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3 Bg7 6.d4 d6"
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3 Bg7 6.d4 Ne7"
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3 Bg7 6.g3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bishop%27s_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "fxg3",
+          "rating": 5
+        },
+        {
+          "san": "Qh6",
+          "rating": 4
+        },
+        {
+          "san": "Qh3+",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3 Bg7 6.g3 fxg3"
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Ne7",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "d4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Ne7 5.Nc3",
+      "moves": [
+        {
+          "san": "Ng6",
+          "rating": 5
+        },
+        {
+          "san": "g5",
+          "rating": 4
+        },
+        {
+          "san": "c6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Ne7 5.Nc3 g5",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "g3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Ne7 5.Nc3 g5 6.d4",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "Bg7",
+          "rating": 3
+        },
+        {
+          "san": "Ng6",
+          "rating": 3
+        }
+      ]
+    }
+  ]
+}

@@ -154,21 +154,48 @@
   "1.g3 d5 2.Bg2 Bh3": {
     "strategy": "Greift den Läufer g2 an, stellt aber den eigenen ein: 3.Lxh3 oder 3.Sxh3 gewinnt eine ganze Figur, da nichts h3 deckt."
   },
-  "1.g3 d5 2.Nh3 e5": {
-    "strategy": "Stellt einen zweiten Bauern ins Zentrum und nimmt den Figuren von Weiß die Felder d4 und f4. Der Springer am Rand hat keine aktive Rolle, daher bleibt der Raumvorteil von Schwarz das bleibende Merkmal der Eröffnung, und Weiß muss zeigen, dass der Fianchetto-Aufbau ihn untergraben kann."
-  },
   "1.g3 d5 2.Bg2 e5 3.c4": {
-    "strategy": "Greift den d5-Bauern mit einem Bauern an, den der Läufer auf g2 stützt; d5 wird also zweimal angegriffen und nur von der Dame gedeckt. Das ist die prinzipielle Art, das Zentrum von Schwarz herauszufordern, doch wenn Schwarz schlägt, hat Weiß einen Bauern geopfert und braucht offene Linien als Ausgleich."
+    "strategy": "Die grundsätzliche Herausforderung: Der c-Bauer und der Läufer greifen beide d5 an, das nur die Dame verteidigt. Weiß riskiert weniger, als es scheint, denn wenn Schwarz schlägt, gewinnt das Damenschach auf a4 den Bauern sofort zurück, doch Schwarz kann auch vorbeiziehen und Raum gewinnen."
   },
   "1.g3 d5 2.Bg2 e5 3.b4": {
     "name": "Königsfianchetto: Bücker-Gambit",
     "strategy": "Wirft den b-Bauern sofort nach vorn: ...Lxb4 gewinnt ihn, und nichts greift den Läufer auf b4 an. Der Fianchetto-Läufer wird vom d5-Bauern blockiert, Weiß hat also keinen Druck für den Bauern und Schwarz kann sich einfach entwickeln."
   },
+  "1.g3 d5 2.Bg2 e5 3.Nf3": {
+    "strategy": "Greift den noch ungedeckten e5-Bauern an und entwickelt eine Figur in Richtung Rochade. Schwarz muss die Drohung beachten, sodass Weiß mit Tempo einen nützlichen Zug gewinnt. Die Stellung bleibt flexibel: Weiß behält den Fianchetto-Aufbau und untergräbt die Zentrumsbauern von Schwarz eher mit Figuren und Bauernbrüchen als mit einem direkten Angriff."
+  },
+  "1.g3 d5 2.Bg2 e5 3.d3": {
+    "strategy": "Ein solider, langsamer Aufbau: Der Bauer deckt e4 und bereitet den Aufbau hinter dem fianchettierten Läufer vor. Weiß droht noch nichts, daher entwickelt sich Schwarz ungestört und behält den größeren Anteil am Zentrum, doch Weiß hat keine Schwächen und eine lange Manövrierpartie vor sich."
+  },
   "1.g3 d5 2.Bg2 e5 3.c4 dxc4": {
-    "strategy": "Schlägt den Bauern und lässt den Läufer auf g2 durch das Entfernen des d5-Bauern direkt auf b7 zielen. Schwarz ist einen Bauern voraus und muss entscheiden, ob er ihn hält oder zurückgibt, um sich in Ruhe zu entwickeln."
+    "strategy": "Schlägt den Bauern, kann ihn aber nicht behalten: Das Damenschach auf a4 gewinnt ihn sofort zurück. Schwarz hat den d-Bauern abgetauscht, ohne etwas zu gewinnen, und der Läufer auf g2 zielt nun direkt auf b7."
+  },
+  "1.g3 d5 2.Bg2 e5 3.c4 d4": {
+    "strategy": "Schiebt am angegriffenen Bauern vorbei, um Weiß einzuengen: Die Bauern d4 und e5 bilden eine Kette, die Raum nimmt und das Zentrum schließt. Weiß kann das Spiel nicht mehr durch einen Abtausch auf d5 öffnen, es wird ein Manövrierkampf, in dem Schwarz mehr Platz hat und Weiß gegen die Basis der Kette arbeitet."
+  },
+  "1.g3 d5 2.Bg2 e5 3.c4 Nf6": {
+    "strategy": "Beantwortet den Druck auf d5 mit einer Entwicklung: Der Springer fügt einen zweiten Verteidiger hinzu, sodass er bei einem Schlagen von Weiß zurückschlägt und das schwarze Zentrum intakt bleibt. Schwarz legt sich noch nicht fest und behält eine solide, flexible Stellung, in der der fianchettierte Läufer auf einen gut gedeckten Bauern trifft."
   },
   "1.g3 d5 2.Bg2 e5 3.c4 dxc4 4.b3": {
     "name": "Königsfianchetto: Winterberg-Gambit",
     "strategy": "Bietet einen zweiten Bauern an, um Linien zu öffnen: Schlägt Schwarz auf b3, greift der Wiederschlag mit der Dame b7 doppelt an, und der Wiederschlag mit dem a-Bauern öffnet die a-Linie. Weiß bleibt für die Aktivität einen Bauern zurück, und Schwarz kann b7 wieder decken und sich ruhig entwickeln."
+  },
+  "1.g3 d5 2.Bg2 e5 3.c4 dxc4 4.Qa4+": {
+    "strategy": "Gibt Schach und gewinnt den Bauern sofort zurück: Die üblichen Blockzüge lassen c4 hängen, und ...b5 verliert nur noch den b-Bauern dazu. Das Material ist wieder ausgeglichen, der Läufer auf g2 zielt auf der offenen Diagonale auf b7, und Weiß hat durch das Bauernangebot nichts verloren, allerdings um den Preis einer frühen Dame."
+  },
+  "1.g3 d5 2.Bg2 e5 3.c4 dxc4 4.Nf3": {
+    "strategy": "Entwickelt sich in Richtung Rochade, geht aber nicht direkt gegen den c4-Bauern vor. Schwarz kann den Springer sofort mit ...e4 vertreiben und den Mehrbauern vorerst behalten, sodass Weiß Zeit aufwendet, ohne etwas zu gewinnen."
+  },
+  "1.g3 d5 2.Bg2 e5 3.c4 dxc4 4.Qc2": {
+    "strategy": "Greift den c4-Bauern sofort an, und die naheliegende Verteidigung ...b5 scheitert an Lxa8 auf der langen Diagonale. Doch ...Le6 deckt den Bauern mit einem Entwicklungszug, sodass die Dame keine Zeit gewonnen hat und Schwarz den Bauern vorerst behält."
+  },
+  "1.g3 d5 2.Nh3 e5": {
+    "strategy": "Stellt einen zweiten Bauern ins Zentrum und nimmt den Figuren von Weiß die Felder d4 und f4. Der Springer am Rand hat keine aktive Rolle, daher bleibt der Raumvorteil von Schwarz das bleibende Merkmal der Eröffnung, und Weiß muss zeigen, dass der Fianchetto-Aufbau ihn untergraben kann."
+  },
+  "1.g3 d5 2.Nh3 Nf6": {
+    "strategy": "Ein natürlicher Entwicklungszug, der e4 unter Kontrolle nimmt und die Rochade vorbereitet. Er baut keinen zweiten Zentrumsbauern auf, daher gewinnt Schwarz weniger Raum als mit dem Bauernzug, aber alle Bauernstrukturen bleiben offen, und der Springer von Weiß steht weiterhin schlecht am Rand."
+  },
+  "1.g3 d5 2.Nh3 Bxh3": {
+    "strategy": "Beseitigt den Springer am Rand, doch der weiße Läufer schlägt auf h3 zurück, ohne die weißen Bauern zu beschädigen, und Weiß erhält das Läuferpaar. Schwarz tauscht einen guten Läufer gegen eine ohnehin schlecht stehende Figur: harmlos statt ehrgeizig."
   }
 }

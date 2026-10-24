@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 e5 2.Nf3 Nc6: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 e5 2.Nf3 Nc6: the moves the named lines play from here on on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 e5 2.Nf3 Nc6",
@@ -51,94 +51,118 @@
       ]
     },
     {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5",
+      "line": "1.e4 e5 2.Nf3 Nc6 3.g3"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.b4",
       "sources": [
-        "https://en.wikipedia.org/wiki/Ruy_Lopez"
-      ],
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nc6/3._b4"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Be2",
       "moves": [
         {
-          "san": "a6",
+          "san": "Nf6",
           "rating": 5
         },
         {
-          "san": "Nf6",
+          "san": "d5",
           "rating": 4
         },
         {
-          "san": "Nge7",
+          "san": "d6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6",
+      "moves": [
+        {
+          "san": "d3",
+          "rating": 5
+        },
+        {
+          "san": "d4",
           "rating": 3
         },
         {
-          "san": "g6",
+          "san": "Nc3",
           "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d3",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Bc5",
+          "rating": 4
         },
         {
           "san": "Be7",
           "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d3 d5",
+      "moves": [
+        {
+          "san": "Nbd2",
+          "rating": 5
         },
         {
-          "san": "Nd4",
+          "san": "exd5",
           "rating": 3
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d3 d5 5.Nbd2",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Inverted_Hungarian_Opening"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Inverted_Hungarian_Opening"
+      ],
+      "moves": [
+        {
+          "san": "exd4",
+          "rating": 5
         },
         {
           "san": "d6",
           "rating": 3
         },
         {
-          "san": "f5",
+          "san": "Be7",
           "rating": 3
-        },
-        {
-          "san": "Bc5",
-          "rating": 3
-        },
-        {
-          "san": "Bb4",
-          "rating": 2
-        },
-        {
-          "san": "a5",
-          "rating": 2
-        },
-        {
-          "san": "f6",
-          "rating": 2
-        },
-        {
-          "san": "b6",
-          "rating": 2
-        },
-        {
-          "san": "Qe7",
-          "rating": 2
-        },
-        {
-          "san": "g5",
-          "rating": 1
-        },
-        {
-          "san": "Na5",
-          "rating": 1
-        },
-        {
-          "san": "Nb8",
-          "rating": 1
-        },
-        {
-          "san": "d5",
-          "rating": 1
         }
       ]
     },
     {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.d4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Scotch_Game"
-      ],
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d4 exd4",
       "moves": [
         {
-          "san": "exd4",
+          "san": "e5",
           "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
         },
         {
           "san": "Nxd4",
@@ -147,69 +171,9 @@
       ]
     },
     {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4",
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d4 exd4 5.e5",
       "sources": [
-        "https://en.wikipedia.org/wiki/Italian_Game"
-      ],
-      "moves": [
-        {
-          "san": "Nf6",
-          "rating": 5
-        },
-        {
-          "san": "Bc5",
-          "rating": 5
-        },
-        {
-          "san": "Be7",
-          "rating": 3
-        },
-        {
-          "san": "h6",
-          "rating": 3
-        },
-        {
-          "san": "d6",
-          "rating": 3
-        },
-        {
-          "san": "Nd4",
-          "rating": 2
-        },
-        {
-          "san": "f5",
-          "rating": 2
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.c4",
-      "moves": [
-        {
-          "san": "Nf6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.g3"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Be2",
-      "moves": [
-        {
-          "san": "Nf6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.d3",
-      "moves": [
-        {
-          "san": "f5",
-          "rating": 2
-        }
+        "https://en.wikipedia.org/wiki/Inverted_Hungarian_Opening"
       ]
     },
     {
@@ -241,369 +205,12 @@
       ]
     },
     {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Nc3",
-      "moves": [
-        {
-          "san": "Nf6",
-          "rating": 5
-        },
-        {
-          "san": "Bb4",
-          "rating": 3
-        },
-        {
-          "san": "g6",
-          "rating": 3
-        },
-        {
-          "san": "f5",
-          "rating": 2
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.b4",
-      "sources": [
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nc6/3._b4"
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Nxe5",
-      "sources": [
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nc6/3._Nxe5"
-      ],
-      "moves": [
-        {
-          "san": "Nxe5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Be7"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a5"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 f6"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 b6"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Qe7"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 g5"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Na5"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nb8"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 h6"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 d6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Italian_Game"
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nd4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Blackburne_Shilling_Gambit"
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 f5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Rousseau_Gambit"
-      ]
-    },
-    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.c3 Nge7"
     },
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.c3 Be7",
       "sources": [
         "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nc6/3._c3"
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Nc3 f5"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4",
-      "moves": [
-        {
-          "san": "c3",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4 4.c3",
-      "moves": [
-        {
-          "san": "Ba5",
-          "rating": 2
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4 4.c3 Ba5",
-      "moves": [
-        {
-          "san": "Bxc6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4 4.c3 Ba5 5.Bxc6",
-      "moves": [
-        {
-          "san": "dxc6",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4 4.c3 Ba5 5.Bxc6 dxc6"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 d5",
-      "moves": [
-        {
-          "san": "Nxe5",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 d5 4.Nxe5",
-      "moves": [
-        {
-          "san": "Qg5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 d5 4.Nxe5 Qg5",
-      "moves": [
-        {
-          "san": "O-O",
-          "rating": 2
-        },
-        {
-          "san": "Nxc6",
-          "rating": 1
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 d5 4.Nxe5 Qg5 5.O-O"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 d5 4.Nxe5 Qg5 5.Nxc6"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nd4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ruy_Lopez"
-      ],
-      "moves": [
-        {
-          "san": "Nxd4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nd4 4.Nxd4",
-      "moves": [
-        {
-          "san": "exd4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nd4 4.Nxd4 exd4",
-      "moves": [
-        {
-          "san": "O-O",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nd4 4.Nxd4 exd4 5.O-O",
-      "moves": [
-        {
-          "san": "Ne7",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nd4 4.Nxd4 exd4 5.O-O Ne7"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nge7",
-      "sources": [
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nc6/3._Bb5",
-        "https://en.wikipedia.org/wiki/Ruy_Lopez"
-      ],
-      "moves": [
-        {
-          "san": "Nc3",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nge7 4.Nc3",
-      "moves": [
-        {
-          "san": "g6",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nge7 4.Nc3 g6"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Be7",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Hungarian_Defense"
-      ],
-      "moves": [
-        {
-          "san": "d4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Be7 4.d4",
-      "moves": [
-        {
-          "san": "exd4",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Be7 4.d4 exd4",
-      "moves": [
-        {
-          "san": "c3",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Be7 4.d4 exd4 5.c3",
-      "moves": [
-        {
-          "san": "Nf6",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Be7 4.d4 exd4 5.c3 Nf6",
-      "moves": [
-        {
-          "san": "e5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Be7 4.d4 exd4 5.c3 Nf6 6.e5",
-      "moves": [
-        {
-          "san": "Ne4",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Be7 4.d4 exd4 5.c3 Nf6 6.e5 Ne4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Hungarian_Defense"
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6",
-      "moves": [
-        {
-          "san": "d3",
-          "rating": 5
-        },
-        {
-          "san": "d4",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d3",
-      "moves": [
-        {
-          "san": "d5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Inverted_Hungarian_Opening"
-      ],
-      "moves": [
-        {
-          "san": "exd4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d3 d5",
-      "moves": [
-        {
-          "san": "Nbd2",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d3 d5 5.Nbd2",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Inverted_Hungarian_Opening"
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d4 exd4",
-      "moves": [
-        {
-          "san": "e5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d4 exd4 5.e5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Inverted_Hungarian_Opening"
       ]
     },
     {
@@ -614,10 +221,85 @@
           "rating": 5
         },
         {
+          "san": "exd5",
+          "rating": 3
+        },
+        {
           "san": "Bb5",
           "rating": 2
         }
       ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5",
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 5
+        },
+        {
+          "san": "Bd7",
+          "rating": 3
+        },
+        {
+          "san": "f6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4",
+      "moves": [
+        {
+          "san": "Nxe5",
+          "rating": 5
+        },
+        {
+          "san": "Bxc6+",
+          "rating": 3
+        },
+        {
+          "san": "Ng5",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5",
+      "moves": [
+        {
+          "san": "Qg5",
+          "rating": 5
+        },
+        {
+          "san": "Qd5",
+          "rating": 4
+        },
+        {
+          "san": "Qd6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5 Qd5",
+      "moves": [
+        {
+          "san": "Qa4",
+          "rating": 5
+        },
+        {
+          "san": "Bxc6+",
+          "rating": 3
+        },
+        {
+          "san": "Nxc6",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5 Qd5 6.Qa4"
     },
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Qa4",
@@ -637,15 +319,6 @@
       ]
     },
     {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5",
-      "moves": [
-        {
-          "san": "dxe4",
-          "rating": 5
-        }
-      ]
-    },
-    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Qa4 f6"
     },
     {
@@ -653,36 +326,6 @@
     },
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Qa4 Nf6"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4",
-      "moves": [
-        {
-          "san": "Nxe5",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5",
-      "moves": [
-        {
-          "san": "Qd5",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5 Qd5",
-      "moves": [
-        {
-          "san": "Qa4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5 Qd5 6.Qa4"
     },
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.c3 f5",
@@ -693,6 +336,14 @@
         {
           "san": "d4",
           "rating": 5
+        },
+        {
+          "san": "exf5",
+          "rating": 4
+        },
+        {
+          "san": "d3",
+          "rating": 3
         }
       ]
     },
@@ -700,7 +351,15 @@
       "line": "1.e4 e5 2.Nf3 Nc6 3.c3 f5 4.d4",
       "moves": [
         {
+          "san": "fxe4",
+          "rating": 5
+        },
+        {
           "san": "d6",
+          "rating": 3
+        },
+        {
+          "san": "exd4",
           "rating": 3
         }
       ]
@@ -710,7 +369,15 @@
       "moves": [
         {
           "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "exf5",
           "rating": 4
+        },
+        {
+          "san": "dxe5",
+          "rating": 3
         }
       ]
     },
@@ -718,8 +385,151 @@
       "line": "1.e4 e5 2.Nf3 Nc6 3.c3 f5 4.d4 d6 5.d5"
     },
     {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 Nf6",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "d3",
+          "rating": 3
+        },
+        {
+          "san": "Bc4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 Nf6 4.Bc4",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nc6/3._c3/3...Nf6/4._Bc4"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 Nf6 4.d3",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Be7",
+          "rating": 4
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 Nf6 4.d3 d5",
+      "moves": [
+        {
+          "san": "Nbd2",
+          "rating": 5
+        },
+        {
+          "san": "Qc2",
+          "rating": 4
+        },
+        {
+          "san": "exd5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 Nf6 4.d3 d5 5.Nbd2"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 Nf6 4.d4",
+      "moves": [
+        {
+          "san": "Nxe4",
+          "rating": 5
+        },
+        {
+          "san": "exd4",
+          "rating": 4
+        },
+        {
+          "san": "d5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 Nf6 4.d4 Nxe4",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Bd3",
+          "rating": 4
+        },
+        {
+          "san": "dxe5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 Nf6 4.d4 Nxe4 5.d5",
+      "moves": [
+        {
+          "san": "Ne7",
+          "rating": 5
+        },
+        {
+          "san": "Bc5",
+          "rating": 4
+        },
+        {
+          "san": "Nb8",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.c3 Nf6 4.d4 Nxe4 5.d5 Bc5",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nc6/3._c3/3...Nf6/4._d4/4...Nxe4/5._d5/5...Bc5",
+        "https://en.wikipedia.org/wiki/Ponziani_Opening"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.c4",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "Bc5",
+          "rating": 4
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        }
+      ]
+    },
+    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.c4 Nf6",
       "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        },
+        {
+          "san": "d3",
+          "rating": 3
+        },
         {
           "san": "Nxe5",
           "rating": 1
@@ -730,11 +540,36 @@
       "line": "1.e4 e5 2.Nf3 Nc6 3.c4 Nf6 4.Nxe5"
     },
     {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.d3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "d5",
+          "rating": 4
+        },
+        {
+          "san": "f5",
+          "rating": 2
+        }
+      ]
+    },
+    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.d3 f5",
       "moves": [
         {
           "san": "exf5",
-          "rating": 4
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        },
+        {
+          "san": "Nbd2",
+          "rating": 3
         }
       ]
     },
@@ -742,98 +577,38 @@
       "line": "1.e4 e5 2.Nf3 Nc6 3.d3 f5 4.exf5"
     },
     {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 Nxd4",
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Nxe5",
       "sources": [
-        "https://en.wikipedia.org/wiki/Scotch_Game"
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nc6/3._Nxe5"
       ],
       "moves": [
         {
-          "san": "Nxd4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 Nxd4 4.Nxd4",
-      "moves": [
-        {
-          "san": "exd4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 Nxd4 4.Nxd4 exd4",
-      "moves": [
-        {
-          "san": "Qxd4",
+          "san": "Nxe5",
           "rating": 5
         },
         {
-          "san": "Bc4",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.d4 Nxd4 4.Nxd4 exd4 5.Bc4"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Nc3 Bb4",
-      "moves": [
-        {
-          "san": "Nd5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Nc3 Bb4 4.Nd5",
-      "moves": [
+          "san": "Qe7",
+          "rating": 2
+        },
         {
           "san": "Nf6",
-          "rating": 3
+          "rating": 2
         }
       ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Nc3 Bb4 4.Nd5 Nf6"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Nc3 g6",
-      "moves": [
-        {
-          "san": "d4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Nc3 g6 4.d4",
-      "moves": [
-        {
-          "san": "exd4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Nc3 g6 4.d4 exd4",
-      "moves": [
-        {
-          "san": "Nd5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Nc3 g6 4.d4 exd4 5.Nd5"
     },
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Nxe5 Nxe5",
       "moves": [
         {
           "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "f4",
+          "rating": 2
+        },
+        {
+          "san": "Nc3",
           "rating": 2
         }
       ]

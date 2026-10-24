@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 e5 2.f4 d5: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 e5 2.f4 d5: the moves the named lines play from here on on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 e5 2.f4 d5",
@@ -26,6 +26,15 @@
       ]
     },
     {
+      "line": "1.e4 e5 2.f4 d5 3.Nf3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Falkbeer_Countergambit"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.f4 d5 3.d4"
+    },
+    {
       "line": "1.e4 e5 2.f4 d5 3.exd5",
       "moves": [
         {
@@ -47,24 +56,6 @@
       ]
     },
     {
-      "line": "1.e4 e5 2.f4 d5 3.Nf3",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Falkbeer_Countergambit"
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.f4 d5 3.Nc3",
-      "moves": [
-        {
-          "san": "dxe4",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.f4 d5 3.d4"
-    },
-    {
       "line": "1.e4 e5 2.f4 d5 3.exd5 exf4"
     },
     {
@@ -77,6 +68,14 @@
       ],
       "moves": [
         {
+          "san": "Nc3",
+          "rating": 5
+        },
+        {
+          "san": "Qe2",
+          "rating": 3
+        },
+        {
           "san": "dxc6",
           "rating": 2
         }
@@ -87,7 +86,15 @@
       "moves": [
         {
           "san": "Bc5",
+          "rating": 5
+        },
+        {
+          "san": "Nxc6",
           "rating": 4
+        },
+        {
+          "san": "bxc6",
+          "rating": 3
         }
       ]
     },
@@ -115,6 +122,9 @@
       ]
     },
     {
+      "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.Bb5+"
+    },
+    {
       "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3",
       "sources": [
         "https://en.wikipedia.org/wiki/King%27s_Gambit"
@@ -123,20 +133,16 @@
         {
           "san": "Nf6",
           "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3",
-      "moves": [
+        },
         {
-          "san": "Nf6",
-          "rating": 5
+          "san": "Qxd5",
+          "rating": 4
+        },
+        {
+          "san": "exd3",
+          "rating": 3
         }
       ]
-    },
-    {
-      "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.Bb5+"
     },
     {
       "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6",
@@ -156,19 +162,27 @@
       ]
     },
     {
+      "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.Nd2"
+    },
+    {
+      "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.Qe2"
+    },
+    {
       "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.dxe4",
       "moves": [
         {
           "san": "Nxe4",
           "rating": 5
+        },
+        {
+          "san": "Bb4+",
+          "rating": 2
+        },
+        {
+          "san": "Qxd5",
+          "rating": 1
         }
       ]
-    },
-    {
-      "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.Nd2"
-    },
-    {
-      "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.Qe2"
     },
     {
       "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.dxe4 Nxe4",
@@ -180,6 +194,10 @@
         {
           "san": "Qe2",
           "rating": 3
+        },
+        {
+          "san": "Nc3",
+          "rating": 2
         }
       ]
     },
@@ -189,15 +207,14 @@
         {
           "san": "Bc5",
           "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.dxe4 Nxe4 6.Qe2",
-      "moves": [
+        },
         {
-          "san": "Qxd5",
-          "rating": 5
+          "san": "Bf5",
+          "rating": 3
+        },
+        {
+          "san": "Qe7",
+          "rating": 3
         }
       ]
     },
@@ -205,7 +222,41 @@
       "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.dxe4 Nxe4 6.Nf3 Bc5"
     },
     {
+      "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.dxe4 Nxe4 6.Qe2",
+      "moves": [
+        {
+          "san": "Qxd5",
+          "rating": 5
+        },
+        {
+          "san": "Bf5",
+          "rating": 3
+        },
+        {
+          "san": "Qe7",
+          "rating": 3
+        }
+      ]
+    },
+    {
       "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.dxe4 Nxe4 6.Qe2 Qxd5"
+    },
+    {
+      "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "Bf5",
+          "rating": 3
+        },
+        {
+          "san": "Qe7",
+          "rating": 3
+        }
+      ]
     },
     {
       "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3 Nf6",
@@ -217,15 +268,10 @@
         {
           "san": "Qe2",
           "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3 Nf6 5.d3",
-      "moves": [
+        },
         {
-          "san": "Bb4",
-          "rating": 5
+          "san": "Bb5+",
+          "rating": 3
         }
       ]
     },
@@ -236,11 +282,36 @@
       ]
     },
     {
+      "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3 Nf6 5.d3",
+      "moves": [
+        {
+          "san": "Bb4",
+          "rating": 5
+        },
+        {
+          "san": "Nxd5",
+          "rating": 3
+        },
+        {
+          "san": "exd3",
+          "rating": 3
+        }
+      ]
+    },
+    {
       "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3 Nf6 5.d3 Bb4",
       "moves": [
         {
           "san": "Bd2",
           "rating": 5
+        },
+        {
+          "san": "dxe4",
+          "rating": 3
+        },
+        {
+          "san": "Ne2",
+          "rating": 3
         }
       ]
     },
@@ -249,7 +320,15 @@
       "moves": [
         {
           "san": "e3",
-          "rating": 4
+          "rating": 5
+        },
+        {
+          "san": "Bxc3",
+          "rating": 3
+        },
+        {
+          "san": "exd3",
+          "rating": 3
         }
       ]
     },
@@ -257,10 +336,35 @@
       "line": "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3 Nf6 5.d3 Bb4 6.Bd2 e3"
     },
     {
+      "line": "1.e4 e5 2.f4 d5 3.Nc3",
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        },
+        {
+          "san": "d4",
+          "rating": 3
+        }
+      ]
+    },
+    {
       "line": "1.e4 e5 2.f4 d5 3.Nc3 dxe4",
       "moves": [
         {
+          "san": "fxe5",
+          "rating": 5
+        },
+        {
           "san": "Nxe4",
+          "rating": 2
+        },
+        {
+          "san": "d3",
           "rating": 2
         }
       ]

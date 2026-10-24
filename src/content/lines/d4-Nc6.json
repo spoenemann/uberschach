@@ -1,0 +1,233 @@
+{
+  "about": "After 1.d4 Nc6: its moves and the positions they reach (docs/adr/0002-opening-modules-folded-to-a-size-budget.md). The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
+  "positions": [
+    {
+      "line": "1.d4 Nc6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bogoljubov%E2%80%93Mikenas_Defense",
+        "https://en.wikipedia.org/wiki/Queen%27s_Pawn_Game"
+      ],
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "c4",
+          "rating": 4
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "e4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nc6 2.c4",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        },
+        {
+          "san": "d5",
+          "rating": 4
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nc6 2.c4 e5",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "dxe5",
+          "rating": 3
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nc6 2.c4 e5 3.d5",
+      "moves": [
+        {
+          "san": "Nce7",
+          "rating": 5
+        },
+        {
+          "san": "Nd4",
+          "rating": 3
+        },
+        {
+          "san": "Nb8",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nc6 2.c4 e5 3.d5 Nce7"
+    },
+    {
+      "line": "1.d4 Nc6 2.c4 e5 3.d5 Nd4"
+    },
+    {
+      "line": "1.d4 Nc6 2.c4 e5 3.dxe5",
+      "moves": [
+        {
+          "san": "Nxe5",
+          "rating": 5
+        },
+        {
+          "san": "Bb4+",
+          "rating": 4
+        },
+        {
+          "san": "Nge7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nc6 2.c4 e5 3.dxe5 Nxe5",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        },
+        {
+          "san": "e3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nc6 2.c4 e5 3.dxe5 Nxe5 4.Nc3",
+      "moves": [
+        {
+          "san": "Nxc4",
+          "rating": 5
+        },
+        {
+          "san": "Bb4",
+          "rating": 4
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nc6 2.c4 e5 3.dxe5 Nxe5 4.Nc3 Nxc4"
+    },
+    {
+      "line": "1.d4 Nc6 2.d5",
+      "moves": [
+        {
+          "san": "Ne5",
+          "rating": 5
+        },
+        {
+          "san": "Nb8",
+          "rating": 4
+        },
+        {
+          "san": "Nb4",
+          "rating": 2
+        },
+        {
+          "san": "Nd4",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nc6 2.d5 Nb8",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 5
+        },
+        {
+          "san": "c4",
+          "rating": 4
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nc6 2.d5 Nb8 3.e4",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
+        },
+        {
+          "san": "e6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nc6 2.d5 Nb8 3.e4 Nf6",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "Bd3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nc6 2.d5 Nb8 3.e4 Nf6 4.e5",
+      "moves": [
+        {
+          "san": "Ne4",
+          "rating": 5
+        },
+        {
+          "san": "Ng8",
+          "rating": 2
+        },
+        {
+          "san": "Nxd5",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nc6 2.d5 Nb8 3.e4 Nf6 4.e5 Ng8"
+    }
+  ]
+}

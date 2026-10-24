@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 d5 2.exd5 Qxd5: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 d5 2.exd5 Qxd5: the moves the named lines play from here on on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 d5 2.exd5 Qxd5",
@@ -10,6 +10,14 @@
         {
           "san": "Nc3",
           "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "d4",
+          "rating": 3
         }
       ]
     },
@@ -38,21 +46,20 @@
           "rating": 5
         },
         {
-          "san": "b4",
-          "rating": 2
-        }
-      ]
-    },
-    {
-      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4",
-      "moves": [
-        {
-          "san": "Nf6",
-          "rating": 5
+          "san": "Nf3",
+          "rating": 4
         },
         {
-          "san": "e5",
-          "rating": 3
+          "san": "Bc4",
+          "rating": 4
+        },
+        {
+          "san": "g3",
+          "rating": 4
+        },
+        {
+          "san": "b4",
+          "rating": 2
         }
       ]
     },
@@ -64,24 +71,36 @@
       ]
     },
     {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "c6",
+          "rating": 5
+        },
+        {
+          "san": "e5",
+          "rating": 3
+        }
+      ]
+    },
+    {
       "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5",
       "moves": [
+        {
+          "san": "dxe5",
+          "rating": 5
+        },
         {
           "san": "Nf3",
           "rating": 4
         },
         {
-          "san": "dxe5",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Nf3",
-      "moves": [
-        {
-          "san": "Bg4",
-          "rating": 4
+          "san": "Bd2",
+          "rating": 3
         }
       ]
     },
@@ -91,18 +110,31 @@
         {
           "san": "Nc6",
           "rating": 5
+        },
+        {
+          "san": "Qxe5+",
+          "rating": 3
+        },
+        {
+          "san": "Nd7",
+          "rating": 3
         }
       ]
-    },
-    {
-      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Nf3 Bg4"
     },
     {
       "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Nc6",
       "moves": [
         {
           "san": "Nf3",
-          "rating": 4
+          "rating": 5
+        },
+        {
+          "san": "Bf4",
+          "rating": 3
+        },
+        {
+          "san": "Bd2",
+          "rating": 3
         }
       ]
     },
@@ -111,7 +143,15 @@
       "moves": [
         {
           "san": "Bb4",
+          "rating": 5
+        },
+        {
+          "san": "Bg4",
           "rating": 4
+        },
+        {
+          "san": "Nxe5",
+          "rating": 3
         }
       ]
     },
@@ -119,11 +159,39 @@
       "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Nc6 6.Nf3 Bb4"
     },
     {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Nf3",
+      "moves": [
+        {
+          "san": "Bg4",
+          "rating": 5
+        },
+        {
+          "san": "Nc6",
+          "rating": 4
+        },
+        {
+          "san": "exd4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Nf3 Bg4"
+    },
+    {
       "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6",
       "moves": [
         {
           "san": "Nf3",
           "rating": 5
+        },
+        {
+          "san": "Bc4",
+          "rating": 4
+        },
+        {
+          "san": "Bd2",
+          "rating": 3
         }
       ]
     },
@@ -132,6 +200,10 @@
       "moves": [
         {
           "san": "Bf5",
+          "rating": 5
+        },
+        {
+          "san": "c6",
           "rating": 5
         },
         {
@@ -144,7 +216,15 @@
       "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bf5",
       "moves": [
         {
+          "san": "Bc4",
+          "rating": 5
+        },
+        {
           "san": "Ne5",
+          "rating": 4
+        },
+        {
+          "san": "Bd2",
           "rating": 4
         }
       ]
@@ -155,6 +235,14 @@
         {
           "san": "c6",
           "rating": 5
+        },
+        {
+          "san": "Nbd7",
+          "rating": 4
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
         }
       ]
     },
@@ -166,7 +254,15 @@
       "moves": [
         {
           "san": "h3",
+          "rating": 5
+        },
+        {
+          "san": "Be2",
           "rating": 4
+        },
+        {
+          "san": "Bd2",
+          "rating": 3
         }
       ]
     },
@@ -182,6 +278,14 @@
         {
           "san": "d4",
           "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "g3",
+          "rating": 4
         }
       ]
     },
@@ -194,6 +298,10 @@
         },
         {
           "san": "c6",
+          "rating": 4
+        },
+        {
+          "san": "a6",
           "rating": 4
         }
       ]
@@ -211,15 +319,10 @@
         {
           "san": "Bc4",
           "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Nf3",
-      "moves": [
+        },
         {
-          "san": "a6",
-          "rating": 5
+          "san": "g3",
+          "rating": 4
         }
       ]
     },
@@ -229,18 +332,31 @@
         {
           "san": "c6",
           "rating": 5
+        },
+        {
+          "san": "a6",
+          "rating": 4
+        },
+        {
+          "san": "Qd8",
+          "rating": 3
         }
       ]
-    },
-    {
-      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Nf3 a6"
     },
     {
       "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Bc4 c6",
       "moves": [
         {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
           "san": "Nge2",
           "rating": 4
+        },
+        {
+          "san": "Bb3",
+          "rating": 3
         }
       ]
     },
@@ -250,11 +366,39 @@
         {
           "san": "Bf5",
           "rating": 5
+        },
+        {
+          "san": "Bg4",
+          "rating": 3
+        },
+        {
+          "san": "Nbd7",
+          "rating": 3
         }
       ]
     },
     {
       "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Bc4 c6 6.Nge2 Bf5"
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Nf3",
+      "moves": [
+        {
+          "san": "a6",
+          "rating": 5
+        },
+        {
+          "san": "c6",
+          "rating": 4
+        },
+        {
+          "san": "Qd8",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Nf3 a6"
     },
     {
       "line": "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8",
@@ -266,6 +410,14 @@
         {
           "san": "d4",
           "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "Bc4",
+          "rating": 3
         }
       ]
     },
@@ -275,6 +427,14 @@
         {
           "san": "Nf6",
           "rating": 5
+        },
+        {
+          "san": "Bf5",
+          "rating": 4
+        },
+        {
+          "san": "c6",
+          "rating": 3
         }
       ]
     },
@@ -284,6 +444,14 @@
         {
           "san": "Nf3",
           "rating": 5
+        },
+        {
+          "san": "Bf4",
+          "rating": 4
+        },
+        {
+          "san": "Bc4",
+          "rating": 3
         }
       ]
     },
@@ -296,6 +464,10 @@
         },
         {
           "san": "c6",
+          "rating": 4
+        },
+        {
+          "san": "Bf5",
           "rating": 4
         }
       ]

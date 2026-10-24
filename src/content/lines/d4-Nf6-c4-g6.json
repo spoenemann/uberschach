@@ -1,5 +1,5 @@
 {
-  "about": "After 1.d4 Nf6 2.c4 g6: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.d4 Nf6 2.c4 g6: the moves the named lines play from here on on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.d4 Nf6 2.c4 g6",
@@ -38,43 +38,38 @@
       ]
     },
     {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nc3",
+      "line": "1.d4 Nf6 2.c4 g6 3.h4",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._d4/1...Nf6/2._c4/2...g6/3._h4",
+        "https://en.wikipedia.org/wiki/King%27s_Indian_Defence"
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 g6 3.Qc2"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 g6 3.d5",
       "moves": [
         {
           "san": "Bg7",
           "rating": 5
         },
         {
-          "san": "d5",
+          "san": "c6",
           "rating": 4
+        },
+        {
+          "san": "b5",
+          "rating": 3
+        },
+        {
+          "san": "d6",
+          "rating": 3
         }
       ]
     },
     {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3",
-      "moves": [
-        {
-          "san": "Bg7",
-          "rating": 5
-        },
-        {
-          "san": "d5",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 g6 3.g3",
-      "moves": [
-        {
-          "san": "Bg7",
-          "rating": 5
-        },
-        {
-          "san": "d5",
-          "rating": 4
-        }
-      ]
+      "line": "1.d4 Nf6 2.c4 g6 3.d5 b5"
     },
     {
       "line": "1.d4 Nf6 2.c4 g6 3.f3",
@@ -97,28 +92,6 @@
       ]
     },
     {
-      "line": "1.d4 Nf6 2.c4 g6 3.d5",
-      "moves": [
-        {
-          "san": "b5",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 g6 3.h4",
-      "sources": [
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._d4/1...Nf6/2._c4/2...g6/3._h4",
-        "https://en.wikipedia.org/wiki/King%27s_Indian_Defence"
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 g6 3.Qc2"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 g6 3.d5 b5"
-    },
-    {
       "line": "1.d4 Nf6 2.c4 g6 3.f3 d5",
       "sources": [
         "https://en.wikipedia.org/wiki/List_of_chess_openings_named_after_people"
@@ -131,14 +104,19 @@
       ]
     },
     {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 d5"
-    },
-    {
       "line": "1.d4 Nf6 2.c4 g6 3.f3 c5",
       "moves": [
         {
           "san": "d5",
           "rating": 5
+        },
+        {
+          "san": "dxc5",
+          "rating": 3
+        },
+        {
+          "san": "e4",
+          "rating": 3
         }
       ]
     },
@@ -146,7 +124,15 @@
       "line": "1.d4 Nf6 2.c4 g6 3.f3 c5 4.d5",
       "moves": [
         {
+          "san": "Bg7",
+          "rating": 5
+        },
+        {
           "san": "d6",
+          "rating": 4
+        },
+        {
+          "san": "e6",
           "rating": 4
         }
       ]
@@ -157,6 +143,14 @@
         {
           "san": "e4",
           "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "Bg5",
+          "rating": 3
         }
       ]
     },
@@ -166,6 +160,14 @@
         {
           "san": "Bg7",
           "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 4
+        },
+        {
+          "san": "Nbd7",
+          "rating": 3
         }
       ]
     },
@@ -175,6 +177,14 @@
         {
           "san": "Nc3",
           "rating": 5
+        },
+        {
+          "san": "Ne2",
+          "rating": 4
+        },
+        {
+          "san": "Be3",
+          "rating": 3
         }
       ]
     },
@@ -182,8 +192,16 @@
       "line": "1.d4 Nf6 2.c4 g6 3.f3 c5 4.d5 d6 5.e4 Bg7 6.Nc3",
       "moves": [
         {
+          "san": "O-O",
+          "rating": 5
+        },
+        {
           "san": "e6",
           "rating": 4
+        },
+        {
+          "san": "a6",
+          "rating": 3
         }
       ]
     },
@@ -191,11 +209,36 @@
       "line": "1.d4 Nf6 2.c4 g6 3.f3 c5 4.d5 d6 5.e4 Bg7 6.Nc3 e6"
     },
     {
+      "line": "1.d4 Nf6 2.c4 g6 3.g3",
+      "moves": [
+        {
+          "san": "Bg7",
+          "rating": 5
+        },
+        {
+          "san": "d5",
+          "rating": 4
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        }
+      ]
+    },
+    {
       "line": "1.d4 Nf6 2.c4 g6 3.g3 Bg7",
       "moves": [
         {
           "san": "Bg2",
           "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
         }
       ]
     },
@@ -205,6 +248,14 @@
         {
           "san": "Bg2",
           "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "cxd5",
+          "rating": 3
         }
       ]
     },
@@ -214,14 +265,73 @@
         {
           "san": "Bg7",
           "rating": 5
+        },
+        {
+          "san": "c6",
+          "rating": 4
+        },
+        {
+          "san": "dxc4",
+          "rating": 3
         }
       ]
     },
     {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7",
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3",
       "moves": [
         {
-          "san": "Nc3",
+          "san": "Bg7",
+          "rating": 5
+        },
+        {
+          "san": "d5",
+          "rating": 4
+        },
+        {
+          "san": "d6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "g3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.Nf3",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "d5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.Nf3 d6",
+      "moves": [
+        {
+          "san": "e4",
           "rating": 5
         },
         {
@@ -229,23 +339,74 @@
           "rating": 4
         },
         {
-          "san": "b4",
+          "san": "Bg5",
           "rating": 3
         }
       ]
     },
     {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3",
-      "sources": [
-        "https://en.wikipedia.org/wiki/King%27s_Indian_Defence"
-      ],
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.Nf3 d6 5.Bg5"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.Nf3 d6 5.g3",
       "moves": [
         {
           "san": "O-O",
           "rating": 5
         },
         {
+          "san": "Nbd7",
+          "rating": 4
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.Nf3 d6 5.g3 O-O",
+      "moves": [
+        {
+          "san": "Bg2",
+          "rating": 5
+        },
+        {
+          "san": "d5",
+          "rating": 3
+        },
+        {
+          "san": "e4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.Nf3 O-O",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 5
+        },
+        {
+          "san": "g3",
+          "rating": 4
+        },
+        {
+          "san": "e3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.Nf3 O-O 5.e3",
+      "moves": [
+        {
           "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "d5",
           "rating": 4
         },
         {
@@ -255,100 +416,50 @@
       ]
     },
     {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.b4"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 c5",
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.Nf3 O-O 5.e3 d6",
       "moves": [
         {
-          "san": "Bg2",
+          "san": "Be2",
           "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 c5 5.Bg2",
-      "moves": [
+        },
         {
-          "san": "Qa5+",
+          "san": "Bd3",
+          "rating": 4
+        },
+        {
+          "san": "b3",
           "rating": 3
         }
       ]
     },
     {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 c5 5.Bg2 Qa5+"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 d6",
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.Nf3 O-O 5.e3 d6 6.Be2",
       "moves": [
-        {
-          "san": "Bg2",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 d6 5.Bg2",
-      "moves": [
-        {
-          "san": "O-O",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 d6 5.Bg2 O-O",
-      "moves": [
-        {
-          "san": "O-O",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 d6 5.Bg2 O-O 6.O-O",
-      "moves": [
-        {
-          "san": "Nc6",
-          "rating": 5
-        },
         {
           "san": "Nbd7",
           "rating": 5
         },
         {
-          "san": "c5",
-          "rating": 4
+          "san": "c6",
+          "rating": 3
         },
         {
-          "san": "c6",
+          "san": "Nc6",
           "rating": 3
         }
       ]
     },
     {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 d6 5.Bg2 O-O 6.O-O Nc6"
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.Nf3 O-O 5.e3 d6 6.Be2 Nbd7"
     },
     {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 d6 5.Bg2 O-O 6.O-O Nbd7"
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.Nf3 O-O 5.e3 d6 6.Be2 c6"
     },
     {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 d6 5.Bg2 O-O 6.O-O c5"
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.Nf3 O-O 5.e3 d6 6.Be2 Nc6"
     },
     {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 d6 5.Bg2 O-O 6.O-O c6"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 O-O",
-      "moves": [
-        {
-          "san": "Bg2",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 O-O 5.Bg2",
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.Nf3 O-O 5.g3",
       "moves": [
         {
           "san": "d6",
@@ -359,28 +470,47 @@
           "rating": 4
         },
         {
+          "san": "c5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.Nf3 O-O 5.g3 d5",
+      "moves": [
+        {
+          "san": "cxd5",
+          "rating": 5
+        },
+        {
+          "san": "Bg2",
+          "rating": 3
+        },
+        {
+          "san": "Qb3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.Nf3 O-O 5.g3 d5 6.cxd5",
+      "moves": [
+        {
+          "san": "Nxd5",
+          "rating": 5
+        },
+        {
           "san": "c6",
-          "rating": 4
+          "rating": 2
+        },
+        {
+          "san": "Qxd5",
+          "rating": 1
         }
       ]
     },
     {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 O-O 5.Bg2 c6",
-      "moves": [
-        {
-          "san": "O-O",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 g6 3.Nf3 Bg7 4.g3 O-O 5.Bg2 c6 6.O-O",
-      "moves": [
-        {
-          "san": "d5",
-          "rating": 5
-        }
-      ]
+      "line": "1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.Nf3 O-O 5.g3 d5 6.cxd5 Nxd5"
     }
   ]
 }

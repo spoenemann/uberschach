@@ -40,6 +40,11 @@
       in English and German, reviewed, and every position the dataset names
       named (`src/content/openings.test.ts`): 5,317 moves and 5,136
       positions, 7,857 positions in the book (Progress log, 2026-10-24).
+- [x] The gaps (Decision log, 2026-10-24, Gaps): every position with moves
+      holds at least three, or every legal move where fewer are legal, and
+      one rated 5, in English and German, reviewed
+      (`src/content/openings.test.ts`): 5,790 moves added and 527 revised,
+      14,025 moves in the book (Progress log, 2026-10-24).
 - [ ] Every promise in the spec names the test that keeps it.
 
 ## Content principles
@@ -87,7 +92,9 @@ the next batch. The numbers are measured on 2026-10-23 on a ten-core
 machine; the briefs and the scripts named here were scratch files of that
 session and are not in the repository (Open, below). The strategy notes'
 rework added the board tool, a node-file writer, a validator and a writer
-of the modules to the repository, with its briefs (`scripts/content/`).
+of the modules to the repository, with its briefs; the named lines and the
+gaps replaced all but the board tool with their own (`scripts/content/`),
+and the rework's are in the history.
 
 **Sources, in the order they proved useful**
 
@@ -197,13 +204,9 @@ chunk by chunk from a served form generated at build
 (`docs/adr/0001-opening-book-as-fetched-json.md`, 2026-10-24): the bundle
 no longer grows with it, and a chunk is bounded by the module layout the
 test holds (one root, two plies below it), so the next two plies go into
-modules rooted at the followed ply-4 positions. The briefs and the scripts
-are to be committed before that work, or rebuilt from this section: the
-board tool and the shared module reader are in `scripts/content/`, and its
-node-file writer, validator and module writer are the strategy rework's, to
-be extended for new positions (the frontier from the ratings, ratings and
-backgrounds in the validator, new entries in the module writer, which now
-write JSON).
+modules rooted at the followed ply-4 positions. The named lines' frontier,
+validator and module writer in `scripts/content/` are the ones to extend
+for that (the frontier from the ratings instead of the dataset).
 
 ## Decomposition
 
@@ -235,6 +238,11 @@ write JSON).
       the frontier, the briefs, the validator and the module writer
       (`scripts/content/`), the content test held to the dataset.
 - [x] Named lines, content: 163 batches and 24 name files (Progress log).
+- [x] Gaps, tooling: `gaps.mjs`, the gap briefs, the validator and the
+      module writer for a gaps batch, `merge-modules.mjs --refold`, the
+      content test; the rework's tools dropped (`scripts/content/`).
+- [x] Gaps, content: 234 batches, then the modules folded again (Progress
+      log).
 
 ## Progress log
 
@@ -559,6 +567,63 @@ write JSON).
   move fetches four to six chunks instead of seven (the Najdorf four, the
   closed Ruy Lopez six, the King's Indian and the Winawer five).
 
+- 2026-10-24: **Gaps: the pilot.** `gaps.mjs` found 3,067 positions with
+  moves but fewer than three or none rated 5 (at least 5,592 moves to add)
+  and wrote them into 234 batches of about 25 positions, a family's
+  together. Four batches ran first: 12 agents, 14 minutes, 1.2 million
+  tokens, 134 moves added and 15 revised, every output valid. Two faults,
+  fixed in the briefs before the full run: a writer rated a move 5 because
+  the book follows it on a named line (the dataset names lines for their
+  names, gambits and traps, not their merit; both briefs now say so, and
+  the reviewer counts such a rating as a finding), and a reviewer checked
+  the concrete claims by reasoning without running the board tool (the
+  brief now asks for the tool on every concrete claim, and every reply
+  reports how many board commands were run). The pilot's outputs were not
+  used.
+
+- 2026-10-24: **Gaps: the content.** One workflow ran the 234 batches: 702
+  agents, none failed, 66.7 million tokens, 6 hours 31 minutes (the
+  projection from the pilot was about 70 million and six to seven hours;
+  the writers took 8.8 minutes each on average, the reviewers 3.6, the
+  translators 0.8). Every output passed `validate-batch.mjs` again
+  afterwards, and no reviewer reported running no board command. Added:
+  5,790 moves, rated 5 678 times, 4 1,711, 3 2,680, 2 407 and 1 314.
+  Revised: 527 existing moves, 126 with a new note; 414 went from 4 to 5
+  and 41 from 3 to 5, which supplies most of the missing main answers. The
+  reviewers changed 983 moves or revisions (710 findings were claims false
+  on the board, 89 claims the basis did not support, 70 ratings, 54
+  breaches of the standard, 25 main answers, 21 alternatives, 32 form)
+  and dropped 34 added moves for better ones. Read afterwards: of the 721
+  added moves rated 1 or 2, 713 are in positions with fewer than three
+  sound moves (a forced recapture, an answer to a check), as the brief
+  allows; the other 8 are a natural mistake beside three sound moves. The
+  15 swings between 1 or 2 and 4 or 5 each rest on a named page or a line
+  played out on the board (1.e4 e5 2.f4 Qh4+ 3.g3 Qe7 now 5, Keene's
+  defence on Wikibooks; the Allgaier's 6.Ng5 now 2, unsound in modern
+  theory on Wikipedia; 6.Be2 in the Alekhine with 4...Bg4 now 2, "?!" on
+  Wikibooks). 14 positions have two moves rated 5, four of them existing
+  moves, the others co-main lines the sources treat alike (5.Bh4 and 5.Bxf6
+  in the Queen's Gambit Declined with 5.Bg5 h6, 4...Nf6 and 4...c6 in the
+  Scandinavian with 3...Qa5); the rule asks for one at least, so they
+  stay. 14 notes drawn across the batches and read with the board: true,
+  a few clumsily put; the German uses German piece letters throughout.
+  `add.mjs` wrote the moves into the 192 modules; the book built before
+  and after, compared position by position, differs only by the added
+  moves and the revisions. Ten positions keep fewer than three moves,
+  having fewer legal ones.
+
+- 2026-10-24: **The modules folded again.** The wider positions grew one
+  module past the budget (`Nf3-Nf6`, 119,507 bytes), so
+  `merge-modules.mjs --refold` took the book apart, one unit per position
+  with moves, and folded it again at the same 100,000 bytes (ADR-0002
+  holds unchanged): 174 modules, 522 files under `src/content/lines/`
+  (582 before), the median module 68 kB, the largest 99.9 kB. The book is
+  the same before and after the refold, position by position. Served: 174
+  chunks, 9.7 MB (2.7 MB gzipped), the median chunk 15.5 kB gzipped, the
+  largest 24.3 kB (`Nf3-d5`), the index 49.8 kB gzipped. A budget of
+  128 kB would have given 135 modules, 180 kB 94; the present one keeps
+  every chunk below the largest the book served before.
+
 ## Decision log
 
 - 2026-10-23: **Review by an agent that did not write the text, not by
@@ -831,3 +896,31 @@ write JSON).
   the size of the largest breadth-first module rounded up, so no chunk is
   larger than one the book already served. `add.mjs` still splits new
   depth into modules of its own; `merge-modules.mjs` folds them again.
+- 2026-10-24: **Gaps: every position with moves holds at least three, or
+  every legal move where fewer are legal, and one of them rated 5.** The
+  maintainer: positions along the named lines had one or two moves, some
+  with none rated 5, and a reader learns more from the main answer beside
+  a good or playable alternative than from a single move. The maintainer
+  chose, from the options put to them: only the positions that already
+  have moves get more (3,067 of them; the positions without moves stay
+  where the book ends), and the moves added are leaves, rated and
+  explained but not followed, so the book gains no positions; the writer
+  may revise an existing rating and rewrite a note it makes false, under
+  review; a pilot of four batches, then the rest in one run. The rule
+  replaces "a position on a named line holds only its named moves" of the
+  Named lines decision above: such a position holds its named moves and
+  beside them the main answer and the alternatives the sources name, and
+  a move off the named lines still leaves the book. Per batch of about 25
+  positions, a family's together, a Sonnet writer at high effort finds the
+  main answer, adds alternatives rated 3 to 5 up to five moves in all (a
+  move rated below 3 only where no third sound move exists) and checks the
+  existing ratings and notes; a Sonnet reviewer and a Sonnet translator at
+  medium effort check it and write the German (the maintainer's choice of
+  models and efforts). `openings.test.ts` holds the rule, and the test of
+  the named moves now asks that a position off the named lines holds none,
+  rather than exactly the named ones. The strategy rework's node-file
+  writer, validator, applier, comparer and briefs were dropped from
+  `scripts/content/`; the gaps extend the named lines' validator and module
+  writer, and `merge-modules.mjs` gained `--refold` for modules grown wider
+  than the budget. Not chosen: also giving moves to the positions where
+  the book ends (about 4,300 more positions, and a deeper book).

@@ -1,0 +1,254 @@
+{
+  "about": "After 1.a4: its moves and the positions they reach (docs/adr/0002-opening-modules-folded-to-a-size-budget.md). The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
+  "positions": [
+    {
+      "line": "1.a4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ware_Opening",
+        "https://en.wikipedia.org/wiki/King%27s_Pawn_Game"
+      ],
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        },
+        {
+          "san": "b6",
+          "rating": 3
+        },
+        {
+          "san": "a5",
+          "rating": 3
+        },
+        {
+          "san": "b5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.a4 a5",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._a4"
+      ]
+    },
+    {
+      "line": "1.a4 b5",
+      "moves": [
+        {
+          "san": "axb5",
+          "rating": 5
+        },
+        {
+          "san": "d4",
+          "rating": 3
+        },
+        {
+          "san": "b3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.a4 b5 2.axb5",
+      "moves": [
+        {
+          "san": "Bb7",
+          "rating": 5
+        },
+        {
+          "san": "a6",
+          "rating": 4
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.a4 b5 2.axb5 Bb7"
+    },
+    {
+      "line": "1.a4 b6",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "e4",
+          "rating": 4
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.a4 b6 2.d4",
+      "moves": [
+        {
+          "san": "Bb7",
+          "rating": 5
+        },
+        {
+          "san": "d5",
+          "rating": 4
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        },
+        {
+          "san": "e6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.a4 b6 2.d4 d5",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "c4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.a4 b6 2.d4 d5 3.Nc3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "Bb7",
+          "rating": 4
+        },
+        {
+          "san": "e6",
+          "rating": 4
+        },
+        {
+          "san": "Nd7",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.a4 b6 2.d4 d5 3.Nc3 Nd7"
+    },
+    {
+      "line": "1.a4 e5",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 5
+        },
+        {
+          "san": "d4",
+          "rating": 3
+        },
+        {
+          "san": "h4",
+          "rating": 2
+        },
+        {
+          "san": "a5",
+          "rating": 2
+        },
+        {
+          "san": "Ra3",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.a4 e5 2.h4"
+    },
+    {
+      "line": "1.a4 e5 2.Ra3"
+    },
+    {
+      "line": "1.a4 e5 2.a5",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "a6",
+          "rating": 4
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.a4 e5 2.a5 d5",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "e3",
+          "rating": 3
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.a4 e5 2.a5 d5 3.e3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "Nc6",
+          "rating": 4
+        },
+        {
+          "san": "f5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.a4 e5 2.a5 d5 3.e3 f5",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "a6",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.a4 e5 2.a5 d5 3.e3 f5 4.a6"
+    }
+  ]
+}

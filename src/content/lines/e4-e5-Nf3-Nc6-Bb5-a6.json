@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6: the moves the named lines play from here on on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6",
@@ -14,6 +14,10 @@
         {
           "san": "Bxc6",
           "rating": 4
+        },
+        {
+          "san": "Bc4",
+          "rating": 3
         }
       ]
     },
@@ -59,23 +63,6 @@
       ]
     },
     {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6",
-      "sources": [
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nc6/3._Bb5",
-        "https://en.wikipedia.org/wiki/Ruy_Lopez"
-      ],
-      "moves": [
-        {
-          "san": "dxc6",
-          "rating": 5
-        },
-        {
-          "san": "bxc6",
-          "rating": 2
-        }
-      ]
-    },
-    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Bc5"
     },
     {
@@ -94,9 +81,6 @@
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Bb4"
     },
     {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 bxc6"
-    },
-    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 b5",
       "sources": [
         "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nc6/3._Bb5/3...a6/4._Ba4/4...b5"
@@ -105,6 +89,14 @@
         {
           "san": "Bb3",
           "rating": 5
+        },
+        {
+          "san": "Bxb5",
+          "rating": 1
+        },
+        {
+          "san": "Nxe5",
+          "rating": 1
         }
       ]
     },
@@ -112,16 +104,24 @@
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 b5 5.Bb3",
       "moves": [
         {
-          "san": "Bc5",
-          "rating": 4
+          "san": "Na5",
+          "rating": 5
         },
         {
-          "san": "Na5",
+          "san": "Bc5",
           "rating": 4
         },
         {
           "san": "d6",
           "rating": 4
+        },
+        {
+          "san": "Bb7",
+          "rating": 4
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
         }
       ]
     },
@@ -136,7 +136,15 @@
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 b5 5.Bb3 d6",
       "moves": [
         {
+          "san": "c3",
+          "rating": 5
+        },
+        {
           "san": "d4",
+          "rating": 3
+        },
+        {
+          "san": "a4",
           "rating": 3
         }
       ]
@@ -147,6 +155,14 @@
         {
           "san": "Nxd4",
           "rating": 5
+        },
+        {
+          "san": "exd4",
+          "rating": 4
+        },
+        {
+          "san": "Bd7",
+          "rating": 3
         }
       ]
     },
@@ -159,6 +175,14 @@
         "https://en.wikipedia.org/wiki/Ruy_Lopez"
       ],
       "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        },
+        {
+          "san": "d3",
+          "rating": 3
+        },
         {
           "san": "Bxf7+",
           "rating": 2
@@ -197,28 +221,6 @@
       ]
     },
     {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.c3",
-      "moves": [
-        {
-          "san": "Bd7",
-          "rating": 5
-        },
-        {
-          "san": "f5",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.O-O",
-      "moves": [
-        {
-          "san": "Bd7",
-          "rating": 4
-        }
-      ]
-    },
-    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.Nc3"
     },
     {
@@ -230,6 +232,14 @@
         {
           "san": "bxc6",
           "rating": 5
+        },
+        {
+          "san": "Bd7",
+          "rating": 1
+        },
+        {
+          "san": "Qd7",
+          "rating": 1
         }
       ]
     },
@@ -239,6 +249,14 @@
         {
           "san": "d4",
           "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "O-O",
+          "rating": 3
         }
       ]
     },
@@ -247,7 +265,15 @@
       "moves": [
         {
           "san": "f6",
-          "rating": 4
+          "rating": 5
+        },
+        {
+          "san": "exd4",
+          "rating": 3
+        },
+        {
+          "san": "Qe7",
+          "rating": 3
         }
       ]
     },
@@ -255,11 +281,36 @@
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.Bxc6+ bxc6 6.d4 f6"
     },
     {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.c3",
+      "moves": [
+        {
+          "san": "Bd7",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        },
+        {
+          "san": "f5",
+          "rating": 3
+        }
+      ]
+    },
+    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.c3 Bd7",
       "moves": [
         {
           "san": "d4",
           "rating": 5
+        },
+        {
+          "san": "O-O",
+          "rating": 4
+        },
+        {
+          "san": "Bxc6",
+          "rating": 3
         }
       ]
     },
@@ -269,6 +320,14 @@
         {
           "san": "Nge7",
           "rating": 5
+        },
+        {
+          "san": "g6",
+          "rating": 4
+        },
+        {
+          "san": "exd4",
+          "rating": 3
         }
       ]
     },
@@ -281,6 +340,14 @@
         {
           "san": "exf5",
           "rating": 5
+        },
+        {
+          "san": "d4",
+          "rating": 3
+        },
+        {
+          "san": "Bc2",
+          "rating": 3
         }
       ]
     },
@@ -290,6 +357,14 @@
         {
           "san": "Bxf5",
           "rating": 5
+        },
+        {
+          "san": "b5",
+          "rating": 2
+        },
+        {
+          "san": "e4",
+          "rating": 2
         }
       ]
     },
@@ -297,11 +372,36 @@
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.c3 f5 6.exf5 Bxf5"
     },
     {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.O-O",
+      "moves": [
+        {
+          "san": "Bg4",
+          "rating": 5
+        },
+        {
+          "san": "Bd7",
+          "rating": 4
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        }
+      ]
+    },
+    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.O-O Bd7",
       "moves": [
         {
           "san": "c3",
           "rating": 5
+        },
+        {
+          "san": "d4",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
         }
       ]
     },
@@ -309,7 +409,15 @@
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.O-O Bd7 6.c3",
       "moves": [
         {
+          "san": "Nge7",
+          "rating": 5
+        },
+        {
           "san": "Nf6",
+          "rating": 4
+        },
+        {
+          "san": "g6",
           "rating": 4
         }
       ]
@@ -324,13 +432,45 @@
       ],
       "moves": [
         {
+          "san": "d4",
+          "rating": 5
+        },
+        {
           "san": "exf5",
+          "rating": 3
+        },
+        {
+          "san": "Nc3",
           "rating": 3
         }
       ]
     },
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 f5 5.exf5"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nc6/3._Bb5",
+        "https://en.wikipedia.org/wiki/Ruy_Lopez"
+      ],
+      "moves": [
+        {
+          "san": "dxc6",
+          "rating": 5
+        },
+        {
+          "san": "bxc6",
+          "rating": 2
+        },
+        {
+          "san": "Nf6",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 bxc6"
     },
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6",
@@ -348,6 +488,97 @@
           "rating": 4
         }
       ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.d4",
+      "moves": [
+        {
+          "san": "exd4",
+          "rating": 5
+        },
+        {
+          "san": "Bg4",
+          "rating": 2
+        },
+        {
+          "san": "f6",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.d4 exd4",
+      "moves": [
+        {
+          "san": "Qxd4",
+          "rating": 5
+        },
+        {
+          "san": "Nxd4",
+          "rating": 2
+        },
+        {
+          "san": "O-O",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.d4 exd4 6.Qxd4",
+      "moves": [
+        {
+          "san": "Qxd4",
+          "rating": 5
+        },
+        {
+          "san": "Qf6",
+          "rating": 3
+        },
+        {
+          "san": "Bg4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.d4 exd4 6.Qxd4 Qxd4"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.Nc3",
+      "moves": [
+        {
+          "san": "f6",
+          "rating": 5
+        },
+        {
+          "san": "Bg4",
+          "rating": 4
+        },
+        {
+          "san": "Bd6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.Nc3 f6",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "O-O",
+          "rating": 4
+        },
+        {
+          "san": "d3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.Nc3 f6 6.d3"
     },
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.O-O",
@@ -375,24 +606,6 @@
       ]
     },
     {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.d4",
-      "moves": [
-        {
-          "san": "exd4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.Nc3",
-      "moves": [
-        {
-          "san": "f6",
-          "rating": 5
-        }
-      ]
-    },
-    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.O-O f6",
       "sources": [
         "https://en.wikipedia.org/wiki/Ruy_Lopez,_Exchange_Variation"
@@ -408,44 +621,19 @@
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.O-O Bd6"
     },
     {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.d4 exd4",
-      "moves": [
-        {
-          "san": "Qxd4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.d4 exd4 6.Qxd4",
-      "moves": [
-        {
-          "san": "Qxd4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.d4 exd4 6.Qxd4 Qxd4"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.Nc3 f6",
-      "moves": [
-        {
-          "san": "d3",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.Nc3 f6 6.d3"
-    },
-    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.O-O Bg4",
       "moves": [
         {
           "san": "h3",
           "rating": 5
+        },
+        {
+          "san": "d3",
+          "rating": 3
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
         }
       ]
     },
@@ -454,7 +642,15 @@
       "moves": [
         {
           "san": "h5",
-          "rating": 4
+          "rating": 5
+        },
+        {
+          "san": "Bh5",
+          "rating": 3
+        },
+        {
+          "san": "Bxf3",
+          "rating": 3
         }
       ]
     },

@@ -1,0 +1,593 @@
+{
+  "about": "After 1.d4 d5 2.c4: its moves and the positions they reach (docs/adr/0002-opening-modules-folded-to-a-size-budget.md). The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
+  "positions": [
+    {
+      "line": "1.d4 d5 2.c4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Queen%27s_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 5
+        },
+        {
+          "san": "c6",
+          "rating": 5
+        },
+        {
+          "san": "dxc4",
+          "rating": 4
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
+        },
+        {
+          "san": "Bf5",
+          "rating": 3
+        },
+        {
+          "san": "e5",
+          "rating": 3
+        },
+        {
+          "san": "c5",
+          "rating": 3
+        },
+        {
+          "san": "Nf6",
+          "rating": 2
+        },
+        {
+          "san": "Na6",
+          "rating": 2
+        },
+        {
+          "san": "Be6",
+          "rating": 2
+        },
+        {
+          "san": "Bg4",
+          "rating": 2
+        },
+        {
+          "san": "Qd7",
+          "rating": 2
+        },
+        {
+          "san": "Qd6",
+          "rating": 2
+        },
+        {
+          "san": "Nh6",
+          "rating": 2
+        },
+        {
+          "san": "a6",
+          "rating": 2
+        },
+        {
+          "san": "a5",
+          "rating": 2
+        },
+        {
+          "san": "b6",
+          "rating": 2
+        },
+        {
+          "san": "f6",
+          "rating": 2
+        },
+        {
+          "san": "f5",
+          "rating": 2
+        },
+        {
+          "san": "g6",
+          "rating": 2
+        },
+        {
+          "san": "h6",
+          "rating": 2
+        },
+        {
+          "san": "h5",
+          "rating": 2
+        },
+        {
+          "san": "Nd7",
+          "rating": 1
+        },
+        {
+          "san": "Bd7",
+          "rating": 1
+        },
+        {
+          "san": "Bh3",
+          "rating": 1
+        },
+        {
+          "san": "Kd7",
+          "rating": 1
+        },
+        {
+          "san": "b5",
+          "rating": 1
+        },
+        {
+          "san": "g5",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Nd7"
+    },
+    {
+      "line": "1.d4 d5 2.c4 Bd7"
+    },
+    {
+      "line": "1.d4 d5 2.c4 Na6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 Be6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 Bg4"
+    },
+    {
+      "line": "1.d4 d5 2.c4 Bh3"
+    },
+    {
+      "line": "1.d4 d5 2.c4 Qd7"
+    },
+    {
+      "line": "1.d4 d5 2.c4 Qd6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 Kd7"
+    },
+    {
+      "line": "1.d4 d5 2.c4 Nh6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 a6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 a5"
+    },
+    {
+      "line": "1.d4 d5 2.c4 b6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 b5"
+    },
+    {
+      "line": "1.d4 d5 2.c4 f6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 f5"
+    },
+    {
+      "line": "1.d4 d5 2.c4 g6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 g5"
+    },
+    {
+      "line": "1.d4 d5 2.c4 h6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 h5"
+    },
+    {
+      "line": "1.d4 d5 2.c4 Bf5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Baltic_Defense"
+      ],
+      "moves": [
+        {
+          "san": "Qb3",
+          "rating": 5
+        },
+        {
+          "san": "cxd5",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Bf5 3.Qb3"
+    },
+    {
+      "line": "1.d4 d5 2.c4 Bf5 3.cxd5",
+      "moves": [
+        {
+          "san": "Bxb1",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
+        },
+        {
+          "san": "Qxd5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Bf5 3.cxd5 Bxb1",
+      "moves": [
+        {
+          "san": "Qa4+",
+          "rating": 5
+        },
+        {
+          "san": "Rxb1",
+          "rating": 3
+        },
+        {
+          "san": "Nf3",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Bf5 3.cxd5 Bxb1 4.Qa4+",
+      "moves": [
+        {
+          "san": "c6",
+          "rating": 5
+        },
+        {
+          "san": "Qd7",
+          "rating": 4
+        },
+        {
+          "san": "Nd7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Bf5 3.cxd5 Bxb1 4.Qa4+ c6",
+      "moves": [
+        {
+          "san": "Rxb1",
+          "rating": 5
+        },
+        {
+          "san": "dxc6",
+          "rating": 3
+        },
+        {
+          "san": "Nf3",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Bf5 3.cxd5 Bxb1 4.Qa4+ c6 5.dxc6",
+      "moves": [
+        {
+          "san": "Nxc6",
+          "rating": 5
+        },
+        {
+          "san": "bxc6",
+          "rating": 2
+        },
+        {
+          "san": "Nd7",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Bf5 3.cxd5 Bxb1 4.Qa4+ c6 5.dxc6 Nxc6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 Bf5 3.Nc3",
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
+        },
+        {
+          "san": "dxc4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Bf5 3.Nc3 e6",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "cxd5",
+          "rating": 4
+        },
+        {
+          "san": "Qb3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Bf5 3.Nc3 e6 4.Qb3"
+    },
+    {
+      "line": "1.d4 d5 2.c4 Bf5 3.Nc3 e6 4.Nf3",
+      "moves": [
+        {
+          "san": "c6",
+          "rating": 5
+        },
+        {
+          "san": "Nc6",
+          "rating": 4
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 Bf5 3.Nc3 e6 4.Nf3 c6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 Bf5 3.Nc3 e6 4.Nf3 Nc6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Albin_Countergambit"
+      ],
+      "moves": [
+        {
+          "san": "dxe5",
+          "rating": 5
+        },
+        {
+          "san": "cxd5",
+          "rating": 3
+        },
+        {
+          "san": "e3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "dxc4",
+          "rating": 3
+        },
+        {
+          "san": "Nc6",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "e3",
+          "rating": 2
+        },
+        {
+          "san": "e4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.e4"
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.e3",
+      "moves": [
+        {
+          "san": "Bb4+",
+          "rating": 5
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
+        },
+        {
+          "san": "c5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.e3 Bb4+",
+      "moves": [
+        {
+          "san": "Bd2",
+          "rating": 5
+        },
+        {
+          "san": "Nd2",
+          "rating": 3
+        },
+        {
+          "san": "Nc3",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.e3 Bb4+ 5.Bd2",
+      "moves": [
+        {
+          "san": "dxe3",
+          "rating": 5
+        },
+        {
+          "san": "Bxd2+",
+          "rating": 3
+        },
+        {
+          "san": "Be7",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.e3 Bb4+ 5.Bd2 dxe3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Albin_Countergambit,_Lasker_Trap"
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3",
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 5
+        },
+        {
+          "san": "c5",
+          "rating": 3
+        },
+        {
+          "san": "Bb4+",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 c5"
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6",
+      "moves": [
+        {
+          "san": "g3",
+          "rating": 5
+        },
+        {
+          "san": "Nbd2",
+          "rating": 4
+        },
+        {
+          "san": "a3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.g3",
+      "moves": [
+        {
+          "san": "Be6",
+          "rating": 5
+        },
+        {
+          "san": "Bg4",
+          "rating": 5
+        },
+        {
+          "san": "Bf5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.g3 Be6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.g3 Bg4"
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.g3 Bf5"
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.Nbd2",
+      "moves": [
+        {
+          "san": "Bg4",
+          "rating": 5
+        },
+        {
+          "san": "Qe7",
+          "rating": 4
+        },
+        {
+          "san": "f6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.Nbd2 Qe7"
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.Nbd2 f6"
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.Nbd2 Bg4",
+      "moves": [
+        {
+          "san": "g3",
+          "rating": 5
+        },
+        {
+          "san": "h3",
+          "rating": 4
+        },
+        {
+          "san": "a3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.Nbd2 Bg4 6.h3",
+      "moves": [
+        {
+          "san": "Bxf3",
+          "rating": 5
+        },
+        {
+          "san": "Bh5",
+          "rating": 3
+        },
+        {
+          "san": "Be6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.Nbd2 Bg4 6.h3 Bxf3"
+    }
+  ]
+}

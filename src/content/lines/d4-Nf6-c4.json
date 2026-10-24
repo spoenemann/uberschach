@@ -1,0 +1,638 @@
+{
+  "about": "After 1.d4 Nf6 2.c4: its moves and the positions they reach (docs/adr/0002-opening-modules-folded-to-a-size-budget.md). The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
+  "positions": [
+    {
+      "line": "1.d4 Nf6 2.c4",
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 5
+        },
+        {
+          "san": "g6",
+          "rating": 5
+        },
+        {
+          "san": "c5",
+          "rating": 4
+        },
+        {
+          "san": "d6",
+          "rating": 4
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        },
+        {
+          "san": "b6",
+          "rating": 3
+        },
+        {
+          "san": "e5",
+          "rating": 3
+        },
+        {
+          "san": "d5",
+          "rating": 2
+        },
+        {
+          "san": "b5",
+          "rating": 2
+        },
+        {
+          "san": "a6",
+          "rating": 2
+        },
+        {
+          "san": "a5",
+          "rating": 2
+        },
+        {
+          "san": "Na6",
+          "rating": 2
+        },
+        {
+          "san": "h6",
+          "rating": 2
+        },
+        {
+          "san": "h5",
+          "rating": 2
+        },
+        {
+          "san": "Ng8",
+          "rating": 2
+        },
+        {
+          "san": "Ng4",
+          "rating": 2
+        },
+        {
+          "san": "Nh5",
+          "rating": 2
+        },
+        {
+          "san": "Ne4",
+          "rating": 2
+        },
+        {
+          "san": "Rg8",
+          "rating": 2
+        },
+        {
+          "san": "g5",
+          "rating": 1
+        },
+        {
+          "san": "Nd5",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 c6"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 b6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Indian_Defence"
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 b5"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 a6"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 a5"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 Na6"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 h6"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 h5"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 Ng8"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 Ng4"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 Nh5"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 Ne4"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 g5"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 Nd5"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 Rg8"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Marshall_Defense",
+        "https://en.wikipedia.org/wiki/Indian_Defence"
+      ],
+      "moves": [
+        {
+          "san": "cxd5",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d5 3.cxd5",
+      "moves": [
+        {
+          "san": "Nxd5",
+          "rating": 5
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        },
+        {
+          "san": "Qxd5",
+          "rating": 2
+        },
+        {
+          "san": "g6",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d5 3.cxd5 c6"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Old_Indian_Defence",
+        "https://en.wikipedia.org/wiki/Indian_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "g4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.g4"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        },
+        {
+          "san": "Bf5",
+          "rating": 4
+        },
+        {
+          "san": "Nbd7",
+          "rating": 4
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 c6"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Bf5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Old_Indian_Defense"
+      ],
+      "moves": [
+        {
+          "san": "f3",
+          "rating": 5
+        },
+        {
+          "san": "g3",
+          "rating": 4
+        },
+        {
+          "san": "e4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Bf5 4.f3"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Bf5 4.g3"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Bf5 4.e4"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 e5",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "e3",
+          "rating": 3
+        },
+        {
+          "san": "dxe5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 e5 4.Nf3"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 e5 4.e3",
+      "moves": [
+        {
+          "san": "Nbd7",
+          "rating": 5
+        },
+        {
+          "san": "Be7",
+          "rating": 4
+        },
+        {
+          "san": "exd4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 e5 4.e3 Nbd7",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "Bd3",
+          "rating": 4
+        },
+        {
+          "san": "Be2",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 e5 4.e3 Nbd7 5.Bd3"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "g3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4",
+      "moves": [
+        {
+          "san": "e5",
+          "rating": 5
+        },
+        {
+          "san": "g6",
+          "rating": 4
+        },
+        {
+          "san": "c5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4 e5",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "Be2",
+          "rating": 4
+        },
+        {
+          "san": "d5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4 e5 5.Nf3",
+      "moves": [
+        {
+          "san": "Be7",
+          "rating": 5
+        },
+        {
+          "san": "g6",
+          "rating": 4
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4 e5 5.Nf3 g6",
+      "moves": [
+        {
+          "san": "Be2",
+          "rating": 5
+        },
+        {
+          "san": "Bg5",
+          "rating": 3
+        },
+        {
+          "san": "Bd3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4 e5 5.Nf3 g6 6.Be2",
+      "moves": [
+        {
+          "san": "Bg7",
+          "rating": 5
+        },
+        {
+          "san": "exd4",
+          "rating": 3
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nc3 Nbd7 4.e4 e5 5.Nf3 g6 6.Be2 Bg7"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nf3",
+      "moves": [
+        {
+          "san": "g6",
+          "rating": 5
+        },
+        {
+          "san": "Bg4",
+          "rating": 4
+        },
+        {
+          "san": "Nbd7",
+          "rating": 4
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nf3 Bg4"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 d6 3.Nf3 c6"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Budapest_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "dxe5",
+          "rating": 5
+        },
+        {
+          "san": "e3",
+          "rating": 3
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e5 3.dxe5",
+      "moves": [
+        {
+          "san": "Ng4",
+          "rating": 5
+        },
+        {
+          "san": "Ne4",
+          "rating": 3
+        },
+        {
+          "san": "Nh5",
+          "rating": 2
+        },
+        {
+          "san": "Nc6",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e5 3.dxe5 Ne4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Budapest_Gambit",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._d4/1...Nf6/2._c4/2...e5/3._dxe5/3...Ne4"
+      ],
+      "moves": [
+        {
+          "san": "a3",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "Qc2",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e5 3.dxe5 Ne4 4.a3"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e5 3.dxe5 Ne4 4.Qc2"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e5 3.dxe5 Ng4",
+      "moves": [
+        {
+          "san": "Bf4",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "e4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e5 3.dxe5 Ng4 4.Bf4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Budapest_Gambit"
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e5 3.dxe5 Ng4 4.Nf3",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._d4/1...Nf6/2._c4/2...e5/3._dxe5/3...Ng4/4._Nf3"
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e5 3.dxe5 Ng4 4.e4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Budapest_Gambit",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._d4/1...Nf6/2._c4/2...e5/3._dxe5/3...Ng4/4._e4"
+      ],
+      "moves": [
+        {
+          "san": "Nxe5",
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 2
+        },
+        {
+          "san": "h5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e5 3.dxe5 Ng4 4.e4 Nxe5"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e5 3.dxe5 Ng4 4.e4 d6"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 Nc6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Black_Knights%27_Tango"
+      ],
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "d5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 Nc6 3.d5",
+      "moves": [
+        {
+          "san": "Ne5",
+          "rating": 5
+        },
+        {
+          "san": "Nb8",
+          "rating": 3
+        },
+        {
+          "san": "Nb4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 Nc6 3.d5 Ne5",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 5
+        },
+        {
+          "san": "Nd2",
+          "rating": 3
+        },
+        {
+          "san": "f4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 Nc6 3.d5 Ne5 4.f4"
+    }
+  ]
+}

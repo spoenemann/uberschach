@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6: the moves the named lines play from here on on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6",
@@ -35,6 +35,61 @@
       ]
     },
     {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.Bxc6"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.d4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ruy_Lopez"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.Nc3"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.c3"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.d3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ruy_Lopez"
+      ],
+      "moves": [
+        {
+          "san": "b5",
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 4
+        },
+        {
+          "san": "Bc5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.d3 d6",
+      "moves": [
+        {
+          "san": "c3",
+          "rating": 5
+        },
+        {
+          "san": "c4",
+          "rating": 4
+        },
+        {
+          "san": "Nbd2",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.d3 d6 6.c4"
+    },
+    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O",
       "moves": [
         {
@@ -68,49 +123,6 @@
       ]
     },
     {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.d3",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ruy_Lopez"
-      ],
-      "moves": [
-        {
-          "san": "d6",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.Qe2",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ruy_Lopez"
-      ],
-      "moves": [
-        {
-          "san": "b5",
-          "rating": 5
-        },
-        {
-          "san": "Be7",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.Bxc6"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.d4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ruy_Lopez"
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.Nc3"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.c3"
-    },
-    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O g6"
     },
     {
@@ -123,23 +135,19 @@
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O d5"
     },
     {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.d3 d6",
-      "moves": [
-        {
-          "san": "c4",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.d3 d6 6.c4"
-    },
-    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O b5",
       "moves": [
         {
           "san": "Bb3",
           "rating": 5
+        },
+        {
+          "san": "Bxb5",
+          "rating": 1
+        },
+        {
+          "san": "Nxe5",
+          "rating": 1
         }
       ]
     },
@@ -215,43 +223,9 @@
       ]
     },
     {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1",
-      "moves": [
-        {
-          "san": "b5",
-          "rating": 5
-        },
-        {
-          "san": "d6",
-          "rating": 3
-        }
-      ]
-    },
-    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.d3",
       "sources": [
         "https://en.wikipedia.org/wiki/Ruy_Lopez"
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Qe2",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ruy_Lopez"
-      ],
-      "moves": [
-        {
-          "san": "b5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.d4",
-      "moves": [
-        {
-          "san": "exd4",
-          "rating": 5
-        }
       ]
     },
     {
@@ -264,10 +238,64 @@
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Bxc6"
     },
     {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.d4",
+      "moves": [
+        {
+          "san": "exd4",
+          "rating": 5
+        },
+        {
+          "san": "b5",
+          "rating": 3
+        },
+        {
+          "san": "d6",
+          "rating": 2
+        }
+      ]
+    },
+    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.d4 exd4"
     },
     {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Qe2",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ruy_Lopez"
+      ],
+      "moves": [
+        {
+          "san": "b5",
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        },
+        {
+          "san": "O-O",
+          "rating": 3
+        }
+      ]
+    },
+    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Qe2 b5"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1",
+      "moves": [
+        {
+          "san": "b5",
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        },
+        {
+          "san": "O-O",
+          "rating": 2
+        }
+      ]
     },
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5"
@@ -287,6 +315,14 @@
         {
           "san": "Bxc6+",
           "rating": 5
+        },
+        {
+          "san": "d4",
+          "rating": 4
+        },
+        {
+          "san": "c3",
+          "rating": 3
         }
       ]
     },
@@ -296,6 +332,14 @@
         {
           "san": "bxc6",
           "rating": 5
+        },
+        {
+          "san": "Bd7",
+          "rating": 1
+        },
+        {
+          "san": "Qd7",
+          "rating": 1
         }
       ]
     },
@@ -327,6 +371,12 @@
       ]
     },
     {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.Qe2"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.Nc3"
+    },
+    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4",
       "moves": [
         {
@@ -344,21 +394,6 @@
       ]
     },
     {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.Qe2"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.Nc3"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.Re1",
-      "moves": [
-        {
-          "san": "d5",
-          "rating": 2
-        }
-      ]
-    },
-    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.d4 b5"
     },
     {
@@ -371,7 +406,44 @@
       ]
     },
     {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.Re1",
+      "moves": [
+        {
+          "san": "Nc5",
+          "rating": 5
+        },
+        {
+          "san": "Nd6",
+          "rating": 3
+        },
+        {
+          "san": "d5",
+          "rating": 2
+        }
+      ]
+    },
+    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Nxe4 6.Re1 d5"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.Qe2",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ruy_Lopez"
+      ],
+      "moves": [
+        {
+          "san": "b5",
+          "rating": 5
+        },
+        {
+          "san": "Be7",
+          "rating": 4
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        }
+      ]
     },
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.Qe2 b5",
@@ -379,6 +451,14 @@
         {
           "san": "Bb3",
           "rating": 5
+        },
+        {
+          "san": "Bxb5",
+          "rating": 2
+        },
+        {
+          "san": "d4",
+          "rating": 1
         }
       ]
     },
@@ -388,6 +468,14 @@
         {
           "san": "Be7",
           "rating": 5
+        },
+        {
+          "san": "Bc5",
+          "rating": 4
+        },
+        {
+          "san": "d6",
+          "rating": 3
         }
       ]
     },
@@ -400,6 +488,14 @@
         {
           "san": "O-O",
           "rating": 5
+        },
+        {
+          "san": "c3",
+          "rating": 4
+        },
+        {
+          "san": "d3",
+          "rating": 3
         }
       ]
     }

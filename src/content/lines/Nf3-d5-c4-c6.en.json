@@ -3,30 +3,42 @@
     "strategy": "Prepares the king's fianchetto, the set-up that gives the opening its character: the bishop will bear on the centre from the long diagonal instead of White occupying it with pawns. White keeps a central pawn advance and a queenside fianchetto in reserve and plays a patient, flexible game."
   },
   "1.Nf3 d5 2.c4 c6 3.b3": {
-    "strategy": "Prepares the queen's bishop on the long diagonal, aiming at e5 and the black kingside, and leaves open how the king's bishop will develop. White still controls the centre with pieces rather than pawns, but has to be patient against Black's solid c6 and d5 pawns.",
-    "name": "Réti Opening: Anglo-Slav Variation, Bogoljubow Variation"
+    "name": "Réti Opening: Anglo-Slav Variation, Bogoljubow Variation",
+    "strategy": "Prepares the queen's bishop on the long diagonal, aiming at e5 and the black kingside, and leaves open how the king's bishop will develop. White still controls the centre with pieces rather than pawns, but has to be patient against Black's solid c6 and d5 pawns."
   },
   "1.Nf3 d5 2.c4 c6 3.e3": {
-    "strategy": "A solid, flexible choice: the pawn frees the king's bishop and keeps a classical pawn centre available if Black allows it. The price is that it closes the queen's bishop's own diagonal, and White gives up the kingside fianchetto that gives this opening its character.",
-    "name": "Réti Opening: Anglo-Slav Variation, Gurevich System"
-  },
-  "1.Nf3 d5 2.c4 c6 3.e3 Nf6": {
-    "strategy": "The natural developing move: the knight adds a defender to d5 and takes the e4 square from White, so White cannot easily build a centre with the e-pawn. Black stays flexible about where to place the queen's bishop and how to complete the pawn chain."
-  },
-  "1.Nf3 d5 2.c4 c6 3.g3 Nf6": {
-    "strategy": "Develops the knight, puts a second defender on d5 and takes control of e4. Black gets a harmonious development: the knight and the c6 and d5 pawns hold the centre while the c8-bishop is still free to choose its post."
+    "name": "Réti Opening: Anglo-Slav Variation, Gurevich System",
+    "strategy": "A solid, flexible choice: the pawn frees the king's bishop and keeps a classical pawn centre available if Black allows it. The price is that it closes the queen's bishop's own diagonal, and White gives up the kingside fianchetto that gives this opening its character."
   },
   "1.Nf3 d5 2.c4 c6 3.b3 Bf5": {
     "name": "Réti Opening: Anglo-Slav Variation, Bogoljubow Variation",
     "strategy": "Develops the bishop outside the chain before ...e6 shuts it in, solving the c8-bishop's problem early, and keeps the queen from coming to c2. Black continues with a solid centre while White still has to decide where the king's bishop goes."
   },
   "1.Nf3 d5 2.c4 c6 3.b3 Bg4": {
-    "strategy": "Develops the bishop outside the chain with an eye on the f3 knight, which holds the e5 and d4 squares. A trade on f3 forces White to recapture with a pawn and double White's pawns.",
-    "name": "Réti Opening: Anglo-Slav Variation, Bogoljubow Variation"
+    "name": "Réti Opening: Anglo-Slav Variation, Bogoljubow Variation",
+    "strategy": "Develops the bishop outside the chain with an eye on the f3 knight, which holds the e5 and d4 squares. A trade on f3 forces White to recapture with a pawn and double White's pawns."
+  },
+  "1.Nf3 d5 2.c4 c6 3.b3 Nf6": {
+    "strategy": "The natural developing move and the main answer: the knight adds a second guard to d5 and controls e4, so the queenside fianchetto has no immediate target. Black keeps the c8-bishop's route outside the pawn chain open and decides on it once White's set-up is clear."
   },
   "1.Nf3 d5 2.c4 c6 3.b3 Bf5 4.Bb2": {
     "name": "Réti Opening: Anglo-Slav Variation, Bogoljubow Variation",
     "strategy": "Brings the queen's bishop to the long diagonal at once, where it aims at e5 and, behind it, the black kingside. White has fianchettoed first and keeps the choice for the king's bishop open; the pieces rather than pawns pressure the centre."
+  },
+  "1.Nf3 d5 2.c4 c6 3.b3 Bf5 4.g3": {
+    "strategy": "Prepares the second fianchetto: the king's bishop will join the queen's bishop on the long diagonals, while the b3 pawn already guards c4. White controls the centre with pieces from a distance and leaves the pawn centre to Black for now."
+  },
+  "1.Nf3 d5 2.c4 c6 3.b3 Bf5 4.Nc3": {
+    "strategy": "Develops the knight with a second attacker on d5, but it blocks the long diagonal the queen's bishop is headed for and so blunts the point of b3. White drifts into a classical set-up whose pieces get in each other's way; it is sound, but less coherent."
+  },
+  "1.Nf3 d5 2.c4 c6 3.e3 Nf6": {
+    "strategy": "The natural developing move: the knight adds a defender to d5 and takes the e4 square from White, so White cannot easily build a centre with the e-pawn. Black stays flexible about where to place the queen's bishop and how to complete the pawn chain."
+  },
+  "1.Nf3 d5 2.c4 c6 3.e3 Bf5": {
+    "strategy": "Brings the c8-bishop out before ...e6 can shut it in, solving the one structural problem of the c6-d5 set-up at the cost of a little time. The bishop has to be watched, since White can gain tempi by attacking it, but Black's centre stays solid."
+  },
+  "1.Nf3 d5 2.c4 c6 3.e3 e6": {
+    "strategy": "Backs up d5 with a second pawn and frees the king's bishop. The chain is very safe, but the c8-bishop is shut in behind it, so Black accepts a slightly passive game and has to find a way to bring that bishop into play later."
   },
   "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3": {
     "strategy": "Brings the last minor piece out to its natural square, where it joins the c4 pawn in the pressure on d5 and supports a later central pawn break. White decides for classical development with pieces in the centre, and a queenside fianchetto remains possible."
@@ -35,24 +47,54 @@
     "name": "Réti Opening: Anglo-Slav Variation, Gurevich System",
     "strategy": "Guards the c4 pawn and stops ...Bf5, which would simply hang to the queen. The queen also stands behind a later central advance, but the queen's knight and bishop are still at home, so Black gets time to finish a compact development."
   },
+  "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.d4": {
+    "strategy": "Takes the centre with a pawn at last and leaves the piece-play approach for a classical, solid set-up: a pawn pair on d4 and e3 behind the c-pawn's pressure on d5. The game is quiet and balanced, and Black's main task is to get the c8-bishop out."
+  },
   "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 e6": {
     "strategy": "Builds the solid chain c6, d5 and e6, so d5 is guarded for good and the king's bishop is free to develop. The price is the queen's bishop, which is shut in behind its own pawns; Black accepts a slightly passive but sound structure for it."
   },
   "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 Nbd7": {
     "strategy": "Develops the knight to a square from which it supports a later ...e5 central break. The cost is that the knight blocks the c8-bishop's diagonal, so the bishop has to find a route another way before Black is fully developed."
   },
+  "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 dxc4": {
+    "strategy": "Releases the tension and opens the diagonal of the c8-bishop, but White retakes with the king's bishop, which stands actively on c4, and gets a free hand in the centre. Black's pieces are freer, at the price of space and the d5 pawn."
+  },
   "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 e6 5.b3": {
     "strategy": "Keeps the opening's spirit: instead of a central pawn advance, White prepares the queen's bishop on the long diagonal and defends the c4 pawn with a pawn. The position stays flexible and White controls the centre with pieces, at the cost of having no central space yet."
+  },
+  "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 e6 5.d4": {
+    "strategy": "Strikes in the centre with a pawn after all and steers the game into a classical set-up in which the tension on c4 and d5 sets the course. White commits to a more open game than the fianchetto plan, and Black's chain on c6, d5 and e6 has to prove it holds."
+  },
+  "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 e6 5.Bd3": {
+    "strategy": "Aims the bishop at h7 and prepares to push e4, a natural classical set-up. The cost is early commitment: Black's pawn can take on c4 and attack the bishop at once, so White must decide how to recapture before the rest of the pieces are out."
   },
   "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 e6 5.b3 Bd6": {
     "name": "Réti Opening: Anglo-Slav Variation, Gurevich System",
     "strategy": "Puts the bishop on an active diagonal, controlling the e5 square and pointing at the h2 pawn, and prepares castling. Black builds a compact set-up in which the bishop supports a later ...e5 break."
   },
+  "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 e6 5.b3 Nbd7": {
+    "strategy": "Develops the last minor piece and supports the e5 break, so Black can answer White's quiet set-up with a central advance of its own. The knight blocks the c8-bishop, which still needs a route out, but the compact structure is sound."
+  },
+  "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 e6 5.b3 Be7": {
+    "strategy": "A solid, modest development: the bishop shields the king and keeps the position compact, but on e7 it neither watches the e5 square nor backs a later ...e5. Black is safe, but White keeps more say over how the game develops."
+  },
   "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 e6 5.b3 Bd6 6.Bb2": {
     "strategy": "Completes the queen's fianchetto: the bishop looks at e5 and the long diagonal, though the knight on c3 blocks it for now. White has chosen piece play over a central pawn advance, and Black's bishop on d6 stands ready to answer on e5."
   },
+  "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 e6 5.b3 Bd6 6.Bd3": {
+    "strategy": "Develops the king's bishop on the diagonal mirroring Black's, towards h7, and prepares castling and the e4 advance. White keeps the queen's bishop's fianchetto in hand and builds a compact set-up in which the central pawn break is timed by development."
+  },
+  "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 e6 5.b3 Bd6 6.d4": {
+    "strategy": "Claims the centre with a pawn after all, giving up the piece-play idea behind b3 and e3. The structure is classical and sound, but Black decides how the centre opens, and the b3 pawn then does little for the queen's bishop."
+  },
   "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 e6 5.b3 Bd6 6.Bb2 O-O": {
     "strategy": "Gets the king to safety before the centre opens and connects the rooks. Black's chain on c6, d5 and e6 with the bishop on d6 is compact and sound; its one remaining problem is the c8-bishop, which still has to be freed."
+  },
+  "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 e6 5.b3 Bd6 6.Bb2 Nbd7": {
+    "strategy": "Completes the development of the minor pieces and backs the e5 break, at the price of keeping the king in the centre one move longer. The structure is sound, but the c8-bishop is still shut in behind the knight, so White can start central play before Black is ready."
+  },
+  "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 e6 5.b3 Bd6 6.Bb2 dxc4": {
+    "strategy": "Resolves the tension in the centre and frees the c8-bishop and the d5 square for the knight. White can retake with the b-pawn for a half-open b-file or with the king's bishop. It is sound, but it gives White a free hand in the centre."
   },
   "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 Nbd7 5.b3": {
     "strategy": "Defends c4 with a pawn and prepares the queen's bishop on the long diagonal. White answers the knight on d7 with a flexible fianchetto development rather than a central advance, and the knight on c3 is free to move without costing the c4 pawn."
@@ -61,9 +103,27 @@
     "name": "Réti Opening: Anglo-Slav Variation, Gurevich System",
     "strategy": "Guards the c4 pawn so that ...dxc4 can be answered by an immediate recapture, and places the queen behind a possible central advance. White keeps a classical set-up, but the queen's bishop stays shut in behind the e3 pawn and needs a plan of its own."
   },
+  "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 Nbd7 5.d4": {
+    "strategy": "Strikes in the centre while the c8-bishop is still locked in behind the knight on d7. White leaves the flexible fianchetto for a direct fight for space, and the tension between the c4 and d5 pawns decides how the centre opens."
+  },
   "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 Nbd7 5.b3 e5": {
     "name": "Réti Opening: Anglo-Slav Variation, Gurevich System",
     "strategy": "Black claims the centre with the e-pawn. It is defended by the knight on d7, so taking it only loses a knight for a pawn. The price is that the pawns on d5 and e5 become targets, and the c8-bishop is still shut in behind the d7 knight."
+  },
+  "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 Nbd7 5.b3 e6": {
+    "strategy": "Supports d5 with a second pawn and frees the king's bishop, the safest way to hold the centre. The price is passivity: the c8-bishop is locked behind its own pawns and the knight, and the ...e5 advance is put off."
+  },
+  "1.Nf3 d5 2.c4 c6 3.e3 Nf6 4.Nc3 Nbd7 5.b3 b6": {
+    "strategy": "Opens another route for the c8-bishop, to b7, instead of fighting for the e5 square. It is sound, but it loosens the queenside and leaves the centre to White, who can pressure d5 with pieces and a pawn."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6": {
+    "strategy": "Develops the knight, puts a second defender on d5 and takes control of e4. Black gets a harmonious development: the knight and the c6 and d5 pawns hold the centre while the c8-bishop is still free to choose its post."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 e6": {
+    "strategy": "Backs d5 with a pawn and frees the king's bishop, steering for a solid structure in which White's fianchettoed bishop presses on d5 from a distance. Black shuts in the c8-bishop, the usual price of this chain, but keeps a sturdy centre."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Bf5": {
+    "strategy": "Gets the c8-bishop out before the e-pawn shuts it in. Without the knight on f6, though, d5 has fewer defenders, and White can gain time by attacking the bishop or the b7 pawn; sound, but more exposed than developing the knight first."
   },
   "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.Bg2": {
     "name": "Réti Opening: Anglo-Slav Variation, with g3",
@@ -72,6 +132,9 @@
   "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3": {
     "name": "Réti Opening: Anglo-Slav Variation",
     "strategy": "Prepares the queen's bishop first and guards the c4 pawn with a pawn, which lets White put off the king's bishop. The price is that castling is delayed, and Black has time to bring out the light-squared bishop first."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.d4": {
+    "strategy": "Claims the centre with a pawn and turns the game into a Catalan-style set-up: the king's bishop will bear on the long diagonal against Black's centre. Black may take on c4 and try to hold the pawn, at the price of a loosened queenside."
   },
   "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bf5": {
     "name": "Réti Opening: Anglo-Slav Variation, London Defensive System",
@@ -89,6 +152,66 @@
     "name": "Réti Opening: Anglo-Slav Variation, with dxc4",
     "strategy": "Gives up the d5 pawn's central presence. White recaptures with the b-pawn and gets an open b-file and a clear long diagonal for the queen's bishop. Playable, but White's pieces gain scope."
   },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bf5 5.Bg2": {
+    "name": "Réti Opening: Anglo-Slav Variation, London Defensive System",
+    "strategy": "Completes the kingside fianchetto and clears the way to castling; the queen's bishop follows to the long diagonal next. White controls the centre from a distance with pieces, as the opening intends, while Black's f5 bishop is already developed outside the chain."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bf5 5.Bb2": {
+    "name": "Réti Opening: Anglo-Slav Variation, London Defensive System",
+    "strategy": "Brings the queen's bishop to the long diagonal at once, aiming at e5 and the black kingside, and delays the king's bishop. It is the other order of the same fianchetto set-up, at the cost of keeping the king in the centre a move longer."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bf5 5.Nc3": {
+    "strategy": "Develops the knight with pressure on d5, but it stands on the queen's bishop's long diagonal and blunts the point of b3. White's set-up loses coherence, though it remains sound and the king's bishop still follows."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bf5 5.Bg2 e6": {
+    "strategy": "Black gets a complete, solid set-up before White's second bishop arrives: d5 is safe, the f8-bishop is free to develop, and the bishop on f5 stays outside the pawn chain."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bf5 5.Bg2 Nbd7": {
+    "strategy": "Develops the last queenside piece and covers the e5 square against White's knight, keeping ...e6 in reserve. The bishop on f5 stays outside the chain, which is the point of the set-up, while the f8-bishop waits at home."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bf5 5.Bg2 dxc4": {
+    "strategy": "Gives up the centre pawn to resolve the tension, and White recaptures with the b-pawn, getting a half-open b-file and a pawn on c4. The position is sound, but Black has conceded the fight for the centre without gaining anything for it."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bf5 5.Bg2 e6 6.Bb2": {
+    "name": "Réti Opening: Anglo-Slav Variation, London Defensive System",
+    "strategy": "Completes the double fianchetto: both bishops watch the long diagonals and the b3 pawn guards c4, while White is ready to castle. White controls the centre from a distance with pieces, and Black has to prove that c6, d5 and e6 hold."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bf5 5.Bg2 e6 6.O-O": {
+    "strategy": "Castles at once, putting the king behind the fianchetto, and keeps the queen's bishop's move for later. The cost is a slower grip on the long diagonal: Black has a free move to settle the centre before White's pieces all point at it."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bf5 5.Bg2 e6 6.Nh4": {
+    "strategy": "Questions the f5 bishop. If it goes to g6, the knight takes it and doubles Black's pawns, though Black gets the h-file in return; the knight on the edge of the board has little else to do, and White has spent time on a trade of minor pieces."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bg4 5.Bg2": {
+    "name": "Réti Opening: Anglo-Slav Variation, Torre System",
+    "strategy": "Develops the king's bishop and prepares castling, ignoring the bishop on g4: if it takes on f3, the bishop recaptures and then eyes d5 from there. White keeps a flexible, fianchettoed position."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bg4 5.Bb2": {
+    "name": "Réti Opening: Anglo-Slav Variation, Torre System",
+    "strategy": "Develops the queen's bishop first, but the king's bishop is still at home: ...Bxf3 forces White to recapture with the e-pawn, which doubles White's pawns. White keeps both bishops in return, a structural concession that Bg2 first avoids."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bg4 5.Ne5": {
+    "strategy": "Attacks the bishop from the centre and takes the knight off f3, so there is nothing to take there and no doubling of pawns. The knight on e5 is advanced and can be challenged, so White needs quick development to make it more than a tempo."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bg4 5.Bg2 e6": {
+    "strategy": "Supports the d5 pawn and frees the f8-bishop, keeping the bishop on g4 outside the chain and pressing on the f3 knight. Black has a complete, solid structure with a bishop that is already developed."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bg4 5.Bg2 Nbd7": {
+    "strategy": "Develops the knight and covers e5, the square from which White's knight would hit the g4 bishop; ...Nxe5 would win the knight outright. Black keeps the pressure on f3 and still has ...e6 in hand to complete the chain."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bg4 5.Bg2 Bxf3": {
+    "strategy": "Trades the developed bishop for the knight at once. White recaptures with the king's bishop, which then eyes d5, and gets the bishop pair; Black has solved no problem, and the trade helps White's development more than Black's."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bg4 5.Bg2 e6 6.Bb2": {
+    "name": "Réti Opening: Anglo-Slav Variation, Torre System",
+    "strategy": "Completes the double fianchetto: the bishops on b2 and g2 aim along both long diagonals and the b3 pawn guards c4. The f3 knight is under pressure from the g4 bishop but is defended by the bishop and the e2 pawn."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bg4 5.Bg2 e6 6.Ne5": {
+    "strategy": "Meets the bishop with the knight from the centre, avoiding any doubling of pawns: the bishop must retreat or be traded, and the g2 bishop gets a free diagonal to d5. The knight is advanced and will be challenged, so White needs the queen's bishop out quickly."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bg4 5.Bg2 e6 6.O-O": {
+    "strategy": "Castles and ignores the bishop: if it takes on f3, the king's bishop recaptures with pressure on d5, so White gives up nothing. The king is safe behind the fianchetto, and the queen's bishop still has the long diagonal to come."
+  },
   "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.Bg2 e6": {
     "strategy": "Builds the solid chain c6, d5 and e6, which makes d5 safe against the pressure of White's pieces and frees the king's bishop. The price is the c8-bishop, which is shut in behind the chain, so Black accepts a slow, strategic game."
   },
@@ -100,44 +223,32 @@
     "name": "Réti Opening: Anglo-Slav Variation, with g3",
     "strategy": "Develops the light-squared bishop outside the pawn chain before ...e6 can lock it in. With the f3 knight still blocking White's bishop, Black can complete development quietly and then close the centre on its own terms."
   },
-  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bf5 5.Bg2": {
-    "name": "Réti Opening: Anglo-Slav Variation, London Defensive System",
-    "strategy": "Completes the kingside fianchetto and clears the way to castling; the queen's bishop follows to the long diagonal next. White controls the centre from a distance with pieces, as the opening intends, while Black's f5 bishop is already developed outside the chain."
-  },
-  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bf5 5.Bb2": {
-    "name": "Réti Opening: Anglo-Slav Variation, London Defensive System",
-    "strategy": "Brings the queen's bishop to the long diagonal at once, aiming at e5 and the black kingside, and delays the king's bishop. It is the other order of the same fianchetto set-up, at the cost of keeping the king in the centre a move longer."
-  },
-  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bf5 5.Bg2 e6": {
-    "strategy": "Black gets a complete, solid set-up before White's second bishop arrives: d5 is safe, the f8-bishop is free to develop, and the bishop on f5 stays outside the pawn chain."
-  },
-  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bf5 5.Bg2 e6 6.Bb2": {
-    "name": "Réti Opening: Anglo-Slav Variation, London Defensive System",
-    "strategy": "Completes the double fianchetto: both bishops watch the long diagonals and the b3 pawn guards c4, while White is ready to castle. White controls the centre from a distance with pieces, and Black has to prove that c6, d5 and e6 hold."
-  },
-  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bg4 5.Bg2": {
-    "name": "Réti Opening: Anglo-Slav Variation, Torre System",
-    "strategy": "Develops the king's bishop and prepares castling, ignoring the bishop on g4: if it takes on f3, the bishop recaptures and then eyes d5 from there. White keeps a flexible, fianchettoed position."
-  },
-  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bg4 5.Bb2": {
-    "name": "Réti Opening: Anglo-Slav Variation, Torre System",
-    "strategy": "Develops the queen's bishop first, but the king's bishop is still at home: ...Bxf3 forces White to recapture with the e-pawn, which doubles White's pawns. White keeps both bishops in return, a structural concession that Bg2 first avoids."
-  },
-  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bg4 5.Bg2 e6": {
-    "strategy": "Supports the d5 pawn and frees the f8-bishop, keeping the bishop on g4 outside the chain and pressing on the f3 knight. Black has a complete, solid structure with a bishop that is already developed."
-  },
-  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.b3 Bg4 5.Bg2 e6 6.Bb2": {
-    "name": "Réti Opening: Anglo-Slav Variation, Torre System",
-    "strategy": "Completes the double fianchetto: the bishops on b2 and g2 aim along both long diagonals and the b3 pawn guards c4. The f3 knight is under pressure from the g4 bishop but is defended by the bishop and the e2 pawn."
-  },
   "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.Bg2 Bf5 5.O-O": {
     "strategy": "Castles behind the bishop and the g3 pawn, a robust shelter that leaves White free to play in the centre and on the queenside. There is no hurry to open the position: the fianchetto structure is solid and the king is out of the centre."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.Bg2 Bf5 5.b3": {
+    "strategy": "Defends c4 with a pawn and prepares the queen's bishop, heading for the double fianchetto before castling. The king stays in the centre one move longer, but Black has no quick way to punish it, and White's pieces aim at the centre from afar."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.Bg2 Bf5 5.Qb3": {
+    "strategy": "The queen hits b7 and guards c4, but Black can answer ...Qb6 and offer the queen trade, which takes the pressure away. A playable way to head for a queenless game, but White gains little from it."
   },
   "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.Bg2 Bf5 5.O-O e6": {
     "strategy": "Supports the d5 pawn once more and opens the f8-bishop, while the bishop on f5 stays outside the chain. Black has a complete, solid set-up with d5 well defended, and the structure gives White little to attack at once."
   },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.Bg2 Bf5 5.O-O Nbd7": {
+    "strategy": "Develops the queen's knight to a square covering e5 and c5, so White finds no easy foothold in the centre and Black keeps the choice of how to build the pawns. A flexible, solid set-up that commits to nothing yet."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.Bg2 Bf5 5.O-O dxc4": {
+    "strategy": "Takes the c-pawn and gives up the d5 pawn that anchored the centre. White goes after the extra pawn at once with Na3, and Black must spend time keeping it or hand it back, so the quiet solidity of the set-up is lost."
+  },
   "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.Bg2 Bf5 5.O-O e6 6.d3": {
     "name": "Réti Opening: Anglo-Slav Variation, with g3",
     "strategy": "Blocks the f5 bishop's diagonal towards b1 and c2 and prepares a central advance with the e-pawn to challenge it. White accepts a modest, flexible set-up that stays closed and manoeuvring."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.Bg2 Bf5 5.O-O e6 6.b3": {
+    "strategy": "Protects the c4 pawn and prepares to put the queen's bishop on the long diagonal, so both bishops aim at the centre while White holds back the d-pawn. It lets Black trade the f5 bishop for the b1 knight at once, and gives Black time to finish the set-up."
+  },
+  "1.Nf3 d5 2.c4 c6 3.g3 Nf6 4.Bg2 Bf5 5.O-O e6 6.cxd5": {
+    "strategy": "Resolves the tension in the centre. Black keeps a solid pawn centre whichever pawn recaptures and the f5 bishop stays outside the chain. A calm choice, but it gives up the pressure the c4 pawn puts on d5."
   }
 }

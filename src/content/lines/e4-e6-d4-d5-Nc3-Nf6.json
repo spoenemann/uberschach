@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 e6 2.d4 d5 3.Nc3 Nf6: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 e6 2.d4 d5 3.Nc3 Nf6: the moves the named lines play from here on on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6",
@@ -30,16 +30,10 @@
       ]
     },
     {
-      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/French_Defence"
-      ],
-      "moves": [
-        {
-          "san": "Nfd7",
-          "rating": 5
-        }
-      ]
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bd3"
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Be3"
     },
     {
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5",
@@ -59,21 +53,6 @@
       ]
     },
     {
-      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.exd5",
-      "moves": [
-        {
-          "san": "exd5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bd3"
-    },
-    {
-      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Be3"
-    },
-    {
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4",
       "sources": [
         "https://en.wikipedia.org/wiki/French_Defence",
@@ -87,6 +66,10 @@
         {
           "san": "exd5",
           "rating": 3
+        },
+        {
+          "san": "Ne2",
+          "rating": 3
         }
       ]
     },
@@ -96,15 +79,14 @@
         {
           "san": "h6",
           "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.exd5",
-      "moves": [
+        },
         {
-          "san": "Qxd5",
-          "rating": 4
+          "san": "Bxc3+",
+          "rating": 3
+        },
+        {
+          "san": "Nfd7",
+          "rating": 1
         }
       ]
     },
@@ -134,28 +116,6 @@
       ]
     },
     {
-      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.Bd2",
-      "moves": [
-        {
-          "san": "Bxc3",
-          "rating": 5
-        },
-        {
-          "san": "Nfd7",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.exf6",
-      "moves": [
-        {
-          "san": "hxg5",
-          "rating": 5
-        }
-      ]
-    },
-    {
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.Bh4"
     },
     {
@@ -165,13 +125,68 @@
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.Be3"
     },
     {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.Bd2",
+      "moves": [
+        {
+          "san": "Bxc3",
+          "rating": 5
+        },
+        {
+          "san": "Nfd7",
+          "rating": 3
+        },
+        {
+          "san": "Ne4",
+          "rating": 3
+        }
+      ]
+    },
+    {
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.Bd2 Bxc3"
     },
     {
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.Bd2 Nfd7"
     },
     {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.exf6",
+      "moves": [
+        {
+          "san": "hxg5",
+          "rating": 5
+        },
+        {
+          "san": "Bxc3+",
+          "rating": 3
+        },
+        {
+          "san": "gxf6",
+          "rating": 1
+        },
+        {
+          "san": "Qxf6",
+          "rating": 1
+        }
+      ]
+    },
+    {
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.exf6 hxg5"
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.exd5",
+      "moves": [
+        {
+          "san": "Qxd5",
+          "rating": 5
+        },
+        {
+          "san": "exd5",
+          "rating": 3
+        },
+        {
+          "san": "Nxd5",
+          "rating": 1
+        }
+      ]
     },
     {
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.exd5 Qxd5",
@@ -179,6 +194,14 @@
         {
           "san": "Bxf6",
           "rating": 5
+        },
+        {
+          "san": "Bd2",
+          "rating": 3
+        },
+        {
+          "san": "Be3",
+          "rating": 3
         }
       ]
     },
@@ -188,6 +211,14 @@
         {
           "san": "gxf6",
           "rating": 5
+        },
+        {
+          "san": "Bxc3+",
+          "rating": 3
+        },
+        {
+          "san": "Qe4+",
+          "rating": 3
         }
       ]
     },
@@ -207,8 +238,66 @@
         {
           "san": "Bxf6",
           "rating": 4
+        },
+        {
+          "san": "exd5",
+          "rating": 3
         }
       ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.Bxf6",
+      "moves": [
+        {
+          "san": "Bxf6",
+          "rating": 5
+        },
+        {
+          "san": "gxf6",
+          "rating": 2
+        },
+        {
+          "san": "dxe4",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.Bxf6 Bxf6",
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "e5",
+          "rating": 3
+        },
+        {
+          "san": "exd5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.Bxf6 Bxf6 6.e5",
+      "moves": [
+        {
+          "san": "Be7",
+          "rating": 5
+        },
+        {
+          "san": "Bg5",
+          "rating": 2
+        },
+        {
+          "san": "Bxe5",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.Bxf6 Bxf6 6.e5 Be7"
     },
     {
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5",
@@ -228,37 +317,7 @@
       ]
     },
     {
-      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.Bxf6",
-      "moves": [
-        {
-          "san": "Bxf6",
-          "rating": 5
-        }
-      ]
-    },
-    {
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Ne4"
-    },
-    {
-      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.Bxf6 Bxf6",
-      "moves": [
-        {
-          "san": "e5",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.Bxf6 Bxf6 6.e5",
-      "moves": [
-        {
-          "san": "Be7",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.Bxf6 Bxf6 6.e5 Be7"
     },
     {
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7",
@@ -270,6 +329,10 @@
         {
           "san": "h4",
           "rating": 4
+        },
+        {
+          "san": "Bf4",
+          "rating": 3
         }
       ]
     },
@@ -279,7 +342,21 @@
         {
           "san": "Qxe7",
           "rating": 5
+        },
+        {
+          "san": "Kxe7",
+          "rating": 2
+        },
+        {
+          "san": "Nxe5",
+          "rating": 1
         }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.Bxe7 Qxe7",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Defence"
       ]
     },
     {
@@ -311,12 +388,6 @@
       ]
     },
     {
-      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.Bxe7 Qxe7",
-      "sources": [
-        "https://en.wikipedia.org/wiki/French_Defence"
-      ]
-    },
-    {
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.h4 Bxg5"
     },
     {
@@ -337,6 +408,14 @@
         {
           "san": "Be3",
           "rating": 5
+        },
+        {
+          "san": "Bf4",
+          "rating": 4
+        },
+        {
+          "san": "Bxe7",
+          "rating": 3
         }
       ]
     },
@@ -344,7 +423,15 @@
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Ng8 6.Be3",
       "moves": [
         {
+          "san": "Nc6",
+          "rating": 5
+        },
+        {
           "san": "b6",
+          "rating": 3
+        },
+        {
+          "san": "c5",
           "rating": 3
         }
       ]
@@ -361,6 +448,14 @@
         {
           "san": "Nxe4",
           "rating": 5
+        },
+        {
+          "san": "Bxf6",
+          "rating": 3
+        },
+        {
+          "san": "f3",
+          "rating": 2
         }
       ]
     },
@@ -370,6 +465,14 @@
         {
           "san": "Be7",
           "rating": 5
+        },
+        {
+          "san": "Nbd7",
+          "rating": 4
+        },
+        {
+          "san": "Nxe4",
+          "rating": 1
         }
       ]
     },
@@ -382,6 +485,14 @@
         {
           "san": "Bxf6",
           "rating": 5
+        },
+        {
+          "san": "Nxf6+",
+          "rating": 3
+        },
+        {
+          "san": "Ng3",
+          "rating": 3
         }
       ]
     },
@@ -395,6 +506,10 @@
         {
           "san": "gxf6",
           "rating": 4
+        },
+        {
+          "san": "Qxd4",
+          "rating": 1
         }
       ]
     },
@@ -405,6 +520,26 @@
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 dxe4 5.Nxe4 Be7 6.Bxf6 gxf6",
       "sources": [
         "https://en.wikipedia.org/wiki/French_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Nfd7",
+          "rating": 5
+        },
+        {
+          "san": "Ne4",
+          "rating": 3
+        },
+        {
+          "san": "Ng8",
+          "rating": 2
+        }
       ]
     },
     {
@@ -425,19 +560,27 @@
       ]
     },
     {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.Nce2"
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.Qg4"
+    },
+    {
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.f4",
       "moves": [
         {
           "san": "c5",
           "rating": 5
+        },
+        {
+          "san": "Be7",
+          "rating": 3
+        },
+        {
+          "san": "Nc6",
+          "rating": 2
         }
       ]
-    },
-    {
-      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.Nce2"
-    },
-    {
-      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.Qg4"
     },
     {
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.f4 c5",
@@ -449,18 +592,10 @@
         {
           "san": "dxc5",
           "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.f4 c5 6.Nf3",
-      "sources": [
-        "https://en.wikipedia.org/wiki/French_Defence"
-      ],
-      "moves": [
+        },
         {
-          "san": "Nc6",
-          "rating": 5
+          "san": "Nce2",
+          "rating": 3
         }
       ]
     },
@@ -474,6 +609,10 @@
         {
           "san": "Bxc5",
           "rating": 4
+        },
+        {
+          "san": "Nxc5",
+          "rating": 3
         }
       ]
     },
@@ -484,7 +623,44 @@
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.f4 c5 6.dxc5 Bxc5"
     },
     {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.f4 c5 6.Nf3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 5
+        },
+        {
+          "san": "cxd4",
+          "rating": 4
+        },
+        {
+          "san": "Be7",
+          "rating": 3
+        }
+      ]
+    },
+    {
       "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.e5 Nfd7 5.f4 c5 6.Nf3 Nc6"
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.exd5",
+      "moves": [
+        {
+          "san": "exd5",
+          "rating": 5
+        },
+        {
+          "san": "Nxd5",
+          "rating": 3
+        },
+        {
+          "san": "Qxd5",
+          "rating": 1
+        }
+      ]
     }
   ]
 }

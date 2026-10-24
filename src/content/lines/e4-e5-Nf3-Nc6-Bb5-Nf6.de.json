@@ -4,20 +4,20 @@
     "background": "Im späten neunzehnten und frühen zwanzigsten Jahrhundert verbreitet, als Emanuel Lasker sie spielte, verlor sie danach an Boden. Wladimir Kramnik belebte sie im WM-Kampf 2000 wieder, in dem er sie viermal einsetzte, um gegen Garry Kasparow zu remisieren."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O": {
-    "strategy": "Rochiert und lässt Schwarz auf e4 schlagen, da der Bauer durch Druck auf der e-Linie gegen den unrochierten König zurückgewonnen wird. Weiß bekommt den sichersten König und die einfachste Entwicklung, und es entsteht solides, oft remisliches Spiel mit wenig Risiko.",
-    "name": "Spanische Partie: Berliner Verteidigung"
+    "name": "Spanische Partie: Berliner Verteidigung",
+    "strategy": "Rochiert und lässt Schwarz auf e4 schlagen, da der Bauer durch Druck auf der e-Linie gegen den unrochierten König zurückgewonnen wird. Weiß bekommt den sichersten König und die einfachste Entwicklung, und es entsteht solides, oft remisliches Spiel mit wenig Risiko."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3": {
-    "strategy": "Verteidigt e4 solide, sodass ...Sxe4 keine Drohung mehr ist und der Druck auf e5 echt wird: Lxc6 und Sxe5 droht, einen Bauern zu gewinnen. Weiß verzichtet auf das schnelle d4 zugunsten eines langsameren Manövrierspiels.",
     "name": "Spanische Partie: Berliner Verteidigung, Anti-Berliner Variante",
-    "background": "Wilhelm Steinitz erzielte als Weltmeister mit 4.d3 viele spektakuläre Erfolge."
+    "background": "Wilhelm Steinitz erzielte als Weltmeister mit 4.d3 viele spektakuläre Erfolge.",
+    "strategy": "Verteidigt e4 solide, sodass ...Sxe4 keine Drohung mehr ist und der Druck auf e5 echt wird: Lxc6 und Sxe5 droht, einen Bauern zu gewinnen. Weiß verzichtet auf das schnelle d4 zugunsten eines langsameren Manövrierspiels."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d4": {
     "strategy": "Schlägt sofort gegen e5 zu, lässt e4 aber ungedeckt, sodass Schwarz es nehmen oder auf d4 schlagen kann. Das Ergebnis ist offenes, ausgeglichenes Spiel, und Weiß bekommt nichts von der zusätzlichen Sicherheit, die Rochade oder d3 bieten würden."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.Nxe5": {
-    "strategy": "Opfert einen Springer für einen Bauern, in der Hoffnung, den zurücknehmenden Springer mit d4 und e5 zu vertreiben. Doch der schwarze Springer zieht sich einfach nach g6 zurück, und Weiß hat keine Kompensation für die verlorene Figur.",
-    "name": "Spanische Partie: Halloween-Angriff"
+    "name": "Spanische Partie: Halloween-Angriff",
+    "strategy": "Opfert einen Springer für einen Bauern, in der Hoffnung, den zurücknehmenden Springer mit d4 und e5 zu vertreiben. Doch der schwarze Springer zieht sich einfach nach g6 zurück, und Weiß hat keine Kompensation für die verlorene Figur."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Bc5": {
     "strategy": "Entwickelt den Läufer auf sein aktivstes Feld, von wo er f2 und das Feld d4 im Blick hat. Zugleich enthält der Zug einen taktischen Punkt: Tauscht Weiß auf c6 und schlägt auf e5, springt die Dame mit Gabel nach d4 und droht auf f2 Matt. Schwarz kämpft mit Figuren um das Zentrum, in einer Manövrierpartie."
@@ -30,8 +30,70 @@
     "background": "James Mortimer spielte 4...Se7 beim Turnier in London 1883 gegen Englisch, Rosenthal und Noa und verlor alle drei Partien; auch der Turniersieger Zukertort spielte es und remisierte damit gegen Englisch.",
     "strategy": "Zieht denselben Springer ein zweites Mal und verstellt den Königsläufer, sodass Schwarz in der Entwicklung zurückfällt; der einzige Sinn ist eine Falle. Schlägt Weiß den Bauern auf e5, gewinnt die Antwort ...c6 eine Figur. Bei ruhigem Spiel liegt Schwarz schlicht ein Tempo zurück."
   },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Bc5 5.Be3": {
+    "name": "Spanische Partie: Berliner Verteidigung, Anti-Berliner Variante, Kaufmann-Variante",
+    "strategy": "Fordert den aktiven Läufer sofort heraus und verstellt dessen Diagonale nach f2. Tauscht Schwarz, bekommt Weiß beim Wiederschlagen Doppelbauern auf der e-Linie, ein struktureller Preis, der die offene f-Linie und einen sehr festen Halt auf e4 einbringt. Der Zug ist abseitig und gibt den üblichen Bauernaufbau im Zentrum auf."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Bc5 5.c3": {
+    "strategy": "Der natürlichste Plan: Er bereitet d4 vor, um Läufer und Zentrum herauszufordern, nimmt den schwarzen Figuren das Feld d4 und macht Lxc6 und Sxe5 spielbar, da ...Dd4 nicht mehr funktioniert. Weiß baut in ruhigem Tempo ein breites Bauernzentrum auf."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Bc5 5.Bxc6": {
+    "strategy": "Tauscht sofort, um e5 anzugreifen: Nachdem der d-Bauer zurückgeschlagen hat, deckt kein schwarzer Bauer e5 mehr, sodass Schwarz einen Zug für dessen Verstärkung aufwenden muss. Weiß gibt den Läufer für eine gesunde Bauernstruktur gegen Doppelbauern auf c, während Schwarz das Läuferpaar erhält."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Bc5 5.O-O": {
+    "strategy": "Rochiert, ohne das Zentrum zu entscheiden, eine ruhige und remisliche Wahl. Schwarz kann mit dem Springersprung nach d4 antworten, was ohne Schwierigkeiten ausgleicht; Weiß muss danach einen Plan finden, statt einfach einen Vorteil einzufahren."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 d6 5.Bxc6+": {
+    "name": "Spanische Partie: Berliner Verteidigung, Anti-Berliner Variante, Anderssen-Variante",
+    "strategy": "Tauscht den Läufer sofort gegen den Springer. Weil der d-Bauer schon gezogen hat, muss Schwarz mit dem b-Bauern zurückschlagen, was die c-Bauern verdoppelt und die b-Linie öffnet, aber Schwarz das Läuferpaar lässt. Weiß erhält dafür ein dauerhaftes strukturelles Ziel, im Tausch gegen das Läuferpaar."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 d6 5.c4": {
+    "name": "Spanische Partie: Berliner Verteidigung, Anti-Berliner Variante, Duras-Variante",
+    "strategy": "Gewinnt Raum, deckt d5 und stützt den Läufer auf b5 mit einem Bauern. Der Preis ist d4: Mit Bauern auf c4 und d3 kann kein weißer Bauer das Feld je decken, es wird zu einem dauerhaften Vorposten für die schwarzen Figuren. Ein aggressiver Versuch, riskanter als die ruhigen Aufbauten."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 d6 5.O-O": {
+    "strategy": "Rochiert, bevor das Zentrum festgelegt wird: ein flexibler, risikoarmer Zug, der den Druck auf den Springer c6 aufrechterhält und Weiß die Bauernstruktur später wählen lässt. Der schwarze Bauer auf d6 steht solide, aber passiv, sodass Weiß ohne Furcht vor einem frühen Durchbruch aufbauen kann."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 d6 5.c3": {
+    "strategy": "Bereitet den zentralen Durchbruch d4 vor und nimmt den schwarzen Figuren das Feld d4. Der König bleibt einen Zug länger im Zentrum als nach der Rochade, doch bei so geschlossenem Zentrum kostet das wenig."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Ne7 5.Nxe5": {
+    "strategy": "Tappt in die Falle: Nach dem Bauerngewinn greift ...c6 den Läufer an, und ein Rückzug nach a4 oder c4 verliert eine Figur an ...Da5+, das König und Springer gabelt. Ruhige Entwicklung hätte Weiß im Vorteil gehalten."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Ne7 5.O-O": {
+    "strategy": "Die solide Antwort: Die Rochade nimmt den König von der Diagonale e1-a5, sodass der Trick ...Da5+ entfällt, und Weiß behält ein gesundes Zentrum. Der schwarze Springer hat sich zweimal bewegt und versperrt seinen eigenen Läufer, daher steht Weiß bei normaler Entwicklung bequem."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Ne7 5.c3": {
+    "strategy": "Ignoriert den Köder auf e5 und bereitet d4 vor, was einen zweiten Angreifer hinzufügen würde. Der Bauer sperrt außerdem die Diagonale a5-e1, sodass der Trick ...Da5+ gar nicht erst entsteht. Eine solide, geduldige Art, einen kleinen Vorteil zu behalten."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Ne7 5.Nxe5 c6": {
+    "name": "Spanische Partie: Berliner Verteidigung, Anti-Berliner Variante, Mortimer-Falle",
+    "strategy": "Löst die Falle aus: Der Bauer greift den Läufer an und bereitet ...Da5+ vor, eine Gabel gegen König und Springer, sodass Weiß nicht beide Figuren halten kann und Material verliert. Der geopferte Bauer bringt Schwarz einen dauerhaften Vorteil."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Ne7 5.Nxe5 Ng6": {
+    "strategy": "Greift den Springer auf e5 an, gewinnt den Bauern aber nicht zurück: Weiß tauscht auf g6, und Schwarz steht schlicht einen Bauern im Minus, ohne etwas dafür zu haben. Ohne ...c6 und das Damenschach dahinter gibt es die Falle nicht."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Ne7 5.Nxe5 a6": {
+    "strategy": "Fordert den Läufer zur Entscheidung auf, doch ohne ...c6 dahinter kostet die Frage Weiß nichts: Der Läufer zieht sich zurück, und Schwarz hat den Bauern noch immer nicht zurückgewonnen. Das Damenschach, mit dem die Falle funktioniert, steht nicht zur Verfügung."
+  },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d4 exd4": {
     "strategy": "Schlägt den Bauern, statt e5 zu verteidigen, was die e-Linie öffnet und zu offenem Spiel führt. Schwarz ist vorerst einen Bauern voraus, doch der König steht noch im Zentrum, daher muss Schwarz die rasche Entwicklung von Weiß genau beantworten."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d4 Be7": {
+    "strategy": "Ein ruhiger Entwicklungszug, der die Rochade vorbereitet, aber weder auf d4 schlägt noch e5 verteidigt, das zweimal angegriffen und nur einmal gedeckt ist. Weiß kann auf e5 schlagen, sodass Schwarz den Bauern aus einer offenen Stellung zurückgewinnen muss, statt ein sauberes Zentrum zu behalten."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d4 d6": {
+    "strategy": "Verteidigt e5 solide und hält die Figuren flexibel. Der Preis ist, dass der Springer c6 nun nur noch vom b-Bauern gedeckt ist: Weiß kann auf c6 tauschen, den b-Bauern zum Zurückschlagen zwingen und das Zentrum gegen eine beschädigte Bauernstruktur öffnen."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d4 exd4 5.O-O": {
+    "name": "Spanische Partie: Berliner Verteidigung, Nyholm-Angriff",
+    "strategy": "Rochiert, statt sofort auf d4 zurückzuschlagen, denn der Bauer lässt sich jederzeit zurückgewinnen. Der Turm steht bereit für die e-Linie, auf der ein noch im Zentrum stehender schwarzer König das Ziel ist: Schlägt Schwarz auf e4, fesselt der Turm den Springer. Weiß spielt auf offene Linien und rasche Entwicklung."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d4 exd4 5.e5": {
+    "strategy": "Zieht sofort am Springer vorbei: Der Bauer greift f6 an und gewinnt Raum, und der Bauer d4 ist bald zurückgewonnen. Der Preis ist, dass der Springer auf e4 landet und der Bauer e5 Unterstützung braucht, sodass Weiß genau spielen muss, um die Initiative zu behalten."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d4 exd4 5.Nxd4": {
+    "strategy": "Gewinnt den Bauern sofort mit einem Springertausch zurück, lässt aber e4 ungedeckt. Nimmt Schwarz ihn, fesselt die Dame den Springer auf der e-Linie, und Weiß gewinnt den Bauern zurück, allerdings ohne Initiative."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4": {
     "name": "Spanische Partie: Berliner Verteidigung, Angenommenes Rio-Gambit",
@@ -47,49 +109,56 @@
     "strategy": "Stützt e5 mit einem Bauern und hält die Stellung kompakt. Der Zug ist solide, aber passiv: Der Königsläufer ist auf e7 beschränkt, und Weiß erhält das freiere Spiel."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Ng4": {
-    "strategy": "Tritt aus dem Zentrum, um eine Falle zu stellen: Nach h3 und ...h5 öffnet das Schlagen des Springers die h-Linie für einen gefährlichen Angriff. Beißt Weiß nicht an, wird der Springer lediglich vertrieben, und Schwarz hat Zeit verloren.",
-    "name": "Spanische Partie: Berliner Verteidigung, Angelrutenvariante"
-  },
-  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Bc5 5.Be3": {
-    "name": "Spanische Partie: Berliner Verteidigung, Anti-Berliner Variante, Kaufmann-Variante",
-    "strategy": "Fordert den aktiven Läufer sofort heraus und verstellt dessen Diagonale nach f2. Tauscht Schwarz, bekommt Weiß beim Wiederschlagen Doppelbauern auf der e-Linie, ein struktureller Preis, der die offene f-Linie und einen sehr festen Halt auf e4 einbringt. Der Zug ist abseitig und gibt den üblichen Bauernaufbau im Zentrum auf."
-  },
-  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 d6 5.Bxc6+": {
-    "name": "Spanische Partie: Berliner Verteidigung, Anti-Berliner Variante, Anderssen-Variante",
-    "strategy": "Tauscht den Läufer sofort gegen den Springer. Weil der d-Bauer schon gezogen hat, muss Schwarz mit dem b-Bauern zurückschlagen, was die c-Bauern verdoppelt und die b-Linie öffnet, aber Schwarz das Läuferpaar lässt. Weiß erhält dafür ein dauerhaftes strukturelles Ziel, im Tausch gegen das Läuferpaar."
-  },
-  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 d6 5.c4": {
-    "name": "Spanische Partie: Berliner Verteidigung, Anti-Berliner Variante, Duras-Variante",
-    "strategy": "Gewinnt Raum, deckt d5 und stützt den Läufer auf b5 mit einem Bauern. Der Preis ist d4: Mit Bauern auf c4 und d3 kann kein weißer Bauer das Feld je decken, es wird zu einem dauerhaften Vorposten für die schwarzen Figuren. Ein aggressiver Versuch, riskanter als die ruhigen Aufbauten."
-  },
-  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Ne7 5.Nxe5": {
-    "strategy": "Tappt in die Falle: Nach dem Bauerngewinn greift ...c6 den Läufer an, und ein Rückzug nach a4 oder c4 verliert eine Figur an ...Da5+, das König und Springer gabelt. Ruhige Entwicklung hätte Weiß im Vorteil gehalten."
-  },
-  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Ne7 5.Nxe5 c6": {
-    "name": "Spanische Partie: Berliner Verteidigung, Anti-Berliner Variante, Mortimer-Falle",
-    "strategy": "Löst die Falle aus: Der Bauer greift den Läufer an und bereitet ...Da5+ vor, eine Gabel gegen König und Springer, sodass Weiß nicht beide Figuren halten kann und Material verliert. Der geopferte Bauer bringt Schwarz einen dauerhaften Vorteil."
-  },
-  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d4 exd4 5.O-O": {
-    "name": "Spanische Partie: Berliner Verteidigung, Nyholm-Angriff",
-    "strategy": "Rochiert, statt sofort auf d4 zurückzuschlagen, denn der Bauer lässt sich jederzeit zurückgewinnen. Der Turm steht bereit für die e-Linie, auf der ein noch im Zentrum stehender schwarzer König das Ziel ist: Schlägt Schwarz auf e4, fesselt der Turm den Springer. Weiß spielt auf offene Linien und rasche Entwicklung."
+    "name": "Spanische Partie: Berliner Verteidigung, Angelrutenvariante",
+    "strategy": "Tritt aus dem Zentrum, um eine Falle zu stellen: Nach h3 und ...h5 öffnet das Schlagen des Springers die h-Linie für einen gefährlichen Angriff. Beißt Weiß nicht an, wird der Springer lediglich vertrieben, und Schwarz hat Zeit verloren."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3": {
     "name": "Spanische Partie: Klassische Variante, Zukertort-Gambit",
     "background": "Johannes Zukertort spielte 5.c3 in den 1860er Jahren.",
     "strategy": "Bereitet einen Bauern auf d4 vor, der den Läufer und das Zentrum angreift, und nimmt den schwarzen Figuren das Feld d4. Der Bauer e4 bleibt angeboten, doch Weiß kann ihn mit der Dame zurückgewinnen, da der Springer, der ihn schlägt, kaum Unterstützung hat. Der geradlinigste Weg, um das Zentrum zu spielen."
   },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.d3": {
+    "strategy": "Deckt e4 mit einem Bauern und hält das Zentrum geschlossen, ein solider Aufbau, der dem aktiven Läufer wenige Ziele bietet. Weiß spielt auf langsames Manövrieren und einen späteren zentralen Durchbruch statt auf einen frühen Zusammenstoß."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.Nxe5": {
+    "strategy": "Nimmt den Bauern sofort und verlässt sich auf eine Taktik: Schlägt der Springer zurück, gabelt d4 Läufer und Springer, und schlägt Schwarz auf e4, gewinnt die Dame das Material zurück. Schwarz kann beides sicher meistern und den Bauern zurückgewinnen, sodass der Zug das Spiel verkompliziert, statt etwas zu gewinnen."
+  },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 O-O": {
     "strategy": "Rochiert, bevor sich das Zentrum öffnet, und hält die Möglichkeit, den Bauern e4 zu schlagen, in Reserve. Schwarz zieht einen sicheren König einem riskanten Wettlauf um den Bauern vor und wartet ab, wie sich Weiß im Zentrum festlegt."
   },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 Nxe4": {
+    "strategy": "Nimmt den Bauern an und zielt auf f2, doch der Springer wird bald von der Dame angegriffen, und Weiß gewinnt den Bauern mit Initiative zurück. Scharf, mit Chancen für beide Seiten, aber Schwarz muss einen schmalen Pfad gehen, um das Genommene zu behalten."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 d6": {
+    "strategy": "Stützt e5 solide und hält die Rochade in Reserve. Der Preis ist, dass der Läufer noch auf c5 steht, wenn Weiß im Zentrum zuschlägt, sodass Schwarz mehr Zeit darauf verwendet, während sich die weißen Figuren mit Tempo entwickeln."
+  },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 O-O 6.d4": {
     "strategy": "Schlägt mit Tempo im Zentrum zu: Der Bauer greift Läufer und e5 zugleich an. Weiß lässt den Bauern e4 vorerst ungedeckt und wettet darauf, dass das offene Zentrum und der Druck auf den Springer c6 mehr wert sind als ein Bauer."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 O-O 6.d3": {
+    "strategy": "Deckt e4 mit einem Bauern und hält das Zentrum geschlossen, statt sofort zuzuschlagen. Ein ruhiger, flexibler Aufbau, der die Gambitlinien vermeidet: Weiß spielt auf langsamen Aufbau, und der aktive schwarze Läufer hat wenig anzugreifen."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 O-O 6.Qe2": {
+    "strategy": "Deckt den Bauern e4 und den Läufer b5 mit einem Zug, sodass der Bauer nicht mehr angeboten wird. Der Zug ist etwas unbeholfen: Die Dame versperrt dem Turm die e-Linie, und der zentrale Vorstoß verzögert sich."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 O-O 6.d4 Bb6": {
     "name": "Spanische Partie: Klassische Verteidigung, Benelux-Variante",
     "strategy": "Weicht dem Bauernangriff aus, hält den Läufer aber weiter auf d4 gerichtet und bewahrt die Spannung im Zentrum, statt sie durch Schlagen aufzulösen. Schwarz nimmt etwas weniger Raum in Kauf und überlässt Weiß, das Zentrum zuerst zu klären."
   },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 O-O 6.d4 exd4": {
+    "strategy": "Öffnet das Zentrum durch Schlagen. Das Zurückschlagen von Weiß greift den Läufer erneut an und baut mit Bauern auf e4 und d4 mit Tempo ein breites Zentrum auf. Schwarz muss nach dem Zeitverlust um den Ausgleich kämpfen."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 O-O 6.d4 Be7": {
+    "strategy": "Zieht den Läufer außer Reichweite des Bauern und behält ihn, gibt aber den Druck auf d4 auf. Dadurch ist e5 zweimal angegriffen und nur einmal gedeckt, sodass Weiß dort schlagen kann und Schwarz den Bauern aus einem passiven Aufbau zurückgewinnen muss."
+  },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O d6 5.d4": {
     "strategy": "Öffnet das Zentrum sofort und setzt zwei Angreifer auf e5, während Schwarz mit ...d6 ein Tempo für die Verteidigung aufgewendet hat. Weiß erhält Raum und leichte Entwicklung, und Schwarz muss e5 halten, statt Gegenspiel zu suchen."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O d6 5.Re1": {
+    "strategy": "Deckt den Bauern e4 mit dem Turm und hält das Zentrum flexibel. Ein risikoarmer Zug: Weiß legt sich auf nichts fest und wartet ab, wie Schwarz sich entwirrt, während der Aufbau von Schwarz mit ...d6 solide, aber passiv ist."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O d6 5.Bxc6+": {
+    "strategy": "Tauscht sofort und zwingt den b-Bauern zum Zurückschlagen, da der d-Bauer schon gezogen ist, wodurch die schwarzen c-Bauern verdoppelt werden. Weiß erhält ein dauerhaftes strukturelles Ziel, gibt aber das Läuferpaar auf, und der Bauer e4 muss gedeckt werden."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O d6 5.d4 Bd7": {
     "strategy": "Verstellt die Diagonale von b5 zum König, sodass der Springer c6 nicht mehr gefesselt ist und auf d4 schlagen kann, während e5 gedeckt bleibt. Ein solider, kompakter Aufbau, der die Entwicklung abschließt und die Rochade vorbereitet."
@@ -98,11 +167,26 @@
     "name": "Spanische Partie: Geschlossene Berliner Verteidigung, Tschigorin-Variante",
     "strategy": "Zieht den Springer zurück, sodass e5 einen weiteren Verteidiger erhält und die Bauernkette ohne jeden Tausch hält. Der Preis ist ein unbeholfener Aufbau: Der Springer verstellt den Läufer c8, und Weiß bekommt den Raum und die Wahl des Plans."
   },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O d6 5.d4 exd4": {
+    "strategy": "Nimmt den Bauern und lässt das Zentrum sich öffnen. Nachdem der Springer zurückgeschlagen hat, ist der Springer c6 zweimal angegriffen und nur einmal gedeckt, sodass Schwarz einen weiteren Verteidiger heranführen muss. Das Spiel wird offener und dynamischer als mit der soliden Bauernkette."
+  },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O d6 5.d4 Bd7 6.Nc3": {
     "strategy": "Deckt e4 gegen den Springer auf f6 und bringt eine weitere Figur ins Spiel, sodass Weiß das Zentrum zu eigenen Bedingungen klären kann. Ein schlichter, gesunder Zug, der den Raumvorteil wahrt und abwartet, bis sich Schwarz festlegt."
   },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O d6 5.d4 Bd7 6.Re1": {
+    "strategy": "Deckt e4 mit dem Turm und hält das Zentrum gespannt. Der Zug legt nichts fest, sodass der Springer b1 sein Feld noch wählen kann, ist aber etwas langsamer als die sofortige Entwicklung des Springers."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O d6 5.d4 Bd7 6.Bxc6": {
+    "strategy": "Tauscht den Läufer sofort gegen den Springer. Der schwarze Läufer schlägt zurück, und Schwarz erhält das Läuferpaar; der Springer f6 und der Läufer c6 greifen e4 zweimal an, sodass Weiß den Bauern gedeckt halten muss. Weiß spielt auf ein dauerhaftes Zentrum gegen die beiden Läufer."
+  },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4": {
     "strategy": "Die Hauptvariante: Sie greift e5 an, bevor Schwarz den Mehrbauern festigen kann, und öffnet die e-Linie gegen einen König, der noch im Zentrum steht. Schwarz kann kaum auf d4 schlagen, da der Turm den Springer auf e4 an den König fesseln würde; der Springer muss also zurückweichen oder gestützt werden."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.Re1": {
+    "strategy": "Gewinnt den Bauern zurück, indem er den Springer auf e4 angreift, der ziehen muss, und dann auf e5 schlägt. Der Turm bleibt auf der e-Linie gegen einen noch im Zentrum stehenden König. Eine risikoarme, sehr remisliche Variante, die das Endspiel des Hauptzugs vermeidet."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.Qe2": {
+    "strategy": "Greift den ungedeckten Springer an und deckt den Läufer b5 in einem Zug, sodass Schwarz entscheiden muss, wohin der Springer geht. Weiß gewinnt den Bauern meist zurück, aber in eine einfache, ausgeglichene Stellung, in der kaum etwas zu spielen bleibt."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6": {
     "name": "Spanische Partie: Berliner Verteidigung, l'Hermet-Variante",
@@ -125,12 +209,18 @@
     "name": "Spanische Partie: Berliner Verteidigung, Minckwitz-Variante",
     "strategy": "Gewinnt den Bauern sofort durch das Schlagen auf e5 zurück, was die Spannung im Zentrum gegen eine halboffene d-Linie tauscht. Schwarz erhält Zeit zur Rochade mit aktivem Springer auf e4, sodass Weiß ein solides, wenig ehrgeiziges Spiel bekommt statt einer Initiative."
   },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Be7 6.Re1": {
+    "strategy": "Greift den Springer auf der e-Linie an und lässt den Läufer b5 für ...Sd6 offen, sodass Weiß die Lage durch Abtausch klärt. Diese führen meist zu einem damenlosen, ausgeglichenen Spiel statt zu dauerhafter Initiative."
+  },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Be7 6.Qe2 Nd6": {
     "strategy": "Zieht den Springer mit Drohung gegen den Läufer zurück. Nach dem Abtausch auf c6 hat Schwarz Doppelbauern, aber das Läuferpaar und aktive Figuren, genug Kompensation für den Bauern, den Weiß auf e5 zurückgewinnt."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Be7 6.Qe2 d5": {
     "name": "Spanische Partie: Berliner Verteidigung, Trifunović-Variante",
     "strategy": "Stützt den Springer auf e4 mit einem Bauern, räumt aber d7, sodass der Läufer den Springer auf c6 an den König fesselt. Da e5 doppelt angegriffen und sein einziger Verteidiger gefesselt ist, ist der Bauer in Not: Das Zentrum ist überdehnt."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Be7 6.Qe2 Nf6": {
+    "strategy": "Zieht den Springer sofort zurück, statt um den Bauern e4 zu kämpfen. Weiß gewinnt den Bauern auf e5 sofort zurück, sodass der Mehrbauer weg ist und Schwarz Zeit verloren hat, ohne dafür Aktivität zu erhalten."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.Bxc6": {
     "strategy": "Entfernt den Verteidiger von e5 und zwingt Schwarz, die c-Bauern zu verdoppeln, im Tausch gegen das Läuferpaar. Weiß erhält eine gesunde Bauernmehrheit am Königsflügel, auf die es zu spielen gilt, in einer langen, zähen, wenn auch remisträchtigen Partie."
@@ -146,5 +236,11 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.Bxc6 dxc6": {
     "strategy": "Schlägt mit dem d-Bauern zurück, was den Läufer c8 und die d-Linie öffnet, zum Preis doppelter c-Bauern. Schwarz behält das Läuferpaar und eine solide Stellung, und die folgenden Abtausche führen tendenziell in ein Endspiel, das schwer zu knacken ist."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.Bxc6 bxc6": {
+    "strategy": "Schlägt mit dem b-Bauern zurück, öffnet die b-Linie und behält den d-Bauern, doch die c-Bauern sind verdoppelt, und der Läufer c8 bleibt hinter d7 eingesperrt. Die Struktur ist schlechter als nach dem anderen Zurückschlagen, sodass Schwarz sie durch Aktivität ausgleichen muss."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.Bxc6 exd4": {
+    "strategy": "Schlägt den Bauern d4, bevor auf c6 zurückgeschlagen wird, doch der König steht noch im Zentrum: Te1+ zwingt Schwarz, die Linie zu verstellen, und der Entwicklungsvorsprung des Weißen und die offene e-Linie geben die Initiative. Ein Wagnis, das sich kaum rechtfertigen lässt."
   }
 }

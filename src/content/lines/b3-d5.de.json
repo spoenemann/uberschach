@@ -241,20 +241,59 @@
   "1.b3 d5 2.f4 Nf6": {
     "strategy": "Entwickelt eine Figur und kontrolliert e4, sodass Weiß das Zentrum nicht leicht mit einem e-Bauernvorstoß beanspruchen kann. Der Springer deckt außerdem d5 von der Seite. Schwarz hält den Bauern auf d5 in der Mitte, legt sich sonst auf nichts fest und wählt einen Aufbau, sobald Weiß gezeigt hat, wohin der Läufer geht."
   },
+  "1.b3 d5 2.f4 c5": {
+    "strategy": "Baut das Bauernpaar d5 und c5 auf, gewinnt Raum am Damenflügel und hält die weißen Figuren von d4 fern. Der Preis: d5 verliert seine Bauerndeckung und wird nur von Figuren gehalten, deshalb muss sich Schwarz sorgfältig entwickeln."
+  },
+  "1.b3 d5 2.f4 e6": {
+    "strategy": "Deckt d5 mit einem Bauern und öffnet den Königsläufer für einen kompakten, soliden Aufbau. Schwarz nimmt vorerst einen passiven Damenläufer in Kauf und behält die Wahl zwischen einem Plan am Königsflügel und einem am Damenflügel."
+  },
+  "1.b3 d5 2.f4 g6": {
+    "strategy": "Spiegelt das Fianchetto von Weiß: Der Läufer auf g7 steht dem Läufer auf b2 auf der langen Diagonale gegenüber und kann ihn abtauschen. Schwarz entwickelt sich langsam und überlässt Weiß eine Zeit lang das Zentrum, eine solide, aber zweitklassige Art, den Zug zu beantworten."
+  },
   "1.b3 d5 2.f4 Nf6 3.Bb2": {
     "strategy": "Vollendet das Fianchetto: Der Läufer drückt auf der langen Diagonale in Richtung Zentrum und g7, während der Bauer auf f4 Schwarz daran hindert, e5 zu besetzen. Weiß baut kein Bauernzentrum auf, sondern untergräbt das schwarze mit Figuren und Flügelbauern, zum Preis einer etwas gelockerten Königsstellung."
+  },
+  "1.b3 d5 2.f4 Nf6 3.Nf3": {
+    "strategy": "Bringt zuerst den Springer ins Spiel und deckt e5 ein zweites Mal, sodass Schwarz dort weder einen Bauern noch eine Figur platzieren kann. Weiß behält die Wahl zwischen einem Fianchetto und einem Bauern auf e3, und die Partie bleibt flexibel: ein solider, geduldiger Aufbau, bei dem sich der Königsflügel reibungslos entwickelt."
+  },
+  "1.b3 d5 2.f4 Nf6 3.e3": {
+    "strategy": "Baut eine kompakte Bauernkette auf und öffnet den Königsläufer, verbraucht aber einen Zug, der nichts im Kampf um e4 bewirkt. Schwarz bekommt Zeit, sich dieses Feld und das Zentrum zu sichern, sodass Weiß beweisen muss, dass die solide Struktur das langsamere Tempo wert ist."
   },
   "1.b3 d5 2.f4 Nf6 3.Bb2 d4": {
     "strategy": "Gewinnt Raum und verstopft die lange Diagonale: Der Bauer auf d4 steht direkt vor dem Läufer auf b2. Der Preis ist ein Bauer, der sofort Unterstützung braucht, da der Läufer ihn bereits angreift und ein Springer hinzukommen kann. Hält Schwarz ihn, ist der Läufer eingemauert und die Partie wird geschlossen."
   },
+  "1.b3 d5 2.f4 Nf6 3.Bb2 e6": {
+    "strategy": "Die solide Antwort: Der Bauer deckt d5 und öffnet den Königsläufer. Der Läufer auf b2 wirkt auf f6, doch die Dame und der Bauer g7 decken das Feld, sodass nichts verloren geht. Schwarz behält ein stabiles Zentrum und einen flexiblen Aufbau, und Weiß hat keinen einfachen Weg, ein eigenes Bauernzentrum aufzubauen."
+  },
+  "1.b3 d5 2.f4 Nf6 3.Bb2 c5": {
+    "strategy": "Sichert Raum am Damenflügel und nimmt den weißen Figuren das Feld d4, sodass der Läufer auf b2 es nicht nutzen kann. Der Preis: d5 wird nur von Figuren gehalten. Schwarz strebt einen dauerhaften Griff nach dem Zentrum an, gegen einen langsameren Aufbau von Weiß."
+  },
   "1.b3 d5 2.f4 Nf6 3.Bb2 d4 4.Nf3": {
     "strategy": "Entwickelt und greift den Keil sofort an: Der Springer verstärkt den Läufer im Druck auf d4, das nur die Dame verteidigt. Er stützt außerdem die Kontrolle des f4-Bauern über e5. Schwarz muss einen Zug für die Verteidigung aufwenden, und der Plan von Weiß steht fest: erst die Figuren, dann ein Bauer gegen den Keil."
+  },
+  "1.b3 d5 2.f4 Nf6 3.Bb2 d4 4.e3": {
+    "strategy": "Greift den Keil an, bevor Schwarz ihn stützen kann: Bauer und Läufer greifen d4 an, und nur die Dame verteidigt es. Schwarz muss erneut verteidigen, tauschen oder weiterstoßen. Werden die Bauern auf e3 getauscht, öffnet sich die d-Linie, und die Damen stehen sich gegenüber."
+  },
+  "1.b3 d5 2.f4 Nf6 3.Bb2 d4 4.c4": {
+    "strategy": "Bietet dem Keil den c-Bauern an: Nimmt Schwarz ihn en passant, schlägt Weiß auf c3 mit einer Figur zurück und gewinnt Entwicklung sowie offene Linien für einen Bauerntausch. Es ist ein solider Weg, den Keil zu untergraben, aber langsamer als Figurendruck, und er schwächt das Feld d3."
   },
   "1.b3 d5 2.f4 Nf6 3.Bb2 d4 4.Nf3 c5": {
     "strategy": "Stützt den vorgerückten Bauern mit einem Bauern, sodass d4 gegen zwei Angreifer zweifach gehalten wird, und gewinnt Raum am Damenflügel. Schwarz legt sich auf eine Kette fest, die den Läufer auf b2 eingeschlossen hält; Weiß muss den Keil mit einem Bauerndurchbruch auflösen, denn Vorwärtsdrängen führt zu nichts."
   },
+  "1.b3 d5 2.f4 Nf6 3.Bb2 d4 4.Nf3 Nc6": {
+    "strategy": "Hält den Keil mit einem Entwicklungszug: Dame und Springer verteidigen d4 gegen Läufer und Springer. Schwarz lässt den c-Bauern frei, doch Weiß kann einen dritten Angreifer hinzufügen, und Schwarz muss den Keil dann erneut stützen, abtauschen oder weiterstoßen, sodass der Springer eine Aufgabe finden muss."
+  },
+  "1.b3 d5 2.f4 Nf6 3.Bb2 d4 4.Nf3 e6": {
+    "strategy": "Gibt den Bauern d4 preis: Nur die Dame verteidigt ihn gegen Läufer und Springer, und sie kann auf einem Feld, das der Springer deckt, nicht zurückschlagen. Weiß nimmt ihn einfach, und Schwarz hat zwar etwas Entwicklung, aber keine Kompensation für den Bauern."
+  },
   "1.b3 d5 2.f4 Nf6 3.Bb2 d4 4.Nf3 c5 5.e3": {
     "name": "Bird-Eröffnung: Thomas-Gambit",
     "strategy": "Fordert den Keil sofort heraus: Bauer, Läufer und Springer wirken alle auf d4, sodass Schwarz es erneut stützen, schlagen oder tauschen lassen muss. Schlägt Schwarz auf e3 und nimmt Weiß mit dem d-Bauern zurück, öffnet sich die d-Linie mit einander gegenüberstehenden Damen, eine frühe Vereinfachung, die Weiß in Kauf nimmt."
+  },
+  "1.b3 d5 2.f4 Nf6 3.Bb2 d4 4.Nf3 c5 5.c3": {
+    "strategy": "Untergräbt den Keil mit dem c-Bauern: Bauer und Springer greifen d4 an, und nach ...dxc3 kann Weiß mit einer Figur zurückschlagen. Der Bauer versperrt aber auch die Diagonale des Läufers auf b2, sodass dieser d4 nicht mehr unter Druck setzt, und das Feld d3 wird zur Schwäche. Spielbar, aber ein wenig selbstbehindernd."
+  },
+  "1.b3 d5 2.f4 Nf6 3.Bb2 d4 4.Nf3 c5 5.g3": {
+    "strategy": "Ignoriert den Keil und entwickelt den Königsläufer auf der langen Diagonale, mit dem Plan, zu rochieren und später zu brechen. Der Bauer d4 bleibt stehen, und die weißen Figuren haben wenig, worauf sie zielen können, sodass die Partie in einen langsamen Manöverkampf übergeht, in dem Schwarz den Raumvorteil hat."
   }
 }

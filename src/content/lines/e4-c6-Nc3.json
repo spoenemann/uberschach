@@ -1,0 +1,302 @@
+{
+  "about": "After 1.e4 c6 2.Nc3: its moves and the positions they reach (docs/adr/0002-opening-modules-folded-to-a-size-budget.md). The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
+  "positions": [
+    {
+      "line": "1.e4 c6 2.Nc3",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        },
+        {
+          "san": "e6",
+          "rating": 3
+        },
+        {
+          "san": "g6",
+          "rating": 3
+        },
+        {
+          "san": "e5",
+          "rating": 2
+        },
+        {
+          "san": "Qc7",
+          "rating": 2
+        },
+        {
+          "san": "Qb6",
+          "rating": 2
+        },
+        {
+          "san": "Qa5",
+          "rating": 2
+        },
+        {
+          "san": "Nh6",
+          "rating": 2
+        },
+        {
+          "san": "Na6",
+          "rating": 2
+        },
+        {
+          "san": "a6",
+          "rating": 2
+        },
+        {
+          "san": "a5",
+          "rating": 2
+        },
+        {
+          "san": "b6",
+          "rating": 2
+        },
+        {
+          "san": "b5",
+          "rating": 2
+        },
+        {
+          "san": "f6",
+          "rating": 2
+        },
+        {
+          "san": "g5",
+          "rating": 2
+        },
+        {
+          "san": "h6",
+          "rating": 2
+        },
+        {
+          "san": "h5",
+          "rating": 2
+        },
+        {
+          "san": "c5",
+          "rating": 2
+        },
+        {
+          "san": "f5",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 Nf6"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 d6"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 e6"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 g6"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 Qc7"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 Qb6"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 Qa5"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 Nh6"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 Na6"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 a6"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 a5"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 b6"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 b5"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 f6"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 f5"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 g5"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 h6"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 h5"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 c5"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 d5",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "Qf3",
+          "rating": 3
+        },
+        {
+          "san": "d3",
+          "rating": 3
+        },
+        {
+          "san": "h3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 d5 3.Qf3"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 d5 3.h3"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 d5 3.d3",
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        },
+        {
+          "san": "e6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 d5 3.d3 dxe4",
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 5
+        },
+        {
+          "san": "Nxe4",
+          "rating": 4
+        },
+        {
+          "san": "Bg5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 d5 3.d3 dxe4 4.Bg5"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 d5 3.Nf3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Caro%E2%80%93Kann_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Bg4",
+          "rating": 5
+        },
+        {
+          "san": "dxe4",
+          "rating": 4
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 d5 3.Nf3 Bg4",
+      "moves": [
+        {
+          "san": "h3",
+          "rating": 5
+        },
+        {
+          "san": "Be2",
+          "rating": 4
+        },
+        {
+          "san": "exd5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 d5 3.Nf3 Bg4 4.h3",
+      "moves": [
+        {
+          "san": "Bxf3",
+          "rating": 5
+        },
+        {
+          "san": "Bh5",
+          "rating": 3
+        },
+        {
+          "san": "Bd7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 d5 3.Nf3 Bg4 4.h3 Bxf3"
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 d5 3.Nf3 Bg4 4.h3 Bh5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Caro%E2%80%93Kann_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 d5 3.Nf3 dxe4",
+      "moves": [
+        {
+          "san": "Nxe4",
+          "rating": 5
+        },
+        {
+          "san": "Ng5",
+          "rating": 3
+        },
+        {
+          "san": "Ne5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c6 2.Nc3 d5 3.Nf3 dxe4 4.Ng5"
+    }
+  ]
+}

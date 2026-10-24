@@ -1,0 +1,396 @@
+{
+  "about": "After 1.e4 e5 2.Nf3 Nf6 3.Nxe5: its moves and the positions they reach (docs/adr/0002-opening-modules-folded-to-a-size-budget.md). The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Petrov's_Defence"
+      ],
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "Nxe4",
+          "rating": 2
+        },
+        {
+          "san": "Nc6",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nf6"
+      ],
+      "moves": [
+        {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
+          "san": "Nd3",
+          "rating": 3
+        },
+        {
+          "san": "Nc4",
+          "rating": 3
+        },
+        {
+          "san": "Nxf7",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nd3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Petrov's_Defence",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nf6/3._Nxe5/3...d6"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nc4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Petrov's_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3",
+      "moves": [
+        {
+          "san": "Nxe4",
+          "rating": 5
+        },
+        {
+          "san": "Nc6",
+          "rating": 2
+        },
+        {
+          "san": "Bg4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "Qe2",
+          "rating": 3
+        },
+        {
+          "san": "d3",
+          "rating": 3
+        },
+        {
+          "san": "c4",
+          "rating": 3
+        },
+        {
+          "san": "Bd3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.Nc3",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nf6/3._Nxe5/3...d6/4._Nf3/4...Nxe4",
+        "https://en.wikipedia.org/wiki/Petrov's_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.Qe2",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nf6/3._Nxe5/3...d6/4._Nf3/4...Nxe4"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d3"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.c4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Petrov's_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.Bd3"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nf6/3._Nxe5/3...d6/4._Nf3/4...Nxe4/5._d4",
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nf6/3._Nxe5/3...d6/4._Nf3/4...Nxe4"
+      ],
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Be7",
+          "rating": 4
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 Nf6"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5",
+      "moves": [
+        {
+          "san": "Bd3",
+          "rating": 5
+        },
+        {
+          "san": "Nbd2",
+          "rating": 3
+        },
+        {
+          "san": "Be2",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5 6.Bd3",
+      "moves": [
+        {
+          "san": "Be7",
+          "rating": 5
+        },
+        {
+          "san": "Nc6",
+          "rating": 4
+        },
+        {
+          "san": "Bd6",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5 6.Bd3 Be7"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5 6.Bd3 Nc6"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5 6.Bd3 Bd6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Petrov's_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Petrov's_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Kxf7",
+          "rating": 5
+        },
+        {
+          "san": "Qd7",
+          "rating": 1
+        },
+        {
+          "san": "Nxe4",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7 Kxf7",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "Bc4+",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7 Kxf7 5.Bc4+"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7 Kxf7 5.d4"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Stafford_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "Nxc6",
+          "rating": 5
+        },
+        {
+          "san": "d4",
+          "rating": 4
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6",
+      "moves": [
+        {
+          "san": "dxc6",
+          "rating": 5
+        },
+        {
+          "san": "bxc6",
+          "rating": 2
+        },
+        {
+          "san": "Nxe4",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6",
+      "moves": [
+        {
+          "san": "d3",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "e5",
+          "rating": 3
+        },
+        {
+          "san": "f3",
+          "rating": 3
+        },
+        {
+          "san": "Qe2",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6 5.d3",
+      "moves": [
+        {
+          "san": "Bc5",
+          "rating": 5
+        },
+        {
+          "san": "Bg4",
+          "rating": 3
+        },
+        {
+          "san": "Be6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6 5.d3 Bc5"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6 5.Nc3",
+      "moves": [
+        {
+          "san": "Bc5",
+          "rating": 5
+        },
+        {
+          "san": "Be6",
+          "rating": 3
+        },
+        {
+          "san": "Bg4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6 5.Nc3 Bc5"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nxe4",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nf6/3._Nxe5/3...Nxe4",
+        "https://en.wikipedia.org/wiki/Petrov's_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Qe2",
+          "rating": 5
+        },
+        {
+          "san": "d4",
+          "rating": 3
+        },
+        {
+          "san": "Qf3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nxe4 4.Qe2",
+      "moves": [
+        {
+          "san": "Qe7",
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 2
+        },
+        {
+          "san": "d5",
+          "rating": 2
+        },
+        {
+          "san": "Nf6",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nxe4 4.Qe2 Qe7",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nf6/3._Nxe5/3...Nxe4"
+      ]
+    }
+  ]
+}

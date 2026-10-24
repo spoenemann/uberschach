@@ -4,25 +4,37 @@
     "background": "Named after Max Lange (1832–1899), the German chess player, problem composer and organiser who also gave his name to the Max Lange Attack in the Two Knights Defence. Hooper and Whyld's Oxford Companion to Chess lists 2...Nc6 as the Max Lange Defence."
   },
   "1.e4 e5 2.Nc3 Nc6 3.f4": {
-    "strategy": "Challenges e5 at once. If Black takes the pawn, White's d-pawn has a free path to build a large centre, at the price of a pawn and a looser king on the e1-h4 diagonal. The game turns sharp quickly.",
     "name": "Vienna Gambit, with Max Lange Defence",
-    "background": "The name Vienna Gambit traditionally applies to this move sequence, 2...Nc6 3.f4."
+    "background": "The name Vienna Gambit traditionally applies to this move sequence, 2...Nc6 3.f4.",
+    "strategy": "Challenges e5 at once. If Black takes the pawn, White's d-pawn has a free path to build a large centre, at the price of a pawn and a looser king on the e1-h4 diagonal. The game turns sharp quickly."
   },
   "1.e4 e5 2.Nc3 Nc6 3.Bc4": {
     "strategy": "The bishop eyes the sensitive f7 square and the central pawns stay free, so White decides the character of the game later. The bishop on c4 can become a target, and Black's natural development equalises."
   },
   "1.e4 e5 2.Nc3 Nc6 3.g3": {
-    "strategy": "A quiet version of White's plan: the king's bishop will back up e4 and watch the long diagonal, and the f-pawn stays at home, so the king is safer than after an early f4. White gives up the immediate fight for the centre and Black develops freely.",
     "name": "Vienna Game: Paulsen Variation",
-    "background": "Louis Paulsen won three games with it at the Vienna 1873 tournament, which gave the variation its name."
+    "background": "Louis Paulsen won three games with it at the Vienna 1873 tournament, which gave the variation its name.",
+    "strategy": "A quiet version of White's plan: the king's bishop will back up e4 and watch the long diagonal, and the f-pawn stays at home, so the king is safer than after an early f4. White gives up the immediate fight for the centre and Black develops freely."
   },
   "1.e4 e5 2.Nc3 Nc6 3.d4": {
-    "strategy": "Offers the d-pawn: after ...exd4 White cannot retake with the queen, because the knight on c6 would capture it. White is left to rely on quick development for the pawn, and Black can simply keep it.",
-    "name": "Vienna Game: Fyfe Gambit"
+    "name": "Vienna Game: Fyfe Gambit",
+    "strategy": "Offers the d-pawn: after ...exd4 White cannot retake with the queen, because the knight on c6 would capture it. White is left to rely on quick development for the pawn, and Black can simply keep it."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.Nf3": {
+    "strategy": "Develops the king's knight with an attack on e5 and steers into the calm, symmetrical development of an ordinary Open Game. White gives up the Vienna's own ideas, such as an early f4, for a sound position with few risks and no obvious edge for either side."
   },
   "1.e4 e5 2.Nc3 Nc6 3.d4 f5": {
-    "strategy": "Counterattacks instead of defending: the f-pawn hits e4 and leaves e5 to its fate, so the game turns on whether White's centre or Black's activity counts for more. The price is Black's own king, which is exposed on the h5-e8 diagonal.",
-    "name": "Vienna Game: Philidor Countergambit"
+    "name": "Vienna Game: Philidor Countergambit",
+    "strategy": "Counterattacks instead of defending: the f-pawn hits e4 and leaves e5 to its fate, so the game turns on whether White's centre or Black's activity counts for more. The price is Black's own king, which is exposed on the h5-e8 diagonal."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.d4 exd4": {
+    "strategy": "Takes the pawn, and White cannot win it back at once: the queen cannot recapture, because the knight on c6 would take it. Black is a clean pawn up and White's only compensation is quick development, so Black has to finish developing calmly and not let the centre open against the king."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.d4 Bb4": {
+    "strategy": "Pins the knight on c3 to the king and keeps a trade on c3 in hand, which would double White's pawns. It leaves the pawn on d4 alone, though: Black has passed up a free pawn and White keeps the space and the initiative in the centre."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.d4 d6": {
+    "strategy": "A solid way to keep the e5 pawn: if the centre is exchanged and the queens come off, Black is comfortable. But Black declines a free pawn and stays passive, and White can gain space by chasing the knight on c6 with d5."
   },
   "1.e4 e5 2.Nc3 Nc6 3.f4 exf4": {
     "strategy": "Takes the pawn, the most direct answer. Black gives up the e-pawn, so White's d-pawn can advance freely, but keeps an extra pawn and the check ...Qh4+ in reserve. The game turns on whether White's centre and development outweigh the pawn."
@@ -30,18 +42,27 @@
   "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5": {
     "strategy": "Declines the pawn and develops with pressure on the g1-a7 diagonal, but leaves e5 to White's f-pawn. Black must find compensation in quick development and the white king's exposure, and White keeps a slight edge."
   },
-  "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5": {
-    "strategy": "Develops the bishop with pressure on f2 and the g1-a7 diagonal, which keeps White's kingside under watch. A natural reply to the fianchetto."
-  },
-  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6": {
-    "strategy": "Develops the knight and hits e4, preparing a central break while keeping the bishop's best square open. A natural reply that commits Black to nothing yet."
+  "1.e4 e5 2.Nc3 Nc6 3.f4 d6": {
+    "strategy": "Declines the pawn by backing e5 with a pawn. It is solid and avoids the sharp play of the accepted gambit, but White chooses how to go on: exchange on e5 for open lines, or keep the tension and build the centre while Black stays a little passive."
   },
   "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5 4.fxe5": {
     "strategy": "Takes the pawn that Black left en prise, and Black cannot take it back at once: after ...Nxe5, d4 attacks bishop and knight together. White is a clean pawn up, and Black must make up for it with development."
   },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5 4.Nf3": {
+    "strategy": "Develops the knight with a second attack on e5 and covers h4, so the black queen has no check there. White keeps the tension in the centre without committing the f-pawn, and Black must find a solid way to defend e5, with a slightly passive game as the price."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5 4.Nge2": {
+    "strategy": "Brings the knight to e2, where it covers f4 and g3: if Black takes on f4, White retakes with the knight, and a check on h4 can be blocked. The price is a passive knight and a blocked bishop on f1; the move wins nothing, and Black can develop freely."
+  },
   "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5 4.fxe5 d6": {
     "name": "Vienna Gambit, with Max Lange Defence: Quelle Gambit",
-    "strategy": "Offers a second pawn to open the centre before White consolidates, hoping for quick development and an attack on the white king. It is a speculative gambit: White can decline it and keeps a material edge."
+    "strategy": "Strikes at e5 at once and opens the diagonal of the c8-bishop, so Black fights for the centre with development instead of trying to win the pawn back by force. Black is a pawn down, but White's king is still in the middle and Black gets quick play for it; if Black wastes time, White consolidates."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5 4.fxe5 Nge7": {
+    "strategy": "Develops a piece and prepares to meet d4 with ...Bxd4, because the knight on c6 guards that square. It does nothing about the pawn on e5, though, so White consolidates and stays a clean pawn up."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5 4.fxe5 Qh4+": {
+    "strategy": "Checks at once and forces g3 or a king move, but the queen then has to retreat and the check gains nothing lasting. White stays a clean pawn up, with only a slightly loosened kingside as a concession."
   },
   "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.Nf3": {
     "strategy": "Guards h4, so ...Qh4+ no longer disturbs the king, and develops a piece. The most solid way to go on, and the only one that keeps rough equality; Black must now decide how to hold the extra pawn."
@@ -51,12 +72,27 @@
     "background": "A favourite of Wilhelm Steinitz, the first World Champion, who famously held that the king is a fighting piece. Few modern players are willing to expose their king this way, and it is rarely seen today.",
     "strategy": "Takes the centre at once and lets the black queen check on h4, so the king has to move and White gives up castling. In return White has the pawn centre and quick development, but the king stays exposed. A rare and dubious sideline."
   },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.Bc4": {
+    "strategy": "Aims at f7 and leaves the h4 check open: the king goes to f1 and White gives up castling for a pawn that is not coming back soon. Quick development is the compensation, so the move is playable but second-rate."
+  },
   "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+": {
     "strategy": "Uses the e1-h4 diagonal that the f-pawn left open. White must move the king and lose the right to castle, or give up more material, so Black makes the white king the target of the game."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Bb4": {
+    "strategy": "Pins the knight on c3 and prepares to trade it, doubling White's pawns, instead of cashing in with the check at once. Black keeps the extra pawn, but White can cover h4 and develop with a strong pawn centre as compensation."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 d6": {
+    "strategy": "Prepares to hold the extra pawn with ...g5 and opens the c8-bishop, but it is slow: White covers h4 and builds on the centre at leisure. Black keeps the pawn and hands White the initiative."
   },
   "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2": {
     "name": "Vienna Gambit, with Max Lange Defence: Steinitz Gambit, Main Line",
     "strategy": "The consistent answer: White accepts the exposed king in return for a big pawn centre and quick development with tempo on the black queen, though a king in the middle remains a target."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Kd2": {
+    "strategy": "Walks the king into the open centre, where it blocks the queen and the c1-bishop and leaves the pawn on d4 without a defender: Black wins it with ...Nxd4 and keeps the initiative against the exposed king."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.g3": {
+    "strategy": "Loses material at once: after 5...fxg3 recapturing on g3 opens the h-file and 6.hxg3 allows ...Qxh1, winning the rook, and the other tries leave Black a clear extra pawn and a ruined white kingside."
   },
   "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2 d6": {
     "name": "Vienna Gambit, with Max Lange Defence: Steinitz Gambit, Paulsen Defence",
@@ -74,34 +110,97 @@
     "name": "Vienna Gambit, with Max Lange Defence: Steinitz Gambit, Sörensen Defence",
     "strategy": "Defends the f4 pawn and keeps the extra material, but loosens the kingside pawns around Black's own king. White's knight then comes out with a gain of time against the queen."
   },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5": {
+    "strategy": "Develops the bishop with pressure on f2 and the g1-a7 diagonal, which keeps White's kingside under watch. A natural reply to the fianchetto."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6": {
+    "strategy": "Develops the knight and hits e4, preparing a central break while keeping the bishop's best square open. A natural reply that commits Black to nothing yet."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 d6": {
+    "strategy": "A solid, compact reply that defends e5 with a pawn and frees the c8-bishop. It is passive: Black does not fight for the centre, and White finishes development in peace."
+  },
   "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2": {
     "strategy": "Completes the fianchetto: the bishop backs up e4 and the whole centre from a safe corner, and is ready for the long diagonal once the position opens. White is solid and keeps a flexible plan."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Nf3": {
+    "strategy": "Develops the knight with pressure on e5 and keeps the fianchetto for later, so White chooses the set-up only after seeing what Black does. A natural, flexible alternative to the immediate fianchetto that creates no weakness."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Nge2": {
+    "strategy": "Develops the knight to e2, where it supports d4 and f4 and keeps the f-pawn free to advance. It is slower than the other developing moves and blocks nothing important, but Black can use the time to claim the centre."
   },
   "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5": {
     "strategy": "An offbeat attempt to attack the fianchetto with the h-pawn. It gains space on the wing but loosens Black's own kingside before the king has castled, so it gives White time."
   },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 d6": {
+    "strategy": "The standard solid answer to the fianchetto: it defends e5 with a pawn and opens the c8-bishop, so Black holds the centre, keeps the bishop on its active diagonal and develops without weaknesses. The result is an equal manoeuvring game."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 Nf6": {
+    "strategy": "Develops with pressure on e4, challenging the centre at once instead of waiting. Black's pieces get active posts, but the pawn on e5 is guarded only by the knight on c6 and has to be watched."
+  },
   "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5 5.Nf3": {
     "strategy": "Develops the knight and covers h4 and g5, so the h-pawn can be taken if it advances. It also attacks e5, which Black's knight has to defend."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5 5.d3": {
+    "strategy": "Supports e4 with a pawn and opens the c1-bishop. A modest move that leaves the h-pawn alone; if it advances, it attacks the g3 pawn and White has to react."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5 5.Nge2": {
+    "strategy": "Develops the knight to e2, where it supports d4 and f4 and keeps the bishop's long diagonal open. It leaves h4 uncovered, so Black can push the h-pawn on, and White controls the kingside less than with the knight on f3."
   },
   "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5 5.Nf3 h4": {
     "name": "Vienna Game: Paulsen Variation, Mariotti Gambit",
     "strategy": "A pawn offer that threatens to open the h-file, but White simply takes it: the knight captures on h4, and Black's queen cannot retake because the g3 pawn guards the square. Black gets little for the pawn."
   },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5 5.Nf3 d6": {
+    "strategy": "Defends e5 with a pawn, so the knight no longer has to guard it alone, and opens the c8-bishop. Black pays no further price for the offbeat h-pawn move and keeps a solid, healthy centre."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5 5.Nf3 Nf6": {
+    "strategy": "Develops the knight with an attack on e4, answering the pressure on e5 with counterplay instead of passive defence. It leaves e5 guarded only by the knight on c6, so Black has to watch the trade on e5 and a central break by White; playable, but it demands accuracy."
+  },
   "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2": {
     "strategy": "Completes the fianchetto: the bishop supports e4 from a safe corner and stands ready for the long diagonal if the centre opens. A solid set-up that leaves White flexible."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Nf3": {
+    "strategy": "Develops the knight with an attack on e5 and keeps the fianchetto for later, reaching a calm, symmetrical set-up in which both sides develop fully. White gives up the Vienna's sharper ideas for a game with few risks."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.d3": {
+    "strategy": "A modest pawn move that supports e4 and opens the c1-bishop's diagonal, but it delays the fight for the centre and develops no piece. Black gets time to finish development and take an equal share of the centre."
   },
   "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5": {
     "strategy": "Develops the bishop to the active diagonal, with pressure on f2 and the option of challenging e4 at once. It keeps Black's set-up flexible."
   },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bb4": {
+    "strategy": "Eyes the knight that guards e4 and d5, and a trade on c3 would double White's pawns. It develops with a threat, but it commits the bishop early: White can calmly challenge it with a pawn, and its activity fades."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 d6": {
+    "strategy": "A solid, patient reply that supports e5, frees the c8-bishop and keeps the structure compact. It leaves the fight for the centre to White, who builds it at leisure, and Black must be ready for a long, slow game."
+  },
   "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2": {
     "strategy": "Develops the king's knight to e2 instead of f3, so the g2-bishop keeps its diagonal and the f-pawn stays free to advance. The knight covers d4 and f4 and keeps the c3-knight in place."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nf3": {
+    "strategy": "Develops the king's knight with pressure on e5 and reaches the calm four-knights set-up. White gets a safe game in which both sides develop fully, but the knight on f3 blocks the f-pawn, so the f4 break is gone and White must play in the centre."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.d3": {
+    "strategy": "Supports e4 and opens the c1-bishop, a modest move that keeps every option open but neither develops a knight nor contests the bishop on c5. Black can complete development comfortably."
   },
   "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2 d5": {
     "name": "Vienna Game: Paulsen Variation",
     "strategy": "The thematic central break, striking at e4 and the long diagonal at once. It offers a pawn: White can capture, and the bishop on g2 makes recapturing on d5 awkward for Black. Sharp, but a little optimistic."
   },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2 d6": {
+    "strategy": "The calm, solid reply: it defends e5 with a pawn, opens the c8-bishop and keeps the centre closed while Black completes development. With the king safe next, Black has a sound, flexible position with no weaknesses."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2 O-O": {
+    "strategy": "Gets the king to safety first and connects the rooks, leaving the tension in the centre for later. Black is not rushed: with bishop and knights out the position is healthy, and the pawn on e5 is guarded by the knight on c6."
+  },
   "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2 d5 6.exd5": {
     "name": "Vienna Game: Paulsen Variation, Pollock Gambit",
     "strategy": "Takes the pawn, and the recapture does not work for Black: after ...Nxd5 Nxd5, the queen cannot retake because the bishop on g2 is aimed at d5. White is a pawn up, though Black gets active piece play."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2 d5 6.Nxd5": {
+    "strategy": "Takes the pawn with the knight, trading off a developed piece. White keeps the pawn for the moment because the queen cannot retake on d5 under the bishop on g2, but the pawn is then under pressure and Black's pieces become active."
+  },
+  "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2 d5 6.O-O": {
+    "strategy": "Castles first and leaves Black to decide the tension in the centre. White is solid, but Black can capture on e4 or push the d-pawn with a gain of time on the knight, and White does not win the pawn."
   }
 }

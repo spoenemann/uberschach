@@ -1,5 +1,5 @@
 {
-  "about": "After 1.d4 d5 2.c4 e6 3.Nc3 Nf6: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.d4 d5 2.c4 e6 3.Nc3 Nf6: the moves the named lines play from here on on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6",
@@ -30,6 +30,9 @@
       ]
     },
     {
+      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bf4"
+    },
+    {
       "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.cxd5",
       "sources": [
         "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined",
@@ -43,348 +46,12 @@
         {
           "san": "Nxd5",
           "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined"
-      ],
-      "moves": [
-        {
-          "san": "Be7",
-          "rating": 5
         },
         {
-          "san": "Nbd7",
-          "rating": 4
-        },
-        {
-          "san": "c5",
-          "rating": 3
-        },
-        {
-          "san": "c6",
-          "rating": 3
+          "san": "Qxd5",
+          "rating": 1
         }
       ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3",
-      "moves": [
-        {
-          "san": "Be7",
-          "rating": 5
-        },
-        {
-          "san": "Bb4",
-          "rating": 5
-        },
-        {
-          "san": "c6",
-          "rating": 5
-        },
-        {
-          "san": "dxc4",
-          "rating": 4
-        },
-        {
-          "san": "c5",
-          "rating": 4
-        },
-        {
-          "san": "Nbd7",
-          "rating": 3
-        },
-        {
-          "san": "Nc6",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bf4"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.e3",
-      "moves": [
-        {
-          "san": "Be7",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7",
-      "moves": [
-        {
-          "san": "e3",
-          "rating": 5
-        },
-        {
-          "san": "Nf3",
-          "rating": 5
-        },
-        {
-          "san": "Bxf6",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.e3",
-      "moves": [
-        {
-          "san": "O-O",
-          "rating": 5
-        },
-        {
-          "san": "Ne4",
-          "rating": 4
-        },
-        {
-          "san": "h6",
-          "rating": 4
-        },
-        {
-          "san": "Nbd7",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.Bxf6"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.e3 Ne4"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.e3 h6",
-      "moves": [
-        {
-          "san": "Bh4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.e3 h6 6.Bh4",
-      "moves": [
-        {
-          "san": "O-O",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.e3 h6 6.Bh4 O-O"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.e3 Nbd7",
-      "moves": [
-        {
-          "san": "Nf3",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.e3 Nbd7 6.Nf3",
-      "moves": [
-        {
-          "san": "O-O",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.e3 Nbd7 6.Nf3 O-O"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.e3 O-O",
-      "moves": [
-        {
-          "san": "Nf3",
-          "rating": 5
-        },
-        {
-          "san": "Rc1",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.e3 O-O 6.Nf3",
-      "moves": [
-        {
-          "san": "h6",
-          "rating": 5
-        },
-        {
-          "san": "Nbd7",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.e3 O-O 6.Rc1"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Be7 5.e3 O-O 6.Nf3 h6"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 c5",
-      "moves": [
-        {
-          "san": "cxd5",
-          "rating": 5
-        },
-        {
-          "san": "Nf3",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 c5 5.cxd5",
-      "moves": [
-        {
-          "san": "Qb6",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 c5 5.Nf3",
-      "moves": [
-        {
-          "san": "cxd4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 c5 5.cxd5 Qb6"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 c5 5.Nf3 cxd4",
-      "moves": [
-        {
-          "san": "Nxd4",
-          "rating": 5
-        },
-        {
-          "san": "Qxd4",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 c5 5.Nf3 cxd4 6.Nxd4",
-      "moves": [
-        {
-          "san": "e5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 c5 5.Nf3 cxd4 6.Qxd4"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 c5 5.Nf3 cxd4 6.Nxd4 e5"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 c6",
-      "moves": [
-        {
-          "san": "Nf3",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7",
-      "moves": [
-        {
-          "san": "e3",
-          "rating": 5
-        },
-        {
-          "san": "Nf3",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7 5.e3",
-      "moves": [
-        {
-          "san": "c6",
-          "rating": 5
-        },
-        {
-          "san": "Bb4",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7 5.Nf3",
-      "moves": [
-        {
-          "san": "c6",
-          "rating": 5
-        },
-        {
-          "san": "h6",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7 5.e3 Bb4"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7 5.e3 c6",
-      "moves": [
-        {
-          "san": "Nf3",
-          "rating": 5
-        },
-        {
-          "san": "a3",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7 5.e3 c6 6.a3",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined"
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7 5.Nf3 h6",
-      "moves": [
-        {
-          "san": "Bh4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7 5.Nf3 h6 6.Bh4",
-      "moves": [
-        {
-          "san": "dxc4",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7 5.Nf3 h6 6.Bh4 dxc4"
     },
     {
       "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.cxd5 exd5",
@@ -392,6 +59,14 @@
         {
           "san": "Bg5",
           "rating": 5
+        },
+        {
+          "san": "Bf4",
+          "rating": 4
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
         }
       ]
     },
@@ -405,6 +80,10 @@
         {
           "san": "c6",
           "rating": 5
+        },
+        {
+          "san": "Nbd7",
+          "rating": 3
         }
       ]
     },
@@ -414,6 +93,14 @@
         {
           "san": "e3",
           "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "Qc2",
+          "rating": 3
         }
       ]
     },
@@ -426,6 +113,10 @@
         },
         {
           "san": "h6",
+          "rating": 4
+        },
+        {
+          "san": "c6",
           "rating": 4
         }
       ]
@@ -446,6 +137,10 @@
         {
           "san": "Qc2",
           "rating": 4
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
         }
       ]
     },
@@ -455,8 +150,19 @@
         {
           "san": "Be7",
           "rating": 5
+        },
+        {
+          "san": "h6",
+          "rating": 4
+        },
+        {
+          "san": "Bf5",
+          "rating": 3
         }
       ]
+    },
+    {
+      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.cxd5 exd5 5.Bg5 c6 6.e3 Be7"
     },
     {
       "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.cxd5 exd5 5.Bg5 c6 6.Qc2",
@@ -464,11 +170,16 @@
         {
           "san": "Be7",
           "rating": 5
+        },
+        {
+          "san": "h6",
+          "rating": 4
+        },
+        {
+          "san": "Nbd7",
+          "rating": 3
         }
       ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.cxd5 exd5 5.Bg5 c6 6.e3 Be7"
     },
     {
       "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.cxd5 exd5 5.Bg5 c6 6.Qc2 Be7"
@@ -479,6 +190,14 @@
         {
           "san": "e4",
           "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "e3",
+          "rating": 3
         }
       ]
     },
@@ -488,6 +207,14 @@
         {
           "san": "Nxc3",
           "rating": 5
+        },
+        {
+          "san": "Nb6",
+          "rating": 3
+        },
+        {
+          "san": "Nf6",
+          "rating": 2
         }
       ]
     },
@@ -497,6 +224,14 @@
         {
           "san": "bxc3",
           "rating": 5
+        },
+        {
+          "san": "Qd2",
+          "rating": 1
+        },
+        {
+          "san": "Qa4+",
+          "rating": 1
         }
       ]
     },
@@ -506,6 +241,14 @@
         {
           "san": "c5",
           "rating": 5
+        },
+        {
+          "san": "Be7",
+          "rating": 4
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
         }
       ]
     },
@@ -513,11 +256,36 @@
       "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.cxd5 Nxd5 5.e4 Nxc3 6.bxc3 c5"
     },
     {
+      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.e3",
+      "moves": [
+        {
+          "san": "Be7",
+          "rating": 5
+        },
+        {
+          "san": "c6",
+          "rating": 4
+        },
+        {
+          "san": "c5",
+          "rating": 4
+        }
+      ]
+    },
+    {
       "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.e3 Be7",
       "moves": [
         {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
           "san": "cxd5",
           "rating": 4
+        },
+        {
+          "san": "Bd3",
+          "rating": 3
         }
       ]
     },
@@ -527,6 +295,14 @@
         {
           "san": "exd5",
           "rating": 5
+        },
+        {
+          "san": "Nxd5",
+          "rating": 4
+        },
+        {
+          "san": "Qxd5",
+          "rating": 1
         }
       ]
     },
@@ -536,6 +312,14 @@
         {
           "san": "Bd3",
           "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "Nge2",
+          "rating": 4
         }
       ]
     },
@@ -545,34 +329,10 @@
         {
           "san": "O-O",
           "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.e3 Be7 5.cxd5 exd5 6.Bd3 O-O"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Bb4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Viacheslav_Ragozin"
-      ],
-      "moves": [
-        {
-          "san": "Bg5",
-          "rating": 5
         },
         {
-          "san": "Qa4+",
+          "san": "c6",
           "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Bb4 5.Bg5",
-      "moves": [
-        {
-          "san": "dxc4",
-          "rating": 5
         },
         {
           "san": "Nbd7",
@@ -581,208 +341,7 @@
       ]
     },
     {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Bb4 5.Qa4+"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Bb4 5.Bg5 dxc4"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Bb4 5.Bg5 Nbd7",
-      "moves": [
-        {
-          "san": "e3",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Bb4 5.Bg5 Nbd7 6.e3",
-      "moves": [
-        {
-          "san": "c5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Bb4 5.Bg5 Nbd7 6.e3 c5"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 dxc4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Queen%27s_Gambit_Declined"
-      ],
-      "moves": [
-        {
-          "san": "e4",
-          "rating": 5
-        },
-        {
-          "san": "Bg5",
-          "rating": 4
-        },
-        {
-          "san": "e3",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 dxc4 5.e4"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 dxc4 5.Bg5",
-      "moves": [
-        {
-          "san": "Be7",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 dxc4 5.e3"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 dxc4 5.Bg5 Be7",
-      "moves": [
-        {
-          "san": "e4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 dxc4 5.Bg5 Be7 6.e4"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Nbd7",
-      "moves": [
-        {
-          "san": "Bg5",
-          "rating": 5
-        },
-        {
-          "san": "cxd5",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Nbd7 5.cxd5",
-      "moves": [
-        {
-          "san": "exd5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Nbd7 5.cxd5 exd5",
-      "moves": [
-        {
-          "san": "Bg5",
-          "rating": 5
-        },
-        {
-          "san": "Bf4",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Nbd7 5.cxd5 exd5 6.Bg5",
-      "moves": [
-        {
-          "san": "c6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Nbd7 5.cxd5 exd5 6.Bf4"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Nbd7 5.cxd5 exd5 6.Bg5 c6"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Nc6",
-      "moves": [
-        {
-          "san": "cxd5",
-          "rating": 5
-        },
-        {
-          "san": "Bg5",
-          "rating": 4
-        },
-        {
-          "san": "a3",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Nc6 5.cxd5",
-      "moves": [
-        {
-          "san": "exd5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Nc6 5.Bg5",
-      "moves": [
-        {
-          "san": "Be7",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Nc6 5.a3"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Nc6 5.Bg5 Be7",
-      "moves": [
-        {
-          "san": "e3",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Nc6 5.Bg5 Be7 6.e3",
-      "moves": [
-        {
-          "san": "O-O",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Nc6 5.Bg5 Be7 6.e3 O-O"
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Nc6 5.cxd5 exd5",
-      "moves": [
-        {
-          "san": "Bg5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Nc6 5.cxd5 exd5 6.Bg5",
-      "moves": [
-        {
-          "san": "Be7",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Nf3 Nc6 5.cxd5 exd5 6.Bg5 Be7"
+      "line": "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.e3 Be7 5.cxd5 exd5 6.Bd3 O-O"
     }
   ]
 }

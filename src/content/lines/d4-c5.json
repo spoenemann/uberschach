@@ -1,0 +1,245 @@
+{
+  "about": "After 1.d4 c5: its moves and the positions they reach (docs/adr/0002-opening-modules-folded-to-a-size-budget.md). The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
+  "positions": [
+    {
+      "line": "1.d4 c5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Benoni_Defense"
+      ],
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "dxc5",
+          "rating": 3
+        },
+        {
+          "san": "c4",
+          "rating": 3
+        },
+        {
+          "san": "b4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 c5 2.b4"
+    },
+    {
+      "line": "1.d4 c5 2.d5",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 4
+        },
+        {
+          "san": "e5",
+          "rating": 4
+        },
+        {
+          "san": "f5",
+          "rating": 3
+        },
+        {
+          "san": "Na6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 c5 2.d5 Na6"
+    },
+    {
+      "line": "1.d4 c5 2.d5 d6",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        },
+        {
+          "san": "e4",
+          "rating": 4
+        },
+        {
+          "san": "c4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 c5 2.d5 d6 3.Nc3",
+      "moves": [
+        {
+          "san": "g6",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        },
+        {
+          "san": "e5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 c5 2.d5 d6 3.Nc3 g6"
+    },
+    {
+      "line": "1.d4 c5 2.d5 e5",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 5
+        },
+        {
+          "san": "c4",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 c5 2.d5 e5 3.e4",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        },
+        {
+          "san": "Be7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 c5 2.d5 e5 3.e4 d6"
+    },
+    {
+      "line": "1.d4 c5 2.d5 f5",
+      "moves": [
+        {
+          "san": "e4",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "Nf3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 c5 2.d5 f5 3.e4"
+    },
+    {
+      "line": "1.d4 c5 2.d5 Nf6",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "c4",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 c5 2.d5 Nf6 3.Nc3",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "g6",
+          "rating": 4
+        },
+        {
+          "san": "Qa5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 c5 2.d5 Nf6 3.Nc3 Qa5"
+    },
+    {
+      "line": "1.d4 c5 2.d5 Nf6 3.Nf3",
+      "moves": [
+        {
+          "san": "g6",
+          "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 4
+        },
+        {
+          "san": "c4",
+          "rating": 3
+        },
+        {
+          "san": "b5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 c5 2.d5 Nf6 3.Nf3 c4"
+    },
+    {
+      "line": "1.d4 c5 2.d5 Nf6 3.Nf3 b5"
+    },
+    {
+      "line": "1.d4 c5 2.dxc5",
+      "moves": [
+        {
+          "san": "e6",
+          "rating": 5
+        },
+        {
+          "san": "Na6",
+          "rating": 3
+        },
+        {
+          "san": "b6",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 c5 2.dxc5 Na6"
+    },
+    {
+      "line": "1.d4 c5 2.dxc5 b6"
+    }
+  ]
+}

@@ -107,9 +107,16 @@ for and risks, and which replies matter.
     move on, and after a move rated 1 to 3 before it, the book follows the
     lines the Lichess chess-openings dataset names (`src/content/named/`),
     each to its twelfth move played (Black's sixth), and covers
-    exactly the moves they play: each is rated and has its text, whatever
+    the moves they play: each is rated and has its text, whatever
     its rating, and a named line through a dubious gambit or into a trap is
-    followed like any other. Another move from such a position leaves the
+    followed like any other. Beside the named moves, a position on them
+    has at least three moves, or every legal move where fewer are legal,
+    and one of them rated 5: the main answer is there even where the named
+    lines play only a weaker move, and the alternatives worth knowing
+    beside it, so the visitor sees the choices of the position and not
+    only the line the dataset names (the maintainer, 2026-10-24). These
+    added moves are rated and explained like the others but not followed:
+    the book ends after them. Another move from such a position leaves the
     book. A line the dataset names beyond the twelfth move ends there.
   (`src/content/openings.test.ts`)
 - The book goes no deeper than a move still belongs to the opening by

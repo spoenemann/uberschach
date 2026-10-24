@@ -9,39 +9,102 @@
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.c3": {
     "strategy": "Prepares a broad pawn centre while keeping the bishop on b5. It is the natural slow plan, but it gives Black time to put the question to the bishop, and Black's fianchetto set-up then works well."
   },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.Nc3": {
+    "strategy": "Develops and guards e4. Black's quiet fianchetto does nothing to hinder White's development, so White can build up calmly and choose the central plan once Black has shown its set-up."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.O-O": {
+    "strategy": "Brings the king to safety and a rook towards the centre before the position opens. Black's quiet move does not interfere with White's development, so there is no hurry to commit the centre pawns; the game stays under White's control."
+  },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.c3 a6": {
     "strategy": "Puts the question to the bishop at once: White must retreat or exchange, and with c3 already played the retreat leaves Black a comfortable game. Black keeps a solid set-up with the fianchettoed bishop aimed at the long diagonal."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.c3 f5": {
-    "strategy": "Strikes at e4 with the f-pawn, as in the gambit on the third move, but the g-pawn has already moved, so the kingside is looser and e5 has only the c6 knight to guard it. White can simply take the pawn or strike in the centre, and Black has no real compensation.",
-    "name": "Ruy Lopez: Fianchetto Defence, Kevitz Gambit"
+    "name": "Ruy Lopez: Fianchetto Defence, Kevitz Gambit",
+    "strategy": "Strikes at e4 with the f-pawn, as in the gambit on the third move, but the g-pawn has already moved, so the kingside is looser and e5 has only the c6 knight to guard it. White can simply take the pawn or strike in the centre, and Black has no real compensation."
   },
-  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.d4 exd4": {
-    "strategy": "Exchanges the central pawn and opens the long diagonal for the bishop that is about to arrive on g7. White keeps the initiative in the centre, but declining the exchange would leave e5 under pressure."
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.c3 Bg7": {
+    "strategy": "Completes the fianchetto and defends e5 a second time, a solid choice. It does not ask the bishop on b5 anything, though, so White sets up a broad pawn centre on its own terms."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.c3 a6 5.Ba4": {
     "strategy": "Retreats and keeps the pressure on the c6 knight rather than exchanging. The bishop stays on its good diagonal and the c3 pawn supports a central advance, so Black has gained a useful queenside move but little else."
   },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.c3 a6 5.Bxc6": {
+    "strategy": "Takes the knight to double Black's pawns, but ...dxc6 opens lines for the queen and the c8 bishop and leaves Black the bishop pair. White gives up the bishop for a structural point and gets no lead in development from it."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.c3 a6 5.Bc4": {
+    "strategy": "Retreats to the diagonal aimed at f7, but the a-pawn has gained a tempo and ...b5 can chase the bishop again at once. White has nothing to show for the exchange of moves, and Black gains space on the queenside."
+  },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.c3 a6 5.Ba4 d6": {
     "strategy": "Defends e5 solidly and gives the c8 bishop its freedom. With the g7 bishop to come, Black supports the centre from a distance and accepts a slightly passive but sturdy position."
   },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.c3 a6 5.Ba4 Bg7": {
+    "strategy": "Completes the fianchetto and defends e5 a second time, so a central advance by White meets a defended pawn. The bishop works on the long diagonal and Black keeps a solid structure, leaving the c8 bishop and the d-pawn flexible."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.c3 a6 5.Ba4 b5": {
+    "strategy": "Chases the bishop again and gains queenside space, but it costs another tempo while the centre is unsettled and weakens the squares behind the advanced pawns. The bishop retreats to c2, still well placed, and White carries on with the centre."
+  },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.c3 a6 5.Ba4 d6 6.d4": {
     "strategy": "Hits e5 a second time, and with the c6 knight pinned by the bishop on a4 the pawn is genuinely under threat. White takes central space; Black must unpin or exchange."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.c3 a6 5.Ba4 d6 6.O-O": {
+    "strategy": "Castles before the centre opens. The pin on the c6 knight stays, e4 is secure, and White can still build a broad pawn centre or keep things closed. A patient, sensible way to play against the quiet set-up."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.c3 a6 5.Ba4 d6 6.d3": {
+    "strategy": "Supports e4 with a pawn and keeps the position closed, a modest plan that avoids the central clash. The pin remains, but Black has time to break it and complete the fianchetto at leisure."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.c3 a6 5.Ba4 d6 6.d4 Bd7": {
     "name": "Ruy Lopez: Morphy Defence, Modern Steinitz Defence, Fianchetto Variation",
     "strategy": "Breaks the pin on the c6 knight, the key defender of e5, before White can exploit it. Black keeps the kingside fianchetto set-up, a solid and flexible position, and accepts a slight lack of space."
   },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.c3 a6 5.Ba4 d6 6.d4 exd4": {
+    "strategy": "Settles the tension on e5 by exchanging pawns and opens the long diagonal for the bishop about to arrive on g7. Black gives up its central pawn for easy development, but the c6 knight is still pinned and needs freeing soon, so White's recapture comes with a lead in activity."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.c3 a6 5.Ba4 d6 6.d4 Bg7": {
+    "strategy": "Completes the fianchetto but leaves the pin in place. White can take on e5 and, after ...dxe5, trade queens: the pinned knight cannot recapture, so the king has to take and Black loses the right to castle."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.d4 exd4": {
+    "strategy": "Exchanges the central pawn and opens the long diagonal for the bishop that is about to arrive on g7. White keeps the initiative in the centre, but declining the exchange would leave e5 under pressure."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.d4 Bg7": {
+    "strategy": "Develops the fianchetto bishop to defend e5 a second time instead of exchanging pawns. Black keeps the tension, but White can take or advance and use the extra space in the centre, so Black is the side reacting."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.d4 d6": {
+    "strategy": "Defends e5 with a pawn but empties d7, so the bishop pins the c6 knight against the king. After dxe5 the knight cannot retake, and ...dxe5 allows a queen trade that ends with White winning the e5 pawn."
+  },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.d4 exd4 5.Nxd4": {
     "strategy": "Recaptures with the knight, which takes a central square and eyes the c6 knight. It is natural and good, though White can do better by developing the dark-squared bishop with tempo on the queen."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.d4 exd4 5.Bg5": {
+    "strategy": "Attacks the queen at once, gaining a tempo while Black's d4 pawn is still hanging. White develops with threats and Black's fianchetto set-up has not yet found a role, which is why this quiet defence is rarely played."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.d4 exd4 5.c3": {
+    "strategy": "Offers a pawn for quick development: after ...dxc3 the knight retakes and White has an open centre and active pieces. A speculative gambit that is little tested, since Black can simply keep the extra pawn and develop."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.d4 exd4 5.Nxd4 Bg7": {
     "strategy": "Completes the fianchetto and at once pressures the knight on d4, which the c6 knight and the bishop both attack. Black's pieces aim at the centre from a distance."
   },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.d4 exd4 5.Nxd4 Nge7": {
+    "strategy": "Prepares to retake on c6 with the knight to avoid doubled pawns, but it delays the g7 bishop and its pressure on d4. White can exchange or develop calmly, and Black has no counterplay yet."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.d4 exd4 5.Nxd4 Nxd4": {
+    "strategy": "Trades the central knight at once, a sound way to simplify. White recaptures with the queen, which stands strongly in the centre, and keeps the space, so Black has the more passive game; ...Bg7 is not yet possible, as the bishop would hang to the queen."
+  },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.d4 exd4 5.Nxd4 Bg7 6.Be3": {
     "strategy": "Guards the d4 knight a second time and develops with a purpose, so the knight can stay in the centre without being exchanged. White keeps the more active position."
   },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.d4 exd4 5.Nxd4 Bg7 6.c3": {
+    "strategy": "Defends the knight with a pawn and starts a broad centre, a solid answer to the pressure from the bishop and the c6 knight. It takes the c3 square from the b1 knight, so White's development is a little clumsy."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.d4 exd4 5.Nxd4 Bg7 6.Nb3": {
+    "strategy": "Takes the knight out of the attack of the bishop and the c6 knight, with the b2 pawn covered by the c1 bishop. It keeps all the pieces but gives up the centre, and Black's bishop owns the long diagonal while White is already reacting."
+  },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.d4 exd4 5.Nxd4 Bg7 6.Be3 Nge7": {
     "strategy": "Develops so that the knight can recapture on c6 without doubling pawns, and keeps the long diagonal of the g7 bishop open, which a knight on f6 would block."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.d4 exd4 5.Nxd4 Bg7 6.Be3 Nxd4": {
+    "strategy": "Exchanges the central pieces to relieve the pressure on d4. White's queen ends up on d4 in the middle of the board, but Black can challenge it at once; the game is simplified and level."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 g6 4.d4 exd4 5.Nxd4 Bg7 6.Be3 d6": {
+    "strategy": "Looks solid but empties d7: Nxc6 bxc6 and Bxc6+ forks the king and the rook on a8, and White wins the exchange."
   }
 }

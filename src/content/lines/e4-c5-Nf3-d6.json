@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 c5 2.Nf3 d6: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 c5 2.Nf3 d6: the moves the named lines play from here on on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 c5 2.Nf3 d6",
@@ -34,17 +34,10 @@
       ]
     },
     {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4",
-      "moves": [
-        {
-          "san": "cxd4",
-          "rating": 5
-        },
-        {
-          "san": "Nf6",
-          "rating": 3
-        }
-      ]
+      "line": "1.e4 c5 2.Nf3 d6 3.Bd3"
+    },
+    {
+      "line": "1.e4 c5 2.Nf3 d6 3.b4"
     },
     {
       "line": "1.e4 c5 2.Nf3 d6 3.Bb5+",
@@ -59,35 +52,12 @@
         {
           "san": "Nc6",
           "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.c3",
-      "moves": [
+        },
         {
-          "san": "Nf6",
-          "rating": 5
+          "san": "Nd7",
+          "rating": 3
         }
       ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.Bd3"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.g3",
-      "moves": [
-        {
-          "san": "b5",
-          "rating": 2
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.b4"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.g3 b5"
     },
     {
       "line": "1.e4 c5 2.Nf3 d6 3.Bb5+ Bd7",
@@ -95,6 +65,14 @@
         {
           "san": "Bxd7+",
           "rating": 5
+        },
+        {
+          "san": "c4",
+          "rating": 4
+        },
+        {
+          "san": "a4",
+          "rating": 3
         }
       ]
     },
@@ -104,6 +82,14 @@
         {
           "san": "Qxd7",
           "rating": 5
+        },
+        {
+          "san": "Nxd7",
+          "rating": 4
+        },
+        {
+          "san": "Kxd7",
+          "rating": 2
         }
       ]
     },
@@ -117,15 +103,10 @@
         {
           "san": "c4",
           "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.Bb5+ Bd7 4.Bxd7+ Qxd7 5.O-O",
-      "moves": [
+        },
         {
-          "san": "Nc6",
-          "rating": 5
+          "san": "Nc3",
+          "rating": 3
         }
       ]
     },
@@ -133,11 +114,36 @@
       "line": "1.e4 c5 2.Nf3 d6 3.Bb5+ Bd7 4.Bxd7+ Qxd7 5.c4"
     },
     {
+      "line": "1.e4 c5 2.Nf3 d6 3.Bb5+ Bd7 4.Bxd7+ Qxd7 5.O-O",
+      "moves": [
+        {
+          "san": "Nc6",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        },
+        {
+          "san": "g6",
+          "rating": 3
+        }
+      ]
+    },
+    {
       "line": "1.e4 c5 2.Nf3 d6 3.Bb5+ Bd7 4.Bxd7+ Qxd7 5.O-O Nc6",
       "moves": [
         {
           "san": "c3",
           "rating": 5
+        },
+        {
+          "san": "Re1",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
         }
       ]
     },
@@ -147,6 +153,14 @@
         {
           "san": "Nf6",
           "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 4
+        },
+        {
+          "san": "g6",
+          "rating": 3
         }
       ]
     },
@@ -159,6 +173,14 @@
         {
           "san": "O-O",
           "rating": 5
+        },
+        {
+          "san": "Bxc6+",
+          "rating": 4
+        },
+        {
+          "san": "d4",
+          "rating": 3
         }
       ]
     },
@@ -168,12 +190,24 @@
         {
           "san": "Bd7",
           "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
+        },
+        {
+          "san": "g6",
+          "rating": 3
         }
       ]
     },
     {
       "line": "1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O Bd7",
       "moves": [
+        {
+          "san": "Re1",
+          "rating": 5
+        },
         {
           "san": "c3",
           "rating": 4
@@ -190,15 +224,14 @@
         {
           "san": "Nf6",
           "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O Bd7 5.Qe2",
-      "moves": [
+        },
+        {
+          "san": "a6",
+          "rating": 4
+        },
         {
           "san": "g6",
-          "rating": 4
+          "rating": 3
         }
       ]
     },
@@ -208,6 +241,14 @@
         {
           "san": "Re1",
           "rating": 5
+        },
+        {
+          "san": "d3",
+          "rating": 3
+        },
+        {
+          "san": "Qe2",
+          "rating": 3
         }
       ]
     },
@@ -217,6 +258,14 @@
         {
           "san": "a6",
           "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 4
+        },
+        {
+          "san": "g6",
+          "rating": 3
         }
       ]
     },
@@ -224,8 +273,33 @@
       "line": "1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O Bd7 5.c3 Nf6 6.Re1 a6"
     },
     {
+      "line": "1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O Bd7 5.Qe2",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "g6",
+          "rating": 4
+        },
+        {
+          "san": "a6",
+          "rating": 4
+        }
+      ]
+    },
+    {
       "line": "1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O Bd7 5.Qe2 g6",
       "moves": [
+        {
+          "san": "c3",
+          "rating": 5
+        },
+        {
+          "san": "d3",
+          "rating": 3
+        },
         {
           "san": "e5",
           "rating": 2
@@ -236,11 +310,36 @@
       "line": "1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O Bd7 5.Qe2 g6 6.e5"
     },
     {
+      "line": "1.e4 c5 2.Nf3 d6 3.c3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "Nc6",
+          "rating": 4
+        },
+        {
+          "san": "a6",
+          "rating": 3
+        }
+      ]
+    },
+    {
       "line": "1.e4 c5 2.Nf3 d6 3.c3 Nf6",
       "moves": [
         {
           "san": "Be2",
           "rating": 5
+        },
+        {
+          "san": "Qc2",
+          "rating": 3
+        },
+        {
+          "san": "d3",
+          "rating": 3
         }
       ]
     },
@@ -249,7 +348,15 @@
       "moves": [
         {
           "san": "Nc6",
+          "rating": 5
+        },
+        {
+          "san": "e6",
           "rating": 4
+        },
+        {
+          "san": "g6",
+          "rating": 3
         }
       ]
     },
@@ -259,6 +366,14 @@
         {
           "san": "d4",
           "rating": 5
+        },
+        {
+          "san": "d3",
+          "rating": 3
+        },
+        {
+          "san": "Qc2",
+          "rating": 3
         }
       ]
     },
@@ -268,6 +383,14 @@
         {
           "san": "cxd4",
           "rating": 5
+        },
+        {
+          "san": "Bg4",
+          "rating": 3
+        },
+        {
+          "san": "e5",
+          "rating": 3
         }
       ]
     },
@@ -277,12 +400,28 @@
         {
           "san": "cxd4",
           "rating": 5
+        },
+        {
+          "san": "Nxd4",
+          "rating": 2
+        },
+        {
+          "san": "Qxd4",
+          "rating": 1
         }
       ]
     },
     {
       "line": "1.e4 c5 2.Nf3 d6 3.c3 Nf6 4.Be2 Nc6 5.d4 cxd4 6.cxd4",
       "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 3
+        },
         {
           "san": "Nxe4",
           "rating": 2
@@ -293,545 +432,24 @@
       "line": "1.e4 c5 2.Nf3 d6 3.c3 Nf6 4.Be2 Nc6 5.d4 cxd4 6.cxd4 Nxe4"
     },
     {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4",
-      "moves": [
-        {
-          "san": "Nxd4",
-          "rating": 5
-        },
-        {
-          "san": "c3",
-          "rating": 3
-        },
-        {
-          "san": "Qxd4",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4",
+      "line": "1.e4 c5 2.Nf3 d6 3.g3",
       "moves": [
         {
           "san": "Nf6",
           "rating": 5
         },
         {
-          "san": "g6",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.c3"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Qxd4",
-      "moves": [
-        {
-          "san": "Nc6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 g6"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6",
-      "moves": [
-        {
-          "san": "Nc3",
-          "rating": 5
-        },
-        {
-          "san": "f3",
-          "rating": 4
-        },
-        {
-          "san": "Bc4",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3",
-      "moves": [
-        {
-          "san": "a6",
-          "rating": 5
-        },
-        {
           "san": "Nc6",
           "rating": 4
         },
         {
-          "san": "g6",
-          "rating": 4
-        },
-        {
-          "san": "Bd7",
-          "rating": 3
-        },
-        {
-          "san": "e5",
+          "san": "b5",
           "rating": 2
         }
       ]
     },
     {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.f3",
-      "moves": [
-        {
-          "san": "e5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Bc4"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Bd7",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence"
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.f3 e5",
-      "moves": [
-        {
-          "san": "Bb5+",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.f3 e5 6.Bb5+"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence,_Najdorf_Variation"
-      ],
-      "moves": [
-        {
-          "san": "Be3",
-          "rating": 5
-        },
-        {
-          "san": "Bg5",
-          "rating": 5
-        },
-        {
-          "san": "Be2",
-          "rating": 4
-        },
-        {
-          "san": "f4",
-          "rating": 4
-        },
-        {
-          "san": "Bc4",
-          "rating": 4
-        },
-        {
-          "san": "g3",
-          "rating": 4
-        },
-        {
-          "san": "h3",
-          "rating": 3
-        },
-        {
-          "san": "Rg1",
-          "rating": 3
-        },
-        {
-          "san": "Bd3",
-          "rating": 3
-        },
-        {
-          "san": "g4",
-          "rating": 2
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be3",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence"
-      ],
-      "moves": [
-        {
-          "san": "e5",
-          "rating": 5
-        },
-        {
-          "san": "e6",
-          "rating": 4
-        },
-        {
-          "san": "Ng4",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Bg5",
-      "sources": [
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...c5/2._Nf3/2...d6/3._d4/3...cxd4/4._Nxd4/4...Nf6/5._Nc3/5...a6/6._Be3"
-      ],
-      "moves": [
-        {
-          "san": "e6",
-          "rating": 5
-        },
-        {
-          "san": "Nbd7",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be2",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence"
-      ],
-      "moves": [
-        {
-          "san": "e5",
-          "rating": 5
-        },
-        {
-          "san": "e6",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.f4",
-      "moves": [
-        {
-          "san": "e6",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Bc4",
-      "sources": [
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...c5/2._Nf3/2...d6/3._d4/3...cxd4/4._Nxd4/4...Nf6/5._Nc3/5...a6/6._Bc4",
-        "https://en.wikipedia.org/wiki/Sicilian_Defence,_Najdorf_Variation"
-      ],
-      "moves": [
-        {
-          "san": "e6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.g3"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.h3",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence,_Najdorf_Variation"
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Rg1"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Bd3"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.g4"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Bc4 e6"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be2 e5"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be2 e6"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be3 e5"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be3 e6"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be3 Ng4"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Bg5 e6"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Bg5 Nbd7"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.f4 e6"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5",
-      "moves": [
-        {
-          "san": "Bb5+",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 6.Bb5+"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence"
-      ],
-      "moves": [
-        {
-          "san": "Be3",
-          "rating": 5
-        },
-        {
-          "san": "Be2",
-          "rating": 4
-        },
-        {
-          "san": "g3",
-          "rating": 3
-        },
-        {
-          "san": "f4",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.Be3",
-      "moves": [
-        {
-          "san": "Bg7",
-          "rating": 5
-        },
-        {
-          "san": "Nc6",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.Be2",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence,_Dragon_Variation"
-      ],
-      "moves": [
-        {
-          "san": "Bg7",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.g3"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.f4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence,_Dragon_Variation"
-      ],
-      "moves": [
-        {
-          "san": "Nbd7",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.Be2 Bg7"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.Be3 Bg7"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.Be3 Nc6"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 g6 6.f4 Nbd7"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6",
-      "moves": [
-        {
-          "san": "Bg5",
-          "rating": 5
-        },
-        {
-          "san": "Bc4",
-          "rating": 4
-        },
-        {
-          "san": "Be2",
-          "rating": 4
-        },
-        {
-          "san": "Nde2",
-          "rating": 3
-        },
-        {
-          "san": "g3",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Bg5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence"
-      ],
-      "moves": [
-        {
-          "san": "e6",
-          "rating": 5
-        },
-        {
-          "san": "Bd7",
-          "rating": 4
-        },
-        {
-          "san": "g6",
-          "rating": 1
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Bc4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence"
-      ],
-      "moves": [
-        {
-          "san": "e6",
-          "rating": 5
-        },
-        {
-          "san": "Qb6",
-          "rating": 4
-        },
-        {
-          "san": "g6",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Be2",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence"
-      ],
-      "moves": [
-        {
-          "san": "e5",
-          "rating": 5
-        },
-        {
-          "san": "g6",
-          "rating": 4
-        },
-        {
-          "san": "Nxd4",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Nde2"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.g3"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Bc4 e6"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Bc4 Qb6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence"
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Bc4 g6"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Be2 e5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence"
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Be2 g6"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Be2 Nxd4"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Bg5 e6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sicilian_Defence"
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Bg5 Bd7"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Bg5 g6"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Qxd4 Nc6",
-      "moves": [
-        {
-          "san": "Bb5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Qxd4 Nc6 5.Bb5",
-      "moves": [
-        {
-          "san": "Qd7",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Qxd4 Nc6 5.Bb5 Qd7"
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 Nf6",
-      "moves": [
-        {
-          "san": "dxc5",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 Nf6 4.dxc5",
-      "moves": [
-        {
-          "san": "Nxe4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 c5 2.Nf3 d6 3.d4 Nf6 4.dxc5 Nxe4"
+      "line": "1.e4 c5 2.Nf3 d6 3.g3 b5"
     }
   ]
 }

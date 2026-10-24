@@ -1,0 +1,545 @@
+{
+  "about": "After 1.d4 Nf6 2.c4 e6 3.Nf3: its moves and the positions they reach (docs/adr/0002-opening-modules-folded-to-a-size-budget.md). The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
+  "positions": [
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "b6",
+          "rating": 5
+        },
+        {
+          "san": "c5",
+          "rating": 4
+        },
+        {
+          "san": "Bb4+",
+          "rating": 4
+        },
+        {
+          "san": "a6",
+          "rating": 3
+        },
+        {
+          "san": "Ne4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 a6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Indian_Defence"
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Ne4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Indian_Defence"
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bogo-Indian_Defence"
+      ],
+      "moves": [
+        {
+          "san": "Bd2",
+          "rating": 5
+        },
+        {
+          "san": "Nbd2",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "Nfd2",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nfd2"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2",
+      "moves": [
+        {
+          "san": "Qe7",
+          "rating": 5
+        },
+        {
+          "san": "Bxd2+",
+          "rating": 4
+        },
+        {
+          "san": "c5",
+          "rating": 4
+        },
+        {
+          "san": "a5",
+          "rating": 4
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
+        },
+        {
+          "san": "Be7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 Qe7",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bogo-Indian_Defence"
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 Bxd2+",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bogo-Indian_Defence"
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 c5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bogo-Indian_Defence"
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 Nc6"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 Be7"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 a5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bogo-Indian_Defence"
+      ],
+      "moves": [
+        {
+          "san": "g3",
+          "rating": 5
+        },
+        {
+          "san": "e3",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 a5 5.g3",
+      "moves": [
+        {
+          "san": "b6",
+          "rating": 5
+        },
+        {
+          "san": "O-O",
+          "rating": 4
+        },
+        {
+          "san": "d5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 a5 5.g3 b6",
+      "moves": [
+        {
+          "san": "Bg2",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        },
+        {
+          "san": "Qc2",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 a5 5.g3 b6 6.Bg2",
+      "moves": [
+        {
+          "san": "Bb7",
+          "rating": 5
+        },
+        {
+          "san": "O-O",
+          "rating": 4
+        },
+        {
+          "san": "Bxd2+",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Bd2 a5 5.g3 b6 6.Bg2 Bb7"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2",
+      "moves": [
+        {
+          "san": "b6",
+          "rating": 5
+        },
+        {
+          "san": "O-O",
+          "rating": 4
+        },
+        {
+          "san": "d5",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2 b6",
+      "moves": [
+        {
+          "san": "a3",
+          "rating": 5
+        },
+        {
+          "san": "e3",
+          "rating": 4
+        },
+        {
+          "san": "Qc2",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2 b6 5.a3",
+      "moves": [
+        {
+          "san": "Bxd2+",
+          "rating": 5
+        },
+        {
+          "san": "Be7",
+          "rating": 3
+        },
+        {
+          "san": "Bd6",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2 b6 5.a3 Bxd2+",
+      "moves": [
+        {
+          "san": "Qxd2",
+          "rating": 5
+        },
+        {
+          "san": "Bxd2",
+          "rating": 4
+        },
+        {
+          "san": "Nxd2",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2 b6 5.a3 Bxd2+ 6.Qxd2",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        },
+        {
+          "san": "Bb7",
+          "rating": 4
+        },
+        {
+          "san": "d5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2 b6 5.a3 Bxd2+ 6.Qxd2 Bb7"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2 b6 5.e3",
+      "moves": [
+        {
+          "san": "Bb7",
+          "rating": 5
+        },
+        {
+          "san": "O-O",
+          "rating": 4
+        },
+        {
+          "san": "Bxd2+",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 Bb4+ 4.Nbd2 b6 5.e3 Bb7"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "e3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5",
+      "moves": [
+        {
+          "san": "exd5",
+          "rating": 5
+        },
+        {
+          "san": "b5",
+          "rating": 4
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Blumenfeld_Gambit",
+        "https://en.wikipedia.org/wiki/Benjamin_Blumenfeld"
+      ],
+      "moves": [
+        {
+          "san": "Bg5",
+          "rating": 5
+        },
+        {
+          "san": "dxe6",
+          "rating": 4
+        },
+        {
+          "san": "a4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5 5.Bg5",
+      "moves": [
+        {
+          "san": "exd5",
+          "rating": 5
+        },
+        {
+          "san": "b4",
+          "rating": 4
+        },
+        {
+          "san": "Bb7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5 5.Bg5 exd5",
+      "moves": [
+        {
+          "san": "cxd5",
+          "rating": 5
+        },
+        {
+          "san": "cxb5",
+          "rating": 3
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5 5.Bg5 exd5 6.cxd5",
+      "moves": [
+        {
+          "san": "h6",
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 4
+        },
+        {
+          "san": "Be7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5 5.Bg5 exd5 6.cxd5 h6"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5 5.dxe6",
+      "moves": [
+        {
+          "san": "fxe6",
+          "rating": 5
+        },
+        {
+          "san": "bxc4",
+          "rating": 2
+        },
+        {
+          "san": "dxe6",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5 5.dxe6 fxe6",
+      "moves": [
+        {
+          "san": "cxb5",
+          "rating": 5
+        },
+        {
+          "san": "e3",
+          "rating": 3
+        },
+        {
+          "san": "Nc3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5 5.dxe6 fxe6 6.cxb5",
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "a6",
+          "rating": 4
+        },
+        {
+          "san": "Bb7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 b5 5.dxe6 fxe6 6.cxb5 d5"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 exd5",
+      "moves": [
+        {
+          "san": "cxd5",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 2
+        },
+        {
+          "san": "Qxd5",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 exd5 5.cxd5",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "b5",
+          "rating": 3
+        },
+        {
+          "san": "Bd6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 exd5 5.cxd5 d6",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        },
+        {
+          "san": "e4",
+          "rating": 4
+        },
+        {
+          "san": "g3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 exd5 5.cxd5 d6 6.Nc3",
+      "moves": [
+        {
+          "san": "g6",
+          "rating": 5
+        },
+        {
+          "san": "a6",
+          "rating": 4
+        },
+        {
+          "san": "Be7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 c5 4.d5 exd5 5.cxd5 d6 6.Nc3 g6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Benoni_Defense"
+      ]
+    }
+  ]
+}

@@ -4,30 +4,45 @@
     "background": "Carl Jaenisch originated it and analysed it in the December 1847 issue of Le Palamède. It was named after the German lawyer Adolph Schliemann in the Handbuch des Schachspiels, although the line Schliemann himself advocated in the 1860s was a gambit with ...Bc5."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3": {
-    "strategy": "Guards e4 and develops, the more aggressive way to meet the f-pawn thrust: recapturing with the knight puts a piece in the centre. The price is theory, since White must know sharp lines to turn the position into an advantage.",
     "name": "Ruy Lopez: Schliemann Defence, Dyckhoff Variation",
-    "background": "With 4.d3, this is the most common reply to 3...f5, although 4.d3 has surpassed it in popularity in recent years."
+    "background": "With 4.d3, this is the most common reply to 3...f5, although 4.d3 has surpassed it in popularity in recent years.",
+    "strategy": "Guards e4 and develops, the more aggressive way to meet the f-pawn thrust: recapturing with the knight puts a piece in the centre. The price is theory, since White must know sharp lines to turn the position into an advantage."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Bxc6": {
-    "strategy": "Gives up the bishop pair to remove the knight, hoping to win e5, but ...dxc6 opens the queen's diagonal: ...Qd4 forks the knight and the e4 pawn and wins the pawn back at once. White has given up the bishop pair for no advantage.",
     "name": "Ruy Lopez: Schliemann Defence, Exchange Variation",
-    "background": "Carl Jaenisch analysed this exchange in the December 1847 issue of Le Palamède, together with 4.d4 and 4.exf5. It is rarely seen."
+    "background": "Carl Jaenisch analysed this exchange in the December 1847 issue of Le Palamède, together with 4.d4 and 4.exf5. It is rarely seen.",
+    "strategy": "Gives up the bishop pair to remove the knight, hoping to win e5, but ...dxc6 opens the queen's diagonal: ...Qd4 forks the knight and the e4 pawn and wins the pawn back at once. White has given up the bishop pair for no advantage."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.d4": {
-    "strategy": "Counters on e5 rather than guarding e4. If Black takes on e4, White exchanges on c6 and captures on e5, regaining the pawn with an open game, though this is a less testing choice than simply defending e4.",
     "name": "Ruy Lopez: Schliemann Defence, Schönemann Attack",
-    "background": "Carl Jaenisch analysed 4.d4 in the December 1847 issue of Le Palamède, together with 4.exf5 and 4.Bxc6."
+    "background": "Carl Jaenisch analysed 4.d4 in the December 1847 issue of Le Palamède, together with 4.exf5 and 4.Bxc6.",
+    "strategy": "Counters on e5 rather than guarding e4. If Black takes on e4, White exchanges on c6 and captures on e5, regaining the pawn with an open game, though this is a less testing choice than simply defending e4."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.exf5": {
-    "strategy": "Takes the pawn, but ...e4 hits the knight, which has no comfortable square: e5 and d4 are covered by the c6 knight, g5 and h4 by the queen. White is driven back, and Black gets the better game despite the pawn.",
     "name": "Ruy Lopez: Schliemann Defence, Jaenisch Gambit Accepted",
-    "background": "Carl Jaenisch analysed this capture in the December 1847 issue of Le Palamède, together with 4.d4 and 4.Bxc6."
+    "background": "Carl Jaenisch analysed this capture in the December 1847 issue of Le Palamède, together with 4.d4 and 4.Bxc6.",
+    "strategy": "Takes the pawn, but ...e4 hits the knight, which has no comfortable square: e5 and d4 are covered by the c6 knight, g5 and h4 by the queen. White is driven back, and Black gets the better game despite the pawn."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.d3": {
+    "strategy": "Defends e4 with a pawn and plans to recapture there with it, keeping a solid centre and avoiding the sharp piece sacrifice of the knight recapture. White has less theory to learn and a comfortable game, since the f-pawn thrust has loosened Black's kingside."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4": {
-    "strategy": "The only consistent move: the f-pawn attacked e4, and anything else gives White the centre for nothing. Black opens the f-file and removes White's central pawn, at the price of a weak pawn on e5 that only the c6 knight defends."
+    "strategy": "Captures the e4 pawn and opens the f-file, the whole point of the f-pawn thrust: White's central pawn is gone and White must recapture to avoid being a pawn down. The price is a weak pawn on e5, defended only by the c6 knight, and a lead in development for White."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 Nf6": {
+    "strategy": "Develops and adds a second attacker on e4 instead of capturing. It keeps the structure flexible, but Black hands White the decision on how to resolve the tension, and the open f-file the pawn thrust was meant to bring does not arrive."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 Nge7": {
+    "strategy": "Prepares to retake on f5 with the knight, so that a capture there costs Black nothing, and keeps e5 guarded. It is solid but slow: Black adds no pressure on e4, and White develops freely with the better centre."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe4": {
     "strategy": "Recaptures with the knight, which sits strongly on e4 and eyes d6 and f6. White keeps a lead in development, and Black must choose how to challenge the knight."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Bxc6": {
+    "strategy": "Gives up the bishop for the knight to damage Black's structure, but ...dxc6 opens lines for the queen and the c8 bishop, and White's knight regains the e4 pawn. Black gets the bishop pair for doubled pawns: a fair trade, not an advantage."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe5": {
+    "strategy": "Grabs the e5 pawn, but the c6 knight simply takes the knight, and Black keeps the extra pawn on e4. White has given a piece for a pawn, and the push d4 does not trap the knight, which has retreat squares."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe4 Nf6": {
     "name": "Ruy Lopez: Schliemann Defence, Tartakower Variation",
@@ -44,7 +59,19 @@
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe4 d5 6.Nxe5": {
     "strategy": "The critical answer to the pawn push: White takes e5 and lets Black win the knight on e4, banking on the attack against Black's uncastled king that follows. The lines are long and forcing, and Black has scored badly in them."
   },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe4 d5 6.Ng3": {
+    "strategy": "Steps out of the d5 pawn's attack and keeps the pressure on e5. The knight is safe and White loses nothing, but Black can gain space with ...e4, hitting the f3 knight, so White's edge is smaller than after the sacrifice on e5."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe4 d5 6.Nc3": {
+    "strategy": "Retreats the knight to a developing square, but ...d4 hits it again at once and Black's pawns take the centre with tempo. White has spent several moves on the same knight and gets little for them."
+  },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe4 d5 6.Nxe5 dxe4": {
     "strategy": "Takes the knight on e4 and is a piece up for a moment, but White's Nxc6 answers with a tempo on the queen, so Black must play accurately to keep an uncastled king safe. Declining leaves White a pawn up."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe4 d5 6.Nxe5 Nf6": {
+    "strategy": "Develops and attacks the knight on e4, but White trades knights twice and ends a pawn up: the e5 pawn is lost, Black has doubled c-pawns, and the king is still in the centre."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe4 d5 6.Nxe5 Qd6": {
+    "strategy": "Attacks the knight on e5 but walks into the knight on e4, which takes the queen with check. White wins the queen for a knight."
   }
 }

@@ -1,7 +1,5 @@
 {
   "1.Nf3 c5 2.c4": {
-    "name": "English Opening: Symmetrical Variation",
-    "background": "So named because both c-pawns have advanced two squares; after 1.Nf3 c5 it is one of the two transpositions Black invites, the other being 2.e4 into the Sicilian. The English takes its name from Howard Staunton, who played it during his 1843 match with Saint-Amant and at London 1851, the first international tournament.",
     "strategy": "Meets the c-pawn with the c-pawn: White fights for d5 and keeps the choice between a central d4 break and slower piece play. The symmetry makes for a flexible, manoeuvring game, quiet or sharp as the pawn breaks decide, but Black can also claim the centre with ...d5 early."
   },
   "1.Nf3 c5 2.e4": {
@@ -70,68 +68,68 @@
   "1.Nf3 c5": {
     "name": "Zukertort Opening: Sicilian Invitation"
   },
-  "1.Nf3 c5 2.c4 Nc6": {
-    "strategy": "Develops a knight to a square where it watches d4 and e5, and commits no pawn yet. Black keeps both a Sicilian-style fianchetto and a fully symmetrical set-up open, and if the centre opens, the game can take on the character of an Open Sicilian."
+  "1.Nf3 c5 2.d4 cxd4": {
+    "strategy": "Takes the offered pawn, trading Black's c-pawn for White's central d-pawn. White recaptures with the knight and the game takes the shape of an open Sicilian, with the half-open c-file as Black's trump."
   },
-  "1.Nf3 c5 2.c4 Nf6": {
-    "strategy": "Develops with pressure on e4 and d5 and leaves every pawn structure open, so Black can see what White commits to first and decide on the structure a move later. The cost is that White may open the centre with the d-pawn before Black has settled."
+  "1.Nf3 c5 2.d4 Nf6": {
+    "strategy": "Develops a piece and leaves the c-pawn unexchanged for now. Taking on c5 achieves little, since ...Qa5+ wins the pawn back at once, so Black keeps a flexible, solid position and avoids committing the pawn structure."
   },
-  "1.Nf3 c5 2.c4 e6": {
-    "strategy": "Opens the f8-bishop and prepares ...d5, or a solid, flexible set-up that keeps the pawns back and waits for White to commit. If Black settles for it, the price is less space and a backward d-pawn on d6."
+  "1.Nf3 c5 2.d4 e6": {
+    "strategy": "Opens the diagonal for the king's bishop, so a capture on c5 is answered by a recapture that also develops a piece. Black gives White time to build a broad centre, and the bishop on c8 still has to wait for the d-pawn to move."
   },
-  "1.Nf3 c5 2.c4 g6": {
-    "strategy": "Prepares ...Bg7 on the long diagonal and quick castling, for a solid fianchetto set-up. The risk is a space bind: if White gets pawns on c4 and e4, they control d5 and make the freeing ...d5 hard, so Black must rely on piece play."
+  "1.Nf3 c5 2.d4 cxd4 3.e3": {
+    "name": "Zukertort Opening: Speelsmet Gambit",
+    "strategy": "A gambit for development: White offers a second pawn so that the bishop can reach e3 and the pieces come out quickly. Black is already a pawn up and has ...Qa5+ with tempo, so White gets too little for the material."
   },
-  "1.Nf3 c5 2.c4 b6": {
-    "strategy": "Prepares ...Bb7 on the long diagonal and keeps Black's set-up flexible. It is sound but commits the b-pawn early, while the same ideas remain available without it."
+  "1.Nf3 c5 2.d4 cxd4 3.b4": {
+    "name": "Benoni Defence: Zilbermints-Benoni Gambit",
+    "strategy": "Gives up a second pawn for queenside space and a bishop on b2, but the b-pawn is loose. ...e5 holds d4 so the knight cannot take it back, and the bishop on f8 then eyes b4."
   },
-  "1.Nf3 c5 2.c4 d6": {
-    "strategy": "Prepares ...e5 or a Sicilian-type set-up. It is sound but passive: it commits the d-pawn before the knights and leaves White free to take space in the centre."
+  "1.Nf3 c5 2.d4 cxd4 3.Nxd4": {
+    "strategy": "The natural recapture: the knight takes the pawn and stands in the centre, so White's d-pawn has been traded for Black's c-pawn. The game is an open Sicilian-type fight in which White's e-pawn is still free, against Black's half-open c-file; the chances are level."
   },
-  "1.Nf3 c5 2.c4 d5": {
-    "strategy": "Challenges the centre at once. After 3.cxd5 Black can regain the pawn with a knight, but recapturing with 3...Qxd5 lets 4.Nc3 gain a tempo against the queen and leaves White ahead in development."
+  "1.Nf3 c5 2.d4 cxd4 3.Qxd4": {
+    "strategy": "Regains the pawn with the queen, but ...Nc6 attacks it at once and White must move it again. White is solid and a pawn is not lost, yet Black develops with tempo while the queen looks for a safe square."
   },
-  "1.Nf3 c5 2.c4 Na6": {
-    "strategy": "Puts the knight on the rim, where it controls neither d4 nor e5 and needs another move to become useful. White builds the centre while Black spends tempi."
+  "1.Nf3 c5 2.d4 cxd4 3.b4 e5": {
+    "name": "Benoni Defence: Zilbermints-Benoni Gambit, Tamarkin Countergambit",
+    "strategy": "Keeps the extra pawn: the e-pawn guards d4, so the knight cannot take there, and the bishop now eyes b4. If White grabs on e5, ...Bxb4+ wins a pawn with check, so Black stays ahead."
   },
-  "1.Nf3 c5 2.c4 Qc7": {
-    "strategy": "Brings the queen out before any minor piece. White's knight gains time against it, and Black falls behind in development."
+  "1.Nf3 c5 2.d4 cxd4 3.b4 d5": {
+    "strategy": "Builds a centre of its own: the d5 pawn takes e4 and c4 from White. It does not hold d4, but if the knight recaptures there, ...e5 chases it away with a central pawn pair, so Black gives back the extra pawn for space and tempo."
   },
-  "1.Nf3 c5 2.c4 Qb6": {
-    "strategy": "Hits b2, but the bishop on c1 guards it, so there is no threat. White's knight gains time against the queen while Black's pieces stay at home."
+  "1.Nf3 c5 2.d4 cxd4 3.b4 Nf6": {
+    "strategy": "Develops a piece and lets the knight recapture on d4, which hands the extra pawn back for simple development. It is a safe choice that avoids complications, but it gives up the material edge the gambit offered."
   },
-  "1.Nf3 c5 2.c4 Qa5": {
-    "strategy": "Eyes a2 and d2, but both pawns are guarded, so the queen threatens nothing. White develops freely, and the early queen move costs Black time while the other pieces wait."
+  "1.Nf3 c5 2.e3 g6": {
+    "strategy": "Prepares to fianchetto the bishop on the long diagonal, where it will press on the centre and the queenside. White's e3 is slow and has not claimed any space, so Black can develop at leisure and keeps a flexible, safe set-up."
   },
-  "1.Nf3 c5 2.c4 Nh6": {
-    "strategy": "Heads for f5, where e4 or g4 would drive the knight away at once. On h6 it does nothing for the centre, and White gains time for the centre."
+  "1.Nf3 c5 2.e3 Nf6": {
+    "strategy": "The flexible developing move: the knight watches e4 and d5 and commits Black to nothing. White's e3 has not claimed any space, so Black can still choose between a fianchetto, a quick strike at the centre and a symmetrical set-up."
   },
-  "1.Nf3 c5 2.c4 a6": {
-    "strategy": "Prepares ...b5 against the c4-pawn, but it develops nothing, and White builds the centre while Black's kingside pieces stay at home."
+  "1.Nf3 c5 2.e3 d5": {
+    "strategy": "Takes the centre at once, since the modest e3 leaves the d5 square free. The pawns on c5 and d5 give Black space, but they need support, and White can undermine them with a pawn lever, so Black has to keep them protected or exchange them in time."
   },
-  "1.Nf3 c5 2.c4 a5": {
-    "strategy": "Stops b4 but does not develop, and leaves b5 as a lasting hole that no Black pawn can cover. White takes the centre at leisure."
+  "1.Nf3 c5 2.e3 Nc6": {
+    "strategy": "Develops with a purpose: the knight watches d4 and e5, so White cannot build a pawn centre unchallenged. It is a sound, natural move that keeps every set-up open for Black."
   },
-  "1.Nf3 c5 2.c4 b5": {
-    "strategy": "Offers a pawn for queenside pressure: after 3.cxb5 Black can get open lines on the queenside, but White's centre is intact, White castles safely after a kingside fianchetto, and White stays a pawn up for little compensation."
+  "1.Nf3 c5 2.e3 g6 3.d4": {
+    "strategy": "Strikes at the c5 pawn at once and claims the centre before Black's fianchetto settles. The e3 pawn already backs it up, so Black's c-pawn has to decide between trading and holding on. White keeps a solid, flexible centre and a slight space advantage."
   },
-  "1.Nf3 c5 2.c4 f6": {
-    "strategy": "Takes f6 from the knight and weakens the e8-h5 diagonal and the e6-square without developing anything, while White simply builds the centre."
+  "1.Nf3 c5 2.e3 g6 3.c4": {
+    "strategy": "Takes space on the queenside and steers towards a symmetrical English game: the c4 pawn controls d5, so Black cannot occupy the centre freely, and e3 gives a solid base. The position stays quiet and flexible, with the d-pawn free to advance later."
   },
-  "1.Nf3 c5 2.c4 f5": {
-    "strategy": "Controls e4 as in the Dutch Defence, but weakens the e8-h5 diagonal and the e6-square without developing a piece. White develops with a free hand."
+  "1.Nf3 c5 2.e3 g6 3.b3": {
+    "strategy": "Prepares to fianchetto the queen's bishop on the long diagonal, where it will face Black's own fianchetto bishop. A slow build-up that gives Black time to take the centre, but a solid one, since nothing in White's camp is weak."
   },
-  "1.Nf3 c5 2.c4 h6": {
-    "strategy": "Takes g5 from the knight and the bishop, but does not develop a piece. White uses the tempo for the centre."
+  "1.Nf3 c5 2.e3 g6 3.d4 Bg7": {
+    "strategy": "Completes the fianchetto and aims the bishop down the long diagonal at d4, which the c5 pawn already attacks: the pawn is hit twice but defended three times, by queen, knight and e3 pawn. Black fights the centre from the flank instead of occupying it, and accepts a slightly narrower position for solid development."
   },
-  "1.Nf3 c5 2.c4 h5": {
-    "strategy": "A flank pawn move that weakens g5 and g6 and does nothing for the centre or development. White simply builds the centre."
+  "1.Nf3 c5 2.e3 g6 3.d4 cxd4": {
+    "strategy": "Exchanges the c-pawn for White's d-pawn to take the strain out of the centre and open the c-file. The cost is that White recaptures with a pawn and keeps the central space, so Black plays against the centre from the flank."
   },
-  "1.Nf3 c5 2.c4 e5": {
-    "strategy": "Leaves the pawn unguarded: 3.Nxe5 wins it at once, and attacking the knight afterwards gains time but does not win the pawn back."
-  },
-  "1.Nf3 c5 2.c4 g5": {
-    "strategy": "Drops a pawn at once: 3.Nxg5 takes it, and no Black piece guards g5."
+  "1.Nf3 c5 2.e3 g6 3.d4 Nf6": {
+    "strategy": "Develops a piece and leaves the question on c5 to White; a capture there is answered by ...Qa5+, which regains the pawn. Black delays the bishop move, so the d4 pawn is under less pressure than it would be after the fianchetto is complete."
   },
   "1.Nf3 c5 2.g3 Nc6": {
     "strategy": "Develops a piece and watches d4 and e5 at once, the natural way to fight for the centre. Black commits to no pawn structure yet, so every set-up stays open, and White decides whether the game stays quiet or grows into a Symmetrical English."
@@ -199,208 +197,41 @@
   "1.Nf3 c5 2.g3 g5": {
     "strategy": "Hangs the g-pawn: 3.Nxg5 wins it, because the queen's diagonal is closed by the e7-pawn and nothing else guards g5. Black is left with a loosened kingside as well."
   },
-  "1.Nf3 c5 2.d4 cxd4": {
-    "strategy": "Takes the offered pawn, trading Black's c-pawn for White's central d-pawn. White recaptures with the knight and the game takes the shape of an open Sicilian, with the half-open c-file as Black's trump."
-  },
-  "1.Nf3 c5 2.e3 g6": {
-    "strategy": "Prepares to fianchetto the bishop on the long diagonal, where it will press on the centre and the queenside. White's e3 is slow and has not claimed any space, so Black can develop at leisure and keeps a flexible, safe set-up."
-  },
   "1.Nf3 c5 2.Nc3 Nc6": {
     "strategy": "The natural reply: Black develops a piece and watches the d4 square, so White cannot build a pawn centre without it being challenged at once. Black keeps the usual Sicilian structure and every set-up open, while White decides how sharp the game becomes."
   },
-  "1.Nf3 c5 2.c4 e6 3.Nc3": {
-    "strategy": "Develops the queen's knight with a purpose: it backs up the c4 pawn, watches d5 and e4 and prepares a later d-pawn break. White commits nothing on the kingside yet, so the choice between a fianchetto and a central clash stays open."
+  "1.Nf3 c5 2.Nc3 Nf6": {
+    "strategy": "Develops and watches e4 and d5, which makes it harder for White to claim the centre with the e-pawn. Black keeps the choice between a Sicilian-type set-up and a more flexible one, and loses nothing by waiting."
   },
-  "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6": {
-    "strategy": "Develops the king's knight towards the centre and fights for d5 and e4, mirroring White's piece development. With the e-pawn on e6 Black keeps both a quick strike in the centre and a slower, compact set-up available, and asks White which game to play."
-  },
-  "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4": {
-    "strategy": "Challenges the c5 pawn at once and opens the centre, steering away from the slow, closed English structures. White gets the more active pieces and a say in the centre, and Black has to settle the tension immediately instead of building a set-up in peace."
-  },
-  "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.g3": {
-    "strategy": "Prepares to place the king's bishop on the long diagonal and castle. White leaves the centre alone for now and plays for slow pressure; the bishop's long-term influence and a well-timed pawn break in the centre decide how much White gets from it."
-  },
-  "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.g3 b6": {
-    "strategy": "Prepares to fianchetto the queen's bishop, so that Black's bishop too will rake the long diagonal. Black builds a solid, compact set-up with few weaknesses and leaves the centre for now, at the price of giving White more space."
-  },
-  "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4 cxd4": {
-    "strategy": "Takes the pawn at once, so White must recapture with a piece and the centre opens. Black gets a free game and the half-open c-file, while White's knight lands on the strong central square d4."
-  },
-  "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4 Nc6": {
-    "strategy": "Adds a second attacker to d4 with a developing move and keeps the tension. Black can capture when it suits, and a recapturing knight will then meet the knight on c6 at once; the cost is that White may choose how to treat the centre in the meantime."
-  },
-  "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4 d5": {
-    "strategy": "Strikes in the centre at once, challenging the pawns on c4 and d4 before they claim more space. The game turns into a classical fight for the central squares with developed pieces, instead of the open play that follows a capture on d4."
-  },
-  "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4 cxd4 5.Nxd4": {
-    "strategy": "The natural recapture: the knight takes the central square d4 that the trade has opened, and Black's c-pawn is gone. White enjoys more space and the lead in the centre, and Black has to develop a piece against the knight, since there is no pawn left to challenge it."
-  },
-  "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4 cxd4 5.Nxd4 Nc6": {
-    "name": "English Opening: Symmetrical Variation, Anti-Benoni Variation, Spielmann Defence",
-    "strategy": "Develops with a hit on the strong knight on d4, so White must decide whether to keep it there or trade it. Black's set-up is sound, with no weaknesses; White has the space, and the fight revolves around d4 and the d5 square."
-  },
-  "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4 Nc6 5.g3": {
-    "strategy": "Puts the king's bishop on the long diagonal and prepares castling, while the tension on d4 still stands. White lets Black settle the centre and expects to meet the capture with a knight in the middle."
-  },
-  "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4 Nc6 5.g3 cxd4": {
-    "strategy": "Takes the pawn and removes White's strongest central pawn, so White must recapture with a piece. Black's knight on c6 is already out to challenge that piece, and the c-file opens for Black."
-  },
-  "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4 Nc6 5.g3 cxd4 6.Nxd4": {
-    "strategy": "Recaptures with the knight, which regains the central square d4 and keeps the pawn trade even. The centre is open now, and the knight on d4 and the knight on c6 face each other on a square both want."
-  },
-  "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4 Nc6 5.g3 cxd4 6.Nxd4 Qb6": {
-    "name": "English Opening: Symmetrical Variation, Anti-Benoni Variation, Geller Variation",
-    "strategy": "Attacks the knight on d4 a second time, so that it is attacked twice and defended once, and eyes the b2 pawn as well. White has to react at once; Black gains time by harassing the knight, at the cost of bringing the queen out early."
-  },
-  "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.g3 b6 5.Bg2": {
-    "strategy": "Completes the fianchetto: the bishop stands on the long diagonal, behind the knight on f3, and the king can castle next. White aims for slow pressure on the centre and the queenside instead of an early clash."
-  },
-  "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.g3 b6 5.Bg2 Bb7": {
-    "strategy": "Completes Black's own fianchetto: the bishop looks along the long diagonal through d5 and e4 at the knight on f3. Both sides now hold the long diagonals, and the fight is about who can use the centre first."
-  },
-  "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.g3 b6 5.Bg2 Bb7 6.O-O": {
-    "strategy": "Brings the king to safety behind the fianchettoed bishop. Most of the pieces are out, so the next decision concerns the centre: strike with a pawn break or keep up the pressure on the long diagonal and wait."
-  },
-  "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.g3 b6 5.Bg2 Bb7 6.O-O Be7": {
-    "name": "English Opening: Symmetrical Variation, Hedgehog Defence",
-    "background": "The Hedgehog formation first became extensively analysed in the 1970s, and it has kept its popularity as a system of development.",
-    "strategy": "Completes a compact set-up: the bishop prepares castling, and the pawns on b6, c5 and e6 leave White no clear target. Black deliberately cedes space and relies on a later central or queenside pawn break for counterplay, so the game is a long manoeuvring battle in which patience counts."
-  },
-  "1.Nf3 c5 2.c4 g6 3.d4": {
-    "strategy": "Strikes at the undefended pawn on c5 at once, forcing Black to settle the centre before the pieces are out. If Black takes, White recaptures with a knight and a later e4 would give the c4 and e4 pawns a firm grip on d5."
-  },
-  "1.Nf3 c5 2.c4 g6 3.d4 Bg7": {
-    "strategy": "Develops the bishop on the long diagonal and adds pressure to d4 instead of capturing at once. Black accepts that White will build a broad pawn centre and plans to fight it with the bishop and a later capture on d4."
-  },
-  "1.Nf3 c5 2.c4 g6 3.d4 Bg7 4.e4": {
-    "strategy": "Builds a full pawn centre with c4, d4 and e4 side by side. The pawn on d4 is attacked twice by c5 and the bishop and defended twice, so the centre holds; White gets space and the easier game, and Black must undermine the centre to find counterplay."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3": {
-    "strategy": "Develops the knight to a square that adds control of d5 and b5 and commits White to nothing yet: a fianchetto, a quick central break or a solid pawn centre all stay possible. White keeps the first-move initiative in a symmetrical position and plays for a small, lasting edge."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.g3": {
-    "strategy": "Chooses the fianchetto: the king's bishop will watch the centre from g2 and White can castle early, with the d-pawn break held in reserve. It is slower than developing the knight first, and Black can mirror the set-up for a quiet manoeuvring game."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.g3 g6": {
-    "strategy": "Mirrors White: the fianchetto prepares a bishop on the long diagonal, where it presses on the centre and the queenside, and gives the king a sound shelter. Black keeps the symmetry and invites a manoeuvring game in which White's extra move still counts."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6": {
-    "name": "English Opening: Symmetrical Variation, Four Knights Variation",
-    "strategy": "Develops with an attack on the centre: the knight watches e4 and d5, so White cannot advance in the centre for free. Black copies White's development and keeps the pawn structure flexible, accepting that White's extra move gives a slight, lasting edge."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.g3 g6 4.Bg2": {
-    "strategy": "Completes the fianchetto. For now the knight on f3 blocks the bishop's long diagonal, but it points at the centre and starts to count as soon as the knight steps aside, and White is ready to castle."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.g3 g6 4.Bg2 Bg7": {
-    "strategy": "Matches White's development. The bishop looks down the long diagonal towards the centre and the b2 pawn, backing the knight on c6 in the fight for d4. Nothing is committed in the centre, so the game stays level and strategic."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.g3 g6 4.Bg2 Bg7 5.O-O": {
-    "strategy": "Castles behind the fianchettoed bishop and brings the rook towards the centre. White has finished the kingside set-up and is free to choose where the knight and the d-pawn go; the game is symmetrical and decided by manoeuvring."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.g3 g6 4.Bg2 Bg7 5.O-O d6": {
-    "strategy": "Guards e5 with a pawn, so White's pieces cannot settle there, and keeps a compact structure with the bishop's diagonal still open. Black leaves the later choice between a central break and queenside play open and meets White's set-up with a sturdy, flexible one."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.g3 g6 4.Bg2 Bg7 5.O-O e6": {
-    "strategy": "Takes control of d5 and frees the e7 square for a knight, which keeps the bishop's long diagonal clear. A respected, flexible set-up that is a little slower and more passive in the centre than the pawn move to d6."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.g3 g6 4.Bg2 Bg7 5.O-O d6 6.Nc3": {
-    "name": "English Opening: Symmetrical Variation, Three Knights, Fianchetto Variation",
-    "strategy": "Brings the second knight into play and adds to the control of d5 and e4. White has castled and Black has not yet, in a mirror set-up; the c4 pawn gives White a little more space, and the game is balanced until one side finds a plan in the centre."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.g3 g6 4.Bg2 Bg7 5.O-O e6 6.Nc3": {
-    "name": "English Opening: Symmetrical Variation, Three Knights, Fianchetto Variation",
-    "strategy": "Brings the knight out and puts pressure on d5, which Black's e-pawn already guards. White's c4 pawn restricts Black's d-pawn, so Black has to find the right moment to open the centre; the game is balanced."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.g3": {
-    "strategy": "The fianchetto set-up: the king's bishop will press on the centre from g2 and the king gets a shelter. It invites Black to challenge the centre at once, so it tests whether Black's pieces are placed well to strike at c4."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.e3": {
-    "strategy": "Prepares a d-pawn advance with a solid pawn on e3 and opens the king's bishop. White heads for a classical pawn centre rather than a fianchetto, at the price of shutting in the queen's bishop for the time being."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.e3 e6": {
-    "strategy": "Mirrors White's solid set-up and opens the king's bishop. Black prepares to answer a central advance with a strike of its own in the centre; the price is a passive bishop on c8 for the time being."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.g3 d5": {
-    "strategy": "Strikes in the centre at once: the pawn attacks c4, which nothing protects yet, so White must react. Black takes the initiative and tests whether White's fianchetto leaves the centre without a fight."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.g3 g6": {
-    "strategy": "Mirrors the fianchetto and leaves the centre alone for now. A flexible set-up that is safe on the kingside but gives White the choice of how to fight for the centre."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.g3 e6": {
-    "name": "English Opening: Symmetrical Variation, Four Knights Variation, Keres-Parma System",
-    "strategy": "A modest set-up: the pawn covers d5, opens the king's bishop and prepares to castle without committing the d-pawn. Black postpones the fight for the centre and accepts a slightly cramped position for solidity."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.e3 e6 5.d4": {
-    "strategy": "Opens the centre now that both sides are developed: the pawn challenges c5, and White's extra move counts for more in an open position. Black has to decide how the centre is settled, and the symmetry of the pawns will not survive for long."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.e3 e6 5.d4 d5": {
-    "name": "Tarrasch Defence: Symmetrical Variation",
-    "background": "Ding Liren played it against Hikaru Nakamura in their last game of the 2022 Candidates Tournament; the win helped him qualify for the 2023 World Chess Championship.",
-    "strategy": "Meets the strike with one of its own: the pawn attacks c4 and claims the centre, so the c- and d-pawns now face each other. Black reaches a classical structure in which the result depends on how the tension is resolved."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.e3 e6 5.d4 d5 6.a3": {
-    "strategy": "A quiet move with a plan: it prepares to take on c5 and then expand on the queenside, with the bishop landing on b2. If Black keeps the symmetry, White's extra move tells."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.e3 e6 5.d4 d5 6.cxd5": {
-    "strategy": "Resolves the tension on White's terms: if Black recaptures with the e-pawn, taking on c5 can leave Black with an isolated pawn on d5. A direct, principled exchange, though it also lets Black's pieces develop freely."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.e3 e6 5.d4 d5 6.Bd3": {
-    "name": "Queen's Gambit Declined: Semi-Tarrasch Defence, with e3",
-    "strategy": "Develops the bishop to a natural square where it eyes h7, keeps the tension in the centre and prepares castling. It is less direct than resolving the centre at once and leaves Black to choose how to release the tension."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.e3 e6 5.d4 d5 6.cxd5 exd5": {
-    "name": "Tarrasch Defence: Symmetrical Variation",
-    "strategy": "Recaptures with the pawn and keeps a pawn in the centre, accepting that White can take on c5 and leave Black with an isolated pawn on d5. In return Black's pieces are active and the d5 pawn controls the e4 and c4 squares."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.e3 e6 5.d4 d5 6.a3 cxd4": {
-    "strategy": "Trades off the pawn that White wants to take on c5, so the plan of capturing it and expanding on the queenside gains nothing. Black gives up the tension in the centre and White recaptures with a free hand."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.e3 e6 5.d4 d5 6.Bd3 Bd6": {
-    "strategy": "Mirrors White's bishop and aims at h2, keeping the symmetry and getting ready to castle. Tension remains in the centre on both wings, so neither side has committed to a structure yet."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.g3 d5 5.d4": {
-    "strategy": "Answers the strike in the centre rather than defending c4: the pawn attacks c5 and opens lines for White's pieces, accepting that the c-pawn may be given up for activity. White wants open play against Black's centre."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.g3 d5 5.d4 cxd4": {
-    "name": "English Opening: Symmetrical Variation",
-    "strategy": "Settles the tension in the centre and leaves the pawn on d4 guarded by the knight on c6, so White has to recapture with a piece. The c4 pawn is still attacked by the d-pawn, so White cannot take time over the recapture."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.g3 d5 5.d4 e6": {
-    "name": "Queen's Gambit Declined: Semi-Tarrasch Defence",
-    "strategy": "A solid reply: the e-pawn guards d5 and Black keeps the tension on c4 and d4. Black accepts a slightly passive bishop on c8 in return for a firm centre and a safe position."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.g3 g6 5.Bg2": {
-    "strategy": "Completes the fianchetto, with the bishop looking at the centre from g2 and the king ready to castle. Both sides have chosen the same set-up, so the game turns on subtle differences in piece placement."
-  },
-  "1.Nf3 c5 2.c4 Nc6 3.Nc3 Nf6 4.g3 g6 5.Bg2 Bg7": {
-    "strategy": "Completes Black's mirror fianchetto: the bishop covers the long diagonal and d4, and the king will be safe after castling. Full symmetry holds the balance, and the game becomes a long strategic fight with equal chances."
-  },
-  "1.Nf3 c5 2.d4 cxd4 3.e3": {
-    "name": "Zukertort Opening: Speelsmet Gambit",
-    "strategy": "A gambit for development: White offers a second pawn so that the bishop can reach e3 and the pieces come out quickly. Black is already a pawn up and has ...Qa5+ with tempo, so White gets too little for the material."
-  },
-  "1.Nf3 c5 2.d4 cxd4 3.b4": {
-    "name": "Benoni Defence: Zilbermints-Benoni Gambit",
-    "strategy": "Gives up a second pawn for queenside space and a bishop on b2, but the b-pawn is loose. ...e5 holds d4 so the knight cannot take it back, and the bishop on f8 then eyes b4."
-  },
-  "1.Nf3 c5 2.d4 cxd4 3.b4 e5": {
-    "name": "Benoni Defence: Zilbermints-Benoni Gambit, Tamarkin Countergambit",
-    "strategy": "Keeps the extra pawn: the e-pawn guards d4, so the knight cannot take there, and the bishop now eyes b4. If White grabs on e5, ...Bxb4+ wins a pawn with check, so Black stays ahead."
-  },
-  "1.Nf3 c5 2.e3 g6 3.d4": {
-    "strategy": "Strikes at the c5 pawn at once and claims the centre before Black's fianchetto settles. The e3 pawn already backs it up, so Black's c-pawn has to decide between trading and holding on. White keeps a solid, flexible centre and a slight space advantage."
-  },
-  "1.Nf3 c5 2.e3 g6 3.d4 Bg7": {
-    "strategy": "Completes the fianchetto and aims the bishop down the long diagonal at d4, which the c5 pawn already attacks: the pawn is hit twice but defended three times, by queen, knight and e3 pawn. Black fights the centre from the flank instead of occupying it, and accepts a slightly narrower position for solid development."
+  "1.Nf3 c5 2.Nc3 e6": {
+    "strategy": "A solid, flexible move: it opens the diagonal for the king's bishop, guards d5 and keeps a compact pawn structure. Black gives up some activity in return, since the bishop on c8 has to wait for the d-pawn to move."
   },
   "1.Nf3 c5 2.Nc3 Nc6 3.d4": {
     "strategy": "Challenges the c5 pawn and opens the centre. If Black takes, White recaptures with a knight and gets an open game with both knights active, though the e-pawn is still at home and the centre is not yet claimed."
   },
+  "1.Nf3 c5 2.Nc3 Nc6 3.e4": {
+    "strategy": "Takes the centre with the e-pawn and reaches a Sicilian with both knights developed. White keeps the d4 break in reserve, so the game can open up or stay a slow manoeuvring fight, while Black has the usual Sicilian counterplay."
+  },
+  "1.Nf3 c5 2.Nc3 Nc6 3.g3": {
+    "strategy": "Prepares to fianchetto the king's bishop for a flexible game: the bishop will press down the long diagonal and the e-pawn stays free. White contests the centre later instead of at once, so Black gets the first chance to take space."
+  },
   "1.Nf3 c5 2.Nc3 Nc6 3.d4 cxd4": {
     "strategy": "The standard Sicilian bargain: Black trades the flank c-pawn for White's central d-pawn and gains a half-open c-file to work on. In return White recaptures with a piece and gets the more active, more central development."
+  },
+  "1.Nf3 c5 2.Nc3 Nc6 3.d4 d6": {
+    "strategy": "Supports the c5 pawn and keeps the structure compact. It invites a trade of the pawns on c5 that leads to an early exchange of queens, which takes the sting out of the game and leaves Black's knight or king awkwardly placed on d8."
+  },
+  "1.Nf3 c5 2.Nc3 Nc6 3.d4 e6": {
+    "strategy": "A solid reply that lets the bishop defend c5 and covers the d5 square. It leaves the centre to White's choice, and Black accepts a slightly passive set-up in return for solidity."
   },
   "1.Nf3 c5 2.Nc3 Nc6 3.d4 cxd4 4.Nxd4": {
     "name": "Dunst Opening: Sicilian Two Knights",
     "strategy": "Recaptures with the knight, which now stands in the centre and attacks the knight on c6. White has both knights developed and the e-pawn still at home, so a central pawn advance remains in reserve while Black has to decide about the knight trade."
+  },
+  "1.Nf3 c5 2.Nc3 Nc6 3.d4 cxd4 4.Nb5": {
+    "strategy": "Walks into a trap: ...Qa5+ attacks the king and the unprotected knight at once, and whichever way White parries the check the knight is lost, taken on b5 or, if it retreats to c3, by ...dxc3."
+  },
+  "1.Nf3 c5 2.Nc3 Nc6 3.d4 cxd4 4.Ne4": {
+    "strategy": "Steps away from the pawn's attack without winning it back, so Black keeps the extra pawn, and ...Qa5+ gains time to hold d4. White gets no compensation for the pawn."
   }
 }

@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5: the moves the named lines play from here on on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5",
@@ -38,6 +38,15 @@
       ]
     },
     {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d4"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.Bxf7+",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Jerome_Gambit"
+      ]
+    },
+    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3",
       "sources": [
         "https://en.wikipedia.org/wiki/Giuoco_Piano"
@@ -48,432 +57,14 @@
           "rating": 5
         },
         {
+          "san": "d6",
+          "rating": 4
+        },
+        {
           "san": "f5",
           "rating": 2
         }
       ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Giuoco_Piano"
-      ],
-      "moves": [
-        {
-          "san": "Nf6",
-          "rating": 5
-        },
-        {
-          "san": "Qe7",
-          "rating": 3
-        },
-        {
-          "san": "d6",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.Nc3",
-      "moves": [
-        {
-          "san": "Nf6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O",
-      "moves": [
-        {
-          "san": "Nf6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Evans_Gambit"
-      ],
-      "moves": [
-        {
-          "san": "Bxb4",
-          "rating": 5
-        },
-        {
-          "san": "Bb6",
-          "rating": 3
-        },
-        {
-          "san": "d5",
-          "rating": 3
-        },
-        {
-          "san": "b5",
-          "rating": 2
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d4"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.Bxf7+",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Jerome_Gambit"
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 d5"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 b5"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Evans_Gambit"
-      ],
-      "moves": [
-        {
-          "san": "a4",
-          "rating": 5
-        },
-        {
-          "san": "Bb2",
-          "rating": 3
-        },
-        {
-          "san": "b5",
-          "rating": 2
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.a4",
-      "moves": [
-        {
-          "san": "a6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.Bb2"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.b5",
-      "moves": [
-        {
-          "san": "Na5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.a4 a6",
-      "moves": [
-        {
-          "san": "Nc3",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.a4 a6 6.Nc3"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.b5 Na5",
-      "moves": [
-        {
-          "san": "Nxe5",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.b5 Na5 6.Nxe5",
-      "moves": [
-        {
-          "san": "Qg5",
-          "rating": 5
-        },
-        {
-          "san": "Nh6",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.b5 Na5 6.Nxe5 Qg5"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.b5 Na5 6.Nxe5 Nh6"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4",
-      "moves": [
-        {
-          "san": "c3",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3",
-      "moves": [
-        {
-          "san": "Ba5",
-          "rating": 5
-        },
-        {
-          "san": "Be7",
-          "rating": 4
-        },
-        {
-          "san": "Bd6",
-          "rating": 4
-        },
-        {
-          "san": "Bc5",
-          "rating": 2
-        },
-        {
-          "san": "Bf8",
-          "rating": 2
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bd6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Evans_Gambit"
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bf8",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Evans_Gambit"
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5",
-      "moves": [
-        {
-          "san": "d4",
-          "rating": 5
-        },
-        {
-          "san": "O-O",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4",
-      "moves": [
-        {
-          "san": "d6",
-          "rating": 5
-        },
-        {
-          "san": "exd4",
-          "rating": 4
-        },
-        {
-          "san": "b5",
-          "rating": 2
-        },
-        {
-          "san": "Nf6",
-          "rating": 1
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.O-O",
-      "sources": [
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nc6/3._Bc4/3...Bc5/4._b4",
-        "https://en.wikipedia.org/wiki/Evans_Gambit"
-      ],
-      "moves": [
-        {
-          "san": "d6",
-          "rating": 5
-        },
-        {
-          "san": "Nf6",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4 d6"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4 exd4"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4 b5"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4 Nf6"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.O-O d6"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.O-O Nf6"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5",
-      "moves": [
-        {
-          "san": "d4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.d4",
-      "moves": [
-        {
-          "san": "exd4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.d4 exd4"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Be7",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Evans_Gambit"
-      ],
-      "moves": [
-        {
-          "san": "d4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Be7 6.d4",
-      "moves": [
-        {
-          "san": "Na5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Be7 6.d4 Na5"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6",
-      "moves": [
-        {
-          "san": "d4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6 5.d4",
-      "moves": [
-        {
-          "san": "exd4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6 5.d4 exd4",
-      "moves": [
-        {
-          "san": "cxd4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6 5.d4 exd4 6.cxd4",
-      "moves": [
-        {
-          "san": "Bb6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6 5.d4 exd4 6.cxd4 Bb6"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Giuoco_Piano"
-      ],
-      "moves": [
-        {
-          "san": "d4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4",
-      "moves": [
-        {
-          "san": "Bb6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6",
-      "moves": [
-        {
-          "san": "O-O",
-          "rating": 5
-        },
-        {
-          "san": "Bg5",
-          "rating": 4
-        },
-        {
-          "san": "d5",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6 6.O-O",
-      "moves": [
-        {
-          "san": "d6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6 6.Bg5"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6 6.d5",
-      "moves": [
-        {
-          "san": "Nb8",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6 6.d5 Nb8"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6 6.O-O d6"
     },
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3 f5",
@@ -482,7 +73,15 @@
       ],
       "moves": [
         {
+          "san": "exf5",
+          "rating": 5
+        },
+        {
           "san": "Ng5",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
           "rating": 4
         }
       ]
@@ -492,7 +91,15 @@
       "moves": [
         {
           "san": "f4",
-          "rating": 3
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 2
+        },
+        {
+          "san": "Qe7",
+          "rating": 2
         }
       ]
     },
@@ -503,8 +110,20 @@
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3 Nf6",
       "moves": [
         {
+          "san": "c3",
+          "rating": 5
+        },
+        {
           "san": "Nc3",
           "rating": 4
+        },
+        {
+          "san": "O-O",
+          "rating": 4
+        },
+        {
+          "san": "Bg5",
+          "rating": 3
         }
       ]
     },
@@ -514,6 +133,14 @@
         {
           "san": "d6",
           "rating": 5
+        },
+        {
+          "san": "O-O",
+          "rating": 4
+        },
+        {
+          "san": "h6",
+          "rating": 3
         }
       ]
     },
@@ -523,6 +150,14 @@
         {
           "san": "Bg5",
           "rating": 5
+        },
+        {
+          "san": "O-O",
+          "rating": 4
+        },
+        {
+          "san": "Be3",
+          "rating": 3
         }
       ]
     },
@@ -530,11 +165,36 @@
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3 Nf6 5.Nc3 d6 6.Bg5"
     },
     {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.Nc3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        },
+        {
+          "san": "Nge7",
+          "rating": 3
+        }
+      ]
+    },
+    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.Nc3 Nf6",
       "moves": [
         {
+          "san": "d3",
+          "rating": 5
+        },
+        {
           "san": "O-O",
           "rating": 4
+        },
+        {
+          "san": "Nxe5",
+          "rating": 1
         }
       ]
     },
@@ -543,11 +203,19 @@
       "moves": [
         {
           "san": "d6",
-          "rating": 4
+          "rating": 5
         },
         {
           "san": "O-O",
           "rating": 4
+        },
+        {
+          "san": "a6",
+          "rating": 3
+        },
+        {
+          "san": "Nxe4",
+          "rating": 2
         }
       ]
     },
@@ -557,6 +225,14 @@
         {
           "san": "d3",
           "rating": 5
+        },
+        {
+          "san": "d4",
+          "rating": 3
+        },
+        {
+          "san": "Re1",
+          "rating": 3
         }
       ]
     },
@@ -572,11 +248,36 @@
         {
           "san": "d3",
           "rating": 5
+        },
+        {
+          "san": "Re1",
+          "rating": 3
+        },
+        {
+          "san": "Nxe5",
+          "rating": 1
         }
       ]
     },
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.Nc3 Nf6 5.O-O O-O 6.d3"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 4
+        },
+        {
+          "san": "Bb6",
+          "rating": 3
+        }
+      ]
     },
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6",
@@ -600,6 +301,9 @@
       ]
     },
     {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.c3"
+    },
+    {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3",
       "moves": [
         {
@@ -621,7 +325,101 @@
       ]
     },
     {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.c3"
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 a5",
+      "moves": [
+        {
+          "san": "c3",
+          "rating": 5
+        },
+        {
+          "san": "Re1",
+          "rating": 3
+        },
+        {
+          "san": "Nbd2",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 a5 6.c3"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 d6",
+      "moves": [
+        {
+          "san": "c3",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "Bg5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 h6",
+      "moves": [
+        {
+          "san": "c3",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        },
+        {
+          "san": "Re1",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 h6 6.c3"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 O-O",
+      "moves": [
+        {
+          "san": "c3",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "Bg5",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 O-O 6.c3",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "d5",
+          "rating": 4
+        },
+        {
+          "san": "a6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 O-O 6.c3 d5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Giuoco_Piano"
+      ]
     },
     {
       "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d4",
@@ -636,64 +434,11 @@
         {
           "san": "exd4",
           "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 a5",
-      "moves": [
+        },
         {
-          "san": "c3",
-          "rating": 4
+          "san": "Nxd4",
+          "rating": 2
         }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 a5 6.c3"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 d6",
-      "moves": [
-        {
-          "san": "c3",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 h6",
-      "moves": [
-        {
-          "san": "c3",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 h6 6.c3"
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 O-O",
-      "moves": [
-        {
-          "san": "c3",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 O-O 6.c3",
-      "moves": [
-        {
-          "san": "d5",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 O-O 6.c3 d5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Giuoco_Piano"
       ]
     },
     {
@@ -702,6 +447,14 @@
         {
           "san": "Nxd4",
           "rating": 5
+        },
+        {
+          "san": "c3",
+          "rating": 3
+        },
+        {
+          "san": "Bg5",
+          "rating": 3
         }
       ]
     },
@@ -711,6 +464,14 @@
         {
           "san": "Nxd4",
           "rating": 5
+        },
+        {
+          "san": "exd4",
+          "rating": 3
+        },
+        {
+          "san": "Nxe4",
+          "rating": 2
         }
       ]
     },
@@ -727,6 +488,14 @@
         {
           "san": "e5",
           "rating": 5
+        },
+        {
+          "san": "Re1",
+          "rating": 3
+        },
+        {
+          "san": "Bg5",
+          "rating": 3
         }
       ]
     },
@@ -739,6 +508,10 @@
         },
         {
           "san": "Ng4",
+          "rating": 3
+        },
+        {
+          "san": "Ne4",
           "rating": 3
         }
       ]

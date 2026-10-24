@@ -1,65 +1,137 @@
 {
   "1.e4 c5 2.Nc3 Nc6 3.g3": {
-    "strategy": "The traditional Closed Sicilian set-up: White fianchettoes the king's bishop, where it backs the e4 pawn and bears on the centre, and keeps the game closed instead of fighting for d4. A manoeuvring struggle follows: White builds a kingside initiative at leisure, Black counters on the queenside or with a central break.",
-    "name": "Sicilian Defence: Closed, Fianchetto Variation"
+    "name": "Sicilian Defence: Closed, Fianchetto Variation",
+    "strategy": "The traditional Closed Sicilian set-up: White fianchettoes the king's bishop, where it backs the e4 pawn and bears on the centre, and keeps the game closed instead of fighting for d4. A manoeuvring struggle follows: White builds a kingside initiative at leisure, Black counters on the queenside or with a central break."
   },
   "1.e4 c5 2.Nc3 Nc6 3.f4": {
-    "strategy": "The sharp alternative: the f-pawn takes control of e5 and prepares a direct attack on the kingside, with pieces developed actively behind it. The price is a loosened king's side and a slower hold on the centre, so the game turns on whether White's attack runs faster than Black's counterplay.",
-    "name": "Sicilian Defence: Grand Prix Attack"
+    "name": "Sicilian Defence: Grand Prix Attack",
+    "strategy": "The sharp alternative: the f-pawn takes control of e5 and prepares a direct attack on the kingside, with pieces developed actively behind it. The price is a loosened king's side and a slower hold on the centre, so the game turns on whether White's attack runs faster than Black's counterplay."
   },
   "1.e4 c5 2.Nc3 Nc6 3.Nge2": {
-    "strategy": "Keeps White's options open: a closed set-up with a fianchetto, or an Open Sicilian with d4. But the closed lines are not very challenging for Black, and if Black fianchettoes at once, d4 leaves the c3 knight blocking the c-pawn, so White cannot build the c4-and-e4 clamp on d4, often White's best set-up there.",
-    "name": "Sicilian Defence: Closed, Chameleon Variation"
+    "name": "Sicilian Defence: Closed, Chameleon Variation",
+    "strategy": "Keeps White's options open: a closed set-up with a fianchetto, or an Open Sicilian with d4. But the closed lines are not very challenging for Black, and if Black fianchettoes at once, d4 leaves the c3 knight blocking the c-pawn, so White cannot build the c4-and-e4 clamp on d4, often White's best set-up there."
   },
   "1.e4 c5 2.Nc3 Nc6 3.d3": {
     "strategy": "A modest, flexible move: it makes e4 solid and opens the c1-bishop's diagonal, but it spends the move on a pawn rather than a piece and takes the sting out of White's play. Black develops freely, and White must find a plan afterwards."
   },
   "1.e4 c5 2.Nc3 Nc6 3.g4": {
-    "strategy": "Pushes the g-pawn at once, before the pieces are out, hoping for kingside space. It loosens White's own king's side, lets Black choose the moment to strike back in the centre, and gets nothing concrete in return.",
-    "name": "Sicilian Defence: Closed, Grob Attack"
+    "name": "Sicilian Defence: Closed, Grob Attack",
+    "strategy": "Pushes the g-pawn at once, before the pieces are out, hoping for kingside space. It loosens White's own king's side, lets Black choose the moment to strike back in the centre, and gets nothing concrete in return."
+  },
+  "1.e4 c5 2.Nc3 Nc6": {
+    "name": "Sicilian Defence: Closed, Traditional"
   },
   "1.e4 c5 2.Nc3 Nc6 3.d3 g6": {
     "strategy": "Black fianchettoes the king's bishop: from g7 it will press along the long diagonal against the c3 knight and the centre, while the c6 knight already holds d4. Sound and flexible, it leaves the choice between central expansion and queenside play for later."
   },
-  "1.e4 c5 2.Nc3 Nc6 3.f4 g6": {
-    "strategy": "Black fianchettoes the bishop, which presses the c3 knight along the long diagonal, and keeps both plans alive: a strike in the centre, or queenside play with the c-pawn already advanced. White has committed pawns to the kingside, so Black can wait and choose."
+  "1.e4 c5 2.Nc3 Nc6 3.d3 Nf6": {
+    "strategy": "Develops with an attack on e4, which the d3 pawn and the c3 knight must now hold. Black keeps the choice of pawn set-up open and prepares ...d5, so the quiet third move does not buy White a free hand in the centre."
   },
-  "1.e4 c5 2.Nc3 Nc6 3.g3 g6": {
-    "name": "Sicilian Defence: Closed",
-    "strategy": "Black answers the fianchetto with a fianchetto of their own: the bishop will press the long diagonal and the c3 knight, while the c6 knight holds d4. Solid against White's slow plan, with queenside play and a central break both still available."
-  },
-  "1.e4 c5 2.Nc3 Nc6": {
-    "name": "Sicilian Defence: Closed, Traditional"
+  "1.e4 c5 2.Nc3 Nc6 3.d3 e6": {
+    "strategy": "A compact set-up: the e-pawn takes d5 and f5 under control and frees the king's knight for e7, aiming at a later ...d5. Sound, though it shuts in the c8-bishop for now and leaves Black a little slower to make threats."
   },
   "1.e4 c5 2.Nc3 Nc6 3.d3 g6 4.g4": {
     "name": "Sicilian Defence: Closed, Portland Attack",
     "strategy": "Gains kingside space at once, with g5 to follow so that Black's king's knight loses f6. It is double-edged: Black can attack the pawn straight away with ...h5, and every pawn push loosens White's own king's side before the pieces are developed."
   },
+  "1.e4 c5 2.Nc3 Nc6 3.d3 g6 4.g3": {
+    "strategy": "Completes the plan this move order was chosen for: with g3, Bg2 and Nge2 White reaches the main set-up of the Closed Sicilian, a slow build-up behind a solid pawn centre, and Black has gained nothing from the move order."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.d3 g6 4.f4": {
+    "strategy": "Grabs kingside space with the f-pawn, a pawn storm with the d-pawn already on d3. It controls e5 and prepares an attack with pieces and pawns, at the cost of loosening the king's side and the e3 and g3 squares."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.f4 g6": {
+    "strategy": "Black fianchettoes the bishop, which presses the c3 knight along the long diagonal, and keeps both plans alive: a strike in the centre, or queenside play with the c-pawn already advanced. White has committed pawns to the kingside, so Black can wait and choose."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.f4 d5": {
+    "strategy": "Strikes at e4 before White's pieces are out, a good way to meet the pawn storm. If White takes, Black must win the pawn back by piece play, since ...Qxd5 runs into Nxd5; the game opens and White's f4 is of little use."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.f4 e6": {
+    "strategy": "Takes d5 and f5 under control and gives the king's knight the e7 square, a sound set-up against the pawn storm. Black keeps ...d5 in reserve as a central strike; the cost is a slower development of the c8-bishop."
+  },
   "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3": {
     "strategy": "Brings the second knight out to a square from which it watches the centre and the kingside, and backs the f-pawn's attack with a piece, so that the attack does not rest on pawns alone. White stays flexible about which diagonal the bishop will use."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Bc4": {
+    "strategy": "Aims the bishop at f7 at once, supporting a kingside attack with the f-pawn. The bishop can be harassed on c4 by ...d5, but the set-up transposes to the sharp main line once the knight comes to f3."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Bb5": {
+    "strategy": "The positional way to develop: the bishop pressures the c6 knight, which guards d4 and e5, and threatens to take it and double Black's pawns. White keeps a more patient game than with the bishop on c4."
   },
   "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3 Bg7": {
     "strategy": "Develops the bishop on the long diagonal, where it already presses the c3 knight and the dark squares in the centre, and prepares castling. Black commits to the fianchetto and the solid kingside it brings, and keeps the choice between a central strike and queenside play open."
   },
+  "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3 d6": {
+    "strategy": "Controls e5 and opens the c8-bishop, leaving the g7 square for the bishop a move later. A solid way to meet the pawn storm, which usually leads to the same positions as the fianchetto first."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3 e6": {
+    "strategy": "Takes d5 and f5 under control, but the structure is slower: it blocks the c8-bishop and gives up the d6-e5 grip on the centre. Sound, though White's attack is not slowed down very much."
+  },
   "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3 Bg7 5.Bc4": {
     "strategy": "The aggressive way to place the bishop: it eyes f7 and works with the f-pawn and the knight towards a kingside attack. White commits to a sharp game, and the bishop may be harassed on c4, but the placement fits the attack best."
   },
+  "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3 Bg7 5.Bb5": {
+    "strategy": "The positional alternative: the bishop pressures the c6 knight, which guards d4 and e5, and threatens to take it and double Black's pawns. White plays for steady pressure and the f-pawn's advance instead of an immediate attack on f7."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3 Bg7 5.Be2": {
+    "strategy": "A safe, modest square that prepares castling and keeps the bishop out of reach of ...d5, which would hit it on c4. It gives up the pressure on f7 and c6, so Black can finish development and meet the pawn storm without hurry."
+  },
   "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3 Bg7 5.Bc4 e6": {
     "strategy": "Shuts the bishop's diagonal to f7 and takes d5 and f5 under control, which blunts White's attacking plan; it also frees the g8 knight to come to e7 and keeps a central strike in reserve. The cost is that the d6 square loses its pawn guard."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3 Bg7 5.Bc4 d6": {
+    "strategy": "Prepares to meet the f-pawn's advance by controlling e5 and opens the c8-bishop. Black keeps a solid position without committing the e-pawn, and leaves the choice of ...e6 or ...Nf6 for later."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3 Bg7 5.Bc4 Nh6": {
+    "strategy": "Heads for f5 and castling; the f4 pawn keeps the c1-bishop from trading it off. The plan is slow, though: the e4 pawn controls f5, and the knight on the edge does little against White's kingside attack."
   },
   "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3 Bg7 5.Bc4 e6 6.f5": {
     "name": "Sicilian Defence: Grand Prix Attack, Schofman Variation",
     "strategy": "Strikes at e6 and g6 to tear open Black's kingside, with the e4 pawn supporting the thrust and the bishop adding pressure on e6. It gives up the e5 square the f-pawn held, and the attack is only worth it if Black's king shelter cracks."
   },
+  "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3 Bg7 5.Bc4 e6 6.d3": {
+    "strategy": "Supports the e4 pawn and opens the c1-bishop, keeping the f-pawn's advance in reserve. White chooses a slower build-up, castling short and bringing the queen to the kingside, instead of opening the position at once."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.f4 g6 4.Nf3 Bg7 5.Bc4 e6 6.O-O": {
+    "strategy": "Gets the king out of the centre first and leaves the d-pawn's move for later. Sound, but it commits the king to the side where the pawns are heading, and Black's quick ...Nge7 and ...d5 meet less resistance."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6": {
+    "name": "Sicilian Defence: Closed",
+    "strategy": "Black answers the fianchetto with a fianchetto of their own: the bishop will press the long diagonal and the c3 knight, while the c6 knight holds d4. Solid against White's slow plan, with queenside play and a central break both still available."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 d6": {
+    "strategy": "Controls e5 and opens the c8-bishop, a flexible reply that leaves the choice between a fianchetto and a knight on f6 for later. Solid against White's slow plan, with queenside play still available."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 e6": {
+    "strategy": "Takes d5 and f5 under control and prepares ...Nge7 and a central strike with ...d5. A sound, compact set-up; the c8-bishop stays shut in and Black is slightly slower to make threats."
+  },
   "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2": {
     "strategy": "Completes the fianchetto: the bishop backs the e4 pawn and stands ready to hit the centre and the queenside along the long diagonal if the e-pawn ever advances or is exchanged. White chooses a slow build-up, and until then the bishop stays behind its own pawn."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.d3": {
+    "strategy": "Supports e4 first and decides on the bishop's square later; the game normally transposes into the main set-up, with the bishop on g2. White keeps more options for the f-pawn."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.f4": {
+    "strategy": "Gains kingside space and prepares a pawn storm, with the bishop still to come to g2. It weakens the e3 square, and e4 loses a defender that the bishop would give it."
   },
   "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7": {
     "name": "Sicilian Defence: Closed",
     "strategy": "The same set-up for Black: the bishop attacks the c3 knight along the long diagonal and covers the dark squares. Both sides now have solid, matching structures, and the fight is about who breaks out first and where, White on the kingside, Black on the queenside."
   },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 d6": {
+    "strategy": "Controls e5 and opens the c8-bishop, leaving the g7-bishop for the next move. A solid way to reach the main set-up, and nothing in the structure is fixed."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 e6": {
+    "strategy": "Takes d5 and f5 under control and prepares a knight on e7 and a central strike. It is slower than the main set-up: the c8-bishop stays shut in and d6 has no pawn guard."
+  },
   "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3": {
     "strategy": "Supports the e4 pawn, so that the bishop and the knight no longer have to guard it, and opens the c1-bishop's diagonal. White commits to a closed centre and a slow kingside build-up, and accepts that the game is decided by manoeuvring, not by early tactics."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.f4": {
+    "strategy": "Gains kingside space and prepares a pawn attack, with the knight coming to f3 and castling short to follow. It loosens the e3 square and commits White to the sharper of the two plans, a pawn storm backed by the fianchettoed bishop."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.Nge2": {
+    "strategy": "A flexible knight move that covers d4, c3 and f4 and leaves the f-pawn free to advance. It follows the slow kingside plan, though the knight is less active than on f3, and White still has to decide how to open the game."
   },
   "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6": {
     "name": "Sicilian Defence: Closed",
@@ -67,6 +139,9 @@
   },
   "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 e6": {
     "strategy": "A less direct set-up: the e-pawn prepares a central strike and a route for the g8 knight to e7. But it leaves d6 without its pawn guard and keeps the c8-bishop shut in for longer, so it is sound but slower to create pressure than the main line."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 Nf6": {
+    "strategy": "Develops with an attack on e4, which the bishop, the d-pawn and the knight hold. Black keeps the choice of ...d6 or ...e6 open and castles early; the knight can become a target for a later e5 or Bg5, so the flexibility has a price."
   },
   "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6 6.f4": {
     "name": "Sicilian Defence: Closed",
@@ -83,14 +158,38 @@
     "name": "Sicilian Defence: Closed, Botvinnik Defence, with f4",
     "strategy": "Black strikes in the centre at once, hitting the f4 pawn and claiming space with the d6-e5 chain. The g7-bishop is blunted for the moment by its own pawn, but the central tension gives Black real counterplay against White's kingside plans."
   },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6 6.f4 Nf6": {
+    "strategy": "Develops with an attack on e4 and keeps the e-pawn's strike in reserve. White's e5 advance is met by ...dxe5, and Black gets quick castling and a free hand for queenside play."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6 6.f4 e6": {
+    "strategy": "A solid set-up that frees the g8 knight for e7 and keeps the pawn chain compact, but gives up the central strike with the e-pawn. White gets the space on the kingside it wants without a fight in the centre."
+  },
   "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6 6.Nge2 e5": {
     "name": "Sicilian Defence: Closed, Botvinnik Defence, with Nge2",
     "strategy": "Takes the centre while White's f-pawn is still at home: the d6-e5 chain holds space and makes the f-pawn's advance costly, since the e-pawn controls f4. The price is the g7-bishop stopped by its own pawn and a d5 square that no black pawn guards."
   },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6 6.Nge2 Nf6": {
+    "strategy": "Develops with an attack on e4 and keeps the central strike in reserve. Black castles early and then plays on the queenside with the rook, while White's pieces and f-pawn work on the kingside."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 d6 6.Nge2 e6": {
+    "strategy": "A compact set-up that frees the g8 knight for e7 and keeps d5 under control. It is slower than the central strike and leaves White the choice of how to proceed on the kingside."
+  },
   "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 e6 6.Be3": {
     "strategy": "Develops the bishop towards Qd2 and long castling and takes d4 under control. The cost is that the bishop then stands where a black knight can challenge it, so White has to be ready to give up the dark-squared bishop."
   },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 e6 6.Nge2": {
+    "strategy": "Develops the knight to a square from which it covers d4, c3 and f4, and gets ready to castle. It keeps both the f-pawn and the c1-bishop free, so White can choose later between a kingside attack and a slower build-up."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 e6 6.f4": {
+    "strategy": "Gains kingside space at once and prepares a pawn attack, with the knight coming to f3 and castling short to follow. It loosens the e3 square and commits White to the sharper plan."
+  },
   "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 e6 6.Be3 Nd4": {
     "strategy": "The knight takes the central post and invites the e3-bishop to trade. If White trades, ...cxd4 gains time against the c3 knight and leaves Black a pawn in the centre; if White does not, the knight stays and cramps White's development."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 e6 6.Be3 d6": {
+    "strategy": "Completes the main set-up of the Closed Sicilian: the pawn controls e5, opens the c8-bishop and keeps the structure flexible. Black accepts a slower game and looks for counterplay on the queenside."
+  },
+  "1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.d3 e6 6.Be3 Nge7": {
+    "strategy": "Brings the knight to e7, where it leaves the g7-bishop's long diagonal open and supports the c6 knight, and prepares castling. Black reaches the usual middlegame set-up and keeps ...d6 or ...d5 for later."
   }
 }

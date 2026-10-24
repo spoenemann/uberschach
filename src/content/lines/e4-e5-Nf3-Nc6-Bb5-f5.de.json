@@ -4,30 +4,45 @@
     "background": "Carl Jaenisch erfand sie und analysierte sie in der Dezemberausgabe 1847 von Le Palamède. Im Handbuch des Schachspiels wurde sie nach dem deutschen Juristen Adolph Schliemann benannt, obwohl die Variante, für die Schliemann selbst in den 1860er Jahren eintrat, ein Gambit mit ...Lc5 war."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3": {
-    "strategy": "Deckt e4 und entwickelt sich, die aggressivere Art, dem Vorstoß des f-Bauern zu begegnen: Das Zurücknehmen mit dem Springer bringt eine Figur ins Zentrum. Der Preis ist die Theorie, denn Weiß muss scharfe Varianten kennen, um die Stellung in einen Vorteil zu verwandeln.",
     "name": "Spanische Partie: Schliemann-Verteidigung, Dyckhoff-Variante",
-    "background": "Zusammen mit 4.d3 ist dies die häufigste Antwort auf 3...f5, auch wenn 4.d3 sie in den letzten Jahren an Beliebtheit überholt hat."
+    "background": "Zusammen mit 4.d3 ist dies die häufigste Antwort auf 3...f5, auch wenn 4.d3 sie in den letzten Jahren an Beliebtheit überholt hat.",
+    "strategy": "Deckt e4 und entwickelt sich, die aggressivere Art, dem Vorstoß des f-Bauern zu begegnen: Das Zurücknehmen mit dem Springer bringt eine Figur ins Zentrum. Der Preis ist die Theorie, denn Weiß muss scharfe Varianten kennen, um die Stellung in einen Vorteil zu verwandeln."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Bxc6": {
-    "strategy": "Gibt das Läuferpaar her, um den Springer zu entfernen, in der Hoffnung, e5 zu gewinnen, doch ...dxc6 öffnet die Diagonale der Dame: ...Dd4 gabelt den Springer und den Bauern e4 und gewinnt den Bauern sofort zurück. Weiß hat das Läuferpaar ohne Vorteil hergegeben.",
     "name": "Spanische Partie: Schliemann-Verteidigung, Abtauschvariante",
-    "background": "Carl Jaenisch analysierte diesen Abtausch in der Dezemberausgabe 1847 von Le Palamède, zusammen mit 4.d4 und 4.exf5. Er wird selten gespielt."
+    "background": "Carl Jaenisch analysierte diesen Abtausch in der Dezemberausgabe 1847 von Le Palamède, zusammen mit 4.d4 und 4.exf5. Er wird selten gespielt.",
+    "strategy": "Gibt das Läuferpaar her, um den Springer zu entfernen, in der Hoffnung, e5 zu gewinnen, doch ...dxc6 öffnet die Diagonale der Dame: ...Dd4 gabelt den Springer und den Bauern e4 und gewinnt den Bauern sofort zurück. Weiß hat das Läuferpaar ohne Vorteil hergegeben."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.d4": {
-    "strategy": "Kontert auf e5, statt e4 zu decken. Schlägt Schwarz auf e4, tauscht Weiß auf c6 und schlägt auf e5, gewinnt den Bauern bei offenem Spiel zurück, auch wenn dies eine weniger anspruchsvolle Wahl ist, als e4 einfach zu verteidigen.",
     "name": "Spanische Partie: Schliemann-Verteidigung, Schönemann-Angriff",
-    "background": "Carl Jaenisch analysierte 4.d4 in der Dezemberausgabe 1847 von Le Palamède, zusammen mit 4.exf5 und 4.Lxc6."
+    "background": "Carl Jaenisch analysierte 4.d4 in der Dezemberausgabe 1847 von Le Palamède, zusammen mit 4.exf5 und 4.Lxc6.",
+    "strategy": "Kontert auf e5, statt e4 zu decken. Schlägt Schwarz auf e4, tauscht Weiß auf c6 und schlägt auf e5, gewinnt den Bauern bei offenem Spiel zurück, auch wenn dies eine weniger anspruchsvolle Wahl ist, als e4 einfach zu verteidigen."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.exf5": {
-    "strategy": "Nimmt den Bauern, doch ...e4 greift den Springer an, der kein bequemes Feld hat: e5 und d4 werden vom Springer auf c6 gedeckt, g5 und h4 von der Dame. Weiß wird zurückgedrängt, und Schwarz bekommt trotz des Bauern das bessere Spiel.",
     "name": "Spanische Partie: Schliemann-Verteidigung, Angenommenes Jaenisch-Gambit",
-    "background": "Carl Jaenisch analysierte dieses Schlagen in der Dezemberausgabe 1847 von Le Palamède, zusammen mit 4.d4 und 4.Lxc6."
+    "background": "Carl Jaenisch analysierte dieses Schlagen in der Dezemberausgabe 1847 von Le Palamède, zusammen mit 4.d4 und 4.Lxc6.",
+    "strategy": "Nimmt den Bauern, doch ...e4 greift den Springer an, der kein bequemes Feld hat: e5 und d4 werden vom Springer auf c6 gedeckt, g5 und h4 von der Dame. Weiß wird zurückgedrängt, und Schwarz bekommt trotz des Bauern das bessere Spiel."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.d3": {
+    "strategy": "Deckt e4 mit einem Bauern und plant, dort mit ihm zurückzuschlagen. Das hält das Zentrum solide und vermeidet das scharfe Figurenopfer des Springer-Rückschlags. Weiß muss weniger Theorie lernen und steht bequem, da der f-Bauernvorstoß die Königsstellung von Schwarz gelockert hat."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4": {
-    "strategy": "Der einzige konsequente Zug: Der f-Bauer hat e4 angegriffen, und alles andere schenkt Weiß das Zentrum. Schwarz öffnet die f-Linie und beseitigt den weißen Zentrumsbauern, zum Preis eines schwachen Bauern auf e5, den nur der Springer auf c6 verteidigt."
+    "strategy": "Schlägt den Bauern e4 und öffnet die f-Linie, der ganze Sinn des f-Bauernvorstoßes: Der weiße Mittelbauer ist weg, und Weiß muss zurücknehmen, um nicht einen Bauern im Rückstand zu sein. Der Preis ist ein schwacher Bauer auf e5, nur vom Springer c6 gedeckt, und ein Entwicklungsvorsprung für Weiß."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 Nf6": {
+    "strategy": "Entwickelt sich und fügt e4 einen zweiten Angreifer hinzu, statt zu schlagen. Das hält die Struktur flexibel, aber Schwarz überlässt Weiß die Entscheidung, wie die Spannung aufgelöst wird, und die offene f-Linie, die der Bauernvorstoß bringen sollte, entsteht nicht."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 Nge7": {
+    "strategy": "Bereitet vor, auf f5 mit dem Springer zurückzunehmen, sodass ein Schlagen dort Schwarz nichts kostet, und hält e5 gedeckt. Das ist solide, aber langsam: Schwarz übt auf e4 keinen zusätzlichen Druck aus, und Weiß entwickelt sich ungestört mit dem besseren Zentrum."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe4": {
     "strategy": "Nimmt mit dem Springer zurück, der auf e4 stark steht und d6 und f6 im Blick hat. Weiß behält einen Entwicklungsvorsprung, und Schwarz muss wählen, wie er den Springer herausfordert."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Bxc6": {
+    "strategy": "Gibt den Läufer für den Springer her, um die Struktur von Schwarz zu schädigen, aber ...dxc6 öffnet Linien für die Dame und den Läufer c8, und der weiße Springer gewinnt den Bauern e4 zurück. Schwarz bekommt das Läuferpaar für Doppelbauern: ein fairer Tausch, kein Vorteil."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe5": {
+    "strategy": "Schnappt sich den Bauern e5, aber der Springer c6 nimmt einfach den Springer, und Schwarz behält den Mehrbauern auf e4. Weiß hat eine Figur für einen Bauern gegeben, und der Vorstoß d4 fängt den Springer nicht, denn er hat Rückzugsfelder."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe4 Nf6": {
     "name": "Spanische Partie: Schliemann-Verteidigung, Tartakower-Variante",
@@ -44,7 +59,19 @@
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe4 d5 6.Nxe5": {
     "strategy": "Die kritische Antwort auf den Bauernvorstoß: Weiß nimmt e5 und lässt Schwarz den Springer auf e4 gewinnen, im Vertrauen auf den folgenden Angriff gegen den unrochierten schwarzen König. Die Varianten sind lang und erzwungen, und Schwarz hat in ihnen schlecht abgeschnitten."
   },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe4 d5 6.Ng3": {
+    "strategy": "Weicht dem Angriff des d5-Bauern aus und hält den Druck auf e5. Der Springer steht sicher, und Weiß verliert nichts, aber Schwarz kann mit ...e4 Raum gewinnen und den Springer f3 angreifen, sodass der Vorteil von Weiß kleiner ist als nach dem Opfer auf e5."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe4 d5 6.Nc3": {
+    "strategy": "Zieht den Springer auf ein Entwicklungsfeld zurück, aber ...d4 greift ihn sofort wieder an, und die schwarzen Bauern erobern mit Tempo das Zentrum. Weiß hat mehrere Züge mit demselben Springer verbracht und bekommt dafür wenig."
+  },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe4 d5 6.Nxe5 dxe4": {
     "strategy": "Schlägt den Springer auf e4 und ist für einen Moment eine Figur im Plus, doch das folgende Sxc6 kommt mit Tempo auf die Dame, sodass Schwarz genau spielen muss, um den unrochierten König sicher zu halten. Ablehnen lässt Weiß einen Bauern im Plus."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe4 d5 6.Nxe5 Nf6": {
+    "strategy": "Entwickelt sich und greift den Springer e4 an, aber Weiß tauscht zweimal die Springer und steht am Ende einen Bauern vorn: Der Bauer e5 ist verloren, Schwarz hat Doppelbauern auf der c-Linie, und der König steht noch im Zentrum."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 f5 4.Nc3 fxe4 5.Nxe4 d5 6.Nxe5 Qd6": {
+    "strategy": "Greift den Springer e5 an, läuft aber in den Springer e4, der die Dame mit Schach schlägt. Weiß gewinnt die Dame für einen Springer."
   }
 }

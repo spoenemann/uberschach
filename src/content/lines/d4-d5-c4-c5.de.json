@@ -14,35 +14,89 @@
   },
   "1.d4 d5 2.c4 c5 3.cxd5 Nf6": {
     "name": "Abgelehntes Damengambit: Österreichische Verteidigung, Gusew-Gegengambit",
-    "strategy": "Entwickelt mit Blick auf d5, sodass der Bauer mit dem Springer statt mit der Dame zurückgenommen werden kann, die von Sc3 angegriffen würde. Ein Gegengambit: Schwarz bietet den c5-Bauern an, um die Figuren ins Spiel zu bringen, und nimmt dafür in Kauf, dass Weiß das leichtere Spiel hat."
+    "strategy": "Entwickelt mit Blick auf d5, sodass der Bauer mit dem Springer statt mit der Dame zurückgenommen werden kann, die von Sc3 belästigt würde. Ein Gegengambit: Schwarz bietet den Bauern c5 für schnelle Entwicklung und Spiel gegen das Zentrum an und nimmt in Kauf, dass Weiß einen leichten Vorteil behält."
   },
-  "1.d4 d5 2.c4 c5 3.dxc5 d4": {
-    "strategy": "Stößt den Bauern am Angriff vorbei, gewinnt Raum und engt die weißen Figuren ein, während Schwarz sich darauf vorbereitet, den c5-Bauern zurückzugewinnen. Schwarz ist für einen Raumkeil und lebhafte Entwicklung einen Bauern im Rückstand, wobei die Dame d4 auf der offenen Linie verteidigt.",
-    "name": "Abgelehntes Damengambit: Österreichischer Angriff, Salvio-Gegengambit"
+  "1.d4 d5 2.c4 c5 3.cxd5 Qxd5": {
+    "strategy": "Schlägt sofort zurück und hält das Material im Gleichgewicht, doch die Dame steht auf d5 exponiert: Ein Springer auf c3 greift sie an, sie muss erneut ziehen, und Weiß gewinnt Tempo. Schwarz gerät in der Entwicklung ins Hintertreffen."
   },
-  "1.d4 d5 2.c4 c5 3.Nf3 Nf6": {
-    "strategy": "Entwickelt den Springer und fügt d5 einen zweiten Verteidiger hinzu, sodass die Bauernspannung hält. Schwarz behält die Wahl zwischen mehreren Aufbauten, und der Druck von Weiß auf das Zentrum muss von den Figuren kommen statt von Schlagzügen."
+  "1.d4 d5 2.c4 c5 3.cxd5 cxd4": {
+    "strategy": "Nimmt einen Bauern, statt auf d5 zurückzuschlagen, doch die weiße Dame schlägt auf d4 zurück und deckt weiterhin den Bauern auf d5, sodass Schwarz schlicht einen Bauern weniger hat. Mit der Dame auf d5 zu schlagen würde sie verlieren."
   },
   "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4": {
     "strategy": "Die kritische Antwort: Der Bauer deckt d5 und gewinnt Raum, und Weiß bietet den e-Bauern an, statt passiv zu verteidigen. Nimmt Schwarz ihn, gewinnt Weiß den c5-Bauern und bleibt mit offenem Zentrum einen Bauern voraus, sodass Schwarz mit Nachdruck Spiel erzeugen muss."
   },
+  "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.Nf3": {
+    "strategy": "Entwickelt und behält das Zentrum im Auge, statt etwas zu erzwingen: Schlägt Schwarz auf d4, nimmt die Dame zurück, und Weiß steht mit den aktiveren Figuren bequem. Ein ruhiger Weg zu einem kleinen, sicheren Vorteil, der die Verwicklungen des Gambits vermeidet."
+  },
+  "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.dxc5": {
+    "strategy": "Nimmt das Gambit an und schlägt den Bauern c5, doch Schwarz nimmt den Bauern d5 mit der Dame, und die Damen werden bei einem schwarzen Springer auf d5 getauscht. Weiß muss sich anstrengen, den Mehrbauern gegen aktive Figuren zu halten, und die Partie ist unklar."
+  },
   "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 Nxe4": {
-    "strategy": "Nimmt den angebotenen Bauern sofort und zentralisiert den Springer. Der Preis ist Zeit: Der Springer hat zweimal gezogen, Weiß kann als Nächstes auf c5 schlagen, und Schwarz muss den Entwicklungsvorsprung nutzen, um Drohungen zu erzeugen."
+    "strategy": "Nimmt den angebotenen Bauern sofort und zentralisiert den Springer, der Sinn des Gambits. Der Preis ist Zeit: Der Springer hat zweimal gezogen, Weiß kann als Nächstes c5 nehmen, und Schwarz muss mit den aktiven Figuren Drohungen erzeugen."
+  },
+  "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 e6": {
+    "strategy": "Baut die Bauernkette um, um auf d5 mit einem Bauern zurückzuschlagen, doch der Bauer d5 wird von e4 gehalten und schlägt einfach: dxe6 oder dxc5 lässt Weiß einen klaren Mehrbauern, und Schwarz hat nur die schnellere Entwicklung vorzuweisen."
+  },
+  "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 Nxd5": {
+    "strategy": "Schlägt mit dem Springer zurück, doch der Bauer e4 nimmt ihn: Schwarz bekommt allenfalls zwei Bauern für eine Figur, was bei weitem nicht genügt."
   },
   "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 Nxe4 5.dxc5": {
     "strategy": "Schlägt den Bauern, der d4 angegriffen hat, und lässt Weiß einen Bauern voraus mit einem starken Bauern auf d5. Schwarz kann den Bauern mit dem Springer oder durch Schach auf a5 zurückgewinnen, verliert dabei aber mehr Zeit, sodass Weiß das leichtere Spiel behält."
+  },
+  "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 Nxe4 5.Nc3": {
+    "strategy": "Fordert den zentralisierten Springer sofort heraus, lässt aber den Bauern auf c5 in Ruhe: Schwarz tauscht auf c3, Weiß schlägt mit dem b-Bauern zurück und schwächt den Damenflügel, und ...cxd4 trifft das Zentrum. Weiß steht am Ende gleich und nicht einen Bauern vorn."
+  },
+  "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 Nxe4 5.Nf3": {
+    "strategy": "Entwickelt, lässt aber den Bauern d5 ohne Verteidiger, weil der eigene Bauer d4 die Dame versperrt: Die schwarze Dame nimmt ihn sofort, und Schwarz steht einen Bauern vorn."
   },
   "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 Nxe4 5.dxc5 Qa5+": {
     "name": "Abgelehntes Damengambit: Österreichische Verteidigung, Haberditz-Variante",
     "strategy": "Gibt dem König Schach und greift dabei den c5-Bauern an, sodass Weiß erst das Schach beantworten muss, bevor er den Mehrbauern halten kann. Der Preis ist ein früher Damenausflug, und Weiß behält den Bauern auf d5 und einen Raumvorteil."
   },
+  "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 Nxe4 5.dxc5 Nxc5": {
+    "strategy": "Schlägt den Bauern sofort zurück, sodass das Material ausgeglichen ist, und nimmt den Springer von e4, wo weiße Figuren ihn angreifen könnten. Weiß behält den Bauern auf d5, der Schwarz einengt, doch Schwarz hat aktive Figuren, und der Bauer steht unter Angriff der Dame."
+  },
+  "1.d4 d5 2.c4 c5 3.cxd5 Nf6 4.e4 Nxe4 5.dxc5 Nc6": {
+    "strategy": "Greift den Bauern d5 an, bietet aber einen Springer an: dxc6 nimmt ihn, und Schwarz kann Material nur mit ...Dxd1+ und anschließendem ...Sxf2+ zurückgewinnen, einer Gabel auf König und Turm. Das ergibt eine verworrene, unklare Partie, eine schlechte Wahl, wo ...Sxc5 das Material ausgleicht."
+  },
+  "1.d4 d5 2.c4 c5 3.dxc5 d4": {
+    "name": "Abgelehntes Damengambit: Österreichischer Angriff, Salvio-Gegengambit",
+    "strategy": "Stößt den Bauern am Angriff vorbei, gewinnt Raum und engt die weißen Figuren ein, während Schwarz sich darauf vorbereitet, den c5-Bauern zurückzugewinnen. Schwarz ist für einen Raumkeil und lebhafte Entwicklung einen Bauern im Rückstand, wobei die Dame d4 auf der offenen Linie verteidigt."
+  },
+  "1.d4 d5 2.c4 c5 3.dxc5 e6": {
+    "strategy": "Öffnet die Diagonale des Läufers, damit der Bauer c5 mit dem Läufer zurückgewonnen werden kann, und bereitet das Zurückschlagen auf d5 mit dem e-Bauern vor. Ein solider Weg, das Material auszugleichen, um den Preis eines isolierten Bauern auf d5."
+  },
+  "1.d4 d5 2.c4 c5 3.dxc5 Nf6": {
+    "strategy": "Entwickelt und zielt auf d5, versucht aber nicht, das Zentrum zu halten: Weiß schlägt auf d5, Schwarz nimmt mit dem Springer zurück, und Weiß behält den Bauern auf c5, während Schwarz auf aktive Figuren setzt. Schwarz muss den Bauern zurückgewinnen oder die Figuren wirken lassen."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6": {
+    "strategy": "Entwickelt den Springer und fügt d5 einen zweiten Verteidiger hinzu, sodass die Bauernspannung hält. Schwarz behält die Wahl zwischen mehreren Aufbauten, und der Druck von Weiß auf das Zentrum muss von den Figuren kommen statt von Schlagzügen."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 e6": {
+    "strategy": "Verstärkt d5 und lädt zum Abtausch dort ein. Schwarz bekommt oft einen isolierten Bauern auf d5, sobald der c-Bauer getauscht ist, und nimmt diese Schwäche für freies Figurenspiel und offene Linien für die Läufer in Kauf. Eine konsequente, aktive Wahl."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 dxc4": {
+    "strategy": "Nimmt den Bauern auf c4 und akzeptiert, dass Weiß mit einem Bauern auf d5 Raum gewinnt, den Schwarz dann mit e6 angreift. Ein solider Weg, den isolierten Bauern zu vermeiden, doch das weiße Zentrum ist das größere, und das Spiel von Schwarz bleibt etwas passiv."
+  },
   "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3": {
     "strategy": "Ein natürlicher Entwicklungszug, der einen zweiten Angreifer auf d5 setzt und Schwarz auffordert, das Zentrum zu klären. Weiß legt noch keinen Bauern fest und behält die Option, auf d5 oder auf c5 zu tauschen, je nachdem, wie Schwarz das Zentrum verstärkt."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.cxd5": {
+    "strategy": "Löst die Spannung durch Abtausch: Nach ...Sxd5 kann Weiß den Springer mit e4 vertreiben und ein größeres Zentrum aufbauen. Der Preis ist, dass der schwarze Bauer c5 weiter d4 angreift, das Zentrum also Unterstützung braucht."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.e3": {
+    "strategy": "Stützt d4 und öffnet den Königsläufer, sperrt aber den Damenläufer ein und lässt Schwarz frei entscheiden, wie die Zentrumsspannung aufgelöst wird. Ein sicherer, bescheidener Aufbau, der auf eine ruhige Partie statt auf Vorteil zielt."
   },
   "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6": {
     "name": "Abgelehntes Damengambit: Semi-Tarrasch-Verteidigung",
     "background": "Benannt nach Siegbert Tarrasch.",
     "strategy": "Verstärkt d5 und öffnet den dunkelfeldrigen Läufer. Die Idee ist, dass Schwarz auf d5 mit dem Springer statt mit einem Bauern zurücknehmen kann und so einen isolierten Bauern vermeidet, zum Preis, Weiß die freiere Stellung zu überlassen."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 Nc6": {
+    "strategy": "Entwickelt und fügt d4 einen zweiten Angreifer hinzu, bevor der e-Bauer festgelegt wird. Es verzögert die feste Deckung von d5, sodass Weiß dort tauschen und die offenen Linien und das Zentrum nutzen kann, solange der schwarze König noch in der Mitte steht."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 cxd4": {
+    "strategy": "Tauscht den c-Bauern gegen den weißen d-Bauern und öffnet die c-Linie. Weiß schlägt mit dem Springer zurück, der sich im Zentrum festsetzt, und der Bauer d5 wird doppelt angegriffen, sodass Schwarz ihn bald stützen oder aufgeben muss."
   },
   "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5": {
     "name": "Abgelehntes Damengambit: Semi-Tarrasch-Verteidigung",
@@ -53,9 +107,6 @@
   },
   "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.Bg5": {
     "strategy": "Fesselt den Springer auf f6 an die Dame, sodass der Hauptverteidiger von d5 nicht frei ziehen kann. Weiß erhöht den Druck auf das Zentrum mit einer Figur, und Schwarz muss sich mit der Fesselung befassen, bevor die Spannung im Zentrum gelöst werden kann."
-  },
-  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.e3 Nc6": {
-    "strategy": "Die normale Antwort: Schwarz entwickelt sich, fügt d4 einen zweiten Angreifer hinzu und hält die Stellung symmetrisch. Weiß muss nun entscheiden, wie er das Zentrum behandelt: Schwarz einen isolierten Bauern geben, selbst einen annehmen oder die Symmetrie halten und mit dem zusätzlichen Tempo spielen."
   },
   "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5": {
     "strategy": "Schlägt mit dem Springer zurück, die Idee des ganzen Aufbaus: Schwarz vermeidet einen isolierten Bauern und stellt eine Figur ins Zentrum. Der Springer kann von den Figuren und Bauern von Weiß herausgefordert werden, und für die freie Entwicklung nimmt Schwarz einen Raumnachteil in Kauf."
@@ -69,14 +120,38 @@
   "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 cxd4 6.Qxd4": {
     "strategy": "Schlägt mit der Dame zurück, die im Zentrum steht, den Bauern auf d5 stützt und auf den Springer auf f6 zielt. Die Dame kann von den schwarzen Figuren belästigt werden, doch Weiß behält die bessere Struktur und die Wahl, wie er vereinfacht."
   },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 cxd4 6.Nxd4": {
+    "strategy": "Schlägt mit dem Springer zurück, der zentral steht, sodass die Damen auf dem Brett bleiben. Nimmt Schwarz auf d5 zurück, ist der isolierte Bauer dort das Ziel, doch der Springer auf d4 versperrt die eigene Dame, sodass der Druck Zeit braucht."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 cxd4 6.Nb5": {
+    "strategy": "Verliert eine Figur: Der Springer zieht nach b5, wo ...Da5+ den König angreift und zugleich den Springer, und keine Antwort rettet ihn."
+  },
   "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 cxd4 6.Qxd4 exd5": {
     "strategy": "Gewinnt den Bauern zurück und öffnet den Läufer auf f8. Schwarz nimmt eine Struktur mit einigen Schwächen in Kauf, im Austausch für einen sicheren, schnellen Weg zur Vereinfachung, und ein Remis ist auf höchster Ebene das normale Ergebnis."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 cxd4 6.Qxd4 Nxd5": {
+    "strategy": "Schlägt mit dem Springer zurück, sodass Schwarz einen isolierten Bauern vermeidet und den Springer auf c3 angreift. Der Preis ist, dass sich die Diagonale zur Dame öffnet: Lg5 greift sie mit Tempo an, und Weiß kommt zu der aktiveren Entwicklung."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 cxd4 6.Qxd4 Nc6": {
+    "strategy": "Greift die Dame an, verliert aber den Springer: Der Bauer auf d5 nimmt ihn, und das Zurückschlagen bringt nur einen Bauern zurück."
   },
   "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 exd5 6.g3": {
     "strategy": "Stellt den Königsläufer auf die lange Diagonale für langfristigen Druck auf den isolierten d5-Bauern, das Ziel, um das sich die ganze Struktur dreht. Weiß strebt einen langsamen positionellen Druck an."
   },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 exd5 6.Bg5": {
+    "strategy": "Die übliche Entwicklung gegen den isolierten Bauern: Der Läufer fesselt den Springer f6 gegen die Dame und bindet so einen der Verteidiger von d5. Weiß bekommt das freiere Spiel und ein dauerhaftes Ziel auf d5 und behält die Wahl, ob Figuren getauscht werden."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 exd5 6.dxc5": {
+    "strategy": "Nimmt den Bauern c5, doch ...Lxc5 gewinnt ihn sofort mit einem Entwicklungszug zurück. Weiß hat für die aufgewendete Zeit nichts Bleibendes gewonnen, und die schwarzen Figuren kommen schnell heraus."
+  },
   "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 exd5 6.g3 Nc6": {
     "strategy": "Entwickelt sich mit Druck auf d4, der übliche Weg für Schwarz, den isolierten d5-Bauern auszugleichen: aktive Figuren und freies Spiel. Das Spiel von Schwarz hängt davon ab, diese Aktivität zu nutzen, bevor der Druck von Weiß auf d5 wächst."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 exd5 6.g3 Be7": {
+    "strategy": "Entwickelt den Läufer und bereitet die Rochade vor, während der Bauer c5 gedeckt bleibt: Schlägt Weiß auf c5, nimmt der Läufer sofort zurück. Der Springer kann später noch nach c6 gehen, sodass Schwarz den Hauptaufbau mit anderer Zugfolge erreicht."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 exd5 6.g3 Be6": {
+    "strategy": "Entwickelt den Läufer außerhalb der Bauernkette und fügt d5 einen dritten Verteidiger hinzu, dem Bauern, auf den der weiße Läufer auf g2 Druck ausübt. Für den Druck auf d4 tut es nichts, und Sg5 kann den Läufer belästigen, sodass das Spiel von Schwarz passiv bleibt."
   },
   "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.e4": {
     "name": "Abgelehntes Damengambit: Semi-Tarrasch-Verteidigung, Abtauschvariante",
@@ -91,13 +166,40 @@
     "name": "Abgelehntes Damengambit: Semi-Tarrasch-Verteidigung",
     "strategy": "Bereitet das Fianchetto des Königsläufers für langsamen Druck auf das Zentrum vor. Spielbar, aber der Springer auf f3 versperrt die Diagonale des Läufers, und der zentralisierte schwarze Springer steht gut, sodass Weiß Schwarz Zeit schenkt, statt zu drohen."
   },
-  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.e4 Nxc3": {
-    "strategy": "Schlägt den Springer, bevor er vertrieben wird, und zwingt Weiß, mit dem b-Bauern zurückzunehmen, was den a-Bauern isoliert zurücklässt. Weiß behält das große Zentrum, und Schwarz wird es mit Figuren und Bauern angreifen, für ein ungefähr ausgeglichenes Spiel."
-  },
   "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.e3 Nc6": {
     "strategy": "Entwickelt sich und fügt d4 einen zweiten Angreifer hinzu, sodass das weiße Bauernzentrum verteidigt werden muss. Der zentralisierte Springer auf d5 steht gut, und die Aufgabe von Schwarz ist es, den Druck auf d4 in Gegenspiel zu verwandeln."
   },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.e3 Be7": {
+    "strategy": "Entwickelt und bereitet die Rochade vor, mit dem bereits gut platzierten Springer auf d5. Schwarz behält die Wahl, wann er d4 einen zweiten Angreifer hinzufügt oder das Zentrum öffnet, in einem flexiblen, soliden Aufbau."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.e3 cxd4": {
+    "strategy": "Tauscht sofort den c-Bauern gegen den weißen d-Bauern. Schlägt Weiß mit dem e-Bauern zurück, bleibt ihm ein isolierter Bauer auf d4; schlägt er mit dem Springer, steht dieser zentral, doch Weiß behält nur einen einzigen Zentrumsbauern."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.e4 Nxc3": {
+    "strategy": "Schlägt den Springer, bevor er vertrieben wird, und zwingt Weiß, mit dem b-Bauern zurückzunehmen, was den a-Bauern isoliert zurücklässt. Weiß behält das große Zentrum, und Schwarz wird es mit Figuren und Bauern angreifen, für ein ungefähr ausgeglichenes Spiel."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.e4 Nb6": {
+    "strategy": "Zieht sich zurück, statt auf c3 zu tauschen, sodass die weiße Bauernstruktur intakt bleibt und Weiß das große Zentrum behält. Der Springer steht auf b6 passiv, doch Schwarz behält die Figur und kann das Zentrum weiterhin angreifen."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.e4 Ne7": {
+    "strategy": "Zieht sich nach e7 zurück und vermeidet den Tausch, verliert aber Zeit und versperrt den dunkelfeldrigen Läufer, während Weiß das große Zentrum und die Initiative behält."
+  },
   "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.g3 Nc6": {
     "strategy": "Entwickelt sich mit Druck auf d4. Der zentralisierte Springer auf d5 wird vom e6-Bauern und der Dame verteidigt, sodass Schwarz die Entwicklung bequem abschließen kann, während d4 vom c-Bauern und vom Springer angegriffen wird."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.g3 Be7": {
+    "strategy": "Entwickelt und bereitet die Rochade vor, wobei der Springer auf seinem starken Zentralfeld bleibt. Da Weiß das langsame Fianchetto gewählt hat, kann Schwarz erst die Entwicklung abschließen, bevor er entscheidet, wie er d4 herausfordert."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.cxd5 Nxd5 6.g3 Nxc3": {
+    "strategy": "Tauscht den zentralen Springer gegen den weißen, sodass Weiß mit dem b-Bauern zurückschlagen muss, was den a-Bauern isoliert. Schwarz gibt den starken Springer auf d5 auf, und Weiß bekommt ein solides Bauernpaar auf c3 und d4."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.e3 Nc6": {
+    "strategy": "Die normale Antwort: Schwarz entwickelt sich, fügt d4 einen zweiten Angreifer hinzu und hält die Stellung symmetrisch. Weiß muss nun entscheiden, wie er das Zentrum behandelt: Schwarz einen isolierten Bauern geben, selbst einen annehmen oder die Symmetrie halten und mit dem zusätzlichen Tempo spielen."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.e3 Be7": {
+    "strategy": "Entwickelt und bereitet die Rochade vor, wobei der symmetrische Aufbau erhalten bleibt. Schwarz wartet ab, ob Weiß das Zentrum auflöst oder die Spannung hält, und verliert dadurch nichts."
+  },
+  "1.d4 d5 2.c4 c5 3.Nf3 Nf6 4.Nc3 e6 5.e3 dxc4": {
+    "strategy": "Schlägt auf c4 und zwingt Weiß, einen Zug auf das Zurückschlagen zu verwenden. Öffnet sich danach das Zentrum, kann Weiß einen isolierten Bauern auf d4 behalten, bekommt dafür aber aktive Figuren."
   }
 }

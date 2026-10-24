@@ -1,0 +1,275 @@
+{
+  "about": "After 1.e4 c5 2.f4: its moves and the positions they reach (docs/adr/0002-opening-modules-folded-to-a-size-budget.md). The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
+  "positions": [
+    {
+      "line": "1.e4 c5 2.f4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sicilian_Defence",
+        "https://de.wikipedia.org/wiki/Sizilianische_Verteidigung"
+      ],
+      "moves": [
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "Nc6",
+          "rating": 4
+        },
+        {
+          "san": "e5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.f4 e5"
+    },
+    {
+      "line": "1.e4 c5 2.f4 d5",
+      "moves": [
+        {
+          "san": "exd5",
+          "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        },
+        {
+          "san": "Nf3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.f4 d5 3.Nc3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sicilian_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.f4 d5 3.exd5",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "Qxd5",
+          "rating": 3
+        },
+        {
+          "san": "e6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.f4 d5 3.exd5 Nf6",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...c5/2._f4/2...d5",
+        "https://en.wikipedia.org/wiki/Sicilian_Defence"
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.f4 d5 3.Nf3",
+      "moves": [
+        {
+          "san": "dxe4",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.f4 d5 3.Nf3 dxe4"
+    },
+    {
+      "line": "1.e4 c5 2.f4 Nc6",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "Bc4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.f4 Nc6 3.Nf3",
+      "moves": [
+        {
+          "san": "g6",
+          "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 4
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.f4 Nc6 3.Nf3 e6",
+      "moves": [
+        {
+          "san": "Bb5",
+          "rating": 5
+        },
+        {
+          "san": "d3",
+          "rating": 4
+        },
+        {
+          "san": "c3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.f4 Nc6 3.Nf3 e6 4.d3"
+    },
+    {
+      "line": "1.e4 c5 2.f4 Nc6 3.Nf3 g6",
+      "moves": [
+        {
+          "san": "Bb5",
+          "rating": 5
+        },
+        {
+          "san": "Bc4",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.f4 Nc6 3.Nf3 g6 4.Bb5",
+      "moves": [
+        {
+          "san": "Bg7",
+          "rating": 5
+        },
+        {
+          "san": "Nd4",
+          "rating": 4
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.f4 Nc6 3.Nf3 g6 4.Bb5 Bg7",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        },
+        {
+          "san": "c3",
+          "rating": 4
+        },
+        {
+          "san": "Bxc6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.f4 Nc6 3.Nf3 g6 4.Bb5 Bg7 5.Bxc6",
+      "moves": [
+        {
+          "san": "bxc6",
+          "rating": 5
+        },
+        {
+          "san": "dxc6",
+          "rating": 4
+        },
+        {
+          "san": "Nf6",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.f4 Nc6 3.Nf3 g6 4.Bb5 Bg7 5.Bxc6 bxc6",
+      "moves": [
+        {
+          "san": "O-O",
+          "rating": 5
+        },
+        {
+          "san": "d3",
+          "rating": 4
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.f4 Nc6 3.Nf3 g6 4.Bb5 Bg7 5.Bxc6 bxc6 6.O-O",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        },
+        {
+          "san": "e6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.f4 Nc6 3.Nf3 g6 4.Bb5 Bg7 5.Bxc6 bxc6 6.O-O d6"
+    },
+    {
+      "line": "1.e4 c5 2.f4 Nc6 3.Nf3 g6 4.Bb5 Bg7 5.c3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 4
+        },
+        {
+          "san": "a6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 c5 2.f4 Nc6 3.Nf3 g6 4.Bb5 Bg7 5.c3 Nf6"
+    }
+  ]
+}

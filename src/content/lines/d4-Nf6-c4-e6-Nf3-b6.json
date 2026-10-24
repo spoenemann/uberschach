@@ -1,5 +1,5 @@
 {
-  "about": "After 1.d4 Nf6 2.c4 e6 3.Nf3 b6: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.d4 Nf6 2.c4 e6 3.Nf3 b6: the moves the named lines play from here on on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6",
@@ -27,36 +27,9 @@
       ]
     },
     {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3",
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.Bf4",
       "sources": [
         "https://en.wikipedia.org/wiki/Queen%27s_Indian_Defense"
-      ],
-      "moves": [
-        {
-          "san": "Ba6",
-          "rating": 5
-        },
-        {
-          "san": "Bb7",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.Nc3",
-      "moves": [
-        {
-          "san": "Bb7",
-          "rating": 5
-        },
-        {
-          "san": "Bb4",
-          "rating": 4
-        },
-        {
-          "san": "d5",
-          "rating": 3
-        }
       ]
     },
     {
@@ -72,25 +45,11 @@
         {
           "san": "Ba6",
           "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.e3",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Queen%27s_Indian_Defense"
-      ],
-      "moves": [
+        },
         {
-          "san": "Bb7",
-          "rating": 5
+          "san": "c5",
+          "rating": 4
         }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.Bf4",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Queen%27s_Indian_Defense"
       ]
     },
     {
@@ -98,7 +57,15 @@
       "moves": [
         {
           "san": "Qc2",
-          "rating": 4
+          "rating": 5
+        },
+        {
+          "san": "Nbd2",
+          "rating": 3
+        },
+        {
+          "san": "Qa4",
+          "rating": 3
         }
       ]
     },
@@ -107,6 +74,14 @@
       "moves": [
         {
           "san": "Bb7",
+          "rating": 5
+        },
+        {
+          "san": "c5",
+          "rating": 3
+        },
+        {
+          "san": "Be7",
           "rating": 3
         }
       ]
@@ -120,6 +95,14 @@
         {
           "san": "Nc3",
           "rating": 5
+        },
+        {
+          "san": "Bg5",
+          "rating": 3
+        },
+        {
+          "san": "e3",
+          "rating": 3
         }
       ]
     },
@@ -162,6 +145,14 @@
         {
           "san": "cxd5",
           "rating": 5
+        },
+        {
+          "san": "Bg5",
+          "rating": 3
+        },
+        {
+          "san": "e3",
+          "rating": 3
         }
       ]
     },
@@ -175,6 +166,10 @@
         {
           "san": "exd5",
           "rating": 4
+        },
+        {
+          "san": "Bxd5",
+          "rating": 2
         }
       ]
     },
@@ -185,11 +180,39 @@
       "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.a3 Bb7 5.Nc3 d5 6.cxd5 exd5"
     },
     {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.e3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Queen%27s_Indian_Defense"
+      ],
+      "moves": [
+        {
+          "san": "Bb7",
+          "rating": 5
+        },
+        {
+          "san": "c5",
+          "rating": 4
+        },
+        {
+          "san": "d5",
+          "rating": 3
+        }
+      ]
+    },
+    {
       "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.e3 Bb7",
       "moves": [
         {
           "san": "Bd3",
           "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 4
+        },
+        {
+          "san": "Be2",
+          "rating": 3
         }
       ]
     },
@@ -202,6 +225,10 @@
         },
         {
           "san": "c5",
+          "rating": 4
+        },
+        {
+          "san": "Be7",
           "rating": 4
         }
       ]
@@ -219,18 +246,9 @@
         {
           "san": "Nc3",
           "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.e3 Bb7 5.Bd3 c5 6.O-O",
-      "moves": [
-        {
-          "san": "Be7",
-          "rating": 5
         },
         {
-          "san": "g6",
+          "san": "dxc5",
           "rating": 3
         }
       ]
@@ -240,12 +258,37 @@
       "moves": [
         {
           "san": "cxd4",
+          "rating": 5
+        },
+        {
+          "san": "Nc6",
           "rating": 4
+        },
+        {
+          "san": "d5",
+          "rating": 3
         }
       ]
     },
     {
       "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.e3 Bb7 5.Bd3 c5 6.Nc3 cxd4"
+    },
+    {
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.e3 Bb7 5.Bd3 c5 6.O-O",
+      "moves": [
+        {
+          "san": "Be7",
+          "rating": 5
+        },
+        {
+          "san": "cxd4",
+          "rating": 4
+        },
+        {
+          "san": "g6",
+          "rating": 3
+        }
+      ]
     },
     {
       "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.e3 Bb7 5.Bd3 c5 6.O-O Be7"
@@ -254,201 +297,21 @@
       "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.e3 Bb7 5.Bd3 c5 6.O-O g6"
     },
     {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Ba6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Queen%27s_Indian_Defense"
-      ],
+      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.Nc3",
       "moves": [
         {
-          "san": "b3",
+          "san": "Bb7",
           "rating": 5
         },
         {
-          "san": "Qa4",
-          "rating": 3
-        },
-        {
-          "san": "Qb3",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Ba6 5.b3",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Queen%27s_Indian_Defense"
-      ],
-      "moves": [
-        {
-          "san": "Bb4+",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Ba6 5.Qa4"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Ba6 5.Qb3"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Ba6 5.b3 Bb4+",
-      "moves": [
-        {
-          "san": "Bd2",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Ba6 5.b3 Bb4+ 6.Bd2",
-      "moves": [
-        {
-          "san": "Be7",
-          "rating": 5
-        },
-        {
-          "san": "Qe7",
+          "san": "Bb4",
           "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Ba6 5.b3 Bb4+ 6.Bd2 Be7"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Ba6 5.b3 Bb4+ 6.Bd2 Qe7"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Queen%27s_Indian_Defense"
-      ],
-      "moves": [
-        {
-          "san": "Bg2",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 5.Bg2",
-      "moves": [
-        {
-          "san": "Be7",
-          "rating": 5
         },
-        {
-          "san": "Bb4+",
-          "rating": 3
-        },
-        {
-          "san": "c5",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 5.Bg2 Bb4+",
-      "moves": [
-        {
-          "san": "Bd2",
-          "rating": 5
-        },
-        {
-          "san": "Nbd2",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 5.Bg2 Bb4+ 6.Bd2",
-      "moves": [
-        {
-          "san": "Bxd2+",
-          "rating": 5
-        },
-        {
-          "san": "Be7",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 5.Bg2 Bb4+ 6.Nbd2",
-      "moves": [
-        {
-          "san": "O-O",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 5.Bg2 Bb4+ 6.Bd2 Bxd2+"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 5.Bg2 Bb4+ 6.Bd2 Be7"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 5.Bg2 Bb4+ 6.Nbd2 O-O"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 5.Bg2 Be7",
-      "moves": [
-        {
-          "san": "O-O",
-          "rating": 5
-        },
-        {
-          "san": "Nc3",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 5.Bg2 Be7 6.O-O",
-      "moves": [
-        {
-          "san": "O-O",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 5.Bg2 Be7 6.Nc3",
-      "moves": [
-        {
-          "san": "Ne4",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 5.Bg2 Be7 6.Nc3 Ne4"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 5.Bg2 Be7 6.O-O O-O"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 5.Bg2 c5",
-      "moves": [
         {
           "san": "d5",
           "rating": 3
         }
       ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 5.Bg2 c5 6.d5",
-      "moves": [
-        {
-          "san": "exd5",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 5.Bg2 c5 6.d5 exd5"
     },
     {
       "line": "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.Nc3 Bb7",
@@ -460,6 +323,10 @@
         {
           "san": "Bg5",
           "rating": 4
+        },
+        {
+          "san": "e3",
+          "rating": 3
         }
       ]
     },
@@ -469,6 +336,14 @@
         {
           "san": "h6",
           "rating": 5
+        },
+        {
+          "san": "Be7",
+          "rating": 4
+        },
+        {
+          "san": "Bb4",
+          "rating": 4
         }
       ]
     },
@@ -478,6 +353,14 @@
         {
           "san": "Bh4",
           "rating": 5
+        },
+        {
+          "san": "Bxf6",
+          "rating": 3
+        },
+        {
+          "san": "Bf4",
+          "rating": 3
         }
       ]
     },
@@ -487,6 +370,14 @@
         {
           "san": "g5",
           "rating": 5
+        },
+        {
+          "san": "Bb4",
+          "rating": 4
+        },
+        {
+          "san": "Be7",
+          "rating": 3
         }
       ]
     },
@@ -498,7 +389,15 @@
       "moves": [
         {
           "san": "cxd5",
+          "rating": 5
+        },
+        {
+          "san": "Bg5",
           "rating": 4
+        },
+        {
+          "san": "e3",
+          "rating": 3
         }
       ]
     },
@@ -507,7 +406,15 @@
       "moves": [
         {
           "san": "exd5",
+          "rating": 5
+        },
+        {
+          "san": "Nxd5",
           "rating": 4
+        },
+        {
+          "san": "Qxd5",
+          "rating": 1
         }
       ]
     },
@@ -516,7 +423,15 @@
       "moves": [
         {
           "san": "Bg5",
+          "rating": 5
+        },
+        {
+          "san": "e3",
           "rating": 4
+        },
+        {
+          "san": "Bf4",
+          "rating": 3
         }
       ]
     },
@@ -526,6 +441,14 @@
         {
           "san": "Be7",
           "rating": 5
+        },
+        {
+          "san": "Bb7",
+          "rating": 3
+        },
+        {
+          "san": "c6",
+          "rating": 3
         }
       ]
     },

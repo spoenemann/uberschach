@@ -1,0 +1,360 @@
+{
+  "about": "After 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4: its moves and the positions they reach (docs/adr/0002-opening-modules-folded-to-a-size-budget.md). The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
+  "positions": [
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Evans_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "Bxb4",
+          "rating": 5
+        },
+        {
+          "san": "Bb6",
+          "rating": 3
+        },
+        {
+          "san": "d5",
+          "rating": 3
+        },
+        {
+          "san": "b5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 d5"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 b5"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Evans_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "a4",
+          "rating": 5
+        },
+        {
+          "san": "Bb2",
+          "rating": 3
+        },
+        {
+          "san": "b5",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.Bb2"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.a4",
+      "moves": [
+        {
+          "san": "a6",
+          "rating": 5
+        },
+        {
+          "san": "a5",
+          "rating": 3
+        },
+        {
+          "san": "Nf6",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.a4 a6",
+      "moves": [
+        {
+          "san": "Nc3",
+          "rating": 5
+        },
+        {
+          "san": "c3",
+          "rating": 3
+        },
+        {
+          "san": "O-O",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.a4 a6 6.Nc3"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.b5",
+      "moves": [
+        {
+          "san": "Na5",
+          "rating": 5
+        },
+        {
+          "san": "Nd4",
+          "rating": 3
+        },
+        {
+          "san": "Nce7",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.b5 Na5",
+      "moves": [
+        {
+          "san": "Nxe5",
+          "rating": 5
+        },
+        {
+          "san": "Be2",
+          "rating": 3
+        },
+        {
+          "san": "Bb3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.b5 Na5 6.Nxe5",
+      "moves": [
+        {
+          "san": "Qg5",
+          "rating": 5
+        },
+        {
+          "san": "Nh6",
+          "rating": 4
+        },
+        {
+          "san": "Nxc4",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.b5 Na5 6.Nxe5 Qg5"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.b5 Na5 6.Nxe5 Nh6"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4",
+      "moves": [
+        {
+          "san": "c3",
+          "rating": 5
+        },
+        {
+          "san": "O-O",
+          "rating": 3
+        },
+        {
+          "san": "Bb2",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3",
+      "moves": [
+        {
+          "san": "Ba5",
+          "rating": 5
+        },
+        {
+          "san": "Be7",
+          "rating": 4
+        },
+        {
+          "san": "Bd6",
+          "rating": 4
+        },
+        {
+          "san": "Bc5",
+          "rating": 2
+        },
+        {
+          "san": "Bf8",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bd6",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Evans_Gambit"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bf8",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Evans_Gambit"
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "O-O",
+          "rating": 3
+        },
+        {
+          "san": "Qb3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4",
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "exd4",
+          "rating": 4
+        },
+        {
+          "san": "b5",
+          "rating": 2
+        },
+        {
+          "san": "Nf6",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4 d6"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4 exd4"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4 b5"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4 Nf6"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.O-O",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e5/2._Nf3/2...Nc6/3._Bc4/3...Bc5/4._b4",
+        "https://en.wikipedia.org/wiki/Evans_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        },
+        {
+          "san": "Nge7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.O-O d6"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.O-O Nf6"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5",
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "O-O",
+          "rating": 3
+        },
+        {
+          "san": "Qb3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.d4",
+      "moves": [
+        {
+          "san": "exd4",
+          "rating": 5
+        },
+        {
+          "san": "Bb6",
+          "rating": 3
+        },
+        {
+          "san": "Bd6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.d4 exd4"
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Be7",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Evans_Gambit"
+      ],
+      "moves": [
+        {
+          "san": "d4",
+          "rating": 5
+        },
+        {
+          "san": "Qb3",
+          "rating": 3
+        },
+        {
+          "san": "O-O",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Be7 6.d4",
+      "moves": [
+        {
+          "san": "Na5",
+          "rating": 5
+        },
+        {
+          "san": "exd4",
+          "rating": 3
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Be7 6.d4 Na5"
+    }
+  ]
+}

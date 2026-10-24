@@ -4,24 +4,85 @@
     "background": "Obwohl sie schon 1590 analysiert wurde, wurde sie erst in den 1920er-Jahren eingehend erforscht. Die beiden Weltmeisterschaftskämpfe zwischen Aljechin und Euwe 1935 und 1937 stellten sie gründlich auf die Probe, und Wladimir Kramnik spielte sie bei der Weltmeisterschaft 2006 in sechs seiner acht Schwarzpartien."
   },
   "1.d4 d5 2.c4 c6 3.Nf3": {
-    "strategy": "Der Hauptzug: Er entwickelt den Springer, deckt d4 und e5 und legt Weiß auf nichts fest. Weiß kann die Spannung auf c4 halten, sie mit einem Abtausch auf d5 auflösen oder einen zentralen Bauerndurchbruch vorbereiten, sodass Schwarz seinen Aufbau zuerst zeigen muss.",
-    "name": "Slawische Verteidigung: Moderne Variante"
+    "strategy": "Der Hauptzug: Er entwickelt den Springer, deckt d4 und e5 und legt Weiß auf nichts fest. Weiß kann die Spannung auf c4 halten, sie mit einem Abtausch auf d5 auflösen oder einen zentralen Bauerndurchbruch vorbereiten, sodass Schwarz seinen Aufbau zuerst zeigen muss."
   },
   "1.d4 d5 2.c4 c6 3.Nc3": {
-    "strategy": "Fügt einen zweiten Angreifer auf d5 hinzu und hält den Vorstoß e4 bereit. Außerdem macht der Zug das natürliche ...Lf5 zu einem Fehler: cxd5 und Db3 greifen dann b7 und d5 gleichzeitig an und gewinnen einen Bauern. Schwarz muss sich entscheiden, ob es den c-Bauern schlägt oder eine stabile Bauernkette aufbaut.",
-    "name": "Slawische Verteidigung"
+    "name": "Slawische Verteidigung",
+    "strategy": "Fügt einen zweiten Angreifer auf d5 hinzu und hält den Vorstoß e4 bereit. Außerdem macht der Zug das natürliche ...Lf5 zu einem Fehler: cxd5 und Db3 greifen dann b7 und d5 gleichzeitig an und gewinnen einen Bauern. Schwarz muss sich entscheiden, ob es den c-Bauern schlägt oder eine stabile Bauernkette aufbaut."
   },
   "1.d4 d5 2.c4 c6 3.cxd5": {
-    "strategy": "Löst die Spannung sofort auf und führt zu einer symmetrischen Bauernstruktur mit auf beiden Seiten offener c-Linie. Schwarz gleicht ohne Mühe aus, sodass Weiß nur den Mehrzug und eine ruhige Partie behält, oft die Wahl, wenn ein Remis willkommen ist.",
     "name": "Slawische Verteidigung: Abtauschvariante",
-    "background": "Einst als „das System, das Schwarz den Spaß am Spielen der Slawischen Verteidigung nimmt“ beschrieben, wird sie oft als Remiswaffe verwendet."
+    "background": "Einst als „das System, das Schwarz den Spaß am Spielen der Slawischen Verteidigung nimmt“ beschrieben, wird sie oft als Remiswaffe verwendet.",
+    "strategy": "Löst die Spannung sofort auf und führt zu einer symmetrischen Bauernstruktur mit auf beiden Seiten offener c-Linie. Schwarz gleicht ohne Mühe aus, sodass Weiß nur den Mehrzug und eine ruhige Partie behält, oft die Wahl, wenn ein Remis willkommen ist."
   },
   "1.d4 d5 2.c4 c6 3.e4": {
-    "strategy": "Opfert den e-Bauern für ein breites Zentrum und schnelle Entwicklung. Schwarz schlägt einfach mit ...dxe4 und steht einen Bauern im Plus, sodass Weiß in Entwicklung und Raum im Zentrum ausreichend Kompensation finden muss.",
-    "name": "Slawische Verteidigung: Diemer-Gambit"
+    "name": "Slawische Verteidigung: Diemer-Gambit",
+    "strategy": "Opfert den e-Bauern für ein breites Zentrum und schnelle Entwicklung. Schwarz schlägt einfach mit ...dxe4 und steht einen Bauern im Plus, sodass Weiß in Entwicklung und Raum im Zentrum ausreichend Kompensation finden muss."
   },
   "1.d4 d5 2.c4 c6 3.cxd5 cxd5": {
     "strategy": "Schlägt zurück und hält die Bauernstruktur symmetrisch, sodass es in der Partie darauf ankommt, wer das ruhige Mittelspiel besser behandelt. Mit der Dame zurückzunehmen ist schlechter: Sc3 greift sie sofort an, und Weiß gewinnt ein Tempo und freie Hand im Zentrum."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 Nf6": {
+    "strategy": "Verzichtet auf das Zurückschlagen und entwickelt sich stattdessen, in der Hoffnung, den Bauern mit Entwicklungsvorsprung zurückzugewinnen. Weiß nimmt einfach auf c6, und nach ...Sxc6 steht Schwarz einen Bauern im Minus, mit nur schneller Entwicklung und offenen Linien als Ausgleich."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 Qxd5": {
+    "strategy": "Schlägt zu früh mit der Dame zurück. Sc3 greift sie sofort an, und wenn sie weicht, hat Weiß sich mit Tempo entwickelt und kann in Ruhe ein breites Bauernzentrum aufbauen."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3": {
+    "strategy": "Die Hauptart, den Abtausch zu spielen: Der Springer entwickelt sich mit Druck auf d5 und hält die Spannung. Weiß hofft, dass sich der Mehrzug bemerkbar macht; Schwarz muss d5 verteidigen und sich genau entwickeln, um die Symmetrie zu halten."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Bf4": {
+    "strategy": "Entwickelt den Läufer außerhalb der Bauernkette, bevor e3 ihn einsperren kann, mit Blick auf c7 und das Feld e5. Er übt keinen Druck auf d5 aus, sodass Schwarz sich frei entwickelt; Weiß verlässt sich auf den Mehrzug und einen reibungslosen Aufbau statt auf eine direkte Drohung."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nf3": {
+    "strategy": "Der ruhige Weg: Der Springer deckt d4 und e5 und lässt Weiß alle Möglichkeiten offen, auf dem Weg zum völlig symmetrischen Aufbau, in dem jede Figur gut steht. Es ist die sichere Wahl, denn Schwarz bekommt ein leichtes Spiel und Weiß kaum mehr als den Mehrzug."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6": {
+    "strategy": "Beantwortet den Druck auf d5 mit einem zweiten Verteidiger und entwickelt sich in Richtung des Feldes e4. Schwarz behält die Symmetrie und eine solide Stellung, ohne Schwächen, die Weiß angreifen könnte."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nc6": {
+    "strategy": "Entwickelt den Damenspringer sofort, greift d4 an, deckt e5 und lässt dem Königsspringer die Wahl des Feldes. Vorerst wird d5 nur von der Dame gedeckt, daher muss Schwarz sich genau entwickeln; die symmetrische Struktur hält die Partie ausgeglichen."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 e6": {
+    "strategy": "Stützt d5 mit einem Bauern, sodass keine Figur es verteidigen muss, sperrt aber den Läufer c8 hinter dem Bauern ein. Solide und ohne Schwächen, doch der Läufer bleibt lange die Problemfigur von Schwarz, und Weiß wählt mit dem Mehrzug, wie er sich aufbaut."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Nf3": {
+    "strategy": "Solide Entwicklung: Der Springer deckt d4 und steuert eine ruhige, symmetrische Stellung an, in der jede Figur gut steht. Weiß behält den Mehrzug, doch die Symmetrie bietet kaum mehr als eine sichere Partie; Schwarz hat nichts zu befürchten, aber auch wenig anzugreifen."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.f3": {
+    "name": "Slawische Verteidigung: Abtauschvariante, Boor-Angriff",
+    "strategy": "Bereitet e2-e4 vor, um ein breites Bauernzentrum aufzubauen und die Symmetrie zu brechen. Der Preis ist die Entwicklung: Der Bauer nimmt dem Königsspringer das Feld f3 und öffnet die Diagonale e1-h4, sodass Schwarz zuerst im Zentrum zuschlagen kann."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Bf4": {
+    "strategy": "Die häufigste Art, die Abtauschvariante zu spielen: Der Läufer kommt außerhalb der Bauernkette heraus, bevor e3 ihn einschließen kann, und Weiß behält die Wahl, wie er den Königsspringer platziert. Er überwacht c7 und e5; Schwarz muss mit genauer Entwicklung dagegenhalten, um die Symmetrie zu wahren."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Nf3 Nc6": {
+    "strategy": "Spiegelt die Entwicklung von Weiß und setzt den Springer dorthin, wo er d4 angreift und e5 deckt. Schwarz behält die symmetrische Struktur und hat keine Schwächen, sodass die Partie ausgeglichen und ruhig bleibt, solange Weiß keinen Weg findet, den Mehrzug zu nutzen."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Nf3 e6": {
+    "strategy": "Verteidigt d5 ein zweites Mal mit einem Bauern und öffnet den Läufer f8, schließt aber den Läufer c8 hinter dem Bauern e6 ein. Solide und symmetrisch, doch es gibt die Chance auf, diesen Läufer aktiv zu entwickeln, und Weiß behält das freiere Spiel."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Nf3 a6": {
+    "strategy": "Ein Wartezug: Er nimmt dem weißen Springer das Feld b5 und lässt die Entwicklung offen, wobei der Läufer c8 noch frei ist. Er bringt keine Figur ins Spiel, sodass Schwarz einen soliden Aufbau erst ein Tempo hinter dem gespiegelten erreicht."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Nf3 Nc6 6.Bf4": {
+    "strategy": "Entwickelt den Läufer außerhalb der Bauernkette, bevor e3 ihn einsperren kann, nimmt die Diagonale in Richtung c7 und b8 und kontrolliert e5. Es ist die natürliche Art, den Mehrzug zu nutzen, und Schwarz muss entscheiden, wie es nachzieht."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Nf3 Nc6 6.e3": {
+    "strategy": "Stützt d4 und öffnet den Läufer f1 für einen soliden Aufbau, sperrt aber den Läufer c1 ein und lässt Schwarz ...Lg4 spielen, das den Springer f3 an die Dame fesselt. Weiß behält ein gesundes Zentrum, aber wenig Druck."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Nf3 Nc6 6.Bg5": {
+    "strategy": "Entwickelt den Läufer nach g5 und setzt den Springer f6 unter Druck, doch der Springer ist zweimal gedeckt, sodass nichts droht und der Läufer mit ...h6 oder ...Se4 herausgefordert werden kann. Solide, aber zweitklassig, da er Schwarz ein Tempoziel bietet."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Nf3 Nc6 6.Bf4 Bf5": {
+    "name": "Slawische Verteidigung: Abtauschvariante, Symmetrische Variante",
+    "strategy": "Spiegelt den Läufer und vervollständigt eine völlig symmetrische Stellung, in der jede Figur gut steht und keine Seite ein Angriffsziel hat. Schwarz hat mit einfachen Mitteln Ausgleich erreicht; wer mehr als ein Remis will, muss die Stellung aus dem Gleichgewicht bringen."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Nf3 Nc6 6.Bf4 a6": {
+    "strategy": "Bricht die Spiegelung mit Absicht: Der Bauer nimmt dem weißen Springer das Feld b5 und wartet, sodass Schwarz erst entscheidet, wohin der Läufer geht, wenn Weiß sich festgelegt hat. Er kostet ein Tempo für einen Zug, der nicht entwickelt, was sich in einer so ruhigen Stellung leisten lässt."
+  },
+  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Nf3 Nc6 6.Bf4 e6": {
+    "strategy": "Verteidigt d5 mit einem Bauern und bereitet den Tausch der dunkelfeldrigen Läufer durch ...Ld6 vor, sperrt aber den Läufer c8 ein. Solide und einfach, doch Schwarz tauscht den aktiven Läuferzug des symmetrischen Aufbaus gegen einen passiven."
   },
   "1.d4 d5 2.c4 c6 3.Nc3 Nf6": {
     "strategy": "Entwickelt sich mit Druck auf e4 und fügt d5 einen zweiten Verteidiger hinzu, sodass Schwarz den Druck beantwortet, ohne den e-Bauern vorzuziehen oder auf c4 zu schlagen. Nun entscheidet Weiß, was für eine Partie daraus wird."
@@ -36,200 +97,215 @@
     "background": "Von Szymon Winawer in seiner Partie gegen Frank Marshall in Monte Carlo 1901 eingeführt, ist sie in Partien auf hohem Niveau selten zu sehen.",
     "strategy": "Ein Gegengambit, das einen Bauern für schnelle Entwicklung opfert: Nach dxe5 vertreibt ...d4 den Springer auf c3, und Schwarz gewinnt den Bauern meist zurück. Weiß bleibt in der Entwicklung voraus, sodass Schwarz beweisen muss, dass sich das Opfer gelohnt hat."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6": {
-    "strategy": "Die natürliche Hauptvariante: Schwarz entwickelt sich, deckt d5 ein zweites Mal und kontrolliert e4. Alle Aufbauten bleiben offen, vom Schlagen des Bauern auf c4 bis zum Semi-Slawischen Bauernaufbau, und Weiß entscheidet nun, ob die Partie scharf oder ruhig wird."
-  },
-  "1.d4 d5 2.c4 c6 3.Nf3 e6": {
-    "strategy": "Stützt d5 solide, sperrt aber den weißfeldrigen Läufer ein, genau die Figur, die der Bauer c6 befreien sollte. Weil der Springer auf f3 statt auf c3 steht, kann Weiß die scharfen Varianten vermeiden, auf die Schwarz gehofft hat, und ein ruhiges, bequemes Spiel führen."
-  },
-  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3": {
-    "strategy": "Die Hauptart, den Abtausch zu spielen: Der Springer entwickelt sich mit Druck auf d5 und hält die Spannung. Weiß hofft, dass sich der Mehrzug bemerkbar macht; Schwarz muss d5 verteidigen und sich genau entwickeln, um die Symmetrie zu halten."
-  },
-  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6": {
-    "strategy": "Beantwortet den Druck auf d5 mit einem zweiten Verteidiger und entwickelt sich in Richtung des Feldes e4. Schwarz behält die Symmetrie und eine solide Stellung, ohne Schwächen, die Weiß angreifen könnte."
-  },
-  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Nf3": {
-    "strategy": "Solide Entwicklung: Der Springer deckt d4 und steuert eine ruhige, symmetrische Stellung an, in der jede Figur gut steht. Weiß behält den Mehrzug, doch die Symmetrie bietet kaum mehr als eine sichere Partie; Schwarz hat nichts zu befürchten, aber auch wenig anzugreifen."
-  },
-  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.f3": {
-    "name": "Slawische Verteidigung: Abtauschvariante, Boor-Angriff",
-    "strategy": "Bereitet e2-e4 vor, um ein breites Bauernzentrum aufzubauen und die Symmetrie zu brechen. Der Preis ist die Entwicklung: Der Bauer nimmt dem Königsspringer das Feld f3 und öffnet die Diagonale e1-h4, sodass Schwarz zuerst im Zentrum zuschlagen kann."
-  },
-  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Nf3 Nc6": {
-    "strategy": "Spiegelt die Entwicklung von Weiß und setzt den Springer dorthin, wo er d4 angreift und e5 deckt. Schwarz behält die symmetrische Struktur und hat keine Schwächen, sodass die Partie ausgeglichen und ruhig bleibt, solange Weiß keinen Weg findet, den Mehrzug zu nutzen."
-  },
-  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Nf3 Nc6 6.Bf4": {
-    "strategy": "Entwickelt den Läufer außerhalb der Bauernkette, bevor e3 ihn einsperren kann, nimmt die Diagonale in Richtung c7 und b8 und kontrolliert e5. Es ist die natürliche Art, den Mehrzug zu nutzen, und Schwarz muss entscheiden, wie es nachzieht."
-  },
-  "1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nc3 Nf6 5.Nf3 Nc6 6.Bf4 Bf5": {
-    "name": "Slawische Verteidigung: Abtauschvariante, Symmetrische Variante",
-    "strategy": "Spiegelt den Läufer und vervollständigt eine völlig symmetrische Stellung, in der jede Figur gut steht und keine Seite ein Angriffsziel hat. Schwarz hat mit einfachen Mitteln Ausgleich erreicht; wer mehr als ein Remis will, muss die Stellung aus dem Gleichgewicht bringen."
-  },
   "1.d4 d5 2.c4 c6 3.Nc3 dxc4 4.e4": {
     "name": "Slawische Verteidigung: Slawisches Gambit, Aljechin-Angriff",
     "strategy": "Baut sofort ein großes Bauernzentrum auf und lässt den Bauern auf c4 für später stehen. Der Preis ist, dass der Springer auf c3 das Rückzugsfeld e4 verliert, was ins Gewicht fällt, sobald die Damenflügelbauern von Schwarz vorrücken. Weiß spielt auf Raum und Initiative, Schwarz auf Gegenspiel am Damenflügel."
   },
+  "1.d4 d5 2.c4 c6 3.Nc3 dxc4 4.e3": {
+    "strategy": "Bereitet vor, den Bauern mit dem Läufer zurückzugewinnen, und hält e4 als Rückzugsfeld für den Springer c3 frei. Schwarz versucht, den Bauern durch Vorrücken am Damenflügel zu halten, und es geht darum, ob dieser Vorstoß der Entwicklung des Weißen davonläuft."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 dxc4 4.a4": {
+    "strategy": "Verhindert ...b5, bevor es beginnt, sodass der Bauer c4 nicht mit Gewalt gehalten werden kann. Doch der Zug kostet Zeit am Flügel und erlaubt Schwarz, sofort mit ...e5 im Zentrum zuzuschlagen, was bequem ausgleicht."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 dxc4 4.Nf3": {
+    "strategy": "Entwickelt den Springer und lässt die Wahl des Zentrums für später offen, verhindert aber ...b5 nicht, sodass Schwarz den Mehrbauern vorerst behalten kann. Die Stellung bleibt ausgeglichen, wobei Weiß seine Kompensation in der Entwicklung finden muss."
+  },
   "1.d4 d5 2.c4 c6 3.Nc3 e5 4.e4": {
     "name": "Slawische Verteidigung: Winawer-Gegengambit, Anti-Winawer-Gambit",
-    "strategy": "Bietet einen zweiten Bauern an in der Hoffnung, das Zentrum zu öffnen, doch Schwarz nimmt einfach: Nach ...exd4 greift der Bauer den Springer auf c3 an, und Schwarz behält das Mehrmaterial. Weiß hat für die Bauern nichts Greifbares vorzuweisen."
+    "strategy": "Greift das Zentrum sofort an, statt auf e5 zu nehmen. Schwarz schlägt auf d4 und dann auf e4, doch Weiß gewinnt beide Bauern mit Dame und Springer zurück, die Damen kommen vom Brett, und Schwarz verliert das Rochaderecht. Das Ergebnis ist ausgeglichen, das weiße Zentrum ist verschwunden."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3": {
-    "strategy": "Begegnet dem abgelehnten Aufbau solide: Der Bauer öffnet dem Läufer auf f1 den Weg, um c4 zu verteidigen, sodass ...dxc4 Schwarz nichts einbringt. Weiß hält den Springer auf b1 flexibel und behält einen kleinen, sicheren Vorteil, während der weißfeldrige Läufer von Schwarz hinter den Bauern eingesperrt bleibt."
+  "1.d4 d5 2.c4 c6 3.Nc3 e5 4.dxe5": {
+    "strategy": "Nimmt den angebotenen Bauern. Schwarz gewinnt ihn nur auf Kosten von Zeit zurück: Der Springer wird vertrieben, und Weiß hat am Ende mehr Figuren entwickelt und das ruhigere Spiel. Das Nehmen ist die prinzipielle Antwort und behält einen kleinen, dauerhaften Vorteil."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.Qc2": {
-    "strategy": "Verteidigt c4 mit der Dame statt mit einem Bauern, sodass ...dxc4 seinen Sinn verliert, während der Läufer auf c1 noch nicht durch e3 eingesperrt ist. Die Dame steht auf c2 etwas exponiert, aber Weiß hat weiterhin die freie Wahl zwischen langsamen und scharfen Plänen."
+  "1.d4 d5 2.c4 c6 3.Nc3 e5 4.cxd5": {
+    "strategy": "Räumt das Zentrum, bevor über den Bauern e5 entschieden wird, und hält alle Pläne offen: ihn zu schlagen, d4 zu stützen oder ein Bauernzentrum aufzubauen. Schwarz hat keine Schwierigkeiten, aber der Abtausch gibt den leichten Vorteil auf, den das Schlagen auf e5 behält."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.Nc3": {
-    "strategy": "Entwickelt den Springer und steuert den vollen Semi-Slawischen Aufbau an. Weiß nimmt in Kauf, dass Schwarz nun auf c4 schlagen und um den Bauern kämpfen kann, was zu scharfem, gründlich analysiertem Spiel mit Chancen für beide Seiten führt."
+  "1.d4 d5 2.c4 c6 3.Nc3 e5 4.e3": {
+    "strategy": "Lehnt das Gambit ab, indem es d4 stützt; nach ...exd4 und dem Zurückschlagen hat Weiß eine offene e-Linie und ein gesundes Zentrum, doch Schwarz gleicht mühelos aus. Sicher und solide, ohne den Vorteil, den das Nehmen des Bauern behält."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6": {
-    "strategy": "Entwickelt den Springer, der d5 deckt und e4 kontrolliert, und behält die Semi-Slawische Struktur bei. Da Weiß keinen Springer nach c3 gestellt hat, bestimmt Weiß von hier aus weiterhin den Aufbau."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3": {
+    "strategy": "Der Hauptzug: Er entwickelt den Springer, deckt d4 und e5 und lässt den Läufer auf c1 frei, vor e3 herauszukommen. Weiß behält größtmögliche Flexibilität und lässt Schwarz zuerst Farbe bekennen."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.Qc2 dxc4": {
-    "strategy": "Nimmt den Bauern sofort, sodass die weiße Dame auf c4 zurückschlagen muss, wo Bauernvorstöße und Springerzüge sie vertreiben und Tempo gewinnen können. Schwarz gibt die Spannung im Zentrum auf und erhält dafür eine einfache Entwicklung mit Tempogewinn."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3": {
+    "strategy": "Stützt d4 und öffnet die Diagonale des Läufers auf f1, sodass ...dxc4 einfach Lxc4 erlaubt. Der Preis ist ein eingesperrter Läufer auf c1 und ein langsamerer Plan; Weiß erhält ein solides Zentrum und eine flexible Partie statt einer schnellen Initiative."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6 5.Nc3": {
-    "strategy": "Die Standardentwicklung: Sie erhöht den Druck auf d5 und e4 und lenkt die Partie in die Hauptvariante des Semi-Slawischen, in der der Kampf um den Bauern c4 und der Damenflügel entscheiden. Weiß legt den Springer auf c3 fest und nimmt den scharfen, strategisch reichen Kampf an."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.cxd5": {
+    "strategy": "Löst die Spannung sofort auf und steuert eine symmetrische Bauernstruktur an, mit dem Springer bereits auf c3. Es vermeidet die Komplikationen der Slawischen Verteidigung, gibt aber auch die Spannung im Zentrum und damit die meisten Gewinnchancen des Weißen auf."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6 5.Nbd2": {
-    "name": "Halbslawische Verteidigung: Ruhige Variante",
-    "strategy": "Eine ruhigere Art der Entwicklung: Der Springer schützt c4 und unterstützt einen Vorstoß e4, während c3 frei bleibt. Weiß weicht der Theorie der Hauptvariante für ein langsames, flexibles Spiel aus, und Schwarz kann nicht mit dem üblichen Tempogewinn durch das Schlagen auf c4 rechnen."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6": {
+    "strategy": "Stützt d5 solide und lässt die Entwicklung am Königsflügel frei, zum Preis, dass der Läufer auf c8 vorerst eingesperrt ist. Schwarz nimmt einen etwas passiven Läufer für ein stabiles Zentrum und spätere Bauerndurchbrüche in Kauf, während auch der Läufer auf c1 von Weiß durch e3 eingeengt ist."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6 5.Nbd2 Nbd7": {
-    "name": "Halbslawische Verteidigung: Ruhige Variante",
-    "strategy": "Ein flexibler Entwicklungszug, der einen späteren zentralen Vorstoß unterstützt. Schwarz wartet, bis Weiß den Läufer festgelegt hat, bevor er auf c4 schlägt, sodass der Zeitgewinn beim Zurückschlagen des Läufers erhalten bleibt."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 g6": {
+    "strategy": "Bereitet ein Fianchetto am Königsflügel vor und lässt den Läufer auf c8 frei, statt ihn mit ...e6 einzusperren. Solide, aber langsamer als die übliche Bauernkette: Weiß bekommt Zeit, im Zentrum aufzubauen, während der Läufer auf g7 hinter seinem eigenen Springer wartet."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6 5.Nbd2 Ne4": {
-    "strategy": "Besetzt sofort e4, doch der Springer wird vom Springer auf d2 angegriffen und nur vom d-Bauern gedeckt, sodass Schwarz ihn stützen muss. Der Aufbau gibt Schwarz eine feste Bauernkette und Raum am Königsflügel, aber ein schwaches Feld e5 und einen passiven weißfeldrigen Läufer."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 a6": {
+    "strategy": "Ein flexibler Wartezug: Er nimmt dem weißen Springer das Feld b5 und bereitet ...b5 vor, sodass ein späteres Schlagen auf c4 gehalten werden kann. Schwarz behält die Wahl zwischen einem soliden und einem offenen Aufbau, zum Preis, im Zentrum noch nichts zu tun."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6 5.Nbd2 g6": {
-    "name": "Abgelehntes Damengambit: Spielmann-Variante",
-    "strategy": "Ein ungewöhnliches Fianchetto, das den klassischen Semi-Slawischen Aufbau aufgibt. Es ist solide, aber langsam, und der Läufer auf g7 wirkt auf ein Zentrum, das Weiß noch mit Bauern besetzen kann."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3": {
+    "name": "Halbslawische Verteidigung: Hauptvariante",
+    "strategy": "Entwickelt den Springer, deckt d4 und e5 und hält den Läufer auf f1 bereit, auf c4 zurückzunehmen. Nach e3 ist der dunkelfeldrige Läufer eingesperrt, und Weiß steuert eine solide Zentrumspartie an statt einer Fesselung des Springers auf f6."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6 5.Nbd2 Nbd7 6.Bd3": {
-    "strategy": "Entwickelt den Läufer auf seine beste Diagonale, auf h7 gerichtet, und bereitet die Rochade vor. Er stützt auch einen späteren Vorstoß e4 des Springers, sodass Weiß in solider Struktur auf zentrale Ausdehnung spielt."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Bd3": {
+    "strategy": "Bringt den Läufer sofort auf seine aktivste Diagonale, auf h7 gerichtet, und lässt die Wahl des Springerfeldes offen. Doch Schwarz kann sofort auf c4 nehmen: Nach Lxc4 jagt ...b5 den Läufer zurück, und Schwarz gewinnt mit Tempo Raum am Damenflügel."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6 5.Nbd2 Nbd7 6.Bd3 c5": {
-    "name": "Abgelehntes Damengambit: Semmering-Variante",
-    "strategy": "Greift d4 an, bevor Weiß rochiert hat, und tauscht die solide Stütze c6 gegen Aktivität. Schwarz öffnet das Zentrum, und der Bauer d5 kann isoliert werden, sodass der Zug langfristige Solidität gegen Spielfreiheit eintauscht."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Qb3": {
+    "strategy": "Deckt c4 mit der Dame und zielt auf b7, sodass Schwarz durch das Schlagen auf c4 kein Tempo gewinnt. Doch die Dame steht früh und exponiert, und die Entwicklung des Weißen hinkt hinterher, was Schwarz erlaubt, sich fertig zu entwickeln und mühelos auszugleichen."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6 5.Nbd2 Ne4 6.Bd3": {
-    "strategy": "Greift den Springer auf e4 ein zweites Mal an: Mit dem Springer auf d2 würde Sxe4 dxe4 Lxe4 einen Bauern gewinnen. Schwarz muss den Springer sofort abtauschen oder verstärken."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7": {
+    "name": "Halbslawische Verteidigung: Normalvariante",
+    "strategy": "Der Standardentwicklungszug: Der Springer deckt e5, kontrolliert b6 und unterstützt die befreienden Durchbrüche im Zentrum. Schwarz nimmt eine kompakte, etwas beengte Stellung mit weiterhin eingesperrtem Läufer auf c8 in Kauf und wartet, bis sich Weiß festlegt, bevor es zwischen einem zentralen Durchbruch und Damenflügelexpansion wählt."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.e3 Nf6 5.Nbd2 Ne4 6.Bd3 f5": {
-    "name": "Abgelehntes Damengambit: Stonewall-Variante",
-    "strategy": "Verstärkt den Springer mit einer Bauernkette auf d5, e6 und f5. Der Springer hat einen stabilen Vorposten und Schwarz gewinnt Raum am Königsflügel, um den Preis eines geschwächten Feldes e5 und eines weißfeldrigen Läufers, der hinter den eigenen Bauern eingeengt ist."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 a6": {
+    "name": "Halbslawische Verteidigung: Beschleunigte Meran-Variante",
+    "strategy": "Bereitet ...b5 im Voraus vor, damit ein späteres ...dxc4 gestützt werden kann, und lässt den Springer auf b8 sein Feld frei wählen. Schwarz verbraucht ein Tempo für den Randbauern, gewinnt aber Flexibilität für die Expansion am Damenflügel."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.Qc2 dxc4 5.Qxc4": {
-    "strategy": "Gewinnt den Bauern sofort mit der Dame zurück und hält das Bauernzentrum intakt. Der Preis ist eine Dame auf c4, die Schwarz mit Tempo angreifen kann, sodass Weiß sich mit Blick darauf entwickeln muss. Das natürliche Zurückschlagen und der Sinn des Damenzugs nach c2."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Ne4": {
+    "strategy": "Greift den Springer auf c3 an und bietet einen Abtausch an, um die beengte Stellung von Schwarz zu entlasten. Der Preis ist, dass Weiß mit dem b-Bauern zurücknehmen und ein starkes Zentrum gewinnen kann, während Schwarz einen zweiten Zug mit demselben Springer verbraucht hat."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 e6 4.Qc2 dxc4 5.Qxc4 Nf6": {
-    "strategy": "Entwickelt den Springer und hält ...b5 in Reserve, um Tempo gegen die Dame auf c4 zu gewinnen, sodass Weiß sich nicht frei entwickeln kann. Schwarz hat eine solide Struktur und leichtes Spiel; der Läufer c8 kommt später heraus, sobald die Bauern am Damenflügel ziehen."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Bd6": {
+    "strategy": "Stellt den Läufer auf seine natürliche Diagonale, mit Blick auf h2 und zur Unterstützung eines Durchbruchs mit ...e5. Solide, aber zweitklassig: Der Läufer legt sich fest, bevor Weiß seinen Aufbau zeigt, und mit dem weiterhin eingesperrten Läufer auf c8 hat Schwarz wenig gegen das eigentliche Problem getan."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3": {
-    "strategy": "Die Hauptvariante des Slawischen: Der Springer erhöht den Druck auf d5 und macht ein frühes ...Lf5 teuer, weil cxd5 mit anschließendem Db3 b7 und d5 zugleich angreift. Weiß wählt den anspruchsvollsten Weg, auf dem Schwarz entscheiden muss, wie er dem Druck auf das Zentrum begegnet."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 a6 6.Bd3": {
+    "strategy": "Entwickelt den Läufer auf seine beste Diagonale und lädt Schwarz ein, den Bauern zu nehmen. Nach dem Schlagen nimmt Weiß zurück und spielt auf den Vorstoß im Zentrum, während Schwarz mit Tempo auf den Läufer Raum am Damenflügel gewinnt. Ein reiches, zweischneidiges Spiel: Weiß bekommt das Zentrum, Schwarz den Damenflügel."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3": {
-    "name": "Slawische Verteidigung: Ruhige Variante",
-    "strategy": "Ein bescheidener Zug: Der Bauer öffnet den weißfeldrigen Läufer und verteidigt c4, während der Springer auf b1 flexibel bleibt. Er sperrt den Läufer auf c1 ein, und Weiß nimmt ein ruhigeres Spiel in Kauf, in dem Schwarz den weißfeldrigen Läufer aus der Bauernkette herausbringen kann."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 a6 6.c5": {
+    "strategy": "Beansprucht Raum und schließt den Damenflügel, was ...dxc4 und das mit ...a6 vorbereitete Spiel am Damenflügel ausschließt. Den schwarzen Figuren fehlt dadurch Platz, doch der vorgerückte Bauer wird zum Ziel, das Schwarz vom Flügel her unterminieren kann, sodass Weiß ihn stützen muss."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nbd2": {
-    "name": "Slawische Verteidigung: Breyer-Variante",
-    "strategy": "Ein ruhiger Entwicklungszug: Der Springer schützt c4 und unterstützt e4, während c3 frei bleibt. Weiß strebt statt der Theorie der Hauptvariante einen langsamen Aufbau mit Königsfianchetto an, was Schwarz Zeit gibt, den weißfeldrigen Läufer aus der Bauernkette herauszubringen."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 a6 6.b3": {
+    "strategy": "Stützt c4 mit einem Bauern und bereitet vor, den Läufer auf der langen Diagonale zu entwickeln, wobei die Spannung im Zentrum bleibt. Es kostet ein Tempo am Flügel, was Schwarz Zeit gibt, die Entwicklung abzuschließen."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qc2": {
-    "strategy": "Verteidigt c4 mit der Dame und hält ...Lf5 in Schach, da der Läufer auf seiner Diagonale auf die Dame träfe. Weiß behält eine flexible Stellung, aber die Dame steht auf c2 etwas exponiert."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 a6 6.Bd3 dxc4": {
+    "strategy": "Nimmt den Bauern und räumt d5, gibt das Zentrum für Expansion am Damenflügel und Tempogewinn gegen den Läufer auf. Da ...a6 bereits gespielt ist, steht der Bauernvorstoß gegen den Läufer sofort bereit. Schwarz spielt dann darauf, den Läufer c8 durch einen Schlag gegen das Zentrum von Weiß zu befreien."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.g3": {
-    "strategy": "Strebt ein Königsfianchetto an, doch die Zugfolge ist ungenau: Schwarz kann den weißfeldrigen Läufer sofort außerhalb der Bauernkette entwickeln, sodass der Fianchetto-Aufbau weniger wirksam ist als in Varianten, in denen dieser Läufer eingesperrt bleibt."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 a6 6.Bd3 Bd6": {
+    "strategy": "Entwickelt den Läufer auf seine aktive Diagonale, auf h2 gerichtet, und behält den Bauern d5, statt das Zentrum gegen Raum am Damenflügel aufzugeben. Schwarz bereitet die Rochade und den Durchbruch mit ...e5 vor und nimmt hin, dass der weiße Läufer auf seinem besten Feld d3 steht."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.cxd5": {
-    "strategy": "Löst die Spannung sofort auf und steuert eine symmetrische Bauernstruktur mit offener c-Linie an. Weiß gibt den Druck auf d5 auf und behält nur den Mehrzug, sodass die Partie zu einem ruhigen, remisnahen Mittelspiel neigt."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 a6 6.Bd3 Nbd7": {
+    "strategy": "Entwickelt den Damenspringer und unterstützt ...e5 und ...c5, wobei das Schlagen auf c4 in Reserve bleibt. Doch er blockiert den Läufer c8 und überlässt Weiß die Entscheidung über die Struktur, sei es durch Tausch auf d5 oder durch Vorrücken im Zentrum."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Bg5": {
-    "name": "Slawische Verteidigung: Bonet-Gambit",
-    "strategy": "Ein Gambit, das c4 ungedeckt und den Königsflügel unentwickelt lässt: Schwarz kann den Bauern einfach nehmen, und der Bauer c6 bietet eine Basis, ihn zu halten. Weiß muss für den Bauern Kompensation in der Entwicklung nachweisen."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Bd6 6.Bd3": {
+    "strategy": "Entwickelt den Läufer auf seine aktivste Diagonale, auf h7 gerichtet, und bereitet die Rochade vor. Schlägt Schwarz auf c4, muss der Läufer dort zurückschlagen und Weiß verliert ein Tempo, nimmt dies aber in Kauf, um das Zentrum zu halten und auf ein langes positionelles Spiel zu setzen."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.cxd5 cxd5": {
-    "name": "Slawische Verteidigung: Abtauschvariante",
-    "strategy": "Schlägt mit dem c-Bauern zurück, stellt eine symmetrische Struktur wieder her und öffnet die c-Linie. Schwarz überlässt Weiß nur den Vorteil des ersten Zuges, und das Mittelspiel verläuft meist ruhig, wobei Türme und Figuren die Linie hinab abgetauscht werden."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Bd6 6.Qc2": {
+    "strategy": "Richtet die Dame auf die Diagonale b1-h7 und hält den Läufer f1 flexibel: Nach ...dxc4 schlägt er in einem Zug zurück, ohne Tempoverlust. Der Preis ist ein langsamerer Aufbau, da Schwarz rochiert und ...e5 vorbereitet, ohne gehetzt zu werden."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5": {
-    "name": "Slawische Verteidigung: Ruhige Variante, Schallopp-Verteidigung",
-    "strategy": "Bringt den weißfeldrigen Läufer außerhalb der Bauernkette, die Idee des Slawischen, bevor ...e6 ihn einsperren kann. Schwarz muss cxd5 und Db3 nicht fürchten, denn der Springer auf f6 deckt d5, und die Gabel der Dame auf b7 und d5 funktioniert nicht."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Bd6 6.b3": {
+    "strategy": "Stützt c4 mit einem Bauern und bereitet die lange Diagonale für den Läufer c1 vor, wobei die Spannung bleibt. Es kostet einen Zug am Flügel, und Schwarz rochiert derweil und baut sich auf, mit dem Läufer bereits auf h2 gerichtet."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bg4": {
-    "name": "Slawische Verteidigung: Ruhige Variante, Fesselungsverteidigung",
-    "strategy": "Entwickelt den Läufer außerhalb der Bauernkette und fesselt den Springer auf f3 gegen die Dame. Weiß muss sich bald mit der Fesselung befassen, und Schwarz tauscht den Läufer auf Verlangen gern gegen den Springer ab, in einem soliden, aber passiven Spiel."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Bd6 6.Bd3 dxc4": {
+    "strategy": "Schlägt den Bauern genau dann, wenn sich der Läufer auf d3 festgelegt hat: Er muss auf c4 zurückschlagen, sodass Weiß ein Tempo verliert. Schwarz gibt den Griff des Bauern d5 auf das Zentrum auf, gewinnt aber Zeit, die Stellung mit einem zentralen Bauernvorstoß zu befreien."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 e6": {
-    "strategy": "Steuert eine Semi-Slawische Kette an, sperrt aber den weißfeldrigen Läufer ein. Da Weiß keinen Springer nach c3 gestellt hat, behält Weiß nützliche Alternativen, und die Stellung von Weiß ist die bequemere."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Bd6 6.Bd3 Nbd7": {
+    "strategy": "Baut das kompakte Zentrum auf, mit Bauern auf d5 und e6, einem Läufer auf d6 und Springern auf d7 und f6, und hält ...dxc4 in Reserve, bis es etwas einbringt. Der Läufer c8 bleibt eingesperrt, sodass Schwarz einen zentralen Durchbruch braucht, um ihn zu befreien."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.g3 dxc4": {
-    "strategy": "Nimmt den Bauern, solange das Fianchetto c4 noch nicht gesichert hat. Weiß muss ihn mit Figurenspiel zurückgewinnen, und Schwarz hat den Bauern c6 als Basis, ihn zu halten, riskiert aber einen Entwicklungsrückstand."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Bd6 6.Bd3 O-O": {
+    "strategy": "Bringt den König sofort in Sicherheit und hebt das Schlagen auf c4 für später auf, im Vertrauen darauf, dass der Springer f6 h7 gegen den Läufer auf d3 deckt. Es unternimmt nichts gegen die Spannung auf c4, sodass Weiß wählen kann, auf d5 zu tauschen oder im Zentrum vorzurücken."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.g3 Bg4": {
-    "strategy": "Bringt den weißfeldrigen Läufer sofort aus der Bauernkette und setzt den Springer auf f3 unter Druck, der e5 deckt. Schwarz nimmt in Kauf, dass der fianchettierte Läufer von Weiß um die lange Diagonale kämpfen wird."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Bd3": {
+    "name": "Halbslawische Verteidigung: Hauptvariante",
+    "background": "Sie provoziert die Meraner Variante (6...dxc4 7.Lxc4 b5), die 1906 in der Partie Schlechter–Perlis erstmals gespielt wurde. Die Variante trägt ihren Namen nach der Stadt Meran, wo sie bei einem Turnier 1924 in der Partie Grünfeld–Rubinstein erfolgreich eingesetzt wurde.",
+    "strategy": "Richtet den Läufer auf den Königsflügel und lädt Schwarz ein, das Zentrum zu öffnen: Schlägt Schwarz auf c4, nimmt der Läufer zurück, und ...b5 gewinnt Zeit gegen ihn. Weiß spielt auf einen zentralen Vorstoß e4, Schwarz im Tausch für das Zentrum auf Expansion am Damenflügel; die Partie ist scharf und zweischneidig."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qc2 e6": {
-    "strategy": "Stützt d5 und hält die Spannung im Zentrum. Der Läufer auf c8 ist vorerst eingesperrt, kann aber später über b7 herauskommen, sobald Schwarz auf c4 geschlagen und den b-Bauern vorgezogen hat. Schwarz gewinnt ein solides Zentrum auf Kosten einiger Freiheit für diesen Läufer."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Qc2": {
+    "name": "Halbslawische Verteidigung: Stoltz-Variante",
+    "background": "Nach dem schwedischen Großmeister Gösta Stoltz benannt, war sie einst eine Nebenvariante und wurde in den 1990er-Jahren sehr beliebt, zu einem großen Teil durch Anatoli Karpows Fürsprache.",
+    "strategy": "Wartet, bevor es den Läufer platziert: Die Dame stützt e4 und zielt auf h7 entlang der Diagonale b1-h7, und Weiß entscheidet erst, wohin der Läufer geht, wenn Schwarz sich auf ...dxc4 festgelegt hat. Die Partie wird langsamer, und Weiß behält eine flexible Zentrumsstruktur."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.cxd5 cxd5 5.Nc3": {
-    "strategy": "Entwickelt sich und erhöht den Druck auf d5, während die symmetrische Struktur erhalten bleibt. Der Mehrzug gibt Weiß nur eine kleine Initiative, daher ist dies eine sichere Art, auf einen leichten Vorteil statt auf den Sieg zu spielen."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.b3": {
+    "strategy": "Deckt den Bauern auf c4, sodass ...dxc4 ihn nie gewinnt, und bereitet den Läufer auf der langen Diagonale vor, obwohl ihm der Springer auf c3 im Weg steht. Langsam: Schwarz hat Zeit, die Entwicklung zu vollenden."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.Nc3": {
-    "strategy": "Die anspruchsvollste Entwicklung: Der Springer erhöht den Druck auf d5 und hält die Option eines Vorstoßes offen, um den Läufer auf f5 zu vertreiben und das Läuferpaar zu gewinnen. Weiß strebt einen kleinen, dauerhaften Vorteil an, während Schwarz eine solide Stellung hat."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Ne5": {
+    "name": "Halbslawische Verteidigung: Rubinstein-System",
+    "strategy": "Besetzt e5 und drückt auf d7 und f7. Weiß verbraucht einen zweiten Zug mit demselben Springer, ohne eine neue Figur zu entwickeln, und Schwarz kann ihn herausfordern und abtauschen, sodass der Raumgewinn klein ist."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.cxd5": {
-    "strategy": "Löst die Spannung auf und steuert eine symmetrische Struktur an, mit dem Damenausfall nach b3 in Reserve. Der dunkelfeldrige Läufer von Weiß bleibt durch e3 eingesperrt, und Schwarz kann dem Damenvorstoß bequem begegnen."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.b3 Bd6": {
+    "strategy": "Entwickelt den Läufer auf seiner besten Diagonale, zielt auf h2 und bereitet Rochade und den Durchbruch ...e5 vor. Mit b3 hat Weiß am Damenflügel Zeit verbraucht, sodass Schwarz die Entwicklung ohne Probleme abschließt und um das Zentrum kämpft."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.cxd5 cxd5": {
-    "strategy": "Schlägt mit dem c-Bauern zurück, behält die symmetrische Struktur und die offene c-Linie. Der Läufer auf f5 ist bereits entwickelt, was diesen Abtausch für Schwarz sicher macht."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.b3 dxc4": {
+    "strategy": "Löst die Spannung durch Schlagen auf: Schwarz erhält einen klaren Plan gegen beide Rückschläge, einen zentralen Durchbruch gegen das Bauernzentrum nach bxc4 oder einen Vorstoß am Damenflügel gegen den Läufer nach Lxc4. Es gibt den Halt des Bauern d5 im Zentrum auf, doch Weiß hat mit b3 bereits Zeit am Flügel verbraucht."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.Nc3 e6": {
-    "name": "Slawische Verteidigung: Ruhige Variante, Schallopp-Verteidigung",
-    "strategy": "Festigt d5 und öffnet den Läufer auf f8. Weiß kann das Läuferpaar gewinnen, indem er den Läufer auf f5 mit einem Springer vertreibt, doch Schwarz erhält eine gesunde Stellung mit Gegenspiel durch einen zentralen Vorstoß."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.b3 b6": {
+    "strategy": "Bereitet das Fianchetto des Damenläufers vor, doch der Bauer c6 blockiert diesen Läufer bis ...c5, was das kompakte Zentrum aufgibt. Spielbar, aber langsam: Schwarz verbraucht ein Tempo für einen Plan, der erst nach einem Bauerndurchbruch funktioniert."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.cxd5 cxd5 6.Nc3": {
-    "name": "Slawische Verteidigung: Abtauschvariante, Schallopp-Variante",
-    "strategy": "Entwickelt sich mit Druck auf d5 und hält den Damenausfall in Reserve. Die Struktur ist symmetrisch, der Bauer e3 schränkt den Läufer auf c1 ein, und Weiß spielt mit dem Mehrzug auf einen kleinen Vorteil."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Bd3 dxc4": {
+    "strategy": "Schlägt jetzt auf c4, da sich der Läufer von Weiß auf d3 festgelegt hat: Nach Lxc4 gewinnt ...b5 ein Tempo gegen ihn. Schwarz tauscht das Zentrum gegen Raum und Aktivität am Damenflügel, während Weiß im Zentrum freie Hand bekommt; das Ergebnis ist ein zweischneidiger Kampf."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.cxd5 cxd5 6.Qb3": {
-    "strategy": "Greift b7 und d5 zugleich an, in der Hoffnung, dass der Läufer von Schwarz den Damenflügel verlassen hat. Der Springer auf f6 deckt d5, sodass Schwarz nur die Drohung gegen b7 beantworten muss, und der Ausfall bringt Weiß nicht mehr als einen kleinen, aktiven Vorteil."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Bd3 Bd6": {
+    "name": "Halbslawische Verteidigung: Tschigorin-Verteidigung",
+    "background": "Bei Weitem die beliebteste Variante, bevor die Meraner Variante aufkam, wurde sie vom amerikanischen Großmeister Arthur Bisguier während seiner gesamten Laufbahn vertreten.",
+    "strategy": "Unterstützt den Durchbruch ...e5 und zielt auf den Bauern h2, sodass auf einen eigenen zentralen Vorstoß von Weiß sofort geantwortet werden kann. Schwarz verzögert ...dxc4 und behält mehr vom Bauernzentrum."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.cxd5 cxd5 6.Nc3 e6": {
-    "strategy": "Festigt d5 und öffnet den Läufer auf f8, eine solide Art, dem Druck zu begegnen. Schwarz hat eine stabile, nahezu symmetrische Struktur und muss nur darauf achten, das Läuferpaar nicht zu verlieren."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Bd3 Be7": {
+    "name": "Halbslawische Verteidigung: Bogoljubow-Variante",
+    "strategy": "Solide, aber passiv: Der Läufer bereitet den Durchbruch ...e5 nicht vor, sodass Weiß im Zentrum aufbauen kann und wenig zu befürchten hat. Schwarz rochiert schnell, bekommt aber wenig Gegenspiel."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.cxd5 cxd5 6.Qb3 Qc8": {
-    "strategy": "Verteidigt b7 von c8 aus, doch das ist ein passives Feld für die Dame. Es hält alles zusammen, während Weiß das aktivere Spiel behält."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Bd3 Bb4": {
+    "name": "Halbslawische Verteidigung: Romih-Variante",
+    "background": "Vom italienischen Meister Max Romih eingeführt.",
+    "strategy": "Fesselt den Springer auf c3 an den König, was e4 vorerst zurückhält. Die Fesselung ist leicht zu lösen, und wenn Schwarz auf c3 tauscht, nimmt Weiß mit dem b-Bauern zurück und behält das Läuferpaar, sodass der Zug wenig bringt."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.g3 Bg4 5.Bg2": {
-    "strategy": "Vollendet das Fianchetto: Der Läufer stützt das Zentrum auf der langen Diagonale und bereitet die Rochade vor. Weiß nimmt den Druck auf den Springer auf f3 im Austausch für einen harmonischen Aufbau in Kauf."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Qc2 Bd6": {
+    "strategy": "Entwickelt den Läufer mit Blick auf h2 und unterstützt den Durchbruch ...e5. Schwarz schlägt noch nicht auf c4, sodass der Läufer von Weiß kein Ziel hat und Schwarz flexibel bleibt, mit zentralem Gegenspiel als Hauptplan."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.g3 Bg4 5.Bg2 e6": {
-    "strategy": "Stützt endlich d5 und öffnet den Läufer auf f8. Der Läufer auf c8 steht bereits außerhalb der Bauernkette, sodass der Zug ihn nicht blockiert, und Schwarz erhält eine solide Struktur."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Qc2 b6": {
+    "strategy": "Bereitet vor, den Damenläufer nach b7 zu bringen, doch dieser Läufer wird vom Bauern auf c6 blockiert, bis Schwarz ...c5 spielt, was das kompakte Zentrum aufgibt. Der Plan ist langsam und gibt Weiß Zeit, im Zentrum aufzubauen."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.g3 Bg4 5.Bg2 e6 6.O-O": {
-    "name": "Slawische Verteidigung: Moderne Variante",
-    "strategy": "Bringt den König in Sicherheit und vollendet die Entwicklung des Königsflügels. Der Läufer auf g2 hält die lange Diagonale auf den Damenflügel von Schwarz gerichtet, und Weiß hat ein bequemes, harmonisches Spiel."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Nbd7 6.Qc2 Be7": {
+    "strategy": "Solide und flexibel, aber passiv: Der Läufer auf e7 unterstützt den befreienden Durchbruch ...e5 nicht und zielt nicht wie auf d6 auf h2, sodass Schwarz weniger Gegenspiel hat. Weiß kann in Ruhe aufbauen."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.g3 dxc4 5.Bg2": {
-    "strategy": "Entwickelt den Läufer auf die lange Diagonale und bereitet die Rochade vor. Weiß schlägt nicht sofort zurück: Der Bauer c4 ist ungedeckt, Schwarz muss Zeit aufwenden, ihn zu halten, und Weiß antwortet mit Druck auf das Zentrum und den Damenflügel."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Ne4 6.Bd3": {
+    "strategy": "Greift den Springer ein zweites Mal an: Der Springer c3 und der Läufer nehmen beide e4 ins Visier, das nur vom Bauern d5 gedeckt ist, sodass Schwarz es stützen, abtauschen oder ziehen muss. Tauscht Schwarz auf c3, schlägt Weiß zum Zentrum hin zurück und erhält ein breites Bauernzentrum um den Preis von Doppelbauern auf der c-Linie."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.g3 dxc4 5.Bg2 g6": {
-    "name": "Slawische Verteidigung: Moderne Variante",
-    "strategy": "Begegnet dem Fianchetto mit einem eigenen Fianchetto: Der Läufer auf g7 bestreitet die lange Diagonale und setzt d4 unter Druck. Schwarz versucht nicht, den Bauern c4 direkt zu verteidigen, und verlässt sich auf Entwicklung und Gegendruck."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Ne4 6.Nxe4": {
+    "strategy": "Tauscht den eingedrungenen Springer sofort, doch ...dxe4 greift den Springer f3 an, der weichen muss, sodass Schwarz ein Tempo und einen Bauern auf e4 gewinnt, der den weißen Königsflügel einengt. Weiß kann den Bauern angreifen, aber Schwarz kann ihn stützen, daher bringt der Tausch Weiß keinen Vorteil."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qc2 e6 5.Nbd2": {
-    "strategy": "Gibt c4 einen zweiten Wächter und stützt ein späteres e4: Schlägt Schwarz auf c4, nimmt der Springer zurück, und die Dame wird nicht durch ...b5 vertrieben. Der Preis ist, dass der Springer den Läufer c1 blockiert, was zu einem ruhigen Aufbau mit Fianchetto am Königsflügel besser passt als zu einem schnellen Durchbruch im Zentrum."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Ne4 6.Qc2": {
+    "strategy": "Fügt e4 einen zweiten Angreifer hinzu, sodass Schwarz auf c3 tauschen oder den Springer mit ...f5 stützen muss, was den Königsflügel schwächt. Die Dame kommt früh heraus, und der Läufer bleibt flexibel; der Tausch auf c3 lässt Weiß ein gesundes Zentrum."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qc2 e6 5.Nbd2 Be7": {
-    "strategy": "Entwickelt den Läufer und bereitet die Rochade vor, während Schwarz abwartet, wie Weiß sich festlegt. Ein bescheidener, solider Zug: Schwarz behält das Bauernzentrum und alle Möglichkeiten, den Läufer c8 später zu befreien. Der Preis ist Passivität, da Weiß Gelegenheit bekommt, langsam aufzubauen."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Ne4 6.Bd3 f5": {
+    "name": "Halbslawische Verteidigung: Stonewall-Verteidigung",
+    "strategy": "Stützt den Springer auf e4 mit dem f-Bauern, baut eine Bauernmauer auf c6, d5, e6 und f5 und schafft dem Springer einen festen Vorposten. Der Preis ist von Dauer: Das Feld e5 bleibt Weiß überlassen, und der Läufer c8 bleibt hinter den eigenen Bauern eingesperrt."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qc2 e6 5.Nbd2 Be7 6.g3": {
-    "strategy": "Wählt einen Aufbau mit Fianchetto: Der Königsläufer wird auf der langen Diagonale stehen und auf d5 und den Damenflügel drücken. Weiß entwickelt sich ruhig und hält die Spannung im Zentrum, wobei er auf langsamen Druck auf die weißen Felder spielt statt auf einen schnellen Durchbruch im Zentrum."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Ne4 6.Bd3 Nxc3": {
+    "strategy": "Der Springer auf e4 wird zweimal angegriffen und nur vom Bauern d5 gehalten, daher tauscht Schwarz ihn gegen den Springer auf c3. Weiß muss mit dem b-Bauern zurücknehmen, was die c-Bauern verdoppelt und den Damenflügel lockert, erhält dafür aber ein breites Zentrum, das Schwarz sofort angreifen kann."
   },
-  "1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qc2 e6 5.Nbd2 Be7 6.g3 Nbd7": {
-    "strategy": "Bringt die letzte Leichtfigur ins Spiel, stützt den Springer auf f6 und deckt e5, sodass Schwarz rochieren und eine kompakte, flexible Struktur behalten kann. Schwarz wartet auf den richtigen Moment, um auf c4 zu schlagen oder das Zentrum zu halten."
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 Ne4 6.Bd3 Nf6": {
+    "strategy": "Der Springer kehrt auf sein Ausgangsfeld zurück, was zwei Züge für nichts kostet. Die Bauernstruktur ist wieder die ruhige halbslawische Kette, doch Weiß hat das nützliche Ld3 geschenkt bekommen und kann in Ruhe rochieren und das Zentrum vorbereiten."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 g6 5.Nf3": {
+    "strategy": "Entwickelt den Springer und deckt d4 und e5, die Felder, auf die ein fianchettierter Läufer auf g7 zielen wird. Weiß behält ein kompaktes Zentrum und wartet ab, wie sich der Aufbau von Schwarz entwickelt."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 g6 5.Bd3": {
+    "strategy": "Deckt c4 und bereitet e4 sowie die Rochade vor, legt den Läufer aber vor dem Springer fest. Schwarz kann auf c4 schlagen und den zurücknehmenden Läufer mit ...b5 vertreiben, sodass Weiß den Bauern zurückgewinnt, Schwarz aber Raum am Damenflügel gewinnt."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 g6 5.cxd5": {
+    "strategy": "Klärt das Zentrum sofort, indem der Bauer getauscht wird, der Schwarz am Damenflügel einengt. Die Partie wird ruhig und symmetrisch, das Zentrum des Weißen besteht nur aus d4 und e3, und mit der geöffneten c-Linie hat Weiß kaum mehr als den kleinen Vorteil des ersten Zuges."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 g6 5.Nf3 Bg7": {
+    "strategy": "Vollendet das Fianchetto und bereitet die Rochade vor. Der Läufer zielt auf d4 entlang der langen Diagonale, sobald der Springer auf f6 zieht, und gibt dem Zentrum von Weiß ein langfristiges Ziel, während die Bauernkette auf c6 und d5 solide bleibt."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 g6 5.Nf3 dxc4": {
+    "strategy": "Löst die Spannung sofort auf: Weiß nimmt auf c4 zurück, Schwarz fianchettiert und rochiert, und der weißfeldrige Läufer kommt frei ins Spiel. Weiß erhält mit e4 ein breites Zentrum, das der fianchettierte Läufer von Schwarz und ein späteres ...c5 angreifen müssen."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 g6 5.Nf3 Nbd7": {
+    "strategy": "Bringt die letzte Leichtfigur ins Spiel und unterstützt einen späteren Durchbruch im Zentrum, sperrt aber den Läufer c8 ein. Der Zug wartet ab, statt die Spannung auf c4 aufzulösen, sodass Weiß wählt, wie das Zentrum geklärt wird."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 g6 5.Nf3 Bg7 6.Bd3": {
+    "strategy": "Entwickelt den Läufer dorthin, wo er c4 deckt und ein späteres e4 unterstützt, und bereitet die Rochade vor. Weiß baut einen klassischen Aufbau auf, und keine Seite hat sich im Zentrum festgelegt."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 g6 5.Nf3 Bg7 6.Be2": {
+    "strategy": "Deckt c4 und bereitet die Rochade von einem bescheidenen Feld aus vor. Der Läufer ist weniger aktiv als auf d3 und unterstützt keinen Vorstoß des e-Bauern, sodass Weiß sich mit einem langsameren, soliden Aufbau begnügt."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 g6 5.Nf3 Bg7 6.cxd5": {
+    "strategy": "Tauscht sofort und gibt den Bauern c4 auf, der Schwarz am Damenflügel einengt. Gegen den Fianchetto-Aufbau wird die Partie ruhig und ziemlich symmetrisch, ohne die Spannung, die das Slawische scharf macht, und Weiß muss auf der offenen c-Linie Spiel finden."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 g6 5.Nf3 Bg7 6.Bd3 O-O": {
+    "strategy": "Rochiert in Sicherheit und bringt den Turm in Richtung Zentrum. König und fianchettierter Läufer stehen zusammen, und Schwarz kann sich nun dem Zentrum und dem noch unentwickelten Läufer auf c8 zuwenden."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 g6 5.Nf3 Bg7 6.Bd3 dxc4": {
+    "strategy": "Nimmt den Bauern, sodass der Läufer des Weißen zurücknehmen muss, und jagt ihn dann mit ...b5, um Raum am Damenflügel zu gewinnen. Schwarz gibt den zentralen Bauern d5 auf und lässt Weiß ein Zentrum mit e4 aufbauen, das der fianchettierte Läufer und ein späteres ...c5 angreifen müssen."
+  },
+  "1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 g6 5.Nf3 Bg7 6.Bd3 Nbd7": {
+    "strategy": "Entwickelt den letzten Springer und deckt e5 und b6 für spätere Durchbrüche, während Schwarz die Wahl behält, auf c4 zu schlagen. Der König bleibt einen Zug länger im Zentrum, wodurch Weiß das Zentrum zuerst öffnen kann."
   }
 }

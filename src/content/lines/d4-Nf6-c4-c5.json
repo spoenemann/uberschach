@@ -1,5 +1,5 @@
 {
-  "about": "After 1.d4 Nf6 2.c4 c5: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.d4 Nf6 2.c4 c5: the moves the named lines play from here on on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.d4 Nf6 2.c4 c5",
@@ -27,42 +27,36 @@
       ]
     },
     {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5",
+      "line": "1.d4 Nf6 2.c4 c5 3.dxc5",
       "moves": [
-        {
-          "san": "b5",
-          "rating": 5
-        },
         {
           "san": "e6",
           "rating": 5
         },
         {
-          "san": "d6",
-          "rating": 4
-        },
-        {
-          "san": "e5",
+          "san": "Na6",
           "rating": 3
         },
         {
-          "san": "Ne4",
-          "rating": 2
+          "san": "Qa5+",
+          "rating": 3
         }
       ]
     },
     {
-      "line": "1.d4 Nf6 2.c4 c5 3.Nf3",
-      "moves": [
-        {
-          "san": "cxd4",
-          "rating": 5
-        }
-      ]
+      "line": "1.d4 Nf6 2.c4 c5 3.dxc5 e6"
     },
     {
       "line": "1.d4 Nf6 2.c4 c5 3.e3",
       "moves": [
+        {
+          "san": "cxd4",
+          "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 4
+        },
         {
           "san": "g6",
           "rating": 3
@@ -70,35 +64,10 @@
       ]
     },
     {
-      "line": "1.d4 Nf6 2.c4 c5 3.dxc5",
+      "line": "1.d4 Nf6 2.c4 c5 3.e3 g6",
       "moves": [
         {
-          "san": "e6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 d6"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 Ne4",
-      "sources": [
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._d4/1...Nf6/2._c4/2...c5/3._d5/3...Ne4"
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.dxc5 e6"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5",
-      "sources": [
-        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._d4/1...Nf6/2._c4/2...c5/3._d5/3...b5",
-        "https://en.wikipedia.org/wiki/Benko_Gambit"
-      ],
-      "moves": [
-        {
-          "san": "cxb5",
+          "san": "Nc3",
           "rating": 5
         },
         {
@@ -106,310 +75,8 @@
           "rating": 4
         },
         {
-          "san": "a4",
-          "rating": 4
-        },
-        {
-          "san": "Bg5",
+          "san": "d5",
           "rating": 3
-        },
-        {
-          "san": "f3",
-          "rating": 3
-        },
-        {
-          "san": "Nd2",
-          "rating": 3
-        },
-        {
-          "san": "e4",
-          "rating": 2
-        },
-        {
-          "san": "g4",
-          "rating": 2
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5",
-      "moves": [
-        {
-          "san": "a6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.Nf3"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.a4"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.Bg5"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.f3"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.Nd2"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.e4"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.g4"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Benko_Gambit"
-      ],
-      "moves": [
-        {
-          "san": "bxa6",
-          "rating": 5
-        },
-        {
-          "san": "f3",
-          "rating": 4
-        },
-        {
-          "san": "e3",
-          "rating": 4
-        },
-        {
-          "san": "b6",
-          "rating": 4
-        },
-        {
-          "san": "Nc3",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.bxa6",
-      "moves": [
-        {
-          "san": "Bxa6",
-          "rating": 5
-        },
-        {
-          "san": "g6",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.f3",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Benko_Gambit"
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.e3",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Benko_Gambit"
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.b6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Benko_Gambit"
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.Nc3",
-      "moves": [
-        {
-          "san": "axb5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.bxa6 Bxa6",
-      "moves": [
-        {
-          "san": "Nc3",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.bxa6 Bxa6 6.Nc3",
-      "moves": [
-        {
-          "san": "d6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.bxa6 Bxa6 6.Nc3 d6"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.bxa6 g6",
-      "moves": [
-        {
-          "san": "Nc3",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.bxa6 g6 6.Nc3",
-      "moves": [
-        {
-          "san": "Bxa6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.bxa6 g6 6.Nc3 Bxa6"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.Nc3 axb5",
-      "moves": [
-        {
-          "san": "e4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.Nc3 axb5 6.e4",
-      "moves": [
-        {
-          "san": "b4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.Nc3 axb5 6.e4 b4"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 e5",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Benoni_Defense"
-      ],
-      "moves": [
-        {
-          "san": "Nc3",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 e5 4.Nc3",
-      "moves": [
-        {
-          "san": "d6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 e5 4.Nc3 d6",
-      "moves": [
-        {
-          "san": "e4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 e5 4.Nc3 d6 5.e4",
-      "moves": [
-        {
-          "san": "g6",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 e5 4.Nc3 d6 5.e4 g6"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 e6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Modern_Benoni"
-      ],
-      "moves": [
-        {
-          "san": "Nc3",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3",
-      "moves": [
-        {
-          "san": "exd5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5",
-      "moves": [
-        {
-          "san": "cxd5",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5",
-      "moves": [
-        {
-          "san": "d6",
-          "rating": 5
-        },
-        {
-          "san": "Bd6",
-          "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 Bd6",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Benoni_Defense"
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6",
-      "moves": [
-        {
-          "san": "e4",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.e4",
-      "moves": [
-        {
-          "san": "g6",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.e4 g6"
-    },
-    {
-      "line": "1.d4 Nf6 2.c4 c5 3.e3 g6",
-      "moves": [
-        {
-          "san": "Nc3",
-          "rating": 4
         }
       ]
     },
@@ -419,6 +86,14 @@
         {
           "san": "Bg7",
           "rating": 5
+        },
+        {
+          "san": "cxd4",
+          "rating": 4
+        },
+        {
+          "san": "e6",
+          "rating": 3
         }
       ]
     },
@@ -428,6 +103,14 @@
         {
           "san": "Nf3",
           "rating": 5
+        },
+        {
+          "san": "Nge2",
+          "rating": 4
+        },
+        {
+          "san": "d5",
+          "rating": 3
         }
       ]
     },
@@ -437,6 +120,14 @@
         {
           "san": "O-O",
           "rating": 5
+        },
+        {
+          "san": "cxd4",
+          "rating": 4
+        },
+        {
+          "san": "d6",
+          "rating": 3
         }
       ]
     },
@@ -445,7 +136,15 @@
       "moves": [
         {
           "san": "Be2",
+          "rating": 5
+        },
+        {
+          "san": "d5",
           "rating": 4
+        },
+        {
+          "san": "b3",
+          "rating": 3
         }
       ]
     },
@@ -454,7 +153,15 @@
       "moves": [
         {
           "san": "cxd4",
-          "rating": 4
+          "rating": 5
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
         }
       ]
     },
@@ -462,11 +169,36 @@
       "line": "1.d4 Nf6 2.c4 c5 3.e3 g6 4.Nc3 Bg7 5.Nf3 O-O 6.Be2 cxd4"
     },
     {
+      "line": "1.d4 Nf6 2.c4 c5 3.Nf3",
+      "moves": [
+        {
+          "san": "cxd4",
+          "rating": 5
+        },
+        {
+          "san": "e6",
+          "rating": 4
+        },
+        {
+          "san": "g6",
+          "rating": 3
+        }
+      ]
+    },
+    {
       "line": "1.d4 Nf6 2.c4 c5 3.Nf3 cxd4",
       "moves": [
         {
           "san": "Nxd4",
           "rating": 5
+        },
+        {
+          "san": "Nc3",
+          "rating": 3
+        },
+        {
+          "san": "e3",
+          "rating": 3
         }
       ]
     },
@@ -474,7 +206,15 @@
       "line": "1.d4 Nf6 2.c4 c5 3.Nf3 cxd4 4.Nxd4",
       "moves": [
         {
+          "san": "e6",
+          "rating": 5
+        },
+        {
           "san": "e5",
+          "rating": 4
+        },
+        {
+          "san": "Nc6",
           "rating": 4
         }
       ]
@@ -485,6 +225,14 @@
         {
           "san": "Nb5",
           "rating": 5
+        },
+        {
+          "san": "Nb3",
+          "rating": 3
+        },
+        {
+          "san": "Nc2",
+          "rating": 3
         }
       ]
     },
@@ -494,6 +242,14 @@
         {
           "san": "d5",
           "rating": 5
+        },
+        {
+          "san": "a6",
+          "rating": 4
+        },
+        {
+          "san": "d6",
+          "rating": 3
         }
       ]
     },

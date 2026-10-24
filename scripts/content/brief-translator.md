@@ -38,6 +38,18 @@ The tools are run from the repository root, as
 
 Every move of the reviewed file once, every position of it once.
 
+A batch of gaps (its batch file says `"kind": "gaps"`) has no positions:
+its reviewed file has `moves` and `revisions`. Write the German of every
+move, and of every revision whose `en` is not `null`:
+
+```json
+{
+  "id": "<the batch id>",
+  "moves": [{ "from": "...", "san": "Be3", "de": "Die deutsche Fassung." }],
+  "revisions": [{ "from": "...", "san": "Bg5", "de": "Die deutsche Fassung." }]
+}
+```
+
 Then run `node scripts/content/validate-batch.mjs translate <your output file>`
 and fix every ERROR; run it until it prints OK.
 

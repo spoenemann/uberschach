@@ -12,21 +12,48 @@
   "1.d4 Nf6 2.Nf3 b6 3.c3": {
     "strategy": "Ein bescheidener, solider Aufbau: Der Bauer auf c3 stützt d4, nimmt aber dem Springer das Feld c3 und gibt den Druck eines Bauern auf c4 auf. Weiß streitet nicht um die lange Diagonale und lässt Schwarz freie Hand, das Zentrum sofort anzugreifen."
   },
+  "1.d4 Nf6 2.Nf3 b6 3.c4": {
+    "strategy": "Die direkteste Antwort: Der c-Bauer nimmt Raum am Damenflügel und drückt auf d5, sodass Weiß ein breites Bauernzentrum aufbaut, das die Figuren von Schwarz in Schach halten müssen. Schwarz kann mit ...e6 in den bekannten Aufbau einlenken, was dies zur wichtigsten Probe für das frühe ...b6 macht."
+  },
   "1.d4 Nf6 2.Nf3 b6 3.c3 e5": {
-    "strategy": "Ein Gambit: Schwarz greift sofort d4 an und bietet den e-Bauern für schnelle Entwicklung an. Der Bauer ist schlicht ungedeckt, und Weiß nimmt ihn mit Tempogewinn, da der Bauer auf e5 den Springer angreift. Schwarz hat zu wenig für den Bauern.",
-    "name": "Indische Verteidigung: Schnepper-Gambit"
+    "name": "Indische Verteidigung: Schnepper-Gambit",
+    "strategy": "Ein Gambit: Schwarz greift sofort d4 an und bietet den e-Bauern für schnelle Entwicklung an. Der Bauer ist schlicht ungedeckt, und Weiß nimmt ihn mit Tempogewinn, da der Bauer auf e5 den Springer angreift. Schwarz hat zu wenig für den Bauern."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.c3 Bb7": {
+    "strategy": "Vollendet das Fianchetto. Das bescheidene c3 von Weiß stellt die lange Diagonale nicht in Frage, daher wirkt der Läufer aus der Ferne auf e4 und das Zentrum, und Schwarz entscheidet später, wie er die Bauern von Weiß angreift."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.c3 e6": {
+    "strategy": "Öffnet die Diagonale für den Königsläufer und bereitet die Rochade vor; so entsteht die solide Struktur, die Schwarz gegen einen ruhigen Aufbau anstrebt. Der Damenläufer kann im nächsten Zug noch nach b7 gehen, Schwarz verliert also keine Flexibilität."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.c3 d5": {
+    "strategy": "Besetzt sofort das Zentrum mit einem Bauern und hindert den e-Bauern von Weiß am Vorrücken. Der Bauer auf d5 sperrt den Läufer aber ein, sobald dieser auf b7 steht; der Sinn von ...b6 geht damit weitgehend verloren, und das Spiel von Schwarz wird passiv."
   },
   "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7": {
     "strategy": "Vollendet das Fianchetto, den ganzen Sinn von ...b6: Der Läufer wirkt über die lange Diagonale auf e4 und den Springer auf f3, und das ruhige e3 von Weiß stört ihn nicht. Schwarz kontrolliert das Zentrum aus der Distanz und entscheidet später, wie er es herausfordert."
   },
-  "1.d4 Nf6 2.Nf3 b6 3.g3 Bb7": {
-    "strategy": "Vollendet das Fianchetto und stellt den Läufer auf die Diagonale, die auch der Läufer von Weiß bald einnimmt. Schwarz kontrolliert e4 und das Zentrum aus der Distanz, und das Fianchetto von Weiß muss sich in einer Manövrierpartie dem Läufer auf b7 stellen."
+  "1.d4 Nf6 2.Nf3 b6 3.e3 e6": {
+    "strategy": "Öffnet die Diagonale für den Königsläufer und bereitet die Rochade vor; es entsteht die solide Struktur, die Schwarz gegen einen ruhigen Aufbau anstrebt. Das Fianchetto lässt sich im nächsten Zug noch vollenden, die Partie bleibt also flexibel."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 c5": {
+    "strategy": "Greift sofort d4 an und beansprucht Raum am Damenflügel. Der Bauer d4 ist nach e3 fest gedeckt, daher entwickelt sich Weiß einfach weiter, und Schwarz muss eine festgelegte Bauernstruktur hinnehmen, solange der Damenläufer noch zu Hause steht."
   },
   "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3": {
     "strategy": "Stellt den Läufer auf seine aktivste Diagonale, wo er auf den Königsflügel zielt und mit dem Läufer von Schwarz um e4 streitet. Mit Sf3 und e3 entsteht eine kompakte Formation, die die Rochade vorbereitet; Weiß kann das Zentrum mit e4 besetzen, sobald die Figuren dahinter stehen."
   },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.c4": {
+    "strategy": "Nimmt Raum und drückt auf d5, bevor sich der Königsläufer festlegt. Weiß erhält ein festes Zentrum aus Bauern auf c4, d4 und e3 und behält die Wahl des Feldes für den Läufer, während Schwarz mit ...e6 den üblichen Aufbau erreichen kann."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.b3": {
+    "strategy": "Spiegelt den Aufbau von Schwarz: Der Damenläufer wird die lange Diagonale bestreiten. Das ist solide und harmlos, tut aber nichts gegen das Zentrum, sodass Schwarz die Bauernstruktur aufbauen kann, die ihm gefällt, während sich die Figuren von Weiß bereitmachen."
+  },
   "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6": {
     "strategy": "Öffnet die Diagonale für den Königsläufer und bereitet die Rochade vor. Der Läufer auf b7 und der Springer auf f6 wirken beide auf e4, sodass der zentrale Vorstoß von Weiß in Schach gehalten wird; Schwarz behält eine flexible, solide Struktur und entscheidet später, wie er das Zentrum herausfordert."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 c5": {
+    "strategy": "Greift sofort d4 an, bevor Weiß rochiert oder einen Durchbruch mit e4 vorbereitet hat. Schwarz nimmt eine festgelegte Struktur am Damenflügel in Kauf, dafür bekommt er Raum und aktives Figurenspiel, und der Läufer auf b7 wirkt weiter auf der langen Diagonale."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 d5": {
+    "strategy": "Besetzt das Zentrum mit einem Bauern und verhindert e4, was solide ist. Doch der Bauer auf d5 verstellt die Diagonale des Läufers auf b7, das Fianchetto verliert seinen Sinn, und das Spiel von Schwarz wird passiv."
   },
   "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.O-O": {
     "strategy": "Bringt den König in Sicherheit, bevor sich das Zentrum öffnet, und verschiebt die Wahl des Feldes für den Damenspringer, bis Schwarz seinen Plan zeigt. Der Zug ist ruhig und solide, überlässt Schwarz aber das erste Wort über die Bauernstruktur im Zentrum."
@@ -34,8 +61,36 @@
   "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.Nbd2": {
     "strategy": "Entwickelt den Springer auf ein Feld, von dem aus er einen späteren e4-Durchbruch unterstützt und dem c-Bauern den Vormarsch freilässt, den ein Springer auf c3 blockieren würde. Der Preis ist ein König, der einen Zug länger im Zentrum bleibt."
   },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.c4": {
+    "strategy": "Nimmt Raum und drückt auf d5; so entsteht ein festes Zentrum aus Bauern auf c4, d4 und e3, während der Läufer auf d3 auf den Königsflügel zielt. Weiß erhält einen dauerhaften Raumvorteil für ein Manövrierspiel, und Schwarz muss das Zentrum mit Figuren halten."
+  },
   "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.Nbd2 c5": {
     "strategy": "Greift den d4-Bauern an, bevor Weiß einen e4-Durchbruch vorbereiten kann, und gewinnt Raum am Damenflügel. Schwarz kämpft doch noch mit einem Bauern um das Zentrum, und die Spannung auf d4 zwingt Weiß zu entscheiden, wie er sein Zentrum zusammenhält."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.Nbd2 Be7": {
+    "strategy": "Schließt die Entwicklung am Königsflügel ab und bereitet die Rochade vor, wobei offen bleibt, wie das Zentrum aufgebrochen wird. Der Läufer auf b7 und der Springer auf f6 sehen beide e4, doch Weiß deckt dieses Feld doppelt, sodass Schwarz bereit bleibt, den Durchbruch zu beantworten, statt ihn zu verhindern."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.Nbd2 d5": {
+    "strategy": "Besetzt das Zentrum und verhindert e4 für immer, aber der Bauer sperrt den Läufer auf b7 dahinter ein. Solide, wenn auch recht passiv: Schwarz gibt die lange Diagonale auf, die das Fianchetto nutzen sollte."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.Nbd2 c5 6.b3": {
+    "strategy": "Bereitet die lange Diagonale für den Damenläufer vor, wo er den d4-Bauern stützt und den Aufbau von Schwarz spiegelt. Weiß entwickelt sich mit Figuren, hält die Spannung im Zentrum und bleibt flexibel, wann oder ob er die Stellung öffnet."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.Nbd2 c5 6.O-O": {
+    "strategy": "Bringt den König in Sicherheit, solange die Spannung auf d4 noch besteht. Schlägt Schwarz auf d4, nimmt Weiß mit dem e-Bauern zurück und behält ein gesundes Zentrum; die vorherige Rochade kostet also nichts und hält alle Bauernpläne offen."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.Nbd2 c5 6.c3": {
+    "strategy": "Stützt d4, sodass der Druck von c5 wenig bewirkt, und hält einen Durchbruch mit e4 in Reserve. Das ist solide, aber passiv: Der c-Bauer gibt jeden Anspruch auf Raum am Damenflügel auf, und Schwarz kann sich in Ruhe entwickeln."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.Nbd2 c5 6.b3 Be7": {
+    "name": "Beschleunigte Damenindische Verteidigung",
+    "strategy": "Bringt die letzte Figur des Königsflügels heraus, damit Schwarz rochieren kann. Mit ...c5 und dem Läufer auf b7 hat Schwarz Anteil am Zentrum und an der langen Diagonale und kann in Ruhe abwarten, wie Weiß die Spannung auflöst."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.Nbd2 c5 6.b3 cxd4": {
+    "strategy": "Löst die Spannung sofort auf: Nach exd4 hat Schwarz eine halboffene c-Linie gegen den c-Bauern von Weiß, und der Läufer auf b7 bleibt aktiv. Weiß erhält die halboffene e-Linie für seine Figuren, sodass Schwarz einen Teil seines Raumanspruchs aufgibt."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.Nbd2 c5 6.b3 Nc6": {
+    "strategy": "Fügt einen zweiten Angreifer auf d4 hinzu, und zwar mit einem Entwicklungszug. Aber der Springer steht auf der Diagonale des Läufers auf b7 und versperrt sie, was dem Fianchetto einen Großteil seines Zwecks nimmt."
   },
   "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.O-O c5": {
     "strategy": "Fordert d4 sofort heraus, solange der König von Weiß schon sicher steht, gewinnt Raum am Damenflügel und zwingt Weiß zu entscheiden, wie er sein Zentrum zusammenhält. Schwarz nimmt eine festgelegtere Bauernstruktur für aktives Figurenspiel in Kauf."
@@ -43,18 +98,26 @@
   "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.O-O Be7": {
     "strategy": "Schließt die Entwicklung am Königsflügel ab und bereitet die Rochade vor, ohne die Bauernstruktur zu verändern. Schwarz wartet ab, wie Weiß die Damenflügelbauern aufstellt, bevor er zwischen einem zentralen Durchbruch und einem zurückhaltenden Aufbau wählt."
   },
-  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.Nbd2 c5 6.b3": {
-    "strategy": "Bereitet die lange Diagonale für den Damenläufer vor, wo er den d4-Bauern stützt und den Aufbau von Schwarz spiegelt. Weiß entwickelt sich mit Figuren, hält die Spannung im Zentrum und bleibt flexibel, wann oder ob er die Stellung öffnet."
-  },
-  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.Nbd2 c5 6.b3 Be7": {
-    "name": "Beschleunigte Damenindische Verteidigung",
-    "strategy": "Bringt die letzte Figur des Königsflügels heraus, damit Schwarz rochieren kann. Mit ...c5 und dem Läufer auf b7 hat Schwarz Anteil am Zentrum und an der langen Diagonale und kann in Ruhe abwarten, wie Weiß die Spannung auflöst."
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.O-O d5": {
+    "strategy": "Besetzt das Zentrum mit einem Bauern und verhindert e4. Der Preis ist der Läufer auf b7, der hinter dem eigenen Bauern eingesperrt ist; Schwarz erhält ein solides, aber passives Spiel, in dem das Fianchetto wenig bewirkt."
   },
   "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.O-O Be7 6.c4": {
     "strategy": "Bei sicherem König gewinnt der c-Bauer Raum und drückt auf d5; Weiß erhält ein solides Zentrum aus Bauern auf c4, d4 und e3, mit dem Läufer auf den Königsflügel gerichtet. Weiß bekommt einen dauerhaften Raumvorteil, Schwarz eine solide, aber etwas beengte Stellung."
   },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.O-O Be7 6.b3": {
+    "strategy": "Bereitet vor, den Damenläufer auf der langen Diagonale zu fianchettieren, wo er d4 stützt und den Aufbau von Schwarz spiegelt. Weiß wartet ab, was Schwarz im Zentrum tut, und zahlt dafür mit einem langsameren Kampf um Raum am Damenflügel."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.O-O Be7 6.Nbd2": {
+    "strategy": "Bringt den Springer auf ein Feld, von dem aus er einen Durchbruch mit e4 unterstützt und den c-Bauern frei vorrücken lässt. Der Preis ist, dass der Springer den Damenläufer vorerst blockiert."
+  },
   "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.O-O Be7 6.c4 O-O": {
     "strategy": "Bringt den König in Sicherheit und vollendet den Aufbau. Schwarz hat eine solide, flexible Stellung und kann später wählen, ob er das Zentrum mit einem Bauern herausfordert oder mit den Figuren den Druck auf e4 aufrechterhält."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.O-O Be7 6.c4 c5": {
+    "strategy": "Greift sofort d4 an und beansprucht Raum am Damenflügel. Schwarz nimmt eine festgelegtere Bauernstruktur für aktives Figurenspiel in Kauf, und Weiß muss entscheiden, wie es sein Zentrum zusammenhält."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.O-O Be7 6.c4 d5": {
+    "strategy": "Tritt dem c-Bauern frontal entgegen und zwingt Weiß, sich sofort zu entscheiden: schlagen, womit Schwarz einen Zentrumsbauern erhält, oder c4 stützen. Schwarz nimmt in Kauf, dass der Läufer auf b7 hinter dem Bauern eingesperrt ist, und erhält dafür ein gesundes, solides Spiel."
   },
   "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.O-O c5 6.c4": {
     "strategy": "Gewinnt Raum am Damenflügel und drückt auf d5. Weiß hält das Zentrum mit Bauern auf c4, d4 und e3, der Läufer auf d3 zielt auf den Königsflügel, und die Partie dreht sich darum, wie Weiß mit dem Druck von Schwarz auf d4 von c5 aus umgeht."
@@ -62,25 +125,73 @@
   "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.O-O c5 6.b3": {
     "strategy": "Bereitet die lange Diagonale für den Damenläufer vor, der d4 stützt und den Aufbau von Schwarz spiegelt. Weiß entwickelt sich mit Figuren und behält die Wahl, die Spannung im Zentrum aufzulösen oder aufrechtzuerhalten."
   },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.O-O c5 6.dxc5": {
+    "strategy": "Nimmt den Bauern, kann ihn aber nicht halten: Schwarz schlägt mit ...bxc5 zurück und erhält eine halboffene b-Linie und freie Entwicklung. Weiß hat seinen Zentrumsbauern und die Spannung aufgegeben, ohne etwas dafür zu bekommen."
+  },
   "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.O-O c5 6.b3 Be7": {
     "strategy": "Schließt die Entwicklung am Königsflügel ab und bereitet die Rochade vor. Schwarz behält die Spannung auf d4 und den Druck des Läufers auf b7 und kann abwarten, bis sich Weiß festlegt, bevor er entscheidet, wie er sie auflöst."
   },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.O-O c5 6.b3 cxd4": {
+    "strategy": "Löst die Spannung auf, nun da Weiß rochiert hat: Nach exd4 hat Schwarz eine halboffene c-Linie, und der Läufer auf b7 behält die lange Diagonale. Weiß erhält die halboffene e-Linie, sodass Schwarz einen Teil seines Raumanspruchs aufgibt."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.e3 Bb7 4.Bd3 e6 5.O-O c5 6.b3 Nc6": {
+    "strategy": "Fügt einen zweiten Angreifer auf d4 hinzu und entwickelt eine Figur. Aber der Springer versperrt die Diagonale des Läufers auf b7, sodass der Fianchetto-Läufer so lange aus dem Spiel genommen ist, wie er dort steht."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.g3 Bb7": {
+    "strategy": "Vollendet das Fianchetto und stellt den Läufer auf die Diagonale, die auch der Läufer von Weiß bald einnimmt. Schwarz kontrolliert e4 und das Zentrum aus der Distanz, und das Fianchetto von Weiß muss sich in einer Manövrierpartie dem Läufer auf b7 stellen."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.g3 e6": {
+    "strategy": "Öffnet die Diagonale für den Königsläufer und bereitet die Rochade vor. Eine flexible, solide Antwort: Schwarz kann das Fianchetto im nächsten Zug vollenden und entscheidet später, wie er das Zentrum angreift, wie auch immer Weiß fortsetzt."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.g3 g6": {
+    "strategy": "Fianchettiert beide Läufer, sodass Schwarz die langen Diagonalen von den Flügeln aus kontrolliert. Die Figuren stehen gut, aber da kein Bauer im Zentrum steht, kann Weiß in Ruhe eines aufbauen, und Schwarz muss bereit sein, es später anzugreifen."
+  },
   "1.d4 Nf6 2.Nf3 b6 3.g3 Bb7 4.Bg2": {
     "strategy": "Der Sinn von g3: Der Läufer nimmt die lange Diagonale ein und blickt auf den Läufer von Schwarz, wobei der Springer auf f3 vorerst dazwischensteht. Der König von Weiß ist bald hinter dem Fianchetto sicher, und der Läufer unterstützt das Spiel im Zentrum aus der Ferne."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.g3 Bb7 4.c4": {
+    "strategy": "Beansprucht sofort Raum und bringt einen zweiten Bauern in den Kampf um d5 und das Zentrum. Der Königsläufer kann im nächsten Zug noch nach g2 gehen, Weiß verliert also wenig Flexibilität, während Schwarz entscheiden muss, wie er dem breiteren Zentrum begegnet."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.g3 Bb7 4.Bf4": {
+    "strategy": "Entwickelt den Damenläufer außerhalb der Bauernkette, wo er e5 hält und auf den Bauern c7 zielt. Solide, aber weniger ehrgeizig als das Fianchetto: Er verzögert den Kampf um die lange Diagonale und legt Weiß auf nichts weiter fest."
   },
   "1.d4 Nf6 2.Nf3 b6 3.g3 Bb7 4.Bg2 c5": {
     "name": "Marienbader System",
     "strategy": "Greift sofort d4 an, statt zuerst zu rochieren. Schwarz gewinnt Raum und Druck auf das Zentrum, nimmt aber in Kauf, dass die Damenflügelbauern früh festgelegt sind; die Partie wird ein schärferer Kampf als die ruhigen Aufbauten mit ...e6."
   },
+  "1.d4 Nf6 2.Nf3 b6 3.g3 Bb7 4.Bg2 e6": {
+    "strategy": "Öffnet die Diagonale für den Königsläufer und bereitet ...Le7 und die Rochade vor, wobei die lange Diagonale des Läufers auf b7 offen bleibt. Schwarz setzt auf ein Manövrierspiel, in dem Figuren, nicht Bauern, das Zentrum bestreiten."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.g3 Bb7 4.Bg2 d5": {
+    "strategy": "Besetzt sofort das Zentrum und verhindert e4, doch der Bauer sperrt den Läufer auf b7 hinter sich ein, sodass das Fianchetto seinen Sinn verliert. Solide, aber die Figuren von Schwarz stehen am Ende passiv."
+  },
   "1.d4 Nf6 2.Nf3 b6 3.g3 Bb7 4.Bg2 c5 5.c4": {
-    "strategy": "Bringt einen zweiten Bauern in den Kampf um das Zentrum und bereitet vor, den Schlag auf d4 mit der Dame oder dem Springer zurückzunehmen. Weiß beansprucht Raum am Damenflügel und hält seine Figuren bereit, den Bauern zurückzugewinnen."
+    "strategy": "Bringt einen zweiten Bauern in den Kampf um das Zentrum und beansprucht Raum am Damenflügel. Nach ...cxd4 kann der Springer nicht zurückschlagen, weil ...Lxg2 den ungedeckten Läufer gewinnen würde; also schlägt die Dame zurück, und Schwarz kann gegen sie Tempo gewinnen."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.g3 Bb7 4.Bg2 c5 5.O-O": {
+    "strategy": "Rochiert zuerst, damit der Springer nach ...cxd4 auf d4 zurückschlagen kann und der darauf folgende Tausch der Fianchetto-Läufer Weiß nichts kostet. Weiß hält den c-Bauern in Reserve und die Bauernstruktur flexibel."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.g3 Bb7 4.Bg2 c5 5.dxc5": {
+    "strategy": "Löst die Spannung sofort auf: Schwarz schlägt mit ...bxc5 zurück und erhält eine halboffene b-Linie und freie Entwicklung. Weiß gibt seinen Zentrumsbauern auf und hat dafür wenig vorzuweisen."
   },
   "1.d4 Nf6 2.Nf3 b6 3.g3 Bb7 4.Bg2 c5 5.c4 cxd4": {
     "strategy": "Schlägt den Bauern, beseitigt den Mittelbauern von Weiß und gibt Schwarz eine halboffene c-Linie für den Turm. Nimmt Weiß mit der Dame zurück, muss Schwarz bereit sein, gegen sie Tempo zu gewinnen."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.g3 Bb7 4.Bg2 c5 5.c4 e6": {
+    "strategy": "Erhält den Druck des Bauern c5 auf d4 und öffnet die Diagonale für den Königsläufer, mit Kurs auf die Rochade und eine solide Struktur. Schwarz lehnt die Vereinfachung ab und lässt das breite Zentrum von Weiß aus c4 und d4 vorerst stehen."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.g3 Bb7 4.Bg2 c5 5.c4 Nc6": {
+    "strategy": "Fügt einen Angreifer auf d4 hinzu, der sich dabei entwickelt, und erhält die Spannung. Aber der Springer versperrt die Diagonale des Läufers auf b7, was dem Fianchetto viel von seinem Sinn nimmt."
   },
   "1.d4 Nf6 2.Nf3 b6 3.g3 Bb7 4.Bg2 c5 5.c4 cxd4 6.Qxd4": {
     "name": "Marienbader System: Berg-Variante",
     "background": "Eingeführt vom lettischen Meister Teodors Bergs.",
     "strategy": "Nimmt mit der Dame zurück, die zentral steht und auf den b6-Bauern und den Springer auf f6 zielt. Der Preis ist, dass die Dame von den Figuren von Schwarz angegriffen werden kann; Weiß muss sich daher mit Sorgfalt entwickeln und seinen Raumvorteil nutzen."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.g3 Bb7 4.Bg2 c5 5.c4 cxd4 6.Nxd4": {
+    "strategy": "Schlägt mit dem Springer zurück, der auf einem zentralen Feld landet und die Dame zu Hause lässt, außer Reichweite belästigender Figuren. Der Läufer von Schwarz auf der langen Diagonale kann sich gegen den weißen tauschen, doch Weiß behält den Raumvorteil des c4-Bauern und ein solides, bequemes Spiel."
+  },
+  "1.d4 Nf6 2.Nf3 b6 3.g3 Bb7 4.Bg2 c5 5.c4 cxd4 6.Nc3": {
+    "strategy": "Stellt den Springer ein: Der Bauer auf d4 greift c3 an und schlägt ihn einfach. Weiß steht schon einen Bauern im Minus und gibt nun auch noch eine Figur für einen Bauern her."
   }
 }

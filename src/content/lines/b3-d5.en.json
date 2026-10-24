@@ -241,20 +241,59 @@
   "1.b3 d5 2.f4 Nf6": {
     "strategy": "Develops a piece and takes control of e4, so White cannot easily claim the centre with an e-pawn push. The knight also guards d5 from the side. Black keeps the d5 pawn in the middle, commits nothing else and chooses a set-up once White has shown where the bishop goes."
   },
+  "1.b3 d5 2.f4 c5": {
+    "strategy": "Builds the d5 and c5 pawn pair, gaining queenside space and keeping White's pieces off d4. The price is that d5 loses its pawn support and is held by pieces alone, so Black must develop with care."
+  },
+  "1.b3 d5 2.f4 e6": {
+    "strategy": "Backs d5 with a pawn and opens the king's bishop for a compact, solid set-up. Black accepts a passive queen's bishop for now and keeps the choice between a kingside and a queenside plan."
+  },
+  "1.b3 d5 2.f4 g6": {
+    "strategy": "Mirrors White's fianchetto: the bishop on g7 will face the bishop on b2 along the long diagonal and can trade it off. Black develops slowly and leaves the centre to White for a while, a sound but second-rate way to meet the move."
+  },
   "1.b3 d5 2.f4 Nf6 3.Bb2": {
     "strategy": "Completes the fianchetto: the bishop presses along the long diagonal towards the centre and g7, while the f4 pawn stops Black from occupying e5. White does not build a pawn centre but undermines Black's with pieces and flank pawns, at the price of a slightly loosened kingside."
+  },
+  "1.b3 d5 2.f4 Nf6 3.Nf3": {
+    "strategy": "Brings the knight out first and covers e5 a second time, so Black cannot plant a pawn or piece there. White keeps the choice between a fianchetto and a pawn on e3, and the game stays flexible: a solid, patient set-up with the king's side developing smoothly."
+  },
+  "1.b3 d5 2.f4 Nf6 3.e3": {
+    "strategy": "Builds a compact pawn chain and opens the king's bishop, but spends a move that does nothing about the fight for e4. Black gets time to claim that square and the centre, so White has to prove the solid structure is worth the slower pace."
   },
   "1.b3 d5 2.f4 Nf6 3.Bb2 d4": {
     "strategy": "Gains space and plugs the long diagonal: the pawn on d4 stands right in front of the bishop on b2. The price is a pawn that needs support at once, since the bishop already attacks it and a knight can join. If Black holds it, the bishop is buried and the game turns closed."
   },
+  "1.b3 d5 2.f4 Nf6 3.Bb2 e6": {
+    "strategy": "The solid reply: the pawn backs d5 and opens the king's bishop. The bishop on b2 bears on f6, but the queen and the g7 pawn guard it, so nothing is lost. Black keeps a sturdy centre and a flexible set-up, and White has no easy way to build a pawn centre of its own."
+  },
+  "1.b3 d5 2.f4 Nf6 3.Bb2 c5": {
+    "strategy": "Stakes out queenside space and takes d4 from White's pieces, so the bishop on b2 cannot use that square. The cost is that d5 is held by pieces alone. Black aims at a lasting grip on the centre, against a slower White set-up."
+  },
   "1.b3 d5 2.f4 Nf6 3.Bb2 d4 4.Nf3": {
     "strategy": "Develops and attacks the wedge at once: the knight joins the bishop in bearing down on d4, which only the queen defends. It also backs the f4 pawn's control of e5. Black has to spend a move on defence, and White's plan is set: pieces first, then a pawn against the wedge."
+  },
+  "1.b3 d5 2.f4 Nf6 3.Bb2 d4 4.e3": {
+    "strategy": "Strikes at the wedge before Black can support it: pawn and bishop attack d4 and only the queen defends it. Black has to defend again, trade or push on. If the pawns are traded on e3, the d-file opens with the queens facing each other."
+  },
+  "1.b3 d5 2.f4 Nf6 3.Bb2 d4 4.c4": {
+    "strategy": "Offers the c-pawn to the wedge: if Black takes it en passant, White recaptures on c3 with a piece, gaining development and open lines for a pawn trade. It is a sound way to undermine the wedge but slower than piece pressure, and it loosens the d3 square."
   },
   "1.b3 d5 2.f4 Nf6 3.Bb2 d4 4.Nf3 c5": {
     "strategy": "Supports the advanced pawn with a pawn, so d4 is held twice against two attackers, and adds queenside space. Black commits to a chain that keeps the bishop on b2 shut in; White has to dissolve the wedge with a pawn break, since pushing forward gets nowhere."
   },
+  "1.b3 d5 2.f4 Nf6 3.Bb2 d4 4.Nf3 Nc6": {
+    "strategy": "Holds the wedge with a developing move: queen and knight defend d4 against bishop and knight. Black keeps the c-pawn free, but White can add a third attacker, and Black must then support the wedge again, trade it or push on, so the knight has to find a job."
+  },
+  "1.b3 d5 2.f4 Nf6 3.Bb2 d4 4.Nf3 e6": {
+    "strategy": "Drops the d4 pawn: only the queen defends it against bishop and knight, and she cannot recapture on a square the knight covers. White simply takes it, and Black has some development but no compensation for the pawn."
+  },
   "1.b3 d5 2.f4 Nf6 3.Bb2 d4 4.Nf3 c5 5.e3": {
     "name": "Bird's Opening: Thomas Gambit",
     "strategy": "Challenges the wedge at once: pawn, bishop and knight all bear on d4, so Black must support it again, take or let it be traded. If Black takes on e3 and White recaptures with the d-pawn, the d-file opens with the queens facing each other, an early simplification White accepts."
+  },
+  "1.b3 d5 2.f4 Nf6 3.Bb2 d4 4.Nf3 c5 5.c3": {
+    "strategy": "Undermines the wedge with the c-pawn: pawn and knight attack d4, and ...dxc3 lets White recapture with a piece. But the pawn also blocks the b2 bishop's diagonal, so the bishop stops pressing d4, and the d3 square becomes a weakness. Playable but a little self-obstructing."
+  },
+  "1.b3 d5 2.f4 Nf6 3.Bb2 d4 4.Nf3 c5 5.g3": {
+    "strategy": "Ignores the wedge and develops the king's bishop on the long diagonal, planning to castle and break later. The d4 pawn stays and White's pieces get little to aim at, so the game turns into a slow manoeuvring fight in which Black has the space."
   }
 }

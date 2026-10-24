@@ -1,11 +1,9 @@
 {
   "1.e4 c6 2.d4": {
-    "strategy": "Builds a two-pawn centre and takes the most space. Black's 2...d5 attacks e4 at once, and White then decides the character of the game: open piece play, a closed centre where White holds the space, or a balanced structure after an exchange. The cost is a centre that Black challenges straight away.",
-    "name": "Caro–Kann Defence"
+    "strategy": "Builds a two-pawn centre and takes the most space. Black's 2...d5 attacks e4 at once, and White then decides the character of the game: open piece play, a closed centre where White holds the space, or a balanced structure after an exchange. The cost is a centre that Black challenges straight away."
   },
   "1.e4 c6 2.Nc3": {
-    "strategy": "Defends e4 with a developing move and keeps the d-pawn flexible, so White can still head for the main line or choose faster development with the knights. The price is that the knight occupies c3, which rules out a set-up with the c-pawn on c3.",
-    "name": "Caro–Kann Defence"
+    "strategy": "Defends e4 with a developing move and keeps the d-pawn flexible, so White can still head for the main line or choose faster development with the knights. The price is that the knight occupies c3, which rules out a set-up with the c-pawn on c3."
   },
   "1.e4 c6 2.c4": {
     "name": "Caro–Kann Defence: Accelerated Panov Attack",
@@ -106,136 +104,77 @@
     "name": "Caro–Kann Defence",
     "background": "Named after the English player Horatio Caro and the Austrian Marcus Kann, who analysed it in 1886. Kann had beaten Jacques Mieses with it in 24 moves at the German Chess Congress in Hamburg in May 1885."
   },
-  "1.e4 c6 2.d4 d5": {
-    "strategy": "Challenges e4 at once, which is the point of the c6 pawn: it supports d5, so Black recaptures with a pawn and keeps a sound structure. Unlike in the French, the c8-bishop is not shut in. The cost is the tempo spent on ...c6, so Black can lag in development; the game is usually solid and positional."
+  "1.e4 c6 2.b4 d5": {
+    "strategy": "Takes the centre at once, the way the Caro-Kann is meant to be played. White's early b-pawn advance does nothing for the fight over the centre, so Black simply gets the usual solid structure."
   },
-  "1.e4 c6 2.d4 Na6": {
-    "name": "Caro–Kann Defence: De Bruycker Defence",
-    "strategy": "Heads for c7 via a6, where the knight supports d5 and e6 without blocking the c8-bishop. The price is an extra tempo and a knight that stands on the rim for a move, so White builds the centre at leisure and stays slightly ahead in development."
+  "1.e4 c6 2.b4 e5": {
+    "strategy": "Takes the centre with the e-pawn instead and opens the bishop's diagonal towards the b4 pawn, which nothing defends. It is a sharper choice than ...d5, because the e5 pawn itself soon becomes a target and Black must look after both pawns."
   },
-  "1.e4 c6 2.d4 Nf6": {
-    "name": "Caro–Kann Defence: Masi Variation",
-    "strategy": "Attacks e4 and invites White to push e5, driving the knight back; a following c4 chases it again and gives White a broad centre, while ...c6 adds little. If White simply defends e4 instead, ...d5 is met by e5, again gaining time on the knight."
+  "1.e4 c6 2.b4 a5": {
+    "strategy": "Attacks the advanced b-pawn at once and makes White decide how to keep the queenside together. White must be careful: defending with a3 and recapturing on b4 with the a-pawn drops the rook on a1 to a capture on the open file."
   },
-  "1.e4 c6 2.d4 d6": {
-    "strategy": "Heads for a compact, flexible set-up with ...c6 already included. It concedes more central space than ...d5 does and leaves White free to build a broad centre or to develop calmly. Sound but passive."
+  "1.e4 c6 2.b4 d5 3.b5": {
+    "name": "Caro–Kann Defence: Labahn Attack, Double Gambit",
+    "strategy": "A double gambit: Black can take the b5 pawn with ...cxb5 or the e4 pawn with ...dxe4. White has nothing developed and gets no real compensation for a pawn, which makes this a try for surprise rather than a sound plan."
   },
-  "1.e4 c6 2.d4 g6": {
-    "strategy": "Prepares to fianchetto the king's bishop and keeps the choice open between a Caro–Kann structure and a more compact set-up. Sound and flexible, but less direct than ...d5, and it leaves White free to build a broad centre."
+  "1.e4 c6 2.b4 d5 3.exd5": {
+    "strategy": "The sensible way to play on: trading pawns lets White develop freely, with the bishop aimed along the long diagonal. Black recaptures with the c-pawn and keeps a pawn in the centre, so White gains nothing, but the early b-pawn move is no liability and the game is level."
   },
-  "1.e4 c6 2.d4 e6": {
-    "strategy": "Prepares ...d5 with a solid pawn chain, ...c6 already inserted, which supports d5 but shuts the c8-bishop in behind e6. Black also loses the quick ...c5 break that normally frees such a chain, so the c6 pawn costs a tempo."
+  "1.e4 c6 2.b4 d5 3.e5": {
+    "strategy": "Gains space, but with no pawn on d4 behind it the e5 pawn is poorly supported, and ...c5 at once hits the b4 pawn as well. White has done nothing for the centre with the b-pawn and is the one who has to prove the advance sound."
   },
-  "1.e4 c6 2.d4 Qc7": {
-    "strategy": "Brings the queen out before any minor piece; on c7 it eyes e5 but does nothing for ...d5. White develops freely, and once the c-pawn leaves c6, Nb5 can hit the queen."
+  "1.e4 c6 2.b4 d5 3.Nc3": {
+    "strategy": "Develops and defends e4, but if Black takes the pawn, the recapturing knight stands on e4 with no protection and can be attacked with tempo. White ends up reacting to Black's development rather than leading."
   },
-  "1.e4 c6 2.d4 Qb6": {
-    "strategy": "Hits d4 and b2 only on paper, since Qd1 and Bc1 cover them. White gains tempi against the queen, while ...d5 has still not been played."
+  "1.e4 c6 2.b4 e5 3.Bb2": {
+    "name": "Caro–Kann Defence: Labahn Attack, Polish Variation",
+    "strategy": "The point of 2.b4: the bishop comes out on the long diagonal and attacks the e5 pawn, which nothing defends. White pays with the loose b4 pawn, so this is a gambit for quick development and the initiative."
   },
-  "1.e4 c6 2.d4 Qa5+": {
-    "strategy": "The check achieves nothing: White blocks it with a developing or centre-strengthening move, and the queen is left loose on a5 with ...d5 still unplayed."
+  "1.e4 c6 2.b4 e5 3.a3": {
+    "strategy": "Guards the b4 pawn so that the bishop cannot take it, but costs a tempo and develops nothing. The e5 pawn is left alone and Black can claim the centre at once, so White has some queenside space and little else to show for it."
   },
-  "1.e4 c6 2.d4 Nh6": {
-    "strategy": "Puts the knight on the rim, where it invites 3.Bxh6 gxh6 and a ruined kingside pawn structure, and does nothing about the centre. Black keeps the bishop pair after the trade, but White's centre goes unchallenged."
+  "1.e4 c6 2.b4 e5 3.Nf3": {
+    "strategy": "Attacks e5 with a developing move and leaves the b4 pawn loose: if Black takes it with the bishop, White wins e5 back and the pawns are level. Black has other ways to defend e5, and the bishop's long-diagonal pressure that makes the gambit work is missing."
   },
-  "1.e4 c6 2.d4 a6": {
-    "strategy": "A waiting move on the edge that prepares ...b5 but contests nothing. White develops freely or takes more space, while ...d5 is still to be played."
+  "1.e4 c6 2.Bc4 d5": {
+    "strategy": "Strikes at once: the d5 pawn is protected twice, by the c-pawn and the queen, so the bishop has to leave the diagonal. Black gains central space with a tempo and loses nothing by it."
   },
-  "1.e4 c6 2.d4 a5": {
-    "strategy": "Spends a tempo on the rook's pawn while d4 and e4 stand unopposed, and the a-pawn can no longer cover b5 from a6, a hole once the c-pawn leaves c6. White simply builds up."
+  "1.e4 c6 2.Bc4 e5": {
+    "strategy": "Takes the centre with the king's pawn instead of striking at the bishop. Black has to keep f7 in mind, since the bishop and a queen on h5 both aim at it, and White develops with a tempo by attacking the e5 pawn. Sound, but less forcing than the central strike."
   },
-  "1.e4 c6 2.d4 b6": {
-    "strategy": "Prepares ...Bb7, but there the bishop bites on its own pawn on c6, and ...d5 is still unplayed. White develops freely, and freeing the bishop with ...c5 costs Black another tempo."
+  "1.e4 c6 2.Bc4 e6": {
+    "strategy": "A solid set-up that prepares a central pawn chain and keeps White's bishop under threat of being driven back. The cost is the bishop on c8, which is shut in behind the e6 pawn, and White can build a full centre before Black has a say."
   },
-  "1.e4 c6 2.d4 b5": {
-    "strategy": "Grabs queenside space before the centre is settled, weakening c6 and c5 and leaving the b-pawn as a target for a4. Nothing is done against d4 and e4, and White develops freely."
+  "1.e4 c6 2.Bc4 d5 3.Bb3": {
+    "strategy": "Keeps the bishop on the diagonal towards f7 and leaves the e4 pawn en prise as a gambit, instead of losing a tempo after an exchange on d5. White offers a pawn for quick play against the Black king."
   },
-  "1.e4 c6 2.d4 e5": {
-    "strategy": "Strikes at d4 before the pieces are out. After 3.dxe5 Black regains the pawn most directly with ...Qa5+ and ...Qxe5, but the queen is then exposed to Nf3 and Bf4 while White develops with tempo."
+  "1.e4 c6 2.Bc4 d5 3.exd5": {
+    "strategy": "Trades the e-pawn for the d-pawn and gives up the centre. Black retakes with a pawn that hits the bishop, so White loses a tempo and has no centre pawn to show for it, and Black develops comfortably."
   },
-  "1.e4 c6 2.d4 f6": {
-    "strategy": "Takes f6 from the g8-knight, weakens e6 and the e8–h5 diagonal, and does not fight for the centre. White simply builds up."
+  "1.e4 c6 2.Bc4 d5 3.Bd3": {
+    "strategy": "Drops the bishop back to d3, where it blocks its own d-pawn. Black takes on e4, the bishop has to recapture there, and a knight move then hits it again, so White loses time twice for no compensation."
   },
-  "1.e4 c6 2.d4 f5": {
-    "name": "Caro–Kann Defence: Massachusetts Defence",
-    "strategy": "Weakens e6, the e8–h5 diagonal and the kingside without developing anything. After 3.exf5 Black regains the pawn most directly with ...Qa5+ and ...Qxf5, and Nc3 followed by Bd3 gains a tempo on the queen; 3.e5 simply takes space."
+  "1.e4 c6 2.Bc4 d5 3.Bb3 dxe4": {
+    "strategy": "Accepts the gambit: Black wins a clean pawn and removes White's central pawn. The cost is that the bishop now eyes f7, so Black must develop with that square in mind."
   },
-  "1.e4 c6 2.d4 h6": {
-    "strategy": "Stops Bg5 but is a pure waiting move on the rim. It loses time and does not contest d4 or e4, so White builds freely while ...d5 waits."
+  "1.e4 c6 2.Bc4 d5 3.Bb3 e6": {
+    "strategy": "Declines the pawn and backs up d5, so the bishop on b3 and the e4 pawn find nothing to win. Black gets a solid centre; the cost is the light-squared bishop, which is shut in behind its own pawns."
   },
-  "1.e4 c6 2.d4 h5": {
-    "strategy": "Pushes the rook's pawn without contesting d4 or e4 and loosens g5 and g6. White develops freely while Black has still to deal with the centre."
+  "1.e4 c6 2.Bc4 d5 3.Bb3 Nf6": {
+    "strategy": "Develops and keeps the tension instead of capturing, the knight adding a second attacker to e4. Black gives up the extra pawn that taking would keep, and White can drive the knight back with the e-pawn and gain space."
   },
-  "1.e4 c6 2.d4 c5": {
-    "strategy": "Moves the same pawn a second time and lets White take space or open the centre. If White takes on c5, ...Qa5+ and ...Qxc5 regain the pawn, but with the queen out early and White ahead in development."
+  "1.e4 c6 2.Bc4 d5 3.Bb3 dxe4 4.Qh5": {
+    "name": "Caro–Kann Defence: Hillbilly Attack, Schaeffer Gambit",
+    "strategy": "Brings the queen to join the bishop against f7, which only the king defends. There is no mate threat, but Black does well to blunt the attack first and only then complete development. White's compensation is time and activity for the pawn."
   },
-  "1.e4 c6 2.d4 g5": {
-    "strategy": "Hangs the g-pawn to 3.Bxg5, since neither the queen nor the f8-bishop covers it, and loosens the kingside for nothing."
+  "1.e4 c6 2.Bc4 d5 3.Bb3 dxe4 4.Nc3": {
+    "strategy": "Attacks the e4 pawn with a developing move while the bishop keeps f7 under pressure. White plays for quick development rather than an immediate attack, and Black has to decide whether to hold the pawn or to return it for a comfortable game."
   },
-  "1.e4 c6 2.Nc3 d5": {
-    "strategy": "Challenges e4 at once, and the c6 pawn already guards d5, so Black can recapture there without loosening anything. Black keeps a solid structure with the light-squared bishop free, at the cost of a slower start in development, since the c-pawn has already moved."
-  },
-  "1.e4 c6 2.Nc3 Nf6": {
-    "strategy": "Develops and attacks e4, but the knight becomes a target for the e-pawn. After 3.d4 the natural 3...d5 runs into 4.e5, gaining time, and 3.e5 Nd5 4.Nxd5 cxd5 5.d4 at once gives White a space advantage with the pawn on e5."
-  },
-  "1.e4 c6 2.Nc3 d6": {
-    "strategy": "Prepares ...Nf6 and a compact, flexible set-up that keeps the centre open to several plans. It is sound but passive: White takes the full centre before Black contests it."
-  },
-  "1.e4 c6 2.Nc3 e6": {
-    "strategy": "Prepares ...d5 with ...c6 already played, a set-up that supports d5 but shuts the c8 bishop in behind e6. After 3.d4 d5 4.e5 Black wants the ...c5 break against White's pawn chain, and the pawn on c6 needs a second move to get there. Solid, but 2...d5 at once keeps the bishop free."
-  },
-  "1.e4 c6 2.Nc3 g6": {
-    "strategy": "Prepares ...Bg7 with ...c6 already played and leaves Black the choice between a solid pawn centre and a more elastic set-up. Sound and flexible, but it gives White more options than the direct 2...d5."
-  },
-  "1.e4 c6 2.Nc3 e5": {
-    "strategy": "Strikes in the centre, but ...c6 has taken the b8 knight's natural square and e5 lacks support. After 3.Nf3 Black usually has to spend another tempo defending e5, because 3...d5 4.exd5 cxd5 5.Nxe5 loses a pawn."
-  },
-  "1.e4 c6 2.Nc3 Qc7": {
-    "strategy": "Brings the queen out before any minor piece; on c7 it supports ...e5 but does nothing for ...d5. White takes the centre at once and builds on it, while Black still has all four minor pieces to develop."
-  },
-  "1.e4 c6 2.Nc3 Qb6": {
-    "strategy": "Brings the queen out before any minor piece and eyes b2, which the c1 bishop guards. White gains time against the queen by attacking it with the a-pawn or the knight."
-  },
-  "1.e4 c6 2.Nc3 Qa5": {
-    "strategy": "Brings the queen out before any minor piece and eyes the c3 knight, which the b- and d-pawns guard. After 3.d4 the knight is pinned, but Bd2 can break the pin at any time, and White builds the centre further while the queen has nothing to attack."
-  },
-  "1.e4 c6 2.Nc3 Nh6": {
-    "strategy": "Puts the knight on the rim, from where it can reach f5 to press on d4 but does nothing against e4. Once White plays d4, the c1 bishop can take with Bxh6 gxh6, doubling Black's h-pawns, although Black gets the bishop pair in return."
-  },
-  "1.e4 c6 2.Nc3 Na6": {
-    "strategy": "Puts the knight on the rim, from where it heads for c7 to support ...d5. 3.Bxa6 bxa6 doubles Black's a-pawns at once, at the cost of the bishop pair, and White can also take the centre while the knight is still on its way."
-  },
-  "1.e4 c6 2.Nc3 a6": {
-    "strategy": "A waiting move that prepares ...b5 but develops nothing and does not contest e4. White takes the centre at once and develops freely, while ...d5 has still to be played."
-  },
-  "1.e4 c6 2.Nc3 a5": {
-    "strategy": "Spends a tempo on the rook's pawn and does nothing against e4 or for ...d5. White takes the centre at once and develops freely."
-  },
-  "1.e4 c6 2.Nc3 b6": {
-    "strategy": "Prepares ...Bb7, but the c6 pawn blocks that bishop's diagonal, so the fianchetto has little to aim at. It costs a tempo while White takes the centre."
-  },
-  "1.e4 c6 2.Nc3 b5": {
-    "strategy": "Grabs queenside space but develops nothing, and the pawn, already hit by the c3 knight, ties the c6 pawn to its defence. After 3.d4 d5 4.exd5, for instance, 4...cxd5 drops the b-pawn to 5.Bxb5+ or 5.Nxb5."
-  },
-  "1.e4 c6 2.Nc3 f6": {
-    "strategy": "Covers e5 but takes the natural f6 square from the g8 knight and opens the e8–h5 diagonal, so Qh5+ is possible at any moment. White develops freely and aims at the weakened a2–g8 diagonal."
-  },
-  "1.e4 c6 2.Nc3 g5": {
-    "strategy": "Loosens the kingside without developing anything. After 3.d4 the c1 bishop attacks g5, so Black must spend another move holding the pawn, and after 3...h6 it comes under fire again from 4.h4."
-  },
-  "1.e4 c6 2.Nc3 h6": {
-    "strategy": "Spends a tempo on a pawn move that stops a bishop which cannot yet come to g5, and does nothing for the centre. 3.d4 gives White the centre with a free hand."
-  },
-  "1.e4 c6 2.Nc3 h5": {
-    "strategy": "Pushes the rook's pawn without contesting e4 and loosens g5 and g6. White takes the centre at once and develops freely."
-  },
-  "1.e4 c6 2.Nc3 c5": {
-    "strategy": "Moves the c-pawn a second time and reaches the position after 1.e4 c5 2.Nc3 with White to move, so Black has lost a whole tempo. White can develop and open the centre with d4 a move ahead."
-  },
-  "1.e4 c6 2.Nc3 f5": {
-    "strategy": "Gives up a pawn: after 3.exf5 nothing recaptures on f5, and 3...d5? runs into 4.Qh5+ g6 5.fxg6. After 3...Nf6 White can hold the extra pawn with 4.g4."
+  "1.e4 c6 2.Bc4 d5 3.Bb3 dxe4 4.Qe2": {
+    "strategy": "Attacks the e4 pawn with the queen and keeps the other pieces flexible. Black can defend the pawn with a developing move and keep the extra pawn, so White has an attack on a pawn but no lead in development."
   },
   "1.e4 c6 2.c4 d5": {
+    "name": "Caro–Kann Defence: Accelerated Panov Attack",
     "strategy": "Strikes at the e4-pawn at once, the thematic Caro–Kann break, before White can support the centre. White then chooses how the pawns are exchanged, and in the main lines ends up with an isolated d-pawn, accepted for fast development and attacking chances."
   },
   "1.e4 c6 2.c4 d6": {
@@ -299,141 +238,180 @@
   "1.e4 c6 2.c4 f5": {
     "strategy": "Offers the f-pawn for nothing: 3.exf5 simply wins it, and the king and the e6-square are left weakened with no development in return."
   },
-  "1.e4 c6 2.Nf3 d5": {
-    "strategy": "Challenges e4 at once, the point of the Caro-Kann: the c6 pawn backs d5, so if White takes, Black recaptures with the c-pawn and keeps a healthy centre pawn and a half-open c-file. If White pushes e5 instead, Black can bring out the light-squared bishop before closing its diagonal. The price is a tempo spent on ...c6, in return for a solid structure."
+  "1.e4 c6 2.c4 d5 3.exd5": {
+    "strategy": "The most direct way to settle the tension. White takes first and lets Black choose the recapture: a pawn recapture leaves c4 pressing on d5, and a queen recapture runs into that pawn."
   },
-  "1.e4 c6 2.Nf3 e6": {
-    "strategy": "Backs up a later ...d5, but closes the c8-bishop's diagonal before the bishop is out. If White gets a pawn to e5, the bishop stays shut in behind a French-like pawn chain. Sound, but it gives up the Caro-Kann's chief idea of developing that bishop first."
+  "1.e4 c6 2.c4 d5 3.cxd5": {
+    "strategy": "Trades the c-pawn instead and keeps the e-pawn, which Black's recapture then attacks. White gives up the pressure on d5 from c4 in return for an open c-file and lively piece play."
   },
-  "1.e4 c6 2.Nf3 Nf6": {
-    "strategy": "Attacks e4 and invites White to push e5 and chase the knight. Black gets a sound game, but White gains space while the knight is driven about, so it is less comfortable than the direct ...d5."
+  "1.e4 c6 2.c4 d5 3.e5": {
+    "name": "Caro–Kann Defence: Toikkanen Gambit",
+    "strategy": "A gambit that pushes the e-pawn past d5 to gain space, but it gives up the e-pawn's hold on d5 that 2.c4 was played for. The pawn on e5 has no pawn or piece behind it and becomes a target, while Black's centre stays intact."
   },
-  "1.e4 c6 2.Nf3 d6": {
-    "strategy": "Prepares a set-up with pawns on c6 and d6 against a broad White centre, instead of challenging it with ...d5. Solid and flexible, but passive: Black cedes space and the initiative."
+  "1.e4 c6 2.c4 d5 3.cxd5 cxd5": {
+    "strategy": "The natural recapture, and it hits e4 at once. White has to decide how to meet the attack on the pawn, and Black has a sound central pawn and an open c-file for the rooks."
   },
-  "1.e4 c6 2.Nf3 g6": {
-    "strategy": "Prepares to fianchetto the king's bishop and to undermine White's centre later, instead of fighting for it now. Sound, but less direct than ...d5, and White takes the centre unopposed."
+  "1.e4 c6 2.c4 d5 3.cxd5 Qxd5": {
+    "strategy": "Hangs the queen: the pawn on e4 attacks d5 and takes the queen for a pawn. The recapture looks natural but Black has no compensation for the loss."
   },
-  "1.e4 c6 2.Nf3 c5": {
-    "strategy": "Reaches the Sicilian pawn structure at the cost of a tempo: the same position with Black to move would be an ordinary Sicilian, so White has an Open Sicilian with Black a move behind."
+  "1.e4 c6 2.c4 d5 3.cxd5 Nf6": {
+    "strategy": "Skips the recapture to attack d5 and e4 with the knight, offering a pawn for development. White can take on c6 and be a pawn up, and Black's lead in development has to pay for it."
   },
-  "1.e4 c6 2.Nf3 Na6": {
-    "strategy": "Puts the knight on the rim on its way to c7, where it would support ...d5, but spends a tempo while ...d5 is still undone. White gets a lead in development and central space."
+  "1.e4 c6 2.c4 d5 3.cxd5 cxd5 4.Qb3": {
+    "name": "Caro–Kann Defence: Accelerated Panov Attack, Van Weersel Attack",
+    "strategy": "Adds a second attacker to d5 and eyes b7, but brings the queen out early. Black can defend d5 with ordinary development and the queen then has to find a new post, so White gains little from the double attack."
   },
-  "1.e4 c6 2.Nf3 Qc7": {
-    "strategy": "Brings the queen out before any minor piece; on c7 it eyes e5 but does nothing for ...d5. White develops with gain of time and takes space."
+  "1.e4 c6 2.c4 d5 3.cxd5 cxd5 4.exd5": {
+    "strategy": "Takes the pawn and removes the attacker of e4 at the same time. White is a pawn up for the moment, but the pawn on d5 is hard to hold. The trade leaves White with an isolated d-pawn, to be paid for with piece activity."
   },
-  "1.e4 c6 2.Nf3 Qb6": {
-    "strategy": "Attacks b2 and f2, but the c1-bishop and the king guard them, so there is no threat. The queen becomes a target for attack, and White develops with tempo while ...d5 is still undone."
+  "1.e4 c6 2.c4 d5 3.cxd5 cxd5 4.Nc3": {
+    "strategy": "Develops and defends e4 at once, adding a second attacker to d5 for a later capture. White keeps the choice of how to open the centre, but takes no pawn, so Black can equalise easily."
   },
-  "1.e4 c6 2.Nf3 Qa5": {
-    "strategy": "Pins the d2 pawn against the king, so White cannot play d4 for a move, but blocking the diagonal with a piece or pawn ends the pin. The queen stands exposed on a5, and Black has still not moved a central pawn."
+  "1.e4 c6 2.c4 d5 3.exd5 cxd5": {
+    "strategy": "The natural recapture: the queen stays at home and Black keeps a pawn on d5. That pawn is attacked by c4 and defended once, so Black must be ready to meet the exchange on d5 by winning the pawn back with a piece."
   },
-  "1.e4 c6 2.Nf3 Nh6": {
-    "strategy": "Heads for f5 from the rim, but White's d4 opens the c1-h6 diagonal, and Bxh6 forces ...gxh6 and wrecks the kingside pawns. The knight also stays off f6, and ...d5 is still undone."
+  "1.e4 c6 2.c4 d5 3.exd5 Qxd5": {
+    "name": "Caro–Kann Defence: Accelerated Panov Attack, Pseudo-Scandinavian",
+    "strategy": "Hangs the queen: the pawn on c4 attacks d5 and takes the queen for a pawn. Black has no compensation for the loss."
   },
-  "1.e4 c6 2.Nf3 a6": {
-    "strategy": "Spends a tempo on a flank pawn: with c6 already covering b5, the move only prepares ...b5, which does nothing for the centre. White takes space and develops."
+  "1.e4 c6 2.c4 d5 3.exd5 Nf6": {
+    "strategy": "Develops instead of recapturing: the knight attacks d5 a second time and Black can still retake with the c-pawn later. White can take on c6 and be a pawn up, but then Black has central control and quick development to pay for it."
   },
-  "1.e4 c6 2.Nf3 a5": {
-    "strategy": "Gains queenside space for a tempo but does nothing for the centre or development, and leaves b6 without a pawn guard."
+  "1.e4 c6 2.c4 d5 3.exd5 cxd5 4.cxd5": {
+    "strategy": "Takes the pawn on d5 and is a pawn up, though only for the moment. The pawn on d5 is hard to hold, and the trade has cleared White's c- and e-pawns away from the centre."
   },
-  "1.e4 c6 2.Nf3 b6": {
-    "strategy": "Prepares a queenside fianchetto, but a bishop on b7 would face its own c6 pawn and be blocked, and the centre is left to White."
+  "1.e4 c6 2.c4 d5 3.exd5 cxd5 4.d4": {
+    "strategy": "Meets the d5 pawn with a central strike instead of capturing it. White gets a broad centre of c- and d-pawns against Black's lone d-pawn, and plays for pressure on it and active pieces, while Black plays for quick development and freeing exchanges."
   },
-  "1.e4 c6 2.Nf3 b5": {
-    "strategy": "Throws the b-pawn forward before the centre is settled: a4 hits it at once, and the pawns on b5 and c6 loosen the queenside without helping development."
+  "1.e4 c6 2.c4 d5 3.exd5 cxd5 4.Nc3": {
+    "strategy": "Develops and keeps the d5 pawn under double attack without resolving the tension. Black can release it by taking on c4, when the bishop retakes at once, or defend it with a developing move; White keeps a normal game but has committed to no structure."
   },
-  "1.e4 c6 2.Nf3 f6": {
-    "strategy": "Takes f6 from the knight, opens the e8-h5 diagonal and weakens e6, while doing nothing for ...d5. White builds a centre at leisure, and Black lags in development."
+  "1.e4 c6 2.c4 d5 3.exd5 cxd5 4.cxd5 Nf6": {
+    "name": "Caro–Kann Defence: Accelerated Panov Attack, Modern Variation",
+    "strategy": "Attacks the extra pawn, which White usually cannot hold. Black regains it with a developing move, and White is left with an isolated d-pawn that is a weakness in the endgame and has to be paid for with piece activity."
   },
-  "1.e4 c6 2.Nf3 h6": {
-    "strategy": "Takes g5 from White's knight and bishop but spends a tempo on a pawn move that does nothing for the centre. White builds a centre with a free hand."
+  "1.e4 c6 2.c4 d5 3.exd5 cxd5 4.cxd5 Qxd5": {
+    "strategy": "Retakes at once with the queen, winning the pawn back and simplifying the structure. The queen comes out early and is hit by a developing knight move, so White gains time and keeps the initiative."
   },
-  "1.e4 c6 2.Nf3 h5": {
-    "strategy": "Gains kingside space, but the h-pawn can no longer cover g5 from h6, and the move does nothing for development or the centre. White simply builds a centre."
-  },
-  "1.e4 c6 2.Nf3 e5": {
-    "strategy": "Offers a pawn that nothing defends: Nxe5 takes it, and Black regains it with ...Qe7 and ...Qxe4+ only by bringing the queen out early, which hands White a lead in development."
-  },
-  "1.e4 c6 2.Nf3 f5": {
-    "strategy": "Weakens e6 and the e8-h5 diagonal for a pawn that exf5 takes at once. Black can win it back, but is left with a hole on e6 and a backward e7 pawn on the half-open e-file."
-  },
-  "1.e4 c6 2.Nf3 g5": {
-    "strategy": "Hangs the pawn to Nxg5, which nothing defends, and weakens f5, h5 and the whole kingside for good."
-  },
-  "1.e4 c6 2.b4 d5": {
-    "strategy": "Takes the centre at once, the way the Caro-Kann is meant to be played. White's early b-pawn advance does nothing for the fight over the centre, so Black simply gets the usual solid structure."
-  },
-  "1.e4 c6 2.b4 e5": {
-    "strategy": "Takes the centre with the e-pawn instead and opens the bishop's diagonal towards the b4 pawn, which nothing defends. It is a sharper choice than ...d5, because the e5 pawn itself soon becomes a target and Black must look after both pawns."
-  },
-  "1.e4 c6 2.Bc4 d5": {
-    "strategy": "Strikes at once: the d5 pawn is protected twice, by the c-pawn and the queen, so the bishop has to leave the diagonal. Black gains central space with a tempo and loses nothing by it."
+  "1.e4 c6 2.c4 d5 3.exd5 cxd5 4.cxd5 Nc6": {
+    "strategy": "Develops a piece before regaining the pawn, but the knight does not itself attack d5. White gets time to defend the pawn with a developing move, so Black's recovery is slower and less forceful than with a direct attack on it."
   },
   "1.e4 c6 2.d3 d5": {
     "strategy": "Takes the centre at once and challenges e4, which White's modest move has to meet. Black gets a firm claim to the centre while White prepares a quiet set-up."
   },
-  "1.e4 c6 2.g4 d5": {
-    "strategy": "The natural reply: the g-pawn advance does nothing for the centre, so Black strikes at e4 at once. The pawn on g4 is a weakness, and the bishop on c8 already looks at it; White's early flank advance leaves the kingside loose."
+  "1.e4 c6 2.d3 e5": {
+    "strategy": "Claims the centre with the king's pawn first and keeps the choice of how to support it. The game stays quiet and manoeuvring: White builds a compact set-up with a fianchettoed bishop, Black holds a broad, solid centre."
   },
-  "1.e4 c6 2.b4 d5 3.b5": {
-    "name": "Caro–Kann Defence: Labahn Attack, Double Gambit",
-    "strategy": "A double gambit: Black can take the b5 pawn with ...cxb5 or the e4 pawn with ...dxe4. White has nothing developed and gets no real compensation for a pawn, which makes this a try for surprise rather than a sound plan."
-  },
-  "1.e4 c6 2.b4 e5 3.Bb2": {
-    "name": "Caro–Kann Defence: Labahn Attack, Polish Variation",
-    "strategy": "The point of 2.b4: the bishop comes out on the long diagonal and attacks the e5 pawn, which nothing defends. White pays with the loose b4 pawn, so this is a gambit for quick development and the initiative."
-  },
-  "1.e4 c6 2.Bc4 d5 3.Bb3": {
-    "strategy": "Keeps the bishop on the diagonal towards f7 and leaves the e4 pawn en prise as a gambit, instead of losing a tempo after an exchange on d5. White offers a pawn for quick play against the Black king."
-  },
-  "1.e4 c6 2.Bc4 d5 3.Bb3 dxe4": {
-    "strategy": "Accepts the gambit: Black wins a clean pawn and removes White's central pawn. The cost is that the bishop now eyes f7, so Black must develop with that square in mind."
-  },
-  "1.e4 c6 2.Bc4 d5 3.Bb3 dxe4 4.Qh5": {
-    "name": "Caro–Kann Defence: Hillbilly Attack, Schaeffer Gambit",
-    "strategy": "Brings the queen to join the bishop against f7, which only the king defends. There is no mate threat, but Black does well to blunt the attack first and only then complete development. White's compensation is time and activity for the pawn."
+  "1.e4 c6 2.d3 e6": {
+    "strategy": "Builds a solid pawn centre and stays flexible. The cost is the bishop on c8, which is shut in behind the e6 pawn, the very problem the c6 pawn was meant to avoid, so Black's development is a little slower."
   },
   "1.e4 c6 2.d3 d5 3.Nd2": {
     "strategy": "Defends e4 a second time, so the pawn can be exchanged and retaken with the d-pawn, and avoids the early queen trade down the d-file. White keeps the queens on and a flexible set-up with a solid pawn chain."
   },
+  "1.e4 c6 2.d3 d5 3.Nf3": {
+    "strategy": "Accepts that Black may take on e4: after the exchange the queens face each other on the d-file and can come off, leaving a level endgame with White's king stuck in the centre. A respectable way to play for a long manoeuvring game without risk."
+  },
+  "1.e4 c6 2.d3 d5 3.Nc3": {
+    "strategy": "Defends e4 with a developing move, so White can retake on e4 with the knight and avoid the queen trade. The knight can be driven away by ...d4, which gives Black more space in the centre, but White's position stays playable."
+  },
   "1.e4 c6 2.d3 d5 3.Nd2 g6": {
     "strategy": "Chooses a fianchetto set-up that presses on the centre from a distance instead of occupying it with the e-pawn. Black keeps the pawn structure flexible and plays for a long manoeuvring game."
+  },
+  "1.e4 c6 2.d3 d5 3.Nd2 e5": {
+    "strategy": "Takes the centre with a second pawn and keeps the tension on e4. Black builds a broad pawn centre and a solid set-up where White's slow plan is a reversed version of Black's own, leaving a long game in which the central pawns decide."
+  },
+  "1.e4 c6 2.d3 d5 3.Nd2 dxe4": {
+    "strategy": "Settles the tension in the centre and lets White choose how to retake. After the exchange the d-file is open and the pawn structure is simple; the knight on d2 has taken a less active square than on f3, and Black can follow up with ...e5."
   },
   "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3": {
     "strategy": "Brings the second knight out to its natural square, where it covers e5 and d4 and starts clearing the way for castling. With the d3 and e4 pawns behind it, White builds a solid centre and keeps a flexible plan."
   },
+  "1.e4 c6 2.d3 d5 3.Nd2 g6 4.g3": {
+    "strategy": "Prepares the fianchetto first and decides on the second knight later. The bishop on g2 will support the centre from behind, and the move keeps White's options open for the kingside knight and for a later central break."
+  },
+  "1.e4 c6 2.d3 d5 3.Nd2 g6 4.d4": {
+    "strategy": "Takes the full centre at once and gives up the slow set-up. White gets space, but with d3 played and the knight on d2 it has lost time compared with an ordinary opening, so Black exchanges on e4 and equalises without trouble."
+  },
   "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7": {
     "strategy": "Completes the fianchetto: the bishop presses on the long diagonal towards the centre and takes a step towards castling. Black develops without any hurry, since nothing in White's set-up threatens the centre."
+  },
+  "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Nf6": {
+    "strategy": "Puts a second attacker on the e4 pawn and keeps the choice of the bishop's square open. Black develops with pressure, and White has to decide how to deal with the tension in the centre while the king's bishop is still to come out."
+  },
+  "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 dxe4": {
+    "strategy": "Releases the tension and opens the d-file. White can retake with either the pawn or the knight and gets a comfortable position, since Black has given up the central pawn that was holding the e4 pawn in check."
   },
   "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7 5.g3": {
     "strategy": "Prepares to fianchetto the king's bishop to g2, where it backs up the centre from behind. White plays by set-up rather than by direct threats, aiming for a slow game in which the pieces rather than the pawns decide."
   },
+  "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7 5.Be2": {
+    "strategy": "Develops the bishop to its natural square and prepares to castle at once, without committing the g-pawn. It is a harmless set-up, but the bishop does less on e2 than it would on the long diagonal."
+  },
+  "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7 5.d4": {
+    "strategy": "Builds the broad centre immediately. White gets space and solid pawns on d4 and e4, but the central tension gives Black an easy exchange on e4 and a comfortable game, so the slow set-up has been abandoned for little."
+  },
   "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7 5.g3 e5": {
     "strategy": "Stakes a claim to the centre now that the bishop supports it: the e5 pawn is attacked by the knight and defended by the bishop. Black gets a broad pawn centre, and White must decide when to resolve the tension on e4."
+  },
+  "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7 5.g3 Nf6": {
+    "strategy": "Develops the knight with pressure on e4 and prepares to castle. Black keeps the e-pawn back for now and plays for a flexible set-up, leaving White to decide how the central tension is resolved."
+  },
+  "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7 5.g3 dxe4": {
+    "strategy": "Opens the d-file by trading a pawn, with an easy recapture for White. Black gets a simple position, but the central pawn is gone, so the bishop on g2 will work on a more open diagonal."
   },
   "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7 5.g3 e5 6.Bg2": {
     "strategy": "Completes the fianchetto and gets the king ready to castle. The bishop stands behind the f3 knight and will work along the long diagonal once the centre opens, so White waits for Black to commit."
   },
+  "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7 5.g3 e5 6.c3": {
+    "strategy": "Gives the d4 square extra protection and prepares a later d4. It is a sound but slow waiting move, and White still has to complete development, so it adds little to the fight for the centre."
+  },
+  "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7 5.g3 e5 6.Qe2": {
+    "strategy": "Adds a second defender to e4 and keeps the queen on a flexible square. It is sound but passive: White does nothing to challenge Black's pawn centre and still has the bishop and king to bring into the game."
+  },
   "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7 5.g3 e5 6.Bg2 Ne7": {
     "strategy": "A flexible development: the knight backs up d5 and c6 and leaves the f-pawn free to advance. It does not take the f6 square, so Black keeps a free hand for the pawn break against White's centre."
   },
-  "1.e4 c6 2.d4 Na6 3.Nc3": {
-    "strategy": "Develops the knight and guards e4 while Black's knight stands on the rim. White does not need to punish the slow move at once: sound development and a hold on the centre are enough to keep the better of the opening."
+  "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7 5.g3 e5 6.Bg2 Nf6": {
+    "strategy": "The natural development: the knight attacks e4 and clears the way for castling, while the e5 and d5 pawns hold the centre. Black plans a solid game in which a later central break decides, since the position is rich in tension."
   },
-  "1.e4 c6 2.d4 Na6 3.Nc3 Nc7": {
-    "name": "Caro–Kann Defence: De Bruycker Defence",
-    "strategy": "Completes the knight's roundabout route: from c7 it supports a later push in the centre and covers d5 and e6. But it has taken two moves to develop one piece, and White is ahead in development and space."
+  "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7 5.g3 e5 6.Bg2 dxe4": {
+    "strategy": "Gives up the tension and opens the d-file, so the queens may come off. White retakes comfortably and the bishop on g2 soon eyes the e4 pawn, while Black has released its pressure on e4 and has nothing more than equality to play for."
+  },
+  "1.e4 c6 2.g4 d5": {
+    "strategy": "The natural reply: the g-pawn advance does nothing for the centre, so Black strikes at e4 at once. The pawn on g4 is a weakness, and the bishop on c8 already looks at it; White's early flank advance leaves the kingside loose."
+  },
+  "1.e4 c6 2.g4 Nf6": {
+    "strategy": "Hits the undefended e4 pawn at once and eyes g4, so White has to commit. Pushing e5 gains space with a tempo on the knight, which then needs a new square; Black is solid but has helped White gain space."
+  },
+  "1.e4 c6 2.g4 e5": {
+    "strategy": "Takes the centre with the e-pawn at once, which abandons the idea behind ...c6: a pawn on d5 backed by the c-pawn. The game is sound, but Black does not use the first chance to attack e4, and White gets time to catch up in development."
   },
   "1.e4 c6 2.g4 d5 3.Nc3": {
     "strategy": "Guards the e4 pawn and develops, but does nothing about what g4 has created: that pawn is guarded only by the queen, and White's kingside is loose. Black exchanges in the centre and has the easier game."
   },
+  "1.e4 c6 2.g4 d5 3.exd5": {
+    "strategy": "Trades the e-pawn for the d5 pawn at once, so Black cannot win a pawn on e4. After the c-pawn recaptures, the f1 bishop gets a check on b5, and the queen still guards g4 against the c8 bishop. White plays for quick development and has to keep an eye on the loosened kingside."
+  },
+  "1.e4 c6 2.g4 d5 3.e5": {
+    "strategy": "Gains space and shuts the c8 bishop out: ...Bf5 runs into the g4 pawn, and ...Bg4 is met by the queen. The price is an advanced, exposed centre and a loose kingside, and Black will attack the advanced pawns at once."
+  },
   "1.e4 c6 2.g4 d5 3.Nc3 dxe4": {
     "strategy": "Takes the pawn and opens the d-file, where the queen now looks at White's d2 pawn, while the bishop on c8 keeps its eye on g4, which only the queen guards. White has to recover the pawn or find compensation at once."
+  },
+  "1.e4 c6 2.g4 d5 3.Nc3 Nf6": {
+    "strategy": "The knight eyes e4 and g4, and the c8 bishop looks at g4 as well, so the pawn is attacked twice and guarded only by the queen. White has to support it at once, because pushing e5 just loses it to ...Nxg4. Black develops with tempo and keeps the option of taking on e4."
+  },
+  "1.e4 c6 2.g4 d5 3.Nc3 e6": {
+    "strategy": "Supports d5 with a pawn and frees the f8 bishop, but locks the c8 bishop behind the e6 pawn, the piece the Caro-Kann is meant to keep free, and gives up the pressure on g4. Safe and solid, yet it lets White consolidate instead of punishing the flank advance."
   },
   "1.e4 c6 2.g4 d5 3.Nc3 dxe4 4.d3": {
     "name": "Caro–Kann Defence: Spike Variation, Scorpion-Grob Gambit",
     "strategy": "Offers a second pawn to open lines for the c1 bishop and hit e4, but after Black takes on d3 and White recaptures, White is a pawn down with a lead in development as the only compensation. The g4 pawn is still a target: a gambit that gives more than it gets."
+  },
+  "1.e4 c6 2.g4 d5 3.Nc3 dxe4 4.Nxe4": {
+    "strategy": "Wins the pawn back with the developed knight: material is level and the knight is centralised. The cost is a position the flank advance has already loosened, with the d-file open for Black's queen and g4 guarded only by the queen, so Black has the easier game."
+  },
+  "1.e4 c6 2.g4 d5 3.Nc3 dxe4 4.Qe2": {
+    "strategy": "Attacks e4 a second time and guards the loose g4 pawn from one square. But it blocks the f1 bishop and puts the queen on the e-file in front of the king, and Black can defend e4 with a developing move, so White gains little time."
   }
 }

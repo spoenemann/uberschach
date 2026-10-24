@@ -16,12 +16,12 @@
     "strategy": "Deckt e4 mit dem Läufer, der jedoch vor dem d-Bauern steht: Solange er auf d3 bleibt, kann der d-Bauer nicht ziehen, und der Läufer c1 ist eingesperrt. Sie zu befreien kostet Zeit, und Schwarz sichert sich sofort seinen Anteil am Zentrum. Spielbar, aber nicht zu empfehlen."
   },
   "1.e4 Nf6 2.c4": {
-    "strategy": "Opfert den Bauern e4 für Entwicklung: Nach 2...Sxe4 hat Weiß etwas Aktivität dafür, doch der Mehrbauer ist real und die Kompensation zweifelhaft. Schwarz kann den Bauern auch ablehnen und sich solide entwickeln.",
-    "name": "Englische Eröffnung: Achilles-Omega-Gambit"
+    "name": "Englische Eröffnung: Achilles-Omega-Gambit",
+    "strategy": "Opfert den Bauern e4 für Entwicklung: Nach 2...Sxe4 hat Weiß etwas Aktivität dafür, doch der Mehrbauer ist real und die Kompensation zweifelhaft. Schwarz kann den Bauern auch ablehnen und sich solide entwickeln."
   },
   "1.e4 Nf6 2.d4": {
-    "strategy": "Baut ein Bauernzentrum auf, lässt e4 aber ungedeckt, sodass 2...Sxe4 einen Bauern gewinnt. Weiß erhält etwas Raum im Zentrum und einen Entwicklungsvorsprung, aber keine klare Kompensation, und Schwarz konsolidiert mühelos.",
-    "name": "Indische Verteidigung: Omega-Gambit"
+    "name": "Indische Verteidigung: Omega-Gambit",
+    "strategy": "Baut ein Bauernzentrum auf, lässt e4 aber ungedeckt, sodass 2...Sxe4 einen Bauern gewinnt. Weiß erhält etwas Raum im Zentrum und einen Entwicklungsvorsprung, aber keine klare Kompensation, und Schwarz konsolidiert mühelos."
   },
   "1.e4 Nf6 2.f3": {
     "strategy": "Deckt e4 mit dem f-Bauern, nimmt aber dem Springer g1 sein bestes Feld und schwächt die Diagonale e1-h4 und den weißen König. Schwarz greift sofort das Zentrum an."
@@ -98,73 +98,61 @@
     "name": "Aljechin-Verteidigung",
     "background": "Von Alexander Aljechin beim Turnier in Budapest 1921 in Partien gegen Endre Steiner und Fritz Sämisch eingeführt. Die Herausgeber von Modern Chess Openings nannten sie 1925 eine „bizarre Verteidigung“, und Bobby Fischer setzte sie im WM-Kampf 1972 zweimal gegen Boris Spasski ein."
   },
-  "1.e4 Nf6 2.Nc3 e5": {
-    "strategy": "Kämpft sofort um das Zentrum und lenkt die Partie mit dem Springer auf f6, der auf e4 zielt, in eine Wiener Partie, solides und gut erprobtes Terrain. Schwarz meidet die eigenständigen Varianten, in denen Weiß die bessere Theorie hatte. Der Preis: Weiß wählt zwischen scharfem Gambit und ruhiger Entwicklung, und Schwarz muss in beidem zu Hause sein."
+  "1.e4 Nf6 2.Bc4 Nxe4": {
+    "strategy": "Schlägt den freien Bauern. Weiß kann das Material mit einem Läuferopfer und einem Damenvorstoß zurückgewinnen, doch dann findet der schwarze König auf g8 Sicherheit, und Schwarz hält das Zentrum. Es gibt keinen Grund, den Bauern abzulehnen."
   },
-  "1.e4 Nf6 2.Nc3 d6": {
-    "strategy": "Deckt e5, sodass 3.e5 einfach einen Bauern verliert, und steuert einen Pirc-Aufbau an: Fianchetto des Königsläufers und frühe Rochade. Schwarz lässt Weiß ein breites Zentrum errichten und greift es später mit Bauernhebeln an. Der Preis ist eine gewisse Passivität: Das Zentrum gehört zunächst Weiß, und Schwarz muss beweisen, dass es überdehnt ist."
+  "1.e4 Nf6 2.Bc4 e5": {
+    "strategy": "Kämpft mit einem Bauern ums Zentrum, statt e4 zu schlagen. Der Springer hat weiter den Bauern e4 im Blick, und die Partie wird zu einem gewöhnlichen offenen Spiel, in dem der weiße Läufer gut steht. Solide, lässt aber den freien Bauern auf dem Brett."
   },
-  "1.e4 Nf6 2.Nc3 Nc6": {
-    "strategy": "Entwickelt den Springer und hält ...e5 in Reserve, sodass eine Entwicklung aller vier Springer weiter möglich ist. Der Vorstoß 3.e5 droht hier nichts, denn der Bauer ist ungedeckt und Schwarz nimmt ihn einfach. In einer Bauernkette nach d4 und e5 versperrt der Springer auf c6 jedoch den c-Bauern, sodass Schwarz der übliche Hebel ...c5 fehlt."
+  "1.e4 Nf6 2.Bc4 d5": {
+    "strategy": "Greift Läufer und Zentrum zugleich an. Nach dem Tausch auf d5 steht der Springer in der Mitte, und Schwarz hat ein leichtes, ausgeglichenes Spiel. Solide, doch Schwarz lässt den Mehrbauern liegen und Weiß mit einer normalen Stellung davonkommen."
   },
-  "1.e4 Nf6 2.Nc3 c6": {
-    "strategy": "Bereitet ...d5 mit einer soliden Bauernstruktur vor. Da der Springer schon auf f6 steht, verschafft 3.e5 Sd5 4.Sxd5 cxd5 Weiß jedoch den Raum eines vorgerückten Bauern, den Schwarz später untergraben muss. Korrekt, gibt aber mehr preis als ...d5."
+  "1.e4 Nf6 2.Bc4 Nxe4 3.Bxf7+": {
+    "name": "Aljechin-Verteidigung: Krejcik-Variante, Krejcik-Gambit",
+    "strategy": "Opfert den Läufer, um den König herauszuziehen und den Springer mit einem Damenvorstoß zurückzugewinnen. Das Material kommt zurück, doch Weiß verliert das Läuferpaar und den Raumvorteil, und der schwarze König steht am Ende sicher, sodass Schwarz sich keine Sorgen machen muss."
   },
-  "1.e4 Nf6 2.Nc3 d5": {
-    "name": "Aljechin-Verteidigung: Skandinavische Variante",
-    "background": "Dies ist die eigenständige Aljechin-Variante nach 2.Sc3. Jonny Hector, der gegen die Aljechin-Verteidigung regelmäßig 2.Sc3 spielt, hat gegen sie gut gepunktet, und seine Ideen haben Weiß einen theoretischen Vorteil verschafft, weshalb Lehrbuchautoren wie Davies, Cox und Taylor stattdessen 2...e5 empfohlen haben.",
-    "strategy": "Greift e4 ein zweites Mal an, und Weiß antwortet mit dem Abtausch auf d5 oder dem Vorstoß nach e5. Der Abtausch gibt Schwarz etwa ausgeglichenes Spiel, der Vorstoß gewinnt Raum und kann zu einer französischartigen Struktur führen. Weiß bestimmt die Struktur, und diese Variante war für Weiß theoretisch erfolgreich; der Zug ist daher korrekt, aber nicht die bequemste Antwort für Schwarz."
+  "1.e4 Nf6 2.Bc4 Nxe4 3.Nc3": {
+    "strategy": "Greift den Springer mit einem Entwicklungszug an, bevor Schwarz ihn stützen kann. Wird getauscht, schlägt Weiß mit dem d-Bauern zurück und bringt den Läufer c1 und die Dame ins Spiel, während der Läufer auf c4 weiter auf f7 zielt. Weiß steht einen Bauern im Minus und spielt auf diesen Entwicklungsvorsprung."
   },
-  "1.e4 Nf6 2.Nc3 e6": {
-    "strategy": "Bereitet ...d5 für ein solides Bauernzentrum vor. Weiß kann stattdessen mit 3.e5 Raum gewinnen, und nach 3...Sd5 bekommt Schwarz entweder eine remisträchtige Stellung oder eine beengte, aber solide Struktur. Korrekt, doch Weiß bestimmt, welche davon Schwarz bekommt."
+  "1.e4 Nf6 2.Bc4 Nxe4 3.Nf3": {
+    "strategy": "Entwickelt sich und hat das Zentrum im Blick, rührt den Springer aber nicht an, sodass Schwarz ihn mit einem Bauern stützen kann, der zugleich den Läufer angreift, und den Mehrbauern behält. Weiß hat seine Figuren schnell draußen, aber keine konkrete Drohung, sodass die Kompensation nur langsam kommt."
   },
-  "1.e4 Nf6 2.Nc3 g6": {
-    "strategy": "Bereitet ein Fianchetto am Königsflügel und einen kompakten Aufbau vor. Gegen 3.e5 zieht der Springer nach h5, wo ihn der g6-Bauer deckt, doch er steht am Rand, und Weiß gewinnt Raum. Korrekt, lässt Weiß aber mehr Möglichkeiten als ...d6."
+  "1.e4 Nf6 2.d4 Nxe4": {
+    "strategy": "Schlägt den ungedeckten Bauern und stellt den Springer ins Zentrum. Weiß erhält dafür die Chance, sich mit Tempo gegen den Springer zu entwickeln, sodass Schwarz in die Verteidigung zurückgehen muss, um den Bauern zu behalten."
   },
-  "1.e4 Nf6 2.Nc3 Na6": {
-    "strategy": "Strebt vom Rand nach b4 oder c5, doch der Springer steht dort schlecht und tut nichts gegen 3.e5, das den Springer auf f6 mit Zeitgewinn für Weiß nach g8 zurückschickt."
+  "1.e4 Nf6 2.d4 d6": {
+    "strategy": "Antwortet auf das Zentrum mit einem soliden Bauernzug, der e5 deckt und den Läufer auf c8 öffnet, während der Springer auf f6 weiter auf e4 drückt. Schwarz räumt Weiß den Raum ein und plant, das breite Bauernzentrum später mit Figuren und Flügelbauern zu untergraben."
   },
-  "1.e4 Nf6 2.Nc3 a6": {
-    "strategy": "Bereitet ...b5 vor, kümmert sich aber nicht um den Springer auf f6, den 3.e5 mit Zeitgewinn nach g8 zurückschickt. Weiß besetzt dann das Zentrum, während Schwarz noch unentwickelt ist."
+  "1.e4 Nf6 2.d4 d5": {
+    "strategy": "Beansprucht die Mitte und greift e4 ein zweites Mal an. Weiß kann den e-Bauern vorstoßen, um Raum zu gewinnen und den Springer zu vertreiben, oder tauschen und das freiere Spiel behalten. Solide, überlässt Weiß aber die Wahl der Struktur."
   },
-  "1.e4 Nf6 2.Nc3 a5": {
-    "strategy": "Verbraucht ein Tempo für einen Randbauern und schwächt b5, während 3.e5 den Springer nach g8 zurücktreibt und Weiß freie Hand lässt, ein breites Zentrum aufzubauen."
+  "1.e4 Nf6 2.d4 Nxe4 3.Bd3": {
+    "strategy": "Greift den Springer an und entwickelt sich in einem Zug, sodass Schwarz ein weiteres Tempo dafür aufwenden muss. Weiß steht einen Bauern im Minus und hat keine direkte Möglichkeit, ihn zurückzugewinnen, doch der Entwicklungsvorsprung und der Bauer auf d4 im Zentrum sind eine echte Kompensation, und dies ist der direkteste Weg, sie zu beanspruchen."
   },
-  "1.e4 Nf6 2.Nc3 b6": {
-    "strategy": "Bereitet ...Lb7 gegen e4 vor, doch zuerst greift 3.e5 den Springer an, der nur nach g8 zurückkann. Schwarz hat dann zwei Tempi verloren, und Weiß baut ein starkes Zentrum auf."
+  "1.e4 Nf6 2.d4 Nxe4 3.Nc3": {
+    "strategy": "Trifft den Springer mit einem Entwicklungszug. Tauscht Schwarz, schlägt Weiß mit dem b-Bauern zurück und bekommt ein breites Bauernzentrum und eine offene b-Linie, um den Preis von Doppelbauern auf der c-Linie; weicht der Springer aus, steht Weiß nur für die Entwicklung einen Bauern im Minus."
   },
-  "1.e4 Nf6 2.Nc3 c5": {
-    "strategy": "Zielt auf d4, doch 3.e5 zwingt den Springer nach g8, dem einzigen sicheren Feld: Sd5 scheitert an Sxd5, Se4 an Sxe4, Sg4 an Dxg4 und Sh5 an Dxh5. Schwarz hat zwei Tempi verbraucht, und Weiß hat Raum gewonnen."
+  "1.e4 Nf6 2.d4 Nxe4 3.Nf3": {
+    "strategy": "Entwickelt sich und hat das Zentrum im Blick, lässt den Springer aber in Ruhe, sodass Schwarz sich mit einem Bauern auf d5 festigen und den Mehrbauern behalten kann. Die weißen Figuren kommen schnell heraus, doch es gibt keine Drohung, sodass die Kompensation allein aus der Entwicklung kommen muss."
   },
-  "1.e4 Nf6 2.Nc3 h6": {
-    "strategy": "Nimmt dem Läufer das Feld g5, ist aber ein langsamer Wartezug. Nach 3.e5 muss der Springer nach h7 oder g8, und Weiß gewinnt Raum und Tempo."
+  "1.e4 Nf6 2.d4 Nxe4 3.Bd3 Nf6": {
+    "strategy": "Zieht sich zurück und behält den Mehrbauern, ohne die Stellung zu schwächen, und stellt den Springer auf sein bestes Verteidigungsfeld zurück. Weiß hat mit dem Läufer ein Tempo gewonnen, doch die Struktur von Schwarz ist gesund, und die Entwicklung kann aufholen."
   },
-  "1.e4 Nf6 2.Nc3 h5": {
-    "strategy": "Bereitet ...Sg4 vor und deckt das Feld g4, verliert aber ein Tempo und schwächt g5 und g6. Nach 3.e5 Sg4 treibt Weiß den Springer mit h3 zurück und behält den Raumvorteil."
+  "1.e4 Nf6 2.d4 Nxe4 3.Bd3 d5": {
+    "strategy": "Stützt den Springer mit einem Bauern und beansprucht das Zentrum, sodass der Mehrbauer bleibt. Der Preis ist, dass Weiß den Springer schlagen kann und der Bauer, der auf e4 zurückschlägt, zum Ziel für die weißen Figuren wird, sodass Schwarz auf den Entwicklungsvorsprung von Weiß achten muss."
   },
-  "1.e4 Nf6 2.Nc3 Ng8": {
-    "strategy": "Zieht den Springer sofort zurück, macht den Entwicklungszug rückgängig und schenkt Weiß zwei Tempi, um ein volles Zentrum aufzubauen."
+  "1.e4 Nf6 2.d4 Nxe4 3.Bd3 Nd6": {
+    "strategy": "Zieht auf ein sicheres Feld zurück und behält den Bauern, doch der Springer steht vor dem d-Bauern und blockiert ihn, sodass das Zentrum und die Entwicklung von Schwarz beengt sind. Weiß entwickelt sich frei, der Läufer ist bereits draußen."
   },
-  "1.e4 Nf6 2.Nc3 Rg8": {
-    "strategy": "Nimmt dem Springer auf f6 das einzige Rückzugsfeld: Nach 3.e5 hat er kein sicheres Feld mehr, denn Sd5, Se4, Sg4 und Sh5 scheitern an Sxd5, Sxe4, Dxg4 und Dxh5. Der Turmzug gibt außerdem die kurze Rochade auf."
+  "1.e4 Nf6 2.d4 Nxe4 3.Bd3 Nf6 4.Bg5": {
+    "name": "Indische Verteidigung: Omega-Gambit, Arafat-Gambit",
+    "strategy": "Entwickelt sich mit Druck auf den Springer auf f6, denn ein Abtausch dort würde die schwarze Bauernstruktur beschädigen. Der Läufer auf d3 zielt schon auf h7, doch Weiß kann den Bauern nicht direkt zurückgewinnen: Die Kompensation ist ein Entwicklungsvorsprung und nichts weiter, zu wenig für einen sauberen Bauern."
   },
-  "1.e4 Nf6 2.Nc3 b5": {
-    "strategy": "Lässt den Bauern ungedeckt: 3.Lxb5 gewinnt ihn und hält e4 durch den Springer gedeckt, sodass 3...Sxe4 an 4.Sxe4 scheitert. Schwarz hat für den Bauern keine Kompensation."
+  "1.e4 Nf6 2.d4 Nxe4 3.Bd3 Nf6 4.Nf3": {
+    "strategy": "Bringt den Springer heraus und bereitet die Rochade vor, was den Entwicklungsvorsprung vergrößert, der die einzige Kompensation von Weiß ist. Weiß hat keine direkte Möglichkeit, den Bauern zurückzugewinnen, sodass die schnelleren Figuren zu zählen beginnen müssen, bevor Schwarz sich festigt."
   },
-  "1.e4 Nf6 2.Nc3 g5": {
-    "strategy": "Schwächt f5 und h5 und lässt den Bauern auf g5 ungedeckt: Sobald d4 gezogen ist, greift ihn der Läufer von c1 an, und 3.e5 treibt den Springer mit Tempo nach g8 zurück. Schwarz muss weitere Züge für den Bauern aufwenden und gerät weit in Entwicklungsrückstand."
-  },
-  "1.e4 Nf6 2.Nc3 Ng4": {
-    "strategy": "Verliert den Springer nach 3.Dxg4: Nichts deckt g4, denn der Läufer auf c8 ist durch den d7-Bauern versperrt."
-  },
-  "1.e4 Nf6 2.Nc3 Nh5": {
-    "strategy": "Verliert den Springer nach 3.Dxh5, da nichts das Feld h5 deckt."
-  },
-  "1.e4 Nf6 2.Nc3 Nxe4": {
-    "strategy": "Gibt einen Springer für einen Bauern: 3.Sxe4 gewinnt die Figur, und 3...d5 zwingt den Springer nur zum Rückzug nach g3 oder c3, ohne dass Schwarz Kompensation hat."
-  },
-  "1.e4 Nf6 2.Nc3 Nd5": {
-    "strategy": "Stellt den Springer ein: 3.Sxd5 gewinnt ihn, denn der d7-Bauer verstellt der Dame den Weg nach d5."
+  "1.e4 Nf6 2.d4 Nxe4 3.Bd3 Nf6 4.Nc3": {
+    "strategy": "Entwickelt den Damenspringer und übernimmt die Kontrolle über e4 und d5, was den natürlichen Zentrumsvorstoß von Schwarz unbequemer macht. Weiß hat weiterhin keine direkte Möglichkeit, den Bauern zurückzugewinnen, sodass es bei dem Zug darum geht, in der Entwicklung Schritt zu halten."
   },
   "1.e4 Nf6 2.e5 Nd5": {
     "strategy": "Zieht den angegriffenen Springer ins Zentrum und lässt Weiß mit Tempogewinnen durch Bauernzüge Raum nehmen. Die Idee ist, Weiß zu einem breiten Bauernzentrum zu verleiten und es dann zu untergraben, sodass die vorgerückten Bauern zu Angriffszielen statt zu Stärken werden. Der Preis sind verlorene Zeit und eine beengte Stellung; das Ergebnis ist ein unausgeglichenes Spiel, in dem Schwarz aktiv kämpfen muss."
@@ -233,43 +221,112 @@
   "1.e4 Nf6 2.e5 h5": {
     "strategy": "Ein Randbauernzug, der den angegriffenen Springer weder wegzieht noch deckt. 3.exf6 gewinnt ihn für einen Bauern."
   },
-  "1.e4 Nf6 2.Bc4 Nxe4": {
-    "strategy": "Schlägt den freien Bauern. Weiß kann das Material mit einem Läuferopfer und einem Damenvorstoß zurückgewinnen, doch dann findet der schwarze König auf g8 Sicherheit, und Schwarz hält das Zentrum. Es gibt keinen Grund, den Bauern abzulehnen."
-  },
-  "1.e4 Nf6 2.d4 Nxe4": {
-    "strategy": "Schlägt den ungedeckten Bauern und stellt den Springer ins Zentrum. Weiß erhält dafür die Chance, sich mit Tempo gegen den Springer zu entwickeln, sodass Schwarz in die Verteidigung zurückgehen muss, um den Bauern zu behalten."
-  },
-  "1.e4 Nf6 2.Bc4 Nxe4 3.Bxf7+": {
-    "name": "Aljechin-Verteidigung: Krejcik-Variante, Krejcik-Gambit",
-    "strategy": "Opfert den Läufer, um den König herauszuziehen und den Springer mit einem Damenvorstoß zurückzugewinnen. Das Material kommt zurück, doch Weiß verliert das Läuferpaar und den Raumvorteil, und der schwarze König steht am Ende sicher, sodass Schwarz sich keine Sorgen machen muss."
-  },
-  "1.e4 Nf6 2.d4 Nxe4 3.Bd3": {
-    "strategy": "Greift den Springer an und entwickelt sich, mit dem Läufer auf den Königsflügel gerichtet. Weiß steht einen Bauern im Minus und spielt auf Zeit und Entwicklung statt auf eine konkrete Drohung, sodass die Idee nur funktioniert, wenn Schwarz zurückfällt."
-  },
-  "1.e4 Nf6 2.d4 Nxe4 3.Bd3 Nf6": {
-    "strategy": "Zieht sich zurück und behält den Mehrbauern, ohne die Stellung zu schwächen, und stellt den Springer auf sein bestes Verteidigungsfeld zurück. Weiß hat mit dem Läufer ein Tempo gewonnen, doch die Struktur von Schwarz ist gesund, und die Entwicklung kann aufholen."
-  },
-  "1.e4 Nf6 2.d4 Nxe4 3.Bd3 Nf6 4.Bg5": {
-    "name": "Indische Verteidigung: Omega-Gambit, Arafat-Gambit",
-    "strategy": "Entwickelt sich mit Druck auf den Springer auf f6, denn ein Abtausch dort würde die schwarze Bauernstruktur beschädigen. Der Läufer auf d3 zielt schon auf h7, doch Weiß kann den Bauern nicht direkt zurückgewinnen: Die Kompensation ist ein Entwicklungsvorsprung und nichts weiter, zu wenig für einen sauberen Bauern."
-  },
   "1.e4 Nf6 2.e5 Ne4 3.d4": {
     "strategy": "Nimmt das Zentrum mit einem Bauern, der e5 stützt und f3 androht, wonach der Springer auf e4 kaum noch ein sicheres Feld hat. Der abenteuerliche Springerzug des Schwarzen hat Zeit gekostet, und Weiß hat im Zentrum freie Hand."
   },
+  "1.e4 Nf6 2.e5 Ne4 3.d3": {
+    "strategy": "Greift den Springer sofort an und gewinnt Zeit, während er von Feld zu Feld gejagt wird. Das ist weniger forcierend, als sofort das ganze Zentrum zu nehmen, doch Weiß baut sein Zentrum mit Tempo auf, während der schwarze Springer umherirrt."
+  },
+  "1.e4 Nf6 2.e5 Ne4 3.Nc3": {
+    "strategy": "Fordert den Springer mit einer Figur heraus. Schwarz kann ihn abtauschen und seinen beengten Springer entlasten, und Weiß muss auf c3 zurückschlagen, wodurch die Möglichkeit entfällt, ihn weiter zu jagen."
+  },
   "1.e4 Nf6 2.e5 Ne4 3.d4 f6": {
     "name": "Aljechin-Verteidigung: Mokele-Mbembe, Moderne Linie",
-    "strategy": "Der widerstandsfähigste Versuch: Der Bauer greift e5 an und deckt g5, sodass f3 den Springer nicht einfangen würde. Doch er lockert die Königsstellung: Dh5+ erzwingt ...g6, und Weiß behält einen großen Vorsprung an Raum und Entwicklung."
+    "strategy": "Die Hauptverteidigung: Der Bauer greift e5 an und deckt g5, sodass 4.f3 mit ...Sg5 beantwortet werden kann und der Springer nicht gefangen ist. Doch sie lockert die Königsstellung: Dh5+ erzwingt ...g6, und Weiß behält einen großen Vorsprung an Raum und Entwicklung."
   },
   "1.e4 Nf6 2.e5 Ne4 3.d4 e6": {
     "name": "Aljechin-Verteidigung: Mokele-Mbembe, Vavra-Verteidigung",
     "strategy": "Macht das naheliegende f3 zu einem Fehler: ...Dh4+ und ...Sxg3 würden Material gewinnen. Doch Weiß hat bessere Wege, den Springer zu bedrängen, der hinter den passiven Bauern des Schwarzen knapp an Feldern bleibt, und Weiß behält einen großen Vorsprung."
   },
+  "1.e4 Nf6 2.e5 Ne4 3.d4 d6": {
+    "strategy": "Läuft in 4.f3 hinein: Der Springer hat kein gutes Feld, und nach ...dxe5 fxe4 exd4 steht Schwarz für zwei Bauern eine Figur im Minus."
+  },
   "1.e4 Nf6 2.e5 Ng8 3.d4": {
     "strategy": "Nimmt sofort das Zentrum und bestraft den unentwickelten Springer. Der Bauer d4 stützt e5, Schwarz hat Zeit mit Rückwärtszügen verloren, und Weiß erhält mit einem einfachen Plan einen kleinen, aber dauerhaften Raumvorteil."
+  },
+  "1.e4 Nf6 2.e5 Ng8 3.Nf3": {
+    "strategy": "Entwickelt und deckt sofort den Bauern auf e5, solange der schwarze Springer noch zu Hause steht, und hält den Vorstoß des d-Bauern in Reserve. Eine natürliche, weniger ehrgeizige Art, aus dem schwarzen Zeitverlust Kapital zu schlagen."
+  },
+  "1.e4 Nf6 2.e5 Ng8 3.Nc3": {
+    "strategy": "Entwickelt eine Figur zum Zentrum. Der Bauer auf e5 bleibt vorerst ohne Stütze, sodass Schwarz ihn sofort angreifen kann, doch Weiß liegt in der Entwicklung weit vorn, und der Bauer lässt sich zu guten Bedingungen abtauschen."
   },
   "1.e4 Nf6 2.e5 Ng8 3.d4 f5": {
     "name": "Aljechin-Verteidigung: Brooklyn-Variante, Everglades-Variante",
     "strategy": "Fordert e5 sofort mit dem f-Bauern heraus, um den vorgerückten Bauern des Weißen abzutauschen und den Springer wieder ins Spiel zu bringen. Das lockert jedoch den Königsflügel: Dh5+ erzwingt ...g6, und Schwarz bleibt in der Entwicklung zurück. Abseitig, aber nicht geradezu schlecht."
+  },
+  "1.e4 Nf6 2.e5 Ng8 3.d4 d6": {
+    "strategy": "Greift den vorgerückten Bauern sofort an, der prinzipielle Weg, sich nach dem Rückzug des Springers einen Anteil am Zentrum zu sichern. Schwarz liegt in der Entwicklung zurück, doch die Stellung bleibt solide und lässt sich in die üblichen Strukturen der Verteidigung lenken."
+  },
+  "1.e4 Nf6 2.e5 Ng8 3.d4 e6": {
+    "strategy": "Eine kompakte Antwort, die den f8-Läufer öffnet und die Struktur gesund hält. Doch der weiße Bauer auf e5 engt Schwarz ein, dessen Springer noch zu Hause steht, und Weiß nutzt die zusätzliche Zeit, um das Zentrum aufzubauen."
+  },
+  "1.e4 Nf6 2.Nc3 e5": {
+    "strategy": "Kämpft sofort um das Zentrum und lenkt die Partie mit dem Springer auf f6, der auf e4 zielt, in eine Wiener Partie, solides und gut erprobtes Terrain. Schwarz meidet die eigenständigen Varianten, in denen Weiß die bessere Theorie hatte. Der Preis: Weiß wählt zwischen scharfem Gambit und ruhiger Entwicklung, und Schwarz muss in beidem zu Hause sein."
+  },
+  "1.e4 Nf6 2.Nc3 d6": {
+    "strategy": "Deckt e5, sodass 3.e5 einfach einen Bauern verliert, und steuert einen Pirc-Aufbau an: Fianchetto des Königsläufers und frühe Rochade. Schwarz lässt Weiß ein breites Zentrum errichten und greift es später mit Bauernhebeln an. Der Preis ist eine gewisse Passivität: Das Zentrum gehört zunächst Weiß, und Schwarz muss beweisen, dass es überdehnt ist."
+  },
+  "1.e4 Nf6 2.Nc3 Nc6": {
+    "strategy": "Entwickelt den Springer und hält ...e5 in Reserve, sodass eine Entwicklung aller vier Springer weiter möglich ist. Der Vorstoß 3.e5 droht hier nichts, denn der Bauer ist ungedeckt und Schwarz nimmt ihn einfach. In einer Bauernkette nach d4 und e5 versperrt der Springer auf c6 jedoch den c-Bauern, sodass Schwarz der übliche Hebel ...c5 fehlt."
+  },
+  "1.e4 Nf6 2.Nc3 c6": {
+    "strategy": "Bereitet ...d5 mit einer soliden Bauernstruktur vor. Da der Springer schon auf f6 steht, verschafft 3.e5 Sd5 4.Sxd5 cxd5 Weiß jedoch den Raum eines vorgerückten Bauern, den Schwarz später untergraben muss. Korrekt, gibt aber mehr preis als ...d5."
+  },
+  "1.e4 Nf6 2.Nc3 d5": {
+    "name": "Aljechin-Verteidigung: Skandinavische Variante",
+    "background": "Dies ist die eigenständige Aljechin-Variante nach 2.Sc3. Jonny Hector, der gegen die Aljechin-Verteidigung regelmäßig 2.Sc3 spielt, hat gegen sie gut gepunktet, und seine Ideen haben Weiß einen theoretischen Vorteil verschafft, weshalb Lehrbuchautoren wie Davies, Cox und Taylor stattdessen 2...e5 empfohlen haben.",
+    "strategy": "Greift e4 ein zweites Mal an, und Weiß antwortet mit dem Abtausch auf d5 oder dem Vorstoß nach e5. Der Abtausch gibt Schwarz etwa ausgeglichenes Spiel, der Vorstoß gewinnt Raum und kann zu einer französischartigen Struktur führen. Weiß bestimmt die Struktur, und diese Variante war für Weiß theoretisch erfolgreich; der Zug ist daher korrekt, aber nicht die bequemste Antwort für Schwarz."
+  },
+  "1.e4 Nf6 2.Nc3 e6": {
+    "strategy": "Bereitet ...d5 für ein solides Bauernzentrum vor. Weiß kann stattdessen mit 3.e5 Raum gewinnen, und nach 3...Sd5 bekommt Schwarz entweder eine remisträchtige Stellung oder eine beengte, aber solide Struktur. Korrekt, doch Weiß bestimmt, welche davon Schwarz bekommt."
+  },
+  "1.e4 Nf6 2.Nc3 g6": {
+    "strategy": "Bereitet ein Fianchetto am Königsflügel und einen kompakten Aufbau vor. Gegen 3.e5 zieht der Springer nach h5, wo ihn der g6-Bauer deckt, doch er steht am Rand, und Weiß gewinnt Raum. Korrekt, lässt Weiß aber mehr Möglichkeiten als ...d6."
+  },
+  "1.e4 Nf6 2.Nc3 Na6": {
+    "strategy": "Strebt vom Rand nach b4 oder c5, doch der Springer steht dort schlecht und tut nichts gegen 3.e5, das den Springer auf f6 mit Zeitgewinn für Weiß nach g8 zurückschickt."
+  },
+  "1.e4 Nf6 2.Nc3 a6": {
+    "strategy": "Bereitet ...b5 vor, kümmert sich aber nicht um den Springer auf f6, den 3.e5 mit Zeitgewinn nach g8 zurückschickt. Weiß besetzt dann das Zentrum, während Schwarz noch unentwickelt ist."
+  },
+  "1.e4 Nf6 2.Nc3 a5": {
+    "strategy": "Verbraucht ein Tempo für einen Randbauern und schwächt b5, während 3.e5 den Springer nach g8 zurücktreibt und Weiß freie Hand lässt, ein breites Zentrum aufzubauen."
+  },
+  "1.e4 Nf6 2.Nc3 b6": {
+    "strategy": "Bereitet ...Lb7 gegen e4 vor, doch zuerst greift 3.e5 den Springer an, der nur nach g8 zurückkann. Schwarz hat dann zwei Tempi verloren, und Weiß baut ein starkes Zentrum auf."
+  },
+  "1.e4 Nf6 2.Nc3 c5": {
+    "strategy": "Zielt auf d4, doch 3.e5 zwingt den Springer nach g8, dem einzigen sicheren Feld: Sd5 scheitert an Sxd5, Se4 an Sxe4, Sg4 an Dxg4 und Sh5 an Dxh5. Schwarz hat zwei Tempi verbraucht, und Weiß hat Raum gewonnen."
+  },
+  "1.e4 Nf6 2.Nc3 h6": {
+    "strategy": "Nimmt dem Läufer das Feld g5, ist aber ein langsamer Wartezug. Nach 3.e5 muss der Springer nach h7 oder g8, und Weiß gewinnt Raum und Tempo."
+  },
+  "1.e4 Nf6 2.Nc3 h5": {
+    "strategy": "Bereitet ...Sg4 vor und deckt das Feld g4, verliert aber ein Tempo und schwächt g5 und g6. Nach 3.e5 Sg4 treibt Weiß den Springer mit h3 zurück und behält den Raumvorteil."
+  },
+  "1.e4 Nf6 2.Nc3 Ng8": {
+    "strategy": "Zieht den Springer sofort zurück, macht den Entwicklungszug rückgängig und schenkt Weiß zwei Tempi, um ein volles Zentrum aufzubauen."
+  },
+  "1.e4 Nf6 2.Nc3 Rg8": {
+    "strategy": "Nimmt dem Springer auf f6 das einzige Rückzugsfeld: Nach 3.e5 hat er kein sicheres Feld mehr, denn Sd5, Se4, Sg4 und Sh5 scheitern an Sxd5, Sxe4, Dxg4 und Dxh5. Der Turmzug gibt außerdem die kurze Rochade auf."
+  },
+  "1.e4 Nf6 2.Nc3 b5": {
+    "strategy": "Lässt den Bauern ungedeckt: 3.Lxb5 gewinnt ihn und hält e4 durch den Springer gedeckt, sodass 3...Sxe4 an 4.Sxe4 scheitert. Schwarz hat für den Bauern keine Kompensation."
+  },
+  "1.e4 Nf6 2.Nc3 g5": {
+    "strategy": "Schwächt f5 und h5 und lässt den Bauern auf g5 ungedeckt: Sobald d4 gezogen ist, greift ihn der Läufer von c1 an, und 3.e5 treibt den Springer mit Tempo nach g8 zurück. Schwarz muss weitere Züge für den Bauern aufwenden und gerät weit in Entwicklungsrückstand."
+  },
+  "1.e4 Nf6 2.Nc3 Ng4": {
+    "strategy": "Verliert den Springer nach 3.Dxg4: Nichts deckt g4, denn der Läufer auf c8 ist durch den d7-Bauern versperrt."
+  },
+  "1.e4 Nf6 2.Nc3 Nh5": {
+    "strategy": "Verliert den Springer nach 3.Dxh5, da nichts das Feld h5 deckt."
+  },
+  "1.e4 Nf6 2.Nc3 Nxe4": {
+    "strategy": "Gibt einen Springer für einen Bauern: 3.Sxe4 gewinnt die Figur, und 3...d5 zwingt den Springer nur zum Rückzug nach g3 oder c3, ohne dass Schwarz Kompensation hat."
+  },
+  "1.e4 Nf6 2.Nc3 Nd5": {
+    "strategy": "Stellt den Springer ein: 3.Sxd5 gewinnt ihn, denn der d7-Bauer verstellt der Dame den Weg nach d5."
   },
   "1.e4 Nf6 2.Nc3 d5 3.e5": {
     "strategy": "Die kämpferische Antwort: Der Bauer greift den Springer an und gewinnt Raum. Weiß muss den ungedeckten Bauern e5 bald verteidigen oder tauschen, und es folgt ein geschlossenes Zentrum, in dem Weiß mehr Platz hat und Schwarz den weißfeldrigen Läufer entwickeln kann, bevor er die Bauernkette schließt."
@@ -283,26 +340,71 @@
   "1.e4 Nf6 2.Nc3 d5 3.d3 dxe4": {
     "strategy": "Nimmt den Zentrumsbauern und öffnet die d-Linie. Schlägt Weiß auf e4 zurück, kann Schwarz sofort die Damen tauschen und ein leichtes, ausgeglichenes Spiel erreichen; tut Weiß es nicht, behält Schwarz einfach den Mehrbauern."
   },
-  "1.e4 Nf6 2.Nc3 d5 3.e5 Nfd7": {
-    "strategy": "Zieht den angegriffenen Springer auf ein Feld, von dem aus er den ungedeckten Bauern e5 angreift, sodass Weiß ihn sofort verteidigen oder tauschen muss. Schwarz hält den weißfeldrigen Läufer frei und kann das Schließen des Zentrums hinauszögern. Die übliche, solide Antwort."
+  "1.e4 Nf6 2.Nc3 d5 3.d3 e5": {
+    "strategy": "Baut ein breites Zentrum auf, statt den Bauern zu schlagen: Die Bauern auf d5 und e5 stehen nebeneinander, und schlägt Weiß auf d5, nimmt der Springer mit leichtem Spiel zurück. Solide und bequem, doch Schwarz nutzt die Gelegenheit zum Bauerngewinn nicht."
   },
-  "1.e4 Nf6 2.Nc3 d5 3.exd5 c6": {
-    "name": "Aljechin-Verteidigung: Skandinavische Variante, Geschev-Gambit",
-    "strategy": "Ein Bauerngambit: Schwarz greift d5 mit dem c-Bauern an, statt mit dem Springer zurückzuschlagen, und strebt ein offenes Spiel und einen Entwicklungsvorsprung an, sobald Weiß nimmt. Weiß kann den Mehrbauern einfach behalten, sodass Schwarz weniger erhält als mit dem schlichten Zurückschlagen."
+  "1.e4 Nf6 2.Nc3 d5 3.d3 d4": {
+    "strategy": "Vertreibt den Springer von c3 und gewinnt Raum, doch der Bauer auf d4 gibt den Druck auf e4 auf, sodass das Zentrum von Weiß ungestört bleibt. Ein geschlossenes, langsameres Spiel, in dem der vorgerückte Bauer Unterstützung braucht und zum Angriffsziel werden kann."
   },
   "1.e4 Nf6 2.Nc3 d5 3.d3 dxe4 4.Bg5": {
     "name": "Aljechin-Verteidigung: Skandinavische Variante, Myers-Gambit",
     "strategy": "Ein Gambit: Der Läufer entwickelt sich mit Angriff auf den Springer f6, doch dieser ist gedeckt, sodass nichts gewonnen wird, solange der Bauer fehlt. Schwarz kann den Mehrbauern behalten und ruhig weiterspielen, gegen einen kleinen Entwicklungsvorsprung."
   },
+  "1.e4 Nf6 2.Nc3 d5 3.d3 dxe4 4.dxe4": {
+    "strategy": "Das einfache Zurückschlagen: Weiß gewinnt den Bauern zurück und öffnet die d-Linie. Schwarz kann sofort die Damen tauschen, und das ruhige, ausgeglichene Spiel, das folgt, ist das Meiste, was Weiß bei dieser Zugfolge verlangen kann."
+  },
+  "1.e4 Nf6 2.Nc3 d5 3.d3 dxe4 4.Nxe4": {
+    "strategy": "Schlägt mit dem Springer zurück und lässt den d-Bauern zu Hause, damit er ihn stützt. Tauscht Schwarz die Springer, nimmt der d-Bauer zurück, die d-Linie öffnet sich und die Damen können vom Brett. Ein ausgeglichenes, ruhiges Spiel, in dem Weiß wenig riskiert und wenig verlangt."
+  },
+  "1.e4 Nf6 2.Nc3 d5 3.e5 Nfd7": {
+    "strategy": "Zieht den angegriffenen Springer auf ein Feld, von dem aus er den ungedeckten Bauern e5 angreift, sodass Weiß ihn sofort verteidigen oder tauschen muss. Schwarz hält den weißfeldrigen Läufer frei und kann das Schließen des Zentrums hinauszögern. Die übliche, solide Antwort."
+  },
+  "1.e4 Nf6 2.Nc3 d5 3.e5 d4": {
+    "strategy": "Greift sofort den Springer auf c3 an und ignoriert den Angriff auf den eigenen Springer auf f6. Die folgenden Abtäusche führen zu einem soliden, aber notorisch remisträchtigen Spiel, sodass Schwarz Sicherheit, aber wenig Spielraum bekommt."
+  },
+  "1.e4 Nf6 2.Nc3 d5 3.e5 Ne4": {
+    "strategy": "Bietet Springertausch an, um den Angreifer loszuwerden. Nach Sxe4 dxe4 behindert der Bauer auf e4 die Entwicklung des weißen Königsflügels, doch er muss verteidigt werden, und der Bauer von Weiß auf e5 behält den Raum. Spielbar, schärfer und weniger zuverlässig als die Hauptantwort."
+  },
   "1.e4 Nf6 2.Nc3 d5 3.e5 Nfd7 4.e6": {
     "name": "Aljechin-Verteidigung: Spielmann-Gambit",
     "strategy": "Der Bauer bietet sich an und greift d7 und f7 an, um den Aufbau des Schwarzen in Unordnung zu bringen. Schlägt Schwarz ihn, gewinnt er einen Bauern, öffnet aber die Diagonale von e8 nach h5, sodass Weiß auf schnellen Königsangriff spielt. Scharf und spekulativ statt solide."
   },
+  "1.e4 Nf6 2.Nc3 d5 3.e5 Nfd7 4.d4": {
+    "strategy": "Stützt den vorgerückten Bauern und baut ein breites Zentrum auf, sodass Weiß den Raumvorteil hat. Der weißfeldrige Läufer von Schwarz kann sich noch frei entwickeln, und Schwarz muss die Bauernkette mit Figurendruck und einem Bauernvorstoß gegen das Zentrum herausfordern. Ein strategisches Spiel, in dem Schwarz von der Seite angreift."
+  },
+  "1.e4 Nf6 2.Nc3 d5 3.e5 Nfd7 4.f4": {
+    "strategy": "Verteidigt e5 mit einem zweiten Bauern und gewinnt Raum, eine starke Kette, die die Diagonale zum weißen König schwächt. Weiß legt sich auf einen Raumvorteil am Königsflügel fest und muss die Schachgebote der Dame dort im Auge behalten."
+  },
+  "1.e4 Nf6 2.Nc3 d5 3.e5 Nfd7 4.Nf3": {
+    "strategy": "Verteidigt den Bauern durch eine Entwicklung und lässt sowohl den d- als auch den f-Bauern frei. Schwarz kann mit Figuren und einem Bauernvorstoß Druck auf e5 aufbauen, weshalb Weiß den Bauern bald mit einem Bauern stützen muss; bis dahin verlangt der Zug wenig und legt wenig fest."
+  },
+  "1.e4 Nf6 2.Nc3 d5 3.exd5 c6": {
+    "name": "Aljechin-Verteidigung: Skandinavische Variante, Geschev-Gambit",
+    "strategy": "Ein Bauerngambit: Schwarz greift d5 mit dem c-Bauern an, statt mit dem Springer zurückzuschlagen, und strebt ein offenes Spiel und einen Entwicklungsvorsprung an, sobald Weiß nimmt. Weiß kann den Mehrbauern einfach behalten, sodass Schwarz weniger erhält als mit dem schlichten Zurückschlagen."
+  },
+  "1.e4 Nf6 2.Nc3 d5 3.exd5 Nxd5": {
+    "strategy": "Das einfache Zurückschlagen: Schwarz gewinnt den Bauern zurück und stellt den Springer ins Zentrum. Tauscht Weiß die Springer, schlägt die Dame auf einem starken Zentrumsfeld zurück, und Schwarz entwickelt sich leicht, mit Ausgleich oder leichtem Vorteil für Schwarz."
+  },
+  "1.e4 Nf6 2.Nc3 d5 3.exd5 Qxd5": {
+    "strategy": "Stellt die Dame ein: Der Springer auf c3 nimmt sie, und das Zurückschlagen mit dem Springer auf f6 gewinnt für die Dame nur einen Springer."
+  },
   "1.e4 Nf6 2.Nc3 Nc6 3.d4": {
     "strategy": "Nimmt den zentralen Raum, den die ungewöhnliche Entwicklung freigelassen hat. Die Dame deckt den Bauern, während er ins Zentrum vorstößt, und Schwarz hat keinen Bauerndurchbruch vorbereitet, sodass Weiß einfach das größere Zentrum bekommt."
+  },
+  "1.e4 Nf6 2.Nc3 Nc6 3.Nf3": {
+    "strategy": "Entwickelt den Königsspringer und blickt auf das Zentrum, während der d-Bauer frei bleibt, um später vorzurücken. Antwortet Schwarz mit einem Zentrumsbauern, entwickeln beide Seiten ihre Springer zu einem symmetrischen, ausgeglichenen Spiel. Weiß verzichtet auf das größere Zentrum, das d4 beanspruchen würde, und erhält dafür eine leichte Entwicklung."
+  },
+  "1.e4 Nf6 2.Nc3 Nc6 3.Bc4": {
+    "strategy": "Entwickelt sich mit Druck auf f7 und lässt die Zentrumsbauern, wo sie sind. Der Zug ist solide, doch Weiß verzögert den Zentrumsvorstoß, der die seltsame Entwicklung von Schwarz am besten ausnutzt, sodass das Spiel ausgeglichener bleibt."
   },
   "1.e4 Nf6 2.Nc3 Nc6 3.d4 e5": {
     "name": "Nimzowitsch-Verteidigung: Breyer-Variante",
     "strategy": "Fordert das Bauernzentrum des Weißen sofort heraus, statt es in Ruhe zu lassen. Das funktioniert, weil Schwarz auf e5 mit dem Springer zurückschlagen kann, doch Weiß kann stattdessen Raum gewinnen, indem er weiterzieht und den Springer auf c6 jagt. Spielbar, doch Weiß bestimmt die Struktur."
+  },
+  "1.e4 Nf6 2.Nc3 Nc6 3.d4 d5": {
+    "strategy": "Greift sofort e4 an. Weiß rückt den Bauern meist vor und gewinnt mit Tempo auf den Springer Raum, doch der vorgerückte Bauer wird zum Ziel für die Springer von Schwarz, und Schwarz behält eine solide Struktur mit Gegenspiel gegen das weiße Zentrum."
+  },
+  "1.e4 Nf6 2.Nc3 Nc6 3.d4 d6": {
+    "strategy": "Ein kompakter, solider Bauernzug, der den Läufer auf c8 öffnet und das Zentrum flexibel hält. Er überlässt Weiß jedoch das größere Zentrum, und Weiß kann durch das Vorrücken des d-Bauern, der den Springer auf c6 jagt, Raum gewinnen."
   }
 }

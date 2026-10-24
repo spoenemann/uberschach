@@ -4,8 +4,8 @@
     "background": "Benannt nach dem russischen Meister Michail Tschigorin aus dem 19. Jahrhundert. Wassili Smyslow setzte sie in den 1980er-Jahren gegen Garri Kasparow ein und erreichte ein Remis, und Alexander Morosewitsch, vielleicht der einzige moderne Großmeister, der sie regelmäßig spielt, veröffentlichte 2007 gemeinsam mit Wladimir Barski ein Buch über sie."
   },
   "1.d4 d5 2.c4 Nc6 3.Nc3": {
-    "strategy": "Die ehrgeizigste Antwort: Der Springer greift gemeinsam mit dem Bauern auf c4 den Punkt d5 an, den nur die Dame verteidigt, sodass Schwarz die Spannung im Zentrum sofort klären muss. Weiß behält den Raumvorteil und die Initiative, und Schwarz muss aktives Figurenspiel finden, um das auszugleichen.",
-    "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung"
+    "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung",
+    "strategy": "Die ehrgeizigste Antwort: Der Springer greift gemeinsam mit dem Bauern auf c4 den Punkt d5 an, den nur die Dame verteidigt, sodass Schwarz die Spannung im Zentrum sofort klären muss. Weiß behält den Raumvorteil und die Initiative, und Schwarz muss aktives Figurenspiel finden, um das auszugleichen."
   },
   "1.d4 d5 2.c4 Nc6 3.cxd5": {
     "strategy": "Löst die Spannung auf und erzwingt die Entscheidung: Der Bauer auf d5 greift den Springer auf c6 an, also schlägt Schwarz sofort mit der Dame zurück. Schwarz erhält dafür, dass die Dame früh ausrückt, rasche Entwicklung und Figurendruck gegen d4, und Weiß muss darauf reagieren."
@@ -17,6 +17,66 @@
     "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung, Abtauschvariante",
     "strategy": "Die natürliche Wiedernahme: Die Dame schlägt den Bauern, der den Springer auf c6 angegriffen hat, und steht sofort im Zentrum, wo sie den Druck auf d4 verstärkt. Schwarz hat keinen Zentrumsbauern mehr, daher lautet der Plan rasche Entwicklung, wobei die Dame einem Springerzug mit Tempogewinn ausgesetzt ist."
   },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Ne5": {
+    "strategy": "Der Springer steht ungedeckt: der d4-Bauer schlägt ihn einfach, und Schwarz verliert eine Figur für nichts, obendrein ist er einen Bauern im Minus."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Nxd4": {
+    "strategy": "Schlägt den d4-Bauern, aber nichts deckt den Springer: die Dame nimmt ihn, und da diese Dame auch den d5-Bauern deckt, würde ...Dxd5 nur die schwarze Dame verlieren. Schwarz steht schlicht eine Figur zurück."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3": {
+    "strategy": "Stützt d4, das die Dame und der Springer auf c6 beide angreifen, und öffnet die Diagonale des Königsläufers. Der Preis ist ein Läufer auf c1, der vorerst hinter seinem eigenen Bauern eingesperrt bleibt."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.Nf3": {
+    "strategy": "Deckt d4 mit einem Entwicklungszug, sodass weder Dame noch Springer den Bauern mit Vorteil nehmen können, und lässt dem Läufer auf c1 seine Diagonale, statt ihn hinter einem e-Bauern einzusperren. Der Preis ist, dass der Königsläufer vorerst hinter dem e2-Bauern eingeschlossen bleibt."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.Nc3": {
+    "strategy": "Entwickelt sich mit Tempogewinn auf die Dame, aber d4 wird dann nur von der Dame gedeckt: Schwarz kann den Bauern nehmen, und Weiß muss zeigen, dass sein Entwicklungsvorsprung den Bauern wert ist. Ein scharfer Versuch statt der soliden Art, der frühen Dame zu begegnen."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5": {
+    "strategy": "Greift d4 ein drittes Mal an und öffnet die Diagonale des Läufers auf f8. Schwarz hat keinen Bauern mehr auf d5 und setzt stattdessen auf Figurenaktivität: Die Dame und der Springer wirken auf Weißens Zentrum, und Weiß muss d4 weiter decken, während es die Entwicklung beendet."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 Nf6": {
+    "strategy": "Entwickelt den Springer auf ein natürliches Feld und nimmt d5 und e4 ins Visier, fordert d4 aber nicht heraus, wie es ein zentraler Bauernvorstoß täte. Weiß kann die Dame mit einem Entwicklungszug angreifen, und Schwarz muss diesen Springer dann fesseln oder zurückziehen, sodass der ruhige Beginn etwas Zeit kostet."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e6": {
+    "strategy": "Ein solider Bauernzug, der den Läufer auf f8 befreit, aber die lange Diagonale des Läufers auf c8 verbaut. Weiß entwickelt sich mit Tempogewinn gegen die Dame, und Schwarz hat das aktive Figurenspiel aufgegeben, das diese Variante erst lohnend macht."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3": {
+    "strategy": "Entwickelt mit Tempogewinn gegen die Dame und bringt eine zweite Figur in den Kampf um das Zentrum. Der Springer kann als Antwort gegen den König gefesselt werden, sodass Weiß das scheinbar gewonnene Tempo nicht gewinnt und Schwarz seinen aktiven Aufbau behält."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nf3": {
+    "strategy": "Entwickelt sich und fügt d4 einen dritten Verteidiger hinzu, das von der schwarzen Dame, dem Springer und dem e-Bauern angegriffen wird. Weiß gibt das Tempo auf die Dame auf, das der andere Springerzug gewinnt, sodass Schwarz Zeit zur Entwicklung hat; solide, aber nicht ehrgeizig."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.dxe5": {
+    "strategy": "Schlägt den Bauern, gibt aber den Druck des d4-Bauern auf das Zentrum auf. Schwarz kann mit Schach die Damen tauschen und den Bauern zurückgewinnen, sodass der weiße König in der Mitte bleibt und nicht rochieren kann; spielbar, doch die schwarzen Figuren sind aktiver."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4": {
+    "strategy": "Fesselt den Springer gegen den König, sodass er die Dame nicht tatsächlich schlagen kann und die Dame ungestört auf d5 bleibt. Schwarz entwickelt sich mit einer Drohung und hält den Druck auf d4 aufrecht: Weiß muss sich mit der Fesselung befassen, bevor es seine eigenen Figuren in Gang bringen kann."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Qa5": {
+    "strategy": "Weicht dem Angriff des Springers aus und fesselt diesen Springer aus der Ferne gegen den König. Ein entwickelnder Läuferzug löst die Fesselung leicht, und die Dame steht weit vom Zentrum entfernt, sodass Schwarz weniger Druck auf d4 hat als mit der Läuferfesselung; spielbar, aber zweitklassig."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Qd8": {
+    "strategy": "Zieht sich auf das Ausgangsfeld zurück: sicher und solide, doch die Dame ist ausgezogen, um den d5-Bauern zu gewinnen, und kehrt nun heim, sodass Weiß einen freien Entwicklungszug erhält. Der d-Bauer kann außerdem mit Tempogewinn gegen den Springer auf c6 vorrücken, sodass Schwarz in der Defensive ist; spielbar, nicht mehr."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4 6.Bd2": {
+    "strategy": "Löst die Fesselung und entwickelt endlich den Läufer, den e3 eingesperrt hatte, was den Springer außerdem ein zweites Mal deckt. Weiß ist bereit, auf ...Lxc3 mit einem Wiederschlagen zu antworten, das das Läuferpaar behält, und steuert eine solide Entwicklung gegen Schwarzens aktive Figuren an."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4 6.dxe5": {
+    "strategy": "Schlägt den Bauern, gibt aber den Halt des d4-Bauern im Zentrum auf. Schwarz kann auf c3 nehmen und die Damen tauschen, wobei er den Bauern zurückgewinnt, während die Damenflügelbauern von Weiß beschädigt sind und sein König in der Mitte steht und nicht rochieren kann."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4 6.Nf3": {
+    "strategy": "Entwickelt sich und fügt d4 einen Verteidiger hinzu, aber der Springer auf c3 bleibt gefesselt, und ein Bauernvorstoß greift den neuen Springer sofort an, sodass Schwarz Zeit gewinnt. Auch das Schlagen auf c3 hinterlässt Weiß einen beschädigten Damenflügel; spielbar, nicht mehr."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4 6.Bd2 Bxc3": {
+    "strategy": "Tauscht den Läufer gegen den Springer, die Figur, die die Dame angegriffen hat, und regelt so die Fesselung zu Schwarzens Bedingungen. Schwarz gibt das Läuferpaar ab, und Weiß kann auf zwei Arten zurückschlagen, doch Schwarz behält den Vorsprung an Figurenaktivität und den Druck auf d4."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4 6.Bd2 exd4": {
+    "strategy": "Schlägt den Bauern und vergisst die Dame: der Läufer auf d2 schützt den König, sodass der Springer auf c3 frei ist, die Dame zu schlagen, und Schwarz dafür keine Kompensation hat."
+  },
+  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4 6.Bd2 Qd6": {
+    "strategy": "Rettet die Dame, verliert aber Zeit: der Springer auf c3, nun nicht mehr gefesselt, kann nach b5 gehen und sie erneut angreifen, sodass Weiß weiter Tempi gewinnt, während die schwarze Dame über das Brett gejagt wird."
+  },
   "1.d4 d5 2.c4 Nc6 3.Nc3 dxc4": {
     "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung",
     "strategy": "Nimmt den Bauern und greift d4 ein zweites Mal an, sodass Weiß sofort reagieren muss. Schwarz gibt den Zentrumsbauern auf d5 auf und verlässt sich auf Figurendruck gegen Weißens Zentrum, wobei er versucht, den Mehrbauern nur so lange zu halten, wie es diesem Plan dient."
@@ -25,51 +85,69 @@
     "strategy": "Stützt d5 auf klassische Weise, doch der Springer auf c6 steht dafür schlecht: Er blockiert den c-Bauern, der sonst d5 stützt oder das Zentrum des Weißen angreift. Ein solider, aber passiver Aufbau, in dem Schwarz eine Figur falsch platziert hat."
   },
   "1.d4 d5 2.c4 Nc6 3.Nc3 e5": {
-    "strategy": "Ein Gambit, das den e-Bauern sofort anbietet, um Linien für die Figuren zu öffnen und d4 anzugreifen. Weiß tut am besten daran, es nicht anzunehmen, sondern den Springer auf c6 anzugreifen, der Zeit verlieren muss, um wegzuziehen. Schwarz erhält Aktivität auf Kosten von Tempi und Zentrumskontrolle.",
-    "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung, Tartakower-Gambit"
+    "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung, Tartakower-Gambit",
+    "strategy": "Ein Gambit, das den e-Bauern sofort anbietet, um Linien für die Figuren zu öffnen und d4 anzugreifen. Weiß tut am besten daran, es nicht anzunehmen, sondern den Springer auf c6 anzugreifen, der Zeit verlieren muss, um wegzuziehen. Schwarz erhält Aktivität auf Kosten von Tempi und Zentrumskontrolle."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 dxc4 4.Nf3": {
+    "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung, Janowski-Variante",
+    "strategy": "Verteidigt d4 gegen die Dame und den Springer und entwickelt mit dem Ziel, den Bauern auf c4 zurückzugewinnen. Weiß lässt Schwarz den Bauern vorerst behalten und baut ein breites eigenes Zentrum auf, sodass Schwarz aktiv spielen muss, um die Aufgabe des d5-Bauern zu rechtfertigen."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 dxc4 4.d5": {
+    "strategy": "Jagt den Springer auf c6 und gewinnt Raum, wobei Schwarz den Mehrbauern vorerst behält. Weiß spielt auf den einengenden Bauern auf d5 und schnelle Entwicklung, statt den Bauern hastig zurückzugewinnen."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 dxc4 4.e3": {
+    "strategy": "Deckt d4 und öffnet den Königsläufer, der auf c4 den Bauern zurückgewinnen kann. Der Preis ist, dass der Läufer auf c1 hinter dem Bauern eingesperrt bleibt und Schwarz versuchen kann, den Mehrbauern mit ...b5 zu behalten; solide, aber nicht ehrgeizig."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 dxc4 4.Nf3 Nf6": {
+    "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung, Modernes Gambit",
+    "strategy": "Ein natürlicher Entwicklungszug, der nicht versucht, den Bauern auf c4 zu halten. Schwarz lässt Weiß ein breites Zentrum nehmen und den Bauern zurückgewinnen und setzt auf Figurendruck gegen dieses Zentrum, wobei der Springer e4 und d5 im Blick hat."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 dxc4 4.Nf3 Bg4": {
+    "strategy": "Entwickelt den Läufer außerhalb der Bauernkette und greift den Springer an, der d4 deckt. Wird der Springer auf f3 geschlagen, hat Weiß Doppelbauern, und d4 bleibt gegen Dame und Springer mit nur einem Verteidiger zurück; der Preis ist, dass der Läufer festgelegt ist, bevor Weiß seinen Aufbau gezeigt hat."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 dxc4 4.Nf3 e6": {
+    "strategy": "Ein solider Bauernzug, der den Läufer auf f8 befreit, aber den Läufer auf c8 einsperrt und nichts tut, um den c4-Bauern zu halten. Weiß kann ihn ohne Mühe zurückgewinnen, und Schwarz bleibt passiv, da der Springer auf c6 dem c-Bauern weiter im Weg steht."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 e6 4.Nf3": {
+    "strategy": "Entwickelt und deckt d4 gegen den Springer auf c6, sodass Weiß einfach die Entwicklung fortsetzt und seine Zentrumsbauern intakt hält. Schwarz hat einen soliden Zug gespielt, der das Problem des unglücklichen Springers auf c6 nicht löst."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 e6 4.cxd5": {
+    "strategy": "Löst die Spannung sofort auf. Schwarz schlägt normalerweise mit dem e-Bauern zurück, was den weißfeldrigen Läufer befreit, aber der Springer auf c6 blockiert den c-Bauern, sodass die übliche Festigkeit mit ...c6 fehlt und der d4-Bauer von Weiß das schwarze Zentrum einengt."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 e6 4.e3": {
+    "strategy": "Deckt d4 mit einem Bauern und öffnet den Königsläufer, der bei einem Bauerngewinn auf c4 den Bauern zurückholen kann. Der Preis ist, dass der Läufer auf c1 hinter dem Bauern eingesperrt bleibt; der Zug ist solide, aber nicht ehrgeizig."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 e6 4.Nf3 Nf6": {
+    "strategy": "Die natürliche Entwicklung: der Königsspringer deckt d5 und e4 und bereitet die Rochade vor, was einen üblichen Aufbau des abgelehnten Gambits ergibt. Der Damenspringer steht auf c6 statt auf d7, sodass Schwarz weniger des üblichen Gegenspiels im Zentrum hat, doch die Figuren sind entwickelt und d4 bleibt unter Druck."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 e6 4.Nf3 dxc4": {
+    "strategy": "Nimmt den Bauern, nun da e6 den Läufer geöffnet hat, und gibt das Zentrum für offene Linien und ein späteres ...Lb4 auf. Weiß kann den Bauern mit starkem Zentrum und schneller Entwicklung zurückgewinnen, sodass Schwarz seine Figurenaktivität zur Geltung bringen muss."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nc3 e6 4.Nf3 Bb4": {
+    "strategy": "Fesselt den Springer gegen den König und droht, durch das Schlagen auf c3 die weißen Bauern zu verdoppeln, sodass Schwarz sich mit einer Drohung entwickelt und den Druck auf d4 aufrechterhält. Der Springer auf c6 blockiert weiter den c-Bauern, und der Läufer muss sich womöglich für den Springer hergeben, sodass Schwarz Aktivität, aber weniger Solidität erhält."
   },
   "1.d4 d5 2.c4 Nc6 3.Nf3 Bg4": {
     "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung, Hauptvariante",
     "strategy": "Entwickelt den Läufer außerhalb der Bauernkette, bevor ...e6 ihn einsperren kann, und greift den Springer an, der d4 und e5 deckt. Zusammen mit dem Springer auf c6 hält er den Druck auf d4 aufrecht, sodass Weiß sofort entscheiden muss, wie es darauf antwortet."
   },
   "1.d4 d5 2.c4 Nc6 3.Nf3 e5": {
-    "strategy": "Ein Gambit, das den e-Bauern sofort anbietet, um die Stellung für die Figuren zu öffnen und d4 anzugreifen. Weiß kann annehmen und den Bauern behalten, sodass Schwarz zeigen muss, dass der Entwicklungsvorsprung und die offenen Linien einen Bauern wert sind. Ein riskanter praktischer Versuch.",
-    "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung, Lazard-Gambit"
+    "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung, Lazard-Gambit",
+    "strategy": "Ein Gambit, das den e-Bauern sofort anbietet, um die Stellung für die Figuren zu öffnen und d4 anzugreifen. Weiß kann annehmen und den Bauern behalten, sodass Schwarz zeigen muss, dass der Entwicklungsvorsprung und die offenen Linien einen Bauern wert sind. Ein riskanter praktischer Versuch."
   },
-  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3": {
-    "strategy": "Stützt d4, das die Dame und der Springer auf c6 beide angreifen, und öffnet die Diagonale des Königsläufers. Der Preis ist ein Läufer auf c1, der vorerst hinter seinem eigenen Bauern eingesperrt bleibt."
+  "1.d4 d5 2.c4 Nc6 3.Nf3 e6": {
+    "strategy": "Behält den d5-Bauern und befreit den Königsläufer, womit er das Zentrum hält, statt es zu riskieren. Der Läufer auf c8 ist eingesperrt und der Springer auf c6 blockiert den c-Bauern, sodass Schwarz ein etwas passives, aber sicheres Spiel ohne Schwächen in Kauf nimmt."
   },
-  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5": {
-    "strategy": "Greift d4 ein drittes Mal an und öffnet die Diagonale des Läufers auf f8. Schwarz hat keinen Bauern mehr auf d5 und setzt stattdessen auf Figurenaktivität: Die Dame und der Springer wirken auf Weißens Zentrum, und Weiß muss d4 weiter decken, während es die Entwicklung beendet."
-  },
-  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3": {
-    "strategy": "Entwickelt mit Tempogewinn gegen die Dame und bringt eine zweite Figur in den Kampf um das Zentrum. Der Springer kann als Antwort gegen den König gefesselt werden, sodass Weiß das scheinbar gewonnene Tempo nicht gewinnt und Schwarz seinen aktiven Aufbau behält."
-  },
-  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4": {
-    "strategy": "Fesselt den Springer gegen den König, sodass er die Dame nicht tatsächlich schlagen kann und die Dame ungestört auf d5 bleibt. Schwarz entwickelt sich mit einer Drohung und hält den Druck auf d4 aufrecht: Weiß muss sich mit der Fesselung befassen, bevor es seine eigenen Figuren in Gang bringen kann."
-  },
-  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4 6.Bd2": {
-    "strategy": "Löst die Fesselung und entwickelt endlich den Läufer, den e3 eingesperrt hatte, was den Springer außerdem ein zweites Mal deckt. Weiß ist bereit, auf ...Lxc3 mit einem Wiederschlagen zu antworten, das das Läuferpaar behält, und steuert eine solide Entwicklung gegen Schwarzens aktive Figuren an."
-  },
-  "1.d4 d5 2.c4 Nc6 3.cxd5 Qxd5 4.e3 e5 5.Nc3 Bb4 6.Bd2 Bxc3": {
-    "strategy": "Tauscht den Läufer gegen den Springer, die Figur, die die Dame angegriffen hat, und regelt so die Fesselung zu Schwarzens Bedingungen. Schwarz gibt das Läuferpaar ab, und Weiß kann auf zwei Arten zurückschlagen, doch Schwarz behält den Vorsprung an Figurenaktivität und den Druck auf d4."
-  },
-  "1.d4 d5 2.c4 Nc6 3.Nc3 dxc4 4.Nf3": {
-    "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung, Janowski-Variante",
-    "strategy": "Verteidigt d4 gegen die Dame und den Springer und entwickelt mit dem Ziel, den Bauern auf c4 zurückzugewinnen. Weiß lässt Schwarz den Bauern vorerst behalten und baut ein breites eigenes Zentrum auf, sodass Schwarz aktiv spielen muss, um die Aufgabe des d5-Bauern zu rechtfertigen."
-  },
-  "1.d4 d5 2.c4 Nc6 3.Nc3 dxc4 4.Nf3 Nf6": {
-    "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung, Modernes Gambit",
-    "strategy": "Ein natürlicher Entwicklungszug, der nicht versucht, den Bauern auf c4 zu halten. Schwarz lässt Weiß ein breites Zentrum nehmen und den Bauern zurückgewinnen und setzt auf Figurendruck gegen dieses Zentrum, wobei der Springer e4 und d5 im Blick hat."
-  },
-  "1.d4 d5 2.c4 Nc6 3.Nc3 e6 4.Nf3": {
-    "strategy": "Entwickelt und deckt d4 gegen den Springer auf c6, sodass Weiß einfach die Entwicklung fortsetzt und seine Zentrumsbauern intakt hält. Schwarz hat einen soliden Zug gespielt, der das Problem des unglücklichen Springers auf c6 nicht löst."
-  },
-  "1.d4 d5 2.c4 Nc6 3.Nc3 e6 4.Nf3 Nf6": {
-    "strategy": "Bringt den Königsspringer auf sein natürliches Feld und deckt e4, womit der Aufbau eines abgelehnten Gambits erreicht ist, nur dass der Damenspringer schon auf c6 steht. Solide und natürlich, doch dieser Springer blockiert den c-Bauern, sodass Schwarz weniger Gegenspiel im Zentrum hat als üblich."
+  "1.d4 d5 2.c4 Nc6 3.Nf3 dxc4": {
+    "strategy": "Nimmt den Bauern, aber der Mehrbauer ist nur geliehen: Weiß gewinnt ihn durch Entwicklung zurück, und Schwarz hat das Zentrum aufgegeben. Die Kompensation von Schwarz sind offene Linien für die Figuren und Druck auf d4."
   },
   "1.d4 d5 2.c4 Nc6 3.Nf3 Bg4 4.Qa4": {
     "name": "Abgelehntes Damengambit: Tschigorin-Verteidigung, Hauptvariante, Aljechin-Variante",
-    "strategy": "Fesselt den Springer auf c6 gegen den König, was die Figur, die d4 angegriffen hat, aus dem Spiel nimmt, und deckt den Bauern auf c4. Die Dame verlässt d1 und steht exponiert, doch Schwarz muss die Fesselung auflösen, bevor der Druck auf d4 wieder aufgenommen werden kann."
+    "strategy": "Fesselt den Springer auf c6 gegen den König, wodurch die Figur, die d4 angriff, aus dem Spiel genommen wird, und deckt den c4-Bauern. Doch die Dame verlässt d1 früh, um exponiert zu stehen, und Schwarz kann die Fesselung sofort lösen, sodass der Zug spielbar, aber zweitklassig ist."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nf3 Bg4 4.cxd5": {
+    "strategy": "Die Hauptantwort auf den Läufer: der Bauer schlägt auf d5 und greift den Springer auf c6 an. Nimmt Schwarz auf f3, verdoppelt das Zurückschlagen mit dem g-Bauern die weißen Bauern auf der f-Linie, bringt aber das Läuferpaar und eine halboffene g-Linie, sodass Weiß zeigen muss, dass sich die beschädigte Struktur lohnt."
+  },
+  "1.d4 d5 2.c4 Nc6 3.Nf3 Bg4 4.Nc3": {
+    "strategy": "Entwickelt eine Figur und erhöht den Druck auf d5, ohne sich um den Läufer zu sorgen. Nimmt Schwarz auf f3, schlägt Weiß mit dem g-Bauern zurück und erhält das Läuferpaar und eine halboffene g-Linie zum Preis von Doppelbauern."
   }
 }

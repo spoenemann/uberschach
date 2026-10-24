@@ -4,28 +4,56 @@
     "background": "First popularised by the Russian player Alexander Petrov in the mid-nineteenth century; in recognition of the early investigations by Petrov and Carl Jaenisch it is also called the Russian Game, the predominant name in some countries. World champions Smyslov, Petrosian, Karpov and Kramnik have all adopted it."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5": {
-    "strategy": "Takes the pawn that Black left undefended. Black cannot simply retake on e4 at once, because the open e-file gives White tactics against the king, so the knight on e5 has to be driven off first. The game stays close to level: White has the first-move initiative, Black a very solid position.",
-    "name": "Petrov's Defence",
-    "background": "Of White's two main third moves it is the more popular, ahead of 3.d4."
+    "strategy": "Takes the pawn that Black left undefended. Black cannot simply retake on e4 at once, because the open e-file gives White tactics against the king, so the knight on e5 has to be driven off first. The game stays close to level: White has the first-move initiative, Black a very solid position."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4": {
-    "strategy": "Attacks the centre at once instead of grabbing a pawn, and lets Black choose which pawn to take. White opens the game early for fast development and activity, but the pawn exchanges that follow leave Black with a sound, roughly equal game.",
     "name": "Petrov's Defence: Modern Attack",
-    "background": "Carl Jaenisch credited Alexander Petrov with the move, and Wilhelm Steinitz recommended it in his Modern Chess Instructor (1889), playing it three times against Pillsbury at St Petersburg 1895–96 for two wins and a draw. It came into vogue in the 1990s, when players such as Kasparov and Ivanchuk adopted it."
+    "background": "Carl Jaenisch credited Alexander Petrov with the move, and Wilhelm Steinitz recommended it in his Modern Chess Instructor (1889), playing it three times against Pillsbury at St Petersburg 1895–96 for two wins and a draw. It came into vogue in the 1990s, when players such as Kasparov and Ivanchuk adopted it.",
+    "strategy": "Attacks the centre at once instead of grabbing a pawn, and lets Black choose which pawn to take. White opens the game early for fast development and activity, but the pawn exchanges that follow leave Black with a sound, roughly equal game."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Qe2": {
     "strategy": "Defends e4 with the queen, a solid-looking but awkward way: the queen blocks the f1 bishop, so the kingside cannot develop smoothly, and White has threatened nothing. Black can develop freely and fight for the centre."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nc3": {
-    "strategy": "Defends e4 by developing a piece and avoids the sharper lines of this defence. It is sound but modest: Black answers by developing the other knight and reaches a symmetrical, level position in which White has little to claim.",
-    "name": "Petrov's Defence: Three Knights Game"
+    "name": "Petrov's Defence: Three Knights Game",
+    "strategy": "Defends e4 by developing a piece and avoids the sharper lines of this defence. It is sound but modest: Black answers by developing the other knight and reaches a symmetrical, level position in which White has little to claim."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Bc4": {
-    "strategy": "Aims the bishop at f7 at once, but leaves the e4 pawn undefended. Black can simply take it, and White has only a gambit to show for the pawn; or Black declines and reaches an ordinary balanced game. Either way White has gained little for the early commitment.",
-    "name": "Petrov's Defence: Italian Variation"
+    "name": "Petrov's Defence: Italian Variation",
+    "strategy": "Aims the bishop at f7 at once, but leaves the e4 pawn undefended. Black can simply take it, and White has only a gambit to show for the pawn; or Black declines and reaches an ordinary balanced game. Either way White has gained little for the early commitment."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Bc4 Nxe4": {
     "strategy": "Takes the pawn that White left undefended and so makes White prove the gambit. The knight stands exposed on e4, but Black has several sound ways to defend it and either keep the extra pawn or return it on good terms."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Bc4 Nc6": {
+    "strategy": "Declines the pawn and develops the other knight, which defends e5. White's bishop already eyes f7, but Black has no weakness there, and the game takes a familiar, level course. A safe choice that gives up the chance of an extra pawn for a position without risk."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Bc4 d5": {
+    "strategy": "Hits the bishop at once and fights for the centre, accepting an open game while the king is still in the middle. Black has to be accurate there, and gives up the safety of simple development. Sharp, and sound enough."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Bc4 Nxe4 4.Nc3": {
+    "name": "Bishop's Opening: Boden-Kieseritzky Gambit",
+    "background": "Named after Samuel Boden and Lionel Kieseritzky; Boden published the first analysis of it in 1851.",
+    "strategy": "Gambits the pawn for development: the knight attacks the one on e4, and after a trade White recaptures with the d-pawn, opening the c1 bishop and the d-file, with Ng5 against f7 as the idea. It does not quite pay for the pawn, because Black can defend accurately, but it is dangerous against careless play."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Bc4 Nxe4 4.d3": {
+    "strategy": "Hits the knight with a pawn instead of gambiting a pawn. Nothing defends the e5 pawn once the knight has to move, so White expects to win it back, and meanwhile opens the c1 bishop and builds a solid centre. It gives up the gambit's attacking chances for a level, low-risk game."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Bc4 Nxe4 4.Nxe5": {
+    "strategy": "Takes the e5 pawn at once, but Black answers with a pawn that attacks the bishop, so White loses time retreating it. Material is level, but White is a tempo behind in development and Black's knight stays well placed in the centre. Playable, not ambitious."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Bc4 Nxe4 4.Nc3 d5": {
+    "name": "Bishop's Opening: Boden-Kieseritzky Gambit, Lichtenhein Defence",
+    "strategy": "Defends the knight with a pawn and attacks the bishop in the same move, taking a share of the centre instead of capturing on c3. White has to resolve the tension at once, and the game becomes open and tactical. A playable alternative to the main capture."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Bc4 Nxe4 4.Nc3 Nxc3": {
+    "strategy": "Takes the offered knight and accepts that White recaptures with the d-pawn to open the c1 bishop. Black then has to find the one pawn move that defends e5 and stops the knight jumping to g5; with it Black keeps the extra pawn at the cost of a slightly loosened king's side."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Bc4 Nxe4 4.Nc3 Nc6": {
+    "strategy": "Declines the knight and develops, offering to trade on e4. If White takes, Black strikes at the bishop and knight with a pawn and the game is level, Black having given the extra pawn back for an easy position. A safe way to avoid the gambit's complications."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Bc4 Nxe4 4.Nc3 Nf6": {
+    "strategy": "Retreats the knight and gives the pawn back: White takes on e5 and the position is roughly level. It avoids every gambit trick but achieves little, since Black has returned the extra pawn and White's bishop still eyes f7."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4": {
     "strategy": "The main reply: Black takes the e4 pawn, and since White can retake on e5, the pawns are simply traded. The advanced knight needs support, but the symmetrical positions that follow are the soundest way to meet the early central strike, and give White at best a slight initiative."
@@ -36,44 +64,29 @@
     "strategy": "Takes the pawn on d4 and keeps the extra pawn for now, but opens the e-file with the king still in the centre. White regains the pawn with tempo by attacking the knight, so Black spends time retreating. Sound and playable, but more passive than the main reply."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4 d5": {
-    "strategy": "Meets the central strike with the d-pawn, which hands the decision about what to capture on e5 back to White. Solid and symmetrical, but it gives White the choice of structure: play usually transposes into the main lines, so Black gains nothing from the changed order.",
-    "name": "Petrov's Defence: Modern Attack, Symmetrical Variation"
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nc3 Nc6": {
-    "strategy": "Develops the other knight, the most common and best-regarded reply. Both sides now have both knights out, and the game takes a symmetrical, classical course that avoids the lines special to this defence. Black is solid and level, with White having little to claim."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6": {
-    "name": "Petrov's Defence",
-    "background": "Carl Jaenisch highlighted Alexander Petrov's independent rediscovery of Cozio's 3.Nxe5 d6, played in preference to 3...Qd7.",
-    "strategy": "Attacks the knight on e5 and so drives it away before Black retakes the pawn. This is the sound way to equalise: once the knight has left the e-file, Black can take on e4 without running into tactics. The game is close to level, with White holding a small initiative."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nxe4": {
-    "name": "Petrov's Defence: Damiano Variation",
-    "background": "Introduced by Pedro Damiano in his Libro da Imparare a Giocare a Scacchi, one of the oldest books on \"modern rules\" chess. It is usually regarded as an error, though it has occasionally been seen in recent grandmaster play.",
-    "strategy": "Retakes at once, but the open e-file punishes it: the queen attacks e4 from e2, and a knight move uncovers a discovered check, so the natural-looking ...Nf6 loses the queen to Nc6+. Black has to find exact moves to survive and still ends up worse."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6": {
-    "name": "Petrov's Defence: Stafford Gambit",
-    "background": "Named after Joseph Stafford, a correspondence player who won a notable six-move game with it in 1950. The earliest recorded game is from an 1857 simultaneous exhibition by Howard Staunton, who lost it as Black. It remained obscure until the early 2020s, when Eric Rosen's games made it popular in online blitz.",
-    "strategy": "Offers the e-pawn for an open d-file, an active c8 bishop and an immediate attack on e4, aimed at White's kingside. If White replies calmly, Black has no real compensation for the pawn, but many natural-looking moves for White run into tactics."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Qe2 Nc6": {
-    "strategy": "A natural developing reply: the knight guards e5 and joins the fight for d4, while White's queen, standing in front of its own bishop, has nothing to attack. Black gets easy development and can aim for the centre."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Bc4 Nxe4 4.Nc3": {
-    "name": "Bishop's Opening: Boden-Kieseritzky Gambit",
-    "background": "Named after Samuel Boden and Lionel Kieseritzky; Boden published the first analysis of it in 1851.",
-    "strategy": "Gambits the pawn for development: the knight attacks the one on e4, and after a trade White recaptures with the d-pawn, opening the c1 bishop and the d-file, with Ng5 against f7 as the idea. It does not quite pay for the pawn, because Black can defend accurately, but it is dangerous against careless play."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Bc4 Nxe4 4.Nc3 d5": {
-    "name": "Bishop's Opening: Boden-Kieseritzky Gambit, Lichtenhein Defence",
-    "strategy": "Defends the knight with a pawn and attacks the bishop in the same move, taking a share of the centre instead of capturing on c3. White has to resolve the tension at once, and the game becomes open and tactical. A playable alternative to the main capture."
+    "name": "Petrov's Defence: Modern Attack, Symmetrical Variation",
+    "strategy": "Meets the central strike with the d-pawn, which hands the decision about what to capture on e5 back to White. Solid and symmetrical, but it gives White the choice of structure: play usually transposes into the main lines, so Black gains nothing from the changed order."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5": {
     "strategy": "Attacks the knight at once and gains space while the pawn on d4 is still hanging. Black has to spend time moving the knight, and White regains the pawn with the more active position, so Black's extra pawn does not last."
   },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.Bc4": {
+    "strategy": "Gambits a pawn for quick development: the bishop eyes f7 and White can castle early, but Black is already a pawn up and can develop calmly and keep it. The compensation is not enough against careful play."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.Nxd4": {
+    "strategy": "Takes the pawn back with the knight but leaves e4 undefended, so Black captures it and White is a pawn down again. Qe2 pins the knight on e4, but Black defends with ...Qe7 and keeps the extra pawn in a game that is only about level."
+  },
   "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4": {
     "strategy": "Keeps the knight in the centre instead of retreating to the edge. It stands loose on e4, so White can regain the d4 pawn with an attack on it, and Black has to support it with a pawn at once; in return Black gets an open, active game."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Qe7": {
+    "strategy": "Pins the e-pawn, so the attacked knight is safe for a moment, but White breaks the pin with a developing move and the knight has to run anyway. Black has only brought the queen out early, and White regains the d4 pawn with the better game."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Nd5": {
+    "strategy": "Retreats to a square the queen hits at once: White recaptures on d4 with the queen, attacking the knight again. Black has lost the extra pawn and a tempo, and White has the lead in space and development."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ng4": {
+    "strategy": "Runs to the edge, where a pawn move chases it again: h3 drives the knight away, White regains the d4 pawn and is clearly ahead in development. Black has taken a developed knight off its good square for nothing."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qxd4": {
     "name": "Petrov's Defence: Modern Attack, Centre Attack",
@@ -91,16 +104,43 @@
   "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qe2 Nc5": {
     "strategy": "Takes the knight out of the queen's attack to a square where it eyes e4 and d3, and accepts that White retakes the d4 pawn. Black keeps the piece active and the structure sound, but White has more space, and the knight on c5 gets in the way of the f8 bishop."
   },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qe2 Bb4+": {
+    "strategy": "Gives check before the knight can be taken. The natural block 6.c3 fails to 6...dxc3, since after 7.Qxe4 the pawn captures on b2 with a discovered check from the bishop, so White has to trade pieces instead and Black reaches an equal game."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qe2 d5": {
+    "strategy": "Defends the knight with the pawn, but White takes it en passant with 6.exd6, and the knight on e4 is then pinned to the king by the queen and cannot recapture. Black loses a piece."
+  },
   "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qe2 Nc5 6.Nxd4": {
     "strategy": "Regains the pawn with the knight, which lands on a strong central square and eyes c6 and e6, while the queen on e2 guards the pawn on e5. Material is level and White has the space, but the knight on d4 is not defended, which Black can use at once."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qe2 Nc5 6.Bg5": {
+    "strategy": "Develops with a gain of time by attacking the queen, and keeps the d4 pawn under fire. It is sound, but it does not regain the pawn by force, and Black can trade the dark-squared bishops to ease the cramped position."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qe2 Nc5 6.Nbd2": {
+    "strategy": "Develops the knight to a square the d4 pawn cannot hit, but it blocks the c1 bishop and lets Black defend the pawn, so White still has to work to regain it. Sound, but slower than taking the pawn at once."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qe2 Nc5 6.Nc3": {
+    "strategy": "Hangs the knight: the pawn on d4 attacks c3, so ...dxc3 wins a piece for a pawn and White has no compensation."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qe2 Nc5 6.Nxd4 Nc6": {
     "name": "Petrov's Defence: Modern Attack, Bardeleben Variation",
     "strategy": "Develops with a double attack: the knight hits the undefended knight on d4 and the pawn on e5, so White has to resolve the tension at once. Black has regained the material and develops freely, and the pawn on e5, guarded only by the queen, stays a target."
   },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qe2 Nc5 6.Nxd4 Ne6": {
+    "strategy": "Offers the exchange of knights at once, to get rid of the strong knight on d4. Black then recaptures with a pawn, which solves the problem of the knight but leaves White's pawn on e5 cramping Black's pieces. Playable but passive."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qe2 Nc5 6.Nxd4 Be7": {
+    "strategy": "Develops the king's bishop and prepares to castle, leaving White's knight on d4 alone. Black's position is solid, but White keeps the strong central knight and the space the e5 pawn gives, so Black is a little cramped."
+  },
   "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3": {
     "name": "Petrov's Defence: Modern Attack, Centre Variation",
     "strategy": "Develops the bishop with a direct attack on the e4 knight, so Black has to defend it or prepare a tactical answer, and keeps White free to retake on e5 later. White is a pawn down only for the moment and gets the more active development."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.dxe5": {
+    "strategy": "Retakes with the d-pawn, which clears the d-file so that the queen can come to d5, hitting the knight on e4 and f7. White avoids the symmetrical structure of the main line and plays for a sharper, unbalanced game, at the cost of giving up the central d-pawn."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Nxe5": {
+    "strategy": "Regains the pawn with the knight at once. It is playable, but it lets Black choose the structure: Black can attack the knight with a pawn and head for the classical main line, so White gains nothing by capturing early."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5": {
     "strategy": "Supports the knight with a pawn, takes a share of the centre and opens the c8 bishop. The structure is symmetrical once White retakes on e5, and the knight is well placed on e4; the cost is that the d-pawn can no longer chase White's knight from e5."
@@ -109,133 +149,74 @@
     "name": "Petrov's Defence: Modern Attack, Murrey Variation",
     "strategy": "Leaves the knight on e4 undefended as bait: if White takes it with the bishop, ...d5 leaves the bishop no good retreat and ...e4 forks bishop and knight, winning the piece back. If White declines, Black has developed quickly but gives White the choice of structure, and White keeps a slight edge."
   },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 Nf6": {
+    "strategy": "Retreats the knight to where it started. White retakes on e5 with the d-pawn, which attacks the knight again, so Black has lost time while White has a developed bishop and a space edge. The extra pawn has gone back without any gain."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 exd4": {
+    "strategy": "Grabs a second pawn but leaves the knight on e4 undefended: Bxe4 wins it, and the trick of ...d5 and ...e4 no longer works because the e-pawn has left the e-file. White has a piece for two pawns, with the pawn on d4 still to collect."
+  },
   "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.Nxe5": {
     "strategy": "Retakes the pawn, restoring material equality and centralising the knight, which the d-pawn defends. Black can no longer drive it away with ...d6, since the pawn already stands on d5, so Black has to challenge it by other means. The position is symmetrical and level, with White's knight the more active piece."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.dxe5": {
+    "strategy": "Retakes the pawn with the d-pawn instead of the knight. White gets a pawn on e5 and an asymmetrical structure rather than the symmetrical main line, and the d-file opens. Black's knight stays well supported by the d-pawn, so the game is level, with White playing for more imbalance."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.Nbd2": {
+    "strategy": "Attacks the knight a second time with a developing move, rather than recapturing at once. It leaves the e5 pawn alone, so Black can take on d4 and White has to regain the pawn later; the position is level but less clear than the plain recapture."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.Nxe5 Bd6": {
     "strategy": "Challenges the knight on e5 at once and develops the bishop for castling, keeping the position fully symmetrical. A solid choice that was once a main reply and is now played less often than the alternatives."
   },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.Nxe5 Nd7": {
+    "strategy": "Attacks the centralised knight with the queenside knight, so White has to trade or retreat, while Black's bishops stay free to choose their squares. The usual trade develops the c8 bishop for free, at the price of a more tactical game around the knight on e4."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.Nxe5 Nc6": {
+    "strategy": "Attacks the centralised knight with the other knight. After White takes on c6, Black has to recapture with the b-pawn, which doubles the c-pawns and damages the structure. Playable, but it concedes something for no clear gain."
+  },
   "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.Nxe5 Bd6 6.O-O": {
     "strategy": "Castles to secure the king before the position opens. The knight on e5 is defended by the d-pawn, so the bishop's attack costs White nothing, and White prepares to challenge Black's centre. The game stays symmetrical and balanced."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.Nxe5 Bd6 6.c4": {
+    "strategy": "Strikes at the d5 pawn that supports the knight on e4, the usual plan against this set-up, but plays it before castling. Black can answer with a check from b4 or trade on e5, so White gains nothing by force and the game stays level."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.Nxe5 Bd6 6.Nd2": {
+    "strategy": "Challenges the knight on e4 with a developing move, though it blocks the c1 bishop for now. If Black trades on d2 and then on e5, White ends with the two bishops and a pawn on e5, a small space edge; Black's position stays solid and level."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.Nxe5 Bd6 6.O-O O-O": {
     "strategy": "Mirrors White: the king is safe and the structure stays fully symmetrical. Neither side has a clear way to profit at once, and the game turns on which of them can better challenge the other's advanced knight, Black's on e4 or White's on e5."
   },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3": {
-    "name": "Petrov's Defence",
-    "strategy": "Brings the knight back to its best square, where it covers the centre and the kingside. Black takes the e4 pawn, material is level, and the question becomes whether White can drive the advanced Black knight away at an acceptable price."
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.Nxe5 Bd6 6.O-O Bxe5": {
+    "strategy": "Trades the bishop for White's centralised knight at once. White recaptures with the d-pawn and gets a pawn on e5 and more space, while Black keeps the knight on e4 firmly supported. The game stays level, but Black gives up the dark-squared bishop that would otherwise fight against that pawn."
   },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nd3": {
-    "name": "Petrov's Defence: Karklins-Martinovsky Variation",
-    "background": "Called the Karklins-Martinovsky Variation; the US master Andrew Karklins experimented with it. Magnus Carlsen played it against Fabiano Caruana in the 2018 World Chess Championship match.",
-    "strategy": "Withdraws the knight to d3, where it blocks the d-pawn for now but heads for f4, and avoids the heavily analysed main line. Black simply takes the e4 pawn with equality: the move is sound, but it spends time and gives White no real edge."
+  "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.Nxe5 Bd6 6.O-O Bf5": {
+    "strategy": "Develops the bishop to a square where it adds a second defender to the knight on e4, so a capture there can be answered with either piece. Black leaves castling for later, and the game stays level with both sides centralised."
   },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nc4": {
-    "name": "Petrov's Defence: Paulsen Attack",
-    "background": "De Firmian called it \"ineffective\", though it is occasionally seen at grandmaster level.",
-    "strategy": "Retreats to c4, which keeps the d-pawn free to advance, but the knight is awkwardly placed there: once Black has taken on e4, ...d5 drives it away again and White loses time. Sound but ineffective, the knight usually ends up on e3."
+  "1.e4 e5 2.Nf3 Nf6 3.Nc3 Nc6": {
+    "strategy": "Develops the other knight, the most common and best-regarded reply. Both sides now have both knights out, and the game takes a symmetrical, classical course that avoids the lines special to this defence. Black is solid and level, with White having little to claim."
   },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7": {
-    "name": "Petrov's Defence: Cochrane Gambit",
-    "background": "Nick de Firmian called it “speculative but entertaining” in Modern Chess Openings, and judged the position of Topalov–Kramnik, Linares 1999, to offer chances for both sides.",
-    "strategy": "Gives a knight for a pawn to drag the king out: it can no longer castle, and White hopes to use the initiative and quick development against it. The compensation is speculative, because a piece is a lot to give and Black is clearly ahead if the attack runs out."
+  "1.e4 e5 2.Nf3 Nf6 3.Nc3 Bb4": {
+    "strategy": "Pins the knight on c3 to the king and invites White to take the pawn on e5. Black castles, attacks e4 and gets the pawn back after exchanging the bishop for the knight, which gives White the two bishops. Active, and it leaves White only a slight edge."
   },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4": {
-    "name": "Petrov's Defence",
-    "strategy": "Retakes the pawn now that the e-file is clear, restoring material equality and putting the knight on an active central square. White will try to chase it away or undermine it, and Black's task is to support the knight and keep a solid centre."
+  "1.e4 e5 2.Nf3 Nf6 3.Nc3 d6": {
+    "strategy": "Defends e5 with a pawn and keeps the set-up compact, with the c8 bishop free to develop. It is solid but passive: White can occupy the centre at once and Black has less space."
   },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7 Kxf7": {
-    "strategy": "Takes the knight: Black accepts the sacrifice and stands a piece up for two pawns. The cost is the king, dragged out of its corner and unable to castle, so Black's task is to bring it to safety and, if need be, give material back, while White plays for the initiative."
+  "1.e4 e5 2.Nf3 Nf6 3.Qe2 Nc6": {
+    "strategy": "A natural developing reply: the knight guards e5 and joins the fight for d4, while White's queen, standing in front of its own bishop, has nothing to attack. Black gets easy development and can aim for the centre."
   },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4": {
-    "name": "Petrov's Defence: Classical Attack",
-    "background": "The most popular fifth move for White, and the main line of the Classical Variation.",
-    "strategy": "Takes the centre and prepares to challenge the advanced knight with the bishop. Black supports it with a pawn, and the symmetrical structures that follow give White a small initiative but little more. The principal choice, because it fights for space instead of hurrying to trade."
+  "1.e4 e5 2.Nf3 Nf6 3.Qe2 d6": {
+    "strategy": "Defends e5 with a pawn instead of a piece, giving Black a compact and solid structure with little to attack. The price is space: the pawn on d6 shuts in the c8-bishop for now, so Black accepts a cramped but safe game."
   },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.Nc3": {
-    "name": "Petrov's Defence: Nimzowitsch Attack",
-    "background": "The chief sideline to 5.d4. Viswanathan Anand resigned after only six moves against Alonso Zapata at Biel 1988, having fallen for a trap in this line.",
-    "strategy": "Offers to trade the e4 knight and goes for rapid development: after the trade White recaptures with the d-pawn, which opens the queen and the c1 bishop and allows castling queenside for an attack on the kingside. White accepts doubled c-pawns for the initiative. Black must avoid ...Bf5??, which loses a piece to Qe2."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.Qe2": {
-    "name": "Petrov's Defence: Cozio Attack",
-    "background": "The most common continuation at the amateur level.",
-    "strategy": "Pins the knight to the king along the open e-file, so Black has to unpin and defend with the queen; defending with a pawn instead loses the knight to d3. The game then heads for an early queen trade and a drawish endgame in which neither side has much to play for."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d3": {
-    "name": "Petrov's Defence: French Attack",
-    "strategy": "Kicks the knight away with a pawn at once. Black retreats it without loss, and White usually follows with d4 to build a symmetrical centre; the d-pawn has moved twice for the knight's two moves, so the tempi cancel out and the game is level and quiet."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.c4": {
-    "name": "Petrov's Defence: Kaufmann Attack",
-    "background": "Keres explored it.",
-    "strategy": "Takes the d5 square away from Black's pawn, so the knight cannot be supported there once d4 and the bishop arrive. The plan is slow, and Black simply withdraws the knight to a safe square or develops and challenges the centre, reaching equality."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.Bd3": {
-    "name": "Petrov's Defence: Millennium Attack",
-    "strategy": "Attacks the knight directly with a developing move, but the bishop blocks White's own d-pawn and has to move again before the centre can be built. Black retreats the knight and White's structure is awkward, so the move is rarely played."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5": {
-    "strategy": "Supports the knight with a pawn, grabs the centre and opens the c8 bishop. It is the standard reply, giving Black a solid, symmetrical structure; White's task is to dislodge the advanced knight, Black's to keep it safe."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 Nf6": {
-    "name": "Petrov's Defence: Classical Attack, Closed Variation",
-    "strategy": "A quiet retreat: the knight goes home and White keeps the more advanced d-pawn, so Black has given up active play and White keeps the first-move initiative. Sound but passive."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5 6.Bd3": {
-    "strategy": "Attacks the knight and prepares to castle. White will now try to drive the advanced knight away by adding pressure on it, which usually costs a structural concession that balances out the gain. The position is symmetrical, but Black has made one extra knight move."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5 6.Bd3 Be7": {
-    "strategy": "Develops the bishop to its safest square and prepares to castle, giving the king shelter before White starts to undermine the advanced knight. It is the most solid set-up, though the bishop is passive on e7."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5 6.Bd3 Nc6": {
-    "name": "Petrov's Defence: Classical Attack, Mason-Showalter Variation",
-    "strategy": "Develops the knight with pressure on d4 and prepares to castle. The game normally reaches the same positions as the quieter bishop move, since Black wants both, but Black keeps the choice of where the bishop goes."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5 6.Bd3 Bd6": {
-    "name": "Petrov's Defence: Classical Attack, Marshall Variation",
-    "background": "Named after Frank Marshall, who played 8...Bg4 in it.",
-    "strategy": "Puts the bishop on the diagonal towards White's king, where it eyes h2, and keeps the position fully symmetrical. More active than the quiet bishop move, and the game stays balanced."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7 Kxf7 5.Bc4+": {
-    "name": "Petrov's Defence: Cochrane Gambit, Bishop Check Line",
-    "strategy": "Checks to keep the king out in the open for good, since it can no longer castle, and the bishop eyes the squares around it. White has paid a knight for two pawns, so the attack must keep its speed; Black can block and then challenge the bishop with a pawn."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7 Kxf7 5.d4": {
-    "name": "Petrov's Defence: Cochrane Gambit, Centre Variation",
-    "strategy": "Takes the centre and opens the c1-bishop while the king is still stranded, with e5 in view to drive the knight away. It leaves e4 without a defender, but grabbing it loses: ...Nxe4 runs into Qh5+, and after Qd5+ White wins the knight back."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6": {
-    "strategy": "Takes the offered knight and keeps the extra pawn. Trading pieces brings the side that is ahead closer to consolidating its lead. The recapture opens lines for Black, so White must now look after e4 and the king's side."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6": {
-    "name": "Petrov's Defence: Stafford Gambit Accepted",
-    "strategy": "The point of the gambit: Black gives up a pawn and accepts doubled c-pawns to open the d-file for the queen and the diagonal for the c8-bishop. The pawn on e4 is already attacked and undefended, so White has to react at once."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6 5.d3": {
-    "strategy": "The solid answer: a pawn guards e4, the c1-bishop is freed, and White gives back nothing. The set-up looks passive, but it keeps the extra pawn and leaves Black to prove the compensation, while White has to avoid the tactics that centre on f2."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6 5.Nc3": {
-    "strategy": "Defends e4 with a developing piece and leaves the d-pawn free. It is less solid than the pawn defence: a bishop on c5 and a knight on g4 can aim at f2 together, so White has to watch the kingside while the extra pawn is consolidated."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6 5.d3 Bc5": {
-    "name": "Petrov's Defence: Stafford Gambit Accepted",
-    "strategy": "Aims the bishop at f2, which only the king guards, and turns natural developing moves into traps: after 6.Bg5? Nxe4! the queen is attacked and 7.Bxd8 Bxf2+ 8.Ke2 Bg4 is mate. Black's compensation rests on such quick tactics, not on structure."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6 5.Nc3 Bc5": {
-    "name": "Petrov's Defence: Stafford Gambit Accepted",
-    "strategy": "The same idea against a different set-up: the bishop pressures f2, where only the king stands guard, and ...Ng4 can add a second attacker. With the knight on c3 the d-pawn is still free, but White must find a way to consolidate."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nxe4 4.Qe2": {
-    "strategy": "Attacks the knight and lines the queen up on the open e-file behind it. If the knight runs, White's knight can move with a discovered check, which is why ...Nf6?? loses at once to Nc6+, winning the queen. Black has to find the best defence."
-  },
-  "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nxe4 4.Qe2 Qe7": {
-    "name": "Petrov's Defence: Damiano Variation, Kholmov Gambit",
-    "background": "Pedro Damiano gave 4.Qe2 Qe7 in his Libro da Imparare a Giocare a Scacchi, one of the oldest books on chess under the modern rules; the line now bears the name of the Kholmov Gambit.",
-    "strategy": "Black's best reply: the queen steps onto the e-file, so that after White takes the knight on e4 the white knight on e5 is pinned to its queen and can be hit with ...d6. Black ends a pawn down for open lines and quick development; White keeps a modest edge."
+  "1.e4 e5 2.Nf3 Nf6 3.Qe2 Qe7": {
+    "strategy": "Defends e5 with the queen, so taking on e5 would only lose a knight for a pawn. It is safe but awkward: the queen blocks the f8-bishop, and Black's development is slow."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Qe2 Nc6 4.d4": {
     "name": "Petrov's Defence: Moody Gambit",
     "strategy": "Offers the d-pawn to open the centre: after ...exd4 the knight cannot simply retake, since ...Nxd4 would win it. But the queen still blocks the f1-bishop and the e4 pawn is under attack, so White has little to show for the pawn."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Qe2 Nc6 4.c3": {
+    "strategy": "Prepares to take the centre with a pawn supported from c3, while the queen already guards e4. It is the plan that suits the early queen move: White builds a broad pawn centre and answers Black's pressure on e4 calmly."
+  },
+  "1.e4 e5 2.Nf3 Nf6 3.Qe2 Nc6 4.d3": {
+    "strategy": "Guards e4 with a pawn and frees the c1-bishop, a solid set-up in which everything is protected. It is passive, though: the f1-bishop is still shut in behind the queen and Black can claim the centre at once."
   }
 }

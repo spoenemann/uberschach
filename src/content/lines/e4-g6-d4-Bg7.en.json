@@ -1,7 +1,7 @@
 {
   "1.e4 g6 2.d4 Bg7 3.Nc3": {
-    "strategy": "The flexible main move: it defends e4 and develops a piece while White still decides how to build the rest of the centre. The cost is the c3 square, so the c-pawn can no longer blunt Black's fianchettoed bishop. Black has to undermine the broad centre from the flanks.",
-    "name": "Modern Defence: Standard Line"
+    "name": "Modern Defence: Standard Line",
+    "strategy": "The flexible main move: it defends e4 and develops a piece while White still decides how to build the rest of the centre. The cost is the c3 square, so the c-pawn can no longer blunt Black's fianchettoed bishop. Black has to undermine the broad centre from the flanks."
   },
   "1.e4 g6 2.d4 Bg7 3.c4": {
     "strategy": "Adds a third central pawn for the largest space advantage on offer. The big front needs pieces behind it: d4 is guarded only by the queen for now, so White must develop with care or the pawns become targets for the bishop on g7."
@@ -10,23 +10,118 @@
     "strategy": "A quiet developing move that guards d4 with a piece, so Black's bishop has nothing to bite on, and keeps the pawn structure undecided. Many lines transpose into the other set-ups, so White chooses the type of game later."
   },
   "1.e4 g6 2.d4 Bg7 3.Bc4": {
-    "strategy": "Develops with an eye on f7 and controls d5, but commits the bishop before the knights are out, and e4 has no piece defending it. Black can treat the bishop as a target and gain time while completing development.",
-    "name": "Modern Defence: Bishop Attack"
+    "name": "Modern Defence: Bishop Attack",
+    "strategy": "Develops with an eye on f7 and controls d5, but commits the bishop before the knights are out, and e4 has no piece defending it. Black can treat the bishop as a target and gain time while completing development."
   },
   "1.e4 g6 2.d4 Bg7 3.f4": {
-    "strategy": "Builds a huge pawn centre, ready to gain more space with e5, but commits the f-pawn before a piece is out and weakens White's own king side. Black's bishop and a quick strike with the c-pawn hit d4 at once, so the pawns can become targets.",
-    "name": "Modern Defence: Three Pawns Attack"
+    "name": "Modern Defence: Three Pawns Attack",
+    "strategy": "Builds a huge pawn centre, ready to gain more space with e5, but commits the f-pawn before a piece is out and weakens White's own king side. Black's bishop and a quick strike with the c-pawn hit d4 at once, so the pawns can become targets."
   },
   "1.e4 g6 2.d4 Bg7 3.g3": {
     "strategy": "Mirrors Black's fianchetto and prepares a bishop that covers e4 and the long diagonal. But it is slow: d4 is guarded only by the queen and e4 stands unprotected for now, so Black strikes at the centre at once."
   },
   "1.e4 g6 2.d4 Bg7 3.Bd2": {
-    "strategy": "Blocks the queen's protection of d4, so Black simply takes the pawn with the bishop and is a clean pawn up. White hopes for quick development in return, but a pawn for a few tempi is a poor price.",
-    "name": "Modern Defence: Westermann Gambit"
+    "name": "Modern Defence: Westermann Gambit",
+    "strategy": "Blocks the queen's protection of d4, so Black simply takes the pawn with the bishop and is a clean pawn up. White hopes for quick development in return, but a pawn for a few tempi is a poor price."
   },
   "1.e4 g6 2.d4 Bg7 3.Bd3": {
-    "strategy": "Blocks the queen from d4 as well: Black takes the pawn with the bishop. The bishop does keep e4 protected, but it gets in the way of the d-pawn's support and nothing here pays for the lost pawn.",
-    "name": "Modern Defence: Wind Gambit"
+    "name": "Modern Defence: Wind Gambit",
+    "strategy": "Blocks the queen from d4 as well: Black takes the pawn with the bishop. The bishop does keep e4 protected, but it gets in the way of the d-pawn's support and nothing here pays for the lost pawn."
+  },
+  "1.e4 g6 2.d4 Bg7": {
+    "name": "Modern Defence"
+  },
+  "1.e4 g6 2.d4 Bg7 3.Bc4 b5": {
+    "name": "Modern Defence: Bishop Attack, Bücker Gambit",
+    "strategy": "A gambit to gain time against the bishop. After Bxb5 White has won a pawn, and Black has only some play on the half-open b-file in return, with the g7 bishop and quick development to count on."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Bc4 d6": {
+    "strategy": "Meets the bishop calmly: the pawn guards e5 and frees the c8 bishop, and f7 is no cause for worry, since Bxf7+ would only give a bishop for a pawn. Black gets a solid set-up and keeps the g7 bishop's pressure on d4."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Bc4 e6": {
+    "strategy": "Shuts the c4-f7 diagonal with a pawn, so the bishop has no target left, and prepares ...d5 with pawn support to hit both the bishop and e4. Solid, but it is a slower way to develop and leaves the c8 bishop buried for the moment."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Bc4 c6": {
+    "strategy": "Prepares ...d5 with a pawn chain, but leaves f7 guarded only by the king: a queen on f3 adds to the pressure and Black must spend a move on defence. Sound, but it hands White the initiative in the early moves."
+  },
+  "1.e4 g6 2.d4 Bg7 3.f4 c5": {
+    "strategy": "Hits d4 at once with the pawn and the bishop, before White's centre is backed by pieces. Black fights for the centre where it is weakest, and White's loosened king side stays a long-term factor."
+  },
+  "1.e4 g6 2.d4 Bg7 3.f4 d6": {
+    "strategy": "A patient reply: the pawn guards e5 and frees the c8 bishop, and Black keeps the choice of how to attack the centre until White has committed. White keeps its broad pawn centre, but the f4 pawn has left the king side thinner."
+  },
+  "1.e4 g6 2.d4 Bg7 3.f4 Nc6": {
+    "strategy": "Hits d4 at once, with knight and bishop against the queen alone, so White has to support or advance the pawn. The knight can be pushed back by d5, which costs Black time and gives White space."
+  },
+  "1.e4 g6 2.d4 Bg7 3.f4 c5 4.Nf3": {
+    "strategy": "Defends d4 a second time and develops, so ...cxd4 can be met by recapturing with a piece while the three-pawn centre stays supported. The natural way to meet the attack on d4 without giving up the centre."
+  },
+  "1.e4 g6 2.d4 Bg7 3.f4 c5 4.c3": {
+    "strategy": "Supports d4 with a pawn, but it takes c3 from the knight and opens the diagonal to the king: the queen steps to a5 and pins the pawn, so it cannot recapture on d4. White's solid centre is not as solid as it looks."
+  },
+  "1.e4 g6 2.d4 Bg7 3.f4 c5 4.dxc5": {
+    "strategy": "Wins a pawn only for a moment: the queen checks on a5 and takes it back, so White has swapped the d-pawn, the key to its centre, for a flank pawn and given Black a tempo. Not a mistake, but it leaves Black the more active side."
+  },
+  "1.e4 g6 2.d4 Bg7 3.f4 c5 4.d5": {
+    "strategy": "Gains space and takes the pawn out of reach, but gives up d4 and opens the g7 bishop's diagonal as far as b2. Black can attack the advanced pawn from the flanks, so White has a cramping pawn rather than a lasting edge."
+  },
+  "1.e4 g6 2.d4 Bg7 3.f4 c5 4.c3 Qa5": {
+    "name": "Pterodactyl Defence: Austrian, Pteranodon",
+    "strategy": "Pins the c3 pawn to the king, so it cannot recapture on d4, and the pressure on d4 from the c-pawn and the bishop becomes real. White must deal with it at once, and the pawn centre loses much of its strength."
+  },
+  "1.e4 g6 2.d4 Bg7 3.f4 c5 4.c3 cxd4": {
+    "strategy": "Settles the tension: White recaptures with the c-pawn, the c-file opens for Black, and the new d4 pawn stands under the bishop's fire with only the queen behind it. Black gets easy development against a centre that has lost its d-pawn."
+  },
+  "1.e4 g6 2.d4 Bg7 3.f4 c5 4.c3 Nc6": {
+    "strategy": "Develops and puts a third attacker on d4 (pawn, knight and bishop against the c3 pawn and the queen), so White has to resolve the tension at once rather than build on. The knight takes a natural square at no cost."
+  },
+  "1.e4 g6 2.d4 Bg7 3.f4 c5 4.Nf3 Qa5+": {
+    "name": "Pterodactyl Defence: Austrian, Austriadactylus Western",
+    "strategy": "A check that gains time: the queen develops with tempo, pins whatever blocks on c3 or d2 and adds to the pressure on White's centre. White must answer the check, and the queen can be chased later, but it is active early."
+  },
+  "1.e4 g6 2.d4 Bg7 3.f4 c5 4.Nf3 cxd4": {
+    "strategy": "Settles the tension on Black's terms: the c-pawn is swapped for White's d-pawn, the c-file opens and the g7 bishop eyes the recapturing knight, which only the queen defends. ...Nc6 follows with tempo against a centre that has lost its d-pawn."
+  },
+  "1.e4 g6 2.d4 Bg7 3.f4 c5 4.Nf3 Nc6": {
+    "strategy": "Develops and puts a third attacker on d4 (pawn, knight and bishop against the queen and the knight), so White has to resolve the tension before it can develop further. Black keeps every capture in hand."
+  },
+  "1.e4 g6 2.d4 Bg7 3.g3 c5": {
+    "strategy": "Attacks d4 twice, with the pawn and the bishop, while it is guarded only by the queen. White must defend or resolve the tension at once, and the fianchetto has not yet had time to cover the centre."
+  },
+  "1.e4 g6 2.d4 Bg7 3.g3 d6": {
+    "strategy": "A patient reply: the pawn guards e5 and frees the c8 bishop, and Black keeps the choice of how to attack the centre until White has committed. It gives White time to finish the fianchetto and castle, so it asks less of White than a direct strike."
+  },
+  "1.e4 g6 2.d4 Bg7 3.g3 Nc6": {
+    "strategy": "Hits d4 at once, with knight and bishop against the queen alone, so White has to support or advance the pawn. The knight can be pushed back by d5, which gives White space and costs Black time."
+  },
+  "1.e4 g6 2.d4 Bg7 3.g3 c5 4.Nf3": {
+    "strategy": "Defends d4 a second time and develops, so White can castle behind the fianchetto and keep the centre. It meets the tension with a piece rather than a pawn capture; the queen check on the e1 diagonal gains Black a tempo, but little more."
+  },
+  "1.e4 g6 2.d4 Bg7 3.g3 c5 4.dxc5": {
+    "strategy": "Wins a pawn for a moment: the queen comes to a5 with check and takes it back at once. White has exchanged the d-pawn for a wing pawn and given Black a tempo, so the centre is lost for nothing."
+  },
+  "1.e4 g6 2.d4 Bg7 3.g3 c5 4.c3": {
+    "strategy": "Supports d4 with a pawn, so the centre can be held without a piece and White keeps a broad pawn centre. The price is the c3 square for the knight and a slower development: Black's queen hits d4 again from b6 after the exchange, and White still needs pieces to guard it."
+  },
+  "1.e4 g6 2.d4 Bg7 3.g3 c5 4.dxc5 Qa5+": {
+    "name": "Pterodactyl Defence: Fianchetto, Rhamphorhynchus",
+    "strategy": "Gains time with check and regains the pawn on c5 at once. Black's queen is active, and White's centre pawn is gone in exchange for a wing pawn."
+  },
+  "1.e4 g6 2.d4 Bg7 3.g3 c5 4.dxc5 Na6": {
+    "strategy": "Aims the knight at the loose c5 pawn and develops in the same move, so Black regains the pawn without a queen check. The knight stands on the rim, though, and a bishop trade on a6 would leave Black with doubled a-pawns."
+  },
+  "1.e4 g6 2.d4 Bg7 3.g3 c5 4.dxc5 Qc7": {
+    "strategy": "Attacks the c5 pawn along the file, but the queen is exposed: White can gain a tempo against it or hold the extra pawn with a pawn move. Black usually regains the pawn, but without the tempo a check would give."
+  },
+  "1.e4 g6 2.d4 Bg7 3.g3 c5 4.Nf3 Qa5+": {
+    "name": "Pterodactyl Defence: Fianchetto, King Pterodactyl",
+    "strategy": "A check that gains time: the queen develops with tempo and White has to block on the e1 diagonal, which pins the blocker to the king. The queen can be chased later, but Black has a lead in activity."
+  },
+  "1.e4 g6 2.d4 Bg7 3.g3 c5 4.Nf3 cxd4": {
+    "strategy": "Settles the tension on Black's terms: the c-pawn is swapped for White's d-pawn, the c-file opens and the g7 bishop eyes the recapturing knight, which only the queen defends. ...Nc6 follows with tempo against a centre that has lost its d-pawn."
+  },
+  "1.e4 g6 2.d4 Bg7 3.g3 c5 4.Nf3 Nc6": {
+    "strategy": "Develops and puts a third attacker on d4 (pawn, knight and bishop against the queen and the knight), so White has to resolve the tension before it can develop further. Black keeps every capture in hand."
   },
   "1.e4 g6 2.d4 Bg7 3.Nc3 d6": {
     "name": "Modern Defence: Standard Defence",
@@ -42,63 +137,12 @@
     "strategy": "Strikes at d4 with a pawn and leaves the centre to White, relying on queenside activity and pressure on the c3 knight. It is a sharp, rarely played idea: Black gets counterplay quickly, but White's centre and space are real."
   },
   "1.e4 g6 2.d4 Bg7 3.Nc3 b6": {
-    "strategy": "Prepares a second fianchetto, so both bishops aim down the long diagonals at White's centre. It leaves that centre untouched and costs time, so White can expand freely while Black waits for a target.",
-    "name": "Modern Defence: Mongredien Defence, with Nc3"
+    "name": "Modern Defence: Mongredien Defence, with Nc3",
+    "strategy": "Prepares a second fianchetto, so both bishops aim down the long diagonals at White's centre. It leaves that centre untouched and costs time, so White can expand freely while Black waits for a target."
   },
   "1.e4 g6 2.d4 Bg7 3.Nc3 d5": {
-    "strategy": "Offers the pawn at once. After exd5 Black cannot take it back: ...Qxd5 loses the queen to the knight and ...Bxd4 loses the bishop to the queen. White is simply a pawn up and keeps the centre.",
-    "name": "Modern Defence: Lizard Defence, Mittenberger Gambit"
-  },
-  "1.e4 g6 2.d4 Bg7 3.Bc4 b5": {
-    "strategy": "A gambit to gain time against the bishop. After Bxb5 White has won a pawn, and Black has only some play on the half-open b-file in return, with the g7 bishop and quick development to count on.",
-    "name": "Modern Defence: Bishop Attack, Bücker Gambit"
-  },
-  "1.e4 g6 2.d4 Bg7 3.f4 c5": {
-    "strategy": "Hits d4 at once with the pawn and the bishop, before White's centre is backed by pieces. Black fights for the centre where it is weakest, and White's loosened king side stays a long-term factor."
-  },
-  "1.e4 g6 2.d4 Bg7 3.g3 c5": {
-    "strategy": "Attacks d4 twice, with the pawn and the bishop, while it is guarded only by the queen. White must defend or resolve the tension at once, and the fianchetto has not yet had time to cover the centre."
-  },
-  "1.e4 g6 2.d4 Bg7 3.Nf3 d6": {
-    "strategy": "The standard set-up: the pawn controls e5 and gives the g7 bishop a free diagonal, so the knight can later come to f6 without being kicked by e5. Black attacks the centre from a distance instead of occupying it."
-  },
-  "1.e4 g6 2.d4 Bg7 3.Nf3 c5": {
-    "strategy": "Strikes at d4 at once. If White takes, ...Qa5+ and ...Qxc5 usually regain the pawn; if White holds the centre, Black has queenside space and the g7 bishop for counterplay. A direct way to challenge the pawn centre."
-  },
-  "1.e4 g6 2.d4 Bg7 3.Nf3 b6": {
-    "strategy": "Prepares a second fianchetto, so that both bishops aim at the centre along the long diagonals. It costs time and gives White room to develop and expand, and the queenside pawns become a little loose.",
-    "name": "Modern Defence: Mongredien Defence, with Nf3"
-  },
-  "1.e4 g6 2.d4 Bg7": {
-    "name": "Modern Defence"
-  },
-  "1.e4 g6 2.d4 Bg7 3.f4 c5 4.Nf3": {
-    "strategy": "Defends d4 a second time and develops, so ...cxd4 can be met by recapturing with a piece while the three-pawn centre stays supported. The natural way to meet the attack on d4 without giving up the centre."
-  },
-  "1.e4 g6 2.d4 Bg7 3.f4 c5 4.c3": {
-    "strategy": "Supports d4 with a pawn, but it takes c3 from the knight and opens the diagonal to the king: the queen steps to a5 and pins the pawn, so it cannot recapture on d4. White's solid centre is not as solid as it looks."
-  },
-  "1.e4 g6 2.d4 Bg7 3.f4 c5 4.c3 Qa5": {
-    "name": "Pterodactyl Defence: Austrian, Pteranodon",
-    "strategy": "Pins the c3 pawn to the king, so it cannot recapture on d4, and the pressure on d4 from the c-pawn and the bishop becomes real. White must deal with it at once, and the pawn centre loses much of its strength."
-  },
-  "1.e4 g6 2.d4 Bg7 3.f4 c5 4.Nf3 Qa5+": {
-    "name": "Pterodactyl Defence: Austrian, Austriadactylus Western",
-    "strategy": "A check that gains time: the queen develops with tempo, pins whatever blocks on c3 or d2 and adds to the pressure on White's centre. White must answer the check, and the queen can be chased later, but it is active early."
-  },
-  "1.e4 g6 2.d4 Bg7 3.g3 c5 4.Nf3": {
-    "strategy": "Defends d4 a second time and develops, so White can castle behind the fianchetto and keep the centre. It meets the tension with a piece rather than a pawn capture, but allows queen play down the e1 diagonal."
-  },
-  "1.e4 g6 2.d4 Bg7 3.g3 c5 4.dxc5": {
-    "strategy": "Wins a pawn for a moment: the queen comes to a5 with check and takes it back at once. White has exchanged the d-pawn for a wing pawn and given Black a tempo, so the centre is lost for nothing."
-  },
-  "1.e4 g6 2.d4 Bg7 3.g3 c5 4.dxc5 Qa5+": {
-    "name": "Pterodactyl Defence: Fianchetto, Rhamphorhynchus",
-    "strategy": "Gains time with check and regains the pawn on c5 at once. Black's queen is active, and White's centre pawn is gone in exchange for a wing pawn."
-  },
-  "1.e4 g6 2.d4 Bg7 3.g3 c5 4.Nf3 Qa5+": {
-    "name": "Pterodactyl Defence: Fianchetto, King Pterodactyl",
-    "strategy": "A check that gains time: the queen develops with tempo and adds to the pressure on d4 from a diagonal that White's blocking piece has to answer. It leaves Black a lead in activity, but the queen can be chased."
+    "name": "Modern Defence: Lizard Defence, Mittenberger Gambit",
+    "strategy": "Offers the pawn at once. After exd5 Black cannot take it back: ...Qxd5 loses the queen to the knight and ...Bxd4 loses the bishop to the queen. White is simply a pawn up and keeps the centre."
   },
   "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.Nf3": {
     "strategy": "The simplest answer: the knight develops and guards d4, so after the exchange of pawns White recaptures with a piece and keeps the bigger share of the centre. It sidesteps the doubled pawns and structural questions of the other tries."
@@ -121,6 +165,28 @@
     "name": "Pterodactyl Defence: Eastern, Benoni Pterodactyl",
     "strategy": "Pins the c3 knight against the king and attacks it a second time with the bishop, threatening to win a pawn with check. White must defend at once, and Black keeps the choice of when to take on c3."
   },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.d5 d6": {
+    "strategy": "The solid reply: the pawn guards e5 and frees the c8 bishop, so White's space does not turn into a push. Black keeps the g7 bishop and the option of trading it on c3 for later, and strikes at the advanced d5 pawn from the flanks."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.d5 Bxc3+ 5.bxc3": {
+    "strategy": "The only recapture: the b-pawn takes, and the doubled pawns are the price of keeping the space and the bishop pair."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.d5 Bxc3+ 5.Bd2": {
+    "strategy": "Blocks the check but loses a piece: Black takes the bishop with check, and White has given up the knight and a bishop for a single bishop."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.d5 Bxc3+ 5.Qd2": {
+    "strategy": "Puts the queen in the way of the check, and Black simply takes it: Bxd2+ wins the queen for a bishop, after the knight is already gone."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.d5 Bxc3+ 5.bxc3 Qa5": {
+    "name": "Pterodactyl Defence: Eastern, Benoni Pteranodon",
+    "strategy": "Attacks the doubled c3 pawn, which only a piece can now defend, and keeps White tied to it. Black has given up the bishop, but White's structure is a lasting liability, even though White has the two bishops and the space."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.d5 Bxc3+ 5.bxc3 d6": {
+    "strategy": "Guards e5 and frees the c8 bishop, a solid way to keep the structure closed: the d5 pawn locks the centre, so White's bishop pair has few open lines. Black can attack the doubled c3 pawn at leisure."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.d5 Bxc3+ 5.bxc3 e6": {
+    "strategy": "Challenges the d5 pawn at once, to open the centre before White's bishops come alive. Recapturing with the d-pawn allows Qxd8+ and ...Kxd8, so Black's king loses the right to castle."
+  },
   "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.dxc5 Bxc3+": {
     "strategy": "Doubles White's pawns before taking back on c5: after bxc3 both c3 and c5 are weak. Black gives up the king's bishop to get a lasting target, and the price is that White keeps the two bishops."
   },
@@ -128,19 +194,27 @@
     "name": "Pterodactyl Defence: Eastern, Rhamphorhynchus",
     "strategy": "Pins the knight against the king, with the bishop as a second attacker, and eyes the c5 pawn. White can hardly keep the extra pawn without concessions, so Black regains the material with active play."
   },
-  "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.d5 Bxc3+ 5.bxc3": {
-    "strategy": "The only recapture: the b-pawn takes, and the doubled pawns are the price of keeping the space and the bishop pair."
-  },
-  "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.d5 Bxc3+ 5.bxc3 Qa5": {
-    "name": "Pterodactyl Defence: Eastern, Benoni Pteranodon",
-    "strategy": "Attacks the doubled c3 pawn, which only a piece can now defend, and keeps White tied to it. Black has given up the bishop, but White's structure is a lasting liability, even though White has the two bishops and the space."
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.dxc5 Na6": {
+    "strategy": "Goes after the c5 pawn with a developing move, but the knight stands on the rim and White gets time to defend the pawn, so the extra pawn is easier to keep. Black has not yet doubled White's pawns."
   },
   "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.dxc5 Bxc3+ 5.bxc3": {
     "strategy": "The only recapture: White keeps the bishop pair and the extra pawn on c5, at the price of doubled pawns on the c-file."
   },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.dxc5 Bxc3+ 5.Bd2": {
+    "strategy": "Blocks the check but loses a piece: Black takes the bishop with check, and White has given up the knight and a bishop for a single bishop, with only a pawn in return."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.dxc5 Bxc3+ 5.Qd2": {
+    "strategy": "Puts the queen in the way of the check, and Black simply takes it: Bxd2+ wins the queen for a bishop, after the knight is already gone."
+  },
   "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.dxc5 Bxc3+ 5.bxc3 Qa5": {
     "name": "Pterodactyl Defence: Eastern, Pteranodon",
     "strategy": "Attacks the pawns on c3 and c5 at once, both of which are loose. White has to defend both together, and Black has given up the king's bishop to get this target."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.dxc5 Bxc3+ 5.bxc3 Na6": {
+    "strategy": "Aims the knight at the loose c5 pawn, so the extra pawn is attacked at once with a developing move. The knight stands on the rim, though, and White can trade the bishop for it and leave Black with doubled a-pawns."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c5 4.dxc5 Bxc3+ 5.bxc3 Nc6": {
+    "strategy": "Develops towards the centre and eyes d4 and e5, but does not attack c5 or c3 yet, so White gets a move to organise the defence of both pawns. It is sound, but less forcing than going for the pawns at once."
   },
   "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3": {
     "strategy": "The calm developing move: it guards d4 and keeps the centre flexible. White builds a lasting space advantage without weakening anything, and Black gets a free hand to finish development."
@@ -154,37 +228,100 @@
   "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Bc4 d6": {
     "strategy": "Meets the bishop calmly: it opens the c8 bishop and takes e5 under control. Black avoids ...d5, which loses a pawn, and prepares a solid set-up without more commitments."
   },
-  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.f4 d5": {
-    "strategy": "Strikes at e4 at once, before White's f-pawn is supported by developing pieces. Black avoids a cramped position by contesting the centre directly, though the structure may be fixed afterwards by e5."
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Bc4 e6": {
+    "strategy": "Shuts the c4-f7 diagonal with a pawn, so the bishop has no target left, and prepares ...d5 with pawn support to hit both the bishop and e4. Solid, but slower to develop."
   },
-  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6": {
-    "name": "Modern Defence: Two Knights Variation, Suttles Variation",
-    "strategy": "The solid reply: it controls e5, opens the bishop on c8 and prepares the knight's development. Black completes a compact set-up and keeps the option of striking in the centre later."
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Bc4 Na6": {
+    "strategy": "Heads for c7 to back a later ...d5, but the knight is offside on the rim and the bishop can take it. Then Black has doubled a-pawns, but also the bishop pair and a half-open b-file."
   },
   "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Bc4 d6 5.Qe2": {
     "name": "Modern Defence: Anti-Modern",
     "strategy": "Defends e4, but the queen leaves d4 without a defender, so Black's bishop simply takes that pawn. A lead in development is the only return, and it is a poor price for a pawn."
   },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Bc4 d6 5.Nf3": {
+    "strategy": "The natural developing move: it guards d4 a second time and prepares castling, so the centre pawns are supported by pieces and the bishop keeps its pressure on f7. White has to watch for a pin of the knight against the queen."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Bc4 d6 5.Be3": {
+    "strategy": "Supports d4 with a piece and develops a bishop to an active square, keeping the other bishop on c4 aimed at f7. It leaves the g1 knight undeveloped for now and prepares queenside castling and a kingside pawn storm."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Bc4 d6 5.Qf3": {
+    "strategy": "Doubles on f7 with queen and bishop, so Qxf7+ is a real threat and Black has to spend a move on it, usually with ...e6. The queen no longer guards d4, which the g7 bishop can take, so White needs the attack the move aims for: castling short and the f4 push."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.f4 d5": {
+    "strategy": "Strikes at e4 at once, before White's f-pawn is supported by developing pieces. Black avoids a cramped position by contesting the centre directly, though the structure may be fixed afterwards by e5."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.f4 d6": {
+    "strategy": "The set-up of the main line: the pawn guards e5 and frees the c8 bishop, so White's big centre is met with solid development, not an immediate strike. Black accepts a little less space and counts on pressure from the flanks later."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.f4 Qb6": {
+    "strategy": "Adds a second attacker on d4 with the queen, so White must keep the pawn guarded. The queen comes out early, though, and can be chased with tempo while Black's other pieces are still at home."
+  },
   "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.f4 d5 5.e5": {
     "strategy": "Gains space and blocks the g7 bishop's diagonal with a pawn wedge supported by f4 and d4. The chain is then fixed, so Black can undermine its base on d4 and White must develop with care."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.f4 d5 5.Nf3": {
+    "strategy": "Develops and supports d4 without committing the e-pawn, so the centre stays flexible. The cost is that Black can exchange on e4 and open the game, which suits the g7 bishop better than the closed centre e5 would create."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.f4 d5 5.exd5": {
+    "strategy": "Releases the tension in the centre: after the exchange the g7 bishop keeps its open diagonal, and Black develops easily with pressure on d4. White gets a quiet game with its space advantage reduced and no attack."
   },
   "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.f4 d5 5.e5 h5": {
     "name": "Modern Defence: Gurgenidze Defence",
     "background": "Named after the Georgian grandmaster Bukhuti Gurgenidze.",
-    "strategy": "A flank pawn move instead of a developing one: the h-pawn gains space and can restrict White's kingside pieces. It is an offbeat choice, loosening the squares around Black's own king and leaving White the cramping chain."
+    "strategy": "Prepares to develop the light-squared bishop outside the pawn chain: with g4 guarded by a pawn, ...Bg4 would attack the queen, and White's g-pawn cannot gain space. Black accepts a slightly looser kingside to keep the bishop active, then undermines White's advanced centre."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.f4 d5 5.e5 Nh6": {
+    "strategy": "Develops the knight toward f5, where it would hit d4, and covers g4, so ...Bg4 can follow with the bishop supported. It keeps the pawn structure unchanged, though the knight starts on the rim and does little until it reaches f5."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.f4 d5 5.e5 f6": {
+    "strategy": "Hits the e5 wedge before it can cramp Black. If White takes on f6, Black recaptures and the wedge is gone, but the f-pawn has gone too and the e6 square and the king's side are looser."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6": {
+    "name": "Modern Defence: Two Knights Variation, Suttles Variation",
+    "strategy": "The solid reply: it controls e5, opens the bishop on c8 and prepares the knight's development. Black completes a compact set-up and keeps the option of striking in the centre later."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 Nf6": {
+    "strategy": "Challenges e4 directly, but with the d-pawn still at home it allows the advance e5, which drives the knight off and cramps Black. Playable, though White gets the clamp that a pawn on d6 would prevent."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d5": {
+    "strategy": "Challenges the centre at once, with the c-pawn behind it. White can close the position with e5, gaining space and blocking the g7 bishop's diagonal, so Black must find counterplay on the flanks. Playable, but less flexible than waiting."
   },
   "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6 5.Bg5": {
     "strategy": "Develops the bishop outside the pawn chain before Black's knight can reach f6, but it leaves b2 without a defender and invites a queen raid on the pawn. A sharp, slightly loose set-up that White chooses to provoke complications."
   },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6 5.Be2": {
+    "strategy": "The classical set-up: the bishop makes short castling possible and leaves the c1 bishop guarding b2, so no queen raid is in the air. White keeps the full pawn centre and waits for Black to commit the king's knight, playing for a slow, steady space advantage."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6 5.Be3": {
+    "strategy": "Supports the d4 pawn and clears the way for the queen to d2 and castling long, with a kingside attack in mind. It is the more combative set-up, but it leaves b2 without a defender, so a queen raid has to be answered at once."
+  },
   "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6 5.Bg5 Qb6": {
     "strategy": "Attacks b2, which the bishop left undefended, and pressures d4 together with the g7 bishop. White must defend the pawn passively or sacrifice it for development, while Black's queen leaves the kingside undeveloped."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6 5.Bg5 Nf6": {
+    "strategy": "The natural developing move: the knight challenges e4 and Black asks nothing more of the position yet. If the bishop takes on f6, the g7 bishop recaptures and Black keeps the bishop pair, and the weak b2 pawn remains a target for later."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6 5.Bg5 h6": {
+    "strategy": "Puts the question to the bishop at once: taking on h6 gives a bishop for a pawn, so it has to move. Black gains a tempo but spends it on a pawn move that loosens the kingside and develops nothing."
   },
   "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6 5.Bg5 Qb6 6.Qd2": {
     "strategy": "A gambit: the queen prepares queenside castling but does not guard b2, since the c2-pawn is in the way. White offers the pawn for a lead in development and the open b-file, and Black's queen has to take care."
   },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6 5.Bg5 Qb6 6.Rb1": {
+    "strategy": "Guards b2 at once and keeps the whole pawn centre, so the queen on b6 has only d4 to pressure, and that pawn is held twice. The rook stands awkwardly on b1 and a2 depends on the knight, but White concedes nothing and keeps the lead in development."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6 5.Bg5 Qb6 6.b3": {
+    "strategy": "Moves the attacked pawn to b3, where the a2 and c2 pawns guard it. The price is the c3 knight, which loses its pawn support and can be pinned and attacked from a5, so White must spend time to unpin it."
+  },
   "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6 5.Bg5 Qb6 6.Qd2 Qxb2": {
     "name": "Modern Defence: Two Knights Variation, Suttles Variation, Tal Gambit",
     "strategy": "Takes the offered pawn, but the queen is far from home and Rb1 comes with tempo. Black must avoid grabbing more: ...Qxc3? loses the queen to Qxc3 and ...Qxa2? to Nxa2. Accepting is the natural reply, a pawn up against an active White."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6 5.Bg5 Qb6 6.Qd2 Nf6": {
+    "strategy": "Develops a piece and leaves the offered pawn for later. Sound, but it hands White time to defend b2 or to carry on with the lead in development, so Black passes up the gain the queen sortie was aimed at."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.Nf3 d6 5.Bg5 Qb6 6.Qd2 Bg4": {
+    "strategy": "Develops the bishop outside the pawn chain and eyes the f3 knight, which guards d4 and e5. Black leaves the b2 pawn for later, so it is sound, but White gets a move to fix b2 or complete development."
   },
   "1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.f4": {
     "name": "Modern Defence: Pseudo-Austrian Attack",
@@ -194,8 +331,30 @@
     "name": "Modern Defence: Two Knights Variation",
     "strategy": "Develops the king's knight, guards d4 and eyes e5, leaving the f-pawn at home. White aims for a steady advantage in space and development, not an early attack, and Black can still choose how to set up."
   },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Be3": {
+    "strategy": "Develops the bishop to a square that supports d4 and prepares the queen to d2 and castling long, a set-up aimed at a kingside attack. It is slower than the broad pawn centre, but flexible, because White has not yet decided where the f-pawn or the king's knight goes."
+  },
   "1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Nf3 c6": {
     "strategy": "A flexible reply: the pawn covers d5 and b5 and prepares queenside expansion or a queen sortie to b6, while the g8 knight stays free to choose its square. The price is a little passivity, since the b8 knight loses its natural square."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Nf3 Nf6": {
+    "strategy": "The natural developing move: the knight attacks e4 and Black reaches the standard set-up of this defence, with the fianchettoed bishop aiming at d4 and castling next. The centre stays flexible, and Black waits to see how White commits."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Nf3 Bg4": {
+    "strategy": "Pins the f3 knight to the queen, aiming to exchange it and remove a defender of d4 and e5. White can ask the bishop a question with h3, and Black spends time on a piece that may have to give itself up for a knight."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Nf3 Nc6": {
+    "strategy": "Adds a second attacker to d4, but White can answer with d5, which gains space with a tempo and leaves the knight to retreat. Playable, but Black spends moves on the knight while White's centre advances."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nf3 d6": {
+    "strategy": "The standard set-up: the pawn controls e5 and gives the g7 bishop a free diagonal, so the knight can later come to f6 without being kicked by e5. Black attacks the centre from a distance instead of occupying it."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nf3 c5": {
+    "strategy": "Strikes at d4 at once. If White takes, ...Qa5+ and ...Qxc5 usually regain the pawn; if White holds the centre, Black has queenside space and the g7 bishop for counterplay. A direct way to challenge the pawn centre."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nf3 b6": {
+    "name": "Modern Defence: Mongredien Defence, with Nf3",
+    "strategy": "Prepares a second fianchetto, so that both bishops aim at the centre along the long diagonals. It costs time and gives White room to develop and expand, and the queenside pawns become a little loose."
   },
   "1.e4 g6 2.d4 Bg7 3.Nf3 d6 4.c4": {
     "strategy": "Adds a third central pawn: with c4, d4 and e4 White takes maximum space while Black's knights are still at home. The broad centre gives White the initiative, but it also becomes a target that must be kept defended."
@@ -203,5 +362,11 @@
   "1.e4 g6 2.d4 Bg7 3.Nf3 d6 4.c3": {
     "name": "Modern Defence: Geller's System",
     "strategy": "A solid, patient set-up: the pawn supports d4 so that Black's pressure on it finds a firmly held target, and the b1 knight can come to d2 instead of c3. White keeps a sturdy centre, though with less space than c4 and a slower game."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nf3 d6 4.Nc3": {
+    "strategy": "The natural developing move: the knight defends e4 and keeps the pawn centre intact. White builds the classical set-up with two knights, a flexible position in which Black's fianchetto must find counterplay against a full centre."
+  },
+  "1.e4 g6 2.d4 Bg7 3.Nf3 d6 4.Be2": {
+    "strategy": "Prepares castling and keeps the choice of square for the queen's knight open. The e4 pawn is not protected yet, so Black's knight can challenge it at once, but White defends it with a developing move and keeps the full centre."
   }
 }

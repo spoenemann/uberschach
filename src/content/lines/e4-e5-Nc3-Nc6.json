@@ -1,5 +1,5 @@
 {
-  "about": "After 1.e4 e5 2.Nc3 Nc6: the moves the named lines play from here on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
+  "about": "After 1.e4 e5 2.Nc3 Nc6: the moves the named lines play from here on on (src/content/named/) and the positions they reach, written and reviewed as the explorer plan's Named lines section describes (docs/exec-plans/active/0002-opening-explorer.md).",
   "positions": [
     {
       "line": "1.e4 e5 2.Nc3 Nc6",
@@ -9,11 +9,15 @@
       ],
       "moves": [
         {
+          "san": "Bc4",
+          "rating": 5
+        },
+        {
           "san": "f4",
           "rating": 4
         },
         {
-          "san": "Bc4",
+          "san": "Nf3",
           "rating": 4
         },
         {
@@ -25,6 +29,30 @@
           "rating": 2
         }
       ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.d4",
+      "moves": [
+        {
+          "san": "exd4",
+          "rating": 5
+        },
+        {
+          "san": "f5",
+          "rating": 3
+        },
+        {
+          "san": "Bb4",
+          "rating": 3
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.d4 f5"
     },
     {
       "line": "1.e4 e5 2.Nc3 Nc6 3.f4",
@@ -39,43 +67,27 @@
         {
           "san": "Bc5",
           "rating": 3
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nc3 Nc6 3.g3",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Vienna_Game"
-      ],
-      "moves": [
-        {
-          "san": "Bc5",
-          "rating": 5
         },
         {
-          "san": "Nf6",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "line": "1.e4 e5 2.Nc3 Nc6 3.d4",
-      "moves": [
-        {
-          "san": "f5",
+          "san": "d6",
           "rating": 3
         }
       ]
     },
     {
-      "line": "1.e4 e5 2.Nc3 Nc6 3.d4 f5"
-    },
-    {
       "line": "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5",
       "moves": [
         {
+          "san": "Nf3",
+          "rating": 5
+        },
+        {
           "san": "fxe5",
           "rating": 4
+        },
+        {
+          "san": "Nge2",
+          "rating": 3
         }
       ]
     },
@@ -84,6 +96,14 @@
       "moves": [
         {
           "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "Nge7",
+          "rating": 3
+        },
+        {
+          "san": "Qh4+",
           "rating": 3
         }
       ]
@@ -97,6 +117,10 @@
         {
           "san": "Nf3",
           "rating": 5
+        },
+        {
+          "san": "Bc4",
+          "rating": 3
         },
         {
           "san": "d4",
@@ -113,6 +137,14 @@
         {
           "san": "Qh4+",
           "rating": 5
+        },
+        {
+          "san": "Bb4",
+          "rating": 3
+        },
+        {
+          "san": "d6",
+          "rating": 3
         }
       ]
     },
@@ -121,7 +153,15 @@
       "moves": [
         {
           "san": "Ke2",
-          "rating": 4
+          "rating": 5
+        },
+        {
+          "san": "Kd2",
+          "rating": 2
+        },
+        {
+          "san": "g3",
+          "rating": 1
         }
       ]
     },
@@ -159,17 +199,53 @@
       "line": "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2 g5"
     },
     {
+      "line": "1.e4 e5 2.Nc3 Nc6 3.g3",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Vienna_Game"
+      ],
+      "moves": [
+        {
+          "san": "Bc5",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        }
+      ]
+    },
+    {
       "line": "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5",
       "moves": [
         {
           "san": "Bg2",
           "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "Nge2",
+          "rating": 3
         }
       ]
     },
     {
       "line": "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2",
       "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 4
+        },
         {
           "san": "h5",
           "rating": 3
@@ -182,12 +258,28 @@
         {
           "san": "Nf3",
           "rating": 5
+        },
+        {
+          "san": "d3",
+          "rating": 3
+        },
+        {
+          "san": "Nge2",
+          "rating": 3
         }
       ]
     },
     {
       "line": "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5 5.Nf3",
       "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "Nf6",
+          "rating": 3
+        },
         {
           "san": "h4",
           "rating": 2
@@ -203,6 +295,14 @@
         {
           "san": "Bg2",
           "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "d3",
+          "rating": 3
         }
       ]
     },
@@ -212,6 +312,14 @@
         {
           "san": "Bc5",
           "rating": 5
+        },
+        {
+          "san": "Bb4",
+          "rating": 3
+        },
+        {
+          "san": "d6",
+          "rating": 3
         }
       ]
     },
@@ -220,13 +328,29 @@
       "moves": [
         {
           "san": "Nge2",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
           "rating": 4
+        },
+        {
+          "san": "d3",
+          "rating": 3
         }
       ]
     },
     {
       "line": "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2",
       "moves": [
+        {
+          "san": "d6",
+          "rating": 5
+        },
+        {
+          "san": "O-O",
+          "rating": 4
+        },
         {
           "san": "d5",
           "rating": 3
@@ -238,7 +362,15 @@
       "moves": [
         {
           "san": "exd5",
-          "rating": 4
+          "rating": 5
+        },
+        {
+          "san": "Nxd5",
+          "rating": 3
+        },
+        {
+          "san": "O-O",
+          "rating": 3
         }
       ]
     },

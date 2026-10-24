@@ -2,8 +2,10 @@
 // (The database) and the content principles recorded there: through the
 // breadth-first plies every legal move from a followed position is rated and
 // explained and only moves rated 4 and 5 are followed; beyond them, and after
-// a move rated 1 to 3, the book writes exactly the moves of the named lines
-// (src/content/named/), to the length the plan sets; every historical
+// a move rated 1 to 3, the book writes the moves of the named lines
+// (src/content/named/), to the length the plan sets, and every position with
+// moves holds at least three, one of them rated 5, the moves added beyond the
+// named ones not followed; every historical
 // background names its source, and both languages are complete. Importing
 // OPENINGS already fails when data and prose disagree (book.ts); these tests
 // hold what the loader cannot know, and the shape of the modules and of the
@@ -37,6 +39,12 @@ const LAST_FOLLOWED_PLY = 3;
  * 2026-10-24), rounded up (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).
  */
 const MODULE_BYTES = 100_000;
+
+/**
+ * The fewest moves a position with moves holds, every legal move where fewer are legal, one of
+ * them rated 5 (docs/exec-plans/active/0002-opening-explorer.md, Decision log, Gaps).
+ */
+const LEAST_MOVES = 3;
 
 /** A move in English piece letters (Nf3, Qxd5, the 2.Nf3 of a line), which a German text must not contain. */
 const ENGLISH_PIECE_MOVE = /(^|[\s(.])[NBRQ][a-h1-8]?x?[a-h][1-8](?![a-z0-9])/;
@@ -180,13 +188,22 @@ describe("the shipped book", () => {
   });
 
   // Beyond the breadth-first plies, and after a move rated 1 to 3 within them, the named lines
-  // decide what the book follows (docs/product-specs/opening-explorer.md, The database).
-  test("writes from every other position exactly the moves the named lines play from it", () => {
+  // decide what the book follows (docs/product-specs/opening-explorer.md, The database): a
+  // position on them holds its named moves and those that give it the main answer and the
+  // alternatives (the two tests below); a position off them holds none.
+  test("writes no moves from a position beyond the breadth-first plies that no named line plays on from", () => {
     for (const entry of positions) {
-      if (breadthFirst.has(entry)) continue;
-      const named = [...(NAMED.moves.get(keyOf.get(entry) ?? "") ?? [])].sort();
-      const written = entry.moves.map((move) => move.san).sort();
-      expect(written, `moves from "${entry.line}", which the breadth-first plies do not follow`).toEqual(named);
+      if (breadthFirst.has(entry) || NAMED.moves.has(keyOf.get(entry) ?? "")) continue;
+      expect(entry.moves.map((move) => move.san), `moves from "${entry.line}", off the named lines`).toEqual([]);
+    }
+  });
+
+  test(`gives every position with moves at least ${LEAST_MOVES}, or every legal one, and one rated 5`, () => {
+    for (const entry of positions) {
+      if (entry.moves.length === 0) continue;
+      const least = Math.min(LEAST_MOVES, legalMoves(positionOf(entry)).length);
+      expect(entry.moves.length, `moves from "${entry.line}"`).toBeGreaterThanOrEqual(least);
+      expect(entry.moves.map((move) => move.rating), `ratings of the moves from "${entry.line}"`).toContain(5);
     }
   });
 

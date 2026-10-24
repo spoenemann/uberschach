@@ -1,0 +1,297 @@
+{
+  "about": "After 1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5: its moves and the positions they reach (docs/adr/0002-opening-modules-folded-to-a-size-budget.md). The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
+  "positions": [
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5",
+      "moves": [
+        {
+          "san": "c5",
+          "rating": 5
+        },
+        {
+          "san": "Ne7",
+          "rating": 4
+        },
+        {
+          "san": "Qd7",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 Qd7"
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5",
+      "moves": [
+        {
+          "san": "a3",
+          "rating": 5
+        },
+        {
+          "san": "Bd2",
+          "rating": 4
+        },
+        {
+          "san": "Qg4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.Qg4"
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3",
+      "moves": [
+        {
+          "san": "Bxc3+",
+          "rating": 5
+        },
+        {
+          "san": "Ba5",
+          "rating": 4
+        },
+        {
+          "san": "cxd4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 Ba5",
+      "sources": [
+        "https://en.wikipedia.org/wiki/French_Defence"
+      ],
+      "moves": [
+        {
+          "san": "b4",
+          "rating": 5
+        },
+        {
+          "san": "Qg4",
+          "rating": 4
+        },
+        {
+          "san": "Bd2",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 Ba5 6.b4",
+      "moves": [
+        {
+          "san": "cxd4",
+          "rating": 5
+        },
+        {
+          "san": "cxb4",
+          "rating": 2
+        },
+        {
+          "san": "Bb6",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 Ba5 6.b4 cxd4",
+      "sources": [
+        "https://en.wikibooks.org/wiki/Chess_Opening_Theory/1._e4/1...e6/2._d4/2...d5/3._Nc3/3...Bb4/4._e5/4...c5/5._a3/5...Ba5/6._b4/6...cxd4"
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 Bxc3+",
+      "moves": [
+        {
+          "san": "bxc3",
+          "rating": 5
+        },
+        {
+          "san": "Bd2",
+          "rating": 1
+        },
+        {
+          "san": "Qd2",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 Bxc3+ 6.bxc3",
+      "moves": [
+        {
+          "san": "Ne7",
+          "rating": 5
+        },
+        {
+          "san": "Qc7",
+          "rating": 4
+        },
+        {
+          "san": "Qa5",
+          "rating": 4
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 Bxc3+ 6.bxc3 Ne7"
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 Bxc3+ 6.bxc3 Qc7"
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 Bxc3+ 6.bxc3 Qa5"
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 Bxc3+ 6.bxc3 Nc6"
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 cxd4",
+      "moves": [
+        {
+          "san": "axb4",
+          "rating": 5
+        },
+        {
+          "san": "Qxd4",
+          "rating": 3
+        },
+        {
+          "san": "Nf3",
+          "rating": 2
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 cxd4 6.axb4",
+      "moves": [
+        {
+          "san": "dxc3",
+          "rating": 5
+        },
+        {
+          "san": "Nc6",
+          "rating": 2
+        },
+        {
+          "san": "d3",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 cxd4 6.axb4 dxc3"
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.Bd2",
+      "moves": [
+        {
+          "san": "Ne7",
+          "rating": 5
+        },
+        {
+          "san": "Nc6",
+          "rating": 4
+        },
+        {
+          "san": "Bxc3",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.Bd2 Ne7",
+      "moves": [
+        {
+          "san": "Nb5",
+          "rating": 5
+        },
+        {
+          "san": "Nf3",
+          "rating": 4
+        },
+        {
+          "san": "f4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.Bd2 Ne7 6.f4"
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 Ne7",
+      "moves": [
+        {
+          "san": "a3",
+          "rating": 5
+        },
+        {
+          "san": "Bd2",
+          "rating": 3
+        },
+        {
+          "san": "Qg4",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 Ne7 5.a3",
+      "moves": [
+        {
+          "san": "Bxc3+",
+          "rating": 5
+        },
+        {
+          "san": "Ba5",
+          "rating": 2
+        },
+        {
+          "san": "Bxa3",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 Ne7 5.a3 Bxc3+",
+      "moves": [
+        {
+          "san": "bxc3",
+          "rating": 5
+        },
+        {
+          "san": "Bd2",
+          "rating": 1
+        },
+        {
+          "san": "Qd2",
+          "rating": 1
+        }
+      ]
+    },
+    {
+      "line": "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 Ne7 5.a3 Bxc3+ 6.bxc3",
+      "moves": [
+        {
+          "san": "c5",
+          "rating": 5
+        },
+        {
+          "san": "Nbc6",
+          "rating": 3
+        },
+        {
+          "san": "b6",
+          "rating": 3
+        }
+      ]
+    }
+  ]
+}

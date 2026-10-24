@@ -1,5 +1,5 @@
 {
-  "about": "After 1.c4 e6 (English Opening: Agincourt Defence): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written.",
+  "about": "After 1.c4 e6 (English Opening: Agincourt Defence): its moves, all rated, and the moves after each move rated 4 or 5, to the book's depth (docs/exec-plans/active/0002-opening-explorer.md, Decision log). Backgrounds were checked against the sources listed, read the day this module was written. The named lines below it (src/content/named/) are folded in where they fit (docs/adr/0002-opening-modules-folded-to-a-size-budget.md).",
   "positions": [
     {
       "line": "1.c4 e6",
@@ -95,129 +95,55 @@
       ]
     },
     {
-      "line": "1.c4 e6 2.Nc3",
-      "moves": [
-        {
-          "san": "Nf6",
-          "rating": 5
-        },
-        {
-          "san": "d5",
-          "rating": 5
-        },
-        {
-          "san": "c5",
-          "rating": 4
-        },
-        {
-          "san": "Nc6",
-          "rating": 3
-        },
-        {
-          "san": "Be7",
-          "rating": 3
-        },
-        {
-          "san": "Bb4",
-          "rating": 3
-        },
-        {
-          "san": "b6",
-          "rating": 3
-        },
-        {
-          "san": "c6",
-          "rating": 3
-        },
-        {
-          "san": "d6",
-          "rating": 3
-        },
-        {
-          "san": "f5",
-          "rating": 3
-        },
-        {
-          "san": "g6",
-          "rating": 3
-        },
-        {
-          "san": "Na6",
-          "rating": 2
-        },
-        {
-          "san": "Qe7",
-          "rating": 2
-        },
-        {
-          "san": "Qf6",
-          "rating": 2
-        },
-        {
-          "san": "Qg5",
-          "rating": 2
-        },
-        {
-          "san": "Qh4",
-          "rating": 2
-        },
-        {
-          "san": "Bd6",
-          "rating": 2
-        },
-        {
-          "san": "Bc5",
-          "rating": 2
-        },
-        {
-          "san": "Nh6",
-          "rating": 2
-        },
-        {
-          "san": "Ne7",
-          "rating": 2
-        },
-        {
-          "san": "a6",
-          "rating": 2
-        },
-        {
-          "san": "a5",
-          "rating": 2
-        },
-        {
-          "san": "f6",
-          "rating": 2
-        },
-        {
-          "san": "g5",
-          "rating": 2
-        },
-        {
-          "san": "h6",
-          "rating": 2
-        },
-        {
-          "san": "h5",
-          "rating": 2
-        },
-        {
-          "san": "e5",
-          "rating": 2
-        },
-        {
-          "san": "Ke7",
-          "rating": 1
-        },
-        {
-          "san": "Ba3",
-          "rating": 1
-        },
-        {
-          "san": "b5",
-          "rating": 1
-        }
-      ]
+      "line": "1.c4 e6 2.b3"
+    },
+    {
+      "line": "1.c4 e6 2.d3"
+    },
+    {
+      "line": "1.c4 e6 2.e3"
+    },
+    {
+      "line": "1.c4 e6 2.a3"
+    },
+    {
+      "line": "1.c4 e6 2.a4"
+    },
+    {
+      "line": "1.c4 e6 2.b4"
+    },
+    {
+      "line": "1.c4 e6 2.f3"
+    },
+    {
+      "line": "1.c4 e6 2.f4"
+    },
+    {
+      "line": "1.c4 e6 2.g4"
+    },
+    {
+      "line": "1.c4 e6 2.h3"
+    },
+    {
+      "line": "1.c4 e6 2.h4"
+    },
+    {
+      "line": "1.c4 e6 2.Na3"
+    },
+    {
+      "line": "1.c4 e6 2.Nh3"
+    },
+    {
+      "line": "1.c4 e6 2.Qc2"
+    },
+    {
+      "line": "1.c4 e6 2.Qb3"
+    },
+    {
+      "line": "1.c4 e6 2.Qa4"
+    },
+    {
+      "line": "1.c4 e6 2.c5"
     },
     {
       "line": "1.c4 e6 2.g3",
@@ -345,55 +271,213 @@
       ]
     },
     {
-      "line": "1.c4 e6 2.b3"
+      "line": "1.c4 e6 2.g3 d5"
     },
     {
-      "line": "1.c4 e6 2.d3"
+      "line": "1.c4 e6 2.g3 Nc6"
     },
     {
-      "line": "1.c4 e6 2.e3"
+      "line": "1.c4 e6 2.g3 Be7"
     },
     {
-      "line": "1.c4 e6 2.a3"
+      "line": "1.c4 e6 2.g3 b6"
     },
     {
-      "line": "1.c4 e6 2.a4"
+      "line": "1.c4 e6 2.g3 c6"
     },
     {
-      "line": "1.c4 e6 2.b4"
+      "line": "1.c4 e6 2.g3 d6"
     },
     {
-      "line": "1.c4 e6 2.f3"
+      "line": "1.c4 e6 2.g3 f5"
     },
     {
-      "line": "1.c4 e6 2.f4"
+      "line": "1.c4 e6 2.g3 g6"
     },
     {
-      "line": "1.c4 e6 2.g4"
+      "line": "1.c4 e6 2.g3 Na6"
     },
     {
-      "line": "1.c4 e6 2.h3"
+      "line": "1.c4 e6 2.g3 Qe7"
     },
     {
-      "line": "1.c4 e6 2.h4"
+      "line": "1.c4 e6 2.g3 Qf6"
     },
     {
-      "line": "1.c4 e6 2.Na3"
+      "line": "1.c4 e6 2.g3 Qg5"
     },
     {
-      "line": "1.c4 e6 2.Nh3"
+      "line": "1.c4 e6 2.g3 Qh4"
     },
     {
-      "line": "1.c4 e6 2.Qc2"
+      "line": "1.c4 e6 2.g3 Ke7"
     },
     {
-      "line": "1.c4 e6 2.Qb3"
+      "line": "1.c4 e6 2.g3 Bd6"
     },
     {
-      "line": "1.c4 e6 2.Qa4"
+      "line": "1.c4 e6 2.g3 Bc5"
     },
     {
-      "line": "1.c4 e6 2.c5"
+      "line": "1.c4 e6 2.g3 Bb4"
+    },
+    {
+      "line": "1.c4 e6 2.g3 Ba3"
+    },
+    {
+      "line": "1.c4 e6 2.g3 Nh6"
+    },
+    {
+      "line": "1.c4 e6 2.g3 Ne7"
+    },
+    {
+      "line": "1.c4 e6 2.g3 a6"
+    },
+    {
+      "line": "1.c4 e6 2.g3 a5"
+    },
+    {
+      "line": "1.c4 e6 2.g3 b5"
+    },
+    {
+      "line": "1.c4 e6 2.g3 f6"
+    },
+    {
+      "line": "1.c4 e6 2.g3 g5"
+    },
+    {
+      "line": "1.c4 e6 2.g3 h6"
+    },
+    {
+      "line": "1.c4 e6 2.g3 h5"
+    },
+    {
+      "line": "1.c4 e6 2.g3 e5"
+    },
+    {
+      "line": "1.c4 e6 2.Nc3",
+      "moves": [
+        {
+          "san": "Nf6",
+          "rating": 5
+        },
+        {
+          "san": "d5",
+          "rating": 5
+        },
+        {
+          "san": "c5",
+          "rating": 4
+        },
+        {
+          "san": "Nc6",
+          "rating": 3
+        },
+        {
+          "san": "Be7",
+          "rating": 3
+        },
+        {
+          "san": "Bb4",
+          "rating": 3
+        },
+        {
+          "san": "b6",
+          "rating": 3
+        },
+        {
+          "san": "c6",
+          "rating": 3
+        },
+        {
+          "san": "d6",
+          "rating": 3
+        },
+        {
+          "san": "f5",
+          "rating": 3
+        },
+        {
+          "san": "g6",
+          "rating": 3
+        },
+        {
+          "san": "Na6",
+          "rating": 2
+        },
+        {
+          "san": "Qe7",
+          "rating": 2
+        },
+        {
+          "san": "Qf6",
+          "rating": 2
+        },
+        {
+          "san": "Qg5",
+          "rating": 2
+        },
+        {
+          "san": "Qh4",
+          "rating": 2
+        },
+        {
+          "san": "Bd6",
+          "rating": 2
+        },
+        {
+          "san": "Bc5",
+          "rating": 2
+        },
+        {
+          "san": "Nh6",
+          "rating": 2
+        },
+        {
+          "san": "Ne7",
+          "rating": 2
+        },
+        {
+          "san": "a6",
+          "rating": 2
+        },
+        {
+          "san": "a5",
+          "rating": 2
+        },
+        {
+          "san": "f6",
+          "rating": 2
+        },
+        {
+          "san": "g5",
+          "rating": 2
+        },
+        {
+          "san": "h6",
+          "rating": 2
+        },
+        {
+          "san": "h5",
+          "rating": 2
+        },
+        {
+          "san": "e5",
+          "rating": 2
+        },
+        {
+          "san": "Ke7",
+          "rating": 1
+        },
+        {
+          "san": "Ba3",
+          "rating": 1
+        },
+        {
+          "san": "b5",
+          "rating": 1
+        }
+      ]
     },
     {
       "line": "1.c4 e6 2.Nc3 Nc6"
@@ -478,90 +562,6 @@
     },
     {
       "line": "1.c4 e6 2.Nc3 e5"
-    },
-    {
-      "line": "1.c4 e6 2.g3 d5"
-    },
-    {
-      "line": "1.c4 e6 2.g3 Nc6"
-    },
-    {
-      "line": "1.c4 e6 2.g3 Be7"
-    },
-    {
-      "line": "1.c4 e6 2.g3 b6"
-    },
-    {
-      "line": "1.c4 e6 2.g3 c6"
-    },
-    {
-      "line": "1.c4 e6 2.g3 d6"
-    },
-    {
-      "line": "1.c4 e6 2.g3 f5"
-    },
-    {
-      "line": "1.c4 e6 2.g3 g6"
-    },
-    {
-      "line": "1.c4 e6 2.g3 Na6"
-    },
-    {
-      "line": "1.c4 e6 2.g3 Qe7"
-    },
-    {
-      "line": "1.c4 e6 2.g3 Qf6"
-    },
-    {
-      "line": "1.c4 e6 2.g3 Qg5"
-    },
-    {
-      "line": "1.c4 e6 2.g3 Qh4"
-    },
-    {
-      "line": "1.c4 e6 2.g3 Ke7"
-    },
-    {
-      "line": "1.c4 e6 2.g3 Bd6"
-    },
-    {
-      "line": "1.c4 e6 2.g3 Bc5"
-    },
-    {
-      "line": "1.c4 e6 2.g3 Bb4"
-    },
-    {
-      "line": "1.c4 e6 2.g3 Ba3"
-    },
-    {
-      "line": "1.c4 e6 2.g3 Nh6"
-    },
-    {
-      "line": "1.c4 e6 2.g3 Ne7"
-    },
-    {
-      "line": "1.c4 e6 2.g3 a6"
-    },
-    {
-      "line": "1.c4 e6 2.g3 a5"
-    },
-    {
-      "line": "1.c4 e6 2.g3 b5"
-    },
-    {
-      "line": "1.c4 e6 2.g3 f6"
-    },
-    {
-      "line": "1.c4 e6 2.g3 g5"
-    },
-    {
-      "line": "1.c4 e6 2.g3 h6"
-    },
-    {
-      "line": "1.c4 e6 2.g3 h5"
-    },
-    {
-      "line": "1.c4 e6 2.g3 e5"
     }
   ]
 }

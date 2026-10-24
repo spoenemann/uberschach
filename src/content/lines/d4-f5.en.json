@@ -1,11 +1,8 @@
 {
   "1.d4 f5 2.c4": {
-    "strategy": "The traditional challenge: White takes space, adds control of d5 and aims at a Queen's Gambit-style set-up, with e4 as a later central break. The early c-pawn has a cost: once Black plays ...e6, the f8-bishop can develop with check on b4. The fight is over e4, which Black's f-pawn already watches.",
-    "name": "Dutch Defence"
+    "strategy": "The traditional challenge: White takes space, adds control of d5 and aims at a Queen's Gambit-style set-up, with e4 as a later central break. The early c-pawn has a cost: once Black plays ...e6, the f8-bishop can develop with check on b4. The fight is over e4, which Black's f-pawn already watches."
   },
   "1.d4 f5 2.g3": {
-    "name": "Dutch Defence: Fianchetto Attack",
-    "background": "The traditional move order against the Dutch starts with 2.c4, but White more commonly begins with 2.g3.",
     "strategy": "Prepares Bg2, which fights for e4 along the long diagonal, and commits White to very little. Castling before c4 keeps Black's bishop from coming to b4 with check. The game becomes a patient fight over e4 and the long diagonal, quieter than after 2.c4."
   },
   "1.d4 f5 2.Nf3": {
@@ -102,125 +99,145 @@
     "name": "Dutch Defence",
     "background": "Elias Stein, an Alsatian who settled in The Hague, recommended it as the best reply to 1.d4 in his 1789 book Nouvel essai sur le Jeu des échecs. In the 1951 World Championship match both Mikhail Botvinnik and his challenger David Bronstein played it."
   },
-  "1.d4 f5 2.c4 Nf6": {
-    "strategy": "Develops a piece and controls e4 and d5, which makes White's central break with e4 harder. The knight commits to no pawn structure, so every Dutch set-up stays open for Black, from a solid Stonewall to a fianchetto. In return Black must find a way to fight for the centre with the f-pawn already advanced."
+  "1.d4 f5 2.Bf4 e6": {
+    "strategy": "Supports the f5 pawn and frees the king's bishop, a sound reply to the London bishop. Black gets a compact structure but shuts in its own light-squared bishop, and the bishop on f4 keeps e5 under White's control for now."
   },
-  "1.d4 f5 2.c4 e6": {
-    "strategy": "Opens the f8-bishop, which can now develop with check on b4, and supports a later ...d5 in a Stonewall set-up. The pawn hems in the c8-bishop, but Black gets a solid, flexible game and keeps both knights' best squares free."
+  "1.d4 f5 2.Bf4 Nf6": {
+    "strategy": "Develops the knight to the square that guards e4 and h5, backing up the f-pawn's control of e4. Black meets the London bishop with plain development and keeps every pawn structure open, waiting to see how White commits the centre."
   },
-  "1.d4 f5 2.c4 g6": {
-    "strategy": "Prepares to fianchetto the king's bishop for the Leningrad set-up and keeps a second plan: the knight can go to h6, delaying castling and leaving the c- and d-pawns to fight for the centre. The cost is time, as White gets room to take central space."
+  "1.d4 f5 2.Bf4 d5": {
+    "strategy": "Grips e4 with a pawn and heads for a wall of pawns, but it walls in the light-squared bishop, and White's bishop on f4 already fights for the e5 square that this structure leaves weak. A solid but passive way to meet the London bishop."
   },
-  "1.d4 f5 2.c4 d6": {
-    "strategy": "Prepares ...e5 and keeps the knight's development for later, but commits the d-pawn before the knight is out. An immediate ...e5 allows dxe5 dxe5 Qxd8+ Kxd8, which takes away Black's right to castle."
+  "1.d4 f5 2.e4 fxe4": {
+    "name": "Dutch Defence: Staunton Gambit Accepted",
+    "strategy": "Takes the pawn: Black wins material, and White must prove compensation with fast development and attacking chances against a kingside loosened by the f-pawn's departure. Black has to defend accurately and be ready to give the pawn back."
   },
-  "1.d4 f5 2.c4 c6": {
-    "strategy": "Prepares ...d5, backed by the c-pawn, for a solid wall of pawns across the centre. It is slow, though: the knight loses c6, Black's pieces are still undeveloped, and White develops freely."
+  "1.d4 f5 2.e4 d6": {
+    "strategy": "Declines the gambit and prepares to answer exf5 with a recapture by the bishop. The d-pawn also frees the c8 bishop and prepares a central break later, but White keeps the centre and Black's weakened diagonal to the king stays a target."
   },
-  "1.d4 f5 2.c4 b6": {
-    "strategy": "Prepares ...Bb7, which joins the f-pawn in controlling e4 from the long diagonal, an idea borrowed from the Queen's Indian. It is slow and leaves the centre to White, who can blunt the bishop with d5."
+  "1.d4 f5 2.e4 e6": {
+    "strategy": "Declines the pawn by guarding f5 with the e-pawn and freeing the king's bishop. If White takes on f5, the e-pawn recaptures and Black keeps a sound structure with no material lost, but White has the bigger centre and an open e-file to play on."
   },
-  "1.d4 f5 2.c4 c5": {
-    "strategy": "Strikes at d4 before any piece is out. White can take the pawn, and Black then spends time regaining it, or push on and close the centre, in a structure where Black's f-pawn has already moved."
+  "1.d4 f5 2.e4 fxe4 3.Nc3": {
+    "strategy": "The natural answer: the knight attacks the e4 pawn at once and develops towards the centre, so Black has to defend it or give it back. White is in no hurry, because the pawn was given for quick development and a weakened diagonal in front of Black's king."
   },
-  "1.d4 f5 2.c4 Nc6": {
-    "strategy": "Hits d4, but 3.d5 drives the knight away: after 3...Ne5, 4.Qd4 attacks it and guards c4, so Black loses time while White gains space in the centre."
+  "1.d4 f5 2.e4 fxe4 3.Nd2": {
+    "name": "Dutch Defence: Staunton Gambit, American Attack",
+    "strategy": "Goes after the pawn with the other knight, which also attacks e4 and leaves the c-pawn free. But it boxes in the c1 bishop, and Black can simply defend the pawn with a developing move, so the gambit loses much of its bite."
   },
-  "1.d4 f5 2.c4 d5": {
-    "strategy": "Challenges the centre at once, but 3.cxd5 makes Black spend time regaining the pawn, and 3...Qxd5 is met by 4.Nc3 with tempo. Together with ...f5, the move leaves e5 and e6 without pawn cover."
+  "1.d4 f5 2.e4 fxe4 3.Bg5": {
+    "strategy": "Develops the bishop before the knight and leaves the e4 pawn unattacked for now, so Black has time to consolidate the extra pawn. Against natural development White reaches the main line anyway; otherwise the early bishop commits White to the gambit without winning anything back yet."
   },
-  "1.d4 f5 2.c4 e5": {
-    "strategy": "Offers a pawn to break up the centre, but 3.dxe5 simply takes it and White can hold it with natural development. With ...f5 already played, Black's kingside is loosened for little."
+  "1.d4 f5 2.e4 fxe4 3.Nc3 Nf6": {
+    "strategy": "Defends the e4 pawn and develops a piece in one move. The knight also covers h5, which takes away the queen's check on the weakened diagonal for now. Black keeps the extra pawn and waits to see how White means to win it back."
   },
-  "1.d4 f5 2.c4 Na6": {
-    "strategy": "Puts the knight on the rim, where its only forward squares are b4 and c5, far from the e4 and d5 squares Black needs to contest. The tempo is better spent on a more central development."
+  "1.d4 f5 2.e4 fxe4 3.Nc3 Nc6": {
+    "strategy": "Develops a piece and pressures d4, but leaves the e4 pawn undefended: White takes it back with Nxe4 and material is level. Black has a sound game, yet the gambit pawn is returned and only a developed knight has been gained."
   },
-  "1.d4 f5 2.c4 Nh6": {
-    "strategy": "Heads for f7 to support ...e5, but the knight is exposed on the rim: 3.Bxh6 gxh6 leaves Black with doubled, isolated h-pawns and a broken kingside."
+  "1.d4 f5 2.e4 fxe4 3.Nc3 g6": {
+    "strategy": "Takes h5 away from the queen, so the check on the weakened diagonal disappears, and prepares to fianchetto the king's bishop to guard the weakened kingside. It leaves e4 undefended, though: White takes the pawn back with Nxe4 and material is level."
   },
-  "1.d4 f5 2.c4 a6": {
-    "strategy": "A waiting move that controls b5 and may prepare ...b5 against c4, but it develops nothing while Black's development has barely begun and White already holds the pawn centre."
+  "1.d4 f5 2.e4 fxe4 3.Nc3 Nf6 4.Bg5": {
+    "name": "Dutch Defence: Staunton Gambit",
+    "background": "The main line of the gambit. Staunton first played 4.Bg5 in the London game against Horwitz in 1846.",
+    "strategy": "The main line: the bishop attacks the knight that defends e4, threatening to take it and win the pawn back with Black's structure damaged. It also keeps the queen's check on h5 in reserve for when the knight goes. Black has to answer the threat precisely."
   },
-  "1.d4 f5 2.c4 a5": {
-    "strategy": "Gains a little queenside space and secures b4 for a knight on a6, but it is a tempo spent on the flank while the kingside pieces stay at home and White builds the centre."
+  "1.d4 f5 2.e4 fxe4 3.Nc3 Nf6 4.f3": {
+    "name": "Dutch Defence: Blackmar's Second Gambit",
+    "strategy": "Offers a second pawn to open the centre and bring the pieces out with tempo. Taking it with ...exf3 gives White real compensation, so Black does better to strike back in the centre at once and keep the extra material."
   },
-  "1.d4 f5 2.c4 h6": {
-    "strategy": "Takes g5 from White's bishop, but this slow prophylaxis leaves the centre to White, who builds it up while Black's knights are still at home."
+  "1.d4 f5 2.e4 fxe4 3.Nc3 Nf6 4.g4": {
+    "name": "Dutch Defence: Staunton Gambit, Tartakower Variation",
+    "strategy": "Throws the g-pawn forward to drive the f6 knight away with g5, but it loosens the cover in front of White's own king while White is still a pawn down. The quiet ...h6 takes the point out of it, and White does not have enough for the pawn."
   },
-  "1.d4 f5 2.c4 h5": {
-    "strategy": "Takes g4 from White's pieces but develops nothing, and with the f-pawn already gone from f7 it leaves g5 and g6 without pawn cover for good."
+  "1.d4 f5 2.e4 fxe4 3.Nc3 Nf6 4.Bg5 c6": {
+    "name": "Dutch Defence: Staunton Gambit, Chigorin Variation",
+    "strategy": "Prepares the central strike ...d5 with a pawn behind it: played at once, that strike would run into a tactic on the weakened kingside, while with the c-pawn in support it works. Black accepts that White may regain the pawn and plays for a solid game."
   },
-  "1.d4 f5 2.c4 Kf7": {
-    "strategy": "Gives up the right to castle for good and develops nothing. On f7 the king stands on the a2-g8 diagonal and can be checked by a knight from e5 or g5."
+  "1.d4 f5 2.e4 fxe4 3.Nc3 Nf6 4.Bg5 g6": {
+    "strategy": "Shuts the h5-e8 diagonal for good and prepares to fianchetto the bishop, so the king gets the safety the gambit was aimed at. The cost is the h6 square, which the g5 bishop already attacks, and the e4 pawn is still hard to hold."
   },
-  "1.d4 f5 2.c4 b5": {
-    "strategy": "Offers a pawn for nothing concrete: after 3.cxb5 Black has no developed pieces to use the open lines, and White keeps the d4 centre and an extra pawn."
+  "1.d4 f5 2.e4 fxe4 3.Nc3 Nf6 4.Bg5 b6": {
+    "name": "Dutch Defence: Staunton Gambit, Nimzowitsch Variation",
+    "strategy": "Prepares ...Bb7 as a second defender of the e4 pawn, so Black tries to keep the extra pawn instead of returning it. The cost is time: Black spends a move on the queenside while the g5 bishop presses on f6 and the king's side stays open."
   },
-  "1.d4 f5 2.c4 g5": {
-    "strategy": "Loses a pawn at once: 3.Bxg5 wins it, since nothing protects g5 and Black cannot recapture. The kingside is also weakened for good."
+  "1.d4 f5 2.e4 fxe4 3.Nc3 Nf6 4.Bg5 g6 5.h4": {
+    "name": "Dutch Defence: Staunton Gambit, Alekhine Variation",
+    "strategy": "Supports the bishop on g5, which makes ...h6 a poor way to drive it back, and prepares h5 to attack the g6 pawn. White plays for a direct attack on Black's kingside instead of simply winning the pawn back."
   },
-  "1.d4 f5 2.c4 f4": {
-    "strategy": "Gains space but leaves the pawn undefended: 3.Bxf4 wins it along the open c1-h6 diagonal, and Black has no developed piece to offer compensation."
+  "1.d4 f5 2.e4 fxe4 3.Nc3 Nf6 4.Bg5 g6 5.f3": {
+    "name": "Dutch Defence: Staunton Gambit, Lasker Variation",
+    "strategy": "Opens the centre and the f-file at once: after ...exf3 the knight recaptures with a developing move and White's pieces come out quickly. But White is still a pawn down, and Black's kingside is sound behind the fianchetto."
   },
-  "1.d4 f5 2.g3 Nf6": {
-    "strategy": "Develops a piece, covers e4 and d5 and commits to no pawn structure yet. Black can still choose a solid Stonewall wall, a classical set-up or a fianchettoed bishop, while White decides how sharply to fight for the centre. The result is usually a manoeuvring game about control of e4."
+  "1.d4 f5 2.e4 fxe4 3.Nc3 Nf6 4.Bg5 g6 5.Bxf6": {
+    "strategy": "Takes the knight at once. With the g-pawn on g6 the bishop on f6 also attacks the h8 rook, so Black has to retake with the e-pawn, and Nxe4 then wins the gambit pawn back. White settles for a level game; Black keeps the bishop pair but a clumsy pawn mass on f6, g6 and h7."
   },
-  "1.d4 f5 2.g3 g6": {
-    "strategy": "Prepares to fianchetto the king's bishop for the Leningrad set-up: the bishop guards the king and works along the long diagonal. The cost is a loosened kingside before the knight covers h5, so White can strike with 3.h4 and h5 against the g6-pawn. If Black plays carefully it leads to a dynamic game with the f5-pawn controlling e4."
+  "1.d4 f5 2.f4 d5": {
+    "name": "Bird's Opening: Double Duck Formation",
+    "strategy": "Takes the centre and the e4 square, mirroring White's pawns: each side's pawns now control the square the other's e-pawn wants to reach. A quiet, manoeuvring game follows, in which neither side can open the centre without preparation."
   },
-  "1.d4 f5 2.g3 e6": {
-    "strategy": "Supports the f5-pawn and frees the f8-bishop, keeping the way open for a Classical or Stonewall set-up. The price is a hemmed-in c8-bishop, and once ...d5 follows, e5 becomes a hole for White's knight. It leads to a solid, closed game in which Black fights for e4."
+  "1.d4 f5 2.f4 Nf6": {
+    "strategy": "Develops the knight and doubles the control of e4, the square the f-pawn fights for. Black keeps the choice of pawn set-up open, while the mirrored pawns leave neither side an obvious edge. A natural, flexible reply."
   },
-  "1.d4 f5 2.g3 d5": {
-    "strategy": "Sets up the Stonewall pawn at once, so d5 and f5 grip e4. The early commitment rules out setting up with the pawn on d6, and e5 is already a hole that White's bishop can eye. Once Black plays the e-pawn forward, the c8-bishop is hemmed in."
+  "1.d4 f5 2.f4 e6": {
+    "strategy": "Opens the diagonal of the king's bishop and prepares a solid pawn centre. It leaves e4 to the f-pawn alone, and a later pawn on d5 would shut in the light-squared bishop, so Black chooses solidity over activity."
   },
-  "1.d4 f5 2.g3 d6": {
-    "strategy": "Covers e5 and opens a diagonal for the c8-bishop. The early pawn move gives up the Stonewall structure, and 2...Nf6 keeps the same ideas while developing a piece."
+  "1.d4 f5 2.g4 fxg4": {
+    "strategy": "Accepts the pawn. Taking gives up the f5 pawn's grip on e4, but White has no easy way to exploit that, and the extra pawn is worth keeping if Black meets the attempts to win it back with care."
   },
-  "1.d4 f5 2.g3 c6": {
-    "strategy": "Prepares ...d5 for a Stonewall structure and blunts the long diagonal before White's bishop reaches g2, but develops nothing. It is slow, since 2...Nf6 reaches the same structures while developing a piece."
+  "1.d4 f5 2.g4 e5": {
+    "name": "Dutch Defence: Hevendehl Gambit",
+    "strategy": "A counter-gambit that ignores the offered pawn and hits d4 instead. It leaves both Black pawns attacked, f5 by the g-pawn and e5 by the d-pawn, with neither defended, so Black pays for the surprise."
   },
-  "1.d4 f5 2.g3 Nc6": {
-    "strategy": "Develops and presses on d4, but blocks the c-pawn and allows 3.d5, which drives the knight away at once. Black loses time with the knight while White gains space."
+  "1.d4 f5 2.g4 d5": {
+    "strategy": "Declines the pawn and opens the c8 bishop, which now guards f5. If White takes on f5, the bishop recaptures at once; if not, Black keeps the f5 pawn's grip on e4 and a sound centre while White's kingside is loosened by g4."
   },
-  "1.d4 f5 2.g3 Na6": {
-    "strategy": "Puts the knight on the rim, where it eyes b4 and c5 but does nothing for the centre or for e4 and blocks the a-pawn. White can develop freely."
+  "1.d4 f5 2.g4 fxg4 3.e4": {
+    "strategy": "Opens the queen's attack on g4 and goes for a broad centre, but only for a moment. Black answers by guarding g4 with the bishop and hitting the e4-pawn, so White is a pawn down with no clear way to win it back."
   },
-  "1.d4 f5 2.g3 a6": {
-    "strategy": "A slow rook-pawn move that neither develops a piece nor contests the centre. Black has spent a tempo and White can simply go on developing."
+  "1.d4 f5 2.g4 fxg4 3.h3": {
+    "strategy": "Hits the advanced pawn at once and, once it is taken or exchanged, opens the h-file for the rook. White accepts being a pawn down for quick development and open lines against Black's kingside, the most direct way to play for the compensation the gambit promises."
   },
-  "1.d4 f5 2.g3 a5": {
-    "strategy": "A slow rook-pawn move that restrains b4 but neither develops a piece nor contests the centre, and it weakens b5. White can simply go on developing."
+  "1.d4 f5 2.g4 fxg4 3.Nc3": {
+    "strategy": "Develops a piece and prepares to take the centre with e4 under the knight's cover. It does not touch the g4-pawn, though, so Black keeps the extra pawn without effort and can complete development in peace; a quiet try for the long term with little compensation yet."
   },
-  "1.d4 f5 2.g3 b6": {
-    "strategy": "Weakens the long diagonal: after 3.Bg2 the a8-rook is attacked, and ...Bb7 would lose the bishop to Bxb7. Black must spend a tempo on a block."
+  "1.d4 f5 2.g4 fxg4 3.e4 d5": {
+    "strategy": "The answer that makes the gambit fail: the pawn opens the c8-bishop's diagonal so g4 stays protected, and it attacks e4 at once. If White takes on d5, the queen recaptures and eyes the h1-rook. Black keeps the extra pawn and the better game."
   },
-  "1.d4 f5 2.g3 b5": {
-    "strategy": "Gains queenside space but weakens the long diagonal: 3.Bg2 attacks the a8-rook, ...Bb7 hangs to Bxb7, and Black has to block it. The b5-pawn is then a target for a4."
+  "1.d4 f5 2.g4 fxg4 3.e4 Nf6": {
+    "strategy": "Guards g4 and attacks e4 in one move, but the knight is a poor guard: a pawn push to e5 drives it away, and the queen then takes on g4, so the extra pawn goes back. Natural and developing, yet it gives the gambit new life."
   },
-  "1.d4 f5 2.g3 c5": {
-    "strategy": "Challenges d4 but develops nothing and lets White choose: gaining space, or taking a pawn that Black must spend time to regain."
+  "1.d4 f5 2.g4 fxg4 3.e4 d6": {
+    "strategy": "Opens the c8-bishop's diagonal so that it guards g4, and keeps the pawn without a fight for e4. Solid, but it leaves the e4-pawn alone, so White can finish development at ease and prepare the h-pawn's strike at the g4-pawn."
   },
-  "1.d4 f5 2.g3 h5": {
-    "strategy": "Aims at ...h4 to challenge g3 but develops nothing and contests no central square. The kingside is loosened, and White can develop undisturbed."
+  "1.d4 f5 2.g4 fxg4 3.e4 d5 4.Nc3": {
+    "name": "Dutch Defence: Krejcik Gambit, Tate Gambit",
+    "strategy": "Adds a second attacker to d5 and defends the e4-pawn that Black's d-pawn hits, so White develops with a purpose. Taking on d5 only loses time to the queen's recapture, so keeping the tension is the best way to play for compensation, which White must still find in open play, a pawn down."
   },
-  "1.d4 f5 2.g3 Nh6": {
-    "strategy": "Defends the f5-pawn from the rim, but 3.Bxh6 gxh6 leaves doubled, isolated h-pawns and no pawn to block on g6. After 4.e4, 4...fxe4?? allows 5.Qh5#, and the bishop pair does not make up for the exposed king."
+  "1.d4 f5 2.g4 fxg4 3.e4 d5 4.e5": {
+    "strategy": "Pushes the pawn past the d5-pawn instead of defending it, closing the centre and cramping Black's kingside. The pawn is safe, but the c8-bishop still guards g4, so White remains a pawn down with little to attack, and Black simply develops against the chain."
   },
-  "1.d4 f5 2.g3 e5": {
-    "strategy": "Gives up the e-pawn for too little: after 3.dxe5 White can hold the extra pawn, and Black's open lines do not make up for it."
+  "1.d4 f5 2.g4 fxg4 3.e4 d5 4.Bd3": {
+    "strategy": "Develops the bishop and answers ...dxe4 with Bxe4, regaining the pawn on e4 with a lively bishop that hits b7. Black keeps the extra g-pawn and the c8-bishop still guards g4, so White has development and open lines to show for the pawn, but no more."
   },
-  "1.d4 f5 2.g3 h6": {
-    "strategy": "Takes g5 from the c1-bishop but weakens g6 and develops nothing. White strikes at once with 3.e4, and 3...fxe4?? loses to 4.Qh5+ g6 5.Qxg6#."
+  "1.d4 f5 2.h3 Nf6": {
+    "strategy": "The natural reply: the knight develops to its usual Dutch square, guards e4 and adds a second attacker to g4, so White's plan of pushing the g-pawn is no longer free. Black keeps the choice of kingside set-up open."
   },
-  "1.d4 f5 2.g3 Kf7": {
-    "strategy": "Gives up castling for nothing and puts the king on the e8-h5 diagonal that ...f5 opened, where e4 and Qh5+ can hit it. White gains time and space while Black has developed nothing."
+  "1.d4 f5 2.h3 d5": {
+    "strategy": "Defends f5 with the c8-bishop and controls e4 with a pawn, so the g-pawn lunge loses its point: if White tries it, Black wins a pawn and the bishop recaptures on g4 with a good game. Black commits to a solid centre and a compact set-up."
   },
-  "1.d4 f5 2.g3 g5": {
-    "strategy": "Offers a pawn for nothing: 3.Bxg5 wins it at once, since the c1-bishop has an open diagonal and nothing defends g5. Black gets no development in return and the kingside is loosened."
+  "1.d4 f5 2.h3 e6": {
+    "strategy": "Defends f5 with a pawn and frees the king's bishop for a compact set-up. The cost is the c8-bishop, shut in behind its own pawns, so a later g4 push is not met by a bishop recapture there and the gambit keeps more bite."
   },
-  "1.d4 f5 2.g3 f4": {
-    "strategy": "Attacks g3 but simply loses the pawn: 3.Bxf4 or 3.gxf4 takes it, and Black has no developed pieces to exploit the open lines. White is a clean pawn up."
+  "1.d4 f5 2.h3 Nf6 3.g4": {
+    "name": "Dutch Defence: Janzen-Korchnoi Gambit",
+    "strategy": "A gambit that attacks f5 and tries to open the h-file. The pawn is attacked twice and defended once, so Black can answer with ...d5, keeping control of e4, or take it and face dangerous play against h7. Sharp, with a trap waiting for a careless Black."
+  },
+  "1.d4 f5 2.h3 Nf6 3.Nf3": {
+    "strategy": "The sound way to continue: the knight develops and the h-pawn already stops ...Ng4. White gives up the surprise of the gambit and its trap, and plays for a normal, flexible game in which nothing is risked."
+  },
+  "1.d4 f5 2.h3 Nf6 3.Bg5": {
+    "strategy": "Develops the bishop outside the pawn chain and leans on the f6-knight, and h3 already gives it the retreat to h4. Active, but Black can hit the bishop with ...Ne4 and the bishop may have to move twice, so it is a playable sideline rather than a way to an edge."
   },
   "1.d4 f5 2.Nc3 Nf6": {
     "strategy": "Develops the king's knight and puts it on guard over e4 and d5, so White's e-pawn cannot advance without losing a pawn. Black keeps every Dutch set-up open and fights for e4 from the start. The price is a king's side already loosened by the f-pawn, which White's bishop can try to exploit."
@@ -281,6 +298,16 @@
   },
   "1.d4 f5 2.Nc3 f4": {
     "strategy": "Gains space but leaves the pawn undefended: 3.Bxf4 wins it along the open c1-h6 diagonal, and Black has no developed piece to offer compensation."
+  },
+  "1.d4 f5 2.Nc3 Nf6 3.g4": {
+    "name": "Dutch Defence: Spielmann Gambit",
+    "strategy": "Throws the pawn forward without support: g4 is attacked by the f-pawn and the knight and defended by nothing, so Black simply wins it. White hopes for open lines against Black's king, but the compensation is slight."
+  },
+  "1.d4 f5 2.Nc3 Nf6 3.Bg5": {
+    "strategy": "The principled move: the bishop develops outside the pawn chain and attacks the knight that holds e4, putting a question to Black at once. White aims for an active, healthy set-up, and the pressure on f6 can become doubled pawns for Black if the knight is treated carelessly."
+  },
+  "1.d4 f5 2.Nc3 Nf6 3.Nf3": {
+    "strategy": "Develops the kingside knight, defends d4 and eyes e5, a square the f-pawn can no longer cover once it stands on f5. A flexible, sound set-up that keeps the bishop's post open and asks Black fewer questions than an early bishop sortie."
   },
   "1.d4 f5 2.Nf3 Nf6": {
     "strategy": "The natural developing move: the knight takes control of e4, covers h5 and leaves every Dutch set-up open, from a solid pawn chain to a fianchetto of the king's bishop. Black commits to nothing yet, and White has to decide how to meet whichever plan Black picks. The cost is a slower grip on the centre than ...d5 would give at once."
@@ -343,25 +370,15 @@
   "1.d4 f5 2.Nf3 f4": {
     "strategy": "Loses the pawn to 3.Bxf4, because nothing defends it, and gains nothing in space or development in return."
   },
-  "1.d4 f5 2.Bf4 e6": {
-    "strategy": "Supports the f5 pawn and frees the king's bishop, a sound reply to the London bishop. Black gets a compact structure but shuts in its own light-squared bishop, and the bishop on f4 keeps e5 under White's control for now."
+  "1.d4 f5 2.Nf3 Nf6 3.c3": {
+    "name": "Dutch Defence: Barcza Variation",
+    "strategy": "A quiet move that backs the d4-pawn, so White aims for a slow, flexible set-up instead of challenging the Dutch head on. Safe but modest: it does little against Black's grip on e4, and Black builds the set-up of their choice undisturbed."
   },
-  "1.d4 f5 2.e4 fxe4": {
-    "strategy": "Takes the pawn: Black wins material, and White must prove compensation with fast development and attacking chances against a kingside loosened by the f-pawn's departure. Black has to defend accurately and be ready to give the pawn back."
+  "1.d4 f5 2.Nf3 Nf6 3.g3": {
+    "strategy": "Prepares the fianchetto of the king's bishop, which will fight for e4 and the long diagonal from a distance. White builds a solid, flexible set-up and castles early, accepting a slow game in which both sides develop without contact."
   },
-  "1.d4 f5 2.f4 d5": {
-    "strategy": "Takes the centre and the e4 square, mirroring White's pawns: each side's pawns now control the square the other's e-pawn wants to reach. A quiet, manoeuvring game follows, in which neither side can open the centre without preparation.",
-    "name": "Bird's Opening: Double Duck Formation"
-  },
-  "1.d4 f5 2.g4 fxg4": {
-    "strategy": "Accepts the pawn. Taking gives up the f5 pawn's grip on e4, but White has no easy way to exploit that, and the extra pawn is worth keeping if Black meets the attempts to win it back with care."
-  },
-  "1.d4 f5 2.g4 e5": {
-    "strategy": "A counter-gambit that ignores the offered pawn and hits d4 instead. It leaves both Black pawns attacked, f5 by the g-pawn and e5 by the d-pawn, with neither defended, so Black pays for the surprise.",
-    "name": "Dutch Defence: Hevendehl Gambit"
-  },
-  "1.d4 f5 2.h3 Nf6": {
-    "strategy": "The natural reply: the knight develops to its usual Dutch square, guards e4 and adds a second attacker to g4, so White's plan of pushing the g-pawn is no longer free. Black keeps the choice of kingside set-up open."
+  "1.d4 f5 2.Nf3 Nf6 3.Bf4": {
+    "strategy": "Develops the bishop outside the pawn chain, where it controls e5 and the diagonal to c7. A simple, sound system with few theoretical demands: White gets the pieces out and waits to see which set-up Black chooses."
   },
   "1.d4 f5 2.Qd3 e6": {
     "strategy": "The soundest way to hold f5: the pawn chain keeps e4 under Black's control and frees the f8-bishop. Black heads for a solid set-up with a firm grip on e4, while White's queen on d3 can come to look misplaced."
@@ -375,79 +392,44 @@
   "1.d4 f5 2.Qd3 d6": {
     "strategy": "Guards f5 indirectly by opening the c8-bishop's diagonal, and keeps an ...e5 break in reserve. It is a modest way to defend: the bishop is tied to the pawn, and Black does not yet fight for e4 with a second pawn."
   },
-  "1.d4 f5 2.c4 g6 3.Nc3": {
-    "strategy": "A natural developing move: the knight takes control of e4 and d5, and White stays free to fianchetto the bishop or to build a broad centre. Black has not yet developed the knight, so White can also play for space in the centre."
-  },
-  "1.d4 f5 2.c4 g6 3.Nc3 Nh6": {
-    "name": "Dutch Defence: Bladel Variation",
-    "background": "Max Euwe introduced it against Salo Flohr in a small tournament at Bladel in the Netherlands in 1969, held in memory of Richard Reti, and the game was drawn. The line has been played hardly at all since and has little established theory.",
-    "strategy": "An offbeat move that parks the knight on the edge to keep f6 clear, so that the bishop on g7 and later the rook on f8 press at once, and keeps the option of rerouting it to f7 or f5. It is less active than the natural development, and White can take a broad centre at once."
-  },
-  "1.d4 f5 2.g3 c6 3.Bg2": {
-    "strategy": "Finishes the fianchetto: the bishop shelters the king and bears down on e4, the square the f5 pawn weakened, and on the long diagonal. Black's c6 pawn already stands in its way, so the bishop's pressure is slow."
-  },
-  "1.d4 f5 2.g3 c6 3.Bg2 g6": {
-    "strategy": "Prepares the fianchetto of the king's bishop and early castling. With c6 already played the set-up is compact and flexible, and Black can still choose later where the d-pawn stands."
-  },
-  "1.d4 f5 2.g3 c6 3.Bg2 g6 4.Nf3": {
-    "strategy": "Brings the knight towards the centre, where it watches e5 and supports the d4 pawn, and clears the way for castling. White develops simply and waits for Black to show a plan."
-  },
-  "1.d4 f5 2.g3 c6 3.Bg2 g6 4.Nf3 Bg7": {
-    "strategy": "Completes the fianchetto: the bishop presses on d4 along the long diagonal and stands beside the king, who castles next. Black's set-up is finished, with the pawn on f5 holding e4."
-  },
-  "1.d4 f5 2.g3 c6 3.Bg2 g6 4.Nf3 Bg7 5.O-O": {
-    "strategy": "Gets the king to safety behind the g2 bishop and brings the rook towards the centre. It finishes the kingside development and leaves White free to choose a plan in the centre."
-  },
-  "1.d4 f5 2.g3 c6 3.Bg2 g6 4.Nf3 Bg7 5.O-O Nh6": {
-    "name": "Dutch Defence: Leningrad, Basman System",
-    "strategy": "Develops the knight to the rim, which keeps f6 free for the g7 bishop's diagonal. The price is a knight far from the centre that White's c1 bishop already attacks, so White can trade it off at once."
-  },
-  "1.d4 f5 2.g3 g6 3.Bg2": {
-    "strategy": "Finishes the fianchetto at once. The bishop covers the king and bears on the long diagonal and on e4, the square the f5 pawn weakened, and White keeps the knights flexible."
-  },
-  "1.d4 f5 2.g3 g6 3.Bg2 Bg7": {
-    "strategy": "Answers White's fianchetto with one of its own: the bishop presses on the long diagonal against d4 and prepares castling. The g8 knight stays flexible, and Black has not yet decided on a pawn structure."
-  },
-  "1.d4 f5 2.g3 g6 3.Bg2 Bg7 4.Nh3": {
-    "name": "Dutch Defence: Leningrad Variation, Carlsbad Variation",
-    "strategy": "A sideline: the knight heads for f4, where it eyes g6, and prepares h4-h5 for a kingside attack. It stays off f3, so the g2 bishop's diagonal is not blocked, but a knight on the rim is slow to get going."
-  },
-  "1.d4 f5 2.g4 fxg4 3.e4": {
-    "strategy": "Opens the queen's attack on g4 and goes for a broad centre, but only for a moment. Black answers by guarding g4 with the bishop and hitting the e4-pawn, so White is a pawn down with no clear way to win it back."
-  },
-  "1.d4 f5 2.g4 fxg4 3.e4 d5": {
-    "strategy": "The answer that makes the gambit fail: the pawn opens the c8-bishop's diagonal so g4 stays protected, and it attacks e4 at once. If White takes on d5, the queen recaptures and eyes the h1-rook. Black keeps the extra pawn and the better game."
-  },
-  "1.d4 f5 2.g4 fxg4 3.e4 d5 4.Nc3": {
-    "name": "Dutch Defence: Krejcik Gambit, Tate Gambit",
-    "strategy": "Adds a second attacker to d5 and defends the e4-pawn that Black's d-pawn hits, so White develops with a purpose. It is the sensible way to go on, since taking on d5 loses time to the queen's recapture, but White is still a pawn down and must find compensation in open play."
-  },
-  "1.d4 f5 2.h3 Nf6 3.g4": {
-    "name": "Dutch Defence: Janzen-Korchnoi Gambit",
-    "strategy": "A gambit that attacks f5 and tries to open the h-file. The pawn is attacked twice and defended once, so Black can answer with ...d5, keeping control of e4, or take it and face dangerous play against h7. Sharp, with a trap waiting for a careless Black."
-  },
-  "1.d4 f5 2.Nc3 Nf6 3.g4": {
-    "name": "Dutch Defence: Spielmann Gambit",
-    "strategy": "Throws the pawn forward without support: g4 is attacked by the f-pawn and the knight and defended by nothing, so Black simply wins it. White hopes for open lines against Black's king, but the compensation is slight."
-  },
-  "1.d4 f5 2.Nf3 Nf6 3.c3": {
-    "name": "Dutch Defence: Barcza Variation",
-    "strategy": "A quiet move that backs the d4-pawn, so White aims for a slow, flexible set-up instead of challenging the Dutch head on. Safe but modest: it does little against Black's grip on e4, and Black builds the set-up of their choice undisturbed."
-  },
   "1.d4 f5 2.Qd3 d5 3.g4": {
     "name": "Dutch Defence: Manhattan Gambit, Anti-Stonewall",
     "strategy": "Attacks f5 a second time, with pawn and queen against the single defence of the bishop, so Black must settle the tension at once. A tricky gambit: White opens lines at the cost of a loosened kingside, and a pawn."
+  },
+  "1.d4 f5 2.Qd3 d5 3.Nf3": {
+    "strategy": "Develops the knight and calms the position, where the g4 lunge forces matters at the cost of a pawn. White needs pieces out more than a quick attack, since the queen already stands on the f1-bishop's best square."
+  },
+  "1.d4 f5 2.Qd3 d5 3.Nc3": {
+    "strategy": "Develops the queen's knight and puts pressure on d5, so Black has to support the d-pawn. It blocks White's own c-pawn, which rules out the usual queenside expansion, but it is a natural, flexible developing move."
   },
   "1.d4 f5 2.Qd3 d6 3.g4": {
     "name": "Dutch Defence: Manhattan Gambit, Anti-Modern",
     "strategy": "Attacks f5 twice while only the c8-bishop defends it, so Black has to react immediately. It is a gambit lunge: if Black takes, the queen eyes the open diagonal to h7, but White's kingside is loosened and a pawn has been given."
   },
+  "1.d4 f5 2.Qd3 d6 3.Nf3": {
+    "strategy": "Develops the knight and takes e5 under control, which makes Black's natural central advance harder. White puts development before the gambit, a sound way to make something of an eccentric early queen move."
+  },
+  "1.d4 f5 2.Qd3 d6 3.Bf4": {
+    "strategy": "Puts the bishop on its best diagonal before the pawns close it in, with pressure on d6, the pawn that holds Black's centre together. Active and low-risk, and it keeps the gambit in reserve."
+  },
   "1.d4 f5 2.Qd3 e6 3.g4": {
     "name": "Dutch Defence: Manhattan Gambit, Anti-Classical Line",
     "strategy": "Hits f5 a second time, which the e6-pawn alone cannot hold. If Black takes the pawn, the queen eyes h7 along the open diagonal, but the g-pawn is gone and, without a follow-up, White is simply a pawn down."
   },
+  "1.d4 f5 2.Qd3 e6 3.Nf3": {
+    "strategy": "Develops the knight and meets Black's compact set-up with ordinary play. The early queen move did little except take the f1-bishop's diagonal, so White needs the pieces out first, with the g4 lunge kept in reserve."
+  },
+  "1.d4 f5 2.Qd3 e6 3.Bf4": {
+    "strategy": "Develops the bishop to an active diagonal outside the pawn chain, where it controls e5, the square in front of Black's e-pawn. A sound, low-risk system: White gets the pieces out and waits for Black to show a plan."
+  },
   "1.d4 f5 2.Qd3 g6 3.g4": {
     "name": "Dutch Defence: Manhattan Gambit, Anti-Leningrad",
     "strategy": "Attacks f5 twice against the single defence of the g6-pawn, so Black must settle the tension. The lunge gambits a pawn for open lines against a fianchetto set-up that has not yet castled, and it loosens White's own kingside in the process."
+  },
+  "1.d4 f5 2.Qd3 g6 3.Nf3": {
+    "strategy": "Develops the knight and covers e5 and g5. With f5 already guarded by the g6-pawn there is nothing to win by force, so sound development is the right way to use the queen's early outing."
+  },
+  "1.d4 f5 2.Qd3 g6 3.Nc3": {
+    "strategy": "Develops the queen's knight against e4, the square the f5-pawn is meant to control, so queen and knight both stand behind a possible central strike. Sound and natural, though the knight blocks White's own c-pawn."
   }
 }

@@ -154,21 +154,48 @@
   "1.g3 d5 2.Bg2 Bh3": {
     "strategy": "Attacks the g2 bishop but hangs its own: 3.Bxh3 or 3.Nxh3 wins a whole piece, since nothing protects h3."
   },
-  "1.g3 d5 2.Nh3 e5": {
-    "strategy": "Puts a second pawn in the centre and takes d4 and f4 away from White's pieces. The knight on the rim has no active role, so Black's space is the lasting feature of the opening, and White must show that the fianchetto set-up can undermine it."
-  },
   "1.g3 d5 2.Bg2 e5 3.c4": {
-    "strategy": "Hits the d5-pawn with a pawn backed by the bishop on g2, so d5 is attacked twice and defended only by the queen. It is the principled way to challenge Black's centre, but if Black takes, White has given a pawn and needs open lines as compensation."
+    "strategy": "The principled challenge: the c-pawn and the bishop both hit d5, which only the queen defends. White risks less than it seems, because if Black takes, the queen check on a4 wins the pawn straight back, but Black can also push past and gain space."
   },
   "1.g3 d5 2.Bg2 e5 3.b4": {
     "name": "Hungarian Opening: Bücker Gambit",
     "strategy": "Throws the b-pawn forward at once: ...Bxb4 wins it, and nothing attacks the bishop on b4. The fianchettoed bishop is blocked by the d5-pawn, so White has no pressure to show for the pawn and Black can simply develop."
   },
+  "1.g3 d5 2.Bg2 e5 3.Nf3": {
+    "strategy": "Attacks the e5 pawn, which nothing defends yet, and develops a piece towards castling. Black has to deal with the threat, so White gains a useful move with tempo. The game stays flexible: White keeps the fianchetto set-up and undermines Black's central pawns with pieces and breaks rather than attacking them head-on."
+  },
+  "1.g3 d5 2.Bg2 e5 3.d3": {
+    "strategy": "A solid, slow set-up: the pawn guards e4 and prepares to build up behind the fianchettoed bishop. White threatens nothing yet, so Black develops freely and keeps the larger share of the centre, but White has no weaknesses and a long game of manoeuvring ahead."
+  },
   "1.g3 d5 2.Bg2 e5 3.c4 dxc4": {
-    "strategy": "Takes the pawn and, by removing the d5-pawn, lets the bishop on g2 aim straight at b7. Black is a pawn up and has to decide whether to hold it or give it back to finish development in peace."
+    "strategy": "Takes the pawn but cannot keep it: the queen check on a4 regains it at once. Black has removed the d-pawn without winning anything, and the bishop on g2 now aims straight at b7."
+  },
+  "1.g3 d5 2.Bg2 e5 3.c4 d4": {
+    "strategy": "Pushes past the attacked pawn to cramp White: the d4 and e5 pawns form a chain that takes space and closes the centre. White can no longer open the game by exchanging on d5, so it becomes a manoeuvring fight in which Black has more room and White works against the base of the chain."
+  },
+  "1.g3 d5 2.Bg2 e5 3.c4 Nf6": {
+    "strategy": "Answers the pressure on d5 by developing: the knight adds a second defender, so if White takes, the knight recaptures and Black's centre stays intact. Black commits nothing yet and keeps a solid, flexible position, with the fianchettoed bishop meeting a well-guarded pawn."
   },
   "1.g3 d5 2.Bg2 e5 3.c4 dxc4 4.b3": {
     "name": "Hungarian Opening: Winterberg Gambit",
     "strategy": "Offers a second pawn to open lines: if Black takes on b3, recapturing with the queen attacks b7 twice, and recapturing with the a-pawn opens the a-file. White stays a pawn down for the activity, and Black can cover b7 again and develop calmly."
+  },
+  "1.g3 d5 2.Bg2 e5 3.c4 dxc4 4.Qa4+": {
+    "strategy": "Checks and regains the pawn at once: the usual blocks leave c4 hanging, and ...b5 only drops the b-pawn as well. Material is level again, the bishop on g2 aims at b7 along the open diagonal, and White has lost nothing for having offered the pawn, at the price of an early queen."
+  },
+  "1.g3 d5 2.Bg2 e5 3.c4 dxc4 4.Nf3": {
+    "strategy": "Develops towards castling but does not go after the c4 pawn directly. Black can chase the knight at once with ...e4 and keep the extra pawn for now, so White spends time without any gain."
+  },
+  "1.g3 d5 2.Bg2 e5 3.c4 dxc4 4.Qc2": {
+    "strategy": "Attacks the c4 pawn at once, and the obvious defence ...b5 fails to Bxa8 along the long diagonal. But ...Be6 defends it with a developing move, so the queen has gained no time and Black keeps the pawn for the moment."
+  },
+  "1.g3 d5 2.Nh3 e5": {
+    "strategy": "Puts a second pawn in the centre and takes d4 and f4 away from White's pieces. The knight on the rim has no active role, so Black's space is the lasting feature of the opening, and White must show that the fianchetto set-up can undermine it."
+  },
+  "1.g3 d5 2.Nh3 Nf6": {
+    "strategy": "A natural developing move that takes e4 under control and prepares castling. It builds no second central pawn, so Black gains less space than with the pawn move, but every pawn structure stays open and White's knight is still badly placed on the rim."
+  },
+  "1.g3 d5 2.Nh3 Bxh3": {
+    "strategy": "Removes the knight on the rim, but White's bishop recaptures on h3 without any damage to White's pawns and White gets the bishop pair. Black trades a good bishop for a piece that was badly placed anyway: harmless rather than ambitious."
   }
 }
