@@ -75,7 +75,7 @@ export function Explorer({ line, ply, side, book, onChange }: ExplorerProps) {
       ? view.candidates.map(({ move }) => ({
           from: move.move.from,
           to: move.move.to,
-          strength: move.rating === 5 ? "strong" : "light",
+          strength: move.rating === 5 ? "strong" : move.rating === 4 ? "light" : "faint",
           highlighted: hovered !== undefined && sameMove(hovered, move.move),
         }))
       : [];

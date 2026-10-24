@@ -7,8 +7,8 @@
 
 import { fileIndex, rankIndex, type Color, type Square } from "../../domain/position.ts";
 
-/** Strong for a candidate rated 5, light for one rated 4. */
-export type ArrowStrength = "strong" | "light";
+/** Strong for a candidate rated 5, light for one rated 4, faint for one rated 3. */
+export type ArrowStrength = "strong" | "light" | "faint";
 
 export interface BoardArrow {
   readonly from: Square;
@@ -30,6 +30,7 @@ interface ArrowGeometry {
 const GEOMETRY: Readonly<Record<ArrowStrength, ArrowGeometry>> = {
   strong: { shaft: 0.17, head: 0.5, headLength: 0.42 },
   light: { shaft: 0.12, head: 0.4, headLength: 0.36 },
+  faint: { shaft: 0.08, head: 0.32, headLength: 0.3 },
 };
 
 /**

@@ -168,9 +168,11 @@ for and risks, and which replies matter.
 
 ### Candidates
 
-- From a database position, the moves rated 4 and 5 are the candidates.
-  They are drawn as arrows on the board from the piece to its square,
-  rating 5 strong and rating 4 lighter, both distinct from the last-move
+- From a database position, the moves rated 4 and 5 are the candidates;
+  when fewer than three are, the moves rated 3 join them (the maintainer,
+  2026-10-24). They are drawn as arrows on the board from the piece to its
+  square, rating 5 strong, rating 4 lighter and rating 3 thinner and
+  fainter still, all distinct from the last-move
   highlight. Activating an arrow plays the move. While a piece is selected
   the arrows give way, so its target squares stand alone (the maintainer,
   2026-10-23). (`src/ui/board/Board.test.tsx`, `src/ui/board/arrows.test.ts`,
@@ -187,8 +189,9 @@ for and risks, and which replies matter.
 - The list shows no more than that, and the panel holds one move's
   information and one list. A candidate's texts are read after it is
   played; nothing is previewed, nothing stacks.
-- Moves rated 1 to 3 are not offered as candidates. Played, they are rated
-  and explained like any other. (`src/ui/explorer/view.test.ts`,
+- Moves rated 1 and 2 are never offered as candidates, nor those rated 3
+  beside three or more rated 4 and 5. Played, they are rated and explained
+  like any other. (`src/ui/explorer/view.test.ts`,
   `src/ui/explorer/Explorer.test.tsx`)
 
 ### The line

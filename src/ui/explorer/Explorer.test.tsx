@@ -132,6 +132,15 @@ describe("the opening explorer", () => {
     expect(second.last()?.line).toBe("1.Nf3");
   });
 
+  test("with fewer than three moves rated 4 and 5, offers the moves rated 3 too, their arrows faint", async () => {
+    // After 1.e4 d5 the book rates exd5 Best, and Nc3 and d4 Playable.
+    const { container } = renderExplorer({ line: "1.e4 d5" });
+    expect((await arrow(container, "e4d5")).getAttribute("data-strength")).toBe("strong");
+    expect((await arrow(container, "b1c3")).getAttribute("data-strength")).toBe("faint");
+    expect((await arrow(container, "d2d4")).getAttribute("data-strength")).toBe("faint");
+    expect(screen.getByRole("button", { name: /^Nc3.*Playable$/ })).not.toBeNull();
+  });
+
   test("a candidate under the pointer is highlighted as an arrow and in the list alike", async () => {
     const { container } = renderExplorer();
     const e2e4 = await arrow(container, "e2e4");

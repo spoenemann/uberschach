@@ -282,3 +282,9 @@ looks with classic chess vibes: wood, tangible, kept simple.
   first, so a shorter one lying on a longer one, a pawn's single step on
   its double step, is on top and stays reachable by hover and click; it
   was drawn under it whenever the double step came first in the list.
+- 2026-10-24: a third arrow strength (Board). When a position has fewer
+  than three candidates rated 4 and 5, its moves rated 3 are offered too
+  (the explorer spec, Candidates), drawn as a faint arrow: narrower than
+  the light one (shaft 0.08, head 0.32 of a square) in the accent hue at
+  0.3 opacity, so the three ratings read by weight. Hover and the
+  highlight are as for the others. Token added: `--board-arrow-faint`.

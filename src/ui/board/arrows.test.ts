@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { arrowPath, drawingOrder, squareCentre } from "./arrows.ts";
+import { arrowPath, drawingOrder, squareCentre, type ArrowStrength } from "./arrows.ts";
 
 describe("squareCentre", () => {
   test("puts a1 bottom-left for white and top-right for black", () => {
@@ -26,13 +26,14 @@ describe("arrowPath", () => {
     expect(y).toBeCloseTo(6.14, 2);
   });
 
-  test("a light arrow is narrower than a strong one", () => {
-    const width = (strength: "strong" | "light") => {
+  test("a light arrow is narrower than a strong one, a faint one narrower still", () => {
+    const width = (strength: ArrowStrength) => {
       const path = arrowPath({ from: "e2", to: "e4", strength }, "white");
       const xs = path.slice(1, -1).split("L").map((point) => Number(point.split(",")[0]));
       return Math.max(...xs) - Math.min(...xs);
     };
     expect(width("light")).toBeLessThan(width("strong"));
+    expect(width("faint")).toBeLessThan(width("light"));
   });
 
   test("follows the orientation", () => {

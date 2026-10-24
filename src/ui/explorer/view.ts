@@ -37,7 +37,11 @@ export interface ExplorerView {
    * the book.
    */
   readonly name: Text | undefined;
-  /** The moves rated 4 and 5 from the position, in the book's order; none off the book or after the game ends. */
+  /**
+   * The moves rated 4 and 5 from the position, and those rated 3 too when
+   * fewer than three are rated 4 or 5, in the book's order; none off the
+   * book or after the game ends.
+   */
   readonly candidates: readonly Candidate[];
 }
 
@@ -61,7 +65,7 @@ export function viewAt(full: Game, ply: number, book: OpeningBook): ExplorerView
   const candidates =
     entry === undefined || gameStatus.kind !== "ongoing"
       ? []
-      : entry.moves.filter((move) => move.rating >= 4).map((move) => ({ move, leadsTo: move.leadsTo }));
+      : candidateMoves(entry.moves).map((move) => ({ move, leadsTo: move.leadsTo }));
   return {
     game,
     status: gameStatus,
@@ -70,6 +74,14 @@ export function viewAt(full: Game, ply: number, book: OpeningBook): ExplorerView
     name: entry === undefined ? undefined : (entry.name ?? inheritedName(game, book)),
     candidates,
   };
+}
+
+/** Fewer than this many moves rated 4 and 5 bring in the moves rated 3. */
+const FEW_CANDIDATES = 3;
+
+function candidateMoves(moves: readonly BookMove[]): readonly BookMove[] {
+  const good = moves.filter((move) => move.rating >= 4);
+  return good.length >= FEW_CANDIDATES ? good : moves.filter((move) => move.rating >= 3);
 }
 
 function lastMoveOf(game: Game, book: OpeningBook): LastMove | null {

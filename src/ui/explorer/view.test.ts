@@ -121,12 +121,41 @@ describe("viewAt with a small book", () => {
     expect(deeper.candidates).toEqual([]);
   });
 
-  test("only moves rated 4 and 5 are candidates, with the name of the position each leads to", () => {
+  test("with fewer than three moves rated 4 and 5, those rated 3 are candidates too, with the name of the position each leads to", () => {
     const view = viewAt(newGame(), 0, book);
     expect(view.candidates.map((c) => [c.move.san, c.leadsTo?.en])).toEqual([
       ["e4", "King's Pawn Game"],
       ["d4", "Queen's Pawn Game"],
+      ["Nf3", "Zukertort"],
     ]);
+  });
+
+  test("with three moves rated 4 and 5, those rated 3 are not candidates", () => {
+    const three = buildBook([
+      {
+        id: "three",
+        positions: [
+          {
+            line: "",
+            moves: [
+              { san: "e4", rating: 5 },
+              { san: "c4", rating: 3 },
+              { san: "d4", rating: 4 },
+              { san: "Nf3", rating: 4 },
+            ],
+          },
+          { line: "1.e4" },
+          { line: "1.c4" },
+          { line: "1.d4" },
+          { line: "1.Nf3" },
+        ],
+        texts: {
+          en: { "1.e4": { strategy: "e4" }, "1.c4": { strategy: "c4" }, "1.d4": { strategy: "d4" }, "1.Nf3": { strategy: "Nf3" } },
+          de: {},
+        },
+      },
+    ]);
+    expect(viewAt(newGame(), 0, three).candidates.map((c) => c.move.san)).toEqual(["e4", "d4", "Nf3"]);
   });
 
   test("a transposition into the book brings the information back, the move itself unrated", () => {

@@ -115,6 +115,10 @@
   fill: var(--board-arrow-light);
 }
 
+.arrow[data-strength="faint"] {
+  fill: var(--board-arrow-faint);
+}
+
 /* Under the pointer, and when the pointer is on its candidate in a list:
    opaque, with a light rim at 4% of the square, as the piece outlines are,
    so it stands out from its siblings. The rim is painted under the fill
