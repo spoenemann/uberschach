@@ -9,7 +9,7 @@ import {
 } from "../../domain/position.ts";
 import { isSquare } from "../../domain/fen.ts";
 import { useT } from "../language/LanguageContext.ts";
-import { arrowPath, type BoardArrow } from "./arrows.ts";
+import { arrowPath, drawingOrder, type BoardArrow } from "./arrows.ts";
 import styles from "./Board.module.css";
 import { describeBoard } from "./describe.ts";
 import { Piece } from "./Piece.tsx";
@@ -93,7 +93,7 @@ export function Board({
         )}
         {arrows.length > 0 && (
           <svg className={styles.arrows} viewBox="0 0 8 8" aria-hidden="true">
-            {arrows.map((arrow) => (
+            {drawingOrder(arrows).map((arrow) => (
               <path
                 key={`${arrow.from}${arrow.to}`}
                 className={styles.arrow}

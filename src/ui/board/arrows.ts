@@ -46,6 +46,20 @@ export function squareCentre(square: Square, orientation: Color): readonly [numb
   return orientation === "white" ? [file + 0.5, 7.5 - rank] : [7.5 - file, rank + 0.5];
 }
 
+/**
+ * The arrows in the order they are drawn: the longest first, so a shorter
+ * arrow lying on a longer one (a pawn's single step on its double step) is
+ * on top and stays reachable by the pointer. Equal lengths keep their order.
+ */
+export function drawingOrder(arrows: readonly BoardArrow[]): readonly BoardArrow[] {
+  const length = (arrow: BoardArrow) => {
+    const [fromX, fromY] = squareCentre(arrow.from, "white");
+    const [toX, toY] = squareCentre(arrow.to, "white");
+    return Math.hypot(toX - fromX, toY - fromY);
+  };
+  return arrows.toSorted((a, b) => length(b) - length(a));
+}
+
 /** The SVG path of the arrow: a shaft with a head, as one closed polygon. */
 export function arrowPath(arrow: BoardArrow, orientation: Color): string {
   const { shaft, head, headLength } = GEOMETRY[arrow.strength];

@@ -278,3 +278,7 @@ looks with classic chess vibes: wood, tangible, kept simple.
   luminous colour the palette has nowhere else). The highlight is a
   `data-highlighted` attribute beside `:hover`, set from the one candidate
   the explorer holds as under the pointer. Token added: `--board-arrow-rim`.
+- 2026-10-24: the order of the arrows (Board). The longest arrow is drawn
+  first, so a shorter one lying on a longer one, a pawn's single step on
+  its double step, is on top and stays reachable by hover and click; it
+  was drawn under it whenever the double step came first in the list.

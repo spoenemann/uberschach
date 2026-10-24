@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { arrowPath, squareCentre } from "./arrows.ts";
+import { arrowPath, drawingOrder, squareCentre } from "./arrows.ts";
 
 describe("squareCentre", () => {
   test("puts a1 bottom-left for white and top-right for black", () => {
@@ -40,5 +40,21 @@ describe("arrowPath", () => {
     const forBlack = arrowPath({ from: "g1", to: "f3", strength: "strong" }, "black");
     expect(forWhite).toContain("L5.500,5.500L");
     expect(forBlack).toContain("L2.500,2.500L");
+  });
+});
+
+describe("drawingOrder", () => {
+  test("draws a pawn's double step before its single step, so the single step is on top", () => {
+    const single = { from: "e2", to: "e3", strength: "strong" } as const;
+    const double = { from: "e2", to: "e4", strength: "light" } as const;
+    expect(drawingOrder([single, double])).toEqual([double, single]);
+    expect(drawingOrder([double, single])).toEqual([double, single]);
+  });
+
+  test("keeps the order of arrows of equal length", () => {
+    const knight = { from: "g1", to: "f3", strength: "strong" } as const;
+    const other = { from: "b1", to: "c3", strength: "light" } as const;
+    expect(drawingOrder([knight, other])).toEqual([knight, other]);
+    expect(drawingOrder([other, knight])).toEqual([other, knight]);
   });
 });
