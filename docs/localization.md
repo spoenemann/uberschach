@@ -69,8 +69,9 @@ right-to-left layout.
   `Intl.DateTimeFormat` for the language, never by hand. Plurals have no
   helper yet; the first message that needs one adds it (one English message
   per plural form, chosen with `Intl.PluralRules`) and updates this doc.
-- **Not translated**: the app name, square names and FEN, and the language
-  names in the switch, each written in its own language ("Deutsch").
+- **Not translated**: the app name, the name GitHub in the footer link,
+  square names and FEN, and the language names in the switch, each written
+  in its own language ("Deutsch").
 - **An English literal in JSX has no sensor yet.** The first one that
   ships on a German screen is the incident that adds one
   (eslint-plugin-react's `jsx-no-literals`, scoped to `src/ui` and

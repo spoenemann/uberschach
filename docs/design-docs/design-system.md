@@ -288,3 +288,8 @@ looks with classic chess vibes: wood, tangible, kept simple.
   the light one (shaft 0.08, head 0.32 of a square) in the accent hue at
   0.3 opacity, so the three ratings read by weight. Hover and the
   highlight are as for the others. Token added: `--board-arrow-faint`.
+- 2026-10-24: a link to the source (Layout). The footer holds, right-aligned
+  on the language switch's line, a text link "GitHub" to the repository,
+  in the accent colour as every link; no icon, the rule being text first.
+  The two wrap onto two lines where the column is too narrow for both. No
+  token added.

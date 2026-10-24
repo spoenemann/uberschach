@@ -105,6 +105,13 @@ test("switches to German from the footer, remembers it and marks the document", 
   ).toBe("true");
 });
 
+test("links to the source on GitHub from the footer", () => {
+  render(<App />);
+  expect(screen.getByRole("link", { name: "GitHub" }).getAttribute("href")).toBe(
+    "https://github.com/spoenemann/uberschach",
+  );
+});
+
 test("starts in the stored language", () => {
   localStorage.setItem("uberschach.language", "de");
   render(<App />);

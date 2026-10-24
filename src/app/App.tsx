@@ -69,6 +69,7 @@ function Screen() {
       </main>
       <footer className={styles.footer}>
         <LanguageSwitch />
+        <a href="https://github.com/spoenemann/uberschach">GitHub</a>
       </footer>
     </div>
   );
