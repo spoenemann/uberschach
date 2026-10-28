@@ -29,6 +29,20 @@ of 2026-10-23 are in the history (the plan's progress log).
 | `merge-modules.mjs` | Folds small modules into the modules above them, up to the size the layout test allows (`docs/adr/0002-opening-modules-folded-to-a-size-budget.md`); with `--refold`, takes the whole book apart first and folds it again, for modules grown wider than the budget. |
 | `lib.mjs` | Shared: the rules engine, the content modules as data (through `src/content/files.ts`), the named lines (`src/content/named.ts`), keys, ids and file paths. |
 
+## Procedure
+
+Every batch is written by one agent, checked by another that did not write
+it, and put into German by a third, as the explorer spec promises (The
+database): the reviewer reads the sources and the board, claim by claim,
+and corrects or drops what they do not bear. The workflows below run the
+three per batch; `validate-batch.mjs` refuses an output file that does not
+match its input, and an agent runs it until it prints OK. A run that spans
+sessions has a plan under `docs/exec-plans/active/`, and its findings (what
+the reviewers changed and why) go there; the first runs' are in the
+explorer plan's progress log. A rating the sources do not settle is a
+question to the maintainer, with a recommendation; everything else is
+decided in the review.
+
 ## Named lines
 
 Beyond the breadth-first plies the book follows the lines of the Lichess

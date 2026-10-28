@@ -24,13 +24,20 @@ for and risks, and which replies matter.
 - The explorer is a card on the entry page (`product-brief.md`, Entry
   page) and lives at the address `#/openings`. (`src/app/App.test.tsx`,
   `src/ui/home/Home.test.tsx`)
-- The line played, and the board's orientation, are part of the address.
-  A reload shows the same position, its information and the whole line,
-  and the address sent as a link opens the same for the reader. The
-  address is replaced as the line changes, so the browser's back button
-  returns to the entry page rather than undoing a move. (`src/app/route.test.ts`:
-  the line, the move shown and the side as parameters; `src/app/App.test.tsx`:
-  a visit starts where its address says, a move replaces the address)
+- The line played, and the board's orientation, are part of the address:
+  `#/openings?line=1.e4+e5+2.Nf3&ply=2&side=black`, with `line` the moves
+  in English notation whatever the visitor's language, a `+` for each
+  space, `ply` the number of moves shown, left out at the end of the line
+  so that a link to a line opens at its end, and `side=black` for the
+  turned board, left out for White (the explorer plan, Decision log,
+  2026-10-23: it reads as a chess player writes and pastes into any chess
+  tool once the `+` are spaces). A reload shows the same position, its
+  information and the whole line, and the address sent as a link opens
+  the same for the reader. The address is replaced as the line changes,
+  so the browser's back button returns to the entry page rather than
+  undoing a move. (`src/app/route.test.ts`: the line, the move shown and
+  the side as parameters, defaults left out; `src/app/App.test.tsx`: a
+  visit starts where its address says, a move replaces the address)
 - An address whose moves are not all legal from the initial position opens
   at the last position its legal prefix reaches.
   (`src/ui/explorer/Explorer.test.tsx`)
@@ -139,10 +146,11 @@ for and risks, and which replies matter.
   statement the source contradicts or does not support is corrected or
   dropped. Each rating is checked against the sources' assessment of the
   move and against the ratings of its sibling moves, each text against
-  what it must say (above). The findings and corrections are logged in
-  the content's exec plan, which also holds the procedure
-  (`docs/exec-plans/completed/0002-opening-explorer.md`, Content review);
-  the mechanical part of what it checks is `src/content/openings.test.ts`.
+  what it must say (above). The procedure, the briefs and the tools are
+  `scripts/content/README.md`; the findings and corrections of a run are
+  logged in its exec plan (the first runs':
+  `docs/exec-plans/completed/0002-opening-explorer.md`); the mechanical
+  part of what it checks is `src/content/openings.test.ts`.
 - The footer of every screen says, in the visitor's language, that the
   texts on the site are AI-generated and may contain errors (the
   maintainer, 2026-10-24, to meet EU transparency requirements), small and

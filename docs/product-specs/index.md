@@ -6,13 +6,11 @@ built and changes in the same commit as the behaviour.
 
 - [product-brief.md](product-brief.md) — what Uberschach is, for whom, what
   success means, the entry page, what v1 leaves out.
-- [opening-explorer.md](opening-explorer.md) — the first capability, built
-  from `docs/exec-plans/completed/0002-opening-explorer.md`: the visitor
-  plays both sides, the app rates and explains each move from a database
-  keyed by position, and shows the moves worth knowing next. The screen,
-  the entry page and the book exist, written through White's second move
-  and Black's reply to it and along the named lines to their twelfth move;
-  deeper lines are content that can be added later.
+- [opening-explorer.md](opening-explorer.md) — the opening explorer: the
+  visitor plays both sides, the app rates and explains each move from a
+  book keyed by position, and shows the moves worth knowing next. What the
+  book covers and how deep, and how its texts are reviewed, is under The
+  database.
 
 The rules engine has no spec of its own: its promise is the FIDE Laws of
 Chess, an external text, and what it decides and leaves out is in

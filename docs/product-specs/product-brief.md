@@ -11,8 +11,7 @@ folder spec-first, as features are built.
 Uberschach, a chess training app that runs in the browser.
 
 It may eventually train several things. v1 starts with just one capability:
-an **opening explorer**, specified in `opening-explorer.md` and not yet
-built.
+an **opening explorer**, specified in `opening-explorer.md`.
 
 ## Entry page
 

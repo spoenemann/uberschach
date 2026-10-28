@@ -10,7 +10,8 @@ under `docs/exec-plans/`; what the product promises lives in
 - A static single-page app in one npm package. No backend, no database, no
   secrets: opening content is JSON in the repository, published beside the
   app as files the browser fetches on demand (`docs/adr/0001-opening-book-as-fetched-json.md`),
-  and training progress lives in the visitor's browser storage.
+  and the visitor's browser storage holds the language choice and nothing
+  else (`docs/localization.md`).
 - TypeScript in strict mode (with `noUncheckedIndexedAccess`), Vite for the
   dev server and build, React for the UI, Vitest for tests, ESLint for lint
   and layer rules, npm, Node 24 (`.nvmrc`).

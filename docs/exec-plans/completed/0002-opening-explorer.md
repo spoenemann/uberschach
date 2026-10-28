@@ -432,7 +432,8 @@ for that (the frontier from the ratings instead of the dataset).
   diagonal) or overstated. Clean-up: 21 "Weiß'"/"Schwarz'" possessives,
   26 "entwickelt" without "sich", 19 curly apostrophes, 6 "setup". In
   all 60 English and 102 German notes changed. Engineered away:
-  `scripts/content/apply.mjs` now writes nothing while a German note is
+  the rework's module writer, `apply.mjs` (since removed: Decision log,
+  2026-10-24, Gaps), now writes nothing while a German note is
   the old text under a changed English or lies outside 0.6 to 2 times the
   English length (all notes now lie between 0.92 and 1.47). `npm run
   check` green.
