@@ -9,13 +9,9 @@
 // Responses are cached in <work>/cdb/cache/, so a second run costs seconds; the comparison is
 // <work>/cdb/comparison.json.
 // Usage: node scripts/content/cdb.mjs <work> [--concurrency 3] [--limit <positions>] [--no-follow]
-import { createHash } from "node:crypto";
 import { execSync } from "node:child_process";
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { NAMED_LINE_PLIES, applyMove, loadBook, parseSan, positionAt, positionKey, toFen, toSan } from "./lib.mjs";
-
-const API = "https://www.chessdb.cn/cdb.php";
-const USER_AGENT = "uberschach content tools (https://github.com/spoenemann/uberschach)";
+import { writeFileSync } from "node:fs";
+import { ENGINE_NAME, NAMED_LINE_PLIES, applyMove, engineOf, loadBook, parseSan, plyOf, positionAt, positionKey, toFen, toSan, uciOf } from "./lib.mjs";
 
 /** A CDB move within this many centipawns of the best is sound: the book lacking it is listed. */
 const SOUND_MARGIN = 30;
@@ -37,42 +33,9 @@ if (!work || work.startsWith("--")) {
   console.error("usage: node scripts/content/cdb.mjs <work> [--concurrency 3] [--limit <positions>] [--no-follow]");
   process.exit(1);
 }
-const cacheDir = `${work}/cdb/cache`;
-mkdirSync(cacheDir, { recursive: true });
 
 const book = await loadBook();
-const plyOf = (line) => (line === "" ? 0 : line.split(" ").length);
-const uciOf = (move) => `${move.from}${move.to}${move.promotion ? move.promotion[0].replace("k", "n") : ""}`;
 const implied = (delta) => 5 - IMPLIED.filter((bound) => delta > bound).length;
-
-/** CDB's known moves of the position, from the cache or fetched: { status, moves?, fetched }. */
-async function cdb(position) {
-  const fen = toFen(position);
-  const key = fen.split(" ").slice(0, 4).join(" ");
-  const file = `${cacheDir}/${createHash("sha1").update(key).digest("hex")}.json`;
-  if (existsSync(file)) return JSON.parse(readFileSync(file, "utf8"));
-  const url = `${API}?action=queryall&board=${encodeURIComponent(fen)}&json=1`;
-  let last;
-  for (const wait of [0, 2000, 5000, 15000]) {
-    if (wait) await new Promise((resolve) => setTimeout(resolve, wait));
-    try {
-      const response = await fetch(url, { headers: { "User-Agent": USER_AGENT }, signal: AbortSignal.timeout(30000) });
-      const text = await response.text();
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      if (text.trim() === "") throw new Error("empty body");
-      const body = JSON.parse(text);
-      const result = { status: body.status, fetched: new Date().toISOString() };
-      if (body.status === "ok") {
-        result.moves = body.moves.map((m) => ({ uci: m.uci, san: m.san, score: m.score, rank: m.rank, note: m.note, winrate: Number(m.winrate) }));
-      }
-      writeFileSync(file, JSON.stringify(result) + "\n");
-      return result;
-    } catch (error) {
-      last = error;
-    }
-  }
-  return { status: "error", error: String(last), fetched: new Date().toISOString() };
-}
 
 /** `fn` over the items, at most `n` at a time, in order of the result. */
 async function pool(items, n, fn) {
@@ -94,14 +57,14 @@ async function pool(items, n, fn) {
 /** The comparison of one book position: its moves against CDB's, and the sound moves it lacks. */
 async function compare(entry) {
   const position = positionAt(entry.line);
-  const known = await cdb(position);
+  const known = await engineOf(position, work);
   const result = { line: entry.line, module: entry.module, ply: plyOf(entry.line), fen: toFen(position), status: known.status };
   if (known.status !== "ok") {
     result.moves = entry.moves.map((m) => ({ san: m.san, rating: m.rating }));
     return result;
   }
   const byUci = new Map(known.moves.map((m) => [m.uci, m]));
-  const best = Math.max(...known.moves.map((m) => m.score));
+  const best = known.best;
   result.best = best;
   result.moves = entry.moves.map((m) => {
     const scored = byUci.get(uciOf(m.move));
@@ -150,7 +113,7 @@ async function beyond(entry, missing) {
       ending = `book:${reached.line}`;
       break;
     }
-    const known = await cdb(position);
+    const known = await engineOf(position, work);
     if (known.status !== "ok" || known.moves.length === 0) {
       ending = known.status;
       break;
@@ -200,8 +163,8 @@ for (const p of positions) {
 
 const output = {
   source: {
-    name: "Chinese Chess Cloud Database (chessdb.cn)",
-    api: `${API}?action=queryall&json=1&board=<fen>`,
+    name: ENGINE_NAME,
+    api: "https://www.chessdb.cn/cdb.php?action=queryall&json=1&board=<fen>",
     run: new Date().toISOString(),
     book: execSync("git rev-parse --short HEAD", { encoding: "utf8" }).trim(),
   },

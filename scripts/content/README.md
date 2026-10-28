@@ -20,16 +20,18 @@ of 2026-10-23 are in the history (the plan's progress log).
 |---|---|
 | `serve.mjs` | `npm run build:openings`: builds the book with every check and writes the served form into `public/openings/` (`docs/adr/0001-opening-book-as-fetched-json.md`). |
 | `standard.md` | What a strategy note says and avoids, with examples; every brief points to it. |
-| `board.mjs` | The board after a line, what attacks a square, what a piece attacks: for checking a note's claims. |
+| `board.mjs` | The board after a line, what attacks a square, what a piece attacks, the FEN, and the engine's scores and main line from there: for checking a note's claims. |
 | `frontier.mjs` | Writes the batches of new content (Named lines, below): the named moves the book lacks, grouped by family, with the names the book lacks. |
 | `brief-new-writer.md`, `brief-new-reviewer.md`, `brief-translator.md` | The briefs of a batch: rate and explain its moves and write the backgrounds; check them against the sources and the board; write the German. |
 | `brief-names.md` | The brief for the German of the new names, a family at a time, against the book's glossary. |
 | `gaps.mjs` | Writes the batches of the gaps (Gaps, below): each position with moves but fewer than three, or none rated 5, with its moves, notes and legal moves, grouped by family. |
 | `brief-gap-writer.md`, `brief-gap-reviewer.md` | The briefs of a gaps batch: add the main answer and the alternatives, revise what no longer fits; check them. The German is `brief-translator.md`'s. |
-| `validate-batch.mjs` | Checks a batch's writer, reviewer or translator file, or a names file, against its input; the agents run it until it prints OK. |
+| `validate-batch.mjs`, `validate-gaps.mjs` | Checks a batch's writer, reviewer or translator file, or a names file, against its input; the agents run it until it prints OK. The second holds the checks of a gaps or bounds batch, among them the engine's bounds on every rating (Bounds, below). |
 | `add.mjs` | Writes the finished batches and names into the modules, moving a position that gains moves two plies below its module's root into a module of its own; a gaps batch's moves and revisions go into the module of their position. |
 | `merge-modules.mjs` | Folds small modules into the modules above them, up to the size the layout test allows (`docs/adr/0002-opening-modules-folded-to-a-size-budget.md`); with `--refold`, takes the whole book apart first and folds it again, for modules grown wider than the budget. |
 | `cdb.mjs` | Compares the book with the Chinese Chess Cloud Database (Against the cloud database, below): every rating beside the engine's score of its move, the sound moves the book lacks, the engine's line beyond the book; writes `<work>/cdb/comparison.json`, caching the responses in `<work>/cdb/cache/`. |
+| `bounds.mjs` | Writes the batches of the ratings outside the engine's bounds (Bounds, below): every position with a rating the engine's delta contradicts or whose main answer is in doubt, with its moves, notes, legal moves and the engine's view, grouped by family. |
+| `brief-bounds-writer.md`, `brief-bounds-reviewer.md` | The briefs of a bounds batch: decide each questioned rating, revise it and its note or keep it with a reason, add the main answer where it is missing; check them. The German is `brief-translator.md`'s. |
 | `lib.mjs` | Shared: the rules engine, the content modules as data (through `src/content/files.ts`), the named lines (`src/content/named.ts`), keys, ids and file paths. |
 
 ## Procedure
@@ -182,3 +184,67 @@ so a follow-up step can judge the flags on the raw deltas. An engine finds
 nearly every first move equal, so the flags at the shallowest plies say
 less than at the deeper ones; what a run found, and what was done about it,
 goes into its plan.
+
+## Bounds
+
+The ratings are held to the engine's bounds (the spec, The database;
+`lib.mjs`, `BOUNDS`): from ply 3 on, in centipawns behind the position's
+best move by CDB, a move rated 5 is at most 25 behind, 4 at most 60, 3 at
+most 100, 2 at least 20, 1 at least 100. The bounds say what the ratings'
+words say; within them the sources and the review decide what is worth
+learning. `validate-batch.mjs` holds every batch that carries the engine's
+view (`engine` on a position: the gaps batches have it, the bounds
+batches are made of it) to them: a rating outside its bound needs a
+reason, in `engine` on an added or revised move or under `kept` for an
+existing one, and the reviewer tests the reason.
+
+After the first comparison (the plan,
+`docs/exec-plans/active/0003-book-against-chessdb.md`) the whole book's
+ratings outside the bounds were decided this way: `bounds.mjs` writes a
+batch per family of about 20 questioned ratings, each position with its
+moves, notes, legal moves and the engine's whole view (scores, deltas,
+ranks, depths, the book's rating of each move) and the issues in words;
+per batch a Sonnet writer at high effort decides each rating, a Sonnet
+reviewer at high effort checks every decision from the sources, the board
+and the engine's line, a Sonnet translator at medium effort writes the
+German. `board.mjs engine` gives both the engine's scores and main line
+from any position, so a verdict is understood before it is judged.
+
+```sh
+node scripts/content/cdb.mjs <work>                    # the comparison, and the cache the batches read
+node scripts/content/bounds.mjs <work> --size 20       # batches/, ids.json
+# the workflow below, with args { repo, work, ids } from ids.json
+node scripts/content/add.mjs <work>                    # writes every finished batch into src/content/lines/
+node scripts/content/merge-modules.mjs --refold
+npm run check
+```
+
+```js
+export const meta = {
+  name: 'bounds',
+  description: 'Ratings outside the engine\'s bounds decided: per batch a Sonnet writer (high), then a Sonnet reviewer (high) and a Sonnet translator (medium)',
+  phases: [{ title: 'Write', model: 'sonnet' }, { title: 'Review', model: 'sonnet' }, { title: 'Translate', model: 'sonnet' }],
+}
+const { repo, work, ids } = args
+const shell = `Run the tools from the repository root ${repo}; the shell does not keep a working directory between commands, so give paths in full and do not cd elsewhere. Write only your output file; change nothing in the repository.`
+const ok = (reply) => typeof reply === 'string' && /\bOK\b/.test(reply)
+return pipeline(
+  ids,
+  (id) => agent(
+    `You are the writer. Read ${repo}/scripts/content/brief-bounds-writer.md and follow it for the batch with id "${id}": its batch file is ${work}/batches/${id}.json, your output ${work}/out/${id}.writer.json. ${shell}`,
+    { label: `write:${id}`, phase: 'Write', model: 'sonnet', effort: 'high' },
+  ),
+  (written, id) => ok(written)
+    ? agent(
+        `You are the reviewer. Read ${repo}/scripts/content/brief-bounds-reviewer.md and follow it for the batch with id "${id}": its batch file is ${work}/batches/${id}.json, the writer's file ${work}/out/${id}.writer.json, your output ${work}/out/${id}.review.json. ${shell}`,
+        { label: `review:${id}`, phase: 'Review', model: 'sonnet', effort: 'high' },
+      ).then((reviewed) => ({ written, reviewed }))
+    : { written, reviewed: null },
+  (r, id) => ok(r.reviewed)
+    ? agent(
+        `You are the translator. Read ${repo}/scripts/content/brief-translator.md and follow it for the batch with id "${id}": its batch file is ${work}/batches/${id}.json, the reviewed file ${work}/out/${id}.review.json, your output ${work}/out/${id}.de.json. ${shell}`,
+        { label: `translate:${id}`, phase: 'Translate', model: 'sonnet', effort: 'medium' },
+      ).then((translated) => ({ id, ...r, translated }))
+    : { id, ...r, translated: null },
+)
+```

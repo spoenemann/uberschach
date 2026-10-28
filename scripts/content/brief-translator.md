@@ -38,8 +38,9 @@ The tools are run from the repository root, as
 
 Every move of the reviewed file once, every position of it once.
 
-A batch of gaps (its batch file says `"kind": "gaps"`) has no positions:
-its reviewed file has `moves` and `revisions`. Write the German of every
+A batch of gaps (its batch file says `"kind": "gaps"`) or of bounds
+(`"kind": "bounds"`) has no positions: its reviewed file has `moves` and
+`revisions` (and `kept`, which has no text). Write the German of every
 move, and of every revision whose `en` is not `null`:
 
 ```json

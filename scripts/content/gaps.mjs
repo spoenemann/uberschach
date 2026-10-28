@@ -5,7 +5,7 @@
 // fewer are legal) and one rated 5, and may revise the ratings and notes it has.
 // Usage: node scripts/content/gaps.mjs <work> [--size <moves to add per batch>]
 import { mkdirSync, writeFileSync } from "node:fs";
-import { applyMove, keyOf, legalMoves, loadBook, positionAt, positionKey, toSan } from "./lib.mjs";
+import { applyMove, engineBlock, engineOf, keyOf, legalMoves, loadBook, pathOf, plyOf, positionAt, positionKey, toSan, wikibooks } from "./lib.mjs";
 
 /** The fewest moves a position with moves holds, and the rating one of them has. */
 const LEAST_MOVES = 3;
@@ -20,28 +20,12 @@ if (!work || work.startsWith("--")) {
 }
 
 const book = await loadBook();
-const plyOf = (line) => (line === "" ? 0 : line.split(" ").length);
 
-/** The Wikibooks page of the position after the line: Chess_Opening_Theory/1._e4/1...c5/2._Nf3. */
-function wikibooks(line) {
-  const steps = line.split(" ").map((token, i) => {
-    const san = token.replace(/^\d+\.+/, "");
-    const n = Math.floor(i / 2) + 1;
-    return i % 2 === 0 ? `${n}._${san}` : `${n}...${san}`;
-  });
-  const title = ["Chess_Opening_Theory", ...steps].join("/");
-  return `https://en.wikibooks.org/w/index.php?title=${encodeURIComponent(title).replace(/%2F/g, "/")}&action=raw`;
-}
-
-function entryOf(entry) {
+/** A position of the batch; the engine's view (lib.mjs, engineBlock) lets the validator hold the ratings to the bounds. */
+async function entryOf(entry) {
   const line = entry.line;
   const position = positionAt(line);
-  const tokens = line === "" ? [] : line.split(" ");
-  const path = tokens
-    .map((_, i) => tokens.slice(0, i + 1).join(" "))
-    .map((l) => book.get(positionKey(positionAt(l))))
-    .filter((e) => e && (e.name || e.background))
-    .map((e) => ({ line: e.line, name: e.name?.en ?? null, nameDe: e.name?.de ?? null, background: e.background?.en ?? null }));
+  const path = pathOf(book, line);
   const legal = [];
   const transposes = {};
   for (const move of legalMoves(position)) {
@@ -60,6 +44,7 @@ function entryOf(entry) {
     existing,
     legal,
     transposes,
+    engine: engineBlock(await engineOf(position, work), entry.moves),
     need: { moves: Math.max(atLeast - existing.length, 0), best: !existing.some((m) => m.rating === BEST) },
   };
 }
@@ -69,7 +54,8 @@ const gaps = [...book.values()]
   .filter((e) => e.moves.length > 0)
   .filter((e) => e.moves.length < Math.min(LEAST_MOVES, legalMoves(positionAt(e.line)).length) || !e.moves.some((m) => m.rating === BEST))
   .sort((a, b) => a.line.localeCompare(b.line));
-const entries = gaps.map(entryOf);
+const entries = [];
+for (const gap of gaps) entries.push(await entryOf(gap));
 const groups = new Map();
 for (const p of entries) {
   const group = p.line.split(" ").slice(0, 4).join(" ");

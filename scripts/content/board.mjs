@@ -2,8 +2,10 @@
 //   node scripts/content/board.mjs show "<line>"                the board after the line, side to move, legal moves
 //   node scripts/content/board.mjs square "<line>" <square>     what stands on the square and which pieces attack it
 //   node scripts/content/board.mjs piece "<line>" <square>      the squares the piece on that square attacks
+//   node scripts/content/board.mjs fen "<line>"                 the position as FEN
+//   node scripts/content/board.mjs engine "<line>"              CDB's known moves with score, delta, rank and depth, then its main line
 // Lines are in English notation as the keys write them: "1.e4 e5 2.Nf3", or "" for the start.
-import { gameAt, legalMoves, toSan } from "./lib.mjs";
+import { engineQuery, gameAt, legalMoves, moveFromUci, toFen, toSan } from "./lib.mjs";
 
 const LETTER = { king: "k", queen: "q", rook: "r", bishop: "b", knight: "n", pawn: "p" };
 const FILES = "abcdefgh";
@@ -64,7 +66,23 @@ if (command === "show") {
   }
 } else if (command === "piece" && square && placement.has(square)) {
   console.log(`${name(placement.get(square))} on ${square} attacks: ${attacked(square).join(" ")}`);
+} else if (command === "fen") {
+  console.log(toFen(position));
+} else if (command === "engine") {
+  const known = await engineQuery("queryall", position);
+  if (known?.status !== "ok") {
+    console.log(`CDB: ${known?.status ?? "no answer"}`);
+  } else {
+    const best = Math.max(...known.moves.map((m) => m.score));
+    console.log(`${position.turn} to move; CDB's scores in centipawns for ${position.turn}, delta to the best move, rank, depth`);
+    for (const m of known.moves) {
+      const depth = /\((\d+)-/.exec(m.note ?? "")?.[1] ?? "?";
+      console.log(`  ${toSan(position, moveFromUci(m.uci), "en").padEnd(7)} ${String(m.score).padStart(5)}  delta ${String(best - m.score).padStart(4)}  rank ${m.rank}  depth ${depth}`);
+    }
+    const pv = await engineQuery("querypv", position);
+    if (pv?.status === "ok") console.log(`main line (score ${pv.score}, depth ${pv.depth}): ${pv.pvSAN.join(" ")}`);
+  }
 } else {
-  console.error('usage: board.mjs show "<line>" | square "<line>" <sq> | piece "<line>" <sq>');
+  console.error('usage: board.mjs show "<line>" | square "<line>" <sq> | piece "<line>" <sq> | fen "<line>" | engine "<line>"');
   process.exit(1);
 }

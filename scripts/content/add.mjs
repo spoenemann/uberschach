@@ -4,8 +4,8 @@
 // the move along the line it is declared under. A position that gains moves two plies below
 // its module's root moves out into a module of its own, which the layout test allows
 // (src/content/openings.test.ts); merge-modules.mjs folds such small modules afterwards.
-// A batch of gaps (README.md, Gaps) adds moves to positions the book has and revises the
-// ratings and notes of their moves; the moves of every position it touches are then ordered by
+// A batch of gaps (README.md, Gaps) or of bounds (README.md, Bounds) adds moves to positions the
+// book has and revises the ratings and notes of their moves; the moves of every position it touches are then ordered by
 // rating. Writes nothing while an output file is missing.
 // Usage: node scripts/content/add.mjs <work> [<batch id> ...]   (no id: every batch of ids.json)
 import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
@@ -37,7 +37,7 @@ for (const id of ids) {
   const german = need(`${work}/out/${id}.de.json`);
   if (!batch || !review || !german) continue;
   const de = new Map(german.moves.map((m) => [`${m.from}|${m.san}`, m.de]));
-  if (batch.kind === "gaps") {
+  if (batch.kind === "gaps" || batch.kind === "bounds") {
     const deRevised = new Map(german.revisions.map((r) => [`${r.from}|${r.san}`, r.de]));
     const at = (line) => filled.get(line) ?? filled.set(line, { added: [], revised: [] }).get(line);
     for (const m of review.moves) at(m.from).added.push({ ...m, de: de.get(`${m.from}|${m.san}`) });

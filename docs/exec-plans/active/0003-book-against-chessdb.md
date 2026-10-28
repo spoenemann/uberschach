@@ -18,9 +18,12 @@
       cloud database).
 - [x] The comparison of the whole book written and summarised (Progress
       log, 2026-10-28).
-- [ ] The flags processed: the disagreements judged, the ratings and moves
-      that need changing changed through the content tools, the findings
-      logged (Progress log).
+- [x] The policy: the engine's bounds on the ratings, in the spec, held by
+      the validator on every batch that carries the engine's view
+      (Decision log, 2026-10-28, The bounds).
+- [ ] The ratings outside the bounds decided: 962 positions, 1,393 ratings
+      or main answers, through the bounds workflow; the findings logged
+      (Progress log).
 
 ## Where the results are
 
@@ -123,6 +126,36 @@ lines beyond the book.
   content tools' working folder (Where the results are), as the other
   working files do; the cache makes them reproducible in seconds from the
   same book, and this plan records what they said.
+
+- 2026-10-28, *the bounds*: the maintainer took the recommendation that the
+  engine bounds the ratings instead of making them. The ratings' words for
+  1 and 2 ("gives something away", "gives a lot away") are claims an engine
+  can test; those for 3 to 5 ("sound", "worth learning", "the main line")
+  are a recommendation among sound moves, which an engine cannot make: it
+  finds 1.e4 and 1.a3 equal and half the moves rated 3 tie its best. So,
+  from ply 3 on: 5 at most 25 centipawns behind the best move, 4 at most
+  60, 3 at most 100, 2 at least 20, 1 at least 100 (`scripts/content/lib.mjs`,
+  `BOUNDS`; the spec, The database). The bound on 3 came from the batches:
+  440 moves rated 3 were 120 or more behind, "playable" moves that lose a
+  pawn or more. The first two plies stay as they are. Enforced where
+  ratings are written: `validate-batch.mjs` refuses a rating outside its
+  bound without a reason on every batch that carries the engine's view,
+  the gaps batches now included (`gaps.mjs`), so the book cannot drift
+  back; the bounds batches (`bounds.mjs`) carry each position's moves,
+  notes, legal moves, the engine's whole view with depths, and the issues
+  in words, so that an agent judges a verdict it understands, with
+  `board.mjs engine` to see the engine's main line from any position.
+- 2026-10-28, *not mechanically*: a rating change almost always needs its
+  note changed, since the old note argues the old rating, and the spec
+  promises a reviewer who did not write it; so the decisions go through
+  the writer, reviewer, translator workflow, Sonnet at high effort for the
+  two judgements (the maintainer's instruction), with the briefs
+  `brief-bounds-writer.md` and `brief-bounds-reviewer.md`. The writer may
+  keep a rating against the engine with a reason the reviewer tests; the
+  reasons that hold are a shallow depth with the sources behind the
+  rating, or compensation the sources describe and the engine's line
+  shows. Other public sources are allowed where Wikibooks and Wikipedia
+  do not settle a rating, named by URL.
 
 ## Next
 

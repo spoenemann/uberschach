@@ -134,9 +134,23 @@ for and risks, and which replies matter.
   A rating is the author's judgement of the move for the side that plays
   it: 5 and 4 are moves worth learning, 3 is sound but not recommended, 2
   gives something away, 1 gives a lot away or falls for a trap. It is not
-  an engine evaluation. (`src/ui/explorer/Explorer.test.tsx`: each word on
-  the screen; `src/i18n/catalogue.test.ts`: each in German; the judgement
-  itself is the content review's, below)
+  an engine evaluation, but an engine's score bounds it (the maintainer,
+  2026-10-28, after the whole book was compared with the Chinese Chess
+  Cloud Database): from Black's reply to White's second move on, measured
+  in centipawns behind the position's best move for the side that plays
+  it, a move rated 5 is at most 25 behind, one rated 4 at most 60, one
+  rated 3 at most 100, one rated 2 at least 20 and one rated 1 at least
+  100. The bounds say what the words say, that a 1 or 2 gives something
+  away and a 3, 4 or 5 is sound; within them the sources and the review
+  decide what is worth learning, which no engine says, and the first two
+  plies are outside them, since an engine finds nearly every first move
+  equal. A rating outside its bound stands only with a reason the review
+  accepts. (`src/ui/explorer/Explorer.test.tsx`: each word on the screen;
+  `src/i18n/catalogue.test.ts`: each in German; the judgement itself is
+  the content review's, below; the bounds: `scripts/content/lib.mjs`,
+  `BOUNDS`, held by `scripts/content/validate-batch.mjs` on every batch
+  that carries the engine's scores, and checked over the whole book by
+  `scripts/content/cdb.mjs`)
 - Every rating and text is reviewed before it ships by an agent that did
   not write it; the maintainer reads what they choose to, and nothing
   waits for them (the maintainer, 2026-10-23, after the first move:
@@ -145,8 +159,8 @@ for and risks, and which replies matter.
   historical statement against a public source, claim by claim. A
   statement the source contradicts or does not support is corrected or
   dropped. Each rating is checked against the sources' assessment of the
-  move and against the ratings of its sibling moves, each text against
-  what it must say (above). The procedure, the briefs and the tools are
+  move, against the ratings of its sibling moves and against the engine's
+  bound on it, each text against what it must say (above). The procedure, the briefs and the tools are
   `scripts/content/README.md`; the findings and corrections of a run are
   logged in its exec plan (the first runs':
   `docs/exec-plans/completed/0002-opening-explorer.md`); the mechanical
