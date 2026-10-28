@@ -54,7 +54,7 @@ npm run dev                          # build:openings, then http://localhost:517
 - Layers import downward only, app → ui → content → i18n → domain. `eslint.config.js` enforces it and mirrors the table in `docs/ARCHITECTURE.md`.
 - `scripts/eslint-guidance.mjs` — the why/fix/exception text printed under lint failures; every new lint rule gets an entry.
 - `scripts/visual-check.mjs` — the universal rendering invariants and screenshots (`docs/visual-verification.md`); route- or feature-specific checks are disposable ad-hoc modules, never committed. `npm run check` needs Google Chrome installed, or `CHROME_PATH`.
-- `scripts/content/` — the serve step (`serve.mjs`) and the content agents' tools and briefs: the board tool for checking a claim about a position, the strategy-note standard, the briefs, validators and module writers of the named lines and of the gaps, and the module folder (`scripts/content/README.md`).
+- `scripts/content/` — the serve step (`serve.mjs`) and the content agents' tools and briefs: the board tool for checking a claim about a position, the strategy-note standard, the briefs, validators and module writers of the named lines and of the gaps, the module folder, and `cdb.mjs`, which compares the book's ratings with an engine's opening database (`scripts/content/README.md`).
 
 ## Boundaries and definition of done
 

@@ -9,6 +9,7 @@ const domain = (name) => import(pathToFileURL(`${REPO}/src/domain/${name}.ts`).h
 export const { newGame, positionKey } = await domain("game");
 export const { playLine } = await domain("line");
 export const { legalMoves } = await domain("moves");
+export const { toFen } = await domain("fen");
 export const { parseSan, toSan } = await domain("san");
 export const { applyMove } = await domain("apply");
 const content = (name) => import(pathToFileURL(`${REPO}/src/content/${name}.ts`).href);

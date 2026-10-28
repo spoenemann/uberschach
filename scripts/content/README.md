@@ -4,7 +4,9 @@ The serve step that `npm run build` and `npm run dev` run, and the tools and
 briefs for agents that write the opening book: new entries along the named
 lines, and the gaps, more moves for the positions along them that have
 fewer than three or none rated 5 (both below; the explorer plan's decision
-log, `docs/exec-plans/completed/0002-opening-explorer.md`, Named lines; Gaps).
+log, `docs/exec-plans/completed/0002-opening-explorer.md`, Named lines; Gaps);
+and the comparison of the finished book with an engine's opening database
+(Against the cloud database, below).
 They run under plain Node from the repository root; Node runs the
 TypeScript sources of `src/domain/` and `src/content/` directly, so nothing
 is built first. The content itself is JSON under `src/content/lines/`, one
@@ -27,6 +29,7 @@ of 2026-10-23 are in the history (the plan's progress log).
 | `validate-batch.mjs` | Checks a batch's writer, reviewer or translator file, or a names file, against its input; the agents run it until it prints OK. |
 | `add.mjs` | Writes the finished batches and names into the modules, moving a position that gains moves two plies below its module's root into a module of its own; a gaps batch's moves and revisions go into the module of their position. |
 | `merge-modules.mjs` | Folds small modules into the modules above them, up to the size the layout test allows (`docs/adr/0002-opening-modules-folded-to-a-size-budget.md`); with `--refold`, takes the whole book apart first and folds it again, for modules grown wider than the budget. |
+| `cdb.mjs` | Compares the book with the Chinese Chess Cloud Database (Against the cloud database, below): every rating beside the engine's score of its move, the sound moves the book lacks, the engine's line beyond the book; writes `<work>/cdb/comparison.json`, caching the responses in `<work>/cdb/cache/`. |
 | `lib.mjs` | Shared: the rules engine, the content modules as data (through `src/content/files.ts`), the named lines (`src/content/named.ts`), keys, ids and file paths. |
 
 ## Procedure
@@ -145,3 +148,37 @@ return pipeline(
     : { id, ...r, translated: null },
 )
 ```
+
+## Against the cloud database
+
+The ratings are the sources' judgements for a club player, not an engine's
+(the spec, The database), but an engine's opening database is an independent
+check on them: a move rated 5 that the engine finds half a pawn worse than
+the position's best, a move rated 1 that it finds as good as the best, a best
+move the book lacks, are questions for a reviewer. `cdb.mjs` asks the Chinese
+Chess Cloud Database (chessdb.cn, "CDB"), the public engine-scored database
+that the open source lichess-bot plays its openings from: for every position
+of the book that has moves, CDB's known moves with their score in centipawns
+for the side to move (its `queryall` API; no key, about a second a request,
+the responses cached so a second run costs seconds). The Lichess opening
+explorer, the other public source, answers anonymous requests with 401 since
+2026-10-28 and would need a token (the plan,
+`docs/exec-plans/active/0003-book-against-chessdb.md`, Decision log).
+
+```sh
+node scripts/content/cdb.mjs <work>              # <work>/cdb/comparison.json; --limit <n> for a sample, --no-follow to skip the lines beyond
+```
+
+The comparison, per position: each book move with its rating, CDB's score,
+its delta to the best move and the rating that delta implies; the flags
+`overrated`, `underrated` and `inverted` (a sibling rated lower scores
+clearly better); whether a move of the book ties CDB's best; and the sound
+moves (within 30 centipawns of the best) the book lacks. Then the lines
+beyond the book: from each best move the book lacks, CDB's top move at each
+step to the depth the book follows (`NAMED_LINE_PLIES`), ending early where
+the line transposes into a position the book has moves at. The thresholds
+are constants at the top of the script and repeated in the file's `method`,
+so a follow-up step can judge the flags on the raw deltas. An engine finds
+nearly every first move equal, so the flags at the shallowest plies say
+less than at the deeper ones; what a run found, and what was done about it,
+goes into its plan.

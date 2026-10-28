@@ -55,7 +55,9 @@ export default tseslint.config(
   {
     // scripts/ run under Node; these are the globals they use.
     files: ["scripts/**/*.mjs"],
-    languageOptions: { globals: { console: "readonly", fetch: "readonly", process: "readonly" } },
+    languageOptions: {
+      globals: { AbortSignal: "readonly", console: "readonly", fetch: "readonly", process: "readonly", setTimeout: "readonly" },
+    },
   },
   eslintComments.recommended,
   reactHooks.configs.flat.recommended,
