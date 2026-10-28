@@ -39,19 +39,19 @@
     "strategy": "Bringt die Dame früh ins Spiel und nimmt dem Springer g8 das Feld f6. 3.Sd5 greift sie an und droht Sxc7+, sodass die Dame erneut auf ein Feld ziehen muss, das c7 deckt, etwa d8 oder d6, und Weiß Zeit gewinnt."
   },
   "1.c4 e5 2.Nc3 Qg5": {
-    "strategy": "Bringt die Dame früh auf ein Feld, auf dem sie leicht vertrieben wird. 3.d4 greift e5 an und öffnet die Diagonale des Läufers c1 gegen die Dame, sodass 3...exd4 sie nach 4.Lxg5 kostet, und die Dame muss erneut ziehen, während Weiß Raum im Zentrum gewinnt."
+    "strategy": "Bringt die Dame auf ein Feld, das 3.Sf3 angreift, wobei auch e5 bedroht ist. Schwarz kann nicht beides rechtzeitig retten: Nach 3...De7 4.Sd5 wird die Dame erneut vertrieben, und 5.Sxe5 gewinnt den Bauern."
   },
   "1.c4 e5 2.Nc3 Qh4": {
-    "strategy": "Bringt die Dame früh ins Spiel und greift über die vierte Reihe den ungedeckten Bauern c4 an. 3.Sf3 greift die Dame mit Tempo an, und 3...Dxc4 4.Sxe5 gewinnt den Bauern zurück und greift die Dame erneut an, sodass Weiß Zeit für die Entwicklung gewinnt."
+    "strategy": "Bringt die Dame auf ein Feld, das 3.Sf3 mit Tempo angreift. Schwarz kann e5 nicht halten und zugleich Zeit sparen: Nach 3...Df6 4.Sd5 wird die Dame erneut vertrieben, und 5.Sxe5 gewinnt den Bauern, während 3...Dxc4 4.Sxe5 die Dame abermals angreift."
   },
   "1.c4 e5 2.Nc3 Bd6": {
-    "strategy": "Deckt e5, blockiert aber den d-Bauern, sodass weder ...d6 noch ...d5 möglich ist und der Läufer c8 eingesperrt bleibt. Zudem ist der Läufer ein Ziel für 3.Sb5, das droht, ihn zu schlagen und Schwarz einen Doppelbauern auf der d-Linie zu verschaffen."
+    "strategy": "Deckt e5, blockiert aber den d-Bauern, sodass weder ...d6 noch ...d5 möglich ist und der Läufer auf c8 eingesperrt bleibt. Solide, aber unbeholfen: Der Läufer hat auf d6 wenig zu tun, und Weiß entwickelt sich frei."
   },
   "1.c4 e5 2.Nc3 Nh6": {
     "strategy": "Stellt den Springer an den Rand, wo er f7 deckt und auf f5 zielt, aber um kein Zentrumsfeld kämpft. Sobald der d-Bauer gezogen hat, erzwingt Lxh6 das Zurückschlagen gxh6 und zerstört die Bauern am Königsflügel."
   },
   "1.c4 e5 2.Nc3 a6": {
-    "strategy": "Ein Wartezug, der b5 deckt, aber nichts entwickelt. 3.Sf3 greift e5 an, und Weiß gewinnt ein Tempo."
+    "strategy": "Ein Wartezug, der b5 deckt, aber nichts entwickelt. Er schadet nicht, da ...Sc6 auf 3.Sf3 folgt, ist aber ein Tempo für einen Randbauernzug, während Weiß den Entwicklungsvorsprung behält."
   },
   "1.c4 e5 2.Nc3 a5": {
     "strategy": "Gewinnt Raum am Damenflügel und verhindert b4, entwickelt aber nichts, und der a-Bauer kann b5, ein Feld für den weißen Springer, nicht mehr decken. 3.Sf3 greift e5 an, und Weiß gewinnt ein Tempo."
@@ -63,7 +63,7 @@
     "strategy": "Bereitet ...d5 vor, nimmt aber dem Springer b8 das Feld c6 und lässt e5 ungedeckt, sodass 3.Sf3 den Bauern sofort angreift. Schwarz verwendet den nächsten Zug dann auf den Bauern e5, statt eine Figur zu entwickeln."
   },
   "1.c4 e5 2.Nc3 c5": {
-    "strategy": "Gewinnt Raum am Damenflügel, doch mit Bauern auf c5 und e5 kann kein schwarzer Bauer d5 decken, das zum Vorposten für einen weißen Springer wird. Zudem lässt der Zug e5 gegen 3.Sf3 ungedeckt und entwickelt nichts."
+    "strategy": "Gewinnt Raum am Damenflügel und hält das Gleichgewicht, doch mit Bauern auf c5 und e5 kann kein schwarzer Bauer jemals d5 decken, das so zum Stützpunkt für einen weißen Springer wird. Der Zug entwickelt nichts, sodass Schwarz nach 3.Sf3 einen Zug für e5 aufwenden muss. Spielbar, aber festlegend."
   },
   "1.c4 e5 2.Nc3 d5": {
     "strategy": "Bietet einen Bauern an, um das Zentrum zu öffnen: 3.cxd5 Sf6 4.Sf3 Sxd5 5.Sxe5 lässt Weiß mit einem glatten Mehrbauern zurück, da e5 keinen Verteidiger hat. Schwarz erhält etwas Aktivität, aber zu wenig für den Bauern."
@@ -72,7 +72,7 @@
     "strategy": "Deckt e5 mit einem Bauern, nimmt aber dem Springer g8 das Feld f6, schwächt e6 und die Diagonale e8–h5 und entwickelt nichts. Weiß baut das Zentrum in Ruhe auf, und der schwarze König bleibt exponiert."
   },
   "1.c4 e5 2.Nc3 f5": {
-    "strategy": "Erhebt Anspruch auf e4, schwächt aber e6 und die Diagonale e8–h5, bevor auch nur eine Figur entwickelt ist. 3.d4 greift e5 sofort an, und nach 3...exd4 4.Dxd4 Sc6 5.De3+ richtet sich die offene e-Linie gegen den unrochierten König."
+    "strategy": "Beansprucht e4 und steuert ein scharfes Spiel am Königsflügel an, schwächt aber e6 und die Diagonale e8-h5, bevor eine Figur entwickelt ist. 3.d4 greift sofort e5 an, und die offene e-Linie kann auf den unrochierten König zielen. Spielbar und zweischneidig, aber festlegender als ein Springerzug."
   },
   "1.c4 e5 2.Nc3 h6": {
     "strategy": "Ein Wartezug, der g5 deckt, aber nichts entwickelt und e5 nicht schützt. 3.Sf3 greift e5 an und gewinnt ein Tempo."

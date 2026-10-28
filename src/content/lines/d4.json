@@ -154,12 +154,16 @@
       "line": "1.d4 b5 2.e4 Bb7",
       "moves": [
         {
-          "san": "Bxb5",
+          "san": "Nd2",
           "rating": 5
         },
         {
+          "san": "Bxb5",
+          "rating": 3
+        },
+        {
           "san": "Bd3",
-          "rating": 4
+          "rating": 3
         },
         {
           "san": "Nf3",
@@ -356,8 +360,12 @@
       "line": "1.d4 d6 2.Nf3",
       "moves": [
         {
-          "san": "Bg4",
+          "san": "Nf6",
           "rating": 5
+        },
+        {
+          "san": "Bg4",
+          "rating": 4
         },
         {
           "san": "g6",
@@ -505,7 +513,7 @@
         },
         {
           "san": "h5",
-          "rating": 2
+          "rating": 3
         }
       ]
     },

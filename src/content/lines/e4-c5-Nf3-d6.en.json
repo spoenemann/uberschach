@@ -24,7 +24,7 @@
   },
   "1.e4 c5 2.Nf3 d6 3.b4": {
     "name": "Sicilian Defence: Wing Gambit, Deferred Variation",
-    "strategy": "Offers a pawn to pull Black's c-pawn away from d4, so that White can occupy the centre. White gets space and quick development, but is a pawn down, and once Black has taken, the pawn on b4 is an annoyance that eyes c3, where the b1-knight wants to go."
+    "strategy": "Offers a pawn to pull Black's c-pawn away from d4, so that White can occupy the centre. The compensation in space and quick development is roughly enough, so the move is playable, but White is a pawn down and Black's b4-pawn eyes c3, where the b1-knight wants to go."
   },
   "1.e4 c5 2.Nf3 d6 3.Bb5+ Bd7": {
     "name": "Sicilian Defence: Moscow Variation, Main Line",
@@ -107,7 +107,7 @@
     "strategy": "Attacks e4 at once, but the knight on c6 stays pinned, so White can still exchange on c6 and double Black's pawns. Black gains a tempo, yet the pin is a lasting nuisance, and defending e4 costs White little."
   },
   "1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O g6": {
-    "strategy": "Prepares a fianchetto but leaves the knight pinned, so White can exchange on c6 and double Black's pawns. Black loses time compared with first breaking the pin, and the position is playable but slightly worse."
+    "strategy": "Prepares a fianchetto but leaves the knight pinned and the king in the centre. White strikes with d4 at once, while Black has neither broken the pin nor castled, and keeps the initiative."
   },
   "1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O Bd7 5.c3": {
     "strategy": "Prepares a broad pawn centre while the bishop stays on b5. White follows a plain strategic plan and Black can develop without risk, since the exchange on c6 no longer doubles anything."
@@ -140,7 +140,7 @@
     "strategy": "Puts the question to the bishop. If it takes on c6, Black recaptures with the bishop and has nothing doubled; if it retreats, it has lost its pin and Black has gained a useful queenside move. A solid, flexible set-up for a manoeuvring game."
   },
   "1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O Bd7 5.c3 Nf6 6.Re1 e6": {
-    "strategy": "Opens the f8-bishop and supports a later ...d5, so Black can contest the centre with a pawn break. The position stays compact and solid; the price is some space."
+    "strategy": "Opens the f8-bishop and supports a later ...d5, a compact set-up. But White strikes in the centre with d4 at once, before Black is ready to answer, and gets the easier game. Sound, yet it concedes more than the main plan."
   },
   "1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O Bd7 5.c3 Nf6 6.Re1 g6": {
     "strategy": "Builds a fianchetto, with the bishop on g7 holding the long diagonal. A compact, sound set-up, but it leaves the bishop on b5 unchallenged and gives White time for the central advance."
@@ -156,7 +156,7 @@
   },
   "1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O Bd7 5.Qe2 g6 6.e5": {
     "name": "Sicilian Defence: Moscow Variation, Dorfman Gambit",
-    "strategy": "A pawn sacrifice that tries to use the loosened diagonal to h8: after the exchanges on e5 a white queen there would attack the rook. Black can simply take the pawn, and White then has to show the compensation."
+    "strategy": "Sacrifices the e-pawn to open the e5-h8 diagonal: after the exchanges on e5 the white queen attacks the h8-rook. Black can take and the complications are roughly level, so the move is sound, but it is a gamble where the quiet c3 keeps a safer edge."
   },
   "1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O Bd7 5.Qe2 g6 6.c3": {
     "strategy": "Prepares a central pawn break and gives the pawn centre a solid base, while the queen keeps the bishop on b5 guarded. A patient plan that answers the fianchetto in the centre and keeps the space White has."
@@ -204,10 +204,10 @@
     "strategy": "Trades the flank pawn for a central one before the centre is supported twice, and opens the c-file for Black. White's recapture leaves pawns on d4 and e4 that Black's pieces can now attack."
   },
   "1.e4 c5 2.Nf3 d6 3.c3 Nf6 4.Be2 Nc6 5.d4 Bg4": {
-    "strategy": "Develops with pressure on the knight that guards d4 and e5, but leaves the tension in the centre unresolved. White can capture on c5 or push d5 with gain of time against the knight on c6."
+    "strategy": "Develops with pressure on the knight that guards d4, but ignores the centre: White pushes d5, the knight on c6 has to retreat, and White gains space and time. Black is left cramped."
   },
   "1.e4 c5 2.Nf3 d6 3.c3 Nf6 4.Be2 Nc6 5.d4 e5": {
-    "strategy": "Meets the d4 pawn with a pawn of its own and takes central space. If White captures on e5 the queens face each other on the open d-file and the game simplifies, so Black gets a solid but unambitious position."
+    "strategy": "Meets the d4 pawn with a pawn of its own and takes space, but White pushes d5 with gain of time against the knight on c6 and closes the centre in its own favour. Black is left cramped and passive."
   },
   "1.e4 c5 2.Nf3 d6 3.c3 Nf6 4.Be2 Nc6 5.d4 cxd4 6.cxd4": {
     "strategy": "Recaptures with the c-pawn and completes the pawn centre that White has aimed at since c3. The open c-file belongs to both sides, and the pawn on e4 still needs watching."
@@ -220,10 +220,10 @@
   },
   "1.e4 c5 2.Nf3 d6 3.c3 Nf6 4.Be2 Nc6 5.d4 cxd4 6.cxd4 Nxe4": {
     "name": "Sicilian Defence: Delayed Alapin Variation, Basman-Palatnik Gambit",
-    "strategy": "Grabs the e4 pawn with the king still in the centre. White's d5 at once hits the knight on c6, with Qa4+ in the air along the open diagonal, so Black has to be exact, and the knight on e4 is far from its friends. A risky gambit."
+    "strategy": "Takes the e4 pawn at once, with the king still in the centre. White's d5 hits the knight on c6 and opens lines against it, so Black must defend accurately; with exact play Black holds the balance, which makes this the sharper but sound way to meet the centre."
   },
   "1.e4 c5 2.Nf3 d6 3.c3 Nf6 4.Be2 Nc6 5.d4 cxd4 6.cxd4 d5": {
-    "strategy": "The freeing break. The pawn attacks e4, which is now hit twice, so White must act at once. After exd5 Black recaptures and leaves White with an isolated d4 pawn; after e5 the knight lands on a well-supported e4. Either way the big centre is challenged."
+    "strategy": "The freeing break: the pawn hits e4 a second time, so White must act at once. If White takes on d5, Black recaptures and White is left with an isolated d4 pawn; if White pushes e5, the knight lands on a supported e4 square, though White keeps more space."
   },
   "1.e4 c5 2.Nf3 d6 3.c3 Nf6 4.Be2 Nc6 5.d4 cxd4 6.cxd4 e6": {
     "strategy": "Solid and covers d5, but it passes up the chance to challenge the centre at once. White keeps pawns on d4 and e4, and d5 comes with gain of time against the knight on c6."

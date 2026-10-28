@@ -91,16 +91,16 @@
     "strategy": "Develops the bishop to a natural square where it guards the c5 pawn, so that a capture there can be answered by retaking, and points down the diagonal at White's kingside. It also starts to clear the way for castling."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 exd5 5.Ngf3 Nc6 6.Bb5 Ne7": {
-    "strategy": "Develops the second knight and prepares to castle, and if White takes on c6 the knight retakes, so Black's pawns are not doubled. The cost is that the c6 knight stays pinned for now."
+    "strategy": "Develops and prepares to castle, but leaves the c5 pawn unguarded with the bishop on f8 shut in. White takes dxc5 and holds it with b4, while the c6 knight stays pinned and Black has no quick way to win the pawn back."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 exd5 5.Ngf3 Nc6 6.Bb5 Bd7": {
-    "strategy": "Breaks the pin at once and is ready to recapture on c6 with the bishop. The bishop blocks the queen's file, so Black ends up a little passive; sound, but White keeps the more comfortable game."
+    "strategy": "Breaks the pin, but the king still stands on the open e-file: after O-O cxd4 Qe2+ Black must block with the king uncastled, and White gets the easier game and the more active pieces."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 Qxd5 5.Ngf3": {
     "strategy": "Develops and defends d4 ahead of Black's capture, preparing to hit the queen with the f1-bishop. White does not mind losing the d4 pawn for a while: it is won back later, while Black's queen is chased about and White leads in development."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 Qxd5 5.Bc4": {
-    "strategy": "Attacks the queen at once, but before Black has taken on d4, so the queen can step back to d6 and Black keeps the choice of pawn structure. White has the lead in development, but Black is not forced to take on d4, so the pressure is milder."
+    "strategy": "Attacks the queen at once, but with the bishop gone from f1 the g2 pawn hangs: Qxg2 takes it with a threat on the rook on h1. White has only a small lead in development for the pawn, and Black is clearly better."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 Qxd5 5.Nb3": {
     "strategy": "Attacks the c5 pawn and prepares to meet ...cxd4 by recapturing with the knight, since the queen then guards d4 along the open file. It gains no tempo on the queen, so Black has time to settle it and has no problems."
@@ -121,7 +121,7 @@
     "strategy": "Attacks the d4 pawn a second time, with the queen behind it on the open file, so White is sure to regain the pawn. But it gains no time on the queen, and Black can develop calmly; White gets an even game without a lasting initiative."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 Qxd5 5.Ngf3 cxd4 6.Bb5+": {
-    "strategy": "Gives a check that Black answers with a developing move, then trades the bishop, so the queen is not driven back. With the knight on d2 still blocking the queen's defence, taking on d4 at once would lose a piece to the queen, so White gains no tempo and Black keeps the extra pawn longer."
+    "strategy": "Gives a check, but the bishop stands on b5, where the queen on d5 attacks it along the fifth rank now that the c5 pawn is gone. Qxb5 simply wins a piece."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 Qxd5 5.Ngf3 cxd4 6.Bc4 Qd6": {
     "strategy": "Keeps the queen in the centre, out of the bishop's reach and still guarding d4. White's knight can jump to e4 with a tempo on it, so Black has to develop a knight to f6 to stop that; after that he is solid, with the extra central pawn."
@@ -158,7 +158,7 @@
     "strategy": "Challenges the centre at once, before White's pieces are developed, so White has to settle the tension at once. Black gives up the French pawn structure for quick piece play and a target on d4; the e5 pawn itself becomes something to defend."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nc6 4.c3 Nf6": {
-    "strategy": "Develops and attacks e4 a second time, forcing White to settle the centre. Black gets the usual French set-up of a solid structure and a plan of undermining White's space; but with c3 already played the d4 pawn is well supported, so Black has no pressure on it."
+    "strategy": "Develops and hits e4, but White answers e5 and the knight must retreat. With c3 played and the knight on c6, ...c5 is impossible, so Black has no real pressure on d4 and White keeps a lasting space advantage."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nc6 4.c3 dxe4 5.Nxe4": {
     "strategy": "Takes the pawn back and centralises the knight, with the c-pawn already on c3 to support d4. The knight eyes the d6, f6 and c5 squares, and White keeps more space in the centre as the game opens."
@@ -177,7 +177,7 @@
     "strategy": "Develops and attacks the centralised knight, forcing White to trade or retreat. After the exchange Black recaptures with the queen, which eyes d4 along the diagonal, so Black gets a solid position and pressure on d4 at the price of an early queen."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nc6 4.c3 dxe4 5.Nxe4 Be7": {
-    "strategy": "Develops quietly and prepares to castle, but gives White time to bring the other knight to f3 and support d4, so the pressure on the pawn disappears. A solid, passive choice."
+    "strategy": "Develops quietly and prepares to castle, but does nothing about d4. White plays Nf3, the pawn is supported, and the knight on e4 keeps its strong post, so Black's pressure fades and White has a clear edge."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nc6 4.Ngf3 Nf6": {
     "name": "French Defence: Tarrasch Variation, Guimard Defence, Main Line",
@@ -187,7 +187,7 @@
     "strategy": "Gives up the central tension at once and accepts a position in which White's pieces are more active. The recapture leaves White's knight centralised and Black without the central pawn, but Black develops without difficulty and keeps a solid structure."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nc6 4.Ngf3 Nge7": {
-    "strategy": "Develops the knight behind the c6 knight, so that it can go to f5 and hit d4, and keeps the f-pawn free. It does not attack e4, so White is not forced to decide the centre, and Black is passive in the middle."
+    "strategy": "Develops the knight behind c6, ready for ...Nf5, but it does not touch e4. White is free to build the centre at leisure and holds the easier game; Black's pieces have little to do against it."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5": {
     "strategy": "The main line: the pawn advances, gaining space and driving the knight away with tempo before the double attack on e4 can win it. White gets a pawn chain from d4 to e5, and Black has to find a way to undermine it."
@@ -221,10 +221,10 @@
     "strategy": "Hits the base of White's chain, the right place to challenge it: with d4 and e5 locked together, the d4 pawn is the one that can be undermined. It starts Black's counterplay at once, since d4 has no defender yet."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.Bd3 Nc6": {
-    "strategy": "Adds a second attacker on e5, whose only support is the d4 pawn, and prepares to break the chain at its head instead of its base. Black develops quickly but does not yet challenge d4, so White has time to bring up support."
+    "strategy": "Adds a second attacker on e5, but the knight blocks the c-pawn, so ...c5 cannot come and Black cannot bring more attackers to d4. After c3 White's chain is secure and White builds up freely with a clear advantage."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.Bd3 b6": {
-    "strategy": "Prepares to trade Black's bad light-squared bishop by ...Ba6, the recurring French idea. It is slow: the d4 pawn is not challenged yet, so White has time to strengthen the centre, though Black's structure stays solid."
+    "strategy": "Prepares to trade the light-squared bishop by ...Ba6, the French idea. But it spends a tempo before d4 is challenged, so White gets useful moves for free and keeps a lasting edge."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.Bd3 c5 6.c3": {
     "strategy": "Reinforces d4 with a pawn, the most solid way to hold it. White cannot give up the centre: if the d-pawn takes on c5, the pawn on e5 loses its support and Black takes it back with the knight, with an attack on the bishop. The chain is stable and White has the space, while Black has to keep working against it."
@@ -241,7 +241,7 @@
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.Bd3 c5 6.c3 b6": {
     "name": "French Defence: Tarrasch Variation, Botvinnik Variation",
-    "strategy": "Prepares to trade Black's bad light-squared bishop for White's good one, and adds a pawn defender to c5. It deals with the structure's main strategic problem, at the cost of a slower attack on d4, so White gets time to organise the defence."
+    "strategy": "Prepares ...Ba6 to trade Black's bad bishop, and adds a pawn defender to c5. But it is slow: White gets useful moves for nothing while the attack on d4 waits, and keeps a lasting edge."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.Bd3 c5 6.c3 cxd4": {
     "strategy": "Releases the tension in the centre before adding pressure. After the recapture the d4 pawn has no pawn support, and Black can attack it with pieces along the open c-file; White gets a free hand to develop and keeps the space."

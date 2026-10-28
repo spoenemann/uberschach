@@ -21,10 +21,10 @@
     "strategy": "Brings a second attacker to f7, so the queen now threatens mate there and Black must answer at once. Every defence costs something: a pawn move that commits the king's bishop to a fianchetto, or a queen move that blocks its own pieces. White develops with tempo, but the early queen remains a liability if Black keeps calm."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bb5": {
-    "strategy": "Attacks the knight that guards e5, so Bxc6 would threaten to win the pawn. Black answers with a pawn that hits the queen, and a knight jump to d4 hits it again, so White keeps losing time and ends up slightly worse."
+    "strategy": "Attacks the knight that guards e5, but the threat is slow. Black answers ...Nf6, hitting the queen and the e4 pawn at once, and a later ...Nd4 attacks the bishop, so White keeps losing time and ends up clearly worse."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Nf3": {
-    "strategy": "Develops a piece and attacks e5 a second time, so the pawn is the next target. It makes no mate threat, though: Black attacks the queen with a pawn, the queen has to retreat again, and Black gets the easier game."
+    "strategy": "Develops a piece and attacks e5 a second time, but makes no mate threat. Black answers ...Nf6, hitting the queen and the e4 pawn, the queen has to retreat again, and Black gets the easier game."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6": {
     "strategy": "Parries the mate threat by guarding f7 with the knight, which develops a piece but puts it on the rim, where it becomes a target. As soon as White's d-pawn moves, the bishop on c1 eyes the knight, and the knight is a defender White can try to remove."
@@ -48,7 +48,7 @@
     "strategy": "Hits the queen with a pawn and cuts its line to f7, gaining a tempo. The queen has to move before the bishop can take on h6, so the threat is parried for now. The price is a kingside committed to a fianchetto, with a knight still stuck on the rim."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 Qe7": {
-    "strategy": "Covers f7 with the queen, so Bxh6 no longer ends in mate. The cost is high: the queen stands in front of the king's bishop, and if White takes on h6 Black is left with doubled, isolated h-pawns and an open g-file."
+    "strategy": "Covers f7 with the queen, so Bxh6 no longer ends in mate, but the price is too high. The queen blocks the king's bishop, and after Bxh6 gxh6 Black is left with doubled, isolated h-pawns."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 Qf6": {
     "strategy": "Covers f7 and h6 with the queen, so Bxh6 can be answered by a recapture and Qxf7 is no threat. It brings Black's own queen out early, though, and leaves the knight on the rim, so Black is safe but a move behind in development."
@@ -63,19 +63,22 @@
     "strategy": "A quiet retreat that keeps e4 defended and the bishop's diagonal open. It gives up the attack on f7 for good, though: only the bishop eyes it now, and Black can finish development without further worry."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6": {
-    "strategy": "Shuts the f-file with a pawn, so the mate threat on f7 disappears, and gives e5 a second defender. The set-up is loosened, with weaker light squares around the king, but it is solid, and the knight on h6 can come back to f7."
+    "strategy": "Shuts the f-file with a pawn, so the mate threat on f7 disappears, and gives e5 a second defender. It is solid, but it loosens the light squares around the king and leaves White a small edge; the knight on h6 can come back to f7."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 Qe7": {
-    "strategy": "Defends f7 with the queen, so Bxh6 can be met by a recapture and the mate threat is gone. It blocks the king's bishop, and the f-file stays open, so White's queen and bishop keep pressing on f7 and Black has to keep it guarded."
+    "strategy": "Defends f7 with the queen, so Bxh6 can be met by a recapture and the mate threat is gone. It holds, but the queen blocks the king's bishop and the open f-file keeps White's queen and bishop pressing on f7, so Black stays on the defensive."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 Bg7": {
     "strategy": "Walks into mate: the bishop defends the knight, but Bxh6 Bxh6 removes the guard of f7 and Qxf7 is checkmate, backed by the bishop on c4. Black must first deal with the pressure on f7."
   },
+  "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 Nd4": {
+    "strategy": "Attacks the queen at once, so White must retreat, and the knight stands well in the centre. Black then closes the f-file with ...f6 and the mate threat is over. White's early queen has cost it time, and Black has given up nothing."
+  },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.Ne2": {
-    "strategy": "The queen has taken f3, the knight's natural square, so the knight develops via e2, which also clears the way to castle and leaves the b1-knight for c3. Quiet but sound: White gives up the quick mate and plays for ordinary development against Black's loosened set-up."
+    "strategy": "The queen has taken f3, the knight's natural square, so the knight develops via e2, which also clears the way to castle and leaves the b1-knight for c3. Sound and unhurried: White plays for ordinary development against Black's loosened set-up."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.Nc3": {
-    "strategy": "Develops the queen's knight to its natural square, but it leaves c2 without a defender. A black knight can jump to b4 or d4 and threaten Nxc2+, forking king and rook, so White has to spend a move on the queenside."
+    "strategy": "Develops the queen's knight to its natural square, where it backs e4 and eyes d5 and b5. It leaves c2 without a defender, so a black knight on b4 or d4 must be watched, but White can meet that in time and plays for ordinary development against the loosened set-up."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.c3": {
     "strategy": "Prepares a broad pawn centre and takes b4 and d4 from Black's knight. It is slow, though: it costs a tempo, and Black uses the time to bring the knight from h6 to a useful square while the kingside stays loose."
@@ -85,9 +88,12 @@
     "strategy": "Strikes at the bishop and the e-pawn at once, but it is a pawn sacrifice: White simply takes on d5, and the capture with the e-pawn also attacks the knight on c6. White keeps an extra pawn and the safer game."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.Ne2 Bg7": {
-    "strategy": "Develops the bishop, defends the knight on h6 and prepares castling, so Bxh6 can simply be recaptured. The f6 pawn blocks the bishop's long diagonal, but Black has a solid, compact position and the game is level."
+    "strategy": "Develops the bishop, defends the knight on h6 and prepares castling, so Bxh6 can simply be recaptured. It is sound but passive: the f6 pawn blocks the bishop's long diagonal, and White keeps a small edge."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.Ne2 Nf7": {
-    "strategy": "Brings the knight back from the rim to a square where it guards e5 and the king, which ends the Bxh6 tricks for good. White can trade it off with Bxf7+, but that pulls Black's king forward and gives Black the two bishops."
+    "strategy": "Brings the knight back from the rim to guard e5 and the king, but it is the second move of the same knight, so Black falls behind in development. White can trade it with Bxf7+, which pulls the king forward; the two bishops do not make up for the lost time."
+  },
+  "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.Ne2 Na5": {
+    "strategy": "Attacks the c4-bishop, the piece that eyes f7, so White must retreat it or allow ...Nxc4 and lose its attacker. The knight stands on the rim, but the move answers the pressure on f7 with a gain of time."
   }
 }

@@ -11,7 +11,7 @@
     "strategy": "Greift e4 vor jedem Tausch an, sodass Weiß es verteidigen muss, und der Springer auf c3, der das tut, nimmt dem c-Bauern den Vorstoß zu einer Klammer auf d5. Der Preis ist, dass Weiß die zusätzliche Möglichkeit erhält, auf c5 zu schlagen, was zu unklarem, zweischneidigem Spiel führt."
   },
   "1.e4 c5 2.Nf3 d6 3.d4 Nc6": {
-    "strategy": "Entwickelt den Springer sofort, lädt aber zu 4.d5 ein: Der Springer muss sich zurückziehen, und nach dem Abtausch auf e5 hat Weiß mit Bauern auf d5 und e4 einen klaren Raumvorteil, während Schwarz kein sizilianisches Gegenspiel hat."
+    "strategy": "Entwickelt den Springer sofort, doch Weiß antwortet mit d5: Der Springer muss zurück, der c-Bauer kann sich nicht mehr gegen den d-Bauern von Weiß tauschen, und Weiß erhält einen klaren Raumvorteil. Schwarz hat das übliche sizilianische Gegenspiel aufgegeben."
   },
   "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4": {
     "strategy": "Die natürliche Wiedernahme: Der Springer landet im Zentrum mit Zugang zu b5 und f5. Weiß hat einen Zentralbauern gegen einen Flügelbauern getauscht und erhält leichte Entwicklung und offene Linien für beide Läufer."
@@ -85,7 +85,7 @@
     "strategy": "Ein seltener Zug, der den Läufer bereit hält, einem Tausch auf b5 zu begegnen, und zu bekannteren Aufbauten zurückführen kann. Er vermeidet die Haupttheorie, kostet aber einen Zug für einen Läufer, den keine andere Hauptvariante braucht."
   },
   "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5": {
-    "strategy": "Nimmt sofort das Zentrum, aber es folgt das Schach auf b5, und der Abtausch der weißfeldrigen Läufer schwächt das Feld d5. Weiß erhält einen Springervorposten auf f5, den Schwarz nur unter Zugeständnissen bestreiten kann."
+    "strategy": "Nimmt sofort das Zentrum und hält die Diagonale des Läufers c8 offen, doch 6.Lb5+ ist unangenehm zu beantworten: Der Springer d4 findet auf f5 einen dauerhaften Vorposten, den Schwarz nur mit Zugeständnissen angreifen kann, und d5 ist ein schwaches Feld. Solide, aber passiv."
   },
   "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be3": {
     "name": "Sizilianische Verteidigung: Najdorf-Variante, Englischer Angriff",
@@ -293,7 +293,7 @@
   },
   "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Bg5 g6": {
     "name": "Sizilianische Verteidigung: Richter-Rauzer-Variante, Drachenvariante",
-    "strategy": "Das Fianchetto ist hier nicht spielbar: Lxf6 lässt Schwarz meist mit dem e-Bauern zurückschlagen, weil der g-Bauer fortgezogen ist, was die Bauernstruktur am Königsflügel zerstört, und Sdb5 setzt dann den d6-Bauern unter Druck."
+    "strategy": "Strebt das Fianchetto an, doch der g-Bauer hat g7 verlassen, sodass nach 7.Lxf6 exf6 Schwarz Doppelbauern auf der f-Linie hat und einen Bauern d6, den Sdb5 angreift. Mit exaktem Spiel solide, aber ein Zugeständnis, das die Hauptvariante vermeidet."
   },
   "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Qxd4 Nc6": {
     "strategy": "Greift die Dame mit einem Entwicklungszug an, sodass Weiß sie erneut ziehen muss. Der frühe Damenausflug kostet ein Tempo, und das ist die übliche Art, ihn zu beantworten."
@@ -343,6 +343,6 @@
     "strategy": "Gibt zuerst Schach und nimmt den c5-Bauern ins Visier, sodass Weiß einen Zug aufwenden muss, bevor Schwarz den Bauern zurückgewinnt, wobei der e4-Bauer weiter angegriffen bleibt. Eine respektable Alternative zum Springerschlag: Der Preis ist ein früher Damenausflug und eine weniger einfache Stellung."
   },
   "1.e4 c5 2.Nf3 d6 3.d4 Nf6 4.dxc5 dxc5": {
-    "strategy": "Schlägt den Bauern zurück und lässt den Damentausch zu, nach dem Schwarz nicht mehr rochieren kann und der König in der Mitte feststeckt. Der e4-Bauer von Weiß ist weiter angegriffen, aber das ruhige Spiel ist weniger vielversprechend als die aktiven Antworten."
+    "strategy": "Schlägt den Bauern sofort zurück, doch nach 5.Dxd8+ Kxd8 werden die Damen mit Schach getauscht: Schwarz kann nicht mehr rochieren, und Weiß entwickelt sich mit Tempo, Schwarz steht also klar schlechter. Erst auf e4 zu schlagen vermeidet all das."
   }
 }

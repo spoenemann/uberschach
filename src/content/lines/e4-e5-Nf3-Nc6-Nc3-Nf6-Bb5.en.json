@@ -35,7 +35,7 @@
     "strategy": "Recaptures towards the centre, which opens the c8 bishop. Black accepts doubled c-pawns for the bishop pair, but the e5 pawn is no longer defended by a piece and has to be protected by tactics."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.Bb5 a6 5.Bxc6 bxc6": {
-    "strategy": "Recaptures with the b-pawn, which keeps the d-pawn at home and opens the b-file. But the e5 pawn has lost its knight defender and is simply attacked; Black has to find the means to regain it, so this is the riskier recapture."
+    "strategy": "Recaptures with the b-pawn, but leaves the e5 pawn attacked and undefended. White simply plays Nxe5, and with the d-pawn still on d7 the queen cannot come to d4 to win it back. Black is a clear pawn down."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.Bb5 a6 5.Bxc6 Nxe4": {
     "strategy": "Grabs a pawn but loses a piece: White recaptures the knight on e4, and after ...dxc6 Black is a piece for a pawn down. The queen fork that rescues Black elsewhere needs a white knight on e5."
@@ -241,7 +241,7 @@
     "strategy": "Castles in turn and bets on activity against the pawn it is down: the d4 knight attacks the b5 bishop, the f6 knight presses on e4 and the c5 bishop lines up on f2. White's e5 knight stays, so Black has to make that piece activity count."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.Bb5 Nd4 5.Nxe5 Bc5 6.O-O Nxb5": {
-    "strategy": "Trades the knight for the bishop that pins the d7 pawn. Once the c3 knight recaptures, e4 has no defender and ...Nxe4 regains the pawn, with the bishop pair kept; White's knights on b5 and e5 give it activity in return."
+    "strategy": "Trades the d4 knight for the bishop, but after the c3 knight recaptures Black has not regained the pawn and has given up its active knight. White is left about a pawn up with a safe position."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.Bb5 Nd4 5.Nxe5 Bc5 6.O-O Qe7": {
     "strategy": "Attacks the e5 knight, but with White castled the trade on b5 no longer comes with check on e4: the b5 knight eyes c7, which the queen no longer covers, so a capture on e4 runs into a fork of king and rook. Black does not regain the pawn by force."
@@ -254,6 +254,6 @@
     "strategy": "The retreat that keeps the knight in play and challenges the d4 knight. White cannot hold the extra pawn: Black trades on b5 and takes on e4 with check, but White's pieces stay developed and the game stays level, with Black holding the bishop pair."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.Bb5 Nd4 5.Nxe5 Qe7 6.Nd3": {
-    "strategy": "Retreats the loose knight to a safe square, but it blocks the d-pawn and is less active than on f3. Black still trades on b5 and takes on e4 with check, regaining the pawn and keeping the bishop pair."
+    "strategy": "Retreats the loose knight to a safe square, but it blocks the d-pawn and sits badly. Black hits the bishop with ...a6, drives it back with ...b5 and keeps the strong knight on d4, which gives Black a clear edge."
   }
 }

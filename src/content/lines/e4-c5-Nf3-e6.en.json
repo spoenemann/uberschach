@@ -24,7 +24,7 @@
   },
   "1.e4 c5 2.Nf3 e6 3.b4": {
     "name": "Sicilian Defence: Wing Gambit Deferred",
-    "strategy": "A deferred gambit: White offers the b-pawn to drag Black's c-pawn away and build a big pawn centre. Black can simply take it, and White gets little in return for the pawn; the idea is dubious."
+    "strategy": "A gambit: White offers the b-pawn to pull Black's c-pawn away and build a big pawn centre with d4. Black can take the pawn safely, but White gets space and active play in return, so the move is playable though riskier than the usual third moves."
   },
   "1.e4 c5 2.Nf3 e6 3.c3 d5": {
     "strategy": "Strikes at e4 before White's pawn centre exists. The tension is resolved at once, White cannot enjoy the broad centre that c3 was preparing, and Black's pieces come out freely in an open game."
@@ -137,15 +137,16 @@
   },
   "1.e4 c5 2.Nf3 e6 3.c3 Nf6 4.e5 Nd5 5.d4 Nc6": {
     "name": "Sicilian Defence: Alapin Variation, Sherzer Variation",
-    "strategy": "Piles pressure on the base of White's chain: d4 is attacked twice, by the c5-pawn and the knight, and e5 once. Black fights the pawn centre with development, and White must keep the pieces coordinated to hold d4 and e5."
+    "strategy": "Adds a second attacker to d4, but d4 is well defended and White answers c4 at once, chasing the d5 knight away with a gain of time. White then has a broad pawn centre and more space, and Black's knight lands on a poor square."
   },
   "1.e4 c5 2.Nf3 e6 3.c3 Nf6 4.e5 Nd5 5.d4 cxd4": {
-    "strategy": "Opens the c-file and challenges the base of White's chain: after the recapture Black can play against the d4 and e5 pawns with pieces, while the knight on d5 holds a strong post. White keeps a spacious centre, so Black must hurry with development."
+    "strategy": "The natural capture: it challenges the base of White's chain and opens the c-file, while the knight on d5 holds a strong post. Black can then play against the d4 and e5 pawns with pieces, but White keeps a spacious centre, so Black must hurry with development."
   },
   "1.e4 c5 2.Nf3 e6 3.c3 Nf6 4.e5 Nd5 5.d4 d6": {
     "strategy": "Strikes at the head of White's pawn chain at once, so White must decide whether to hold the space or exchange it away. The price is a tempo spent on a pawn move, and the e6-pawn can become a target once the centre opens."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4": {
+    "name": "Sicilian Defence: French Variation, Open",
     "strategy": "Trades the c-pawn for White's d-pawn: Black gets a central pawn majority and a half-open c-file to work with. It costs time and hands White free development and open lines, the usual bargain of the open Sicilian."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 a6": {
@@ -155,6 +156,16 @@
   "1.e4 c5 2.Nf3 e6 3.d4 d5": {
     "name": "Sicilian Defence: Marshall Counterattack",
     "strategy": "Strikes in the centre at once, but opens the game before Black is developed. White takes the pawn, and a check with the bishop gains time, so Black is the one defending against a lead in development."
+  },
+  "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4": {
+    "strategy": "The natural recapture: the knight takes the centre and the bishops and queen get open lines. It will be harassed by Black's developing moves, so White's piece set-up must be ready to meet them, but the central knight also supports a later attack."
+  },
+  "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.c3": {
+    "name": "Sicilian Defence: Smith-Morra Gambit Deferred",
+    "strategy": "A gambit that offers a pawn for a lead in development and an open c-file. Black keeps a real extra pawn that White must justify by quick development, so the idea only works if White's pieces come out faster than Black can untangle."
+  },
+  "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Qxd4": {
+    "strategy": "Recaptures with the queen, which stands in the centre but can be hit at once: ...Nc6 attacks it with a gain of time and the queen has to go back. White's structure stays healthy, so the damage is a tempo, but it gives Black the easier development."
   },
   "1.e4 c5 2.Nf3 e6 3.Nc3 a6": {
     "strategy": "Takes b5 away from White's bishop and knights and prepares ...b5 for queenside space. Black waits to see whether White opens the centre with d4, in which case the play transposes into a normal Open Sicilian with the pawn already on a6."
@@ -199,7 +210,7 @@
     "strategy": "Develops the bishop against e4 but leaves the central tension unresolved. White decides whether to take on c5 or push on with d5, and Black gives up the open c-file that capturing on d4 would bring in exchange for quicker development."
   },
   "1.e4 c5 2.Nf3 e6 3.Nc3 a6 4.g3 b5 5.d4 Nc6": {
-    "strategy": "Develops and adds a second attacker to d4, but leaves the tension in the centre to White, who can push d5 with a gain of time against the knight or take on c5. Black accepts a less clear structure for faster development."
+    "strategy": "Adds a second attacker to d4, but leaves the tension in the centre to White. The reply d5 attacks the c6 knight with a gain of time, and White ends up with more space while Black's knight lands on a poor square."
   },
   "1.e4 c5 2.Nf3 e6 3.Nc3 a6 4.g3 b5 5.d4 cxd4 6.Nxd4": {
     "strategy": "Recaptures with the knight, which settles in the centre where it eyes e6, b5 and c6, and keeps the queen out of the reach of ...Nc6. The result is an Open Sicilian with Black's queenside pawns advanced and White's fianchetto set-up, so both sides play on the queenside."

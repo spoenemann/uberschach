@@ -53,10 +53,10 @@
     "strategy": "Takes the pawn and, with f7 gone, opens the diagonal from h5 to the king on e8. The greedy reply 4...Bxg2 walks into the queen check on h5, and White's lead in development and attack grows quickly."
   },
   "1.e4 b6 2.d4 Bb7 3.Bd3 f5 4.Nc3": {
-    "strategy": "Declines the pawn and guards e4 a second time, so ...fxe4 just trades pawns and White recaptures. White gets a healthy centre and quicker development against a king whose pawn cover has loosened, but this wins nothing, which taking on f5 does."
+    "strategy": "Guards e4 a second time and keeps a comfortable edge, but passes up the point of meeting ...f5: taking on f5 wins a pawn and keeps the attack on the loosened kingside. Declining the gambit gives that away."
   },
   "1.e4 b6 2.d4 Bb7 3.Bd3 f5 4.Qe2": {
-    "strategy": "Declines the pawn and guards e4 with the queen, so Black cannot win the pawn there. It is passive: after the exchanges on e4 the queen is chased by ...Nf6, and taking on f5 wins a pawn outright."
+    "strategy": "Guards e4 with the queen, an awkward post: after the exchanges on e4, ...Nf6 chases it away. White also passes up the pawn on f5, which taking would win with a lasting attack."
   },
   "1.e4 b6 2.d4 Bb7 3.Bd3 f5 4.exf5 Bxg2": {
     "strategy": "Grabs a pawn and attacks the h1-rook but falls into the trap: after the check on h5 and the forced block on g6, fxg6 threatens gxh7 with a discovered check, and taking the rook even allows mate on h7."
@@ -83,7 +83,7 @@
   },
   "1.e4 b6 2.d4 Bb7 3.f3 e5": {
     "name": "Owen's Defence: Wind Gambit",
-    "strategy": "Hits the d4 pawn at once, exploiting a set-up that has taken f3 from the knight and loosened the diagonal to the king. Black opens the centre while White's pieces are awkwardly placed and White has to resolve the tension."
+    "strategy": "Hits d4 at once and opens the centre against a set-up that has loosened the king's diagonal, but dxe5 wins a pawn that Black can only regain with ...Nc6 and ...Nxe5. White then keeps a slight edge and the easier game."
   },
   "1.e4 b6 2.d4 Bb7 3.f3 e6": {
     "strategy": "The solid reply: Black develops without conceding anything and opens the king's bishop and the queen toward the diagonal to e1 that the pawn on f3 has loosened. The bishop on b7 keeps pressing on e4, and Black plays for an even game against a clumsy set-up."
@@ -95,10 +95,10 @@
     "strategy": "Takes the offered pawn and settles the tension. Black can recapture at once only with the b-pawn, which gives up the queenside set-up chosen with 1...b6, and otherwise has to play a pawn down for activity."
   },
   "1.e4 b6 2.d4 c5 3.Nf3": {
-    "strategy": "Develops and defends d4 without committing the pawn. If Black exchanges on d4, the knight recaptures with a lead in development against a queenside set-up that is not yet complete, and White keeps the tension and the initiative."
+    "strategy": "Develops and defends d4, but lets Black exchange: after ...cxd4 Nxd4 the tension is gone, Black's bishop comes to b7 to hit e4, and White has only a slight edge. It passes up the chance to gain space or take the pawn."
   },
   "1.e4 b6 2.d4 c5 3.d5": {
-    "strategy": "Gains space and shuts the long diagonal of the bishop Black wants on b7, since the pawn stands in its way. The price is that the pawn becomes a target: Black can challenge it with ...e6, and the game turns on whether White keeps the space."
+    "strategy": "Answers the offered pawn by gaining space instead of taking it: the pawn on d5 blunts the long diagonal that ...b6 was preparing for the bishop. Black can challenge the pawn at once, but White keeps a clear space advantage."
   },
   "1.e4 b6 2.d4 c5 3.dxc5 Nc6": {
     "name": "Owen's Defence: Hekili-Loa Gambit",

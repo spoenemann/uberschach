@@ -28,7 +28,7 @@
     "strategy": "Supports the e5 pawn and frees the c8-bishop, accepting a closed centre. It is safe, but passive: Black has not used the chance to develop with tempo, and White gets time to build behind its space advantage."
   },
   "1.d4 e5 2.d5 Bc5 3.e4": {
-    "strategy": "Grabs space but walks into a double threat: the queen goes to h4, attacking the e4 pawn and, with the bishop, the f2 pawn that only the king guards. White must defend at once and hands Black the initiative."
+    "strategy": "Takes the centre and space at once. The queen sortie ...Qh4 hits e4 and f2 together, but Qf3 covers both and the game stays level. White commits to a broad centre that Black's bishop and queen will harass."
   },
   "1.d4 e5 2.d5 Bc5 3.Nf3": {
     "strategy": "Develops the knight with an attack on the e5 pawn, which the bishop does not guard, and covers h4, so the queen sortie that punishes e4 never comes. White keeps the space gained and makes Black react to the threat."
@@ -66,20 +66,20 @@
     "strategy": "Defends the pawn with a developing move, the simplest way to keep the extra material. The knight is ideally placed on f3, and White can finish development in peace; the only challenge is to see the tactical tricks Black's quick development sets."
   },
   "1.d4 e5 2.dxe5 Nc6 3.Bf4": {
-    "strategy": "Holds the extra pawn with a developing bishop instead of a knight. The bishop is active, but ...g5 or ...f6 challenges it at once, so White must keep the pawn without falling behind in development."
+    "strategy": "Holds the extra pawn with a developing bishop, but ...g5 challenges it at once and the bishop must retreat while Black gains space. White stays ahead, though with less than after the knight move."
   },
   "1.d4 e5 2.dxe5 Nc6 3.Nc3": {
-    "strategy": "Develops a knight but leaves the e5 pawn unprotected, so Black simply takes it back with the knight and the gambit is over. Sound, but White gets nothing from it: the extra pawn goes without a fight."
+    "strategy": "Develops a knight but leaves e5 undefended, so Black takes the pawn back with ...Nxe5 at once. The extra pawn that made 2.dxe5 worthwhile is gone, and Black has recovered it with a developing move."
   },
   "1.d4 e5 2.dxe5 Nc6 3.Nf3 Qe7": {
     "name": "Englund Gambit: Main Line",
     "background": "Henri Grob frequently used this version of the gambit, with 3...Qe7.",
-    "strategy": "Puts a second attacker on e5, which only the knight defends, so Black threatens to win the pawn back at once. The queen steps out early, but it also has ideas of swinging to b4 to pick up the b2 pawn if White develops carelessly."
+    "strategy": "Adds a second attacker to e5, so Black threatens to win the pawn back, and prepares ...Qb4+ against careless development. The queen comes out early and blocks its own bishop, and White can meet the threat with a developing move."
   },
   "1.d4 e5 2.dxe5 Nc6 3.Nf3 f6": {
     "name": "Englund Gambit: Soller Gambit Deferred",
     "background": "The gambit is named after Karl Soller. Detailed analysis in print has been limited to two German-language works by Stefan Bücker from the 1980s and 1990s, and in recent years International Master Kamran Shirazi has played it more than 1,400 times in online blitz and bullet games.",
-    "strategy": "Challenges e5 with a pawn to open the f-file and the centre for the pieces, accepting a pawn deficit for activity. It weakens the kingside, and White keeps some advantage with calm play."
+    "strategy": "Challenges e5 with a pawn to open lines for the pieces and gets some play for it, but weakens the king's diagonal. White keeps a small edge, either by holding the extra pawn or by giving it back for a lead in development."
   },
   "1.d4 e5 2.dxe5 Nc6 3.Nf3 Bc5": {
     "name": "Englund Gambit: Felbecker Gambit",
@@ -90,9 +90,12 @@
     "background": "The gambit is named after the American player Lev D. Zilbermints, who had extensive analysis of the line published in Blackmar Diemer Gambit World (issues 61–63). Stefan Bücker analysed it further in Kaissiber 5 and 6.",
     "strategy": "Intends to attack e5 a second time via g6, but needs two moves and blocks the f8-bishop, so White has time to defend or develop. A slow route to regain the pawn, relying on arriving before White consolidates."
   },
+  "1.d4 e5 2.dxe5 Nc6 3.Nf3 d6": {
+    "strategy": "Challenges e5 with a pawn and opens the c8-bishop, the least costly way to carry on the gambit. Black stays a pawn down, but nothing is weakened and development comes quickly, so White has to keep the extra pawn with care."
+  },
   "1.d4 e5 2.dxe5 Nc6 3.Nf3 Qe7 4.Qd5": {
     "name": "Englund Gambit: Stockholm Variation",
-    "strategy": "Holds the pawn by defending it from the centre with the queen, instead of letting Black win it back with a lead in development. The queen is out early and exposed to attacks with tempo; White gambles that the extra pawn outweighs this."
+    "strategy": "Guards e5 from the centre to keep the pawn, but the queen is exposed: ...f6 challenges e5 at once and the queen soon has to move again with a gain of time for Black. White stays a pawn up, though with much less than a developing move keeps."
   },
   "1.d4 e5 2.dxe5 Nc6 3.Nf3 Qe7 4.Bf4": {
     "strategy": "The main line: White defends e5 with a developing move and lets Black win the b2 pawn with the queen. That leaves material level but White ahead in development against a queen far from home, so White plays for the initiative rather than for the extra pawn."

@@ -28,7 +28,7 @@
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Ne7": {
     "name": "Ruy Lopez: Berlin Defence, Anti-Berlin Variation, Mortimer Variation",
     "background": "James Mortimer played 4...Ne7 at the London 1883 tournament against Englisch, Rosenthal and Noa and lost all three games; the tournament winner, Zukertort, also played it, drawing with Englisch.",
-    "strategy": "Moves the same knight twice and blocks the king's bishop, so Black falls behind in development; the only point is a trap. If White grabs the pawn on e5, the reply ...c6 wins a piece. Met calmly, Black is simply a tempo down."
+    "strategy": "Moves the same knight twice and blocks the king's bishop, so Black is a tempo behind in development, but little harm is done if White plays calmly. The point is a trap: if White grabs e5, ...c6 hits the bishop and wins material."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Bc5 5.Be3": {
     "name": "Ruy Lopez: Berlin Defence, Anti-Berlin Variation, Kaufmann Variation",
@@ -80,7 +80,7 @@
     "strategy": "Captures the pawn rather than defending e5, which opens the e-file and leads to open play. Black is a pawn up for the moment, but the king is still in the centre, so Black must meet White's quick development accurately."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d4 Be7": {
-    "strategy": "A calm developing move that prepares castling, but it neither takes on d4 nor defends e5, which is attacked twice and guarded once. White can capture on e5, so Black has to win the pawn back from an open position rather than keep a clean centre."
+    "strategy": "A calm developing move that prepares castling but ignores the centre: 5.d5 attacks the c6 knight, the only guard of e5, and drives it away with a gain of space. Black is left with a loose e5 pawn and a cramped game."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d4 d6": {
     "strategy": "Defends e5 solidly and keeps the pieces flexible. The cost is that the c6 knight is now guarded only by the b-pawn, so White can trade on c6, force the b-pawn to recapture and open the centre against a damaged pawn structure."
@@ -130,7 +130,7 @@
     "strategy": "Accepts the pawn and aims at f2, but the knight is soon attacked by the queen and White regains the pawn with the initiative. Sharp, with chances for both sides, but Black has to walk a narrow path to keep what it grabbed."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 d6": {
-    "strategy": "Supports e5 solidly and keeps castling in reserve. The cost is that the bishop is still on c5 when White strikes in the centre, so Black spends more time on it while White's pieces come out with tempo."
+    "strategy": "Defends e5, but opens the d7 square to the bishop on b5: after 6.d4 Bb6 7.d5 the c6 knight is attacked twice and defended once, so Black loses a knight for a pawn or two."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 O-O 6.d4": {
     "strategy": "Strikes in the centre with tempo: the pawn attacks both the bishop and e5. White leaves the e4 pawn loose for the moment, betting that the open centre and the pressure on the c6 knight are worth more than a pawn."
@@ -146,7 +146,7 @@
     "strategy": "Steps out of the pawn's attack but keeps the bishop pressing on d4, and keeps the central tension instead of releasing it by capturing. Black accepts a little less space and asks White to resolve the centre first."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 O-O 6.d4 exd4": {
-    "strategy": "Opens the centre by capturing. White's recapture hits the bishop again and, with pawns on e4 and d4, builds a broad centre with tempo. Black has to fight for equality after losing time."
+    "strategy": "Opens the centre by capturing, but 7.cxd4 hits the bishop again and gives White pawns on d4 and e4 with tempo. Black loses time retreating and has to fight a broad white centre from a worse position."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 O-O 6.d4 Be7": {
     "strategy": "Retreats out of the pawn's reach and keeps the bishop, but gives up the pressure on d4. It leaves e5 attacked twice and guarded once, so White can capture there and Black has to regain the pawn from a passive set-up."
@@ -220,7 +220,7 @@
     "strategy": "Backs up the knight on e4 with a pawn, but clears d7 so the bishop pins the knight on c6 to the king. With e5 attacked twice and its only defender pinned, the pawn is in trouble: the centre is overextended."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Be7 6.Qe2 Nf6": {
-    "strategy": "Retreats the knight at once instead of fighting for the e4 pawn. White regains the pawn on e5 straight away, so the extra pawn is gone and Black has lost time without gaining any activity in return."
+    "strategy": "Retreats the knight at once instead of fighting for the e4 pawn. White's dxe5 regains the pawn with tempo, since the e5 pawn attacks the knight again; Black has lost time twice and has nothing to show for the pawn it won."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.Bxc6": {
     "strategy": "Removes the defender of e5 and forces Black to double the c-pawns, in exchange for the bishop pair. White gets a healthy kingside pawn majority to play for in a long, grinding game, though a drawish one."
@@ -238,9 +238,9 @@
     "strategy": "Recaptures with the d-pawn, which opens the c8-bishop and the d-file at the price of doubled c-pawns. Black keeps the bishop pair and a solid position, and the exchanges that follow tend toward an endgame that is hard to crack."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.Bxc6 bxc6": {
-    "strategy": "Recaptures with the b-pawn, opening the b-file and keeping the d-pawn, but the c-pawns are doubled and the c8-bishop stays shut in behind d7. The structure is worse than after the other recapture, so Black has to make up for it with activity."
+    "strategy": "Recaptures with the b-pawn, which keeps the d-pawn but leaves doubled, weak c-pawns, and the c8 bishop still has d7 in its way. After dxe5 White has the better structure and Black little activity to offset it."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.Bxc6 exd4": {
-    "strategy": "Grabs the d4 pawn before recapturing on c6, but the king is still in the centre: Re1+ forces Black to block the file, and White's lead in development and the open e-file give the initiative. A gamble that is hard to justify."
+    "strategy": "Takes the d4 pawn instead of recapturing on c6, so White's bishop keeps the knight it has just taken and simply steps back with Bd5. Black has given a knight for a pawn or two, and with the king still in the centre it cannot make it up."
   }
 }

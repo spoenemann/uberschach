@@ -34,7 +34,7 @@
     "strategy": "Keeps the knight pinned and the bishop alive instead of trading it, which preserves Black's dark squares near the king. The bishop is offside on a5, though, and White can attack it at once, so Black must be ready for sharp tactics."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 cxd4": {
-    "strategy": "Takes the d4 pawn, so that both the white knight and the black bishop are attacked. Black wants to wreck White's pawn centre: e5 loses its support, and once bishop and knight are traded White's queenside pawns are scattered. White gets a half-open a-file and the initiative in return, so it is riskier than the main moves."
+    "strategy": "Takes the d4 pawn and leaves the bishop to be taken, hoping the black pawn that reaches c3 will cramp White's queenside. But White takes the bishop, and the queen reaches g4 with an attack on g7, which has no dark-squared bishop to guard it."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 Ba5 6.b4": {
     "strategy": "Attacks the bishop on a5 and the c5 pawn together and so breaks the pin by force. White accepts sharp play, since the d4 pawn may have to be given up for time and pressure; Black's reply needs preparation."
@@ -85,7 +85,7 @@
     "strategy": "Takes the bishop that Black left en prise. After ...dxc3 the bishop and knight are traded, White's d4 pawn is gone and the black pawn on c3 stands deep in White's position, where it is a target. The a-file is half-open for White's rook."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 cxd4 6.Qxd4": {
-    "strategy": "Recaptures the pawn with the queen, attacking the bishop and keeping White's pawns intact. After ...Bxc3+ Qxc3 White has the bishop pair, but the queen is exposed to ...d4 and the e5 pawn has lost its pawn support. A sound but second-rate way to regain the pawn."
+    "strategy": "Regains the pawn at once with a queen that attacks the bishop, but ...Nc6 hits the queen in turn and Black untangles with ...Bxc3+, leaving a roughly level game. The plain axb4 is much stronger."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 c5 5.a3 cxd4 6.Nf3": {
     "strategy": "Develops but ignores the tension: after ...Bxc3+ bxc3 dxc3 Black is two pawns up, with a pawn on c3 that cramps White's position. The bishop on b4 and the pawn on d4 have to be dealt with before development."
@@ -150,7 +150,7 @@
     "strategy": "Hits the base of the pawn chain at once, the thematic follow-up now that the dark-squared bishop has gone. Black aims at d4 and c3 and can later close the queenside with ...c4, leaving the fight on the kingside, where White is trying to attack. The doubled pawns are Black's long-term trump."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 Ne7 5.a3 Bxc3+ 6.bxc3 Nbc6": {
-    "strategy": "Brings the queenside knight to bear on d4 and e5, but it takes the c6 square, so the thematic ...c5 strike at White's pawn chain is blocked. Black develops quickly and can castle against a queen sortie to g4, but gives up its main plan for now."
+    "strategy": "Develops the queenside knight but takes c6 from the c-pawn, so the thematic ...c5 strike at White's pawn chain is blocked. Black has given up the bishop to damage White's pawns and then does nothing with that damage, while White's kingside attack proceeds unhindered."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.e5 Ne7 5.a3 Bxc3+ 6.bxc3 b6": {
     "strategy": "Prepares to trade the light-squared bishop, shut in behind the d5 and e6 pawns, by bringing it to a6 where it faces White's bishop. It costs time and does not yet challenge the pawn centre, so White can build up its kingside play unhindered."

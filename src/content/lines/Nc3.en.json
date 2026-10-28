@@ -76,7 +76,7 @@
   "1.Nc3 c5 2.d4 cxd4 3.Qxd4 Nc6 4.Qh4": {
     "name": "Dunst Opening: Novosibirsk Variation",
     "background": "Schiller calls the line the Novosibirsk Variation.",
-    "strategy": "Moves the queen to a flank square where it eyes e7 and h7, but both are well defended, so it threatens nothing. White has now spent a second tempo on the queen while Black develops freely."
+    "strategy": "Moves the queen to a safe square where it eyes e7 and h7, but both are well defended, so nothing is threatened. It is a second queen move, so Black develops freely and takes the centre at once; White stays sound but a little behind."
   },
   "1.Nc3 c5 2.d4 cxd4 3.Qxd4 Nc6 4.Qd1": {
     "strategy": "Goes back to the starting square: the safest retreat, with every piece free to develop. The price is time, since the queen has moved twice and ends where it began, so Black is a tempo ahead and has the bigger share of the centre."
@@ -148,7 +148,7 @@
     "strategy": "Eyes c7 and d4, but the queen guards both, and ...c6 drives the knight back at once to a3. From there it can reach c4, so little is lost but time: the knight has moved three times while Black has gained space."
   },
   "1.Nc3 d5 2.f4 d4 3.Ne4 f5": {
-    "strategy": "Drives the knight from its central post with a gain of time and claims e4 for Black. Together with the d4 pawn it takes space in the centre, at the price of loosening the king's side: e6 and the e8-h5 diagonal stay weaker for the rest of the game."
+    "strategy": "Drives the knight from its central post with a gain of time and claims e4, so together with the d4 pawn Black takes the space. The price is a loosened king's side: e6 and the e8-h5 diagonal stay weak for the rest of the game."
   },
   "1.Nc3 d5 2.f4 d4 3.Ne4 c5": {
     "name": "Dunst Opening: Melleby Gambit",
@@ -157,6 +157,9 @@
   "1.Nc3 d5 2.f4 d4 3.Ne4 e5": {
     "name": "Dunst Opening: Pfeiffer Gambit",
     "strategy": "Offers the e-pawn to open the centre while White's king is still uncastled. White can take it with the f-pawn, and Black's compensation rests on gaining time against the knight on e4 and on open lines, which is thin for a pawn."
+  },
+  "1.Nc3 d5 2.f4 d4 3.Ne4 Nf6": {
+    "strategy": "Develops and attacks the undefended knight on e4 at once, while the d4 pawn keeps cramping White. Black gains time without loosening the king's side the way ...f5 does, so it is the sounder way to hold the space."
   },
   "1.Nc3 d5 2.f4 d4 3.Ne4 e5 4.Nf3": {
     "name": "Dunst Opening: Pfeiffer Gambit, Sleipnir Countergambit",
@@ -169,13 +172,13 @@
     "strategy": "Supports the knight with a pawn and opens the c1-bishop, so ...exf4 can be met by Bxf4. White keeps the knight in the centre and declines the pawn, but Black has more space and ...f5 chases the knight again."
   },
   "1.Nc3 d5 2.f4 d4 3.Ne4 f5 4.Nf2": {
-    "strategy": "Steps back to a safe square from which the knight covers e4, d3 and g4, but it is a passive post and Black has gained space and a tempo. White keeps a sound position and relies on quick development to catch up."
+    "strategy": "The safest retreat: the knight covers e4, d3 and g4 and stays near the king. Black has gained space and a tempo, but the advanced pawns on d4 and f5 need support now, and White can develop calmly and aim to undermine them."
   },
   "1.Nc3 d5 2.f4 d4 3.Ne4 f5 4.Ng3": {
-    "strategy": "The most active retreat: the knight eyes f5 and h5 and still covers e4, so Black has to look after its advanced pawns instead of simply enjoying the space. It stands in front of the g-pawn and can be harassed by a pawn on the h-file, but it keeps White's play on the kingside alive."
+    "strategy": "A more active retreat: the knight eyes f5 and h5 and still covers e4, so Black has to look after the advanced pawns. It stands in front of the g-pawn and can be harassed by an h-pawn advance, so it is a shade worse than the quieter Nf2."
   },
   "1.Nc3 d5 2.f4 d4 3.Ne4 f5 4.Nc5": {
-    "strategy": "Gets the knight out of the pawn's way to a square where it eyes b7 and e6, but it is chased again: the bishop on f8 attacks it once the e-pawn moves, and ...b6 drives it away. White retreats with a look at d4, having lost more time."
+    "strategy": "Puts the knight on c5, eyeing b7 and e6, but ...e5 at once opens the f8 bishop's attack on it and the knight must run again. White loses more time while Black takes a big centre; fxe5 would lose the knight to ...Bxc5."
   },
   "1.Nc3 d5 2.f4 d4 3.Ne4 f5 4.Nf2 Nf6": {
     "strategy": "Develops and doubles Black's control of e4 and g4, so the retreating knight finds no outpost, and prepares castling. Black keeps its space gains and builds a harmonious set-up around them."
@@ -243,7 +246,7 @@
   },
   "1.Nc3 d6 2.f4 e5 3.fxe5 Nc6": {
     "name": "Dunst Opening: Hergert Gambit",
-    "strategy": "Does not recapture on e5 but develops a piece, so the pawn stays with White. After the exchange on d6 and the recapture with the bishop, White is still a pawn up and Black has only a lead in development to show for it."
+    "strategy": "A pawn gambit: Black leaves e5 and develops, and after 4.exd6 Bxd6 is a pawn down but ahead in development, with the bishop already eyeing h2 and White's f-pawn gone. That is enough to be playable, but recapturing at once is the safer way to keep the game level."
   },
   "1.Nc3 d6 2.f4 e5 3.fxe5 dxe5": {
     "strategy": "The natural recapture: material is level again and Black keeps a pawn in the centre. White is left with a half-open f-file in return for its pawn, while the d-pawn's departure leaves Black's d-file open as well."
@@ -291,7 +294,7 @@
     "strategy": "Develops the king's knight and blocks the diagonal from White's queen to the g7 pawn. It does not attack the queen, so Black gains no time, but the position is sound and Black keeps a compact, easy game."
   },
   "1.Nc3 e5 2.d4 exd4 3.Qxd4 Qf6": {
-    "strategy": "Attacks the undefended queen on d4 and offers a trade. If White takes, the knight recaptures with development and the queenless game is level; if White moves away instead, Black has brought the queen out early for little."
+    "strategy": "Offers a queen trade, but White does not have to accept: 4.Qc4 hits the loose c7 pawn, and the queen on f6 will be chased by Nd5. Even after 4.Qxf6 Nxf6 5.e4 White has the easier game."
   },
   "1.Nc3 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qa4": {
     "name": "Dunst Opening: Reversed Scandinavian",
@@ -337,10 +340,10 @@
     "strategy": "Takes the pawn and wins central material, but the e8-h5 diagonal is already open after ...f5 and stays so. Black has to be ready to give the pawn back or to defend the loosened king's side."
   },
   "1.Nc3 f5 2.e4 d6": {
-    "strategy": "Declines the pawn and stays flexible: the d-pawn guards e5 and the c8 bishop gets a diagonal for recapturing on f5. White is left with the freer centre, though, and the open line to Black's king needs watching."
+    "strategy": "Declines the pawn and covers e5, but does nothing against the centre: 3.d4 builds a broad pawn centre at once. Black keeps the loosened king's side and has gained nothing for it, so White is clearly more comfortable."
   },
   "1.Nc3 f5 2.e4 Nf6": {
-    "strategy": "Develops and attacks the e4 pawn. If White takes on f5, Black regains the pawn by freeing the c8 bishop with a central pawn move, so nothing is lost; the game stays flexible, with White holding the broader centre."
+    "strategy": "Develops and attacks the e4 pawn, but 3.e5 drives the knight away at once. White gets a pawn wedge in the centre and extra space with a gain of time, and Black's loosened king's side has no compensation."
   },
   "1.Nc3 f5 2.e4 fxe4 3.d3": {
     "name": "Dunst Opening: Kluever Gambit",

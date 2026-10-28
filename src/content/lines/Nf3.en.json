@@ -95,7 +95,7 @@
     "strategy": "Hits e5 with a pawn instead of taking it, but lets Black push on with tempo: ...e4 attacks the f3 knight and gains space. White passes up the free pawn for a game in which Black has counterplay."
   },
   "1.Nf3 e5 2.Nxe5 Nc6": {
-    "strategy": "Attacks the knight, but White can simply trade it for doubled c-pawns, so Black ends up a pawn down with a damaged structure. The open d-file and the c8-bishop's diagonal are thin compensation."
+    "strategy": "Attacks the knight, and if White trades on c6 the recapture doubles the c-pawns but opens the d-file and the c8-bishop's diagonal. Black is still a pawn down, but this is as good as most tries: playable, not more."
   },
   "1.Nf3 e5 2.Nxe5 d6": {
     "strategy": "Kicks the knight at once and opens lines for the c8-bishop and the queen. Black cannot win the pawn back directly, so the plan is a lead in development against a knight that has spent its time grabbing a pawn."
@@ -110,7 +110,7 @@
     "strategy": "Retreats the knight to safety and keeps the extra pawn. Black's knight stands developed on c6, so Black has some lead in development for the pawn, but White has only to finish developing to stay ahead."
   },
   "1.Nf3 e5 2.Nxe5 Nc6 3.Nc4": {
-    "strategy": "Keeps the knight and the pawn, but ...d5 hits the knight again at once, so White loses another tempo while Black builds the centre. Playable only because White is a pawn up."
+    "strategy": "Keeps the extra pawn for the moment, but ...d5 hits the knight at once and it has to move again, so White loses time while Black takes the centre. Most of White's advantage goes with the tempo."
   },
   "1.Nf3 e5 2.Nxe5 Nc6 3.Nxc6 dxc6": {
     "name": "Zukertort Opening: The Walrus",
@@ -132,7 +132,7 @@
     "strategy": "Takes space on the queenside and controls d5, a flexible set-up that keeps d4 and a fianchetto available. It does not punish the f6 weakness at once, though, and lets Black settle a centre of its own."
   },
   "1.Nf3 f6 2.e4 Nh6": {
-    "strategy": "Puts the knight on the rim because f6 is taken by its own pawn. White's d-pawn opens the queen's bishop against the knight at once, and Bxh6 would wreck Black's kingside pawns, so Black loses time before the position is even equal."
+    "strategy": "Develops the knight to the rim, since the f-pawn took f6 from it. After d4 the c1-bishop eyes the knight, so Black retreats to f7 or accepts doubled pawns after Bxh6. Black is cramped whatever it plays here, and this is no worse than the other tries."
   },
   "1.Nf3 f6 2.e4 e6": {
     "strategy": "Controls d5 and frees the f8-bishop, the sound way to build a centre after ...f6. Black is cramped, since the f-pawn takes the natural square from the g8-knight and the e8-h5 diagonal stays weak, but the structure is sound."
@@ -374,6 +374,9 @@
   },
   "1.Nf3 Na6 2.e4 g6": {
     "strategy": "Fianchettoes the king's bishop to attack the centre from a distance instead of occupying it. Black lets White build a broad centre and counts on piece pressure and a later pawn break; the awkward knight on a6 can find its way to c7."
+  },
+  "1.Nf3 Na6 2.e4 d6": {
+    "strategy": "Holds e5 and opens the c8-bishop, a modest move that keeps every set-up open. White keeps the lead in space and the rim knight still needs a useful square, but Black's structure is sound and the pieces can come out freely."
   },
   "1.Nf3 Nh6 2.d4": {
     "strategy": "Takes the centre at once. The knight on h6 sits on the rim, eyeing only f5 and g4 and doing nothing for the centre, so White gains space with no challenge to it and Black must catch up in development."

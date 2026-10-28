@@ -10,7 +10,7 @@
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 Bc5": {
     "name": "Italian Game: Two Knights Defence, Traxler Counterattack",
     "background": "Named after the Czech problemist Karel Traxler, who played it against Reinisch in 1890; in the United States and Britain it is also called the Wilkes-Barre Variation, a name Frank Marshall gave it. No grandmaster has adopted it regularly, though Beliavsky and Shirov have played it in top competition.",
-    "strategy": "A venomous trap: Black ignores f7 and attacks f2, so a greedy Nxf7 runs into ...Bxf2+. But the simple bishop capture on f7 wins a pawn, and Black must prove enough activity for it. Objectively dubious, though no clear refutation is known and it has been played even at top level."
+    "strategy": "A trap rather than a sound idea: Black ignores f7 and eyes f2, so a greedy Nxf7 runs into ...Bxf2+. But Bxf7+ wins the pawn cleanly, since the knight on g5 guards the bishop and the king must step aside, and White keeps a lasting edge."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 Nxe4": {
     "name": "Italian Game: Two Knights Defence, Ponziani-Steinitz Gambit",
@@ -23,10 +23,10 @@
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 Bc5 5.Nxf7": {
     "name": "Italian Game: Two Knights Defence, Traxler Counterattack, Knight Sacrifice Line",
     "background": "The Traxler Counterattack was first seen in the game J. Reinisch against Karel Traxler at Hostouň in 1890, which went through this position with 5.Nxf7 Bxf2+ and ended in checkmate for Black.",
-    "strategy": "Takes the pawn and forks the queen and rook, the knight guarded by the bishop on c4. The catch is the answering bishop sacrifice on f2, which drags the king into the open; the complications that follow are thought to be roughly balanced, so White gets a sharp game rather than a clear edge."
+    "strategy": "Takes the pawn with a fork on the queen and rook, but ...Bxf2+ drags the king into the open and the complications that follow are about level. White gives up the clear edge that Bxf7+ keeps, for a sharp game in which White's king is the one in danger."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 Bc5 5.d4": {
-    "strategy": "Opens the centre and hits the c5-bishop and the e5 pawn at once, while the knight keeps its eye on f7. It gives Black time for the counter-thrust ...d5 against the c4-bishop, so White gets a sharp, unclear game rather than a clear edge."
+    "strategy": "Opens the centre and hits the c5-bishop and the e5 pawn at once, but ...d5 answers immediately against the c4-bishop and the game levels out. Bxf7+ would have won a pawn outright, so this gives away the edge."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 Bc5 5.Bxf7+ Ke7": {
     "strategy": "The usual answer: the knight on g5 guards the bishop, so the king cannot take it and steps to e7, giving up castling for good. Black is a pawn down with an exposed king, and has to rely on active pieces and the pressure on f2."
@@ -36,13 +36,16 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 Bc5 5.Bxf7+ Ke7 6.d4": {
     "name": "Italian Game: Two Knights Defence, Traxler Variation, Trencianske-Teplice Gambit",
-    "strategy": "Opens the centre at the price of giving back the extra pawn: d4 attacks the bishop on c5 and the e5 pawn while Black's king is stuck on e7. It leaves the bishop on f7 held only by the knight on g5, so White risks more than a simple retreat would."
+    "strategy": "Gives the extra pawn back to open the centre: d4 hits the c5-bishop and the e5 pawn, but the bishop on f7 is left held only by the g5 knight. White throws away its edge for a game full of risk."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 Bc5 5.Bxf7+ Ke7 6.Bb3": {
-    "strategy": "Pulls the bishop back to safety, since on f7 it depends on the g5 knight alone, and keeps the extra pawn. Black's king is stuck on e7 with castling gone for good, so White is slightly better, but Black's active pieces and the bishop on c5 pressing on f2 give real counterplay."
+    "strategy": "Pulls the bishop back and keeps the extra pawn, but White's edge is smaller than with the retreat to c4. Black's king is stuck on e7 with castling gone, yet the c5-bishop pressing on f2 gives Black real counterplay. Sound, but it lets some of the advantage slip."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 Bc5 5.Bxf7+ Ke7 6.Bd5": {
-    "strategy": "Retreats to the centre, where the e-pawn protects the bishop and it presses on the c6-knight and the g8 corner. If Black trades a knight for it, the pawn recaptures with an attack on c6; White keeps the extra pawn while Black's king stays awkward on e7."
+    "strategy": "Retreats to the centre, where the e-pawn guards it, and keeps the extra pawn. Black can trade the f6-knight for it, and the recapture exd5 attacks the c6-knight; White keeps the pawn but loses part of the edge. Sound, a little less accurate than the retreat to c4."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 Bc5 5.Bxf7+ Ke7 6.Bc4": {
+    "strategy": "Retreats the bishop to c4, so it no longer depends on the g5 knight, and keeps the extra pawn. Black's king is stuck on e7 and cannot castle, so White finishes its development with an edge while Black's play against f2 stays manageable."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 Bc5 5.Nxf7 Bxf2+": {
     "strategy": "The point of the whole line: the bishop takes on f2 with check and drags the white king into the open before the fork on the queen and rook can be used. Black gives a piece for a pawn to gain time and attack the king, and the sacrifice is judged to hold the balance."
@@ -106,10 +109,10 @@
     "strategy": "Counter-intuitive, but the only good answer: the bishop leaves the attacked square and guards g2, so a queen capture on d5 only loses time to a knight development that hits it. White keeps the extra pawn and the pressure on f7 while Black has to prove the compensation."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bxb5": {
-    "strategy": "Takes the pawn, but ...Qxd5 attacks the bishop and the g2 pawn at once, so White loses time defending and the pressure on f7 fades. Black has the easier game."
+    "strategy": "Takes the pawn, but ...Qxd5 attacks the bishop and the g2 pawn at once, so White loses time defending and the pressure on f7 fades. The game stays level, with Black the easier side to play."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.dxc6": {
-    "strategy": "Wins the knight, but the b-pawn takes the bishop in return, so White's second attacker on f7 is gone and the advanced c6 pawn is hard to hold. Black equalises."
+    "strategy": "Wins the knight, but ...bxc4 takes the bishop in return, so White's attack on f7 loses its second piece and the advanced c6 pawn is hard to hold. The game is level, and Black has nothing to fear."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 h6": {
     "strategy": "Chases the knight, but the sacrifice on f7 refutes it: after the king takes, the d-pawn captures the knight on c6, leaving White two pawns up against an exposed king."
@@ -121,10 +124,10 @@
     "strategy": "Takes the pawn back with the knight, which also uncovers the queen's attack on the g5 knight, so White must deal with that first. Black rids itself of the cramping pawn and opens the game for its pieces, though White is slightly more comfortable."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 Bg4": {
-    "strategy": "Develops the bishop with an attack on the queen and prepares to retake on d5, but the bishop is soon chased off and White keeps a small, lasting edge."
+    "strategy": "Develops with an attack on the queen and eyes a recapture on d5, but f3 answers it at once and the bishop is soon driven off or traded for the knight. White keeps the extra pawn and a lasting edge."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 b5 6.Bf1 Qxd5": {
-    "strategy": "Takes the pawn at once, but Nc3 hits the queen with tempo and drives it off the long diagonal, after which White takes the b5 pawn after all and Black has no threats."
+    "strategy": "Takes the pawn at once, but Nc3 hits the queen with tempo and drives it off the long diagonal, after which White takes the b5 pawn after all. Black has no threats to show for it. Playable, but it loses time."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Na5 6.Bb5+": {
     "name": "Italian Game: Two Knights Defence, Polerio Defence, Bishop Check Line",
@@ -163,7 +166,7 @@
     "strategy": "Defends the extra pawn with a developing move instead of challenging the knight on d4. White keeps the pawn, but Black's central knight stays put and the knight on g5 can be harried, so the game stays unclear and Black's pieces are active."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Nd4 6.d6": {
-    "strategy": "Returns the extra pawn at once: after the queen takes, 7.Bxf7+ wins the f-pawn and chases the king to e7, but Black keeps the central knight and good play for the pawn. The greedy 7.Nxf7? runs into ...Qc6, hitting both the bishop and g2."
+    "strategy": "Gives the extra pawn back at once. After ...Qxd6 the f7 pawn is attacked twice and guarded by the king alone, but Black's knight stays strong on d4 and Black has good play. A playable way to fight for the initiative, without keeping the pawn."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Nd4 6.c3 b5": {
     "strategy": "Answers the attack on the knight with an attack on the bishop: if White simply takes the knight, Black takes the bishop, a trade that removes a key attacker of f7. White keeps the extra pawn but must now retreat the bishop."
@@ -177,25 +180,28 @@
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Nxd5 6.d4": {
     "name": "Italian Game: Two Knights Defence, Lolli Attack",
     "background": "Bobby Fischer thought the Lolli Attack, 6.d4, very strong.",
-    "strategy": "Takes the centre and attacks e5 while keeping the pressure on f7: the knight on d5 is the only piece standing between the bishop and f7. White gets a lasting edge without the complications of a sacrifice."
+    "strategy": "Takes the centre and attacks e5 while keeping the pressure on f7: the knight on d5 is the only piece standing between the bishop and f7. A good, safer alternative to the sacrifice, giving White a lasting edge without its complications."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Nxd5 6.Nxf7": {
     "name": "Italian Game: Two Knights Defence, Fried Liver Attack",
     "background": "Also called the Fegatello Attack, after an Italian dish. It has been known for many centuries, the earliest known example being a game played by Giulio Cesare Polerio before 1606.",
-    "strategy": "The knight sacrifices itself to drag the king into the open: it forks the queen and rook, and after the king takes it, a queen check chases the king to the middle of the board. White gets a fierce attack, and defending is much harder than attacking."
+    "strategy": "The knight sacrifices itself to drag the king into the open: it forks queen and rook, and after the king takes, a queen check chases it to the middle of the board. White gets a fierce initiative for the piece, and defending is much harder than attacking."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Nxd5 6.Ne4": {
-    "strategy": "Retreats the attacked knight to a central square instead of sacrificing it or supporting it by opening the bishop's diagonal. White gives up the attack on f7, so Black develops without difficulty, and the early knight moves have gained White nothing."
+    "strategy": "Retreats the attacked knight to the centre, but ...f5 kicks it away at once. White gives up the attack on f7, so Black develops without difficulty, and the early knight moves have gained nothing."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Nxd5 6.d4 Bb4+": {
     "name": "Italian Game: Two Knights Defence, Pincus Variation",
-    "strategy": "Checks first, so that after the usual block the bishop can return to e7 with an attack on the knight on g5. Black develops with tempo, but White's centre and the weakness on f7 still give White the more comfortable game."
+    "strategy": "Checks first so that the bishop can return to e7 hitting the g5 knight, but c3 blocks the check for free, and after the return Nxf7 and Qf3+ drag the king into the open. The check wins no time."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Nxd5 6.d4 exd4": {
-    "strategy": "Takes the second central pawn and opens the e-file: Black is a pawn up with the strong knight on d5 intact. White castles and uses the open file and the knight on g5 against f7 and the king, so Black must defend precisely for the extra pawn to count."
+    "strategy": "Takes the second central pawn and opens the e-file, with the strong knight on d5 intact. But White castles, brings the rook to the e-file and attacks f7 with the g5 knight, so the extra pawn is hard to keep and the king is under fire."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Nxd5 6.d4 Be6": {
     "strategy": "Covers f7 and supports the d5 knight, and invites the knight trade on e6 that opens the f-file for Black at the price of doubled e-pawns. It is the solid way to meet the attack, but White keeps a lasting edge in the centre."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Nxd5 6.d4 Nxd4": {
+    "strategy": "Takes the pawn with the c6-knight instead of the e-pawn, so the e-pawn stays on e5 and the d5 knight keeps its central post. White's c3 challenges the knight at once, but Black can answer by hitting the bishop, and the game stays level."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Nf6 4.Ng5 d5 5.exd5 Nxd5 6.Nxf7 Kxf7": {
     "strategy": "Forced, since the knight on f7 forks the queen and rook. Black wins a piece for a pawn, but the king is dragged to the centre, and the queen check that follows decides whether Black can survive the attack."

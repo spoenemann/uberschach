@@ -34,20 +34,23 @@
     "strategy": "A flexible, solid move: it controls e5 and opens the c8-bishop, leaving the g-pawn to decide later how f4 is held. The pawn is not protected yet, so White's d4, opening the c1-bishop, forces Black to commit the g-pawn anyway."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.Bc4": {
-    "strategy": "Aims the bishop at f7 and prepares to sacrifice the f3 knight to open the f-file, if Black pushes the g-pawn. White heads for a sharp, tactical game with several pieces bearing down on the king's side, and Black must defend accurately."
+    "strategy": "Aims the bishop at f7 and invites ...g4, with a knight sacrifice to follow, but the attack falls short against the right defence, so White is the one taking the risk. A practical gambit, not a sound plan."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.d4": {
     "name": "Vienna Gambit, with Max Lange Defence: Pierce Gambit",
-    "strategy": "Challenges the centre at once and opens the c1 bishop against the f4 pawn. If Black pushes the g-pawn, White usually sacrifices the knight for activity, so this is a sharp pawn-centre gambit rather than a quiet attempt to recover the pawn."
+    "strategy": "Challenges the centre at once and opens the c1 bishop against f4. If Black pushes the g-pawn, White usually sacrifices the knight for activity, but the sacrifice leaves White worse against accurate play."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.h4": {
-    "strategy": "Undermines the g5 pawn and sets up a knight sacrifice if Black pushes on. The black knight on c6 is no help in defending the kingside, but the attack has to work, since otherwise White is simply a piece down."
+    "strategy": "Hits the g5 pawn at once, but spends a flank pawn while both bishops are still at home. Black keeps the extra pawn and the more comfortable game, and White has to show compensation for it."
+  },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.g3": {
+    "strategy": "Attacks the f4 pawn with a pawn instead of sacrificing a piece. Black keeps the extra pawn for now, but White gets a level game, with a pawn break against g5 in reserve."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.Bc4 g4": {
     "strategy": "Chases the knight and keeps the gambit pawn on f4, daring White to play the knight sacrifice. Black accepts a sharp game in which the extra material has to be earned by accurate defence of a king that has not yet castled."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.Bc4 Bg7": {
-    "strategy": "A safer reply than the pawn push: the bishop develops on the long diagonal, the g-pawn stays at home and there is no knight sacrifice to survive. The price is time, since White can build a strong centre while the bishop on c4 keeps f7 under pressure."
+    "strategy": "A cautious reply that avoids the knight sacrifice, but it gives away the best of the position: White can build a strong centre while the bishop on c4 keeps f7 under pressure, and Black's extra pawn counts for little."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.Bc4 d6": {
     "strategy": "Opens the c8-bishop and takes e5 under control, keeping ...g4 for later. It is slower than the pawn push: White uses the time to build the centre or to start the attack on f7, and Black must still decide how to meet the sacrifice."
@@ -55,7 +58,7 @@
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.Bc4 g4 6.O-O": {
     "name": "Vienna Game: Hamppe-Muzio Gambit",
     "background": "Named after the Austrian theoretician Carl Hamppe, it is a close relative of the Muzio Gambit of the King's Gambit.",
-    "strategy": "Castles and lets the knight go: White gives a piece for rapid development, a rook on the f-file and the bishop aimed at f7. It is a sharp bet on a powerful attack against Black's king."
+    "strategy": "Castles and lets the knight go: a piece for a lead in development, a rook on the f-file and a bishop aimed at f7. The attack is real, but Black comes out better with correct defence, and the quiet retreat does better."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.Bc4 g4 6.d4": {
     "strategy": "Takes the centre and opens the c1-bishop onto f4 before castling, with the knight on f3 offered for the same open lines. White's king stays in the middle a move longer, but the pawn adds a central lead to the attack."
@@ -63,48 +66,51 @@
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.Bc4 g4 6.Ne5": {
     "strategy": "Moves the attacked knight with the idea that works elsewhere, but the black knight stands on c6 and simply takes it. ...Nxe5 wins the piece, and the knight on e5 also attacks the bishop on c4."
   },
+  "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.Bc4 g4 6.Ng1": {
+    "strategy": "Gives up the sacrifice and withdraws the attacked knight, so White stays level on pieces and avoids the attack the other moves invite. White is left a pawn down and ...Qh4+ follows, but it is the safest way out of a bad position."
+  },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.Bc4 g4 6.O-O gxf3": {
     "name": "Vienna Gambit, with Max Lange Defence: Hamppe-Muzio Gambit",
     "strategy": "Takes the knight, the natural reply. Black is a piece up, but the king is still in the middle, the g-file is open and White's queen and bishop point at the kingside, so Black must hand material back or complete development before the attack lands."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.Bc4 g4 6.O-O Bc5+": {
-    "strategy": "Gains a tempo with check before taking the knight: White has to move the king or block, while the knight on f3 stays under attack from the g-pawn. The bishop develops with effect and the extra material is kept."
+    "strategy": "The check looks forcing, but 7.d4 blocks it and attacks the bishop at once, so Black cannot retreat the bishop and take the knight in one move. White gets a strong centre and the initiative against the uncastled king, and Black's winning edge turns into a worse position."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.Bc4 g4 6.O-O d6": {
-    "strategy": "Develops a piece before taking the knight and opens the c8-bishop for the fight on the kingside. The knight stays under attack, so Black gives up nothing, but White gets a free move to prepare the attack."
+    "strategy": "Develops a piece and opens the c8-bishop but turns down the knight: White retreats it with Ne1 and soon wins the f4 pawn back with Rxf4. Black keeps a pawn, yet the winning advantage of 6...gxf3 shrinks to a level game."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.d4 g4": {
     "strategy": "Kicks the knight at once and keeps the f4 pawn. With d4 played, White's c1-bishop already eyes that pawn, so Black asks White to commit the knight or retreat it. Black gains space and time, at the cost of loosening the kingside pawns."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.d4 d6": {
-    "strategy": "A solid answer: the c8-bishop is freed and e5 is covered, while the chain of pawns on f4 and g5 stays at home instead of advancing. White keeps its central lead and attacking chances, but Black has time to consolidate the extra pawn."
+    "strategy": "Frees the c8-bishop and covers e5, but lets the moment pass. Without the kick ...g4, White gets time for g3, hitting the f4 pawn, or for a central push, and Black's extra pawn counts for little. Solid, but it hands back the edge."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.d4 Bg7": {
-    "strategy": "Develops the bishop against the d4 pawn, where it joins the knight in challenging the centre. It does not defend the g5 and f4 pawns, so White can go after them at once and Black has to defend carefully."
+    "strategy": "Develops the bishop against the d4 pawn, but White simply plays d5, driving the knight from c6 with a gain of time. Black stays a pawn up and the position is sound, yet White's centre and development leave the game level."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.d4 g4 6.Bc4": {
     "strategy": "Aims the bishop at f7 and leaves the knight en prise, ready to give it up for open lines against the king. With a pawn on d4 White also holds a strong centre and has the c1-bishop pointing at f4, which makes the sacrifice more than a bare attack."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.d4 g4 6.Ne5": {
-    "strategy": "Moves the attacked knight to the centre and offers the trade on e5, but after ...Nxe5 dxe5 Qh4+ the block on g3 loses material to ...fxg3, so the king must step out. Black keeps the extra pawn, the strong f4 pawn and the initiative."
+    "strategy": "Keeps all the pieces by moving the attacked knight to the centre, so White need not sacrifice it. The cost is the king: after ...Qh4+ it has to step aside, since blocking with g3 fails to ...fxg3, and Black keeps the f4 pawn and the initiative."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.d4 g4 6.Bxf4": {
-    "strategy": "Takes the f4 pawn but leaves the knight en prise: ...gxf3 wins it, and if the queen retakes, ...Nxd4 attacks the queen and wins the d4 pawn as well."
+    "strategy": "Wins back the f4 pawn and develops the bishop at once, leaving the knight to be taken. After ...gxf3 White recaptures with the g-pawn and gets an open g-file for the rook, but Black is a piece up for a pawn and the attack is less pointed than the one on f7."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.d4 g4 6.Bc4 gxf3": {
     "strategy": "Takes the knight, the most common reply. Black is a piece up, but the king has not castled, the g-file is open and White's queen recaptures with play against the f4 pawn and the bishop eyes f7, so Black has to consolidate quickly."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.d4 g4 6.Bc4 Bg7": {
-    "strategy": "Develops the bishop against the d4 pawn and keeps the threat of ...gxf3, but it lets White save the attacked knight. Black stays a pawn up with a sound position, yet passes up a free piece while the bishop on c4 still eyes f7."
+    "strategy": "Develops the bishop against the d4 pawn instead of taking the knight at once. White regains the f4 pawn with Bxf4, and after ...gxf3 Qxf3 the bishop and queen aim at f7, so Black's winning advantage shrinks to a level game."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.d4 g4 6.Bc4 Nh6": {
-    "strategy": "Guards both f7 and the g4 pawn, so the bishop and queen have less to aim at, and the capture on f3 stays in reserve. The knight stands on the rim and blocks its own bishop's diagonal, and White can save the attacked knight."
+    "strategy": "Guards f7 and the g4 pawn, but the knight sits on the rim and gets in the way of the f8-bishop. White castles or takes back on f4, when the bishop attacks the knight on h6, and Black is cramped and under pressure despite the extra material."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.h4 g4": {
     "strategy": "Kicks the knight, the natural continuation of ...g5, and wins space. The knight's only active square is g5, and the sacrifice that follows brings the attack to the black king, so Black must be ready for a sharp and forcing game."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.h4 gxh4": {
-    "strategy": "Takes the pawn, trading Black's g-pawn for White's h-pawn, so Black keeps the extra pawn. The price is a king without its g-pawn and an open g-file and h-file, while White's knight recaptures on h4 with a direct route to f5."
+    "strategy": "Takes the pawn, but the king is left without its g-pawn and the g-file opens. White answers with d4, a strong centre and quick development, and Black's extra pawns on f4 and h4 cannot both be held, so the capture gives back more than it gains."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.h4 Bg7": {
     "strategy": "Develops the bishop and protects the rook on h8 but leaves g5 to be taken: after hxg5 the extra pawn is gone, and taking back with the queen loses the queen to the knight on f3. White gets the h-file and a free hand in development."
@@ -130,6 +136,6 @@
     "strategy": "Supports the g4 pawn with the c8 bishop and covers e5, but leaves the knight on g5 where it is, still pressing on f7. A slower reply than driving the knight away, so Black has to be ready for the sacrifice on f7 anyway."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.h4 g4 6.Ng5 Nh6": {
-    "strategy": "Covers f7 and the g4 pawn with a piece rather than driving the knight away. It also takes the h6 square from the h-pawn, so White's knight stays on g5 for good, and the rim knight blocks the bishop. Sound, but it hands White the initiative."
+    "strategy": "Covers f7 and the g4 pawn with a piece instead of driving the knight away, but it is a rim knight in front of the f8-bishop, and the knight on g5 is left where it is. White builds a full centre and wins back the f4 pawn, and Black ends up defending."
   }
 }

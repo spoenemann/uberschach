@@ -37,7 +37,11 @@
         },
         {
           "san": "Nf6",
-          "rating": 2
+          "rating": 3
+        },
+        {
+          "san": "g6",
+          "rating": 3
         },
         {
           "san": "Na6",
@@ -84,15 +88,15 @@
           "rating": 2
         },
         {
-          "san": "g6",
-          "rating": 2
-        },
-        {
           "san": "h6",
           "rating": 2
         },
         {
           "san": "h5",
+          "rating": 2
+        },
+        {
+          "san": "b5",
           "rating": 2
         },
         {
@@ -109,10 +113,6 @@
         },
         {
           "san": "Kd7",
-          "rating": 1
-        },
-        {
-          "san": "b5",
           "rating": 1
         },
         {
@@ -188,16 +188,16 @@
       ],
       "moves": [
         {
-          "san": "Qb3",
+          "san": "cxd5",
           "rating": 5
         },
         {
-          "san": "cxd5",
+          "san": "Qb3",
           "rating": 4
         },
         {
           "san": "Nc3",
-          "rating": 4
+          "rating": 3
         }
       ]
     },
@@ -225,11 +225,11 @@
       "line": "1.d4 d5 2.c4 Bf5 3.cxd5 Bxb1",
       "moves": [
         {
-          "san": "Qa4+",
+          "san": "Rxb1",
           "rating": 5
         },
         {
-          "san": "Rxb1",
+          "san": "Qa4+",
           "rating": 3
         },
         {
@@ -251,7 +251,7 @@
         },
         {
           "san": "Nd7",
-          "rating": 3
+          "rating": 2
         }
       ]
     },
@@ -322,7 +322,7 @@
         },
         {
           "san": "Qb3",
-          "rating": 2
+          "rating": 3
         }
       ]
     },
@@ -368,7 +368,7 @@
         },
         {
           "san": "e3",
-          "rating": 2
+          "rating": 3
         }
       ]
     },
@@ -381,7 +381,7 @@
         },
         {
           "san": "dxc4",
-          "rating": 3
+          "rating": 2
         },
         {
           "san": "Nc6",
@@ -398,11 +398,11 @@
         },
         {
           "san": "e3",
-          "rating": 2
+          "rating": 3
         },
         {
           "san": "e4",
-          "rating": 2
+          "rating": 3
         }
       ]
     },
@@ -422,7 +422,7 @@
         },
         {
           "san": "c5",
-          "rating": 3
+          "rating": 2
         }
       ]
     },
@@ -452,7 +452,7 @@
         },
         {
           "san": "Bxd2+",
-          "rating": 3
+          "rating": 2
         },
         {
           "san": "Be7",
@@ -475,11 +475,11 @@
         },
         {
           "san": "c5",
-          "rating": 3
+          "rating": 2
         },
         {
           "san": "Bb4+",
-          "rating": 3
+          "rating": 2
         }
       ]
     },
@@ -507,16 +507,20 @@
       "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.g3",
       "moves": [
         {
-          "san": "Be6",
+          "san": "Nge7",
           "rating": 5
+        },
+        {
+          "san": "Be6",
+          "rating": 2
         },
         {
           "san": "Bg4",
-          "rating": 5
+          "rating": 2
         },
         {
           "san": "Bf5",
-          "rating": 3
+          "rating": 2
         }
       ]
     },
@@ -533,16 +537,20 @@
       "line": "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.Nbd2",
       "moves": [
         {
-          "san": "Bg4",
+          "san": "Nge7",
           "rating": 5
         },
         {
+          "san": "Bg4",
+          "rating": 2
+        },
+        {
           "san": "Qe7",
-          "rating": 4
+          "rating": 2
         },
         {
           "san": "f6",
-          "rating": 3
+          "rating": 2
         }
       ]
     },
@@ -561,7 +569,7 @@
         },
         {
           "san": "h3",
-          "rating": 4
+          "rating": 3
         },
         {
           "san": "a3",
@@ -577,12 +585,12 @@
           "rating": 5
         },
         {
-          "san": "Bh5",
+          "san": "Be6",
           "rating": 3
         },
         {
-          "san": "Be6",
-          "rating": 3
+          "san": "Bh5",
+          "rating": 2
         }
       ]
     },

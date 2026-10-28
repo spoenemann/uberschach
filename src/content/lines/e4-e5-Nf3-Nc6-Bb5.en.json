@@ -79,28 +79,31 @@
     "strategy": "Hits the bishop at once and prepares d4. The black bishop, which only copies White's move and attacks nothing undefended, must retreat or be exchanged, so White builds a broad pawn centre with tempo."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4 4.Bxc6": {
-    "strategy": "Doubles Black's pawns at once, trusting the structure to tell in the long run. Black gets the bishop pair, and after the usual ...dxc6 the grab on e5 is not free, since ...Qd4 regains the pawn: a small, safe edge but no initiative."
+    "strategy": "Doubles Black's pawns at once, trusting the structure to tell in the long run. Black keeps the bishop pair and open lines, and after ...dxc6 the e5 pawn is not free, since ...Qd4 regains it. White gets a safe, modest game with no initiative and has spent a tempo on the bishop."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4 4.O-O": {
     "strategy": "Castles and ignores the wandering bishop, which attacks nothing that is not defended. Sound and flexible, but it neither doubles Black's pawns nor gains the tempo that c3 does, so White's edge is smaller."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4 4.c3 Ba5": {
-    "strategy": "Keeps the bishop on the diagonal towards White's king instead of retreating to c5, but it leaves e5 hanging to Bxc6 and Nxe5, and the c3 pawn takes away the d4 square that would let Black's queen win the pawn back. Black ends up a pawn down for the bishop pair."
+    "strategy": "Keeps the bishop active on the a5-e1 diagonal instead of retreating, eyeing the c3 pawn. The position is already uncomfortable: e5 is loose and c3 stops ...Qd4, so White gains time and space. But it holds together better than the other retreats, which cost more."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4 4.c3 Bc5": {
-    "strategy": "Retreats to the active diagonal towards f2, keeping an eye on White's king. The price is time: White has c3 for free, so d4 builds a broad centre with a tempo, and Black has to play against it with pieces."
+    "strategy": "Retreats to the active diagonal towards f2, but gives White c3 for free. d4 then attacks the bishop and e5 at once and builds a broad pawn centre with tempo. Black has no good answer to that and stands clearly worse."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4 4.c3 Be7": {
     "strategy": "Retreats all the way home. The bishop is safe from every attack, but it is passive on e7 and Black has lost a tempo, so White builds the centre without hindrance and Black spends the game catching up."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4 4.c3 Ba5 5.Bxc6": {
-    "strategy": "Takes the knight before Black can regroup: after either recapture the e5 pawn is loose, and ...Qd4 is no longer a defence because the c3 pawn covers d4. White wins a pawn."
+    "strategy": "Takes the knight before Black can regroup: e5 is loose, and ...Qd4 is no defence since c3 covers d4. White wins a pawn at once, but ...Qe7 gives Black counterplay against e4 and the edge is smaller than the extra pawn suggests."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4 4.c3 Ba5 5.O-O": {
     "strategy": "Castles first. Nothing hangs, but the chance to exploit the loose e5 pawn passes: Black gets a move to defend it or to counterattack e4, and the grip of the c3 pawn on d4 matters less. Sound but slow."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4 4.c3 Ba5 5.Ba4": {
     "strategy": "Retreats and keeps the bishop, avoiding the exchange. It also gives up the quick pawn win: Black gets time to defend e5, so the game settles into a calmer fight in which White has no obvious edge."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4 4.c3 Ba5 5.Qa4": {
+    "strategy": "Attacks the bishop on a5, which only the c6 knight defends, so Bxc6 now threatens to win it. Black must retreat the bishop or cover c6, and White follows with d4: a broad centre gained with tempo while e5 stays under pressure."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bb4 4.c3 Ba5 5.Bxc6 dxc6": {
     "name": "Ruy Lopez: Alapin Defence, Alapin Gambit",
@@ -121,19 +124,19 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bc5 4.b4": {
     "name": "Ruy Lopez: Classical Variation, Spanish Wing Gambit",
-    "strategy": "Sacrifices the b-pawn to pull Black's bishop off its diagonal and then gain time with c3 and a pawn centre. Black can take the pawn and retreat with the extra material, and White must prove that the centre and open lines pay for it."
+    "strategy": "Sacrifices the b-pawn to pull Black's bishop off its diagonal, then gains time with c3 and builds a pawn centre. Black can take the pawn and keep it, but White's lead in the centre and in development gives real compensation: sound, though Black has the easier game."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bc5 4.c3 Bb6": {
     "name": "Ruy Lopez: Classical Variation, Charousek Variation",
-    "strategy": "Steps back before d4 can hit it, keeping the bishop on the diagonal towards f2 and out of reach of the pawns. White gets to build its broad centre, so Black has to undermine it with piece play."
+    "strategy": "Steps back before d4 can hit it, keeping the bishop on the diagonal towards f2 and out of immediate reach. Sound, but White gets its broad centre without a fight and is better; Black has to undermine it with piece play."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bc5 4.c3 Qe7": {
     "name": "Ruy Lopez: Classical Defence, Boden Variation",
-    "strategy": "Defends e5 a second time and prepares to meet d4 with a retreat of the bishop to b6. Playable, but it brings the queen out early, blocks the e7 square, and leaves White free to build the full pawn centre it came for."
+    "strategy": "Defends e5 a second time and prepares to retreat the bishop, but the queen comes out early and takes the bishop's natural retreat square. d4 attacks the bishop and e5 at once, so White builds the full centre with tempo and Black falls behind in development."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bc5 4.c3 f5": {
     "name": "Ruy Lopez: Classical Variation, Cordel Gambit",
-    "strategy": "Counterattacks e4 at once, a sharp pawn offer that weakens the king. The better way to meet it is to strike in the centre with d4, while the weakened e8-h5 diagonal soon invites a queen check."
+    "strategy": "Counterattacks e4 at once with a pawn offer that weakens the king's diagonal. White's central strike with d4 leaves the game level, so the gambit is sound, if sharp; Black must be ready for open lines and an exposed king."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Bc5 4.c3 d5": {
     "name": "Ruy Lopez: Classical Variation, Konikowski Gambit",
@@ -171,7 +174,7 @@
     "strategy": "Takes the d-pawn and keeps the c6 knight pinned, so Black must recapture with the queen. Nc3 then hits it at once, and the pinned knight cannot help the loose e5 pawn, so White gains time and keeps the initiative."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d5 4.c3": {
-    "strategy": "Builds the centre with d4 in mind instead of taking either pawn. It gives up the clean gain that taking on d5 or e5 offers: after ...dxe4 White can only win the pawn back with Nxe5, so the extra pawn is gone."
+    "strategy": "Prepares d4 but ignores both centre pawns and leaves e4 to be taken. After ...dxe4 the natural way to win it back, Nxe5, runs into ...Qg5, which forks the knight and the undefended g2 pawn. White is left clearly worse."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d5 4.Nxe5 Qg5": {
     "strategy": "Forks the unprotected knight on e5 and the g2 pawn, which nothing defends while White's king is still on e1. White has to find the careful reply, since the natural-looking ones lose material; it is Black's trickiest try in this counter-gambit."
@@ -208,42 +211,42 @@
     "strategy": "Develops and guards e4, keeping d4 in reserve. It blocks the c-pawn, so the pawn centre has to be built with d4 alone, and it hands Black a free move to arrange its defence."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7": {
-    "strategy": "Breaks the pin and defends the pawn on e5 in one move: an exchange on c6 can now be answered by the bishop, so nothing is won on e5. Black keeps the stronghold, at the price of a cramped position in which the d6 pawn shuts in the dark-squared bishop."
+    "strategy": "Breaks the pin so the c6 knight can keep guarding e5, and an exchange on c6 can be answered by recapturing with the bishop. Black holds the stronghold on e5, but at the price of a cramped position in which the d6 pawn shuts in the king's bishop."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 exd4": {
-    "strategy": "Trades pawns before White can win one, but gives up the stronghold on e5. White's knight recaptures into the centre and keeps a lasting space edge, so Black must defend a cramped but solid position."
+    "strategy": "Trades the attacked pawn at once, so there is nothing left for d4 to win. White's knight recaptures into the centre and keeps a space edge, but Black's position is solid and the e5 pawn no longer needs defending; the pin on the c6 knight still has to be broken."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Nf6": {
     "strategy": "Counterattacks e4, but the pin on c6 makes it fail: dxe5 Nxe4 allows Qd5, which attacks the knight and f7 together, and Black loses at least a pawn."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7 5.Nc3": {
-    "strategy": "Guards e4 and renews the threat to e5: after the exchange on c6 and the capture on e5 the e4 pawn can no longer be won back by the bishop, so a pawn is really at stake. White develops and keeps the initiative while Black stays cramped."
+    "strategy": "Guards e4 and renews the threat to e5: after the exchange on c6 and the capture on e5 the bishop cannot win e4 back, so a pawn is really at stake. White develops with the initiative, but Black can ease the pressure by trading on d4."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7 5.c4": {
     "name": "Ruy Lopez: Steinitz Defence, Semi-Duras Variation",
     "strategy": "Gains space on the queenside but, instead of guarding e4, leaves it undefended, so the threat against e5 is gone: Black can trade on d4 or attack e4 with a developing move. White settles for a space edge with a looser centre."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7 5.d5": {
-    "strategy": "Gains space and kicks the c6 knight at once, giving up the pressure on e5 for a closed centre. Once the bishops are traded, White keeps a lasting space advantage in a slow manoeuvring game against a cramped Black position."
+    "strategy": "Gains space and kicks the c6 knight at once, closing the centre instead of pressing on e5. Once the bishops are traded White keeps a lasting space advantage in a slow manoeuvring game against a cramped Black position."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7 5.Nc3 Nf6": {
-    "strategy": "Develops with an attack on e4, so that capturing on e5 no longer wins a pawn: ...Bxe4 or ...Nxe4 regains it at once. Black completes development and holds the centre solidly."
+    "strategy": "Develops with an attack on e4, but White answers calmly: Bxc6 Bxc6 and then Qe2 holds e4 and keeps e5 under fire, with the d4 pawn and the f3 knight against one defender. Black has to resolve the centre on White's terms and stays slightly worse."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7 5.Nc3 exd4": {
-    "strategy": "Gives up the e5 stronghold, but removes the target at once, so no pawn can be won there. White's knight recaptures in the centre with more space, and Black gets a solid but cramped position."
+    "strategy": "Gives up the e5 stronghold, but removes the target at once, so no pawn can be won there. White's knight recaptures in the centre with more space, and Black gets a solid but cramped position that is the most reliable way to hold the balance."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7 5.Nc3 Be7": {
     "strategy": "Develops and prepares to castle, but leaves e4 unattacked, so White wins the e5 pawn: Bxc6 Bxc6 dxe5 dxe5 Qxd8+ Bxd8 Nxe5, and the bishop cannot take e4 because the knight on c3 guards it."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7 5.Nc3 Nf6 6.O-O": {
-    "strategy": "Brings the king to safety and keeps all the pressure on e5 and the option of exchanging on c6. It is the sound way to continue development; Black must soon decide how to resolve the tension in the centre."
+    "strategy": "Castles and develops, a natural move that lets most of the advantage slip: Black completes development without trouble and White keeps only a slight edge. The sharper Bxc6 keeps far more."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7 5.Nc3 Nf6 6.Bxc6": {
     "name": "Ruy Lopez: Steinitz Defence, Nimzowitsch Attack",
-    "strategy": "Trades the bishop for the knight to remove a defender of e5, but Black recaptures with the bishop, so the pawn structure stays intact and e5 is not really attacked. White gives up the bishop pair for little in return."
+    "strategy": "Trades the bishop for the knight that guards e5; after the recapture on c6 Qe2 holds e4 while d4 and the f3 knight bear down on e5 with a single defender. White keeps the initiative and Black must resolve the centre on White's terms."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7 5.Nc3 Nf6 6.Bg5": {
-    "strategy": "Pins the f6 knight against the queen, the piece that makes capturing on e5 unprofitable, and threatens to remove it. Black breaks the pin and the exchanges that follow leave e5 safe, so White gains little."
+    "strategy": "Pins the knight on f6 to the queen, to remove the piece that makes capturing on e5 unprofitable. Black breaks the pin and the trades that follow leave e5 safe, so White spends time for little and much of its advantage drifts away."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7 5.Nc3 Nf6 6.O-O Be7": {
     "name": "Ruy Lopez: Berlin Defence, Hedgehog Variation",
@@ -254,7 +257,7 @@
     "strategy": "Resolves the centre at once, before White's rook reaches the e-file, and so avoids the tactics around castling. The price is the e5 stronghold: White's knight recaptures into the centre with a freer game, but Black's pieces are well placed and the structure is sound."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 Bd7 5.Nc3 Nf6 6.O-O Qe7": {
-    "strategy": "Defends e5 once more, but the queen takes the natural square of the f8 bishop, so Black is slow to castle. Sound enough, yet it leaves Black cramped and White free to choose when to resolve the centre."
+    "strategy": "Defends e5 once more, but puts the queen behind the f6 knight: Bg5 pins the knight to it, Nd5 follows, and Black must wreck the kingside pawns or lose time. Black is cramped and clearly worse."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 d6 4.d4 exd4 5.O-O": {
     "name": "Ruy Lopez: Steinitz Defence, Centre Gambit",

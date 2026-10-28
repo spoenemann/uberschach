@@ -24,7 +24,7 @@
   },
   "1.e4 c5 2.Nf3 d6 3.b4": {
     "name": "Sizilianische Verteidigung: Flügelgambit, Verzögerte Variante",
-    "strategy": "Bietet einen Bauern an, um den c-Bauern von d4 wegzulocken, damit Weiß das Zentrum besetzen kann. Weiß erhält Raum und schnelle Entwicklung, steht aber einen Bauern im Minus, und sobald Schwarz geschlagen hat, ist der Bauer auf b4 ein lästiger Stachel, der auf c3 zielt, wohin der b1-Springer möchte."
+    "strategy": "Bietet einen Bauern an, um den c-Bauern von Schwarz von d4 wegzuziehen, damit Weiß das Zentrum besetzen kann. Die Kompensation durch Raum und schnelle Entwicklung reicht ungefähr aus, der Zug ist also spielbar, doch Weiß steht einen Bauern im Nachteil, und der schwarze Bauer b4 nimmt c3 ins Visier, wohin der Springer b1 will."
   },
   "1.e4 c5 2.Nf3 d6 3.Bb5+ Bd7": {
     "name": "Sizilianische Verteidigung: Moskauer Variante, Hauptvariante",
@@ -107,7 +107,7 @@
     "strategy": "Greift e4 sofort an, doch der Springer auf c6 bleibt gefesselt, sodass Weiß immer noch auf c6 tauschen und die Bauern von Schwarz verdoppeln kann. Schwarz gewinnt ein Tempo, aber die Fesselung bleibt lästig, und die Verteidigung von e4 kostet Weiß wenig."
   },
   "1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O g6": {
-    "strategy": "Bereitet ein Fianchetto vor, lässt den Springer aber gefesselt, sodass Weiß auf c6 tauschen und die Bauern von Schwarz verdoppeln kann. Schwarz verliert Zeit gegenüber einer vorherigen Aufhebung der Fesselung; die Stellung ist spielbar, aber leicht schlechter."
+    "strategy": "Bereitet ein Fianchetto vor, lässt aber den Springer gefesselt und den König im Zentrum. Weiß schlägt sofort mit d4 zu, solange Schwarz weder die Fesselung gelöst noch rochiert hat, und behält die Initiative."
   },
   "1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O Bd7 5.c3": {
     "strategy": "Bereitet ein breites Bauernzentrum vor, während der Läufer auf b5 bleibt. Weiß folgt einem einfachen strategischen Plan, und Schwarz kann sich ohne Risiko entwickeln, da ein Tausch auf c6 nichts mehr verdoppelt."
@@ -140,7 +140,7 @@
     "strategy": "Stellt dem Läufer die Frage. Schlägt er auf c6, nimmt Schwarz mit dem Läufer zurück und hat nichts verdoppelt; weicht er zurück, hat er seine Fesselung verloren, und Schwarz hat einen nützlichen Damenflügelzug gewonnen. Ein solider, flexibler Aufbau für ein Manövrierspiel."
   },
   "1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O Bd7 5.c3 Nf6 6.Re1 e6": {
-    "strategy": "Öffnet den Läufer f8 und unterstützt ein späteres ...d5, sodass Schwarz das Zentrum mit einem Bauerndurchbruch bestreiten kann. Die Stellung bleibt kompakt und solide; der Preis ist etwas Raum."
+    "strategy": "Öffnet den Läufer f8 und stützt ein späteres ...d5, eine kompakte Aufstellung. Doch Weiß schlägt sofort mit d4 im Zentrum zu, bevor Schwarz bereit ist zu antworten, und erhält die leichtere Partie. Solide, gibt aber mehr nach als der Hauptplan."
   },
   "1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O Bd7 5.c3 Nf6 6.Re1 g6": {
     "strategy": "Baut ein Fianchetto auf, wobei der Läufer auf g7 die lange Diagonale beherrscht. Ein kompakter, solider Aufbau, der den Läufer auf b5 aber unbehelligt lässt und Weiß Zeit für das Vorrücken im Zentrum gibt."
@@ -156,7 +156,7 @@
   },
   "1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O Bd7 5.Qe2 g6 6.e5": {
     "name": "Sizilianische Verteidigung: Moskauer Variante, Dorfman-Gambit",
-    "strategy": "Ein Bauernopfer, das die gelockerte Diagonale nach h8 auszunutzen versucht: Nach den Abtauschen auf e5 würde eine weiße Dame dort den Turm angreifen. Schwarz kann den Bauern einfach nehmen, und Weiß muss dann die Kompensation zeigen."
+    "strategy": "Opfert den e-Bauern, um die Diagonale e5-h8 zu öffnen: Nach dem Abtausch auf e5 greift die weiße Dame den Turm h8 an. Schwarz kann nehmen, und die Komplikationen sind ungefähr ausgeglichen, der Zug ist also solide, aber ein Wagnis, wo das ruhige c3 einen sichereren Vorteil behält."
   },
   "1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O Bd7 5.Qe2 g6 6.c3": {
     "strategy": "Bereitet einen zentralen Bauerndurchbruch vor und gibt dem Bauernzentrum eine solide Basis, während die Dame den Läufer auf b5 weiter gedeckt hält. Ein geduldiger Plan, der dem Fianchetto im Zentrum begegnet und den Raum behält, den Weiß hat."
@@ -204,10 +204,10 @@
     "strategy": "Tauscht den Flügelbauern gegen einen zentralen, bevor das Zentrum doppelt gestützt ist, und öffnet die c-Linie für Schwarz. Die Wiedernahme von Weiß hinterlässt Bauern auf d4 und e4, die die schwarzen Figuren nun angreifen können."
   },
   "1.e4 c5 2.Nf3 d6 3.c3 Nf6 4.Be2 Nc6 5.d4 Bg4": {
-    "strategy": "Entwickelt sich mit Druck auf den Springer, der d4 und e5 deckt, lässt die Spannung im Zentrum aber ungelöst. Weiß kann auf c5 schlagen oder mit Tempogewinn gegen den Springer auf c6 d5 spielen."
+    "strategy": "Entwickelt sich mit Druck auf den Springer, der d4 deckt, ignoriert aber das Zentrum: Weiß stößt d5 vor, der Springer c6 muss zurück, und Weiß gewinnt Raum und Zeit. Schwarz bleibt beengt."
   },
   "1.e4 c5 2.Nf3 d6 3.c3 Nf6 4.Be2 Nc6 5.d4 e5": {
-    "strategy": "Begegnet dem d4-Bauern mit einem eigenen Bauern und nimmt Raum im Zentrum. Schlägt Weiß auf e5, stehen sich die Damen auf der offenen d-Linie gegenüber und die Partie vereinfacht sich, sodass Schwarz eine solide, aber wenig ehrgeizige Stellung bekommt."
+    "strategy": "Begegnet dem Bauern d4 mit einem eigenen Bauern und gewinnt Raum, doch Weiß stößt mit Tempogewinn gegen den Springer c6 nach d5 vor und schließt das Zentrum zu seinen Gunsten. Schwarz bleibt beengt und passiv."
   },
   "1.e4 c5 2.Nf3 d6 3.c3 Nf6 4.Be2 Nc6 5.d4 cxd4 6.cxd4": {
     "strategy": "Schlägt mit dem c-Bauern zurück und vollendet das Bauernzentrum, auf das Weiß seit c3 hingearbeitet hat. Die offene c-Linie gehört beiden Seiten, und der Bauer auf e4 muss weiter beobachtet werden."
@@ -220,10 +220,10 @@
   },
   "1.e4 c5 2.Nf3 d6 3.c3 Nf6 4.Be2 Nc6 5.d4 cxd4 6.cxd4 Nxe4": {
     "name": "Sizilianische Verteidigung: Verzögerte Alapin-Variante, Basman-Palatnik-Gambit",
-    "strategy": "Greift sich den e4-Bauern, solange der König noch im Zentrum steht. Das sofortige d5 von Weiß trifft den Springer auf c6, mit Da4+ in der Luft auf der offenen Diagonale, sodass Schwarz genau spielen muss, und der Springer auf e4 steht weit von seinen Freunden entfernt. Ein riskantes Gambit."
+    "strategy": "Nimmt den Bauern e4 sofort, obwohl der König noch im Zentrum steht. Das weiße d5 greift den Springer c6 an und öffnet Linien gegen ihn, sodass Schwarz genau verteidigen muss; mit exaktem Spiel hält Schwarz das Gleichgewicht, was dies zur schärferen, aber soliden Art macht, dem Zentrum zu begegnen."
   },
   "1.e4 c5 2.Nf3 d6 3.c3 Nf6 4.Be2 Nc6 5.d4 cxd4 6.cxd4 d5": {
-    "strategy": "Der befreiende Durchbruch. Der Bauer greift e4 an, das nun zweimal angegriffen ist, sodass Weiß sofort handeln muss. Nach exd5 schlägt Schwarz zurück und lässt Weiß einen isolierten d4-Bauern; nach e5 landet der Springer auf einem gut gestützten e4. In beiden Fällen wird das große Zentrum in Frage gestellt."
+    "strategy": "Der befreiende Durchbruch: Der Bauer greift e4 ein zweites Mal an, Weiß muss also sofort handeln. Schlägt Weiß auf d5, schlägt Schwarz zurück, und Weiß bleibt mit einem isolierten Bauern d4 zurück; stößt Weiß e5 vor, landet der Springer auf dem gestützten Feld e4, doch Weiß behält mehr Raum."
   },
   "1.e4 c5 2.Nf3 d6 3.c3 Nf6 4.Be2 Nc6 5.d4 cxd4 6.cxd4 e6": {
     "strategy": "Solide und deckt d5, lässt aber die Gelegenheit aus, das Zentrum sofort anzugreifen. Weiß behält Bauern auf d4 und e4, und d5 kommt mit Tempogewinn gegen den Springer auf c6."

@@ -42,13 +42,13 @@
     "strategy": "Defends e5 and opens the c8-bishop, keeping the king's knight at home for the moment so that Black can still choose its set-up. Solid and flexible, though a shade more passive than developing the knight at once."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3 f5 5.Ng5": {
-    "strategy": "The sharpest reply: the knight joins the bishop against f7, the square the f-pawn has left, where only the king defends it. White tests the weakened king at once rather than simply taking the pawn."
+    "strategy": "The sharp reply: the knight joins the bishop against f7, the square the f-pawn has left, where only the king defends it. White tests the weakened king at once, but Black has a good defence and White's edge is smaller than after simple development."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3 f5 5.exf5": {
-    "strategy": "Takes the pawn that the gambit offers. Black strikes back with ...d5 at once, hitting the bishop and opening the centre, so White must meet the open position with care; but the extra pawn is real, and Black has loosened its own king's side."
+    "strategy": "Takes the pawn, but ...d5 hits the bishop at once and Black regains the pawn with an open game while White is underdeveloped. The result is level, so accepting gives up the edge that simple development keeps."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3 f5 5.Nc3": {
-    "strategy": "Declines the pawn by simply developing: the knight guards e4, which the f-pawn attacks, and White keeps a solid position. Black has weakened the king's side for no concrete gain and has to prove the gambit works."
+    "strategy": "Declines the pawn by simply developing: the knight guards e4, which the f-pawn attacks, and White keeps a solid position and a comfortable game. Black has loosened the king's side for no concrete gain and has to prove that the gambit works."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3 f5 5.Ng5 f4": {
     "name": "Italian Game: Giuoco Pianissimo, Dubois Variation",
@@ -100,7 +100,7 @@
     "strategy": "Holds e5 and opens the c8-bishop but leaves the king's knight at home, so e4 is not challenged. White can then chase the bishop with the knight; the setup is solid but slow."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.Nc3 Nge7": {
-    "strategy": "Brings the knight out without blocking the f-pawn, but it does not pressure e4, so White can play d4 at once with an attack on the bishop and the e5-pawn. Sound, but less active than ...Nf6."
+    "strategy": "Brings the knight out without blocking the f-pawn, but it does nothing for f7, which only the king guards. Ng5 at once piles a second attacker on that square and puts Black on the defensive, and the knight puts no pressure on e4. White gets the easier game."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.Nc3 Nf6 5.O-O": {
     "strategy": "Castles first and leaves the quiet pawn move for later; the knight on c3 covers e4, so nothing hangs. A flexible route to the same slow set-up, though the usual order puts the pawn move first."
@@ -245,16 +245,16 @@
     "strategy": "Takes the bishop that took the pawn, but Black retakes at once, so White is a pawn down and the compensation has to come from piece activity and quick development."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d4 Bxd4 6.c3": {
-    "strategy": "Hits the bishop on d4 with a pawn and so gains a tempo, but it does not win the pawn back: the bishop retreats and White has only a bigger centre and the lead in development as compensation. A fair try, less direct than taking the bishop."
+    "strategy": "Hits the bishop with a pawn, but the bishop simply retreats and Black keeps the extra pawn. White has no quick way to win the pawn back and little to show for it; taking the bishop with the knight gets far more."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d4 Bxd4 6.Bg5": {
-    "strategy": "Pins the f6-knight to the queen, so the knight cannot take the e4 pawn without losing the queen, and keeps the pressure on Black's centre. It does not win the pawn back, though, and Black can break the pin or trade pieces to hold the extra pawn."
+    "strategy": "Pins the f6-knight to the queen, but the bishop has left the c1-h6 diagonal and no longer guards b2: ...Bxb2 takes the pawn and attacks the rook on a1, so White also loses the exchange."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d4 Bxd4 6.Nxd4 Nxd4": {
     "strategy": "Recaptures with the knight, which lands on a strong central square supported by the e5 pawn, and Black keeps the pawn won on d4. The knight on f6 also attacks the unprotected e4 pawn, so White must show the compensation quickly."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d4 Bxd4 6.Nxd4 exd4": {
-    "strategy": "Retakes the knight with the e-pawn and keeps the extra pawn, but opens the game for White: e5 attacks the f6-knight at once, so Black has to react immediately. Sharper and riskier than simply exchanging knights on d4."
+    "strategy": "Retakes with the pawn and keeps the extra pawn, but opens the game for White: e5 attacks the f6-knight at once, and Black's king is still in the centre. White gets the initiative, and recapturing with the knight is simpler and safer."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d4 Bxd4 6.Nxd4 Nxe4": {
     "strategy": "Grabs a second pawn, but White exchanges knights on c6 and Black must recapture, which leaves it a bishop down for just two pawns, with the king still in the centre."
@@ -277,6 +277,6 @@
     "strategy": "Dodges the pawn and eyes e5 and f2, but f7 is now guarded by the king alone: the bishop sacrifice on f7 and then Ng5+ drive the king aside, and the queen takes the stranded knight. It needs more care than the natural defence."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d4 exd4 6.e5 Ne4": {
-    "strategy": "Sidesteps the pawn by putting the knight in the centre, keeping the extra pawn. The knight can be attacked by a rook on the e-file and the pawn on e5 cramps Black's kingside, so Black has to defend carefully; playable, but riskier than striking back with the d-pawn."
+    "strategy": "Sidesteps the pawn into the centre, but nothing guards the knight: Qe2 attacks it at once, and with the e5 pawn cramping Black's kingside it cannot be held without losing material. The extra pawn does not make up for that."
   }
 }

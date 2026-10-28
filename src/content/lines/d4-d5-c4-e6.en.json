@@ -49,7 +49,7 @@
   "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 cxd4": {
     "name": "Tarrasch Defence: Schara Gambit",
     "background": "Alexander Alekhine once tried it, and it retains some play at master level.",
-    "strategy": "A gambit: Black does not recapture on d5 but hits the knight with the d4 pawn, hoping to gain time against White's queen and develop quickly. Careful play from White keeps the extra pawn and survives the lead in development, so the gambit is dubious."
+    "strategy": "A gambit: Black does not recapture on d5 but hits the knight with the d4 pawn, drawing out White's queen to develop with tempo. White can keep the extra pawn, yet Black's lead in development holds the balance. Sound, but riskier than retaking on d5."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 Nf6": {
     "strategy": "Develops without recapturing and lets White take a second pawn: after dxe6 Black has lost a pawn for nothing, with only a slight lead in development to show for it. Recapturing on d5 first is the sound way."
@@ -119,14 +119,14 @@
     "strategy": "Steps away from the d4 pawn to a central square from which it watches c5. Black wins the pawn back with ...Bxc5, and if the knight takes that bishop, ...Qa5+ regains the piece. The game is level, White keeping the pair of bishops against a Black pawn that cramps the centre."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.dxc5 d4 6.Nd5": {
-    "strategy": "Centralises the knight, but it cannot hold the extra pawn: Black takes on c5 at once, and ...Nge7 or ...Be6 soon attacks the knight. White spends time without keeping the pawn, so the move is playable and no more."
+    "strategy": "Hangs the knight: with the d-file open, the queen on d8 takes it and nothing recaptures, since the pawn on d4 blocks the white queen. The extra pawn on c5 is no compensation."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.dxc5 d4 6.Na4 b5": {
     "name": "Tarrasch Defence: Tarrasch Gambit",
     "strategy": "Attacks the knight on a4, which has no comfortable square, and keeps up the pressure on c5, since the bishop on f8 sees it along the open diagonal. Black gains time and plays to recover the pawn while White is still undeveloped."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.dxc5 d4 6.Na4 Bxc5": {
-    "strategy": "Takes the pawn back at once. If the knight takes the bishop, ...Qa5+ forks king and knight and Black regains the piece, so material is level and the advanced pawn on d4 stays a thorn in White's centre."
+    "strategy": "Wins the pawn back at once, and if the knight takes, ...Qa5+ regains the piece. But then Rc1 hits the queen with tempo, and White stands ahead in development while Black's king is still in the centre; the d4 pawn does not repay that."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.dxc5 d4 6.Na4 Nc6": {
     "strategy": "Develops and guards the pawn on d4, preparing to recover c5. It does not attack the knight on a4, so White gets time to organise its pieces; the extra pawn is not yet won back."
@@ -156,10 +156,10 @@
     "strategy": "Blocks the attack on the queen and develops the bishop towards castling. If White takes on e7, Black recaptures with a developing move, and the bishop on g5 has done little to help the fight against the isolated pawn."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.Nf3 Nc6 6.Bg5 Qd7": {
-    "strategy": "Steps out of the attack and keeps d5 guarded, but the queen blocks the c8-bishop and stands in front of the king's pieces. Playable, since the bishop on g5 has no target, yet Black's development becomes clumsy."
+    "strategy": "Steps out of the attack and keeps d5 guarded, but the queen blocks the c8-bishop and tangles Black's development. White strikes with e4, hitting d5 a second time, and Black's pieces are badly placed to meet it."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.Nf3 Nc6 6.Bg5 Nf6": {
-    "strategy": "Walks into the pin: Bxf6 Qxf6 leaves d5 defended by nothing, and Nxd5 wins the pawn with an attack on the queen."
+    "strategy": "Develops and adds a guard to d5, but steps into the pin: after Bxf6 Qxf6 the pawn is unguarded and Nxd5 hits the queen. Black gets some play for the pawn, so the move is playable, but White's game is easier."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 exd5 5.Nf3 Nc6 6.dxc5 d4": {
     "strategy": "The idea behind Black's set-up: the pawn advances with tempo against the knight on c3, so White cannot enjoy the extra pawn on c5 in peace. Black gains space and the initiative and expects to win the pawn back through active piece play, while keeping d4 supported."
@@ -231,20 +231,20 @@
     "strategy": "Develops the bishop with pressure on the f5 pawn, which only the e6 pawn guards, and eyes the e4 square that Black's wall fights for. White keeps the choice between a knight on e5 and a central break, and Black's attack on the kingside must wait."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 dxe4": {
-    "strategy": "Accepts the offer and removes White's central pawn. The d-file is now open and the queen looks at the pawn on d4, so White has to recapture and cannot rest on a broad centre; declining with ...Bb4 would leave White better."
+    "strategy": "Accepts the offer and removes White's central pawn. The d-file is open and the queen looks at the pawn on d4, so White has to recapture rather than rest on a broad centre, while Black's pawn structure stays solid."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 dxc4": {
-    "strategy": "Takes the pawn at once, but White recovers it with Bxc4 and keeps the big pawn centre on d4 and e4 with a developed bishop. Black has made no developing move, and the light-squared bishop is still hemmed in behind the e6 pawn."
+    "strategy": "Takes the pawn at once, but Bxc4 recovers it with a developed bishop and leaves White the big pawn centre on d4 and e4. Black has made no developing move and the c8-bishop is hemmed in behind e6, so White's space and initiative come at no cost."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 Bb4": {
-    "strategy": "Pins the knight on c3 before resolving the tension in the centre, but nothing is attacked. White keeps its big centre and chooses the moment to open it, while Black has one piece out and the pin does not win the e4 pawn."
+    "strategy": "Pins the knight before the centre is settled and keeps ...dxe4 in reserve. Sound, but nothing is attacked: White keeps the big centre and picks the moment to open it, and the pin does not win the e4 pawn."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 dxe4 5.Nxe4": {
     "strategy": "The simple recapture: material is level again, the knight takes a central post and White keeps the big centre on c4 and d4. The drawback is that the knight has left c3, which opens the diagonal to the king for a check."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 dxe4 5.f3": {
     "name": "Semi-Slav Defence: Gunderam Gambit",
-    "strategy": "Offers a second pawn to open the f-file and rebuild the centre, but a pawn for a lead in development is too little. After the capture on f3 and the recapture with the knight, White has two pieces out to none, yet Black is a pawn up with a solid position."
+    "strategy": "A gambit: instead of recapturing, White hits the e4 pawn with the f-pawn and is ready to give a second one for quick development and an open centre. The game stays about level, so the move is sound, but it is riskier than simply recapturing."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 dxe4 5.Bg5": {
     "strategy": "Hangs the bishop: the queen on d8 sees g5 and nothing defends it, so Black takes it for nothing. All White gets back is the pawn on e4."
@@ -253,7 +253,7 @@
     "strategy": "Checks along the diagonal the knight has just left and wins a tempo, since the queen already eyes d4. White must block: retreating the knight keeps d4 covered, while blocking with the bishop leaves d4 loose and the knight on e4 exposed to ...Qxd4, a sharp pawn sacrifice."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 dxe4 5.Nxe4 Nf6": {
-    "strategy": "Develops, but invites the exchange on f6: after Nxf6+ the queen has to recapture and stands on f6 early, while White keeps the broad pawn centre on c4 and d4 and Black's king is still in the middle."
+    "strategy": "Develops and challenges the strong knight on e4, which is sound. But Nxf6+ forces Black to recapture with the queen or to wreck the kingside pawns, and White keeps the broad centre; the check on b4 is the sharper try."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 dxe4 5.Nxe4 Qxd4": {
     "strategy": "Hangs the queen: the white queen on d1 guards d4 along the open d-file, so the capture is met by Qxd4 and Black has no recapture."
@@ -269,7 +269,7 @@
     "strategy": "Retreats the knight to block the check, so the d4 pawn stays covered by the queen and no pawn is sacrificed. White keeps a sound centre for a calmer game, but the knight is now pinned and Black can hit the centre at once."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 dxe4 5.Nxe4 Bb4+ 6.Nd2": {
-    "strategy": "Blocks the check with the knight, which is then pinned to the king and cuts the queen off from d4: ...Qxd4 wins a pawn and attacks the pinned knight, with Black's pieces already active. White has no compensation for the lost pawn."
+    "strategy": "Blocks the check with the knight, which is then pinned and cuts the queen off from d4: ...Qxd4 wins a pawn and attacks the pinned knight, with Black's pieces active. White's lead in development is some compensation but not enough."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 dxe4 5.Nxe4 Bb4+ 6.Bd2 Qxd4": {
     "strategy": "Takes the pawn and attacks the loose knight on e4 at once. After the bishops trade and the queen takes the knight with check, Black is a pawn up, but the king stays in the centre and White's bishop on b4 eyes d6 and f8."
@@ -278,7 +278,7 @@
     "strategy": "Takes the bishop and avoids the complications of ...Qxd4. White recaptures, the queen on d2 guarding d4 again, and keeps the lead in development against a king still in the centre."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c6 4.e4 dxe4 5.Nxe4 Bb4+ 6.Bd2 Be7": {
-    "strategy": "Retreats the bishop out of the exchange and renews the threat to the loose d4 pawn, which White has to defend. The bishop has spent two moves for it, while White's pieces come out naturally behind a good centre."
+    "strategy": "Retreats the bishop out of the exchange and renews the threat to the loose d4 pawn, but White simply defends it with a developing move. Black has spent two bishop moves on it while White leads in development behind a good centre."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 Nf6": {
     "strategy": "Develops the knight and keeps the capture on c4 in reserve instead of committing to it now. Black keeps a firm centre and a flexible, solid position, with the light-squared bishop still to be freed; the game is the standard strategic fight of the Semi-Slav."
@@ -312,7 +312,7 @@
     "strategy": "Develops the knight and heads for a conventional set-up, accepting that White can regain the c4 pawn with e3 and Bxc4. It is sound, but it drops what the variation is about: Black no longer fights to keep the extra pawn, and the game is level."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.a4 Be7": {
-    "strategy": "Develops the bishop and prepares to castle, but does nothing for the c4 pawn and does not pin the knight, so White can regain the pawn with e3 and Bxc4. The result is a quiet, level game without the sharpness of the main idea."
+    "strategy": "Develops the bishop and prepares to castle, but does nothing for the c4 pawn and does not pin the knight. White answers with e4 and a broad centre and regains the pawn with the better game."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.a4 Bb4 6.e3": {
     "strategy": "Opens the f1 bishop to attack the c4 pawn, so White threatens to win it back at once. The pawn also supports d4, but it shuts in the queen's bishop, and Black has an accurate way to hold the pawn."
@@ -327,7 +327,7 @@
     "strategy": "Defends the c4 pawn and keeps it. Even after axb5 cxb5 the pinned knight cannot capture on b5, so Black gets what the variation is about: a queenside majority of connected, mobile pawns against White's strong centre."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.a4 Bb4 6.e3 Bxc3+": {
-    "strategy": "Gives up the pinning bishop for the knight at once. White recaptures with the b-pawn, keeping the bishop pair, a strong centre and a threat to take the c4 pawn immediately. Black trades the bishop that holds the position together, a less ambitious choice than keeping the pin."
+    "strategy": "Gives up the pinning bishop for the knight at once. White recaptures with the b-pawn, which brings the bishop pair, a strong centre and the threat to regain c4 immediately. Black has traded away the piece that made the pin work and has nothing to show for it."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.a4 Bb4 6.e3 Nf6": {
     "strategy": "Gives up the extra pawn for quick development: the pin on c3 stays, but White regains c4 with Bxc4 and castles, so Black has no lasting edge. It is sound and level, yet it drops what makes this variation worth playing."
@@ -367,6 +367,6 @@
     "strategy": "Attacks the c3 knight at once and wins space: the pawns on b4 and c4 cramp White's queenside. They are far advanced, though, and become targets for White's pieces, so Black must support them accurately."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 c6 4.Nf3 dxc4 5.e3 b5 6.a4 Bb7": {
-    "strategy": "Brings the bishop out onto the long diagonal while the c4 and b5 pawns stay put. If White opens the a-file with axb5 cxb5, Nxb5 loses material to ...Qa5+. The move does not pin the knight, so White keeps more options against the pawn chain."
+    "strategy": "Brings the bishop out onto the long diagonal but does not pin the knight. After axb5 cxb5, Nxb5 regains the pawn at once, because ...Qa5+ runs into Rxa5 on the open a-file, and the isolated pawn on c4 soon falls too."
   }
 }

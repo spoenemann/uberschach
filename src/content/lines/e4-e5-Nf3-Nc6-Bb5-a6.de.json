@@ -51,7 +51,7 @@
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 f5": {
     "name": "Spanische Partie: Morphy-Verteidigung, Schliemann-Verteidigung im Nachzug",
     "background": "Ihre einzigen Auftritte auf höchster Ebene sind praktisch Viktor Kortschnois Remis damit gegen Anatoli Karpow im Kandidatenfinale 1974 und Rameshbabu Praggnanandhaas Sieg gegen Vidit Gujrathi beim Kandidatenturnier 2024.",
-    "strategy": "Fordert e4 mit einem Bauernopfer für einen Königsflügelangriff heraus, doch diese verzögerte Version ist schlechter als die sofortige: Weiß greift e5 sofort mit einem Zentrumsbauern an, der schwarze Angriff kommt nicht in Gang, und Weiß behält das bessere Spiel."
+    "strategy": "Greift e4 sofort mit einem Bauern an, was die Königsdiagonale und den e5-Bauern schwächt. Der zentrale Schlag d4 gibt Weiß einen leichten Vorteil, doch Schwarz erhält aktives Spiel; der Zug ist also korrekt, aber zweischneidig. Ein Wagnis auf scharfe Taktik, keine Hauptvariante."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 b5 5.Bb3": {
     "strategy": "Der einzige Zug: Der Läufer behält seinen Platz im Spiel und steht auf der langen Diagonale mit Blick auf f7. Weiß nimmt den Bauernvorstoß gern hin, da der Läufer nun gefährlicher ist als auf a4, und behält das Läuferpaar."
@@ -97,11 +97,11 @@
     "strategy": "Schlägt den Bauern mit dem e-Bauern und lässt den Springer auf c6. Ihn zurückzugewinnen kostet Weiß den Läufer: Nach dem Springertausch läuft ein Rückschlag der Dame auf d4 in einen Bauernvorstoß, der den Läufer auf b3 fängt."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 b5 5.Bb3 d6 6.d4 Bd7": {
-    "strategy": "Lehnt den Bauern ab und entwickelt sich: Der Bauer d6 und der Springer halten e5 sicher. Aber Weiß kann durch einen Zentrumsvorstoß gegen den Springer c6 Tempo gewinnen, und Schwarz gibt den angebotenen Mehrbauern auf."
+    "strategy": "Entwickelt den Läufer, gibt aber ohne Gegenwert einen Bauern ab. Nach 7.dxe5 gibt es keine gute Rückeroberung: ...Sxe5 8.Sxe5 dxe5 9.Dd5 greift e5 und den Turm auf a8 an, sodass Weiß einen sauberen Mehrbauern behält."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 b5 5.Bb3 Na5 6.Bxf7+": {
     "name": "Spanische Partie: Morphy-Verteidigung, Norwegische Variante, Nightingale-Gambit",
-    "strategy": "Ein Desperado-Opfer: Der Läufer hat keinen dauerhaften Rückzug, also verwertet Weiß ihn auf f7 und gewinnt nach dem Schlagen des Königs einen zweiten Bauern auf e5. Schwarz ist eine Figur im Vorteil und steht bei genauem Spiel am Ende nicht schlechter; die einzige Entschädigung von Weiß ist, dass der schwarze König das Recht zur Rochade verloren hat."
+    "strategy": "Ein Desperado-Opfer: Der Läufer hat keinen guten Rückzug, daher verwertet Weiß ihn für f7 und, nachdem der König geschlagen hat, für einen zweiten Bauern auf e5. Schwarz ist eine Figur im Plus, doch der König hat das Rochaderecht verloren und steht ungeschützt im Zentrum. Die Kompensation ist echt, und die Partie bleibt ungefähr ausgeglichen."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 b5 5.Bb3 Na5 6.O-O": {
     "strategy": "Der natürliche Entwicklungszug, und er enthält eine Drohung: Bei sicherem König gewinnt Sxe5 jetzt einen Bauern, da ...Dg5 nicht mehr g2 einsammelt. Schwarz muss e5 verteidigen, und der Läufer auf b3, der keinen guten Rückzug hat, kann warten, bis der Springer ihn schlägt."
@@ -179,13 +179,16 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.c3 Bd7 6.d4 Nge7": {
     "name": "Spanische Partie: Morphy-Verteidigung, Moderne Steinitz-Verteidigung",
-    "strategy": "Entwickelt den Springer nach e7 statt nach f6, sodass ein späteres e4-e5 ihn nicht angreifen kann, und deckt d5 und g6. Schwarz stützt das Zentrum von hinten und behält flexible Möglichkeiten, der Spannung auf d4 zu begegnen."
+    "strategy": "Entwickelt den Springer nach e7 statt nach f6, damit e4-e5 ihn nicht treffen kann, und stützt das Zentrum von hinten. Der Springer versperrt den Königsläufer, sodass Schwarz Zeit für dessen Umgruppierung braucht, und Weiß erhält mehr Raum als nach dem natürlichen Entwicklungszug."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.c3 Bd7 6.d4 g6": {
     "strategy": "Fianchettiert den Königsläufer, den der Bauer d6 eingesperrt hatte, und wartet, bis Weiß sich im Zentrum festlegt. Solide, aber langsam: Schwarz gibt Weiß Zeit, das gewünschte Bauernzentrum aufzubauen."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.c3 Bd7 6.d4 exd4": {
-    "strategy": "Löst die Spannung durch Schlagen, doch nach dem Zurückschlagen hat Weiß ein breites Bauernzentrum und freiere Figuren, während der Läufer auf d7 passiv bleibt. Schwarz überlässt Raum und muss zeigen, dass das Zentrum später untergraben werden kann."
+    "strategy": "Löst die Spannung durch Schlagen auf, doch nach cxd4 hat Weiß ein breites Bauernzentrum geschenkt bekommen. Der Läufer auf d7 bleibt passiv, und die Figuren haben keine guten Ziele, sodass Schwarz aus einer beengten Stellung heraus mit wenig Gegenspiel weiterspielt."
+  },
+  "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.c3 Bd7 6.d4 Nf6": {
+    "strategy": "Entwickelt den Springer auf sein natürliches Feld und greift e4 an, sodass Schwarz die Spannung im Zentrum mit einer Figur statt mit einem Bauernzug beantwortet. e5 bleibt durch den d6-Bauern und den Springer auf c6 gedeckt, und die Stellung von Schwarz ist solide; der Vorteil von Weiß ist allenfalls gering."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.c3 f5 6.exf5": {
     "strategy": "Die natürliche Antwort: Das Schlagen nimmt den angegriffenen Bauern von e4 weg und gewinnt vorübergehend einen Bauern. Schwarz muss zurückschlagen und um die offenen Linien kämpfen, während Weiß dank des bereits gespielten c3 einen zentralen Durchbruch in Reserve hat."
@@ -194,7 +197,7 @@
     "strategy": "Schlägt sofort im Zentrum zu, statt den Bauern zu nehmen, und öffnet die Stellung, solange der weiße König noch in der Mitte steht. Schwarz kann auf e4 oder auf d4 schlagen, und die Partie wird taktisch."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.c3 f5 6.Bc2": {
-    "strategy": "Verteidigt e4 mit dem Läufer und hält ihn auf der Diagonale b1-h7, womit der Druck auf den Bauern endet. Aber Weiß gibt die Chance auf, Linien zu eigenen Bedingungen zu öffnen, und Schwarz bekommt Zeit, im Zentrum Raum zu gewinnen."
+    "strategy": "Deckt e4 mit dem Läufer, doch das hält nicht: Nach ...fxe4 Lxe4 ...d5 muss der Läufer erneut ziehen, und ...e4 vertreibt dann den Springer, sodass Schwarz Zeit und ein starkes Zentrum gewinnt. Weiß verbringt seine Züge mit Rückzügen, statt aufzubauen."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 d6 5.c3 f5 6.exf5 Bxf5": {
     "strategy": "Schlägt mit dem Läufer zurück, der damit sein aktivstes Feld erreicht und über die Diagonale b1-h7 auf die Damenseite von Weiß zielt. Schwarz behält ein solides Zentrum, und Weiß hat eine halboffene e-Linie und einen Bauern auf c3, der einen zentralen Durchbruch stützen kann."
@@ -247,7 +250,7 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 bxc6": {
     "name": "Spanische Partie: Abtauschvariante, Lutikow-Variante",
-    "strategy": "Schlägt mit dem b-Bauern zurück und lässt den d-Bauern zu Hause, doch der Läufer c8 hat kein gutes Feld, da ein Zug des d-Bauern den Bauern auf c6 verlöre. Das d4 von Weiß öffnet dann das Zentrum zu seinen Gunsten. Schwarz bekommt die halboffene b-Linie, aber eine unbeholfene Stellung und einen kleinen Nachteil."
+    "strategy": "Schlägt mit dem b-Bauern zurück, lässt den d-Bauern zu Hause und gewinnt die halboffene b-Linie. Die Doppelbauern bleiben eine langfristige Schwäche, und Weiß kann mit d4 sofort das Zentrum öffnen und einen kleinen Vorteil erlangen; der Zug ist korrekt, aber weniger aktiv als das Zurückschlagen mit dem d-Bauern."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 Nf6": {
     "strategy": "Greift e4 an, lässt aber den Läufer auf c6 allein, sodass Weiß einen Springer umsonst gewonnen hat: Der Läufer zieht sich nach a4 zurück, und ...b5 wird mit Lb3 beantwortet."
@@ -268,16 +271,16 @@
     "strategy": "Schlägt den Bauern und akzeptiert den folgenden Damentausch auf d4. Schwarz steuert auf ein Endspiel zu, in dem das Läuferpaar und die offenen Linien die Doppelbauern ausgleichen, und will in einer Struktur, die Weiß begünstigt, nicht überspielt werden."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.d4 Bg4": {
-    "strategy": "Fesselt den Springer f3, überlässt aber e5 seinem Schicksal: 6.dxe5 Dxd1+ 7.Kxd1 Lxf3+ 8.gxf3 gewinnt einen Bauern für Weiß. Schwarz hat etwas Aktivität gegen den König auf d1 und die zerrissenen Bauern, doch Weiß behält den Mehrbauern."
+    "strategy": "Fesselt den Springer auf f3 und gibt e5 für Aktivität her: Nach 6.dxe5 Dxd1+ 7.Kxd1 rochiert Schwarz mit Schach, der weiße König hat sein Rochaderecht verloren, und das Läuferpaar sowie die schnelle Entwicklung gleichen den Bauern aus. Die Partie bleibt ausgeglichen, doch Schwarz muss genau spielen."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.d4 f6": {
-    "strategy": "Deckt e5 mit einem Bauern, doch dxe5 zerschlägt ihn: 6.dxe5 fxe5 7.Dxd8+ Kxd8 8.Sxe5 gewinnt einen Bauern, und Schwarz hat zudem das Recht zur Rochade verloren."
+    "strategy": "Deckt e5 mit einem Bauern, doch dxe5 sprengt die Kette: Das Zurückschlagen mit dem f-Bauern verliert nach dem Damentausch einen Bauern. Schwarz muss zuerst die Damen tauschen und dann mit ...f5 auf e4 drücken; Weiß verliert das Rochaderecht, und die Partie bleibt ungefähr ausgeglichen."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.d4 exd4 6.Qxd4": {
     "strategy": "Schlägt mit der Dame zurück, zentralisiert sie und bietet den Tausch an. Kommen die Damen vom Brett, wird die Bauernmehrheit von Weiß am Königsflügel zu einem langfristigen Trumpf gegen die Doppelbauern von Schwarz auf der c-Linie, sodass die Partie davon abhängt, ob die Läufer von Schwarz zuerst Aktivität erzeugen können."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.d4 exd4 6.Nxd4": {
-    "strategy": "Schlägt mit dem Springer zurück, doch ...c5 vertreibt ihn sofort. Nach 7.Sb3 Dxd1+ 8.Kxd1 hat Weiß das Recht zur Rochade verloren, und das Endspiel begünstigt Schwarz; 7.Sb5 verliert den Springer einfach an ...axb5."
+    "strategy": "Schlägt mit dem Springer zurück, doch ...c5 vertreibt ihn sofort. Nach 7.Se2 Dxd1+ 8.Kxd1 hat Weiß das Rochaderecht verloren, und Schwarz steht etwas besser; 7.Sb5 verliert den Springer einfach durch ...axb5. Korrekt, aber das leichtere Endspiel hat Schwarz."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Bxc6 dxc6 5.d4 exd4 6.O-O": {
     "strategy": "Rochiert und gibt den Bauern d4 für Entwicklung her, ein Gambit, das zu wenig bietet: ...c5 hält den Mehrbauern, und der Entwicklungsvorsprung von Weiß ist zu klein, um ihn aufzuwiegen."

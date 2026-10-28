@@ -18,14 +18,14 @@
   },
   "1.e4 e5 2.Nc3 Nc6 3.d4": {
     "name": "Wiener Partie: Fyfe-Gambit",
-    "strategy": "Bietet den d-Bauern an: Nach ...exd4 kann Weiß nicht mit der Dame zurücknehmen, weil der Springer auf c6 sie schlagen würde. Weiß ist darauf angewiesen, den Bauern durch schnelle Entwicklung auszugleichen, und Schwarz kann ihn einfach behalten."
+    "strategy": "Ein Gambit: Nach ...exd4 kann Weiß nicht mit der Dame zurückschlagen, weil der Springer auf c6 sie schlagen würde. Weiß spielt für schnelle Entwicklung und aktive Figuren gegen den Bauern, und Schwarz kann ihn behalten. Spielbar, aber Weiß muss die Kompensation erst beweisen."
   },
   "1.e4 e5 2.Nc3 Nc6 3.Nf3": {
     "strategy": "Entwickelt den Königsspringer mit Angriff auf e5 und lenkt in die ruhige, symmetrische Entwicklung einer gewöhnlichen Offenen Partie ein. Weiß gibt die eigenen Ideen der Wiener Partie, etwa ein frühes f4, für eine gesunde Stellung mit wenigen Risiken und ohne klaren Vorteil für eine Seite auf."
   },
   "1.e4 e5 2.Nc3 Nc6 3.d4 f5": {
     "name": "Wiener Partie: Philidor-Gegengambit",
-    "strategy": "Greift an, statt zu verteidigen: Der f-Bauer greift e4 an und überlässt e5 seinem Schicksal, sodass die Partie davon abhängt, ob das Zentrum von Weiß oder die Aktivität von Schwarz mehr zählt. Der Preis ist der eigene König von Schwarz, der auf der Diagonale h5-e8 exponiert steht."
+    "strategy": "Greift e4 an, überlässt aber e5 seinem Schicksal. Nach dxe5 und ...fxe4 Sxe4 steht der schwarze König auf der offenen Diagonale e8-h5 ungeschützt, und selbst wenn der Springer den Bauern auf e5 zurückgewinnt, hat Weiß das bessere Zentrum und die Initiative."
   },
   "1.e4 e5 2.Nc3 Nc6 3.d4 exd4": {
     "strategy": "Schlägt den Bauern, und Weiß kann ihn nicht sofort zurückgewinnen: Die Dame kann nicht zurückschlagen, weil der Springer auf c6 sie nehmen würde. Schwarz steht einen Bauern besser, und die einzige Kompensation von Weiß ist die schnelle Entwicklung. Schwarz muss daher in Ruhe die Entwicklung beenden und darf das Zentrum nicht gegen den König öffnen."
@@ -59,10 +59,10 @@
     "strategy": "Greift sofort e5 an und öffnet die Diagonale des Läufers auf c8, sodass Schwarz mit Entwicklung um das Zentrum kämpft, statt den Bauern mit Gewalt zurückgewinnen zu wollen. Schwarz steht einen Bauern schlechter, doch der weiße König steht noch in der Mitte, und Schwarz erhält dafür schnelles Spiel; verliert Schwarz Zeit, festigt sich Weiß."
   },
   "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5 4.fxe5 Nge7": {
-    "strategy": "Entwickelt eine Figur und bereitet vor, d4 mit ...Lxd4 zu beantworten, denn der Springer auf c6 deckt dieses Feld. Gegen den Bauern auf e5 tut er allerdings nichts, sodass Weiß sich festigt und einen Bauern mehr behält."
+    "strategy": "Entwickelt eine Figur, ignoriert aber den Bauern auf e5, der bei Weiß bleibt. Sf3 festigt ihn, und Schwarz hat keinen schnellen Weg, ihn zurückzugewinnen, sodass Weiß mit gesunder Stellung einen sauberen Mehrbauern behält."
   },
   "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5 4.fxe5 Qh4+": {
-    "strategy": "Gibt sofort Schach und erzwingt g3 oder einen Königszug, doch dann muss die Dame zurück, und das Schach bringt nichts Bleibendes. Weiß hat weiterhin einen Bauern mehr und als Zugeständnis nur einen etwas gelockerten Königsflügel."
+    "strategy": "Gibt sofort Schach, doch Weiß blockt mit g3, was die Dame angreift. Die Dame muss zurück, und Schwarz hat zwei Tempi aufgewendet, um einen Bauernzug zu provozieren, der Weiß gelegen kommt und der einen sauberen Mehrbauern behält."
   },
   "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.Nf3": {
     "strategy": "Deckt h4, sodass ...Dh4+ den König nicht mehr stört, und entwickelt eine Figur. Die solideste Fortsetzung und die einzige, die ungefähres Gleichgewicht hält; Schwarz muss nun entscheiden, wie er den Mehrbauern hält."
@@ -70,7 +70,7 @@
   "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4": {
     "name": "Wiener Gambit, mit Max-Lange-Verteidigung: Steinitz-Gambit",
     "background": "Ein Lieblingszug von Wilhelm Steinitz, dem ersten Weltmeister, der bekanntlich die Ansicht vertrat, der König sei eine Kampffigur. Nur wenige heutige Spieler sind bereit, ihren König auf diese Weise zu exponieren, und es wird heute selten gespielt.",
-    "strategy": "Besetzt sofort das Zentrum und lässt der schwarzen Dame das Schach auf h4 zu, sodass der König ziehen muss und Weiß auf die Rochade verzichtet. Dafür hat Weiß das Bauernzentrum und schnelle Entwicklung, doch der König bleibt exponiert. Ein seltener und zweifelhafter Nebenzweig."
+    "strategy": "Besetzt sofort das Zentrum und erlaubt ...Dh4+, sodass der König nach e2 ziehen muss und Weiß die Rochade verliert. Das Bauernzentrum und die schnelle Entwicklung gleichen den Bauern aus, aber der ungeschützte König macht den Zug riskant und selten gespielt. Spielbar, doch das ruhige Sf3 vermeidet das Problem."
   },
   "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.Bc4": {
     "strategy": "Zielt auf f7 und lässt das Schach auf h4 offen: Der König geht nach f1, und Weiß verzichtet auf die Rochade für einen Bauern, der so bald nicht zurückkommt. Die schnelle Entwicklung ist die Kompensation, daher ist der Zug spielbar, aber zweitklassig."
@@ -82,7 +82,7 @@
     "strategy": "Fesselt den Springer auf c3 und bereitet dessen Abtausch vor, der Weiß Doppelbauern bescheren würde, statt sofort mit dem Schach zu kassieren. Schwarz behält den Mehrbauern, doch Weiß kann h4 decken und sich mit einem starken Bauernzentrum als Kompensation entwickeln."
   },
   "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 d6": {
-    "strategy": "Bereitet vor, den Mehrbauern mit ...g5 zu halten, und öffnet den Läufer auf c8, ist aber langsam: Weiß deckt h4 und baut in Ruhe am Zentrum. Schwarz behält den Bauern und überlässt Weiß die Initiative."
+    "strategy": "Öffnet den Läufer auf c8, deckt aber den Bauern f4 nicht: Der Läufer auf c1 nimmt ihn sofort mit Lxf4. Der Mehrbauer von Schwarz ist weg und Weiß behält das Bauernzentrum, sodass Schwarz Material und Initiative umsonst aufgegeben hat."
   },
   "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2": {
     "name": "Wiener Gambit, mit Max-Lange-Verteidigung: Steinitz-Gambit, Hauptvariante",
@@ -148,7 +148,7 @@
   },
   "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5 5.Nf3 h4": {
     "name": "Wiener Partie: Paulsen-Variante, Mariotti-Gambit",
-    "strategy": "Ein Bauernangebot, das droht, die h-Linie zu öffnen, doch Weiß nimmt es einfach an: Der Springer schlägt auf h4, und die schwarze Dame kann nicht zurücknehmen, weil der Bauer g3 das Feld deckt. Schwarz bekommt wenig für den Bauern."
+    "strategy": "Bietet den h-Bauern an: Wenn der Springer nimmt, gibt Schwarz einen Turm für den Springer und gewinnt mit der Dame einen Bauern zurück, die dann mit dem Läufer auf f2 zielt. Scharf und zweischneidig, und Weiß kann mit ruhiger Entwicklung ablehnen, sodass Schwarz echte Risiken für bestenfalls Ausgleich eingeht."
   },
   "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5 5.Nf3 d6": {
     "strategy": "Verteidigt e5 mit einem Bauern, sodass der Springer es nicht mehr allein decken muss, und öffnet den Läufer auf c8. Für den ungewöhnlichen h-Bauernzug zahlt Schwarz keinen weiteren Preis und behält ein solides, gesundes Zentrum."
@@ -201,6 +201,6 @@
     "strategy": "Nimmt den Bauern mit dem Springer und tauscht eine entwickelte Figur ab. Weiß behält den Bauern vorerst, weil die Dame wegen des Läufers auf g2 nicht auf d5 zurückschlagen kann, doch der Bauer steht dann unter Druck, und die schwarzen Figuren werden aktiv."
   },
   "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2 d5 6.O-O": {
-    "strategy": "Rochiert zuerst und überlässt Schwarz die Entscheidung über die Spannung im Zentrum. Weiß steht solide, aber Schwarz kann auf e4 schlagen oder den d-Bauern mit Tempogewinn gegen den Springer vorschieben, und Weiß gewinnt den Bauern nicht."
+    "strategy": "Rochiert und lässt das Zentrum in Ruhe: Schwarz schlägt auf e4 und, wenn Weiß den Bauern zurückgewinnt, sind die schwarzen Figuren aktiver, wobei ...Lg4 den Springer auf e2 gegen die Dame fesselt. Weiß verpasst die Chance, sofort auf d5 zu schlagen, und steht am Ende schlechter."
   }
 }

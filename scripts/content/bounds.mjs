@@ -62,6 +62,21 @@ function existingOf(entry, known) {
   });
 }
 
+/**
+ * Whether the position is one the breadth-first plies follow (src/content/openings.test.ts): at
+ * BOUNDS_FROM_PLY or before, reached from the start by moves rated 4 or 5 only. From such a
+ * position every move rated 4 or 5 must reach a position the book has.
+ */
+function breadthFirst(line) {
+  if (plyOf(line) > BOUNDS_FROM_PLY) return false;
+  const tokens = line === "" ? [] : line.split(" ");
+  return tokens.every((token, i) => {
+    const parent = book.get(positionKey(positionAt(tokens.slice(0, i).join(" "))));
+    const move = parent?.moves.find((m) => m.san === token.replace(/^\d+\./, ""));
+    return move !== undefined && move.rating >= 4;
+  });
+}
+
 /** The legal moves as the book writes them, those that transpose into a named position, and those whose position the book lacks. */
 function legalOf(entry, position) {
   const inBook = new Set(entry.moves.map((m) => uciOf(m.move)));
@@ -119,7 +134,7 @@ async function entryOf(entry) {
     existing,
     legal,
     transposes,
-    ...(ply <= BOUNDS_FROM_PLY ? { unfollowed } : {}),
+    ...(breadthFirst(line) ? { unfollowed } : {}),
     engine,
     issues: issuesOf(existing, engine, gap),
     beyond: comparison.lines.filter((l) => l.from === line).map((l) => ({ missing: l.missing, line: l.line, ending: l.ending })),

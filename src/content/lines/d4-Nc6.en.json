@@ -35,14 +35,17 @@
   },
   "1.d4 Nc6 2.c4 e5 3.d5 Nce7": {
     "name": "Bogoljubov–Mikenas Defence: Lithuanian Variation",
-    "strategy": "Steps back to a flexible square, from which the knight eyes the d5-pawn and can go to g6. Black concedes space for a compact position with a strong e5 pawn, and prepares to attack White's centre with a pawn break in a closed game."
+    "strategy": "Steps back to a flexible square from which the knight eyes the d5-pawn and can go to g6. Black concedes space for a compact position with a strong e5-pawn and aims at White's centre with a later pawn break. Inserting ...Bb4+ first is slightly more accurate."
   },
   "1.d4 Nc6 2.c4 e5 3.d5 Nd4": {
     "name": "Bogoljubov–Mikenas Defence: Cannstatter Variation",
-    "strategy": "Centralises the knight on a square protected by the e5-pawn. But White can drive it away with e3 and gain a tempo, and the knight has little future there, so Black risks falling behind in development against White's space edge."
+    "strategy": "Centralises the knight on a square the e5-pawn protects, but it has almost no retreat: after g4 takes f5 away, e3 drives it off, and every other square is covered by a White pawn or piece. Black risks losing the knight or falling far behind."
   },
   "1.d4 Nc6 2.c4 e5 3.d5 Nb8": {
     "strategy": "Takes the knight back to its starting square, which costs time but keeps it from being harassed and leaves the e5 pawn intact. White has the space; Black has a compact position without weaknesses and the later chance to attack the pawn chain."
+  },
+  "1.d4 Nc6 2.c4 e5 3.d5 Bb4+": {
+    "strategy": "Checks before the knight retreats: the c6-knight is attacked by the d5-pawn, but White must deal with the check first, usually with Nd2, which blocks the c1-bishop. Then ...Nce7 reaches the usual compact set-up with White's knight on a passive square."
   },
   "1.d4 Nc6 2.c4 e5 3.dxe5 Nxe5": {
     "strategy": "Recaptures with a centralised knight that attacks the loose c4-pawn. White must give a pawn or spend a tempo to protect it, so Black quickly gets active play for free."
@@ -51,7 +54,7 @@
     "strategy": "Develops with check and keeps the knight's attack on e5. White must spend a move meeting the check, so Black regains the pawn with a developed bishop and an active position; if White blocks with the knight, that knight is pinned."
   },
   "1.d4 Nc6 2.c4 e5 3.dxe5 Nge7": {
-    "strategy": "Develops the second knight and keeps the attack on e5 from c6. White can simply hold the extra pawn with Nf3, which also develops, so Black has given up the quick recapture and is a pawn down. Black gets active piece play, but has to earn it."
+    "strategy": "Develops the second knight and keeps the attack on e5, but Black has not regained the pawn: White holds it with Nf3, which also develops, and stays a pawn up. The quick recapture on e5, which would hit the c4-pawn, is gone."
   },
   "1.d4 Nc6 2.c4 e5 3.dxe5 Nxe5 4.Nc3": {
     "strategy": "Develops instead of defending the pawn, offering c4 as a gambit for quick development and open lines. It is a real gambit, not a free one: Black can take the pawn and keep it if White has no punishing follow-up."
@@ -95,7 +98,7 @@
     "strategy": "Develops a piece and watches the e5 square, so Black cannot comfortably play ...e5. It is sound but quiet: White leaves the extra tempo largely unused and does not take the broad centre, which gives Black time to organise a challenge to the d5 pawn."
   },
   "1.d4 Nc6 2.d5 Nb8 3.e4 Nf6": {
-    "strategy": "Challenges the e4 pawn and develops, the natural way to fight the centre, but the pawn can simply advance with gain of time. Black has spent most of the opening moving the same knight around, and White's space grows."
+    "strategy": "Challenges the e4-pawn and develops, but 4.e5 drives the knight back with a gain of time. Black has spent most of the opening moving the same knight, and White's space grows."
   },
   "1.d4 Nc6 2.d5 Nb8 3.e4 d6": {
     "strategy": "Meets the broad centre with a solid pawn: it guards c5 and e5 and opens the c8-bishop's diagonal. Black gives White the space but builds a compact set-up with few targets, and plans to undermine the centre later. White keeps the initiative, but nothing here is forced."
@@ -107,17 +110,17 @@
     "strategy": "Gains space and a tempo in one move: the pawn attacks the knight, and every square it can reach is one more move that Black spends on the knight instead of on development. The advanced pawns will need support later, but they cramp Black's position."
   },
   "1.d4 Nc6 2.d5 Nb8 3.e4 Nf6 4.Nc3": {
-    "strategy": "Defends the e4 pawn with a developing move, so Black's knight cannot simply take it. White keeps the e-pawn's advance in reserve and keeps a healthy lead in space and development; the slower move gives Black a moment to challenge the d5 pawn."
+    "strategy": "Defends e4 and d5 with a developing move, but it is the slow way to use the space: 4.e5 attacks the knight at once and gains a tempo, while here Black gets a moment to challenge the d5-pawn."
   },
   "1.d4 Nc6 2.d5 Nb8 3.e4 Nf6 4.Bd3": {
-    "strategy": "Defends the e4 pawn with a developing move and prepares to castle. It is sound but modest: the bishop blocks the queen's line down the d-file and the b1-knight stays at home, so White uses the space less actively than with the pawn thrust or the knight move."
+    "strategy": "Defends e4 and prepares to castle, but the bishop blocks the queen's line down the d-file, which leaves d5 less well guarded, and the b1-knight stays at home. White uses the space less actively than with the pawn thrust, and Black gets time to challenge the centre."
   },
   "1.d4 Nc6 2.d5 Nb8 3.e4 Nf6 4.e5 Ng8": {
     "name": "Zaire Defence",
-    "strategy": "Retreats to the starting square: after four knight moves Black has made no progress, while White holds a broad pawn centre at no cost. Nothing hangs, but Black must start developing from scratch behind it."
+    "strategy": "Retreats to the starting square: after four knight moves Black has made no progress, but nothing is lost, and the advanced d5 and e5 pawns can be undermined later. White keeps a broad centre and the lead in development, but this is the most resilient way to go on."
   },
   "1.d4 Nc6 2.d5 Nb8 3.e4 Nf6 4.e5 Ne4": {
-    "strategy": "The only square where the knight stays in play: g4 and h5 lose it to the queen, and d5 is guarded by the queen down the d-file. White can harass it with f3 or Qd3, but each such move costs time. Black keeps a piece in the game instead of returning to the start."
+    "strategy": "Keeps the knight in the game, but White attacks it with f3 or Qd4 and gains tempo after tempo while the centre grows. Black ends up much further behind than after the plain retreat."
   },
   "1.d4 Nc6 2.d5 Nb8 3.e4 Nf6 4.e5 Nxd5": {
     "strategy": "Grabs a pawn and loses a piece: the d5 pawn is guarded by the queen down the open d-file, and Qxd5 wins the knight for a pawn with no compensation."

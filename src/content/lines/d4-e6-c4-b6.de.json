@@ -16,13 +16,13 @@
     "strategy": "Gewinnt Raum und greift sofort e6 an, doch der Bauer steht dann genau auf der Diagonale, von der aus der Läufer von b7 angreifen wird. Weiß erhält einen einengenden Bauern und ein geschlossenes Spiel; Schwarz hat leichte Ziele für Dame und Läufer und gleicht problemlos aus."
   },
   "1.d4 e6 2.c4 b6 3.e4 Bb7": {
-    "strategy": "Der Kern der Eröffnung: Der Läufer greift sofort den Bauern e4 an, und noch nichts deckt ihn. Weiß muss einen Zug für den Bauern aufwenden, während Schwarz eine Figur entwickelt und ein langfristiges Ziel geschaffen hat."
+    "strategy": "Der Gedanke der Eröffnung: Der Läufer greift den e4-Bauern sofort an und nimmt die lange Diagonale ins Visier. Weiß verteidigt mit einem Entwicklungszug und behält einen kleinen Vorteil, sodass der Läufer allein das breite Zentrum nicht untergräbt und die Hilfe anderer Figuren braucht."
   },
   "1.d4 e6 2.c4 b6 3.e4 Bb4+": {
-    "strategy": "Entwickelt den Königsläufer mit Schach und greift das Zentrum von der Seite an. Weiß muss sofort entscheiden, wie er antwortet: Blockt er mit dem Springer, droht eine Fesselung, die e4 unter den Druck des Läufers auf b7 setzt; tauscht er die Läufer, verliert er seinen dunkelfeldrigen Läufer."
+    "strategy": "Entwickelt sich mit Schach und untergräbt das breite Zentrum von der Seite, statt es zu besetzen. Wenn Weiß mit dem Springer abdeckt, bindet die Fesselung ihn an den König, und e4 gerät unter Druck, sobald der andere Läufer b7 erreicht; nach einem Läufertausch erreicht Schwarz ein ausgeglichenes Spiel."
   },
   "1.d4 e6 2.c4 b6 3.e4 Qh4": {
-    "strategy": "Greift den ungedeckten Bauern e4 sofort an. Doch die Dame steht exponiert: Sf3 greift sie mit Tempo an, und selbst wenn Schwarz den Bauern mit Schach nimmt, gewinnt Weiß Zeit, indem er die Dame mit Entwicklungszügen jagt. Schwarz muss zeigen, dass der Bauer die verlorene Zeit wert ist."
+    "strategy": "Greift den ungedeckten e4-Bauern sofort an, doch die Dame steht allein. Weiß verteidigt mit einem Entwicklungszug, und Sf3 greift die Dame danach mit Tempo an, sodass Schwarz Zeit verliert und Weiß das breite Zentrum behält."
   },
   "1.d4 e6 2.c4 b6 3.e4 Bb7 4.Bd3": {
     "strategy": "Die natürlichste Verteidigung: Sie deckt e4 und entwickelt eine Figur zum Königsflügel, ohne die Bauern um den König zu schwächen. Der Preis ist, dass der Läufer der Dame die Sicht auf d4 versperrt, was Schwarz sofort angreifen kann."
@@ -66,10 +66,10 @@
   },
   "1.d4 e6 2.c4 b6 3.e4 Bb7 4.f3 f5 5.exf5 Nh6": {
     "name": "Englische Verteidigung: Poli-Gambit",
-    "strategy": "Greift f5 ein zweites Mal an, doch Weiß kann die Drohung ignorieren: Lxh6 Dh4+ g3 Dxh6 fxe6 lässt Weiß einen klaren Mehrbauern. Schwarz riskiert einen Bauern und stellt einen Springer an den Rand, um den Bauern zurückzugewinnen."
+    "strategy": "Greift f5 ein zweites Mal an und bietet den e6-Bauern für schnelles Spiel an. Wenn Weiß ihn nimmt, erreicht der Randspringer f5 mit Tempo, und Schwarz gewinnt den Bauern mit aktiven Figuren zurück. Ein Gambit, das von Schwarz Variantenkenntnis verlangt, ihm aber ein ausgeglichenes Spiel verschafft."
   },
   "1.d4 e6 2.c4 b6 3.e4 Bb7 4.f3 f5 5.exf5 exf5": {
-    "strategy": "Schlägt mit dem e-Bauern zurück und stellt das materielle Gleichgewicht wieder her, öffnet die e-Linie und behält die Kontrolle über e4. Weiß erhält sofort ein Damenschach auf der offenen Linie, doch Schwarz kann es parieren und steht mit gesunder Bauernstruktur und ohne Schwächen jenseits der gelockerten Königsseite solide."
+    "strategy": "Gewinnt den Bauern sofort zurück und hält die Struktur gesund, öffnet aber die e-Linie in Richtung des eigenen Königs. Weiß entwickelt sich mit Tempo und hat De2+ in der Hinterhand, sodass Schwarz unter Druck bleibt. Solide, aber Weiß behält die Initiative."
   },
   "1.d4 e6 2.c4 b6 3.e4 Bb7 4.f3 f5 5.exf5 Nf6": {
     "strategy": "Entwickelt sich und lässt den Bauern auf f5 in Ruhe, ein Gambit, das Weiß mit dem Schlag auf e6 oder durch Halten von f5 annehmen kann. Der Mehrbauer bleibt bei Weiß, und der Springer blockiert zudem den Weg der Dame nach h4, sodass das von f3 eingeladene Schach entfällt."
@@ -94,27 +94,30 @@
     "strategy": "Ruhig und solide: Der Bauer deckt d4 und öffnet den Weg für den Königsläufer, doch Weiß gibt das breite Zentrum auf, das e4 aufbauen würde, und lässt zu, dass Schwarz den Springer auf c3 sofort fesselt. Eine solide Aufstellung, die wenig von Schwarz verlangt."
   },
   "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4 f5": {
-    "strategy": "Greift e4 ein zweites Mal an, mit Läufer und f-Bauer gegen den Springer allein, sodass Weiß sofort reagieren muss. Der Preis ist ein geschwächter Königsflügel: Sind die Bauern erst getauscht, liegt die Diagonale zum eigenen König von Schwarz offen."
+    "strategy": "Greift e4 ein zweites Mal an, doch 5.e5 antwortet sofort: Weiß gewinnt Raum, nimmt dem Sg8 das Feld f6 und lässt e6 und die Diagonale e8-h5 schwach zurück."
   },
   "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4 Bb4": {
     "strategy": "Fesselt den Springer, der e4 hält, sodass der vom Läufer auf b7 angegriffene Bauer nur auf dem Papier gedeckt ist und Weiß einen Zug aufwenden muss, um ihn wieder zu stützen. Schwarz untergräbt das breite Zentrum von der Seite und behält die Möglichkeit, auf c3 zu tauschen."
   },
   "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4 Nf6": {
-    "strategy": "Bringt eine zweite Figur gegen e4, doch Weiß kann mit dem Vorstoß des Bauern antworten: Der Springer wird mit Tempo angegriffen und muss sich zurückziehen oder getauscht werden, sodass Weiß Raum hat und Schwarz seinen Figuren wenig Felder bleiben."
+    "strategy": "Greift e4 ein zweites Mal an, aber Weiß verteidigt den Bauern einfach mit einem Entwicklungszug wie Ld3 und behält das breite Zentrum. Anders als ...Lb4 fesselt der Springer den Sc3 nicht, sodass e4 nie in Gefahr gerät und Schwarz keinen Weg gefunden hat, das Zentrum zu untergraben."
   },
   "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4 f5 5.exf5": {
     "strategy": "Schlägt den Bauern und öffnet das Zentrum. Die Diagonale des Läufers reicht nun bis g2, das der Läufer auf f1 deckt, und Weiß behält seine Bauern auf d4 und c4. Schlägt Schwarz nicht zurück, bleibt Weiß einen Bauern im Plus."
   },
   "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4 f5 5.d5": {
     "name": "Englische Verteidigung: Abgelehntes Hartlaub-Gambit",
-    "strategy": "Lehnt den Bauern ab und antwortet stattdessen im Zentrum: Der Bauer greift e6 an und steht vor dem Läufer auf b7, der nun auf einen gut gedeckten Bauern beißt. Weiß behält seinen Raum und vermeidet die Komplikationen eines offenen Zentrums."
+    "strategy": "Drückt auf e6, gibt aber den e4-Bauern preis: Nach 5...fxe4 bekommt Weiß dafür Raum und wenig sonst, und die Stellung ist ausgeglichen. Weiß verschenkt den Vorsprung, den der stärkere Bauernvorstoß bewahrt."
   },
   "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4 f5 5.Bd3": {
-    "strategy": "Verteidigt e4 mit dem Läufer und entwickelt ihn. Schlägt Schwarz auf e4 und werden dort die Figuren getauscht, bleibt Weiß das Läuferpaar und die geschwächte Diagonale zum schwarzen König, die er ausloten kann. Der Läufer versperrt zudem der Dame den Blick auf d4."
+    "strategy": "Verteidigt e4 mit einem Entwicklungszug, doch 5...Lb4 fesselt den Sc3, der e4 ebenfalls deckt. Der Bauer wird zweimal angegriffen und nur einmal verteidigt, sodass Weiß einen Weg finden muss, ihn zu halten, und Schwarz ausgleicht."
+  },
+  "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4 f5 5.e5": {
+    "strategy": "Weicht dem Angriff nach vorn aus: e4 muss nicht mehr verteidigt werden, Weiß gewinnt Raum und nimmt dem Sg8 das Feld f6. Der e6-Bauer und die Diagonale e8-h5 sind schwach, denn Dh5+ ist ein Schach. Schwarz erhält die lange Diagonale für den Läufer, aber Weiß behält den dauerhaften Vorteil."
   },
   "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4 f5 5.exf5 Nf6": {
     "name": "Englische Verteidigung: Angenommenes Hartlaub-Gambit",
-    "strategy": "Lässt den Bauern auf f5 stehen und entwickelt sich stattdessen, als Gambit. Der Springer deckt h5 und verhindert so das Damenschach, kontrolliert e4 und d5, während die offene Diagonale vom Läufer bis g2 reicht. Schwarz spielt auf Aktivität gegen einen Mehrbauern, den Weiß womöglich behalten kann."
+    "strategy": "Entwickelt sich und hält das Damenschach fern, indem er h5 deckt, lässt aber den f5-Bauern in Ruhe. Weiß schlägt auf e6 oder entwickelt sich und behält den Mehrbauern, und der Springer gewinnt ihn nicht zurück, sodass Schwarz wenig vorzuweisen hat."
   },
   "1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.e4 f5 5.exf5 exf5": {
     "strategy": "Schlägt mit dem e-Bauern zurück und stellt das materielle Gleichgewicht wieder her, öffnet die e-Linie und behält die Kontrolle des Bauern über e4. Die Dame von Weiß kann Schach geben, doch Schwarz pariert es und behält eine solide Stellung, am Königsflügel leicht gelockert."

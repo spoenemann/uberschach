@@ -29,7 +29,7 @@
     "strategy": "Brings the bishop to the long diagonal, so that e5 is attacked a second time and has only the knight to defend it. A natural, developing move, but it does not threaten the bishop on b6 the way a4 does."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.b5": {
-    "strategy": "Chases the knight in the hope of winning e5, but the pawn has nowhere to go from here. The knight steps to a5 with tempo, hitting the bishop on c4, and White's attack turns out to be premature."
+    "strategy": "Chases the knight in the hope of winning e5, but ...Na5 hits the bishop with tempo and the pawn on b5 has little to do. Sound, since White loses nothing, but the attack is premature and Black is comfortable."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bb6 5.a4 a6": {
     "strategy": "Makes room for the bishop: without it, a5 would trap the piece on b6. The a-pawn move is the useful one here, keeping the bishop on its diagonal and the centre intact, and Black accepts a modest space deficit on the queenside."
@@ -86,7 +86,7 @@
     "strategy": "Castles and leaves the bishop on b4 alone, so Black gets a free move to consolidate and White's compensation is development only. Without a quick pawn centre, the gambit pawn is hard to justify."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.Bb2": {
-    "strategy": "Develops the bishop onto the long diagonal at once, where it eyes e5 together with the knight. But Black's bishop is not driven back and e5 stays defended, so White gains no tempo and no pawn centre for the pawn."
+    "strategy": "Develops the bishop on the long diagonal, aiming at e5, but does not attack Black's bishop on b4. Black loses no time and keeps the pawn, so White has paid a pawn for development alone and has little to show for it."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5": {
     "name": "Italian Game: Evans Gambit, Main Line",
@@ -104,12 +104,12 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5": {
     "name": "Italian Game: Evans Gambit, McDonnell Defence",
-    "strategy": "Goes back to the square it came from in the hope of stopping d4, but White plays it anyway with tempo on the bishop. Black has spent three bishop moves to keep one pawn, and White has a free hand in the centre."
+    "strategy": "Goes back to the square it came from in the hope of stopping d4, but White plays it anyway with tempo on the bishop. The position stays sound for Black, yet three bishop moves for one pawn give White a free hand in the centre."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bf8": {
     "name": "Italian Game: Evans Gambit, Mayet Defence",
     "background": "Rarely seen in practice.",
-    "strategy": "Undevelops the bishop completely: Black has spent three moves to win a pawn with it and, to castle, must now move it again as well as bring out the g8 knight. White takes the centre with a large lead in development."
+    "strategy": "Undevelops the bishop completely: Black has spent three moves to win a pawn with it and, to castle, must bring it out again as well as the g8 knight. Sound, since the pawn stays, but White takes the centre with a large lead in development."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4": {
     "strategy": "Strikes in the centre at once: the pawn attacks e5, and White aims for a full pawn centre backed by the lead in development. Black must choose between keeping the pawns and giving some back, while White is often happy to offer a second pawn for the attack."
@@ -132,7 +132,7 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4 b5": {
     "name": "Italian Game: Evans Gambit, Leonhardt Countergambit",
-    "strategy": "Offers a pawn so that, after the bishop takes it, the knight can capture on d4 with the c3 pawn still pinned. That knight then attacks both the bishop on b5 and the knight on f3. Sharp and ambitious, but Black has given a pawn for activity."
+    "strategy": "Offers the b-pawn: if the bishop takes, ...Nxd4 attacks it and the f3 knight while the pinned c3 pawn cannot recapture. The play is level, but a gambit within a gambit asks Black to find sharp moves, so it ranks below the main replies."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Ba5 6.d4 Nf6": {
     "name": "Italian Game: Evans Gambit, Laroche Variation",
@@ -155,7 +155,7 @@
     "strategy": "Castles first and keeps the central strike in hand, since the bishop on c5 stays exposed to it. Sound, but it gives Black a move to find a better square for the bishop, and the gambit's tempo gain is lost."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.Qb3": {
-    "strategy": "Lines up the queen and bishop against f7, which only the king guards, so Black must spend a move on defence. A sharp idea, but the central strike that gains a tempo on the bishop is put off."
+    "strategy": "Lines up queen and bishop against f7, but Black defends it at once, with ...Qf6 or ...Qe7, and keeps the extra pawn. White has delayed the central strike that gains a tempo on the bishop and has little to show for it."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.d4 exd4": {
     "strategy": "Takes the pawn and with it removes the attacker of the bishop. Black is a pawn up and White's compensation lies in the open lines and strong central pawns that come after recapturing."
@@ -164,7 +164,7 @@
     "strategy": "Retreats out of reach of the pawn and keeps the bishop on the diagonal that eyes f2, but e5 is not held: White trades on e5 and wins the pawn back, with a small edge for White and a cramped game for Black."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Bc5 6.d4 Bd6": {
-    "strategy": "Defends e5 with the bishop and keeps the extra pawn for now, but it blocks the d-pawn and leaves the queen's bishop undeveloped. Black has spent a fourth move on the bishop, so White's lead in development gives real play for the pawn."
+    "strategy": "Defends e5 with the bishop and keeps the extra pawn for now, but it blocks the d-pawn and leaves the queen's bishop shut in. Black has spent a fourth move on the bishop, so White's lead in development gives it a clear initiative."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.b4 Bxb4 5.c3 Be7 6.d4": {
     "strategy": "The usual follow-up to c3: the pawn takes the centre and attacks e5. The bishop on e7 cannot be hit by it, so White gains no tempo here, but the centre is big and Black must find a safe way to return the extra pawn."

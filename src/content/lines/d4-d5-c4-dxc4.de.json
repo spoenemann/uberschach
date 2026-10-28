@@ -71,15 +71,15 @@
   },
   "1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.Qb3 Qe7 6.Nd2": {
     "name": "Angenommenes Damengambit: Alte Variante, Nowikow-Gambit",
-    "strategy": "Entwickelt den Springer und deckt die Diagonale e1-a5 gegen ...Db4+. Der Springer ist dort aber leicht zu fesseln und blockiert den Läufer c1, sodass Weiß einen Bauern zurückliegt und sich langsam und verknäuelt entwickelt."
+    "strategy": "Der Springer deckt die Diagonale e1-a5 gegen ...Db4+, kann dort aber gefesselt werden und sperrt den Läufer c1 ein. Nach ...dxe3 kann der Läufer nicht zurückschlagen, und fxe3 öffnet die f-Linie vor dem König, sodass Schwarz den Mehrbauern bequem behält."
   },
   "1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.Qb3 Qe7 6.a3": {
     "name": "Angenommenes Damengambit: Alte Variante, Billinger-Gambit",
-    "strategy": "Nimmt der schwarzen Dame das Feld b4, sodass ...Db4+ nicht mehr möglich ist, verbraucht dafür aber einen Zug, während Weiß einen Bauern zurückliegt. Der Bauer d4 greift weiter e3 an, und der Druck auf b7 und f7 ist pariert, sodass die Kompensation von Weiß dürftig ist."
+    "strategy": "Nimmt der schwarzen Dame das Feld b4, sodass ...Db4+ kein Tempo mehr gewinnt, und behält die Drohung exd4 bei. Solide, aber langsam: Ein Randbauernzug entwickelt nichts, und Schwarz nutzt die Zeit, um einen Springer ins Spiel zu bringen."
   },
   "1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.Qb3 Qe7 6.Kf1": {
     "name": "Angenommenes Damengambit: Alte Variante, Kortschnoi-Gambit",
-    "strategy": "Verlässt die e-Linie und die Diagonale e1-a5, gibt aber die Rochade für immer auf, und der König auf f1 sperrt den Turm h1 hinter dem Springer g1 ein. Ein hoher Preis für einen Bauern, der ohnehin schon fehlt, und der König steht für den Rest des Mittelspiels unglücklich."
+    "strategy": "Verlässt die e-Linie und die Diagonale e1-a5, sodass ...dxe3 und ...Db4 kein Tempo gewinnen, um den Preis der Rochade. Der König auf f1 sperrt den Turm h1 ein, bis Weiß Zeit für die Entflechtung aufwendet: spielbar, aber unbequem."
   },
   "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4": {
     "strategy": "Schlägt den Bauern c4 mit dem Läufer zurück, der dabei auf seine beste Diagonale gelangt, während das Zentrum intakt bleibt. Schwarz hat keinen Zentrumsbauern, der es stören könnte, und so kommt Weiß zu bequemer Entwicklung und einem kleinen, bleibenden Raumvorteil."
@@ -230,7 +230,7 @@
   },
   "1.d4 d5 2.c4 dxc4 3.e4 c5 4.d5 b5": {
     "name": "Angenommenes Damengambit: Zentralvariante, Rubinstein-Verteidigung, Jefimow-Gambit",
-    "strategy": "Hält den Bauern c4 sofort fest und strebt nach Raum am Damenflügel. Dem Geiste nach ist es ein Gambit: Der a-Bauer und die Zentrumsbauern von Weiß greifen die vorgerückten Bauern an, und Schwarz muss zeigen, dass der Damenflügel nicht überdehnt ist."
+    "strategy": "Versucht, den Mehrbauern zu halten, doch nichts verteidigt den Bauern b5: Der a-Bauer des Weißen greift ihn sofort an, und sobald er fällt, verliert der Bauer c4 seine einzige Stütze. Schwarz verliert den Gambitbauern und mehr, während Weiß den mit d5 gewonnenen Raum behält."
   },
   "1.d4 d5 2.c4 dxc4 3.e4 c5 4.d5 e6": {
     "strategy": "Greift den Bauern d5 sofort an. Wird er getauscht, öffnet sich die e-Linie vor dem unrochierten weißen König, und die schwarzen Figuren gewinnen Raum, auch wenn das weiße Zentrum und der Entwicklungsvorsprung Chancen auf die Initiative erhalten. Der Läufer c8 bleibt eingeengt, bis sich die Struktur klärt."
@@ -252,17 +252,17 @@
     "strategy": "Der thematische Durchbruch: Schwarz fordert den Bauern d5 heraus, nachdem Weiß den Springer festgelegt hat, und nach ...exd5 öffnet sich die e-Linie gegen einen König, der noch nicht rochiert hat. Weiß behält einen kleinen Vorteil, doch die schwarzen Figuren erhalten offene Linien und aktives Spiel."
   },
   "1.d4 d5 2.c4 dxc4 3.e4 c5 4.d5 Nf6 5.Nc3 Bg4": {
-    "strategy": "Entwickelt den Läufer mit Angriff auf die Dame, sodass Weiß einen Zug darauf verwenden muss: einen Läufertausch oder einen schwächenden Bauernzug. Für den beengten Damenflügel bringt er nichts, und der Bauer c4 muss weiterhin verteidigt werden, sodass der Zug spielbar ist, aber nicht mehr."
+    "strategy": "Greift die Dame an, doch Weiß spielt einfach f3, und der Läufer muss zurück, sodass Schwarz zwei Züge aufgewendet hat, um wieder dort zu stehen, wo er begann. Weiß gewinnt Zeit und Raum, und e5 vertreibt dann den Springer f6, während der Bauer c4 noch verteidigt werden muss."
   },
   "1.d4 d5 2.c4 dxc4 3.e4 e5 4.Bxc4": {
     "name": "Angenommenes Damengambit: Zentralvariante, McDonnell-Verteidigung, Somow-Gambit",
-    "strategy": "Nimmt den Bauern, lässt aber d4 ungedeckt: Schwarz spielt einfach ...Dxd4 und ist nach dem Damentausch einen Bauern voraus mit stabilem Zentrum. Ein klarer Rückschritt gegenüber der Entwicklung des Springers, der d4 deckt und e5 angreift."
+    "strategy": "Nimmt den Bauern sofort zurück, lässt aber d4 ungedeckt: ...Dxd4 tauscht die Damen, und Schwarz erhält ein stabiles Zentrum, sodass Weiß hart arbeiten muss, um den Bauern d4 zurückzugewinnen. Solide und etwa ausgeglichen, doch Schwarz bestimmt die Vereinfachung."
   },
   "1.d4 d5 2.c4 dxc4 3.e4 e5 4.Nf3": {
-    "strategy": "Der einzige Zug, der Weiß den Vorteil erhält: Er greift den ungedeckten e5-Bauern an und deckt im selben Zug d4, sodass Schwarz das Zentrum sofort klären muss. Weiß gewinnt den Gambitbauern dann mit der besseren Entwicklung zurück."
+    "strategy": "Der prinzipielle Zug: Er greift den ungedeckten Bauern e5 an und deckt im selben Zug d4, sodass Schwarz das Zentrum sofort klären muss. Weiß gewinnt dann den Gambitbauern mit bequemer Entwicklung zurück."
   },
   "1.d4 d5 2.c4 dxc4 3.e4 e5 4.dxe5": {
-    "strategy": "Schlägt den Bauern, lässt aber den Damentausch zu: ...Dxd1+ zwingt den König zum Zurückschlagen, sodass Weiß das Rochaderecht verliert und mitten im Zentrum steht, während Schwarz sich mit Tempo entwickelt. Das Material bleibt ausgeglichen, und Weiß hat für die Stellung nichts vorzuweisen."
+    "strategy": "Nimmt den e-Bauern und lässt Schwarz die Damen tauschen: ...Dxd1+ zwingt den König zum Zurückschlagen, sodass Weiß das Recht zur Rochade verliert. Das Material ist ausgeglichen und die Stellung spielbar, aber der weiße König steht im Zentrum, während sich Schwarz mühelos entwickelt."
   },
   "1.d4 d5 2.c4 dxc4 3.e4 e5 4.d5": {
     "strategy": "Schränkt Schwarz mit einem raumgewinnenden Bauern ein, überdehnt sich aber: Weiß hat den c4-Bauern noch nicht zurückgewonnen, und Schwarz untergräbt das Zentrum mit ...c6 oder ...Lb4+ und behält den Mehrbauern."

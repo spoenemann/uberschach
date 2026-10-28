@@ -102,7 +102,7 @@
     "strategy": "Wins the pawn back at once with a developing move and eyes the knight on c6, but leaves e4 undefended: the knight on f6 takes it for free, and White has little to show for the lost pawn."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d4 exd4 5.Nc3": {
-    "strategy": "Develops the queen's knight and guards e4, leaving the d4 pawn for later. White prefers quick development to the immediate recapture, and Black has to look after the d4 pawn, attacked twice and guarded once, while White pays for the pawn with development."
+    "strategy": "Hangs the knight to the pawn on d4: ...dxc3 wins a piece for a pawn, and White's lead in development is no compensation for a whole piece."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 d5": {
     "strategy": "Attacks e4 straight away and exploits what c3 cost White: after a trade on d5 the queen cannot be chased by a knight on c3. Black takes the initiative in the centre, and White needs a pin to keep the e5 pawn under pressure."
@@ -123,7 +123,7 @@
   "1.e4 e5 2.Nf3 Nc6 3.c3 Be7": {
     "name": "Ponziani Opening: Romanishin Variation",
     "background": "Oleg Romanishin tried 3...Be7 in the 1970s, and Batsford's highlighted it as equalising.",
-    "strategy": "A passive developing move that ignores the loose e4 pawn and lets White build the pawn centre with no opposition. It was once thought to equalise, but it gives Black no counterplay against the centre."
+    "strategy": "A modest developing move that ignores the pressure on e4 and lets White build the pawn centre unopposed. It is sound, but it gives Black no counterplay against the centre and leaves White the more active side."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Qa4": {
     "strategy": "Pins the c6 knight to the king, leaving the e5 pawn without real protection and threatening to take it. White's pieces come out with tempo, and Black has to find a way to hold e5 and deal with the loose e4 pawn at the same time."
@@ -139,10 +139,10 @@
     "strategy": "Wins the loose pawn. The pinned knight on c6 and the loose e5 pawn look dangerous, but Black has a strong reply to White's capture on e5 and comes out ahead."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 Bd7": {
-    "strategy": "Breaks the pin at once, so the c6 knight is guarded and free to take on e5. Black chooses solid development over grabbing the pawn on e4 and keeps the central tension, at the price of a slightly passive bishop."
+    "strategy": "Breaks the pin but drops a pawn: the bishop on d7 blocks the queen's guard of d5, so 5.exd5 attacks the knight on c6 and Black cannot recover the pawn."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 f6": {
-    "strategy": "Defends e5 with a pawn and keeps the centre tension, accepting the pin on the c6 knight. It takes the f6 square from the g8 knight and weakens the e8-h5 diagonal and the e6 square, so Black gets a solid but slightly awkward set-up."
+    "strategy": "Defends e5 with a pawn and holds the balance, but it throws away the advantage that 4...dxe4 wins. It takes f6 from the g8 knight and weakens the e8-h5 diagonal, so Black gets a solid but awkward game at best."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5": {
     "strategy": "Regains the pawn and piles up on the pinned c6 knight, which only the b-pawn guards, so Black must react at once. Black's queen has strong counterplay, though, and this sharp main try demands accurate play from White."
@@ -154,13 +154,13 @@
     "strategy": "Hangs the knight: the queen on d8 sees g5 along the diagonal and nothing protects the knight, so Black simply takes it."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5 Qd5": {
-    "strategy": "Centralises the queen with a double attack on the loose bishop on b5 and the knight on e5. White must find an answer to both threats at once, and Black keeps the initiative."
+    "strategy": "Centralises the queen with a double attack on the bishop and the knight, and holds the balance, but it throws away the advantage: 6.Qa4 defends the bishop and keeps c6 under fire, and Black has no better than equality."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5 Qg5": {
     "strategy": "Counter-attacks the knight on e5, which nothing guards, and the g2 pawn at once, so White has no time to cash in on the pin. Black takes the initiative and stands better."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5 Qd6": {
-    "strategy": "Guards c6 a second time, so the pin wins nothing: 6.Nxc6 bxc6 leaves Black with doubled c-pawns, but 7.Bxc6+ fails to ...Qxc6. The queen also hits the knight on e5. Black gets a playable game with a weakened pawn structure."
+    "strategy": "Guards c6 a second time and hits the knight on e5, but 6.d4 supports the knight, and after 6...exd3 7.Bxc6+ bxc6 Black's pawns are broken and White's pieces are active. A clearly better position has become a worse one."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5 Qd5 6.Qa4": {
     "name": "Ponziani Opening: Spanish Variation, Harrwitz Attack, Nikitin Gambit",
@@ -194,23 +194,23 @@
     "strategy": "Supports e4 with a pawn and keeps the position safe, but White gives up the central strike that 3.c3 was played for. Black's pawn on f5 keeps e4 under pressure and Black can develop in peace."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 f5 4.d4 d6": {
-    "strategy": "A solid answer: e5 gets a second defender and the c8-bishop is freed to guard f5. But it is passive. Black does not take on e4, and the countergambit loses its sting while White gains space and time in the centre."
+    "strategy": "Defends e5 a second time and opens the bishop's path to f5, but it leaves the f5 pawn to White: 5.exf5 wins a pawn, and if Black retakes with the bishop, 6.Bb5 pins the c6 knight and leaves White clearly better. The countergambit has lost its point."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 f5 4.d4 fxe4": {
     "strategy": "Takes the pawn and completes the countergambit: Black is a pawn up for the moment. But e5 is attacked twice and guarded only by the knight, so White regains the pawn at once, and the fight that follows is considered to favour White."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 f5 4.d4 exd4": {
-    "strategy": "Takes the pawn that attacks e5 and opens the centre. White recaptures with the c-pawn and keeps a broad pawn centre, while Black's pawn on f5 still presses e4; Black has to justify the loosened kingside with active play."
+    "strategy": "Takes the pawn that attacks e5, but leaves the e5 square to White: 5.e5 gains space and cramps Black's development, and the loosened king side has nothing to show for it."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 f5 4.d4 d6 5.d5": {
     "name": "Ponziani Opening: Ponziani Countergambit, Schmidt Attack",
-    "strategy": "Gains time by attacking the knight and space in the centre, while the pawn on e4 still bears on f5. Black's pieces are cramped and the knight has to retreat; White has a big, secure centre against a loosened kingside."
+    "strategy": "Gains space and drives the knight back, but it passes up a pawn: after ...Nce7 the capture on f5 is met by ...Nxf5, so the extra pawn is gone and White has only a small space edge."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 f5 4.d4 d6 5.exf5": {
-    "strategy": "Wins the f-pawn, but the capture takes White's own pawn off e4, so Black's e-pawn can advance with tempo against the knight. White is a pawn up and must keep it with care while Black's pieces come out freely."
+    "strategy": "Wins the f-pawn and keeps it, the clearest answer to Black's passive fourth move. The capture takes White's own pawn off e4, so ...e4 can hit the knight, but White stays a pawn up with the better centre."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 f5 4.d4 d6 5.dxe5": {
-    "strategy": "Gives up the tension in the centre: after the exchange on e5 the queens can come off, and the big pawn centre that 4.d4 was meant to build is gone. It offers Black an easy game."
+    "strategy": "Gives up the tension in the centre and the big pawn centre that 4.d4 was meant to build, and with it the chance to win the f5 pawn. After ...fxe4 the knight on f3 is attacked and the e5 pawn is a target, so Black has the easier game."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 Nf6 4.d4": {
     "strategy": "The point of 3.c3: White challenges e5 at once and ignores the loose pawn on e4, so Black chooses which central pawn to take. Either way White aims to win the pawn back with gain of time, in games that run from quiet to wild."
@@ -222,7 +222,7 @@
   "1.e4 e5 2.Nf3 Nc6 3.c3 Nf6 4.Bc4": {
     "name": "Ponziani Opening: Neumann Gambit",
     "background": "Jules Arnous de Rivière played it against Gustav Neumann in 1864, and databases use both names for it. Radjabov played it against Anand in 2009, reaching it by the Italian Game move order, and Anand declined the pawn.",
-    "strategy": "Eyes f7 but leaves the pawn on e4 undefended. Black simply takes it, and with c3 occupied White has nothing concrete in return. The best White can do is trade bishop for knight and win the pawn back, when Black still has the easier game."
+    "strategy": "Eyes f7 and leaves e4 loose. If Black takes it, White usually castles and wins a pawn back on e5 after trading the bishop for the c6 knight, so the position stays level: sound, but Black has the slightly easier game."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 Nf6 4.d3 d5": {
     "name": "Ponziani Opening: Jaenisch Counterattack",
@@ -293,7 +293,7 @@
     "strategy": "Defends e4 with a pawn, solid and safe, but it shuts in the king's bishop and leaves the queen's knight to develop later. A slower, more passive plan that gives Black an easy game."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d3 f5": {
-    "strategy": "A counterattack on e4 that opens the king's side too early. The e5 pawn depends on the knight for its defence, and after exf5 Black is simply a pawn down for a risky attack."
+    "strategy": "Challenges e4 with a pawn at once. White's quiet third move gives no easy way to punish it, so it is playable, but the pawn move loosens Black's king side and the e8-h5 diagonal, so it is riskier than simple development."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d3 Nf6": {
     "strategy": "Develops and attacks e4 at once. The pawn is guarded by d3, so nothing is won yet, but Black keeps every central plan open and answers White's modest third move by simply building the position."
@@ -329,6 +329,6 @@
     "strategy": "Hits the knight with a pawn but loosens the diagonal to the king: Black replies ...Qh4+ and keeps the extra piece, with the initiative."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nxe5 Nxe5 4.Nc3": {
-    "strategy": "Develops a piece and keeps e4 guarded, but threatens nothing: Black consolidates the extra piece and has an easy game."
+    "strategy": "Develops a piece and keeps e4 guarded, a sound but slow way to play the gambit: it threatens nothing, so Black consolidates the extra piece at leisure and has an easy game."
   }
 }

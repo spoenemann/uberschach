@@ -7,7 +7,7 @@
     "strategy": "Greift den Bauern g5 an, der zweimal angegriffen und einmal gedeckt ist, bevor Schwarz ihn stützen kann, sodass Schwarz praktisch vorstoßen und den Springer vertreiben muss. Der Bauer nimmt der Dame außerdem das Feld h4, sodass der Springer ausweichen kann, ohne ein Schach zuzulassen. Weiß erhält für den Bauern offene Linien und schnelle Entwicklung in einem scharfen Kampf."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4": {
-    "strategy": "Entwickelt sich mit Blick auf f7 und bereitet sich auf ...g4 vor: Wird der Springer vertrieben und gibt die Dame auf h4 Schach, kann der König nach f1 ziehen. Weiß ist für scharfes Spiel entlang der f-Linie gerüstet, und Schwarz muss zwischen Verwicklungen und einer ruhigen Festigung des Mehrbauern wählen."
+    "strategy": "Zielt auf f7 und räumt f1 für den König, verhindert aber ...g4 nicht. Schwarz vertreibt den Springer, und Weiß muss eine Figur opfern oder zurückweichen, einen Bauern im Rückstand, sodass Schwarz in jedem Fall besser herauskommt."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Nc3": {
     "name": "Angenommenes Königsgambit: Quaade-Gambit",
@@ -33,17 +33,17 @@
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.d4 g4 5.Nc3": {
     "name": "Angenommenes Königsgambit: Rosentreter-Gambit, Sörensen-Gambit",
-    "strategy": "Ein Springeropfer: Der schwarze Bauer g4 schlägt den Springer auf f3, und Weiß nimmt mit der Dame zurück, die den Bauern f4 angreift, für schnelle Entwicklung. Weiß steht eine Figur im Minus und hat nur Aktivität vorzuweisen; das ist ein riskanter praktischer Versuch, keine Hauptvariante."
+    "strategy": "Ein Springeropfer: ...gxf3, und die Dame schlägt mit Angriff auf f4 und schneller Entwicklung zurück. Weiß steht eine Figur zurück, und die Aktivität gleicht das nicht aus; es ist also ein riskanter praktischer Versuch, der nur funktioniert, wenn Schwarz sich irrt."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.d4 g4 5.Bxf4": {
     "name": "Angenommenes Königsgambit: Rosentreter-Gambit, Testa-Variante",
-    "strategy": "Holt den Gambitbauern sofort zurück und bietet obendrein den Springer f3 an. Weiß hat eine Figur weniger, aber offene Linien für die Dame und einen Läufer, der auf c7 zielt; alles hängt davon ab, dass der Angriff anhält, und wenn Schwarz sich konsolidiert, hat Weiß für die Figur wenig vorzuweisen."
+    "strategy": "Nimmt den Gambitbauern sofort zurück und bietet obendrein den Springer auf f3 an. Weiß bekommt offene Linien für die Dame und einen auf c7 gerichteten Läufer, aber eine ganze Figur fehlt; wenn Schwarz sich konsolidiert, läuft der Angriff ins Leere."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.d4 g4 5.Ne5 Qh4+": {
     "strategy": "Schach auf der offenen Diagonale nach e1, wobei die Dame zugleich den Bauern g4 deckt. Weiß muss mit einem Bauern blocken oder durch einen Königszug auf die Rochade verzichten; Schwarz gewinnt also ein Tempo und erzwingt eine Schwächung des weißen Königsflügels."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.d4 g4 5.Ne5 Nf6": {
-    "strategy": "Entwickelt sich mit Angriff auf e4 und ignoriert den Springer auf e5, der den Bauern g4 nehmen kann. Nachdem die Springer auf g4 getauscht sind, hat Weiß seinen Bauern zurück, sodass Schwarz den Mehrbauern gegen schnelle Entwicklung und einen Anteil am Zentrum getauscht hat."
+    "strategy": "Entwickelt sich und greift e4 an, lässt aber den Springer auf e5 und den Bauern f7 allein: Lc4 greift f7 doppelt an, und Schwarz hat keine bequeme Möglichkeit, ihn zu halten. Der Mehrbauer gleicht den Zeitverlust nicht aus, und Weiß bekommt einen starken Angriff."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.d4 g4 5.Ne5 d6": {
     "strategy": "Vertreibt den Springer und öffnet den Läufer c8, doch Weiß nimmt auf g4, und der Abtausch auf diesem Feld lässt den Bauern zurückgewonnen. Schwarz tauscht den Mehrbauern gegen ein solides Zentrum und leichte Entwicklung, und die Schärfe des Schachs auf h4 ist dahin."
@@ -65,7 +65,7 @@
     "strategy": "Ein Gegenangriff im Zentrum, der auf schnelles Spiel gegen e4 setzt, statt den g-Bauern zu halten. Die Stellung wird unklar: Schwarz meidet die scharfe g4-Variante, muss aber mit dem König noch in der Mitte auf offenes, taktisches Spiel gefasst sein."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 Bh6": {
-    "strategy": "Deckt g5 von h6 aus, doch nach hxg5 Lxg5 gewinnen das zentrale Spiel von Weiß und später g3 den Bauern f4 zurück, während Weiß in der Entwicklung voraus ist. Schwarz hat vom Gambit nichts mehr vorzuweisen, und die Initiative von Weiß ist real."
+    "strategy": "Deckt g5 von h6 aus, aber nach hxg5 Lxg5 gewinnt Weiß den Bauern auf f4 mit Entwicklungsvorsprung zurück. Schwarz hat vom Gambit nichts mehr vorzuweisen und gibt den Vorteil auf, den ...g4 behält, während die Initiative von Weiß real ist."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5": {
     "name": "Angenommenes Königsgambit: Kieseritzky-Gambit",
@@ -110,7 +110,7 @@
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 h5": {
     "name": "Angenommenes Königsgambit: Kieseritzky-Gambit, Lange Peitsche",
     "background": "Früher als kritischer Test des Kieseritzky-Gambits angesehen, gilt die Variante heute als zweifelhaft, altmodisch und riskant.",
-    "strategy": "Verteidigt den Bauern g4 mit einem weiteren Bauern, aber zu einem hohen Preis: Schwarz gerät in der Entwicklung ins Hintertreffen, während der Springer weiter auf f7 drückt und ein Läufer auf c4 diesen Druck verdoppelt. Den Bauern auf diese Weise zu halten kostet zu viel Zeit."
+    "strategy": "Deckt den Bauern auf g4 mit einem zweiten Bauern, sodass die Gambitbauern bleiben. Der Zug ist korrekt, schwächt aber den Königsflügel und kostet Zeit: Der Springer übt weiter Druck auf f7 aus, und ein Läufer auf c4 verdoppelt diesen Druck. Schwarz muss lange umständlich verteidigen."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 Be7": {
     "name": "Angenommenes Königsgambit: Kieseritzky, Polerio-Verteidigung",
@@ -123,7 +123,7 @@
     "strategy": "Schlägt den Bauern und öffnet die e-Linie, doch ...Dxd5 schlägt sofort zurück und greift den ungedeckten Springer an. Weiß verbringt den nächsten Zug damit, den Springer zu retten, statt das Zentrum aufzubauen, und der Mehrbauer ist dahin."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 d5 6.Nxg4": {
-    "strategy": "Gibt den Vorposten des Springers auf, um den Bauern g4 zu nehmen, und tauscht ihn gegen den Läufer c8. Das Material ist wieder ausgeglichen, doch der Druck, den der Springer auf e5 bringen sollte, ist verschwunden, und der schwarze Bauer d5 schlägt dann auf e4."
+    "strategy": "Nimmt den Bauern auf g4, aber der Springer verlässt seinen starken Posten, und e4 bleibt ungedeckt: ...dxe4 gewinnt diesen Bauern, und die Figuren von Schwarz kommen mit Tempo ins Spiel. Weiß hat einen Bauern zurückgewonnen, nur um im Zentrum und in der Entwicklung zurückzufallen."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 d5 6.d4 Nf6": {
     "strategy": "Entwickelt sich mit Tempo und fügt dem ungedeckten Bauern e4 einen zweiten Angreifer hinzu, sodass Weiß nicht einfach alles behalten kann und im Zentrum handeln muss. Schwarz behält vorerst den Mehrbauern und einen Anteil am Zentrum, um den Preis eines entblößten Königsflügels."
@@ -132,7 +132,7 @@
     "strategy": "Fordert den Springer mit einem Entwicklungszug heraus und bringt eine zweite Figur in den Kampf um e5 und d4. Schwarz behält den Mehrbauern, doch ein Abtausch auf c6 lässt Schwarz mit Doppelbauern auf der c-Linie zurück, sodass der Springerzug kein freier Tempogewinn ist."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 d5 6.d4 dxe4": {
-    "strategy": "Nimmt einen zweiten Bauern und öffnet das Zentrum, doch die Spannung, die das weiße Zentrum zurückhielt, ist verschwunden. Weiß gewinnt das Material mit Lxf4 oder Sxg4 zurück und entwickelt sich dabei mit Tempo, und die schwarzen Bauern sind eine Last, wenn der König in der Mitte bleibt."
+    "strategy": "Gewinnt einen zweiten Bauern und öffnet das Zentrum, aber der König bleibt in der Mitte, und f7 muss sich selbst verteidigen: Lc4 greift ihn doppelt an, und die Mehrbauern helfen dabei nicht. Schwarz hat Material auf Kosten der Sicherheit genommen, und Weiß steht klar besser."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 h5 6.Bc4": {
     "strategy": "Bringt einen zweiten Angreifer gegen f7, das nur der König verteidigt, und zeigt den Preis von ...h5: Schwarz kann nicht zugleich die Bauern halten und f7 verteidigen. Weiß behält die Initiative, und Schwarz wird zu unbequemen Verteidigungszügen gedrängt."
@@ -141,7 +141,7 @@
     "strategy": "Stützt den Springer auf e5 und öffnet den Läufer c1 gegen den ungedeckten Bauern f4, sodass Weiß ein zentrales Bauernpaar bekommt und droht, den Bauern sofort zurückzugewinnen. Die vorgerückten schwarzen Bauern auf g4 und h5 sind gegen ein starkes Zentrum schwer zu halten."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 h5 6.Be2": {
-    "strategy": "Fügt dem Bauern g4, den nur ...h5 verteidigt, einen zweiten Angreifer hinzu und bereitet die Rochade vor. Das hält die weißen Figuren kompakt, lässt aber f7 in Ruhe, sodass Schwarz Zeit hat, den Springer zu vertreiben und die Bauern zu behalten."
+    "strategy": "Fügt g4 einen zweiten Angreifer hinzu und bereitet die Rochade vor, aber der Bauer auf h5 hält g4, und f7 bleibt allein. Schwarz hat Zeit, den Springer mit einem Bauern zu vertreiben, und behält beide Mehrbauern, sodass Weiß für sein Gambit wenig getan hat."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 h5 6.Bc4 Rh7": {
     "strategy": "Die Hauptmöglichkeit, f7 zu decken: Der Turm verteidigt den Bauern entlang der siebten Reihe, sodass der Springer und der Läufer kein leichtes Ziel haben und Schwarz den Mehrbauern behält. Der Preis ist ein Turm, der am Rand gestrandet ist, und ein großer Entwicklungsrückstand, sodass die Variante riskant bleibt."
@@ -185,13 +185,13 @@
     "strategy": "Deckt den Springer, den die Dame mit dem Bauern e4 dahinter angreift, und macht dem Läufer c1 den Weg nach f4 frei. Weiß behält den Springer auf seinem zentralen Posten und seinen Raumvorteil, und die schwarze Dame ist auf ein ungeschütztes Feld festgelegt."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 Qe7 6.Nxg4": {
-    "strategy": "Schlägt den Bauern und verlässt das angegriffene Feld, doch der Bauer e4 ist jetzt ungedeckt: Die Dame nimmt ihn mit Schach, und die Damen werden meist getauscht. Schwarz behält den Mehrbauern auf f4, da der Läufer c1 vom Bauern d2 eingesperrt ist."
+    "strategy": "Nimmt den Bauern und verlässt das angegriffene Feld, aber e4 ist nun ungedeckt, und ...f5 trifft Springer und Bauern zugleich. Schwarz gewinnt die Initiative und behält den Mehrbauern auf f4, da der Läufer auf c1 vom Bauern auf d2 eingesperrt ist."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 Qe7 6.Nd3": {
     "strategy": "Zieht sich zurück und nimmt den Bauern f4 ins Visier, lässt aber e4 ohne Verteidiger: Die Dame nimmt ihn mit Schach. Weiß hat nun für das Gambit einen zweiten Bauern verloren, und die schwarze Dame ist die aktivere Figur."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 Qe7 6.d4 f5": {
-    "strategy": "Ein riskanter Gegenangriff: Der Bauer greift e4 an, und wenn Weiß ihn nimmt, ist der Springer auf e5 gegen den König gefesselt, doch der Zug nimmt den f-Bauern aus der Deckung des Königs. Schwarz wettet darauf, dass die offene e-Linie wichtiger ist als der geschwächte Königsflügel."
+    "strategy": "Ein riskanter Gegenangriff: Der Bauer greift e4 an, aber er räumt f7, sodass Lc4 und der Springer auf e5 geradewegs auf das Feld neben dem König zielen. Schwarz hat dem König für einen Bauern die Deckung genommen, und Weiß bekommt den besseren Angriff."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 Qe7 6.d4 d6": {
     "strategy": "Vertreibt den Springer mit einem Bauern und öffnet den Läufer c8. Keines der Felder des Springers deckt e4, also gewinnt die Dame diesen Bauern mit Schach. Die Kompensation von Weiß ist der Läufer c1, der nun gegen den Bauern f4 offen steht."
@@ -204,10 +204,10 @@
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ng5 Nf6": {
     "name": "Angenommenes Königsgambit: Allgaier, Schlechter-Verteidigung",
-    "strategy": "Entwickelt sich mit Angriff auf e4 und lehnt es ab, das Opfer zu erzwingen, sodass der Springer auf g5 nicht gefangen ist. Das gibt Weiß mehr Wahlmöglichkeiten als die Variante, die den Springer zur Selbstaufgabe zwingt, und f7 bleibt unter Druck."
+    "strategy": "Entwickelt sich mit Angriff auf e4 und verzichtet darauf, das Opfer zu erzwingen, sodass der Springer auf g5 nicht gefangen ist. Der Zug wirft den Vorteil weg: Weiß hat freie Wahl, f7 bleibt unter Druck, und die Partie ist ausgeglichen."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ng5 d5": {
-    "strategy": "Verzichtet darauf, das Springeropfer zu erzwingen: Der Bauer greift e4 an und lässt dem Springer nach dem Schlagen das Feld e4 zum Rückzug, sodass er nicht mehr gefangen ist. Schwarz gibt den Mehrbauern für offene Linien und Entwicklung zurück."
+    "strategy": "Verzichtet darauf, das Springeropfer zu erzwingen: Der Bauer greift e4 an, und nach dem Schlagen hat der Springer e4 als Fluchtfeld. Schwarz weicht dem schärfsten Kampf aus, gibt aber einen großen Teil des Vorteils auf, den ...h6 behält, da der Springer nicht mehr gefangen ist."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ng5 h6 6.Nxf7": {
     "name": "Angenommenes Königsgambit: Kieseritzky-Gambit, Cotter-Gambit",

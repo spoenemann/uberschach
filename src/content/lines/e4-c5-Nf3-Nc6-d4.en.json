@@ -11,7 +11,7 @@
     "strategy": "Aims at control of d5, but cannot stop White from advancing there at once: the pawn attacks the knight and drives it away, gaining space with tempo. Black's pieces end up pushed back."
   },
   "1.e4 c5 2.Nf3 Nc6 3.d4 d6": {
-    "strategy": "A solid move that guards e5 and frees the c8-bishop, but it leaves the tension in the centre. White can push d5 to chase the knight or exchange pawns and queens, and Black has avoided the fight for the centre without gaining anything."
+    "strategy": "Guards e5 and frees the c8-bishop, but does not answer the tension in the centre: 4.d5 drives the knight back to b8 and gains space. Black has lost two moves with the same piece, and White has the freer game."
   },
   "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4": {
     "name": "Sicilian Defence: Open",
@@ -215,7 +215,7 @@
     "strategy": "Plays the pawn at once, steering into an ordinary Dragon set-up with the knight already on c6. It solidifies the centre and frees the c8 bishop, but it gives up the one-move ...d5 that makes this move order attractive and lets White choose the attacking set-up."
   },
   "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.Nc3 Bg7 6.Be3 Nxd4": {
-    "strategy": "Trades the strong knight and simplifies, but the recapturing bishop hits g7 at once, so Black must react before developing. The game loses much of its sharpness, which suits a player content with a level, quiet position."
+    "strategy": "Trades knights, but 7.Bxd4 attacks the undefended bishop on g7, and after 7...Bxd4 8.Qxd4 the rook on h8 is attacked as well. Black is left defending the long diagonal and stands clearly worse."
   },
   "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3": {
     "strategy": "Defends the e4 pawn that the knight attacks and develops the second knight, keeping the strong knight on d4. White hands Black the central question: a solid pawn structure, or a lunge that kicks the d4 knight at once."
@@ -250,7 +250,7 @@
   },
   "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 6.Nxc6": {
     "name": "Sicilian Defence: Lasker-Pelikan Variation, Exchange Variation",
-    "strategy": "Gives up the strong knight for Black's, but the recapture ...bxc6 gives Black a central pawn that covers the d5 square, which was White's target. White has no edge and Black equalises without difficulty."
+    "strategy": "Trades the strong knight at once. After ...bxc6 Black has a central pawn that covers d5, the square White was aiming at, so White gets no edge. Sound, but it gives up the pressure that makes Ndb5 the critical reply."
   },
   "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 6.Ndb5 d6": {
     "strategy": "Shuts the d6 square against Nd6+, at the price of the concession that comes with ...e5: a backward d-pawn and a permanent hole on d5. The knight on b5 is out on a limb, and Black plays for activity and time rather than a perfect structure."
@@ -259,6 +259,6 @@
     "strategy": "Pins the c3 knight to the king, but White checks on d6 at once. Black does best to take with the bishop, so the pin is gone, and the queen recaptures on d6 to cramp Black's position while White keeps both bishops."
   },
   "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 6.Ndb5 h6": {
-    "strategy": "Does nothing about the threat on d6: White checks, wins the bishop pair after the exchange and plants a queen on d6 that cramps the whole Black position. The pawn move is a lost tempo."
+    "strategy": "Ignores the threat on d6. After 7.Nd6+ Bxd6 8.Qxd6 White has both bishops against one, and a queen on d6 that stops Black castling and cramps the whole position. The pawn move is a lost tempo."
   }
 }

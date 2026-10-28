@@ -22,7 +22,7 @@
     "strategy": "Prepares ...e5 or a Sicilian-type set-up. It is sound but passive: it commits the d-pawn before the knights and leaves White free to take space in the centre."
   },
   "1.Nf3 c5 2.c4 d5": {
-    "strategy": "Challenges the centre at once. After 3.cxd5 Black can regain the pawn with a knight, but recapturing with 3...Qxd5 lets 4.Nc3 gain a tempo against the queen and leaves White ahead in development."
+    "strategy": "Challenges the centre at once, but White simply takes: 3.cxd5 Qxd5 4.Nc3 gains a tempo against the queen and leaves White ahead in development, and recapturing with 3...Nf6 is worse still."
   },
   "1.Nf3 c5 2.c4 Na6": {
     "strategy": "Puts the knight on the rim, where it controls neither d4 nor e5 and needs another move to become useful. White builds the centre while Black spends tempi."
@@ -40,7 +40,7 @@
     "strategy": "Heads for f5, where e4 or g4 would drive the knight away at once. On h6 it does nothing for the centre, and White gains time for the centre."
   },
   "1.Nf3 c5 2.c4 a6": {
-    "strategy": "Prepares ...b5 against the c4-pawn, but it develops nothing, and White builds the centre while Black's kingside pieces stay at home."
+    "strategy": "Prepares ...b5 against the c4 pawn and is sound, but it spends a tempo on a flank pawn without developing a piece. White builds a full centre at leisure while Black's kingside stays at home."
   },
   "1.Nf3 c5 2.c4 a5": {
     "strategy": "Stops b4 but does not develop, and leaves b5 as a lasting hole that no Black pawn can cover. White takes the centre at leisure."
@@ -100,7 +100,7 @@
     "strategy": "Takes the pawn at once, so White must recapture with a piece and the centre opens. Black gets a free game and the half-open c-file, while White's knight lands on the strong central square d4."
   },
   "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4 Nc6": {
-    "strategy": "Adds a second attacker to d4 with a developing move and keeps the tension. Black can capture when it suits, and a recapturing knight will then meet the knight on c6 at once; the cost is that White may choose how to treat the centre in the meantime."
+    "strategy": "Develops a knight and adds a second attacker on d4, but it walks into 5.d5. The knight has no good square, and after 5...Nd4 6.Nxd4 cxd4 7.Qxd4 White is a clean pawn up."
   },
   "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4 d5": {
     "strategy": "Strikes in the centre at once, challenging the pawns on c4 and d4 before they claim more space. The game turns into a classical fight for the central squares with developed pieces, instead of the open play that follows a capture on d4."
@@ -125,13 +125,13 @@
     "strategy": "Eyes the knight on d4 and the b2 pawn, and prepares ...Nc6 to hit the knight again. It brings the queen out early, though, so White's pieces can chase it, and the lead in activity is easily lost."
   },
   "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4 Nc6 5.g3": {
-    "strategy": "Puts the king's bishop on the long diagonal and prepares castling, while the tension on d4 still stands. White lets Black settle the centre and expects to meet the capture with a knight in the middle."
+    "strategy": "Puts the bishop on the long diagonal and prepares castling, but it lets the previous move go unpunished: 5.d5 wins a pawn here, and after g3 Black can equalise by taking on d4."
   },
   "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4 Nc6 5.e3": {
-    "strategy": "Supports d4 and frees the king's bishop while the tension in the centre stays. White is ready to recapture on d4 with the pawn or with the knight, and keeps a broad, well-supported centre. A solid, flexible answer that leaves White the choice of the pawn structure."
+    "strategy": "Supports d4 and frees the king's bishop, a sound set-up, but it lets the previous move go unpunished: 5.d5 wins a pawn here, and e3 settles for an equal game."
   },
   "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4 Nc6 5.d5": {
-    "strategy": "Gains space and attacks the knight on c6, so Black must act at once. White keeps more room in the centre, but the advanced pawn becomes a target and Black plays for counterplay with piece activity, with the knight heading for b4."
+    "strategy": "Punishes Black's last move: the pawn attacks the knight on c6, and after 5...Nd4 6.Nxd4 cxd4 7.Qxd4 White is a clean pawn up. Black's other replies do no better."
   },
   "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4 Nc6 5.g3 cxd4": {
     "strategy": "Takes the pawn and removes White's strongest central pawn, so White must recapture with a piece. Black's knight on c6 is already out to challenge that piece, and the c-file opens for Black."
@@ -140,7 +140,7 @@
     "strategy": "Hits the centre directly and offers to trade off White's c-pawn. Black gets open lines and active pieces, and can recapture with the knight to reach an equal game or with the pawn to keep more central presence, in return for a little structural duty."
   },
   "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4 Nc6 5.g3 Be7": {
-    "strategy": "Prepares castling and guards the c5 pawn, a quiet developing move. It does not challenge d4, so White can release the tension or keep the space edge, and Black leaves the decision about the centre to White."
+    "strategy": "Prepares castling and guards the c5 pawn, but it ignores the thrust 6.d5: the knight on c6 is attacked, and after 6...exd5 7.cxd5 Nd4 8.Nxd4 cxd4 9.Qxd4 White has won a pawn."
   },
   "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4 Nc6 5.g3 cxd4 6.Nxd4": {
     "strategy": "Recaptures with the knight, which regains the central square d4 and keeps the pawn trade even. The centre is open now, and the knight on d4 and the knight on c6 face each other on a square both want."
@@ -159,7 +159,7 @@
     "strategy": "Pins the knight on c3 against the king, so the threat of taking it and doubling White's pawns on the c-file hangs over the position. Black develops with a clear plan, castles soon and keeps the fight for the centre alive in a flexible, active game."
   },
   "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.d4 Nc6 5.g3 cxd4 6.Nxd4 Nxd4": {
-    "strategy": "Trades White's active knight and forces the queen to recapture on d4, where Black's development can harass it. Black gets a solid, simple game without weaknesses, at the price of some space."
+    "strategy": "Trades White's active knight and forces the queen to recapture on d4. Black's game is solid and simple, but White gets a centralised queen and keeps the extra space of the c4 pawn, while Black has no pressure to show for it."
   },
   "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.g3 b6": {
     "strategy": "Prepares to fianchetto the queen's bishop, so that Black's bishop too will rake the long diagonal. Black builds a solid, compact set-up with few weaknesses and leaves the centre for now, at the price of giving White more space."
@@ -183,7 +183,7 @@
     "strategy": "Completes Black's own fianchetto: the bishop looks along the long diagonal through d5 and e4 at the knight on f3. Both sides now hold the long diagonals, and the fight is about who can use the centre first."
   },
   "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.g3 b6 5.Bg2 Be7": {
-    "strategy": "Develops the bishop on its natural square for castling and guards c5, so Black's pawn chain stays compact. The bishop on c8 is not yet placed, but the same set-up usually arises, and Black waits to see how White shapes the centre."
+    "strategy": "Develops and guards c5, but it delays ...Bb7 and leaves the long diagonal and d5 to White's fianchettoed bishop. White can strike in the centre at once, before Black has contested d5."
   },
   "1.Nf3 c5 2.c4 e6 3.Nc3 Nf6 4.g3 b6 5.Bg2 Nc6": {
     "strategy": "Adds control of d4 and e5, but the knight stands in front of the bishop, so a fianchettoed bishop on b7 would be blocked on the long diagonal. Black gives up the standard compact set-up for activity in the centre and has to rearrange later."

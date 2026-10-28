@@ -529,15 +529,15 @@
         },
         {
           "san": "c3",
-          "rating": 4
-        },
-        {
-          "san": "d4",
           "rating": 3
         },
         {
           "san": "Bb5",
           "rating": 3
+        },
+        {
+          "san": "d4",
+          "rating": 2
         }
       ]
     },
@@ -550,11 +550,11 @@
         },
         {
           "san": "Nxd4",
-          "rating": 4
+          "rating": 3
         },
         {
           "san": "Nf6",
-          "rating": 3
+          "rating": 1
         }
       ]
     },
@@ -562,16 +562,20 @@
       "line": "1.e4 c5 2.Na3 Nc6 3.d4 cxd4",
       "moves": [
         {
-          "san": "Nf3",
+          "san": "Bd3",
           "rating": 5
         },
         {
-          "san": "Nb5",
+          "san": "Nf3",
           "rating": 4
         },
         {
+          "san": "Nb5",
+          "rating": 2
+        },
+        {
           "san": "Bc4",
-          "rating": 3
+          "rating": 2
         }
       ]
     },

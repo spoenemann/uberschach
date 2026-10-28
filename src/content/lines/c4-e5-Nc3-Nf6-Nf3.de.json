@@ -20,18 +20,18 @@
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 e4 4.Ng5 c6": {
     "name": "Sizilianisch im Anzuge: Adhiban-Gambit",
-    "strategy": "Bereitet vor, den Bauern auf e4 mit einem Bauern auf d5 zu stützen, statt ihn direkt zu decken. Schwarz lässt Weiß den Bauern gewinnen und erhält dafür Entwicklung und Zentrumsspiel, ein Gambit, das abseitig ist und Weiß die Wahl lässt."
+    "strategy": "Bereitet ...d5 vor, sodass ein auf e4 schlagender Springer sofort angegriffen wird, statt den Bauern direkt zu verteidigen. Schwarz darf den Bauern für Entwicklung und Spiel im Zentrum opfern, und die Stellung bleibt ausgeglichen. Ungewöhnlich, aber die verlässlichste Antwort auf die Drohung gegen e4."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 e4 4.Ng5 b5": {
     "name": "Sizilianisch im Anzuge: Bellon-Gambit",
-    "strategy": "Bietet den b-Bauern an, um den c4-Bauern abzulenken und auf dem Damenflügel Linien zu öffnen, doch der Bauer auf e4 bleibt zweimal angegriffen, und Weiß kann mit cxb5 oder Sxb5 Material gewinnen. Schwarz hat für die Bauern zu wenig vorzuweisen."
+    "strategy": "Greift den c4-Bauern an, sodass auf einen Schlag auf e4 ...bxc4 folgen kann und das Material ausgeglichen bleibt. Der Vorstoß lockert den Damenflügel und entwickelt nichts, ist also spielbar, aber weniger solide als die Vorbereitung von ...d5 mit ...c6."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 e4 4.Ng5 Ng4": {
     "name": "Sizilianisch im Anzuge: Erbenheimer-Gambit",
     "strategy": "Lässt den Bauern auf e4 ohne jeden Verteidiger: Er wird von den Springern auf c3 und g5 angegriffen, sodass Weiß ihn einfach nimmt. Der Springer auf g4 hat f2 und h2 im Blick, aber der König deckt f2, und Weiß kann ihn mit h3 vertreiben."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 e4 4.Ng5 Bb4": {
-    "strategy": "Die aktivste Antwort auf die Drohung gegen e4: Schwarz entwickelt sich mit Druck auf den Springer, der den Bauern angreift, und bereitet den Figurentausch vor, falls Weiß ihn nimmt. Der Bauer wird zweimal angegriffen und einmal gedeckt, sodass Schwarz ihn womöglich abgeben muss und auf Aktivität und offene Linien spielt."
+    "strategy": "Greift den Springer auf c3 an, doch er ist nicht gefesselt, da der d2-Bauer zwischen Läufer und König steht, und so nimmt 5.Scxe4 einfach den Bauern. Schwarz erhält etwas Aktivität, aber zu wenig dafür."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.g3": {
     "name": "Sizilianisch im Anzuge: Vierspringervariante, Fianchetto-Variante",
@@ -73,7 +73,7 @@
     "strategy": "Greift den Springer auf f6 an und steuert einen Tausch an, der einen Bauern auf d5 setzt und den Springer auf c6 einengt, während der Bauer auf d4 zweimal angegriffen wird und zurückgewonnen werden kann. Spielbar, aber zweitklassig: Es kostet Zeit für einen Springer, der getauscht wird, statt sofort zurückzuschlagen."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.d4 exd4 5.Nb5": {
-    "strategy": "Fügt dem Bauern auf d4 einen dritten Angreifer hinzu und nimmt c7 ins Visier, sodass der Bauer bald zurückgewonnen ist. Aber der Springer verlässt das Zentrum und erlaubt ...Lb4+, womit Schwarz ein Tempo mit Schach gewinnt; Weiß holt den Bauern also um den Preis einer lockereren, weniger koordinierten Stellung zurück."
+    "strategy": "Fügt dem d4-Bauern einen dritten Angreifer hinzu, doch der Springer verlässt das Zentrum, und ...Lb4+ gibt sofort Schach. Schwarz behält den Mehrbauern mit Tempogewinn, während der weiße Springer auf b5 abseits steht."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.d4 exd4 5.Nxd4 Bb4": {
     "strategy": "Fesselt den Springer auf c3 an den König: Da der d-Bauer fort ist, steht nichts auf d2. Schwarz entwickelt sich mit Tempo und bindet die weißen Figuren, sodass Druck auf das Zentrum entsteht, bevor Weiß sich entwirren kann."
@@ -115,7 +115,7 @@
     "strategy": "Deckt den Springer auf c3, sodass ein Tausch auf c3 mit der Dame beantwortet werden kann und die weißen Bauern intakt bleiben. Die Dame stellt sich zudem auf die c-Linie und die Diagonale h7-b1, während Weiß das Läuferpaar im Blick behält."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.e3 Bb4 5.a3": {
-    "strategy": "Fordert den Läufer auf, sich sofort zu entscheiden. Schlägt er auf c3, gibt bxc3 Weiß das Läuferpaar für Doppelbauern auf der c-Linie; zieht er sich zurück, hat Weiß am Damenflügel Raum gewonnen. Der Preis ist ein Tempo für einen Randbauernzug, während die Entwicklung stillsteht."
+    "strategy": "Fordert den Läufer zur Entscheidung auf, doch ...Lxc3 nimmt sofort den Springer, und jede Wiedernahme lässt Weiß mit Doppelbauern auf der c-Linie zurück. Das Läuferpaar ist ein schwacher Ausgleich, und ein Tempo für einen Randbauernzug lässt die Entwicklung stillstehen."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.e3 Bb4 5.d4": {
     "strategy": "Öffnet sofort das Zentrum, doch der d-Bauer verlässt d2, sodass der Springer auf c3 gegen den König gefesselt ist und Weiß noch nicht rochiert hat. Nach den Abtäuschen gibt die offene e-Linie Schwarz Schachgebote, der Zug ist also zweischneidig und die Entwicklung des Weißen hinkt hinterher."
@@ -174,7 +174,7 @@
     "strategy": "Der natürliche Zug: Schwarz bringt den König in Sicherheit und überlässt es Weiß, die Spannung auf c3 aufzulösen, statt sich auf einen Abtausch oder einen Bauernvorstoß festzulegen. Der Läufer zielt weiter auf den Springer, und der e-Bauer behält die Option, gegen den Springer auf f3 vorzurücken."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.g3 Bb4 5.Bg2 e4": {
-    "strategy": "Gewinnt Raum und vertreibt sofort den Springer von f3. Wenn er weicht, wird der Bauer e4 vom Springer auf c3 und vom Läufer auf g2 angegriffen und nur vom Springer auf f6 gedeckt, sodass Schwarz die Spannung sofort auflösen muss: ehrgeizig, aber lockernd."
+    "strategy": "Vertreibt den Springer von f3 und gewinnt Raum, doch der Bauer lässt sich nicht halten. Nach 6.Sg5 wird er von den Springern auf c3 und g5 und vom Läufer auf g2 angegriffen, und nur der Springer auf f6 verteidigt ihn, sodass Weiß einen Bauern gewinnt."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.g3 Bb4 5.Bg2 Bxc3 6.dxc3": {
     "strategy": "Schlägt mit dem d-Bauern zurück, was die d-Linie für die Dame und die Diagonale für den Läufer auf c1 öffnet, während der Bauer auf c3 die schwarzen Springer von d4 und b4 fernhält. Die Doppelbauern auf der c-Linie sind eine langfristige Schwäche, doch Weiß hat dafür die zwei Läufer."
@@ -237,10 +237,10 @@
     "strategy": "Schlägt sofort, tauscht den c-Bauern gegen den Zentrumsbauern von Schwarz und öffnet die c-Linie. Die Figuren von Weiß kämpfen dann um d5, und die Partie öffnet sich, was der Seite zugutekommt, die besser entwickelt ist."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.g3 d5 5.Nxd5": {
-    "strategy": "Schlägt den Bauern und tauscht die Springer, vereinfacht also sofort. Die schwarze Dame schlägt auf d5 zurück, steht zentral und greift den Springer auf f3 an, sodass Weiß ein schlichtes, ausgeglichenes Spiel bekommt statt des offenen Kampfes."
+    "strategy": "Nimmt den Bauern und bietet einen Abtausch an, doch 5...e4 greift sofort den Springer auf f3 an, während der Springer auf d5 noch angegriffen ist. Der weiße Springer muss zurück, Schwarz schlägt auf d5 mit einem starken Bauern auf e4 wieder, und die weißen Figuren stehen unglücklich."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.g3 d5 5.d3": {
-    "strategy": "Stützt e4 und hält die Stellung geschlossen, gibt aber die Möglichkeit auf, sofort auf d5 zu schlagen. Schwarz entscheidet, wie sich das Zentrum auflöst: durch Schlagen auf c4, durch Damentausch oder durch den Vorstoß des d-Bauern, um Raum zu gewinnen."
+    "strategy": "Stützt e4 und hält die Stellung geschlossen, gibt aber den c4-Bauern auf: 5...dxc4 gewinnt ihn, und Weiß kann ihn nicht ohne weitere Zugeständnisse zurückholen. Schwarz behält den Mehrbauern und eine bequeme Stellung."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.g3 d5 5.cxd5 Nxd5": {
     "strategy": "Schlägt mit einem Entwicklungszug zurück und hält den Bauern auf e5 sicher. Der Springer auf d5 ist eine starke zentrale Figur, wird aber vom Springer auf c3 angegriffen; Schwarz nimmt in Kauf, dass er getauscht wird oder ziehen muss, und spielt auf aktive Figuren und Ausgleich."
@@ -258,7 +258,7 @@
     "strategy": "Tauscht den zentralisierten Springer gegen den des Weißen: Die schwarze Dame schlägt auf d5 zurück, aktiv, aber mit Vorsicht zu spielen, und Weiß behält die leichtere Entwicklung, da der Läufer auf g2 noch kommt. Eine einfache Fortsetzung ohne die Spannung, beide Springer zu behalten."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.g3 d5 5.cxd5 Nxd5 6.e3": {
-    "strategy": "Deckt d4 und hält ein kompaktes Zentrum, entwickelt aber keine Figur und lässt den schwarzen Springer auf d5 stehen. Schwarz kann jederzeit auf c3 tauschen, wenn es ihm passt, und Weiß schlägt mit einem Bauern zurück."
+    "strategy": "Deckt d4, schwächt aber d3. ...Sdb4 droht ...Sd3+, ein Schach, das zugleich den Läufer auf c1 angreift, sodass der weiße König nach e2 gezogen wird oder der Läufer auf c1 gegen einen Springer getauscht wird, und währenddessen wird nichts entwickelt."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.g3 d5 5.cxd5 Nxd5 6.Bg2 Nb6": {
     "name": "Sizilianisch im Anzuge: Vierspringervariante, Fianchetto-Variante, mit Sb6",

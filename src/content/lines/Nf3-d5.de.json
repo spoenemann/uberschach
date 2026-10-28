@@ -1,7 +1,5 @@
 {
   "1.Nf3 d5 2.c4": {
-    "name": "Réti-Eröffnung",
-    "background": "Nach Rétis eigener Angabe kam die Eröffnung Anfang 1923 in die Meisterpraxis, und Hans Kmoch nannte das Angriffssystem, das Réti in Karlsbad 1923 gegen Rubinstein anwandte, Réti-Eröffnung oder Réti-System. Heute bezeichnet der Name nur noch Sf3 und c4 von Weiß gegen ...d5, wobei mindestens ein Läufer fianchettiert wird und kein frühes d4 folgt.",
     "strategy": "Greift d5 von der Flanke an, bevor sich Weiß mit einem Zentrumsbauern festlegt, sodass das Zentrum flexibel bleibt und die Läufer auf den langen Diagonalen entwickelt werden können. Der Preis: Schwarz kann d5 halten, schlagen oder vorstoßen und bestimmt so, wie offen die Partie wird; Weiß übt Druck auf das Zentrum aus der Distanz aus, statt es zu besetzen."
   },
   "1.Nf3 d5 2.d4": {
@@ -109,16 +107,16 @@
     "strategy": "Bereitet …Lg7 vor, um Lb2 auf der langen Diagonale entgegenzutreten. Solide, aber langsam im Zentrum: Der Bauer d5 steht ohne Bauerndeckung, und Weiß kann ihn sofort mit c4 angreifen."
   },
   "1.Nf3 d5 2.b3 Nd7": {
-    "strategy": "Entwickelt den Springer b8 auf ein Feld, auf dem er den Läufer c8 verstellt. Er unterstützt …e5 und …c5, doch nach Lb2 scheitert …e5 weiterhin an Sxe5, und der Läufer bleibt hinter ihm vergraben."
+    "strategy": "Entwickelt eine Figur und unterstützt ...c5 und ...e5, was gegen ein ruhiges b3 solide ist. Aber der Springer versperrt den Läufer c8, und ...e5 verliert nach Sxe5 weiterhin einen Bauern, sobald der Läufer auf b2 steht; Schwarz hat also weniger vorzuweisen als mit ...Sf6."
   },
   "1.Nf3 d5 2.b3 Na6": {
     "strategy": "Stellt den Springer an den Rand, wo er b4 und c5 ins Auge fasst, aber nichts für d4 oder e5 tut, die er von c6 aus kontrollieren würde. Weiß baut das Zentrum ungehindert auf."
   },
   "1.Nf3 d5 2.b3 Bd7": {
-    "strategy": "Entwickelt den Läufer auf ein passives Feld, das dem Springer b8 den Weg nach d7 verstellt, statt ihn aktiv vor der Bauernkette zu postieren. Nichts wird angegriffen, sodass Weiß ungestört aufbaut."
+    "strategy": "Entwickelt den Läufer, aber auf ein passives Feld, wo er dem Springer b8 den Weg nach d7 versperrt, statt außerhalb der Bauernkette zu stehen. Solide, da b3 nichts droht, aber der Läufer leistet dort wenig, und Weiß baut in aller Ruhe das Zentrum auf."
   },
   "1.Nf3 d5 2.b3 Be6": {
-    "strategy": "Blockiert den Bauern e7, sodass weder …e6 noch …e5 möglich ist, bis der Läufer wieder zieht, und auf e6 leistet der Läufer weniger als auf f5 oder g4. Weiß baut das Zentrum ungehindert auf."
+    "strategy": "Deckt d5 mit einer Figur, aber der Läufer blockiert den e-Bauern, sodass weder ...e6 noch ...e5 möglich ist, bis er wieder zieht. Solide gegen ein ruhiges b3, doch er leistet hier weniger als außerhalb der Bauernkette, und Weiß baut in aller Ruhe auf."
   },
   "1.Nf3 d5 2.b3 Qd7": {
     "strategy": "Bringt die Dame früh ins Spiel, wo sie den Läufer c8 und den Weg des Springers b8 nach d7 verstellt. Nichts wird angegriffen, sodass Weiß Zeit gewinnt, während die Dame im Weg steht."
@@ -127,13 +125,13 @@
     "strategy": "Bringt die Dame früh auf die Diagonale a3–f8, wo 3.La3 sie sofort angreift, sodass sie erneut ziehen oder mit …c5 abgeschirmt werden muss. Bis dahin ist keine Leichtfigur entwickelt."
   },
   "1.Nf3 d5 2.b3 Nh6": {
-    "strategy": "Stellt den Springer g8 auf dem Weg nach f5 an den Rand statt nach f6, wo er e4 und d5 decken würde. Die weiße Entwicklung trifft auf keinen Widerstand."
+    "strategy": "Steuert über den Rand das Feld f5 an, was solide ist, weil dem Springer nichts droht. Aber f6 ist das natürliche Feld, von dem aus er d5 und e4 zugleich deckt, sodass der Springer unterwegs Zeit verliert."
   },
   "1.Nf3 d5 2.b3 a6": {
-    "strategy": "Verbraucht ein Tempo für einen Randbauern, ohne eine Figur zu entwickeln oder das Zentrum zu berühren; der Sinn ist …b5, und Weiß gewinnt derweil ungehindert Raum."
+    "strategy": "Solide, da b3 keinen Druck auf Schwarz ausübt, aber es kostet ein Tempo für einen Flügelbauern, ohne eine Figur zu entwickeln oder das Zentrum zu berühren. Der Zweck ist ...b5 und Raum am Damenflügel, was Weiß beim Aufbau seiner Stellung ignorieren kann."
   },
   "1.Nf3 d5 2.b3 a5": {
-    "strategy": "Gewinnt Raum am Damenflügel mit der Idee …a4 gegen den Bauern b3, entwickelt aber nichts, und der a-Bauer kann b6 und b5 nicht mehr decken. Weiß baut ungehindert auf."
+    "strategy": "Gewinnt Raum am Damenflügel mit der Idee ...a4 gegen den Bauern b3. In diesem Stadium solide, aber der Zug entwickelt nichts, und der a-Bauer deckt b6 nicht mehr; er kostet also ein Tempo für einen Plan, den Weiß ignorieren kann."
   },
   "1.Nf3 d5 2.b3 b5": {
     "strategy": "Rückt einen Flügelbauern vor, ohne eine Figur zu entwickeln, und der Bauer auf b5 ist ungedeckt: Schon 3.e3 droht Lxb5+, und auch a4 kann ihn angreifen."
@@ -145,10 +143,10 @@
     "strategy": "Legt sich sofort auf eine Bauernformation wie im Stonewall fest, die e5 als Loch hinterlässt, das Lb2 und ein Springer auf e5 nutzen können, und verzögert die Entwicklung der Königsflügelfiguren."
   },
   "1.Nf3 d5 2.b3 h6": {
-    "strategy": "Verbraucht ein Tempo für einen vorbeugenden Bauernzug gegen ein Sg5, das niemand droht, während Weiß sich entwickelt und das Zentrum beansprucht."
+    "strategy": "Nimmt dem weißen Springer das Feld g5, obwohl dieser noch nichts droht. Solide, weil nichts den langsamen Zug bestraft, doch das Tempo geht an den Rand, während Weiß seine Stellung aufbaut."
   },
   "1.Nf3 d5 2.b3 h5": {
-    "strategy": "Beginnt einen Flügelvorstoß, ohne eine Figur zu entwickeln. Der h-Bauer schwächt g5 und g6, legt sich auf einen Angriff fest, hinter dem keine Figuren stehen, und überlässt Weiß das Zentrum."
+    "strategy": "Beginnt einen Flügelvorstoß, ohne eine Figur zu entwickeln. Noch bestraft das nichts, es ist also solide, aber es lockert den Königsflügel für einen Angriff, hinter dem keine Figuren stehen, und Weiß nimmt sich inzwischen das Zentrum."
   },
   "1.Nf3 d5 2.b3 d4": {
     "strategy": "Gewinnt Raum, doch 3.Lb2 greift den Bauern zweimal an, mit Läufer und Springer, sodass Schwarz einen weiteren Zug aufwenden muss, um ihn zu halten, und ein späterer Bauernzug ihn untergraben kann. Zudem kontrolliert der Bauer c4 und e4 nicht mehr."
@@ -170,7 +168,7 @@
   },
   "1.Nf3 d5 2.b3 c5 3.e4": {
     "name": "Larsen-Eröffnung: Norfolk-Gambit",
-    "strategy": "Ein Gambit, das einen Bauern für wenig hergibt: Schwarz nimmt ihn, der Springer auf f3 wird sofort angegriffen und muss ziehen, und Weiß verliert dazu ein Tempo. Der erhoffte Entwicklungsvorsprung gleicht den Bauern selten aus, und Schwarz behält starke Zentralbauern auf c5 und e4."
+    "strategy": "Ein Bauerngambit für Aktivität: Nach ...dxe4 wird der Springer f3 angegriffen, springt aber nach e5, wo er stark steht, und Weiß erhält schnelles Figurenspiel. Die Kompensation ist echt, doch Schwarz behält einen Mehrbauern und ein starkes Zentrum, sodass Weiß sie erst beweisen muss."
   },
   "1.Nf3 d5 2.b3 c5 3.Bb2": {
     "strategy": "Stellt den Läufer auf die lange Diagonale, den eigentlichen Grund für b3: Er nimmt aus der Ferne das Zentrum und das Feld e5 ins Visier. Weiß entwickelt sich zuerst und lässt Schwarz seine Bauern auf d5 und c5 festlegen; so behält er die Wahl zwischen ruhigem Aufbau und zentralem Durchbruch."
@@ -196,160 +194,6 @@
   },
   "1.Nf3 d5 2.b3 c5 3.c4 dxc4 4.e3": {
     "strategy": "Öffnet den Läufer auf f1 gegen den Bauern auf c4, den nichts von Schwarz deckt, sodass Weiß droht, den Bauern zurückzugewinnen. Schwarz kann ihn mit ...b5 halten oder auf b3 schlagen und den Mehrbauern behalten; dann muss Weiß zeigen, dass die Entwicklung das wert ist. Spielbar, aber unklarer als das einfache Zurückschlagen."
-  },
-  "1.Nf3 d5 2.c4 e6": {
-    "strategy": "Deckt d5 mit einem Bauern und öffnet den Läufer f8, mit Kurs auf einen soliden Aufbau mit Bauern auf d5 und e6. Der Preis ist der Läufer c8, der hinter e6 eingesperrt bleibt, bis ein späterer Bauernzug ihm Spiel verschafft. Das Spiel ist solide, und Weiß entscheidet, ob er um das Zentrum kämpft oder fianchettiert."
-  },
-  "1.Nf3 d5 2.c4 c6": {
-    "strategy": "Hält d5 mit dem c-Bauern und lässt, anders als ...e6, dem Läufer c8 den Weg außerhalb der Bauernkette offen. Der Preis ist, dass der Bauer dem Springer b8 das Feld c6 nimmt, sodass dieser meist nach d7 muss. Es folgt ein solides Spiel, in dem Schwarz wenig preisgibt."
-  },
-  "1.Nf3 d5 2.c4 d4": {
-    "name": "Réti-Eröffnung: Vorstoßvariante",
-    "background": "Neben 2...dxc4 eine der beiden eigenständigen Hauptvarianten der Réti-Eröffnung. Sie hält das Spiel geschlossen, und die Struktur ähnelt einer Benoni-Verteidigung mit vertauschten Farben: Wie Schwarz im Benoni fianchettiert Weiß meist den Königsläufer.",
-    "strategy": "Gewinnt Raum und hält die Stellung geschlossen: Der Bauer nimmt Weiß die Felder c3 und e3, sodass 3.Sc3 nach ...dxc3 einen Springer kosten würde. Der Preis ist, dass ein vorgeschobener Bauer Unterstützung braucht und zur Zielscheibe wird, sobald Weiß ihn mit dem Springer f3 und einem Bauern auf e3 angreift. Zu erwarten ist ein geschlossenes Manövrierspiel."
-  },
-  "1.Nf3 d5 2.c4 dxc4": {
-    "name": "Réti-Eröffnung: Angenommenes Réti-Gambit",
-    "background": "Neben 2...d4 eine der beiden eigenständigen Hauptvarianten der Réti-Eröffnung, und zwar diejenige, die das Spiel öffnet. Die vielen Möglichkeiten, mit denen Weiß den Bauern zurückgewinnen kann, schränken ihre Beliebtheit ein.",
-    "strategy": "Nimmt den Bauern sofort und überlässt Weiß, wie er ihn zurückgewinnt, und es gibt viele gute Wege. Schwarz liegt in der Entwicklung zurück und kann den Mehrbauern nicht halten: 3...b5?! ist wegen 4.a4 zweifelhaft. Schwarz muss die Entwicklung rasch abschließen und den Bauern bei Bedarf zurückgeben; das Spiel öffnet sich."
-  },
-  "1.Nf3 d5 2.c4 Nf6": {
-    "strategy": "Entwickelt den Springer und deckt d5 ein zweites Mal, doch nach 3.cxd5 Sxd5 hat Weiß die Bauernmehrheit im Zentrum und kann gegen den Springer Zeit gewinnen. Schwarz behält die Wahl zwischen soliden Aufbauten."
-  },
-  "1.Nf3 d5 2.c4 Nc6": {
-    "strategy": "Entwickelt mit Druck auf d4 und e5, gibt d5 aber keine Stütze: 3.cxd5 Dxd5 4.Sc3 gewinnt ein Tempo gegen die Dame. Spielbar, doch Weiß hat die leichtere Entwicklung. Der Springer nimmt außerdem dem c-Bauern das Feld c6, sodass Schwarz d5 nicht mehr mit diesem Bauern decken kann."
-  },
-  "1.Nf3 d5 2.c4 c5": {
-    "strategy": "Kämpft um d4, überlässt d5 aber 3.cxd5. Das Zurückschlagen mit der Dame erlaubt 4.Sc3 mit Tempogewinn, deshalb schlägt Schwarz besser mit dem Springer zurück, und dann gewinnt Weiß gegen ihn Raum im Zentrum. Spielbar, doch Weiß hat die Initiative."
-  },
-  "1.Nf3 d5 2.c4 g6": {
-    "strategy": "Bereitet ...Lg7 vor, überlässt die Deckung von d5 aber allein der Dame. Nach 3.cxd5 läuft das Zurückschlagen mit 3...Dxd5 in 4.Sc3 mit Tempogewinn, während beim Zurückschlagen mit dem Springer Weiß gegen ihn das Zentrum gewinnt. Spielbar, aber langsamer als die Hauptantworten."
-  },
-  "1.Nf3 d5 2.c4 b5": {
-    "name": "Réti-Eröffnung: Zilbermints-Gambit",
-    "strategy": "Bietet den b-Bauern an, damit 3.cxb5 den c-Bauern vom Zentrum ablenkt, in der Hoffnung auf offene Linien und schnelle Entwicklung. Nach 3.cxb5 hat Weiß einfach einen Bauern mehr, und auch nach 3.cxd5 Dxd5 4.Sc3 bleibt der Bauer b5 angreifbar."
-  },
-  "1.Nf3 d5 2.c4 e5": {
-    "strategy": "Bietet den e-Bauern für offene Linien an, doch 3.Sxe5 nimmt ihn einfach, und Schwarz hat für den Bauern nur etwas Aktivität."
-  },
-  "1.Nf3 d5 2.c4 Na6": {
-    "strategy": "Ein Randspringer, der auf b4 und c5 zielt, aber nichts für d5 tut; nach 3.cxd5 Dxd5 4.Sc3 entwickelt sich Weiß mit Tempo gegen die Dame."
-  },
-  "1.Nf3 d5 2.c4 Be6": {
-    "strategy": "Deckt d5 ein zweites Mal, verstellt aber den e-Bauern und lässt b7 ungedeckt. Nach 3.cxd5 Lxd5 4.Sc3 wird der Läufer erneut angegriffen, und Weiß entwickelt sich mit Tempogewinn."
-  },
-  "1.Nf3 d5 2.c4 Bf5": {
-    "strategy": "Entwickelt den Läufer außerhalb der Bauernkette und zielt auf b1, lässt aber b7 und d5 zu schwach gedeckt: 3.Db3 greift b7 an, cxd5 folgt, und Schwarz hat Mühe, beide Bauern zu halten."
-  },
-  "1.Nf3 d5 2.c4 Bg4": {
-    "strategy": "Entwickelt den Läufer gegen den Springer f3, doch da hinter ihm nur der Bauer e2 steht, ist der Springer nicht gefesselt, und b7 bleibt ungedeckt. 3.cxd5 Lxf3 4.exf3 Dxd5 5.Sc3 vertreibt die Dame mit Tempo und lässt Weiß das Läuferpaar, und 3.Db3 greift b7 sofort an."
-  },
-  "1.Nf3 d5 2.c4 Qd7": {
-    "strategy": "Verstellt den Läufer c8, nimmt dem Springer b8 das Feld d7 und verliert Zeit, denn 3.cxd5 Dxd5 4.Sc3 greift die Dame erneut an."
-  },
-  "1.Nf3 d5 2.c4 Qd6": {
-    "strategy": "Bringt die Dame früh ins Spiel und entwickelt nichts; nach 3.cxd5 Dxd5 4.Sc3 wird sie erneut angegriffen, und Weiß entwickelt sich mit Tempo."
-  },
-  "1.Nf3 d5 2.c4 Nh6": {
-    "strategy": "Ein Randspringer, der zwar f5 erreichen kann, aber d5 nicht stützt; 3.cxd5 Dxd5 4.Sc3 gewinnt dann ein Tempo gegen die Dame."
-  },
-  "1.Nf3 d5 2.c4 a6": {
-    "strategy": "Ein langsamer Zug, der weder d5 noch der Entwicklung hilft; 3.cxd5 Dxd5 4.Sc3 gewinnt ein Tempo, und Weiß besetzt das Zentrum."
-  },
-  "1.Nf3 d5 2.c4 a5": {
-    "strategy": "Verhindert b4, tut aber nichts für d5 oder die Entwicklung; 3.cxd5 Dxd5 4.Sc3 gewinnt ein Tempo, und Weiß besetzt das Zentrum."
-  },
-  "1.Nf3 d5 2.c4 b6": {
-    "strategy": "Bereitet ...Lb7 vor, überlässt d5 aber 3.cxd5 Dxd5 4.Sc3, das die Dame mit Tempogewinn angreift und Weiß freie Hand im Zentrum gibt."
-  },
-  "1.Nf3 d5 2.c4 f6": {
-    "strategy": "Nimmt dem Springer das Feld f6, schwächt die Diagonale e8–h5 und das Feld e6 und tut nichts für d5; 3.cxd5 Dxd5 4.Sc3 gewinnt Zeit."
-  },
-  "1.Nf3 d5 2.c4 f5": {
-    "strategy": "Kontrolliert e4 mit dem f-Bauern, schwächt aber die Diagonale e8–h5 und das Feld e6 und tut nichts für d5; 3.cxd5 Dxd5 4.Sc3 gewinnt ein Tempo."
-  },
-  "1.Nf3 d5 2.c4 h6": {
-    "strategy": "Ein langsamer Bauernzug, der weder d5 deckt noch etwas entwickelt; 3.cxd5 Dxd5 4.Sc3 gewinnt ein Tempo."
-  },
-  "1.Nf3 d5 2.c4 h5": {
-    "strategy": "Verschwendet einen Zug und schwächt g5 und g6, während d5 dem Abtausch 3.cxd5 Dxd5 4.Sc3 überlassen bleibt, der ein Tempo gewinnt."
-  },
-  "1.Nf3 d5 2.c4 Nd7": {
-    "strategy": "Verstellt der Dame die Deckung von d5 und sperrt den Läufer c8 ein, sodass 3.cxd5 einen Bauern gewinnt, den keine schwarze Figur sofort zurückschlagen kann. Weiß kann ihn bequem halten, während Schwarz umgruppiert."
-  },
-  "1.Nf3 d5 2.c4 Bd7": {
-    "strategy": "Verstellt der Dame die Deckung von d5 und nimmt dem Springer b8 das Feld d7, sodass 3.cxd5 einen Bauern gewinnt, den keine schwarze Figur sofort zurückschlagen kann. Der Läufer auf d7 steht passiv, und auch wenn Schwarz den Springer entwickelt, behält Weiß den Bauern."
-  },
-  "1.Nf3 d5 2.c4 Bh3": {
-    "strategy": "Der Läufer wird vom Bauern g2 angegriffen und ist ungedeckt, sodass 3.gxh3 eine Figur ohne Gegenwert gewinnt."
-  },
-  "1.Nf3 d5 2.c4 Kd7": {
-    "strategy": "Gibt die Rochade auf und verstellt der Dame die Deckung von d5, sodass 3.cxd5 einen Bauern gewinnt, den keine schwarze Figur sofort zurückschlagen kann. Der König bleibt ohne jede Gegenleistung im Zentrum."
-  },
-  "1.Nf3 d5 2.c4 g5": {
-    "strategy": "Verliert sofort einen Bauern: 3.Sxg5 gewinnt ihn, da g5 ungedeckt ist, und h7 und f7 geraten unter Beschuss, während Schwarz den Königsflügel ohne Gegenwert geschwächt hat."
-  },
-  "1.Nf3 d5 2.c4 d4 3.e3": {
-    "strategy": "Die solide Art, den vorgerückten Bauern in Frage zu stellen: Weiß fordert ihn sofort heraus, und Schwarz muss den Bauern stützen oder abtauschen. Weiß behält einen flexiblen Aufbau, in dem Figuren statt Bauern das Zentrum bestreiten, zum Preis eines langsameren Starts."
-  },
-  "1.Nf3 d5 2.c4 d4 3.b4": {
-    "strategy": "Der schärfere Versuch: Weiß wirft einen Flügelbauern nach vorn, um am Damenflügel Raum zu gewinnen und die lange Diagonale zu öffnen, sodass ein Läufer auf b2 den Bauern d4 angreifen kann. Weiß ist bereit, für offene Linien und schnelle Entwicklung einen Bauern zu opfern, und der Mittelbauer von Schwarz wird zum Angriffsziel."
-  },
-  "1.Nf3 d5 2.c4 d4 3.Rg1": {
-    "name": "Réti-Eröffnung: Pinguin-Variante",
-    "strategy": "Weiß gibt die kurze Rochade auf für einen Turmzug, der einen Bauernvorstoß am Königsflügel vorbereitet, während das Zentrum unberührt bleibt. Das kostet ein Tempo, lässt den König in der Mitte und erlaubt Schwarz, der schon mehr Raum hat, ungestört die Entwicklung abzuschließen."
-  },
-  "1.Nf3 d5 2.c4 d4 3.b4 c5": {
-    "name": "Réti-Eröffnung: Vorstoßvariante, Michel-Gambit",
-    "strategy": "Die prinzipielle Antwort: Der Bauer greift b4 an und gibt d4 eine zweite Stütze, sodass Weiß die Spannung am Damenflügel sofort klären muss. Schwarz behält den Raumvorteil im Zentrum und beantwortet einen Flügelangriff mit einer zentralen Bauernkette."
-  },
-  "1.Nf3 d5 2.c4 d4 3.b4 g5": {
-    "name": "Réti-Eröffnung: Vorstoßvariante, Navara-Gambit",
-    "strategy": "Ein Gegengambit am Flügel, das den Bauern b4 ignoriert und darauf zielt, den Springer mit ...g4 zu vertreiben. Es scheitert am einfachen Schlagen: 4.Sxg5 gewinnt einen Bauern, und der Springer wird nicht angegriffen, während der Königsflügel von Schwarz ohne Gegenwert geschwächt ist."
-  },
-  "1.Nf3 d5 2.c4 d4 3.b4 Nf6": {
-    "strategy": "Entwickelt eine Figur und hält ...c5 in Reserve, lässt den b4-Bauern aber vorerst unangefochten. Weiß vollendet das Fianchetto mit Lb2, das d4 sofort angreift, und Schwarz muss den Bauern ohnehin mit ...c5 verteidigen. Solide, überlässt Weiß aber die Wahl der Fortsetzung."
-  },
-  "1.Nf3 d5 2.c4 d4 3.e3 c5": {
-    "strategy": "Stützt den Bauern d4 mit einem Bauern und behält den gewonnenen Raum, sodass Schwarz ihn nicht abtauschen muss. Der Preis ist eine festere Struktur: Weiß greift nun die Basis der Kette von der Flanke an, und Schwarz muss auf das folgende Bauernopfer gefasst sein."
-  },
-  "1.Nf3 d5 2.c4 d4 3.e3 Nc6": {
-    "strategy": "Verteidigt den vorgerückten Bauern mit einer Figur und entwickelt sich zugleich. Schlägt Weiß auf d4, nimmt Schwarz mit dem Springer zurück, tauscht die Springer und bringt die Dame ins Zentrum, mit offenem Spiel und leichter Entwicklung. Der Preis ist, dass kein Bauer den d4-Bauern stützt, sodass er unter Druck bleibt."
-  },
-  "1.Nf3 d5 2.c4 d4 3.e3 dxe3": {
-    "strategy": "Gibt den vorgerückten Bauern und den damit gewonnenen Raum auf. Schlägt Weiß mit dem d-Bauern zurück, kann Schwarz die Damen mit Schach tauschen und Weiß das Recht zur Rochade kosten; schlägt er mit dem f-Bauern, bleiben die Damen auf dem Brett und Schwarz hat nichts entwickelt."
-  },
-  "1.Nf3 d5 2.c4 d4 3.e3 c5 4.b4": {
-    "name": "Réti-Eröffnung: Umgekehrtes Blumenfeld-Gambit",
-    "strategy": "Der kritische Test für den Aufbau von Schwarz: Weiß bietet einen Bauern an, um Linien gegen das Zentrum zu öffnen. Schlägt Schwarz auf e3 und danach auf b4, schlägt Weiß mit einem breiten Bauernzentrum und schneller Entwicklung zurück, und der Mehrbauer auf b4 ist schwach. Weiß gilt allgemein als ausreichend entschädigt."
-  },
-  "1.Nf3 d5 2.c4 d4 3.e3 c5 4.a3": {
-    "strategy": "Bereitet den Durchbruch b4 auf ruhigere Weise vor: Nach b4 und ...cxb4 schlägt der a-Bauer zurück, sodass Weiß den e3-Bauern behält, statt ihn zu opfern. Der Preis ist ein Tempo, das Schwarz nutzen kann, um den d4-Bauern zu festigen, und der Druck baut sich langsamer auf."
-  },
-  "1.Nf3 d5 2.c4 d4 3.e3 c5 4.exd4": {
-    "strategy": "Schlägt den Bauern sofort und öffnet die e-Linie gegen den e-Bauern von Schwarz. Nach ...cxd4 behält Schwarz den Raum im Zentrum und hat eine halboffene c-Linie gegen den c4-Bauern. Eine ruhige Wahl, die die Spannung und die kritische Prüfung des schwarzen Aufbaus aufgibt."
-  },
-  "1.Nf3 d5 2.c4 dxc4 3.e3": {
-    "strategy": "Die übliche Art, den Bauern zurückzugewinnen: Der Läufer wird frei, um auf c4 zu schlagen, und Schwarz bleibt etwas unentwickelt. Weiß erhält einen kleinen Vorteil in einem offenen Spiel."
-  },
-  "1.Nf3 d5 2.c4 dxc4 3.Na3": {
-    "strategy": "Zielt auf c4, um den Bauern mit einem Entwicklungszug zurückzugewinnen, und lässt die Zentrumsbauern frei, später über ihr Schicksal zu entscheiden. Der Springer steht einen Zug lang am Rand und Schwarz gewinnt etwas Zeit, doch der Mehrbauer ist schwer zu halten."
-  },
-  "1.Nf3 d5 2.c4 dxc4 3.Qa4+": {
-    "strategy": "Gibt Schach und gewinnt den c4-Bauern im nächsten Zug mit der Dame zurück. Weiß holt den Bauern schnell zurück, ohne einen Zentrumsbauern festzulegen, um den Preis, die Dame früh herauszubringen, während Schwarz einfach weiter entwickelt."
-  },
-  "1.Nf3 d5 2.c4 dxc4 3.e4": {
-    "strategy": "Nimmt zuerst Raum im Zentrum und gewinnt den Bauern mit dem f1-Läufer zurück, der schon auf c4 zielt. Weiß erhält ein breites Zentrum, doch der Bauer auf e4 ist ein Angriffsziel: ...Sf6 greift ihn sofort an, und Weiß muss ihn verteidigen oder vorrücken."
-  },
-  "1.Nf3 d5 2.c4 dxc4 3.e3 Be6": {
-    "name": "Réti-Eröffnung: Réti-Gambit, Keres-Variante",
-    "strategy": "Hält den Mehrbauern mit einem Entwicklungszug, statt den Damenflügel mit ...b5 zu schwächen. Das ist spielbar, aber nicht die natürlichste Entwicklung, und der Läufer kann durch Sg5 angegriffen werden, sodass Schwarz beim Halten des Bauern Zeit verlieren kann."
-  },
-  "1.Nf3 d5 2.c4 dxc4 3.e3 e6": {
-    "strategy": "Die natürliche Antwort: Schwarz öffnet den f8-Läufer und bereitet die Rochade vor, er gibt den Bauern zurück gegen leichte Entwicklung und einen Anteil am Zentrum. Der weiße Läufer schlägt auf c4, doch Schwarz fordert das Zentrum mit einem Bauern heraus und hat ein bequemes Spiel."
-  },
-  "1.Nf3 d5 2.c4 dxc4 3.e3 Nf6": {
-    "strategy": "Entwickelt eine Figur und hält den weißen e-Bauern zurück, dessen Vorrücken nach e4 sofort angegriffen würde. Schwarz nimmt den Verlust des c4-Bauern hin, hält den e-Bauern aber flexibel und entwickelt sich in Richtung Rochade."
   },
   "1.Nf3 d5 2.e3 Nf6": {
     "strategy": "Entwickelt den Springer auf sein bestes Feld, wo er d5 stützt und e4 überwacht, und legt sich auf keine Bauernstruktur fest. Das ruhige e3 von Weiß hat das Zentrum nicht herausgefordert, daher kann Schwarz eine bequeme Stellung aufbauen und den Plan später wählen."

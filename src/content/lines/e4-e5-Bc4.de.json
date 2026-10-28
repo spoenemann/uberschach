@@ -83,7 +83,7 @@
     "strategy": "Gewinnt Raum am Königsflügel, entwickelt aber nichts und gibt die Kontrolle über f6 und h6 endgültig auf. Weiß greift sofort e5 an, und h2-h4 kann später den Bauern g5 untergraben."
   },
   "1.e4 e5 2.Bc4 h6": {
-    "strategy": "Nimmt dem weißen Springer und Läufer das Feld g5, entwickelt aber nichts und lässt e5 ohne Stütze. Weiß nutzt das Tempo für einen sofortigen Angriff auf e5."
+    "strategy": "Nimmt dem Springer und dem Läufer des Weißen das Feld g5, entwickelt aber nichts und lässt e5 ohne Stütze. Das ist solide genug, da e5 noch rechtzeitig verteidigt werden kann, doch Weiß nutzt das Tempo, um den Bauern anzugreifen, und Schwarz liegt einen Zug zurück."
   },
   "1.e4 e5 2.Bc4 h5": {
     "strategy": "Verhindert Dh5, schwächt aber g5 und den Königsflügel ohne echten Gewinn. Der Zug entwickelt nichts, und 3.Sf3 greift den ungedeckten Bauern e5 mit Tempo an."
@@ -101,10 +101,10 @@
     "strategy": "Nimmt den Gambitbauern an, statt sich zurückzuziehen. Weiß hat einen Bauern mehr und kann den Läufer bei einem Angriff in Sicherheit bringen, sodass Schwarz echte Kompensation durch offene Linien und ein schnelles Zentrum nachweisen muss."
   },
   "1.e4 e5 2.Bc4 b5 3.Bb3": {
-    "strategy": "Zieht sich auf derselben Diagonale zurück, hält den Läufer auf f7 gerichtet und vermeidet die Verwicklungen des Gambits. Er lehnt jedoch einen freien Bauern ab, sodass Weiß kein zusätzliches Material hat und Schwarz am Damenflügel weiter Raum gewinnen kann."
+    "strategy": "Zieht sich auf derselben Diagonale zurück und hält den Läufer auf f7 gerichtet, schlägt aber einen freien Bauern aus. Weiß hat dafür nichts vorzuweisen, und der Bauer von Schwarz steht ohne Kosten auf b5."
   },
   "1.e4 e5 2.Bc4 b5 3.Be2": {
-    "strategy": "Zieht sich zurück, hält den Bauern b5 aber weiter unter Beschuss, sodass Schwarz ihn verteidigen oder vorrücken muss. Der Läufer verlässt jedoch seine aktive Diagonale Richtung f7, und der Mehrbauer ist noch nicht gewonnen: solide, aber deutlich zweitklassig."
+    "strategy": "Zieht sich zurück und behält b5 im Auge, doch ...a6 oder ...c6 verteidigt den Bauern sofort, sodass Weiß einen freien Bauern ausgelassen hat. Der Läufer hat zudem die Diagonale gegen f7 verlassen, und Schwarz hat Raum am Damenflügel gewonnen."
   },
   "1.e4 e5 2.Bc4 b5 3.Bxb5 c6": {
     "name": "Läuferspiel: Anderssen-Gambit",
@@ -114,7 +114,7 @@
   "1.e4 e5 2.Bc4 b5 3.Bxb5 f5": {
     "name": "Läuferspiel: Thorold-Gambit",
     "background": "Adolf Anderssen spielte nach 3.Lxb5 sowohl diesen Zug als auch 3...c6.",
-    "strategy": "Die zweite Hauptidee des Gambits: Statt den Läufer zu vertreiben, greift Schwarz sofort e4 an, um Linien für die Figuren zu öffnen. Das lockert die Königsdiagonale und lässt Schwarz einen Bauern im Rückstand, sodass Weiß das bessere Spiel behält; nach 4.d4 verliert das Schlagen auf e4 den Turm auf h8 durch Dh5+ g6 Dxe5+."
+    "strategy": "Greift sofort e4 an, um Linien für die Figuren zu öffnen, statt den Läufer zu jagen. Das lockert die Königsdiagonale, und Schwarz bleibt einen Bauern im Rückstand, sodass Weiß das bessere Spiel behält; nach 4.d4 verliert das Schlagen auf e4 den Turm auf h8 durch Dh5+ g6 Dxe5+."
   },
   "1.e4 e5 2.Bc4 b5 3.Bxb5 Nf6": {
     "strategy": "Entwickelt sich mit Angriff auf den Bauern e4, sodass Weiß sich um das Zentrum kümmern muss, bevor er den Mehrbauern einstreicht. Schwarz setzt als Ausgleich auf schnelle Entwicklung und ein offenes Zentrum und hält ...c6 in Reserve, um den Läufer mit Tempo zu jagen."
@@ -135,7 +135,7 @@
     "strategy": "Löst die Spannung durch Schlagen auf, sodass Weiß den Bauern mit einem Entwicklungszug zurückgewinnen oder sofort auf Initiative spielen kann. Schwarz hält den c6-Bauern für ...d5 bereit, öffnet aber die e-Linie, solange seine Figuren noch zu Hause stehen."
   },
   "1.e4 e5 2.Bc4 c6 3.d4 d6": {
-    "strategy": "Stützt e5 mit einem Bauern und hält die Struktur kompakt, sodass Schwarz je nach Bedarf im Zentrum zurückschlagen kann. Der Zug ist passiv: Er gibt den zentralen Vorstoß auf, den der c6-Bauer vorbereiten sollte, und Weiß behält das freiere Spiel."
+    "strategy": "Stützt e5 mit einem Bauern und hält die Struktur kompakt, ist aber passiv: Er gibt den Zentrumsstoß auf, den der Bauer c6 vorbereiten sollte. Weiß schlägt auf e5, und Schwarz gewinnt den Bauern nur zurück, indem er die Dame früh herausholt oder die Damen tauscht und das Recht zur Rochade verliert."
   },
   "1.e4 e5 2.Bc4 c6 3.d4 d5 4.exd5": {
     "strategy": "Schlägt zuerst, sodass der Bauer, der den Läufer angriff, verschwindet und die e-Linie sich öffnet. Der Preis ist der e-Bauer, der bisher gemeinsam mit d4 das Zentrum zusammenhielt, und Schwarz schlägt mit Tempogewinn gegen den Läufer zurück."
@@ -150,7 +150,7 @@
     "strategy": "Stellt das Material wieder her und greift erneut den Läufer an, während der c-Bauer die Linie für die schwarzen Türme räumt. Der Bauer e5 wird weiterhin von d4 angegriffen und hat keinen Verteidiger, sodass der Läufer mit Drohung ausweichen kann."
   },
   "1.e4 e5 2.Bc4 c6 3.d4 d5 4.exd5 exd4": {
-    "strategy": "Schlägt zuerst auf d4, sodass der Bauer auf d5 auf c6 schlägt und der Springer zurückschlägt: Das Material bleibt ausgeglichen. Der d4-Bauer steht weit vorgerückt und wird zum Angriffsziel, während sich Weiß mit Tempo entwickelt, sodass Schwarz gegenüber dem Zurückschlagen auf d5 nichts gewinnt."
+    "strategy": "Schlägt zuerst auf d4, doch Weiß schlägt einfach mit der Dame zurück, die den Angriff auf d5 stützt. Schwarz kann das Feld nicht halten: Nach ...cxd5 schlägt der Läufer auf d5, und Weiß steht mit besserer Entwicklung einen Bauern vorn."
   },
   "1.e4 e5 2.Bc4 c6 3.d4 d5 4.exd5 Qxd5": {
     "strategy": "Verliert die Dame für einen Läufer und einen Bauern: Der Läufer auf c4 schlägt sie sofort, und ...cxd5 gewinnt nur den Läufer zurück. Schwarz hat viel zu viel Material hergegeben und steht auf Verlust."
@@ -193,13 +193,16 @@
   },
   "1.e4 e5 2.Bc4 f5 3.d3": {
     "name": "Läuferspiel: Kalabrisches Gegengambit, Jaenisch-Variante",
-    "strategy": "Verteidigt den angegriffenen Bauern e4 mit einem Bauern, sodass ...fxe4 mit dxe4 beantwortet werden kann, und öffnet den Läufer c1. Es ist eine ruhige Antwort auf ein Gambit, das die eigene Königsstellung von Schwarz gelockert hat, aber sie ist langsamer als die schärferen oder entwickelnderen Erwiderungen."
+    "strategy": "Verteidigt e4 mit einem Bauern und öffnet den Läufer auf c1. Der Zug ist solide und ruhig, aber er lässt den gelockerten schwarzen Königsflügel davonkommen und gibt Schwarz Zeit, ein festes Zentrum aufzubauen, sodass der Vorteil von Weiß zu einem bescheidenen Plus schrumpft."
   },
   "1.e4 e5 2.Bc4 f5 3.f4": {
-    "strategy": "Die scharfe Antwort: Der Bauer greift sofort e5 an und kämpft ums Zentrum, solange der schwarze König geschwächt ist. Sie ist aber zweischneidig: Auch der weiße König ist geschwächt, und die offene Diagonale e1-h4 erlaubt ...Dh4+, sodass Weiß genau spielen muss."
+    "strategy": "Ein Gambit: Der Bauer greift sofort e5 an, und die f-Linie öffnet sich. Nach 3...exf4 steht Schwarz vorerst einen Bauern vorn, aber Weiß gewinnt ihn mit aktivem Spiel zurück, und die Partie ist ausgeglichen. Es ist zweischneidig, da die offene Diagonale e1-h4 ...Dh4+ erlaubt, und es bringt weniger als ein Vorstoß im Zentrum."
   },
   "1.e4 e5 2.Bc4 f5 3.Nc3": {
-    "strategy": "Deckt e4 mit einer Figur und entwickelt sich sofort, sodass auf ...fxe4 Sxe4 mit Entwicklungsvorsprung folgt. Der sichere Weg: Weiß bindet keinen Bauern, und der Läufer behält f7 im Blick, während der schwarze König auf der Diagonale e8-h5 exponiert ist. Das greift das Zentrum weniger scharf an als ein Bauernvorstoß."
+    "strategy": "Verteidigt e4 mit einer Figur und entwickelt sich, sodass ...fxe4 mit Sxe4 beantwortet wird und der Läufer weiter auf f7 zielt. Das ist sicher, stellt aber keine Forderung an das Zentrum von Schwarz: Schwarz bekommt Zeit, sich zu konsolidieren, und der Vorteil von Weiß schrumpft zu einem kleinen Plus."
+  },
+  "1.e4 e5 2.Bc4 f5 3.d4": {
+    "strategy": "Greift sofort e5 an, noch bevor Schwarz eine Figur entwickelt hat, und der gelockerte Königsflügel lässt es funktionieren: 3...fxe4 läuft in 4.Dh5+ g6 5.Dxe5+, was den Turm auf h8 gewinnt. Nach 3...exd4 holt Weiß den Bauern mit Entwicklungsvorsprung zurück."
   },
   "1.e4 e5 2.Bc4 Nc6 3.Nc3": {
     "strategy": "Verteidigt e4 mit einem Entwicklungszug und hält den f-Bauern frei, sodass Weiß ihn später vorstoßen kann. Der Springer blockiert den c-Bauern, was ein breites Bauernzentrum ausschließt, und übt keinen Druck auf e5 aus."
@@ -230,7 +233,7 @@
     "strategy": "Stützt e4 und öffnet den Lc1, ein langsamer Aufbau, der sowohl den Damenausfall als auch einen Vorstoß des f-Bauern in Reserve hält. Er gibt Schwarz außerdem Zeit, sich mit Angriff auf e4 zu entwickeln, sodass die beste Chance von Weiß auf Vorteil ungenutzt bleibt."
   },
   "1.e4 e5 2.Bc4 Nc6 3.Nc3 Bc5 4.Qg4 Qf6": {
-    "strategy": "Tappt in die Falle: Die Dame deckt g7 und zielt doppelt auf f2, aber 5.Sd5 greift sie und den Bauern c7 zugleich an. Nach 5...Dxf2+ 6.Kd1 ist der weiße König sicher genug, während g7 und c7 hängen und Sxc7+ König und Turm gabeln würde."
+    "strategy": "Verteidigt g7 und verdoppelt den Druck auf f2, und es sieht durch 5.Sd5 widerlegt aus, das die Dame und c7 angreift. Aber 5...Dxf2+ 6.Kd1 Kf8 hält: Der weiße König ist sicher, der schwarze König deckt g7, und die Partie bleibt ausgeglichen. Schwarz muss die einzigen Züge finden, es ist also ein Drahtseilakt."
   },
   "1.e4 e5 2.Bc4 Nc6 3.Nc3 Bc5 4.Qg4 Kf8": {
     "strategy": "Deckt g7 mit dem König selbst und hält die Bauernstruktur intakt. Schwarz verzichtet auf die Rochade, aber die weiße Dame hat kein Ziel, und die Figuren lassen sich ohne Zugeständnisse entwickeln. Eine unbequem aussehende, aber solide Antwort, die den Fallen ausweicht."
@@ -254,7 +257,7 @@
     "strategy": "Stützt e4 mit einem Bauern, was den Springer c3 von der Deckungsaufgabe befreit und den Läufer c1 öffnet. Weiß baut langsam auf, hält den Läufer auf c4 auf f7 gerichtet und lässt den Plan offen."
   },
   "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6 4.f4": {
-    "strategy": "Bietet den e-Bauern für einen schnellen Angriff an: Der f-Bauer wirkt auf e5, die f-Linie öffnet sich und der Läufer blickt schon auf f7. Es ist ein echtes Gambit mit echtem Risiko: Weiß steht einen Bauern im Minus, wenn der Angriff verpufft, und die Diagonale e1-h4 ist offen."
+    "strategy": "Bietet den e-Bauern für einen Angriff an, der noch nicht da ist: 4...Sxe4 nimmt ihn, und nach dem Schlag 5.Sxe4 d5 werden Läufer und Springer zugleich angegriffen, sodass Weiß mit einem Bauern weniger und kaum Gegenwert endet. Die offene Diagonale e1-h4 erhöht das Risiko."
   },
   "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6 4.Nf3": {
     "strategy": "Entwickelt den Königsspringer und greift e5 an, das der Sc6 verteidigt, um den Preis, den f-Bauern zu blockieren. Weiß steuert in eine klassische Entwicklung, in der beide Seiten rochieren und um das Zentrum spielen. Der Zug ist solide und risikoarm, gibt aber den schnellen Vorstoß des f-Bauern auf."
@@ -306,7 +309,7 @@
     "strategy": "Schlägt sofort auf e5 und öffnet die f-Linie, nimmt aber den Druck weg, den der f-Bauer auf e5 ausübte. Nach dem Zurückschlagen ist das Zentrum wieder ausgeglichen, und der Raumgewinn von Weiß ist dahin. Spielbar, aber harmlos."
   },
   "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6 4.d3 Bc5 5.f4 d6 6.Na4": {
-    "strategy": "Geht auf den Läufer c5 los, der das geschwächte Feld g1 im Visier hat, in der Hoffnung, ihn abzutauschen. Der Springer verlässt das Zentrum, e4 wird jetzt nur noch vom d-Bauern gehalten, und Schwarz kann den Läufer zurückziehen und den Springer am Rand stehen lassen. Spielbar, aber langsam."
+    "strategy": "Greift den Läufer auf c5 an, aber da der f-Bauer schon auf f4 steht, schlägt Schwarz zuerst: 6...Lxg1 7.Txg1 Sg4 greift h2 an und zielt auf f2, während der Springer auf a4 außer Spiel ist. Schwarz erhält einen klaren Vorteil gegen den gelockerten Königsflügel."
   },
   "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6 4.d3 Bc5 5.f4 d6 6.Nf3 Bg4": {
     "strategy": "Fesselt den Springer an die Dame, sodass jeder Springerzug die Dame preisgibt, und droht mit ...Lxf3, einen Angreifer von e5 zu entfernen. Schwarz entwickelt sich mit Absicht und erhöht den Druck auf das Zentrum."
@@ -321,10 +324,10 @@
     "strategy": "Nimmt den Bauern mit dem Springer, der durch eine Taktik geschützt ist: Nach 5.Sxe4 d5 werden Läufer und Springer zugleich angegriffen. Weiß erhält offene Linien gegen e5 und einen Entwicklungsvorsprung, daher muss Schwarz den Mehrbauern sorgfältig halten."
   },
   "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6 4.f4 exf4": {
-    "strategy": "Gewinnt vorübergehend einen Bauern, aber der Bauer auf f4 ist schwer zu halten, und Weiß erhält dafür offene Linien und schnelle Entwicklung. Der Bauer e5 verschwindet, und Weiß kann im Zentrum mit Tempo zuschlagen. Eine gierige, aber spielbare Wahl."
+    "strategy": "Nimmt den Bauern auf f4, und Weiß bekommt offene Linien und schnelle Entwicklung dafür, sodass die Partie nur ausgeglichen ist, während 4...Sxe4 einen klaren Mehrbauern behält. Außerdem verlässt der e5-Bauer das Zentrum."
   },
   "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6 4.f4 d6": {
-    "strategy": "Hält e5 mit einem Bauern und befreit den Lc8, ein solider Aufbau, der das Gambit ignoriert. Weiß kann die f-Linie dennoch durch Schlagen auf e5 öffnen, wobei der Läufer auf c4 schon auf f7 gerichtet ist, sodass Schwarz wachsam bleiben muss."
+    "strategy": "Hält e5 mit einem Bauern und befreit den Läufer auf c8, ein solider Aufbau, der das Gambit ignoriert. Er hält die Partie ausgeglichen, lässt aber den Bauern liegen, den 4...Sxe4 sofort gewinnt und behält."
   },
   "1.e4 e5 2.Bc4 Nc6 3.Nc3 Nf6 4.f4 Nxe4 5.Nf3": {
     "name": "Wiener Partie: Stanley-Variante, Bronstein-Gambit",

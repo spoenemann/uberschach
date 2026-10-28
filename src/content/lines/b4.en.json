@@ -72,7 +72,7 @@
     "strategy": "Accepts the gambit: Black wins a pawn and removes White's queenside space. In return White gets open lines and a lead in development, so Black's task is to complete its own development safely before the extra pawn can be used."
   },
   "1.b4 c6 2.Bb2 a5 3.b5 c5": {
-    "strategy": "Declines the pawn and fixes the queenside: the pawn on b5 keeps White's space, but it stays loose and needs support, and Black avoids opening lines against its undeveloped pieces. Sound, if less ambitious than taking the pawn."
+    "strategy": "Declines the pawn but leaves it alone: nothing attacks the b5-pawn, so it stays as a wedge that cramps Black's queenside. Black gives up the level game that taking it offers and is left a little worse."
   },
   "1.b4 c6 2.Bb2 a5 3.b5 d5": {
     "strategy": "Ignores the offered pawn and takes the centre. If White takes on c6, Black recaptures with a developing move and the material stays level, but White gets an half-open b-file and Black has let the free pawn go."
@@ -82,7 +82,7 @@
     "strategy": "Takes the centre and opens the f1-bishop at once: the loose pawn on b5 is attacked, and Bxb5 would pin the d7-pawn against the king. White pays a pawn for the initiative, and open lines and a lead in development are the best compensation the position offers."
   },
   "1.b4 c6 2.Bb2 a5 3.b5 cxb5 4.a4": {
-    "strategy": "Attacks the b5-pawn with the rook-pawn to win back the sacrificed pawn. Black can answer by pushing it on, or by taking and giving it back; either way White spends a tempo on the flank with its pieces undeveloped and is still a pawn down."
+    "strategy": "Attacks the b5-pawn but cannot win it: after ...b4 the pawn is held by the a5-pawn, and White has spent a tempo on the flank and is still a pawn down with no compensation for it."
   },
   "1.b4 c6 2.Bb2 a5 3.b5 cxb5 4.e3": {
     "strategy": "Opens the f1-bishop to win the b5-pawn back and keeps the pawn structure compact. It does not fight for the centre, so Black has time to support or advance the extra pawn, and White is left a pawn down with only a modest lead in development."
@@ -149,7 +149,7 @@
   },
   "1.b4 e5 2.Bb2 c5": {
     "name": "Sokolsky Opening: Wolferts Gambit",
-    "strategy": "Attacks the b4-pawn but leaves the e5-pawn hanging to the bishop on b2. White can take on c5 first and then on e5 and be a pawn up; even if the b-pawn falls instead, Black has traded its central pawn for a flank pawn, which favours White."
+    "strategy": "Hits the b4-pawn at once and lets the e5-pawn go: after Bxe5 cxb4 material is level, but Black has traded a central pawn for a flank pawn and is left with doubled b-pawns. Sound, yet it gives White the easier game."
   },
   "1.b4 e5 2.Bb2 Bxb4": {
     "strategy": "Takes the flank pawn, and White takes the e5 pawn in return. White then has the central pawn and Black the faster development; the position is roughly level, perhaps a shade better for White, and the fight is between the extra centre and Black's activity."
@@ -190,7 +190,7 @@
     "strategy": "Defends the b4-pawn with the rook's pawn, so taking it with the bishop would only lose the bishop for a pawn. White keeps the pawn on b4 instead of pushing it, but spends a tempo on defence and leaves the pawn open to being challenged by ...a5."
   },
   "1.b4 e6 2.Bb2 Nf6 3.c3": {
-    "strategy": "Defends the b4-pawn with the c-pawn, but the pawn lands on the bishop's own diagonal and shuts out the very piece that was developed to b2. White holds the pawn at the price of its most active piece."
+    "strategy": "Holds the b4-pawn with the c-pawn, so ...Bxb4 would only lose a bishop for a pawn. Sound, but the pawn closes the long diagonal the b2-bishop was developed for, and White keeps the pawn at the price of its bishop's scope."
   },
   "1.b4 e6 2.Bb2 Nf6 3.b5 d5": {
     "strategy": "Takes the full centre with pawns on d5 and e6 and ignores the pawn on b5. Black builds a solid, classical structure and keeps the king's bishop free, so White's space gain on the wing has to be justified by pressure on the centre."

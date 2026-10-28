@@ -36,10 +36,10 @@
   },
   "1.e4 e5 2.f4 d5 3.exd5 Bc5": {
     "name": "Abgelehntes Königsgambit: Falkbeer-Gegengambit, Miles-Gambit",
-    "strategy": "Entwickelt den Läufer in Richtung f2, statt auf d5 zurückzunehmen, sodass Schwarz einen Bauern für Aktivität gegeben hat. Ohne direkte Drohung kann Weiß den Bauern behalten, auch wenn ein zweiter Bauer auf e5 ein Damenschach auf h4 einlädt."
+    "strategy": "Entwickelt den Läufer in Richtung f2, statt zurückzunehmen, ein solides Bauernopfer. Weiß behält den Bauern auf d5 und kann sich einfach entwickeln, also muss Schwarz beweisen, dass der Entwicklungsvorsprung den Bauern wert ist. Einen zweiten Bauern mit fxe5 zu schlagen wird durch ...Dh4+ bestraft."
   },
   "1.e4 e5 2.f4 d5 3.exd5 c6 4.dxc6": {
-    "strategy": "Schnappt sich einen zweiten Bauern, statt sich zu entwickeln. Das gewinnt Material, lässt aber den weißen König unrochiert mit gelockertem Königsflügel zurück, und der Entwicklungsvorsprung von Schwarz wächst mit jedem Zug; der gierige Schlag ist zweifelhaft, und eine Figur zu entwickeln ist die bessere Antwort auf das Bauernangebot."
+    "strategy": "Nimmt einen zweiten Bauern, sodass Weiß zwei Bauern mehr hat, während der König noch nicht rochiert hat und die schwarzen Figuren mit Tempo ins Spiel kommen. Das lässt sich verteidigen, doch Weiß muss unter Druck genaue Züge finden; eine Figur zu entwickeln ist einfacher."
   },
   "1.e4 e5 2.f4 d5 3.exd5 c6 4.Nc3": {
     "strategy": "Entwickelt eine Figur und lehnt den zweiten Bauern ab: Der Springer deckt e4 und verteidigt den Bauern d5, sodass Weiß behält, was es genommen hat, und Schwarz die Kompensation beweisen muss. Nach ...exf4 sind die Bauern ausgeglichen und die Partie ist etwa gleich."
@@ -55,7 +55,7 @@
     "strategy": "Die solide Wiedereroberung: Der Springer entwickelt sich und deckt e5 gegen den Bauern f4, und die Schachgebote der Dame am Königsflügel bleiben möglich. Schwarz ist weiterhin einen Bauern im Rückstand, doch der weiße König steht im Zentrum und der Königsflügel ist gelockert, sodass Schwarz auf schnelle Entwicklung statt auf schnelles Material spielt."
   },
   "1.e4 e5 2.f4 d5 3.exd5 c6 4.dxc6 bxc6": {
-    "strategy": "Schlägt mit dem Bauern zurück und lässt den Springer zu Hause, sodass der Zug ein Tempo für Material statt für eine Figur aufwendet. Außerdem bleiben isolierte Bauern auf a7 und c6 zurück. Schwarz ist weiterhin einen Bauern im Rückstand und hat weniger Figuren im Spiel, um den gelockerten Königsflügel anzugreifen."
+    "strategy": "Schlägt mit dem b-Bauern zurück, sodass Schwarz weiterhin einen Bauern weniger hat und dafür keine Figur entwickelt hat. Die Bauern auf a7 und c6 sind isoliert, und Weiß festigt einfach den Mehrbauern."
   },
   "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3": {
     "name": "Abgelehntes Königsgambit: Falkbeer-Gegengambit, Charousek-Gambit",
@@ -116,7 +116,7 @@
     "strategy": "Entwickelt den Läufer und verteidigt den Springer auf e4, sodass eine Fesselung auf der e-Linie ihn nicht gewinnen kann. Der Läufer zielt weder auf f2 noch verhindert er die Rochade, sodass der Druck der Hauptvariante verschwindet und Weiß den Mehrbauern behält."
   },
   "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.dxe4 Nxe4 6.Nf3 Qe7": {
-    "strategy": "Stellt die Dame hinter den Springer auf der e-Linie, sodass jeder Springerzug einen Abzugsschach gibt und ein unvorsichtiges Sc3 die Dame verliert. Der Zug gewinnt weder den Bauern d5 zurück noch verhindert er die Rochade, sodass Schwarz weiterhin einen Bauern im Rückstand ist und die Dame früh im Spiel steht."
+    "strategy": "Stellt die Dame hinter den Springer für Abzugsschachs, aber Weiß entwickelt einfach einen Läufer nach e3, der die Linie versperrt und c5 deckt und dem Plan damit den Zahn zieht. Schwarz hat weiterhin einen Bauern weniger, die Dame steht früh draußen, und es fehlt an Angriffskraft."
   },
   "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.dxe4 Nxe4 6.Qe2 Qxd5": {
     "strategy": "Schlägt auf d5, was das Material ausgleicht, und deckt im selben Zug den gefesselten Springer von der Mitte aus. Der Springer kann sich nicht bewegen, solange die Fesselung besteht, sodass Schwarz auf einen Entwicklungszug achten muss, der die Dame angreift."
@@ -131,10 +131,10 @@
     "strategy": "Entwickelt, deckt den Bauern e4 und greift den Bauern auf d5 an, alles in einem Zug. Schwarz hält das Gambit mit dem vorgerückten Bauern am Leben, und der Mehrbauer von Weiß ist nun ein Angriffsziel, das gedeckt oder zurückgegeben werden muss."
   },
   "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3 Bf5": {
-    "strategy": "Deckt den Bauern e4 mit einem Entwicklungszug, sodass Sxe4 den Springer an den Rückschlag des Läufers verlöre. Schwarz behält die Klammer, doch die Dame blickt auf den Bauern d5, den der Springer verteidigt, sodass der Mehrbauer vorerst sicher ist."
+    "strategy": "Verteidigt den Bauern auf e4 mit einem Entwicklungszug, lässt aber den Bauern auf d5 unbehelligt, und ein weißer Springer auf dem Weg nach d4 belästigt den Läufer bald. Weiß behält den Mehrbauern und die bequemere Stellung, und Schwarz hat für den Bauern wenig vorzuweisen."
   },
   "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3 Qe7": {
-    "strategy": "Deckt den Bauern e4 mit der Dame und nutzt die offene e-Linie: Ein Bauernvorstoß nach d3 wird mit ...exd3 mit Schach beantwortet. Die Dame kommt früh heraus, keine Leichtfigur entwickelt sich und der Bauer d5 wird nicht herausgefordert, sodass Weiß den Mehrbauern behält."
+    "strategy": "Deckt den Bauern auf e4 mit der Dame und macht den Vorstoß d3 unbequem, da ...exd3 dann Schach böte. Aber die Dame steht früh draußen, keine Figur wird entwickelt, und der Bauer auf d5 wird nicht angegriffen, sodass Weiß sich festigt und den Mehrbauern behält."
   },
   "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3 Nf6 5.d3": {
     "strategy": "Greift den Bauern e4 ein zweites Mal an, während der Springer d5 bereits deckt, sodass der Bauer von Schwarz zweimal angegriffen und einmal gedeckt ist. Der Zug erreicht den Plan der Hauptvariante in anderer Zugfolge: Weiß beseitigt den einengenden Bauern und behält das Mehrmaterial."
@@ -186,12 +186,12 @@
   },
   "1.e4 e5 2.f4 d5 3.Nc3 dxe4 4.Nxe4": {
     "name": "Dunst-Eröffnung: Grünfeld-Verteidigung, Steiner-Gambit",
-    "strategy": "Gewinnt den Bauern sofort zurück, doch der Bauer f4 bleibt ungedeckt: Schwarz nimmt ihn mit ...exf4 und steht einen Bauern vorn. Weiß hat keinen Entwicklungsvorsprung, der das ausgleicht, und der König steht weiter ungeschützt."
+    "strategy": "Gewinnt den Bauern sofort zurück und zentralisiert den Springer. Schlägt Schwarz auf f4, droht De2 mit einem Doppelschach durch Sd6+ gegen den noch nicht rochierten König, sodass der Mehrbauer nicht umsonst zu haben ist. Die Partie ist ausgeglichen und scharf."
   },
   "1.e4 e5 2.f4 d5 3.Nc3 dxe4 4.fxe5": {
-    "strategy": "Schlägt sofort zurück und tauscht den f-Bauern gegen den e-Bauern von Schwarz, sodass das Material ausgeglichen ist und sich die f-Linie öffnet. Andere Züge geraten einen Bauern ins Hintertreffen. Der Bauer e4 wird vom Springer angegriffen, sodass Schwarz ihn verteidigen muss."
+    "strategy": "Schlägt sofort mit dem f-Bauern zurück, sodass das Material ausgeglichen ist und sich die f-Linie öffnet. Der Bauer auf e5 schränkt Schwarz ein, steht aber unter Beschuss, daher muss Weiß ihn stützen und zugleich die Entwicklung beenden."
   },
   "1.e4 e5 2.f4 d5 3.Nc3 dxe4 4.d3": {
-    "strategy": "Bietet einen zweiten Bauern für Entwicklung an, doch Schwarz nimmt einfach den Bauern f4: dxe4 Dxd1+ Kxd1 lässt Schwarz einen Bauern voraus, während der weiße König in der Mitte feststeckt."
+    "strategy": "Bietet einen Bauern an, um den Läufer auf c1 zu befreien und die Entwicklung zu beschleunigen. Schwarz kann auf f4 oder d3 schlagen, und Weiß steht einen Bauern zurück für etwas Aktivität; das ist spielbar, doch die Kompensation ist bescheiden."
   }
 }

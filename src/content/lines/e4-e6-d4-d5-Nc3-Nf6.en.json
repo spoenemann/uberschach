@@ -54,7 +54,7 @@
     "strategy": "Counterattacks the bishop at once. Both sides now have a piece under fire: Black's knight is attacked by the e5 pawn, White's bishop by the h-pawn, and White must choose between retreating and carrying out the threat."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 Bxc3+": {
-    "strategy": "Trades the bishop for the knight with check, which doubles White's c-pawns, but the e5 pawn still attacks the knight on f6 and ...h6 is still needed to save it. Black gives up the bishop pair at once and leaves White more freedom in how to continue."
+    "strategy": "Trades the bishop for the knight with check, but the knight on f6 is still attacked and pinned to the queen, so ...h6 is still needed. White's doubled pawns are small compensation: Black has lost the dark-squared bishop and the kingside is left exposed."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 Nfd7": {
     "strategy": "Retreats the attacked knight and uncovers the queen: Bxd8 wins it, and Black's recaptures on c3 and d8 repay only a knight and a bishop for it. The knight has to be saved with a counterattack on the bishop instead."
@@ -87,13 +87,13 @@
     "strategy": "Retreats the attacked knight but keeps the bishop on b4, so the tension stays and Black can still choose when to trade. The cost is time and space: the e5 pawn cramps Black, the knight shuts in the c8 bishop, and a3 forces the bishop to decide anyway."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.Bd2 Ne4": {
-    "strategy": "Counterattacks the bishop on d2 and the knight on c3 at once. White cannot just take on e4: after Nxe4 Black must play ...Bxd2+ before retaking, since ...dxe4 allows Bxb4 and loses the bishop. The result is a trade of pieces and a pawn on e4 that Black must keep guarded."
+    "strategy": "Looks like a double attack on the bishop and knight, but White just takes the knight: after ...Bxd2+ the knight on e4 recaptures on d2, and Black is a piece down. The knight lunge loses material outright."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.exf6 hxg5": {
     "strategy": "Recaptures the bishop with the pawn, so material stays level, and the h-file is half-open for Black's rook. White's pawn on f6 is a thorn, but if it takes on g7, the rook swings to g8 and Black wins the pawn back."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.exf6 Bxc3+": {
-    "strategy": "Takes the knight with check before recapturing on g5, so White's c-pawns are doubled after bxc3. Black still retakes on g5 and wins back the g7 pawn, but gives up the bishop pair, which is part of what the main recapture keeps."
+    "strategy": "Takes the knight with check before recapturing on g5, which doubles White's c-pawns. But it gives up the dark-squared bishop that guards the kingside, and after bxc3 hxg5 fxg7 the pawn that lands on g7 gives White a lasting initiative against the king."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.exf6 gxf6": {
     "strategy": "Retakes the pawn instead of the bishop, but the knight is already lost: the bishop simply retreats to h4 or d2 and White is a piece up for a pawn."
@@ -203,7 +203,7 @@
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.h4 a6": {
     "name": "French Defence: Alekhine-Chatard Attack, Maróczy Variation",
-    "strategy": "Declines the pawn and takes the b5 square from White's knight, so the c-pawn can advance without that jump as an answer. White can keep the initiative with the queen to g4, threatening to take on e7 and then on g7, which forces Black to take on g5 and open the h-file. A wild game with unsafe kings."
+    "strategy": "Declines the pawn and takes b5 from White's knight, but it loses time to the attack. Qg4 threatens Bxe7 and then Qxg7, so Black has to take on g5 and open the h-file; the kings are unsafe and White keeps the initiative."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.h4 c5": {
     "name": "French Defence: Alekhine-Chatard Attack, Breyer Variation",
@@ -211,17 +211,20 @@
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.h4 O-O": {
     "name": "French Defence: Alekhine-Chatard Attack, Spielmann Variation",
-    "strategy": "Castles at once, but into the attack: the h-pawn is already advanced, and White's queen and bishops can aim at the kingside before Black has any counterplay. Playable, but risky; it is the king position the gambit was built to attack."
+    "strategy": "Castles into the attack: with the h-pawn already advanced, Bd3 aims at h7 and the queen can follow to h5. This is the king position the gambit was built to attack, and White is clearly better."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.h4 f6": {
     "name": "French Defence: Alekhine-Chatard Attack, Teichmann Variation",
-    "strategy": "Strikes at the e5 pawn at once, but opens the e8-h5 diagonal: White's queen checks on h5 and the king has little cover. Black gets rid of the cramping pawn at the price of king safety."
+    "strategy": "Strikes at e5 at once but opens the e8-h5 diagonal: Qh5+ g6 exf6 leaves the king without cover. Black removes the cramping pawn at too high a price, and White is clearly ahead."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.h4 h6": {
+    "strategy": "Declines the gambit and asks the bishop at once. After the bishops come off with Bxe7 Qxe7, Black has a sound game and the king is not yet committed, though White goes on to attack the kingside with a pawn storm."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Ng8 6.Be3": {
     "strategy": "Avoids the trade that the knight's retreat was aiming for and keeps the bishop on a good diagonal that also protects d4. White keeps the extra space and the lead in development, and Black's retreat has cost time."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Ng8 6.Bf4": {
-    "strategy": "Keeps the bishop out of the trade on a diagonal that protects the e5 pawn, and calmly holds the space and the lead in development. Black's retreat has cost time, and the pawn chain is still hard to challenge."
+    "strategy": "Keeps the bishop out of the trade on a diagonal that guards e5, and White holds the space and the lead in development. Unlike Be3 it leaves d4 with little support, so ...c5 comes at once and White's edge shrinks to about a quarter of a pawn."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Ng8 6.Bxe7": {
     "strategy": "Trades the dark-squared bishops, but the knight can recapture on e7, a good square, so Black's retreat pays off. White keeps the space edge, though the cramped side is glad of the exchange."
@@ -231,10 +234,10 @@
     "strategy": "Prepares to trade off the light-squared bishop, the French's problem piece, on the a6 diagonal. But after the knight's detour Black is far behind in development, and White holds the centre with ease."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Ng8 6.Be3 Nc6": {
-    "strategy": "Develops with pressure on d4 and e5, the base and the head of White's pawn chain, and fights the chain with pieces first. Black attacks the centre without giving up a pawn."
+    "strategy": "Develops with pressure on d4 and e5, but the knight blocks the c-pawn, so ...c5, the natural strike at the chain, is held up. White simply develops and keeps a clearer edge than after 6...c5."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Ng8 6.Be3 c5": {
-    "strategy": "Strikes at the base of the chain at once, but White simply takes on c5, where the bishop on e3 guards the pawn. Black has opened the centre while behind in development and must win the pawn back with its pieces."
+    "strategy": "Strikes at the base of the chain at once, the usual French way. White can take on c5, where the bishop on e3 guards the pawn, but Black has pieces ready to attack it and gets open lines in return. White keeps more space and the lead in development."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 dxe4 5.Nxe4": {
     "strategy": "Recaptures the pawn with a knight that now eyes f6 together with the bishop on g5. White has regained the pawn and has an open centre, and Black has to decide how to defend the knight."
@@ -243,7 +246,7 @@
     "strategy": "Trades the bishop for the pinned knight at once and wins the e4 pawn back afterwards. A safe and simple game, but White gives up the bishop and has little of the opening initiative left."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 dxe4 5.f3": {
-    "strategy": "A pawn gambit: White offers a second pawn to open the centre and keep the pin on f6. After the recapture on f3 White is a pawn down for development, and Black can keep the extra pawn by breaking the pin."
+    "strategy": "A pawn gambit: White leaves e4 and plays f3 to open the f-file and keep the pin. Taking on f3 wins a pawn, but White's lead in development is nearly worth it; the simple recapture on e4 is no worse and less risky."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 dxe4 5.Nxe4 Be7": {
     "name": "French Defence: Classical Variation",

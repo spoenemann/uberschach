@@ -11,7 +11,7 @@
     "strategy": "Attacks e4 before any exchange, so White has to defend it, and the knight on c3 that does so takes away the c-pawn's push for a clamp on d5. The price is that White gains an extra option of taking on c5, which leads to unclear, double-edged play."
   },
   "1.e4 c5 2.Nf3 d6 3.d4 Nc6": {
-    "strategy": "Develops the knight at once, but invites 4.d5: the knight has to retreat, and after the exchange on e5 White has a clear space advantage with pawns on d5 and e4 while Black has no Sicilian counterplay."
+    "strategy": "Develops the knight at once, but White answers d5: the knight must retreat, the c-pawn can no longer trade for White's d-pawn, and White gets a clear lead in space. Black has given up the usual Sicilian counterplay."
   },
   "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4": {
     "strategy": "The natural recapture: the knight lands in the centre with access to b5 and f5. White has traded a central pawn for a flank pawn and gets easy development and open lines for both bishops."
@@ -85,7 +85,7 @@
     "strategy": "A rare move that keeps the bishop ready to meet an exchange on b5 and can lead back to better-known set-ups. It avoids the main theory but spends a move on a bishop that no other main line needs."
   },
   "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5": {
-    "strategy": "Takes the centre at once, but the check on b5 follows and the exchange of light-squared bishops leaves the d5 square weak. White gets a knight outpost on f5 that Black can challenge only with concessions."
+    "strategy": "Takes the centre at once and keeps the c8-bishop's diagonal open, but 6.Bb5+ is awkward to meet: the d4 knight finds a lasting outpost on f5 that Black can challenge only with concessions, and d5 is a weak square. Sound, yet passive."
   },
   "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be3": {
     "name": "Sicilian Defence: Najdorf Variation, English Attack",
@@ -293,7 +293,7 @@
   },
   "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Bg5 g6": {
     "name": "Sicilian Defence: Richter-Rauzer Variation, Dragon Variation",
-    "strategy": "The fianchetto is not playable here: Bxf6 usually leaves Black recapturing with the e-pawn, because the g-pawn has left, wrecking the kingside structure, and Ndb5 then puts the d6 pawn under pressure."
+    "strategy": "Plays for the fianchetto, but the g-pawn has left g7, so 7.Bxf6 exf6 leaves Black with doubled f-pawns and a d6-pawn that Ndb5 attacks. Sound with exact play, yet a concession the main line avoids."
   },
   "1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Qxd4 Nc6": {
     "strategy": "Attacks the queen with a developing move, so White has to move it again. The early queen sortie costs a tempo, which is the standard way of answering it."
@@ -343,6 +343,6 @@
     "strategy": "Checks first and eyes the c5 pawn, so White has to spend a move before Black wins the pawn back, with the e4 pawn still under attack. A respected alternative to the knight capture: the price is an early queen sortie and a less simple position."
   },
   "1.e4 c5 2.Nf3 d6 3.d4 Nf6 4.dxc5 dxc5": {
-    "strategy": "Recaptures the pawn and allows the queen exchange, after which Black can no longer castle and the king is stuck in the centre. White's e4 pawn is still attacked, but the quiet game is less promising than the active replies."
+    "strategy": "Recaptures the pawn at once, but 5.Qxd8+ Kxd8 trades queens with check: Black can no longer castle and White develops with tempo, so Black is clearly worse. Taking on e4 first avoids all this."
   }
 }

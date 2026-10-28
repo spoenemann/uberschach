@@ -20,18 +20,18 @@
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 e4 4.Ng5 c6": {
     "name": "English Opening: King's English Variation, Adhiban Gambit",
-    "strategy": "Prepares to support the pawn on e4 with a pawn on d5 instead of defending it directly. Black lets White win the pawn in return for development and central play, a gambit that is offbeat and gives White the choice."
+    "strategy": "Prepares ...d5, so that a knight taking on e4 is hit at once, instead of defending the pawn directly. Black may give up the pawn for development and central play, and the position stays balanced. Offbeat, but the most reliable answer to the threat on e4."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 e4 4.Ng5 b5": {
     "name": "English Opening: King's English Variation, Bellon Gambit",
-    "strategy": "Offers the b-pawn to deflect the c4 pawn and open lines on the queenside, but the pawn on e4 stays attacked twice and White can take material with cxb5 or Nxb5. Black has too little to show for the pawns."
+    "strategy": "Counterattacks the c4-pawn, so a capture on e4 can be answered by ...bxc4 and the material stays level. The advance loosens the queenside and develops nothing, so it is playable but less solid than preparing ...d5 with ...c6."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 e4 4.Ng5 Ng4": {
     "name": "English Opening: King's English, Erbenheimer Gambit",
     "strategy": "Leaves the pawn on e4 without any defender: it is attacked by the knights on c3 and g5, so White simply takes it. The knight on g4 eyes f2 and h2, but the king guards f2 and White can chase it away with h3."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 e4 4.Ng5 Bb4": {
-    "strategy": "The most active answer to the threat on e4: Black develops with pressure on the knight that attacks the pawn, and prepares to trade pieces if White takes it. The pawn is attacked twice and defended once, so Black may have to give it up, and plays for activity and open lines."
+    "strategy": "Attacks the c3-knight, but it is not pinned, since the d2-pawn stands between the bishop and the king, so 5.Ncxe4 simply takes the pawn. Black gets some activity but too little for it."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.g3": {
     "name": "English Opening: King's English Variation, Four Knights Variation, Fianchetto Line",
@@ -73,7 +73,7 @@
     "strategy": "Hits the knight on f6 and heads for a trade that puts a pawn on d5, cramping the knight on c6, while the pawn on d4 is attacked twice and can be won back. Playable but second-rate: it spends time on a knight that will be traded instead of recapturing at once."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.d4 exd4 5.Nb5": {
-    "strategy": "Adds a third attacker to the pawn on d4 and eyes c7, so the pawn is soon won back. But the knight leaves the centre and allows ...Bb4+, which gains Black a tempo with check, so White recovers the pawn at the price of a looser, less coordinated position."
+    "strategy": "Adds a third attacker to the d4-pawn, but the knight leaves the centre and ...Bb4+ at once checks the king. Black keeps the extra pawn with a gain of time, while White's knight stands out of play on b5."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.d4 exd4 5.Nxd4 Bb4": {
     "strategy": "Pins the knight on c3 to the king: with the d-pawn gone, nothing stands on d2. Black develops with tempo and ties down White's pieces, putting pressure on the centre before White can untangle."
@@ -115,7 +115,7 @@
     "strategy": "Protects the knight on c3, so a trade on c3 can be answered with the queen and White's pawns stay intact. The queen also lines up on the c-file and the h7-b1 diagonal while White keeps the bishop pair in view."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.e3 Bb4 5.a3": {
-    "strategy": "Asks the bishop to decide at once. If it takes on c3, bxc3 gives White the two bishops for doubled c-pawns; if it retreats, White has gained queenside space. The cost is a tempo spent on a rook-pawn move while development stands still."
+    "strategy": "Asks the bishop to decide, but ...Bxc3 takes the knight at once and either recapture leaves White with doubled c-pawns. The bishop pair is poor compensation, and a tempo on a rook-pawn move leaves development standing still."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.e3 Bb4 5.d4": {
     "strategy": "Opens the centre at once, but the d-pawn leaves d2, so the knight on c3 is pinned to the king and White has not castled. After the exchanges the open e-file gives Black checks, so the move is double-edged and White's development lags behind."
@@ -174,7 +174,7 @@
     "strategy": "The natural move: Black puts the king to safety and leaves White to resolve the tension on c3, instead of committing to a trade or a pawn push. The bishop still bears on the knight, and the e-pawn keeps the option of advancing against the knight on f3."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.g3 Bb4 5.Bg2 e4": {
-    "strategy": "Gains space and kicks the knight on f3 at once. When it moves, the pawn on e4 is attacked by the knight on c3 and the bishop on g2 and defended only by the knight on f6, so Black has to resolve the tension immediately: ambitious but loosening."
+    "strategy": "Kicks the knight on f3 and grabs space, but the pawn cannot be held. After 6.Ng5 it is attacked by the knights on c3 and g5 and by the bishop on g2, and the knight on f6 alone defends it, so White wins a pawn."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.g3 Bb4 5.Bg2 Bxc3 6.dxc3": {
     "strategy": "Recaptures with the d-pawn, which opens the d-file for the queen and the diagonal for the c1 bishop, while the pawn on c3 keeps Black's knights off d4 and b4. The doubled c-pawns are a long-term weakness, but White has the two bishops in return."
@@ -237,10 +237,10 @@
     "strategy": "Takes at once, trading the c-pawn for Black's centre pawn and opening the c-file. White's pieces then fight for d5, and the game opens up, which suits the side that is better developed."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.g3 d5 5.Nxd5": {
-    "strategy": "Takes the pawn and trades knights, simplifying at once. Black's queen recaptures on d5 with a central post and attacks the knight on f3, so White gets a plain, level game rather than the open fight."
+    "strategy": "Takes the pawn and offers a trade, but 5...e4 hits the f3-knight at once while the d5-knight is still attacked. White's knight has to retreat, Black recaptures on d5 with a strong pawn on e4, and White's pieces end up awkwardly placed."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.g3 d5 5.d3": {
-    "strategy": "Supports e4 and keeps the position closed, but gives up the chance to take on d5 at once. Black decides how the centre resolves: by taking on c4, trading queens, or pushing the d-pawn to gain space."
+    "strategy": "Supports e4 and keeps the position closed, but gives up the c4-pawn: 5...dxc4 wins it, and White cannot get it back without further concessions. Black keeps the extra pawn and a comfortable game."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.g3 d5 5.cxd5 Nxd5": {
     "strategy": "Recaptures with a developing move and keeps the e5 pawn safe. The knight on d5 is a strong central piece but is attacked by the knight on c3, so Black accepts that it will be traded or have to move, and plays for active pieces and equality."
@@ -258,7 +258,7 @@
     "strategy": "Trades the centralised knight for White's own: Black's queen recaptures on d5, active but needing care, and White keeps the easier development with the bishop on g2 to come. A simple continuation without the tension of keeping both knights."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.g3 d5 5.cxd5 Nxd5 6.e3": {
-    "strategy": "Guards d4 and keeps a compact centre, but does not develop a piece and leaves Black's knight in place on d5. Black can trade on c3 whenever it suits, and White recaptures with a pawn."
+    "strategy": "Guards d4 but leaves d3 weak. ...Ndb4 threatens ...Nd3+, a check that also attacks the c1-bishop, so White's king is dragged to e2 or the c1-bishop is traded for a knight, and nothing is developed meanwhile."
   },
   "1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 4.g3 d5 5.cxd5 Nxd5 6.Bg2 Nb6": {
     "name": "English Opening: King's English Variation, Four Knights Variation, Fianchetto Line, with Nb6",

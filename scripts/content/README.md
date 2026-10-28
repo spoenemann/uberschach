@@ -165,7 +165,7 @@ for the side to move (its `queryall` API; no key, about a second a request,
 the responses cached so a second run costs seconds). The Lichess opening
 explorer, the other public source, answers anonymous requests with 401 since
 2026-10-28 and would need a token (the plan,
-`docs/exec-plans/active/0003-book-against-chessdb.md`, Decision log).
+`docs/exec-plans/completed/0003-book-against-chessdb.md`, Decision log).
 
 ```sh
 node scripts/content/cdb.mjs <work>              # <work>/cdb/comparison.json; --limit <n> for a sample, --no-follow to skip the lines beyond
@@ -199,7 +199,7 @@ reason, in `engine` on an added or revised move or under `kept` for an
 existing one, and the reviewer tests the reason.
 
 After the first comparison (the plan,
-`docs/exec-plans/active/0003-book-against-chessdb.md`) the whole book's
+`docs/exec-plans/completed/0003-book-against-chessdb.md`) the whole book's
 ratings outside the bounds were decided this way: `bounds.mjs` writes a
 batch per family of about 20 questioned ratings, each position with its
 moves, notes, legal moves and the engine's whole view (scores, deltas,

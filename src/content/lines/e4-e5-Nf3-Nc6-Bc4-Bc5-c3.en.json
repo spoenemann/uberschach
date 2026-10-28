@@ -28,7 +28,7 @@
     "strategy": "Trades the e-pawn for the d-pawn. The recapture hits the bishop again, so Black accepts that White gets a strong centre and in exchange has a sound structure and a quick development."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6 5.d4 Bb6": {
-    "strategy": "Retreats out of reach of the pawn but leaves e5 to be taken: after 6.dxe5 Black cannot regain the pawn safely and has to resort to a sacrifice."
+    "strategy": "Steps out of the pawn's reach but leaves the e5 pawn to be taken. Black can win it back with accurate play, so the move is sound, but it hands White the choice of how to play the centre."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6 5.d4 Bxd4": {
     "strategy": "Takes the d4 pawn with the bishop, but White recaptures with the c-pawn and has won a bishop for a pawn. Black gives away the piece that pressures the centre and gets nothing for it."
@@ -47,7 +47,7 @@
     "strategy": "Retreats out of reach of the pawns while keeping the bishop on the diagonal that eyes d4 and f2. Black accepts White's big centre but has developed reasonably and aims to undermine it rather than hold it."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6 5.d4 exd4 6.cxd4 Bb4+": {
-    "strategy": "Checks to trade off the bishop and so relieve the pressure of White's centre. It is playable, but it gives up Black's most active piece, and White keeps the larger centre."
+    "strategy": "Checks to trade off the bishop and so relieve the pressure of White's centre, but 7.Nc3 simply blocks and keeps the big centre. If Black trades on c3, bxc3 builds an even broader one, and Black has given up its most active piece for little."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6 5.d4 exd4 6.cxd4 Bxd4": {
     "strategy": "Takes the pawn but loses material: White recaptures with the knight and, after the exchanges, has won a piece for a pawn. The bishop was the piece that gave Black counterplay against the centre."
@@ -149,7 +149,7 @@
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.O-O": {
     "name": "Italian Game: Scotch Gambit, Walbrodt-Baird Gambit",
     "background": "A rarely seen gambit that was more popular in the era of Romantic chess.",
-    "strategy": "A gambit: White castles without recapturing and lets Black take the e4-pawn as well. Black can accept it safely and keeps the extra pawn after White recaptures on d4; White's lead in development is the only compensation, and it is not enough."
+    "strategy": "A gambit: White castles without recapturing and lets Black take e4 as well. If Black does and White then recaptures in the centre, White is a pawn down for open lines and a lead in development; the play is level, but it asks for sharp knowledge when simply recapturing is easier."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.cxd4 Bb4+": {
     "strategy": "Saves the bishop with check, so White must react before it can attend to e4, which the knight attacks. Retreating to b6 instead lets White push e5 and drive the knight away with a gain of space, which is why the check is the standard way to meet the recapture."
@@ -184,10 +184,10 @@
     "strategy": "Retreats the bishop out of the pawn's reach while it keeps its eye on f2, and holds e5 with queen and knight. Black has a compact but passive position: the e5-pawn is solid, but White has more room to move."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 exd4": {
-    "strategy": "Releases the tension by taking the pawn, and the queen now looks down the open file at e4. But cxd4 hits the bishop at once and gives White a central pawn pair, so Black has to play energetically to keep the balance."
+    "strategy": "Takes the pawn, and the queen now looks down the open file at e4, but 6.cxd4 hits the bishop at once and gives White a central pawn pair with tempo. Black has surrendered the centre and must spend time on the bishop."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bd6": {
-    "strategy": "Keeps the bishop out of the pawn's reach and the e5-pawn defended, but the bishop blocks Black's own d-pawn and the position stays passive. White keeps the bigger centre and the choice between opening the centre and gaining more space."
+    "strategy": "Keeps the bishop out of reach of the pawn and e5 defended, but it blocks Black's own d-pawn and leaves a passive, cramped set-up. White keeps the bigger centre and can open the game when it is ready."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6 6.O-O": {
     "strategy": "Castles first and keeps the tension in the centre, so White decides when to resolve it. The bigger centre gives White a slight edge, and Black's pieces stay tied to the defence of the e5-pawn."
@@ -203,10 +203,10 @@
     "strategy": "Retreats the knight rather than leaving it to be taken, and keeps it in play from the back rank. White has gained space and a tempo, but the pawn on d5 has also released the pressure on e5, so Black is cramped rather than worse."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6 6.d5 Nd8": {
-    "strategy": "A second retreat: from d8 the knight guards f7 and e6, but it is passive, takes the d8 square from the queen and stays far from the fight for e5. White keeps the space it has gained."
+    "strategy": "Steps back to d8, where the knight guards f7 and b7 and stays clear of the d5 pawn. Black gives up space and accepts a passive set-up, but the e5 pawn stays solid and nothing is lost."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6 6.d5 Na5": {
-    "strategy": "Attacks the bishop and asks White to move or exchange it, but leaves the knight on the edge of the board, far from the centre and from the defence of e5. White keeps the space advantage and Black needs time to bring the knight back into play."
+    "strategy": "Attacks the bishop, but the knight lands on the rim with no way back: c6 is covered by the d5 pawn, b3 by the a2 pawn, c4 by the bishop, and b7 holds Black's own pawn. White retreats with tempo and then hunts the stranded knight."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6 6.O-O d6": {
     "strategy": "Adds a pawn to the defence of e5, so the queen is no longer needed there, and opens the diagonal for the c8-bishop. Black accepts less space for a compact structure that White cannot easily break; the game becomes a slow fight for the centre."

@@ -11,7 +11,7 @@
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nxe4": {
     "name": "Petrov's Defence: Damiano Variation",
     "background": "Introduced by Pedro Damiano in his Libro da Imparare a Giocare a Scacchi, one of the oldest books on \"modern rules\" chess. It is usually regarded as an error, though it has occasionally been seen in recent grandmaster play.",
-    "strategy": "Retakes at once, but the open e-file punishes it: the queen attacks e4 from e2, and a knight move uncovers a discovered check, so the natural-looking ...Nf6 loses the queen to Nc6+. Black has to find exact moves to survive and still ends up worse."
+    "strategy": "Retakes at once, but the open e-file bites: the queen attacks e4 from e2, and a knight move uncovers a discovered check, so the natural-looking ...Nf6 loses the queen to Nc6+. Black has to find the exact defence, after which the game is about level; a slip loses at once."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6": {
     "name": "Petrov's Defence: Stafford Gambit",
@@ -117,30 +117,30 @@
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7 Kxf7 5.Bc4+": {
     "name": "Petrov's Defence: Cochrane Gambit, Bishop Check Line",
-    "strategy": "Checks to keep the king out in the open for good, since it can no longer castle, and the bishop eyes the squares around it. White has paid a knight for two pawns, so the attack must keep its speed; Black can block and then challenge the bishop with a pawn."
+    "strategy": "Checks to keep the king in the open, but the check is easily met: ...d5 blocks it and hits the bishop with a pawn, after which Black untangles the king and White has lost the pace the attack needs."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7 Kxf7 5.d4": {
     "name": "Petrov's Defence: Cochrane Gambit, Centre Variation",
-    "strategy": "Takes the centre and opens the c1-bishop while the king is still stranded, and the pawn can later drive the knight away with e5. It leaves e4 without a defender, but grabbing it is risky: ...Nxe4 allows Qh5+, and after ...g6 Qd5+ attacks king and knight together."
+    "strategy": "Takes the centre and opens the c1-bishop while the king is stranded. It leaves e4 undefended, but grabbing it is risky: ...Nxe4 allows Qh5+, and after ...g6 Qd5+ attacks king and knight together. Playable, but it hurries and gives Black time to organise the defence."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7 Kxf7 5.Nc3": {
-    "strategy": "Develops a piece and defends e4, so that White keeps the bishop check and the central advance in hand. It is slower than the direct pawn move and gives Black a move to untangle the king, but the stranded king still keeps the position double-edged."
+    "strategy": "The best way to play the gambit: it develops a piece, defends e4 and keeps the bishop check and the central advance in hand rather than spending them early. White is still a piece down for two pawns, so it must make the stranded king count."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6": {
     "strategy": "Takes the offered knight and keeps the extra pawn. Trading pieces brings the side that is ahead closer to consolidating its lead. The recapture opens lines for Black, so White must now look after e4 and the king's side."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.d4": {
-    "strategy": "Declines the trade and takes the centre, with a pawn behind the knight on e5. Black can win the pawn back, so White gives up the extra pawn, but keeps a small edge."
+    "strategy": "Declines the trade and takes the centre, with a pawn behind the knight on e5. Black can win the pawn back, so White hands back most of the advantage the pawn gave and keeps only a small edge."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nf3": {
-    "strategy": "Retreats the knight and returns the pawn at once, since ...Nxe4 restores material. It is safe and avoids the gambit's tricks, but the game is level and the advantage White has earned is thrown away."
+    "strategy": "Retreats the knight and returns the pawn at once, since ...Nxe4 restores material. It is safe and avoids the gambit's tricks, but the game is level and White has thrown away the whole advantage."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6": {
     "name": "Petrov's Defence: Stafford Gambit Accepted",
     "strategy": "The point of the gambit: Black gives up a pawn and accepts doubled c-pawns to open the d-file for the queen and the diagonal for the c8-bishop. The pawn on e4 is already attacked and undefended, so White has to react at once."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 bxc6": {
-    "strategy": "Recaptures towards the centre but leaves the d7 pawn at home, so neither the queen nor the c8-bishop gets any room. Black is a pawn down without the lead in development that is the whole point of the gambit."
+    "strategy": "Recaptures with the b-pawn, which is playable but leaves the d-pawn at home, so neither the queen nor the c8-bishop gets any room. Black stays a pawn down without the lead in development that is the point of the gambit."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 Nxe4": {
     "strategy": "Takes a pawn and ignores the knight on c6, which takes the queen on d8. Black recaptures with the king, but has lost the queen for a pawn."
@@ -152,7 +152,7 @@
     "strategy": "Defends e4 with a developing piece and leaves the d-pawn free. It is less solid than the pawn defence: a bishop on c5 and a knight on g4 can aim at f2 together, so White has to watch the kingside while the extra pawn is consolidated."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6 5.e5": {
-    "strategy": "Drives the knight from f6 and takes space, but the knight lands on e4 and still presses on f2. White must follow up exactly: after 6.d3? Bc5 Black threatens ...Bxf2+ and ...Bg4 mate. A double-edged try rather than a safe way to hold the pawn."
+    "strategy": "Drives the knight from f6 and takes space, but the knight lands on e4 and still presses on f2. White must then be exact: after 6.d3? Bc5 Black threatens ...Bxf2+ and ...Bg4 mate. It gives up much of White's advantage for a risky try."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6 5.f3": {
     "strategy": "Guards e4 and takes g4 away from the black knight in one move, so the usual pressure on f2 never starts. The cost is a loosened king's side, and Black, with a free bishop and the lead in development, still has play for the pawn."
@@ -187,7 +187,7 @@
     "strategy": "Plants a pawn in the centre and supports the knight on e5, so ...d6 is met by a retreat that reaches a standard, level position. White gives up the chance to punish the early knight capture."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nxe4 4.Qf3": {
-    "strategy": "More of a trap than a plan: queen and knight both aim at f7, so the careless ...d5 loses to Qxf7 mate. Black just retreats the knight, material is level, and White has gained nothing for the early queen move."
+    "strategy": "More of a trap than a plan: queen and knight both aim at f7, so the careless ...d5 loses to Qxf7 mate. Black just retreats the knight, material is level, and White has gained nothing for the early queen move, though it risks little."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nxe4 4.Qe2 Qe7": {
     "name": "Petrov's Defence: Damiano Variation, Kholmov Gambit",

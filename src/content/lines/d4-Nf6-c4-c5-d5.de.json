@@ -16,7 +16,7 @@
   "1.d4 Nf6 2.c4 c5 3.d5 e5": {
     "name": "Benoni-Verteidigung: Tschechische Benoni-Verteidigung",
     "background": "Auch als Hromádka-Benoni bekannt, nach Karel Hromádka.",
-    "strategy": "Schließt das Zentrum, statt die Bauernkette anzugreifen: solide, aber passiv. Weiß erhält viel Raum und kann wählen, welchen Flügel er öffnet, während Schwarz manövriert und abwartet, um mit ...b5 oder ...f5 durchzubrechen, sobald die Figuren bereitstehen."
+    "strategy": "Schließt das Zentrum und gibt den Kampf gegen die Bauernkette auf. Schwarz bleibt beengt und passiv: Weiß hat dauerhaft mehr Raum und wählt, auf welchem Flügel er öffnet, während Schwarz manövriert und einen Durchbruch mit ...b5 oder ...f5 vorbereitet, den Weiß oft verhindern kann."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 Ne4": {
     "name": "Geier-Verteidigung",
@@ -48,7 +48,7 @@
   },
   "1.d4 Nf6 2.c4 c5 3.d5 b5 4.e4": {
     "name": "Abgelehntes Benkö-Gambit: Hjørring-Gegengambit",
-    "strategy": "Ein Gegengambit, das den e-Bauern anbietet. Wer unvorsichtig mit ...b4 oder ...bxc4 nimmt, erlaubt e5 mit Angriff auf den Springer, und ...Sxe4 begegnet Weiß mit Df3, das über die lange Diagonale auf a8 zielt. Bei ruhigem Spiel von Schwarz steht Weiß einfach einen Bauern schlechter."
+    "strategy": "Ein Gegengambit, das den e-Bauern anbietet, um dem Flügelspiel von Schwarz einen Schlag im Zentrum entgegenzusetzen. Nimmt Schwarz mit ...b4 oder ...bxc4, greift e5 mit Tempo den Springer an; ...Sxe4 ist die sichere Annahme, und dann hat Weiß nur ein ausgeglichenes Spiel. Der Zug ist solide, bringt aber nichts, wenn Schwarz richtig antwortet."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 b5 4.g4": {
     "name": "Benkö-Gambit: Mutkin-Gegengambit",
@@ -131,7 +131,7 @@
     "strategy": "Vollendet das Fianchetto und verzögert das Zurückschlagen: Stößt Weiß den Bauern nach a7 vor, nimmt ihn der Turm. Schwarz stellt die Entwicklung voran, sodass die Kompensation aus dem Figurenspiel und den offenen Linien kommt, während Weiß Zeit bekommt, seine Entwicklung zu beenden."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.bxa6 g6 6.Nc3 Nxa6": {
-    "strategy": "Schlägt mit dem Springer zurück, der nach b4 gehen kann, um d5 und a2 anzugreifen, und hält den Damenläufer für b7 oder f5 frei. Der Preis ist, dass der f1-Läufer nicht mehr bedrängt wird, sodass Weiß e4 spielen und sich normal entwickeln kann, und dass der Springer am Rand beginnt."
+    "strategy": "Schlägt mit dem Springer zurück, der am Rand steht und den Läufer auf f1 nicht stört, sodass Weiß in Ruhe ein volles Zentrum aufbauen kann. Schwarz steht weiter einen Bauern im Rückstand und hat dafür weniger Druck am Damenflügel."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.Nc3 axb5": {
     "strategy": "Schlägt zurück und öffnet die a-Linie gegen den Bauern a2. Der weiße Springer kann auf b5 nehmen, doch der übliche Plan ist, ihn zu ignorieren und ein Zentrum aufzubauen, was Schwarz Druck auf der Linie und einen Bauern lässt, der den Springer herausfordern kann."
@@ -140,7 +140,7 @@
     "strategy": "Entwickelt den Läufer, verliert aber ein Tempo, wenn Weiß auf a6 schlägt: Der Läufer braucht einen zweiten Zug zum Zurückschlagen. Weiß kann auch mit e4 ablehnen und nach ...axb5 den Mehrbauern mit Lxb5 behalten. Schwarz hat für die verlorene Zeit wenig vorzuweisen."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.Nc3 g6": {
-    "strategy": "Verzögert das Zurückschlagen und fianchettiert. Schlägt Weiß auf a6, erreicht die Partie das Hauptgambit mit ...g6. Weiß muss aber nicht schlagen: e4 und nach ...axb5 Lxb5 behält den Mehrbauern, sodass Schwarz vom Entgegenkommen des Weißen abhängt."
+    "strategy": "Verzögert das Zurückschlagen und fianchettiert, in der Hoffnung, dass Weiß auf a6 nimmt. Weiß lehnt mit e4 ab: Nach ...axb5 behält Lxb5 den Mehrbauern, Schwarz ist also auf das Entgegenkommen von Weiß angewiesen und hat einen Zug umsonst verbraucht."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.Nc3 axb5 6.e4": {
     "strategy": "Nimmt das Zentrum statt den Bauern b5: e4 stützt d5 und gibt Weiß Raum, um das Spiel von Schwarz am Damenflügel mit einem beweglichen Bauernzentrum zu ersticken. Der Preis ist ein Springer auf c3, den der b-Bauer nun belästigen kann."
@@ -164,7 +164,7 @@
     "strategy": "Entwickelt den Springer und bereitet e4 vor, um gegen das geschlossene Zentrum von Schwarz Raum im Zentrum zu nehmen. Mit dem gesicherten Bauern auf d5 kann Weiß ein breites Zentrum aufbauen und später wählen, welchen Flügel er öffnet."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e5 4.Nf3": {
-    "strategy": "Entwickelt den Springer zum Zentrum und blickt auf e5, sodass die Wahl zwischen einem Springer auf c3 und einem Königsfianchetto bleibt. Der Preis ist, dass e4 noch keine Unterstützung hat, sodass Weiß langsamer Raum gewinnt und Schwarz Zeit für ...d6 und den Durchbruch am Damenflügel hat."
+    "strategy": "Entwickelt den Springer, doch er kann sofort vertrieben werden: ...e4 greift ihn an, und nach seinem Rückzug hat Schwarz im Zentrum Raum und Zeit gewonnen. Weiß verliert den ruhigen Aufbau, den Sc3 und e4 bieten, und hat keinen klaren Vorteil mehr."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e5 4.g3": {
     "strategy": "Bereitet den Königsläufer auf g2 vor, eine ruhige Entwicklung, die den König und den Bauern d5 von hinten deckt. Sie kämpft nicht ums Zentrum und bereitet e4 nicht schnell vor, sodass Schwarz Zeit für ...d6 und den Durchbruch am Damenflügel hat."
@@ -207,13 +207,13 @@
     "strategy": "Bereitet ein Königsfianchetto statt eines zentralen Aufbaus vor. Nach ...exd5 und cxd5 ist der Aufbau solide und positionell, stellt Schwarz aber keine unmittelbare Frage, der sich entwickeln und das Spiel am Damenflügel beginnen kann."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5": {
-    "strategy": "Schlägt sofort, damit Weiß später nicht mit dem e-Bauern zurückschlagen kann. Das schafft das Ungleichgewicht der Eröffnung: Das Zurückschlagen gibt Weiß das Zentrum und Schwarz eine Mehrheit am Damenflügel, die seine Quelle für Gegenspiel ist."
+    "strategy": "Schlägt sofort, damit Weiß später nicht mit dem e-Bauern zurücknehmen kann. Das schafft das Ungleichgewicht der Eröffnung: Weiß erhält ein großes Zentrum und die erste Initiative, Schwarz eine Mehrheit am Damenflügel und Gegenspiel, in einer schärferen Partie, als ein aufgeschobenes Schlagen sie ergäbe."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 d6": {
-    "strategy": "Hält die Spannung und bereitet das Fianchetto vor, doch das Verzögern von ...exd5 lässt Weiß e4 spielen und mit dem e-Bauern zurückschlagen. Das behält den Raumvorteil und nimmt Schwarz die Damenflügelmehrheit, die Quelle des Gegenspiels."
+    "strategy": "Behält die Spannung bei und steuert das Fianchetto an, statt auf d5 zu schlagen. Baut Weiß mit e4 auf, kann Schwarz später schlagen und Weiß mit dem e-Bauern zurücknehmen lassen: Das kostet die Mehrheit am Damenflügel, vermeidet aber das große Bauernzentrum der Hauptvariante, und die Partie bleibt solide und ausgeglichen."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 g6": {
-    "strategy": "Steuert zuerst das Fianchetto an. Wie jede Verzögerung von ...exd5 lässt es Weiß e4 spielen und mit dem e-Bauern zurückschlagen, was den Raum von Weiß behält, ohne Schwarz die Damenflügelmehrheit zu geben, für die die Eröffnung gespielt wird."
+    "strategy": "Steuert zuerst das Fianchetto an und hält das Schlagen auf d5 in der Hinterhand. Spielt Weiß e4, kann Schwarz immer noch schlagen und Weiß mit dem e-Bauern zurücknehmen lassen, was den Raumvorteil von Weiß belässt, ihm aber das Bauernzentrum der Hauptvariante nimmt. Eine solide, flexible Alternative zu ...d6."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5": {
     "strategy": "Schlägt mit dem c-Bauern zurück, wie es die Struktur verlangt: Weiß hat eine Mehrheit im Zentrum und einen Raumvorteil, Schwarz eine Mehrheit am Damenflügel und eine halboffene e-Linie. Der Bauer auf d5 engt Schwarz ein, der Aktivität finden muss."
@@ -233,14 +233,14 @@
     "strategy": "Eine ungewöhnliche Entwicklung: Der Läufer geht nach d6 statt nach g7, lässt den d-Bauern zu Hause und umgeht die Schwäche auf d6. Doch er gibt die lange Diagonale auf, die die übliche Aufstellung trägt, und Weiß behält einen Vorteil."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 g6": {
-    "strategy": "Fianchettiert sofort und hebt sich ...d6 für später auf. Schwarz kann die übliche Struktur durch eine andere Zugfolge erreichen, doch der Standardzug hindert den d-Bauern von Weiß am Vorrücken und hält e5 gedeckt, und hier kann Weiß einen Aufbau wählen, bevor Schwarz das Zentrum geklärt hat."
+    "strategy": "Fianchettiert sofort, überlässt Weiß aber d6: 6.d6 stellt einen Bauern auf die sechste Reihe, der die Entwicklung von Schwarz behindert und dessen Rückgewinn Zeit kostet. Das übliche ...d6 verhindert diesen Vorstoß; diese Zugfolge gibt Weiß nur eine zusätzliche Möglichkeit."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.e4": {
     "name": "Benoni-Verteidigung: Königsbauern-Variante",
     "strategy": "Baut das volle Zentrum auf und gewinnt Raum, womit die Aufstellung von Schwarz auf die Probe gestellt wird. Der Preis ist eine halboffene e-Linie, die Schwarz ein Ziel und Gegenspiel gegen den Bauern bietet."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.Nf3": {
-    "strategy": "Entwickelt den Springer und nimmt e5 den Figuren von Schwarz, ohne den e-Bauern schon festzulegen. Weiß behält die Wahl zwischen einem vollen Zentrum, einem ruhigen Fianchetto und einem frühen Angriff auf den Bauern d6 und hält in jedem Fall den Raumvorteil."
+    "strategy": "Entwickelt den Springer und nimmt Schwarz das Feld e5, ohne den e-Bauern festzulegen. Das ist solide, und Weiß behält den Raumvorteil, doch Schwarz kommt zu Fianchetto und Rochade, ohne einem vollen Bauernzentrum gegenüberzustehen; Weiß hat daher weniger als mit e4."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.g3": {
     "strategy": "Fianchettiert den Königsläufer: Er deckt d5, e4 und den König, sodass Schwarz kein offensichtliches Ziel hat. Der Aufbau ist langsam, Weiß spielt also auf einen kleinen, dauerhaften Raumvorteil statt auf einen Angriff."
@@ -249,7 +249,7 @@
     "strategy": "Bereitet das Fianchetto des Königsläufers vor, der die lange Diagonale entlang auf das weiße Zentrum und die dunklen Felder drücken wird. Schwarz nimmt einen schwachen Bauern auf d6 in Kauf und setzt auf aktives Spiel und Druck am Damenflügel."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.e4 a6": {
-    "strategy": "Nimmt dem weißen Läufer das Feld b5 und bereitet ...b5 vor, den Vormarsch der Damenflügelmehrheit, auf dem diese Struktur beruht. Der Zug kostet aber ein Tempo, solange die übrigen Figuren noch zu Hause stehen, und Weiß kann den Damenflügel mit a4 verschließen und weiter aufbauen."
+    "strategy": "Nimmt dem Läufer von Weiß das Feld b5 und bereitet ...b5 vor, verbraucht aber ein Tempo, solange die Figuren noch zu Hause stehen. Weiß antwortet mit f4, einem breiten Zentrum mit der Drohung e5, oder schließt den Damenflügel mit a4, und Schwarz liegt im Kampf um das Zentrum zurück."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.e4 Nbd7": {
     "strategy": "Entwickelt den Damenspringer in Richtung e5 und hält Schwarz die Pläne offen. Er nimmt dem Springer auf f6 allerdings das Rückzugsfeld d7 und läuft in eine Fesselung durch Lb5, sodass Schwarz auf ein rasches e4-e5 oder einen Bauernvorstoß von Weiß am Königsflügel achten muss."

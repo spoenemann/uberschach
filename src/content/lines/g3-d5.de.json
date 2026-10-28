@@ -101,7 +101,7 @@
     "strategy": "Deckt d5, verstellt aber den Bauern e7, sodass der Läufer f8 nur noch über ...g6 herauskommt, und ohne den Läufer c8 fehlt b7 der Schutz gegen c4 und Db3. Weiß gewinnt außerdem Zeit, indem ein Springer nach g5 gelangt und den Läufer angreift."
   },
   "1.g3 d5 2.Bg2 Bf5": {
-    "strategy": "Entwickelt den Läufer außerhalb der Bauernkette, nimmt aber b7 seinen Schutz. Nach 3.c4 c6 4.cxd5 cxd5 5.Db3 greift die Dame b7 und, zusammen mit dem Läufer g2, d5 an, sodass Schwarz beide Bauern zugleich decken muss."
+    "strategy": "Entwickelt den Läufer außerhalb der Bauernkette, bevor ...e6 ihn einsperren kann, was solide ist. Doch der Läufer deckt b7 nicht mehr, sodass eine Dame auf b3 b7 und d5 zugleich angreift und Schwarz sorgfältig verteidigen muss."
   },
   "1.g3 d5 2.Bg2 Bg4": {
     "strategy": "Entwickelt den Läufer, bevor der weiße Springer auf f3 steht, sodass er nichts fesselt, und h3 zwingt ihn sofort zu einem weiteren Zug. Ohne den Läufer auf c8 ist b7 ungedeckt, und c4 mit Db3 greift b7 und d5 zugleich an."
@@ -119,13 +119,13 @@
     "strategy": "Strebt nach f5 statt nach f6, dem natürlichen Feld, von dem aus der Springer d5 deckt und e4 kontrolliert. Sobald der weiße d-Bauer gezogen hat, verdoppelt Lxh6 gxh6 die schwarzen h-Bauern."
   },
   "1.g3 d5 2.Bg2 a6": {
-    "strategy": "Verbraucht ein Tempo für einen Flügelzug, der nur ...b5 vorbereitet. Für Zentrum und Entwicklung geschieht nichts, und Weiß kann mit c4 oder d4 Raum gewinnen und sich frei entwickeln."
+    "strategy": "Bereitet ...b5 vor und gewinnt zu geringen Kosten Raum am Damenflügel. Der Zug entwickelt jedoch nichts und tut nichts für das Zentrum, sodass Weiß dort mehr Raum nimmt und sich frei entwickelt."
   },
   "1.g3 d5 2.Bg2 a5": {
-    "strategy": "Gewinnt Raum am Damenflügel und verhindert b4, tut aber nichts für Zentrum oder Entwicklung. Weiß setzt die Entwicklung ungestört fort."
+    "strategy": "Verhindert b4 und gewinnt ohne echten Schaden etwas Raum am Damenflügel. Der Zug entwickelt nichts, schwächt b5 und überlässt Weiß das Zentrum."
   },
   "1.g3 d5 2.Bg2 b6": {
-    "strategy": "Bereitet ...Lb7 vor, doch der Bauer d5 verstellt diesen Läufer, und ohne den b-Bauern öffnet sich die lange Diagonale bis a8, sobald d5 weicht: Nach 3.c4 dxc4? 4.Lxa8 gewinnt Weiß mindestens die Qualität."
+    "strategy": "Bereitet ...Lb7 vor, eine solide Aufstellung, doch der Bauer auf d5 versperrt diesem Läufer vorerst den Weg, und die lange Diagonale nach a8 ist ein Risiko: Verlässt der d-Bauer d5, gewinnt Lxa8 mindestens die Qualität. Der Zug ist langsam, und d5 muss stehen bleiben."
   },
   "1.g3 d5 2.Bg2 b5": {
     "strategy": "Rückt einen Flügelbauern vor, bevor eine Figur entwickelt ist. 3.Sc3 greift b5 und d5 zugleich an, sodass Schwarz mit ...c6 antworten muss, und die Bauern b5, c6 und d5 hinterlassen ein dauerhaftes Loch auf c5."
@@ -137,10 +137,10 @@
     "strategy": "Schwächt f5, h5 und die Diagonale a1–h8, ohne etwas zu entwickeln, und 3.h4 greift den ungedeckten Bauern sofort an. Der Königsflügel ist dauerhaft gelockert, und der König findet dort kein sicheres Zuhause."
   },
   "1.g3 d5 2.Bg2 h6": {
-    "strategy": "Nimmt den weißen Figuren das Feld g5, obwohl Weiß gar nicht droht, dorthin zu gehen, und tut nichts für Entwicklung oder Zentrum. Das Tempo ist mit einem Entwicklungszug besser genutzt."
+    "strategy": "Nimmt den Figuren von Weiß das Feld g5, was wenig kostet. Doch noch zielt nichts auf g5, sodass der Tempozug nichts für Zentrum oder Entwicklung tut und Weiß frei aufbaut."
   },
   "1.g3 d5 2.Bg2 h5": {
-    "strategy": "Bereitet ...h4 gegen g3 vor, doch ohne entwickelte Figur kommt der Angriff verfrüht. Der Zug lockert g5 und den Königsflügel und gibt Weiß Zeit, mit c4 oder d4 das Zentrum zu besetzen."
+    "strategy": "Zielt zu geringen Kosten auf ...h4 gegen den Bauern auf g3, doch da noch keine Figur entwickelt ist, kommt die Idee zu früh. Sie schwächt g5 und gibt Weiß Zeit, das Zentrum zu besetzen."
   },
   "1.g3 d5 2.Bg2 Nd7": {
     "strategy": "Verstellt der Dame den Weg nach d5, sodass 3.Lxd5 einen Bauern gewinnt; ...Sb6 gewinnt nur ein Tempo gegen den Läufer, der mit dem Mehrbauern zurückgeht."
@@ -184,7 +184,7 @@
     "strategy": "Gibt Schach und gewinnt den Bauern sofort zurück: Die üblichen Blockzüge lassen c4 hängen, und ...b5 verliert nur noch den b-Bauern dazu. Das Material ist wieder ausgeglichen, der Läufer auf g2 zielt auf der offenen Diagonale auf b7, und Weiß hat durch das Bauernangebot nichts verloren, allerdings um den Preis einer frühen Dame."
   },
   "1.g3 d5 2.Bg2 e5 3.c4 dxc4 4.Nf3": {
-    "strategy": "Entwickelt sich in Richtung Rochade, geht aber nicht direkt gegen den c4-Bauern vor. Schwarz kann den Springer sofort mit ...e4 vertreiben und den Mehrbauern vorerst behalten, sodass Weiß Zeit aufwendet, ohne etwas zu gewinnen."
+    "strategy": "Entwickelt sich in Richtung Rochade, erlaubt aber sofort ...e4, das den Springer mit Tempogewinn angreift. Der Springer muss sich zurückziehen, und Schwarz behält den Mehrbauern und die bequemere Partie."
   },
   "1.g3 d5 2.Bg2 e5 3.c4 dxc4 4.Qc2": {
     "strategy": "Greift den c4-Bauern sofort an, und die naheliegende Verteidigung ...b5 scheitert an Lxa8 auf der langen Diagonale. Doch ...Le6 deckt den Bauern mit einem Entwicklungszug, sodass die Dame keine Zeit gewonnen hat und Schwarz den Bauern vorerst behält."

@@ -112,13 +112,13 @@
   },
   "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 c5 5.cxd5 Qb6": {
     "name": "Queen's Gambit Declined: Pseudo-Tarrasch Variation, Canal Variation",
-    "strategy": "Counter-attacks b2, which has been loose since the bishop left c1, rather than recapturing on d5, where the pin on f6 makes most recaptures costly. The early queen sortie makes the game sharp and tactical, but it keeps Black's pieces active while the pawn on d5 still has to be won back."
+    "strategy": "Counter-attacks the b2 pawn, left loose when the bishop left c1, instead of recapturing on d5. The game turns sharp, but White's pawn on d5 and the chance to damage Black's kingside with Bxf6 leave White the easier game."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 c5 5.cxd5 cxd4": {
-    "strategy": "Takes the d4 pawn and hits the c3 knight, but the d5 pawn is hard to win back. After Qxd4 exd5, Bxf6 gxf6 and Nxd5 White ends a pawn up, so Black pays for the quick recapture with a damaged pawn structure."
+    "strategy": "Takes the d4 pawn and attacks the knight on c3 before recapturing on d5, so White must act at once and Black's pieces gain time. The d5 pawn is left for later, which makes the position sharp, but it is balanced and the soundest reply to the capture."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 c5 5.cxd5 exd5": {
-    "strategy": "Recaptures at once but loses the pawn again: Bxf6 removes the knight that guards d5, and Nxd5 then wins a pawn, with a tempo on the queen if Black retook on f6 with it. The pinned knight makes this recapture a real inaccuracy."
+    "strategy": "Recaptures at once, but the knight on f6 is pinned to the queen: after Bxf6 Qxf6 Nxd5 White takes the pawn with a tempo on the queen. Black gets some play for it, so the move is playable, but White is more comfortable."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 c5 5.Nf3 cxd4": {
     "strategy": "Takes the pawn at once and trades Black's c-pawn for White's d-pawn, which undoes White's central pawn pair and gives Black the half-open c-file. White's recapture puts a piece on an active central square, so the question is who profits from the opened lines."
@@ -202,7 +202,7 @@
     "strategy": "Keeps the pin and the pressure on f6 rather than giving up the bishop for the knight. The bishop stays on the diagonal to d8, but Black's kingside pawns can be used to challenge it, so White's pin may not last."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7 5.Nf3 h6 6.cxd5": {
-    "strategy": "Releases the tension and steers towards the exchange structure, where White's central pawns face Black's queenside majority. Black has to retake with the e-pawn: ...Nxd5? unveils the g5 bishop and Bxd8 wins the queen for a bishop."
+    "strategy": "Releases the tension but forgets that the bishop on g5 is attacked by the h6 pawn: ...hxg5 wins a piece, and Nxg5 gets back only a pawn. The exchange structure is no consolation for a bishop."
   },
   "1.d4 d5 2.c4 e6 3.Nc3 Nf6 4.Bg5 Nbd7 5.Nf3 h6 6.Bxf6": {
     "strategy": "Gives up the bishop for the knight at once, which ends the pin and the question of where the bishop stands. Black retakes with the d7-knight, which frees the c8-bishop, while White has traded its active bishop for no clear gain."

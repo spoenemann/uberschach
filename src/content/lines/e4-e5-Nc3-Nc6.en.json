@@ -18,14 +18,14 @@
   },
   "1.e4 e5 2.Nc3 Nc6 3.d4": {
     "name": "Vienna Game: Fyfe Gambit",
-    "strategy": "Offers the d-pawn: after ...exd4 White cannot retake with the queen, because the knight on c6 would capture it. White is left to rely on quick development for the pawn, and Black can simply keep it."
+    "strategy": "A gambit: after ...exd4 White cannot retake with the queen, because the knight on c6 would capture it. White plays for quick development and active pieces in return for the pawn, and Black can keep it. Playable, but White has to prove the compensation."
   },
   "1.e4 e5 2.Nc3 Nc6 3.Nf3": {
     "strategy": "Develops the king's knight with an attack on e5 and steers into the calm, symmetrical development of an ordinary Open Game. White gives up the Vienna's own ideas, such as an early f4, for a sound position with few risks and no obvious edge for either side."
   },
   "1.e4 e5 2.Nc3 Nc6 3.d4 f5": {
     "name": "Vienna Game: Philidor Countergambit",
-    "strategy": "Counterattacks instead of defending: the f-pawn hits e4 and leaves e5 to its fate, so the game turns on whether White's centre or Black's activity counts for more. The price is Black's own king, which is exposed on the h5-e8 diagonal."
+    "strategy": "Hits e4 but leaves e5 to its fate. After dxe5 and ...fxe4 Nxe4 Black's king is exposed on the open e8-h5 diagonal, and even if the knight regains the pawn on e5, White has the better centre and the initiative."
   },
   "1.e4 e5 2.Nc3 Nc6 3.d4 exd4": {
     "strategy": "Takes the pawn, and White cannot win it back at once: the queen cannot recapture, because the knight on c6 would take it. Black is a clean pawn up and White's only compensation is quick development, so Black has to finish developing calmly and not let the centre open against the king."
@@ -59,10 +59,10 @@
     "strategy": "Strikes at e5 at once and opens the diagonal of the c8-bishop, so Black fights for the centre with development instead of trying to win the pawn back by force. Black is a pawn down, but White's king is still in the middle and Black gets quick play for it; if Black wastes time, White consolidates."
   },
   "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5 4.fxe5 Nge7": {
-    "strategy": "Develops a piece and prepares to meet d4 with ...Bxd4, because the knight on c6 guards that square. It does nothing about the pawn on e5, though, so White consolidates and stays a clean pawn up."
+    "strategy": "Develops a piece but ignores the pawn on e5, which stays with White. Nf3 consolidates it, and Black has no quick way to win it back, so White remains a clean pawn up with a sound position."
   },
   "1.e4 e5 2.Nc3 Nc6 3.f4 Bc5 4.fxe5 Qh4+": {
-    "strategy": "Checks at once and forces g3 or a king move, but the queen then has to retreat and the check gains nothing lasting. White stays a clean pawn up, with only a slightly loosened kingside as a concession."
+    "strategy": "Checks at once, but White blocks with g3, which attacks the queen. The queen has to go back, and Black has spent two tempi to provoke a pawn move that suits White, who stays a clean pawn up."
   },
   "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.Nf3": {
     "strategy": "Guards h4, so ...Qh4+ no longer disturbs the king, and develops a piece. The most solid way to go on, and the only one that keeps rough equality; Black must now decide how to hold the extra pawn."
@@ -70,7 +70,7 @@
   "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4": {
     "name": "Vienna Gambit, with Max Lange Defence: Steinitz Gambit",
     "background": "A favourite of Wilhelm Steinitz, the first World Champion, who famously held that the king is a fighting piece. Few modern players are willing to expose their king this way, and it is rarely seen today.",
-    "strategy": "Takes the centre at once and lets the black queen check on h4, so the king has to move and White gives up castling. In return White has the pawn centre and quick development, but the king stays exposed. A rare and dubious sideline."
+    "strategy": "Takes the centre at once and allows ...Qh4+, so the king has to step to e2 and White loses castling. The pawn centre and quick development pay for the pawn, but the exposed king keeps the move risky and rarely played. Playable, though the calm Nf3 avoids the problem."
   },
   "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.Bc4": {
     "strategy": "Aims at f7 and leaves the h4 check open: the king goes to f1 and White gives up castling for a pawn that is not coming back soon. Quick development is the compensation, so the move is playable but second-rate."
@@ -82,7 +82,7 @@
     "strategy": "Pins the knight on c3 and prepares to trade it, doubling White's pawns, instead of cashing in with the check at once. Black keeps the extra pawn, but White can cover h4 and develop with a strong pawn centre as compensation."
   },
   "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 d6": {
-    "strategy": "Prepares to hold the extra pawn with ...g5 and opens the c8-bishop, but it is slow: White covers h4 and builds on the centre at leisure. Black keeps the pawn and hands White the initiative."
+    "strategy": "Opens the c8-bishop but does not defend the f4 pawn: the bishop on c1 takes it at once with Bxf4. Black's extra pawn is gone and White keeps the pawn centre, so Black has given up the material and the initiative for nothing."
   },
   "1.e4 e5 2.Nc3 Nc6 3.f4 exf4 4.d4 Qh4+ 5.Ke2": {
     "name": "Vienna Gambit, with Max Lange Defence: Steinitz Gambit, Main Line",
@@ -148,7 +148,7 @@
   },
   "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5 5.Nf3 h4": {
     "name": "Vienna Game: Paulsen Variation, Mariotti Gambit",
-    "strategy": "A pawn offer that threatens to open the h-file, but White simply takes it: the knight captures on h4, and Black's queen cannot retake because the g3 pawn guards the square. Black gets little for the pawn."
+    "strategy": "Offers the h-pawn: if the knight takes, Black gives a rook for the knight and regains a pawn with the queen, which then aims with the bishop at f2. Sharp and double-edged, and White can decline with calm development, so Black takes real risks for equality at best."
   },
   "1.e4 e5 2.Nc3 Nc6 3.g3 Bc5 4.Bg2 h5 5.Nf3 d6": {
     "strategy": "Defends e5 with a pawn, so the knight no longer has to guard it alone, and opens the c8-bishop. Black pays no further price for the offbeat h-pawn move and keeps a solid, healthy centre."
@@ -201,6 +201,6 @@
     "strategy": "Takes the pawn with the knight, trading off a developed piece. White keeps the pawn for the moment because the queen cannot retake on d5 under the bishop on g2, but the pawn is then under pressure and Black's pieces become active."
   },
   "1.e4 e5 2.Nc3 Nc6 3.g3 Nf6 4.Bg2 Bc5 5.Nge2 d5 6.O-O": {
-    "strategy": "Castles first and leaves Black to decide the tension in the centre. White is solid, but Black can capture on e4 or push the d-pawn with a gain of time on the knight, and White does not win the pawn."
+    "strategy": "Castles and leaves the centre alone: Black takes on e4 and, when White wins the pawn back, Black's pieces are the more active, with ...Bg4 pinning the knight on e2 against the queen. White misses the chance to take on d5 at once and ends up worse."
   }
 }

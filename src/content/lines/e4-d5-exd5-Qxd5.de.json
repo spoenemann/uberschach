@@ -32,7 +32,7 @@
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.b4": {
     "name": "Skandinavische Verteidigung: Hauptvariante, Leonhardt-Gambit",
     "background": "Die Ausgabe von 1946 von „Modern Chess Openings“ schrieb den Zug Jan Kotrč zu, obwohl es keinen Beleg dafür gibt, dass er ihn je gespielt hat; spätere Ausgaben nannten ihn Kotrč-Mieses-Gambit. Er heißt auch Leonhardt-Gambit, nach Paul Saladin Leonhardt, der ihn in einer Partie gegen Jacques Mieses ins Meisterspiel brachte. Lasker, Capablanca und Keres probierten ihn alle als Weiß aus.",
-    "strategy": "Ein Bauernopfer, um die Dame von a5 zu vertreiben: Nimmt Schwarz an, bekommt Weiß die halboffene b-Linie und schnelle Entwicklung, zum Beispiel mit Tb1, das die Dame sofort angreift. Bei korrektem Spiel behält Schwarz den Mehrbauern ohne Gefahr, sodass das Gambit nur gegen einen unvorbereiteten Gegner funktioniert."
+    "strategy": "Ein Gambit, um die Dame von a5 zu vertreiben: Nach ...Dxb4 greift der Turm sofort von b1 aus an, und Weiß hat als Kompensation die offene b-Linie und einen Entwicklungsvorsprung. Das reicht beinahe, doch Weiß ist einen Bauern im Nachteil und muss die Initiative aufrechterhalten."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.Nf3": {
     "strategy": "Entwickelt eine Figur und deckt d4 vor dem Vorstoß im Zentrum, sodass Weiß den Zeitpunkt wählen kann. Der Zug legt sich noch auf nichts fest und erhält den Entwicklungsvorsprung, während die Dame auf a5 erst noch eine echte Aufgabe finden muss."
@@ -49,29 +49,32 @@
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5": {
     "name": "Skandinavische Verteidigung: Anderssen-Gegenangriff",
-    "strategy": "Ein Gegenschlag im Zentrum, der einen Bauern anbietet, in der Hoffnung, dass der gefesselte Springer c3 und ein Entwicklungsvorsprung genug Spiel geben. Der Zug ist zweischneidig und abseitig: Weiß kann den Bauern nehmen oder die Spannung halten und sich entwickeln, sodass Schwarz genaues Folgespiel braucht, um die Investition zu rechtfertigen."
+    "strategy": "Ein Gegenschlag im Zentrum, den die Fesselung des Sc3 nicht stützen kann. Sf3 greift e5 ein zweites Mal an, während d4 gedeckt bleibt, und ob Schwarz auf d4 tauscht oder den Bauern verteidigt, Weiß behält das bessere Zentrum und die freiere Entwicklung."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 c6": {
     "strategy": "Nimmt dem Springer c3 die Felder b5 und d5 und macht c7 als Rückzugsfeld für die Dame frei, sodass der Springer nicht mit Abzugsangriff dorthin springen kann, sobald der Läufer c1 ihn entfesselt. Schwarz baut eine solide Bauernstruktur für ein kompaktes, geduldiges Spiel auf."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Nf3": {
     "name": "Skandinavische Verteidigung: Anderssen-Gegenangriff, Göteborg-System",
-    "strategy": "Entwickelt und greift e5 ein zweites Mal an, ohne sich auf ein Schlagen festzulegen: Die Spannung bleibt, der Springer deckt d4, und Weiß entscheidet, wann er sie auflöst. Schwarz muss den Bauern e5 gedeckt halten, solange die Dame den Springer c3 noch fesselt."
+    "strategy": "Die genaue Antwort auf den Gegenschlag: Weiß entwickelt sich, deckt d4 und greift e5 ein zweites Mal an, wobei es die Spannung erhält, statt den Bauern zu schlagen. Schwarz muss das Zentrum sofort klären, und Weiß behält in jedem Fall die bessere Stellung."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5": {
-    "strategy": "Nimmt den angebotenen Bauern: Weiß steht einen Bauern vorn, doch der Bauer e5 ist exponiert und der Springer c3 gefesselt, sodass Schwarz als Kompensation schnelle Entwicklung erhält. Die Aufgabe von Weiß ist es, den Mehrbauern zu konsolidieren, ohne in der Entwicklung zurückzufallen."
+    "strategy": "Schlägt den Bauern, gibt Schwarz aber die Antwort ...Lb4: Der Sc3 ist ein zweites Mal gefesselt, und sobald Weiß mit Ld2 entfesselt, gewinnt ...Dxe5+ den Bauern mit Schach zurück. Weiß hat die Spannung umsonst aufgegeben, und die Partie ist ausgeglichen."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Bd2": {
-    "strategy": "Entfesselt sofort den Springer c3 und stellt eine Falle: Das gierige ...exd4 läuft in Sb5, einen Abzugsangriff auf die Dame, der zugleich Sxc7+ droht, sodass die Dame kein sicheres Feld hat. Gegen vernünftige Antworten bleibt das Zentrum ungeklärt, und Weiß hat keinen Vorteil vorzuweisen."
+    "strategy": "Entfesselt den Sc3, damit er mit Abzugsangriff auf die Dame springen kann, doch die Falle misslingt: Nach ...exd4 Sb5 hat Schwarz die sichere Antwort ...Lb4. Weiß gibt die Spannung für ein Tempo auf, und die Stellung ist ausgeglichen."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Nc6": {
     "strategy": "Greift den Bauern e5 sofort an und entwickelt dabei eine Figur, sodass Weiß den Mehrbauern nicht einfach genießen kann. Der Entwicklungsvorsprung ist die Kompensation von Schwarz, und jeder Zug, den Weiß zur Verteidigung des Bauern braucht, muss auch den gefesselten Springer berücksichtigen."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Qxe5+": {
-    "strategy": "Gewinnt den Bauern sofort mit Schach zurück, doch die Dame hat nun dreimal gezogen und steht ungeschützt im Zentrum. Weiß blockt das Schach und entwickelt sich dann mit Tempo gegen sie, sodass das Material ausgeglichen ist, Weiß aber in der Entwicklung vorn liegt."
+    "strategy": "Gewinnt den Bauern sofort mit Schach zurück, sodass das Material ausgeglichen ist und die Bauernstruktur gesund bleibt. Die Dame steht im Zentrum, wo Weiß etwas Zeit gegen sie gewinnt, doch die Stellung ist ausgeglichen und für Schwarz leicht zu spielen."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Nd7": {
-    "strategy": "Fügt e5 einen zweiten Angreifer hinzu, sodass eine einfache Verteidigung mit einem Springer an ...Sxe5 scheitert und der Bauer zurückkommt. Der Springer versperrt allerdings den Läufer c8, und Weiß kann mit einem Bauernzug verteidigen und den Mehrbauern behalten."
+    "strategy": "Fügt e5 einen zweiten Angreifer hinzu, doch der Plan scheitert: Sf3 verteidigt den Bauern, und ...Sxe5 läuft in Lb5+, das mit Schach die Deckung von e5 durch die Dame unterbricht. Der Springer verstellt außerdem den Läufer c8, und Schwarz hat für den verlorenen Bauern nichts."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Bb4": {
+    "strategy": "Fesselt den Sc3 ein zweites Mal, jetzt mit dem Läufer, sodass Weiß den Mehrbauern nicht in Ruhe festigen kann: Entfesselt Weiß mit Ld2, gewinnt ...Dxe5+ den Bauern mit Schach zurück. Schwarz entwickelt sich mit Tempo und steht gleichwertig."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Nc6 6.Nf3": {
     "strategy": "Verteidigt den Bauern e5 und entwickelt, der natürlichste Weg, das Mehrmaterial zu behalten. Der Springer c3 bleibt vorerst gefesselt, sodass Weiß die Entwicklung sorgfältig beenden muss, während die Figuren von Schwarz auf ihn zielen."
@@ -89,17 +92,20 @@
     "strategy": "Fesselt den Springer f3 an die Dame, sodass der Bauer e5 einen Verteidiger verliert und ...Sxe5 zur Drohung wird. Schwarz entwickelt sich mit Tempo und spielt darauf, den Bauern zurückzugewinnen, um den Preis des Läuferpaars, falls der Läufer auf f3 schlagen muss."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Nc6 6.Nf3 Nxe5": {
-    "strategy": "Gibt den Bauern sofort zurück: Nach dem Springertausch kommt ...Dxe5+ mit Schach, und das Material ist ausgeglichen. Die schwarze Dame steht dann im offenen Zentrum, wo Weiß sie während der restlichen Entwicklung jagen kann; der Bauer wird also auf Kosten von Zeit zurückgewonnen."
+    "strategy": "Nimmt den Bauern zurück, verliert aber nach Lb5+: Das Schach unterbricht die Deckung des Springers e5 durch die Dame, Schwarz kann nicht beides decken, und Weiß gewinnt Material."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Nf3 Bg4": {
     "name": "Skandinavische Verteidigung: Anderssen-Gegenangriff, Collijn-Variante",
     "strategy": "Entwickelt mit Fesselung: Der Läufer bindet den Springer f3 an die Dame und droht, ihn abzutauschen, womit die Figur verschwindet, die d4 deckt und e5 im Blick hat. Schwarz gewinnt Zeit für die Entwicklung gegen das Zentrum von Weiß."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Nf3 Nc6": {
-    "strategy": "Verteidigt e5 mit einem Entwicklungszug und erhöht den Druck auf d4, sodass Schwarz die Spannung hält, statt sie aufzulösen. Der Springer blockiert den c-Bauern, ein kleiner Preis, doch Schwarz erhält ein solides Zentrum, und die Dame hält den Springer c3 weiter gefesselt."
+    "strategy": "Verteidigt e5 mit einem Entwicklungszug, doch 6.d5 greift den Springer an, der seinen Posten verlassen muss, und Weiß gewinnt den Bauern e5. Schwarz erhält dafür nichts."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Nf3 exd4": {
-    "strategy": "Löst die Spannung sofort auf und greift den gefesselten Springer c3 an, doch Weiß schlägt einfach mit dem Springer zurück, der auf einem starken Zentrumsfeld landet. Das Zentrum bleibt offen, Schwarz hat weniger Figuren entwickelt, und der Bauerntausch bringt nichts."
+    "strategy": "Klärt das Zentrum sofort, indem der e-Bauer gegen den d-Bauern von Weiß getauscht wird, und der Bauer auf d4 greift den gefesselten Sc3 an, sodass Weiß sofort zurücknehmen muss. Schwarz erhält eine offene Stellung und leichte Entwicklung; Weiß behält die bessere Entwicklung und mehr Raum."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Nf3 Bb4": {
+    "strategy": "Fesselt den Sc3 ein zweites Mal, mit dem von der Dame gedeckten Läufer, sodass Weiß das Zentrum nicht leicht halten kann: ...exd4 trifft dann einen gebundenen Springer. Weiß behält das freiere Spiel, doch dies ist die genaueste Antwort von Schwarz."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3": {
     "strategy": "Entwickelt mit dem natürlichen Plan: Der Springer deckt d4, kontrolliert e5 und bereitet die Rochade vor. Weiß behält den Raumvorteil und kann die Entwicklung in Ruhe abschließen, während Schwarz noch zeigen muss, dass sich der frühe Damenausflug gelohnt hat."
@@ -115,7 +121,7 @@
     "strategy": "Entwickelt den Läufer außerhalb der Bauernkette, bevor ein Bauer auf e6 ihn einsperren kann; er zielt auf c2 und den Königsflügel. Schwarz bleibt solide und flexibel, muss der Dame aber noch ein sicheres Feld finden, sobald Weiß mit Tempo weiterentwickelt."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bg4": {
-    "strategy": "Entwickelt den Läufer mit Fesselung des Springers f3 gegen die Dame und bereitet den Abtausch vor. Weiß kann dem Läufer sofort die Frage stellen, und Schwarz muss entscheiden, ob er tauscht oder sich zurückzieht."
+    "strategy": "Fesselt den Sf3 und bereitet dessen Abtausch vor, doch 6.h3 stellt dem Läufer sofort die Frage. Tauscht er auf f3, nimmt die Dame zurück, und Weiß hat das Läuferpaar; ein Rückzug kostet Zeit. Schwarz hat etwas hergegeben und kaum etwas dafür bekommen."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 c6": {
     "strategy": "Gibt der Dame c7 als Rückzugsfeld und nimmt dem Springer c3 die Felder b5 und d5, sodass ein Abzugsangriff dieses Springers keine Zeit gewinnt, sobald der Läufer ihn entfesselt. Schwarz baut eine solide Bauernstruktur auf und entwickelt die übrigen Figuren in Ruhe."
@@ -133,20 +139,20 @@
     "strategy": "Macht c7 als Rückzugsfeld für die Dame frei und nimmt dem Springer c3 die Felder b5 und d5, sodass er nicht mit Tempo gegen die Dame springen kann. Schwarz erhält ein solides Zentrum, und die Dame ist kein Angriffsziel mehr."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bf5 6.Ne5 Nbd7": {
-    "strategy": "Fordert den vorgerückten Springer heraus und entwickelt sich in einem Zug. Tauscht Weiß, schlägt Schwarz mit dem anderen Springer zurück und hat die beengte Entwicklung gelöst; der Preis ist, dass die Dame noch ein sicheres Feld braucht, sodass Weiß eine leichte Initiative behält."
+    "strategy": "Fordert den vorgerückten Springer heraus und entwickelt sich, doch Weiß muss nicht tauschen: Sc4 greift mit Tempo die Dame an, die Figuren von Schwarz bleiben schlecht aufgestellt, und Weiß behält eine dauerhafte Initiative."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bf5 6.Ne5 Nc6": {
-    "strategy": "Fordert den Springer mit einem Entwicklungszug heraus, doch wenn Weiß nimmt, hinterlässt ...bxc6 Schwarz Doppelbauern auf der c-Linie und einen geschwächten Damenflügel. Die halboffene b-Linie ist ein kleiner Ausgleich für einen bleibenden strukturellen Nachteil."
+    "strategy": "Fordert den Springer heraus, doch 7.Sc4 greift mit Tempo die Dame an, und das natürliche ...Da6 verliert sie sogar durch Sd6+, das Schach bietet und den Läufer f1 auf a6 angreift. Was Schwarz auch tut, Weiß erhält eine klare Initiative."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bg4 6.h3": {
     "name": "Skandinavische Verteidigung: Lasker-Variante",
     "strategy": "Fordert den Läufer auf, sich sofort zu entscheiden. Tauscht Schwarz auf f3, schlägt Weiß zurück und hat das Läuferpaar; zieht sich der Läufer zurück, hat Weiß am Königsflügel Raum gewonnen und kann ihn weiter jagen."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bg4 6.Be2": {
-    "strategy": "Blockt die Fesselung mit dem Läufer, der zugleich die Rochade vorbereitet. Tauscht Schwarz auf f3, schlägt Weiß mit dem Läufer zurück und hat in offener Stellung das Läuferpaar, während der Springer c3 gefesselt bleibt, bis der König in Sicherheit ist."
+    "strategy": "Blockiert die Fesselung mit dem Läufer und bereitet die Rochade vor, stellt dem Läufer g4 aber keine Frage. Schwarz kann auf f3 tauschen oder die Fesselung in Ruhe aufrechterhalten, und der Entwicklungsvorsprung von Weiß verflüchtigt sich zu einer ausgeglichenen Partie."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bg4 6.Bd2": {
-    "strategy": "Löst die Fesselung des Springers c3, der nun mit Abzugsangriff auf die Dame ziehen kann, lässt aber den Läufer g4 unbehelligt. Schwarz kann jederzeit auf f3 tauschen; die Dame schlägt zurück, sodass der Zug sicher ist, Weiß aber keine Initiative gibt."
+    "strategy": "Entfesselt den Sc3, damit er mit Abzugsangriff auf die Dame springen kann, lässt den Läufer g4 aber unangetastet. Schwarz tauscht auf f3, wann immer es will, die Dame schlägt zurück, und Weiß hat ein Tempo ohne Gegenwert verbraucht."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4": {
     "strategy": "Besetzt sofort das Zentrum, mit Blick auf den exponierten Standort der Dame: Der Bauer öffnet den Läufer c1, sodass Lf4 jetzt die Dame angreift, und Sb5 tut es schon. Schwarz muss beide Ideen beantworten, während Weiß ein Zentrum und aktive Entwicklung bekommt."
@@ -165,7 +171,7 @@
     "strategy": "Nimmt dem Springer c3 das Feld b5 und stützt d5, womit die Belästigung der Dame durch Sb5 endet. Schwarz spielt auf eine solide Bauernstruktur und langsamere Entwicklung, während die Dame weiterhin auf einen Läufer auf f4 achten muss."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 a6": {
-    "strategy": "Verhindert Sb5 mit einem Randbauern, sodass der Dame dieser Tempoverlust erspart bleibt und der c-Bauer für den Kampf um das Zentrum frei bleibt. Der Preis ist ein Bauernzug statt eines Entwicklungszugs, und die Dame muss weiter einen Läufer auf f4 beachten."
+    "strategy": "Verhindert Sb5 mit einem Randbauern, sodass der Dame dieses Tempo erspart bleibt und die Stellung gesund bleibt. Es ist aber ein Bauernzug statt einer Entwicklung, und die Dame auf d6 ist weiterhin einem Läufer auf f4 ausgesetzt, sodass Weiß einen kleinen Vorsprung behält."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Nf3": {
     "strategy": "Der übliche Entwicklungszug: Der Springer deckt d4 und kontrolliert e5, und Weiß behält alle Ideen zur Belästigung der Dame in der Hand. Weiß hat den Raum und eine bequeme Partie, und Schwarz muss die exponierte Dame weiter rechtfertigen."
@@ -183,7 +189,7 @@
     "strategy": "Hält den Springer mit einem Randbauern von b5 fern und lässt dem c-Bauern die Freiheit, das Zentrum später herauszufordern. Der Preis ist ein Tempo abseits der Entwicklung, gegen einen weißen Läufer, der bereits auf f7 zielt."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Bc4 Qd8": {
-    "strategy": "Zieht die Dame auf ihr Ausgangsfeld zurück, außer Reichweite von Sb5 und Lf4. Schwarz steht sicher und solide, hat auf dem Weg aber einen dritten Damenzug verbraucht, sodass Weiß in Entwicklung und Raum vorn liegt."
+    "strategy": "Zieht die Dame auf ihr Ausgangsfeld zurück, außer Reichweite von Sb5 und Lf4, doch es ist bereits der dritte Damenzug. Weiß genießt einen Entwicklungs- und Raumvorsprung, wobei der Läufer auf f7 zielt, und Schwarz hat für die verlorene Zeit nichts."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Bc4 c6 6.Nge2": {
     "strategy": "Entwickelt den Springer nach e2 statt nach f3, wo er d4 und den Springer c3 stützt und den f-Bauern freilässt. Von e2 kann er nach g3 schwenken, um einen Läufer auf f5 herauszufordern."
@@ -205,13 +211,13 @@
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Nf3 a6": {
     "name": "Skandinavische Verteidigung: Bronstein-Variante",
-    "strategy": "Nimmt dem Springer von Weiß das Feld b5 mit einem Randbauern, sodass der c-Bauer für den Kampf ums Zentrum frei bleibt. Der Preis ist ein Tempo für einen Bauernzug statt für die Entwicklung, und die Dame muss weiterhin einen Läufer auf f4 beachten."
+    "strategy": "Verhindert Sb5 mit einem Randbauern, kostet aber ein Tempo, und Weiß antwortet mit g3, bereitet Lf4 und ein Fianchetto vor. Die Dame auf d6 bleibt ein Ziel, Weiß behält den Raum, und Schwarz hat Zeit für einen Bauernzug aufgewendet."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Nf3 c6": {
     "strategy": "Verhindert Sb5, indem er das Feld kontrolliert, und gibt der Dame c7 als Rückzugsfeld, womit ein solides, kompaktes Zentrum entsteht. Die Dame auf d6 bleibt Ziel für einen Läufer auf f4, daher muss Schwarz bereit sein, sie erneut zu ziehen."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Nf3 Qd8": {
-    "strategy": "Gibt den exponierten Posten der Dame auf und führt sie auf ihr Ausgangsfeld zurück, außer Reichweite von Sb5 und Lf4. Schwarz steht sicher, doch es ist der dritte Damenzug, und Weiß genießt Vorsprung in Entwicklung und Raum."
+    "strategy": "Bringt die Dame auf ihr Ausgangsfeld zurück, außer Reichweite von Sb5 und Lf4. Schwarz steht sicher, doch es ist der dritte Damenzug, und Weiß genießt einen Entwicklungs- und Raumvorsprung, ohne dafür etwas zu zahlen."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4": {
     "strategy": "Beansprucht das Zentrum, während Schwarz die Entwicklung der Dame rückgängig gemacht hat: Der Bauer öffnet den Läufer c1 und gewinnt Raum. Die kompakte Struktur von Schwarz bleibt, doch Weiß hat mehr Raum und die leichtere Entwicklung."
@@ -226,7 +232,7 @@
     "strategy": "Entwickelt eine Figur und bestreitet das Zentrum aus der Distanz, mit Blick auf e4 und d5, wobei die Dame sicher dahinter steht. Schwarz überlässt Weiß den Raum, hält die Stellung aber frei von Schwächen und strebt einen soliden, kompakten Aufbau an."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 Bf5": {
-    "strategy": "Bringt den Damenläufer vor der Bauernkette heraus, bevor ...e6 ihn einsperren kann, und zielt auf c2 und den Königsflügel. Schwarz hält den Läufer aktiv, doch Weiß behält Raum- und Entwicklungsvorsprung, sodass Schwarz sorgfältig spielen muss."
+    "strategy": "Bringt den Damenläufer vor die Bauernkette, bevor ...e6 ihn einsperren kann, und zielt auf c2 und den Königsflügel. Das ist solide, doch der Läufer kann auf f5 herausgefordert werden, und Weiß behält den Vorsprung an Raum und Entwicklung, sodass Schwarz etwas beengt bleibt."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 c6": {
     "strategy": "Deckt d5 und b5, sodass weder ein Springersprung noch ein Läuferschach Schwarz stört, und lässt den Läufer c8 frei vor den Bauern entwickeln. Die Struktur ist solide, aber passiv: Weiß behält Raum und Initiative."
@@ -246,9 +252,12 @@
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 Nf6 5.Nf3 c6": {
     "name": "Skandinavische Verteidigung: Valencianische Variante, Ilundain-Variante",
-    "strategy": "Baut zuerst die solide Bauernstruktur auf, hält d5 und b5 und lässt die Entwicklung des Läufers offen. Schwarz legt den Läufer nicht früh fest und spielt eine geduldige, solide Partie."
+    "strategy": "Baut eine solide Bauernstruktur auf und hält d5 und b5, ist aber langsam: Der Läufer c8 steht noch zu Hause, und Weiß nutzt die Zeit, um mehr Raum zu nehmen und die Initiative zu behalten. Schwarz steht sicher, aber passiv."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 Nf6 5.Nf3 Bf5": {
-    "strategy": "Entwickelt den Läufer vor der Bauernkette und behält ihn, wo ...Lg4 ihn gegen den Springer tauschen würde. Er zielt auf c2 und den Königsflügel; Weiß kann ihn mit Sh4 belästigen, doch Schwarz erreicht eine solide Stellung mit dem Läuferpaar."
+    "strategy": "Entwickelt den Läufer vor der Bauernkette, doch dort steht er exponiert: Sh4 greift ihn sofort an, und Weiß gewinnt Zeit und behält den Raum. Schwarz muss Züge für den Läufer aufwenden und bekommt dafür wenig."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 Nf6 5.Nf3 e6": {
+    "strategy": "Deckt d5 und öffnet den Weg für den Läufer f8 und die Rochade, wodurch ein kompaktes, solides Zentrum entsteht. Der Preis ist der Läufer c8, der vorerst hinter dem Bauern eingesperrt bleibt, doch Schwarz steht solide, und der Raumvorteil von Weiß bringt wenig."
   }
 }

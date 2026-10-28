@@ -31,17 +31,17 @@
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 g5": {
     "name": "Angenommenes Königsgambit: Läufergambit, Anderssen-Verteidigung",
-    "strategy": "Versucht, den Bauern auf f4 zu halten wie in der Hauptvariante des Gambits, doch ohne weißen Springer auf f3, den man vertreiben könnte, gewinnt die Bauernkette kein Tempo und schwächt die Königsseite. Weiß öffnet mit einem Bauernhebel die h-Linie und greift an, mit der Dame frei auf der Diagonale d1-h5."
+    "strategy": "Verteidigt den Bauern auf f4 mit einer Bauernkette, was hier spielbar ist, aber ohne Springer auf f3, der sie verjagen könnte, gibt es kein Tempo zu gewinnen und der Königsflügel wird geschwächt. Weiß öffnet mit h4 die h-Linie und greift an, wobei die Dame auf der Diagonale d1-h5 frei ist."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 f5": {
     "name": "Angenommenes Königsgambit: Läufergambit, Gianutio-Gambit",
     "background": "Auch Nordisches Gegengambit genannt; es entstand 1854 in einer Partie zwischen Adolf Anderssen und Louis Eichborn.",
-    "strategy": "Greift e4 sofort an, schwächt aber den eigenen König: Die Diagonale e8-h5 ist für ein Damenschach offen, und Weiß kann e4 einfach verteidigen und die bessere Entwicklung behalten. Ein Gegengambit, das selten funktioniert."
+    "strategy": "Greift e4 sofort an und behält den Bauern auf f4, ein spielbares Gegengambit. Es schwächt aber den eigenen König von Schwarz, da sich die Diagonale e8-h5 für ein Damenschach öffnet, und Weiß kann e4 mit De2 verteidigen und die bessere Entwicklung behalten."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 b5": {
     "name": "Angenommenes Königsgambit: Läufergambit, Kieseritzky-Gambit",
     "background": "Die erste Partie damit stammt von 1841, gespielt von Lionel Kieseritzky gegen Desloges.",
-    "strategy": "Gibt den Mehrbauern zurück, um den Läufer von seiner Diagonale nach f7 abzulenken und die lange Diagonale für den Läufer auf c8 gegen e4 zu öffnen. Ein scharfes Wagnis, das aber nicht als korrekt gilt: Weiß nimmt einfach, und Schwarz muss den Vorsprung an Aktivität erst beweisen."
+    "strategy": "Bietet einen Bauern an, um den Läufer von seiner Diagonale nach f7 abzulenken und die lange Diagonale für den Läufer auf c8 gegen e4 zu öffnen. Ein echtes Gambit, aber Weiß nimmt den Bauern einfach, und Schwarz muss beweisen, dass der Aktivitätsvorsprung das Material wert ist."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 d5 4.Bxd5": {
     "strategy": "Schlägt den Bauern mit dem Läufer, der auf d5 besser steht als hinter einem Bauern: Nach exd5 würde der Bauer die Diagonale des Läufers versperren. Das Material ist ausgeglichen, der Läufer beherrscht das Zentrum, und Schwarz hat dafür schnelle Entwicklung."
@@ -131,13 +131,13 @@
     "strategy": "Blockiert die e-Linie mit der Dame und lädt zum Damentausch ein. Nach exf5 Dxe2+ ist der Mehrbauer verloren, wobei der Bauer f4 für Weiß ein Angriffsziel bleibt. Sicher, gibt aber auf, was die Gambitverteidigung gewinnen sollte."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+ 5.Kd1 Be7": {
-    "strategy": "Schirmt den König mit einem Läufer von der Dame auf e2 ab, den Dame und König decken. Den Materialvorteil behält Schwarz so nicht, da exf5 sofort einen Bauern zurückgewinnt, und der Läufer ist danach auf der e-Linie am König gefesselt."
+    "strategy": "Blockiert die e-Linie mit einem Läufer, aber Weiß hat Sf3, um die Dame anzugreifen, oder exf5, wonach der Läufer von der Dame auf e2 am König gefesselt ist. Schwarz kann den Mehrbauern nicht bequem behalten und der König bleibt im Zentrum."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+ 5.Kd1 fxe4 6.Nc3": {
     "strategy": "Entwickelt sich mit Drohung: Der Springer greift den Bauern auf e4 an, und ihn zu nehmen würde die Dame auf e2 gegen den König auf e8 aufdecken. Weiß hat zwei Bauern für schnelle Entwicklung und Druck auf der offenen e-Linie gegeben."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+ 5.Kd1 fxe4 6.Nf3": {
-    "strategy": "Entwickelt sich mit Tempo auf die Dame, und der Bauer e4 kann den Springer nicht schlagen, weil er gegen den König gefesselt ist. Der Bauer bleibt angegriffen, während die schwarze Dame ein Feld sucht, und der König steht weiter vor der offenen e-Linie."
+    "strategy": "Jagt die Dame mit Tempo, und der Bauer auf e4 kann den Springer nicht schlagen, weil er gefesselt ist. Aber ...De7 antwortet gut: Sie deckt e4 und den König, und Schwarz bleibt mit dem sichereren König einen Bauern oder mehr im Vorteil."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 f5 4.Qe2 Qh4+ 5.Kd1 fxe4 6.Qxe4+": {
     "strategy": "Gewinnt mit Schach einen Bauern zurück und vereinfacht sofort. Schwarz blockt mit dem Läufer oder dem Springer und bleibt bei Damen auf dem Brett einen Bauern vorn; blockt er mit der Dame, geht der Bauer f4 durch Dxf4 verloren. Sicher, gibt aber den Druck des Gambits auf."
@@ -183,7 +183,7 @@
     "strategy": "Entwickelt den Springer nach e2, wo er den Springer auf c3 stützt und f4 im Blick hat. Nimmt Schwarz auf c3, schlägt Weiß mit dem Springer zurück, was e4 gedeckt hält und Doppelbauern vermeidet."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Nf6 4.Nc3 Bb4 5.Qe2": {
-    "strategy": "Deckt e4 mit der Dame, sodass ...Sxe4 den Springer an Springer und Dame verlöre. Das ist solide, aber langsam: Die Dame nimmt dem Königsspringer sein Feld, und der Läufer behält den Druck auf c3."
+    "strategy": "Verteidigt e4 mit der Dame, aber Dame und König stehen auf derselben Linie. Nach ...O-O schlägt Schwarz auf c3 und stößt mit ...d5 im Zentrum vor, sodass Weiß Doppelbauern und keine Kompensation für den verlorenen Bauern hat."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1": {
     "strategy": "Die Standardantwort: Der König geht nach f1, verliert die Rochade, steht dort aber einigermaßen sicher, und ein Springer auf f3 wird gegen die Dame Zeit gewinnen. Weiß erhält schnelle Entwicklung und die halboffene f-Linie für den Bauern."
@@ -226,7 +226,7 @@
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Bc5": {
     "name": "Angenommenes Königsgambit: Läufergambit, Greco-Variante",
-    "strategy": "Entwickelt den Läufer auf eine natürliche Diagonale, doch ein Bauernzug kann ihn mit Tempogewinn vertreiben. Weiß erhält ohne Kosten ein breites Bauernzentrum und einen Entwicklungsvorsprung."
+    "strategy": "Entwickelt den Läufer mit Blick auf f2, ein spielbarer Zug, aber d4 gewinnt Zeit gegen ihn und gibt Weiß ein breites Bauernzentrum und einen Entwicklungsvorsprung. Schwarz bleibt einen Bauern vorn, muss sich aber erst entwirren."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 d5 5.Bxd5": {
     "strategy": "Schlägt den angebotenen Bauern mit dem Läufer, womit der e-Bauer zu Hause bleibt und der Läufer auf einer offenen Diagonale steht; das Material ist wieder ausgeglichen. Der Läufer zielt auf b7 und f7, doch der weiße König kann nicht rochieren, deshalb wird Schwarz versuchen, gegen die zentralisierte Figur Tempo zu gewinnen."
@@ -242,7 +242,7 @@
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Qf3": {
     "name": "Angenommenes Königsgambit: Läufergambit, Klassische Verteidigung, Cozio-Angriff",
-    "strategy": "Stellt die Dame nach f3, wo sie auf den Bauern f4 drückt und dem Springer sein natürliches Feld nimmt. Zugleich bereitet der Zug g3 vor: Sobald der g-Bauer g2 verlassen hat, deckt die Dame den Turm auf h1, sodass der Bauer die schwarze Dame mit gedecktem Turm verjagen kann."
+    "strategy": "Setzt f4 unter Druck und bereitet g3 vor, wobei der Turm auf h1 von der Dame gedeckt ist, nimmt aber dem Springer sein natürliches Feld. Schwarz entwickelt sich mit ...Sc6 und nimmt d4 ins Visier, der Angriff kommt ins Stocken, und Schwarz bleibt einen Bauern vorn mit dem besseren Spiel."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nf3": {
     "strategy": "Greift mit einem Entwicklungszug die Dame und den Bauern g5 an, und die Dame kann nicht nach d8 zurück, weil der eigene g-Bauer die Diagonale versperrt. Weiß gewinnt Zeit und hält den Durchbruch am Königsflügel in Reserve."
@@ -278,7 +278,7 @@
     "strategy": "Entwickelt den Springer in Richtung g6, wo er f4 halten helfen kann. Der Nachteil ist, dass Weiß nun g3 als Bauernopfer in einer Variante spielen kann, die für Weiß besser ist als die übliche; Schwarz tut daher besser daran, den Springer flexibel zu halten."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3 Bg7 6.d4 c6": {
-    "strategy": "Nimmt dem weißen Springer die Felder b5 und d5 und bereitet ...d5 vor, um den Läufer anzugreifen. Der Bauer auf f4 bleibt vom g-Bauern gedeckt, doch der Zug verbraucht ein Tempo für einen ruhigen Zug, während das weiße Zentrum schon steht. Solide, aber passiv."
+    "strategy": "Nimmt dem Springer von Weiß die Felder b5 und d5 und bereitet ...d5 vor, kostet aber ein Tempo, während Weiß bereit ist, mit g3 den Königsflügel aufzubrechen und die Dame anzugreifen. Da die Figuren von Schwarz unentwickelt sind, erhält Weiß starke Initiative."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 g5 5.Nc3 Bg7 6.g3 fxg3": {
     "strategy": "Schwarz nimmt den zweiten Bauern und steht zwei Bauern vorn. Der Bauer auf g3 greift h2 an und die f-Linie ist für die weißen Figuren offen, deshalb muss Schwarz genau verteidigen; doch das Mehrmaterial ist real, und die Dame wird nicht mehr angegriffen."
@@ -302,27 +302,33 @@
     "strategy": "Stützt den Bauern auf f4 mit dem g-Bauern, ein direkter Weg, den Mehrbauern zu behalten. Der Preis ist ein geschwächter Königsflügel und eine Dame mit weniger Rückzugsfeldern, da der Bauer die Diagonale zurück ins Zentrum versperrt."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Ne7 5.Nc3 Ng6": {
-    "strategy": "Verteidigt den Bauern f4 mit dem Springer statt mit einem Bauern, sodass Schwarz das Mehrmaterial behält, ohne den Königsflügel zu schwächen. Der Preis ist c7: Der weiße Springer kann es von d5 aus angreifen, und Schwarz muss einen Zug für die Verteidigung aufwenden."
+    "strategy": "Verteidigt f4 mit einer Figur statt mit einem Bauern und lässt die Bauern am Königsflügel auf ihren Feldern, ist aber langsam: Weiß baut mit d4 ein starkes Zentrum auf, das den Läufer auf c1 gegen f4 öffnet, und die Dame wird bald verjagt. Schwarz hält den Mehrbauern nur mit Mühe."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Ne7 5.Nc3 c6": {
     "strategy": "Nimmt dem weißen Springer die Felder d5 und b5 und bereitet ein zentrales ...d5 vor. Es kostet ein Tempo, und der Bauer f4 wird nur von der Dame gedeckt, die ein Entwicklungszug vertreiben wird."
   },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Ne7 5.Nc3 d6": {
+    "strategy": "Befreit den Läufer auf c8 und kontrolliert e5, sodass der Bauer auf f4 von der Dame gedeckt bleibt, während die Bauern am Königsflügel auf ihren Feldern bleiben. Schwarz begegnet dem zentralen Aufbau von Weiß mit Entwicklung, will lang rochieren und den Mehrbauern behalten."
+  },
+  "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Ne7 5.Nc3 Qf6": {
+    "strategy": "Zieht die Dame nach f6 zurück, bevor Weiß sie verjagen kann; dort deckt sie f4 weiter auf der Linie und überwacht das Zentrum. Die Dame ist Springerangriffen ausgesetzt, daher muss Schwarz sich weiter entwickeln, doch es ist ein aktiver, solider Weg, den Bauern zu behalten."
+  },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Ne7 5.Nc3 g5 6.d4": {
-    "strategy": "Baut ein zentrales Bauernpaar auf und öffnet die Diagonale des Läufers c1 auf f4, das nur der g-Bauer und die Dame decken. Weiß nimmt den König auf f1 für aktives Spiel in Kauf, und Schwarz muss nun einen Weg finden, den Bauern ohne Zeitverlust zu halten."
+    "strategy": "Baut ein zentrales Bauernpaar auf und öffnet die Diagonale des Läufers auf c1 gegen f4, das nur der g-Bauer und die Dame decken. Weiß nimmt den König auf f1 für aktives Spiel in Kauf, eine solide Alternative, die Schwarz Zeit gibt, die Verteidigung von f4 zu organisieren."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Ne7 5.Nc3 g5 6.Nf3": {
-    "strategy": "Entwickelt sich mit Tempo: Der Springer greift die Dame an und nimmt den Bauern g5 ins Visier, der f4 hält, sodass die Dame auf ein Feld gehen muss, das ihn weiter deckt. Weiß zieht Figurenspiel einem zentralen Bauernvorstoß vor, um den Preis, dass das Zentrum unbesetzt bleibt."
+    "strategy": "Jagt die Dame mit einem Entwicklungszug, und der Bauer auf g5 und der Springer auf e7 lassen ihr nur passive Rückzüge wie h5 oder h6. Der Springer nimmt außerdem den Bauern auf g5 ins Visier, der f4 hält, sodass Weiß Zeit gewinnt und den Durchbruch d4 in Reserve behält."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Ne7 5.Nc3 g5 6.g3": {
     "strategy": "Ein Bauernopfer, das die Dame vertreibt: Nimmt Schwarz an, kann der weiße König nach g2 gehen, um den Bauern g3 zu blockieren und hxg3 zu drohen, was den Turm gegen die Dame freilegt. Scharf und riskant, denn Weiß ist für Aktivität einen zweiten Bauern im Rückstand, und der König geht ins Offene."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Ne7 5.Nc3 g5 6.d4 Bg7": {
-    "strategy": "Erreicht die Stellung der anderen Zugfolge: Der Läufer besetzt die lange Diagonale und setzt den Bauern d4 unter Druck, und der Springer auf e7 kann nach g6 gehen, um f4 halten zu helfen. Aber Weiß kann nun das Bauernopfer g3 in einer Variante spielen, die Weiß besser liegt."
+    "strategy": "Bringt den Läufer auf die lange Diagonale, wo er d4 unter Druck setzt und die Bauern am Königsflügel stützt, und bereitet ...Sg6 vor, um f4 mit einer Figur zu halten. Weiß kann das Bauernopfer g3 anbieten, aber die Stellung hält; ein konsequenter Weg, den Mehrbauern zu behalten."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Ne7 5.Nc3 g5 6.d4 d6": {
-    "strategy": "Eine solide, flexible Antwort: Der Bauer öffnet die Diagonale des Läufers c8 und kontrolliert e5, sodass ein zentraler Vorstoß mit einem Schlagen beantwortet werden kann. Schwarz behält den Mehrbauern, ohne den Läufer f8 festzulegen, der später noch zwischen g7 und h6 wählen kann."
+    "strategy": "Eine solide Antwort: Der Bauer öffnet die Diagonale des Läufers auf c8 und kontrolliert e5, sodass ein zentraler Vorstoß mit einem Schlagzug beantwortet werden kann. Schwarz behält den Mehrbauern, ohne den Läufer auf f8 festzulegen, erlaubt aber Sf3 mit dauerhafter Initiative für Weiß."
   },
   "1.e4 e5 2.f4 exf4 3.Bc4 Qh4+ 4.Kf1 Ne7 5.Nc3 g5 6.d4 Ng6": {
-    "strategy": "Fügt dem Bauern f4 einen dritten Verteidiger hinzu, lädt aber den weißen Springer nach d5 ein, wo er c7 angreift, und die Dame, vom eigenen g-Bauern ausgesperrt, kann nicht zurück, um es zu verteidigen. Schwarz muss noch einen Zug für die Verteidigung aufwenden."
+    "strategy": "Fügt f4 einen Verteidiger hinzu, aber der Springer auf g6 lässt c7 ungedeckt: Sd5 droht Sxc7+, und die Dame, von ihrem eigenen g-Bauern ausgesperrt, kann es nicht decken. Schwarz verliert Zeit, und der Bauer ist die Schwäche nicht wert."
   }
 }

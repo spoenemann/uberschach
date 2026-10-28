@@ -28,7 +28,7 @@
     "strategy": "Tauscht den e-Bauern gegen den d-Bauern. Das Zurückschlagen greift den Läufer erneut an, sodass Schwarz hinnimmt, dass Weiß ein starkes Zentrum bekommt, und dafür eine gesunde Struktur und rasche Entwicklung hat."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6 5.d4 Bb6": {
-    "strategy": "Zieht sich aus der Reichweite des Bauern zurück, überlässt aber e5 dem Schlag: Nach 6.dxe5 kann Schwarz den Bauern nicht sicher zurückgewinnen und muss zu einem Opfer greifen."
+    "strategy": "Weicht der Reichweite des Bauern aus, lässt aber den e5-Bauern zum Schlagen frei. Schwarz kann ihn mit genauem Spiel zurückgewinnen, der Zug ist also solide, überlässt Weiß aber die Wahl, wie es das Zentrum spielt."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6 5.d4 Bxd4": {
     "strategy": "Schlägt mit dem Läufer den Bauern auf d4, aber Weiß nimmt mit dem c-Bauern zurück und hat einen Läufer für einen Bauern gewonnen. Schwarz gibt die Figur her, die das Zentrum unter Druck setzt, und bekommt nichts dafür."
@@ -47,7 +47,7 @@
     "strategy": "Zieht sich außer Reichweite der Bauern zurück und lässt den Läufer auf der Diagonale, die auf d4 und f2 zielt. Schwarz nimmt das große Zentrum von Weiß hin, hat sich aber recht gut entwickelt und will es untergraben, statt es zu halten."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6 5.d4 exd4 6.cxd4 Bb4+": {
-    "strategy": "Gibt Schach, um den Läufer zu tauschen und so den Druck des weißen Zentrums zu mindern. Das ist spielbar, gibt aber die aktivste Figur von Schwarz her, und Weiß behält das größere Zentrum."
+    "strategy": "Gibt Schach, um den Läufer abzutauschen und so den Druck des weißen Zentrums zu mindern, doch 7.Sc3 blockiert einfach und behält das große Zentrum. Tauscht Schwarz auf c3, baut bxc3 ein noch breiteres auf, und Schwarz hat seine aktivste Figur für wenig hergegeben."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 d6 5.d4 exd4 6.cxd4 Bxd4": {
     "strategy": "Schlägt den Bauern, verliert aber Material: Weiß nimmt mit dem Springer zurück und hat nach den Abtäuschen eine Figur für einen Bauern gewonnen. Der Läufer war die Figur, die Schwarz Gegenspiel gegen das Zentrum gab."
@@ -149,7 +149,7 @@
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.O-O": {
     "name": "Italienische Partie: Schottisches Gambit, Walbrodt-Baird-Gambit",
     "background": "Ein selten gespieltes Gambit, das in der Zeit des romantischen Schachs beliebter war.",
-    "strategy": "Ein Gambit: Weiß rochiert, ohne zurückzuschlagen, und lässt Schwarz auch den e4-Bauern nehmen. Schwarz kann es sicher annehmen und behält den Mehrbauern, nachdem Weiß auf d4 zurückgeschlagen hat; der Entwicklungsvorsprung ist die einzige Kompensation von Weiß, und sie reicht nicht aus."
+    "strategy": "Ein Gambit: Weiß rochiert, ohne zurückzunehmen, und lässt Schwarz auch e4 nehmen. Tut Schwarz das und nimmt Weiß dann im Zentrum zurück, steht Weiß einen Bauern zurück für offene Linien und einen Entwicklungsvorsprung; das Spiel ist ausgeglichen, verlangt aber scharfes Wissen, während einfaches Zurücknehmen leichter ist."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d4 exd4 6.cxd4 Bb4+": {
     "strategy": "Rettet den Läufer mit Schach, sodass Weiß reagieren muss, bevor er sich um e4 kümmern kann, das der Springer angreift. Der Rückzug nach b6 erlaubt Weiß stattdessen e5 und die Vertreibung des Springers mit Raumgewinn; deshalb ist das Schach die übliche Antwort auf das Zurückschlagen."
@@ -184,10 +184,10 @@
     "strategy": "Zieht den Läufer aus der Reichweite des Bauern zurück, während er weiter auf f2 zielt, und hält e5 mit Dame und Springer. Schwarz hat eine kompakte, aber passive Stellung: Der e5-Bauer steht solide, doch Weiß hat mehr Bewegungsfreiheit."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 exd4": {
-    "strategy": "Löst die Spannung auf, indem Schwarz den Bauern nimmt, und die Dame blickt nun über die offene Linie auf e4. Doch cxd4 greift sofort den Läufer an und gibt Weiß ein Bauernpaar im Zentrum, sodass Schwarz energisch spielen muss, um das Gleichgewicht zu halten."
+    "strategy": "Nimmt den Bauern, und die Dame blickt nun die offene Linie hinunter auf e4, doch 6.cxd4 greift sofort den Läufer an und gibt Weiß mit Tempo ein zentrales Bauernpaar. Schwarz hat das Zentrum aufgegeben und muss Zeit für den Läufer aufwenden."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bd6": {
-    "strategy": "Hält den Läufer außer Reichweite des Bauern und den e5-Bauern gedeckt, doch der Läufer versperrt den eigenen d-Bauern, und die Stellung bleibt passiv. Weiß behält das größere Zentrum und die Wahl, das Zentrum zu öffnen oder mehr Raum zu gewinnen."
+    "strategy": "Hält den Läufer außerhalb der Reichweite des Bauern und e5 gedeckt, blockiert aber den eigenen d-Bauern und führt zu einem passiven, beengten Aufbau. Weiß behält das größere Zentrum und kann das Spiel öffnen, wenn es so weit ist."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6 6.O-O": {
     "strategy": "Rochiert zuerst und hält die Spannung im Zentrum, sodass Weiß entscheidet, wann sie aufgelöst wird. Das größere Zentrum gibt Weiß einen leichten Vorteil, und die schwarzen Figuren bleiben an die Verteidigung des e5-Bauern gebunden."
@@ -203,10 +203,10 @@
     "strategy": "Zieht den Springer zurück, statt ihn schlagen zu lassen, und hält ihn von der Grundreihe aus im Spiel. Weiß hat Raum und ein Tempo gewonnen, aber der Bauer auf d5 hat auch den Druck auf e5 gelöst, sodass Schwarz beengt, aber nicht schlechter steht."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6 6.d5 Nd8": {
-    "strategy": "Ein zweiter Rückzug: Von d8 deckt der Springer f7 und e6, ist aber passiv, nimmt der Dame das Feld d8 und bleibt weit entfernt vom Kampf um e5. Weiß behält den gewonnenen Raum."
+    "strategy": "Geht nach d8 zurück, wo der Springer f7 und b7 deckt und dem d5-Bauern aus dem Weg bleibt. Schwarz gibt Raum auf und nimmt einen passiven Aufbau in Kauf, doch der e5-Bauer bleibt solide und nichts geht verloren."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6 6.d5 Na5": {
-    "strategy": "Greift den Läufer an und fordert Weiß auf, ihn zu ziehen oder zu tauschen, stellt den Springer aber an den Brettrand, weit weg vom Zentrum und von der Verteidigung von e5. Weiß behält den Raumvorteil, und Schwarz braucht Zeit, um den Springer wieder ins Spiel zu bringen."
+    "strategy": "Greift den Läufer an, doch der Springer landet am Rand ohne Rückweg: c6 wird vom d5-Bauern gedeckt, b3 vom a2-Bauern, c4 vom Läufer, und auf b7 steht der eigene Bauer von Schwarz. Weiß zieht mit Tempo zurück und jagt dann den gestrandeten Springer."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Qe7 5.d4 Bb6 6.O-O d6": {
     "strategy": "Fügt der Verteidigung von e5 einen Bauern hinzu, sodass die Dame dort nicht mehr gebraucht wird, und öffnet die Diagonale für den Läufer auf c8. Schwarz nimmt weniger Raum für eine kompakte Struktur in Kauf, die Weiß nicht leicht aufbrechen kann; das Spiel wird zu einem langsamen Kampf um das Zentrum."

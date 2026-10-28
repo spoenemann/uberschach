@@ -20,7 +20,7 @@
   },
   "1.e4 e5 2.Nf3 Nf6 3.Bc4": {
     "name": "Russische Verteidigung: Italienische Variante",
-    "strategy": "Der Läufer zielt sofort auf f7, lässt aber den e4-Bauern ungedeckt. Schwarz kann ihn einfach nehmen, und Weiß hat für den Bauern nur ein Gambit vorzuweisen; oder Schwarz lehnt ab und erreicht ein gewöhnliches, ausgeglichenes Spiel. In beiden Fällen hat Weiß für die frühe Festlegung wenig gewonnen."
+    "strategy": "Richtet den Läufer sofort auf f7, lässt aber e4 ungedeckt. Nimmt Schwarz den Bauern, greift Weiß den Springer mit einem Bauern an und rechnet damit, e5 zurückzugewinnen; lehnt Schwarz ab, ist die Partie ausgeglichen und gewöhnlich. Solide, doch Weiß bekommt kaum mehr als Gleichstand."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Bc4 Nxe4": {
     "strategy": "Nimmt den Bauern, den Weiß ungedeckt gelassen hat, und zwingt Weiß so, das Gambit zu rechtfertigen. Der Springer steht ungeschützt auf e4, aber Schwarz hat mehrere solide Möglichkeiten, ihn zu decken und entweder den Mehrbauern zu behalten oder ihn zu guten Bedingungen zurückzugeben."
@@ -34,7 +34,7 @@
   "1.e4 e5 2.Nf3 Nf6 3.Bc4 Nxe4 4.Nc3": {
     "name": "Läuferspiel: Boden-Kieseritzky-Gambit",
     "background": "Benannt nach Samuel Boden und Lionel Kieseritzky; Boden veröffentlichte 1851 die erste Analyse davon.",
-    "strategy": "Gibt den Bauern für die Entwicklung: Der Springer greift den Bauern auf e4 an, und nach einem Abtausch schlägt Weiß mit dem d-Bauern zurück, was den Läufer c1 und die d-Linie öffnet; die Idee ist Sg5 gegen f7. Es reicht nicht ganz für den Bauern, weil Schwarz sich genau verteidigen kann, ist aber gegen sorglose Spielweise gefährlich."
+    "strategy": "Gibt den Bauern für Entwicklung: Der Springer greift den Bauern auf e4 an, und nach einem Abtausch schlägt Weiß mit dem d-Bauern zurück, öffnet den Läufer auf c1 und die d-Linie und hat einen Springersprung nach g5 gegen f7 im Sinn. Schwarz kann genau verteidigen, aber Weiß hat echtes Spiel für den Bauern."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Bc4 Nxe4 4.d3": {
     "strategy": "Greift den Springer mit einem Bauern an, statt einen Bauern zu opfern. Nichts verteidigt den Bauern e5, sobald der Springer ziehen muss, sodass Weiß damit rechnet, ihn zurückzugewinnen; währenddessen öffnet er den Läufer c1 und baut ein solides Zentrum auf. Er gibt die Angriffschancen des Gambits für ein ausgeglichenes Spiel mit geringem Risiko auf."
@@ -71,10 +71,10 @@
     "strategy": "Greift den Springer sofort an und gewinnt Raum, solange der Bauer auf d4 noch hängt. Schwarz muss Zeit für den Springerzug aufwenden, und Weiß gewinnt den Bauern mit der aktiveren Stellung zurück, sodass der Mehrbauer von Schwarz nicht lange besteht."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.Bc4": {
-    "strategy": "Opfert einen Bauern für schnelle Entwicklung: Der Läufer zielt auf f7, und Weiß kann früh rochieren, doch Schwarz steht bereits einen Bauern vorn und kann sich in Ruhe entwickeln und ihn behalten. Die Kompensation reicht gegen sorgfältiges Spiel nicht aus."
+    "strategy": "Gibt einen Bauern für schnelle Entwicklung: Der Läufer zielt auf f7, und Weiß kann früh rochieren. Schwarz kann den Bauern behalten und in Ruhe entwickeln, doch der Entwicklungsvorsprung von Weiß gleicht ihn ungefähr aus, sodass die Partie ausgeglichen bleibt und Schwarz vorsichtig verteidigen muss."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.Nxd4": {
-    "strategy": "Nimmt den Bauern mit dem Springer zurück, lässt aber e4 ungedeckt, sodass Schwarz ihn schlägt und Weiß wieder einen Bauern im Rückstand ist. De2 nagelt den Springer auf e4 fest, doch Schwarz verteidigt mit ...De7 und behält den Mehrbauern in einer Partie, die nur ungefähr ausgeglichen ist."
+    "strategy": "Nimmt den Bauern sofort zurück, lässt aber e4 ungedeckt: Schwarz schlägt ihn, und nachdem De2 den Springer fesselt, verteidigt sich Schwarz mit ...De7 und behält den zusätzlichen Bauern. Die Partie ist etwa ausgeglichen, doch Weiß ist derjenige, der um den Ausgleich spielt."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4": {
     "strategy": "Hält den Springer im Zentrum, statt ihn an den Rand zurückzuziehen. Er steht ungedeckt auf e4, sodass Weiß den d4-Bauern mit einem Angriff auf ihn zurückgewinnen kann und Schwarz ihn sofort mit einem Bauern stützen muss; dafür erhält Schwarz ein offenes, aktives Spiel."
@@ -130,7 +130,7 @@
     "strategy": "Bietet sofort den Springertausch an, um den starken Springer auf d4 loszuwerden. Schwarz schlägt dann mit einem Bauern zurück, was das Problem mit dem Springer löst, den weißen Bauern auf e5 aber die schwarzen Figuren einengen lässt. Spielbar, aber passiv."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qe2 Nc5 6.Nxd4 Be7": {
-    "strategy": "Entwickelt den Königsläufer und bereitet die Rochade vor, lässt den weißen Springer auf d4 aber unbehelligt. Die Stellung von Schwarz ist solide, doch Weiß behält den starken Zentralspringer und den Raum, den der Bauer e5 gibt, sodass Schwarz etwas beengt ist."
+    "strategy": "Entwickelt den Königsläufer und bereitet die Rochade vor, lässt aber den weißen Springer auf d4 in Ruhe. Weiß entwickelt sich einfach weiter und behält den starken zentralen Springer und den Raum, den der Bauer auf e5 gibt. Schwarz bleibt eingeengt, ohne Gegenspiel, und steht am Ende deutlich schlechter."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3": {
     "name": "Russische Verteidigung: Moderner Angriff, Zentrumsvariante",
@@ -162,7 +162,7 @@
     "strategy": "Schlägt den Bauern mit dem d-Bauern statt mit dem Springer zurück. Weiß erhält einen Bauern auf e5 und eine asymmetrische Struktur statt der symmetrischen Hauptvariante, und die d-Linie öffnet sich. Der schwarze Springer bleibt vom d-Bauern gut gestützt, sodass die Partie ausgeglichen ist, wobei Weiß auf mehr Ungleichgewicht spielt."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.Nbd2": {
-    "strategy": "Greift den Springer mit einem Entwicklungszug ein zweites Mal an, statt sofort zurückzuschlagen. Der Bauer e5 bleibt unberührt, sodass Schwarz auf d4 schlagen kann und Weiß den Bauern später zurückgewinnen muss; die Stellung ist ausgeglichen, aber unklarer als nach dem einfachen Zurückschlagen."
+    "strategy": "Greift den Springer mit einem Entwicklungszug ein zweites Mal an, lässt aber den Bauern e5 in Ruhe, sodass Weiß den Bauern nicht zurückgewinnt: Nach ...Sxd2 und dem Zurückschlagen greift ...e4 den Läufer an, und Schwarz behält den zusätzlichen Bauern und den Raum."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.Nxe5 Bd6": {
     "strategy": "Fordert den Springer auf e5 sofort heraus und entwickelt den Läufer für die Rochade, wobei die Stellung vollkommen symmetrisch bleibt. Eine solide Wahl, die einst eine Hauptantwort war und heute seltener gespielt wird als die Alternativen."
@@ -189,7 +189,7 @@
     "strategy": "Tauscht den Läufer sofort gegen den zentralisierten weißen Springer. Weiß schlägt mit dem d-Bauern zurück und erhält einen Bauern auf e5 und mehr Raum, während Schwarz den Springer auf e4 fest gestützt behält. Die Partie bleibt ausgeglichen, doch Schwarz gibt den dunkelfeldrigen Läufer auf, der sonst gegen diesen Bauern kämpfen würde."
   },
   "1.e4 e5 2.Nf3 Nf6 3.d4 Nxe4 4.Bd3 d5 5.Nxe5 Bd6 6.O-O Bf5": {
-    "strategy": "Entwickelt den Läufer auf ein Feld, von dem aus er den Springer auf e4 ein zweites Mal deckt, sodass ein Schlagen dort mit beiden Figuren beantwortet werden kann. Schwarz verschiebt die Rochade, und die Partie bleibt ausgeglichen, mit beiderseits zentralisierten Figuren."
+    "strategy": "Gibt dem Springer auf e4 einen zweiten Verteidiger, verliert aber Material: Nach f3 wird der Springer von einem Bauern angegriffen und kann nicht ziehen, ohne den Läufer auf f5 dem Läufer auf d3 zu überlassen."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nc3 Nc6": {
     "strategy": "Entwickelt den anderen Springer, die häufigste und angesehenste Antwort. Beide Seiten haben nun beide Springer entwickelt, und die Partie nimmt einen symmetrischen, klassischen Verlauf, der die für diese Verteidigung typischen Varianten vermeidet. Schwarz steht solide und ausgeglichen, Weiß hat wenig zu beanspruchen."
@@ -211,7 +211,7 @@
   },
   "1.e4 e5 2.Nf3 Nf6 3.Qe2 Nc6 4.d4": {
     "name": "Russische Verteidigung: Moody-Gambit",
-    "strategy": "Bietet den d-Bauern an, um das Zentrum zu öffnen: Nach ...exd4 kann der Springer nicht einfach zurückschlagen, da ...Sxd4 ihn gewinnen würde. Doch die Dame versperrt weiterhin den Läufer f1, und der Bauer e4 steht unter Angriff, sodass Weiß für den Bauern wenig vorzuweisen hat."
+    "strategy": "Greift sofort im Zentrum an und bietet einen Bauern an: Nach ...exd4 kann der Springer nicht zurückschlagen, weil ...Sxd4 ihn gewinnt, doch e5 greift den Springer auf f6 an, und Weiß gewinnt den Bauern zurück. Die Dame sperrt noch den Läufer auf f1 ein, aber die Partie bleibt ausgeglichen."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Qe2 Nc6 4.c3": {
     "strategy": "Bereitet vor, das Zentrum mit einem von c3 gestützten Bauern zu besetzen, während die Dame e4 bereits deckt. Das ist der Plan, der zum frühen Damenzug passt: Weiß baut ein breites Bauernzentrum auf und beantwortet den Druck von Schwarz auf e4 gelassen."

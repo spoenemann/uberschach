@@ -31,22 +31,22 @@
     "strategy": "Mirrors the fianchetto, so both king's bishops aim down the long diagonals. The d5-pawn is guarded only by the queen for now, and the bishop on g7 does not help it, so c4 tests it at once. Sound, but more committal than …Nf6."
   },
   "1.Nf3 d5 2.g3 b6": {
-    "strategy": "Prepares …Bb7, but with the pawn on d5 that bishop would look only at its own pawn, and the move loosens c6 and the long diagonal towards a8. White develops quietly and attacks d5 with c4."
+    "strategy": "Sound but slow: it prepares ...Bb7, though with the pawn on d5 that bishop would look only at its own pawn, and it loosens c6 and the long diagonal towards a8. White develops freely and can challenge d5 with c4."
   },
   "1.Nf3 d5 2.g3 b5": {
-    "strategy": "Grabs queenside space without developing a piece and loosens c6 and the long diagonal towards a8. The pawn is a target at once: a4 or c4 challenges it while White simply develops."
+    "strategy": "Gains queenside space without developing a piece and loosens c6 and the long diagonal towards a8. Playable, but the pawn can become a target for a4 or c4 while White simply develops."
   },
   "1.Nf3 d5 2.g3 a6": {
-    "strategy": "Spends a tempo on a flank move that has no role yet, at best preparing …b5. White is free to develop and then claim the centre."
+    "strategy": "Spends a tempo on a flank move that has no role yet, at best preparing ...b5. The cost is small against White's slow set-up, so it is playable, but White is free to develop and then claim the centre."
   },
   "1.Nf3 d5 2.g3 a5": {
-    "strategy": "A rim pawn move: it stops b4 and gains space for …a4, but develops nothing. White can ignore it and develop at leisure."
+    "strategy": "A rim pawn move: it stops b4 and gains space for ...a4, but develops nothing. The cost is small, so it is playable, but White can ignore it and develop at leisure."
   },
   "1.Nf3 d5 2.g3 h6": {
-    "strategy": "A slow move that takes g5 from White's pieces but develops nothing. White uses the tempo to develop and prepare a central break."
+    "strategy": "A slow move that takes g5 from White's knight and bishop but develops nothing. The cost is small, so it is playable; White uses the tempo to develop and prepare a central break."
   },
   "1.Nf3 d5 2.g3 h5": {
-    "strategy": "Gains space on the flank but spends a tempo without developing a piece. The follow-up …h4 loses material to Nxh4, since g3 covers the knight."
+    "strategy": "Gains space on the flank but spends a tempo without developing a piece. The pawn cannot go on to h4, since Nxh4 wins it with g3 guarding the knight. Playable, but it does little for Black's game."
   },
   "1.Nf3 d5 2.g3 f6": {
     "strategy": "Prepares …e5 but takes f6 from the g8-knight and weakens e6 and the e8–h5 diagonal. White takes the centre while Black's development lags."
@@ -58,10 +58,10 @@
     "strategy": "Gains space before any piece is out, but the pawn becomes a target for c3 or e3 and the f3-knight. Black has to hold it, while White castles first and chooses when to strike."
   },
   "1.Nf3 d5 2.g3 Nd7": {
-    "strategy": "Blocks the c8-bishop, so it can no longer reach f5 or g4, and the knight on d7 does not guard d5 as a knight on f6 would. White takes the centre unhindered."
+    "strategy": "Blocks the c8-bishop, so it cannot reach f5 or g4, and does not guard d5 as a knight on f6 would. The knight does eye e5 and c5, so the cost is small, but it is a clumsy square for a developing move."
   },
   "1.Nf3 d5 2.g3 Na6": {
-    "strategy": "Puts the knight on the rim, where it eyes b4 and c5 but is far from the centre and blocks the a-pawn. It costs a tempo for little, and White takes space."
+    "strategy": "Puts the knight on the rim, where it eyes b4 and c5 but does little for the centre. The cost is small, so it is playable, but the rim is an unnatural square for a developing move and White takes space meanwhile."
   },
   "1.Nf3 d5 2.g3 Nh6": {
     "strategy": "Heads for f5, where the knight would eye d4 and e3, but stands on the rim until it gets there and has cost a tempo. White develops and takes space in the centre."
@@ -383,9 +383,9 @@
     "strategy": "Develops the knight to a square from which it adds a defender to d5, without blocking the g7-bishop's diagonal or the f-pawn. Both central pawns are backed, and Black is close to castling with a flexible, solid set-up."
   },
   "1.Nf3 d5 2.g3 g6 3.Bg2 Bg7 4.O-O e5 5.d3 Nf6": {
-    "strategy": "The natural development: the knight guards d5, takes the e4 square away from White and prepares castling. Black keeps the broad d5-e5 centre and brings the pieces up behind it, so White has to undermine it with a pawn break."
+    "strategy": "Blocks the g7-bishop's diagonal, so e5 loses its only defender and Nxe5 wins a pawn. Black castles and develops with some play, but a clean pawn down is more than that lead in development is worth."
   },
   "1.Nf3 d5 2.g3 g6 3.Bg2 Bg7 4.O-O e5 5.d3 Nc6": {
-    "strategy": "Backs e5 a second time, so the pawn pair is firmly held and White's knight cannot take. The cost is that the c-pawn is blocked and cannot support d5, so Black relies on pieces to hold the centre and has less flexibility in its set-up."
+    "strategy": "Answers the question of how to keep e5 safe: a second defender lets Black go on developing while the g7-bishop keeps its diagonal. It commits to the d5-e5 pawn pair with the knight in front of the c-pawn, so pieces rather than ...c6 hold d5. A slow fight over the centre follows."
   }
 }

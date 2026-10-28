@@ -65,16 +65,20 @@
       "line": "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5",
       "moves": [
         {
-          "san": "Bc4",
+          "san": "g3",
           "rating": 5
         },
         {
+          "san": "Bc4",
+          "rating": 2
+        },
+        {
           "san": "d4",
-          "rating": 4
+          "rating": 2
         },
         {
           "san": "h4",
-          "rating": 3
+          "rating": 2
         }
       ]
     },
@@ -86,12 +90,12 @@
           "rating": 5
         },
         {
-          "san": "Bg7",
-          "rating": 4
-        },
-        {
           "san": "d6",
           "rating": 3
+        },
+        {
+          "san": "Bg7",
+          "rating": 2
         }
       ]
     },
@@ -99,12 +103,16 @@
       "line": "1.e4 e5 2.f4 exf4 3.Nf3 Nc6 4.Nc3 g5 5.Bc4 g4",
       "moves": [
         {
-          "san": "O-O",
+          "san": "Ng1",
           "rating": 5
         },
         {
           "san": "d4",
           "rating": 4
+        },
+        {
+          "san": "O-O",
+          "rating": 3
         },
         {
           "san": "Ne5",
@@ -123,12 +131,12 @@
           "rating": 5
         },
         {
-          "san": "Bc5+",
-          "rating": 3
+          "san": "d6",
+          "rating": 2
         },
         {
-          "san": "d6",
-          "rating": 3
+          "san": "Bc5+",
+          "rating": 1
         }
       ]
     },
@@ -144,11 +152,11 @@
         },
         {
           "san": "d6",
-          "rating": 4
+          "rating": 2
         },
         {
           "san": "Bg7",
-          "rating": 3
+          "rating": 2
         }
       ]
     },
@@ -161,11 +169,11 @@
         },
         {
           "san": "Ne5",
-          "rating": 2
+          "rating": 3
         },
         {
           "san": "Bxf4",
-          "rating": 1
+          "rating": 3
         }
       ]
     },
@@ -178,11 +186,11 @@
         },
         {
           "san": "Bg7",
-          "rating": 3
+          "rating": 2
         },
         {
           "san": "Nh6",
-          "rating": 3
+          "rating": 2
         }
       ]
     },
@@ -198,7 +206,7 @@
         },
         {
           "san": "gxh4",
-          "rating": 3
+          "rating": 2
         },
         {
           "san": "Bg7",
@@ -240,7 +248,7 @@
         },
         {
           "san": "Nh6",
-          "rating": 3
+          "rating": 2
         }
       ]
     },

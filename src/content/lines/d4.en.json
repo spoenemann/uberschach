@@ -91,13 +91,16 @@
   },
   "1.d4 b5 2.e4 Bb7 3.Bxb5": {
     "name": "Polish Defence: Spassky Gambit Accepted",
-    "strategy": "Wins the pawn the opening left hanging, but e4 is unprotected and Black regains it with the bishop, which then eyes g2. The bishop that guarded g2 has left f1, so White has to develop carefully against Black's active pieces."
+    "strategy": "Takes the b5 pawn, but e4 is unprotected and Black regains it at once, so the pawns are simply traded. The black bishop on e4 then eyes g2, which no bishop on f1 guards any more, so White must develop with care. Sound, but it leaves Black's bishop active."
   },
   "1.d4 b5 2.e4 Bb7 3.Bd3": {
-    "strategy": "Defends e4 and keeps the b5 pawn under attack along the same diagonal: ...Bxe4 would lose the bishop for a pawn, so Black must defend b5 instead. White keeps the big centre intact and develops, though the bishop on d3 blocks the d-pawn."
+    "strategy": "Defends e4 and eyes the b5 pawn, but Black need not defend it: ...Nf6 hits e4, and 4.Bxb5 Nxe4 regains the pawn. Sound, but the bishop blocks the queen's file and e4 stays a target, so White gains less than with a knight defending it."
   },
   "1.d4 b5 2.e4 Bb7 3.Nf3": {
     "strategy": "Develops the knight but leaves e4 unprotected, so Black can take it at once: after the bishop takes e4 and White takes b5, the pawns are traded and material is level. A natural move that does not exploit Black's early flank play."
+  },
+  "1.d4 b5 2.e4 Bb7 3.Nd2": {
+    "strategy": "Defends e4 with a developing move, so ...Bxe4 would lose a bishop for a pawn, while the bishop on f1 still attacks the b5 pawn and Black has to defend it. White keeps the full centre and loses no time; the cost is that the knight blocks the c1-bishop for now."
   },
   "1.d4 b6 2.c4": {
     "strategy": "Takes space and prepares to build a broad centre with e4, which ...b6 does nothing to stop directly. Black has to contest that centre with pieces from a distance, so White's task is to keep the pawns well supported."
@@ -197,7 +200,7 @@
   "1.d4 d6 2.Nf3 Bg4": {
     "name": "Wade Defence",
     "background": "The opening is named after the British International Master Bob Wade (1921–2008), originally from New Zealand, who played it for over 30 years. Julian Hodgson popularised it with many dynamic performances, and grandmasters including Michael Adams and Tony Miles have played it.",
-    "strategy": "Brings the queen's bishop out in front of the pawn chain before ...e6 can lock it in, and eyes the knight on f3: Black is ready to take it, handing over the bishop pair or doubling White's pawns. A restrained, flexible set-up that fights for the centre with pieces."
+    "strategy": "Brings the queen's bishop out in front of the pawn chain before ...e6 can lock it in, and eyes the knight on f3. Black fights for the centre with pieces rather than pawns, which lets White build a broad pawn centre; the bishop has to earn that space."
   },
   "1.d4 d6 2.Nf3 g6": {
     "strategy": "Prepares to fianchetto the king's bishop, so Black controls the centre from a distance instead of occupying it. A sound, flexible set-up that lets White build a broad pawn centre, which Black plans to undermine later; the price is less space in the early going."
@@ -205,6 +208,9 @@
   "1.d4 d6 2.Nf3 e5": {
     "name": "Zukertort Opening: Vos Gambit",
     "strategy": "Gives away a pawn: after White takes and Black recaptures with the d-pawn, the knight on f3 takes the pawn too, or White trades queens first and Black's king loses the right to castle. Black has no lead in development to show for it."
+  },
+  "1.d4 d6 2.Nf3 Nf6": {
+    "strategy": "Develops the knight and controls e4, the square White's centre pawn wants. Black stays flexible, with the d6-pawn ready to support ...e5 later. White gets more space, and Black has to show that the centre can be challenged in time."
   },
   "1.d4 d6 2.Nf3 Bg4 3.c4": {
     "strategy": "Takes space with a second central pawn and controls d5, preparing a broad pawn centre. White sets the agenda; Black's early bishop sortie has to prove that it gives enough counterplay against a big centre built up behind it."
@@ -269,7 +275,7 @@
   },
   "1.d4 g6 2.h4 Nf6 3.h5": {
     "name": "Modern Defence: Lizard Defence, Pirc-Diemer Gambit",
-    "strategy": "Offers a pawn to open the h-file: h5 is attacked by the knight and the g-pawn and defended only by the rook. Black can simply take it with the knight, backed by g6, and White has nothing concrete to show for the pawn."
+    "strategy": "A gambit: h5 is attacked by the knight and the g-pawn, but if Black takes with the knight, e4 gives White a broad centre and quick development while Black's knight stands on the rim. It is sound and about level, though it asks White to play for the initiative a pawn down."
   },
   "1.d4 g6 2.h4 Nf6 3.Nf3": {
     "strategy": "Develops the kingside knight and keeps the centre flexible. An early h4 is a flank gamble that only pays if development follows, and the knight covers h4 and g5 while the other pieces come out. Black has no target yet, and White can still choose between c4, Nc3 and e3."

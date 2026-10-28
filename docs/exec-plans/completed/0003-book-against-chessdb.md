@@ -1,6 +1,6 @@
 # Exec plan: the book against an engine's opening database
 
-- **Status**: active, started 2026-10-28
+- **Status**: completed on 2026-10-28, started 2026-10-28
 - **Goal**: an independent check of the book's ratings and of its coverage
   against a public engine-scored opening database, as a file a follow-up
   step can process: every rating beside the engine's score of its move, the
@@ -21,9 +21,9 @@
 - [x] The policy: the engine's bounds on the ratings, in the spec, held by
       the validator on every batch that carries the engine's view
       (Decision log, 2026-10-28, The bounds).
-- [ ] The ratings outside the bounds decided: 962 positions, 1,393 ratings
+- [x] The ratings outside the bounds decided: 962 positions, 1,393 ratings
       or main answers, through the bounds workflow; the findings logged
-      (Progress log).
+      (Progress log, 2026-10-28, The bounds run).
 
 ## Where the results are
 
@@ -89,6 +89,61 @@ lines beyond the book.
     delta measures the engine's view, which the spec says a rating is not,
     so a flag is a question for a reviewer that reads the sources and the
     board, never a correction in itself.
+
+- 2026-10-28, *the bounds run*: `bounds.mjs` wrote 85 batches of the
+  962 positions at ply 3 and deeper with a rating outside its bound or a
+  main answer in doubt, 1,393 decisions in all (1,370 ratings, 23 main
+  answers). A pilot of one batch (the Elephant Gambit family) was read
+  before the rest ran: the writer cited scores with depths and Wikibooks,
+  rewrote each note to its new rating, added 4...Nh6 as the main answer
+  after 1.e4 e5 2.Nf3 d5 3.Nxe5 dxe4 4.Bc4, and the reviewer caught two
+  board errors in the notes. The whole run: 291 Sonnet agents (writer and
+  reviewer at high effort, translator at medium), about 30 million tokens,
+  about three and a half hours.
+  - *Decided*: 1,557 revisions (8 of them note only), 65 moves added (12
+    by reviewers), 8 ratings kept outside their bound with a reason, 7
+    writer entries dropped by reviewers. Reviewers changed 166 revisions
+    (10.7 %), 103 for a claim false on the board and 56 for the standard;
+    4 for the decision itself. Down: 3→2 500, 3→1 80, 4→2 99, 4→3 80,
+    4→1 10, 5→4 84, 5→3 56, 5→2 55, 5→1 5, 2→1 23. Up: 2→3 367, 1→2 23,
+    1→3 7, 2→4 5, 2→5 14, 3→4 17, 3→5 53, 4→5 71. The book now holds
+    14,090 moves: 917 rated 1, 2,498 rated 2, 4,089 rated 3, 2,870 rated 4,
+    3,716 rated 5 (before: 829, 2,230, 4,229, 3,021, 3,716).
+  - *Against the engine afterwards* (`cdb.mjs` from the cache): at ply 3
+    and deeper exact agreement with the implied rating rose from 39.0 % to
+    43.1 % and agreement within one step from 75.2 % to 83.9 %; ratings
+    outside their bound fell from 1,370 to 10, the 8 kept with a reason and
+    2 revised with one (3.f4 after 1.e4 e5 2.Bc4 f5 as a gambit whose
+    compensation the engine's line shows, and 5.Bf7+ after 1.e4 e5 2.Nf3 f5
+    3.Bc4 fxe4 4.Nxe5 Nf6, whose batch delta rested on a depth of 1);
+    positions whose best book move is 50 or more behind the engine's best
+    fell from 23 to 0.
+  - *The kept reasons* that held: a shallow depth with the sources behind
+    the rating (6...h6 in the Caro-Kann at depth 12, where Wikibooks marks
+    ...h6?! Ne6!; 4...b5 in the Bishop's Gambit at depth 10; 6.Nf3 in the
+    Allgaier at depth 9); compensation the sources describe and the
+    engine's line shows (the Muzio's 5.O-O, 34 behind 5.Nc3); and the
+    Philidor Countergambit after 4.Bc4, where every Black move is about
+    three pawns down, so the delta separates nothing and the sources'
+    concrete refutations carry the 1s and 2s. A limit of the measure worth
+    knowing: in a lost position the delta to the best move says nothing
+    about which bad move is worse.
+  - *A false constraint, found and corrected*: the first batches listed
+    `unfollowed` moves (those a move rated 4 or 5 must not lead to, since
+    the breadth-first plies follow such moves) for every position at ply
+    3, but the test applies it only to positions reached by moves rated 4
+    or 5 all the way; 39 positions under a weak second move carried the
+    list wrongly, two writers stopped at the validator (2...Bxb4 after
+    1.b4 e5 2.Bb2, 2...d6 after 1.Nf3 e5 2.Nxe5) and 16 best moves in
+    other batches were capped at 3. `bounds.mjs` now lists the moves only
+    for breadth-first positions; the 12 batches concerned were rerun. No
+    writer met the constraint where it is real.
+  - *What the writers reported*: Wikibooks has no page for many sideline
+    positions (404), so those ratings rest on the board and the engine's
+    line; CDB's depth varies from 1 to 60 and a shallow figure was treated
+    as weaker evidence, as the brief asks; the engine's main line, through
+    `board.mjs engine`, was the tool most used (about 25 calls a batch).
+    No note names the engine.
 
 ## Decision log
 
@@ -157,15 +212,14 @@ lines beyond the book.
   shows. Other public sources are allowed where Wikibooks and Wikipedia
   do not settle a rating, named by URL.
 
-## Next
+## Open
 
-The follow-up: process `comparison.json`. The order that pays first: the
-23 positions whose best book move is 50 or more centipawns behind CDB's
-best; then the 346 overrated and 408 inverted moves at ply 3 and deeper,
-by family, each judged by a reviewer that reads the sources and the board
-(the spec's review, `scripts/content/README.md`), with the engine's delta
-as one voice; the 203 underrated moves last, since most rate a quiet move
-2 that the engine calls equal. A rating changed goes through the modules
-as a gaps-style revision; what changed and why goes into this log. The
-1,569 engine lines beyond the book are a question to the maintainer before
-any is written.
+- The 1,569 engine lines beyond the book (`comparison.json`, `lines`): a
+  question to the maintainer, since the book follows the named lines and
+  these are the engine's; none was written.
+- The Lichess masters comparison, what masters play and how they score,
+  which is closer to what a rating means between 3 and 5; it needs a token.
+- The frontier batches (`frontier.mjs`) do not yet carry the engine's view,
+  so the validator holds only the gaps and bounds batches to the bounds;
+  the named lines are written through to their depth, so no frontier
+  batch is due.

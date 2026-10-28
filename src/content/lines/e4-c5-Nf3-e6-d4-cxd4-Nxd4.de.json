@@ -1,17 +1,4 @@
 {
-  "1.e4 c5 2.Nf3 e6 3.d4 cxd4": {
-    "name": "Sizilianische Verteidigung: Französische Variante, Offene Variante"
-  },
-  "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4": {
-    "strategy": "Das natürliche Zurückschlagen: Der Springer nimmt das Zentrum, und Läufer und Dame bekommen offene Linien. Er wird von den Entwicklungszügen von Schwarz belästigt werden, sodass die Figurenaufstellung von Weiß darauf vorbereitet sein muss, aber der zentrale Springer stützt auch einen späteren Angriff."
-  },
-  "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.c3": {
-    "name": "Sizilianische Verteidigung: Verzögertes Morra-Gambit",
-    "strategy": "Ein Gambit, das einen Bauern für einen Entwicklungsvorsprung und eine offene c-Linie anbietet. Schwarz behält einen echten Mehrbauern, den Weiß durch schnelle Entwicklung rechtfertigen muss; die Idee funktioniert also nur, wenn die Figuren von Weiß schneller herauskommen, als Schwarz sich entwirren kann."
-  },
-  "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Qxd4": {
-    "strategy": "Schlägt mit der Dame zurück, die zwar im Zentrum steht, aber sofort angegriffen werden kann: ...Sc6 greift sie mit Tempogewinn an, und die Dame muss zurück. Die Struktur des Weißen bleibt gesund, der Schaden ist also ein Tempo, doch Schwarz kommt leichter zur Entwicklung."
-  },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6": {
     "name": "Sizilianische Verteidigung: Kan-Variante",
     "strategy": "Ein flexibler Wartezug: Er verhindert Sb5 und bereitet ...b5 vor, und Schwarz verzögert die Entwicklung der Springer, bis sich Weiß festlegt. Der Preis ist ein Tempo, das keine Figur entwickelt; Schwarz setzt auf eine kompakte Struktur und Gegenspiel am Damenflügel."
@@ -72,14 +59,14 @@
     "strategy": "Deckt e5 von der Seite, sodass der e-Bauer nicht umsonst vorrücken kann, und hält den d-Bauern flexibel. Die Dame blickt außerdem auf der Diagonale nach h2 und auf die c-Linie und gibt Schwarz Gegenspiel gegen die Königsflügelpläne des Weißen."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Bd3 Nf6 6.O-O Bc5": {
-    "strategy": "Greift sofort den Springer d4 an, doch der Springer weicht mit Drohung gegen den Läufer aus, sodass Schwarz beim Rückzug ein Tempo verliert. Dafür behält der Läufer eine aktive Diagonale in Richtung f2."
+    "strategy": "Greift den Springer auf d4 sofort an, doch der Springer weicht mit Drohung gegen den Läufer nach b3 zurück, und der Läufer muss sich zurückziehen. Weiß vertreibt dann mit e5 den Springer von f6 unter Raum- und Tempogewinn, sodass Schwarz Zeit umsonst verloren hat."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.c4 Nf6": {
     "strategy": "Entwickelt und greift e4 an, das noch nichts deckt, sodass Weiß einen Zug darauf verwenden muss. Schwarz nutzt das Tempo, um den Königsspringer zu entwickeln, muss aber wegen der Bindung auf d5 weiter um Bewegungsfreiheit kämpfen."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.c4 g6": {
     "name": "Sizilianische Verteidigung: Kan-Variante, Maróczy-Bindung, Igel-Variante",
-    "strategy": "Begegnet der Klammer mit einem Fianchetto: Der Läufer auf g7 wird auf der langen Diagonale auf den Springer auf d4 drücken. Der Plan kostet Zeit, während die Bauern von Weiß auf c4 und e4 Raum nehmen, sodass die Stellung von Schwarz eng bleibt."
+    "strategy": "Antwortet auf die Bindung mit einem Fianchetto, sodass der Läufer auf g7 den Springer auf d4 über die lange Diagonale ins Visier nimmt. Der Plan ist gegen die Bauern auf c4 und e4 langsam: Weiß entwickelt sich ungehindert und hält d5 unter Kontrolle, während Schwarz wenig Raum und kaum Gegenspiel hat."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.c4 Bb4+": {
     "strategy": "Gibt sofort Schach, damit Weiß entscheiden muss, wie er dem Läufer begegnet. Ein Springerzug führt in den bekannten Fesselungsaufbau; ein Läufertausch mildert die Enge von Schwarz, da die Seite mit weniger Raum vom Abtausch profitiert."
@@ -132,7 +119,7 @@
     "strategy": "Stellt den Läufer auf die lange Diagonale gegen e4, das Springer und Läufer beide decken, sodass noch nichts droht. Schwarz lässt die Dame zu Hause, bereitet ...b4 vor, um den Springer zu vertreiben, und hält ...Db6 gegen den ungedeckten Springer d4 in Reserve."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Nc3 b5 6.Bd3 Nc6": {
-    "strategy": "Fordert den Springer d4 heraus, den Ld3 ohne die Unterstützung der Dame gelassen hat, sodass Weiß tauschen oder zurückziehen muss. Nach Sxc6 dxc6 hat Schwarz eine gesunde Bauernkette und eine offene d-Linie, doch die Stellung ist passiv, und der Vorstoß am Damenflügel hat seinen Sinn verloren."
+    "strategy": "Fordert den Springer auf d4 heraus, den Ld3 ohne Deckung durch die Dame gelassen hat, doch Weiß tauscht einfach auf c6. Schwarz muss mit dem d-Bauern zurücknehmen, was den Zentrumsbauern aufgibt und die d-Linie öffnet, während der König noch im Zentrum steht, und der Vormarsch am Damenflügel hat seinen Sinn verloren."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Nc3 b5 6.g3 Bb7": {
     "strategy": "Stellt den Läufer auf die lange Diagonale gegen e4, das nur der Springer auf c3 deckt: der Sinn des ganzen Vorstoßes ...b5. Mit ...b4 im Anschlag muss Weiß e4 mit dem fianchettierten Läufer stützen und ein langsameres, strategischeres Spiel in Kauf nehmen."
@@ -265,7 +252,7 @@
     "strategy": "Entwickelt sich mit einem Angriff auf e4, das nur der Springer c3 deckt, und hält den a-Bauern vorerst zurück. Doch der Läufer auf e3 stützt einen Angriffsaufbau mit Dd2 und langer Rochade, und Schwarz muss einen Bauernsturm am Königsflügel abwehren, ohne dass Gegenspiel am Damenflügel im Gang ist."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Nc3 Qc7 6.Be3 Nxd4": {
-    "strategy": "Beseitigt sofort den starken Springer und verschafft Schwarz Luft. Weiß kann mit der Dame zurückschlagen oder mit dem Läufer, den ...e5 dann zurückschickt. In beiden Fällen hat Schwarz keine weitere Figur entwickelt, und der Vorstoß des e-Bauern würde d5 schwächen."
+    "strategy": "Tauscht den starken Springer auf d4 ab, verliert aber Zeit: Weiß nimmt mit der Dame zurück, die das Zentrum beherrscht, während bei Schwarz nur die Dame entwickelt ist. Der Entwicklungsvorsprung von Weiß wiegt schwerer als die Enge, die der Tausch lindert."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Nc3 Qc7 6.Ndb5 Qb8": {
     "strategy": "Weicht dem Angriff des Springers auf ein Feld aus, das d6 weiter deckt, sodass der Sprung des Springers dorthin keinen Stachel hat. Die Dame steht etwas abseits und Schwarz hat ein Tempo verloren, aber der Springer hat das Zentrum verlassen, und auch die Entwicklung von Weiß hinkt."
@@ -292,7 +279,7 @@
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Qb6": {
     "name": "Sizilianische Verteidigung: Gaw-Paw-Variante",
-    "strategy": "Greift den Springer auf d4 an, doch die Dame deckt ihn, sodass nichts wirklich droht. Schwarz verwendet ein Tempo auf einen frühen Damenausflug, während Weiß sich weiterentwickelt, und die Dame auf b6 kann zum Angriffsziel werden."
+    "strategy": "Greift den Springer auf d4 an, doch die Dame deckt ihn, sodass nichts wirklich droht. Weiß antwortet mit e5 und vertreibt den Springer von f6 unter Tempogewinn, und der frühe Damenzug lässt die weißen Figuren mit der Initiative herauskommen."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Bb4": {
     "name": "Sizilianische Verteidigung: Fesselungsvariante",
@@ -314,10 +301,10 @@
     "strategy": "Greift den Springer auf d4 mit einem Bauern an, und nichts deckt den Springer, weil Ld3 der Dame die Deckung versperrt, sodass er ziehen muss. Schwarz gewinnt das Zentrum und Raum; der Preis ist ein geschwächtes Feld d5 und ein rückständiger d-Bauer, während die Fesselung des Springers auf c3 bestehen bleibt."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Bb4 6.Bd3 Nc6": {
-    "strategy": "Fordert den Springer d4 heraus, den Ld3 ohne die Unterstützung der Dame gelassen hat. Nach dem Tausch auf c6 schlägt Schwarz mit dem b-Bauern zurück, behält die Fesselung des Springers c3 und bereitet ...d5 gegen e4 vor; e5 gegen den Springer f6 ist der Punkt, auf den man achten muss."
+    "strategy": "Fordert den Springer auf d4 heraus, den Ld3 ohne Deckung durch die Dame gelassen hat, und behält nach Sxc6 bxc6 die Fesselung des Springers auf c3 bei. Doch e5 greift dann mit Tempo den Springer auf f6 an, und das Zurücknehmen hinterlässt einen zerrissenen Damenflügel, sodass Schwarz etwas schlechter steht."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Bb4 6.Bd3 d6": {
-    "strategy": "Eine solide Antwort, die das Feld e5 gegen den Bauernvorstoß deckt und die Fesselung des Springers c3 hält. Sie lässt den Springer d4 in Ruhe, sodass Weiß rochieren und sich frei entwickeln kann, und das Zentrum von Schwarz ist sicher, bietet aber keine Chance, zuerst zuzuschlagen."
+    "strategy": "Die solide Antwort: Der Bauer übernimmt die Kontrolle über e5, sodass der weiße e-Bauer den Springer auf f6 nicht mehr vertreiben kann, und die Fesselung des Springers auf c3 bleibt bestehen. Schwarz nimmt eine kompakte Stellung mit etwas weniger Raum in Kauf und muss wissen, wie er einem Königsangriff begegnet."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 d6 6.Be2": {
     "name": "Sizilianische Verteidigung: Scheveninger Variante, Klassische Variante",

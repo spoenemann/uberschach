@@ -28,7 +28,7 @@
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Ne7": {
     "name": "Spanische Partie: Berliner Verteidigung, Anti-Berliner Variante, Mortimer-Variante",
     "background": "James Mortimer spielte 4...Se7 beim Turnier in London 1883 gegen Englisch, Rosenthal und Noa und verlor alle drei Partien; auch der Turniersieger Zukertort spielte es und remisierte damit gegen Englisch.",
-    "strategy": "Zieht denselben Springer ein zweites Mal und verstellt den Königsläufer, sodass Schwarz in der Entwicklung zurückfällt; der einzige Sinn ist eine Falle. Schlägt Weiß den Bauern auf e5, gewinnt die Antwort ...c6 eine Figur. Bei ruhigem Spiel liegt Schwarz schlicht ein Tempo zurück."
+    "strategy": "Zieht denselben Springer zweimal und versperrt den Königsläufer, sodass Schwarz ein Tempo in der Entwicklung zurückliegt, doch es entsteht wenig Schaden, wenn Weiß ruhig spielt. Der Witz ist eine Falle: Greift Weiß nach e5, trifft ...c6 den Läufer und gewinnt Material."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d3 Bc5 5.Be3": {
     "name": "Spanische Partie: Berliner Verteidigung, Anti-Berliner Variante, Kaufmann-Variante",
@@ -80,7 +80,7 @@
     "strategy": "Schlägt den Bauern, statt e5 zu verteidigen, was die e-Linie öffnet und zu offenem Spiel führt. Schwarz ist vorerst einen Bauern voraus, doch der König steht noch im Zentrum, daher muss Schwarz die rasche Entwicklung von Weiß genau beantworten."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d4 Be7": {
-    "strategy": "Ein ruhiger Entwicklungszug, der die Rochade vorbereitet, aber weder auf d4 schlägt noch e5 verteidigt, das zweimal angegriffen und nur einmal gedeckt ist. Weiß kann auf e5 schlagen, sodass Schwarz den Bauern aus einer offenen Stellung zurückgewinnen muss, statt ein sauberes Zentrum zu behalten."
+    "strategy": "Ein ruhiger Entwicklungszug, der die Rochade vorbereitet, das Zentrum aber ignoriert: 5.d5 greift den Springer auf c6 an, den einzigen Verteidiger von e5, und vertreibt ihn mit Raumgewinn. Schwarz bleibt mit einem ungedeckten e5-Bauern und einem beengten Spiel zurück."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.d4 d6": {
     "strategy": "Verteidigt e5 solide und hält die Figuren flexibel. Der Preis ist, dass der Springer c6 nun nur noch vom b-Bauern gedeckt ist: Weiß kann auf c6 tauschen, den b-Bauern zum Zurückschlagen zwingen und das Zentrum gegen eine beschädigte Bauernstruktur öffnen."
@@ -130,7 +130,7 @@
     "strategy": "Nimmt den Bauern an und zielt auf f2, doch der Springer wird bald von der Dame angegriffen, und Weiß gewinnt den Bauern mit Initiative zurück. Scharf, mit Chancen für beide Seiten, aber Schwarz muss einen schmalen Pfad gehen, um das Genommene zu behalten."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 d6": {
-    "strategy": "Stützt e5 solide und hält die Rochade in Reserve. Der Preis ist, dass der Läufer noch auf c5 steht, wenn Weiß im Zentrum zuschlägt, sodass Schwarz mehr Zeit darauf verwendet, während sich die weißen Figuren mit Tempo entwickeln."
+    "strategy": "Deckt e5, öffnet aber das Feld d7 für den Läufer auf b5: Nach 6.d4 Lb6 7.d5 wird der Springer auf c6 zweimal angegriffen und nur einmal gedeckt, sodass Schwarz einen Springer für einen oder zwei Bauern verliert."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 O-O 6.d4": {
     "strategy": "Schlägt mit Tempo im Zentrum zu: Der Bauer greift Läufer und e5 zugleich an. Weiß lässt den Bauern e4 vorerst ungedeckt und wettet darauf, dass das offene Zentrum und der Druck auf den Springer c6 mehr wert sind als ein Bauer."
@@ -146,7 +146,7 @@
     "strategy": "Weicht dem Bauernangriff aus, hält den Läufer aber weiter auf d4 gerichtet und bewahrt die Spannung im Zentrum, statt sie durch Schlagen aufzulösen. Schwarz nimmt etwas weniger Raum in Kauf und überlässt Weiß, das Zentrum zuerst zu klären."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 O-O 6.d4 exd4": {
-    "strategy": "Öffnet das Zentrum durch Schlagen. Das Zurückschlagen von Weiß greift den Läufer erneut an und baut mit Bauern auf e4 und d4 mit Tempo ein breites Zentrum auf. Schwarz muss nach dem Zeitverlust um den Ausgleich kämpfen."
+    "strategy": "Öffnet das Zentrum durch Schlagen, doch 7.cxd4 greift den Läufer erneut an und gibt Weiß mit Tempo Bauern auf d4 und e4. Schwarz verliert Zeit beim Rückzug und muss gegen ein breites weißes Zentrum aus schlechterer Stellung kämpfen."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Bc5 5.c3 O-O 6.d4 Be7": {
     "strategy": "Zieht den Läufer außer Reichweite des Bauern und behält ihn, gibt aber den Druck auf d4 auf. Dadurch ist e5 zweimal angegriffen und nur einmal gedeckt, sodass Weiß dort schlagen kann und Schwarz den Bauern aus einem passiven Aufbau zurückgewinnen muss."
@@ -220,7 +220,7 @@
     "strategy": "Stützt den Springer auf e4 mit einem Bauern, räumt aber d7, sodass der Läufer den Springer auf c6 an den König fesselt. Da e5 doppelt angegriffen und sein einziger Verteidiger gefesselt ist, ist der Bauer in Not: Das Zentrum ist überdehnt."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Be7 6.Qe2 Nf6": {
-    "strategy": "Zieht den Springer sofort zurück, statt um den Bauern e4 zu kämpfen. Weiß gewinnt den Bauern auf e5 sofort zurück, sodass der Mehrbauer weg ist und Schwarz Zeit verloren hat, ohne dafür Aktivität zu erhalten."
+    "strategy": "Zieht den Springer sofort zurück, statt um den e4-Bauern zu kämpfen. Das Schlagen dxe5 gewinnt den Bauern mit Tempo zurück, da der e5-Bauer den Springer erneut angreift; Schwarz hat zweimal Zeit verloren und nichts vorzuweisen für den gewonnenen Bauern."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.Bxc6": {
     "strategy": "Entfernt den Verteidiger von e5 und zwingt Schwarz, die c-Bauern zu verdoppeln, im Tausch gegen das Läuferpaar. Weiß erhält eine gesunde Bauernmehrheit am Königsflügel, auf die es zu spielen gilt, in einer langen, zähen, wenn auch remisträchtigen Partie."
@@ -238,9 +238,9 @@
     "strategy": "Schlägt mit dem d-Bauern zurück, was den Läufer c8 und die d-Linie öffnet, zum Preis doppelter c-Bauern. Schwarz behält das Läuferpaar und eine solide Stellung, und die folgenden Abtausche führen tendenziell in ein Endspiel, das schwer zu knacken ist."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.Bxc6 bxc6": {
-    "strategy": "Schlägt mit dem b-Bauern zurück, öffnet die b-Linie und behält den d-Bauern, doch die c-Bauern sind verdoppelt, und der Läufer c8 bleibt hinter d7 eingesperrt. Die Struktur ist schlechter als nach dem anderen Zurückschlagen, sodass Schwarz sie durch Aktivität ausgleichen muss."
+    "strategy": "Schlägt mit dem b-Bauern zurück, was den d-Bauern erhält, aber Doppelbauern und schwache c-Bauern hinterlässt, und der Läufer auf c8 hat d7 noch im Weg. Nach dxe5 hat Weiß die bessere Bauernstruktur und Schwarz wenig Aktivität als Ausgleich."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.Bxc6 exd4": {
-    "strategy": "Schlägt den Bauern d4, bevor auf c6 zurückgeschlagen wird, doch der König steht noch im Zentrum: Te1+ zwingt Schwarz, die Linie zu verstellen, und der Entwicklungsvorsprung des Weißen und die offene e-Linie geben die Initiative. Ein Wagnis, das sich kaum rechtfertigen lässt."
+    "strategy": "Nimmt den d4-Bauern, statt auf c6 zurückzunehmen, sodass der weiße Läufer den soeben geschlagenen Springer behält und einfach mit Ld5 zurückgeht. Schwarz hat einen Springer für einen oder zwei Bauern gegeben und kann es mit dem König im Zentrum nicht wettmachen."
   }
 }

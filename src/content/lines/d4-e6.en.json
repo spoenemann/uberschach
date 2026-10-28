@@ -102,7 +102,7 @@
     "strategy": "Controls e4 and heads for a Dutch set-up, flexible between the king's bishop on e7 and a Stonewall pawn wall. Black plays for the initiative on the kingside. The advance weakens e6 and the e8-h5 diagonal, and the e5-square, which the f4-bishop already covers, can become an outpost for a white knight."
   },
   "1.d4 e6 2.Bf4 Bd6": {
-    "strategy": "Challenges the London bishop at once: 3.Bxd6 Qxd6 or 3...cxd6 trades off the key piece of White's set-up, and 3.Bg3 Bxg3 4.hxg3 leaves White with doubled g-pawns in return for a half-open h-file. It is sound, but a queen on d6 can be hit by e4 and e5, and the c8-bishop stays behind e6."
+    "strategy": "Offers the bishop trade, but 3.Bxd6 can only be answered by ...cxd6, since the d7-pawn blocks the queen's recapture. That doubles Black's d-pawns and leaves the c8-bishop shut in behind them, and White gets the better structure."
   },
   "1.d4 e6 2.Bf4 Be7": {
     "strategy": "Prepares castling, but the bishop is passive on e7 and does not challenge the f4-bishop as it would from d6. White builds freely or claims the centre with 3.e4."
@@ -132,16 +132,16 @@
     "strategy": "Heads for f5 from the rim, but the bishop on f4 attacks it: 3.Bxh6 gxh6 wrecks Black's kingside pawns for the bishop pair. Even without the exchange the knight is far from the centre."
   },
   "1.d4 e6 2.Bf4 a6": {
-    "strategy": "A waiting move on the wing that develops no piece and does nothing for the centre; at most it prepares ...b5. White develops freely or takes the centre."
+    "strategy": "A waiting move on the wing that is sound but slow: it develops no piece and does nothing for the centre, and at most prepares ...b5. White develops freely or takes the centre."
   },
   "1.d4 e6 2.Bf4 a5": {
     "strategy": "Gains space on the wing but weakens b5, where a white knight would eye c7 and d6, and does nothing for the centre or development. White continues to develop at leisure."
   },
   "1.d4 e6 2.Bf4 b5": {
-    "strategy": "Gains queenside space but develops nothing and leaves the pawn undefended: 3.Nc3, or 3.e4 opening the f1-bishop's path to b5, attacks it at once, so Black must spend another tempo defending or moving it. The advance also weakens c6."
+    "strategy": "Gains queenside space, which is sound, but the pawn is loose: 3.Nc3, or 3.e4 opening the f1-bishop's path, attacks it at once, so Black must spend a tempo on it. The advance also weakens c6."
   },
   "1.d4 e6 2.Bf4 h6": {
-    "strategy": "Takes g5 from the bishop and prepares ...g5, but develops nothing and loosens the kingside. White builds a full set-up while Black has done nothing for the centre."
+    "strategy": "Takes g5 from White's pieces and prepares ...g5 to chase the f4-bishop, but develops nothing and loosens the kingside. Sound, yet White builds a full set-up while Black does nothing for the centre."
   },
   "1.d4 e6 2.Bf4 h5": {
     "strategy": "Advances the rook's pawn without developing a piece or contesting d4, and rules out ...h6 against a bishop on g5. White develops freely or takes the centre."
@@ -171,7 +171,7 @@
     "strategy": "Walks into a capture: 3.bxa3 or 3.Nxa3 wins the bishop for nothing, since a3 is covered by the b2-pawn and the knight on b1 and Black has no follow-up."
   },
   "1.d4 e6 2.Bf4 Qf6": {
-    "strategy": "Attacks the bishop on f4, but with the queen gone from d8 the c7-pawn is undefended, so 3.Bxc7 saves the bishop and wins a pawn. The queen also takes f6 from the g8-knight."
+    "strategy": "Attacks the bishop on f4, but with the queen gone from d8 the c7-pawn is loose: 3.Bxc7 saves the bishop and wins a pawn. The queen also takes f6 from the g8-knight, so Black has little to show for the pawn."
   },
   "1.d4 e6 2.Bf4 Qg5": {
     "strategy": "Hangs the queen: the bishop on f4 attacks g5 and nothing defends it, so 3.Bxg5 wins the queen for nothing."
@@ -181,7 +181,7 @@
   },
   "1.d4 e6 2.Bf4 f5 3.g4": {
     "name": "Dutch Defence: Senechaud Gambit",
-    "strategy": "A gambit that offers the g-pawn to blow open the kingside before anything is developed. Black simply takes it and is a pawn up, while White's own kingside is loosened and the attack has nothing behind it yet."
+    "strategy": "A gambit: the g-pawn is offered to open the kingside before any piece is developed. Black takes it and is a pawn up, but White's h3 hits the pawn at once and the open lines give enough play to keep the balance. Sound, yet it risks more than calm development."
   },
   "1.d4 e6 2.Bf4 f5 3.Nf3": {
     "strategy": "Develops the knight to the square that matters most against ...f5, from where it watches e5, and keeps the centre and castling flexible. The bishop already stands outside the pawn chain, so White can complete a solid, harmonious set-up before choosing a plan."
@@ -246,7 +246,7 @@
     "strategy": "Prepares ...d5 and a regrouping of the knight but blocks the f8-bishop and the queen, and the knight stands worse on e7 than on f6. White takes the centre while Black's pieces stay tangled."
   },
   "1.d4 e6 2.Nf3 a6": {
-    "strategy": "Prepares ...b5 and ...Bb7 but spends a tempo on a rim pawn while the centre and development are untouched. White can develop freely."
+    "strategy": "Takes b5 from White's pieces and prepares ...b5 and a bishop on b7. Nothing punishes it, but it spends a tempo on a rim pawn while the centre and development are untouched, so White develops freely."
   },
   "1.d4 e6 2.Nf3 a5": {
     "strategy": "Stops b4 and gains queenside space, but spends a tempo on a rim pawn and leaves b5 weak. Neither the centre nor development is addressed, so White simply gets on with development."
@@ -258,7 +258,7 @@
     "strategy": "Takes f6 from the knight, weakens the e8-h5 diagonal and develops nothing. White builds the centre at leisure, while the g8-knight is left with e7 or h6."
   },
   "1.d4 e6 2.Nf3 h6": {
-    "strategy": "Stops Bg5 for the price of a tempo and does nothing for the centre or development. White continues development as if Black had passed, and the kingside pawns are loosened."
+    "strategy": "Stops Bg5, which would attack the queen, so the g8-knight can come out without a pin. It spends a tempo on a rim pawn and does nothing for the centre, so White simply takes space. Sound, but second-rate."
   },
   "1.d4 e6 2.Nf3 h5": {
     "strategy": "Develops nothing and weakens g6, and with the pawn already past h6 a bishop on g5 can no longer be driven away by ...h6. White uses the tempo to develop, and 3.Bg5 also hits the queen on d8."

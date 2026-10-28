@@ -1,17 +1,4 @@
 {
-  "1.e4 c5 2.Nf3 e6 3.d4 cxd4": {
-    "name": "Sicilian Defence: French Variation, Open"
-  },
-  "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4": {
-    "strategy": "The natural recapture: the knight takes the centre and the bishops and queen get open lines. It will be harassed by Black's developing moves, so White's piece set-up must be ready to meet them, but the central knight also supports a later attack."
-  },
-  "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.c3": {
-    "name": "Sicilian Defence: Smith-Morra Gambit Deferred",
-    "strategy": "A gambit that offers a pawn for a lead in development and an open c-file. Black keeps a real extra pawn that White must justify by quick development, so the idea only works if White's pieces come out faster than Black can untangle."
-  },
-  "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Qxd4": {
-    "strategy": "Recaptures with the queen, which stands in the centre but can be hit at once: ...Nc6 attacks it with a gain of time and the queen has to go back. White's structure stays healthy, so the damage is a tempo, but it gives Black the easier development."
-  },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6": {
     "name": "Sicilian Defence: Kan Variation",
     "strategy": "A flexible waiting move: it rules out Nb5 and prepares ...b5, and Black delays developing the knights until White commits. The cost is a tempo that does not develop a piece; Black bets on a compact structure and counterplay on the queenside."
@@ -72,14 +59,14 @@
     "strategy": "Guards e5 from the side, so White's e-pawn cannot advance for free, and keeps the d-pawn flexible. The queen also eyes h2 along the diagonal and the c-file, giving Black counterplay against White's kingside plans."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Bd3 Nf6 6.O-O Bc5": {
-    "strategy": "Attacks the d4-knight at once, but the knight steps back with a threat on the bishop, so Black loses a tempo retreating it. In return the bishop keeps an active diagonal towards f2."
+    "strategy": "Attacks the d4 knight at once, but the knight steps back to b3 with a threat on the bishop, which has to retreat. White then drives the f6 knight away with e5, gaining space and tempo, so Black has lost time for nothing."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.c4 Nf6": {
     "strategy": "Develops and attacks e4, which nothing defends yet, so White must spend a move on it. Black uses the tempo to bring out the king's knight, though the bind on d5 means Black still has to fight for freedom."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.c4 g6": {
     "name": "Sicilian Defence: Kan Variation, Maróczy Bind, Hedgehog Variation",
-    "strategy": "Meets the clamp with a fianchetto: the bishop on g7 will bear down on the d4-knight along the long diagonal. The plan costs time while White's pawns on c4 and e4 take space, so Black's position stays cramped."
+    "strategy": "Meets the bind with a fianchetto, so the bishop on g7 will eye the d4 knight along the long diagonal. The plan is slow against pawns on c4 and e4: White develops freely and keeps d5 under control, and Black stays short of space with little counterplay."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.c4 Bb4+": {
     "strategy": "Checks at once to make White decide how to meet the bishop. A knight block leads into the familiar pin set-up; a bishop trade eases Black's cramp, since the side with less space gains from exchanges."
@@ -132,7 +119,7 @@
     "strategy": "Puts the bishop on the long diagonal against e4, which the knight and the bishop both guard, so nothing is threatened yet. Black keeps the queen at home, prepares ...b4 to chase the knight and keeps ...Qb6 in reserve against the loose d4 knight."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Nc3 b5 6.Bd3 Nc6": {
-    "strategy": "Challenges the d4 knight, which Bd3 has left without the queen's support, so White must trade or retreat. After Nxc6 dxc6 Black has a sound pawn chain and an open d-file, but the position is passive and the queenside advance has lost its point."
+    "strategy": "Challenges the d4 knight, which Bd3 has left without the queen's support, but White simply trades on c6. Black must recapture with the d-pawn, which gives up the central pawn and opens the d-file with the king still in the centre, and the queenside advance has lost its point."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Nc3 b5 6.g3 Bb7": {
     "strategy": "Puts the bishop on the long diagonal against e4, which only the c3 knight guards: the point of the whole ...b5 advance. With ...b4 ready to chase that knight, White has to shore up e4 with the fianchettoed bishop and accept a slower, more strategic fight."
@@ -265,7 +252,7 @@
     "strategy": "Develops with a hit on e4, which only the c3 knight guards, and holds the a-pawn back for now. But the bishop on e3 supports an attacking set-up with queen to d2 and long castling, and Black must meet a kingside pawn storm without queenside counterplay under way."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Nc3 Qc7 6.Be3 Nxd4": {
-    "strategy": "Removes the strong knight at once and eases Black's cramp. White can retake with the queen, or with the bishop, which ...e5 then sends back. Either way Black has not developed another piece, and the e-pawn advance would weaken d5."
+    "strategy": "Trades off the strong d4 knight but loses time: White retakes with the queen, which dominates the centre, while Black has only the queen developed. White's lead in development outweighs the cramp the trade eases."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Nc3 Qc7 6.Ndb5 Qb8": {
     "strategy": "Steps out of the knight's attack to a square that still covers d6, so the knight's jump there has no sting. The queen is slightly offside and Black has lost a tempo, but the knight has left the centre and White's development lags too."
@@ -292,7 +279,7 @@
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Qb6": {
     "name": "Sicilian Defence: Gaw-Paw Variation",
-    "strategy": "Attacks the d4 knight, but the queen defends it, so nothing is really threatened. Black spends a tempo on an early queen sortie while White keeps developing, and the queen on b6 can become a target."
+    "strategy": "Attacks the d4 knight, but the queen guards it, so nothing is really threatened. White answers e5, driving the f6 knight away with a gain of time, and the early queen move lets White's pieces come out with the initiative."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Bb4": {
     "name": "Sicilian Defence: Pin Variation",
@@ -314,10 +301,10 @@
     "strategy": "Attacks the d4 knight with a pawn, and nothing defends the knight because Bd3 blocks the queen, so it has to move. Black gains the centre and space; the price is a weakened d5 square and a backward d-pawn, while the pin on the c3 knight stays."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Bb4 6.Bd3 Nc6": {
-    "strategy": "Challenges the d4 knight, which Bd3 has left without the queen's support. After the trade on c6 Black recaptures with the b-pawn, keeps the pin on the c3 knight and prepares ...d5 against e4; White's e5 hitting the f6 knight is the point to watch."
+    "strategy": "Challenges the d4 knight, which Bd3 has left without the queen's support, and after Nxc6 bxc6 keeps the pin on the c3 knight. But e5 then hits the f6 knight with tempo and the recapture leaves a ragged queenside, so Black stands a little worse."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Bb4 6.Bd3 d6": {
-    "strategy": "A solid reply that guards the e5 square against the pawn push and keeps the pin on the c3 knight. It leaves the d4 knight alone, so White can castle and develop freely, and Black's centre is safe but gives no chance to strike first."
+    "strategy": "The solid answer: the pawn takes control of e5, so White's e-pawn can no longer drive the f6 knight away, and the pin on the c3 knight stays. Black accepts a compact position with a little less space and has to know how to meet a kingside attack."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 d6 6.Be2": {
     "name": "Sicilian Defence: Scheveningen Variation, Classical Variation",

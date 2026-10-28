@@ -14,14 +14,14 @@
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4": {
     "name": "Schottische Partie: Steinitz-Variante",
     "background": "Wilhelm Steinitz machte 4...Dh4 populär, und die Variante trägt seinen Namen.",
-    "strategy": "Greift e4 und f2 zugleich an und kann den Bauern gewinnen, doch die Dame kommt früh heraus, und Weiß gewinnt Zeit für die Entwicklung gegen sie. Der schwarze König steht meist unbequem, sodass der Mehrbauer selten entscheidet."
+    "strategy": "Greift e4 und f2 zugleich an und kann einen Bauern gewinnen, doch die Dame kommt früh heraus, und Weiß gewinnt Zeit bei der Entwicklung gegen sie. Der schwarze König droht im Zentrum steckenzubleiben, und der Vorsprung von Weiß in der Entwicklung wiegt den Bauern mehr als auf."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bb4+": {
     "name": "Schottische Partie: Malaniuk-Variante",
     "strategy": "Gibt Schach, um ein Zugeständnis zu erzwingen: Die natürliche Antwort c3 gewinnt für Weiß ein Tempo, nimmt aber dem Springer b1 das beste Feld. Schwarz verlässt dafür die Hauptvarianten der Theorie und nimmt den Zeitverlust in Kauf, eine spielbare Überraschung, die ausgetretene Pfade meidet."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4": {
-    "strategy": "Tauscht die Springer, doch Weiß schlägt mit der Dame zurück, die auf einem zentralen Feld landet, von dem Schwarz sie nicht leicht vertreiben kann. Schwarz gibt einen Springer und Zeit her, damit Weiß sich aktiver entwickelt. Das verliert nicht erzwungen, gibt Weiß aber die leichtere Partie."
+    "strategy": "Tauscht die Springer, doch Weiß schlägt mit der Dame zurück, die auf einem zentralen Feld steht, von dem Schwarz sie nicht leicht vertreiben kann. Solide genug, aber Schwarz opfert Zeit, um Weiß die aktivere Entwicklung und das leichtere Spiel zu geben."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Be3": {
     "strategy": "Deckt den Springer d4 mit einem Entwicklungszug und hält den Stützpunkt im Zentrum. Der Zug enthält eine kleine Falle: 5...Sf6? verliert eine Figur durch Sxc6 mit folgendem Lxc5. Weiß hat das Zentrum fest im Griff, und Schwarz muss den richtigen Plan finden."
@@ -48,7 +48,7 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Be3 Qf6 6.Nb5": {
     "name": "Schottische Partie: Blumenfeld-Angriff",
-    "strategy": "Droht Sxc7+ mit Gabel auf König und Turm, doch ...Lxe3 und ...Dh4+ des Schwarzen kommen zuerst: Nach g3 schlägt die Dame auf e4 und greift auch den Turm h1 an. Der Springer, der auf c7 und a8 schlägt, bleibt am Ende gestrandet."
+    "strategy": "Droht Sxc7+ mit Gabel gegen König und Turm und führt zu einem wilden Abtausch: Nach ...Lxe3 fxe3 Dh4+ g3 Dxe4 gewinnt jede Seite einen Turm in der Ecke. Das Ergebnis ist ausgeglichen, aber viel riskanter als das solide c3."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Be3 Qf6 6.Qd2": {
     "strategy": "Deckt d4 ein zweites Mal, doch d4 wird dreimal angegriffen, vom Springer, vom Läufer und von der Dame, und nur zweimal verteidigt. Nach 6...Sxd4 7.Lxd4 Lxd4 kann Weiß nicht zurückschlagen, ohne die Dame zu verlieren, und ist eine Figur im Nachteil."
@@ -71,7 +71,7 @@
     "strategy": "Der natürliche Rückzug: Der Läufer bleibt auf der Diagonale gegen f2 und außer Reichweite von b4 und d4, während der weiße Springer nach b3 zurückgedrängt wurde. Schwarz erhält eine gesunde, flexible Stellung und verliert nichts in der Entwicklung."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Nb3 Qe7": {
-    "strategy": "Begegnet dem Angriff, indem er Abtausch anbietet, statt sich zurückzuziehen: Nach Sxc5 Dxc5 behält Weiß beide Läufer, Schwarz nur einen, und die Dame steht früh draußen. Ausreichend, aber zweitklassig, da Schwarz das Läuferpaar umsonst abgibt."
+    "strategy": "Bietet den Abtausch an, statt sich zurückzuziehen, doch nach Sxc5 Dxc5 hat Schwarz das Läuferpaar umsonst hergegeben. Weiß gewinnt dann mit c4 Raum und behält beide Läufer, sodass Schwarz passiv und deutlich schlechter steht."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Nxc6 Qf6": {
     "name": "Schottische Partie: Klassische Variante, Zwischenzug-Variante",
@@ -88,7 +88,7 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nf6 5.e5": {
     "name": "Schottische Partie: Aljechin-Gambit",
-    "strategy": "Bietet einen Bauern an: Der Bauer e5 greift den Springer f6 an, ist aber selbst ungedeckt, sodass Schwarz ihn sofort mit ...Sxe5 nehmen kann. Weiß muss den Bauern durch schnelle Entwicklung und Spiel gegen die Springer wettmachen, ein kühner Versuch, der von Weiß mehr verlangt als von Schwarz."
+    "strategy": "Greift den Springer auf f6 an und bietet den Bauern an: Nach ...Sxe5 entwickeln sich Dame und Läufer von Weiß mit Tempo gegen den Springer auf e5. Das Spiel bleibt ausgeglichen, der Zug ist also solide, kostet aber einen Bauern für das, was das ruhige Sxc6 oder Sc3 ohnehin hält."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nf6 5.Nc3": {
     "strategy": "Verteidigt e4 mit einem Entwicklungszug, statt auf c6 zu tauschen; die Springer bleiben auf dem Brett und die Partie wird ruhig und ausgeglichen. Weiß kann Schwarz später immer noch Doppelbauern auf der c-Linie verschaffen, während Schwarz sich problemlos entwickelt."
@@ -126,23 +126,23 @@
     "strategy": "Entwickelt sich mit Blick auf f7, vergisst aber das Zurückschlagen: Der Springer zieht sich einfach zurück und Weiß steht ohne Kompensation einen Springer im Minus."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4 5.Qxd4 d6": {
-    "strategy": "Nimmt der Dame die Felder e5 und c5 und öffnet den Weg für den Läufer c8, eine solide Art, den Entwicklungsrückstand aufzuholen. Weiß behält höchstens einen kleinen Vorteil an Aktivität."
+    "strategy": "Nimmt der Dame e5 und c5 und befreit den Läufer c8, unternimmt aber nichts gegen den Entwicklungsvorsprung von Weiß. Die Dame bleibt auf d4, Weiß entwickelt sich mit Tempo, und Schwarz muss eine schlechtere Stellung verteidigen."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4 5.Qxd4 Ne7": {
-    "strategy": "Zieht sich zurück, damit der Springer nach c6 zurückkehren und die Dame von ihrem zentralen Feld vertreiben kann. Schwarz steht kompakt und kann mit genauem Spiel ausgleichen, zahlt dafür aber mit einem langsamen Start, denn der Springer auf e7 sperrt den Läufer auf f8 ein."
+    "strategy": "Tritt zurück, damit der Springer nach c6 zurückkehren und die Dame vertreiben kann, sperrt aber den Läufer f8 ein und kostet ein Tempo. Weiß entwickelt sich frei und behält einen Vorteil."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4 5.Qxd4 Qf6": {
-    "strategy": "Entwickelt die Dame und bietet Tausch an, der die zentralisierte Dame von Weiß vom Brett nähme. Doch die Dame nimmt dem Springer sein bestes Feld, und Weiß kann mit e5 unter Tempogewinn Raum gewinnen und sie angreifen oder in ein etwas freieres Spiel abtauschen."
+    "strategy": "Greift die Dame auf d4 an und bietet einen Abtausch an, der Schwarz ausgleichen ließe. Weiß muss sich damit auseinandersetzen, bevor es sich entwickeln kann, sodass die Dame das Zentrum nicht beherrscht; das ist die genaueste Art, den frühen Abtausch zu beantworten."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4 5.Qxd4 d6 6.Bd3": {
     "name": "Schottische Partie: Ghulam-Kassim-Variante",
-    "strategy": "Deckt e4 und entwickelt zugleich, ein ruhiger Aufbau, der die Dame zentralisiert hält. Der Läufer ist hier weniger aktiv als auf c4, und der Zug fordert den soliden Aufbau von Schwarz nicht heraus, sodass der Vorteil von Weiß bescheiden bleibt."
+    "strategy": "Deckt e4 und entwickelt, aber der Läufer versperrt die d-Linie hinter der Dame und erzeugt keinen Druck. Schwarz entwickelt sich frei und gleicht aus; Weiß hat den Vorteil verschenkt, den Sc3 behält."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4 5.Qxd4 d6 6.Nc3": {
     "strategy": "Entwickelt den Springer auf sein natürliches Feld und deckt e4; die Dame bleibt auf d4, wo sie sich nicht leicht vertreiben lässt. Weiß hat einen Entwicklungsvorsprung und aktivere Figuren, ein kleiner, aber dauerhafter Vorteil."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4 5.Qxd4 d6 6.Bc4": {
-    "strategy": "Stellt den Läufer auf seine aktivste Diagonale, gegen f7 gerichtet, während die Dame bereits auf g7 zielt, sodass Schwarz sich vorsichtig entwickeln muss. Ein natürlicher, aktiver Aufbau, der eine kleine Initiative behält."
+    "strategy": "Stellt den Läufer auf eine natürliche Diagonale mit Blick auf f7, aber Schwarz entwickelt sich einfach mit ...Sf6 und ...Le6 und fordert ihn heraus. Weiß hat wenig vorzuweisen, und der deutliche Vorteil, den Sc3 behält, ist dahin."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nc3": {
     "name": "Schottische Partie: Steinitz-Variante",
@@ -150,25 +150,25 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nb5": {
     "name": "Schottische Partie: Horwitz-Angriff",
-    "strategy": "Droht Sxc7+ mit Gabel auf König und Turm und überlässt e4 der Dame. Schwarz schlägt meist mit Schach, und die Partie geht meist in die Hauptvariante über, sodass dies eine respektable Alternative ist, aber kein besserer Versuch."
+    "strategy": "Droht Sxc7+ und überlässt e4 der Dame. Das ist ein etablierter Versuch, doch nach ...Lb4+ und ...Dxe4+ behält Schwarz den Bauern in einer ausgeglichenen Partie, während Sc3 einen deutlichen Vorteil behält: Weiß gibt seinen Vorteil für ein schärferes Spiel her."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Be3": {
     "name": "Schottische Partie: Braune-Variante",
-    "strategy": "Entwickelt den Läufer und stützt den Springer d4, deckt aber e4 nicht, sodass Schwarz den Bauern sofort nimmt. Weiß setzt auf Entwicklung und die exponierte Dame, eine seltener gespielte Alternative zur Deckung des Bauern."
+    "strategy": "Entwickelt den Läufer und stützt den Springer auf d4, deckt aber e4 nicht, sodass Schwarz den Bauern nimmt. Dafür erhält Weiß einen Entwicklungsvorsprung, der die Partie aber nur ausgleicht, während die Hauptvariante einen deutlichen Vorteil behält."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nf3": {
     "name": "Schottische Partie: Fraser-Variante",
-    "strategy": "Zieht sich mit Tempo auf die Dame zurück, sodass Weiß rochieren und die Entwicklung schnell abschließen kann. Der Preis ist der Bauer e4, den Schwarz mit Schach nimmt. Dafür erhält Weiß einen Entwicklungsvorsprung."
+    "strategy": "Zieht sich mit Tempo auf die Dame zurück, damit Weiß rasch rochieren kann, doch der Bauer e4 geht mit Schach verloren. Dafür erhält Weiß einen Entwicklungsvorsprung, der die Partie aber nur ausgleicht, während die Verteidigung mit Sc3 einen deutlichen Vorteil behält."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nf5": {
     "name": "Schottische Partie: Paulsen-Variante",
     "strategy": "Greift die Dame an, doch der Springer landet dort, wo ...Dxe4+ mit Schach einen Bauern nimmt und ihn angreift. Weiß kann den Springer nur halten, indem er ihn nach e3 zurückzieht, wo er an den König gefesselt ist; jedes andere Dazwischenziehen verliert den Springer auf f5."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nb5 Bb4+": {
-    "strategy": "Gibt Schach, bevor er e4 nimmt, sodass Weiß auf das Schach antworten muss, statt die Drohung auf c7 auszuführen, und ...Dxe4+ danach möglich bleibt. Schwarz behält die Chance auf den Mehrbauern, zum Preis eines Königs, der am Ende im Zentrum stehen kann."
+    "strategy": "Gibt zuerst Schach, sodass Weiß antworten muss, bevor Sxc7+ gespielt werden kann, und das Schlagen auf e4 folgt gefahrlos. Schwarz behält den Mehrbauern in einer ausgeglichenen Partie, auch wenn der König womöglich im Zentrum bleibt."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nb5 Qxe4+": {
-    "strategy": "Die direkteste Antwort: Schwarz nimmt den Bauern mit Schach, und Weiß muss darauf reagieren. Der Springer auf b5 droht weiter c7, sodass der schwarze König meist nach d8 muss und auf die Rochade verzichtet: Der Mehrbauer wird mit einem unbequemen König bezahlt."
+    "strategy": "Nimmt den Bauern sofort, aber diese Zugfolge erlaubt Weiß Le2 mit folgendem Sc3, und der König muss dennoch nach d8, um c7 zu retten. Weiß steht am Ende besser: Ein unglücklicher König kostet mehr als der Mehrbauer."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nb5 Bc5": {
     "strategy": "Droht mit Dame und Läufer Matt auf f2, sodass Weiß sofort verteidigen muss. Doch c7 bleibt dem Springer ausgeliefert, und der Damenzug, der f2 deckt, entwickelt zugleich, sodass Weiß die Initiative behält."
@@ -187,17 +187,17 @@
     "strategy": "Gewinnt den Bauern mit Schach, doch der Springer von Weiß droht weiter auf c7, weshalb der König meist nach d8 geht und das Rochaderecht verliert. Den Mehrbauern bezahlt Schwarz mit einem gejagten König."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nb5 Bb4+ 6.Bd2 Bxd2+": {
-    "strategy": "Tauscht den Läufer sofort ab, doch Weiß schlägt mit dem Springer von b1 zurück, der e4 deckt, sodass der Bauerngewinn entfällt, während der Springer auf b5 weiter c7 bedroht. Schwarz bleibt ein solides, aber passives Spiel gegen die bessere Entwicklung."
+    "strategy": "Tauscht den Läufer sofort, doch der Springer von b1 schlägt zurück und deckt e4, sodass der Bauernraub dahin ist, während der Springer auf b5 weiter c7 bedroht. Schwarz verliert Zeit mit der Verteidigung und steht deshalb schlechter."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nb5 Bb4+ 6.Bd2 Nf6": {
-    "strategy": "Entwickelt und greift e4 an, lässt aber c7 ungedeckt: Der Springer schlägt mit Schach und gabelt König und Turm, und Schwarz verliert die Qualität."
+    "strategy": "Entwickelt und greift e4 ein zweites Mal an, und die Rochade bleibt möglich. Weiß kann nach De2 und ...O-O den Bauern auf c7 gewinnen, aber Schwarz gewinnt e4 mit aktiven Figuren zurück, und die Partie ist ausgeglichen."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nc3 Bb4": {
     "name": "Schottische Partie: Moderne Verteidigung",
     "strategy": "Fesselt den Springer, der e4 deckt, sodass Schwarz den Bauern gewinnt. Der Preis ist Zeit: Weiß erhält einen Entwicklungsvorsprung, und der unbequem stehende schwarze König fällt meist stärker ins Gewicht als der Mehrbauer. Die kritischste Antwort auf die Hauptvariante von Weiß."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nc3 Nf6": {
-    "strategy": "Entwickelt und greift e4 zum zweiten Mal an, aber der Bauer lässt sich wieder mit einem Entwicklungszug decken, sodass die frühe Dame keinen Bauern einbringt. Weiß hat einen Entwicklungsvorsprung, und die Dame auf h4 kann zum Angriffsziel werden."
+    "strategy": "Greift e4 ein zweites Mal an, doch Weiß ignoriert den Bauern: g3 treibt die Dame zurück, und nach dem Damentausch greift Sdb5 c7 an. Schwarz verliert umsonst Material, und Weiß gewinnt am Ende."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nc3 Nxd4": {
     "strategy": "Tauscht den Springer ab und lässt die Dame auf d4 zurückschlagen, wo sie auf g7 zielt, während der Springer auf c3 e4 sichert. Schwarz verliert Zeit und der Druck auf e4 verschwindet, sodass der Entwicklungsvorsprung von Weiß bleibt."

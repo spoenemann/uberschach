@@ -279,7 +279,7 @@
     "strategy": "Bereitet einen kompakten Aufbau vor, bei dem der Läufer frei ist und ...d5 zur Verfügung steht, um e4 herauszufordern. Eine solide Wahl, die den Randspringer als Zeitverlust für Weiß behandelt."
   },
   "1.e4 c5 2.Na3 Nc6 3.d4": {
-    "strategy": "Spielt den üblichen zentralen Vorstoß, doch d4 ist zweimal angegriffen und nur von der Dame gedeckt, sodass dies ein Bauernangebot ist. Der Springer auf a3 kann nicht auf d4 zurückschlagen, der Zug hängt also von schnellem Figurenspiel ab, um sich auszuzahlen."
+    "strategy": "Ein Bauernangebot, das sich nicht auszahlt: ...cxd4 gewinnt einen Bauern, den Weiß nicht zurückholen kann, da der Springer auf a3 d4 nicht erreicht und Dxd4 die Dame an ...Sxd4 verliert. Weiß bekommt etwas Entwicklung, aber keine Kompensation für den Bauern."
   },
   "1.e4 c5 2.Na3 Nc6 3.Nf3": {
     "strategy": "Entwickelt den Königsspringer und bereitet den zentralen Vorstoß d4 vor, für den nun eine Figur zum Zurückschlagen bereitsteht. Der Springer auf a3 steht vorerst schlecht, kann aber über b5 oder c4 umgeleitet werden, und die Partie wird zu einem gewöhnlichen offenen Sizilianer, in dem Weiß einen Zug für diesen Umweg aufgewendet hat."
@@ -294,19 +294,22 @@
     "strategy": "Nimmt den Bauern und beseitigt den Bauern, der c5 angreift. Weiß kann nicht mit der Dame zurückschlagen, da ...Sxd4 sie gewinnen würde, sodass Schwarz den Mehrbauern vorerst behält. Der Preis ist Zeit: Nur eine Figur ist entwickelt, und Weiß kann mit natürlichen Zügen beginnen, den Bauern zu jagen."
   },
   "1.e4 c5 2.Na3 Nc6 3.d4 Nxd4": {
-    "strategy": "Gewinnt den Bauern mit dem Springer: Weiß kann nicht mit der Dame zurückschlagen, da ...cxd4 sie gewinnen würde. Der Springer steht stark zentralisiert und der c-Bauer von Schwarz bleibt auf dem Brett, aber der Springer kann belästigt werden, und Schwarz muss weitere Zeit darauf verwenden, bevor er den Rest entwickelt."
+    "strategy": "Gewinnt den Bauern mit dem Springer, der den c-Bauern behält, aber Zeit kostet: Sf3 greift den zentralisierten Springer sofort an, und er muss erneut ziehen, während sich Weiß entwickelt. Schwarz bleibt einen Bauern vorn, doch ...cxd4 gewinnt den Bauern ohne Tempoverlust."
   },
   "1.e4 c5 2.Na3 Nc6 3.d4 Nf6": {
-    "strategy": "Entwickelt sich mit einem Angriff auf den ungedeckten e4-Bauern und lässt die Spannung auf d4 bestehen. Schlägt Weiß auf c5, gewinnt ...Sxe4 den Bauern sofort zurück. Aber Schwarz lässt den freien Bauern liegen und überlässt Weiß im Zentrum freie Hand."
+    "strategy": "Entwickelt und nimmt e4 ins Visier, lässt aber den freien Bauern liegen. 4.d5 greift den Springer auf c6 an, der kein gutes Feld hat, und Weiß gewinnt Raum und Tempo, während die schwarzen Springer zurückgedrängt werden. Schwarz verschenkt seinen frühen Gewinn und steht klar schlechter."
   },
   "1.e4 c5 2.Na3 Nc6 3.d4 cxd4 4.Bc4": {
     "name": "Sizilianische Verteidigung: Kronberger-Variante, Nemeth-Gambit",
-    "strategy": "Ein Gambit: Der Läufer zielt auf f7 und wird vom Springer auf a3 gestützt, doch der Bauer d4 bleibt bei Schwarz, und Weiß hat keinen unmittelbaren Weg, ihn zurückzugewinnen. Weiß spielt auf schnelle Entwicklung und Druck auf f7 gegen einen Bauern."
+    "strategy": "Ein Gambit, das sich nicht auszahlt: Der Läufer zielt auf f7 und wird vom Springer auf a3 gestützt, der c4 deckt, doch Weiß hat keinen schnellen Weg zurück nach d4 und keinen echten Angriff. Schwarz kann sich konsolidieren und behält den Mehrbauern."
   },
   "1.e4 c5 2.Na3 Nc6 3.d4 cxd4 4.Nf3": {
-    "strategy": "Entwickelt sich mit einem zweiten Angriff auf d4, sodass Weiß droht, den Bauern sofort zurückzugewinnen, und hält die Partie in den üblichen offenen Bahnen. Schwarz kann versuchen, den Bauern mit ...e5 zu halten, aber dann hat Weiß den Entwicklungsvorsprung und offene Linien für den Bauern."
+    "strategy": "Greift d4 ein zweites Mal an und steuert auf ein gewöhnliches Offenes Sizilianisch zu, falls Schwarz es zulässt. Doch ...e5 hält den Bauern, da der Springer ihn nicht schlagen kann, und Weiß muss dann mit dem noch abseits stehenden Springer auf a3 auf Entwicklung gegen den Mehrbauern spielen. Ein guter Zug, aber nicht der genaueste."
   },
   "1.e4 c5 2.Na3 Nc6 3.d4 cxd4 4.Nb5": {
-    "strategy": "Greift d4 ein zweites Mal an, sodass Weiß droht, den Bauern zurückzugewinnen, und bringt den Springer auf ein aktiveres Feld, von dem aus er c7 und d6 im Blick hat. Der Springer ist dort ...Da5+ und ...a6 ausgesetzt, sodass Weiß den Bauern zurückgewinnen muss, bevor er Zeit verliert."
+    "strategy": "Greift d4 ein zweites Mal an und nimmt c7 und d6 ins Visier, doch ...e5 hält den Bauern, und ...a6 jagt den Springer dann davon. Weiß verliert Zeit für nichts, und Schwarz behält den Mehrbauern mit starkem Zentrum."
+  },
+  "1.e4 c5 2.Na3 Nc6 3.d4 cxd4 4.Bd3": {
+    "strategy": "Entwickelt zuerst den Läufer und deckt dabei e4. Statt sich zu beeilen, d4 zurückzugewinnen, setzt Weiß auf schnelle Entwicklung mit Se2 und Rochade. Schwarz behält vorerst den Mehrbauern, doch die weißen Figuren kommen mit Druck auf den offenen Linien gegen ihn ins Spiel."
   }
 }

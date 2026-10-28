@@ -95,7 +95,7 @@
     "strategy": "Greift e5 mit einem Bauern an, statt zu schlagen, lässt Schwarz aber mit Tempo weiterstoßen: ...e4 greift den Springer f3 an und gewinnt Raum. Weiß verzichtet auf den freien Bauern zugunsten einer Partie, in der Schwarz Gegenspiel hat."
   },
   "1.Nf3 e5 2.Nxe5 Nc6": {
-    "strategy": "Greift den Springer an, aber Weiß kann ihn einfach gegen Doppelbauern auf der c-Linie tauschen, sodass Schwarz einen Bauern im Rückstand ist und eine beschädigte Struktur hat. Die offene d-Linie und die Diagonale des Läufers c8 sind nur ein schwacher Ausgleich."
+    "strategy": "Greift den Springer an, und wenn Weiß auf c6 tauscht, verdoppelt der Wiederschlag die c-Bauern, öffnet aber die d-Linie und die Diagonale des Läufers auf c8. Schwarz steht weiterhin einen Bauern im Minus, doch der Zug ist so gut wie die meisten Versuche: spielbar, nicht mehr."
   },
   "1.Nf3 e5 2.Nxe5 d6": {
     "strategy": "Vertreibt den Springer sofort und öffnet Linien für den Läufer c8 und die Dame. Schwarz kann den Bauern nicht direkt zurückgewinnen, der Plan ist daher ein Entwicklungsvorsprung gegen einen Springer, der seine Zeit mit dem Bauernraub verbracht hat."
@@ -110,7 +110,7 @@
     "strategy": "Zieht den Springer in Sicherheit zurück und behält den Mehrbauern. Der schwarze Springer steht entwickelt auf c6, Schwarz hat also etwas Entwicklungsvorsprung für den Bauern, aber Weiß muss nur seine Entwicklung beenden, um vorn zu bleiben."
   },
   "1.Nf3 e5 2.Nxe5 Nc6 3.Nc4": {
-    "strategy": "Behält Springer und Bauern, aber ...d5 greift den Springer sofort erneut an, sodass Weiß ein weiteres Tempo verliert, während Schwarz das Zentrum aufbaut. Nur deshalb spielbar, weil Weiß einen Bauern mehr hat."
+    "strategy": "Behält vorerst den Mehrbauern, doch ...d5 greift den Springer sofort an, und er muss erneut ziehen, sodass Weiß Zeit verliert, während Schwarz das Zentrum besetzt. Der größte Teil des weißen Vorteils geht mit dem Tempo verloren."
   },
   "1.Nf3 e5 2.Nxe5 Nc6 3.Nxc6 dxc6": {
     "name": "Zukertort-Eröffnung: Das Walross",
@@ -132,7 +132,7 @@
     "strategy": "Gewinnt Raum am Damenflügel und kontrolliert d5, ein flexibler Aufbau, der d4 und ein Fianchetto offenhält. Er bestraft die Schwäche f6 aber nicht sofort und lässt Schwarz ein eigenes Zentrum errichten."
   },
   "1.Nf3 f6 2.e4 Nh6": {
-    "strategy": "Stellt den Springer an den Rand, weil f6 vom eigenen Bauern besetzt ist. Der d-Bauer von Weiß öffnet dem Damenläufer sofort den Weg gegen den Springer, und Lxh6 würde die schwarze Königsstellung zerstören, sodass Schwarz Zeit verliert, bevor die Stellung überhaupt ausgeglichen ist."
+    "strategy": "Entwickelt den Springer an den Rand, da der f-Bauer ihm f6 genommen hat. Nach d4 nimmt der Läufer c1 den Springer ins Visier, sodass Schwarz sich nach f7 zurückzieht oder nach Lxh6 Doppelbauern in Kauf nimmt. Schwarz steht hier ohnehin beengt, gleichgültig was er spielt, und dieser Zug ist nicht schlechter als die anderen Versuche."
   },
   "1.Nf3 f6 2.e4 e6": {
     "strategy": "Kontrolliert d5 und gibt den Läufer f8 frei, der solide Weg, nach ...f6 ein Zentrum zu bilden. Schwarz steht beengt, da der f-Bauer dem Springer g8 sein natürliches Feld nimmt und die Diagonale e8-h5 schwach bleibt, aber die Struktur ist gesund."
@@ -374,6 +374,9 @@
   },
   "1.Nf3 Na6 2.e4 g6": {
     "strategy": "Fianchettiert den Königsläufer, um das Zentrum aus der Ferne anzugreifen, statt es zu besetzen. Schwarz lässt Weiß ein breites Zentrum aufbauen und setzt auf Figurendruck und einen späteren Bauernvorstoß; der ungünstig stehende Springer auf a6 kann seinen Weg nach c7 finden."
+  },
+  "1.Nf3 Na6 2.e4 d6": {
+    "strategy": "Hält e5 und öffnet den Läufer c8, ein bescheidener Zug, der jeden Aufbau offenlässt. Weiß behält den Raumvorteil, und der Randspringer braucht noch ein sinnvolles Feld, doch die Struktur von Schwarz ist gesund, und die Figuren können sich frei entwickeln."
   },
   "1.Nf3 Nh6 2.d4": {
     "strategy": "Nimmt sofort das Zentrum. Der Springer auf h6 steht am Rand, sieht nur f5 und g4 und tut nichts für das Zentrum, sodass Weiß ohne Widerstand Raum gewinnt und Schwarz in der Entwicklung aufholen muss."

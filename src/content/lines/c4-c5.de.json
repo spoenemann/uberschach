@@ -86,7 +86,7 @@
     "strategy": "Die natürliche Rückeroberung: Das Material ist wieder ausgeglichen, und die Dame besetzt das zentrale Feld, auch wenn Schwarz sie mit einem Entwicklungszug angreifen und dabei Tempo gewinnen wird. Der Abtausch lässt Weiß eine Bauernmehrheit am Damenflügel gegen die Zentrumsbauern von Schwarz, und die Partie ist ausgeglichen."
   },
   "1.c4 c5 2.d4 cxd4 3.Nf3": {
-    "strategy": "Ein weiteres Bauernopfer: Weiß entwickelt sich und plant, mit dem Springer zurückzunehmen. Schwarz kann den Bauern einfach behalten, denn nach ...e5 kann der Springer ihn nicht nehmen (Sxe5 Da5+ gewinnt den Springer), und Weiß muss für die Entwicklung einen zweiten Bauern geben."
+    "strategy": "Ein weiteres Bauernopfer mit Entwicklung: Weiß plant, mit dem Springer zurückzunehmen. Schwarz kann den Bauern einfach behalten, denn nach ...e5 kann der Springer nicht schlagen (Sxe5 Da5+ gewinnt den Springer). Weiß erhält schnelle Entwicklung und offene Linien für den Bauern, daher bleibt die Partie nahezu ausgeglichen, aber Schwarz hat das leichtere Spiel."
   },
   "1.c4 c5 2.g3 Nc6": {
     "strategy": "Entwickelt eine Figur und nimmt d4 und e5 zugleich ins Visier, ohne einen Bauern oder eine weitere Figur festzulegen. Schwarz hält jeden Plan offen, vom Spiegeln des weißen Fianchettos bis zum Raumgewinn im Zentrum. Der Springer steht zudem auf der langen Diagonale, sodass der weiße Läufer auf g2 keinen Druck auf b7 ausübt."
@@ -131,7 +131,7 @@
     "strategy": "Stellt den Springer an den Rand, wo er f5 und g4 ins Auge fasst, aber kein Zentrumsfeld. Sobald der weiße d-Bauer gezogen hat, beschert Lxh6 gxh6 Schwarz Doppelbauern, und ein Springer, der nach f5 geht, lässt sich mit einem Bauernzug unter Raumgewinn vertreiben."
   },
   "1.c4 c5 2.g3 a6": {
-    "strategy": "Ein abwartender Zug, der ...b5 vorbereitet, aber weder für das Zentrum noch für die Entwicklung etwas tut. Weiß baut ungestört auf."
+    "strategy": "Ein Wartezug, der ...b5 vorbereitet, aber nichts für das Zentrum oder die Entwicklung tut. Er kostet ein Tempo und sonst nichts, da er nichts schwächt, doch Weiß baut ungehindert auf."
   },
   "1.c4 c5 2.g3 a5": {
     "strategy": "Deckt b4 ein zweites Mal und gewinnt Raum am Damenflügel, lässt aber Zentrum und Entwicklung unberührt und macht b5 zu einem Loch, das kein schwarzer Bauer mehr decken kann. Weiß entwickelt sich mit einem geschenkten Tempo."
@@ -146,10 +146,10 @@
     "strategy": "Zieht den g-Bauern vor, ohne dass ihn etwas stützt. Die Antwort 3.h4 greift ihn sofort an, und 3...h6? 4.hxg5 hxg5 5.Txh8 gewinnt einen Turm; aber auch sonst ist der Königsflügel dauerhaft gelockert."
   },
   "1.c4 c5 2.g3 h6": {
-    "strategy": "Ein abwartender Zug, der weder das Zentrum aufbaut noch eine Figur entwickelt; der einzige Plan, den er unterstützt, ist ...g5, das den Königsflügel lockert. Weiß gewinnt ein Tempo."
+    "strategy": "Ein Wartezug, der weder das Zentrum aufbaut noch eine Figur entwickelt; der einzige Plan, den er stützt, ist ...g5, was den Königsflügel lockern würde. Er kostet ein Tempo, schwächt aber noch nichts, daher bleibt der Vorsprung von Weiß klein."
   },
   "1.c4 c5 2.g3 h5": {
-    "strategy": "Bereitet ...h4 vor, um g3 anzugreifen und die h-Linie zu öffnen, kostet aber ohne jede Entwicklung ein Tempo und schwächt g5. Weiß antwortet mit 3.h4, was die Idee unterbindet und den Königsflügel geschlossen hält."
+    "strategy": "Bereitet ...h4 vor, um g3 anzugreifen und die h-Linie zu öffnen, kostet aber ein Tempo, ohne dass etwas entwickelt wäre, und lockert den Königsflügel. Weiß kann mit 3.h4 antworten, was die Idee stoppt und den Königsflügel geschlossen hält, doch geht nicht sofort etwas verloren."
   },
   "1.c4 c5 2.g3 g6 3.Bg2": {
     "strategy": "Vollendet das Fianchetto: Von g2 aus drückt der Läufer auf der langen Diagonale auf d5 und den Damenflügel und schützt den künftig rochierten König. Weiß kontrolliert das Zentrum aus der Ferne, statt es zu besetzen."
@@ -277,7 +277,7 @@
     "strategy": "Öffnet die Diagonale des Läufers c8 und bereitet ...e5 vor. Der Zug ist korrekt, legt aber den d-Bauern vor den Springern fest, sodass Weiß seinen Aufbau frei wählen kann. Weniger flexibel, als zuerst einen Springer zu entwickeln."
   },
   "1.c4 c5 2.Nc3 d5": {
-    "strategy": "Greift sofort im Zentrum an, doch nach 3.cxd5 kann die Dame nicht zurückschlagen, weil Sxd5 sie gewinnt, also braucht Schwarz 3...Sf6. Spielt Weiß dann 4.e4, lässt der Bauerngewinn mit 4...Sxe4 5.Sxe4 Dxd5 Schwarz nur einen Bauern für eine Figur. Spielbar, aber selten."
+    "strategy": "Verliert einen Bauern: Auf 3.cxd5 kann nicht 3...Dxd5 folgen, weil Sxd5 die Dame gewinnt, und nach 3...Sf6 4.e4 hat Schwarz keinen Weg zurück, denn 4...Sxe4 5.Sxe4 Dxd5 gibt eine Figur für einen Bauern."
   },
   "1.c4 c5 2.Nc3 e5": {
     "strategy": "Besetzt das Zentrum mit c- und e-Bauer, lässt aber d5 ohne Bauernkontrolle. Weiß kann dort einen Springer postieren, den Schwarz nur mit Figuren bekämpfen kann. Spielbar, aber selten bevorzugt."
@@ -298,7 +298,7 @@
     "strategy": "Strebt nach f5 oder g4, doch der Springer am Rand tut nichts für das Zentrum, und sobald der weiße d-Bauer gezogen hat, verdoppelt Lxh6 gxh6 die schwarzen Bauern. Einen Springer zum Zentrum hin zu entwickeln, ist wirkungsvoller."
   },
   "1.c4 c5 2.Nc3 a6": {
-    "strategy": "Bereitet ...b5 vor, doch der Hebel funktioniert noch nicht: Nach ...b5 cxb5 axb5 Sxb5 hat Weiß einen Bauern gewonnen. Zugleich kommt keine Figur heraus."
+    "strategy": "Bereitet ...b5 vor, doch der Durchbruch funktioniert noch nicht: Nach ...b5 cxb5 axb5 Sxb5 hat Weiß einen Bauern gewonnen. Solange keine Figur ihn stützt, wartet der Zug nur; er kostet ein Tempo und schwächt vorerst nichts."
   },
   "1.c4 c5 2.Nc3 a5": {
     "strategy": "Kontrolliert b4 und gewinnt Raum am Damenflügel, entwickelt aber nichts und schwächt b5 und b6 dauerhaft, was Weiß nutzen kann, solange die schwarzen Figuren noch zu Hause stehen."

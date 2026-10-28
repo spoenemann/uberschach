@@ -42,7 +42,7 @@
   },
   "1.d4 Nf6 2.Nf3 a6": {
     "name": "Indische Verteidigung: Springervariante, Alburt-Miles-Variante",
-    "strategy": "Bereitet eine Expansion am Damenflügel vor, verbraucht aber ein Tempo für einen Randbauern, während Zentrum und Entwicklung unberührt bleiben. Weiß kann in aller Ruhe das Zentrum aufbauen."
+    "strategy": "Bereitet die Expansion am Damenflügel vor und kostet wenig, da Schwarz noch nichts bedroht. Aber der Randbauernzug kostet ein Tempo, während Zentrum und Entwicklung unberührt bleiben, sodass Weiß das Zentrum in Ruhe aufbauen kann."
   },
   "1.d4 Nf6 2.Nf3 a5": {
     "strategy": "Verhindert b4 und gewinnt Raum am Damenflügel, verbraucht aber ein Tempo für einen Randbauern und schwächt das Feld b5. Weder das Zentrum noch die Entwicklung werden angegangen, sodass Weiß einfach das Zentrum aufbaut."
@@ -52,7 +52,7 @@
     "strategy": "Gewinnt Raum am Damenflügel und bereitet ...Lb7 vor, verbraucht aber mit nur einer entwickelten Figur ein Tempo für einen Bauernzug. Der Bauer b5 wird zum Angriffsziel: e3 oder e4 öffnet dem Läufer f1 die Diagonale nach b5, und auch a4 oder c4 greifen ihn an."
   },
   "1.d4 Nf6 2.Nf3 h6": {
-    "strategy": "Verhindert Lg5 um den Preis eines Tempos und tut nichts für Zentrum oder Entwicklung. Weiß baut das Zentrum auf, als hätte Schwarz gepasst, und die Bauern am Königsflügel sind gelockert."
+    "strategy": "Nimmt dem weißen Läufer das Feld g5 und kostet wenig, da Schwarz noch nichts bedroht. Aber der Bauer tut nichts für Zentrum oder Entwicklung, sodass Weiß ein Tempo geschenkt bekommt, um das Zentrum aufzubauen."
   },
   "1.d4 Nf6 2.Nf3 h5": {
     "strategy": "Schwächt g5 und g6, ohne etwas zu entwickeln. Weiß nutzt das geschenkte Tempo für den Aufbau des Zentrums, und der vorgerückte h-Bauer bringt dafür nichts ein."
@@ -85,7 +85,7 @@
     "strategy": "Stützt d4 und öffnet den Königsläufer, womit Weiß bei dem soliden Aufbau bleibt, auf den es womöglich zugesteuert hat. Der Zug ist weniger ehrgeizig als 3.d5: Schwarz kann den d4-Bauern abtauschen oder Druck auf ihn aufbauen, und Weiß verzichtet auf den Raum, den 3.d5 gewinnt."
   },
   "1.d4 Nf6 2.Nf3 c5 3.g3": {
-    "strategy": "Legt sich auf das Fianchetto fest, bevor das Zentrum geklärt ist, und Schwarz schlägt einfach auf d4. Weiß muss sofort zurückschlagen: Spielt es zuerst Lg2, hält ...e5 den Mehrbauern, denn das Schlagen kostet den Springer nach ...Da5+ und dann ...Dxe5."
+    "strategy": "Beginnt das Fianchetto, bevor das Zentrum geklärt ist, und Schwarz schlägt einfach auf d4. Weiß muss sofort mit dem Springer zurückschlagen: Nach 4.Lg2 behält ...e5 den Bauern, da das Schlagen den Springer an ...Da5+ verliert. Solide, gibt aber den Raum auf, den 3.d5 gewonnen hätte."
   },
   "1.d4 Nf6 2.Nf3 c6 3.c4": {
     "strategy": "Gewinnt Raum am Damenflügel und setzt das Zentrum unter Druck, bevor ...d5 von Schwarz kommt. Der natürliche Weg, ...c6 zu begegnen: Weiß erhält den größeren Anteil am Zentrum, Schwarz eine solide Struktur, die er verteidigen muss."
@@ -145,7 +145,7 @@
   },
   "1.d4 Nf6 2.Nf3 e6 3.Bg5 c5 4.e4": {
     "name": "Torre-Angriff: Wagner-Gambit",
-    "strategy": "Ein Bauernopfer, um das Zentrum aufzureißen, solange der Läufer den Springer auf f6 fesselt und der e-Bauer bereit ist, gegen die gefesselte Figur vorzustoßen. Schwarz kann den Bauern einfach nehmen und hat kein drängendes Problem zu lösen, sodass Weiß Material für eine kurzlebige Initiative hergibt."
+    "strategy": "Ein scharfer Bauerndurchbruch, solange der Läufer den Springer auf f6 fesselt. Nach 4...cxd4 5.e5 muss Schwarz den einzigen Zug finden, ...h6, und das erzwungene Spiel gewinnt den Bauern mit lebhaftem Spiel zurück. Solide, verlässt aber für ein Wagnis den soliden Torre-Aufbau."
   },
   "1.d4 Nf6 2.Nf3 e6 3.Bg5 c5 4.c3": {
     "strategy": "Deckt d4 mit einem Bauern, sodass ein Schlag dort mit einem Rückschlag beantwortet wird, der das Zentrum hält, und hält den Durchbruch e2-e4 in Reserve. Weiß baut zuerst ein festes Zentrum auf und kann einen Damenausflug nach b6 beantworten, zum Preis einer langsameren Entwicklung des Königsläufers."
@@ -161,10 +161,10 @@
   },
   "1.d4 Nf6 2.Nf3 e6 3.Bg5 c5 4.e3 b6 5.d5": {
     "name": "Torre-Angriff: Klassische Verteidigung, Petrosjan-Gambit",
-    "strategy": "Ein Bauernopfer, um den Aufbau von Schwarz zu durchkreuzen und die Fesselung auf f6 zu halten. Schwarz nimmt am besten mit dem e-Bauern, behält den Mehrbauern und der Springer bleibt sicher. Mit dem Springer zu nehmen ist ein Fehler: Der Springer verlässt f6, und Lxd8 gewinnt die Dame für einen Läufer."
+    "strategy": "Stößt am Bauern c5 vorbei, um Schwarz einzuengen, während der Läufer f6 weiter gefesselt hält. Nach 5...exd5 6.Sc3 wird der Bauer d5 von Dame und Springer angegriffen und nur vom gefesselten Springer f6 verteidigt, sodass Weiß ihn zurückgewinnt und besser steht; lehnt Schwarz ab, hat Weiß Raum gewonnen."
   },
   "1.d4 Nf6 2.Nf3 e6 3.Bg5 c5 4.e3 b6 5.Bd3": {
-    "strategy": "Entwickelt mit Zweck: Der Läufer zielt auf den Königsflügel und deckt e4, das Feld, um das der fianchettierte Läufer kämpfen wird, während die Fesselung auf f6 bestehen bleibt und der König rochieren kann. Eine ruhige, harmonische Entwicklung, die Schwarz die Suche nach einem Plan überlässt."
+    "strategy": "Entwickelt den Läufer, um e4 zu decken, das Feld, um das der fianchettierte Läufer kämpfen wird, behält die Fesselung auf f6 bei und macht den Weg zur Rochade frei. Solide und harmonisch, setzt aber auf ein ruhiges Spiel, während 5.d5 sofort Raum gewinnt."
   },
   "1.d4 Nf6 2.Nf3 e6 3.Bg5 c5 4.e3 b6 5.Nbd2": {
     "strategy": "Bringt die letzte Leichtfigur in Richtung e4 ins Spiel, dem Feld, um das beide Seiten kämpfen, und behält die Fesselung auf f6 bei. Solide, setzt aber den schwarzen Königsflügel noch nicht unter Druck, sodass Schwarz seine Entwicklung ohne Schwierigkeiten beenden kann."

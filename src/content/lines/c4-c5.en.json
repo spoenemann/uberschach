@@ -86,7 +86,7 @@
     "strategy": "The natural recapture: material is level again and the queen takes the central square, though Black will gain time by attacking it with a developing move. The trade leaves White a queenside pawn majority against Black's central pawns, and the game is level."
   },
   "1.c4 c5 2.d4 cxd4 3.Nf3": {
-    "strategy": "Another pawn offer: White develops and plans to recapture with the knight. Black can simply keep the pawn, since after ...e5 the knight cannot take it (Nxe5 Qa5+ wins the knight), and White must give a second pawn for development."
+    "strategy": "Another pawn offer, with development: White plans to recapture with the knight. Black can simply keep the pawn, since after ...e5 the knight cannot take it (Nxe5 Qa5+ wins the knight). White gets quick development and open lines for the pawn, so the game stays close to level, but Black has the easier play."
   },
   "1.c4 c5 2.g3 Nc6": {
     "strategy": "Develops a piece and takes aim at d4 and e5 at once, while committing no pawn and no other piece. Black keeps every plan open, from copying White's fianchetto to taking space in the centre. The knight also stands on the long diagonal, so White's bishop on g2 will not press on b7."
@@ -131,7 +131,7 @@
     "strategy": "Places the knight on the rim, where it eyes f5 and g4 but no central square. Once White's d-pawn moves, Bxh6 gxh6 doubles Black's pawns, and a knight that goes to f5 can be driven back by a pawn move with a gain of space."
   },
   "1.c4 c5 2.g3 a6": {
-    "strategy": "A waiting move that prepares ...b5 but does nothing for the centre or for development. White builds freely."
+    "strategy": "A waiting move that prepares ...b5 but does nothing for the centre or for development. It costs a tempo and nothing more, since it weakens nothing, but White builds freely."
   },
   "1.c4 c5 2.g3 a5": {
     "strategy": "Adds a second guard to b4 and gains queenside space, but leaves the centre and development untouched and turns b5 into a hole no Black pawn can cover. White develops with a free tempo."
@@ -146,10 +146,10 @@
     "strategy": "Advances the g-pawn with nothing to support it. The reply 3.h4 hits it at once, and 3...h6? 4.hxg5 hxg5 5.Rxh8 wins a rook; even otherwise the kingside is loosened for good."
   },
   "1.c4 c5 2.g3 h6": {
-    "strategy": "A waiting move that neither builds the centre nor develops a piece; the only plan it supports is ...g5, which loosens the kingside. White gains a tempo."
+    "strategy": "A waiting move that neither builds the centre nor develops a piece; the only plan it supports is ...g5, which would loosen the kingside. It costs a tempo but weakens nothing yet, so White's lead stays small."
   },
   "1.c4 c5 2.g3 h5": {
-    "strategy": "Prepares ...h4 to attack g3 and open the h-file, but costs a tempo with nothing developed and loosens g5. White answers 3.h4, which stops the idea and keeps the kingside shut."
+    "strategy": "Prepares ...h4 to attack g3 and open the h-file, but costs a tempo with nothing developed and loosens the kingside. White can answer 3.h4, which stops the idea and keeps the kingside shut, yet nothing is lost at once."
   },
   "1.c4 c5 2.g3 g6 3.Bg2": {
     "strategy": "Completes the fianchetto: from g2 the bishop presses along the long diagonal on d5 and the queenside, and it shelters the future castled king. White controls the centre from a distance instead of occupying it."
@@ -277,7 +277,7 @@
     "strategy": "Opens the c8-bishop's diagonal and prepares ...e5. It is sound but commits the d-pawn before the knights, which leaves White free to choose its set-up. Less flexible than developing a knight first."
   },
   "1.c4 c5 2.Nc3 d5": {
-    "strategy": "Strikes in the centre at once, but after 3.cxd5 the queen cannot recapture because Nxd5 wins it, so Black needs 3...Nf6. If White then plays 4.e4, winning the pawn back with 4...Nxe4 5.Nxe4 Qxd5 leaves Black with only a pawn for a piece. Playable but rare."
+    "strategy": "Loses a pawn: 3.cxd5 cannot be met by 3...Qxd5, because Nxd5 wins the queen, and after 3...Nf6 4.e4 Black has no way back, since 4...Nxe4 5.Nxe4 Qxd5 gives a piece for a pawn."
   },
   "1.c4 c5 2.Nc3 e5": {
     "strategy": "Takes the centre with both the c- and e-pawns, but leaves d5 without a pawn to control it. White can settle a knight there, and Black can challenge it only with pieces. Playable but rarely preferred."
@@ -298,7 +298,7 @@
     "strategy": "Heads for f5 or g4, but the knight on the rim does nothing for the centre, and once White's d-pawn has moved, Bxh6 gxh6 doubles Black's pawns. Developing a knight towards the centre is more effective."
   },
   "1.c4 c5 2.Nc3 a6": {
-    "strategy": "Prepares ...b5, but the break does not work yet: after ...b5 cxb5 axb5 Nxb5 White has won a pawn. Meanwhile no piece comes out."
+    "strategy": "Prepares ...b5, but the break does not work yet: after ...b5 cxb5 axb5 Nxb5 White has won a pawn. Until a piece supports it the move only waits; it costs a tempo and weakens nothing at once."
   },
   "1.c4 c5 2.Nc3 a5": {
     "strategy": "Controls b4 and gains queenside space, but develops nothing and weakens b5 and b6 for good, which White can use while Black's pieces are still at home."

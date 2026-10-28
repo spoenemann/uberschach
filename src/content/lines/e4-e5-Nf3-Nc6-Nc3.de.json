@@ -30,10 +30,10 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Bb4 4.Nd5 Nf6": {
     "name": "Dreispringerspiel: Schlechter-Variante",
-    "strategy": "Entwickelt sich mit Drohung: Der Springer greift den Bauern e4 an, der seinen Schutz verloren hat, als der Springer von c3 wegzog, und fordert den Springer auf d5 heraus. Weiß kann noch zuerst auf b4 oder f6 tauschen."
+    "strategy": "Entwickelt mit Drohung: Der Springer greift den Bauern e4 an, der seine Deckung verlor, als der Springer von c3 wegzog, und fordert den Springer auf d5 heraus. Schwarz erhält eine natürliche Entwicklung und ein ausgeglichenes Spiel."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Bb4 4.Nd5 Ba5": {
-    "strategy": "Der übliche Rückzug: Der Läufer behält die Fesselung auf der Diagonale, sodass der d2-Bauer nicht ziehen kann, und Schwarz vermeidet den Tausch auf b4. Weiß hat weiter einen Entwicklungsvorsprung und der Springer auf d5 steht gut, doch Schwarz bleibt solide."
+    "strategy": "Hält den Läufer auf der Diagonale und vermeidet einen Abtausch auf b4, fordert aber weder den Springer auf d5 heraus noch greift er e4 an. Weiß spielt c3, behält den starken Springer und steht mit Entwicklungsvorsprung deutlich besser."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Bb4 4.Nd5 Bc5": {
     "strategy": "Bringt den Läufer aus der Gefahr und zielt auf f2, stellt ihn aber auf ein Feld, auf dem ein Bauer ihn angreifen kann. Weiß schlägt auf e5, und nach dem Zurückschlagen greift der Bauer auf d4 Läufer und Springer zugleich an; die Figuren werden gleichwertig getauscht, wobei Weiß in der Entwicklung vorn liegt."
@@ -51,17 +51,17 @@
     "strategy": "Tauscht den angegriffenen Bauern, statt ihn passiv zu verteidigen, und hält den Springer c6 weiter auf d4 gerichtet. Der Preis ist Zeit: Weiß schlägt mit Entwicklungsvorsprung zurück, und Schwarz muss mit dem Fianchetto aufholen."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 g6 4.d4 Bg7": {
-    "strategy": "Vollendet das Fianchetto und fügt e5, das Weiß zweifach angreift, einen zweiten Verteidiger hinzu. Schwarz verzichtet auf den raschen Bauerntausch, sodass Weiß entscheidet, wie die Spannung im Zentrum gelöst wird, und den Raumvorteil behält."
+    "strategy": "Vollendet das Fianchetto und fügt e5 einen Verteidiger hinzu, überlässt Weiß aber im Zentrum freie Hand. Lg5 greift die Dame an, und ...f6 schwächt die Königsseite von Schwarz; auch das Schlagen auf e5 ist stark. Weiß behält einen deutlichen Vorteil."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 g6 4.d4 d6": {
     "strategy": "Stützt e5 mit einem Bauern, doch Weiß schlägt auf e5 und die Damen kommen mit Schach auf d8 vom Brett: Schwarz schlägt entweder mit dem König zurück und verliert das Rochaderecht oder gibt den Bauern e5 auf."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 g6 4.d4 exd4 5.Nd5": {
     "name": "Dreispringerspiel: Steinitz-Rosenthal-Variante",
-    "strategy": "Setzt den Springer auf einen Vorposten, den die Bauern von Schwarz kaum angreifen können: Der e-Bauer ist verschwunden, und der c-Bauer wird vom eigenen Springer blockiert. Von d5 aus zielt er auf c7 und f6, und der Bauer d4 muss erst noch zurückgewonnen werden, sodass Weiß die Initiative behält."
+    "strategy": "Setzt den Springer auf einen Vorposten, den die Bauern von Schwarz kaum angreifen können, mit Blick auf c7 und f6, während der Bauer d4 noch zurückzugewinnen ist. Solide und aktiv, aber der sofortige Rückgewinn des Bauern gibt Weiß etwas mehr."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 g6 4.d4 exd4 5.Nxd4": {
-    "strategy": "Schlägt den Bauern mit dem Springer zurück und bietet den Tausch gegen den Springer auf c6 an. Nimmt Schwarz auf d4, schlägt die Dame zurück und greift den Turm auf h8 über die lange Diagonale an, sodass Schwarz diese Drohung sofort parieren muss. Weiß erhält die freiere Entwicklung."
+    "strategy": "Schlägt den Bauern sofort mit dem Springer zurück und bietet den Abtausch des Springers auf c6 an. Nimmt Schwarz auf d4, schlägt die Dame zurück und greift den Turm h8 auf der langen Diagonale an, sodass Schwarz zuerst diese Drohung abwehren muss. Weiß erhält die freiere Entwicklung und die Initiative."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 g6 4.d4 exd4 5.Qxd4": {
     "strategy": "Schlägt mit der Dame zurück, doch der Springer auf c6 nimmt sie: Weiß verliert die Dame für einen Springer."
@@ -138,7 +138,7 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.d4 Bb4 5.d5 Nd4": {
     "name": "Vierspringerspiel: Schottische Variante, Oxford-Gambit",
-    "strategy": "Zieht den angegriffenen Springer ins Zentrum, wo ihn der Bauer e5 deckt und wo er f3 und c2 im Blick hat. Schwarz gibt dafür den Bauern e5 her, den Weiß nehmen kann, und verlässt sich für die Kompensation auf die Fesselung auf c3 und den Druck auf e4 und f3."
+    "strategy": "Zentralisiert den Springer, doch er hängt vom Bauern e5 ab, und Sxe5 nimmt diesen Bauern und lässt den Springer der Dame ausgesetzt. Die Fesselung auf c3 und der Druck auf e4 wiegen den Bauern nicht auf."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.d4 Bb4 5.d5 Ne7": {
     "strategy": "Zieht den angegriffenen Springer zurück und hält alle Figuren im Spiel. Schwarz lässt den Bauern e5 gehen, aber der gefesselte Springer auf c3 kann e4 nicht verteidigen, sodass ...Sxe4 eine ständige Drohung ist, die Weiß berücksichtigen muss."
@@ -151,7 +151,7 @@
     "strategy": "Greift den Springer auf e5 ein zweites Mal an, sodass der Springer auf c6 und die Dame zusammen schwerer wiegen als der Bauer d4, der ihn deckt, und bringt die Dame auf die e-Linie. Weiß kann den Mehrbauern nicht behalten, ohne dem Springer mehr Unterstützung zu geben."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.d4 Bb4 5.Nxe5 Nxe4": {
-    "strategy": "Ein Gegenschlag: Der Springer nimmt den Bauern e4, den der gefesselte Springer auf c3 nicht verteidigen kann, und greift diesen Springer sofort an. Das Material ist wieder ausgeglichen, aber die Figuren beider Seiten stehen exponiert und der König bleibt im Zentrum, in einer scharfen Partie."
+    "strategy": "Ein Gegenschlag, der den Bauern zurückgewinnt und den Springer auf c3 angreift, doch Dg4 greift den Springer auf e4 und g7 zugleich an. Der König von Schwarz bleibt im Zentrum, seine Figuren sind ungedeckt, und Weiß steht etwa einen Bauern besser."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.d4 Bb4 5.Nxe5 O-O": {
     "strategy": "Rochiert und lässt den Bauern vorerst stehen, im Vertrauen darauf, dass Fesselung und Druck auf e4 ihn bezahlen. Der König von Schwarz ist sicher, aber ohne unmittelbare Drohung kann Weiß sich konsolidieren und den Mehrbauern behalten."
@@ -233,7 +233,7 @@
     "strategy": "Entwickelt den Läufer mit Blick auf f2 und hält das Zentrum flexibel. Schwarz schlägt nicht sofort zu: Das Fianchetto ist ein langsamerer Plan, und solide Entwicklung genügt zum Ausgleich."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.g3 Nxe4": {
-    "strategy": "Ein spekulatives Figurenopfer: Schwarz gibt einen Springer für einen Bauern. Nach dem Schlagen durch Weiß greift ...d5 den Springer auf e4 an, doch er kann zurückweichen, sodass Schwarz nur einen Bauern und einige offene Linien für die Figur hat."
+    "strategy": "Gibt einen Springer für einen Bauern, doch ...d5 treibt den Springer auf e4 zurück und ...d4 greift ihn erneut an, und das Spiel ist ausgeglichen. Der Zug ist solide, aber zweischneidig und bringt gegenüber den ruhigen Zügen nichts ein."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.g3 d5 5.exd5": {
     "strategy": "Löst die Spannung durch Schlagen auf, da e4 zweimal angegriffen und nur einmal gedeckt ist. Das Zentrum öffnet sich, bevor der Läufer g2 erreicht, und Weiß bereitet vor, die lange Diagonale später zu nutzen, in einem Spiel mit schneller Entwicklung."
@@ -257,7 +257,7 @@
     "strategy": "Stellt den Läufer auf die lange Diagonale, den Sinn des g3-Aufbaus, hinter den Springer auf f3, und bereitet die Rochade vor. Weiß nimmt ein ruhiges Spiel in Kauf und übt aus der Distanz Druck auf das Zentrum und den Damenflügel aus, statt es zu besetzen."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.g3 d5 5.exd5 Nxd5 6.Nxd5": {
-    "strategy": "Tauscht den zentralisierten Springer von Schwarz ab und zwingt die Dame, in der Mitte zurückzuschlagen. Die Partie bleibt ausgeglichen und einfach: Weiß gibt den Druck des c3-Springers auf d5 auf, und die schwarze Dame kommt früh heraus."
+    "strategy": "Tauscht den zentralisierten Springer von Schwarz ab, doch die Dame schlägt in der Mitte zurück, und ...e4 gewinnt dann Zeit gegen den Springer auf f3. Weiß liegt in der Entwicklung zurück, der König steht noch nicht rochiert, und Schwarz steht deutlich besser."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.g3 d5 5.exd5 Nxd5 6.Bc4": {
     "strategy": "Entwickelt mit Druck auf den d5-Springer, aber der Springertausch auf c3 ist für Schwarz leicht zu nehmen. Schlägt Weiß mit dem d-Bauern zurück, kommen die Damen mit Schach vom Brett und der König verliert die Rochade; der Rückschlag mit dem b-Bauern gibt Weiß Doppelbauern."
@@ -290,10 +290,10 @@
     "strategy": "Langsam und ruhig: Da kein Bauer den e5-Springer angreift, konsolidiert Schwarz und schließt die Entwicklung ab. Das Bauernspiel im Zentrum, das die Figur wettmachen sollte, ist dahin."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.Nxe5 Nxe5 5.d4 Nc6": {
-    "strategy": "Geht nach c6 zurück, wo er den Bauern d4 angreift und im Zentrum bleibt. Er behält die zusätzliche Figur und lässt Schwarz mehr gute Antworten auf die raumgewinnenden Bauernzüge von Weiß als der Rückzug an den Rand."
+    "strategy": "Kehrt nach c6 zurück, doch d5 jagt den Springer erneut, und die Bauern von Weiß rollen mit Tempo vor. Schwarz behält die Mehrfigur auf dem Papier, aber der Angriff von Weiß ist in der Praxis gefährlich."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.Nxe5 Nxe5 5.d4 Ng6": {
-    "strategy": "Zieht sich nach g6 zurück, außer Reichweite des Bauern, und behält die Figur. Der Springer steht unglücklich, und der Springer auf f6 kann zurückgejagt werden, also verliert Schwarz Zeit, um das Material zu halten, mit einem soliden Spiel, wenn er sich konsolidiert."
+    "strategy": "Behält die Mehrfigur: Der Springer ist für die Bauern unerreichbar, und obwohl e5 den Springer auf f6 zurücktreibt, kann Schwarz eine Figur für einen Bauern festigen. Weiß muss seine Kompensation erst beweisen, und Schwarz steht deutlich besser."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.Nxe5 Nxe5 5.d4 Nxe4": {
     "strategy": "Nimmt den e4-Bauern und gibt die Figur zurück: Nach Sxe4 wird der e5-Springer weiter angegriffen, und das Material ist ausgeglichen. Weiß behält das größere Zentrum und den Entwicklungsvorsprung, und Schwarz gibt den Sinn der Gambitannahme auf."
@@ -302,10 +302,10 @@
     "strategy": "Jagt den Springer auf c6 mit einem Bauern erneut fort und gewinnt Raum auf Kosten von Zeit. Weiß hält das Gambit am Laufen und spielt auf Tempo statt auf Material, doch der Bauer auf d5 ist auch ein Angriffsziel, und Schwarz hat gute Wege, dem Angriff zu begegnen."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.Nxe5 Nxe5 5.d4 Nc6 6.Be3": {
-    "strategy": "Deckt d4 zusätzlich und entwickelt, sodass Weiß das Bauernzentrum ohne weitere Festlegung behält. Der Zug droht aber nichts, und Schwarz bekommt Zeit, sich zu entwirren und die zusätzliche Figur zu nutzen."
+    "strategy": "Deckt d4 und entwickelt, droht aber nichts und verschwendet das Tempo, das das Gambit für den Bauernvorstoß braucht, der den Springer vertreibt. Weiß steht schlicht eine Figur für einen Bauern im Nachteil, während Schwarz sich entwirrt."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.Nxe5 Nxe5 5.d4 Nc6 6.Be2": {
-    "strategy": "Entwickelt ruhig und bereitet die Rochade vor, wobei d4 weiter von der Dame und e4 vom Springer gedeckt ist. Weiß gibt das Tempo auf, von dem das Gambit lebt, und Schwarz bekommt Zeit zur Konsolidierung."
+    "strategy": "Entwickelt ruhig und bereitet die Rochade vor, gibt aber das Tempo auf, von dem das Gambit lebt. Schwarz festigt die Mehrfigur, und Weiß steht eine Figur für einen Bauern im Nachteil, ohne etwas vorweisen zu können."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.Nxe5 Nxe5 5.d4 Nc6 6.d5 Ne5": {
     "strategy": "Springt nach e5 zurück und behält die Figur, aber der Springer kann erneut vertrieben werden, und die Zentrumsbauern von Weiß gewinnen mit jedem Zug mehr Raum. Die Figuren von Schwarz werden herumgeschoben, und der Angriff von Weiß ist praktisch gefährlich, sodass die Verteidigung genau sein muss."
@@ -329,9 +329,9 @@
     "strategy": "Zieht ganz nach Hause zurück und behält die zusätzliche Figur, der übliche Weg, das Material zu halten. Es macht die Entwicklung von Schwarz rückgängig, sodass die Bauern von Weiß das Zentrum beherrschen und Schwarz aufholen muss, ohne in Taktiken zu geraten; bei genauem Spiel zählt aber die zusätzliche Figur, und Schwarz kann sie auch für ein ruhigeres Spiel zurückgeben."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.Nxe5 Nxe5 5.d4 Ng6 6.e5 Bb4": {
-    "strategy": "Fesselt den c3-Springer und gibt die zusätzliche Figur zu den Bedingungen von Schwarz zurück: Nach exf6 schlägt die Dame mit Angriff auf d4 zurück, das Material ist ausgeglichen, und Schwarz hat den Entwicklungsvorsprung und den Druck im Zentrum."
+    "strategy": "Fesselt den Springer auf c3, gibt aber die gewonnene Figur sofort zurück: Nach exf6 schlägt die Dame zurück und greift dabei d4 an. Das Material ist ausgeglichen und Schwarz ist besser entwickelt, doch das ist weit weniger als die Figur, die Schwarz hätte behalten können."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.Nxe5 Nxe5 5.d4 Ng6 6.e5 Be7": {
-    "strategy": "Entwickelt den Läufer und lässt Weiß auf f6 nehmen, wo der Läufer zurückschlägt und auf d4 zielt. Schwarz gibt die zusätzliche Figur für ein einfaches, gesundes Spiel zurück, aber Weiß behält die Zentrumsbauern und etwas Initiative."
+    "strategy": "Entwickelt den Läufer und lässt Weiß auf f6 schlagen, wo der Läufer zurückschlägt und d4 im Blick hat. Schwarz gibt die zusätzliche Figur für eine einfache, gesunde, ausgeglichene Partie zurück: solide, aber der Vorteil, den Schwarz hatte, ist verspielt."
   }
 }

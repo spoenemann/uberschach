@@ -106,13 +106,13 @@
   },
   "1.c4 d5 2.cxd5 Qxd5 3.Nc3 Qa5": {
     "name": "Englische Eröffnung: Anglo-Skandinavische Verteidigung, Malvinas-Variante",
-    "strategy": "Weicht auf ein Feld aus, auf dem die Dame aktiv bleibt und den Springer auf c3 sowie den a2-Bauern im Blick hat, statt sich zurückzuziehen. Schwarz nimmt hin, dass Weiß in der Entwicklung vorn liegt, und setzt auf eine solide Stellung und eine sichere Dame."
+    "strategy": "Weicht auf ein Feld aus, von dem die Dame den Springer auf c3 und den Bauern a2 im Blick hat, und fesselt den Springer, sobald sich der d-Bauer von Weiß bewegt. Die Dame steht sicher, aber 4.d4 baut ein starkes Zentrum auf, und auf a5 hat die Dame wenig zu tun, sodass Weiß in Entwicklung und Raum vorn liegt."
   },
   "1.c4 d5 2.cxd5 Qxd5 3.Nc3 Qd8": {
     "strategy": "Bringt die Dame nach Hause zurück, sodass Schwarz zwei Züge auf sie verwendet hat, während Weiß sich mit Vorsprung entwickelt. Nichts wird geschwächt, aber es ist passiv: Weiß kann in aller Ruhe ein breites Bauernzentrum aufbauen."
   },
   "1.c4 d5 2.cxd5 Qxd5 3.Nc3 Qd6": {
-    "strategy": "Hält die Dame im Zentrum, aber auf einem Feld, das Weiß mit Tempo angreift: Sb5 greift die Dame an und nimmt c7 ins Visier, sodass Schwarz einen weiteren Zug verliert. Spielbar, da nichts verloren geht, aber es lädt Weiß ein, Zeit zu gewinnen."
+    "strategy": "Hält die Dame im Zentrum und verliert die wenigste Zeit. Sb5 greift sie an und zielt auf c7, doch die Dame weicht aus, wobei c7 weiter gedeckt bleibt, sodass Weiß wenig gewinnt. Schwarz nimmt einen kleinen Entwicklungsvorsprung von Weiß in Kauf und erhält dafür eine gesunde Struktur ohne Schwächen."
   },
   "1.c4 e5 2.Nc3": {
     "strategy": "Entwickelt den Springer in Richtung d5 und e4, sodass Springer und c-Bauer gemeinsam d5 kontrollieren. Weiß hält das Zentrum von der Flanke aus unter Druck und kann noch zwischen einem langsamen, geschlossenen und einem aktiveren Aufbau wählen. Der Preis ist die Festlegung: ...Lb4 droht, den Springer zu nehmen und Weiß Doppelbauern auf der c-Linie zu verschaffen."
@@ -228,7 +228,7 @@
     "strategy": "Bereitet einen Läufer auf g7 hinter dem e5-Bauern vor, der das Zentrum stützt, aber durch den eigenen Bauern eingeengt ist. Solide, aber passiv: Schwarz verwendet Zeit auf einen Läufer, der kein Ziel hat, bis sich das Zentrum öffnet."
   },
   "1.c4 e5 2.e3 Nf6 3.f4": {
-    "strategy": "Ein aggressiver Versuch, der e5 sofort herausfordert und die offene f-Linie anstrebt. Er lockert die Bauern von Weiß und schwächt die Diagonale zum König, sodass sich Schwarz in Ruhe entwickeln und eine bequeme Partie erreichen kann. Abseitig, aber nicht schlecht."
+    "strategy": "Fordert e5 sofort heraus und zielt auf die f-Linie, lockert aber die Bauern von Weiß und öffnet die Diagonale zum König. Nach ...exf4 exf4 entwickelt sich Schwarz mit Tempo und kann im Zentrum zuschlagen, sodass Weiß ohne Not das schwierigere Spiel hat."
   },
   "1.c4 e5 2.e3 Nf6 3.Nc3": {
     "strategy": "Der natürliche Entwicklungszug: Der Springer überwacht d5 und e4, sodass Schwarz im Zentrum nicht umsonst Raum gewinnen kann. Weiß behält einen flexiblen, soliden Aufbau und entscheidet später, wie es das Zentrum herausfordert. Die Partie bleibt ruhig und strategisch statt scharf."
@@ -243,20 +243,20 @@
     "strategy": "Schlägt den Bauern. Nimmt Weiß mit dem e-Bauern zurück, öffnet sich die Stellung ohne Schaden für Schwarz; bietet Weiß den Bauern stattdessen als Gambit an, muss Schwarz der schnellen Entwicklung mit Sorgfalt begegnen."
   },
   "1.c4 e5 2.e3 Nf6 3.f4 d5": {
-    "strategy": "Antwortet auf den Flügelbauern mit einem Schlag gegen das Zentrum: Schwarz beansprucht Raum, solange Weiß noch unentwickelt ist, und der f-Bauer hat den Königsflügel verlassen, ohne dem Zentrum von Weiß zu helfen. Schwarz erhält aktive Figuren und eine leichte Partie, zum Preis eines Bauern auf e5, den Weiß angreifen kann."
+    "strategy": "Greift das Zentrum an, lässt aber e5 hängen: 4.fxe5 gewinnt den Bauern und greift zugleich den Springer auf f6 an. Der Schlag kommt einen Zug zu spät; Schwarz sollte zuerst auf f4 schlagen."
   },
   "1.c4 e5 2.e3 Nf6 3.f4 e4": {
-    "strategy": "Gewinnt Raum und nimmt den Figuren von Weiß die Felder f3 und d3 weg, was die Entwicklung auf dem Königsflügel einengt. Der vorgerückte Bauer ist zugleich ein Ziel, das Weiß untergraben kann, und Schwarz hat die Spannung im Zentrum aufgegeben, sodass die Partie zu einem Manövrierkampf um diesen Bauern wird."
+    "strategy": "Gewinnt Raum und nimmt den Figuren von Weiß die Felder d3 und f3, begnügt sich aber mit einem ausgeglichenen Spiel, obwohl das natürliche ...exf4 Schwarz das bessere gibt. Der vorgerückte Bauer ist zudem ein Ziel, das Weiß untergraben kann, sodass Schwarz ihn sorgfältig verteidigen muss."
   },
   "1.c4 e5 2.e3 Nf6 3.f4 exf4 4.Nf3": {
     "name": "Sizilianisch im Anzuge: Kahiko-Hula-Gambit",
     "strategy": "Ein Gambit: Weiß verzichtet aufs Zurücknehmen und entwickelt sich, in der Hoffnung, dass offene Linien und ein Entwicklungsvorsprung den Bauern aufwiegen. Schwarz kann den Bauern behalten, und die Kompensation von Weiß rechtfertigt das Opfer nicht offensichtlich."
   },
   "1.c4 e5 2.e3 Nf6 3.f4 exf4 4.exf4": {
-    "strategy": "Das einfache Zurückschlagen: Das Material ist ausgeglichen, die e-Linie ist für schnelle Entwicklung offen, und der Bauer auf f4 kontrolliert e5 und g5. Weiß hat die aktiveren Figuren und einen Raumvorsprung, zum Preis eines etwas gelockerten Königsflügels."
+    "strategy": "Das einfache Zurückschlagen: Das Material ist ausgeglichen, und der Bauer auf f4 kontrolliert e5 und g5. Doch die offene e-Linie begünstigt die schnellere Entwicklung von Schwarz, und der Königsflügel von Weiß ist locker, sodass Weiß das schwierigere Spiel hat; kein anderer Zug ist besser."
   },
   "1.c4 e5 2.e3 Nf6 3.f4 exf4 4.d4": {
-    "strategy": "Ein zweites Bauernangebot: Weiß ignoriert den Bauern auf f4 und baut stattdessen ein breites Zentrum auf. Nachdem Schwarz auf e3 geschlagen und Weiß zurückgeschlagen hat, besitzt Weiß Zentrum und Raum, steht aber einen Bauern zurück, und Schwarz kann sich mit Tempo entwickeln; die Kompensation ist daher zu dünn."
+    "strategy": "Ein zweites Bauernopfer: Weiß ignoriert den Bauern auf f4 und baut ein breites Zentrum auf. Nach ...fxe3 Lxe3 steht Weiß einen Bauern zurück, hat aber das Zentrum und offene Linien für die Läufer; Schwarz kann sich mit Tempo entwickeln, doch das einfache Zurückschlagen auf f4 ist für Weiß kaum besser."
   },
   "1.c4 e5 2.Nf3 Nc6": {
     "strategy": "Deckt den Bauern und entwickelt zugleich eine Figur, und der Springer greift in den Kampf um das Zentrum ein. Schwarz legt sich noch nicht fest, der Aufbau bleibt flexibel. Der Preis: Weiß behält die Initiative des Mehrtempos und entscheidet, ob die Partie ruhig bleibt oder sich öffnet."
@@ -393,17 +393,17 @@
     "strategy": "Lehnt den Bauern ab und hält die Struktur kompakt, wobei der Läufer auf c8 auf f5 zurückschlagen kann, falls Weiß dort nimmt. Schwarz verzichtet der Sicherheit halber auf den Mehrbauern, und Weiß behält einen Bauern auf e4 mit mehr Raum."
   },
   "1.c4 f5 2.Nc3 Nf6 3.e4 e6": {
-    "strategy": "Lehnt den Bauern ab und behält eine kompakte Struktur: Nimmt Weiß auf f5, schlägt der e-Bauer zurück und das Zentrum von Schwarz bleibt intakt. Schwarz verzichtet auf den Mehrbauern und lässt den Läufer auf c8 vorerst eingesperrt, der übliche Preis dieses Aufbaus."
+    "strategy": "Lehnt den Bauern ab, doch nach 4.exf5 exf5 fehlen dem f5-Bauern Verteidiger: Der Läufer auf c8 ist hinter d7 eingesperrt, sodass 5.Ld3 ihn sofort angreift und Schwarz Zeit aufwenden oder ihn verlieren muss. Das lässt Schwarz passiv und Weiß mit dem leichteren Spiel zurück."
   },
   "1.c4 f5 2.Nc3 Nf6 3.e4 fxe4 4.g4": {
     "name": "Englische Eröffnung: Stachelschwein-Variante",
-    "strategy": "Droht g5, um den Springer zu vertreiben, schwächt aber den Königsflügel von Weiß, der schon einen Bauern weniger hat. Der zweite Bauer ist vergiftet: ...Sxg4 verliert nach Dxg4 einen Springer, sodass Schwarz stattdessen in Ruhe im Zentrum zuschlagen kann."
+    "strategy": "Droht mit g5, um den Springer zu vertreiben, und gewinnt Raum am Königsflügel, lockert aber den weißen Königsflügel, obwohl Weiß schon einen Bauern weniger hat. Der zweite Bauer ist vergiftet: ...Sxg4 verliert nach Dxg4 einen Springer. Ein scharfes Gambit, das spielbar, aber riskanter als das ruhige 4.d3 ist."
   },
   "1.c4 f5 2.Nc3 Nf6 3.e4 fxe4 4.Qe2": {
-    "strategy": "Will den Bauern sofort zurückgewinnen: Sxe4 Sxe4 Dxe4 stellt das Material wieder her, sofern Schwarz den Bauern nicht erneut deckt. Die Dame kommt früh heraus und versperrt den Läufer auf f1, sodass Weiß den Bauern mit Entwicklung bezahlt."
+    "strategy": "Zielt darauf, den Bauern sofort zurückzugewinnen, und tut es auch, doch die Dame versperrt den Königsläufer. Nach 4...Sc6 5.Sxe4 e5 baut Schwarz mit Tempo ein starkes Zentrum auf, sodass Weiß mehr an Entwicklung zahlt, als der Bauer wert ist."
   },
   "1.c4 f5 2.Nc3 Nf6 3.e4 fxe4 4.d3": {
-    "strategy": "Greift den Bauern auf e4 ein zweites Mal an und öffnet die Diagonale des Läufers auf c1, sodass Schwarz den Bauern zurückgeben oder decken muss. Weiß erhält offene Linien und einen Entwicklungsvorsprung, bleibt aber einen Bauern zurück, wenn Schwarz auf d3 nimmt und sich gut verteidigt."
+    "strategy": "Greift den e4-Bauern ein zweites Mal an und öffnet die Diagonale des Läufers auf c1. Schwarz kann den Mehrbauern behalten, doch der Entwicklungsvorsprung von Weiß und die offenen Linien gleichen ihn aus, sodass die Partie ausgeglichen bleibt. Die natürliche Art, auf Bauernrückgewinn zu spielen."
   },
   "1.c4 g5 2.d4": {
     "strategy": "Greift den ungedeckten Bauern auf g5 sofort an: Der Läufer auf c1 nimmt ihn ins Visier, und nichts verteidigt ihn. Weiß beansprucht außerdem das Zentrum mit einem Bauern, während der Königsflügel von Schwarz überdehnt ist, sodass dies die schärfste Antwort ist."
@@ -416,7 +416,7 @@
   },
   "1.c4 g5 2.d4 Bg7": {
     "name": "Englische Eröffnung: Myers-Gambit",
-    "strategy": "Gibt den g-Bauern für Druck auf d4, doch Weiß nimmt ihn einfach mit dem Läufer, und die Kompensation von Schwarz ist dünn. Ein Gambit, das einen Bauern für Druck kostet, den Weiß abwehren kann."
+    "strategy": "Gibt den g-Bauern für Druck auf d4 und die lange Diagonale her. Nach 3.Lxg5 c5 greift Schwarz sofort d4 an, und der Bauer verschafft echtes Spiel, doch Weiß behält die bessere Partie. Ein Gambit, das spielbar, aber nicht das sicherste ist."
   },
   "1.c4 g5 2.d4 e5": {
     "name": "Englische Eröffnung: Zilbermints-Gambit",

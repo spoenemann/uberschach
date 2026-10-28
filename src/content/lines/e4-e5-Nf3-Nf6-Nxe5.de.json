@@ -11,7 +11,7 @@
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nxe4": {
     "name": "Russische Verteidigung: Damiano-Variante",
     "background": "Von Pedro Damiano in seinem „Libro da Imparare a Giocare a Scacchi“ eingeführt, einem der ältesten Bücher über Schach nach den „modernen Regeln“. Er gilt meist als Fehler, wurde aber gelegentlich im Spitzenschach der letzten Jahre gesehen.",
-    "strategy": "Schlägt sofort zurück, aber die offene e-Linie bestraft das: Die Dame greift e4 von e2 aus an, ein Springerzug deckt einen Abzugsschach auf, sodass das natürlich wirkende ...Sf6 die Dame an Sc6+ verliert. Schwarz muss genaue Züge finden, um zu überleben, und steht dennoch schlechter."
+    "strategy": "Schlägt sofort zurück, doch die offene e-Linie schmerzt: Die Dame greift e4 von e2 aus an, und ein Springerzug deckt einen Abzugsschach auf, sodass das natürlich wirkende ...Sf6 die Dame an Sc6+ verliert. Schwarz muss die genaue Verteidigung finden, danach ist die Partie etwa ausgeglichen; ein Ausrutscher verliert sofort."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6": {
     "name": "Russische Verteidigung: Stafford-Gambit",
@@ -117,30 +117,30 @@
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7 Kxf7 5.Bc4+": {
     "name": "Russische Verteidigung: Cochrane-Gambit, Läuferschach-Variante",
-    "strategy": "Gibt Schach, damit der König dauerhaft im Freien bleibt, da er nicht mehr rochieren kann, und der Läufer nimmt die Felder um ihn herum ins Visier. Weiß hat einen Springer für zwei Bauern geopfert, deshalb darf der Angriff nicht an Tempo verlieren; Schwarz kann den Schutz einstellen und dann den Läufer mit einem Bauern herausfordern."
+    "strategy": "Gibt Schach, um den König im Freien zu halten, doch das Schach lässt sich leicht beantworten: ...d5 blockt es und greift den Läufer mit einem Bauern an, danach ordnet Schwarz seinen König, und Weiß hat das Tempo verloren, das der Angriff braucht."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7 Kxf7 5.d4": {
     "name": "Russische Verteidigung: Cochrane-Gambit, Zentrumsvariante",
-    "strategy": "Nimmt das Zentrum und öffnet den Läufer c1, solange der König noch gestrandet ist, und der Bauer kann später mit e5 den Springer vertreiben. Er lässt e4 ohne Verteidiger, doch es zu nehmen ist riskant: ...Sxe4 erlaubt Dh5+, und nach ...g6 greift Dd5+ König und Springer zugleich an."
+    "strategy": "Nimmt das Zentrum und öffnet den Läufer auf c1, solange der König gestrandet ist. Der Zug lässt e4 ungedeckt, doch es zu nehmen ist riskant: ...Sxe4 erlaubt Dh5+, und nach ...g6 greift Dd5+ König und Springer zugleich an. Spielbar, aber überstürzt, und Schwarz bekommt Zeit, die Verteidigung zu organisieren."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nxf7 Kxf7 5.Nc3": {
-    "strategy": "Entwickelt eine Figur und deckt e4, sodass Weiß den Läuferschach und den zentralen Vorstoß in der Hand behält. Das ist langsamer als der direkte Bauernzug und gibt Schwarz einen Zug, um den König zu entwirren, doch der gestrandete König hält die Stellung weiterhin zweischneidig."
+    "strategy": "Die beste Art, das Gambit zu spielen: Der Zug entwickelt eine Figur, deckt e4 und hebt sich den Läuferschach und den Vorstoß im Zentrum auf, statt sie früh zu verbrauchen. Weiß hat noch immer eine Figur für zwei Bauern weniger, muss also den gestrandeten König ausnutzen."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6": {
     "strategy": "Schlägt den angebotenen Springer und behält den Mehrbauern. Der Abtausch von Figuren bringt die Seite, die vorn liegt, der Festigung ihres Vorteils näher. Das Rückschlagen öffnet Linien für Schwarz, deshalb muss Weiß nun auf e4 und den Königsflügel achten."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.d4": {
-    "strategy": "Lehnt den Tausch ab und nimmt das Zentrum, mit einem Bauern hinter dem Springer auf e5. Schwarz kann den Bauern zurückgewinnen, Weiß gibt also den Mehrbauern her, behält aber einen kleinen Vorteil."
+    "strategy": "Lehnt den Abtausch ab und nimmt das Zentrum, mit einem Bauern hinter dem Springer auf e5. Schwarz kann den Bauern zurückgewinnen, also gibt Weiß den Großteil des Vorteils, den der Bauer brachte, zurück und behält nur einen kleinen Vorteil."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nf3": {
-    "strategy": "Zieht den Springer zurück und gibt den Bauern sofort wieder her, da ...Sxe4 das Material ausgleicht. Das ist sicher und weicht den Tücken des Gambits aus, doch die Partie ist ausgeglichen, und der erarbeitete Vorteil von Weiß ist verschenkt."
+    "strategy": "Zieht den Springer zurück und gibt den Bauern sofort zurück, denn ...Sxe4 stellt das Material wieder her. Das ist sicher und umgeht die Tricks des Gambits, doch die Partie ist ausgeglichen, und Weiß hat den ganzen Vorteil verschenkt."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6": {
     "name": "Russische Verteidigung: Angenommenes Stafford-Gambit",
     "strategy": "Der Sinn des Gambits: Schwarz gibt einen Bauern her und nimmt Doppelbauern auf der c-Linie in Kauf, um die d-Linie für die Dame und die Diagonale für den Läufer c8 zu öffnen. Der Bauer e4 wird bereits angegriffen und ist ungedeckt, deshalb muss Weiß sofort reagieren."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 bxc6": {
-    "strategy": "Schlägt zum Zentrum hin zurück, lässt aber den Bauern d7 zu Hause, sodass weder die Dame noch der Läufer c8 Raum bekommt. Schwarz steht einen Bauern im Minus, ohne den Entwicklungsvorsprung, um den es beim Gambit eigentlich geht."
+    "strategy": "Schlägt mit dem b-Bauern zurück, was spielbar ist, aber den d-Bauern zu Hause lässt, sodass weder die Dame noch der Läufer auf c8 Platz bekommt. Schwarz bleibt einen Bauern im Rückstand, ohne den Entwicklungsvorsprung, der der Sinn des Gambits ist."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 Nxe4": {
     "strategy": "Schlägt einen Bauern und ignoriert den Springer auf c6, der die Dame auf d8 nimmt. Schwarz schlägt mit dem König zurück, hat aber die Dame für einen Bauern verloren."
@@ -152,7 +152,7 @@
     "strategy": "Deckt e4 mit einer Figur, die sich zugleich entwickelt, und lässt den d-Bauern frei. Das ist weniger solide als die Verteidigung mit dem Bauern: Ein Läufer auf c5 und ein Springer auf g4 können gemeinsam auf f2 zielen, deshalb muss Weiß den Königsflügel im Auge behalten, während der Mehrbauer gesichert wird."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6 5.e5": {
-    "strategy": "Vertreibt den Springer von f6 und gewinnt Raum, doch der Springer landet auf e4 und drückt weiter auf f2. Weiß muss genau weiterspielen: nach 6.d3? Lc5 droht Schwarz ...Lxf2+ und ...Lg4 matt. Ein zweischneidiger Versuch statt eines sicheren Weges, den Bauern zu halten."
+    "strategy": "Vertreibt den Springer von f6 und gewinnt Raum, doch der Springer landet auf e4 und drückt weiter auf f2. Weiß muss nun genau spielen: Nach 6.d3? Lc5 droht Schwarz ...Lxf2+ und ...Lg4 matt. Der Zug gibt einen Großteil des Vorteils von Weiß für einen riskanten Versuch her."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nc6 4.Nxc6 dxc6 5.f3": {
     "strategy": "Deckt e4 und nimmt dem schwarzen Springer in einem Zug das Feld g4, sodass der übliche Druck auf f2 gar nicht erst entsteht. Der Preis ist ein geschwächter Königsflügel, und Schwarz hat mit dem freien Läufer und dem Entwicklungsvorsprung weiterhin Spiel für den Bauern."
@@ -187,7 +187,7 @@
     "strategy": "Stellt einen Bauern ins Zentrum und stützt den Springer auf e5, sodass auf ...d6 ein Rückzug folgt, der zu einer gewöhnlichen, ausgeglichenen Stellung führt. Weiß verzichtet darauf, den frühen Springerschlag zu bestrafen."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nxe4 4.Qf3": {
-    "strategy": "Eher eine Falle als ein Plan: Dame und Springer zielen beide auf f7, sodass das unbedachte ...d5 mit Dxf7 matt verliert. Schwarz zieht den Springer einfach zurück, das Material ist ausgeglichen, und Weiß hat mit dem frühen Damenzug nichts gewonnen."
+    "strategy": "Eher eine Falle als ein Plan: Dame und Springer zielen beide auf f7, sodass das unvorsichtige ...d5 an Dxf7 matt scheitert. Schwarz zieht den Springer einfach zurück, das Material ist ausgeglichen, und Weiß hat für den frühen Damenzug nichts gewonnen, riskiert aber auch wenig."
   },
   "1.e4 e5 2.Nf3 Nf6 3.Nxe5 Nxe4 4.Qe2 Qe7": {
     "name": "Russische Verteidigung: Damiano-Variante, Cholmow-Gambit",

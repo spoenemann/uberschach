@@ -54,7 +54,7 @@
     "strategy": "Greift den Läufer sofort an. Beide Seiten haben nun eine Figur unter Beschuss: der Springer von Schwarz wird vom Bauern auf e5 angegriffen, der Läufer von Weiß vom h-Bauern, und Weiß muss zwischen Rückzug und Ausführung der Drohung wählen."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 Bxc3+": {
-    "strategy": "Tauscht den Läufer mit Schach gegen den Springer, was die c-Bauern von Weiß verdoppelt, aber der Bauer e5 greift den Springer auf f6 weiterhin an, und ...h6 ist noch nötig, um ihn zu retten. Schwarz gibt sofort das Läuferpaar auf und lässt Weiß mehr Freiheit bei der Fortsetzung."
+    "strategy": "Tauscht den Läufer mit Schach gegen den Springer, doch der Springer auf f6 wird weiter angegriffen und an die Dame gefesselt, sodass ...h6 weiterhin nötig ist. Die Doppelbauern von Weiß sind eine geringe Kompensation: Schwarz hat den dunkelfeldrigen Läufer verloren, und der Königsflügel liegt offen."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 Nfd7": {
     "strategy": "Zieht den angegriffenen Springer zurück und deckt die Dame auf: Lxd8 gewinnt sie, und Schwarz bekommt mit den Schlägen auf c3 und d8 nur einen Springer und einen Läufer dafür zurück. Der Springer muss stattdessen durch einen Gegenangriff auf den Läufer gerettet werden."
@@ -87,13 +87,13 @@
     "strategy": "Zieht den angegriffenen Springer zurück, behält aber den Läufer auf b4, sodass die Spannung bleibt und Schwarz weiter wählen kann, wann er tauscht. Der Preis sind Zeit und Raum: Der e5-Bauer engt Schwarz ein, der Springer sperrt den Läufer auf c8 ein, und a3 zwingt den Läufer trotzdem zur Entscheidung."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.Bd2 Ne4": {
-    "strategy": "Greift den Läufer auf d2 und den Springer auf c3 zugleich an. Weiß kann nicht einfach auf e4 nehmen: Nach Sxe4 muss Schwarz ...Lxd2+ spielen, bevor er wiederschlägt, denn ...dxe4 erlaubt Lxb4 und verliert den Läufer. Das Ergebnis ist ein Abtausch von Figuren und ein Bauer auf e4, den Schwarz gedeckt halten muss."
+    "strategy": "Sieht wie ein Doppelangriff auf Läufer und Springer aus, doch Weiß nimmt einfach den Springer: Nach ...Lxd2+ schlägt der Springer auf e4 auf d2 zurück, und Schwarz steht eine Figur im Minus. Der Springerausfall verliert glatt Material."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.exf6 hxg5": {
     "strategy": "Schlägt den Läufer mit dem Bauern zurück, sodass das Material ausgeglichen bleibt, und die h-Linie ist für den schwarzen Turm halb offen. Der weiße Bauer auf f6 ist ein Dorn im Fleisch, aber wenn er auf g7 schlägt, schwenkt der Turm nach g8 und Schwarz gewinnt den Bauern zurück."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.exf6 Bxc3+": {
-    "strategy": "Nimmt den Springer mit Schach, bevor er auf g5 wiederschlägt, sodass die c-Bauern von Weiß nach bxc3 verdoppelt sind. Schwarz schlägt weiterhin auf g5 wieder und gewinnt den Bauern g7 zurück, gibt aber das Läuferpaar auf, das zu dem gehört, was die Hauptfortsetzung des Wiederschlagens behält."
+    "strategy": "Schlägt mit Schach den Springer, bevor auf g5 zurückgeschlagen wird, was die c-Bauern von Weiß verdoppelt. Doch es gibt den dunkelfeldrigen Läufer auf, der den Königsflügel deckt, und nach bxc3 hxg5 fxg7 verschafft der Bauer auf g7 Weiß dauerhafte Initiative gegen den König."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Bb4 5.e5 h6 6.exf6 gxf6": {
     "strategy": "Schlägt den Bauern wieder statt des Läufers, aber der Springer ist bereits verloren: Der Läufer zieht einfach nach h4 oder d2 zurück, und Weiß steht für einen Bauern eine Figur im Plus."
@@ -203,7 +203,7 @@
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.h4 a6": {
     "name": "Französische Verteidigung: Aljechin-Chatard-Angriff, Maróczy-Variante",
-    "strategy": "Lehnt den Bauern ab und nimmt dem weißen Springer das Feld b5, sodass der c-Bauer ohne diesen Sprung als Antwort vorrücken kann. Weiß kann die Initiative mit der Dame nach g4 behalten, die droht, auf e7 und dann auf g7 zu schlagen, was Schwarz zwingt, auf g5 zu schlagen und die h-Linie zu öffnen. Ein wildes Spiel mit unsicheren Königen."
+    "strategy": "Lehnt den Bauern ab und nimmt dem weißen Springer das Feld b5, verliert aber Zeit gegenüber dem Angriff. Dg4 droht Lxe7 und danach Dxg7, deshalb muss Schwarz auf g5 schlagen und die h-Linie öffnen; die Könige stehen unsicher und Weiß behält die Initiative."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.h4 c5": {
     "name": "Französische Verteidigung: Aljechin-Chatard-Angriff, Breyer-Variante",
@@ -211,17 +211,20 @@
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.h4 O-O": {
     "name": "Französische Verteidigung: Aljechin-Chatard-Angriff, Spielmann-Variante",
-    "strategy": "Rochiert sofort, aber in den Angriff hinein: Der h-Bauer ist bereits vorgerückt, und die Dame und die Läufer von Weiß können auf den Königsflügel zielen, bevor Schwarz Gegenspiel hat. Spielbar, aber riskant; es ist genau die Königsstellung, die das Gambit angreifen soll."
+    "strategy": "Rochiert in den Angriff hinein: Da der h-Bauer schon vorgerückt ist, zielt Ld3 auf h7 und die Dame kann nach h5 folgen. Das ist genau die Königsstellung, die das Gambit angreifen soll, und Weiß steht klar besser."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.h4 f6": {
     "name": "Französische Verteidigung: Aljechin-Chatard-Angriff, Teichmann-Variante",
-    "strategy": "Greift den e5-Bauern sofort an, öffnet aber die Diagonale e8-h5: Die weiße Dame gibt auf h5 Schach, und der König hat wenig Deckung. Schwarz wird den einengenden Bauern los, zum Preis der Königssicherheit."
+    "strategy": "Greift sofort e5 an, öffnet aber die Diagonale e8-h5: Dh5+ g6 exf6 lässt den König ohne Deckung. Schwarz beseitigt den einengenden Bauern zu einem zu hohen Preis, und Weiß steht klar vorn."
+  },
+  "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Nfd7 6.h4 h6": {
+    "strategy": "Lehnt das Gambit ab und fragt den Läufer sofort. Nachdem die Läufer mit Lxe7 Dxe7 abgetauscht sind, hat Schwarz ein solides Spiel und der König ist noch nicht festgelegt, auch wenn Weiß weiter mit einem Bauernsturm am Königsflügel angreift."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Ng8 6.Be3": {
     "strategy": "Vermeidet den Tausch, auf den der Springerrückzug zielte, und hält den Läufer auf einer guten Diagonale, die auch d4 schützt. Weiß behält den Raumvorteil und den Entwicklungsvorsprung, und der Rückzug von Schwarz hat Zeit gekostet."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Ng8 6.Bf4": {
-    "strategy": "Hält den Läufer aus dem Tausch heraus, auf einer Diagonale, die den Bauern e5 schützt, und behält in aller Ruhe den Raum und den Entwicklungsvorsprung. Der Rückzug von Schwarz hat Zeit gekostet, und die Bauernkette ist weiterhin schwer anzugreifen."
+    "strategy": "Hält den Läufer aus dem Abtausch heraus, auf einer Diagonale, die e5 deckt, und Weiß behält den Raumvorteil und den Entwicklungsvorsprung. Anders als nach Le3 hat d4 hier wenig Unterstützung, daher folgt sofort ...c5 und der Vorteil von Weiß schrumpft auf etwa einen Viertelbauern."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Ng8 6.Bxe7": {
     "strategy": "Tauscht die dunkelfeldrigen Läufer, doch der Springer kann auf e7 zurückschlagen, einem guten Feld, sodass sich der Rückzug von Schwarz auszahlt. Weiß behält den Raumvorteil, auch wenn die beengte Seite über den Tausch froh ist."
@@ -231,10 +234,10 @@
     "strategy": "Bereitet vor, den weißfeldrigen Läufer, die Problemfigur der Französischen Verteidigung, auf der Diagonale a6 abzutauschen. Doch nach dem Springerumweg liegt Schwarz in der Entwicklung weit zurück, und Weiß hält das Zentrum mühelos."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Ng8 6.Be3 Nc6": {
-    "strategy": "Entwickelt sich mit Druck auf d4 und e5, die Basis und die Spitze der weißen Bauernkette, und bekämpft die Kette zunächst mit Figuren. Schwarz greift das Zentrum an, ohne einen Bauern zu opfern."
+    "strategy": "Entwickelt sich mit Druck auf d4 und e5, doch der Springer versperrt den c-Bauern, sodass ...c5, der natürliche Schlag gegen die Kette, aufgehalten wird. Weiß entwickelt sich einfach weiter und behält einen klareren Vorteil als nach 6...c5."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 Be7 5.e5 Ng8 6.Be3 c5": {
-    "strategy": "Greift sofort die Basis der Kette an, doch Weiß schlägt einfach auf c5, wo der Läufer auf e3 den Bauern deckt. Schwarz hat das Zentrum geöffnet, obwohl es in der Entwicklung zurückliegt, und muss den Bauern mit seinen Figuren zurückgewinnen."
+    "strategy": "Greift sofort die Basis der Kette an, auf die in der Französischen Verteidigung übliche Weise. Weiß kann auf c5 schlagen, wo der Läufer auf e3 den Bauern deckt, doch Schwarz hat Figuren bereit, ihn anzugreifen, und erhält dafür offene Linien. Weiß behält mehr Raum und den Entwicklungsvorsprung."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 dxe4 5.Nxe4": {
     "strategy": "Schlägt den Bauern mit einem Springer zurück, der nun zusammen mit dem Läufer auf g5 auf f6 zielt. Weiß hat den Bauern zurückgewonnen und hat ein offenes Zentrum, und Schwarz muss entscheiden, wie er den Springer verteidigt."
@@ -243,7 +246,7 @@
     "strategy": "Tauscht den Läufer sofort gegen den gefesselten Springer und gewinnt danach den Bauern e4 zurück. Eine sichere, einfache Partie, doch Weiß gibt den Läufer ab, und von der Eröffnungsinitiative bleibt wenig übrig."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 dxe4 5.f3": {
-    "strategy": "Ein Bauerngambit: Weiß bietet einen zweiten Bauern an, um das Zentrum zu öffnen und die Fesselung auf f6 zu behalten. Nach dem Zurückschlagen auf f3 steht Weiß für die Entwicklung einen Bauern im Minus, und Schwarz kann den Mehrbauern behalten, indem er die Fesselung löst."
+    "strategy": "Ein Bauerngambit: Weiß verlässt e4 und spielt f3, um die f-Linie zu öffnen und die Fesselung zu halten. Das Schlagen auf f3 gewinnt einen Bauern, doch Weißens Entwicklungsvorsprung wiegt ihn fast auf; das einfache Zurückschlagen auf e4 ist nicht schlechter und weniger riskant."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Nf6 4.Bg5 dxe4 5.Nxe4 Be7": {
     "name": "Französische Verteidigung: Klassische Variante",

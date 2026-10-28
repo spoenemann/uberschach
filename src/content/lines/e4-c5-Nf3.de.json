@@ -53,7 +53,7 @@
   },
   "1.e4 c5 2.Nf3 h6": {
     "name": "Sizilianische Verteidigung: Bücker-Variante",
-    "strategy": "Nimmt den weißen Figuren das Feld g5, verbraucht aber ein Tempo für einen Bauernzug, der weder dem Zentrum noch der Entwicklung dient. Weiß besetzt das Zentrum und hat das freiere Spiel."
+    "strategy": "Nimmt den weißen Figuren das Feld g5, sodass kein Läufer dorthin kommen kann, kostet aber ein Tempo für einen Bauernzug, der nichts entwickelt. Solide, doch Weiß nimmt sofort das Zentrum und steht etwas freier."
   },
   "1.e4 c5 2.Nf3 h5": {
     "strategy": "Verbraucht ein Tempo für den Randbauern und schwächt g5 und den Königsflügel, während Zentrum und Entwicklung unberührt bleiben. Weiß besetzt mit d4 das Zentrum und entwickelt sich in aller Ruhe."
@@ -115,7 +115,7 @@
   },
   "1.e4 c5 2.Nf3 a6 3.b4": {
     "name": "Sizilianische Verteidigung: O'Kelly-Variante, Flügelgambit",
-    "strategy": "Ein Flügelgambit, das den c-Bauern ablenken will, der d4 deckt. Nach 3...cxb4 steht Schwarz einfach einen Bauern vorn, und Weiß kann keinen konkreten Entwicklungsvorsprung vorweisen."
+    "strategy": "Bietet den b-Bauern an, um den c-Bauern von Schwarz abzulenken, der d4 deckt, und so ein breites Bauernzentrum aufzubauen. Raum und Aktivität gleichen den Bauern für Weiß ungefähr aus, doch Weiß steht einen Bauern im Nachteil und muss das erst beweisen."
   },
   "1.e4 c5 2.Nf3 a6 3.c3 d5": {
     "strategy": "Die natürliche Antwort im Zentrum: Schwarz greift e4 sofort an und verwehrt Weiß das breite Bauernzentrum. Der weiße Bauer auf c3 nimmt das Feld c3 weg, sodass eine Damenrücknahme auf d5 dort nicht von einem Springer angegriffen werden kann."
@@ -166,10 +166,10 @@
     "strategy": "Der Standardschlag: Schwarz tauscht einen Flügelbauern gegen den Zentrumsbauern von Weiß, öffnet die c-Linie und erhält eine zentrale Bauernmehrheit. Der a-Bauer hat dem weißen Springer bereits das Feld b5 genommen."
   },
   "1.e4 c5 2.Nf3 a6 3.d4 e6": {
-    "strategy": "Bereitet eine kompakte Aufstellung vor, die d5 und f5 deckt und den dunkelfeldrigen Läufer befreit, und überlässt das Zurückschlagen auf d4 für später. Tauscht Weiß auf c5, nimmt der Läufer zurück; der Zug führt oft zu denselben Strukturen wie das Schlagen."
+    "strategy": "Baut eine kompakte Aufstellung auf und öffnet den Läufer f8, lässt das Zentrum aber ungeklärt: Weiß kann d5 vorstoßen und Raum gewinnen, was der Schlag auf d4 verhindert hätte. Solide, überlässt Weiß aber die Wahl der Fortsetzung."
   },
   "1.e4 c5 2.Nf3 a6 3.d4 d6": {
-    "strategy": "Deckt e5 und bereitet eine normale Sizilianisch-Aufstellung vor, lässt aber einen Damentausch zu: Nach dxc5 dxc5 verschwinden die Damen mit Schach, und Schwarz verliert das Rochaderecht. Spielbar und ausgeglichen, aber ein schlechter Versuch, mehr als Ausgleich zu erreichen."
+    "strategy": "Deckt e5, lässt aber den Bauern d6 für 4.dxc5 stehen: Schwarz verliert entweder einen Bauern oder schlägt zurück und lässt den Damentausch mit Schach zu, nach dem der König nicht mehr rochieren kann. In beiden Fällen steht Weiß klar besser; der Schlag auf d4 vermeidet all das."
   },
   "1.e4 c5 2.Nf3 a6 3.d4 cxd4 4.Nxd4": {
     "strategy": "Nimmt mit zentralisiertem Springer zurück und steuert ein offenes Spiel an. Hier verhindert ...a6 den Sprung des Springers nach b5, sodass Weiß andere Felder für ihn finden muss und Schwarz einen nützlichen Zug gewonnen hat."
@@ -184,7 +184,7 @@
   },
   "1.e4 c5 2.Nf3 a6 3.d4 cxd4 4.Bc4": {
     "name": "Sizilianische Verteidigung: O'Kelly-Variante, Normalsystem, Cortlever-Gambit",
-    "strategy": "Lässt den d4-Bauern in Ruhe und entwickelt den Läufer gegen f7, doch Weiß steht einen Bauern zurück, und ...b5 gewinnt Zeit gegen den Läufer. Weiß hat nicht mehr, als die einfache Rücknahme bietet, und der Bauer bleibt ein Problem."
+    "strategy": "Entwickelt den Läufer gegen f7 und verzögert den Rückschlag auf d4, den Weiß weiterhin in Ruhe ausführen kann. Solide, doch der Läufer leistet nicht mehr als der einfache Rückschlag, und Schwarz bekommt einen freien Zug zur Entwicklung."
   },
   "1.e4 c5 2.Nf3 a6 3.d4 cxd4 4.Nxd4 e5": {
     "name": "Sizilianische Verteidigung: O'Kelly-Variante, Normalsystem, Taimanow-Variante",
@@ -200,10 +200,10 @@
     "strategy": "Schlägt den Bauern und behält ihn: Das Gambit von Schwarz soll den e-Bauern des Weißen aus dem Zentrum ziehen, doch Weiß gewinnt schlicht einen Bauern. Die offenen Diagonalen, die Schwarz geschaffen hat, schwächen zudem die Felder e6 und e5 sowie den König, sodass sich Weiß in Ruhe entwickeln und die Kompensation von Schwarz verblassen lassen kann."
   },
   "1.e4 c5 2.Nf3 f5 3.Nc3": {
-    "strategy": "Entwickelt sich und ignoriert das Gambitangebot. Schlägt Schwarz auf e4, nimmt Weiß mit dem Springer zurück und das Material ist ausgeglichen, doch Weiß lässt einen Freibauern liegen und die Chance, die offenen Diagonalen gegen den schwarzen König zu nutzen."
+    "strategy": "Entwickelt sich und lehnt den Gambitbauern ab: Nimmt Schwarz auf e4, schlägt Weiß mit dem Springer zurück, und das Material ist ausgeglichen. Doch exf5 gewinnt schlicht einen Bauern und behält die offenen Linien gegen den schwarzen König, sodass die Ablehnung einen großen Teil des weißen Vorteils verschenkt."
   },
   "1.e4 c5 2.Nf3 f5 3.d3": {
-    "strategy": "Verteidigt e4 mit einem Bauern und baut eine ruhige, solide Stellung auf. Weiß lehnt den Freibauern ab: Tauscht Schwarz auf e4, ist das Material ausgeglichen und der schwarze König hat eine offene Diagonale, doch Weiß hat weniger, als wenn er einfach geschlagen hätte."
+    "strategy": "Deckt e4 mit einem Bauern und hält die Stellung solide, lehnt aber den freien Bauern ab: Tauscht Schwarz auf e4, ist das Material ausgeglichen. Das Schlagen auf f5 gewinnt glatt einen Bauern, während sich Weiß nach d3 mit einem kleinen Vorteil begnügt."
   },
   "1.e4 c5 2.Nf3 f5 3.exf5 Nh6": {
     "name": "Sizilianische Verteidigung: Doppelholländisches Gambit",
@@ -252,7 +252,7 @@
     "strategy": "Tauscht den starken Springer gegen den weißen, und Weiß schlägt mit einem Bauernzug zurück, der Linien für die Dame und den Läufer auf c1 öffnet. Schwarz hat Zeit aufgewendet, während der Bauer e5 weiter sein Spiel einengt. Spielbar, aber der Hauptweg ist besser."
   },
   "1.e4 c5 2.Nf3 Nf6 3.e5 Nd5 4.Nc3 Nb6": {
-    "strategy": "Zieht den Springer zurück, der sich schon zweimal bewegt hat, und vermeidet so den Abtausch und jeden Schaden in der Bauernstruktur. Schwarz nimmt hin, vom Bauern e5 eingeengt zu werden, und lässt Weiß in Ruhe ein volles Zentrum aufbauen."
+    "strategy": "Zieht den Springer, der schon zweimal gezogen hat, zurück, um dem Abtausch auszuweichen. Weiß nutzt die Zeit, um ein breites Zentrum aufzubauen, der Bauer e5 engt Schwarz ein, und der Springer auf b6 trägt nichts zur Entwicklung von Schwarz bei."
   },
   "1.e4 c5 2.Nf3 Nf6 3.e5 Nd5 4.Nc3 e6 5.Nxd5": {
     "strategy": "Beseitigt die aktivste Figur von Schwarz; Schwarz schlägt normalerweise mit dem Bauern zurück. Weiß behält den Bauern e5 als einengende Speerspitze und bereitet einen sofortigen Schlag gegen das Zentrum vor."
@@ -289,7 +289,7 @@
     "strategy": "Greift den Bauern e5 sofort an und befreit den Läufer c8. Doch er öffnet die Diagonale zum eigenen König, wo sich der Entwicklungsvorsprung von Weiß bemerkbar macht, sodass Schwarz genau spielen muss, um das Gleichgewicht zu halten."
   },
   "1.e4 c5 2.Nf3 Nf6 3.e5 Nd5 4.Nc3 e6 5.Nxd5 exd5 6.d4 Be7": {
-    "strategy": "Entwickelt den Läufer und bereitet die Rochade vor, übt aber keinen Druck auf das weiße Zentrum aus. Der Bauer d5 hat keine Stütze, und dxc5 öffnet die d-Linie gegen ihn, während Weiß in der Entwicklung voraus ist; Schwarz steht unter Druck und hat wenig vorzuweisen."
+    "strategy": "Entwickelt den Läufer und bereitet die Rochade vor, tut aber nichts gegen das Zentrum. Nach 7.dxc5 ist die d-Linie offen, und wenn Schwarz auf c5 zurückschlägt, ist der Bauer d5 isoliert und der Bauer e5 von Weiß engt die Stellung ein."
   },
   "1.e4 c5 2.Nf3 Nf6 3.Nc3 d6": {
     "strategy": "Verhindert e4-e5, das den Springer erneut angreifen würde, und bereitet vor, auf d4 zu schlagen. Schwarz steuert ein normales Offenes Sizilianisch mit dem Bauern auf d6 und einem Springer auf f6 an und vermeidet die beengten Partien, die das Vorrücken e5 mit sich bringt."

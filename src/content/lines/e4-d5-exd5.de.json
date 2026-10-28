@@ -105,13 +105,13 @@
     "strategy": "Gibt einen zweiten Bauern für offene Linien für den Königsläufer und die Dame, ohne eine konkrete Drohung vorweisen zu können. Weiß ist zwei Bauern voraus, und der vorgerückte Bauer auf c6 schränkt Schwarz ein, indem er b7 und d7 angreift, sodass Weiß sich einfach entwickelt."
   },
   "1.e4 d5 2.exd5 c6 3.dxc6 bxc6": {
-    "strategy": "Schlägt mit dem b-Bauern zurück, sodass ein Bauer statt eines Springers d5 hält und die b-Linie für den Turm halb offen ist. Schwarz steht noch einen Bauern zurück, ohne einen Entwicklungsvorsprung dafür zu haben, und der Bauer auf c6 kann zum Angriffsziel werden."
+    "strategy": "Schlägt mit dem b-Bauern zurück, was Schwarz isolierte a- und c-Bauern und keinen d-Bauern lässt, und ohne die schnelle Entwicklung der Springer-Wiedernahme. Schwarz hat einfach einen Bauern weniger, eine schlechtere Struktur und nichts dafür vorzuweisen."
   },
   "1.e4 d5 2.exd5 e5 3.dxe6": {
     "strategy": "Nimmt den angebotenen Bauern en passant, womit Weiß zwei Bauern mehr hat, bis Schwarz auf e6 zurückschlägt. Das Gambit gibt Schwarz nicht mehr als Entwicklung als Gegenwert, deshalb hat Weiß keinen Grund abzulehnen und kann gelassen die Entwicklung beenden."
   },
   "1.e4 d5 2.exd5 e5 3.d4": {
-    "strategy": "Begegnet dem Gambit im Zentrum und behält den Mehrbauern: Nach ...exd4 schlägt die Dame auf einem zentralen Feld zurück. Das ist solide und einfach, erlaubt Schwarz aber, die Stellung für die Figuren zu öffnen, während Weiß mit en passant sofort zwei Bauern vorn wäre."
+    "strategy": "Gibt den zusätzlichen Bauern sofort zurück: Mit dem Bauern auf d4 vor der Dame verliert d5 seine Deckung, und ...Dxd5 gewinnt ihn zurück, und nach dxe5 schlägt die Dame mit Schach zurück. Schwarz erhält eine aktive Dame und ein ausgeglichenes Spiel, und Weiß hat das Gambit vergeudet."
   },
   "1.e4 d5 2.exd5 e5 3.Nc3": {
     "strategy": "Entwickelt eine Figur und deckt den Bauern auf d5, sodass Weiß den Mehrbauern ohne jede Festlegung behält. Das ist solide, aber bescheiden: Schwarz behält den Bauern auf e5 und die offenen Linien des Gambits, und Weiß hat nicht die zwei Bauern genommen, die das Schlagen en passant sofort gewinnt."
@@ -166,7 +166,7 @@
   "1.e4 d5 2.exd5 Nf6 3.d4 g6": {
     "name": "Skandinavische Verteidigung: Richter-Variante",
     "background": "Ein seltener Zug, den IM Kurt Richter in den 1930er-Jahren gelegentlich spielte.",
-    "strategy": "Ein seltenes Fianchetto: Der Läufer auf g7 setzt d4 aus der Ferne unter Druck, statt sich vor den Zentrumsbauern des Weißen zu entwickeln. Schwarz lässt d5 vorerst in Ruhe, sodass Weiß mit c4 den Mehrbauern und den Raumvorteil sichern kann."
+    "strategy": "Bereitet das Fianchetto vor, lässt d5 aber in Ruhe. Weiß verteidigt den Bauern mit c4 und behält ihn, dazu mit breitem Zentrum. Schwarz hat keine schnelle Möglichkeit, den Bauern zurückzugewinnen, und verbringt die nächsten Züge mit einem langsamen Plan einen Bauern im Nachteil."
   },
   "1.e4 d5 2.exd5 Nf6 3.d4 Bg4 4.f3": {
     "strategy": "Der Hauptzug: Er pariert die Drohung gegen die Dame und greift den Läufer sofort an. Der Preis: f3 nimmt dem Springer auf g1 sein natürliches Feld und schwächt den Königsflügel, sodass Weiß rochieren muss, bevor sich das Zentrum öffnet, denn Schwarz ist in der Entwicklung voraus."
@@ -190,7 +190,7 @@
     "strategy": "Blockt das Schach mit dem Bauern und bietet ihn an. Die Dame sofort zu schlagen ist ein Fehler: Nach dxc6 Lxd1? gewinnt das Abzugsschach c7+ mit Zinsen Material zurück. Mit dem Springer zurückzunehmen gibt Schwarz bestenfalls Entwicklung für einen Bauern."
   },
   "1.e4 d5 2.exd5 Nf6 3.d4 Bg4 4.Bb5+ Bd7": {
-    "strategy": "Blockt das Schach mit dem Läufer und bietet Abtausch an, was zugleich die Drohung gegen die Dame beendet. Schwarz hat dann seine aktivste Figur verloren, und der Bauer d5 gehört weiter Weiß; der Zug ist solide, gibt aber den Sinn des Gambits auf, den Entwicklungsvorsprung."
+    "strategy": "Blockt das Schach mit dem Läufer und gibt damit den Angriff auf die Dame auf. Weiß zieht den Läufer nach e2 zurück und behält den Bauern d5, während Schwarz seine aktivste Figur umsonst eingesetzt hat: Der Entwicklungsvorsprung, der Sinn des Gambits, ist dahin."
   },
   "1.e4 d5 2.exd5 Nf6 3.d4 Bg4 4.Bb5+ Nbd7 5.Be2": {
     "name": "Skandinavische Verteidigung: Portugiesisches Gambit, Lusophoben-Variante",
@@ -203,13 +203,13 @@
     "strategy": "Blockt den Angriff auf die Dame mit einem Entwicklungszug, gibt aber den Bauern d5 zurück: Schwarz nimmt ihn mit dem Springer, und der Springer auf f3 bleibt an die Dame gefesselt. Schwarz hat ein ausgeglichenes Spiel und eine leichte Entwicklung."
   },
   "1.e4 d5 2.exd5 Nf6 3.d4 Bg4 4.f3 Bf5": {
-    "strategy": "Hält den Läufer aktiv auf der Diagonale b1-h7, statt passiv zurückzuweichen, und nimmt in Kauf, dass f3 ein Tempo gegen ihn gewonnen hat. Das Vorrücken f3 hat keine Figur entwickelt und den Königsflügel geschwächt, sodass der Entwicklungsvorsprung des Schwarzen der Kern bleibt; Schwarz spielt darauf, das Zentrum zu öffnen, bevor Weiß rochiert."
+    "strategy": "Hält den Läufer auf seiner aktiven Diagonale, doch g4 vertreibt ihn erneut und bereitet g5 gegen den Springer vor, sodass Weiß Raum und Tempo gewinnt und den Bauern behält. Schwarz steht beengt, und der Entwicklungsvorsprung gleicht das nicht aus."
   },
   "1.e4 d5 2.exd5 Nf6 3.d4 Bg4 4.f3 Bh5": {
-    "strategy": "Weicht nach h5 statt nach f5 zurück, aber g4 vertreibt den Läufer weiter nach g6, mit einem weiteren Raumgewinn für Weiß. Spielbar, doch Schwarz hat nicht mehr als in der Hauptvariante, und der Läufer kann weiter gejagt werden."
+    "strategy": "Weicht nach h5 zurück, wo g4 den Läufer mit Raumgewinn weiter nach g6 treibt. Weiß behält den Mehrbauern, während der Läufer über das Brett gejagt wird und Schwarz nichts entwickelt."
   },
   "1.e4 d5 2.exd5 Nf6 3.d4 Bg4 4.f3 Bd7": {
-    "strategy": "Zieht den Läufer aus der Reichweite zurück, verliert aber Zeit: f3 hat ein Tempo gewonnen, und Schwarz steht noch einen Bauern zurück. Der Läufer behält ein flexibles Feld, und Schwarz muss den Bauern d5 zurückgewinnen, und zwar gegen eine Königsseite von Weiß, die f3 gelockert hat."
+    "strategy": "Entzieht sich dem Angriff und hält den Läufer flexibel. Der Bauer auf f3 hat die Königsflügelstellung von Weiß geschwächt und dem Springer g1 sein natürliches Feld genommen, sodass Schwarz den Bauern d5 mit ...c6 zurückgewinnen und den Entwicklungsvorsprung gegen einen noch nicht rochierten König nutzen kann."
   },
   "1.e4 d5 2.exd5 Nf6 3.d4 Bg4 4.f3 Bf5 5.g4": {
     "name": "Skandinavische Verteidigung: Portugiesisches Gambit, Fernschach-Widerlegung",
@@ -218,10 +218,10 @@
   "1.e4 d5 2.exd5 Nf6 3.d4 Bg4 4.f3 Bf5 5.c4": {
     "name": "Skandinavische Verteidigung: Portugiesisches Gambit, Banker-Variante",
     "background": "Nach David Smerdons Darstellung spielte GM Zili Wang sie in einem Länderkampf Portugal gegen China 1996 in Macau gegen Rui Damaso und wurde in dreizehn Zügen mattgesetzt.",
-    "strategy": "Sichert den Bauern d5 mit einem Bauern und hält so das Mehrmaterial. Der Preis ist Zeit: Der Bauer c4 sperrt den Läufer auf f1 ein, die Entwicklung ist unvollendet, und das Zentrum kann gegen den nicht rochierten König geöffnet werden, sodass Weiß bei Rückstand in der Entwicklung nicht zu gierig sein darf."
+    "strategy": "Verteidigt den Bauern mit einem Bauern, erlaubt aber ...e6: Das Zentrum öffnet sich, während Weiß noch nicht rochiert hat und der Entwicklungsvorsprung von Schwarz viel zählt, sodass der Mehrbauer kein sicherer Vorteil ist. Das schärfere g4 hätte Schwarz beengt gehalten."
   },
   "1.e4 d5 2.exd5 Nf6 3.d4 Bg4 4.f3 Bf5 5.Bb5+": {
-    "strategy": "Gibt zuerst Schach, sodass Schwarz eine Figur vor den König stellen muss, wobei der Bauer d5 c6 kontrolliert und eine Abwehr unbequem macht. Weiß stützt dann d5 mit dem c-Bauern, nachdem er den Läufer mit Tempo entwickelt hat, auch wenn dieser auf b5 von einem Bauern angegriffen werden kann."
+    "strategy": "Gibt zuerst Schach, doch Schwarz entwickelt sich einfach mit ...Sbd7, und der Läufer auf b5 kann mit ...a6 angegriffen werden. Weiß verschenkt den Moment: Schwarz kann den Bauern d5 zurückgewinnen, während sofortiges g4 Raum und Tempo gegen den Läufer gewänne."
   },
   "1.e4 d5 2.exd5 Nf6 3.d4 Bg4 4.f3 Bf5 5.Bb5+ Nbd7": {
     "strategy": "Die übliche Abwehr: Sie entwickelt den Springer von b8 und hält den c-Bauern frei. Der Springer ist vorerst an den König gefesselt, sodass Schwarz den Läufer vertreiben muss, um ihn zu befreien, während Weiß den Bauern d5 sichern muss, bevor sich der Entwicklungsvorsprung des Schwarzen auswirkt."
@@ -247,20 +247,20 @@
     "strategy": "Schlägt mit dem Läufer den gefesselten Springer und gibt damit die Fesselung auf, die die Figuren von Schwarz gebunden hat. Weiß bleibt einen Bauern voraus, doch Schwarz schlägt mit einer entwickelten Dame zurück und behält den Entwicklungsvorsprung."
   },
   "1.e4 d5 2.exd5 Nf6 3.d4 c6 4.dxc6": {
-    "strategy": "Schlägt einen zweiten Bauern, doch Schwarz nimmt mit einer Figur zurück oder schlägt im Zentrum zurück und erhält einen Entwicklungsvorsprung und offene Linien für die Bauern. Weiß muss das Mehrmaterial verteidigen, solange der König noch im Zentrum steht, was riskant ist."
+    "strategy": "Schlägt einen zweiten Bauern. Nach dem Wiederschlagen auf c6 hat Schwarz schnelle Entwicklung und Druck auf d4, doch das Zentrum von Weiß hält und Weiß behält den Mehrbauern, sodass Schwarz auf Aktivität spielen muss. Weiß muss wegen des Königs im Zentrum aufpassen."
   },
   "1.e4 d5 2.exd5 Nf6 3.d4 c6 4.c4": {
-    "strategy": "Verteidigt den Bauern d5 und baut ein breites Zentrum auf. Nimmt Schwarz auf d5, hat Weiß den Mehrbauern für Raum zurückgegeben: Die Bauern von Weiß auf c4 und d4 stehen dem schwarzen Bauern auf d5 gegenüber, eine ausgewogene Struktur mit Chancen für beide Seiten."
+    "strategy": "Verteidigt den Bauern d5 und baut ein breites Zentrum auf, gibt den Mehrbauern aber zurück: Sobald auf d5 getauscht und von Schwarz wiedergeschlagen wird, ist das Material ausgeglichen. Solide und stabil, verzichtet aber auf die Chance, einen Bauern zu behalten."
   },
   "1.e4 d5 2.exd5 Nf6 3.d4 c6 4.Nf3": {
-    "strategy": "Entwickelt eine Figur und deckt zunächst d4, die Frage der Bauernstruktur bleibt für später offen. Sobald Schwarz auf d5 nimmt, kann Weiß mit dem bereits entwickelten Springer immer noch das breite Zentrum aufbauen, das Spiel ist also ausgeglichen. Eher flexibel als scharf."
+    "strategy": "Entwickelt eine Figur und deckt zunächst d4, die Bauernstruktur bleibt späteren Zügen überlassen. Sobald Schwarz auf d5 schlägt, ist das Material ausgeglichen und die Partie im Gleichgewicht. Flexibel und solide, gibt aber die Chance auf, einen Bauern zu behalten."
   },
   "1.e4 d5 2.exd5 Nf6 3.d4 c6 4.dxc6 e5": {
     "name": "Skandinavische Verteidigung: Kádas-Gambit",
-    "strategy": "Ein weiterer angebotener Bauer: Schwarz greift sofort d4 an und öffnet die Diagonale des Läufers auf f8, in der Hoffnung, dass offene Linien und ein Entwicklungsvorsprung das Material aufwiegen. Weiß muss dann die Entwicklung bei einem noch im Zentrum stehenden König vollenden, sodass Schwarz echte Chancen hat, wenn Weiß unvorsichtig ist."
+    "strategy": "Bietet einen zweiten Bauern umsonst an: Weiß schlägt auf b7, der Läufer von Schwarz schlägt zurück, und Weiß ist zwei Bauern im Vorteil. Die offenen Linien und der Angriff auf d4 gleichen das nicht aus."
   },
   "1.e4 d5 2.exd5 Nf6 3.d4 c6 4.dxc6 Nxc6": {
-    "strategy": "Schlägt mit einem Entwicklungszug zurück, der d4 angreift. Schwarz hat einen Bauern gegeben, aber der Springer kommt mit Tempo heraus, und die Figuren gewinnen Einfluss auf das Zentrum, sodass Weiß d4 verteidigen und die Entwicklung sorgfältig abschließen muss. Der Mehrbauer ist schwer zu halten, und das Spiel ist etwa ausgeglichen."
+    "strategy": "Schlägt mit einem Entwicklungszug zurück, der d4 angreift. Schwarz steht einen Bauern im Nachteil, doch der Springer kommt mit Tempo heraus und die Figuren erlangen Zugriff auf das Zentrum, sodass Weiß d4 verteidigen und die Entwicklung sorgfältig abschließen muss. Weiß behält den Mehrbauern."
   },
   "1.e4 d5 2.exd5 Nf6 3.d4 c6 4.dxc6 bxc6": {
     "strategy": "Schlägt mit dem b-Bauern zurück, was die b-Linie öffnet, aber den a-Bauern isoliert lässt und nichts entwickelt. Weiß hat einen Bauern mehr und das größere Zentrum und kann die Entwicklung in Ruhe abschließen. Spielbar, aber langsam."
@@ -269,10 +269,10 @@
     "strategy": "Die natürliche Antwort: Der c-Bauer verteidigt d5 und nimmt Raum, sodass Weiß den Mehrbauern behält, den das Fianchetto nicht schnell zurückgewinnen kann. Weiß baut ein breites Bauernzentrum auf, und Schwarz muss es mit Figuren und Bauerndurchbrüchen untergraben."
   },
   "1.e4 d5 2.exd5 Nf6 3.d4 g6 4.Nf3": {
-    "strategy": "Entwickelt und deckt d4, wobei in Kauf genommen wird, dass Schwarz auf d5 zurücknimmt. Weiß vertreibt den Springer dann mit dem c-Bauern und erhält ein breites Zentrum und mehr Raum, sodass der fianchettierte Läufer von Schwarz auf eine solide Kette trifft. Eine gute Alternative dazu, den Bauern sofort zu verteidigen."
+    "strategy": "Entwickelt sich und deckt d4, nimmt aber hin, dass Schwarz auf d5 zurückschlägt. Weiß vertreibt den Springer mit c4 und gewinnt mehr Raum, doch der Mehrbauer ist weg. Solide und flexibel, aber einen Schritt hinter der sofortigen Verteidigung des Bauern."
   },
   "1.e4 d5 2.exd5 Nf6 3.d4 g6 4.Nc3": {
-    "strategy": "Entwickelt und deckt d5 mit einer Figur, doch Schwarz kann auf d5 tauschen und mit der Dame zurückschlagen, sodass Weiß den Bauern für ein ruhiges, ausgeglichenes Spiel zurückgibt. Der Springer blockiert außerdem den c-Bauern, der Weiß ein größeres Zentrum verschafft hätte."
+    "strategy": "Entwickelt sich und deckt d5, doch Schwarz schlägt einfach auf d5, und der Bauer ist weg. Der Springer auf c3 versperrt außerdem den c-Bauern, der den Bauern behalten und ein größeres Zentrum aufgebaut hätte, sodass Weiß ohne Not eine ausgeglichene Partie bekommt."
   },
   "1.e4 d5 2.exd5 Nf6 3.d4 g6 4.c4 b5": {
     "name": "Skandinavische Verteidigung: Moderne Variante, Flügelgambit",

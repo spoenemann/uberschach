@@ -21,7 +21,7 @@
   },
   "1.e4 Nf6 2.e5 Nd5 3.Na3": {
     "name": "Alekhine's Defence: Buckley Attack",
-    "strategy": "A knight on the rim: it may reach c4 later, but it does nothing for the centre, and the e5 pawn is left without support. Black can attack that pawn at once, and White has spent a tempo on a square the knight will want to leave."
+    "strategy": "A knight on the rim: it may reach c4 later, but it does nothing for the centre and leaves the e5 pawn unsupported. Black has no direct punishment, yet White spends a tempo on a square the knight will want to leave."
   },
   "1.e4 Nf6 2.e5 Nd5": {
     "name": "Alekhine's Defence: Normal Variation"
@@ -155,13 +155,13 @@
     "strategy": "Moves the queen out of attack with a threat to the c3 knight, but does not recapture: the knight simply steps away to e4, where nothing attacks it, and White has lost a piece for nothing."
   },
   "1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.c5 Nd5 5.Nc3 Nxc3 6.dxc3 d6": {
-    "strategy": "Attacks c5 and e5 at once, neither of which has any pawn behind it, and opens the c8-bishop. White cannot easily support both, so the space gained by the pawn advances now comes under pressure."
+    "strategy": "Attacks c5 and e5 at once with a pawn and opens the c8-bishop, so White cannot easily keep both advanced pawns. But White defends e5 with a developing move and can trade on d6, so Black gets less than with the knight move."
   },
   "1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.c5 Nd5 5.Nc3 Nxc3 6.dxc3 b6": {
-    "strategy": "Attacks the base of the c5 pawn from the side, and it has no pawn behind it. White has to resolve the tension at once, and Black gets an open file against the queenside while the e5 pawn stays loose."
+    "strategy": "Hits the c5 pawn from the side, but opens the long diagonal to the rook on a8: Qf3 attacks it and f7 together, and ...c6 to cover it leaves d6 weak. White keeps its space and the initiative."
   },
   "1.e4 Nf6 2.e5 Nd5 3.c4 Nb6 4.c5 Nd5 5.Nc3 Nxc3 6.dxc3 Nc6": {
-    "strategy": "Develops with a direct threat to e5, but it attacks only one of the two loose pawns, and White can defend it while developing. The pawn strike that hits both at once is more precise."
+    "strategy": "Develops with a direct threat to e5, which nothing protects, so White must spend a move on it while the c5 pawn, also unprotected, stays a target. Black gets the easier game, since the advanced pawns are weaker than they look."
   },
   "1.e4 Nf6 2.e5 Nd5 3.d4 d6": {
     "name": "Alekhine's Defence",
@@ -220,7 +220,7 @@
     "strategy": "The solid recapture: a compact pawn structure and an open e-file, but fewer chances to fight the white pawns. The game turns positional and rests on piece play, with ...d5 as the way to free the position later."
   },
   "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.exd6 Qxd6": {
-    "strategy": "Recaptures with the queen and keeps the pawn structure intact. The queen is exposed to c5, which attacks it and the knight together; ...Qe6+ gets out of the fork with check, but Black will sooner or later have to deal with that threat."
+    "strategy": "Recaptures with the queen, which exposes it at once: c5 forks queen and knight, and although ...Qe6+ gets out with check, Black has lost time and White keeps its space and lead in development. A clear concession."
   },
   "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.exd6 cxd6 6.Nc3": {
     "strategy": "Develops while keeping the king's knight off f3, where ...Bg4 would make it a target. White delays kingside development so that Black has less to harass, and the knight on c3 adds pressure on d5."
@@ -235,10 +235,10 @@
     "strategy": "Prepares to fianchetto the king's bishop: from g7 it presses along the long diagonal on d4, and Black attacks White's pawn centre with pieces instead of defending against it. The central pawn majority gives that plan its support."
   },
   "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.exd6 cxd6 6.Nc3 Nc6": {
-    "strategy": "Attacks the d4 pawn at once, but d5 drives the knight away with a gain of space, and it has to settle on a square like e5 or b4. Black loses time unless the knight finds a use there."
+    "strategy": "Attacks d4 at once, but d5 drives the knight away with a gain of space, and it has to find a new square, where it does little. Black loses time against a pawn centre that has gained ground."
   },
   "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.exd6 cxd6 6.Nc3 Bf5": {
-    "strategy": "Develops the bishop outside the pawn chain at once. But it can be harassed: White can offer a trade with Bd3 or chase it with g4, and the bishop then has to give up the diagonal."
+    "strategy": "Develops the bishop outside the pawn chain at once, but it can be harassed: g4 drives it back and gains space on the kingside, so Black loses time against a growing white initiative."
   },
   "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.f4 dxe5": {
     "strategy": "The main reply: Black strikes at the head of the chain at once. After the recapture with the f-pawn the f-file is half-open for White and Black can aim pieces at d4 and e5, the weak points of the big centre."
@@ -273,7 +273,7 @@
     "strategy": "Develops the bishop outside the pawn chain before ...e6 closes it in, and keeps ...c5 available before the knight commits. It does not hit d4 at once, but the game usually reaches the same positions as the knight move, with White's big centre under pressure."
   },
   "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.f4 dxe5 6.fxe5 c5": {
-    "strategy": "Strikes at the base of White's centre with a pawn instead of a piece. It is riskier than the knight move: d5 gains space and takes c6 and e6 away from Black's pieces, so Black has to play accurately not to be squeezed."
+    "strategy": "Strikes at the base of White's centre with a pawn instead of a piece, but d5 gains space at once and takes c6 and e6 from Black's pieces. Black stays cramped against a pawn centre that has gained ground."
   },
   "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.c4 Nb6 5.Nf3 Bg4": {
     "strategy": "Pins the knight to the queen and loosens White's hold on the centre. The knight cannot leave f3 without losing the queen, which means the e5 pawn depends on the d-pawn alone."
@@ -330,7 +330,7 @@
   },
   "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 Bg4 5.Be2 c6": {
     "name": "Alekhine's Defence: Modern Variation, Flohr Variation",
-    "strategy": "Supports the knight on d5 with a pawn and covers b5, so the knight keeps its post in the centre. A solid, compact choice, at the price of the c6 square, which the b8-knight loses."
+    "strategy": "Supports the knight on d5 with a pawn, so it keeps its post, and the structure is solid. But the pawn takes c6 from the b8-knight and does nothing against White's centre, so Black stays passive while White holds more space."
   },
   "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 Bg4 5.Be2 e6": {
     "strategy": "Backs up the knight on d5 with a pawn and opens the king's bishop, leaving the tension on e5 as it is. Black accepts a compact, slightly cramped set-up and waits for the moment to strike at White's centre with a pawn break."
@@ -363,7 +363,7 @@
     "strategy": "Guards the knight with a pawn instead of retreating it, so a trade on d5 only gives Black a central pawn. It is solid but slow: c6 is taken from the b8-knight, the fianchetto is still to come, and White keeps the initiative."
   },
   "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 g6 5.Bc4 e6": {
-    "strategy": "Props up the knight with the e-pawn, so Bxd5 exd5 leaves Black a sound pawn on d5. But the pawn shuts in the c8-bishop and lets White trade off the centre and open the e-file, so Black spends the next moves catching up."
+    "strategy": "Props up the knight with the e-pawn, so Bxd5 exd5 leaves Black a pawn on d5. But the pawn shuts in the c8-bishop, and White trades the centre and opens lines before Black is developed, so Black spends the next moves catching up."
   },
   "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 g6 5.Bc4 Nb6 6.Bb3": {
     "strategy": "Keeps the bishop instead of allowing a trade on c4. From b3 it stays on the diagonal to f7, so Black has to watch that square throughout, while White keeps its space and the initiative on the kingside."
@@ -381,6 +381,6 @@
     "strategy": "Threatens ...a4, which would push the bishop back to a2 and gain space on the queenside. The price is time: a pawn move on the wing while White leads in development and keeps the initiative."
   },
   "1.e4 Nf6 2.e5 Nd5 3.d4 d6 4.Nf3 g6 5.Bc4 Nb6 6.Bb3 e6": {
-    "strategy": "Shuts the b3-bishop's diagonal with a pawn, so f7 is no longer a target. The cost is a passive set-up: the c8-bishop is hemmed in, and White keeps its space and the freer game."
+    "strategy": "Shuts the b3-bishop's diagonal so f7 stops being a target, but the pawn on e6 hems in the c8-bishop and leaves Black a passive, cramped set-up. White keeps the space and the freer game while Black is still catching up in development."
   }
 }

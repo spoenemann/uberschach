@@ -28,7 +28,7 @@
     "strategy": "Stützt den Bauern e5 und gibt den Läufer c8 frei, nimmt dafür aber ein geschlossenes Zentrum in Kauf. Das ist sicher, aber passiv: Schwarz hat die Gelegenheit, sich mit Tempo zu entwickeln, nicht genutzt, und Weiß erhält Zeit, hinter seinem Raumvorteil aufzubauen."
   },
   "1.d4 e5 2.d5 Bc5 3.e4": {
-    "strategy": "Gewinnt Raum, läuft aber in eine Doppeldrohung: Die Dame geht nach h4 und greift den Bauern e4 sowie, gemeinsam mit dem Läufer, den nur vom König gedeckten Bauern f2 an. Weiß muss sofort verteidigen und überlässt Schwarz die Initiative."
+    "strategy": "Nimmt sofort Zentrum und Raum. Der Damenausfall ...Dh4 greift e4 und f2 zugleich an, aber Df3 deckt beide, und die Partie bleibt ausgeglichen. Weiß legt sich auf ein breites Zentrum fest, das der schwarze Läufer und die Dame belästigen werden."
   },
   "1.d4 e5 2.d5 Bc5 3.Nf3": {
     "strategy": "Entwickelt den Springer mit einem Angriff auf den Bauern e5, den der Läufer nicht deckt, und deckt h4, sodass der Damenausfall, der e4 bestraft, nie kommt. Weiß behält den gewonnenen Raum und zwingt Schwarz, auf die Drohung zu reagieren."
@@ -66,20 +66,20 @@
     "strategy": "Verteidigt den Bauern mit einem Entwicklungszug, der einfachsten Möglichkeit, das zusätzliche Material zu behalten. Der Springer steht auf f3 ideal, und Weiß kann die Entwicklung in Ruhe beenden; die einzige Herausforderung ist, die taktischen Tricks zu sehen, die die schnelle Entwicklung von Schwarz mit sich bringt."
   },
   "1.d4 e5 2.dxe5 Nc6 3.Bf4": {
-    "strategy": "Hält den Mehrbauern mit einem entwickelnden Läufer statt mit einem Springer. Der Läufer steht aktiv, doch ...g5 oder ...f6 fordert ihn sofort heraus, sodass Weiß den Bauern behalten muss, ohne in der Entwicklung zurückzufallen."
+    "strategy": "Hält den Mehrbauern mit einem entwickelnden Läufer, doch ...g5 greift ihn sofort an, und der Läufer muss sich zurückziehen, während Schwarz Raum gewinnt. Weiß bleibt im Vorteil, wenn auch mit weniger als nach dem Springerzug."
   },
   "1.d4 e5 2.dxe5 Nc6 3.Nc3": {
-    "strategy": "Entwickelt einen Springer, lässt aber den Bauern e5 ungedeckt, sodass Schwarz ihn einfach mit dem Springer zurückerobert und das Gambit vorbei ist. Solide, aber Weiß erhält nichts dafür: Der Mehrbauer geht kampflos verloren."
+    "strategy": "Entwickelt einen Springer, lässt e5 aber ungedeckt, sodass Schwarz den Bauern mit ...Sxe5 sofort zurückerobert. Der Mehrbauer, der 2.dxe5 lohnend machte, ist verloren, und Schwarz hat ihn mit einem Entwicklungszug zurückgewonnen."
   },
   "1.d4 e5 2.dxe5 Nc6 3.Nf3 Qe7": {
     "name": "Englund-Gambit: Hauptvariante",
     "background": "Henri Grob spielte diese Variante des Gambits mit 3...De7 häufig.",
-    "strategy": "Setzt einen zweiten Angreifer auf e5, das nur der Springer verteidigt, sodass Schwarz droht, den Bauern sofort zurückzugewinnen. Die Dame tritt früh heraus, hat aber auch die Idee, nach b4 zu schwenken und den Bauern b2 einzusammeln, falls Weiß unvorsichtig entwickelt."
+    "strategy": "Fügt e5 einen zweiten Angreifer hinzu, sodass Schwarz droht, den Bauern zurückzugewinnen, und bereitet ...Db4+ gegen unvorsichtige Entwicklung vor. Die Dame kommt früh heraus und versperrt ihrem eigenen Läufer den Weg, und Weiß kann die Drohung mit einem Entwicklungszug parieren."
   },
   "1.d4 e5 2.dxe5 Nc6 3.Nf3 f6": {
     "name": "Englund-Gambit: Verzögertes Soller-Gambit",
     "background": "Das Gambit ist nach Karl Soller benannt. Ausführliche gedruckte Analysen beschränken sich auf zwei deutschsprachige Werke von Stefan Bücker aus den 1980er und 1990er Jahren; in den letzten Jahren hat der Internationale Meister Kamran Shirazi es in mehr als 1.400 Blitz- und Bullet-Partien online gespielt.",
-    "strategy": "Fordert e5 mit einem Bauern heraus, um die f-Linie und das Zentrum für die Figuren zu öffnen, und nimmt dafür einen Bauernrückstand in Kauf. Der Zug schwächt den Königsflügel, und Weiß behält mit ruhigem Spiel einen gewissen Vorteil."
+    "strategy": "Greift e5 mit einem Bauern an, um Linien für die Figuren zu öffnen, und erhält dafür etwas Spiel, schwächt aber die Diagonale des Königs. Weiß behält einen kleinen Vorteil, entweder durch das Halten des Mehrbauern oder durch seine Rückgabe für einen Entwicklungsvorsprung."
   },
   "1.d4 e5 2.dxe5 Nc6 3.Nf3 Bc5": {
     "name": "Englund-Gambit: Felbecker-Gambit",
@@ -90,9 +90,12 @@
     "background": "Das Gambit ist nach dem amerikanischen Spieler Lev D. Zilbermints benannt, von dem ausführliche Analysen der Variante in Blackmar Diemer Gambit World (Ausgaben 61–63) erschienen. Stefan Bücker analysierte sie in Kaissiber 5 und 6 weiter.",
     "strategy": "Will e5 über g6 ein zweites Mal angreifen, braucht dafür aber zwei Züge und blockiert den Läufer f8, sodass Weiß Zeit hat, zu verteidigen oder sich zu entwickeln. Ein langsamer Weg, den Bauern zurückzugewinnen, der darauf setzt, dass Schwarz ankommt, bevor Weiß sich konsolidiert."
   },
+  "1.d4 e5 2.dxe5 Nc6 3.Nf3 d6": {
+    "strategy": "Greift e5 mit einem Bauern an und öffnet den Läufer auf c8, der am wenigsten kostspielige Weg, das Gambit fortzusetzen. Schwarz bleibt einen Bauern im Rückstand, aber nichts wird geschwächt und die Entwicklung geht schnell voran, sodass Weiß den Mehrbauern mit Sorgfalt behaupten muss."
+  },
   "1.d4 e5 2.dxe5 Nc6 3.Nf3 Qe7 4.Qd5": {
     "name": "Englund-Gambit: Stockholmer Variante",
-    "strategy": "Hält den Bauern, indem die Dame ihn aus dem Zentrum deckt, statt Schwarz den Bauern mit Entwicklungsvorsprung zurückgewinnen zu lassen. Die Dame steht früh draußen und ist Angriffen mit Tempo ausgesetzt; Weiß spekuliert darauf, dass der Mehrbauer dies aufwiegt."
+    "strategy": "Deckt e5 aus dem Zentrum, um den Bauern zu behalten, doch die Dame steht ungeschützt: ...f6 greift e5 sofort an, und die Dame muss bald mit Tempogewinn für Schwarz erneut ziehen. Weiß bleibt einen Bauern vorn, aber mit viel weniger, als ein Entwicklungszug behält."
   },
   "1.d4 e5 2.dxe5 Nc6 3.Nf3 Qe7 4.Bf4": {
     "strategy": "Die Hauptvariante: Weiß verteidigt e5 mit einem Entwicklungszug und lässt Schwarz den Bauern b2 mit der Dame gewinnen. Damit ist das Material ausgeglichen, Weiß aber in der Entwicklung voraus, gegen eine Dame fern der Heimat, sodass Weiß auf Initiative statt auf den Mehrbauern spielt."

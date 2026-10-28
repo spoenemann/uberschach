@@ -24,7 +24,7 @@
   },
   "1.e4 e6 2.d4 d5 3.Be3": {
     "name": "Französische Verteidigung: Alapin-Gambit",
-    "strategy": "Ein Gambit: Der Läufer entwickelt sich, und Weiß hofft, den Schlag auf e4 mit f3 zu beantworten und Linien für schnelle Entwicklung zu öffnen. Schwarz nimmt den Bauern und bringt den Springer nach h6 mit Ziel f5, und Weiß hat für den Bauern nicht genug Gegenwert."
+    "strategy": "Ein Gambit: Der Läufer entwickelt sich, und Weiß begegnet ...dxe4 mit f3, um Linien für eine schnelle Entwicklung zu öffnen. Schwarz kann den Bauern behalten, doch Weiß erhält dafür echte Aktivität seiner Figuren. Der Zug ist daher solide, wenn auch riskanter als die Hauptzüge."
   },
   "1.e4 e6 2.d4 d5 3.Nf3": {
     "name": "Französische Verteidigung: Perseus-Gambit",
@@ -32,11 +32,11 @@
   },
   "1.e4 e6 2.d4 d5 3.c4": {
     "name": "Französische Verteidigung: Diemer-Duhm-Gambit",
-    "strategy": "Ignoriert den Angriff auf e4: Schwarz nimmt den Bauern, und Weiß hat nichts Konkretes dafür, da der Zug des c-Bauern nichts entwickelt und keine echte Drohung aufstellt. Ein Gambit, das Weiß nur einen Bauern kostet."
+    "strategy": "Bietet den e4-Bauern an und hofft, mit dem c-Bauern d5 anzugreifen. Schwarz schlägt auf e4 und kann den Bauern halten, sodass Weiß allein aus der Entwicklung Kompensation finden müsste, was nicht ausreicht."
   },
   "1.e4 e6 2.d4 d5 3.Nh3": {
     "name": "Französische Verteidigung: Morphy-Gambit",
-    "strategy": "Lässt e4 hängen und stellt den Springer an den Rand, wo er nur f4 oder g5 anvisiert. Schwarz nimmt den Bauern mit ...dxe4, und Weiß hat keinen Ausgleich."
+    "strategy": "Bietet den e4-Bauern an und steuert g5 an, um ihn anzugreifen, doch der Springer beginnt am Rand, und der Plan ist langsam. Schwarz nimmt den Bauern und behält einen kleinen, dauerhaften Vorteil; die Kompensation von Weiß ist dünn."
   },
   "1.e4 e6 2.d4 d5": {
     "name": "Französische Verteidigung"
@@ -80,7 +80,7 @@
     "strategy": "Entwickelt den Läufer und bereitet die Rochade vor, während alle anderen Figuren flexibel bleiben. Er bestreitet noch nichts, sodass das Spiel des Schwarzen sicher, aber passiv ist und Weiß entscheidet, wie aktiv die symmetrische Stellung wird."
   },
   "1.e4 e6 2.d4 d5 3.exd5 exd5 4.Nc3 Bd6": {
-    "strategy": "Entwickelt den Läufer in Richtung h2, ein aktives Feld, doch er kann durch Sb5 belästigt werden, das ihn angreift und Schwarz einen Zug zur Antwort kostet."
+    "strategy": "Versperrt der Dame die Deckung von d5, sodass Sxd5 einfach einen Bauern gewinnt. Der Läufer erreicht ein aktives Feld, doch Schwarz bekommt nichts für den Bauern zurück, und der weiße Springer landet auf einem starken Zentralfeld."
   },
   "1.e4 e6 2.d4 d5 3.exd5 exd5 4.Nc3 Nf6 5.Bg5": {
     "name": "Französische Verteidigung: Abtauschvariante, Svenonius-Variante",
@@ -219,7 +219,7 @@
     "strategy": "Bietet den Tausch des starken Springers auf e4 an, aber Schwarz zahlt dafür: Das Wiederschlagen erfolgt entweder mit der Dame, die früh herauskommt, oder mit dem g-Bauern, was die Struktur beschädigt. Außerdem hat der Läufer auf d7 seine Diagonale noch nicht erreicht."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bd7 5.Nf3 Nc6": {
-    "strategy": "Entwickelt mit Blick auf d4, aber der Springer besetzt das Feld, auf das der Läufer zusteuert, und versperrt den c-Bauern, sodass der übliche Vorstoß ...c5 entfällt. Schwarz hat kaum etwas, womit er das Zentrum von Weiß herausfordern kann, und der Springer auf e4 steht weiter bequem."
+    "strategy": "Entwickelt den Springer auf das Feld, zu dem der Läufer unterwegs ist, und blockiert damit dessen Diagonale und den c-Bauern: Ohne ...c5 hat Schwarz wenig, um das Zentrum von Weiß herauszufordern, und der Springer auf e4 steht weiter bequem. Schwarz verliert Zeit und seinen Plan."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Nf3": {
     "strategy": "Entwickelt den Königsspringer und schützt d4, wobei der starke Springer auf e4 bleibt und das Zentrum kontrolliert. Weiß entwickelt sich einfach und wartet, bis Schwarz sich festlegt."
@@ -237,7 +237,7 @@
     "strategy": "Entwickelt den Läufer und bereitet die Rochade vor, eine kompakte Aufstellung, die ...Sgf6 und ...c5 in Reserve hält. Sie lässt Weiß sich verbessern, bevor der Springer auf e4 herausgefordert wird, aber die Stellung bleibt solide."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Nf3 c5": {
-    "strategy": "Greift d4 mit dem französischen Bauernvorstoß an, noch bevor die Entwicklung abgeschlossen ist. Das ist natürlich, aber solange der König im Zentrum steht, können die folgenden Abtäusche, besonders der Damen nach dxc5, Schwarz das Rochaderecht kosten."
+    "strategy": "Greift d4 an, bevor er sich entwickelt, doch dxc5 gewinnt einen Bauern. Ihn mit einer Figur zurückzugewinnen führt zu einem Damentausch, der Schwarz das Rochaderecht kostet, und sich stattdessen zu entwickeln lässt Weiß den Mehrbauern behalten."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Nf3 Ngf6 6.Nxf6+": {
     "strategy": "Tauscht den starken Springer, statt ihn zurückzuziehen: Der Springer auf e4 ist angegriffen, und ein Rückzug würde Zeit kosten. Weiß gibt sein bestplatziertes Stück her für eine einfache, sichere Stellung und einen leichten Raumvorteil."
@@ -252,7 +252,7 @@
     "strategy": "Nimmt mit dem Springer von d7 wieder, der ganze Sinn des Aufbaus von Schwarz: Die Bauernstruktur ist intakt, der Läufer auf c8 ist frei, und Schwarz ist bereit, mit ...c5 durchzubrechen. Weiß behält einen leichten Raumvorteil, hat aber kein echtes Ziel."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Nf3 Ngf6 6.Nxf6+ Qxf6": {
-    "strategy": "Hält die Bauernstruktur intakt, bringt aber die Dame früh heraus, wo Lg5 Tempo gegen sie gewinnt, während der Springer auf d7 und der Läufer auf c8 zu Hause bleiben. Schwarz steht solide, aber in der Entwicklung etwas zurück."
+    "strategy": "Hält die Bauernstruktur intakt, bringt aber die Dame früh heraus, wo Lg5 und dann Ld3 sie umhertreiben und Weiß sich mit Tempo entwickelt. Schwarz liegt am Ende weit in der Entwicklung zurück, mit Läufer und Damenspringer noch zu Hause."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Nd7 5.Nf3 Ngf6 6.Nxf6+ gxf6": {
     "strategy": "Schlägt mit dem g-Bauern wieder, was die f-Bauern verdoppelt und den h-Bauern isoliert zurücklässt. Die halboffene g-Linie ist eine geringe Entschädigung für eine Struktur, auf die Weiß für den Rest der Partie zielen kann."
@@ -261,7 +261,7 @@
     "strategy": "Nimmt das Gambit an: Schwarz schlägt den angebotenen Bauern und behält ihn mit vernünftiger Entwicklung samt einem Vorteil. Weiß kann ihn nicht sofort zurückholen, also muss er mit Zeit für einen starken Posten im Zentrum bezahlen."
   },
   "1.e4 e6 2.d4 d5 3.Nf3 Nf6": {
-    "strategy": "Lehnt den Bauern ab und greift e4 mit einer Entwicklung ein zweites Mal an, sodass die Spannung im Zentrum bleibt. Schiebt Weiß vor, untergräbt Schwarz die Bauernkette und erreicht eine übliche Französisch-Struktur, in der der Springer von Weiß schon auf f3 festgelegt ist. Solide, lässt aber die Gelegenheit aus, den Bauern zu behalten."
+    "strategy": "Lehnt das Gambit ab und greift e4 ein zweites Mal an, doch Weiß rückt mit e5 vor, greift den Springer an und gewinnt Raum, wobei der Springer schon auf f3 steht. Schwarz gibt einen Mehrbauern und einen Vorteil für ein etwas schlechteres Spiel her."
   },
   "1.e4 e6 2.d4 d5 3.Nf3 c5": {
     "strategy": "Nimmt d4 von der Flanke ins Visier und lässt die Spannung auf e4 für später. Öffnet sich das Zentrum, kann Schwarz einen isolierten Bauern auf d5 bekommen, erhält dafür aber aktive Figuren und offenes Spiel. Solide, aber lockerer, als den Mehrbauern zu behalten."
@@ -289,7 +289,7 @@
     "strategy": "Greift sofort d4 an. Die Fesselung wirkt hier gegen Schwarz: Schlägt Weiß auf d5, kann der Bauer e6 nicht zurückschlagen, weil die Dame auf e2 dann Schach gäbe, also muss die Dame zurückschlagen und kommt früh heraus. Spielbar, aber Schwarz muss auf die e-Linie achten."
   },
   "1.e4 e6 2.d4 d5 3.Qe2 e5 4.f4": {
-    "strategy": "Greift e5 ein zweites Mal an, und Schwarzes Bauer hat keinen Verteidiger, sodass Schwarz sofort handeln muss. Weiß bietet den f-Bauern an: Nimmt Schwarz ihn, schlägt der e-Bauer mit Schach auf d5, und die Dame auf e2 blickt die offene e-Linie hinab auf den König."
+    "strategy": "Greift e5 ein zweites Mal an und bietet den f-Bauern an, doch der Bauer e4 versperrt weiter die Linie der Dame, sodass der Bauer e5 nicht gefesselt ist. Schwarz schlägt 4...exd4 und steht klar vorn; die Fesselung wirkt erst nach exd5."
   },
   "1.e4 e6 2.d4 d5 3.Qe2 e5 4.exd5": {
     "strategy": "Nutzt die Fesselung: Der Bauer e5 kann nicht auf d4 schlagen, solange die Dame den König auf der e-Linie anblickt, sodass Schwarz das offene Zentrum nicht bestrafen kann. Schwarz schlägt auf d5 mit der Dame zurück und verliert den Bauern e5 an dxe5, und Weiß steht am Ende einen sauberen Bauern vorn."
@@ -305,6 +305,6 @@
     "strategy": "Schlägt zur Mitte hin, statt den f-Bauern zu nehmen, sodass kein Bauer verloren geht: Nach dem Schlagen von Weiß auf d5 mit Schach blockt Schwarz, und die Damen können zu einem ausgeglichenen, offenen Spiel abgetauscht werden. Die gesunde Antwort auf den angebotenen Bauern."
   },
   "1.e4 e6 2.d4 d5 3.Qe2 e5 4.f4 dxe4": {
-    "strategy": "Nimmt den anderen Bauern und hofft, ihn nach dem Zurückschlagen von Weiß auf e5 mit ...Lf5 zu halten. Zweischneidig: Die Dame von Weiß greift den Bauern e4 an, ...Dh4+ verliert nur Zeit wegen g3, und das Bauernpaar von Weiß auf d4 und e5 nimmt Raum. Schwarz ist der Verteidiger."
+    "strategy": "Nimmt den anderen Bauern und hofft, ihn zu halten, doch es folgt dxe5, und die Dame greift den Bauern e4 an, während der Bauer e5 Schwarz einengt. Schwarz muss sich verteidigen, ein schlechter Tausch verglichen mit 4...exd4."
   }
 }

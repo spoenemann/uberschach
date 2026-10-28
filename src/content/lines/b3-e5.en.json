@@ -180,10 +180,10 @@
     "strategy": "Defends e5, but takes the natural f6 square from the g8-knight and exposes the queen. A white knight gains time against it, and once the e5-pawn leaves, the b2-bishop hits f6 too."
   },
   "1.b3 e5 2.Bb2 f6": {
-    "strategy": "Holds e5 with a pawn but takes f6 from the g8-knight and opens the e8–h5 diagonal, so Qh5+ becomes possible once White's e-pawn has moved. The knight has to develop to e7 or h6 instead."
+    "strategy": "Holds e5 with a pawn, but takes f6 from the g8-knight and loosens the e8–h5 diagonal, so the knight must develop on e7 or h6. Sound but clumsy, and White develops freely."
   },
   "1.b3 e5 2.Bb2 e4": {
-    "strategy": "Gains space and avoids the attack on e5, but the pawn is unsupported and the b2–g7 diagonal opens. Nc3 attacks e4, and f3 or d3 undermine it, so Black must spend time to keep it."
+    "strategy": "Gains space and moves the pawn out of the bishop's sight, but it stands unsupported on e4 and White can attack it with development or undermine it with a pawn. Sound, yet Black must keep spending time on it."
   },
   "1.b3 e5 2.Bb2 Na6": {
     "strategy": "Puts the knight on the rim and does nothing about the attack on e5: 3.Bxe5 wins a clean pawn, and the knight on a6 is far from the centre and the kingside."
@@ -192,7 +192,7 @@
     "strategy": "Sends the knight to the rim, where it guards f7 but not e5: 3.Bxe5 wins a pawn for free."
   },
   "1.b3 e5 2.Bb2 Ne7": {
-    "strategy": "Blocks the f8-bishop and does not defend e5: 3.Bxe5 wins a pawn, and chasing the bishop with a knight gains time but does not win the pawn back."
+    "strategy": "Blocks the f8-bishop and does not defend e5: 3.Bxe5 wins a pawn. Black can gain some time by chasing the bishop with the knight, but the pawn does not come back."
   },
   "1.b3 e5 2.Bb2 Qg5": {
     "strategy": "Defends e5 along the rank and eyes g2, which Bf1 covers. 3.Nf3 attacks queen and e5 together, and once the queen moves, e5 is attacked twice and falls."
@@ -204,7 +204,7 @@
     "strategy": "Blocks the queen and the f8-bishop, gives up castling and leaves e5 hanging: 3.Bxe5 wins a pawn for nothing, and the king stays in the centre."
   },
   "1.b3 e5 2.Bb2 Be7": {
-    "strategy": "Develops the bishop but leaves e5 hanging, and g7 is loose without the f8-bishop: 3.Bxe5 wins the pawn and threatens Bxg7 with an attack on h8, so Black must spend a move parrying the threat and stays a pawn down."
+    "strategy": "Develops the bishop but leaves e5 hanging, and with the f8-bishop gone g7 is loose: 3.Bxe5 wins the pawn and threatens Bxg7 and the h8-rook. Black parries with a developing move, but remains a pawn down."
   },
   "1.b3 e5 2.Bb2 Bc5": {
     "strategy": "Eyes f2 but leaves e5 hanging. 3.Bxe5 wins the pawn and also threatens Bxg7 and the h8-rook, since the f8-bishop no longer guards g7."
@@ -231,7 +231,7 @@
     "strategy": "Prepares ...d5 but leaves e5 hanging: 3.Bxe5 wins the pawn, and ...c6 also takes the natural c6 square from the b8-knight."
   },
   "1.b3 e5 2.Bb2 c5": {
-    "strategy": "Takes space on the queenside but ignores the attack on e5: 3.Bxe5 Nc6 4.Bb2 leaves White a clean pawn up."
+    "strategy": "Takes space on the queenside but ignores the attack on e5: 3.Bxe5 Nc6 4.Bb2 leaves White a pawn up for only a little queenside space."
   },
   "1.b3 e5 2.Bb2 f5": {
     "strategy": "Takes e4 away in Dutch style but does not defend e5: 3.Bxe5 wins a pawn, and the e8–h5 diagonal is weakened."
@@ -303,7 +303,7 @@
     "strategy": "A rim knight that eyes b4 and c5 but does not defend e5, so 3.Bb2 costs Black another move to hold the pawn. 3.Bxa6 bxa6 also doubles Black's a-pawns."
   },
   "1.b3 e5 2.e3 Qe7": {
-    "strategy": "Defends e5 but shuts in the f8-bishop, whose only open diagonal runs through e7. 3.Ba3 attacks the queen along the a3–f8 diagonal at once and forces Black to block it or move the queen."
+    "strategy": "Defends e5 but shuts in the f8-bishop, whose only open diagonal runs through e7. 3.Ba3 attacks the queen at once, so Black must block or move it. Sound, but White gains time while the bishop stays shut in."
   },
   "1.b3 e5 2.e3 Qf6": {
     "strategy": "Brings the queen out early and takes f6 from the king's knight. It defends e5, but 3.Nc3 threatens Nd5, hitting the queen and c7, and Ne4 can also gain time against it."
@@ -318,7 +318,7 @@
     "strategy": "The e3-pawn blunts the bishop on the a7–g1 diagonal, and 3.d4 hits bishop and e5 at once, so White gains time and space in the centre."
   },
   "1.b3 e5 2.e3 Bb4": {
-    "strategy": "The bishop attacks only the d2-pawn, which has four defenders, and 3.a3 or 3.c3 sends it away again at once. It also leaves e5 without a defender against Bb2."
+    "strategy": "Develops the bishop, but its only target is the d2-pawn, which has four defenders, and 3.a3 sends it away again. It also leaves e5 undefended against Bb2. Sound, though White gains time."
   },
   "1.b3 e5 2.e3 Nh6": {
     "strategy": "A rim knight that covers f5 and g4 but not the centre, and it leaves e5 without a defender, which 3.Bb2 attacks at once. Unlike ...Nf6, it has no say over d5 or e4."
@@ -327,25 +327,25 @@
     "strategy": "Blocks the f8-bishop and the queen and does not defend e5, which 3.Bb2 attacks at once. The knight can reach c6 or g6 later, but only at the cost of another move."
   },
   "1.b3 e5 2.e3 a6": {
-    "strategy": "Prevents Bb5 but develops nothing and leaves e5 without a defender, so 3.Bb2 costs Black another move to hold the pawn."
+    "strategy": "Prevents Bb5 and prepares ...b5, but develops nothing, and e5 still needs a defender against Bb2. Harmless, yet slow."
   },
   "1.b3 e5 2.e3 a5": {
-    "strategy": "Prepares ...a4 against the b3-pawn but develops nothing, and 3.Bb2 attacks the undefended e5-pawn at once, so Black spends the next move defending it instead."
+    "strategy": "Gains queenside space and prepares ...a4 against the b3-pawn, but develops nothing, and e5 still needs a defender against Bb2. Sound, though slow."
   },
   "1.b3 e5 2.e3 f6": {
     "strategy": "Defends e5 but takes f6 from the king's knight and opens the e8–h5 diagonal: 3.Qh5+ forces ...g6 or ...Ke7. Black is left with weakened light squares and no development."
   },
   "1.b3 e5 2.e3 f5": {
-    "strategy": "Grabs space on the kingside but opens the e8–h5 diagonal: 3.Qh5+ forces ...g6 or ...Ke7. The e5-pawn also has no defender against Bb2, so Black must hold it with a weakened king."
+    "strategy": "Takes e4 away from White and grabs space, but opens the e8–h5 diagonal and leaves e5 without a defender against Bb2. Sound, yet the king is loosened and White develops with tempo."
   },
   "1.b3 e5 2.e3 g5": {
     "strategy": "Gains space but creates holes on f5 and h5, and 3.h4 undermines the pawn at once. The kingside is weakened for no development in return."
   },
   "1.b3 e5 2.e3 h6": {
-    "strategy": "Covers g5 but does nothing for development or the centre. 3.Bb2 then attacks e5, so Black must spend another move defending it."
+    "strategy": "Covers g5 but does nothing for development or the centre, and e5 still needs a defender against Bb2. Harmless, yet slow."
   },
   "1.b3 e5 2.e3 h5": {
-    "strategy": "Develops nothing, and the pawn on h5 has only the rook as a defender, so 3.Be2 with the queen behind it attacks the pawn twice. e5 also still lacks a defender against Bb2."
+    "strategy": "Starts a flank advance without developing a piece. The pawn on h5 is defended only by the rook, so Be2 with the queen behind it can attack it twice, and e5 still lacks a defender against Bb2. Harmless, but Black loses time."
   },
   "1.b3 e5 2.e3 e4": {
     "strategy": "Gains space, but the advanced pawn has no support and 3.d3 challenges it at once; once it is traded, White's bishop is developed. The advance also clears the long diagonal for Bb2 toward g7."
@@ -378,7 +378,7 @@
     "strategy": "Attacks the e5 pawn, which no black piece defends, and develops a piece. But Black pushes the pawn on with ...e4, attacking the knight, which has to retreat; Black is left with the space in the centre."
   },
   "1.b3 e5 2.Nc3 d5 3.e4 dxe4": {
-    "strategy": "Takes the pawn and opens the d-file for Black's queen. The pawn on e4 can be won back at once by the knight, so Black gains the open file and removes White's central pawn, but no lasting extra pawn."
+    "strategy": "Takes the pawn, but 4.Nxe4 regains it at once, so nothing is won. Material is level and the d-file is open, yet Black has given up the space that ...d4 gains and White's knight lands on a central square. Sound and roughly equal, but second-rate."
   },
   "1.b3 e5 2.Nc3 d5 3.e4 d4": {
     "strategy": "Gains space with a tempo: the pawn drives the knight from c3 and clamps the centre, so White's pieces have fewer good squares. Black accepts a pawn chain that White will try to undermine from the flank, but starts with the better share of the centre."
@@ -394,6 +394,6 @@
     "strategy": "Wins the pawn back at once and puts the knight on a central square. Material is level, the d-file is open, and with the c3 square cleared the bishop on b2 will have the long diagonal for itself. White has lost nothing for the pawn it offered."
   },
   "1.b3 e5 2.Nc3 d5 3.e4 dxe4 4.Nge2": {
-    "strategy": "Develops and prepares Ng3 to attack the e4 pawn a second time, but it does not recapture at once. Black can hold the pawn for the moment with ...f5, and the knight on e2 shuts in the f1-bishop, so White has to prove compensation for a pawn that 4.Nxe4 would simply have regained."
+    "strategy": "Develops and prepares Ng3, but does not retake the pawn at once. Black can keep it with ...f5, and the e2-knight shuts in the f1-bishop. White has to prove compensation for a pawn that 4.Nxe4 would simply have regained, and finds little."
   }
 }

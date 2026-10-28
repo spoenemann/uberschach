@@ -71,15 +71,15 @@
   },
   "1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.Qb3 Qe7 6.Nd2": {
     "name": "Queen's Gambit Accepted: Old Variation, Novikov Gambit",
-    "strategy": "Develops the knight and covers the e1-a5 diagonal against ...Qb4+. The knight is easily pinned there, though, and it blocks the c1-bishop, so White is a pawn down with a slow, tangled development."
+    "strategy": "Blocks the e1-a5 diagonal against ...Qb4+, but the knight can be pinned there and shuts in the c1-bishop. After ...dxe3 the bishop cannot recapture, and fxe3 opens the f-file in front of the king, so Black keeps the extra pawn comfortably."
   },
   "1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.Qb3 Qe7 6.a3": {
     "name": "Queen's Gambit Accepted: Old Variation, Billinger Gambit",
-    "strategy": "Takes b4 from the black queen, so ...Qb4+ is no longer possible, but spends a move on it while a pawn down. Black's d4-pawn still attacks e3, and the pressure on b7 and f7 is parried, so White's compensation is thin."
+    "strategy": "Takes b4 from the black queen, so ...Qb4+ no longer gains a tempo, and keeps the threat of exd4. Sound but slow: a rook-pawn move develops nothing, and Black uses the time to bring out a knight."
   },
   "1.d4 d5 2.c4 dxc4 3.e3 e5 4.Bxc4 exd4 5.Qb3 Qe7 6.Kf1": {
     "name": "Queen's Gambit Accepted: Old Variation, Korchnoi Gambit",
-    "strategy": "Steps off the e-file and the e1-a5 diagonal, but gives up castling for good, and the king on f1 boxes in the h1-rook behind the g1-knight. A heavy price for a pawn that is already missing, with the king awkward for the rest of the middlegame."
+    "strategy": "Steps off the e-file and the e1-a5 diagonal, so ...dxe3 and ...Qb4 gain no tempo, at the cost of castling. The king on f1 boxes in the h1-rook until White spends time untangling it: playable, but awkward."
   },
   "1.d4 d5 2.c4 dxc4 3.e3 Nf6 4.Bxc4": {
     "strategy": "Takes back the c4-pawn with the bishop, which lands on its best diagonal, while the centre stays intact. Black has no central pawn to disturb it, so White emerges with comfortable development and a small, lasting space advantage."
@@ -230,7 +230,7 @@
   },
   "1.d4 d5 2.c4 dxc4 3.e4 c5 4.d5 b5": {
     "name": "Queen's Gambit Accepted: Central Variation, Rubinstein Defence, Yefimov Gambit",
-    "strategy": "Holds on to the c4-pawn at once and bids for queenside space. It is a gambit in spirit: White's a-pawn and centre pawns hit the advanced pawns, and Black has to show the queenside is not overstretched."
+    "strategy": "Tries to keep the extra pawn, but nothing defends the b5-pawn: White's a-pawn attacks it at once, and once it falls the c4-pawn loses its only support. Black loses the gambit pawn and more, while White keeps the space gained with d5."
   },
   "1.d4 d5 2.c4 dxc4 3.e4 c5 4.d5 e6": {
     "strategy": "Challenges the d5-pawn at once. If it is exchanged, the e-file opens in front of White's uncastled king and Black's pieces gain room, though White's centre and lead in development keep chances for the initiative. The c8-bishop stays hemmed in until the structure clears."
@@ -252,17 +252,17 @@
     "strategy": "The thematic break: Black challenges the d5-pawn now that White has committed the knight, and after ...exd5 the e-file opens against a king that has not castled. White keeps a small plus, but Black's pieces get open lines and active play."
   },
   "1.d4 d5 2.c4 dxc4 3.e4 c5 4.d5 Nf6 5.Nc3 Bg4": {
-    "strategy": "Develops the bishop with an attack on the queen, so White must spend a move on it: a bishop trade or a weakening pawn move. It does nothing for the cramped queenside, and the c4-pawn still needs defending, so it is playable but no more."
+    "strategy": "Attacks the queen, but White just plays f3 and the bishop has to go back, so Black has spent two moves to end up where it started. White gains time and space, and e5 then drives the f6-knight away, while the c4-pawn still needs defending."
   },
   "1.d4 d5 2.c4 dxc4 3.e4 e5 4.Bxc4": {
     "name": "Queen's Gambit Accepted: Central Variation, McDonnell Defence, Somov Gambit",
-    "strategy": "Takes the pawn but leaves d4 loose: Black simply plays ...Qxd4, and after the queen trade is a pawn up with a stable centre. A clear step down from developing the knight, which guards d4 and attacks e5."
+    "strategy": "Takes the pawn back at once but leaves d4 loose: ...Qxd4 trades queens and Black gets a stable centre, so White has to work to win the d4-pawn back. Sound and roughly level, but Black chooses the simplification."
   },
   "1.d4 d5 2.c4 dxc4 3.e4 e5 4.Nf3": {
-    "strategy": "The one move that keeps White's edge: it attacks the unprotected e5-pawn and guards d4 in the same move, so Black has to settle the centre at once. White then wins back the gambit pawn with the better development."
+    "strategy": "The principled move: it attacks the unprotected e5-pawn and guards d4 in the same move, so Black has to settle the centre at once. White then regains the gambit pawn with comfortable development."
   },
   "1.d4 d5 2.c4 dxc4 3.e4 e5 4.dxe5": {
-    "strategy": "Takes the pawn but lets Black trade queens: ...Qxd1+ forces the king to recapture, so White loses the right to castle and stands in the centre while Black develops with tempo. The material stays level and White has nothing for the position."
+    "strategy": "Takes the e-pawn and lets Black trade queens: ...Qxd1+ forces the king to recapture, so White loses the right to castle. Material is level and the position playable, but White's king stands in the centre while Black develops with ease."
   },
   "1.d4 d5 2.c4 dxc4 3.e4 e5 4.d5": {
     "strategy": "Cramps Black with a space-gaining pawn but overextends: White has not yet regained the c4-pawn, and Black undermines the centre with ...c6 or ...Bb4+ while keeping the extra pawn."

@@ -7,7 +7,7 @@
     "strategy": "Attacks the g5 pawn, which is hit twice and held once, before Black can support it, so Black practically has to push on and drive the knight away. The pawn also takes h4 from the queen, so the knight can leave without allowing a check. White gets open lines and quick development for the pawn in a sharp fight."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Bc4": {
-    "strategy": "Develops with an eye on f7 and prepares for ...g4: if the knight is chased away and the queen checks on h4, the king can step to f1. White is ready for sharp play along the f-file, and Black has to choose between accepting complications and a quiet consolidation of the extra pawn."
+    "strategy": "Eyes f7 and clears f1 for the king, but it does not stop ...g4. Black drives the knight away, and White has to sacrifice a piece or retreat while a pawn down, so Black comes out ahead either way."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.Nc3": {
     "name": "King's Gambit Accepted: Quaade Gambit",
@@ -33,17 +33,17 @@
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.d4 g4 5.Nc3": {
     "name": "King's Gambit Accepted: Rosentreter Gambit, Sörensen Gambit",
-    "strategy": "A knight sacrifice: Black's g4 pawn takes the knight on f3, and White recaptures with the queen, which hits the f4 pawn, for fast development. White is a piece down with only activity to show for it, so this is a risky practical try, not a main line."
+    "strategy": "A knight sacrifice: ...gxf3 and the queen recaptures with a hit on f4 and quick development. White is a piece down and the activity does not make up for it, so this is a risky practical try that works only if Black goes wrong."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.d4 g4 5.Bxf4": {
     "name": "King's Gambit Accepted: Rosentreter Gambit, Testa Variation",
-    "strategy": "Takes the gambit pawn back at once and offers the f3 knight on top. White has a piece less but open lines for the queen and a bishop aimed at c7; everything depends on the attack lasting, and if Black consolidates, White has little to show for the piece."
+    "strategy": "Takes the gambit pawn back at once and offers the f3 knight on top. White gets open lines for the queen and a bishop aimed at c7, but a whole piece is missing; if Black consolidates, the attack runs out of steam."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.d4 g4 5.Ne5 Qh4+": {
     "strategy": "Check on the open diagonal to e1, with the queen also guarding the g4 pawn. White must block with a pawn or give up castling by moving the king, so Black gains a tempo and forces a weakening of the white kingside."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.d4 g4 5.Ne5 Nf6": {
-    "strategy": "Develops with an attack on e4 and ignores the knight on e5, which can take the g4 pawn. After the knights trade on g4 White has its pawn back, so Black has swapped the extra pawn for quick development and a share of the centre."
+    "strategy": "Develops and hits e4, but leaves the knight on e5 and the f7 pawn alone: Bc4 attacks f7 twice and Black has no comfortable way to hold it. The extra pawn does not pay for the time lost, and White gets a strong attack."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.d4 g4 5.Ne5 d6": {
     "strategy": "Kicks the knight and opens the c8-bishop, but White takes on g4 and the exchange on that square leaves the pawn regained. Black trades the extra pawn for a solid centre and easy development, and the sting of the check on h4 is gone."
@@ -65,7 +65,7 @@
     "strategy": "A counterattack in the centre that goes for rapid play against e4 instead of holding the g-pawn. The position becomes unclear: Black avoids the sharp g4 line but must be ready for open, tactical play with the king still in the middle."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 Bh6": {
-    "strategy": "Protects g5 from h6, but after hxg5 Bxg5 White's central play and a later g3 win back the f4 pawn while White is ahead in development. Black has nothing left to show for the gambit and White's initiative is real."
+    "strategy": "Guards g5 from h6, but after hxg5 Bxg5 White wins the f4 pawn back while ahead in development. Black has nothing left to show for the gambit and gives up the advantage that ...g4 keeps, while White's initiative is real."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5": {
     "name": "King's Gambit Accepted: Kieseritzky Gambit",
@@ -110,7 +110,7 @@
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 h5": {
     "name": "King's Gambit Accepted: Kieseritzky Gambit, Long Whip",
     "background": "Formerly considered a critical test of the Kieseritzky Gambit, the line is now regarded as dubious, old-fashioned and risky.",
-    "strategy": "Defends the g4 pawn with another pawn, but at a heavy price: Black falls behind in development while the knight keeps pressing on f7, and a bishop on c4 doubles that pressure. Holding the pawn this way costs too much time."
+    "strategy": "Defends the g4 pawn with a second pawn, so the gambit pawns stay. It is sound, but it loosens the kingside and costs time: the knight keeps pressing on f7, and a bishop on c4 doubles that pressure. Black must defend awkwardly for a long while."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 Be7": {
     "name": "King's Gambit Accepted: Kieseritzky, Polerio Defence",
@@ -123,7 +123,7 @@
     "strategy": "Captures the pawn and opens the e-file, but ...Qxd5 recaptures at once with an attack on the unprotected knight. White spends the next move saving the knight instead of building the centre, and the extra pawn is gone."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 d5 6.Nxg4": {
-    "strategy": "Gives up the knight's outpost to take the g4 pawn, trading it for the c8-bishop. Material is level again, but the pressure that the knight on e5 was meant to bring is gone, and Black's d5 pawn then takes on e4."
+    "strategy": "Takes the g4 pawn, but the knight leaves its strong post and e4 is left loose: ...dxe4 wins that pawn, and Black's pieces come out with tempo. White has won back a pawn only to fall behind in the centre and in development."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 d5 6.d4 Nf6": {
     "strategy": "Develops with tempo and adds a second attacker to the loose e4 pawn, so White cannot simply keep everything and must act in the centre. Black keeps the extra pawn for now and a share of the centre, at the price of an exposed kingside."
@@ -132,7 +132,7 @@
     "strategy": "Challenges the knight with a developing move and adds a second piece to the fight for e5 and d4. Black keeps the extra pawn, but a trade on c6 leaves Black with doubled c-pawns, so the knight is not a free gain of time."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 d5 6.d4 dxe4": {
-    "strategy": "Takes a second pawn and opens the centre, but the tension that held White's centre back is gone. White regains material with Bxf4 or Nxg4 while developing with tempo, and Black's pawns are a burden if the king stays in the middle."
+    "strategy": "Wins a second pawn and opens the centre, but the king stays in the middle and f7 is left to defend itself: Bc4 attacks it twice, and the extra pawns do nothing to help. Black has taken material at the cost of safety, and White is clearly better."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 h5 6.Bc4": {
     "strategy": "Brings a second attacker against f7, which only the king defends, and shows the price of ...h5: Black cannot hold the pawns and defend f7 at the same time. White keeps the initiative and Black is pushed into awkward defensive moves."
@@ -141,7 +141,7 @@
     "strategy": "Supports the knight on e5 and opens the c1-bishop against the loose f4 pawn, so White gets a central pawn pair and the threat of winning the pawn back at once. Black's advanced pawns on g4 and h5 are hard to hold against a strong centre."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 h5 6.Be2": {
-    "strategy": "Adds a second attacker to the g4 pawn, which only ...h5 defends, and prepares to castle. It keeps White's pieces compact, but it leaves f7 alone, so Black has time to kick the knight and keep the pawns."
+    "strategy": "Adds a second attacker to g4 and prepares to castle, but the pawn on h5 holds g4 and f7 is left alone. Black has time to kick the knight with a pawn and keeps both extra pawns, so White has done little for its gambit."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 h5 6.Bc4 Rh7": {
     "strategy": "The main way to guard f7: the rook defends the pawn along the seventh rank, so the knight and the bishop have no easy target and Black keeps the extra pawn. The price is a rook stranded on the edge and a large lag in development, so the line stays risky."
@@ -185,13 +185,13 @@
     "strategy": "Defends the knight, which the queen attacks with the e4 pawn behind it, and clears the c1 bishop's path to f4. White keeps the knight on its central post and its space, and Black's queen is committed to an exposed square."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 Qe7 6.Nxg4": {
-    "strategy": "Takes the pawn and leaves the attacked square, but the e4 pawn is now loose: the queen takes it with check and the queens usually come off. Black keeps the extra f4 pawn, since the c1-bishop is shut in by the d2 pawn."
+    "strategy": "Takes the pawn and leaves the attacked square, but e4 is now loose and ...f5 hits both the knight and that pawn. Black gains the initiative and keeps the extra f4 pawn, since the c1 bishop is shut in by the d2 pawn."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 Qe7 6.Nd3": {
     "strategy": "Retreats and eyes the f4 pawn, but leaves e4 without a defender: the queen takes it with check. White has now lost a second pawn for the gambit and Black's queen is the more active piece."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 Qe7 6.d4 f5": {
-    "strategy": "A risky counterattack: the pawn hits e4, and if White takes it the knight on e5 is pinned against the king, but the move takes the f-pawn away from the king's cover. Black is gambling that the open e-file matters more than the weakened kingside."
+    "strategy": "A risky counterattack: the pawn hits e4, but it empties f7, so Bc4 and the knight on e5 aim straight at the square beside the king. Black has taken the king's cover away for the sake of one pawn, and White gets the better attack."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 Qe7 6.d4 d6": {
     "strategy": "Kicks the knight with a pawn and opens the c8-bishop. None of the knight's squares guards e4, so the queen wins that pawn with check. White's compensation is the c1-bishop, now open against the f4 pawn."
@@ -204,10 +204,10 @@
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ng5 Nf6": {
     "name": "King's Gambit Accepted: Allgaier, Schlechter Defence",
-    "strategy": "Develops with an attack on e4 and declines to force the sacrifice, so the knight on g5 is not trapped. It gives White more choices than the line that makes the knight give itself up, and f7 stays under pressure."
+    "strategy": "Develops with an attack on e4 and declines to force the sacrifice, so the knight on g5 is not trapped. It throws away the edge: White gets a free choice, f7 stays under pressure, and the game is level."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ng5 d5": {
-    "strategy": "Declines to force the knight sacrifice: the pawn attacks e4 and, after the capture, leaves the knight the e4 square to retreat to, so it is no longer trapped. Black gives back the extra pawn for open lines and development."
+    "strategy": "Declines to force the knight sacrifice: the pawn hits e4, and after the capture the knight has e4 as an escape. Black avoids the sharpest fight but gives up much of the edge that ...h6 keeps, since the knight is no longer trapped."
   },
   "1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ng5 h6 6.Nxf7": {
     "name": "King's Gambit Accepted: Kieseritzky Gambit, Cotter Gambit",

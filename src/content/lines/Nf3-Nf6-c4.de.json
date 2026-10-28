@@ -40,7 +40,7 @@
     "strategy": "Stellt den zweiten Springer an den Rand, mit Ziel b4 oder c5, wo er für das Zentrum nichts leistet. Weiß errichtet in aller Ruhe das Zentrum."
   },
   "1.Nf3 Nf6 2.c4 a6": {
-    "strategy": "Bereitet ...b5 gegen den Bauern c4 vor, verbraucht aber ein Tempo mit einem Randbauern, statt eine zweite Figur zu entwickeln. Weiß errichtet in aller Ruhe das Zentrum, und sobald der Springer auf c3 steht, kostet der Vorstoß ...b5 einen Bauern."
+    "strategy": "Bereitet ...b5 gegen den Bauern c4 vor, verwendet aber ein Tempo auf einen Randbauern, statt sich zu entwickeln. Sobald der Springer auf c3 steht, kostet der Vorstoß ...b5 einen Bauern, sodass sich der Plan leicht stoppen lässt. Harmlos, und Weiß baut in Ruhe das Zentrum auf."
   },
   "1.Nf3 Nf6 2.c4 a5": {
     "strategy": "Verhindert b4, verbraucht aber ein Tempo mit einem Randbauern, schwächt b5 und kümmert sich weder um das Zentrum noch um die Entwicklung. Weiß setzt in aller Ruhe fort."
@@ -169,13 +169,13 @@
   },
   "1.Nf3 Nf6 2.c4 d5 3.cxd5 Nxd5": {
     "name": "Englische Eröffnung: Anglo-Indische Verteidigung, Skandinavische Verteidigung, Abtauschvariante",
-    "strategy": "Schlägt mit dem Springer zurück, der damit das beste zentrale Feld erreicht und die Dame zu Hause lässt. Schwarz hat den d-Bauern gegen den c-Bauern von Weiß getauscht und spielt auf Figurenaktivität gegen die zentrale Bauernmehrheit von Weiß, muss aber darauf achten, keine Zeit zu verlieren, wenn der Springer herausgefordert wird."
+    "strategy": "Nimmt mit dem Springer zurück, der im Zentrum gut steht, während die Dame zu Hause bleibt, und der Zug ist solide. Doch Weiß baut mit Tempogewinn gegen den Springer ein breites Bauernzentrum auf, sodass Weiß den größeren Teil des Zentrums erhält."
   },
   "1.Nf3 Nf6 2.c4 d5 3.cxd5 Qxd5": {
     "strategy": "Nimmt mit der Dame zurück, die Weiß sofort mit Sc3 angreift, sodass Schwarz einen weiteren Zug aufwenden muss, um sie in Sicherheit zu bringen. Die Stellung bleibt solide, doch Weiß gewinnt Zeit, sich zu entwickeln und das Zentrum in Ruhe aufzubauen."
   },
   "1.Nf3 Nf6 2.c4 d5 3.cxd5 c6": {
-    "strategy": "Bietet einen Bauern an, statt zurückzunehmen, in der Hoffnung auf rasche Entwicklung und offene Linien nach ...Sxc6. Weiß nimmt ihn einfach und steht einen Bauern im Plus, und der Entwicklungsvorsprung von Schwarz reicht als Ausgleich nicht aus."
+    "strategy": "Bietet den c-Bauern für schnelle Entwicklung an. Nach 4.dxc6 Sxc6 hat Schwarz für den Bauern offene Linien und einen Entwicklungsvorsprung, und lehnt Weiß mit 4.d4 ab, gewinnt cxd5 ihn sofort zurück. Ein echtes Gambit, das voraussetzt, dass das offene Spiel Schwarz liegt."
   },
   "1.Nf3 Nf6 2.c4 e6 3.g3": {
     "strategy": "Fianchettiert den Königsläufer, damit er auf der langen Diagonale wirkt, und hält die Zentrumsfelder aus der Distanz unter Beobachtung. Weiß hält den d-Bauern zurück und bleibt flexibel, nimmt aber in Kauf, dass Schwarz sofort das Zentrum besetzen kann; die Partie wird strategisch statt taktisch."
@@ -216,7 +216,7 @@
   },
   "1.Nf3 Nf6 2.c4 e6 3.g3 a6 4.Bg2 b5": {
     "name": "Englische Eröffnung: Romanishin-Gambit",
-    "strategy": "Bietet einen Bauern an: Nach cxb5 axb5 hat Schwarz eine offene a-Linie und Raum am Damenflügel, aber der Turm auf a8 steht auf der Diagonale des Läufers und ist ungedeckt, und ein Springerzug von f3 deckt den Angriff auf. Schwarz muss Zeit aufwenden, um ihn zu decken; ein scharfer Versuch, der leichter zu bekämpfen als zu spielen ist."
+    "strategy": "Stellt c4 in Frage: Nach cxb5 axb5 hat Schwarz eine halboffene a-Linie und Raum am Damenflügel. Aber der Turm a8 steht auf der Diagonale des Läufers g2, und jeder Zug des Springers f3 deckt den Angriff auf, sodass Schwarz Zeit aufwenden muss, um ihn zu decken. Ein spielbarer Versuch, leichter zu bekämpfen als zu spielen."
   },
   "1.Nf3 Nf6 2.c4 e6 3.g3 a6 4.Bg2 d5": {
     "strategy": "Beansprucht das Zentrum und fordert den Bauern auf c4 sofort heraus. Der weiße Läufer auf g2 wird vom eigenen Springer auf f3 blockiert, daher kostet das langsame ...a6 Schwarz wenig: Es ist ein Reservezug, der ein späteres ...b5 vorbereiten kann, während das schwarze Zentrum bereits steht."
@@ -290,7 +290,7 @@
     "strategy": "Vollendet das zweite Fianchetto und macht den Weg für die Rochade frei. Beide Läufer gehören auf die langen Diagonalen, die Zugfolge kostet also nichts, und Schwarz hält alle Zentrumspläne offen, während Weiß dieselbe Wahl hat."
   },
   "1.Nf3 Nf6 2.c4 g6 3.g3 b6 4.Bg2 c5": {
-    "strategy": "Erhebt Anspruch auf d4 und gewinnt Raum am Damenflügel, wobei der b6-Bauer den Vorstoß stützt. Das ist solide, legt aber den c-Bauern und eine Struktur am Damenflügel fest, bevor der König sicher steht, und die Läufer sind noch unentwickelt."
+    "strategy": "Läuft in 5.Se5: Der Springer räumt die lange Diagonale, sodass der Läufer g2 den Turm auf a8 angreift, der kein Feld hat, auf das er ausweichen kann. Schwarz muss die Diagonale versperren oder Material verlieren, und jeder Weg lässt Weiß klar besser stehen."
   },
   "1.Nf3 Nf6 2.c4 g6 3.g3 Bg7 4.Bg2": {
     "strategy": "Vollendet das Fianchetto: Der Läufer blickt die lange Diagonale entlang, und Weiß kann sofort rochieren. Beide Seiten haben nun denselben Königsflügelaufbau, und der Kampf geht um das Zentrum und den Damenflügel statt um die Entwicklung."

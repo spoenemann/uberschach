@@ -62,7 +62,7 @@
     "strategy": "Resolves the central tension too early: Black recaptures with pawn or knight and finishes development without difficulty, and White has nothing concrete to show for the opened centre."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.Ng5": {
-    "strategy": "Doubles the attack on f7 and, once Black castles, threatens a sacrifice there followed by a knight raid that wins material. But the knight ends up stranded on the rim while Black gets a strong initiative for the material, so the plan backfires and White loses time."
+    "strategy": "Doubles the attack on f7 and, after ...O-O, threatens a bishop sacrifice there followed by a knight raid that wins material. The knight is then hunted down and the play comes out level, so the idea is sound but gains White nothing over quiet development."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 e5 4.Nf3 Nbd7 5.Bc4 Be7 6.Bxf7+": {
     "name": "Philidor Defence: Lion Variation, Bishop Sacrifice",
@@ -161,7 +161,7 @@
     "strategy": "Keeps the structure flexible: the pawn takes d5 and b5 from White's pieces and prepares queenside play while the fianchetto waits. It costs time, and with the bishop still on f8 White gets a free hand to build in the centre."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be2 Nbd7": {
-    "strategy": "Heads for a central break with the e-pawn, the knight supporting it from d7, and keeps the fianchetto available. The cost is a passive set-up: the knight blocks the bishop on c8, and White's centre gets time to expand before Black has finished developing."
+    "strategy": "Heads for ...e5 with the knight backing the pawn, but blocks the c8-bishop and leaves the king's bishop at home. White answers by building a broad pawn centre, and Black is cramped before any counterplay arrives."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be2 Bg7 5.h4": {
     "name": "Pirc Defence: Bayonet Attack",
@@ -181,7 +181,7 @@
     "strategy": "Completes the fianchetto at once and puts the bishop on the long diagonal against White's centre. White's plan of Qd2 and Bh6 to trade it is the point to watch: Black has to meet the kingside pressure with quick counterplay in the centre or on the queenside."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 Bg4": {
-    "strategy": "Hits the queen at once and puts the bishop outside the pawn chain, but White gains time by challenging it, and the knight on f6 already guards g4 so the queen cannot take it. The bishop gets no lasting target and Black's development stays behind."
+    "strategy": "Attacks the queen, but White simply plays f3, a useful move for the Qd2 plan, and the bishop has to retreat. Black has lost a tempo and gained nothing."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 c6 5.Qd2": {
     "name": "Pirc Defence: 150 Attack",
@@ -197,7 +197,7 @@
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 c6 5.Qd2 Bg4": {
     "name": "Pirc Defence: 150 Attack, Inner Doll Defence",
-    "strategy": "Develops the bishop outside the pawn chain before it gets locked in and discourages the king's knight: Nf3 would allow a trade that doubles White's pawns. White can simply chase the bishop away, so Black spends time before getting any active play."
+    "strategy": "Develops the bishop outside the pawn chain, but h3 chases it away at once and White gains a tempo. Black has still done nothing about the centre, and White's queen and bishop stay ready for a kingside attack."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Be3 c6 5.Qd2 b5": {
     "strategy": "Meets White's long-castling plan head-on: the pawn gains queenside space and prepares to harass the knight on c3 and to develop the bishop on b7. It loosens Black's own queenside, and the dark-squared bishop is still waiting, so the Bh6 idea must be watched."
@@ -209,7 +209,7 @@
     "strategy": "Completes the fianchetto at once: the bishop stands ready on the long diagonal, behind the f6 knight, to press on d4 and e5 once the knight moves. Black can castle next and wait for the right moment to strike at the centre."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 c5": {
-    "strategy": "Strikes at d4 before White has developed and challenges the centre at once. The cost is time: with the bishop still on f8, the recapture ...dxc5 allows an early queen trade that costs Black the right to castle, so Black risks falling behind."
+    "strategy": "Strikes at d4 before the king's bishop is out, but 5.dxc5 leaves Black without a good recapture: ...dxc5 allows a queen trade that costs castling, and otherwise White keeps an extra pawn."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.f4 Nc6": {
     "strategy": "Develops the queenside knight and adds to the pressure on d4, but it blocks the c-pawn and meets d5 at once, when the pawn on f4 takes e5 away and the knight is left with only poor squares. White gains space and time."
@@ -267,7 +267,7 @@
     "strategy": "Keeps the fianchetto and a central break in reserve, takes d5 and b5 from White's pieces and gives the queen the c7 square. It delays Black's development, and White is free to expand in the centre before the bishop reaches g7."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Nbd7": {
-    "strategy": "Prepares a central pawn break, the knight backing it from d7, while the bishop can still go to g7. It blocks the bishop on c8 and leaves White free to claim space, so Black's set-up is a little passive and waits for White to commit."
+    "strategy": "Aims for ...e5 with the knight behind the pawn, but White gets in first: 5.e5 hits the f6-knight, which must retreat, and taking on e5 only makes matters worse. Black is cramped, with the c8-bishop still shut in."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 g6 4.Nf3 Bg7 5.Be2": {
     "name": "Pirc Defence: Classical Variation, Quiet System",
@@ -326,7 +326,7 @@
     "strategy": "Challenges the centre at once, hitting both d4 and f4. The d7-knight backs the pawn, so Black can meet the tension calmly; the cost is that e5 now comes under heavy pressure and the resulting fight has to be handled accurately."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.f4 g6": {
-    "strategy": "Heads for a Pirc-style fianchetto, but the knight on d7 already shuts in the c8-bishop, and White can push e5 at once, gaining space with tempo against the f6-knight. Sound, but Black is more cramped than the usual Pirc."
+    "strategy": "Heads for a fianchetto, but the knight on d7 already shuts in the c8-bishop, and 5.e5 gains space with tempo against the f6-knight. Black ends up more cramped than in the usual Pirc, with White's centre intact."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.f4 e6": {
     "strategy": "A solid set-up that holds d5 and leaves the d6-pawn as the base of Black's structure. It is passive: the c8-bishop is hemmed in behind its own pawns, White enjoys a broad centre, and Black must find counterplay on the flanks later."
@@ -362,18 +362,18 @@
     "strategy": "Takes b5 and d5 away from White's pieces: no bishop pinning the d7-knight, no knight jumping to b5 to hit d6. It takes the sting out of White's active pieces and lets Black finish development quietly, though White keeps a small initiative."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.f4 e5 5.Nf3 exd4 6.Qxd4 c5": {
-    "strategy": "Hits the queen with tempo and takes the d4 square, but at a structural price: d5 becomes a hole and the d6-pawn a target on the half-open d-file, which White's pieces can aim at."
+    "strategy": "Hits the queen with tempo and takes the d4 square, but the queen simply steps back to d2 or d3 and the long-term price is high: d5 becomes a hole, the d6-pawn a lasting target on the half-open d-file, and the break ...d5 runs into e5."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.f4 e5 5.Nf3 exd4 6.Qxd4 Be7": {
-    "strategy": "Develops the bishop and prepares to castle, but leaves the queenside as it is: White's knight can jump to b5, hitting a7 twice and d6 at the same time, so Black must spend time answering it."
+    "strategy": "Develops the bishop and prepares to castle, but 7.e5 hits the f6-knight with the f4-pawn behind it. Black has to give ground, and White gets space and the initiative."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.Nf3 e5": {
     "strategy": "Takes the central space Black has been waiting for. The d7-knight and d6 pawn support e5, and Black is content to see the centre opened by an exchange on e5. The structure is compact and sound, with a little less space than White."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.Nf3 c6": {
-    "strategy": "A flexible, solid move that takes b5 and d5 away from White's pieces and prepares either a central or a queenside plan. It claims no space yet, so White keeps the freer game and can build up the centre."
+    "strategy": "Takes b5 and d5 away from White's pieces and prepares a central or queenside plan, but claims no space itself: 5.e5 gains space with tempo against the f6-knight and Black has to give ground."
   },
   "1.e4 d6 2.d4 Nf6 3.Nc3 Nbd7 4.Nf3 g6": {
-    "strategy": "Aims for the Pirc fianchetto, but with the knight already on d7 the c8-bishop is shut in and the usual plan is harder to carry out. White can challenge at once with e5, and Black has to calculate the exchanges that follow."
+    "strategy": "Aims for the Pirc fianchetto, but with the knight on d7 the c8-bishop is shut in and 5.e5 hits the f6-knight at once. Black has to retreat and White gets a broad centre and the initiative."
   }
 }

@@ -29,16 +29,16 @@
   },
   "1.g4 d5 2.Bg2 c6": {
     "name": "Grob's Attack: Grob Gambit Declined",
-    "strategy": "Declines the pawn and shuts the bishop out: the c6-pawn guards d5 and blocks the long diagonal. Black keeps a solid pawn centre and makes White prove that g4 was worth a pawn."
+    "strategy": "Declines the pawn and shuts out the g2-bishop with the c6-pawn. It is solid and safe, but it hands back a free pawn that Black can keep: after ...Bxg4 Black is clearly better, so declining gives away much of the advantage."
   },
   "1.g4 d5 2.Bg2 Bxg4": {
-    "strategy": "Takes the pawn with a developing move and accepts the gambit. The price is time and the b7-pawn: only the d5-pawn shields it from the bishop on g2, and White's compensation comes from that."
+    "strategy": "The right way to meet the gambit: Black takes the pawn and develops the bishop with the same move. The cost is that b7 now depends on the d5-pawn against the bishop on g2, so Black must meet the pressure on d5 with care, but the extra pawn leaves Black clearly better."
   },
   "1.g4 d5 2.Bg2 h5": {
-    "strategy": "Challenges the g-pawn with the rook's pawn instead of the bishop. If White takes, Black recaptures with the rook, which then guards d5, but a move has gone into the flank and nothing is developed."
+    "strategy": "Challenges the g-pawn with the rook's pawn instead of the bishop. If White takes, the rook recaptures and guards d5, but a flank move has been spent, nothing is developed and Black passes up the clean pawn win."
   },
   "1.g4 d5 2.Bg2 e5": {
-    "strategy": "Takes the centre and leaves the g4-pawn alone for now. It is sound but slow, and it invites White to open the centre for the bishop while the g-pawn is still loose."
+    "strategy": "Takes the centre and leaves the g4-pawn alone, but White gets the centre open for the bishop at once and Black has taken nothing for it. It is slow, and it gives away the free pawn."
   },
   "1.g4 d5 2.Bg2 Bxg4 3.c4": {
     "name": "Grob's Attack: Grob Gambit, Fritz Gambit",
@@ -52,13 +52,13 @@
   },
   "1.g4 d5 2.Bg2 Bxg4 3.c4 d4": {
     "name": "Grob's Attack: Romford Countergambit",
-    "strategy": "Black does not defend the d5-pawn but lets it step forward, which opens the bishop's way to b7 and the rook behind it. The idea is to give up the exchange and win time against the white kingside."
+    "strategy": "Pushes the pawn past the bishop's diagonal and lets White take b7 with an attack on the a8-rook. Black stays better, but the extra pawn is handed back at once and the solid structure that ...c6 keeps is gone."
   },
   "1.g4 d5 2.Bg2 Bxg4 3.c4 c6": {
     "strategy": "The solid answer: the pawn gives d5 a second defender, so cxd5 meets a firm recapture and Black keeps the extra pawn without giving anything back. White has to show what the sacrifice buys, and the pressure on d5 and the long diagonal is all it has."
   },
   "1.g4 d5 2.Bg2 Bxg4 3.c4 Nf6": {
-    "strategy": "Develops the knight and adds a second defender to d5, so cxd5 can be recaptured with the knight. But a knight on d5 becomes a target for White's queen and bishop, and Black has to defend with care against the pressure on d5 and b7."
+    "strategy": "Develops the knight and defends d5, but after cxd5 Nxd5 the knight is attacked by Qb3 and the bishop with only the queen behind it, and b7 is undefended. Black stays better but gives back much of the edge that ...c6 keeps."
   },
   "1.g4 d5 2.Bg2 Bxg4 3.c4 d4 4.Bxb7": {
     "strategy": "Takes the pawn the c8-bishop used to guard and attacks the rook on a8. White wins material at once but accepts a sharp fight: Black will give the exchange for the long diagonal and activity against a kingside with few pieces developed."
@@ -98,43 +98,46 @@
     "strategy": "Takes a pawn and attacks the queen, but Nxe2 or Qxe2 wins the bishop for it, and the queen still recaptures on a8 afterwards. Black loses a piece for a pawn on top of the exchange."
   },
   "1.g4 d5 2.Bg2 c6 3.c4": {
-    "strategy": "Strikes at d5 again, now against a pawn that c6 guards. White wants the centre opened for the long diagonal, but the bishop is blocked for the moment and Black can simply take the pawn."
+    "strategy": "Strikes at d5 again, now against a pawn that c6 guards. The long diagonal stays blocked and nothing guards g4: Black can take on c4 or on g4, and White has two pawns to win back."
   },
   "1.g4 d5 2.Bg2 c6 3.g5": {
     "name": "Grob's Attack: Spike Attack",
-    "strategy": "Moves the pawn out of reach of the c8-bishop and takes kingside space, denying Black's knight the f6 square. The pawn is far advanced and hard to support, and nothing is developed."
+    "strategy": "The most accurate reply: the pawn leaves the c8-bishop's reach and takes f6 from the knight, gaining kingside space. It is far advanced and hard to support and nothing is developed, so White settles for a slower game and Black keeps only a small edge."
   },
   "1.g4 d5 2.Bg2 c6 3.h3": {
-    "strategy": "Defends the g4-pawn with the h-pawn, so ...Bxg4 now loses a piece to hxg4. White keeps the pawn and the bishop's diagonal and accepts a stretched kingside, which is the slow, solid way to continue the Grob: space on the wing and no material given away."
+    "strategy": "Keeps the pawn with the h-pawn, so ...Bxg4 would only lose a piece to hxg4. It is solid and keeps the bishop's diagonal, but it neither gains space nor opens the centre, and the c6-pawn already shuts the bishop out."
   },
   "1.g4 d5 2.Bg2 c6 3.c4 dxc4": {
-    "strategy": "Takes the pawn and wins material, since the c6-pawn already blocks the long diagonal. White gets open lines for the pieces, but the extra pawn is real and Black has little to fear."
+    "strategy": "Wins the c4-pawn but removes the pawn that kept the long diagonal shut, so the g2-bishop looks at c6 again. Black wins a pawn, but White's pieces get open lines, and taking on g4 first keeps a bigger edge."
   },
   "1.g4 d5 2.Bg2 c6 3.c4 Bxg4": {
-    "strategy": "Takes the gambit pawn at once and develops with it, while d5 and c6 keep the long diagonal shut for the moment. White's pressure on d5 and b7 only returns if the c-pawn trades on d5, so Black has to meet that break with care, but the extra pawn and the sound structure favour Black."
+    "strategy": "Takes the gambit pawn at once and develops with it, while d5 and c6 keep the long diagonal shut. White's pressure on d5 and b7 only returns if the c-pawn trades on d5, so Black must meet that break with care, but the extra pawn and the sound structure make this the best way to play."
   },
   "1.g4 d5 2.Bg2 c6 3.c4 Nf6": {
-    "strategy": "Develops the knight and adds a defender to d5, but g5 then attacks it and saves the g-pawn with a tempo. Black gives up the chance to win a pawn at once, and White's c-pawn keeps pressing on d5."
+    "strategy": "Develops the knight and adds a defender to d5, but g5 attacks it and saves the g-pawn with a tempo. Black passes up the chance to win a pawn, and the game is about level."
   },
   "1.g4 d5 2.Bg2 c6 3.c4 dxc4 4.b3": {
     "name": "Grob's Attack: Grob Gambit, Richter-Grob Gambit",
     "strategy": "Attacks the c4-pawn to win the pawn back and opens the queen's bishop. But c6 shuts the g2-bishop out, so White is a pawn down for little in return, and Black can still take on b3."
   },
   "1.g4 d5 2.Bg2 c6 3.c4 dxc4 4.Qa4": {
-    "strategy": "Hits the c4-pawn at once and puts pressure on c6 along the diagonal, keeping the queen in the fight for the pawn. Black can hold c4 with ...b5, which drives the queen back and loosens the queenside, so White's compensation is open lines for the pieces."
+    "strategy": "Attacks c4 and, with the bishop, c6, so White hopes to win the pawn back with active pieces. But g4 is still loose and ...b5 drives the queen back, so White stays a pawn down with only open lines for it."
   },
   "1.g4 d5 2.Bg2 c6 3.c4 dxc4 4.Qc2": {
     "strategy": "Attacks the pawn from c2 and develops the queen, but ...b5 holds it and White has nothing to show for the pawn: the c6 pawn keeps the g2-bishop shut out."
   },
+  "1.g4 d5 2.Bg2 c6 3.c4 dxc4 4.Na3": {
+    "strategy": "Heads for c4 to win the pawn back while developing a piece. It leaves g4 hanging, so White stays a pawn down against ...Bxg4, but it is the most economical way to fight on and the pieces get open lines."
+  },
   "1.g4 d5 2.Bg2 e5 3.c4": {
     "name": "Grob's Attack: Spike, Hurst Attack",
-    "strategy": "Goes straight for d5, which is attacked by the pawn and the bishop and guarded only by the queen. It is the natural Grob plan of tearing at the centre for the long diagonal, at the price of a loose g-pawn."
+    "strategy": "Hits d5 at once, but the centre is not open for the bishop yet: Black takes on c4, the g4-pawn is still loose and White has nothing developed to pay for either."
   },
   "1.g4 d5 2.Bg2 e5 3.d4": {
-    "strategy": "Strikes at the e5-pawn at once to open the centre for the bishop. But the g4-pawn is still hanging to the c8-bishop, and White has no lead in development to pay for it."
+    "strategy": "Hits e5 at once and opens the centre for the bishop, even at the cost of the loose g4-pawn. It is the one move that gives White a fair game here: the position stays level whether Black takes on d4, defends e5 or grabs g4."
   },
   "1.g4 d5 2.Bg2 e5 3.h3": {
-    "strategy": "Defends the g4-pawn with the h-pawn, so ...Bxg4 now loses a piece to hxg4. White keeps the pawn and accepts a stretched kingside, but nothing here challenges d5 or the centre, so Black can settle comfortably and block the bishop's diagonal."
+    "strategy": "Guards g4 but does nothing else: Black develops at leisure and shuts the bishop's diagonal, and White has spent a move it needed for the centre."
   },
   "1.g4 d5 2.Bg2 e5 3.d4 exd4": {
     "strategy": "Takes the pawn and removes White's strike at the centre. Black keeps the extra pawn and a cramping pawn on d4, and the g4-pawn is still loose, so White has to find compensation quickly."
@@ -147,13 +150,13 @@
   },
   "1.g4 d5 2.Bg2 e5 3.d4 exd4 4.c3": {
     "name": "Grob's Attack: Grob Gambit, Keres Gambit",
-    "strategy": "Offers a second pawn to open lines and recapture with a developing move. It is a lot to give: if Black stays calm, White has little to show for two pawns."
+    "strategy": "Attacks the d4-pawn with a pawn so that a recapture opens lines, but nothing guards g4: ...Bxg4 wins a pawn at once and Black keeps a clear edge."
   },
   "1.g4 d5 2.Bg2 e5 3.d4 exd4 4.Qxd4": {
     "strategy": "Recaptures at once with the queen, which now attacks d5 twice together with the bishop against one defender. White regains the pawn it gave and keeps the long diagonal open, so Black has to look after d5 before anything else."
   },
   "1.g4 d5 2.Bg2 e5 3.d4 exd4 4.Nf3": {
-    "strategy": "Develops with an attack on d4 and keeps the queen at home, but Black can defend d4 with a developing move or take on g4 first. White is still a pawn down with a loose g-pawn and no clear compensation."
+    "strategy": "Develops with an attack on d4 and keeps the queen at home, but g4 is still loose: ...Bxg4 wins the pawn and White has little to show for it."
   },
   "1.g4 d5 2.Bg2 h5 3.gxh5": {
     "name": "Grob's Attack: Grob Gambit, Basman Gambit",
@@ -166,29 +169,32 @@
     "strategy": "Supports the g-pawn the way White does in other lines, but here White cannot hold it: after ...hxg4 hxg4 the h-file opens, Black trades rooks and wins the g-pawn with ...Bxg4, leaving White a clean pawn down."
   },
   "1.g4 d5 2.h3 e5": {
-    "strategy": "Takes the centre and builds a broad pawn centre, rather than chasing the now guarded g4-pawn. Black can later close the long diagonal and make the white bishop's work hard."
+    "strategy": "Builds a broad pawn centre and leaves the guarded g4-pawn alone. It is sound and comfortable, with the pawns ready to shut the long diagonal, but it lets White settle where ...h5 keeps the kingside under pressure."
   },
   "1.g4 d5 2.h3 Nf6": {
-    "strategy": "Develops a piece and eyes the g4-pawn, which h3 now guards. White can answer by pushing the pawn on, gaining space with tempo, so Black loses time rerouting the knight; the move is sound but hands the Grob an easy gain of space."
+    "strategy": "Develops the knight at the g4-pawn, but h3 guards it and g5 drives the knight away with a gain of space, so Black loses time. Black gives up most of the edge for a move White's pawn push answers at once."
   },
   "1.g4 d5 2.h3 Nc6": {
-    "strategy": "A sound developing move that leaves the e-pawn free and asks White to show a plan. It blocks the c-pawn and puts off the central pawn that makes the long diagonal harmless, so Black is comfortable but not yet at the most accurate set-up."
+    "strategy": "A developing move, but it puts the knight in front of the c-pawn and lets White take the centre at once; Black drops from a clear edge to a slight one."
+  },
+  "1.g4 d5 2.h3 h5": {
+    "strategy": "Attacks g4 a second time: the h-pawn and the c8-bishop hit it and only h3 guards it. If White takes, ...Rxh5 regains the pawn with the rook aimed at h3; if it pushes on, the far-advanced pawn is hard to support. Either way White's kingside is stretched."
   },
   "1.g4 d5 2.h3 e5 3.Bg2": {
     "strategy": "The standard set-up: the bishop takes its long diagonal with the g4-pawn safe behind h3. White intends to clear the centre of pawns so that the bishop can work."
   },
   "1.g4 d5 2.h3 e5 3.c4": {
-    "strategy": "Strikes at d5 at once, in the spirit of the opening: tear at the centre so that the long diagonal opens. Black may take the pawn or push on and gain space, so White trades some structure for activity and must watch the loosened kingside."
+    "strategy": "Strikes at d5 at once in the Grob's spirit, but the bishop is still on f1 and the kingside is loosened. Black can answer ...h5, when the g4-pawn is attacked by the h-pawn and the c8-bishop and held by h3 alone, or simply take on c4."
   },
   "1.g4 d5 2.h3 e5 3.d3": {
     "strategy": "Opens the c1-bishop and prepares e4, but leaves Black's centre alone. With the kingside already loosened by g4 and h3, this slow set-up gives Black time to take space and aim at the weak squares."
   },
   "1.g4 d5 2.h3 e5 3.Bg2 c6": {
     "name": "Grob's Attack: Keene Defence",
-    "strategy": "Supports d5 with a pawn so that Black can later close the long diagonal for good with a pawn on e4. A strong and solid reply, which takes the sting out of White's fianchetto."
+    "strategy": "Supports d5 with a pawn so that ...e4 can later shut the long diagonal for good: a sound, ambitious set-up. It steers into a closed pawn chain that White is likely to know well, which is why 3...Nc6 is the more flexible choice."
   },
   "1.g4 d5 2.h3 e5 3.Bg2 Nc6": {
-    "strategy": "The classical set-up: Black defends e5 with a developing move and lets White decide how to use the bishop. It avoids a pawn chain that White is likely to know well, at the price of leaving some pressure on d5."
+    "strategy": "The classical set-up: the knight guards e5 and develops, leaving the c-pawn free and Black's structure flexible. Black keeps a clear lead without committing to a pawn chain, and avoids the closed chain that 3...c6 steers into, which White may know well."
   },
   "1.g4 d5 2.h3 e5 3.Bg2 Nf6": {
     "strategy": "Develops towards the centre and adds a guard to d5, but g5 kicks the knight at once. Black either retreats, losing time, or trades the knight for the bishop, which is acceptable but leaves White a cramping pawn on g5."
@@ -197,7 +203,7 @@
     "strategy": "Attacks the undefended e5-pawn and tears at the centre, the way the Grob is meant to work: if the centre is opened, the bishop gets its diagonal. It forces Black to decide what to do with the pawn."
   },
   "1.g4 d5 2.h3 e5 3.Bg2 c6 4.c4": {
-    "strategy": "Attacks d5 from the side, in the Grob's way of undermining the centre so that the bishop gets its diagonal. If Black pushes the d-pawn the diagonal is blunted for good; if Black takes, White has to prove its compensation in activity."
+    "strategy": "Follows the Grob's plan of tearing at d5 to open the bishop's diagonal, and is playable. But Black simply takes on c4 and keeps the pawn, and the open diagonal gives White only modest compensation, so d4 is the better try."
   },
   "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d3": {
     "strategy": "A modest preparation of e4 that keeps the position closed and solid. Without the central tearing that gives the Grob its point, the bishop stays blunted behind Black's pawns and Black is simply comfortable."
@@ -206,28 +212,31 @@
     "strategy": "Answers the attack by shutting the long diagonal in the centre: the e4-pawn blocks the bishop and gains space. Black accepts a cramping pawn chain and a target for White to undermine."
   },
   "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d4 exd4": {
-    "strategy": "Opens the centre at once, which is what White's bishop wants. The queen recaptures in the middle and the pawn that could have closed the long diagonal is gone, so Black has traded a centre pawn for an easier game for White."
+    "strategy": "Opens the centre at once, which suits White's bishop. After Qxd4 the queen and bishop both press on d5, and the e-pawn that could have closed the long diagonal is gone. Black's edge is almost gone."
   },
   "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d4 Nd7": {
-    "strategy": "Defends e5, which the d4-pawn attacks and nothing guards yet, and develops, so that Black can retake on e5 with the knight. The d5 and c6 pawns stay intact, but White gets the open centre the bishop wants, and the knight on e5 has little to aim at."
+    "strategy": "Defends e5 and develops, but gives up the clamp that 4...e4 puts on the centre. White gets a free hand to open the centre or hit d5, and the position is about level."
   },
   "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d4 e4 5.c4": {
-    "strategy": "Strikes at the d5-pawn to undermine the chain that holds e4 and to open the bishop's diagonal again. It is the standard counter against a Black wall in the centre."
+    "strategy": "Strikes at d5 to undermine the chain that holds e4 and reopen the bishop's diagonal; it is the Grob's thematic plan and the theory move. Black meets it comfortably with ...Bd6, though, so it is not White's most accurate way."
   },
   "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d4 e4 5.Nc3": {
     "strategy": "Develops a piece and adds pressure on the e4 and d5 pawns, but it blocks the c-pawn and loses the usual strike at d5. The knight can also be pinned against the king by a bishop on b4."
   },
   "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d4 e4 5.Nd2": {
-    "strategy": "Develops while keeping the c-pawn free to strike at d5, and adds a piece to the pressure on e4. The price is a blocked c1-bishop, and White still has to find a way to undermine the chain."
+    "strategy": "Adds a second attacker to e4 and keeps the c-pawn free, but the knight blocks the c1-bishop and e4 is guarded by d5, so nothing is won. The knight soon has to retreat, and Black keeps a large lead."
+  },
+  "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d4 e4 5.Bf4": {
+    "strategy": "Brings the c1-bishop out beyond the pawn chain, where it eyes the b8-knight and invites a trade of the dark-squared bishops after ...Bd6. White keeps the c-pawn free for a later strike at d5, which is a more accurate move order than playing c4 at once."
   },
   "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d4 e4 5.c4 Bd6": {
     "strategy": "Develops the bishop on a diagonal that points at the dark squares the g-pawn left weak on White's kingside. Black gets a piece into play while keeping the centre closed."
   },
   "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d4 e4 5.c4 Nf6": {
-    "strategy": "Adds a guard to both e4 and d5, the two pawns the chain rests on. But g5 chases the knight away at once, and the retreat costs time while White gains space on the kingside."
+    "strategy": "Defends d5 and e4 with a developing move but is slower than ...Bd6: White plays Nc3 and presses on both pawns, and g5 can always drive the knight off f6. Most of Black's edge disappears."
   },
   "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d4 e4 5.c4 f5": {
-    "strategy": "Props up e4 with a pawn, so the chain no longer depends on d5 alone. The price is a loosened kingside: the pawn can no longer guard e6 and g6, and White may open the g-file by taking on f5."
+    "strategy": "Props up e4 with a pawn, but loosens the kingside: e6 and g6 lose their guard, and White can open the g-file by taking on f5. After Nc3 the pressure on d5 and e4 tells, and Black's edge is much smaller than after ...Bd6."
   },
   "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d4 e4 5.c4 Bd6 6.Nc3": {
     "strategy": "Adds a second attacker to e4, which d5 alone guards, and to d5 itself. White increases the pressure on the chain from both ends and develops a piece."
@@ -243,10 +252,10 @@
     "strategy": "Develops the knight to guard d5 and f5, so the chain holds against the pressure and the f-pawn is free to support e4. Black keeps the centre closed and plays for the kingside."
   },
   "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d4 e4 5.c4 Bd6 6.Nc3 Nf6": {
-    "strategy": "Defends e4 and d5 with a developing move, but g5 drives the knight back at once, and the retreat costs time. Black keeps the closed centre while White gains space on the kingside."
+    "strategy": "Defends e4 and d5 with a developing move, but the bishop on d6 blocks the queen's guard of d5. g5 drives the knight away at once, and after cxd5 cxd5 the knight on c3 wins the pawn. White comes out slightly ahead."
   },
   "1.g4 d5 2.h3 e5 3.Bg2 c6 4.d4 e4 5.c4 Bd6 6.Nc3 f5": {
-    "strategy": "Props up e4 with a pawn, so the chain no longer relies on d5 alone. It commits a further pawn on the kingside, where White can trade it off by taking on f5, and the king's side is left looser."
+    "strategy": "Props up e4, but d5 is left short of defenders: the bishop on d6 blocks the queen, so after cxd5 cxd5 the knight on c3 simply takes the pawn. The loosened kingside is a further cost, and Black's lead is gone."
   },
   "1.g4 e5 2.Bg2": {
     "strategy": "The natural follow-up: the bishop takes up its post on the long diagonal and fights for the centre from a distance, which is what the g-pawn's advance was meant to allow. White accepts a loosened kingside in return for pressure on the light squares."
@@ -277,7 +286,7 @@
     "strategy": "Takes the centre with a second pawn and opens the bishop's diagonal, reaching the opening's main line by transposition. Black has the better pawn centre and the easier development, and White has to prove the compensation for the loosened wing."
   },
   "1.g4 e5 2.h3 Ne7": {
-    "strategy": "Aims the knight at g6, from where it can reach f4 or h4, the squares the advanced pawns have left behind. Black disturbs White's kingside fianchetto before it is built and keeps the d-pawn flexible."
+    "strategy": "Aims the knight at g6 and then f4 or h4, the squares the advanced pawns have left weak, but it does not defend e5. White strikes at once with d4, and after ...exd4 develops freely, so Black's lead is much smaller than after 2...Nc6."
   },
   "1.g4 g5 2.f4": {
     "name": "Grob's Attack: Double Grob, Coca-Cola Gambit",

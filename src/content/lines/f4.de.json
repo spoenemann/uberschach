@@ -94,7 +94,7 @@
     "strategy": "Nimmt den angebotenen Bauern und beseitigt den Zentrumsbauern von Weiß, wobei der Weg der Dame nach h4 bereits offen ist. Schwarz behält vorerst den Mehrbauern, und Weiß muss zeigen, dass die offenen Linien es wert sind."
   },
   "1.f4 e5 2.d4 exf4": {
-    "strategy": "Nimmt den anderen Bauern, doch nichts deckt ihn: Der Läufer auf c1 schlägt sofort zurück, und Weiß behält den Bauern auf d4 und freie Hand im Zentrum. Schwarz hat kein Material gewonnen, und Weiß ist besser entwickelt."
+    "strategy": "Nimmt den anderen Bauern, doch der Läufer c1 schlägt sofort zurück, und der Mehrbauer ist wieder weg. Das Material ist ausgeglichen, Weiß behält den Bauern auf d4 und entwickelt sich ungehindert, und Schwarz hat den Vorteil des Gambits verspielt."
   },
   "1.f4 e5 2.d4 Nf6": {
     "strategy": "Entwickelt sich und greift das Zentrum an, lässt aber e5 hängen: Jedes Schlagen auf e5 gewinnt einen Bauern und greift den Springer mit einem Bauern an, und Schwarz hat als Gegenwert nur schnelles Spiel gegen die geschwächte Königsstellung von Weiß."
@@ -106,20 +106,20 @@
     "strategy": "Gewinnt den Bauern sofort zurück und zentralisiert die Dame. Sie kommt allerdings früh heraus: ...Sc6 greift sie mit einem Entwicklungszug an, sodass Weiß Zeit verliert und Schwarz besser entwickelt ist."
   },
   "1.f4 e5 2.d4 exd4 3.c3": {
-    "strategy": "Bietet einen zweiten Bauern an, um die Stellung für die Figuren zu öffnen: Nimmt Schwarz ihn, steht Weiß zwei Bauern im Minus und hat nur einen Entwicklungsvorsprung dafür."
+    "strategy": "Bietet einen zweiten Bauern an, um Linien für die Figuren zu öffnen. Schwarz kann ihn nehmen oder ablehnen und den ersten Bauern vorerst behalten; in beiden Fällen muss Weiß seinen Entwicklungsvorsprung zur Geltung bringen. Spielbar, aber es riskiert mehr als der Springerzug."
   },
   "1.f4 e5 2.d4 exd4 3.Nf3 c5": {
-    "strategy": "Hält den Mehrbauern, indem er d4 mit einem Bauern verteidigt, und gewinnt Raum am Damenflügel. Schwarz vermeidet, sofort Material zurückgeben zu müssen, doch die Entwicklung liegt weiter hinter der von Weiß zurück."
+    "strategy": "Hält den Mehrbauern vorerst, indem er d4 mit einem Bauern deckt, und gewinnt Raum am Damenflügel. Aber e3 greift d4 erneut an, und nach dem Abtausch holt Weiß den Bauern mit einem entwickelten Springer zurück, während die Figuren von Schwarz am Königsflügel noch zu Hause stehen."
   },
   "1.f4 e5 2.d4 exd4 3.Nf3 Nc6": {
     "strategy": "Entwickelt sich mit Angriff auf d4 und hält das Spiel einfach. Den Bauern hält er allerdings nicht: Weiß schlägt auf d4 zurück und gewinnt nach dem Springertausch den Bauern zurück, sodass eine ausgeglichene Partie entsteht, in der der Königsspringer von Schwarz noch herauskommen muss."
   },
   "1.f4 e5 2.d4 exd4 3.Nf3 Nf6": {
-    "strategy": "Entwickelt sich und überwacht e4, lässt aber d4 ungedeckt: Weiß nimmt ihn einfach mit dem Springer zurück, der im Zentrum gut steht, und der Mehrbauer von Schwarz ist dahin."
+    "strategy": "Entwickelt sich und lässt Weiß den Bauern mit dem Springer zurückholen, denn die Figuren von Schwarz kommen dann mit Tempo gegen diesen Springer ins Spiel, und die gelockerte Königsstellung von Weiß bietet Angriffsziele. Ein Entwicklungsvorsprung ist hier mehr wert als der Bauer."
   },
   "1.f4 e5 2.d4 exd4 3.Nf3 c5 4.c3": {
     "name": "Bird-Eröffnung: Siegener Gambit",
-    "strategy": "Bietet einen zweiten Bauern an, um das Zentrum aufzureißen: Nimmt Schwarz, bringt Sxc3 eine Figur auf offene Linien. Weiß ist schon einen Bauern im Rückstand und muss die Initiative zur Geltung bringen, es ist also ein Gambit, das genaues Folgespiel verlangt."
+    "strategy": "Bietet einen zweiten Bauern an, doch Schwarz muss ihn nicht nehmen: Die Entwicklung mit ...Sf6 behält den Mehrbauern länger, und wenn Weiß ihn zurückgewinnt, liegt Schwarz in der Entwicklung vorn und die Königsstellung von Weiß ist entblößt. Ein Gambit, das mehr hergibt, als es gewinnt."
   },
   "1.f4 e5 2.d4 exd4 3.Nf3 c5 4.e3": {
     "strategy": "Greift d4 ein zweites Mal mit einem Bauern an und öffnet die Linien beider Läufer. Schlägt Schwarz, gewinnt Weiß mit einer Läuferentwicklung unter Tempogewinn einen Bauern zurück; hält Schwarz den Bauern, bringt der Abtausch auf d4 Weiß ein offenes Spiel. Weiß braucht schnelle Entwicklung, um den Bauern zu rechtfertigen."
@@ -156,7 +156,7 @@
   },
   "1.f4 e5 2.fxe5 d6 3.exd6 Nf6": {
     "name": "Bird-Eröffnung: From-Gambit, Langheld-Gambit",
-    "strategy": "Entwickelt, statt zurückzuschlagen, doch dann greift 4.dxc7 die Dame an und lässt Schwarz nach ...Dxc7 zwei Bauern im Rückstand. Das Zurückschlagen mit dem Läufer auf d6 ist der Weg, den Bauern zurückzuholen."
+    "strategy": "Ein Gambit: Schwarz entwickelt sich und lässt Weiß auf c7 nehmen, wonach ...Dxc7 Schwarz zwei Bauern im Rückstand lässt, für schnelle Figuren und Spiel gegen die lockere Königsstellung. Es hält, verlangt Schwarz aber viel ab; der Läuferschlag holt den Bauern sofort zurück."
   },
   "1.f4 e5 2.fxe5 d6 3.exd6 Qxd6": {
     "strategy": "Schlägt mit der Dame zurück, die entlang der offenen Diagonale auf g3 und h2 blickt. Schwarz steht noch einen Bauern im Minus und hat keine Figur entwickelt, sodass Weiß in Ruhe Figuren entwickeln und den Königsflügel decken kann."
@@ -173,7 +173,7 @@
   "1.f4 e5 2.fxe5 d6 3.exd6 Bxd6 4.Nf3 g5": {
     "name": "Bird-Eröffnung: From-Gambit, Lasker-Variante",
     "background": "Emanuel Lasker, der spätere Weltmeister, führte 4...g5 in der Partie Bird–Lasker in Newcastle upon Tyne 1892 ein. Es ist die häufigste und aggressivste Antwort auf 4.Sf3.",
-    "strategy": "Der aggressivste Versuch: Der Bauer soll den Springer von f3 vertreiben und so das Feld h4 wieder öffnen. Doch Schwarz steht schon einen Bauern zurück, der Vorstoß lockert die Deckung des Königs, und Weiß festigt die Stellung und steuert ein Endspiel an, in dem der Mehrbauer zählt."
+    "strategy": "Der schärfste Versuch: Der Bauer droht mit ...g4, was den Springer von f3 vertreibt und h4 für die Dame wieder öffnet. Er lockert die eigene Königsstellung von Schwarz, sodass Weiß ruhig antworten und einen leichten Vorteil behalten kann, doch der Kampf ist zweischneidig und lohnt sich für Spieler, die gern angreifen."
   },
   "1.f4 e5 2.fxe5 d6 3.exd6 Bxd6 4.Nf3 Nh6": {
     "strategy": "Entwickelt sich in Richtung g4 und f5, ohne einen Bauern zu ziehen, sodass die Deckung des Königs intakt bleibt. Der Springer landet allerdings am Rand und verliert Zeit, während Weiß den Mehrbauern und freie Hand im Zentrum behält."
@@ -186,13 +186,16 @@
   },
   "1.f4 e5 2.fxe5 d6 3.exd6 Bxd6 4.Nf3 Nh6 5.d4": {
     "name": "Bird-Eröffnung: From-Gambit, Lipke-Variante",
-    "strategy": "Beansprucht das Zentrum und öffnet im selben Zug die Diagonale des Läufers c1: Der Läufer greift nun den Springer auf h6 an, und Lxh6 würde die Bauern von Schwarz verdoppeln. Weiß behält den Mehrbauern bei gesundem Zentrum."
+    "strategy": "Besetzt das Zentrum und öffnet sofort die Diagonale des Läufers c1: Der Läufer greift nun den Springer auf h6 an, und Lxh6 würde die Bauern von Schwarz verdoppeln. Weiß behält den Mehrbauern bei gesundem Zentrum, doch h2 gerät durch ...Sg4 und den Läufer auf d6 unter Druck."
   },
   "1.f4 e5 2.fxe5 d6 3.exd6 Bxd6 4.Nf3 Nh6 5.e3": {
     "strategy": "Öffnet den Läufer auf f1 für schnelle Entwicklung und Rochade, während der Springer auf f3 h4 und h2 deckt. Der Läufer auf c1 ist hinter dem Bauern eingesperrt, was der Preis des soliden Aufbaus ist; Weiß behält den Mehrbauern."
   },
   "1.f4 e5 2.fxe5 d6 3.exd6 Bxd6 4.Nf3 Nh6 5.Nc3": {
     "strategy": "Entwickelt eine Figur zum Zentrum, verliert dabei aber Zeit, während die Figuren von Schwarz auf den Königsflügel zielen: Ein Springer auf g4 würde h2 zusammen mit dem Läufer auf d6 angreifen, sodass Weiß h2 gedeckt halten muss. Der Läufer auf c1 bleibt eingesperrt."
+  },
+  "1.f4 e5 2.fxe5 d6 3.exd6 Bxd6 4.Nf3 Nh6 5.g3": {
+    "strategy": "Schließt die Diagonale e1-h4 und stellt einen Bauern auf den Weg des Läufers nach h2, sodass der Sprung des Springers nach g4 das Meiste seiner Schärfe verliert. Der Läufer f1 bekommt die lange Diagonale, und Weiß behält den Mehrbauern bei kompakter Königsstellung."
   },
   "1.f4 e5 2.Nc3 exf4": {
     "strategy": "Nimmt den Bauern und behält ihn: Weiß hat das Gambit abgelehnt, aber nie einen Bauern zurückgewonnen, sodass Schwarz schlicht einen Bauern mehr hat. Schwarz muss dem kommenden Zentrumsvorstoß mit Vorsicht begegnen, doch der Mehrbauer ist ein bleibender Vorteil."
@@ -211,7 +214,7 @@
     "strategy": "Der natürliche Entwicklungszug, der zugleich das Problem der Stellung löst: Der Springer deckt h4, sodass ...Dh4+ auf der offenen Diagonale nicht mehr mit Tempo kommt. Weiß baut ein Zentrum auf und entwickelt sich schnell, während Schwarz beweisen muss, dass sich der Mehrbauer auf f4 halten lässt, ohne den Königsflügel zu schwächen."
   },
   "1.f4 e5 2.Nc3 exf4 3.g3": {
-    "strategy": "Schließt die Diagonale e1-h4 und lädt zu ...fxg3 ein, worauf hxg3 dem Turm die h-Linie gibt und den Figuren von Weiß einige offene Linien verschafft. Weiß steht aber weiter einen Bauern zurück und der Königsflügel ist ausgedünnt, daher braucht es schnelle Entwicklung als Ausgleich."
+    "strategy": "Sperrt die Diagonale e1-h4, lässt den Bauern f4 aber in Ruhe: Schwarz entwickelt sich einfach, behält den Mehrbauern und kann auf g3 nehmen, wann es ihm passt. Weiß steht einen Bauern zurück, und die offene h-Linie ist die einzige Entschädigung."
   },
   "1.f4 f5 2.d4": {
     "strategy": "Beantwortet die Symmetrie mit einem ruhigen Zentrumsbauern: d4 hilft f4, e5 zu kontrollieren, und gibt dem Damenläufer Raum, sodass Weiß eine kompakte Bauernmauer errichten kann. Der Zug ist solide und risikoarm, aber Schwarz kann den Aufbau spiegeln, und die Partie bleibt geschlossen und ausgeglichen statt scharf."
@@ -242,7 +245,7 @@
     "strategy": "Die Hauptvariante: Weiß gibt einen zweiten Bauern, um die Stellung zu öffnen, und nach ...exd3 schlägt der Läufer mit einem Entwicklungszug zurück und zielt auf h7 und die Diagonale des Königs. Weiß steht für schnelle Entwicklung und offene Linien einen Bauern zurück, was eine gewisse Kompensation ist, aber nicht genug."
   },
   "1.f4 f5 2.e4 fxe4 3.Qe2": {
-    "strategy": "Greift den Bauern auf e4 sofort an, sodass Schwarz ihn mit einem Entwicklungszug decken muss und Weiß Zeit zum Nachsetzen bekommt. Der Zug ist gesund, aber langsam: Die Dame steht vor dem Königsläufer, und Weiß hat weiter einen Bauern weniger, ohne bisher etwas dafür vorzuweisen."
+    "strategy": "Greift den Bauern e4 sofort an, doch Schwarz deckt ihn mit ...Sf6 oder ...d5 und behält den Mehrbauern. Die Dame versperrt dann den Königsläufer, und Weiß hat weder den Bauern zurück noch die schnelle Entwicklung, die das Gambit rechtfertigen würde."
   },
   "1.f4 f5 2.e4 fxe4 3.Nc3 Nf6": {
     "strategy": "Die natürliche Verteidigung: Der Springer deckt den Bauern auf e4, entwickelt sich und kontrolliert h5, sodass ein Damenschach auf diesem Feld nicht mehr funktioniert. Schwarz behält den Mehrbauern bei solider Entwicklung, und Weiß muss nun einen Weg finden, Linien zu öffnen, da ruhiges Spiel Schwarz nur besser stehen lässt."
@@ -262,7 +265,7 @@
     "strategy": "Bietet einen zweiten Bauern an, mit ruhigerem Charakter als der Bauernvorstoß am Königsflügel: Nach ...exd3 schlägt der Läufer mit einem Entwicklungszug zurück, und Weiß hat offene Linien und einen Entwicklungsvorsprung. Der Königsflügel bleibt intakt, doch Weiß steht einen Bauern zurück und muss die Initiative behalten."
   },
   "1.f4 f5 2.e4 fxe4 3.Nc3 Nf6 4.Nge2": {
-    "strategy": "Eine ruhige Art, den Druck auf e4 zu erhöhen: Der Springer steuert g3 an, um den Bauern ein zweites Mal anzugreifen. Schwarz kann ihn mit einem Bauern stützen und behält das Mehrmaterial, sodass Weiß langsamen Druck statt offener Linien bekommt."
+    "strategy": "Fügt einen zweiten Angreifer auf e4 hinzu, indem er nach g3 strebt, ist aber langsam: Der Springer versperrt den Läufer f1, und Schwarz stützt den Bauern einfach mit ...d5 und behält das Mehrmaterial. Weiß bekommt weder den Bauern zurück noch offene Linien."
   },
   "1.f4 h6 2.Nf3": {
     "strategy": "Ein natürlicher Entwicklungszug, der das geplante ...g5 riskant macht: Von f3 aus nimmt der Springer g5 ins Visier, sodass der Bauer zweimal angegriffen und nur einmal gedeckt wäre. Weiß gewinnt einen nützlichen Zug, während der h-Bauer von Schwarz bisher kaum mehr getan hat, als die Königsflanke zu schwächen."

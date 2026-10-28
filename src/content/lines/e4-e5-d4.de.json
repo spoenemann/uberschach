@@ -40,7 +40,7 @@
   },
   "1.e4 e5 2.d4 exd4 3.Bd3": {
     "name": "Mittelgambit: Ross-Gambit",
-    "strategy": "Entwickelt den Läufer, stellt ihn aber auf die d-Linie, wo er der Dame den Weg nach d4 versperrt und den Bauern unangegriffen lässt. Weiß steht schlicht einen Bauern zurück, ohne schnellen Weg, ihn zurückzugewinnen oder Linien zu öffnen, während Schwarz sich in Ruhe entwickelt."
+    "strategy": "Entwickelt den Läufer und deckt e4, bereit zur Rochade, doch auf d3 versperrt er der Dame den Weg nach d4, sodass der Bauer nicht sofort zurückgewonnen wird. Weiß erhält nur teilweise Kompensation, während Schwarz d4 verteidigt und sich entwickelt: solide, aber eine zweitklassige Art, das Gambit zu spielen."
   },
   "1.e4 e5 2.d4 exd4 3.c3 d5": {
     "name": "Abgelehntes Dänisches Gambit: Sörensen-Verteidigung",
@@ -96,7 +96,7 @@
   },
   "1.e4 e5 2.d4 exd4 3.c3 dxc3 4.Bc4 cxb2 5.Bxb2 Qe7": {
     "name": "Angenommenes Dänisches Gambit: Tschigorin-Verteidigung",
-    "strategy": "Greift den Bauern e4 an, steht aber vor dem Königsläufer, sodass der Königsflügel unentwickelt bleibt, während beide weißen Läufer schon auf f7 und g7 zielen. Der Zug trägt nichts zur Entwicklung von Schwarz bei, und gerade die kann sich Schwarz gegen diesen Angriff nicht leisten."
+    "strategy": "Greift e4 an und behält die Mehrbauern, aber die Dame steht vor dem Königsläufer, sodass der Königsflügel unentwickelt bleibt, während beide weißen Läufer auf f7 und g7 zielen. Es hält, kostet aber ein Tempo, wo Schwarz es am wenigsten entbehren kann."
   },
   "1.e4 e5 2.d4 exd4 3.f4 Bc5": {
     "strategy": "Entwickelt den Läufer und deckt den Bauern d4, sodass Schwarz den Mehrbauern einfach behält, während die Königsstellung von Weiß gelockert bleibt. Schwarz muss sich weder beeilen noch Risiken eingehen."
@@ -105,7 +105,7 @@
     "strategy": "Deckt d4 mit einem Entwicklungszug und bereitet ...d5 gegen e4 vor, das Weiß mit Sc3 nicht stützen kann, solange der Bauer auf d4 steht. Schwarz behält den Mehrbauern, und da f4 die Königsflanke von Weiß geschwächt hat, kann Schwarz sich in Ruhe entwickeln und die Initiative übernehmen."
   },
   "1.e4 e5 2.d4 exd4 3.f4 d5": {
-    "strategy": "Greift e4 an und befreit den Läufer auf c8, doch nichts deckt d4: 4.Dxd4 gewinnt den Bauern sofort zurück, und nach 4...dxe4 5.Dxe4+ ist das Material ausgeglichen. Schwarz gibt den Mehrbauern für wenig her."
+    "strategy": "Greift e4 sofort an und befreit den Läufer auf c8. Weiß kann d4 mit der Dame zurückgewinnen, doch dann steht sie ungeschützt im Zentrum, und da die Königsseite durch f4 gelockert ist, bleibt Schwarz in der Entwicklung voraus und behält das bessere Spiel."
   },
   "1.e4 e5 2.d4 exd4 3.f4 Bc5 4.Nf3": {
     "strategy": "Entwickelt sich mit Angriff auf d4 und deckt h4, sodass die schwarze Dame die geschwächte Diagonale nicht mehr nutzen kann. Weiß setzt den Mehrbauern jetzt wirklich unter Druck, und Schwarz muss ihn mit Entwicklungszügen verteidigen."
@@ -123,17 +123,20 @@
     "strategy": "Greift e4 an und befreit den Läufer auf c8, doch d4 wird zweimal angegriffen und nur vom Läufer gedeckt, sodass Weiß mit Sxd4 auf den Bauern losgehen kann und der Mehrbauer nicht mehr sicher ist."
   },
   "1.e4 e5 2.d4 exd4 3.f4 Bc5 4.Nf3 Nf6": {
-    "strategy": "Entwickelt sich mit Angriff auf e4, fügt aber d4 keinen Verteidiger hinzu: Weiß kann auf d4 tauschen und den Bauern zurückgewinnen, und ...Sc6 greift dann die Dame an und holt etwas Zeit zurück. Schwarz gibt den Mehrbauern für Aktivität zurück."
+    "strategy": "Greift e4 an, fügt aber d4 keinen Verteidiger hinzu und lädt zu 5.e5 ein, was den Springer vertreibt und Weiß den Bauern ausgeglichen zurückgewinnen lässt. Schwarz gibt den Mehrbauern und den Vorteil ohne konkreten Gegenwert zurück."
   },
   "1.e4 e5 2.d4 exd4 3.f4 Bc5 4.Nf3 Nc6 5.c3": {
     "name": "Mittelgambit: Halasz-McDonnell-Gambit, Krokodil-Variante",
     "strategy": "Greift d4 ein drittes Mal an, drei Angreifer gegen zwei Verteidiger, sodass Schwarz entscheiden muss, ob er hält, nimmt oder vorstößt. Weiß bietet einen zweiten Bauern, um ein Bauernzentrum aufzubauen und Linien zu öffnen, ein riskanter Weg, das Gambit weiterzuführen."
   },
   "1.e4 e5 2.d4 exd4 3.f4 Bc5 4.Nf3 Nc6 5.Bc4": {
-    "strategy": "Der natürliche Entwicklungszug: Der Läufer zielt auf f7, und Weiß bereitet die Rochade vor, die den König in Sicherheit bringt. Nichts davon gewinnt den Bauern zurück, die Kompensation bleibt also bescheiden, aber die Figuren kommen schnell ins Spiel, und Schwarz muss genau spielen."
+    "strategy": "Der natürliche Entwicklungszug: Der Läufer zielt auf f7, und Weiß bereitet die Rochade vor. Er ist gut, tut aber nichts gegen den Bauernverlust, und ...d5 kann den Läufer sofort angreifen, sodass die Kompensation bescheiden bleibt und Weiß genau spielen muss."
   },
   "1.e4 e5 2.d4 exd4 3.f4 Bc5 4.Nf3 Nc6 5.Be2": {
     "strategy": "Solide Entwicklung, die den Springer auf f3 deckt und die Rochade vorbereitet, aber nichts droht. Schwarz beendet seine Entwicklung mit dem Mehrbauern und hat keinen Grund zur Eile."
+  },
+  "1.e4 e5 2.d4 exd4 3.f4 Bc5 4.Nf3 Nc6 5.Nbd2": {
+    "strategy": "Deckt e4 und macht den Weg für Sb3 frei, der den Läufer auf c5 und den Bauern auf d4 zugleich angreifen würde. Weiß entwickelt sich mit einem konkreten Plan, den Bauern zurückzugewinnen, und hält das Gambit am Leben, ohne den Läufer früh festzulegen."
   },
   "1.e4 e5 2.d4 exd4 3.Nf3 Bc5": {
     "strategy": "Entwickelt den Läufer auf sein aktivstes Feld und deckt d4, doch der Bauer lässt sich nicht halten: Weiß nimmt einfach mit dem Springer zurück, und die Partie wird offen, mit gleichem Material und natürlicher Entwicklung für beide Seiten."
@@ -172,7 +175,7 @@
     "strategy": "Gewinnt einen der Bauern mit einem Entwicklungszug zurück, sodass Weiß nur einen Bauern für einen Entwicklungsvorsprung opfert. Der Springer zielt auf d5 und stützt e4; der Läufer auf c5 drückt weiter auf f2, das nur der König deckt, weshalb Weiß dieses Feld im Auge behalten muss."
   },
   "1.e4 e5 2.d4 exd4 3.Nf3 Bc5 4.c3 dxc3 5.bxc3": {
-    "strategy": "Schlägt mit dem b-Bauern zurück, baut Bauern auf c3 und e4 auf und öffnet die b-Linie, doch die Bauernstruktur am Damenflügel ist beschädigt, und keine Figur ist entwickelt. Schwarz, einen Bauern vorn, steht unter keinem Druck, und der Läufer auf c5 drückt weiter auf f2."
+    "strategy": "Schlägt mit dem b-Bauern zurück, was die b-Linie öffnet, aber die Damenflügelstruktur ruiniert und nichts weiter entwickelt. Schwarz ist einen Bauern voraus, ohne Druck begegnen zu müssen, und entwickelt sich in Ruhe, während der Läufer auf c5 weiter auf f2 zielt."
   },
   "1.e4 e5 2.d4 exd4 3.Nf3 c5 4.Bc4": {
     "name": "Mittelgambit: Kieseritzky-Variante",
@@ -215,7 +218,7 @@
   },
   "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qe3 f5": {
     "name": "Mittelgambit: l'Hermet-Variante",
-    "strategy": "Greift e4 an, schwächt aber den eigenen König: 5.exf5+ öffnet die e-Linie mit Schach, und die weiße Dame steht bereits darauf. Schwarz bleibt mit gelockertem Königsflügel und einem bedrängten König zurück, ohne erkennbaren Gewinn."
+    "strategy": "Greift e4 sofort an, lockert aber die Königsseite von Schwarz: 5.exf5+ öffnet die e-Linie mit Schach, und Schwarz muss sie mit einer Figur verstellen, ehe es die Entwicklung beenden kann. Spielbar, da Weiß wenig Konkretes gewinnt, doch Weiß hat das leichtere Spiel."
   },
   "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qe3 Bb4+ 5.c3": {
     "strategy": "Beantwortet das Schach mit einem Bauern, der zugleich den Läufer angreift; die Dame deckt ihn, sodass der schwarze Läufer weichen muss. Der Preis ist, dass der Springer sein natürliches Feld c3 verliert, und der Bauernzug fördert die Entwicklung nicht."
@@ -258,7 +261,7 @@
     "strategy": "Löst die Fesselung mit einem Entwicklungszug, sodass der Springer e4 wieder deckt, und räumt die Grundreihe für die lange Rochade. Weiß plant dann, die Dame gegen g7 auf den Königsflügel zu schwenken."
   },
   "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qe3 Nf6 5.Nc3 Bb4 6.Nf3": {
-    "strategy": "Entwickelt den Königsspringer in Richtung Rochade, lässt den Springer auf c3 aber am König gefesselt. Schwarz kann Weiß die Bauern verdoppeln, indem er ganz nach Belieben auf c3 schlägt, und die Dame auf e3 bleibt für ...Sg4 angreifbar. Solide, doch Weiß gibt die Initiative ab, die die Fesselung Schwarz verschafft."
+    "strategy": "Entwickelt den Königsspringer, lässt aber den Springer auf c3 gefesselt, sodass e4 nur von der Dame gedeckt ist. Schwarz rochiert, und ...Sxe4 gewinnt den Bauern, weil der gefesselte Springer nicht zurückschlagen kann. Weiß gerät für einen Entwicklungszug im Zentrum ins Hintertreffen."
   },
   "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qe3 Nf6 5.Nc3 Bb4 6.Bd3": {
     "strategy": "Deckt e4 ein zweites Mal und bereitet die kurze Rochade vor, ignoriert aber die Fesselung auf c3. Schwarz kann mit ...Lxc3+ sofort die Bauernstruktur des Weißen am Damenflügel zerstören, und der gefesselte Springer bleibt eine Schwäche, während ...Sg4 die Dame auf e3 angreift."
@@ -267,7 +270,7 @@
     "strategy": "Rochiert in Sicherheit, bevor das Mittelspiel sich zuspitzt, mit dem Turm bereit für die e-Linie, wo er auf e4 und die Dame zielt. Weiß rochiert meist lang, sodass die Könige auf entgegengesetzten Flügeln stehen und jede Seite den König der anderen angreift."
   },
   "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qe3 Nf6 5.Nc3 Bb4 6.Bd2 Bxc3": {
-    "strategy": "Tauscht den Läufer sofort gegen den Springer. Weiß schlägt mit dem Läufer zurück, sodass kein Bauer verdoppelt wird, und der neue Läufer auf c3 blickt die lange Diagonale entlang auf f6 und g7. Schwarz bleibt solide, hat Weiß aber das Läuferpaar überlassen."
+    "strategy": "Tauscht den Läufer zu früh gegen den Springer: Weiß schlägt mit dem Läufer zurück, sodass kein Bauer verdoppelt wird, und der Läufer bedrängt dann f6 mit g7 dahinter. Schwarz gibt die Fesselung auf und überlässt Weiß das Läuferpaar ohne Gegenleistung."
   },
   "1.e4 e5 2.d4 exd4 3.Qxd4 Nc6 4.Qe3 Nf6 5.Nc3 Bb4 6.Bd2 d6": {
     "strategy": "Ein bescheidener Zug, der den Läufer c8 befreit und e5 deckt, die Fesselung und die Möglichkeit der späteren Rochade aber beibehält. Er kostet ein Tempo, bevor der König sicher steht, sodass Weiß lang rochieren und den Königsangriff ohne Verzögerung beginnen kann."

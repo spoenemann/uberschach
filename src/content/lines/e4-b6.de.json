@@ -53,10 +53,10 @@
     "strategy": "Nimmt den Bauern und öffnet, da f7 fehlt, die Diagonale von h5 zum König auf e8. Die gierige Antwort 4...Lxg2 läuft in das Damenschach auf h5, und der Entwicklungs- und Angriffsvorsprung von Weiß wächst schnell."
   },
   "1.e4 b6 2.d4 Bb7 3.Bd3 f5 4.Nc3": {
-    "strategy": "Lehnt den Bauern ab und deckt e4 ein zweites Mal, sodass ...fxe4 nur Bauern tauscht und Weiß zurücknimmt. Weiß erhält ein gesundes Zentrum und schnellere Entwicklung gegen einen König, dessen Bauerndeckung gelockert ist; gewinnen kann er damit aber nichts, was das Schlagen auf f5 dagegen tut."
+    "strategy": "Deckt e4 ein zweites Mal und behält einen bequemen Vorteil, lässt aber den Sinn der Antwort auf ...f5 aus: Das Schlagen auf f5 gewinnt einen Bauern und erhält den Angriff auf den geschwächten Königsflügel. Wer das Gambit ablehnt, gibt das preis."
   },
   "1.e4 b6 2.d4 Bb7 3.Bd3 f5 4.Qe2": {
-    "strategy": "Lehnt den Bauern ab und deckt e4 mit der Dame, sodass Schwarz den Bauern dort nicht gewinnen kann. Der Zug ist passiv: Nach dem Abtausch auf e4 wird die Dame durch ...Sf6 vertrieben, und das Schlagen auf f5 gewinnt glatt einen Bauern."
+    "strategy": "Deckt e4 mit der Dame, ein unbequemer Posten: Nach den Abtauschen auf e4 vertreibt ...Sf6 sie. Weiß lässt außerdem den Bauern auf f5 stehen, dessen Schlagen mit dauerhaftem Angriff einen Bauern gewänne."
   },
   "1.e4 b6 2.d4 Bb7 3.Bd3 f5 4.exf5 Bxg2": {
     "strategy": "Schlägt einen Bauern und greift den Turm h1 an, tappt aber in die Falle: Nach dem Schach auf h5 und dem erzwungenen Block auf g6 droht fxg6 mit gxh7 samt Abzugsschach, und das Schlagen des Turms erlaubt sogar Matt auf h7."
@@ -83,7 +83,7 @@
   },
   "1.e4 b6 2.d4 Bb7 3.f3 e5": {
     "name": "Owen-Verteidigung: Wind-Gambit",
-    "strategy": "Greift den Bauern d4 sofort an und nutzt einen Aufbau aus, der dem Springer f3 genommen und die Diagonale zum König geschwächt hat. Schwarz öffnet das Zentrum, solange die Figuren von Weiß unbequem stehen, und Weiß muss die Spannung auflösen."
+    "strategy": "Greift d4 sofort an und öffnet das Zentrum gegen einen Aufbau, der die Diagonale des Königs geschwächt hat, doch dxe5 gewinnt einen Bauern, den Schwarz nur mit ...Sc6 und ...Sxe5 zurückgewinnen kann. Weiß behält dann einen kleinen Vorteil und das leichtere Spiel."
   },
   "1.e4 b6 2.d4 Bb7 3.f3 e6": {
     "strategy": "Die solide Antwort: Schwarz entwickelt sich, ohne etwas preiszugeben, und öffnet dem Königsläufer und der Dame den Weg zur Diagonale nach e1, die der Bauer auf f3 geschwächt hat. Der Läufer auf b7 übt weiter Druck auf e4 aus, und Schwarz spielt auf Ausgleich gegen einen unbeholfenen Aufbau."
@@ -95,10 +95,10 @@
     "strategy": "Nimmt den angebotenen Bauern und löst die Spannung. Schwarz kann nur mit dem b-Bauern sofort zurückschlagen, was den mit 1...b6 gewählten Damenflügelaufbau aufgibt, und muss sonst einen Bauern weniger für Aktivität spielen."
   },
   "1.e4 b6 2.d4 c5 3.Nf3": {
-    "strategy": "Entwickelt und deckt d4, ohne den Bauern festzulegen. Tauscht Schwarz auf d4, nimmt der Springer mit Entwicklungsvorsprung zurück gegen einen noch unfertigen Aufbau am Damenflügel, und Weiß behält die Spannung und die Initiative."
+    "strategy": "Entwickelt sich und deckt d4, lässt aber den Abtausch zu: Nach ...cxd4 Sxd4 ist die Spannung verschwunden, der schwarze Läufer kommt nach b7, um e4 anzugreifen, und Weiß hat nur einen kleinen Vorteil. Die Gelegenheit, Raum zu gewinnen oder den Bauern zu nehmen, bleibt ungenutzt."
   },
   "1.e4 b6 2.d4 c5 3.d5": {
-    "strategy": "Gewinnt Raum und sperrt die lange Diagonale des Läufers, den Schwarz auf b7 haben will, da der Bauer ihm im Weg steht. Der Preis: Der Bauer wird zum Angriffsziel, denn Schwarz kann ihn mit ...e6 angreifen, und die Partie dreht sich darum, ob Weiß den Raumvorteil hält."
+    "strategy": "Antwortet auf den angebotenen Bauern mit Raumgewinn, statt ihn zu nehmen: Der Bauer auf d5 nimmt die lange Diagonale, für die ...b6 den Läufer vorbereitet hat. Schwarz kann den Bauern sofort herausfordern, doch Weiß behält einen klaren Raumvorteil."
   },
   "1.e4 b6 2.d4 c5 3.dxc5 Nc6": {
     "name": "Owen-Verteidigung: Hekili-Loa-Gambit",

@@ -46,7 +46,7 @@
     "strategy": "Blockiert das Schach mit dem Läufer, auf sichere Weise. Das Blockieren mit dem Springer verliert Material wegen ...Lc3. Der Läufer kann später nach c3 gehen, um die lange Diagonale zu bestreiten, blockiert dann aber die c-Linie für Weißens eigenen Turm."
   },
   "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Ba6 5.b3 Bb4+ 6.Nbd2": {
-    "strategy": "Blockt das Schach mit dem Damenspringer und tappt in eine Falle: Der Läufer springt nach c3, greift den Turm auf a1 an und fesselt den Springer auf d2, und Schwarz gewinnt Material."
+    "strategy": "Blockiert das Schach mit dem Damenspringer, was die bekannte Falle ...Lc3 erlaubt: Der Läufer greift den Turm an und fesselt den Springer an den König. Weiß rettet sich mit Tb1 und die Stellung ist ausgeglichen, doch Schwarz behält die Initiative, sodass Weiß genau spielen muss."
   },
   "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Ba6 5.b3 Bb4+ 6.Nc3": {
     "strategy": "Stellt den Springer auf c3 ein, wo er gefesselt ist und mit Schach einfach genommen wird. Nach jedem Block zieht der schwarze Läufer weiter nach a1 und gewinnt auch den Turm."
@@ -156,6 +156,6 @@
     "strategy": "Schlägt den Bauern mit dem Springer, doch nach cxd5 hat Schwarz, wie er auch zurückschlägt, nur zwei Bauern für einen Springer. Weiß behält einfach die Mehrfigur."
   },
   "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 5.Bg2 c5 6.d5 Be7": {
-    "strategy": "Entwickelt den Läufer und bereitet die Rochade vor, ohne den Bauern zu nehmen. Schlägt Weiß auf e6, nimmt Schwarz zurück und behält eine gesunde Stellung, doch bis dahin sperrt der Bauer d5 die Diagonale des Läufers b7, sodass Schwarz Aktivität gegen Sicherheit tauscht."
+    "strategy": "Entwickelt, ohne den Bauern zu nehmen, doch d6 greift den Läufer sofort an. Auf d6 zu schlagen verliert ihn an die Dame, da der d7-Bauer die eigene Dame von Schwarz am Zurückschlagen hindert, sodass der Läufer nach f8 zurück muss und der Bauer auf d6 Schwarz beengt."
   }
 }

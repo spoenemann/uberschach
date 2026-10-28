@@ -31,22 +31,22 @@
     "strategy": "Spiegelt das Fianchetto, sodass beide Königsläufer auf den langen Diagonalen stehen. Den Bauern d5 deckt vorerst nur die Dame, und der Läufer auf g7 hilft ihm nicht, sodass c4 ihn sofort prüft. Solide, legt sich aber stärker fest als …Sf6."
   },
   "1.Nf3 d5 2.g3 b6": {
-    "strategy": "Bereitet …Lb7 vor, doch mit dem Bauern auf d5 blickt dieser Läufer nur auf den eigenen Bauern, und der Zug lockert c6 und die lange Diagonale nach a8. Weiß entwickelt sich in Ruhe und greift d5 mit c4 an."
+    "strategy": "Solide, aber langsam: Der Zug bereitet ...Lb7 vor, doch bei einem Bauern auf d5 würde dieser Läufer nur den eigenen Bauern anschauen, und der Zug schwächt c6 und die lange Diagonale nach a8. Weiß entwickelt sich ungehindert und kann d5 mit c4 angreifen."
   },
   "1.Nf3 d5 2.g3 b5": {
-    "strategy": "Gewinnt Raum am Damenflügel, ohne eine Figur zu entwickeln, und lockert c6 und die lange Diagonale nach a8. Der Bauer ist sofort ein Ziel: a4 oder c4 stellt ihn infrage, während Weiß sich einfach entwickelt."
+    "strategy": "Gewinnt Raum am Damenflügel, ohne eine Figur zu entwickeln, und schwächt c6 und die lange Diagonale nach a8. Spielbar, aber der Bauer kann zum Angriffsziel für a4 oder c4 werden, während Weiß sich einfach entwickelt."
   },
   "1.Nf3 d5 2.g3 a6": {
-    "strategy": "Verbraucht ein Tempo für einen Randzug, der noch keine Aufgabe hat und bestenfalls …b5 vorbereitet. Weiß kann sich frei entwickeln und danach das Zentrum beanspruchen."
+    "strategy": "Kostet ein Tempo für einen Flügelzug, der noch keine Aufgabe hat und bestenfalls ...b5 vorbereitet. Der Preis ist gegen den langsamen Aufbau von Weiß gering, daher ist der Zug spielbar, doch Weiß kann sich frei entwickeln und danach das Zentrum beanspruchen."
   },
   "1.Nf3 d5 2.g3 a5": {
-    "strategy": "Ein Randbauernzug: Er verhindert b4 und gewinnt Raum für …a4, entwickelt aber nichts. Weiß kann ihn ignorieren und sich in Ruhe entwickeln."
+    "strategy": "Ein Randbauernzug: Er verhindert b4 und gewinnt Raum für ...a4, entwickelt aber nichts. Der Preis ist gering, daher ist der Zug spielbar, doch Weiß kann ihn ignorieren und sich in Ruhe entwickeln."
   },
   "1.Nf3 d5 2.g3 h6": {
-    "strategy": "Ein langsamer Zug, der den weißen Figuren das Feld g5 nimmt, aber nichts entwickelt. Weiß nutzt das Tempo, um sich zu entwickeln und einen Zentrumsvorstoß vorzubereiten."
+    "strategy": "Ein langsamer Zug, der dem Springer und dem Läufer von Weiß das Feld g5 nimmt, aber nichts entwickelt. Der Preis ist gering, daher ist der Zug spielbar; Weiß nutzt das Tempo, um sich zu entwickeln und einen Durchbruch im Zentrum vorzubereiten."
   },
   "1.Nf3 d5 2.g3 h5": {
-    "strategy": "Gewinnt Raum am Flügel, verbraucht aber ein Tempo, ohne eine Figur zu entwickeln. Der Folgezug …h4 verliert Material nach Sxh4, da g3 den Springer deckt."
+    "strategy": "Gewinnt Raum am Flügel, kostet aber ein Tempo, ohne eine Figur zu entwickeln. Der Bauer kann nicht weiter nach h4 ziehen, denn Sxh4 gewinnt ihn, da g3 den Springer deckt. Spielbar, aber der Zug tut wenig für das Spiel von Schwarz."
   },
   "1.Nf3 d5 2.g3 f6": {
     "strategy": "Bereitet …e5 vor, nimmt aber dem Springer g8 das Feld f6 und schwächt e6 sowie die Diagonale e8–h5. Weiß übernimmt das Zentrum, während Schwarz in der Entwicklung zurückbleibt."
@@ -58,10 +58,10 @@
     "strategy": "Gewinnt Raum, bevor eine Figur entwickelt ist, doch der Bauer wird zum Ziel für c3 oder e3 und den Springer f3. Schwarz muss ihn halten, während Weiß zuerst rochiert und den Zeitpunkt des Angriffs wählt."
   },
   "1.Nf3 d5 2.g3 Nd7": {
-    "strategy": "Verstellt den Läufer c8, sodass er weder f5 noch g4 erreichen kann, und der Springer auf d7 deckt d5 nicht, wie es ein Springer auf f6 täte. Weiß übernimmt das Zentrum ungehindert."
+    "strategy": "Versperrt dem Läufer auf c8 den Weg, sodass er weder f5 noch g4 erreichen kann, und deckt d5 nicht wie ein Springer auf f6. Der Springer blickt zwar auf e5 und c5, daher ist der Preis gering, doch es ist ein unbeholfenes Feld für einen Entwicklungszug."
   },
   "1.Nf3 d5 2.g3 Na6": {
-    "strategy": "Stellt den Springer an den Rand, wo er b4 und c5 ins Auge fasst, aber weit vom Zentrum entfernt steht und den a-Bauern blockiert. Das kostet ein Tempo für wenig, und Weiß nimmt Raum."
+    "strategy": "Stellt den Springer an den Rand, wo er b4 und c5 im Blick hat, aber wenig für das Zentrum tut. Der Preis ist gering, daher ist der Zug spielbar, doch der Rand ist ein unnatürliches Feld für einen Entwicklungszug, und Weiß nimmt währenddessen Raum."
   },
   "1.Nf3 d5 2.g3 Nh6": {
     "strategy": "Strebt nach f5, wo der Springer d4 und e3 ins Auge fassen würde, steht bis dahin aber am Rand und hat ein Tempo gekostet. Weiß entwickelt sich und nimmt im Zentrum Raum."
@@ -383,9 +383,9 @@
     "strategy": "Entwickelt den Springer auf ein Feld, von dem aus er d5 zusätzlich verteidigt, ohne die Diagonale des Läufers auf g7 oder den f-Bauern zu blockieren. Beide Zentrumsbauern sind gedeckt, und Schwarz steht kurz vor der Rochade mit einem flexiblen, soliden Aufbau."
   },
   "1.Nf3 d5 2.g3 g6 3.Bg2 Bg7 4.O-O e5 5.d3 Nf6": {
-    "strategy": "Die natürliche Entwicklung: Der Springer deckt d5, nimmt Weiß das Feld e4 und bereitet die Rochade vor. Schwarz behält das breite Zentrum aus d5 und e5 und bringt die Figuren dahinter ins Spiel, sodass Weiß es mit einem Bauernvorstoß untergraben muss."
+    "strategy": "Versperrt die Diagonale des Läufers auf g7, sodass e5 seinen einzigen Verteidiger verliert und Sxe5 einen Bauern gewinnt. Schwarz rochiert und entwickelt sich mit etwas Spiel, doch ein glatter Bauer weniger wiegt schwerer als dieser Entwicklungsvorsprung."
   },
   "1.Nf3 d5 2.g3 g6 3.Bg2 Bg7 4.O-O e5 5.d3 Nc6": {
-    "strategy": "Stützt e5 ein zweites Mal, sodass das Bauernpaar fest gehalten wird und der weiße Springer nicht schlagen kann. Der Preis ist, dass der c-Bauer blockiert ist und d5 nicht stützen kann; Schwarz verlässt sich daher auf Figuren, um das Zentrum zu halten, und hat weniger Flexibilität im Aufbau."
+    "strategy": "Beantwortet die Frage, wie e5 sicher bleibt: Ein zweiter Verteidiger erlaubt es Schwarz, sich weiterzuentwickeln, während der Läufer auf g7 seine Diagonale behält. Der Zug legt Schwarz auf das Bauernpaar d5-e5 fest, mit dem Springer vor dem c-Bauern, sodass Figuren statt ...c6 den Bauern d5 halten. Es folgt ein langsamer Kampf um das Zentrum."
   }
 }

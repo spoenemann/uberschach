@@ -284,12 +284,12 @@
       "line": "1.e4 c6 2.Bc4 d5",
       "moves": [
         {
-          "san": "Bb3",
+          "san": "exd5",
           "rating": 5
         },
         {
-          "san": "exd5",
-          "rating": 3
+          "san": "Bb3",
+          "rating": 2
         },
         {
           "san": "Bd3",
@@ -310,7 +310,7 @@
         },
         {
           "san": "Nf6",
-          "rating": 3
+          "rating": 2
         }
       ]
     },
@@ -499,7 +499,7 @@
         },
         {
           "san": "e5",
-          "rating": 2
+          "rating": 3
         }
       ]
     },
@@ -515,7 +515,7 @@
         },
         {
           "san": "Nf6",
-          "rating": 2
+          "rating": 3
         },
         {
           "san": "Qxd5",
@@ -576,7 +576,7 @@
         },
         {
           "san": "Nc3",
-          "rating": 3
+          "rating": 2
         }
       ]
     },
@@ -593,7 +593,7 @@
         },
         {
           "san": "Nc6",
-          "rating": 3
+          "rating": 1
         }
       ]
     },
@@ -743,12 +743,12 @@
       "line": "1.e4 c6 2.d3 d5 3.Nd2 g6 4.Ngf3 Bg7 5.g3 e5 6.Bg2",
       "moves": [
         {
-          "san": "Nf6",
+          "san": "Ne7",
           "rating": 5
         },
         {
-          "san": "Ne7",
-          "rating": 4
+          "san": "Nf6",
+          "rating": 3
         },
         {
           "san": "dxe4",
@@ -780,16 +780,20 @@
       "line": "1.e4 c6 2.g4 d5",
       "moves": [
         {
-          "san": "exd5",
+          "san": "d4",
           "rating": 5
-        },
-        {
-          "san": "Nc3",
-          "rating": 3
         },
         {
           "san": "e5",
           "rating": 3
+        },
+        {
+          "san": "exd5",
+          "rating": 2
+        },
+        {
+          "san": "Nc3",
+          "rating": 2
         }
       ]
     },
@@ -797,16 +801,20 @@
       "line": "1.e4 c6 2.g4 d5 3.Nc3",
       "moves": [
         {
-          "san": "dxe4",
+          "san": "d4",
           "rating": 5
         },
         {
           "san": "Nf6",
-          "rating": 4
+          "rating": 3
+        },
+        {
+          "san": "dxe4",
+          "rating": 2
         },
         {
           "san": "e6",
-          "rating": 3
+          "rating": 2
         }
       ]
     },
@@ -814,8 +822,12 @@
       "line": "1.e4 c6 2.g4 d5 3.Nc3 dxe4",
       "moves": [
         {
-          "san": "Nxe4",
+          "san": "Bg2",
           "rating": 5
+        },
+        {
+          "san": "Nxe4",
+          "rating": 4
         },
         {
           "san": "Qe2",

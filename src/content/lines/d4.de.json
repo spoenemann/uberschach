@@ -91,13 +91,16 @@
   },
   "1.d4 b5 2.e4 Bb7 3.Bxb5": {
     "name": "Polnische Verteidigung: Angenommenes Spasski-Gambit",
-    "strategy": "Gewinnt den Bauern, den die Eröffnung ungedeckt ließ, doch e4 ist ungedeckt, und Schwarz holt ihn mit dem Läufer zurück, der dann auf g2 zielt. Der Läufer, der g2 gedeckt hat, hat f1 verlassen; Weiß muss sich daher gegen die aktiven Figuren von Schwarz vorsichtig entwickeln."
+    "strategy": "Schlägt den Bauern b5, aber e4 ist ungedeckt, und Schwarz gewinnt ihn sofort zurück, sodass die Bauern einfach getauscht werden. Der schwarze Läufer auf e4 zielt dann auf g2, das kein Läufer auf f1 mehr deckt, deshalb muss Weiß sich mit Bedacht entwickeln. Solide, aber der Läufer von Schwarz bleibt aktiv."
   },
   "1.d4 b5 2.e4 Bb7 3.Bd3": {
-    "strategy": "Deckt e4 und hält den Bauern auf b5 auf derselben Diagonale unter Druck: ...Lxe4 würde einen Läufer für einen Bauern kosten, also muss Schwarz stattdessen b5 verteidigen. Weiß behält das große Zentrum und entwickelt sich, auch wenn der Läufer auf d3 den d-Bauern blockiert."
+    "strategy": "Deckt e4 und zielt auf den Bauern b5, doch Schwarz muss ihn nicht verteidigen: ...Sf6 greift e4 an, und nach 4.Lxb5 Sxe4 ist der Bauer zurückgewonnen. Solide, aber der Läufer versperrt die Damenlinie und e4 bleibt ein Angriffsziel, sodass Weiß weniger erreicht als mit einem Springer, der den Bauern deckt."
   },
   "1.d4 b5 2.e4 Bb7 3.Nf3": {
     "strategy": "Entwickelt den Springer, lässt aber e4 ungedeckt, sodass Schwarz sofort nehmen kann: Schlägt der Läufer auf e4 und Weiß auf b5, sind die Bauern getauscht und das Material ist ausgeglichen. Ein natürlicher Zug, der das frühe Flügelspiel von Schwarz nicht ausnutzt."
+  },
+  "1.d4 b5 2.e4 Bb7 3.Nd2": {
+    "strategy": "Deckt e4 mit einem Entwicklungszug, sodass ...Lxe4 einen Läufer für einen Bauern kosten würde, während der Läufer auf f1 weiter den Bauern b5 angreift und Schwarz ihn verteidigen muss. Weiß behält das volle Zentrum und verliert kein Tempo; der Preis ist, dass der Springer vorerst den Läufer c1 blockiert."
   },
   "1.d4 b6 2.c4": {
     "strategy": "Gewinnt Raum und bereitet den Aufbau eines breiten Zentrums mit e4 vor, was ...b6 nicht direkt verhindert. Schwarz muss dieses Zentrum aus der Ferne mit Figuren bekämpfen; Weiß muss daher darauf achten, die Bauern gut zu stützen."
@@ -197,7 +200,7 @@
   "1.d4 d6 2.Nf3 Bg4": {
     "name": "Wade-Verteidigung",
     "background": "Die Eröffnung ist nach dem britischen Internationalen Meister Bob Wade (1921–2008) benannt, der ursprünglich aus Neuseeland stammte und sie über 30 Jahre lang spielte. Julian Hodgson machte sie mit vielen dynamischen Partien populär, und Großmeister wie Michael Adams und Tony Miles haben sie gespielt.",
-    "strategy": "Bringt den Damenläufer vor der Bauernkette heraus, bevor ...e6 ihn einsperren kann, und zielt auf den Springer auf f3: Schwarz ist bereit, ihn zu schlagen und Weiß das Läuferpaar zu überlassen oder dessen Bauern zu verdoppeln. Eine zurückhaltende, flexible Aufstellung, die mit Figuren um das Zentrum kämpft."
+    "strategy": "Bringt den Damenläufer vor der Bauernkette heraus, bevor ...e6 ihn einsperren kann, und nimmt den Springer auf f3 ins Visier. Schwarz kämpft mit Figuren statt mit Bauern um das Zentrum, was Weiß ein breites Bauernzentrum aufbauen lässt; der Läufer muss sich diesen Raum erst verdienen."
   },
   "1.d4 d6 2.Nf3 g6": {
     "strategy": "Bereitet das Fianchetto des Königsläufers vor, sodass Schwarz das Zentrum aus der Distanz kontrolliert, statt es zu besetzen. Eine solide, flexible Aufstellung, die Weiß ein breites Bauernzentrum aufbauen lässt, das Schwarz später untergraben will; der Preis ist weniger Raum in der Anfangsphase."
@@ -205,6 +208,9 @@
   "1.d4 d6 2.Nf3 e5": {
     "name": "Zukertort-Eröffnung: Vos-Gambit",
     "strategy": "Gibt einen Bauern her: Nachdem Weiß geschlagen und Schwarz mit dem d-Bauern zurückgeschlagen hat, nimmt der Springer auf f3 den Bauern ebenfalls, oder Weiß tauscht zuerst die Damen und Schwarz verliert das Rochaderecht. Einen Entwicklungsvorsprung als Gegenwert hat Schwarz nicht."
+  },
+  "1.d4 d6 2.Nf3 Nf6": {
+    "strategy": "Entwickelt den Springer und kontrolliert e4, das Feld, das der weiße Mittelbauer anstrebt. Schwarz bleibt flexibel, denn der d6-Bauer ist bereit, später ...e5 zu unterstützen. Weiß erhält mehr Raum, und Schwarz muss zeigen, dass das Zentrum rechtzeitig angegriffen werden kann."
   },
   "1.d4 d6 2.Nf3 Bg4 3.c4": {
     "strategy": "Gewinnt mit einem zweiten Zentrumsbauern Raum und kontrolliert d5, als Vorbereitung auf ein breites Bauernzentrum. Weiß gibt die Richtung vor; der frühe Läuferausflug von Schwarz muss beweisen, dass er genug Gegenspiel gegen ein großes, dahinter aufgebautes Zentrum bietet."
@@ -269,7 +275,7 @@
   },
   "1.d4 g6 2.h4 Nf6 3.h5": {
     "name": "Moderne Verteidigung: Eidechsen-Verteidigung, Pirc-Diemer-Gambit",
-    "strategy": "Bietet einen Bauern an, um die h-Linie zu öffnen: h5 wird vom Springer und vom g-Bauern angegriffen und nur vom Turm gedeckt. Schwarz kann ihn einfach mit dem Springer schlagen, gestützt von g6, und Weiß hat für den Bauern nichts Konkretes vorzuweisen."
+    "strategy": "Ein Gambit: h5 wird vom Springer und vom g-Bauern angegriffen, doch wenn Schwarz mit dem Springer nimmt, gibt e4 Weiß ein breites Zentrum und schnelle Entwicklung, während der schwarze Springer am Rand steht. Das Gambit ist gesund und etwa ausgeglichen, verlangt von Weiß aber, mit einem Bauern weniger auf Initiative zu spielen."
   },
   "1.d4 g6 2.h4 Nf6 3.Nf3": {
     "strategy": "Entwickelt den Königsspringer und hält das Zentrum flexibel. Ein früher h4-Vorstoß ist ein Flankenwagnis, das sich nur auszahlt, wenn die Entwicklung folgt; der Springer deckt h4 und g5, während die übrigen Figuren herauskommen. Schwarz hat noch kein Angriffsziel, und Weiß kann weiterhin zwischen c4, Sc3 und e3 wählen."

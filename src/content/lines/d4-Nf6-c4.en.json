@@ -38,7 +38,7 @@
   "1.d4 Nf6 2.c4 d5": {
     "name": "Queen's Gambit Declined: Marshall Defence",
     "background": "Frank Marshall played it in the 1920s but gave it up after losing with it to Alexander Alekhine at Baden-Baden in 1925. It is regarded as a fairly dubious variation of the Queen's Gambit Declined, and experienced players no longer use it.",
-    "strategy": "Claims the centre at once, but White simply takes it: after 3.cxd5 Nxd5 4.Nf3, White gains time against the knight and builds a broad centre without allowing the counter ...e5."
+    "strategy": "Claims the centre at once, but White takes it: after 3.cxd5 Nxd5 White gains time against the knight and builds a broad centre. Black's alternative is to offer a pawn for activity. Sound, but the harder way to meet 2.c4."
   },
   "1.d4 Nf6 2.c4 b5": {
     "name": "Indian Defence: Pyrenees Gambit",
@@ -92,7 +92,7 @@
   },
   "1.d4 Nf6 2.c4 d5 3.cxd5 c6": {
     "name": "Queen's Gambit Declined: Marshall Defence, Tan Gambit",
-    "strategy": "Gambits a pawn for quick development and open lines: after the exchange on c6 Black aims for a central break and an early queen trade. White keeps the extra pawn and a small edge in the queenless middlegame, so Black must play for activity."
+    "strategy": "Gambits a pawn for development and the open d-file: after dxc6 Nxc6 the d4 pawn is under attack and ...e5 follows, so Black regains the material with active pieces. An early queen trade is possible, and Black plays for activity rather than space."
   },
   "1.d4 Nf6 2.c4 d5 3.cxd5 Nxd5": {
     "strategy": "The natural recapture: the knight takes the pawn back from a developed square, so Black is not a pawn down. On d5 it can be hit with tempo, and White gets space and the initiative, so Black must look for counterplay against a larger centre."
@@ -101,7 +101,7 @@
     "strategy": "Brings the queen out early, and Nc3 hits it at once, so White develops with tempo while the queen looks for a square. Grabbing the b2 pawn later walks into Rb1 and Nb5 and loses."
   },
   "1.d4 Nf6 2.c4 d5 3.cxd5 g6": {
-    "strategy": "Hopes White develops naturally so that the pawn can be retaken later, but White can simply check on a4: the pawn on d5 is then hard to win back and Black has little to show for it."
+    "strategy": "Gambits the pawn with a slower plan: the fianchettoed bishop and a later ...c6 are meant to win it back. White develops freely meanwhile, so the move is sound but a step behind the immediate ...c6."
   },
   "1.d4 Nf6 2.c4 d6 3.Nc3": {
     "strategy": "The principal move: it develops a piece towards the centre and prepares e4. White wants a classical pawn centre, and Black has to contest it with pieces and well-timed pawn breaks, since waiting would leave White with much more space."
@@ -227,7 +227,7 @@
   },
   "1.d4 Nf6 2.c4 d6 3.Nf3 Bg4": {
     "name": "Old Indian Defence: Tartakower-Indian",
-    "strategy": "Develops the bishop outside the pawn chain and attacks the knight on f3, which guards d4 and e5. Black can trade it off, and a pawn recapture would double White's pawns, so Black develops with a small threat and keeps the centre contested."
+    "strategy": "Develops the bishop outside the pawn chain and attacks the knight on f3, but leaves b7 undefended: Qb3 hits it at once and Black must spend a move on the defence. Sound, yet it gives away the tempo the bishop gained."
   },
   "1.d4 Nf6 2.c4 d6 3.Nf3 c6": {
     "name": "Old Indian Defence: Czech Variation, with Nf3",
@@ -256,7 +256,7 @@
   "1.d4 Nf6 2.c4 e5 3.dxe5 Ne4": {
     "name": "Indian Defence: Budapest Gambit Accepted, Fajarowicz Defence",
     "background": "Said to have its origins in the chess circles of Leipzig, the first important game being H. Steiner against Fajarowicz at the 1928 Wiesbaden tournament.",
-    "strategy": "Leaves the pawn alone and puts the knight on a central square where it eyes f2 and c3, playing for piece activity and tactical tricks instead of material. If White defuses the tricks, Black has simply given a pawn without lasting compensation."
+    "strategy": "Leaves the extra pawn alone and puts the knight on a central square where it eyes f2 and c3, playing for piece activity and tactical tricks instead of material. White can defuse them with accurate play, and then Black is simply a pawn down."
   },
   "1.d4 Nf6 2.c4 e5 3.dxe5 Nc6": {
     "strategy": "Ignores the attack on the knight in order to hit e5: White simply takes the knight with the pawn, and recapturing on f6 wins back only a pawn. Black is a whole piece down with nothing to show for it."
@@ -270,10 +270,10 @@
   },
   "1.d4 Nf6 2.c4 e5 3.dxe5 Ne4 4.Qc2": {
     "name": "Indian Defence: Budapest Gambit Accepted, Fajarowicz Defence, Steiner Variation",
-    "strategy": "Attacks the knight at once, so a retreat would give up Black's lead in development, the only compensation for the pawn. Black must keep the knight in place by developing with check and supporting it with a pawn, which is by no means easy but leaves real counterplay."
+    "strategy": "Attacks the knight at once, but ...Bb4+ answers with tempo and ...d5 keeps the knight where it stands. Black gets the quick development the pawn was meant to buy, and White's advantage is mostly gone."
   },
   "1.d4 Nf6 2.c4 e5 3.dxe5 Ne4 4.Nf3": {
-    "strategy": "Develops a piece while defending the extra pawn and covering the d2 square, so that the check on b4 can be met by a knight move that keeps White's pawns intact. A calm way to hold the material, leaving Black to prove the pawn was worth it."
+    "strategy": "Protects the extra pawn and covers d2, but does nothing about the knight on e4. Black checks on b4, builds with ...d5 and catches up in development, so most of White's advantage is gone."
   },
   "1.d4 Nf6 2.c4 e5 3.dxe5 Ng4 4.Bf4": {
     "name": "Indian Defence: Budapest Gambit Accepted, Main Line, Rubinstein Variation",
@@ -321,7 +321,7 @@
   },
   "1.d4 Nf6 2.c4 Nc6 3.d5 Ne5 4.f4": {
     "name": "Black Knights' Tango: Horsefly Gambit",
-    "strategy": "A gambit: the f-pawn attacks the knight but leaves c4 undefended, so Black simply takes it with the knight. White hopes for activity and the initiative in return, but loosens the kingside and is a pawn down with no clear compensation."
+    "strategy": "A gambit: the f-pawn attacks the knight, which can take the undefended c4 pawn. White answers with e4 and a broad centre for the pawn, which keeps the balance, but the kingside is loosened and the pawn is worth it only while the centre holds."
   },
   "1.d4 Nf6 2.c4 Nc6 3.d5 Ne5 4.e4": {
     "strategy": "Answers the attack on c4 by opening the bishop's diagonal, so ...Nxc4 loses a piece, and builds a broad pawn centre at the same time. Taking on e4 fails too: the queen forks the two knights. Black has to undermine the centre, and the game is sharp and balanced."

@@ -22,7 +22,7 @@
   },
   "1.d4 d5 2.Nc3 Bg4": {
     "name": "Damenbauernspiel: Tschigorin-Variante, Anti-Weressow",
-    "strategy": "Entwickelt den Läufer außerhalb der Bauernkette, bevor ...e6 ihn einsperrt; kommt der Springer nach f3, steht ...Lxf3 zur Verfügung. Der Läufer lässt sich leicht bedrängen, sodass Weiß mit Bauernzügen gegen ihn Zeit und Raum am Königsflügel gewinnt. Spielbar, aber Schwarz verliert Zeit mit dem Läufer."
+    "strategy": "Entwickelt den Läufer außerhalb der Bauernkette, doch er wird sofort zum Ziel: 3.f3 greift ihn an, und Weiß baut mit dem Rückzug des Läufers ein breites Zentrum auf. Schwarz verbraucht zwei Züge für eine Figur und überlässt Weiß die leichtere Partie."
   },
   "1.d4 d5 2.Nc3 c5": {
     "name": "Damenbauernspiel: Tschigorin-Variante, Irisches Gambit",
@@ -30,7 +30,7 @@
   },
   "1.d4 d5 2.Nc3 e5": {
     "name": "Damenbauernspiel: Tschigorin-Variante, Shaviliuk-Gambit",
-    "strategy": "Bietet den e-Bauern an, um mit ...d4 Raum zu gewinnen: Nach 3.dxe5 d4 muss der Springer ziehen, und auf 4.Se4 greift 4...Dd5 Springer und Bauern e5 zugleich an und gewinnt den Bauern zurück. Das Gambit ist selten, und seine Bewertung ist unklar."
+    "strategy": "Bietet den e-Bauern für Raum mit ...d4 an, doch Weiß nimmt ihn einfach: Nach 3.dxe5 d4 zieht der Springer nach b5, und Schwarz hat zu wenig für den Bauern. Das Gambit ist riskant und überlässt Weiß einen klaren Vorteil."
   },
   "1.d4 d5 2.Nc3 f5": {
     "name": "Damenbauernspiel: Weressow-Angriff, Holländisches System",
@@ -52,7 +52,7 @@
     "strategy": "Erlaubt 3.Lxh6 gxh6 mit Doppelbauern auf der h-Linie und zerrissenem Königsflügel für Schwarz, der dafür nur das Läuferpaar erhält."
   },
   "1.d4 d5 2.Nc3 a6": {
-    "strategy": "Nimmt dem Springer das Feld b5, verbraucht aber ein Tempo mit einem Randbauern, ohne etwas zu entwickeln. Weiß übernimmt das Zentrum und führt in der Entwicklung."
+    "strategy": "Nimmt dem Springer das Feld b5, entwickelt aber nichts und verbraucht ein Tempo für einen Randbauern. Nichts wird geschwächt, es ist also solide, doch Weiß ist als Erster im Zentrum und entwickelt sich ungehindert; zweitklassig."
   },
   "1.d4 d5 2.Nc3 a5": {
     "strategy": "Verbraucht ein Tempo mit einem Randbauern und gibt die Kontrolle über b6 auf, ohne dem Zentrum zu helfen oder eine Figur zu entwickeln. Weiß übernimmt mit 3.e4 das Zentrum."
@@ -61,17 +61,17 @@
     "strategy": "Bereitet das Fianchetto des Läufers c8 vor, tut aber nichts für d5, sodass Weiß mit 3.e4 das Zentrum übernimmt und mehr Raum sowie die leichtere Entwicklung erhält."
   },
   "1.d4 d5 2.Nc3 f6": {
-    "strategy": "Bereitet ...e5 vor, nimmt aber dem Springer g8 das Feld f6 und öffnet die Diagonale e8–h5 zum schwarzen König. Weiß übernimmt mit schnellerer Entwicklung das Zentrum."
+    "strategy": "Nimmt dem Springer auf g8 das Feld f6 und öffnet die Diagonale e8-h5 zum König, sodass 3.e4 das Zentrum gegen eine gelockerte Stellung aufbricht. Schwarz gerät in der Entwicklung ins Hintertreffen und hat einen ungeschützten König: Der Zug gibt weit mehr als ein Tempo her."
   },
   "1.d4 d5 2.Nc3 g6": {
-    "strategy": "Bereitet das Fianchetto des Läufers f8 vor, tut aber nichts für d5, sodass Weiß mit 3.e4 das Zentrum übernimmt und sich schneller entwickelt."
+    "strategy": "Bereitet das Fianchetto des Läufers auf f8 vor, ein solider Aufbau, doch er tut nichts für d5, sodass Weiß mit 3.e4 das Zentrum nimmt und sich schneller entwickelt. Spielbar, aber zweitklassig."
   },
   "1.d4 d5 2.Nc3 h6": {
-    "strategy": "Nimmt dem Läufer c1 das Feld g5, verbraucht aber ein Tempo mit einem Randbauern, sodass Weiß mit 3.e4 das Zentrum übernimmt und sich schneller entwickelt."
+    "strategy": "Nimmt dem Läufer auf c1 das Feld g5, was nichts Ernstes kostet, doch es verbraucht ein Tempo für einen Randbauern, der nichts entwickelt. Spielbar; Weiß nimmt das Zentrum und entwickelt sich schneller, was den Zug zweitklassig macht."
   },
   "1.d4 d5 2.Nc3 h5": {
     "name": "Damenbauernspiel: Tschigorin-Variante, Shropshire-Verteidigung",
-    "strategy": "Verbraucht ein Tempo mit einem Randbauern, der nichts entwickelt und nichts für das Zentrum tut, und gibt die Kontrolle über g6 auf. Weiß entwickelt sich einfach."
+    "strategy": "Verbraucht ein Tempo für einen Randbauern, verhindert aber, dass der g-Bauer von Weiß einen Läufer nach f5 jagt, und kostet kein Material. Er gibt die Kontrolle über g6 auf und entwickelt nichts, sodass Weiß sich einfach entwickelt: spielbar, aber zweitklassig."
   },
   "1.d4 d5 2.Nc3 Nd7": {
     "strategy": "Verstellt der Dame die Deckung von d5 und zugleich den Läufer c8, und nichts sonst deckt den Bauern, sodass 3.Sxd5 ihn gewinnt."
@@ -103,7 +103,7 @@
   },
   "1.d4 d5 2.Nc3 f5 3.e4": {
     "name": "Holländische Verteidigung: Kingfisher-Gambit",
-    "strategy": "Ein Bauerngambit: Der e-Bauer wird sofort angeboten, um das Zentrum zu öffnen und den geschwächten Königsflügel sowie einen Entwicklungsvorsprung auszunutzen. Schwarz kann den Bauern einfach annehmen und sich entwickeln, und Weiß muss seine Kompensation beweisen."
+    "strategy": "Ein Bauerngambit, das das Zentrum sofort öffnet, um die gelockerte Königsseite und einen Entwicklungsvorsprung auszunutzen. Schwarz kann den Bauern nehmen, muss sich dann aber sorgfältig entwickeln, und Weiß bekommt echtes Spiel dafür. Solide, aber zweitklassig: Es gibt einen Bauern her, wo einfache Entwicklung einen kleinen Vorteil behält."
   },
   "1.d4 d5 2.Nc3 f5 3.Bf4": {
     "strategy": "Entwickelt den Läufer außerhalb der Bauernkette, nimmt c7 ins Visier und kontrolliert gemeinsam mit dem d-Bauern e5, das Feld, das der f-Bauer von Schwarz zurückgelassen hat. Weiß entwickelt sich bequem, während der Königsflügel von Schwarz gelockert ist."
@@ -128,7 +128,7 @@
   "1.d4 d5 2.Nc3 Nf6 3.e4": {
     "name": "Damenbauernspiel: Hübsch-Gambit",
     "background": "Hübsch, ein Amateur, überraschte Savielly Tartakower 1922 mit diesem Gambit. Emil Diemer nutzte es, um in sein Lieblingsgambit, das Blackmar-Diemer-Gambit, überzuleiten.",
-    "strategy": "Ein Bauernopfer: Der schwarze d-Bauer und der Springer kontrollieren beide e4, der Bauer wird also einfach angeboten, und Weiß kann ihn nicht erzwungenermaßen zurückgewinnen. Weiß spielt auf ein offenes Zentrum und schnelle Entwicklung, hat aber keine klare Kompensation, wenn Schwarz annimmt und sich ruhig entwickelt."
+    "strategy": "Ein Bauernopfer: Der d-Bauer und der Springer von Schwarz kontrollieren beide e4, sodass Weiß den Bauern nicht erzwungen zurückgewinnen kann, dafür aber offene Linien und schnelle Entwicklung erhält. Schwarz muss genau spielen, um den Bauern zu behalten; es ist also spielbar, doch Weiß riskiert mehr, als es gewinnt."
   },
   "1.d4 d5 2.Nc3 Nf6 3.Nf3": {
     "strategy": "Entwickelt den Königsspringer und kämpft um e5, lässt dabei die Diagonale des c1-Läufers noch offen. Eine flexible, solide Wahl, die die Stellung ruhig hält, um den Preis des frühen Drucks, den die Läuferzüge erzeugen."
@@ -162,7 +162,7 @@
   },
   "1.d4 d5 2.Nc3 Nf6 3.Bg5 Ne4": {
     "name": "Richter-Weressow-Angriff: Boyce-Verteidigung",
-    "strategy": "Greift den Läufer mit dem Springer an, doch Weiß tauscht ihn einfach mit Sxe4 ab, und Schwarz muss mit dem d-Bauern zurücknehmen. Das hinterlässt Weiß einen vorgerückten Bauern auf e4 als Angriffsziel und ein gelockertes Zentrum, sodass Weiß die leichtere Partie hat."
+    "strategy": "Greift den Läufer mit dem Springer an, doch Weiß tauscht ihn einfach ab, und die Wiedernahme mit dem d-Bauern hinterlässt einen vorgerückten Bauern auf e4, den Weiß angreifen kann. Der Schaden ist gering, es ist also solide, aber Weiß bekommt die leichtere Partie."
   },
   "1.d4 d5 2.Nc3 Nf6 3.Bg5 Bf5 4.f3": {
     "name": "Richter-Weressow-Angriff: Richter-Variante",
@@ -211,11 +211,11 @@
     "strategy": "Tauscht den c-Bauern gegen den d-Bauern des Weißen und greift den Springer an, doch Weiß schlägt mit der Dame zurück, die d5 ein drittes Mal angreift. Schwarz muss auf e4 schlagen und die Damen tauschen oder d5 verlieren, und in beiden Fällen bleibt der König im Zentrum."
   },
   "1.d4 d5 2.Nc3 Nf6 3.Bg5 c5 4.Bxf6 gxf6 5.e4 e6": {
-    "strategy": "Stützt d5 mit einem Bauern und öffnet den f8-Läufer, der solideste Weg, das Zentrum zu halten. Der Preis ist, dass d5 vom Bauern auf e4 und vom Springer angegriffen wird und nach dem Abtausch die Bauern auf c5 und d5 dem d-Bauern und dem Springer ausgesetzt sind."
+    "strategy": "Stützt d5 mit einem Bauern und öffnet den Läufer auf f8, verliert aber einen Bauern: Nach 6.exd5 exd5 7.dxc5 wird der Bauer d5 von Dame und Springer angegriffen, und c5 lässt sich nicht halten. Schwarz hat dafür etwas Aktivität, aber nicht genug."
   },
   "1.d4 d5 2.Nc3 Nf6 3.Bg5 c5 4.Bxf6 gxf6 5.e4 dxe4 6.d5": {
     "name": "Richter-Weressow-Angriff: Malich-Gambit",
-    "strategy": "Schiebt den d-Bauern aus der Reichweite des schwarzen c-Bauern und beengt die Figuren von Schwarz am Damenflügel, während der Springer weiterhin den Bauern auf e4 angreift. Schwarz kann den Mehrbauern behalten, sodass Weiß das Gambit mit der Initiative gegen den beschädigten Königsflügel rechtfertigen muss."
+    "strategy": "Schiebt den Bauern an c5 vorbei und beengt die Damenseite von Schwarz, doch Schwarz hält den Mehrbauern einfach mit ...f5. Der Angriff auf die beschädigte Königsseite ist langsam, und Weiß bleibt einen Bauern zurück, mit zu wenig Ausgleich."
   },
   "1.d4 d5 2.Nc3 Nf6 3.Bg5 c5 4.Bxf6 gxf6 5.e4 dxe4 6.dxc5": {
     "strategy": "Gewinnt den Bauern zurück, indem er auf c5 statt auf e4 schlägt, wodurch der d-Bauer dem Angriff des schwarzen c-Bauern und der Dame entzogen wird. Der Springer greift weiterhin den Bauern auf e4 an, der keinen Verteidiger hat, und die doppelten f-Bauern von Schwarz bleiben eine dauerhafte Schwäche."

@@ -51,7 +51,7 @@
     "strategy": "Shuts the long diagonal with a pawn rather than a piece and prepares e4 to build a broad centre. The price is a looser king's side and a knight that loses its natural square on f3, so Black can strike at the centre while White is still unfolding."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 b6 5.Bd3 Bb7 6.Ne2": {
-    "strategy": "Develops and covers c3 but ignores the attack on g2. Black can take the pawn, and White's rook has to go to the g-file to win a pawn back on g7, a risky way to start while the king is still in the centre."
+    "strategy": "Develops and covers c3, but leaves g2 hanging to the bishop on b7. Black can take it, yet the rook comes to the g-file with an attack on g7 and the game turns sharp. Sound but risky, with the king still in the centre."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 b6 5.Bd3 Bb7 6.Nf3 O-O": {
     "name": "Nimzo-Indian Defence: St. Petersburg Variation",
@@ -96,7 +96,7 @@
     "strategy": "Settles the question of the bishop at once by trading it for the knight. White recaptures with the other knight, so the pawns stay healthy, and gets the bishop pair. A sound simplification: Black plays for control of e4 and a central strike, with no structural gain to show for the concession."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 b6 5.Ne2 c5 6.a3 cxd4": {
-    "strategy": "Releases the centre and lets White take the bishop, which Black repays by capturing the knight on c3. Material is level, but White keeps the bishop pair and a pawn on b4 that gains space, so Black has given up the point of the pin for little."
+    "strategy": "Releases the central tension too early: the bishop is attacked by the a-pawn anyway, so after White's recapture it has to trade itself on c3 or retreat. White ends up with the bishop pair and a broad pawn centre against a king still in the middle."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 c5 5.Bd3": {
     "strategy": "Develops the bishop to its best square, where it helps control e4, and leaves the tension on d4 unresolved. White accepts doubled pawns if Black takes on c3, in return for the bishop pair and a flexible centre."
@@ -181,16 +181,16 @@
     "strategy": "Leaves f2 short of defenders: ...Qh4 attacks it twice, with the queen and the knight on e4, and White's king alone guards it. The c3 knight is pinned and cannot take on e4, so White has no comfortable defence."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Ne4 5.Qc2 f5": {
-    "strategy": "Supports the knight with a pawn so that it can stay on e4, a bold way to hold the central square. The price is a looser king's side: the e8-h5 diagonal is open and e6 is weaker, with Black's king still uncastled."
+    "strategy": "Supports the knight with a pawn so that it can stay on e4, a bold way to hold the central square. The price is a looser king's side: the e8-h5 diagonal is open and e6 is weaker, with Black's king still uncastled, so White gets the easier play."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Ne4 5.Qc2 Nxc3": {
-    "strategy": "Trades the outpost knight for the pinned one. White has to recapture with the pawn, because the queen would lose to the bishop, so the c-pawns are doubled and the pawn on c3 now attacks the bishop. Black gives up the strong knight but gets a lasting queenside weakness, while White's pawn centre grows."
+    "strategy": "Trades the outpost knight for the pinned one and leaves White a choice of evils: the recapture has to be with the pawn, because the queen would lose to the bishop, so the c-pawns are doubled. Black gives up the strong knight for a lasting queenside weakness, a fair price."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Ne4 5.Qc2 Bxc3+": {
     "strategy": "Takes the knight first, so the doubled c-pawns cost Black the bishop pair, and must then hold the outpost, for instance with a pawn. The knight stays on e4, but White's two bishops and pawn centre give White the easier game."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Ne4 5.Qc2 f5 6.Nf3": {
-    "strategy": "Develops and covers e5 and d4, ready to challenge the outpost with the bishop. Black's knight now relies on the f5 pawn alone, so Black needs more support or has to trade it for the knight on c3."
+    "strategy": "Develops and covers e5 and d4, but it does nothing about the outpost: Black can support the knight at leisure, and White's pieces are no closer to challenging it. A sound, quiet move that leaves White without a clear plan against the knight."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Ne4 5.Qc2 f5 6.a3": {
     "strategy": "Puts the question to the bishop. If it takes on c3, White has to recapture with the pawn, because the queen would fall to the knight on e4, so the c-pawns double in return for the bishop pair. White spends a tempo while Black keeps the outpost."
@@ -198,11 +198,14 @@
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Ne4 5.Qc2 f5 6.Bd2": {
     "strategy": "Breaks the pin so that the knight can take on e4, and offers to trade the bishop for the outpost knight. Solid but modest: the bishop is exchanged for a knight and White has made no progress against the outpost."
   },
+  "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Ne4 5.Qc2 f5 6.Bd3": {
+    "strategy": "Develops the bishop against the outpost knight, which only the f-pawn guards: Bxe4 fxe4 Qxe4 would win a pawn. Black has to trade on c3 or add a defender at once, and White keeps a small, lasting edge."
+  },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Ne4 5.Qc2 f5 6.Nf3 b6": {
     "strategy": "Prepares ...Bb7 to give the e4 knight a second defender. Black answers the challenge to the outpost by adding force to it rather than trading."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Ne4 5.Qc2 f5 6.Nf3 Nxc3": {
-    "strategy": "Trades the outpost knight for the pinned one. White recaptures with the pawn, which doubles the c-pawns and attacks the bishop; Black keeps both bishops and a clear target on the queenside. The price is the strong knight and the pin, and White's pawn centre is free to expand."
+    "strategy": "Trades the outpost knight for the pinned one, but the recapture helps White: the pawn on c3 attacks the bishop, which must retreat, and White then builds a big pawn centre. The doubled c-pawns hardly matter, while Black has lost the strong knight and the pin."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 Ne4 5.Qc2 f5 6.Nf3 O-O": {
     "strategy": "Castles first and leaves the knight on e4 relying on the f-pawn alone, which is risky: White can pile up on e4 or ask the bishop a question before ...b6 and ...Bb7 arrive to support it."
@@ -227,7 +230,7 @@
     "strategy": "Takes at once: the bishop is attacked, and the exchange is the point of the defence. Black gives up the bishop pair to leave White with doubled c-pawns, a weakness to aim at for the rest of the game."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.a3 Ba5": {
-    "strategy": "Keeps the pin and avoids the exchange, but White gains queenside space with a pawn push that drives the bishop back. Black has given up the idea of doubling White's pawns and lost time."
+    "strategy": "Keeps the bishop, but runs into 6.b4: it is attacked at once and has no safe square, since ...Bb6 is met by c5 and ...c5 by bxa5. Black loses the bishop for a pawn or two, whichever way it goes."
   },
   "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.a3 Be7": {
     "strategy": "Retreats and keeps the bishop, a move that gives up the pin and a tempo. White gets a free hand in the centre and Black has to equalise with a central strike; solid, but passive."

@@ -102,7 +102,7 @@
     "strategy": "Gewinnt den Bauern sofort mit einem Entwicklungszug zurück und nimmt den Springer auf c6 ins Visier, lässt aber e4 ungedeckt: Der Springer auf f6 nimmt ihn umsonst, und Weiß hat für den verlorenen Bauern wenig vorzuweisen."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Be2 Nf6 4.d4 exd4 5.Nc3": {
-    "strategy": "Entwickelt den Damenspringer und deckt e4, wobei der d4-Bauer für später bleibt. Weiß zieht die schnelle Entwicklung dem sofortigen Zurückschlagen vor, und Schwarz muss auf den d4-Bauern achten, der zweimal angegriffen und einmal gedeckt ist, während Weiß den Bauern mit Entwicklung bezahlt."
+    "strategy": "Lässt den Springer am Bauern auf d4 hängen: ...dxc3 gewinnt eine Figur für einen Bauern, und der Vorsprung von Weiß in der Entwicklung ist kein Ausgleich für eine ganze Figur."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 d5": {
     "strategy": "Greift e4 sofort an und nutzt, was c3 Weiß gekostet hat: Nach einem Tausch auf d5 kann die Dame nicht von einem Springer auf c3 vertrieben werden. Schwarz übernimmt die Initiative im Zentrum, und Weiß braucht eine Fesselung, um den Bauern e5 unter Druck zu halten."
@@ -123,7 +123,7 @@
   "1.e4 e5 2.Nf3 Nc6 3.c3 Be7": {
     "name": "Ponziani-Eröffnung: Romanishin-Variante",
     "background": "Oleg Romanishin versuchte 3...Le7 in den 1970er Jahren, und Batsford's hob es als ausgleichend hervor.",
-    "strategy": "Ein passiver Entwicklungszug, der den ungedeckten Bauern e4 ignoriert und Weiß ohne Widerstand das Bauernzentrum aufbauen lässt. Er galt einst als ausgleichend, gibt Schwarz aber kein Gegenspiel gegen das Zentrum."
+    "strategy": "Ein bescheidener Entwicklungszug, der den Druck auf e4 ignoriert und Weiß das Bauernzentrum ungestört aufbauen lässt. Er ist solide, gibt Schwarz aber kein Gegenspiel gegen das Zentrum und überlässt Weiß die aktivere Stellung."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Qa4": {
     "strategy": "Fesselt den Springer auf c6 an den König, sodass der Bauer e5 ohne echten Schutz bleibt, und droht, ihn zu nehmen. Die Figuren von Weiß kommen mit Tempo heraus, und Schwarz muss einen Weg finden, e5 zu halten und zugleich mit dem ungedeckten Bauern e4 fertigzuwerden."
@@ -139,10 +139,10 @@
     "strategy": "Gewinnt den ungedeckten Bauern. Der gefesselte Springer auf c6 und der ungedeckte Bauer e5 sehen gefährlich aus, doch Schwarz hat eine starke Antwort auf den Schlag von Weiß auf e5 und kommt im Vorteil heraus."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 Bd7": {
-    "strategy": "Löst die Fesselung sofort, sodass der Springer auf c6 gedeckt ist und frei auf e5 schlagen kann. Schwarz wählt solide Entwicklung statt des Bauerngewinns auf e4 und hält die Spannung im Zentrum, um den Preis eines etwas passiven Läufers."
+    "strategy": "Löst die Fesselung, verliert aber einen Bauern: Der Läufer auf d7 versperrt der Dame die Deckung von d5, sodass 5.exd5 den Springer auf c6 angreift und Schwarz den Bauern nicht zurückgewinnen kann."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 f6": {
-    "strategy": "Verteidigt e5 mit einem Bauern und hält die Zentrumsspannung, wobei er die Fesselung des Springers auf c6 hinnimmt. Er nimmt dem Springer auf g8 das Feld f6 und schwächt die Diagonale e8-h5 sowie das Feld e6, sodass Schwarz eine solide, aber etwas unbequeme Aufstellung erhält."
+    "strategy": "Deckt e5 mit einem Bauern und hält das Gleichgewicht, verschenkt aber den Vorteil, den 4...dxe4 einbringt. Der Zug nimmt dem Springer auf g8 das Feld f6 und schwächt die Diagonale e8-h5, sodass Schwarz bestenfalls ein solides, aber unbequemes Spiel bekommt."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5": {
     "strategy": "Gewinnt den Bauern zurück und häuft Druck auf den gefesselten Springer auf c6, den nur der b-Bauer deckt, sodass Schwarz sofort reagieren muss. Die schwarze Dame hat allerdings starkes Gegenspiel, und dieser scharfe Hauptversuch verlangt von Weiß genaues Spiel."
@@ -154,13 +154,13 @@
     "strategy": "Lässt den Springer einstehen: Die Dame auf d8 sieht g5 über die Diagonale, und nichts deckt den Springer, sodass Schwarz ihn einfach schlägt."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5 Qd5": {
-    "strategy": "Zentralisiert die Dame mit Doppelangriff auf den ungedeckten Läufer auf b5 und den Springer auf e5. Weiß muss auf beide Drohungen zugleich eine Antwort finden, und Schwarz behält die Initiative."
+    "strategy": "Zentralisiert die Dame mit einem Doppelangriff auf Läufer und Springer und hält das Gleichgewicht, verschenkt aber den Vorteil: 6.Da4 deckt den Läufer und hält c6 unter Beschuss, und Schwarz hat nicht mehr als Ausgleich."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5 Qg5": {
     "strategy": "Greift den ungedeckten Springer auf e5 und zugleich den g2-Bauern an, sodass Weiß keine Zeit hat, die Fesselung auszunutzen. Schwarz übernimmt die Initiative und steht besser."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5 Qd6": {
-    "strategy": "Deckt c6 ein zweites Mal, sodass die Fesselung nichts einbringt: 6.Sxc6 bxc6 lässt Schwarz mit Doppelbauern zurück, doch 7.Lxc6+ scheitert an ...Dxc6. Die Dame greift zudem den Springer auf e5 an. Schwarz erhält ein spielbares Spiel mit geschwächter Bauernstruktur."
+    "strategy": "Deckt c6 ein zweites Mal und greift den Springer auf e5 an, aber 6.d4 stützt den Springer, und nach 6...exd3 7.Lxc6+ bxc6 sind die Bauern von Schwarz zerstört und die weißen Figuren aktiv. Aus einer klar besseren Stellung ist eine schlechtere geworden."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 d5 4.Bb5 dxe4 5.Nxe5 Qd5 6.Qa4": {
     "name": "Ponziani-Eröffnung: Spanische Variante, Harrwitz-Angriff, Nikitin-Gambit",
@@ -194,23 +194,23 @@
     "strategy": "Stützt e4 mit einem Bauern und hält die Stellung sicher, doch Weiß gibt den zentralen Vorstoß auf, für den 3.c3 gespielt wurde. Der schwarze Bauer auf f5 hält e4 unter Druck, und Schwarz kann sich in Ruhe entwickeln."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 f5 4.d4 d6": {
-    "strategy": "Eine solide Antwort: e5 erhält einen zweiten Verteidiger, und der Läufer auf c8 wird frei, um f5 zu decken. Sie ist aber passiv. Schwarz schlägt nicht auf e4, das Gegengambit verliert seinen Stachel, und Weiß gewinnt Raum und Zeit im Zentrum."
+    "strategy": "Deckt e5 ein zweites Mal und öffnet dem Läufer den Weg nach f5, überlässt aber den Bauern auf f5 Weiß: 5.exf5 gewinnt einen Bauern, und schlägt Schwarz mit dem Läufer zurück, fesselt 6.Lb5 den Springer auf c6 und lässt Weiß klar besser stehen. Das Gegengambit hat seinen Sinn verloren."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 f5 4.d4 fxe4": {
     "strategy": "Nimmt den Bauern und vollendet das Gegengambit: Schwarz ist vorübergehend einen Bauern voraus. Aber e5 wird zweimal angegriffen und nur vom Springer gedeckt, sodass Weiß den Bauern sofort zurückgewinnt, und der folgende Kampf gilt als günstig für Weiß."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 f5 4.d4 exd4": {
-    "strategy": "Nimmt den Bauern, der e5 angreift, und öffnet das Zentrum. Weiß schlägt mit dem c-Bauern zurück und behält ein breites Bauernzentrum, während der schwarze Bauer auf f5 weiter auf e4 drückt; Schwarz muss den geschwächten Königsflügel durch aktives Spiel rechtfertigen."
+    "strategy": "Nimmt den Bauern, der e5 angreift, überlässt aber das Feld e5 Weiß: 5.e5 gewinnt Raum und behindert die Entwicklung von Schwarz, und die geschwächte Königsseite bringt nichts ein."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 f5 4.d4 d6 5.d5": {
     "name": "Ponziani-Eröffnung: Ponziani-Gegengambit, Schmidt-Angriff",
-    "strategy": "Gewinnt Tempo durch den Angriff auf den Springer und Raum im Zentrum, während der Bauer auf e4 weiter auf f5 wirkt. Die schwarzen Figuren sind beengt, und der Springer muss zurückweichen; Weiß hat ein großes, sicheres Zentrum gegen einen gelockerten Königsflügel."
+    "strategy": "Gewinnt Raum und vertreibt den Springer, lässt sich aber einen Bauern entgehen: Nach ...Sce7 wird der Schlag auf f5 mit ...Sxf5 beantwortet, der Mehrbauer ist also weg, und Weiß hat nur einen kleinen Raumvorteil."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 f5 4.d4 d6 5.exf5": {
-    "strategy": "Gewinnt den f-Bauern, aber durch das Schlagen verschwindet der eigene Bauer von e4, sodass der schwarze e-Bauer mit Tempo gegen den Springer vorrücken kann. Weiß hat einen Bauern mehr und muss ihn sorgfältig behaupten, während sich die schwarzen Figuren frei entwickeln."
+    "strategy": "Gewinnt den f-Bauern und behält ihn, die klarste Antwort auf den passiven vierten Zug von Schwarz. Der Schlag nimmt den weißen Bauern von e4, sodass ...e4 den Springer angreifen kann, doch Weiß bleibt einen Bauern voraus und hat das bessere Zentrum."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 f5 4.d4 d6 5.dxe5": {
-    "strategy": "Gibt die Spannung im Zentrum auf: Nach dem Abtausch auf e5 können die Damen vom Brett gehen, und das große Bauernzentrum, das 4.d4 aufbauen sollte, ist dahin. Das bietet Schwarz ein leichtes Spiel."
+    "strategy": "Gibt die Spannung im Zentrum auf, ebenso das große Bauernzentrum, das 4.d4 aufbauen sollte, und damit die Chance, den Bauern auf f5 zu gewinnen. Nach ...fxe4 ist der Springer auf f3 angegriffen und der Bauer auf e5 ein Ziel, sodass Schwarz das leichtere Spiel hat."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 Nf6 4.d4": {
     "strategy": "Der Sinn von 3.c3: Weiß fordert e5 sofort heraus und ignoriert den ungedeckten Bauern auf e4, sodass Schwarz wählen kann, welchen Zentralbauern er nimmt. So oder so will Weiß den Bauern mit Tempogewinn zurückgewinnen, in Partien, die von ruhig bis wild reichen."
@@ -222,7 +222,7 @@
   "1.e4 e5 2.Nf3 Nc6 3.c3 Nf6 4.Bc4": {
     "name": "Ponziani-Eröffnung: Neumann-Gambit",
     "background": "Jules Arnous de Rivière spielte es 1864 gegen Gustav Neumann, und Datenbanken führen beide Namen dafür. Radjabov spielte es 2009 gegen Anand, wobei er es über die Zugumstellung des Italienischen Spiels erreichte, und Anand lehnte den Bauern ab.",
-    "strategy": "Zielt auf f7, lässt aber den Bauern auf e4 ungedeckt. Schwarz nimmt ihn einfach, und da c3 besetzt ist, hat Weiß nichts Konkretes dafür. Das Beste für Weiß ist, Läufer gegen Springer zu tauschen und den Bauern zurückzugewinnen, wonach Schwarz immer noch das leichtere Spiel hat."
+    "strategy": "Nimmt f7 ins Visier und lässt e4 ungedeckt. Nimmt Schwarz den Bauern, rochiert Weiß meist und gewinnt auf e5 einen Bauern zurück, nachdem er den Läufer gegen den Springer auf c6 getauscht hat, sodass die Stellung ausgeglichen bleibt: solide, doch Schwarz hat das etwas leichtere Spiel."
   },
   "1.e4 e5 2.Nf3 Nc6 3.c3 Nf6 4.d3 d5": {
     "name": "Ponziani-Eröffnung: Jaenisch-Gegenangriff",
@@ -293,7 +293,7 @@
     "strategy": "Deckt e4 mit einem Bauern, solide und sicher, sperrt aber den Königsläufer ein und lässt den Damenspringer erst später heraus. Ein langsamerer, passiverer Plan, der Schwarz ein leichtes Spiel gibt."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d3 f5": {
-    "strategy": "Ein Gegenangriff auf e4, der den Königsflügel zu früh öffnet. Der Bauer e5 hängt in der Deckung vom Springer ab, und nach exf5 steht Schwarz einfach einen Bauern zurück für einen riskanten Angriff."
+    "strategy": "Fordert e4 sofort mit einem Bauern heraus. Der ruhige dritte Zug von Weiß bietet keine einfache Bestrafung, daher ist der Zug spielbar, doch der Bauernzug schwächt die Königsseite von Schwarz und die Diagonale e8-h5 und ist riskanter als einfache Entwicklung."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d3 Nf6": {
     "strategy": "Entwickelt und greift sofort e4 an. Der Bauer ist durch d3 gedeckt, also ist noch nichts gewonnen, aber Schwarz hält alle zentralen Pläne offen und beantwortet den bescheidenen dritten Zug von Weiß, indem er einfach seine Stellung aufbaut."
@@ -329,6 +329,6 @@
     "strategy": "Greift den Springer mit einem Bauern an, schwächt aber die Diagonale zum König: Schwarz antwortet ...Dh4+ und behält die zusätzliche Figur samt Initiative."
   },
   "1.e4 e5 2.Nf3 Nc6 3.Nxe5 Nxe5 4.Nc3": {
-    "strategy": "Entwickelt eine Figur und deckt e4 weiter, droht aber nichts: Schwarz konsolidiert die zusätzliche Figur und hat ein leichtes Spiel."
+    "strategy": "Entwickelt eine Figur und deckt e4 weiter, eine solide, aber langsame Art, das Gambit zu spielen: Der Zug droht nichts, also festigt Schwarz in aller Ruhe die zusätzliche Figur und hat ein leichtes Spiel."
   }
 }

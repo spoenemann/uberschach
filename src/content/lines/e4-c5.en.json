@@ -279,7 +279,7 @@
     "strategy": "Prepares a compact set-up with the bishop free to develop and ...d5 available to challenge e4. A solid choice that treats the rim knight as a loss of time for White."
   },
   "1.e4 c5 2.Na3 Nc6 3.d4": {
-    "strategy": "Plays the usual central break, but d4 is attacked twice and defended only by the queen, so this is a pawn offer. The knight on a3 cannot recapture on d4, so the move depends on quick piece play to pay off."
+    "strategy": "A pawn offer that does not pay: ...cxd4 wins a pawn that White cannot take back, since the knight on a3 does not reach d4 and Qxd4 loses the queen to ...Nxd4. White gets some development but no compensation for the pawn."
   },
   "1.e4 c5 2.Na3 Nc6 3.Nf3": {
     "strategy": "Develops the kingside knight and prepares the central break d4, which now has a piece ready to recapture. The knight on a3 stands badly for the moment, but it can reroute to b5 or c4, and the game becomes an ordinary open Sicilian in which White has spent one move on that detour."
@@ -294,19 +294,22 @@
     "strategy": "Takes the pawn and removes the one that attacks c5. White cannot recapture with the queen, since ...Nxd4 would win it, so Black keeps the extra pawn for now. The price is time: only one piece is developed, and White can start to chase the pawn with natural moves."
   },
   "1.e4 c5 2.Na3 Nc6 3.d4 Nxd4": {
-    "strategy": "Wins the pawn with the knight: White cannot retake with the queen, since ...cxd4 would win it. The knight is strongly centralised and Black's c-pawn stays on the board, but the knight can be harassed, and Black has to spend further time on it before developing the rest."
+    "strategy": "Wins the pawn with the knight, which keeps the c-pawn but costs time: Nf3 hits the centralised knight at once and it has to move again while White develops. Black stays a pawn up, but ...cxd4 wins the pawn without losing a tempo."
   },
   "1.e4 c5 2.Na3 Nc6 3.d4 Nf6": {
-    "strategy": "Develops with an attack on the undefended e4 pawn and leaves the tension on d4. If White takes on c5, ...Nxe4 regains the pawn at once. But Black passes up the free pawn and leaves White a free hand in the centre."
+    "strategy": "Develops and eyes e4 but passes up the free pawn. 4.d5 attacks the c6 knight, which has no good square, and White gains space and tempo while Black's knights are driven back. Black throws away its early gain and stands clearly worse."
   },
   "1.e4 c5 2.Na3 Nc6 3.d4 cxd4 4.Bc4": {
     "name": "Sicilian Defence: Kronberger Variation, Nemeth Gambit",
-    "strategy": "A gambit: the bishop aims at f7 and is backed by the knight on a3, but the d4 pawn stays with Black and White has no immediate way to win it back. White plays for quick development and pressure on f7 against a pawn."
+    "strategy": "A gambit that does not pay: the bishop eyes f7 and is backed by the knight on a3, which covers c4, but White has no quick way back to d4 and no real attack. Black can consolidate and keeps the extra pawn."
   },
   "1.e4 c5 2.Na3 Nc6 3.d4 cxd4 4.Nf3": {
-    "strategy": "Develops with a second attack on d4, so White threatens to win the pawn back at once and keeps the game in the usual open channels. Black can try to hold the pawn with ...e5, but then White has the lead in development and open lines for the pawn."
+    "strategy": "Attacks d4 a second time and heads for an ordinary open Sicilian if Black lets it. But ...e5 holds the pawn, since the knight cannot take it, and White must then play for development against the extra pawn with the knight on a3 still out of play. A good move, not the most precise."
   },
   "1.e4 c5 2.Na3 Nc6 3.d4 cxd4 4.Nb5": {
-    "strategy": "Attacks d4 a second time, so White threatens to win the pawn back, and brings the knight to a more active square where it eyes c7 and d6. The knight is then exposed to ...Qa5+ and ...a6, so White has to regain the pawn before it loses time."
+    "strategy": "Attacks d4 a second time and eyes c7 and d6, but ...e5 holds the pawn and ...a6 then chases the knight away. White loses time for nothing, and Black keeps the extra pawn with a strong centre."
+  },
+  "1.e4 c5 2.Na3 Nc6 3.d4 cxd4 4.Bd3": {
+    "strategy": "Develops the bishop first, covering e4, and plays for quick development with a knight to e2 and castling instead of rushing to regain d4. Black keeps the extra pawn for now, but White's pieces come out with pressure on the open lines against it."
   }
 }

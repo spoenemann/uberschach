@@ -24,7 +24,7 @@
   },
   "1.e4 c5 2.Nf3 e6 3.b4": {
     "name": "Sizilianische Verteidigung: Verzögertes Flügelgambit",
-    "strategy": "Ein verzögertes Gambit: Weiß bietet den b-Bauern an, um den c-Bauern von Schwarz wegzulocken und ein großes Bauernzentrum aufzubauen. Schwarz kann ihn einfach nehmen, und Weiß bekommt für den Bauern wenig; die Idee ist zweifelhaft."
+    "strategy": "Ein Gambit: Weiß bietet den b-Bauern an, um den c-Bauern von Schwarz wegzulocken und mit d4 ein großes Bauernzentrum aufzubauen. Schwarz kann den Bauern gefahrlos nehmen, doch Weiß erhält dafür Raum und aktives Spiel, sodass der Zug spielbar, aber riskanter als die üblichen dritten Züge ist."
   },
   "1.e4 c5 2.Nf3 e6 3.c3 d5": {
     "strategy": "Greift e4 an, bevor das Bauernzentrum von Weiß steht. Die Spannung ist sofort aufgelöst, Weiß kann das breite Zentrum, das c3 vorbereiten sollte, nicht genießen, und die Figuren von Schwarz kommen in einem offenen Spiel frei heraus."
@@ -137,15 +137,16 @@
   },
   "1.e4 c5 2.Nf3 e6 3.c3 Nf6 4.e5 Nd5 5.d4 Nc6": {
     "name": "Sizilianische Verteidigung: Alapin-Variante, Scherzer-Variante",
-    "strategy": "Übt Druck auf die Basis der weißen Kette aus: d4 wird zweimal angegriffen, vom c5-Bauern und vom Springer, e5 einmal. Schwarz bekämpft das Bauernzentrum durch Entwicklung, und Weiß muss die Figuren koordiniert halten, um d4 und e5 zu halten."
+    "strategy": "Bringt einen zweiten Angreifer auf d4, doch d4 ist gut gedeckt, und Weiß antwortet sofort mit c4 und vertreibt den Springer von d5 unter Tempogewinn. Weiß hat dann ein breites Bauernzentrum und mehr Raum, und der schwarze Springer steht auf einem schlechten Feld."
   },
   "1.e4 c5 2.Nf3 e6 3.c3 Nf6 4.e5 Nd5 5.d4 cxd4": {
-    "strategy": "Öffnet die c-Linie und fordert die Basis der weißen Kette heraus: Nach dem Zurückschlagen kann Schwarz mit Figuren gegen die Bauern d4 und e5 spielen, während der Springer auf d5 einen starken Posten innehat. Weiß behält ein geräumiges Zentrum, deshalb muss Schwarz sich mit der Entwicklung beeilen."
+    "strategy": "Das natürliche Schlagen: Es fordert die Basis der weißen Kette heraus und öffnet die c-Linie, während der Springer auf d5 einen starken Posten innehat. Schwarz kann dann mit Figuren gegen die Bauern d4 und e5 spielen, doch Weiß behält ein raumgreifendes Zentrum, sodass Schwarz sich mit der Entwicklung beeilen muss."
   },
   "1.e4 c5 2.Nf3 e6 3.c3 Nf6 4.e5 Nd5 5.d4 d6": {
     "strategy": "Greift sofort die Spitze der weißen Bauernkette an, sodass Weiß entscheiden muss, ob er den Raum hält oder abtauscht. Der Preis ist ein Tempo für einen Bauernzug, und der Bauer e6 kann zum Ziel werden, sobald sich das Zentrum öffnet."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 cxd4": {
+    "name": "Sizilianische Verteidigung: Französische Variante, Offene Variante",
     "strategy": "Tauscht den c-Bauern gegen den d-Bauern von Weiß: Schwarz erhält eine zentrale Bauernmehrheit und eine halboffene c-Linie zum Arbeiten. Das kostet Zeit und überlässt Weiß freie Entwicklung und offene Linien, der übliche Handel des offenen Sizilianisch."
   },
   "1.e4 c5 2.Nf3 e6 3.d4 a6": {
@@ -155,6 +156,16 @@
   "1.e4 c5 2.Nf3 e6 3.d4 d5": {
     "name": "Sizilianische Verteidigung: Marshall-Gegenangriff",
     "strategy": "Schlägt sofort im Zentrum zu, öffnet aber das Spiel, bevor Schwarz entwickelt ist. Weiß nimmt den Bauern, und ein Schach mit dem Läufer gewinnt Zeit, sodass Schwarz sich gegen einen Entwicklungsvorsprung verteidigen muss."
+  },
+  "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4": {
+    "strategy": "Das natürliche Zurückschlagen: Der Springer nimmt das Zentrum, und Läufer und Dame bekommen offene Linien. Er wird von den Entwicklungszügen von Schwarz belästigt werden, sodass die Figurenaufstellung von Weiß darauf vorbereitet sein muss, aber der zentrale Springer stützt auch einen späteren Angriff."
+  },
+  "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.c3": {
+    "name": "Sizilianische Verteidigung: Verzögertes Morra-Gambit",
+    "strategy": "Ein Gambit, das einen Bauern für einen Entwicklungsvorsprung und eine offene c-Linie anbietet. Schwarz behält einen echten Mehrbauern, den Weiß durch schnelle Entwicklung rechtfertigen muss; die Idee funktioniert also nur, wenn die Figuren von Weiß schneller herauskommen, als Schwarz sich entwirren kann."
+  },
+  "1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Qxd4": {
+    "strategy": "Schlägt mit der Dame zurück, die zwar im Zentrum steht, aber sofort angegriffen werden kann: ...Sc6 greift sie mit Tempogewinn an, und die Dame muss zurück. Die Struktur des Weißen bleibt gesund, der Schaden ist also ein Tempo, doch Schwarz kommt leichter zur Entwicklung."
   },
   "1.e4 c5 2.Nf3 e6 3.Nc3 a6": {
     "strategy": "Nimmt dem Läufer und den Springern von Weiß das Feld b5 und bereitet ...b5 für Raum am Damenflügel vor. Schwarz wartet ab, ob Weiß das Zentrum mit d4 öffnet; dann geht das Spiel in ein normales Offenes Sizilianisch mit dem Bauern schon auf a6 über."
@@ -199,7 +210,7 @@
     "strategy": "Entwickelt den Läufer gegen e4, lässt die Spannung im Zentrum aber ungelöst. Weiß entscheidet, ob er auf c5 schlägt oder mit d5 weiterstößt, und Schwarz gibt die offene c-Linie, die das Schlagen auf d4 brächte, für schnellere Entwicklung her."
   },
   "1.e4 c5 2.Nf3 e6 3.Nc3 a6 4.g3 b5 5.d4 Nc6": {
-    "strategy": "Entwickelt sich und fügt d4 einen zweiten Angreifer hinzu, überlässt die Spannung im Zentrum aber Weiß, der d5 mit Tempogewinn gegen den Springer spielen oder auf c5 schlagen kann. Schwarz nimmt eine weniger klare Struktur für schnellere Entwicklung in Kauf."
+    "strategy": "Bringt einen zweiten Angreifer auf d4, überlässt Weiß aber die Spannung im Zentrum. Die Antwort d5 greift den Springer auf c6 unter Tempogewinn an, und Weiß erhält am Ende mehr Raum, während der schwarze Springer auf einem schlechten Feld steht."
   },
   "1.e4 c5 2.Nf3 e6 3.Nc3 a6 4.g3 b5 5.d4 cxd4 6.Nxd4": {
     "strategy": "Schlägt mit dem Springer zurück, der im Zentrum steht, wo er e6, b5 und c6 anvisiert, und hält die Dame außerhalb der Reichweite von ...Sc6. Das Ergebnis ist ein Offenes Sizilianisch mit vorgerückten Bauern von Schwarz am Damenflügel und dem Fianchetto-Aufbau von Weiß, sodass beide Seiten am Damenflügel spielen."

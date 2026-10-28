@@ -29,7 +29,7 @@
     "strategy": "Mirrors White's move and challenges d4 at once. After cxd5 Black should not retake with the queen, since White then develops with a gain of time. Theory holds that White keeps an edge and that Black plays at best for a draw."
   },
   "1.d4 d5 2.c4 Nf6": {
-    "strategy": "Develops the knight but leaves d5 to the queen: 3.cxd5 Nxd5 4.e4 drives the knight away with a gain of time and gives White a broad pawn centre. Supporting d5 first with a pawn avoids this."
+    "strategy": "Develops the knight and is sound, since 3.cxd5 Nxd5 loses no material, but 4.e4 drives the knight away with a gain of time and gives White a broad pawn centre. Supporting d5 with a pawn first avoids this."
   },
   "1.d4 d5 2.c4 Na6": {
     "strategy": "Aims at b4 from the rim but does nothing in the centre and leaves d5 to the queen alone. After 3.cxd5 Qxd5 4.Nc3 the queen is driven back, and White leads in development."
@@ -65,7 +65,7 @@
     "strategy": "Stakes out e4 with a kingside pawn, but leaves d5 to the queen and weakens e6 and the e8-h5 diagonal. 3.cxd5 Qxd5 4.Nc3 gains time against the queen."
   },
   "1.d4 d5 2.c4 g6": {
-    "strategy": "Prepares the fianchetto ...Bg7 but ignores the centre. 3.cxd5 Qxd5 4.Nc3 chases the queen away, and White keeps the bigger centre and the lead in development."
+    "strategy": "Prepares to fianchetto the king's bishop, a sound idea, but leaves d5 to the queen alone. 3.cxd5 Qxd5 4.Nc3 chases the queen away with a gain of time, and White keeps the bigger centre."
   },
   "1.d4 d5 2.c4 h6": {
     "strategy": "Takes g5 from the c1-bishop, but it is a slow rim-pawn move that does nothing for d5 or development. After 3.cxd5 Qxd5 4.Nc3 White hits the queen with tempo."
@@ -87,20 +87,20 @@
   },
   "1.d4 d5 2.c4 b5": {
     "name": "Queen's Gambit Declined: Zilbermints Gambit",
-    "strategy": "Offers the b-pawn to deflect the c-pawn, but 3.cxb5 wins it, since nothing can recapture, and Black has no lead in development to show for it. The queenside is loosened for good."
+    "strategy": "Gambits the b-pawn to deflect White's c-pawn: 3.cxb5 takes it, since nothing can recapture, and Black has no lead in development to make up for it. The queenside is loosened for good, and White keeps the extra pawn and the better centre."
   },
   "1.d4 d5 2.c4 g5": {
     "strategy": "Leaves the g-pawn en prise: 3.Bxg5 takes it along the open c1-h6 diagonal, and nothing of Black's can retake, since the queen's diagonal is blocked by e7. The kingside is loosened for good with no development in return."
   },
   "1.d4 d5 2.c4 Bf5 3.Qb3": {
     "name": "Queen's Gambit Declined: Baltic Defence, Queen Attack",
-    "strategy": "Hits b7, which nothing guards now that the bishop has left c8, while the c4 pawn already bears on d5. Black has to give up a pawn or counter-sacrifice in the centre, so the early bishop sortie starts to cost something and White seizes the initiative."
+    "strategy": "Hits b7, which nothing guards now that the bishop has left c8, while the c4 pawn already bears on d5. Black has only a few good answers, such as a counter-sacrifice in the centre, so the sortie costs something, but the edge is small."
   },
   "1.d4 d5 2.c4 Bf5 3.cxd5": {
-    "strategy": "Wins the pawn, but leaves the knight on b1 to Black's bishop, which takes it at once. White recaptures with the rook and keeps the bishop pair, and Black has to work to win the pawn back: a clear but modest edge, less sharp than the other tries."
+    "strategy": "Takes the pawn, which Black soon wins back, either with a knight or by first trading the bishop for the b1 knight and recapturing with the queen. White keeps the d4 pawn and a modest, lasting edge with little risk."
   },
   "1.d4 d5 2.c4 Bf5 3.Nc3": {
-    "strategy": "Develops and adds a second attacker to d5, so Black must commit to defending the pawn at once. It also prepares to challenge the f5 bishop with e4, and keeps the queen free for a later sortie to b3. A flexible, healthy way to meet the Baltic."
+    "strategy": "Develops and adds a second attacker to d5, so Black must defend the pawn at once, and prepares e4 against the f5 bishop. Sound and healthy, but Black can simply support d5 with ...e6, which keeps the bishop outside the pawn chain, and White's edge is small."
   },
   "1.d4 d5 2.c4 Bf5 3.cxd5 Bxb1": {
     "strategy": "Takes the knight while the diagonal is open. Recapturing the pawn with the queen instead lets White gain time by developing with tempo against queen and bishop; the trade costs Black the bishop pair but keeps the position healthy, and the d5 pawn is won back later."
@@ -112,10 +112,10 @@
     "strategy": "Brings a piece out and prepares to retake on d5 with the knight, keeping the queen at home. Black is a pawn down for the moment and has to win it back at once, with the bishop on f5 still exposed to White's central pawn advance."
   },
   "1.d4 d5 2.c4 Bf5 3.cxd5 Bxb1 4.Qa4+": {
-    "strategy": "Check before recapturing. Black has to answer it, so the bishop on b1 has no time to escape and the rook takes it next; the check costs White nothing and forces Black to spend a move on the king."
+    "strategy": "Checks before recapturing, so the bishop on b1 has no time to escape and the rook takes it next. Sound, but the check lets Black block with ...c6, which attacks d5 at once and builds a solid centre, so White gains less than the simple recapture."
   },
   "1.d4 d5 2.c4 Bf5 3.cxd5 Bxb1 4.Rxb1": {
-    "strategy": "Takes the bishop at once and gives up the check. Black retakes d5 with the queen, which centralises it and eyes the loose a2 pawn, and the game is close to level: White keeps only a small edge from the space of the d4 pawn."
+    "strategy": "Recaptures the bishop at once. Black retakes d5 with the queen, which centralises it and eyes the loose a2 pawn, but White has the bishop pair and the space of the d4 pawn, and keeps a small, lasting edge."
   },
   "1.d4 d5 2.c4 Bf5 3.cxd5 Bxb1 4.Nf3": {
     "strategy": "Develops but lets the bishop on b1 out: it simply retreats along the diagonal, and Black keeps the knight it won for a single pawn. White has thrown away the whole point of the capture on d5."
@@ -127,7 +127,7 @@
     "strategy": "Blocks the check with the queen and offers its exchange. After the swap Black retakes with a developing knight, wins the d5 pawn back once the rook has taken the bishop, and reaches a simple, level position without weaknesses."
   },
   "1.d4 d5 2.c4 Bf5 3.cxd5 Bxb1 4.Qa4+ Nd7": {
-    "strategy": "Blocks the check with the other knight, which is then pinned to the king by the queen on a4 and cuts the queen off from d5. Black can still win the pawn back with the g8 knight, but the pin stays a liability while the queen sits on a4."
+    "strategy": "Blocks the check with the other knight, which is then pinned to the king by the queen on a4. After 5.Rxb1 White is a pawn up, and the pinned knight makes it slow for Black to win d5 back, so White keeps the pawn and the initiative for longer."
   },
   "1.d4 d5 2.c4 Bf5 3.cxd5 Bxb1 4.Qa4+ c6 5.dxc6": {
     "strategy": "Greedily takes a second pawn instead of simply collecting the trapped bishop. The extra pawn does not last: Black's recapture hits d4, and the queen swap that follows leaves a level endgame, so White gives up the better way to keep a small plus."
@@ -162,7 +162,7 @@
   },
   "1.d4 d5 2.c4 Bf5 3.Nc3 e6 4.Qb3": {
     "name": "Queen's Gambit Declined: Baltic Defence, Queen Attack Deferred",
-    "strategy": "Hits b7 and d5 too early. With the knight still on g1, the d4 pawn has no defender, so Black develops with tempo by attacking it, and a grab on d5 can run into a counterstrike against d4. White loses the initiative."
+    "strategy": "Hits b7 but comes early: with the knight still on g1, the d4 pawn has no defender, so Black develops with tempo by attacking it. Sound, since d4 can still be defended, but White gains less than the sortie suggests, and a grab on d5 can run into a counterstrike against d4."
   },
   "1.d4 d5 2.c4 Bf5 3.Nc3 e6 4.cxd5": {
     "strategy": "Releases the tension and leaves Black a pawn on d5 with the bishop outside it, a solid symmetrical set-up. White follows with a queen move that hits d5 and b7 together and keeps a small initiative."
@@ -185,13 +185,13 @@
     "strategy": "Takes the d5 pawn and sidesteps the gambit, but ...Qxd5 at once attacks d4 a second time, with the e-pawn and the queen. The queens usually come off with material level, which leads to a quiet position with no lasting edge for either side."
   },
   "1.d4 d5 2.c4 e5 3.e3": {
-    "strategy": "Defends d4 but lets Black trade it off. After the exchange Black develops easily, with the d5 pawn pressing on c4, and gets the slightly better game; White's centre is no longer an asset."
+    "strategy": "Defends d4 but lets Black trade it off with ...exd4. After the exchange Black develops easily, with the d5 pawn pressing on c4, and gets the slightly easier game; White's centre is no longer an asset. Sound, but White passes up the extra pawn on offer."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4": {
     "strategy": "The point of the gambit: the pawn becomes a wedge that cramps White, taking the c3 and e3 squares away from White's pieces. Black gives up a pawn for space and some chances of an attack, and must keep the wedge supported."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 dxc4": {
-    "strategy": "Wins back the pawn at once instead of building the wedge, so material is level, but White's pawn on e5 cramps Black. White can trade queens and leave Black's king uncastled, or develop with check, and keeps a small edge either way."
+    "strategy": "Wins the pawn back at once, so material is level, but the wedge is never built. White trades queens with check, Black's king must recapture and loses the right to castle, and the pawn on e5 cramps Black's pieces. White keeps a clear edge."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 Nc6": {
     "strategy": "Develops and attacks the e5 pawn, but allows cxd5: ...Qxd5 then loses the queen to Qxd5 now that the d-file is open, so Black has to recapture on e5 with the knight. Black ends a clean pawn down and without the d4 wedge."
@@ -201,11 +201,11 @@
     "strategy": "Develops a piece against the wedge: it attacks d4 and guards the extra pawn on e5. White keeps the pawn without weakening anything and sidesteps the careless pawn pushes that run into trouble, so Black has to justify the gambit by active development."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.e3": {
-    "strategy": "Strikes at the wedge with a pawn too early. Black answers with a check and a capture on e3 that wrecks White's pawns: at best White ends up with doubled pawns and a slightly worse game, and a slip walks into a trap that loses at once."
+    "strategy": "Challenges the wedge too early and walks into the Lasker Trap: after ...Bb4+ Bd2 dxe3, taking the bishop on b4 loses at once. Recapturing on e3 with the f-pawn avoids it, but leaves White's king's side thinner and the game stays level. Sound, but risky and it gains nothing."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.e4": {
     "name": "Queen's Gambit Declined: Albin Countergambit, Spassky Variation",
-    "strategy": "Avoids the trap by advancing two squares, so that Black can capture en passant only at once. But the wedge on d4 stays unchallenged and Black develops easily, so White gets less from the extra pawn than the move promises and ends up the worse side."
+    "strategy": "Avoids the Lasker Trap by advancing two squares: Black can capture en passant only at once. The wedge on d4 stays unchallenged and the pawn on e5 has to be defended, but the position is balanced; White gets no more from the extra pawn than Black gets for it."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.e3 Bb4+": {
     "strategy": "Gives check on the diagonal that White's d-pawn has left open, so White must spend a move on the king. The bishop also sets up the tactic that makes 4.e3 so dangerous: the d4 pawn attacks e3, and Black can capture there with a powerful bishop on b4."
@@ -214,7 +214,7 @@
     "strategy": "Defends the wedge with a developing move and keeps the bishop check in reserve. If White takes on d4 the knight can recapture, but Black is still a pawn down and plays for development and open lines without the trap."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.e3 c5": {
-    "strategy": "Backs the wedge with a pawn, but the pawn closes the diagonal to b4 and with it the check and the trap. White can take on d4 and Black recaptures with the pawn, keeping the wedge but a pawn down and with little to show for it."
+    "strategy": "Backs the wedge with a pawn, but the pawn closes the diagonal to b4 and with it the check and the trap. White develops and builds up pressure on d4, and Black is a pawn down with little to show for it."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.e3 Bb4+ 5.Bd2": {
     "strategy": "The natural way to meet the check: it develops a piece and offers to trade off Black's active bishop. But e3 is still attacked by the wedge, and the bishop on d2 is the piece White must not be tempted to use for a hasty capture on b4."
@@ -231,7 +231,7 @@
     "strategy": "Springs the trap. Black ignores the bishop on b4 and takes on e3: if White greedily takes that bishop, ...exf2+ and a promotion to a knight on g1 win decisively. The safe reply is to recapture and accept doubled pawns, which still leaves Black slightly better."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.e3 Bb4+ 5.Bd2 Bxd2+": {
-    "strategy": "Trades the active bishop for the one White has just developed and so skips the trap. White recaptures without danger and keeps the extra pawn, while Black has to rely on quicker development and open lines."
+    "strategy": "Trades the active bishop for the one White has just developed and so gives up the trap. White recaptures with the queen and keeps the extra pawn with a safe position, while Black has only development to show for it."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.e3 Bb4+ 5.Bd2 Be7": {
     "strategy": "Retreats and gives up the wedge for nothing: White takes on d4 and is two pawns up, with the bishop on d2 already developed. Black has lost the trap and has little but quick development to show for the pawns."
@@ -241,10 +241,10 @@
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 c5": {
     "name": "Queen's Gambit Declined: Albin Countergambit, Tartakower Defence",
-    "strategy": "Supports the wedge with a pawn, but the same pawn closes the diagonal to b4, so Black no longer has the check that makes a pawn strike at the wedge dangerous for White. White can hit d4 with e3 at once, and Black gives up chances of an attack for solidity."
+    "strategy": "Supports the wedge with a pawn, but the same pawn closes the diagonal to b4, so Black no longer has the check that makes a pawn strike at the wedge dangerous. White hits d4 with e3 at once, keeps the extra pawn, and Black gets little for it."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Bb4+": {
-    "strategy": "Uses the open diagonal at once. If White blocks with the bishop, the trade removes White's c1 bishop and Black's own attacker, and the wedge is then defended by the queen alone until a knight arrives, so Black has to play carefully."
+    "strategy": "Checks at once, but nothing comes of it: White blocks with Nbd2, a developing move, and the pin on that knight achieves little. Black is still a pawn down and has spent a move on the bishop instead of developing the knight to defend the wedge."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.g3": {
     "name": "Queen's Gambit Declined: Albin Countergambit, Fianchetto Variation",
@@ -259,29 +259,35 @@
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.g3 Be6": {
     "name": "Queen's Gambit Declined: Albin Countergambit, Fianchetto Variation, Be6 Line",
-    "strategy": "Develops the bishop at once to attack the c4 pawn, so White has to spend a move looking after it. It also prepares queenside castling and a later trade of the bishop against White's fianchettoed bishop."
+    "strategy": "Develops with a hit on c4, but White guards the pawn with a developing move and completes the fianchetto, so the bishop gains nothing. The pawn on e5 stays in White's hands, and Black has not yet added a second attacker against it."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.g3 Bg4": {
     "name": "Queen's Gambit Declined: Albin Countergambit, Fianchetto Variation, Bg4 Line",
-    "strategy": "Eyes the knight that attacks the wedge, ready to trade it off and ease the pressure on d4. It does not hit c4 as the bishop on e6 does, so White can finish the fianchetto unhurried, but Black keeps a flexible position."
+    "strategy": "Eyes the knight that guards e5, but nothing is forced: White completes the fianchetto and development, and even the exchange on f3 leaves White clearly better. A knight to e7, preparing a second attacker on e5, goes after the pawn more accurately."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.g3 Bf5": {
     "name": "Queen's Gambit Declined: Albin Countergambit, Fianchetto Variation, Bf5 Line",
-    "strategy": "Puts the bishop on its most active diagonal, but outside the pawn chain it becomes a target: a knight jump to h4 chases it, and Black loses time. Unlike the bishop on e6 it leaves White's c4 pawn alone."
+    "strategy": "Puts the bishop outside the pawn chain on the active diagonal, but it neither attacks e5 nor supports the wedge. White completes the fianchetto and development at leisure, and Black is simply a pawn down."
+  },
+  "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.g3 Nge7": {
+    "strategy": "Heads for g6 to attack e5 a second time before White can consolidate it. Black's other developing moves let White finish the fianchetto in peace; this is the only one that keeps the position level. The knight on c6 keeps the wedge on d4 defended."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.Nbd2 Qe7": {
     "name": "Queen's Gambit Declined: Albin Countergambit, Balogh Variation",
-    "strategy": "Adds a second attacker to e5, so White must defend the pawn again or give it back. The queen blocks the king's bishop, which delays Black's kingside development, so the plan only pays if Black wins the pawn back quickly."
+    "strategy": "Adds a second attacker to e5, but regaining the pawn costs the wedge: after the trades on e5 the other knight comes to f3, hits the queen and d4 falls. The queen also blocks the king's bishop, so Black ends a pawn down and undeveloped."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.Nbd2 Bg4": {
-    "strategy": "Eyes the knight that guards e5 and wants to trade it for the bishop. Black gives up the bishop pair for activity, and the move provokes a decision from White at once instead of letting Black arrange the pieces freely."
+    "strategy": "Eyes the knight that guards e5, but nothing is forced: White continues with the fianchetto and keeps the extra pawn. A bishop on g4 does not help to win the pawn back, and Black has not developed the knight that would attack e5 again."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.Nbd2 f6": {
     "name": "Queen's Gambit Declined: Albin Countergambit, Janowski Variation",
-    "strategy": "Attacks e5 with a pawn, so the knight and pawn together outnumber its single defender. The cost is a looser king position, as the pawn leaves f7 and opens lines near the king, and White simply gets to choose how to return the pawn."
+    "strategy": "Attacks e5 with a pawn, but White takes on f6 and the knight recaptures, so the pawn Black meant to win back is simply traded off. Black stays a pawn down, and with the f-pawn gone the king's side is looser."
+  },
+  "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.Nbd2 Nge7": {
+    "strategy": "Heads for g6 to attack e5 a second time, the same idea as against the fianchetto. White cannot keep both the extra pawn and the central grip: either e5 falls or the wedge is traded for it, and the game is level. The knight on c6 keeps d4 defended."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.Nbd2 Bg4 6.h3": {
-    "strategy": "Asks the bishop to decide at once: it must trade itself off or retreat. Either way White keeps the pawn structure intact, and a trade costs Black the bishop pair."
+    "strategy": "Asks the bishop to decide at once, and the trade on f3 gives White the bishop pair. But the knight that recaptures leaves d2, so ...Bb4+ comes with tempo and Black has good chances to win e5 back; the fianchetto holds the pawn more securely."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.Nbd2 Bg4 6.g3": {
     "strategy": "Prepares the fianchetto of the king's bishop, White's most reliable plan against the gambit. The bishop on g2 will aim down the long diagonal at Black's queenside while the king castles into safety, and Black usually answers by castling queenside."
@@ -293,7 +299,7 @@
     "strategy": "Cashes in the bishop before it is chased. The recapture brings the knight back to f3, where it still guards e5 and attacks the wedge, but White has the bishop pair and Black must prove the pawn is worth it."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.Nbd2 Bg4 6.h3 Bh5": {
-    "strategy": "Keeps the bishop pair by stepping back instead of exchanging, but g4 chases it again, so Black spends moves on the bishop while White gains space on the kingside, at the cost of a looser king position."
+    "strategy": "Declines the exchange and keeps the bishop, but on h5 it is out of play and can be driven back by a kingside pawn push. White spends the time consolidating the extra pawn, and Black has to weaken the king's side to keep the bishop in play."
   },
   "1.d4 d5 2.c4 e5 3.dxe5 d4 4.Nf3 Nc6 5.Nbd2 Bg4 6.h3 Be6": {
     "strategy": "Avoids the exchange on f3 and keeps the bishop pair. The cost is time: the bishop has moved twice while White finishes development, and Black must still prove that the pawn is worth it."

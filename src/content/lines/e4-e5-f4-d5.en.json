@@ -36,10 +36,10 @@
   },
   "1.e4 e5 2.f4 d5 3.exd5 Bc5": {
     "name": "King's Gambit Declined: Falkbeer Countergambit, Miles Gambit",
-    "strategy": "Develops the bishop towards f2 instead of recapturing on d5, so Black has simply given a pawn for activity. With no direct threat yet, White can keep the pawn, though taking a second one on e5 invites a queen check on h4."
+    "strategy": "Develops the bishop towards f2 instead of recapturing, a sound pawn sacrifice. White keeps the d5 pawn and can simply develop, so Black must prove that the lead in development is worth it. Grabbing a second pawn with fxe5 is punished by ...Qh4+."
   },
   "1.e4 e5 2.f4 d5 3.exd5 c6 4.dxc6": {
-    "strategy": "Grabs a second pawn instead of developing. That wins material but leaves White's king uncastled with a loosened kingside, and Black's lead in development grows with every move; the greedy capture is dubious, and developing a piece is the better way to meet the pawn offer."
+    "strategy": "Takes a second pawn, so White is two pawns up while the king is still uncastled and Black's pieces come out with tempo. It can be defended, but White must find accurate moves under pressure; developing a piece is simpler."
   },
   "1.e4 e5 2.f4 d5 3.exd5 c6 4.Nc3": {
     "strategy": "Develops a piece and declines the second pawn: the knight covers e4 and defends the d5 pawn, so White keeps what it has taken and makes Black prove the compensation. After ...exf4 the pawns are level and the game is roughly even."
@@ -55,7 +55,7 @@
     "strategy": "The solid recapture: the knight develops and guards e5 against the f4 pawn, and the queen's checks on the kingside stay available. Black is still a pawn down, but White's king is in the centre and the kingside is loosened, so Black plays for quick development rather than quick material."
   },
   "1.e4 e5 2.f4 d5 3.exd5 c6 4.dxc6 bxc6": {
-    "strategy": "Recaptures with a pawn and leaves the knight at home, so the move spends a tempo on material rather than on a piece. It also leaves isolated pawns on a7 and c6. Black is still a pawn down and has fewer pieces out to attack the loosened kingside."
+    "strategy": "Recaptures with the b-pawn, so Black is still a pawn down and has no piece out to show for it. The pawns on a7 and c6 are isolated, and White simply consolidates the extra pawn."
   },
   "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3": {
     "name": "King's Gambit Declined: Falkbeer Countergambit, Charousek Gambit",
@@ -116,7 +116,7 @@
     "strategy": "Develops the bishop and defends the knight on e4, so a pin on the e-file cannot win it. The bishop does not aim at f2 or stop White castling, so the main line's pressure is gone and White keeps the extra pawn."
   },
   "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.dxe4 Nxe4 6.Nf3 Qe7": {
-    "strategy": "Puts the queen behind the knight on the e-file, so any knight move gives a discovered check and a careless Nc3 loses the queen. It neither wins the d5 pawn back nor stops White castling, so Black is still a pawn down with the queen out early."
+    "strategy": "Lines up the queen behind the knight for discovered checks, but White simply develops a bishop to e3, which blocks the file and covers c5, taking the sting out of the plan. Black is still a pawn down with the queen out early and little attacking force."
   },
   "1.e4 e5 2.f4 d5 3.exd5 e4 4.d3 Nf6 5.dxe4 Nxe4 6.Qe2 Qxd5": {
     "strategy": "Recaptures on d5, which levels the material, and guards the pinned knight from the centre in the same move. The knight cannot move while the pin lasts, so a developing move that attacks the queen is what Black has to watch for."
@@ -131,10 +131,10 @@
     "strategy": "Develops, guards the e4 pawn and attacks the pawn on d5 in one move. Black keeps the gambit going with the advanced pawn, and White's extra pawn is now a target that has to be defended or given back."
   },
   "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3 Bf5": {
-    "strategy": "Defends the e4 pawn with a developing move, so Nxe4 would lose the knight to the bishop's recapture. Black keeps the bind, but the queen eyes the d5 pawn, which the knight defends, so the extra pawn is safe for now."
+    "strategy": "Defends the e4 pawn with a developing move, but it leaves the d5 pawn alone, and a white knight heading for d4 soon harasses the bishop. White keeps the extra pawn and the more comfortable game, and Black has little to show for the pawn."
   },
   "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3 Qe7": {
-    "strategy": "Defends the e4 pawn with the queen and uses the open e-file: a pawn push to d3 is met by ...exd3 with check. The queen comes out early, no minor piece develops and the d5 pawn is not challenged, so White keeps the extra pawn."
+    "strategy": "Guards the e4 pawn with the queen and makes the d3 push awkward, since ...exd3 would then give check. But the queen is out early, no piece develops and the d5 pawn is not challenged, so White consolidates and keeps the extra pawn."
   },
   "1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3 Nf6 5.d3": {
     "strategy": "Attacks the e4 pawn a second time while the knight already guards d5, so Black's pawn is attacked twice and defended once. It reaches the main line's plan by another move order: White removes the cramping pawn and keeps the extra material."
@@ -186,12 +186,12 @@
   },
   "1.e4 e5 2.f4 d5 3.Nc3 dxe4 4.Nxe4": {
     "name": "Dunst Opening: Grünfeld Defence, Steiner Gambit",
-    "strategy": "Regains the pawn at once, but the f4 pawn is still loose: Black takes it with ...exf4 and is a pawn up. White has no lead in development to make up for it, and the king is still exposed."
+    "strategy": "Regains the pawn at once and centralises the knight. If Black takes on f4, Qe2 threatens a double check with Nd6+ against the uncastled king, so the extra pawn does not come free. The game is balanced and sharp."
   },
   "1.e4 e5 2.f4 d5 3.Nc3 dxe4 4.fxe5": {
-    "strategy": "Takes back at once, trading the f-pawn for Black's e-pawn, so material is level and the f-file opens. Other moves fall a pawn behind. The e4 pawn is attacked by the knight, so Black has to defend it."
+    "strategy": "Takes back at once with the f-pawn, so material is level and the f-file opens. The pawn on e5 cramps Black, but it is exposed to attack, so White has to support it while finishing development."
   },
   "1.e4 e5 2.f4 d5 3.Nc3 dxe4 4.d3": {
-    "strategy": "Offers a second pawn for development, but Black simply takes the f4 pawn: dxe4 Qxd1+ Kxd1 leaves Black a pawn up with White's king stuck in the middle."
+    "strategy": "Offers a pawn to free the bishop on c1 and speed up development. Black can take on f4 or d3, leaving White a pawn down for some activity; it is playable, but the compensation is modest."
   }
 }

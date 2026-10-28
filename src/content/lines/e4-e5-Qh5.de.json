@@ -21,10 +21,10 @@
     "strategy": "Bringt einen zweiten Angreifer nach f7, sodass die Dame dort nun Matt droht und Schwarz sofort antworten muss. Jede Verteidigung kostet etwas: einen Bauernzug, der den Königsläufer aufs Fianchetto festlegt, oder einen Damenzug, der die eigenen Figuren blockiert. Weiß entwickelt sich mit Tempo, aber die früh ausgespielte Dame bleibt eine Schwäche, wenn Schwarz ruhig bleibt."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bb5": {
-    "strategy": "Greift den Springer an, der e5 deckt, sodass Lxc6 den Bauern zu gewinnen drohte. Schwarz antwortet mit einem Bauernzug gegen die Dame, und ein Springersprung nach d4 greift sie erneut an, sodass Weiß weiter Zeit verliert und leicht schlechter steht."
+    "strategy": "Greift den Springer an, der e5 deckt, doch die Drohung ist langsam. Schwarz antwortet mit ...Sf6, greift Dame und Bauer e4 zugleich an, und ein späteres ...Sd4 greift den Läufer an, sodass Weiß weiter Zeit verliert und am Ende deutlich schlechter steht."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Nf3": {
-    "strategy": "Entwickelt eine Figur und greift e5 ein zweites Mal an, sodass der Bauer das nächste Ziel ist. Eine Mattdrohung entsteht dadurch aber nicht: Schwarz greift die Dame mit einem Bauern an, die Dame muss erneut zurückweichen, und Schwarz erhält das leichtere Spiel."
+    "strategy": "Entwickelt eine Figur und greift e5 ein zweites Mal an, droht aber kein Matt. Schwarz antwortet mit ...Sf6 und greift Dame und Bauer e4 zugleich an, die Dame muss erneut zurück, und Schwarz bekommt das leichtere Spiel."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6": {
     "strategy": "Wehrt die Mattdrohung ab, indem der Springer f7 deckt; das entwickelt eine Figur, stellt sie aber an den Rand, wo sie zum Ziel wird. Sobald sich der d-Bauer von Weiß bewegt, nimmt der Läufer auf c1 den Springer ins Visier, und der Springer ist ein Verteidiger, den Weiß zu entfernen versuchen kann."
@@ -48,7 +48,7 @@
     "strategy": "Greift die Dame mit einem Bauern an und schneidet ihre Linie nach f7 ab, mit Tempogewinn. Die Dame muss ziehen, bevor der Läufer auf h6 schlagen kann, die Drohung ist also vorerst abgewehrt. Der Preis ist ein auf das Fianchetto festgelegter Königsflügel mit einem Springer, der noch am Rand steht."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 Qe7": {
-    "strategy": "Deckt f7 mit der Dame, sodass Lxh6 nicht mehr im Matt endet. Der Preis ist hoch: Die Dame steht vor dem Königsläufer, und schlägt Weiß auf h6, bleiben Schwarz doppelte, isolierte h-Bauern und eine offene g-Linie."
+    "strategy": "Deckt f7 mit der Dame, sodass Lxh6 nicht mehr mit Matt endet, doch der Preis ist zu hoch. Die Dame versperrt den Königsläufer, und nach Lxh6 gxh6 hat Schwarz doppelte, isolierte h-Bauern."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 Qf6": {
     "strategy": "Deckt f7 und h6 mit der Dame, sodass Lxh6 mit Wiederschlagen beantwortet werden kann und Dxf7 keine Drohung ist. Der Zug bringt die eigene Dame aber früh heraus und lässt den Springer am Rand stehen, sodass Schwarz sicher steht, aber einen Zug in der Entwicklung zurück ist."
@@ -63,19 +63,22 @@
     "strategy": "Ein ruhiger Rückzug, der e4 gedeckt hält und die Diagonale des Läufers offen hält. Den Angriff auf f7 gibt er jedoch endgültig auf: Nur der Läufer zielt noch darauf, und Schwarz kann sich ohne weitere Sorgen fertig entwickeln."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6": {
-    "strategy": "Schließt die f-Linie mit einem Bauern, sodass die Mattdrohung auf f7 verschwindet, und gibt e5 einen zweiten Verteidiger. Der Aufbau wird gelockert, mit schwächeren hellen Feldern um den König, ist aber solide, und der Springer auf h6 kann nach f7 zurückkehren."
+    "strategy": "Schließt die f-Linie mit einem Bauern, sodass die Mattdrohung auf f7 verschwindet, und gibt e5 einen zweiten Verteidiger. Das ist solide, schwächt aber die hellen Felder um den König und lässt Weiß einen kleinen Vorteil; der Springer auf h6 kann nach f7 zurückkehren."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 Qe7": {
-    "strategy": "Deckt f7 mit der Dame, sodass auf Lxh6 wiedergeschlagen werden kann und die Mattdrohung vorbei ist. Der Zug versperrt den Königsläufer, und die f-Linie bleibt offen, sodass die weiße Dame und der Läufer weiter auf f7 drücken und Schwarz es gedeckt halten muss."
+    "strategy": "Verteidigt f7 mit der Dame, sodass Lxh6 mit einem Rückschlag beantwortet werden kann und die Mattdrohung entfällt. Das hält, aber die Dame versperrt den Königsläufer, und die offene f-Linie lässt Dame und Läufer des Weißen weiter auf f7 drücken, sodass Schwarz in der Defensive bleibt."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 Bg7": {
     "strategy": "Läuft ins Matt: Der Läufer deckt zwar den Springer, aber nach Lxh6 Lxh6 fehlt der Schutz von f7, und Dxf7 ist Matt, gestützt vom Läufer auf c4. Schwarz muss sich zuerst mit dem Druck auf f7 befassen."
   },
+  "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 Nd4": {
+    "strategy": "Greift sofort die Dame an, sodass Weiß zurückweichen muss, und der Springer steht gut im Zentrum. Danach schließt Schwarz die f-Linie mit ...f6, und die Mattdrohung ist vorbei. Die frühe Dame des Weißen hat Zeit gekostet, und Schwarz hat nichts aufgegeben."
+  },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.Ne2": {
-    "strategy": "Die Dame hat f3, das natürliche Feld des Springers, besetzt, daher entwickelt sich der Springer über e2; das macht zugleich den Weg zur Rochade frei und lässt dem Springer auf b1 das Feld c3. Ruhig, aber solide: Weiß verzichtet auf das schnelle Matt und spielt auf gewöhnliche Entwicklung gegen die gelockerte Stellung von Schwarz."
+    "strategy": "Die Dame hat f3 besetzt, das natürliche Feld des Springers, daher entwickelt sich der Springer über e2, was zugleich den Weg zur Rochade frei macht und den Springer von b1 für c3 lässt. Solide und ohne Hast: Weiß spielt auf normale Entwicklung gegen den gelockerten Aufbau von Schwarz."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.Nc3": {
-    "strategy": "Entwickelt den Damenspringer auf sein natürliches Feld, lässt aber c2 ohne Verteidiger. Ein schwarzer Springer kann nach b4 oder d4 springen und Sxc2+ drohen, eine Gabel gegen König und Turm, sodass Weiß einen Zug am Damenflügel aufwenden muss."
+    "strategy": "Entwickelt den Damenspringer auf sein natürliches Feld, wo er e4 stützt und auf d5 und b5 zielt. Er lässt c2 ungedeckt, sodass ein schwarzer Springer auf b4 oder d4 im Auge zu behalten ist, doch Weiß kann das rechtzeitig abfangen und spielt auf normale Entwicklung gegen den gelockerten Aufbau."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.c3": {
     "strategy": "Bereitet ein breites Bauernzentrum vor und nimmt dem schwarzen Springer b4 und d4. Der Zug ist aber langsam: Er kostet ein Tempo, und Schwarz nutzt die Zeit, um den Springer von h6 auf ein nützliches Feld zu bringen, während der Königsflügel locker bleibt."
@@ -85,9 +88,12 @@
     "strategy": "Greift den Läufer und den e-Bauern zugleich an, ist aber ein Bauernopfer: Weiß schlägt einfach auf d5, und das Schlagen mit dem e-Bauern greift auch den Springer auf c6 an. Weiß behält einen Mehrbauern und die sicherere Stellung."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.Ne2 Bg7": {
-    "strategy": "Entwickelt den Läufer, deckt den Springer auf h6 und bereitet die Rochade vor, sodass Lxh6 einfach wiedergeschlagen werden kann. Der Bauer f6 versperrt dem Läufer die lange Diagonale, doch Schwarz hat eine solide, kompakte Stellung, und das Spiel ist ausgeglichen."
+    "strategy": "Entwickelt den Läufer, verteidigt den Springer auf h6 und bereitet die Rochade vor, sodass Lxh6 einfach zurückgeschlagen werden kann. Das ist solide, aber passiv: Der Bauer auf f6 versperrt die lange Diagonale des Läufers, und Weiß behält einen kleinen Vorteil."
   },
   "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.Ne2 Nf7": {
-    "strategy": "Bringt den Springer vom Rand auf ein Feld zurück, von dem aus er e5 und den König deckt, was die Tricks mit Lxh6 endgültig beendet. Weiß kann ihn mit Lxf7+ abtauschen, doch das zieht den schwarzen König nach vorn und gibt Schwarz das Läuferpaar."
+    "strategy": "Bringt den Springer vom Rand zurück, um e5 und den König zu decken, doch es ist der zweite Zug derselben Figur, sodass Schwarz in der Entwicklung zurückfällt. Weiß kann ihn mit Lxf7+ tauschen, was den König nach vorn zieht; das Läuferpaar macht die verlorene Zeit nicht wett."
+  },
+  "1.e4 e5 2.Qh5 Nc6 3.Bc4 Nh6 4.d3 g6 5.Qf3 f6 6.Ne2 Na5": {
+    "strategy": "Greift den Läufer auf c4 an, die Figur, die auf f7 zielt, sodass Weiß ihn zurückziehen muss oder mit ...Sxc4 seinen Angreifer verliert. Der Springer steht am Rand, doch der Zug beantwortet den Druck auf f7 mit einem Tempogewinn."
   }
 }

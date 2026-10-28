@@ -36,13 +36,13 @@
     "strategy": "Öffnet den Läufer c8 und bereitet einen flexiblen Aufbau vor, überlässt das Zentrum aber vorerst Weiß. Nach 3.Lxf6 exf6 kann Weiß das breitere Bauernzentrum bilden, und Schwarz hat für die Doppelbauern auf der f-Linie das Läuferpaar. Solide, aber passiver als die zentralen Antworten."
   },
   "1.d4 Nf6 2.Bg5 h6": {
-    "strategy": "Stellt den Läufer sofort zur Rede, statt eine Figur zu entwickeln. 3.Lxf6 exf6 verdoppelt die schwarzen Bauern, und ...h6 war ein verlorenes Tempo, während 3.Lh4 g5 4.Lg3 den schwarzen Königsflügel schwächt."
+    "strategy": "Stellt dem Läufer sofort die Frage, eine solide, aber langsame Spielweise. Schlägt Weiß auf f6, nimmt Schwarz mit dem e-Bauern zurück und hat für die Doppelbauern das Läuferpaar; zieht Weiß sich zurück, hat der Bauernzug nichts entwickelt."
   },
   "1.d4 Nf6 2.Bg5 Na6": {
     "strategy": "Stellt den Springer an den Rand, wo er weder d4 noch e5 kontrolliert, und tut nichts gegen 3.Lxf6. Weiß entwickelt sich ungestört."
   },
   "1.d4 Nf6 2.Bg5 a6": {
-    "strategy": "Ein Randbauernzug, der nichts entwickelt und nichts gegen Lxf6 unternimmt. Weiß baut in aller Ruhe auf."
+    "strategy": "Ein Randbauernzug, der nichts entwickelt und nichts gegen Lxf6 unternimmt, das die Bauern von Schwarz verdoppelt. Solide, da Weiß ihn nicht bestrafen kann, doch Weiß baut in aller Ruhe auf."
   },
   "1.d4 Nf6 2.Bg5 a5": {
     "strategy": "Gewinnt etwas Raum am Damenflügel, entwickelt aber nichts und tut nichts gegen Lxf6, das die schwarzen Bauern verdoppelt. Weiß kommt kostenlos zu seiner Entwicklung."
@@ -66,7 +66,7 @@
     "strategy": "Zentralisiert den Springer, doch auf d5 ist er ein Ziel: 3.c4 oder 3.e4 greift ihn sofort an. Weiß gewinnt mit Tempo Raum im Zentrum, während Schwarz dieselbe Figur zweimal gezogen hat."
   },
   "1.d4 Nf6 2.Bg5 Rg8": {
-    "strategy": "Verzichtet endgültig auf die kurze Rochade und verbraucht ein Tempo, um g7 zu decken, das der Läufer f8 bereits deckt. Weiß entwickelt sich ungestört, und Lxf6 verdoppelt weiterhin die schwarzen Bauern."
+    "strategy": "Verbraucht ein Tempo, um g7 zu decken, das der Läufer f8 ohnehin deckt, und gibt die kurze Rochade für immer auf. Weiß entwickelt sich frei, und Lxf6 verdoppelt weiterhin die Bauern von Schwarz; Schwarz zahlt also Zeit und Flexibilität für nichts."
   },
   "1.d4 Nf6 2.Bg5 e5": {
     "strategy": "Bietet den e-Bauern an, doch nach 3.dxe5 ist der Springer an die Dame gefesselt, weil e7 nun leer ist: 3...Se4 oder 3...Sg4 erlaubt 4.Lxd8. Schwarz bleibt mindestens einen Bauern zurück."
@@ -97,7 +97,10 @@
     "strategy": "Tauscht den Läufer gegen den Springer, deckt aber b2 nicht. Schwarz kann mit der Dame zurücknehmen, was die Bauern intakt lässt, b2 weiter angreift und Schwarz das Läuferpaar gibt; nur eine Wiedernahme mit dem Bauern führt zu Doppelbauern auf der f-Linie. Weiß riskiert, Zeit für wenig zu verlieren."
   },
   "1.d4 Nf6 2.Bg5 c5 3.d5 Qb6 4.Qc1": {
-    "strategy": "Deckt b2 sofort, sodass Schwarz keinen Bauern zu nehmen hat. Der Zug ist passiv: Die Dame geht auf ihre Grundreihe zurück, dem Läufer auf g5 fehlt das Rückzugsfeld c1, und ...Se4 greift den Läufer an. Weiß behält den zusätzlichen Raum, verliert aber Zeit."
+    "strategy": "Deckt b2, aber die Dame verlässt die d-Linie, und der Bauer d5 bleibt ungedeckt: 4...Sxd5 gewinnt ihn sofort. Weiß hat dafür etwas Aktivität, aber nicht genug für einen Bauern."
+  },
+  "1.d4 Nf6 2.Bg5 c5 3.d5 Qb6 4.Bc1": {
+    "strategy": "Zieht den Läufer nach c1 zurück, wo er b2 wieder deckt; es gibt also keinen Bauern zu nehmen, und die Dame deckt weiterhin d5. Weiß hat zwei Züge mit dem Läufer verloren, behält aber seinen Raumvorteil im Zentrum und eine solide Stellung; der frühe Damenausflug von Schwarz hat ebenso wenig eingebracht."
   },
   "1.d4 Nf6 2.Bg5 e6 3.e4": {
     "name": "Trompowsky-Angriff: Klassische Verteidigung, Großzentrum-Variante",
@@ -122,7 +125,7 @@
   },
   "1.d4 Nf6 2.Bg5 Ne4 3.Bf4 g5": {
     "name": "Trompowsky-Angriff: Borg-Variante",
-    "strategy": "Greift den Läufer mit einem Flügelbauern an, doch der Bauer verlässt die lange Diagonale: Der Läufer springt auf das starke zentrale Feld e5 und greift den Turm auf h8 an, der in Sicherheit gebracht werden muss. Schwarz hat seine eigene Königsseite geschwächt und dafür nichts bekommen."
+    "strategy": "Greift den Läufer mit einem Flügelbauern an, doch der Bauer verlässt die lange Diagonale: Der Läufer springt nach e5 und greift den Turm h8 an, den Schwarz meist mit ...Tg8 rettet und dabei auf dieser Seite die Rochade aufgibt. Das Spiel ist scharf, und Weiß behält einen kleinen Vorteil."
   },
   "1.d4 Nf6 2.Bg5 Ne4 3.Bf4 c5": {
     "strategy": "Greift den Bauern d4 sofort an und öffnet die Damendiagonale nach a5, sodass es einen Schachtgebot gibt, wenn man den Springer auf e4 mit einem Bauern vertreiben will. Schwarz kämpft mit einem Bauern ums Zentrum, während der Springer sein aktives Feld behält."
@@ -170,10 +173,10 @@
     "strategy": "Tauscht den zweimal gezogenen Springer gegen den entwickelten von Weiß und vereinfacht sofort. Weiß schlägt mit der Dame zurück, sodass Schwarz eine einfache, sichere Stellung erreicht."
   },
   "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 c6 4.Nd2 Qa5 5.c3 Nf6": {
-    "strategy": "Zieht den Springer sofort zurück, statt ihn zu tauschen. Schwarz vermeidet die Vereinfachung, doch nachdem er denselben Springer dreimal gezogen hat, liegt er in der Entwicklung etwas zurück, sodass Weiß leicht vorn liegt."
+    "strategy": "Zieht den Springer sofort zurück, statt zu tauschen, aber es ist der dritte Zug derselben Figur. Weiß erhält ein breites Zentrum, während Schwarz in der Entwicklung zurückliegt; Schwarz hat also mehr aufgegeben, als der Tausch gekostet hätte."
   },
   "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 c6 4.Nd2 Qa5 5.c3 Ng5": {
-    "strategy": "Lädt den Läufer zum Schlagen ein: Schwarz schlägt mit der Dame zurück, die von g5 aus g2 und d2 im Blick hat, und hat den Springer gegen den aktiven weißen Läufer getauscht. Weiß kann auch ablehnen und sich entwickeln, sodass Schwarz wenig gewinnt."
+    "strategy": "Stellt den Springer nach g5, wo der Läufer h4 ihn angreift und nur die Dame ihn verteidigt. Weiß muss nicht tauschen: Es baut ein breites Zentrum auf und jagt den abseits stehenden Springer mit Tempogewinn."
   },
   "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 c6 4.Nd2 Qa5 5.c3 Nxd2 6.Qxd2": {
     "strategy": "Der natürliche Rückschlag: Die Dame entwickelt sich mit dem Tausch und steht auf d2 sicher hinter dem Bauern c3, der die schwarze Dame blockiert. Die Partie ist ausgeglichen, wobei die Zentrumsbauern von Weiß etwas freier sind."
@@ -209,7 +212,7 @@
     "strategy": "Zieht auf ein Feld zurück, das e4 und c4 deckt, doch der Springer blockiert die Verteidigung des Bauern d5 durch die Dame und steht weiter von der Königsseite entfernt als auf f6. Schwarz bleibt solide, aber etwas beengt."
   },
   "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 d5 4.f3 g5": {
-    "strategy": "Greift den Läufer sofort an und gibt dafür den Springer her, lässt Schwarz aber mit doppelten, isolierten h-Bauern und einer geschwächten Königsseite zurück. Die offene g-Linie gleicht das nur zum Teil aus."
+    "strategy": "Greift den Läufer sofort an und gibt den Springer für ihn her: Nach 5.fxe4 gxh4 schlägt Weiß auf d5, und die Dame schlägt zurück, sodass das Material ausgeglichen ist. Schwarz erhält die halboffene g-Linie, zum Preis zweier isolierter h-Bauern und eines gelockerten Königsflügels; spielbar, aber zweischneidig."
   },
   "1.d4 Nf6 2.Bg5 Ne4 3.Bh4 d5 4.f3 Nf6 5.Nc3": {
     "strategy": "Entwickelt sich zum Zentrum hin und erhöht den Druck auf d5 und e4, in Vorbereitung auf ein breites Bauernzentrum. Der Damenspringer entwickelt sich hier natürlich, da f3 dem anderen genommen ist."
@@ -240,7 +243,7 @@
     "strategy": "Zieht sich nach g3 zurück, wo der Läufer auf der Diagonale gegen c7 bleibt und vor einem Bauernvorstoß nach g5 sicher ist. Weiß gibt die Fesselung des Springers auf f6 auf, behält aber beide Läufer und eine gesunde Struktur."
   },
   "1.d4 Nf6 2.Bg5 Ne4 3.h4 Nxg5": {
-    "strategy": "Schlägt den Läufer, aber der Rückschlag öffnet die h-Linie für den weißen Turm gegen den Bauern h7 und lässt einen Bauern auf g5 stehen, der den Königsflügel von Schwarz einengt. Schwarz hat das Läuferpaar, aber die offene Linie und der Raum sind ein teurer Preis."
+    "strategy": "Schlägt den Läufer und behält das Läuferpaar, aber nach hxg5 ist die h-Linie für Weißes Turm gegen h7 offen, und der Bauer g5 schränkt Schwarz am Königsflügel ein. Spielbar, doch die offene Linie und der Raum sind ein echter Preis."
   },
   "1.d4 Nf6 2.Bg5 Ne4 3.h4 c5": {
     "strategy": "Greift den Bauern d4 sofort an, und die Damendiagonale nach a5 ist offen: Wer den Springer auf e4 mit einem Bauern vertreiben will, wird mit Schach beantwortet. Schwarz lehnt das Schlagen auf g5 ab, das die h-Linie öffnen würde, und kämpft stattdessen ums Zentrum."

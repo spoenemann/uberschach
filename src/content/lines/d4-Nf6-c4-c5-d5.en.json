@@ -16,7 +16,7 @@
   "1.d4 Nf6 2.c4 c5 3.d5 e5": {
     "name": "Benoni Defence: Czech Benoni Defence",
     "background": "Also known as the Hromádka Benoni, after Karel Hromádka.",
-    "strategy": "Closes the centre instead of attacking the pawn chain: solid, but passive. White gets a lot of space and can choose which flank to open, while Black manoeuvres and waits to break with ...b5 or ...f5 once the pieces are ready."
+    "strategy": "Closes the centre and gives up the fight against the pawn chain. Black is left cramped and passive: White has lasting space and chooses which wing to open, while Black manoeuvres and prepares a break with ...b5 or ...f5 that White can often prevent."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 Ne4": {
     "name": "Vulture Defence",
@@ -48,7 +48,7 @@
   },
   "1.d4 Nf6 2.c4 c5 3.d5 b5 4.e4": {
     "name": "Benko Gambit Declined: Hjørring Countergambit",
-    "strategy": "A countergambit that offers the e-pawn. Taking carelessly with ...b4 or ...bxc4 allows e5 with a hit on the knight, and ...Nxe4 meets Qf3, aiming at a8 along the long diagonal. Calm play by Black simply leaves White a pawn down."
+    "strategy": "A countergambit that offers the e-pawn to meet Black's flank play with a central blow. Taking with ...b4 or ...bxc4 lets e5 hit the knight with tempo; ...Nxe4 is the safe capture, and then White has only a level game. Sound, but it gains nothing if Black answers correctly."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 b5 4.g4": {
     "name": "Benko Gambit: Mutkin Countergambit",
@@ -131,7 +131,7 @@
     "strategy": "Finishes the fianchetto and delays the recapture: if White pushes the pawn to a7, the rook takes it. Black puts development first, so the compensation comes from piece play and the open files, while White gets time to finish development."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.bxa6 g6 6.Nc3 Nxa6": {
-    "strategy": "Recaptures with the knight, which can go to b4 to hit d5 and a2, and keeps the queen's bishop free for b7 or f5. The cost is that the f1-bishop is no longer harassed, so White can play e4 and develop normally, and the knight starts on the rim."
+    "strategy": "Recaptures with the knight, which stays on the rim and does not trouble the f1-bishop, so White builds a full centre at leisure. Black is still a pawn down and has less pressure on the queenside to show for it."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.Nc3 axb5": {
     "strategy": "Recaptures and opens the a-file against the a2 pawn. White's knight can take on b5, but the usual plan is to ignore it and build a centre, which leaves Black pressure on the file and a pawn to challenge the knight."
@@ -140,7 +140,7 @@
     "strategy": "Develops the bishop but loses a tempo if White takes on a6: the bishop needs a second move to recapture. White can also decline with e4 and, after ...axb5, keep the extra pawn with Bxb5. Black has little to show for the lost time."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.Nc3 g6": {
-    "strategy": "Delays the recapture and fianchettoes. If White takes on a6, the game reaches the main gambit with ...g6. White need not take: e4 and, after ...axb5, Bxb5 keeps the extra pawn, so Black depends on White's cooperation."
+    "strategy": "Delays the recapture and fianchettoes, hoping White takes on a6. White declines with e4: after ...axb5, Bxb5 keeps the extra pawn, so Black depends on White's cooperation and has spent a move for nothing."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.Nc3 axb5 6.e4": {
     "strategy": "Takes the centre instead of the b5 pawn: e4 supports d5 and gives White space, to smother Black's queenside play with a mobile pawn centre. The cost is a knight on c3 that the b-pawn can now harass."
@@ -164,7 +164,7 @@
     "strategy": "Develops the knight and prepares e4, taking central space against Black's closed centre. With the pawn on d5 secure, White can build a broad centre and later choose which wing to open."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e5 4.Nf3": {
-    "strategy": "Develops the knight towards the centre and eyes e5, keeping the choice between a knight on c3 and a kingside fianchetto. The cost is that e4 has no support yet, so White gains space more slowly and Black has time for ...d6 and the queenside break."
+    "strategy": "Develops the knight, but it can be driven off at once: ...e4 hits it, and after it retreats Black has gained space and time in the centre. White loses the quiet build-up that Nc3 and e4 give and no longer has a clear advantage."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e5 4.g3": {
     "strategy": "Prepares the king's bishop on g2, a quiet development that guards the king and the d5 pawn from behind. It does not fight for the centre or prepare e4 quickly, so Black gets time for ...d6 and the queenside break."
@@ -207,13 +207,13 @@
     "strategy": "Prepares a kingside fianchetto instead of a central build-up. After ...exd5 and cxd5 the set-up is solid and positional, but it puts no immediate question to Black, who can develop and start the queenside play."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5": {
-    "strategy": "Takes at once so that White cannot recapture with the e-pawn later. It creates the opening's imbalance: the recapture will give White the centre and Black a queenside majority, which is Black's source of counterplay."
+    "strategy": "Takes at once so that White cannot recapture with the e-pawn later. This creates the opening's imbalance: White gets a big centre and the first initiative, Black a queenside majority and counterplay, in a sharper game than delaying the capture would give."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 d6": {
-    "strategy": "Keeps the tension and prepares the fianchetto, but delaying ...exd5 lets White play e4 and recapture with the e-pawn. That keeps the space advantage and denies Black the queenside majority that is the source of counterplay."
+    "strategy": "Keeps the tension and heads for the fianchetto instead of taking on d5. If White builds with e4, Black can take later and let White recapture with the e-pawn: that costs the queenside majority but avoids the big pawn centre of the main line, and the game stays solid and balanced."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 g6": {
-    "strategy": "Heads for the fianchetto first. Like any delay of ...exd5, it lets White play e4 and recapture with the e-pawn, which keeps White's space without giving Black the queenside majority the opening is played for."
+    "strategy": "Heads for the fianchetto first and keeps the capture on d5 in hand. If White plays e4, Black can still take and let White recapture with the e-pawn, which keeps White's space but removes the pawn centre of the main line. A sound, flexible alternative to ...d6."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5": {
     "strategy": "Recaptures with the c-pawn, as the structure demands: White has a central majority and a space advantage, Black a queenside majority and a half-open e-file. The pawn on d5 cramps Black, who must find activity."
@@ -233,14 +233,14 @@
     "strategy": "An unusual development: the bishop goes to d6 instead of g7, keeping the d-pawn at home and sidestepping the weakness on d6. But it gives up the long diagonal that makes the usual set-up work, and White keeps an edge."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 g6": {
-    "strategy": "Fianchettoes at once and leaves ...d6 for later. Black can reach the usual structure by another move order, but the standard move stops White's d-pawn advancing and keeps e5 covered, and here White can pick a set-up before Black has settled the centre."
+    "strategy": "Fianchettoes at once but leaves d6 to White: 6.d6 puts a pawn on the sixth rank that cramps Black's development and costs time to win back. The usual ...d6 stops that advance; this order only gives White an extra option."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.e4": {
     "name": "Benoni Defence: King's Pawn Line",
     "strategy": "Builds the full centre and gains space, putting Black's set-up to the test. The price is a half-open e-file, which gives Black a target and counterplay against the pawn."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.Nf3": {
-    "strategy": "Develops the knight and takes e5 from Black's pieces, without yet committing the e-pawn. White keeps the choice between a full centre, a quiet fianchetto and an early attack on the d6 pawn, and holds the space advantage in each."
+    "strategy": "Develops the knight and takes e5 from Black's pieces, without committing the e-pawn. Sound, and White keeps the space, but Black reaches the fianchetto and castling without facing a full pawn centre, so White has less than with e4."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.g3": {
     "strategy": "Fianchettoes the king's bishop: it guards d5 and e4 and the king, so Black has no obvious target. The set-up is slow, so White plays for a small, lasting space advantage rather than an attack."
@@ -249,7 +249,7 @@
     "strategy": "Prepares the fianchetto of the king's bishop, which will bear down the long diagonal on White's centre and the dark squares. Black accepts a weak pawn on d6 and relies on active play and queenside pressure."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.e4 a6": {
-    "strategy": "Takes b5 from White's bishop and prepares ...b5, the advance of the queenside majority that this structure is built around. It spends a tempo while the rest of the pieces are still at home, though, and White can shut the queenside with a4 and go on building."
+    "strategy": "Takes b5 from White's bishop and prepares ...b5, but spends a tempo while the pieces are still at home. White answers with f4, a broad centre with the threat of e5, or shuts the queenside with a4, and Black is behind in the fight for the centre."
   },
   "1.d4 Nf6 2.c4 c5 3.d5 e6 4.Nc3 exd5 5.cxd5 d6 6.e4 Nbd7": {
     "strategy": "Develops the queen's knight towards e5 and keeps Black's plans open. It takes the f6-knight's retreat square on d7, though, and walks into a pin by Bb5, so Black has to watch for a quick e4-e5 or a kingside pawn advance by White."

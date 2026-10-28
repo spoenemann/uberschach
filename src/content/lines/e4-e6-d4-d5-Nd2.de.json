@@ -91,16 +91,16 @@
     "strategy": "Entwickelt den Läufer auf ein natürliches Feld, von dem aus er den c5-Bauern deckt, sodass ein Schlag dort mit einem Rückschlag beantwortet werden kann, und richtet ihn auf der Diagonale gegen Weißes Königsflügel. Er beginnt auch, den Weg zur Rochade freizumachen."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 exd5 5.Ngf3 Nc6 6.Bb5 Ne7": {
-    "strategy": "Entwickelt den zweiten Springer und bereitet die Rochade vor. Schlägt Weiß auf c6, nimmt der Springer zurück, sodass die schwarzen Bauern nicht verdoppelt werden. Der Preis ist, dass der Springer auf c6 vorerst gefesselt bleibt."
+    "strategy": "Entwickelt sich und bereitet die Rochade vor, lässt aber den Bauern c5 ungedeckt, während der Läufer auf f8 eingesperrt bleibt. Weiß schlägt dxc5 und hält den Bauern mit b4, während der Springer auf c6 gefesselt bleibt und Schwarz keinen schnellen Weg hat, den Bauern zurückzugewinnen."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 exd5 5.Ngf3 Nc6 6.Bb5 Bd7": {
-    "strategy": "Löst die Fesselung sofort auf und ist bereit, auf c6 mit dem Läufer zurückzuschlagen. Der Läufer versperrt jedoch die Linie der Dame, sodass Schwarz etwas passiv steht. Der Zug ist solide, aber Weiß behält das bequemere Spiel."
+    "strategy": "Löst die Fesselung, doch der König steht weiter auf der offenen e-Linie: Nach O-O cxd4 De2+ muss Schwarz mit dem unrochierten König abdecken, und Weiß erhält das leichtere Spiel und die aktiveren Figuren."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 Qxd5 5.Ngf3": {
     "strategy": "Entwickelt und deckt d4 vor Schwarzes Schlag, in Vorbereitung darauf, die Dame mit dem f1-Läufer anzugreifen. Weiß stört es nicht, den d4-Bauern eine Zeit lang zu verlieren: Er wird später zurückgewonnen, während Schwarzes Dame umhergejagt wird und Weiß in der Entwicklung führt."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 Qxd5 5.Bc4": {
-    "strategy": "Greift die Dame sofort an, aber noch bevor Schwarz auf d4 geschlagen hat, sodass die Dame nach d6 zurückweichen kann und Schwarz die Wahl der Bauernstruktur behält. Weiß hat einen Vorsprung in der Entwicklung, doch Schwarz ist nicht gezwungen, auf d4 zu schlagen, sodass der Druck geringer ausfällt."
+    "strategy": "Greift die Dame sofort an, doch da der Läufer von f1 fort ist, hängt der Bauer g2: Dxg2 nimmt ihn mit Drohung gegen den Turm auf h1. Weiß hat für den Bauern nur einen kleinen Entwicklungsvorsprung, und Schwarz steht klar besser."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 Qxd5 5.Nb3": {
     "strategy": "Greift den Bauern c5 an und bereitet vor, auf ...cxd4 mit dem Springer zurückzuschlagen, da die Dame dann d4 über die offene Linie deckt. Der Zug gewinnt kein Tempo gegen die Dame, sodass Schwarz Zeit hat, sie unterzubringen, und keine Probleme hat."
@@ -121,7 +121,7 @@
     "strategy": "Greift den Bauern d4 ein zweites Mal an, mit der Dame dahinter auf der offenen Linie, sodass Weiß den Bauern sicher zurückgewinnt. Der Zug gewinnt aber keine Zeit gegen die Dame, und Schwarz kann sich in Ruhe entwickeln. Weiß erhält ein ausgeglichenes Spiel ohne dauerhafte Initiative."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 Qxd5 5.Ngf3 cxd4 6.Bb5+": {
-    "strategy": "Gibt ein Schach, das Schwarz mit einem Entwicklungszug beantwortet, und tauscht dann den Läufer, sodass die Dame nicht vertrieben wird. Solange der Springer auf d2 die Deckung der Dame versperrt, würde ein sofortiges Schlagen auf d4 eine Figur an die Dame verlieren, sodass Weiß kein Tempo gewinnt und Schwarz den Mehrbauern länger behält."
+    "strategy": "Gibt Schach, doch der Läufer steht auf b5, wo ihn die Dame auf d5 entlang der fünften Reihe angreift, nun da der Bauer c5 verschwunden ist. Dxb5 gewinnt einfach eine Figur."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 c5 4.exd5 Qxd5 5.Ngf3 cxd4 6.Bc4 Qd6": {
     "strategy": "Hält die Dame im Zentrum, außerhalb der Reichweite des Läufers, und deckt weiterhin d4. Weißes Springer kann mit Tempo nach e4 springen, daher muss Schwarz einen Springer nach f6 entwickeln, um das zu verhindern; danach steht er solide da, mit dem Mehrbauern im Zentrum."
@@ -158,7 +158,7 @@
     "strategy": "Fordert das Zentrum sofort heraus, bevor die weißen Figuren entwickelt sind, sodass Weiß die Spannung klären muss. Schwarz gibt die französische Bauernstruktur für schnelles Figurenspiel und ein Ziel auf d4 auf; der Bauer e5 selbst wird zu etwas, das verteidigt werden muss."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nc6 4.c3 Nf6": {
-    "strategy": "Entwickelt eine Figur und greift e4 ein zweites Mal an, sodass Weiß das Zentrum klären muss. Schwarz erhält den üblichen französischen Aufbau mit solider Struktur und dem Plan, den Raum von Weiß zu untergraben; da aber c3 schon gespielt ist, ist der Bauer d4 gut gedeckt, und Schwarz hat keinen Druck auf ihn."
+    "strategy": "Entwickelt sich und greift e4 an, doch Weiß antwortet mit e5 und der Springer muss zurück. Mit c3 gespielt und dem Springer auf c6 ist ...c5 unmöglich, sodass Schwarz keinen wirklichen Druck auf d4 hat und Weiß einen dauerhaften Raumvorteil behält."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nc6 4.c3 dxe4 5.Nxe4": {
     "strategy": "Gewinnt den Bauern zurück und zentralisiert den Springer, wobei der c-Bauer bereits auf c3 steht und d4 stützt. Der Springer hat die Felder d6, f6 und c5 im Blick, und Weiß behält mehr Raum im Zentrum, während sich das Spiel öffnet."
@@ -177,7 +177,7 @@
     "strategy": "Entwickelt eine Figur und greift den zentralisierten Springer an, sodass Weiß tauschen oder zurückweichen muss. Nach dem Abtausch schlägt Schwarz mit der Dame zurück, die d4 über die Diagonale im Visier hat. Schwarz erhält eine solide Stellung und Druck auf d4, zum Preis einer früh entwickelten Dame."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nc6 4.c3 dxe4 5.Nxe4 Be7": {
-    "strategy": "Entwickelt sich ruhig und bereitet die Rochade vor, gibt Weiß aber Zeit, den anderen Springer nach f3 zu bringen und d4 zu decken, sodass der Druck auf den Bauern verschwindet. Eine solide, passive Wahl."
+    "strategy": "Entwickelt sich ruhig und bereitet die Rochade vor, tut aber nichts gegen d4. Weiß spielt Sf3, der Bauer ist gedeckt, und der Springer auf e4 behält seinen starken Posten, sodass der Druck von Schwarz verblasst und Weiß klar im Vorteil ist."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nc6 4.Ngf3 Nf6": {
     "name": "Französische Verteidigung: Tarrasch-Variante, Guimard-Verteidigung, Hauptvariante",
@@ -187,7 +187,7 @@
     "strategy": "Gibt die Spannung im Zentrum sofort auf und nimmt eine Stellung in Kauf, in der die weißen Figuren aktiver stehen. Nach dem Zurückschlagen steht der weiße Springer zentralisiert, und Schwarz hat keinen Zentrumsbauern mehr, entwickelt sich aber ohne Schwierigkeiten und behält eine solide Struktur."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nc6 4.Ngf3 Nge7": {
-    "strategy": "Entwickelt den Springer hinter dem Springer auf c6, sodass er nach f5 gehen und d4 angreifen kann, und lässt den f-Bauern frei. Der Zug greift e4 nicht an, sodass Weiß nicht gezwungen ist, das Zentrum zu entscheiden, und Schwarz steht in der Mitte passiv."
+    "strategy": "Entwickelt den Springer hinter c6, bereit für ...Sf5, doch er berührt e4 nicht. Weiß kann das Zentrum in Ruhe ausbauen und hat das leichtere Spiel; die Figuren von Schwarz haben dagegen wenig zu tun."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5": {
     "strategy": "Die Hauptvariante: Der Bauer rückt vor, gewinnt Raum und vertreibt den Springer mit Tempo, bevor der Doppelangriff auf e4 ihn gewinnen kann. Weiß erhält eine Bauernkette von d4 nach e5, und Schwarz muss einen Weg finden, sie zu untergraben."
@@ -221,10 +221,10 @@
     "strategy": "Trifft die Basis von Weißes Kette, die richtige Stelle, sie herauszufordern: Mit ineinander verkeilten d4 und e5 ist der d4-Bauer derjenige, der untergraben werden kann. Der Zug beginnt Schwarzes Gegenspiel sofort, denn d4 hat noch keinen Verteidiger."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.Bd3 Nc6": {
-    "strategy": "Fügt einen zweiten Angreifer auf e5 hinzu, dessen einzige Stütze der Bauer d4 ist, und bereitet vor, die Kette an der Spitze statt an der Basis zu brechen. Schwarz entwickelt sich schnell, fordert d4 aber noch nicht heraus, sodass Weiß Zeit hat, Unterstützung heranzuführen."
+    "strategy": "Fügt einen zweiten Angreifer auf e5 hinzu, doch der Springer versperrt den c-Bauern, sodass ...c5 nicht kommen kann und Schwarz keine weiteren Angreifer auf d4 heranführen kann. Nach c3 ist die Kette von Weiß sicher, und Weiß baut mit klarem Vorteil frei auf."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.Bd3 b6": {
-    "strategy": "Bereitet den Tausch des schlechten weißfeldrigen Läufers von Schwarz durch ...La6 vor, die in der Französischen Verteidigung wiederkehrende Idee. Der Zug ist langsam: Der Bauer d4 wird noch nicht herausgefordert, sodass Weiß Zeit hat, das Zentrum zu stärken, auch wenn die Struktur von Schwarz solide bleibt."
+    "strategy": "Bereitet den Abtausch des weißfeldrigen Läufers durch ...La6 vor, die französische Idee. Doch das kostet ein Tempo, bevor d4 herausgefordert ist, sodass Weiß nützliche Züge geschenkt bekommt und einen dauerhaften Vorteil behält."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.Bd3 c5 6.c3": {
     "strategy": "Stützt d4 mit einem Bauern, der solidesten Art, es zu halten. Weiß darf das Zentrum nicht aufgeben: Schlägt der d-Bauer auf c5, verliert der Bauer e5 seine Stütze, und Schwarz nimmt ihn mit dem Springer zurück und greift dabei den Läufer an. Die Kette ist stabil und Weiß hat den Raum, während Schwarz weiter gegen sie arbeiten muss."
@@ -241,7 +241,7 @@
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.Bd3 c5 6.c3 b6": {
     "name": "Französische Verteidigung: Tarrasch-Variante, Botwinnik-Variante",
-    "strategy": "Bereitet vor, Schwarzes schlechten weißfeldrigen Läufer gegen Weißes guten zu tauschen, und fügt c5 einen Bauernverteidiger hinzu. Er löst das strategische Hauptproblem der Struktur, um den Preis eines langsameren Angriffs auf d4, sodass Weiß Zeit bekommt, die Verteidigung zu organisieren."
+    "strategy": "Bereitet ...La6 vor, um den schlechten Läufer von Schwarz abzutauschen, und fügt c5 einen Bauernverteidiger hinzu. Doch das ist langsam: Weiß erhält nützliche Züge geschenkt, während der Angriff auf d4 warten muss, und behält einen dauerhaften Vorteil."
   },
   "1.e4 e6 2.d4 d5 3.Nd2 Nf6 4.e5 Nfd7 5.Bd3 c5 6.c3 cxd4": {
     "strategy": "Löst die Spannung im Zentrum, bevor Druck aufgebaut wird. Nach dem Zurückschlagen hat der Bauer d4 keine Bauernstütze mehr, und Schwarz kann ihn mit Figuren über die offene c-Linie angreifen; Weiß hat freie Hand zur Entwicklung und behält den Raum."

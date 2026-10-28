@@ -11,7 +11,7 @@
     "strategy": "Zielt auf die Kontrolle von d5, kann Weiß aber nicht daran hindern, dort sofort vorzurücken: Der Bauer greift den Springer an und vertreibt ihn und gewinnt dabei mit Tempo Raum. Schwarzens Figuren werden zurückgedrängt."
   },
   "1.e4 c5 2.Nf3 Nc6 3.d4 d6": {
-    "strategy": "Ein solider Zug, der e5 deckt und den Läufer c8 befreit, aber die Spannung im Zentrum bestehen lässt. Weiß kann d5 vorstoßen, um den Springer zu vertreiben, oder Bauern und Damen tauschen, und Schwarz ist dem Kampf um das Zentrum ausgewichen, ohne etwas zu gewinnen."
+    "strategy": "Deckt e5 und befreit den Läufer c8, beantwortet aber die Spannung im Zentrum nicht: 4.d5 treibt den Springer nach b8 zurück und gewinnt Raum. Schwarz hat zwei Züge mit derselben Figur verloren, und Weiß hat das freiere Spiel."
   },
   "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4": {
     "name": "Sizilianische Verteidigung: Offene Variante",
@@ -215,7 +215,7 @@
     "strategy": "Zieht den Bauern sofort und steuert einen gewöhnlichen Drachenaufbau mit dem Springer bereits auf c6 an. Der Zug festigt das Zentrum und befreit den Läufer c8, gibt aber das Ein-Zug-...d5 auf, das diese Zugfolge attraktiv macht, und lässt Weiß den Angriffsaufbau wählen."
   },
   "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.Nc3 Bg7 6.Be3 Nxd4": {
-    "strategy": "Tauscht den starken Springer ab und vereinfacht, aber der wiedernehmende Läufer greift sofort g7 an, sodass Schwarz reagieren muss, bevor er sich entwickelt. Die Partie verliert viel von ihrer Schärfe, was einem Spieler entgegenkommt, der mit einer ausgeglichenen, ruhigen Stellung zufrieden ist."
+    "strategy": "Tauscht die Springer, doch 7.Lxd4 greift den ungedeckten Läufer g7 an, und nach 7...Lxd4 8.Dxd4 wird auch der Turm h8 angegriffen. Schwarz muss die lange Diagonale verteidigen und steht deutlich schlechter."
   },
   "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3": {
     "strategy": "Deckt den Bauern e4, den der Springer angreift, und entwickelt den zweiten Springer, während der starke Springer auf d4 bleibt. Weiß überlässt Schwarz die zentrale Frage: eine solide Bauernstruktur oder einen Vorstoß, der den Springer auf d4 sofort vertreibt."
@@ -250,7 +250,7 @@
   },
   "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 6.Nxc6": {
     "name": "Sizilianische Verteidigung: Lasker-Pelikan-Variante, Abtauschvariante",
-    "strategy": "Gibt den starken Springer für den schwarzen her, doch das Zurückschlagen ...bxc6 gibt Schwarz einen Zentrumsbauern, der das Feld d5 deckt, das Ziel von Weiß war. Weiß hat keinen Vorteil, und Schwarz gleicht ohne Mühe aus."
+    "strategy": "Tauscht den starken Springer sofort ab. Nach ...bxc6 hat Schwarz einen Zentrumsbauern, der d5 deckt, das Feld, auf das Weiß zielte, sodass Weiß keinen Vorteil erhält. Solide, gibt aber den Druck auf, der Sdb5 zur kritischen Antwort macht."
   },
   "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 6.Ndb5 d6": {
     "strategy": "Verschließt das Feld d6 gegen Sd6+, zum Preis des Zugeständnisses, das mit ...e5 einhergeht: ein rückständiger d-Bauer und ein dauerhaftes Loch auf d5. Der Springer auf b5 steht ausgesetzt am Rand, und Schwarz spielt auf Aktivität und Tempo statt auf eine perfekte Struktur."
@@ -259,6 +259,6 @@
     "strategy": "Fesselt den Springer c3 an den König, aber Weiß gibt sofort Schach auf d6. Schwarz nimmt am besten mit dem Läufer, sodass die Fesselung verschwindet, und die Dame nimmt auf d6 wieder und schnürt Schwarz ein, während Weiß beide Läufer behält."
   },
   "1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e5 6.Ndb5 h6": {
-    "strategy": "Unternimmt nichts gegen die Drohung auf d6: Weiß gibt Schach, gewinnt nach dem Tausch das Läuferpaar und setzt eine Dame auf d6, die die ganze schwarze Stellung einengt. Der Bauernzug ist ein verlorenes Tempo."
+    "strategy": "Ignoriert die Drohung auf d6. Nach 7.Sd6+ Lxd6 8.Dxd6 hat Weiß beide Läufer gegen einen und eine Dame auf d6, die Schwarz an der Rochade hindert und die ganze Stellung einengt. Der Bauernzug ist ein verlorenes Tempo."
   }
 }

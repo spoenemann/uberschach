@@ -14,14 +14,14 @@
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4": {
     "name": "Scotch Game: Steinitz Variation",
     "background": "Wilhelm Steinitz popularised 4...Qh4, and the variation carries his name.",
-    "strategy": "Hits e4 and f2 at once and can win the pawn, but the queen comes out early and White gains time developing against it. Black's king usually ends up awkward, so the extra pawn rarely decides the game."
+    "strategy": "Hits e4 and f2 at once and can win a pawn, but the queen comes out early and White gains time developing against it. Black's king risks being stuck in the centre, and White's lead in development more than pays for the pawn."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bb4+": {
     "name": "Scotch Game: Malaniuk Variation",
     "strategy": "Checks to provoke a concession: the natural reply c3 gains White a tempo but takes the best square from the b1 knight. Black steps out of main-line theory in return for the lost time, a playable surprise that sidesteps well-trodden paths."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4": {
-    "strategy": "Trades knights, but White recaptures with the queen, which lands on a central square where Black cannot easily chase it away. Black spends a knight and time to give White the more active development. It does not lose by force, but it hands White the easier game."
+    "strategy": "Trades knights, but White recaptures with the queen, which settles on a central square where Black cannot easily chase it. Sound enough, yet Black spends time to give White the more active development and the easier game."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Be3": {
     "strategy": "Guards the d4 knight with a developing move and keeps the strongpoint in the centre. It carries a small trap: 5...Nf6? loses a piece to Nxc6 followed by Bxc5. White holds a solid grip on the centre and Black has to find the right plan."
@@ -48,7 +48,7 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Be3 Qf6 6.Nb5": {
     "name": "Scotch Game: Blumenfeld Attack",
-    "strategy": "Threatens Nxc7+, forking king and rook, but Black's ...Bxe3 and ...Qh4+ come first: after g3 the queen takes e4 and attacks the h1 rook too. The knight that grabs on c7 and a8 ends up stranded."
+    "strategy": "Threatens Nxc7+, forking king and rook, and leads to a wild trade: after ...Bxe3 fxe3 Qh4+ g3 Qxe4 each side wins a rook in the corner. The result is balanced, but it is far riskier than the solid c3."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Be3 Qf6 6.Qd2": {
     "strategy": "Defends d4 a second time, but d4 is attacked three times, by the knight, the bishop and the queen, and defended only twice. After 6...Nxd4 7.Bxd4 Bxd4 White cannot recapture without losing the queen, and is a piece down."
@@ -71,7 +71,7 @@
     "strategy": "The natural retreat: the bishop stays on the diagonal aimed at f2 and out of reach of b4 and d4, while White's knight has been pushed back to b3. Black gets a healthy, flexible position and loses nothing in development."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Nb3 Qe7": {
-    "strategy": "Meets the attack by offering a trade instead of retreating: after Nxc5 Qxc5 White keeps both bishops while Black has only one, and the queen is out early. Sound enough but second-rate, as Black gives up the bishop pair for nothing."
+    "strategy": "Offers a trade instead of retreating, but after Nxc5 Qxc5 Black has given up the bishop pair for nothing. White then gains space with c4 and keeps both bishops, which leaves Black passive against a clear edge."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Bc5 5.Nxc6 Qf6": {
     "name": "Scotch Game: Classical Variation, Intermezzo Variation",
@@ -88,7 +88,7 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nf6 5.e5": {
     "name": "Scotch Game: Alekhine Gambit",
-    "strategy": "Offers a pawn: the e5 pawn attacks the knight on f6 but is itself undefended, so Black can take it at once with ...Nxe5. White must make up for the pawn with quick development and play against the knights, a bold try that asks more of White than of Black."
+    "strategy": "Pushes at the f6 knight and offers the pawn: after ...Nxe5 White's queen and bishop come out with tempo against the e5 knight. The game stays level, so it is sound, but it costs a pawn to reach what the quiet Nxc6 or Nc3 keep."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nf6 5.Nc3": {
     "strategy": "Defends e4 with a developing move instead of trading on c6, so the knights stay on and the game turns calm and balanced. White can still saddle Black with doubled c-pawns later, while Black develops without trouble."
@@ -126,23 +126,23 @@
     "strategy": "Develops with an eye on f7 but forgets to recapture: the knight simply steps back and White is a knight down without compensation."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4 5.Qxd4 d6": {
-    "strategy": "Takes e5 and c5 away from the queen and frees the c8 bishop, a solid way to catch up in development. White keeps at most a small edge in activity."
+    "strategy": "Takes e5 and c5 away from the queen and frees the c8 bishop, but it does nothing about White's lead in development. The queen stays on d4, White develops with tempo, and Black is left defending a worse game."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4 5.Qxd4 Ne7": {
-    "strategy": "Steps back so that the knight can return to c6 and chase the queen from its central square. Black stays compact and can equalise with accurate play, at the price of a slow start, since the knight on e7 shuts in the f8 bishop."
+    "strategy": "Steps back so the knight can return to c6 and chase the queen, but it shuts in the f8 bishop and costs a tempo. White develops freely and keeps an edge."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4 5.Qxd4 Qf6": {
-    "strategy": "Develops the queen with an offer to trade, which would take White's centralised queen away. But the queen takes the knight's best square, and White can gain space with e5, hitting it with tempo, or trade into a slightly freer game."
+    "strategy": "Attacks the queen on d4 and offers a trade that would leave Black level. White has to deal with it before developing, so the queen cannot rule the centre; this is the most accurate way to meet the early exchange."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4 5.Qxd4 d6 6.Bd3": {
     "name": "Scotch Game: Ghulam-Kassim Variation",
-    "strategy": "Defends e4 while developing, a calm set-up that keeps the queen centralised. The bishop is less active here than on c4, and the move does not challenge Black's solid set-up, so White's edge stays modest."
+    "strategy": "Defends e4 and develops, but the bishop blocks the d-file behind the queen and creates no pressure. Black develops freely and equalises; White has given away the edge that Nc3 keeps."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4 5.Qxd4 d6 6.Nc3": {
     "strategy": "Develops the knight to its natural square and guards e4, leaving the queen on d4 where it cannot easily be chased away. White leads in development and has the more active pieces, a small but lasting edge."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Nxd4 5.Qxd4 d6 6.Bc4": {
-    "strategy": "Puts the bishop on its most active diagonal, aimed at f7 while the queen already points at g7, so Black has to develop with care. A natural, active set-up that keeps a small initiative."
+    "strategy": "Puts the bishop on a natural diagonal, aimed at f7, but Black simply develops with ...Nf6 and ...Be6 and challenges it. White has little to show for it, and the clear edge that Nc3 keeps is gone."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nc3": {
     "name": "Scotch Game: Steinitz Variation",
@@ -150,25 +150,25 @@
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nb5": {
     "name": "Scotch Game: Horwitz Attack",
-    "strategy": "Threatens Nxc7+, forking king and rook, and leaves e4 to the queen. Black usually takes with check, and the game most often transposes into the main line, so this is a respectable alternative rather than a better try."
+    "strategy": "Threatens Nxc7+ and leaves e4 to the queen. It is an established try, but after ...Bb4+ and ...Qxe4+ Black holds the pawn in a balanced game, while Nc3 keeps a clear edge: White spends its advantage for a sharper game."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Be3": {
     "name": "Scotch Game: Braune Variation",
-    "strategy": "Develops the bishop and backs up the d4 knight, but does not guard e4, so Black takes the pawn at once. White bets on development and the exposed queen, a lesser-played alternative to defending the pawn."
+    "strategy": "Develops the bishop and backs up the d4 knight, but does not guard e4, so Black takes the pawn. White gets a lead in development for it, but that only balances the game, while the main line keeps a clear edge."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nf3": {
     "name": "Scotch Game: Fraser Variation",
-    "strategy": "Retreats with tempo on the queen so that White can castle and finish development quickly. The cost is the e4 pawn, which Black takes with check. White gets a lead in development for it."
+    "strategy": "Retreats with tempo on the queen so that White can castle quickly, but the e4 pawn goes with check. White gets a lead in development in return, but that only balances the game, where defending with Nc3 keeps a clear edge."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nf5": {
     "name": "Scotch Game: Paulsen Variation",
     "strategy": "Attacks the queen, but the knight lands where ...Qxe4+ takes a pawn with check and hits it. White can keep the knight only by retreating it to e3, where it is pinned to the king; any other block loses the knight on f5."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nb5 Bb4+": {
-    "strategy": "Checks before taking e4, so White must answer the check instead of carrying out the threat on c7, and ...Qxe4+ stays available afterwards. Black keeps the extra-pawn chance at the cost of a king that may end up in the centre."
+    "strategy": "Checks first, so White must answer before Nxc7+ can be played, and the capture on e4 follows safely. Black keeps the extra pawn in a balanced game, though the king may stay in the centre."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nb5 Qxe4+": {
-    "strategy": "The most direct answer: Black takes the pawn with check and White must answer it. The knight on b5 still threatens c7, so Black's king usually has to go to d8 and give up castling: the extra pawn is paid for with an awkward king."
+    "strategy": "Takes the pawn at once, but this move order lets White play Be2 with Nc3 to follow, and the king still has to go to d8 to save c7. White ends up better: an awkward king costs more than the extra pawn."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nb5 Bc5": {
     "strategy": "Threatens mate on f2 with queen and bishop, so White has to defend at once. But c7 stays loose to the knight, and the queen move that guards f2 also develops, so White keeps the initiative."
@@ -187,17 +187,17 @@
     "strategy": "Wins the pawn with check, but White's knight still threatens c7, which is why the king typically goes to d8 and loses the right to castle. Black's extra pawn comes at the price of a harassed king."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nb5 Bb4+ 6.Bd2 Bxd2+": {
-    "strategy": "Trades the bishop at once, but White recaptures with the b1 knight, which guards e4, so the pawn grab is gone while the knight on b5 still threatens c7. Black is left with a solid but passive game against the better development."
+    "strategy": "Trades the bishop at once, but the b1 knight recaptures and guards e4, so the pawn grab is gone while the knight on b5 still threatens c7. Black spends time on defence and is worse for it."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nb5 Bb4+ 6.Bd2 Nf6": {
-    "strategy": "Develops and attacks e4 but leaves c7 undefended: the knight takes with check, forking king and rook, and Black loses the exchange."
+    "strategy": "Develops and attacks e4 a second time, and keeps castling available. White can win the pawn on c7 after Qe2 and ...O-O, but Black regains e4 with active pieces, and the game is balanced."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nc3 Bb4": {
     "name": "Scotch Game: Modern Defence",
     "strategy": "Pins the knight that defends e4, so Black wins the pawn. The price is time: White gets a lead in development, and Black's awkwardly placed king tends to matter more than the extra pawn. The most testing answer to White's main line."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nc3 Nf6": {
-    "strategy": "Develops and attacks e4 a second time, but the pawn can be defended again with a developing move, so there is no pawn to show for the early queen. White leads in development and the queen on h4 can become a target."
+    "strategy": "Attacks e4 a second time, but White ignores the pawn: g3 drives the queen back, and after the queen trade Ndb5 attacks c7. Black loses material for nothing, and White ends up winning."
   },
   "1.e4 e5 2.Nf3 Nc6 3.d4 exd4 4.Nxd4 Qh4 5.Nc3 Nxd4": {
     "strategy": "Trades the knight and lets the queen recapture on d4, where it eyes g7 while the c3 knight keeps e4 safe. Black loses time and the pressure on e4 disappears, so White's lead in development stays."

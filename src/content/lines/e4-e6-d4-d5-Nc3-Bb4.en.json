@@ -23,16 +23,16 @@
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Bd2": {
     "name": "French Defence: Winawer Variation, Fingerslip Variation",
     "background": "Frank Marshall first played it, against Mikhail Chigorin in 1901; Rashid Nezhmetdinov also played it, notably against Mikhail Tal. The name is said to come from a game between Alexander Alekhine and Salomon Flohr, in which Alekhine wanted to play the Bogoljubow Variation but mixed up his move order and played 4.Bd2 instead of 4.e5 c5 5.Bd2.",
-    "strategy": "Breaks the pin with a developing move but does not defend e4, so Black can simply take the pawn. White must find compensation in quick piece play against g7, which has no bishop at f8 to guard it; if that comes to nothing, White is just a pawn down."
+    "strategy": "Breaks the pin and offers the e4 pawn for quick development and pressure on g7, where the f8-bishop no longer stands guard. Black can take the pawn and the game stays roughly level, but White must keep playing actively; sound, though sharper and riskier than the main moves."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.a3 Bxc3+": {
     "strategy": "Takes the knight before it can be chased, doubling White's pawns on the c-file at the cost of the dark-squared bishop. That bishop is Black's good piece and its absence leaves the dark squares near the king, g7 above all, short of cover, but the damaged pawn structure is a lasting trump."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.a3 Ba5": {
-    "strategy": "Keeps the pin and the bishop for the moment, but only for a while: White chases it again with the b-pawn, gaining queenside space with tempo, and the bishop ends up on the edge of the board."
+    "strategy": "Avoids the exchange, but the bishop is chased again by the b-pawn, which gains queenside space with tempo. Black has spent several moves on the bishop while White's centre stays untouched, and the cramped French set-up gets worse."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.a3 Be7": {
-    "strategy": "Retreats and gives up the pin, so the a3 move has gained White a tempo. Black avoids the doubled pawns and keeps the bishop, but is left with the cramped French set-up and nothing to show for ...Bb4."
+    "strategy": "Retreats and gives up the pin, so White's a3 was a free tempo. Black keeps the bishop and avoids doubled pawns, but is left in a cramped position with nothing to show for ...Bb4, while White gains space at once."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.a3 Bxc3+ 5.bxc3": {
     "strategy": "The natural recapture: it gives White doubled c-pawns, but also a strong centre, a half-open b-file and the bishop pair against a kingside without its dark-squared bishop. White has attacking chances if the position stays open; in a closed game the pawn structure favours Black."
@@ -78,7 +78,7 @@
     "strategy": "Takes the pawn back at once, but the d2 bishop blocks the queen's protection of d4: Black takes it with the queen, regains a pawn and attacks the knight on e4 as well."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Bd2 dxe4 5.Nge2": {
-    "strategy": "Defends d4 with a developing move but does nothing about the lost pawn. Black keeps it and develops with a knight that guards e4, while White has no attack to show; a knight recapture on c3 would leave d4 hanging again."
+    "strategy": "Develops and defends d4, so the queen cannot grab a second pawn. But it does nothing about the lost e4 pawn: Black keeps it and develops, and White has no attack yet to show for it. Playable, but less active than going for g7."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Bd2 dxe4 5.Qg4 Nf6": {
     "strategy": "Attacks the queen and defends e4 in one move, so Black keeps the extra pawn for now. The price is g7: if the queen takes it, Black gets time to harass the queen and the material stays level."
@@ -86,7 +86,7 @@
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Bd2 dxe4 5.Qg4 Qxd4": {
     "name": "French Defence: Winawer Variation, Fingerslip Variation, Kunin Double Gambit",
     "background": "Most opening databases call it the Kunin double gambit. The earliest game found with a player named Kunin is Vladimir Kunin against Oschengoit, 1958, which became a popular miniature. The line was known before: it had already appeared at the 1950 Candidates in a game between Isaac Boleslavsky and David Bronstein.",
-    "strategy": "Grabs a second pawn with the queen, but the queen is exposed in the centre while Black is undeveloped. Castling queenside lines the rook up behind the d2 bishop, so any bishop move uncovers an attack on the queen."
+    "strategy": "Takes a second pawn and covers g7 with the queen in the same move. The exposed queen invites trouble, though: after castling long the rook stands behind the d2-bishop and each bishop move uncovers an attack on it. The position stays balanced, but it is sharper and riskier than the main line."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Bd2 dxe4 5.Qg4 g6": {
     "strategy": "Shuts the queen out of g7 with a pawn, but gives the e4 pawn straight back: Qxe4 regains the material. The dark squares around f6 and h6 are left weaker, with no bishop to guard them."
@@ -135,7 +135,7 @@
     "strategy": "Resolves the tension by capturing, so the loose d4 pawn is no longer a target and the pinned knight is left alone. The pawn will not last, but Black spends time winning it back while White finishes development."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Bd3 c5 5.Ne2": {
-    "strategy": "Adds a defender to d4 and to the c3 knight, keeping the e4 pawn and the centre intact. It develops without conceding anything, but the pinned knight and the blocked queen keep White tense and Black has several ways to open the centre."
+    "strategy": "Defends d4 and the c3 knight, but shuts the bishop in: after ...c4 the bishop on d3 is attacked and has no square, since the knight on e2 and the pawns on c2 and e4 block it. White gives up the bishop for a pawn."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Bd3 c5 5.exd5 Qxd5": {
     "strategy": "Recaptures with the queen in the centre, where it hits both d4 and g2, and the pinned knight cannot challenge it. Black gets an active queen early, which White must try to hunt by unpinning."
@@ -200,7 +200,7 @@
     "strategy": "Declines the offered pawn and develops, adding a second attacker on e4, which the pinned knight on c3 cannot defend. It sidesteps the gambit but passes up the extra pawn, and White can use the move to develop with threats, for instance by pinning the new knight."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Ne2 Bxc3+": {
-    "strategy": "Trades the bishop for the knight at once and takes the sting out of the gambit: after the recapture and ...dxe4 White simply regains the pawn on e4. Material is level, White has the bishop pair and the freer game, and Black has given up its good bishop for nothing in return."
+    "strategy": "Trades the bishop for the knight at once, but White recaptures with the knight, so there are no doubled pawns to aim at. Black has handed over the good bishop for no lasting gain, and White regains the e4 pawn with the bishop pair and free development."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Ne2 dxe4 5.a3": {
     "strategy": "Asks the bishop to decide at once, and the answer shapes the whole line. If Black takes on c3, the knight recaptures and White plays on for development and the bishop pair; if the bishop retreats, White simply wins the pawn back."
@@ -228,7 +228,7 @@
     "strategy": "Adds a second attacker to e4 and develops a piece. Black can keep the pawn with ...f5, at the price of a loosened king's side; against ...Nf6 White regains it by exchanging on e4, as it could have done at once. A route back to level material that gains nothing."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Ne2 dxe4 5.a3 Be7 6.Be3": {
-    "strategy": "Develops the bishop and ignores the pawn: with the knight on c3 attacking e4 only once, Black simply defends it with ...Nf6 and White has nothing concrete for it. A gambit needs speed, and a quiet developing move gives Black time to consolidate."
+    "strategy": "Develops the bishop and leaves the e4 pawn for later. It is sound, but quiet: Black simply protects the pawn, and a gambit with no threat behind it has little to show for the pawn."
   },
   "1.e4 e6 2.d4 d5 3.Nc3 Bb4 4.Ne2 dxe4 5.a3 Be7 6.Nxe4 Nf6": {
     "strategy": "Develops with a threat: the knight attacks the one on e4, which no piece defends, so White has to deal with it at once. Black gets a normal French set-up, with the bishop on e7 ready for castling and a comfortable game."

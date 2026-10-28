@@ -38,7 +38,7 @@
   "1.d4 Nf6 2.c4 d5": {
     "name": "Abgelehntes Damengambit: Marshall-Verteidigung",
     "background": "Frank Marshall spielte sie in den 1920er-Jahren, gab sie aber auf, nachdem er damit 1925 in Baden-Baden gegen Alexander Aljechin verloren hatte. Sie gilt als ziemlich zweifelhafte Variante des Abgelehnten Damengambits, und erfahrene Spieler wenden sie nicht mehr an.",
-    "strategy": "Besetzt sofort das Zentrum, doch Weiß schlägt einfach: Nach 3.cxd5 Sxd5 4.Sf3 gewinnt Weiß Zeit gegen den Springer und errichtet ein breites Zentrum, ohne den Gegenstoß ...e5 zuzulassen."
+    "strategy": "Beansprucht sofort das Zentrum, aber Weiß nimmt es: Nach 3.cxd5 Sxd5 gewinnt Weiß Tempo gegen den Springer und baut ein breites Zentrum auf. Schwarz kann stattdessen einen Bauern für Aktivität anbieten. Solide, aber der schwerere Weg, 2.c4 zu begegnen."
   },
   "1.d4 Nf6 2.c4 b5": {
     "name": "Indische Verteidigung: Pyrenäen-Gambit",
@@ -92,7 +92,7 @@
   },
   "1.d4 Nf6 2.c4 d5 3.cxd5 c6": {
     "name": "Abgelehntes Damengambit: Marshall-Verteidigung, Tan-Gambit",
-    "strategy": "Ein Gambit: Schwarz opfert einen Bauern für schnelle Entwicklung und offene Linien; nach dem Tausch auf c6 strebt er einen zentralen Durchbruch und einen frühen Damentausch an. Weiß behält den Mehrbauern und einen kleinen Vorteil im damenlosen Mittelspiel, daher muss Schwarz auf Aktivität spielen."
+    "strategy": "Gambit eines Bauern für Entwicklung und die offene d-Linie: Nach dxc6 Sxc6 steht der Bauer d4 unter Angriff und ...e5 folgt, sodass Schwarz das Material mit aktiven Figuren zurückgewinnt. Ein früher Damentausch ist möglich, und Schwarz spielt auf Aktivität statt auf Raum."
   },
   "1.d4 Nf6 2.c4 d5 3.cxd5 Nxd5": {
     "strategy": "Die natürliche Wiedernahme: Der Springer holt den Bauern von einem entwickelten Feld zurück, sodass Schwarz keinen Bauern weniger hat. Auf d5 kann er mit Tempo angegriffen werden, und Weiß erhält Raum und die Initiative, sodass Schwarz Gegenspiel gegen ein größeres Zentrum suchen muss."
@@ -101,7 +101,7 @@
     "strategy": "Bringt die Dame früh heraus, und Sc3 greift sie sofort an, sodass Weiß sich mit Tempo entwickelt, während die Dame ein Feld sucht. Der spätere Raub des Bauern auf b2 läuft in Tb1 und Sb5 und verliert."
   },
   "1.d4 Nf6 2.c4 d5 3.cxd5 g6": {
-    "strategy": "Hofft, dass Weiß sich natürlich entwickelt, damit der Bauer später zurückgeholt werden kann, doch Weiß kann einfach Schach auf a4 geben: Der Bauer auf d5 ist dann schwer zurückzugewinnen, und Schwarz hat wenig vorzuweisen."
+    "strategy": "Gambit des Bauern mit einem langsameren Plan: Der fianchettierte Läufer und ein späteres ...c6 sollen ihn zurückgewinnen. Weiß entwickelt sich währenddessen frei, der Zug ist also solide, aber einen Schritt hinter dem sofortigen ...c6 zurück."
   },
   "1.d4 Nf6 2.c4 d6 3.Nc3": {
     "strategy": "Der Hauptzug: Er entwickelt eine Figur zum Zentrum und bereitet e4 vor. Weiß will ein klassisches Bauernzentrum, und Schwarz muss es mit Figuren und gut getimten Bauernvorstößen bestreiten, denn Abwarten würde Weiß viel mehr Raum lassen."
@@ -227,7 +227,7 @@
   },
   "1.d4 Nf6 2.c4 d6 3.Nf3 Bg4": {
     "name": "Altindische Verteidigung: Tartakower-Indisch",
-    "strategy": "Entwickelt den Läufer außerhalb der Bauernkette und greift den Springer auf f3 an, der d4 und e5 deckt. Schwarz kann ihn abtauschen, und ein Bauernschlag würde die Bauern des Weißen verdoppeln, sodass Schwarz mit einer kleinen Drohung entwickelt und das Zentrum umkämpft hält."
+    "strategy": "Entwickelt den Läufer außerhalb der Bauernkette und greift den Springer auf f3 an, lässt aber b7 ungedeckt: Db3 greift es sofort an, und Schwarz muss einen Zug für die Verteidigung aufwenden. Solide, doch es verschenkt das Tempo, das der Läufer gewonnen hat."
   },
   "1.d4 Nf6 2.c4 d6 3.Nf3 c6": {
     "name": "Altindische Verteidigung: Tschechische Variante mit Sf3",
@@ -256,7 +256,7 @@
   "1.d4 Nf6 2.c4 e5 3.dxe5 Ne4": {
     "name": "Indische Verteidigung: Angenommenes Budapester Gambit, Fajarowicz-Verteidigung",
     "background": "Soll seinen Ursprung in den Leipziger Schachkreisen haben; die erste bedeutende Partie war H. Steiner gegen Fajarowicz beim Turnier in Wiesbaden 1928.",
-    "strategy": "Lässt den Bauern in Ruhe und stellt den Springer auf ein zentrales Feld, von dem aus er f2 und c3 im Visier hat. Schwarz spielt auf Figurenaktivität und taktische Tricks statt auf Material. Entschärft Weiß die Tricks, hat Schwarz schlicht einen Bauern ohne bleibende Kompensation geopfert."
+    "strategy": "Lässt den Mehrbauern in Ruhe und stellt den Springer auf ein zentrales Feld, von dem aus er f2 und c3 im Blick hat; Schwarz spielt auf Figurenaktivität und taktische Tricks statt auf Material. Weiß kann sie mit genauem Spiel entschärfen, und dann steht Schwarz einfach einen Bauern schlechter."
   },
   "1.d4 Nf6 2.c4 e5 3.dxe5 Nc6": {
     "strategy": "Ignoriert den Angriff auf den Springer, um e5 anzugreifen: Weiß schlägt den Springer einfach mit dem Bauern, und das Zurückschlagen auf f6 gewinnt nur einen Bauern zurück. Schwarz ist eine ganze Figur im Nachteil und hat nichts dafür vorzuweisen."
@@ -270,10 +270,10 @@
   },
   "1.d4 Nf6 2.c4 e5 3.dxe5 Ne4 4.Qc2": {
     "name": "Indische Verteidigung: Angenommenes Budapester Gambit, Fajarowicz-Verteidigung, Steiner-Variante",
-    "strategy": "Greift den Springer sofort an, sodass ein Rückzug den Entwicklungsvorsprung von Schwarz aufgäbe, seine einzige Kompensation für den Bauern. Schwarz muss den Springer durch Entwicklung mit Schach und eine Bauernstütze an Ort und Stelle halten, was keineswegs einfach ist, aber echtes Gegenspiel bietet."
+    "strategy": "Greift den Springer sofort an, doch ...Lb4+ antwortet mit Tempo, und ...d5 hält den Springer an seinem Platz. Schwarz erhält die schnelle Entwicklung, die der Bauer erkaufen sollte, und der Vorteil von Weiß ist größtenteils dahin."
   },
   "1.d4 Nf6 2.c4 e5 3.dxe5 Ne4 4.Nf3": {
-    "strategy": "Entwickelt eine Figur, verteidigt den Mehrbauern und deckt das Feld d2, sodass dem Schach auf b4 mit einem Springerzug begegnet werden kann, der die weiße Bauernstruktur intakt lässt. Eine ruhige Art, das Material zu halten, und Schwarz muss beweisen, dass der Bauer es wert war."
+    "strategy": "Schützt den Mehrbauern und deckt d2, unternimmt aber nichts gegen den Springer auf e4. Schwarz gibt Schach auf b4, baut mit ...d5 auf und holt den Entwicklungsrückstand auf, sodass der Vorteil von Weiß größtenteils dahin ist."
   },
   "1.d4 Nf6 2.c4 e5 3.dxe5 Ng4 4.Bf4": {
     "name": "Indische Verteidigung: Angenommenes Budapester Gambit, Hauptvariante, Rubinstein-Variante",
@@ -321,7 +321,7 @@
   },
   "1.d4 Nf6 2.c4 Nc6 3.d5 Ne5 4.f4": {
     "name": "Mexikanische Verteidigung: Pferdebremsen-Gambit",
-    "strategy": "Ein Gambit: Der f-Bauer greift den Springer an, lässt aber c4 ungedeckt, sodass Schwarz ihn einfach mit dem Springer nimmt. Weiß hofft auf Aktivität und die Initiative als Gegenwert, lockert aber den Königsflügel und steht ohne klare Kompensation einen Bauern im Nachteil."
+    "strategy": "Ein Gambit: Der f-Bauer greift den Springer an, der den ungedeckten Bauern c4 nehmen kann. Weiß antwortet mit e4 und erhält für den Bauern ein breites Zentrum, was das Gleichgewicht hält, doch der Königsflügel ist geschwächt, und der Bauer lohnt sich nur, solange das Zentrum hält."
   },
   "1.d4 Nf6 2.c4 Nc6 3.d5 Ne5 4.e4": {
     "strategy": "Beantwortet den Angriff auf c4, indem er die Diagonale des Läufers öffnet, sodass ...Sxc4 eine Figur verliert, und baut zugleich ein breites Bauernzentrum auf. Auch das Schlagen auf e4 scheitert: Die Dame gabelt die beiden Springer. Schwarz muss das Zentrum untergraben, und die Partie ist scharf und ausgeglichen."

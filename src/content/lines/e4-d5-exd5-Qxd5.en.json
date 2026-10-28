@@ -32,7 +32,7 @@
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.b4": {
     "name": "Scandinavian Defence: Main Line, Leonhardt Gambit",
     "background": "The 1946 edition of Modern Chess Openings attributed the move to Jan Kotrč, though there is no record of him playing it; later editions called it the Kotrč–Mieses Gambit. It is also called the Leonhardt Gambit, after Paul Saladin Leonhardt, who brought it into master play in a game against Jacques Mieses. Lasker, Capablanca and Keres all tried it as White.",
-    "strategy": "A pawn sacrifice to drive the queen off a5: if Black takes, White gets the half-open b-file and quick development, for example Rb1 hitting the queen at once. Played correctly, Black keeps the extra pawn without danger, so the gambit only works against an unprepared opponent."
+    "strategy": "A gambit to drive the queen off a5: after ...Qxb4 the rook hits it at once from b1, and White has an open b-file and a lead in development as compensation. That is close to enough, but White is a pawn down and must keep the initiative going."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.Nf3": {
     "strategy": "Develops a piece and guards d4 ahead of the central advance, so White can choose its moment. It commits to nothing yet and keeps a lead in development, while the queen on a5 still has to find a real job."
@@ -49,29 +49,32 @@
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5": {
     "name": "Scandinavian Defence: Anderssen Counterattack",
-    "strategy": "A counter-blow in the centre that offers a pawn, hoping the pinned c3 knight and a lead in development give enough play. It is double-edged and offbeat: White can take the pawn or keep the tension and develop, so Black needs accurate follow-up to justify the investment."
+    "strategy": "A counter-blow in the centre that the pin on the c3 knight cannot support. Nf3 attacks e5 a second time while d4 stays guarded, and whether Black trades on d4 or defends the pawn, White keeps the better centre and freer development."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 c6": {
     "strategy": "Takes b5 and d5 away from the c3 knight and frees c7 as a retreat for the queen, so the knight cannot jump to those squares with a discovered attack once the c1 bishop unpins it. Black builds a solid pawn structure for a compact, patient game."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Nf3": {
     "name": "Scandinavian Defence: Anderssen Counterattack, Goteborg System",
-    "strategy": "Develops and attacks e5 a second time without committing to a capture: the tension stays, the knight guards d4, and White decides when to resolve it. Black has to keep the e5 pawn defended while the queen still pins the c3 knight."
+    "strategy": "The accurate reply to the counter-blow: White develops, guards d4 and attacks e5 a second time, keeping the tension instead of grabbing the pawn. Black has to resolve the centre at once, and White keeps the better position whichever way it does."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5": {
-    "strategy": "Takes the offered pawn: White is a pawn up, but the e5 pawn is exposed and the c3 knight is pinned, so Black gets quick development as compensation. White's task is to consolidate the extra pawn without falling behind in development."
+    "strategy": "Grabs the pawn, but gives Black the answer ...Bb4: the c3 knight is pinned a second time, and once White unpins with Bd2, ...Qxe5+ wins the pawn back with check. White has given up the tension for nothing and the game is level."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Bd2": {
-    "strategy": "Unpins the c3 knight at once and sets a trap: the greedy ...exd4 runs into Nb5, a discovered attack on the queen that also threatens Nxc7+, so the queen has no safe square. Against sensible replies the centre stays unresolved and White has no advantage to show."
+    "strategy": "Unpins the c3 knight so that it can jump with a discovered attack on the queen, but the trap fails: after ...exd4 Nb5 Black has the safe reply ...Bb4. White gives up the tension for a tempo and the position is level."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Nc6": {
     "strategy": "Hits the e5 pawn at once while developing a piece, so White cannot simply enjoy the extra pawn. Black's lead in development is the compensation, and every move White spends defending the pawn must also deal with the pinned knight."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Qxe5+": {
-    "strategy": "Wins the pawn back at once with check, but the queen has now moved three times and stands exposed in the centre. White blocks the check and then develops with tempo against it, so material is level while White leads in development."
+    "strategy": "Wins the pawn back at once with check, so material is level and the pawn structure is healthy. The queen stands in the centre, where White gains some time against it, but the position is balanced and easy for Black to play."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Nd7": {
-    "strategy": "Adds a second attacker to e5, so a simple defence with a knight fails to ...Nxe5 and the pawn comes back. The knight blocks the c8 bishop, though, and White can defend with a pawn move and keep the extra pawn."
+    "strategy": "Adds a second attacker to e5, but the plan fails: Nf3 defends the pawn, and ...Nxe5 runs into Bb5+, which cuts the queen's guard of e5 with check. The knight also blocks the c8 bishop, and Black has nothing for the lost pawn."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Bb4": {
+    "strategy": "Pins the c3 knight a second time, now with the bishop, so White cannot consolidate the extra pawn in peace: if White unpins with Bd2, ...Qxe5+ wins the pawn back with check. Black develops with tempo and stands level."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Nc6 6.Nf3": {
     "strategy": "Defends the e5 pawn and develops, the most natural way to keep the extra material. The c3 knight stays pinned for now, so White has to complete development carefully while Black's pieces aim at it."
@@ -89,17 +92,20 @@
     "strategy": "Pins the f3 knight to the queen, so the e5 pawn loses a defender and ...Nxe5 becomes a threat. Black develops with tempo and plays to win the pawn back, at the price of the bishop pair if the bishop has to take on f3."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.dxe5 Nc6 6.Nf3 Nxe5": {
-    "strategy": "Gives the pawn back at once: after the knights are traded, ...Qxe5+ comes with check and material is level. Black's queen then stands in the open centre, where White can harass it while finishing development, so the pawn is regained at the cost of time."
+    "strategy": "Takes the pawn back, but loses to Bb5+: the check blocks the queen's guard of the knight on e5, Black cannot cover both, and White wins material."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Nf3 Bg4": {
     "name": "Scandinavian Defence: Anderssen Counterattack, Collijn Variation",
     "strategy": "Develops with a pin: the bishop ties the f3 knight to the queen and threatens to exchange it, removing the piece that guards d4 and eyes e5. Black gains time for development against White's centre."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Nf3 Nc6": {
-    "strategy": "Defends e5 with a developing move and adds pressure on d4, so Black keeps the tension instead of resolving it. The knight blocks the c-pawn, a small cost, but Black gets a sound centre and the queen keeps the c3 knight pinned."
+    "strategy": "Defends e5 with a developing move, but 6.d5 hits the knight, which has to leave its post, and White wins the e5 pawn. Black gains nothing for it."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Nf3 exd4": {
-    "strategy": "Resolves the tension at once and attacks the pinned c3 knight, but White simply recaptures with the knight, which lands on a strong central square. The centre is left open, Black has fewer pieces out, and the pawn trade gains nothing."
+    "strategy": "Settles the centre at once by trading the e-pawn for White's d-pawn, and the pawn on d4 attacks the pinned c3 knight, so White must recapture immediately. Black gets an open position and easy development; White keeps the better development and space."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 e5 5.Nf3 Bb4": {
+    "strategy": "Pins the c3 knight a second time, with the bishop backed by the queen, so White cannot easily hold the centre: ...exd4 will then hit a knight that is tied down. White keeps the freer game, but this is Black's most accurate reply."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3": {
     "strategy": "Develops with the natural plan: the knight guards d4, controls e5 and prepares castling. White keeps the extra space and can finish development at leisure, while Black still has to show that the queen's early outing was worthwhile."
@@ -115,7 +121,7 @@
     "strategy": "Develops the bishop outside the pawn chain before a pawn on e6 can shut it in, and it eyes c2 and the kingside. Black stays solid and flexible, but must still find the queen a safe square once White develops with tempo."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bg4": {
-    "strategy": "Develops the bishop with a pin of the f3 knight against the queen, preparing to trade it off. White can put the question to the bishop at once, and Black must decide whether to exchange or to retreat."
+    "strategy": "Pins the f3 knight and prepares to trade it, but 6.h3 asks the bishop at once. If it trades on f3, the queen recaptures and White has the two bishops; a retreat costs time. Black has given something away for little."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 c6": {
     "strategy": "Gives the queen c7 as a retreat and takes b5 and d5 from the c3 knight, so a discovered attack by that knight gains no time once the bishop unpins it. Black builds a solid pawn structure and develops the remaining pieces calmly."
@@ -133,20 +139,20 @@
     "strategy": "Frees c7 as a retreat for the queen and takes b5 and d5 away from the c3 knight, so it cannot jump out with tempo against the queen. Black gets a solid centre and the queen is no longer a target."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bf5 6.Ne5 Nbd7": {
-    "strategy": "Challenges the advanced knight and develops in one move. If White trades, Black recaptures with the other knight and has solved the cramped development; the cost is that the queen still needs a safe square, so White keeps a slight initiative."
+    "strategy": "Challenges the advanced knight and develops, but White does not have to trade: Nc4 attacks the queen with tempo, and Black's pieces stay badly placed while White keeps a lasting initiative."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bf5 6.Ne5 Nc6": {
-    "strategy": "Challenges the knight with a developing move, but if White takes, ...bxc6 leaves Black with doubled pawns on the c-file and a weakened queenside. The half-open b-file is small compensation for a lasting structural cost."
+    "strategy": "Challenges the knight, but 7.Nc4 attacks the queen with tempo, and the natural ...Qa6 even loses it to Nd6+, which checks and uncovers the f1 bishop on a6. Whatever Black does, White gets a clear initiative."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bg4 6.h3": {
     "name": "Scandinavian Defence: Lasker Variation",
     "strategy": "Asks the bishop to decide at once. If Black trades on f3, White recaptures and has the bishop pair; if the bishop retreats, White has gained space on the kingside and can keep chasing it."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bg4 6.Be2": {
-    "strategy": "Blocks the pin with the bishop, which also prepares castling. If Black trades on f3, White recaptures with the bishop and has the two bishops in an open position, while the c3 knight stays pinned until the king is safe."
+    "strategy": "Blocks the pin with the bishop and prepares castling, but puts no question to the g4 bishop. Black can trade on f3 or keep the pin at its leisure, and White's lead in development fades into an equal game."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qa5 4.d4 Nf6 5.Nf3 Bg4 6.Bd2": {
-    "strategy": "Breaks the pin on the c3 knight, which can now move with a discovered attack on the queen, but leaves the g4 bishop unchallenged. Black can trade on f3 whenever it likes; the queen recaptures, so the move is safe but gives White no initiative."
+    "strategy": "Unpins the c3 knight so that it can jump with a discovered attack on the queen, but leaves the g4 bishop unchallenged. Black trades on f3 whenever it likes, the queen recaptures, and White has spent a tempo with nothing to show for it."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4": {
     "strategy": "Takes the centre at once, with the queen's exposed post in mind: the pawn opens the c1 bishop, so Bf4 now hits the queen, and Nb5 already does. Black has to answer both ideas, while White gets a centre and active development."
@@ -165,7 +171,7 @@
     "strategy": "Takes b5 away from the c3 knight and shores up d5, which ends the Nb5 harassment of the queen. Black plays for a solid pawn structure and slower development, while the queen still has to watch for a bishop on f4."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 a6": {
-    "strategy": "Stops Nb5 with an edge pawn, so the queen is spared that tempo and the c-pawn stays free for the fight over the centre. The price is a pawn move instead of development, and the queen still has to respect a bishop on f4."
+    "strategy": "Stops Nb5 with an edge pawn, so the queen is spared that tempo and the position stays sound. But it is a pawn move rather than development, and the queen on d6 is still exposed to a bishop on f4, so White keeps a small lead."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Nf3": {
     "strategy": "The standard developing move: the knight guards d4 and controls e5, and White keeps all the harassing ideas against the queen in hand. White has the space and a comfortable game, and Black must keep justifying the exposed queen."
@@ -183,7 +189,7 @@
     "strategy": "Keeps the knight off b5 with an edge pawn and leaves the c-pawn free to challenge the centre later. The price is a tempo spent away from development, against a White bishop already aimed at f7."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Bc4 Qd8": {
-    "strategy": "Retreats the queen to its starting square, out of reach of Nb5 and Bf4. Black is safe and solid, but has spent a third queen move on the way, so White leads in development and space."
+    "strategy": "Retreats the queen to its starting square, out of reach of Nb5 and Bf4, but it is already the queen's third move. White enjoys a lead in development and space, with the bishop aimed at f7, and Black has nothing in return for the lost time."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Bc4 c6 6.Nge2": {
     "strategy": "Develops the knight to e2 rather than f3, where it supports d4 and the c3 knight and leaves the f-pawn free. From e2 it can swing to g3 to challenge a bishop on f5."
@@ -205,13 +211,13 @@
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Nf3 a6": {
     "name": "Scandinavian Defence: Bronstein Variation",
-    "strategy": "Takes b5 away from White's knight with an edge pawn, so the c-pawn stays free for the fight over the centre. The price is a tempo spent on a pawn move rather than development, and the queen still has to respect a bishop on f4."
+    "strategy": "Stops Nb5 with an edge pawn, but it costs a tempo, and White answers with g3, preparing Bf4 and a fianchetto. The queen on d6 is still a target, White keeps the space, and Black has spent time on a pawn move."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Nf3 c6": {
     "strategy": "Stops Nb5 by controlling the square and gives the queen c7 as a retreat, building a solid, compact centre. The queen on d6 is still a target for a bishop on f4, so Black must be ready to move it again."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd6 4.d4 Nf6 5.Nf3 Qd8": {
-    "strategy": "Gives up the queen's exposed post and returns it to its starting square, out of reach of Nb5 and Bf4. Black is safe, but this is the queen's third move, and White enjoys a lead in development and space."
+    "strategy": "Returns the queen to its starting square, out of reach of Nb5 and Bf4. Black is safe, but this is the queen's third move, and White enjoys a lead in development and space with nothing to pay for it."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4": {
     "strategy": "Claims the centre while Black has undone the queen's development: the pawn opens the c1 bishop and takes space. Black's compact structure remains, but White has the larger space and the easier development."
@@ -226,7 +232,7 @@
     "strategy": "Develops a piece and contests the centre from a distance, aiming at e4 and d5, with the queen safely tucked behind it. Black gives White the space but keeps the position free of weaknesses and aims for a sound, compact set-up."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 Bf5": {
-    "strategy": "Brings the queen's bishop out outside the pawn chain before ...e6 can shut it in, and eyes c2 and the kingside. Black keeps the bishop active, though White's lead in space and development remains, so Black has to play carefully."
+    "strategy": "Brings the queen's bishop outside the pawn chain before ...e6 can shut it in, and eyes c2 and the kingside. It is sound, but the bishop can be challenged on f5 and White keeps its lead in space and development, so Black stays somewhat cramped."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 c6": {
     "strategy": "Covers d5 and b5, so no knight jump or bishop check disturbs Black, and leaves the c8 bishop free to develop outside the pawns. The structure is solid but passive: White keeps the space and the initiative."
@@ -246,9 +252,12 @@
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 Nf6 5.Nf3 c6": {
     "name": "Scandinavian Defence: Valencian Variation, Ilundain Variation",
-    "strategy": "Builds the solid pawn structure first, holding d5 and b5, and keeps the choice of bishop development open. Black avoids committing the bishop early and plays a patient, solid game."
+    "strategy": "Builds a solid pawn structure and holds d5 and b5, but it is slow: the c8 bishop is still at home, and White uses the time to take more space and keep the initiative. Black is safe but passive."
   },
   "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 Nf6 5.Nf3 Bf5": {
-    "strategy": "Develops the bishop outside the pawn chain and keeps it, where ...Bg4 would trade it for the knight. It eyes c2 and the kingside; White can harass it with Nh4, but Black reaches a solid position with both bishops."
+    "strategy": "Develops the bishop outside the pawn chain, but it is exposed there: Nh4 attacks it at once, and White gains time while keeping the space. Black has to spend moves on the bishop for little in return."
+  },
+  "1.e4 d5 2.exd5 Qxd5 3.Nc3 Qd8 4.d4 Nf6 5.Nf3 e6": {
+    "strategy": "Holds d5 and opens the way for the f8 bishop and castling, building a compact, solid centre. The cost is the c8 bishop, which stays shut in behind the pawn for now, but Black is solid and White's extra space gives little."
   }
 }

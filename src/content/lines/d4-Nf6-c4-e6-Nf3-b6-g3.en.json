@@ -46,7 +46,7 @@
     "strategy": "Blocks the check with the bishop, the safe way. Blocking with the knight loses material to ...Bc3. The bishop can later go to c3 to challenge the long diagonal, though it then blocks the c-file for White's own rook."
   },
   "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Ba6 5.b3 Bb4+ 6.Nbd2": {
-    "strategy": "Blocks the check with the queen's knight and falls into a trap: the bishop jumps to c3, attacking the rook on a1 and pinning the knight on d2, and Black wins material."
+    "strategy": "Blocks the check with the queen's knight, which allows the known trap ...Bc3: the bishop hits the rook and pins the knight to the king. White escapes with Rb1 and the position is level, but Black keeps the initiative, so White has to be accurate."
   },
   "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Ba6 5.b3 Bb4+ 6.Nc3": {
     "strategy": "Interposes the knight on c3, where it is pinned and simply taken with check. After any block the black bishop continues to a1 and wins the rook as well."
@@ -156,6 +156,6 @@
     "strategy": "Takes the pawn with the knight, but after cxd5 Black has only two pawns for a knight, however Black recaptures. White simply keeps the extra piece."
   },
   "1.d4 Nf6 2.c4 e6 3.Nf3 b6 4.g3 Bb7 5.Bg2 c5 6.d5 Be7": {
-    "strategy": "Develops the bishop and prepares to castle without taking the pawn. If White takes on e6, Black recaptures and keeps a sound position, but until then the pawn on d5 shuts the b7-bishop's diagonal, so Black trades activity for safety."
+    "strategy": "Develops without taking the pawn, but d6 attacks the bishop at once. Taking on d6 loses it to the queen, since the d7 pawn blocks Black's own queen from recapturing, so the bishop must go back to f8 and the pawn on d6 cramps Black."
   }
 }
